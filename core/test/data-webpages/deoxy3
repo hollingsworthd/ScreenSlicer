@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+    <meta content="noindex,nofollow" name="robots"/>
+    <title>
+      family - deoxy.org/find
+    </title>
+    <link type="text/css" href="/inc/css/deoxy.org.css" rel="stylesheet"/>
+    <link type="text/css" href="/news/css_black.css" rel="StyleSheet"/>
+    <link title="deoxy find" href="/opensearch/find.xml" type="application/opensearchdescription+xml" rel="search"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+  var qparam = new Array();
+  var query  = window.location.search.substring(1);
+  var parms  = query.split('&amp;');
+  qparam['more'] = 0;
+
+  for (var i=0; i&lt;parms.length; i++) {
+    var pos = parms[i].indexOf('=');
+    if (pos &gt; 0) {
+      var key = parms[i].substring(0,pos);
+      var val = parms[i].substring(pos+1);
+      qparam[key] = val;
+    }
+  }
+
+  function openVid(u) {
+   var w = 640
+   var h = 565
+   var n = 'vidwin'
+   var p = 'screenX=50,screenY=50,left=50,top=50,width='+w+',height='+h+',' +
+           'resizable=1,status=0,menubar=0,toolbar=0,location=0,scrollbars=0'
+   window.open(u,n,p);
+  }
+  
+//]]>
+    </script>
+    <style type="text/css">
+      
+  body { font-family: sans-serif; margin:0px; }
+  strong { color:#aaffaa; }
+  .excerptTEXT { font-size:0.8em; }
+  .excerptURL  { font-size:1.0em; }
+  
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+//<![CDATA[
+&lt;!--
+  if (self != top)
+    document.write('&lt;div style="position:absolute; top:0; left:0; width:100%; height:100%; padding:0px; margin:0px; overflow:auto; z-index:0;"&gt;')
+  //--&gt;
+//]]>
+    </script>
+    <noscript>
+      &lt;div style="position:absolute; top:0; left:0; width:100%; height:100%; padding:0px; margin:0px; overflow:auto; z-index:0;"&gt;
+    </noscript>
+    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tbody>
+        <tr valign="top" bgcolor="#222222">
+          <td colspan="2">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr valign="top">
+                  <form action="http://deoxy.org/find" id="Search"/>
+                  <td nowrap="nowrap">
+                    <b>
+                       
+                      <a href="http://deoxy.org/" target="_top">
+                        
+  δξφχψ
+                      </a>
+                      <small>
+                        <sup>
+                          <a href="/find" target="_top">
+                            FIND
+                          </a>
+                        </sup>
+                      </small>
+                    </b>
+                      
+  
+                    <input type="text" class="input" value="family" id="q" name="q"/>
+                    <input type="submit" class="button" value="Find"/>
+                     
+  
+                    <input type="checkbox" value="1" id="or" name="or" class="input"/>
+                    <small>
+                      <label for="or">
+                        OR
+                      </label>
+                    </small>
+                  </td>
+                  <td valign="top" nowrap="nowrap" align="right">
+                    <table cellspacing="0" cellpadding="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td valign="top">
+                            <small>
+                              <a onclick="alert('Hold down the Ctrl or Cmd key to select multiple types')" href="javascript:void(0)" title="Hold down the Ctrl or Cmd key to select multiple types" target="_top">
+                                Type 
+                              </a>
+                              <br/>
+                              <small>
+                                <label title="exclude selected types" for="n">
+                                  NOT
+                                </label>
+                                <input type="checkbox" value="1" title="exclude selected types" id="n" name="n" class="input"/>
+                                <br/>
+                              </small>
+                            </small>
+                          </td>
+                          <td>
+                            <input type="hidden" value="0" name="offset"/>
+                            <select title="Hold down the Ctrl or Cmd key to select multiple types" class="select" name="type" multiple="multiple">
+                              <option selected="selected" value="">
+                                All
+                              </option>
+                              <option value="iching">
+                                iching (64)
+                              </option>
+                              <option value="koan">
+                                koan (101)
+                              </option>
+                              <option value="media">
+                                media (223)
+                              </option>
+                              <option value="meme">
+                                meme (82)
+                              </option>
+                              <option value="site">
+                                site (462)
+                              </option>
+                              <option value="video">
+                                video (24262)
+                              </option>
+                              <option value="wiki">
+                                wiki (467)
+                              </option>
+                            </select>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr bgcolor="#111111">
+          <td style="padding-left:20px;">
+            <small>
+              <b>
+                11-20
+              </b>
+              
+    of 
+              <b>
+                159
+              </b>
+               results for 
+              <strong>
+                <i>
+                  family
+                </i>
+              </strong>
+               in All
+  
+            </small>
+          </td>
+          <td align="right" style="padding-right:20px;">
+            <small>
+              <small>
+                <b>
+                  <a href="/find?q=family&amp;offset=0" target="_top">
+                    &lt; Prev
+                  </a>
+                </b>
+              </small>
+                
+              <a href="/find?q=family&amp;offset=0" target="_top">
+                1
+              </a>
+               [2]  
+              <a href="/find?q=family&amp;offset=20" target="_top">
+                3
+              </a>
+              <a href="/find?q=family&amp;offset=30" target="_top">
+                4
+              </a>
+              <a href="/find?q=family&amp;offset=40" target="_top">
+                5
+              </a>
+              <a href="/find?q=family&amp;offset=50" target="_top">
+                6
+              </a>
+              <a href="/find?q=family&amp;offset=60" target="_top">
+                7
+              </a>
+              <a href="/find?q=family&amp;offset=70" target="_top">
+                8
+              </a>
+              <a href="/find?q=family&amp;offset=80" target="_top">
+                9
+              </a>
+              <a href="/find?q=family&amp;offset=90" target="_top">
+                10
+              </a>
+              <a href="/find?q=family&amp;offset=100" target="_top">
+                11
+              </a>
+              <a href="/find?q=family&amp;offset=110" target="_top">
+                12
+              </a>
+                
+              <small>
+                <b>
+                  <a href="/find?q=family&amp;offset=20" target="_top">
+                    Next &gt;
+                  </a>
+                </b>
+              </small>
+            </small>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <table style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="padding-left:20px;">
+              <table style="width:80%;">
+                <tbody>
+                  <tr>
+                    <td id="ss">
+                      <p>
+                        <small>
+                          <b>
+                            <a title="open video window" onclick="openVid('http://deoxy.org/video/SEcCxS2B8PY'); return false;" href="#" target="_top">
+                              <img width="30" height="26" style="border: thin solid rgb(50,50,50);" src="/vi/SEcCxS2B8PY.jpg"/>
+                            </a>
+                             
+                            <a href="http://deoxy.org/watch?v=SEcCxS2B8PY&amp;q=family" target="_top">
+                              Military Industrial Pirates: Escaped Nazis and the Bush Crime Family
+                            </a>
+                          </b>
+                        </small>
+                        <!-- SEcCxS2B8PY -->                        <br/>
+                        <span style="font-weight:bold; font-family:monospace; color:#FFFFFF; overflow:hidden;">
+                          <a href="/watch" target="_top">
+                            video
+                          </a>
+                          : 
+                        </span>
+                        <span class="excerptTEXT">
+                          Military Industrial Pirates: Escaped Nazis and the Bush Crime 
+                          <strong>
+                            Family
+                          </strong>
+                           ...
+                        </span>
+                        <br/>
+                        <span style="font-family:monospace; font-size:0.9em; color:#666666; width:100%; overflow:hidden;">
+                          
+      video/SEcCxS2B8PY
+                        </span>
+                        <br/>
+                      </p>
+                      <p>
+                        <small>
+                          <b>
+                            <a title="open video window" onclick="openVid('http://deoxy.org/video/ysBwv7rzW9M'); return false;" href="#" target="_top">
+                              <img width="30" height="26" style="border: thin solid rgb(50,50,50);" src="/vi/ysBwv7rzW9M.jpg"/>
+                            </a>
+                             
+                            <a href="http://deoxy.org/watch?v=ysBwv7rzW9M&amp;q=family" target="_top">
+                              The Invisible Children and Families of Fetal Alcohol Spectrum Disorder Part 1/6 Finding Out
+                            </a>
+                          </b>
+                        </small>
+                        <!-- ysBwv7rzW9M -->                        <br/>
+                        <span style="font-weight:bold; font-family:monospace; color:#FFFFFF; overflow:hidden;">
+                          <a href="/watch" target="_top">
+                            video
+                          </a>
+                          : 
+                        </span>
+                        <span class="excerptTEXT">
+                          The Invisible Children and 
+                          <strong>
+                            Families
+                          </strong>
+                           of Fetal Alcohol Spectrum Disorder Part 1/6 Finding Out ...
+                        </span>
+                        <br/>
+                        <span style="font-family:monospace; font-size:0.9em; color:#666666; width:100%; overflow:hidden;">
+                          
+      video/ysBwv7rzW9M
+                        </span>
+                        <br/>
+                      </p>
+                      <p>
+                        <small>
+                          <b>
+                            <a title="open video window" onclick="openVid('http://deoxy.org/video/uc027AeFVJs'); return false;" href="#" target="_top">
+                              <img width="30" height="26" style="border: thin solid rgb(50,50,50);" src="/vi/uc027AeFVJs.jpg"/>
+                            </a>
+                             
+                            <a href="http://deoxy.org/watch?v=uc027AeFVJs&amp;q=family" target="_top">
+                              The Invisible Children and Families of Fetal Alcohol Spectrum Disorder Part 2/6 Symptoms
+                            </a>
+                          </b>
+                        </small>
+                        <!-- uc027AeFVJs -->                        <br/>
+                        <span style="font-weight:bold; font-family:monospace; color:#FFFFFF; overflow:hidden;">
+                          <a href="/watch" target="_top">
+                            video
+                          </a>
+                          : 
+                        </span>
+                        <span class="excerptTEXT">
+                          The Invisible Children and 
+                          <strong>
+                            Families
+                          </strong>
+                           of Fetal Alcohol Spectrum Disorder Part 2/6 Symptoms ...
+                        </span>
+                        <br/>
+                        <span style="font-family:monospace; font-size:0.9em; color:#666666; width:100%; overflow:hidden;">
+                          
+      video/uc027AeFVJs
+                        </span>
+                        <br/>
+                      </p>
+                      <p>
+                        <small>
+                          <b>
+                            <a title="open video window" onclick="openVid('http://deoxy.org/video/7bc1Bqcbjy8'); return false;" href="#" target="_top">
+                              <img width="30" height="26" style="border: thin solid rgb(50,50,50);" src="/vi/7bc1Bqcbjy8.jpg"/>
+                            </a>
+                             
+                            <a href="http://deoxy.org/watch?v=7bc1Bqcbjy8&amp;q=family" target="_top">
+                              The Invisible Children and Families of Fetal Alcohol Spectrum Disorder Part 3/6 Invisible
+                            </a>
+                          </b>
+                        </small>
+                        <!-- 7bc1Bqcbjy8 -->                        <br/>
+                        <span style="font-weight:bold; font-family:monospace; color:#FFFFFF; overflow:hidden;">
+                          <a href="/watch" target="_top">
+                            video
+                          </a>
+                          : 
+                        </span>
+                        <span class="excerptTEXT">
+                          The Invisible Children and 
+                          <strong>
+                            Families
+                          </strong>
+                           of Fetal Alcohol Spectrum Disorder Part 3/6 Invisible ...
+                        </span>
+                        <br/>
+                        <span style="font-family:monospace; font-size:0.9em; color:#666666; width:100%; overflow:hidden;">
+                          
+      video/7bc1Bqcbjy8
+                        </span>
+                        <br/>
+                      </p>
+                      <p>
+                        <small>
+                          <b>
+                            <a title="open video window" onclick="openVid('http://deoxy.org/video/I5XPnhsC9QA'); return false;" href="#" target="_top">
+                              <img width="30" height="26" style="border: thin solid rgb(50,50,50);" src="/vi/I5XPnhsC9QA.jpg"/>
+                            </a>
+                             
+                            <a href="http://deoxy.org/watch?v=I5XPnhsC9QA&amp;q=family" target="_top">
+                              'Television': Repression, Family, &amp; Society
+                            </a>
+                          </b>
+                        </small>
+                        <!-- I5XPnhsC9QA -->                        <br/>
+                        <span style="font-weight:bold; font-family:monospace; color:#FFFFFF; overflow:hidden;">
+                          <a href="/watch" target="_top">
+                            video
+                          </a>
+                          : 
+                        </span>
+                        <span class="excerptTEXT">
+                          &amp;#39;Television&amp;#39;: Repression, 
+                          <strong>
+                            Family
+                          </strong>
+                          , &amp;amp; Society ...
+                        </span>
+                        <br/>
+                        <span style="font-family:monospace; font-size:0.9em; color:#666666; width:100%; overflow:hidden;">
+                          
+      video/I5XPnhsC9QA
+                        </span>
+                        <br/>
+                      </p>
+                      <p>
+                        <small>
+                          <b>
+                            <a title="open video window" onclick="openVid('http://deoxy.org/video/4n8jerjyo9U'); return false;" href="#" target="_top">
+                              <img width="30" height="26" style="border: thin solid rgb(50,50,50);" src="/vi/4n8jerjyo9U.jpg"/>
+                            </a>
+                             
+                            <a href="http://deoxy.org/watch?v=4n8jerjyo9U&amp;q=family" target="_top">
+                              Family of Malcolm X
+                            </a>
+                          </b>
+                        </small>
+                        <!-- 4n8jerjyo9U -->                        <br/>
+                        <span style="font-weight:bold; font-family:monospace; color:#FFFFFF; overflow:hidden;">
+                          <a href="/watch" target="_top">
+                            video
+                          </a>
+                          : 
+                        </span>
+                        <span class="excerptTEXT">
+                          <strong>
+                            Family
+                          </strong>
+                           of Malcolm X ...
+                        </span>
+                        <br/>
+                        <span style="font-family:monospace; font-size:0.9em; color:#666666; width:100%; overflow:hidden;">
+                          
+      video/4n8jerjyo9U
+                        </span>
+                        <br/>
+                      </p>
+                      <p>
+                        <small>
+                          <b>
+                            <a title="open video window" onclick="openVid('http://deoxy.org/video/8yXShuQs970'); return false;" href="#" target="_top">
+                              <img width="30" height="26" style="border: thin solid rgb(50,50,50);" src="/vi/8yXShuQs970.jpg"/>
+                            </a>
+                             
+                            <a href="http://deoxy.org/watch?v=8yXShuQs970&amp;q=family" target="_top">
+                              Orangutan Family Supper, Borneo Indonesia
+                            </a>
+                          </b>
+                        </small>
+                        <!-- 8yXShuQs970 -->                        <br/>
+                        <span style="font-weight:bold; font-family:monospace; color:#FFFFFF; overflow:hidden;">
+                          <a href="/watch" target="_top">
+                            video
+                          </a>
+                          : 
+                        </span>
+                        <span class="excerptTEXT">
+                          Orangutan 
+                          <strong>
+                            Family
+                          </strong>
+                           Supper, Borneo Indonesia ...
+                        </span>
+                        <br/>
+                        <span style="font-family:monospace; font-size:0.9em; color:#666666; width:100%; overflow:hidden;">
+                          
+      video/8yXShuQs970
+                        </span>
+                        <br/>
+                      </p>
+                      <p>
+                        <small>
+                          <b>
+                            <a title="open video window" onclick="openVid('http://deoxy.org/video/F0Oqeov0Gcw'); return false;" href="#" target="_top">
+                              <img width="30" height="26" style="border: thin solid rgb(50,50,50);" src="/vi/F0Oqeov0Gcw.jpg"/>
+                            </a>
+                             
+                            <a href="http://deoxy.org/watch?v=F0Oqeov0Gcw&amp;q=family" target="_top">
+                              Class and Family Structure in the United States
+                            </a>
+                          </b>
+                        </small>
+                        <!-- F0Oqeov0Gcw -->                        <br/>
+                        <span style="font-weight:bold; font-family:monospace; color:#FFFFFF; overflow:hidden;">
+                          <a href="/watch" target="_top">
+                            video
+                          </a>
+                          : 
+                        </span>
+                        <span class="excerptTEXT">
+                          Class and 
+                          <strong>
+                            Family
+                          </strong>
+                           Structure in the United States ...
+                        </span>
+                        <br/>
+                        <span style="font-family:monospace; font-size:0.9em; color:#666666; width:100%; overflow:hidden;">
+                          
+      video/F0Oqeov0Gcw
+                        </span>
+                        <br/>
+                      </p>
+                      <p>
+                        <small>
+                          <b>
+                            <a title="open video window" onclick="openVid('http://deoxy.org/video/tmHloU_xEJo'); return false;" href="#" target="_top">
+                              <img width="30" height="26" style="border: thin solid rgb(50,50,50);" src="/vi/tmHloU_xEJo.jpg"/>
+                            </a>
+                             
+                            <a href="http://deoxy.org/watch?v=tmHloU_xEJo&amp;q=family" target="_top">
+                              TEDTalks 2007 Spencer Wells: Building a family tree for all humanity
+                            </a>
+                          </b>
+                        </small>
+                        <!-- tmHloU_xEJo -->                        <br/>
+                        <span style="font-weight:bold; font-family:monospace; color:#FFFFFF; overflow:hidden;">
+                          <a href="/watch" target="_top">
+                            video
+                          </a>
+                          : 
+                        </span>
+                        <span class="excerptTEXT">
+                          TEDTalks 2007 Spencer Wells: Building a 
+                          <strong>
+                            family
+                          </strong>
+                           tree for all humanity ...
+                        </span>
+                        <br/>
+                        <span style="font-family:monospace; font-size:0.9em; color:#666666; width:100%; overflow:hidden;">
+                          
+      video/tmHloU_xEJo
+                        </span>
+                        <br/>
+                      </p>
+                      <p>
+                        <small>
+                          <b>
+                            <a title="open video window" onclick="openVid('http://deoxy.org/video/4147909712727312850'); return false;" href="#" target="_top">
+                              <img width="30" height="26" style="border: thin solid rgb(50,50,50);" src="/vi/4147909712727312850.jpg"/>
+                            </a>
+                             
+                            <a href="http://deoxy.org/watch?v=4147909712727312850&amp;q=family" target="_top">
+                              Bush Family Fortunes: The Best Democracy Money Can Buy - A Greg Palast Investigation
+                            </a>
+                          </b>
+                        </small>
+                        <!-- 4147909712727312850 -->                        <br/>
+                        <span style="font-weight:bold; font-family:monospace; color:#FFFFFF; overflow:hidden;">
+                          <a href="/watch" target="_top">
+                            video
+                          </a>
+                          : 
+                        </span>
+                        <span class="excerptTEXT">
+                          Bush 
+                          <strong>
+                            Family
+                          </strong>
+                           Fortunes: The Best Democracy Money Can Buy - A Greg Palast Investigation ...
+                        </span>
+                        <br/>
+                        <span style="font-family:monospace; font-size:0.9em; color:#666666; width:100%; overflow:hidden;">
+                          
+      video/4147909712727312850
+                        </span>
+                        <br/>
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br clear="all"/>
+    </p>
+    <div style="position:relative; left:0px; bottom:0px; margin-bottom:0px; z-index:1;">
+      <script type="text/javascript">
+//<![CDATA[
+&lt;!--
+  if (self != top)
+    document.write('&lt;div style="position:absolute; top:0; left:0; width:100%; height:100%; padding:0px; margin:0px; overflow:auto; z-index:0;"&gt;')
+  //--&gt;
+//]]>
+      </script>
+      <noscript>
+        &lt;div style="position:absolute; top:0; left:0; width:100%; height:100%; padding:0px; margin:0px; overflow:auto; z-index:0;"&gt;
+      </noscript>
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+          <tr valign="top" bgcolor="#222222">
+            <td colspan="2">
+              <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr valign="top">
+                    <form action="http://deoxy.org/find" id="Search"/>
+                    <td nowrap="nowrap">
+                      <b>
+                         
+                        <a href="http://deoxy.org/" target="_top">
+                          
+  δξφχψ
+                        </a>
+                        <small>
+                          <sup>
+                            <a href="/find" target="_top">
+                              FIND
+                            </a>
+                          </sup>
+                        </small>
+                      </b>
+                        
+  
+                      <input type="text" class="input" value="family" id="q" name="q"/>
+                      <input type="submit" class="button" value="Find"/>
+                       
+  
+                      <input type="checkbox" value="1" id="or" name="or" class="input"/>
+                      <small>
+                        <label for="or">
+                          OR
+                        </label>
+                      </small>
+                    </td>
+                    <td valign="top" nowrap="nowrap" align="right">
+                      <table cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                          <tr>
+                            <td valign="top">
+                              <small>
+                                <a onclick="alert('Hold down the Ctrl or Cmd key to select multiple types')" href="javascript:void(0)" title="Hold down the Ctrl or Cmd key to select multiple types" target="_top">
+                                  Type 
+                                </a>
+                                <br/>
+                                <small>
+                                  <label title="exclude selected types" for="n">
+                                    NOT
+                                  </label>
+                                  <input type="checkbox" value="1" title="exclude selected types" id="n" name="n" class="input"/>
+                                  <br/>
+                                </small>
+                              </small>
+                            </td>
+                            <td>
+                              <input type="hidden" value="0" name="offset"/>
+                              <select title="Hold down the Ctrl or Cmd key to select multiple types" class="select" name="type" multiple="multiple">
+                                <option selected="selected" value="">
+                                  All
+                                </option>
+                                <option value="iching">
+                                  iching (64)
+                                </option>
+                                <option value="koan">
+                                  koan (101)
+                                </option>
+                                <option value="media">
+                                  media (223)
+                                </option>
+                                <option value="meme">
+                                  meme (82)
+                                </option>
+                                <option value="site">
+                                  site (462)
+                                </option>
+                                <option value="video">
+                                  video (24262)
+                                </option>
+                                <option value="wiki">
+                                  wiki (467)
+                                </option>
+                              </select>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr bgcolor="#111111">
+            <td style="padding-left:20px;">
+              <small>
+                <b>
+                  11-20
+                </b>
+                
+    of 
+                <b>
+                  159
+                </b>
+                 results for 
+                <strong>
+                  <i>
+                    family
+                  </i>
+                </strong>
+                 in All
+  
+              </small>
+            </td>
+            <td align="right" style="padding-right:20px;">
+              <small>
+                <small>
+                  <b>
+                    <a href="/find?q=family&amp;offset=0" target="_top">
+                      &lt; Prev
+                    </a>
+                  </b>
+                </small>
+                  
+                <a href="/find?q=family&amp;offset=0" target="_top">
+                  1
+                </a>
+                 [2]  
+                <a href="/find?q=family&amp;offset=20" target="_top">
+                  3
+                </a>
+                <a href="/find?q=family&amp;offset=30" target="_top">
+                  4
+                </a>
+                <a href="/find?q=family&amp;offset=40" target="_top">
+                  5
+                </a>
+                <a href="/find?q=family&amp;offset=50" target="_top">
+                  6
+                </a>
+                <a href="/find?q=family&amp;offset=60" target="_top">
+                  7
+                </a>
+                <a href="/find?q=family&amp;offset=70" target="_top">
+                  8
+                </a>
+                <a href="/find?q=family&amp;offset=80" target="_top">
+                  9
+                </a>
+                <a href="/find?q=family&amp;offset=90" target="_top">
+                  10
+                </a>
+                <a href="/find?q=family&amp;offset=100" target="_top">
+                  11
+                </a>
+                <a href="/find?q=family&amp;offset=110" target="_top">
+                  12
+                </a>
+                  
+                <small>
+                  <b>
+                    <a href="/find?q=family&amp;offset=20" target="_top">
+                      Next &gt;
+                    </a>
+                  </b>
+                </small>
+              </small>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+&lt;!--
+  if (self != top)
+    document.write('&lt;/div&gt;&lt;span style=float:right;padding-right:20px;margin-bottom:8px;&gt;&lt;small&gt;&lt;small&gt;&lt;b&gt;&lt;a href="/find?q=family&amp;offset=0"&gt;&amp;lt; Prev&lt;/a&gt;&lt;/b&gt;&lt;/small&gt;&amp;nbsp; &lt;a href="/find?q=family&amp;offset=0"&gt;1&lt;/a&gt; [2]  &lt;a href="/find?q=family&amp;offset=20"&gt;3&lt;/a&gt; &lt;a href="/find?q=family&amp;offset=30"&gt;4&lt;/a&gt; &lt;a href="/find?q=family&amp;offset=40"&gt;5&lt;/a&gt; &lt;a href="/find?q=family&amp;offset=50"&gt;6&lt;/a&gt; &lt;a href="/find?q=family&amp;offset=60"&gt;7&lt;/a&gt; &lt;a href="/find?q=family&amp;offset=70"&gt;8&lt;/a&gt; &lt;a href="/find?q=family&amp;offset=80"&gt;9&lt;/a&gt; &lt;a href="/find?q=family&amp;offset=90"&gt;10&lt;/a&gt; &lt;a href="/find?q=family&amp;offset=100"&gt;11&lt;/a&gt; &lt;a href="/find?q=family&amp;offset=110"&gt;12&lt;/a&gt; &amp;nbsp;&lt;small&gt;&lt;b&gt;&lt;a href="/find?q=family&amp;offset=20"&gt;Next &amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/small&gt; &lt;/small&gt;&lt;/span&gt;')
+
+if (self == top) {
+ var links = document.getElementsByTagName('a');
+ for (var i = 0; i &lt; links.length; i++){
+   links[i].setAttribute('target','_top');
+ }
+}
+  //--&gt;
+//]]>
+    </script>
+    <noscript>
+      &lt;/div&gt;
+    </noscript>
+  </body>
+</html>

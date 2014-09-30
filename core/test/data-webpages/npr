@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html class=" lt-ie9 js no-flexbox no-canvas no-canvastext no-webgl no-touch no-geolocation postmessage no-websqldatabase no-indexeddb hashchange no-history no-draganddrop no-websockets rgba hsla multiplebgs no-backgroundsize no-borderimage no-borderradius no-boxshadow no-textshadow no-opacity no-cssanimations no-csscolumns cssgradients no-cssreflections no-csstransforms no-csstransforms3d no-csstransitions no-fontface no-generatedcontent no-video no-audio localstorage sessionstorage no-webworkers no-applicationcache no-svg no-inlinesvg no-smil no-svgclippaths js no-flexbox no-canvas no-canvastext no-webgl no-touch no-geolocation postmessage no-websqldatabase no-indexeddb hashchange no-history no-draganddrop no-websockets rgba hsla multiplebgs no-backgroundsize no-borderimage no-borderradius no-boxshadow no-textshadow no-opacity no-cssanimations no-csscolumns cssgradients no-cssreflections no-csstransforms no-csstransforms3d no-csstransitions no-fontface generatedcontent no-video no-audio localstorage sessionstorage no-webworkers no-applicationcache no-svg no-inlinesvg no-smil no-svgclippaths" lang="en" style="">
+  <!--<![endif]-->  <head>
+    <style>
+      article,aside,figcaption,figure,footer,header,hgroup,nav,section{display:block}mark{background:#FF0;color:#000}
+    </style>
+    <style>
+      article,aside,figcaption,figure,footer,header,hgroup,nav,section{display:block}mark{background:#FF0;color:#000}
+    </style>
+    <script type="text/javascript" src="http://www.google-analytics.com/plugins/ga/inpage_linkid.js" id="undefined">
+    </script>
+    <script type="text/javascript" src="http://stats.g.doubleclick.net/dc.js">
+    </script>
+    <script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script type="text/javascript" src="http://stats.g.doubleclick.net/dc.js">
+    </script>
+    <script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script>
+//<![CDATA[
+
+   try {var _sf_startpt=(new Date()).getTime();} catch(e){}
+
+//]]>
+    </script>
+    <title>
+      NPR Search : NPR
+    </title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="robots" content="noarchive,index,follow"/>
+    <meta name="Rating" content="General"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/>
+    <!--dontvalidate-->    <meta name="date" content="2014-01-03"/>
+    <!--/dontvalidate-->    <link rel="canonical" href="/search/"/>
+    <meta property="og:title" content="NPR Search"/>
+    <meta property="og:url" content="/search/"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:image" content="http://media.npr.org/chrome/news/nprlogo_138x46.gif"/>
+    <meta property="og:site_name" content="NPR.org"/>
+    <meta property="fb:app_id" content="138837436154588"/>
+    <link type="text/css" rel="stylesheet" media="screen, print" href="http://s.npr.org/templates/css/generated/fingerprint/search-5389e794637025871ae4202bfe95398849e59df2.css"/>
+    <script>
+//<![CDATA[
+
+   window.NPR={};window.NPR.serverVars={"facebookAppId":"138837436154588","closeurl":"http:\/\/www.npr.org\/templates\/socialmedia\/close.html","sessionScope":2,"pageScope":3,"breadcrumbs":[""],"orgId":null,"topics":[0],"internalCampaign":null,"campaignSource":null,"campaignName":null,"aggregations":[],"aggregationsText":null,"chartbeatAccount":"18888"};
+
+//]]>
+    </script>
+    <script type="text/javascript" src="http://s.npr.org/templates/javascript/generated/fingerprint/headerAllPages-2b78fbfb0b24b890cd6a6548cab47a1b61b775c1.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+   document.domain="npr.org";
+
+//]]>
+    </script>
+    <!-- START UNDERWRITING -->    <script type="text/javascript">
+//<![CDATA[
+
+   
+googletag.cmd.push(function(){try{if(DFP.shouldRenderForDevice('desktop')){googletag.defineSlot("/6735/n6735.NPR/utility_search",[[300,250],[300,600]],'ad-desktop').addService(googletag.pubads());}
+if(DFP.shouldRenderForDevice('88')){googletag.defineSlot("/6735/n6735.NPR/utility_search",[88,31],'ad-88').addService(googletag.pubads()).setCollapseEmptyDiv(true,true);}
+var deviceString='';var ua=navigator.userAgent.toLowerCase();if(ua.indexOf("android")>-1){googletag.pubads().setTargeting('device','android');}
+else if(ua.match(/(iPad|iPhone|iPod)/i)){googletag.pubads().setTargeting('device','ios');}
+if(typeof DFP.queryParameters.sc==='string'&&DFP.queryParameters.sc.length>0){scValue=DFP.queryParameters.sc;}
+else if(typeof document.referrer==='string'&&document.referrer.search('facebook.com')>-1){scValue='fb';}
+else if(typeof DFP.queryParameters.ft==='string'){scValue=DFP.queryParameters.ft;}
+googletag.pubads().setTargeting('sc',scValue);var utm_source=typeof DFP.queryParameters.utm_source==='string'&&DFP.queryParameters.utm_source.length>0?DFP.queryParameters.utm_source:'';var utm_medium=typeof DFP.queryParameters.utm_medium==='string'&&DFP.queryParameters.utm_medium.length>0?DFP.queryParameters.utm_medium:'';googletag.pubads().setTargeting('utm_source',utm_source);googletag.pubads().setTargeting('utm_medium',utm_medium);var orient='';if(NPR.Devices.isOnPhone()||NPR.Devices.isOnTablet()){if(window.orientation==0||window.orientation==180){orient='portrait';}else if(window.orientation==90||window.orientation==-90){orient='landscape';}}
+googletag.pubads().setTargeting('orient',orient);googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs();googletag.enableServices();}catch(e){NPR.messaging.exception(e,'Define Google Publisher Tags',NPR.messaging.constants.SPONSORSHIP_ERROR);}});
+
+//]]>
+    </script>
+    <script type="text/javascript" src="http://partner.googleadservices.com/gpt/pubads_impl_32.js">
+    </script>
+    <!-- END UNDERWRITING -->  </head>
+  <body id="news" class="news agg tmplSearch  off-canvas hide-extras " data-metrics-scroll="">
+    <a href="#mainContent" id="skiplink">
+      Skip to Main Content
+    </a>
+    <script type="text/javascript">
+//<![CDATA[
+var pageTrackingCPTV=function(){try{AddNamespace("NPR.metrics");NPR.metrics.pageImpression();}catch(e){NPR.messaging.exception(e,'commonPageTrackView','document.ready',NPR.messaging.constants.METRICS_ERROR);}};if($('docreadybind').length){$('docreadybind').bind('click',pageTrackingCPTV);}else{$(document).ready(pageTrackingCPTV);}
+//]]>
+    </script>
+    <header id="globalheader" class="clearfix">
+      <a class="sidebarButton" href="#sidebar" data-action="Toggle OffCanvas" data-metrics="{&quot;action&quot;:&quot;Toggle OffCanvas&quot;,&quot;category&quot;:&quot;Global Navigation&quot;}">
+        <img src="http://media.npr.org/chrome/subnav_toggle.png" alt="subnav toggle"/>
+      </a>
+      <a href="/" class="nprhome" data-action="Click Logo" data-metrics="{&quot;action&quot;:&quot;Click Header Logo&quot;, &quot;category&quot;:&quot;Global Navigation&quot;}">
+        <img src="http://media.npr.org/chrome/news/nprlogo_138x46.gif" alt="NPR"/>
+      </a>
+      <div class="inner" data-metrics-category="Global Navigation">
+        <form action="/search/index.php" method="get" name="searchForm" id="searchForm" class="search">
+          <input type="search" name="searchinput" id="searchinput" class="textbox searchbox" autocomplete="off"/>
+        </form>
+        <a href="#" class="search-toggle">
+          Toggle search
+        </a>
+        <nav class="nav-two" id="loginPElm">
+          <ul>
+            <li class="stations">
+              <a href="/templates/stations/stations/" data-metrics="{&quot;action&quot;:&quot;Click Business Link&quot;}" data-reveal-id="myModal">
+                Stations
+              </a>
+            </li>
+            <li class="donate">
+              <a href="/stations/donate/index.php" data-metrics="{&quot;action&quot;:&quot;Click Business Link&quot;}">
+                Donate
+              </a>
+            </li>
+            <li class="nprshop">
+              <a href="http://shop.npr.org" data-metrics="{&quot;action&quot;:&quot;Click Business Link&quot;}">
+                Shop
+              </a>
+            </li>
+            <li class="login-reg loggedOut">
+              <a href="/templates/reg/login.php?returnUrl=http%3A%2F%2Fwww.npr.org%2Fsearch%2Findex.php%3Fsearchinput%3Dibm" data-metrics="{&quot;action&quot;:&quot;Click Profile Link&quot;,&quot;label&quot;:&quot;Login / Register&quot;}">
+                Sign In/Register
+              </a>
+            </li>
+            <span class="loggedIn" style="display: none;">
+              <li class="userLogin">
+                <span id="userLogin">
+                </span>
+              </li>
+              <li class="login-reg">
+                <a href="/templates/reg/logout.php" class="logout" data-metrics="{&quot;action&quot;:&quot;Click Profile Link&quot;,&quot;label&quot;:&quot;Logout&quot;}">
+                  Logout
+                </a>
+              </li>
+            </span>
+          </ul>
+        </nav>
+        <nav class="nav-one">
+          <ul>
+            <li class="news">
+              <a href="/sections/news/" data-metrics="{&quot;action&quot;:&quot;Click News&quot;}">
+                News
+              </a>
+            </li>
+            <li class="artslife">
+              <a href="/sections/arts/" data-metrics="{&quot;action&quot;:&quot;Click Arts &amp; Life&quot;}">
+                Arts &amp; Life
+              </a>
+            </li>
+            <li class="music">
+              <a href="/music/" data-metrics="{&quot;action&quot;:&quot;Click Music&quot;}">
+                Music
+              </a>
+            </li>
+            <li class="listen">
+              <a href="/listen/" data-metrics="{&quot;action&quot;:&quot;Click Listen&quot;}">
+                Listen
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="wrapper">
+      <div id="sectionWrap" class="clearfix">
+        <section role="main">
+          <header class="contentheader">
+            <div class="mobileheader">
+              <a class="sidebarButton" href="#sidebar" data-metrics="{&quot;action&quot;:&quot;Toggle OffCanvas&quot;,&quot;category&quot;:&quot;Global Navigation&quot;}">
+                <img src="http://media.npr.org/chrome/subnav_toggle.png" alt="NPR logo"/>
+              </a>
+              <a href="/" class="nprHome" data-metrics="{&quot;action&quot;:&quot;Click Logo&quot;,&quot;category&quot;:&quot;Global Navigation&quot;}">
+                <img src="http://media.npr.org/chrome/news/nprlogo_138x46.gif" alt="NPR"/>
+              </a>
+            </div>
+            <form action="/search/index.php" name="searchForm" method="get" class="search">
+              <fieldset>
+                <label for="searchlayout-searchinput">
+                  Search
+                </label>
+                <input type="submit" value="search" class="btn_go" onclick="submit();"/>
+                <div class="searchinput-wrap">
+                  <input type="search" name="searchinput" id="searchlayout-searchinput" class="textbox searchbox" value="ibm" autocomplete="off"/>
+                  <script type="text/javascript">
+//<![CDATA[
+
+                            jQuery(document).ready(function($){
+                                sgst('searchinput');
+                                document.forms[1]['searchlayout-searchinput'].focus();
+                                /* submitForm function triggers form submit event if user clicks or press ENTER on a suggestion */
+                            });
+                            function submitForm(b){
+                                if(!b.target)
+                                b.target=b.srcElement;
+                                if ((b.type=='click' && b.target.className=='ac-row ac-active active') || (b.type=='keyup' && b.keyCode==13 && b.target.name=='searchinput'))
+                                {
+                                    submit();
+                                }
+                            }                            
+                            
+//]]>
+                  </script>
+                </div>
+                <!-- END CLASS="SEARCHINPUT-WRAP" -->              </fieldset>
+              <button id="filter-results">
+                Filter results 
+                <b class="icn-toggle"/>
+              </button>
+              <div class="searchRefine">
+                <div class="filterLabel">
+                  <label>
+                    Narrow results:
+                  </label>
+                </div>
+                <!-- END CLASS="FILTERLABEL" -->                <span>
+                  <input type="checkbox" name="tabId" value="hoa"/>
+                  
+heard on air
+                </span>
+                <div class="filterDate">
+                  <select class="searchdd" name="dateId">
+                    <option selected="" value="0">
+                      All dates
+                    </option>
+                    <option value="1">
+                      Today
+                    </option>
+                    <option value="7">
+                      Past 7 Days
+                    </option>
+                    <option value="30">
+                      Past 30 Days
+                    </option>
+                    <option value="365">
+                      Past Year
+                    </option>
+                  </select>
+                </div>
+                <!-- END CLASS="FILTERDATE" -->                <div class="filterProg">
+                  <select class="searchdd" name="programId">
+                    <option selected="" value="0">
+                      All programs
+                    </option>
+                    <option value="37">
+                      All Songs Considered
+                    </option>
+                    <option value="2">
+                      All Things Considered
+                    </option>
+                    <option value="58">
+                      Ask Me Another
+                    </option>
+                    <option value="13">
+                      Fresh Air
+                    </option>
+                    <option value="3">
+                      Morning Edition
+                    </option>
+                    <option value="62">
+                      Snap Judgment
+                    </option>
+                    <option value="57">
+                      TED Radio Hour
+                    </option>
+                    <option value="46">
+                      Tell Me More
+                    </option>
+                    <option value="7">
+                      Weekend Edition - Saturday
+                    </option>
+                    <option value="10">
+                      Weekend Edition - Sunday
+                    </option>
+                    <option value="35">
+                      Wait Wait... Don't Tell Me
+                    </option>
+                    <option value="39">
+                      World Cafe
+                    </option>
+                  </select>
+                </div>
+                <!-- END CLASS="FILTERPROG" -->              </div>
+              <!-- END CLASS="SEARCHREFINE" -->            </form>
+          </header>
+          <a name="mainContent">
+          </a>
+          <div class="archivenav archivenav-sorting">
+            <div class="sortType">
+              <p>
+                <span>
+                  Sorting by best match
+                </span>
+                 | 
+                <a href="/templates/search/index.php?searchinput=ibm&amp;tabId=all&amp;dateId=&amp;sort=date">
+                  Sort by date
+                </a>
+              </p>
+            </div>
+            <!-- END CLASS="SORTTYPE" -->            <p>
+              Showing 1 - 10 of  about 650 results
+            </p>
+          </div>
+          <!-- END CLASS="ARCHIVENAV ARCHIVENAV-SORTING" -->          <div class="storylist">
+            <article class="story story-blogpost clearfix">
+              <a href="http://www.npr.org/blogs/thesalt/2013/02/25/172896675/cheesecake-factory-ibm-team-up-to-crack-the-code-of-customer-bliss">
+                <div class="storyinfo">
+                  <h1>
+                    Cheesecake Factory, 
+                    <strong>
+                      IBM
+                    </strong>
+                     Team Up To Crack The Code Of Customer Bliss
+                  </h1>
+                  <div class="programName">
+                    
+      The Salt
+   
+                  </div>
+                  <div class="dateblock">
+                    <time datetime="2013-02-27">
+                      <span class="date">
+                        February 27, 2013
+                      </span>
+                      <span class="time">
+                        10:51 AM
+                      </span>
+                    </time>
+                  </div>
+                  <p>
+                    The restaurant chain hopes a new system for analyzing big data sets will help it spot patterns of complaints across its more than 170…
+                    <span class="byline">
+                       By Joe Palca
+                    </span>
+                  </p>
+                </div>
+                <!-- END CLASS="STORYINFO" -->                <div class="storyimg">
+                  <span id="featuredStackSmallImage172896675" class="photowrap storylocation">
+                    <img src="http://media.npr.org/assets/img/2013/02/27/apcheesecake-9295fd42756d72b7271d849b05e26b8d8383a5b0-s2-c85.jpg" class="img138" title="A new outpost for The Cheesecake Factory in Bloomfield Hills, Mich." alt="A new outpost for The Cheesecake Factory in Bloomfield Hills, Mich." style="display: inline;"/>
+                  </span>
+                </div>
+                <!-- END CLASS="STORYIMG" -->              </a>
+            </article>
+            <article class="story story-blogpost clearfix">
+              <a href="http://www.npr.org/2013/12/13/250730970/in-a-new-play-trusty-sidekick-is-a-supercomputer">
+                <div class="storyinfo noimg">
+                  <h1>
+                    In a New Play, Trusty Sidekick Is a Supercomputer
+                  </h1>
+                  <div class="programName">
+                    
+      Science Friday
+   
+                  </div>
+                  <div class="dateblock">
+                    <time datetime="2013-12-13">
+                      <span class="date">
+                        December 13, 2013
+                      </span>
+                      <span class="time">
+                        12:00 PM
+                      </span>
+                    </time>
+                  </div>
+                  <p>
+                    Fed up with human shortcomings, the characters in Madeleine George's play turn to high-tech companions. Could machines be assistants,…
+                  </p>
+                </div>
+                <!-- END CLASS="STORYINFO NOIMG" -->              </a>
+            </article>
+            <article class="story story-blogpost clearfix">
+              <a href="http://www.npr.org/blogs/alltechconsidered/2013/11/14/245060918/electric-cars-drive-demand-for-cheaper-more-powerful-batteries">
+                <div class="storyinfo">
+                  <h1>
+                    Electric Cars Drive Demand For Cheaper, More Powerful Batteries
+                  </h1>
+                  <div class="programName">
+                    
+      All Things Considered
+   
+                  </div>
+                  <div class="dateblock">
+                    <time datetime="2013-11-14">
+                      <span class="date">
+                        November 14, 2013
+                      </span>
+                      <span class="time">
+                         4:26 PM
+                      </span>
+                    </time>
+                  </div>
+                  <p>
+                    <span class="affiliation">
+                      KQED
+                    </span>
+                    Unlike the technologies in laptops, smartphones and electric cars, the batteries inside them have been slow to evolve. In Silicon Valley,…
+                    <span class="byline">
+                       By Lauren Sommer
+                    </span>
+                  </p>
+                </div>
+                <!-- END CLASS="STORYINFO" -->                <div class="storyimg">
+                  <span id="featuredStackSmallImage245060918" class="photowrap storylocation">
+                    <img src="http://media.npr.org/assets/img/2013/11/14/battery1-ea839721a9ef6e7dbb4713236f29c9241e375702-s2-c85.jpg" class="img138" title="A prototype of a flexible battery from Imprint Energy, one of 40 companies working on battery technology in the San Francisco Bay Area." alt="A prototype of a flexible battery from Imprint Energy, one of 40 companies working on battery technology in the San Francisco Bay Area." style="display: inline;"/>
+                  </span>
+                </div>
+                <!-- END CLASS="STORYIMG" -->              </a>
+            </article>
+          </div>
+          <header class="contentheader reprise">
+            <div class="mobileheader">
+              <a class="sidebarButton" href="#sidebar" data-metrics="{&quot;action&quot;:&quot;Toggle OffCanvas&quot;,&quot;category&quot;:&quot;Global Navigation&quot;}">
+                <img src="http://media.npr.org/chrome/subnav_toggle.png" alt="NPR logo"/>
+              </a>
+              <a href="/" class="nprHome" data-metrics="{&quot;action&quot;:&quot;Click Logo&quot;,&quot;category&quot;:&quot;Global Navigation&quot;}">
+                <img src="http://media.npr.org/chrome/news/nprlogo_138x46.gif" alt="NPR"/>
+              </a>
+            </div>
+          </header>
+          <div id="contentfooterwrap">
+            <footer id="contentfooter" data-metrics-category="">
+              <div class="branding">
+                <a href="/search/" data-metrics="{&quot;action&quot;:&quot;Click Footer Logo&quot;}">
+                  <span class="tag">
+                    Special Series
+                  </span>
+                  <h2 class="main"/>
+                </a>
+              </div>
+              <!-- END CLASS="BRANDING" -->              <div class="modules">
+                <div class="module first">
+                  <h3>
+                    <a href="#" data-metrics="{&quot;action&quot;:&quot;Toggle Footer Dropdown&quot;,&quot;label&quot;:&quot;About&quot;,&quot;category&quot;:&quot;&quot;}">
+                      About
+                    </a>
+                  </h3>
+                </div>
+                <!-- END CLASS="MODULE FIRST" -->              </div>
+              <!-- END CLASS="MODULES" -->            </footer>
+            <div class="adwrapper housead">
+              <div class="adwrap">
+                <h3>
+                  <a href="#">
+                    Support NPR
+                  </a>
+                </h3>
+                <div>
+                  <img src="http://media.npr.org/images/shop_300x150-04.jpg" alt="Support NPR"/>
+                  <h4>
+                    <a href="http://shop.npr.org/?utm_source=Banners&amp;utm_medium=ResponsiveAd&amp;utm_content=General&amp;utm_campaign=300x150">
+                      NPR Shop
+                    </a>
+                  </h4>
+                  <p>
+                    Support The Programs You Love
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- END CLASS="ADWRAPPER HOUSEAD" -->            <div class="secondary">
+              <p>
+                ©2013 NPR
+              </p>
+              <ul>
+                <li id="footerContact">
+                  <a href="http://help.npr.org/npr/includes/customer/npr/custforms/contactus.aspx">
+                    Contact
+                  </a>
+                </li>
+                <li>
+                  <a href="/about-npr/179876898/terms-of-use">
+                    Terms of Use
+                  </a>
+                </li>
+                <li>
+                  <a href="/about-npr/179878450/privacy-policy">
+                    Privacy
+                  </a>
+                </li>
+                <li class="sponsorship-choices">
+                  <a href="/about-npr/179878450/privacy-policy#opting-out-of-cookies-and-web-beacons">
+                    Sponsorship Choices
+                  </a>
+                </li>
+                <li>
+                  <a href="http://thin.npr.org/">
+                    Text-Only
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- END ID="CONTENTFOOTERWRAP" -->          <div class="storylist">
+            <article class="story story-blogpost clearfix">
+              <a href="http://www.npr.org/2011/12/28/143834727/ibm-sees-a-big-boost-as-it-turns-100">
+                <div class="storyinfo">
+                  <h1>
+                    <strong>
+                      IBM
+                    </strong>
+                     Sees A Big Boost As It Turns 100
+                  </h1>
+                  <div class="programName">
+                    
+      Morning Edition
+   
+                  </div>
+                  <div class="dateblock">
+                    <time datetime="2011-12-28">
+                      <span class="date">
+                        December 28, 2011
+                      </span>
+                      <span class="time">
+                        12:01 AM
+                      </span>
+                    </time>
+                  </div>
+                  <p>
+                    Far from a relic, 
+                    <strong>
+                      IBM
+                    </strong>
+                     has been one of the best stocks on the Dow this year, rising more than perennial tech hotshots Google and Apple. A…
+                    <span class="byline">
+                       By Ben Bergman
+                    </span>
+                  </p>
+                </div>
+                <!-- END CLASS="STORYINFO" -->                <div class="storyimg">
+                  <span id="featuredStackSmallImage143834727" class="photowrap storylocation">
+                    <img src="http://media.npr.org/assets/img/2011/12/16/eoy_ibm-f6c643b685724b7bca9fa259d63b2b48dc8973f3-s2-c85.jpg" class="img138" title="Reason To Smile: Samuel Palmisano, president and CEO of IBM, walks by an IBM logo at the CeBIT technology fair in Hanover, Germany. Palmisano is set to step down later this month, and Virginia Rometty will take over on Jan. 1." alt="Reason To Smile: Samuel Palmisano, president and CEO of IBM, walks by an IBM logo at the CeBIT technology fair in Hanover, Germany. Palmisano is set to step down later this month, and Virginia Rometty will take over on Jan. 1." style="display: inline;"/>
+                  </span>
+                </div>
+                <!-- END CLASS="STORYIMG" -->              </a>
+            </article>
+            <article class="story story-blogpost clearfix">
+              <a href="http://www.npr.org/blogs/thetwo-way/2012/01/13/145173308/ibm-says-it-stored-a-bit-of-data-on-just-12-atoms">
+                <div class="storyinfo">
+                  <p class="media-type">
+                    video
+                  </p>
+                  <h1>
+                    <strong>
+                      IBM
+                    </strong>
+                     Says It Stored A Bit Of Data On Just 12 Atoms
+                  </h1>
+                  <div class="programName">
+                    
+      The Two-Way
+   
+                  </div>
+                  <div class="dateblock">
+                    <time datetime="2012-01-13">
+                      <span class="date">
+                        January 13, 2012
+                      </span>
+                      <span class="time">
+                         1:25 PM
+                      </span>
+                    </time>
+                  </div>
+                  <p>
+                    It's the world's smallest magnetic storage device, and one day could lead to huge increases in how much information can be put into things…
+                    <span class="byline">
+                       By Mark Memmott
+                    </span>
+                  </p>
+                </div>
+                <!-- END CLASS="STORYINFO" -->                <div class="storyimg">
+                  <span id="featuredStackSmallImage145173308" class="photowrap storylocation">
+                    <img src="http://media.npr.org/assets/img/2012/01/13/colorfe-5ece80bcf1bce2094b1bb0e360f2d20e2d4dbc32-s2-c85.jpg" class="img138" title="Twelve atoms can hold one bit, IBM says." alt="Twelve atoms can hold one bit, IBM says." style="display: inline;"/>
+                  </span>
+                </div>
+                <!-- END CLASS="STORYIMG" -->              </a>
+            </article>
+            <article class="story story-blogpost clearfix">
+              <a href="http://www.npr.org/2011/02/11/133686004/IBM-Computer-Faces-Off-Against-Jeopardy-Champs">
+                <div class="storyinfo noimg">
+                  <p class="media-type">
+                    audio
+                  </p>
+                  <h1>
+                    <strong>
+                      IBM
+                    </strong>
+                     Computer Faces Off Against 'Jeopardy' Champs
+                  </h1>
+                  <div class="programName">
+                    
+      Talk of the Nation
+   
+                  </div>
+                  <div class="dateblock">
+                    <time datetime="2011-02-11">
+                      <span class="date">
+                        February 11, 2011
+                      </span>
+                      <span class="time">
+                         1:00 PM
+                      </span>
+                    </time>
+                  </div>
+                  <p>
+                    Four years in the works, 
+                    <strong>
+                      IBM
+                    </strong>
+                    's supercomputer "Watson" will compete against Jeopardy! champions from Feb. 14-16. To win, the computer will…
+                  </p>
+                </div>
+                <!-- END CLASS="STORYINFO NOIMG" -->              </a>
+            </article>
+            <article class="story story-blogpost clearfix">
+              <a href="http://www.npr.org/blogs/thetwo-way/2013/11/18/246027942/chinese-supercomputer-retains-title-of-worlds-fastest">
+                <div class="storyinfo">
+                  <h1>
+                    Chinese Supercomputer Retains Title Of World's Fastest
+                  </h1>
+                  <div class="programName">
+                    
+      The Two-Way
+   
+                  </div>
+                  <div class="dateblock">
+                    <time datetime="2013-11-18">
+                      <span class="date">
+                        November 18, 2013
+                      </span>
+                      <span class="time">
+                         5:34 PM
+                      </span>
+                    </time>
+                  </div>
+                  <p>
+                    The machine, housed at the National Super Computer Center in Guangzhou, can perform nearly 34 quadrillion calculations per…
+                    <span class="byline">
+                       By Scott Neuman
+                    </span>
+                  </p>
+                </div>
+                <!-- END CLASS="STORYINFO" -->                <div class="storyimg">
+                  <span id="featuredStackSmallImage246027942" class="photowrap storylocation">
+                    <img src="http://media.npr.org/assets/img/2013/11/18/titan3-f58737c685d4a5f6c0c62b7cee9a3f51dae267f9-s2-c85.jpg" class="img138" title="The Cray-built Titan, at Oak Ridge National Laboratories, comes in second." alt="The Cray-built Titan, at Oak Ridge National Laboratories, comes in second." style="display: inline;"/>
+                  </span>
+                </div>
+                <!-- END CLASS="STORYIMG" -->              </a>
+            </article>
+            <article class="story story-blogpost clearfix">
+              <a href="http://www.npr.org/2011/06/16/137203529/ibm-turns-100-the-company-that-reinvented-itself">
+                <div class="storyinfo">
+                  <h1>
+                    <strong>
+                      IBM
+                    </strong>
+                     Turns 100: The Company That Reinvented Itself
+                  </h1>
+                  <div class="programName">
+                    
+      Morning Edition
+   
+                  </div>
+                  <div class="dateblock">
+                    <time datetime="2011-06-16">
+                      <span class="date">
+                        June 16, 2011
+                      </span>
+                      <span class="time">
+                         8:30 AM
+                      </span>
+                    </time>
+                  </div>
+                  <p>
+                    <strong>
+                      IBM
+                    </strong>
+                    's computer technology put it on top for years, but its failure to recognize the personal computer revolution hurt it badly. Now it has…
+                    <span class="byline">
+                       By Jim Zarroli
+                    </span>
+                  </p>
+                </div>
+                <!-- END CLASS="STORYINFO" -->                <div class="storyimg">
+                  <span id="featuredStackSmallImage137203529" class="photowrap storylocation">
+                    <img src="http://media.npr.org/assets/img/2011/06/15/ap110114157347-5bf61b4ac9b05ce83ac07b6c5973a7fa743a8a05-s2-c85.jpg" class="img138" title="Contestants Ken Jennings, Brad Rutter and IBM's computer named Watson compete on Jeopardy! earlier this year." alt="Contestants Ken Jennings, Brad Rutter and IBM's computer named Watson compete on Jeopardy! earlier this year." style="display: inline;"/>
+                  </span>
+                </div>
+                <!-- END CLASS="STORYIMG" -->              </a>
+            </article>
+            <article class="story story-blogpost clearfix">
+              <a href="http://www.npr.org/blogs/13.7/2011/11/19/142515645/fertilizing-the-mind">
+                <div class="storyinfo">
+                  <h1>
+                    Fertilizing The Mind
+                  </h1>
+                  <div class="programName">
+                    
+      13.7: Cosmos And Culture
+   
+                  </div>
+                  <div class="dateblock">
+                    <time datetime="2011-11-19">
+                      <span class="date">
+                        November 19, 2011
+                      </span>
+                      <span class="time">
+                         6:48 AM
+                      </span>
+                    </time>
+                  </div>
+                  <p>
+                    <strong>
+                      IBM
+                    </strong>
+                    's Watson won again, this time beating students from Harvard and MIT. We have nothing to fear from Watson, though. Commentator Alva Noe…
+                    <span class="byline">
+                       By Alva Noë
+                    </span>
+                  </p>
+                </div>
+                <!-- END CLASS="STORYINFO" -->                <div class="storyimg">
+                  <span id="featuredStackSmallImage142515645" class="photowrap storylocation">
+                    <img src="http://media.npr.org/assets/img/2011/11/18/90935312-kenya-tree-8417fac13622d81222bc83a6621fd2b134c1d7fe-s2-c85.jpg" class="img138" title="Watson doesn't realize it, but this tree can be said to have more of a mind that &quot;he&quot; does." alt="Watson doesn't realize it, but this tree can be said to have more of a mind that &quot;he&quot; does." style="display: inline;"/>
+                  </span>
+                </div>
+                <!-- END CLASS="STORYIMG" -->              </a>
+            </article>
+            <article class="story story-blogpost clearfix">
+              <a href="http://www.npr.org/2011/10/26/141712542/business-news">
+                <div class="storyinfo noimg">
+                  <h1>
+                    Inside-Trading Suspect To Surrender; 
+                    <strong>
+                      IBM
+                    </strong>
+                     Names CEO
+                  </h1>
+                  <div class="programName">
+                    
+      Morning Edition
+   
+                  </div>
+                  <div class="dateblock">
+                    <time datetime="2011-10-26">
+                      <span class="date">
+                        October 26, 2011
+                      </span>
+                      <span class="time">
+                         4:00 AM
+                      </span>
+                    </time>
+                  </div>
+                  <p>
+                    Federal prosecutors are set to file criminal charges Wednesday against Rajat Gupta, a board member of Goldman Sachs. He's been investigated…
+                  </p>
+                </div>
+                <!-- END CLASS="STORYINFO NOIMG" -->              </a>
+            </article>
+          </div>
+          <div id="scrolllink">
+            <a href="/aggregation/0/storylist?page=2">
+              More
+            </a>
+          </div>
+          <!-- END ID="SCROLLLINK" -->          <div id="infinitescroll">
+          </div>
+          <!-- END ID="INFINITESCROLL" -->          <div class="archivenav bot">
+            <ul>
+              <li class="prev">
+                <span class="ltarrow">
+                  &lt;
+                </span>
+                 Prev
+              </li>
+              <li class="page-1">
+                <span>
+                  1
+                </span>
+              </li>
+              <li class="page-2">
+                <a href="/templates/search/index.php?searchinput=ibm&amp;tabId=all&amp;dateId=&amp;sort=match&amp;sort=match&amp;start=10">
+                  2
+                </a>
+              </li>
+              <li class="page-3">
+                <a href="/templates/search/index.php?searchinput=ibm&amp;tabId=all&amp;dateId=&amp;sort=match&amp;sort=match&amp;start=20">
+                  3
+                </a>
+              </li>
+              <li class="page-4">
+                <a href="/templates/search/index.php?searchinput=ibm&amp;tabId=all&amp;dateId=&amp;sort=match&amp;sort=match&amp;start=30">
+                  4
+                </a>
+              </li>
+              <li class="page-5">
+                <a href="/templates/search/index.php?searchinput=ibm&amp;tabId=all&amp;dateId=&amp;sort=match&amp;sort=match&amp;start=40">
+                  5
+                </a>
+              </li>
+              <li class="page-6">
+                <a href="/templates/search/index.php?searchinput=ibm&amp;tabId=all&amp;dateId=&amp;sort=match&amp;sort=match&amp;start=50">
+                  6
+                </a>
+              </li>
+              <li class="page-7">
+                <a href="/templates/search/index.php?searchinput=ibm&amp;tabId=all&amp;dateId=&amp;sort=match&amp;sort=match&amp;start=60">
+                  7
+                </a>
+              </li>
+              <li class="page-8">
+                <a href="/templates/search/index.php?searchinput=ibm&amp;tabId=all&amp;dateId=&amp;sort=match&amp;sort=match&amp;start=70">
+                  8
+                </a>
+              </li>
+              <li class="page-9">
+                <a href="/templates/search/index.php?searchinput=ibm&amp;tabId=all&amp;dateId=&amp;sort=match&amp;sort=match&amp;start=80">
+                  9
+                </a>
+              </li>
+              <li class="page-10">
+                <a href="/templates/search/index.php?searchinput=ibm&amp;tabId=all&amp;dateId=&amp;sort=match&amp;sort=match&amp;start=90">
+                  10
+                </a>
+              </li>
+              <li class="next">
+                <a href="/templates/search/index.php?searchinput=ibm&amp;tabId=all&amp;dateId=&amp;sort=match&amp;sort=match&amp;start=10">
+                  Next 
+                  <span class="gtarrow">
+                    &gt;
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p>
+              Powered by Google 
+            </p>
+          </div>
+          <!-- END CLASS="ARCHIVENAV BOT" -->        </section>
+        <!--dontvalidate-->        <section id="navsidebar" role="complementary">
+          <form action="/search/index.php" method="get" name="searchForm" id="searchForm_nav" class="search">
+            <input type="search" name="searchinput" id="searchinput_nav" class="textbox searchbox" autocomplete="off"/>
+          </form>
+          <nav id="sideMenu" role="navigation" data-metrics-category="Global Navigation">
+            <ul id="sideMainNav" class="nav-bar">
+              <li class="home">
+                <a href="/" data-metrics="{&quot;action&quot;:&quot;Click NPR Home&quot;}">
+                  NPR Home
+                </a>
+              </li>
+              <li class="active">
+                <a href="/sections/news/" data-metrics="{&quot;action&quot;:&quot;Click News&quot;}">
+                  News
+                </a>
+              </li>
+              <li>
+                <a href="/sections/arts/" data-metrics="{&quot;action&quot;:&quot;Click Arts &amp; Life&quot;}">
+                  Arts &amp; Life
+                </a>
+              </li>
+              <li>
+                <a href="/music/" data-metrics="{&quot;action&quot;:&quot;Click Music&quot;}">
+                  Music
+                </a>
+              </li>
+              <li>
+                <a href="/listen/" data-metrics="{&quot;action&quot;:&quot;Click Listen&quot;}">
+                  Listen
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav id="loginSidebar" class="nav-two" data-metrics-category="Global Navigation">
+            <ul>
+              <li class="donate">
+                <a href="/stations/donate/index.php" data-metrics="{&quot;action&quot;:&quot;Click Business Link&quot;}">
+                  Donate
+                </a>
+              </li>
+              <li class="stations" data-metrics="{&quot;action&quot;:&quot;Click Business Link&quot;}">
+                <a href="/templates/stations/stations/">
+                  Stations
+                </a>
+              </li>
+              <li class="nprshop">
+                <a href="http://shop.npr.org" data-metrics="{&quot;action&quot;:&quot;Click Business Link&quot;}">
+                  Shop
+                </a>
+              </li>
+              <span class="loggedIn" style="display: none;">
+                <li class="userLogin">
+                  <span id="userLoginSidebar">
+                  </span>
+                </li>
+                <li class="login-reg">
+                  <a href="/templates/reg/logout.php" class="logout" data-metrics="{&quot;action&quot;:&quot;Click Profile Link&quot;}">
+                    Logout
+                  </a>
+                </li>
+              </span>
+              <li class="login-reg loggedOut">
+                <a href="/templates/reg/login.php?returnUrl=http%3A%2F%2Fwww.npr.org%2Fsearch%2Findex.php%3Fsearchinput%3Dibm" data-metrics="{&quot;action&quot;:&quot;Click Profile Link&quot;}">
+                  Sign In / Register
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <!--/dontvalidate-->      </div>
+      <!-- END ID="SECTIONWRAP" CLASS="CLEARFIX" -->      <div id="main_sidebar">
+        <!-- START UNDERWRITING -->        <div id="ad-88-wrap">
+          <div id="ad-88" style="display: none;">
+            <div class="ad-88-text">
+              Support comes from:
+            </div>
+            <script type="text/javascript">
+//<![CDATA[
+
+            if (DFP.shouldRenderForDevice('88')) {
+                googletag.cmd.push(function() { googletag.display('ad-88'); });
+            }
+            
+//]]>
+            </script>
+            <div id="google_ads_iframe_/6735/n6735.NPR/utility_search_1__container__" style="border: 0pt none;">
+              <iframe id="google_ads_iframe_/6735/n6735.NPR/utility_search_1" name="google_ads_iframe_/6735/n6735.NPR/utility_search_1" width="88" height="31" style="border: 0; vertical-align: bottom;" src="javascript:&quot;&lt;html>&lt;body style='background:transparent'>&lt;/body>&lt;/html>&quot;">
+              </iframe>
+            </div>
+            <iframe id="google_ads_iframe_/6735/n6735.NPR/utility_search_1__hidden__" name="google_ads_iframe_/6735/n6735.NPR/utility_search_1__hidden__" width="0" height="0" style="border: 0; vertical-align: bottom; visibility: hidden; display: none;" src="javascript:&quot;&lt;html>&lt;body style='background:transparent'>&lt;/body>&lt;/html>&quot;">
+            </iframe>
+          </div>
+        </div>
+        <!-- END UNDERWRITING -->        <!-- START UNDERWRITING -->        <div id="ad-desktop-wrap">
+          <div id="ad-desktop">
+            <script type="text/javascript">
+//<![CDATA[
+
+            if (DFP.shouldRenderForDevice('desktop')) {
+                googletag.cmd.push(function() { googletag.display('ad-desktop'); });
+            }
+            
+//]]>
+            </script>
+            <div id="google_ads_iframe_/6735/n6735.NPR/utility_search_0__container__" style="border: 0pt none;">
+              <iframe id="google_ads_iframe_/6735/n6735.NPR/utility_search_0" name="google_ads_iframe_/6735/n6735.NPR/utility_search_0" width="300" height="250" style="border: 0; vertical-align: bottom;" src="javascript:&quot;&lt;html>&lt;body style='background:transparent'>&lt;/body>&lt;/html>&quot;">
+              </iframe>
+            </div>
+          </div>
+          <p class="left">
+            NPR thanks our sponsors
+          </p>
+          <p class="right">
+            <a href="/about/place/corpsupport/">
+              Become an NPR sponsor
+            </a>
+          </p>
+        </div>
+        <!-- END UNDERWRITING -->      </div>
+      <!-- END ID="MAIN_SIDEBAR" -->    </div>
+    <!-- END ID="WRAPPER" -->    <div id="adhesion">
+      <div id="ad-mobile-wrap">
+        <div id="ad-mobile">
+          <script type="text/javascript">
+//<![CDATA[
+
+              if (DFP.shouldRenderForDevice('mobile')) {
+                var ord = window.ord || Math.floor(Math.random() * 1e16);
+                
+                // use the smaller size for phone, the larger size for tablet
+                var sizes = '640x100';
+                if (Modernizr.mq('only screen and (min-width: 768px)')) {
+                    sizes = '2048x180';
+                }
+                
+                var targets = ';';
+                
+                document.write('<scr' + 'ipt type="text/javascript" src="http://ad.doubleclick.net/N6735/adj/n6735.nprmobile/utility_search' + targets + 'sz=' + sizes + ';ord=' + ord + '?"><\/script>');
+              }
+            
+//]]>
+          </script>
+        </div>
+      </div>
+    </div>
+    <!-- END ID="ADHESION" -->    <footer id="nprfooter">
+      <div class="footer-wrapper">
+        <div class="primary" data-metrics-category="Global Footer" data-metrics-visible="scroll-down end" data-metrics-label="Footer">
+          <ul>
+            <li>
+              <a href="/" data-action="Click Logo" data-metrics="{&quot;action&quot;:&quot;Click Footer Logo&quot;}">
+              </a>
+            </li>
+            <li class="news" data-metrics-action="Click News" data-metrics-all="">
+              <a href="/sections/news/">
+                News
+              </a>
+              <ul>
+                <li>
+                  <a href="/sections/us/">
+                    U.S.
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/world/">
+                    World
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/opinion/">
+                    Opinion
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/politics">
+                    Politics
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/business/">
+                    Business
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/technology/">
+                    Technology
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/science/">
+                    Science
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/health/">
+                    Health
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/sports/">
+                    Sports
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="artslife" data-metrics-action="Click Arts &amp; Life" data-metrics-all="">
+              <a href="/sections/arts/">
+                Arts &amp; Life
+              </a>
+              <ul>
+                <li>
+                  <a href="/books/">
+                    Books
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/movies/">
+                    Movies
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/pop-culture/">
+                    Pop Culture
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/food/">
+                    Food
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/performing-arts/">
+                    Performing Arts
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/games-humor/">
+                    Games &amp; Humor
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="music" data-metrics-action="Click Music" data-metrics-all="">
+              <a href="/music/">
+                Music
+              </a>
+              <ul>
+                <li>
+                  <a href="/series/100920965/music-articles/">
+                    Music Articles
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/music-videos/">
+                    Music Videos
+                  </a>
+                </li>
+                <li>
+                  <a href="/templates/websites/musicstreams.php">
+                    NPR Music Radio
+                  </a>
+                </li>
+                <li>
+                  <a href="/templates/artist/artist_index.php?filter=A">
+                    Browse Artists A-Z 
+                  </a>
+                </li>
+                <li>
+                  <a href="/programs/all-songs-considered/">
+                    All Songs Considered
+                  </a>
+                </li>
+                <li>
+                  <a href="/series/alt-latino/">
+                    Alt.Latino
+                  </a>
+                </li>
+                <li>
+                  <a href="/series/98679384/first-listen/">
+                    First Listen
+                  </a>
+                </li>
+                <li>
+                  <a href="/sections/concerts/">
+                    Live In Concert
+                  </a>
+                </li>
+                <li>
+                  <a href="/programs/piano-jazz/">
+                    Marian McPartland's 
+                    <span>
+                      Piano Jazz
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/series/103063413/the-thistle-and-shamrock/">
+                    The Thistle &amp; Shamrock
+                  </a>
+                </li>
+                <li>
+                  <a href="/programs/world-cafe/">
+                    World Cafe
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="programs" data-metrics-action="Click Programs" data-metrics-all="">
+              <a href="/programs/">
+                Programs
+              </a>
+              <ul>
+                <li>
+                  <a href="/programs/all-things-considered/">
+                    All Things Considered
+                  </a>
+                </li>
+                <li>
+                  <a href="/programs/ask-me-another/">
+                    Ask Me Another
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.cartalk.com">
+                    Car Talk
+                  </a>
+                </li>
+                <li>
+                  <a href="http://thedianerehmshow.org">
+                    The Diane Rehm Show
+                  </a>
+                </li>
+                <li>
+                  <a href="/programs/fresh-air/">
+                    Fresh Air
+                  </a>
+                </li>
+                <li>
+                  <a href="http://hereandnow.wbur.org/">
+                    Here &amp; Now
+                  </a>
+                </li>
+                <li>
+                  <a href="/programs/morning-edition/">
+                    Morning Edition
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.onthemedia.org">
+                    On The Media
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.onpointradio.org/">
+                    On Point
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.sciencefriday.com/">
+                    Science Friday
+                  </a>
+                </li>
+                <li>
+                  <a href="/programs/ted-radio-hour/">
+                    TED Radio Hour
+                  </a>
+                </li>
+                <li>
+                  <a href="/programs/tell-me-more/">
+                    Tell Me More
+                  </a>
+                </li>
+                <li>
+                  <a href="/programs/wait-wait-dont-tell-me/">
+                    Wait Wait...Don't Tell Me!
+                  </a>
+                </li>
+                <li>
+                  <a href="/programs/weekend-edition-saturday/">
+                    Weekend Edition 
+                    <span>
+                      Saturday
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/programs/weekend-edition-sunday/">
+                    Weekend Edition Sunday
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="listen" data-metrics-action="Click Listen" data-metrics-all="">
+              <a href="/listen/">
+                Listen
+              </a>
+              <ul>
+                <li>
+                  <a href="javascript:NPR.Player.openPlayer(0,0,null,NPR.Player.Action.PLAY_NOW, NPR.Player.Type.NEWSCAST, NPR.Player.Mode.FROM_FILE);" class="hourlyNews">
+                    Hourly News
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:NPR.Player.openPlayer(0,0,null,NPR.Player.Action.LIVE_STREAM, NPR.Player.Type.PROGRAM_STREAM, NPR.Player.Mode.FROM_FILE);" class="programStream">
+                    NPR Program Stream
+                  </a>
+                </li>
+                <li>
+                  <a href="/stations/">
+                    Find Station Streams
+                  </a>
+                </li>
+                <li>
+                  <a href="/rss/podcast/podcast_directory.php">
+                    Podcasts
+                  </a>
+                </li>
+                <li>
+                  <a href="/about-npr/187046089/ways-to-listen-to-npr">
+                    More Ways To Listen
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="about" data-metrics-action="Click About" data-metrics-all="">
+              <a href="/about/">
+                About
+              </a>
+              <ul>
+                <li>
+                  <a href="http://help.npr.org/npr/includes/customer/npr/custforms/contactus.aspx">
+                    Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a href="http://shop.npr.org">
+                    NPR Shop
+                  </a>
+                </li>
+                <li>
+                  <a href="http://tours.npr.org/npr/Home/">
+                    Visit NPR
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.npr.org/about-npr/181953728/work-at-npr">
+                    Careers at NPR
+                  </a>
+                </li>
+                <li>
+                  <a href="/about/press/">
+                    Press Room
+                  </a>
+                </li>
+                <li>
+                  <a href="/blogs/thisisnpr/">
+                    'This Is NPR' Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="/about/support/">
+                    Support and Sponsor
+                  </a>
+                </li>
+                <li>
+                  <a href="/templates/corrections/corrections.php">
+                    Corrections
+                  </a>
+                </li>
+                <li>
+                  <a href="/blogs/ombudsman/">
+                    NPR Ombudsman
+                  </a>
+                </li>
+                <li>
+                  <a href="/about-npr/179881519/rights-and-permissions-information">
+                    Permissions
+                  </a>
+                </li>
+                <li>
+                  <a href="/email/">
+                    Email Newsletters
+                  </a>
+                </li>
+                <li>
+                  <a href="/rss/">
+                    RSS Feeds
+                  </a>
+                </li>
+                <li>
+                  <a href="/api/">
+                    The NPR API
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="secondary">
+          <p class="copyright">
+            ©2013 NPR
+          </p>
+          <ul>
+            <li id="footerContact">
+              <a href="http://help.npr.org/npr/includes/customer/npr/custforms/contactus.aspx">
+                Contact
+              </a>
+            </li>
+            <li>
+              <a href="/about-npr/179876898/terms-of-use">
+                Terms of Use
+              </a>
+            </li>
+            <li>
+              <a href="/about-npr/179878450/privacy-policy">
+                Privacy
+              </a>
+            </li>
+            <li class="sponsorship-choices">
+              <a href="/about-npr/179878450/privacy-policy#opting-out-of-cookies-and-web-beacons">
+                Sponsorship Choices
+              </a>
+            </li>
+            <li>
+              <a href="http://thin.npr.org/">
+                Text-Only
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="http://s.npr.org/templates/javascript/generated/fingerprint/search-a4f261bf8fc1917f66a742ab31d7866d46471195.js">
+    </script>
+    <!--  Burned on demand at 2014-01-03 04:37:39-->    <!-- LIVE -->    <script language="javascript" type="text/javascript" src="http://static.chartbeat.com/js/chartbeat.js">
+    </script>
+    <script language="javascript" type="text/javascript" src="http://static.chartbeat.com/js/chartbeat.js">
+    </script>
+  </body>
+</html>

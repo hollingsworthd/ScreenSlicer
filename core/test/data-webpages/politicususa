@@ -1,0 +1,2320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-Type"/>
+    <meta content="English" name="language"/>
+    <link href="http://src2.politicususa.netdna-cdn.com/wp-content/common/images/favicon-16x16.jpg" type="image/jpg" rel="icon"/>
+    <link href="http://src1.politicususa.netdna-cdn.com/wp-content/common/images/apple-touch-icons/apple-touch-icon.png" type="image/png" rel="apple-touch-icon"/>
+    <link sizes="76x76" href="http://src2.politicususa.netdna-cdn.com/wp-content/common/images/apple-touch-icons/apple-touch-icon-76x76.png" type="image/png" rel="apple-touch-icon"/>
+    <link sizes="96x96" href="http://src3.politicususa.netdna-cdn.com/wp-content/common/images/apple-touch-icons/apple-touch-icon-96x96.png" type="image/png" rel="apple-touch-icon-precomposed"/>
+    <link sizes="120x120" href="http://src3.politicususa.netdna-cdn.com/wp-content/common/images/apple-touch-icons/apple-touch-icon-120x120.png" type="image/png" rel="apple-touch-icon"/>
+    <link sizes="129x129" href="http://src2.politicususa.netdna-cdn.com/wp-content/common/images/apple-touch-icons/apple-touch-icon-129x129.png" type="image/png" rel="apple-touch-icon"/>
+    <link sizes="152x152" href="http://src3.politicususa.netdna-cdn.com/wp-content/common/images/apple-touch-icons/apple-touch-icon-152x152.png" type="image/png" rel="apple-touch-icon"/>
+    <link sizes="152x152" href="http://src3.politicususa.netdna-cdn.com/wp-content/common/images/apple-touch-icons/apple-touch-icon-152x152.png" type="image/png" rel="apple-touch-icon-precomposed"/>
+    <title>
+      Search Results for us | PoliticusUSA
+    </title>
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,700,600"/>
+    <link media="screen" type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,700italic,300,700"/>
+    <link href="http://www.politicususa.com/feed" title="RSS 2.0" type="application/rss+xml" rel="alternate"/>
+    <link type="text/css" rel="stylesheet" href="http://src1.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/styles2.css"/>
+    <!--	<link rel='stylesheet' href='http://src1.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/style.css' type='text/css' media='screen' /> -->    <!-- additional styles -->    <link media="screen" type="text/css" href="http://src1.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/styles/custom/style-01-07-14.css" rel="stylesheet"/>
+    <style type="text/css">
+      
+
+
+	 .adminsOnly {
+		display: none;
+	}
+	
+
+#main-content {
+min-height: 1755px;
+}
+
+b, strong {
+	font-weight: 600 !important;
+}
+
+#header .themequote .quote {
+	letter-spacing: 1px !important;
+	font-family: 'Roboto Condensed', inherit;
+}
+
+#title-box .entry_title {
+	font: 600 21px/23px "Open Sans", Arial,serif !important;
+	color: #000;
+	border-left: #1D4792 6px solid;
+	padding-left: 8px !important;
+}
+
+a.cat-name-a, .catname, #primary-mid h3.widgettitle {
+	color: #fff !important;
+	background: #1D4792 !important;
+	padding: 3px 6px;
+}
+
+#primary-mid h3.widgettitle {
+	margin-bottom: 6px !important;
+}
+
+#mainmenu a {
+	color: #CD1713 !important;
+}
+
+#mainmenu .current_page_item a {
+	color: #1D4792 !important;
+}
+
+#main-content a {
+	color: #CD1713 !important;
+	text-decoration: none;
+}
+
+#page-overlay {
+	display: none;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 10000000;
+	background: #fff url('http://src1.politicususa.netdna-cdn.com/wp-content/common/images/loading-circle-160x160.gif') no-repeat fixed center; opacity: 0.75; filter:Alpha(opacity=75);
+}
+
+#primary-mid .featuredpost {
+	position: relative;
+}
+
+#recentNews td {
+	verticle-align: middle;
+}
+
+.widget_newsletterwidget h3{
+	font-size: 16px !important;
+}
+
+div#crp_related {
+	margin: 6px auto 12px;
+	border: 4px #1D4792 double;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 12px 7px 4px 6px;
+}
+
+a.crp_title {
+	font-weight: 600;
+	padding-right: 8px;
+}
+
+#crp_related h3 {
+	text-align: center;
+	margin-top: 0;
+}
+
+#crp_related li {
+	list-style-type: none;
+	min-height: 74px;
+	margin: 2px 10px 8px -12px;
+	border-bottom: 3px #1D4792 double;
+}
+
+#crp_related li:first-of-type {
+	border-top: none;
+}
+
+#crp_related li:last-of-type {
+	margin-bottom: -10px;
+	border-bottom: none;
+}
+
+#crp_related .crp_excerpt {
+	font-size: 13px;
+}
+
+.crp_thumb {
+	float: left;
+	margin-right: 8px;
+}
+
+blockquote, q {
+	letter-spacing: 1px;
+}
+
+#comments .c p {
+	text-align: justify !important;
+}
+
+.vsrc_div {
+	border-bottom: 2px #919191 solid;
+	margin-bottom: 4px !important;
+}
+
+.mastheadnav li.date {
+	font-family: "Open Sans", arial, default;
+	font-weight: 600;
+	font-size: 15px;
+	padding: 8px 10px;
+}
+
+#comments .comment-inner {
+	border-bottom: 16px #F5F5F5 solid !important;
+}
+
+#wpadminbar .quicklinks .menupop.hover ul li a, #wpadminbar.nojs .quicklinks .menupop:hover ul li a {
+	color: #eee !important;
+}
+
+#adspot_676631968 {
+	padding-top: 2px;
+}
+
+.footnotes {
+	font-family: 'Book Antiqua', 'Palatino Linotype', 'Open Sans' !important;
+	color: #000 !important;
+	font-size: 0.90em !important;
+	margin-left: 10px !important;
+}
+
+#cookie-footer-link {
+	display: none;
+}
+
+#hide-error {
+	display: none;
+}
+
+#primary-mid .featuredpost {
+	max-width: 300px !important;
+}
+
+#comment-tabs ul.controls, li {
+	color: inherit !important;
+}
+
+
+    </style>
+    <!-- /additional styles -->    <script id="twitter-wjs" src="http://platform.twitter.com/widgets.js">
+    </script>
+    <script src="http://edge.quantserve.com/quant.js" async="" type="text/javascript">
+    </script>
+    <script async="" src="//www.google-analytics.com/analytics.js">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+	var cntrlZadt = 400;
+	var cntrlZamb = 333;
+	var cntrlZaxx = 250;
+	var zDate = new Date();
+
+	if(zDate.getDay()%6 == 0){
+		var cntrlZ = 180;
+	} else {
+		var cntrlZ = 150;
+	}
+
+	var cntrlX=zDate.getMilliseconds()+1;
+	var jsTS=Math.floor((Math.random()*1000000)+1);
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('&lt;scr' + 'ipt src="' + src + '"&gt;&lt;/scr' + 'ipt&gt;');
+})();
+
+//]]>
+    </script>
+    <script src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+googletag.defineSlot('/5931858/Politicus_USA', [1, 1], 'div-gpt-ad-1389628067901-0').addService(googletag.pubads());
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+
+//]]>
+    </script>
+    <script src="http://partner.googleadservices.com/gpt/pubads_impl_35.js" type="text/javascript">
+    </script>
+    <!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) -->    <meta content="politics,us politics" name="keywords"/>
+    <!-- /SEO Ultimate -->    <link href="http://www.politicususa.com/feed" title="PoliticusUSA » Feed" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.politicususa.com/comments/feed" title="PoliticusUSA » Comments Feed" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.politicususa.com/search/us/feed/rss2/" title="PoliticusUSA » Search Results for “us” Feed" type="application/rss+xml" rel="alternate"/>
+    <link media="screen" type="text/css" href="http://src3.politicususa.netdna-cdn.com/wp-content/uploads/shadowbox-js/src/shadowbox.css" id="shadowbox-css-css" rel="stylesheet"/>
+    <link media="screen" type="text/css" href="http://src3.politicususa.netdna-cdn.com/wp-content/plugins/shadowbox-js/css/extras.css" id="shadowbox-extras-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://src1.politicususa.netdna-cdn.com/wp-content/plugins/ajaxed-comments/css/front.css" id="ajaxed-comments-front-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://src3.politicususa.netdna-cdn.com/wp-content/plugins/ajaxed-comments/css/colors.css" id="ajaxed-comments-colors-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://src2.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/inc/js/fancybox/jquery.fancybox-1.3.4.css" id="fancyboxcss-css" rel="stylesheet"/>
+    <script src="http://src1.politicususa.netdna-cdn.com/wp-includes/js/jquery/jquery.js" type="text/javascript">
+    </script>
+    <script src="http://src3.politicususa.netdna-cdn.com/wp-includes/js/jquery/jquery-migrate.min.js" type="text/javascript">
+    </script>
+    <script src="http://src3.politicususa.netdna-cdn.com/wp-content/plugins/ajaxed-comments/js/jquery.countdown.min.js" type="text/javascript">
+    </script>
+    <script src="http://src3.politicususa.netdna-cdn.com/wp-includes/js/jquery/jquery.color.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+var acArgs = {"editCommEffect":"fade","showEffect":"fade","hideEffect":"fade","timeToHide":"3","hideInlineActions":"no","ajaxurl":"http:\/\/www.politicususa.com\/wp-admin\/admin-ajax.php","untrash":"Restore","trash":"Trash","unspam":"Unspam","spam":"Spam","unapprove":"Unapprove","approve":"Approve","holdColor":"#ffffe0","trashColor":"#ffaaaa","spamColor":"#fff1cc","highlightComments":"yes","timer":"yes","errUnknown":"Error has occurred. Please try again later or reload a page.","errEmptyComment":"Comment is empty.","deleteComment":"Are you sure you want to delete this comment?"};
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <script src="http://src2.politicususa.netdna-cdn.com/wp-content/plugins/ajaxed-comments/js/front.js" type="text/javascript">
+    </script>
+    <script src="http://src2.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/inc/js/jquery.tools.min.js" type="text/javascript">
+    </script>
+    <script src="http://apis.google.com/js/plusone.js" type="text/javascript">
+    </script>
+    <script src="http://src1.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/inc/js/facebook.js" type="text/javascript">
+    </script>
+    <script src="http://src1.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/inc/js/flowplayer/flowplayer-3.2.6.min.js" type="text/javascript">
+    </script>
+    <script src="http://src2.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/inc/js/superfish-1.4.8.js" type="text/javascript">
+    </script>
+    <script src="http://src1.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/inc/js/jCarouselLite.js" type="text/javascript">
+    </script>
+    <script src="http://src1.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/inc/js/general.js" type="text/javascript">
+    </script>
+    <script src="http://src3.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/inc/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript">
+    </script>
+    <script src="http://src3.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/inc/js/fancybox/jquery.mousewheel-3.0.4.pack.js" type="text/javascript">
+    </script>
+    <!-- Begin Fix Facebook Like WordPress Plugin -->    <meta content="Taxpayers Bilked Out of Billions As Republicans Unconstitutionally Fund Religious Schools" property="og:title"/>
+    <meta content="website" property="og:type"/>
+    <meta content="http://www.politicususa.com/2014/03/30/taxpayers-bilked-billions-republicans-unconstitutionally-fund-religious-schools.html" property="og:url"/>
+    <meta content="http://src2.politicususa.netdna-cdn.com/wp-content/uploads/2012/03/politicususaheader8.18.114-300x86.jpg" property="og:image"/>
+    <meta content="PoliticusUSA" property="og:site_name"/>
+    <meta content="1288256616" property="fb:admins"/>
+    <!-- End Fix Facebook Like WordPress Plugin -->    <style media="screen" type="text/css">
+      
+          div.printfriendly {
+            margin: 0px 0px 0px 0px;;
+          }
+          div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
+            text-decoration: none;
+            font-size: 14px;
+            color: #55750C;
+            vertical-align: bottom;
+            border: none;
+          }
+
+          .printfriendly a:hover {
+            cursor: pointer;
+          }
+
+          .printfriendly a img  {
+            border: none;
+            padding:0;
+            margin-right: 6px;
+            display:inline-block;
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+          }
+          .printfriendly a span{
+            vertical-align: bottom;
+          }
+          .pf-alignleft {
+            float: left;
+          }
+          .pf-alignright {
+            float: right;
+          }
+          div.pf-aligncenter {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+          }
+        
+    </style>
+    <style media="print" type="text/css">
+      
+          .printfriendly {
+            display: none;
+          }
+        
+    </style>
+    <!--Plugin WP Missed Schedule 2013.1231.2013 Active - Tag 6707293c0218e2d8b7aa38d418ffa608-->    <!-- This site is patched which an important unfixed problem since WordPress 2.5+ -->    <link type="text/css" rel="stylesheet" href="http://src3.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/styles/feb-18-14-style.css"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+	(function($) {
+		$(document).ready(function() { 
+			
+			$('a[href=#top]').click(function(){
+				$('html, body').animate({scrollTop:0}, 'slow');
+				return false;
+			});
+			
+			$("a[rel=gab_gallery]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'       : function(title, currentArray, currentIndex, currentOpts) {
+					return '&lt;span id="fancybox-title-over"&gt;' + title /* + ' ('+(currentIndex + 1) + ' / ' + currentArray.length + ')' */ +'&lt;/span&gt;';
+				}
+			});			
+			
+			$(".show").fancybox({  
+				'titleShow'     : 'false',  
+				'transitionIn'      : 'fade',  
+				'transitionOut'     : 'fade'  
+			});
+			
+			$(".iframe").fancybox({	
+				'width'	: '75%',
+				'height' : '75%',
+				'autoScale'     	: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+						
+			$("ul.tabs").tabs("div.panes &gt; div");
+			
+		});
+	})(jQuery);
+	
+//]]>
+    </script>
+    <style type="text/css">
+      
+	#authorboxbody {
+		background-color: #EFF8FB;
+		margin: 10px auto;
+		border: 4px #1D4792 double;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		height: auto;
+	}
+	.authorinfo {
+		width: auto;
+		height: auto;
+		padding: 5px 8px;
+	}
+	.authorinfo img.gravatar{
+		margin: 5px 10px 0 10px;
+		display: inline;
+		float: left;
+		height: 70px;
+		width: 70px;
+		border: 2px solid #9d9d9d;
+	}
+	.authorinfo img:hover.gravatar{
+		-webkit-box-shadow: 0 0 4px #404040;
+		-moz-box-shadow: 0 0 4px #404040;
+		box-shadow: 0 0 4px #404040;
+	}
+	.authorinfo div.authorname{
+		display: inline;
+		line-height: 26px;
+		font: bold 13px Verdana;
+		text-transform:none !important;
+		text-align: left;
+		padding-bottom: 10px !important;
+		text-shadow: 1px 1px 1px #fff;
+	}
+	.authorinfo div.authorname a{
+		text-decoration: none;
+	}
+	.authorinfo div.description, .authorinfo {
+		font: 14px Verdana;
+		text-align: left;
+		text-shadow: 1px 1px 1px #fff;
+	}
+	.authorinfo div.description a {
+		color: #312f8e;
+		font-weight: bold;
+		text-shadow: 1px 1px 1px #fff;
+	}
+	.authorinfo div.website a{
+		text-decoration: none;
+		font-weight: bold;
+	}
+	.authorsocial div{
+		text-align: left;
+		font: small-caps bold 16px Verdana;
+		margin: 0 !important;
+	}
+	.authorsocial a img{
+		width: 25px;
+		height: 25px;
+		display:inline !important;
+		border: none;
+		margin: 3px 8px;
+	}
+	.clear {
+		clear: both;
+	}
+	
+	#authorboxbody div.spacer {
+		height: 10px;
+		width: 100%;
+	}
+
+    </style>
+    <!-- additional styles -->    <style type="text/css">
+      
+
+	#respond {
+		display: none;
+	}
+
+	.comments-policy {
+		display: none;
+	}
+
+
+    </style>
+    <!-- /additional styles -->    <script src="http://src1.politicususa.netdna-cdn.com/wp-content/scripts/js/jquery-cookie-plugin.js" type="text/javascript">
+    </script>
+    <link href="http://src2.politicususa.netdna-cdn.com/wp-content/common/images/favicon-16x16.jpg" rel="shortcut icon"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3961223-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+//]]>
+    </script>
+    <style id="custom-background-css" type="text/css">
+      
+body.custom-background { background-color: #f1f1f1; }
+
+    </style>
+    <!-- Google AdSense Tags powered by Waldemar Stoffel's AdSense Targeting http://wasistlos.waldemarstoffel.com/plugins-fur-wordpress/adsense-targeting -->    <script type="text/javascript">
+//<![CDATA[
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9948568-5']);
+  _gaq.push(['_setDomainName', 'politicususa.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+document.write( '&lt;scr'+'ipt type="text/javascript"&gt;' );
+if( document.referrer.toString().indexOf( 'www.politicususa.com' ) ==-1 ) {
+document.write( 'urchinTracker(document.referrer);' );
+}
+document.write( '&lt;\/scr'+'ipt&gt;' );
+
+//]]>
+    </script>
+    <script type="text/javascript">
+    </script>
+    <script>
+//<![CDATA[
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41405010-1', 'politicususa.com');
+  ga('send', 'pageview');
+
+
+//]]>
+    </script>
+    <meta content="webutation66f4b5dcff416997170bc2376abdf3a5" name="webutation-site-verification"/>
+    <meta content="4f5d02d0c60a87c8390b9d0f1644896d" name="p:domain_verify"/>
+    <!-- Quantcast Tag -->    <script type="text/javascript">
+//<![CDATA[
+
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-52dj0sOA42ydI"
+});
+
+//]]>
+    </script>
+  </head>
+  <body class="search search-results custom-background" id="css-2">
+    <noscript>
+      &lt;div style="display:none;"&gt;
+&lt;img src="//pixel.quantserve.com/pixel/p-52dj0sOA42ydI.gif" border="0" height="1" width="1" alt="Quantcast"/&gt;
+&lt;/div&gt;
+
+    </noscript>
+    <!-- End Quantcast tag -->    <script type="text/javascript">
+//<![CDATA[
+
+	function getUrlVars() {
+		var vars = [], hash;
+		var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&amp;');
+		for(var i = 0; i &lt; hashes.length; i++) {
+			hash = hashes[i].split('=');
+			vars.push(hash[0]);
+			vars[hash[0]] = hash[1];
+		}
+		return vars;
+	}
+
+//]]>
+    </script>
+    <style type="text/css">
+      #mc_embed_signup input.mce_inline_error{border-color:#6B0505;} #mc_embed_signup div.mce_inline_error{margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff;}
+    </style>
+    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&amp;gt;div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&amp;gt;span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}
+    </style>
+    <script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.form-n-validate.js">
+    </script>
+    <script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.form-n-validate.js">
+    </script>
+    <!-- Start Alexa Certify Javascript -->    <script src="https://d31qbv1cthcecs.cloudfront.net/atrk.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+_atrk_opts = { atrk_acct: "OdM/f1agwt00oM", domain:"politicususa.com"}; atrk ();
+//]]>
+    </script>
+    <noscript>
+      &lt;img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=OdM/f1agwt00oM" style="display:none" height="1" width="1" alt="" /&gt;
+    </noscript>
+    <!-- End Alexa Certify Javascript -->    <div id="body-wrapper">
+      <div class="wrapper">
+        <div id="masthead">
+          <ul class="mastheadnav dropdown sf-js-enabled sf-shadow">
+            <li class="date">
+              <script type="text/javascript">
+//<![CDATA[
+
+						&lt;!--
+						var mydate=new Date()
+						var year=mydate.getYear()
+						if (year &lt; 1000)
+						year+=1900
+						var day=mydate.getDay()
+						var month=mydate.getMonth()
+						var daym=mydate.getDate()
+						if (daym&lt;10)
+						daym="0"+daym
+						var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+						var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+						document.write(""+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"")
+						// --&gt;
+					
+//]]>
+              </script>
+              Monday, March 31, 2014
+				
+            </li>
+          </ul>
+          <div id="search">
+            <form action="http://www.politicususa.com" class="gab_search_style1">
+              <fieldset>
+                <input type="text" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" value="Search in site..." name="s" id="s"/>
+                <input type="image" value="" alt="Search in site..." src="http://src1.politicususa.netdna-cdn.com/wp-content/themes/advanced-newspaper/images/framework/search.png" class="submit_style1"/>
+              </fieldset>
+            </form>
+          </div>
+          <!-- /search -->          <div class="clear">
+          </div>
+        </div>
+        <!-- /masthead -->        <div class="clear">
+        </div>
+        <div style="min-height: 100px;" id="header">
+          <div class="themequote quoteleft">
+            <span class="img">
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/04/bernie-sanders-praises-obamas-budget-cutting-social-security.html">
+                <img alt="" src="http://src3.politicususa.netdna-cdn.com/wp-content/uploads/2012/12/Sanders.jpg"/>
+              </a>
+            </span>
+            <span class="quotetext">
+              <span class="quotecaption">
+                <a rel="bookmark" href="http://www.politicususa.com/2014/03/04/bernie-sanders-praises-obamas-budget-cutting-social-security.html">
+                  Senator Bernie Sanders
+                </a>
+              </span>
+              <span class="quote">
+                <a rel="bookmark" href="http://www.politicususa.com/2014/03/04/bernie-sanders-praises-obamas-budget-cutting-social-security.html">
+                  I am especially proud that the president did not renew his proposal to cut Social Security benefits
+                </a>
+              </span>
+            </span>
+          </div>
+          <!-- themequote quoteleft -->          <div style="padding:8px 0px 0px 0px;" class="logo">
+            <h1>
+              <a title="Real Liberal Politics" href="http://www.politicususa.com/">
+                <img title="PoliticusUSA" alt="PoliticusUSA" src="http://src1.politicususa.netdna-cdn.com/wp-content/uploads/2012/03/polusa-logo-360x86-1.jpg"/>
+                <!--<img src="http://src2.politicususa.netdna-cdn.com/wp-content/common/images/special/polusa-logo-360x86-st-pat-day.jpg" alt="PoliticusUSA" title="PoliticusUSA" />-->              </a>
+            </h1>
+          </div>
+          <!-- logo -->          <div class="themequote quoteright">
+            <span class="img">
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/04/obama-vows-drop-veto-hammer-republicans-51st-attempt-kill-obamacare.html">
+                <img alt="" src="http://src2.politicususa.netdna-cdn.com/wp-content/uploads/2012/03/obama.small_.quoteR1-1.jpg"/>
+              </a>
+            </span>
+            <span class="quotetext">
+              <span class="quotecaption">
+                <a rel="bookmark" href="http://www.politicususa.com/2014/03/04/obama-vows-drop-veto-hammer-republicans-51st-attempt-kill-obamacare.html">
+                  President Barack Obama
+                </a>
+              </span>
+              <span class="quote">
+                <a rel="bookmark" href="http://www.politicususa.com/2014/03/04/obama-vows-drop-veto-hammer-republicans-51st-attempt-kill-obamacare.html">
+                  The President will veto Republicans' 51st attempt to kill Obamacare
+                </a>
+              </span>
+            </span>
+          </div>
+          <!-- themequote quoteright -->          <div class="clear">
+          </div>
+        </div>
+        <!-- /header -->        <div id="mainmenu">
+          <ul class="mainnav dropdown sf-js-enabled sf-shadow">
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63097" id="menu-item-63097">
+              <a href="/">
+                HOME
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-118523" id="menu-item-118523">
+              <a href="http://sports.politicususa.com/">
+                Sports
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63066" id="menu-item-63066">
+              <a href="http://www.politicususa.com/all-time-popular-posts">
+                ALL TIME POPULAR POSTS
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79170" id="menu-item-79170">
+              <a href="http://www.politicususa.com/proof-war-women-2">
+                Proof of the GOP War on Women
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76060" id="menu-item-76060">
+              <a href="http://www.politicususa.com/the-dirty-thirty-page">
+                The Dirty Thirty
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85236" id="menu-item-85236">
+              <a href="http://www.politicususa.com/contact-us">
+                Contact Us
+              </a>
+            </li>
+          </ul>
+          <div class="clear">
+          </div>
+        </div>
+        <!-- /mainmenu -->        <div id="submenu">
+          <ul class="subnav dropdown sf-js-enabled sf-shadow">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63203" id="menu-item-63203">
+              <a href="http://www.politicususa.com/koch-block-it">
+                Koch Block It
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79167" id="menu-item-79167">
+              <a href="http://www.politicususa.com/?s=Republican+War+on+Women&amp;x=5&amp;y=7">
+                The War on Women
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63181" id="menu-item-63181">
+              <a href="http://www.politicususa.com/research">
+                Research
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63064" id="menu-item-63064">
+              <a href="http://www.politicususa.com/about-us">
+                About Us
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63065" id="menu-item-63065">
+              <a href="http://www.politicususa.com/privacy-policy">
+                Privacy Policy
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85240" id="menu-item-85240">
+              <a href="http://www.politicususa.com/44-v-2">
+                President Obama
+              </a>
+            </li>
+          </ul>
+          <div class="clear">
+          </div>
+        </div>
+        <!-- /submenu -->        <div id="container">
+          <div id="main">
+            <span id="bcrum">
+              <a href="http://www.politicususa.com">
+                Home
+              </a>
+               » Search results for us
+            </span>
+            <!-- google_ad_section_start -->            <p style="text-align: center;">
+              <script type="text/javascript">
+//<![CDATA[
+&lt;!--
+google_ad_client = "ca-pub-2001531914781608";
+/* politicus middle */
+google_ad_slot = "8064447651";
+google_ad_width = 300;
+google_ad_height = 250;
+//--&gt;
+
+//]]>
+              </script>
+              <script src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
+              </script>
+            </p>
+            <div class="post-147099 post type-post status-publish format-standard hentry category-featured-news entry" id="post-147099">
+              <h2 class="entry_title">
+                <a title="Permalink to Taxpayers Bilked Out of Billions As Republicans Unconstitutionally Fund Religious Schools" rel="bookmark" href="http://www.politicususa.com/2014/03/30/taxpayers-bilked-billions-republicans-unconstitutionally-fund-religious-schools.html">
+                  Taxpayers Bilked Out of Billions As Republicans Unconstitutionally Fund Religious Schools
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/30/taxpayers-bilked-billions-republicans-unconstitutionally-fund-religious-schools.html">
+                <img width="80" height="66" title="Taxpayers Bilked Out of Billions As Republicans Unconstitutionally Fund Religious Schools" alt="Taxpayers Bilked Out of Billions As Republicans Unconstitutionally Fund Religious Schools" class="alignleft" src="http://src1.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/deGrasse-Tyson-illiterate-adults.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                It was revealed that taxpayers are unknowingly funding $1 billion in tuition for private schools teaching creationism in 14 states across America, including hundreds of religious schools training children that…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/rmuse">
+                  Rmuse
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Sun, Mar 30th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Taxpayers Bilked Out of Billions As Republicans Unconstitutionally Fund Religious Schools" rel="nofollow" href="http://www.politicususa.com/2014/03/30/taxpayers-bilked-billions-republicans-unconstitutionally-fund-religious-schools.html#comments">
+                    13 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-147105 post type-post status-publish format-standard hentry category-featured-news category-issues entry" id="post-147105">
+              <h2 class="entry_title">
+                <a title="Permalink to Fundamentalists Are Pretty Sure Jesus Would Not Bake a Wedding Cake for a Gay Couple" rel="bookmark" href="http://www.politicususa.com/2014/03/30/fundamentalists-pretty-jesus-bake-wedding-cake-gay-couple.html">
+                  Fundamentalists Are Pretty Sure Jesus Would Not Bake a Wedding Cake for a Gay Couple
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/30/fundamentalists-pretty-jesus-bake-wedding-cake-gay-couple.html">
+                <img width="80" height="66" title="Fundamentalists Are Pretty Sure Jesus Would Not Bake a Wedding Cake for a Gay Couple" alt="Fundamentalists Are Pretty Sure Jesus Would Not Bake a Wedding Cake for a Gay Couple" class="alignleft" src="http://src1.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/No-Wedding-Cake-for-You.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                Pat Robertson says the issue would not come up in the first place, as the gay couple would have been stoned before it got to that point…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/hrafnkell-haraldsson-2">
+                  Hrafnkell Haraldsson
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Sun, Mar 30th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Fundamentalists Are Pretty Sure Jesus Would Not Bake a Wedding Cake for a Gay Couple" rel="nofollow" href="http://www.politicususa.com/2014/03/30/fundamentalists-pretty-jesus-bake-wedding-cake-gay-couple.html#comments">
+                    24 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-147087 post type-post status-publish format-standard hentry category-featured-news entry" id="post-147087">
+              <h2 class="entry_title">
+                <a title="Permalink to The Lie Must Die: Why Democrats Aren’t Just Like Republicans" rel="bookmark" href="http://www.politicususa.com/2014/03/29/lie-die-democrats-republicans.html">
+                  The Lie Must Die: Why Democrats Aren’t Just Like Republicans
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/29/lie-die-democrats-republicans.html">
+                <img width="80" height="66" title="The Lie Must Die: Why Democrats Aren’t Just Like Republicans" alt="The Lie Must Die: Why Democrats Aren’t Just Like Republicans" class="alignleft" src="http://src3.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/False-Equivalency.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                It is an election year, which means that Republicans and the emo-prog left have returned to attempt to depress Democratic voter turnout by claiming that Democrats and Republicans are the…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/jason-easley-and-sarah-jones">
+                  Jason Easley and Sarah Jones
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Sat, Mar 29th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on The Lie Must Die: Why Democrats Aren’t Just Like Republicans" rel="nofollow" href="http://www.politicususa.com/2014/03/29/lie-die-democrats-republicans.html#comments">
+                    30 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-147026 post type-post status-publish format-standard hentry category-commentary category-democratic-party category-featured-news category-issues category-republican_party category-us-congress-senate entry" id="post-147026">
+              <h2 class="entry_title">
+                <a title="Permalink to Nevada Republican Wants to End Senate Elections Because Harry Reid Won" rel="bookmark" href="http://www.politicususa.com/2014/03/29/nevada-republican-senate-elections-harry-reid-won.html">
+                  Nevada Republican Wants to End Senate Elections Because Harry Reid Won
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/29/nevada-republican-senate-elections-harry-reid-won.html">
+                <img width="80" height="66" title="Nevada Republican Wants to End Senate Elections Because Harry Reid Won" alt="Nevada Republican Wants to End Senate Elections Because Harry Reid Won" class="alignleft" src="http://src1.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2013/04/Screen-Shot-2013-04-24-at-11.59.00-AM-1.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                Sue Lowden wants to eliminate direct election of U.S. Senators because Harry Reid keeps getting elected.…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/keithbrekhus-2-2">
+                  Keith Brekhus
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Sat, Mar 29th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Nevada Republican Wants to End Senate Elections Because Harry Reid Won" rel="nofollow" href="http://www.politicususa.com/2014/03/29/nevada-republican-senate-elections-harry-reid-won.html#comments">
+                    20 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-147038 post type-post status-publish format-standard hentry category-featured-news entry" id="post-147038">
+              <h2 class="entry_title">
+                <a title="Permalink to Smokin’ Joe Biden Pierces Republican Hearts Saying Fair Wages Are Good for Business" rel="bookmark" href="http://www.politicususa.com/2014/03/29/smokin-joe-biden-raising-minimum-wage-good-business-workers.html">
+                  Smokin’ Joe Biden Pierces Republican Hearts Saying Fair Wages Are Good for Business
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/29/smokin-joe-biden-raising-minimum-wage-good-business-workers.html">
+                <img width="80" height="66" title="Smokin’ Joe Biden Pierces Republican Hearts Saying Fair Wages Are Good for Business" alt="Smokin’ Joe Biden Pierces Republican Hearts Saying Fair Wages Are Good for Business" class="alignleft" src="http://src2.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/Screen-Shot-2014-03-29-at-8.49.04-AM-1.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                V.P. Joe Biden said Congress should raise the minimum wage because it's good for people, business, women, and the economy. He thinks you ought to call your do-nothing representative and…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/sarah-jones">
+                  Sarah Jones
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Sat, Mar 29th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Smokin’ Joe Biden Pierces Republican Hearts Saying Fair Wages Are Good for Business" rel="nofollow" href="http://www.politicususa.com/2014/03/29/smokin-joe-biden-raising-minimum-wage-good-business-workers.html#comments">
+                    10 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146949 post type-post status-publish format-standard hentry category-featured-news entry" id="post-146949">
+              <h2 class="entry_title">
+                <a title="Permalink to Rather Than Seek Re-Election, GOP Congressman Would Rather Be The Next Rush Limbaugh" rel="bookmark" href="http://www.politicususa.com/2014/03/28/seek-re-election-gop-congressman-rush-limbaugh.html">
+                  Rather Than Seek Re-Election, GOP Congressman Would Rather Be The Next Rush Limbaugh
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/28/seek-re-election-gop-congressman-rush-limbaugh.html">
+                <img width="80" height="66" title="Rather Than Seek Re-Election, GOP Congressman Would Rather Be The Next Rush Limbaugh" alt="Rather Than Seek Re-Election, GOP Congressman Would Rather Be The Next Rush Limbaugh" class="alignleft" src="http://src3.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/mike-rogers.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                On Friday morning, Rep. Mike Rogers (R-MI) declared on WJR Radio that he will not seek reelection in November and instead will host a conservative talk radio show. …
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/justin-baragona">
+                  Justin Baragona
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Fri, Mar 28th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Rather Than Seek Re-Election, GOP Congressman Would Rather Be The Next Rush Limbaugh" rel="nofollow" href="http://www.politicususa.com/2014/03/28/seek-re-election-gop-congressman-rush-limbaugh.html#comments">
+                    12 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <p style="text-align: center;">
+              <script type="text/javascript">
+//<![CDATA[
+&lt;!--
+google_ad_client = "ca-pub-2001531914781608";
+/* politicus middle */
+google_ad_slot = "8064447651";
+google_ad_width = 300;
+google_ad_height = 250;
+//--&gt;
+
+//]]>
+              </script>
+              <script src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
+              </script>
+            </p>
+            <div class="post-146942 post type-post status-publish format-standard hentry category-featured-news entry" id="post-146942">
+              <h2 class="entry_title">
+                <a title="Permalink to House Republican Calls People Without Health Insurance Illiterate" rel="bookmark" href="http://www.politicususa.com/2014/03/28/house-republican-calls-people-health-insurance-illiterate.html">
+                  House Republican Calls People Without Health Insurance Illiterate
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/28/house-republican-calls-people-health-insurance-illiterate.html">
+                <img width="80" height="66" title="House Republican Calls People Without Health Insurance Illiterate" alt="House Republican Calls People Without Health Insurance Illiterate" class="alignleft" src="http://src2.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/aca-signup-485x3231.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                While speaking to the  Louisiana Oil and Gas Association Democratic Sen. Mary Landrieu's 2014 challenger, Rep. Bill Cassidy called the uninsured, unsophisticated, and uneducated.
+…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/jasoneasley-2-2">
+                  Jason Easley
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Fri, Mar 28th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on House Republican Calls People Without Health Insurance Illiterate" rel="nofollow" href="http://www.politicususa.com/2014/03/28/house-republican-calls-people-health-insurance-illiterate.html#comments">
+                    16 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146930 post type-post status-publish format-standard hentry category-featured-news entry" id="post-146930">
+              <h2 class="entry_title">
+                <a title="Permalink to Jon Stewart Belittles Author Who Advises Young Women To Focus Solely On Finding A Man" rel="bookmark" href="http://www.politicususa.com/2014/03/28/daily-show.html">
+                  Jon Stewart Belittles Author Who Advises Young Women To Focus Solely On Finding A Man
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/28/daily-show.html">
+                <img width="80" height="66" title="Jon Stewart Belittles Author Who Advises Young Women To Focus Solely On Finding A Man" alt="Jon Stewart Belittles Author Who Advises Young Women To Focus Solely On Finding A Man" class="alignleft" src="http://src1.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/01/jon_stewart32.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                On Thursday night's episode of The Daily Show, host Jon Stewart and correspondent Kristen Schaal laid into the so-called 'Princeton Mom' Susan Patton. …
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/justin-baragona">
+                  Justin Baragona
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Fri, Mar 28th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Jon Stewart Belittles Author Who Advises Young Women To Focus Solely On Finding A Man" rel="nofollow" href="http://www.politicususa.com/2014/03/28/daily-show.html#comments">
+                    19 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146828 post type-post status-publish format-standard hentry category-featured-news entry" id="post-146828">
+              <h2 class="entry_title">
+                <a title="Permalink to A Decision In Favor Of Hobby Lobby Will Equal a License For Religious Tyranny" rel="bookmark" href="http://www.politicususa.com/2014/03/27/decision-favor-hobby-lobby-equal-license-religious-tyranny.html">
+                  A Decision In Favor Of Hobby Lobby Will Equal a License For Religious Tyranny
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/27/decision-favor-hobby-lobby-equal-license-religious-tyranny.html">
+                <img width="80" height="66" title="A Decision In Favor Of Hobby Lobby Will Equal a License For Religious Tyranny" alt="A Decision In Favor Of Hobby Lobby Will Equal a License For Religious Tyranny" class="alignleft" src="http://src3.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/Hobby-Lobby.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                Like Arizona's failed "religious liberty" legislation, a decision for Hobby Lobby will be a national religious tyranny license with far-reaching implications.
+…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/rmuse">
+                  Rmuse
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Thu, Mar 27th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on A Decision In Favor Of Hobby Lobby Will Equal a License For Religious Tyranny" rel="nofollow" href="http://www.politicususa.com/2014/03/27/decision-favor-hobby-lobby-equal-license-religious-tyranny.html#comments">
+                    12 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146886 post type-post status-publish format-standard hentry category-featured-news entry" id="post-146886">
+              <h2 class="entry_title">
+                <a title="Permalink to A State by State Breakdown of the 2.8 Million People House Republicans Are Screwing" rel="bookmark" href="http://www.politicususa.com/2014/03/27/senate-votes-2-8-million-helped-state.html">
+                  A State by State Breakdown of the 2.8 Million People House Republicans Are Screwing
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/27/senate-votes-2-8-million-helped-state.html">
+                <img width="80" height="66" title="A State by State Breakdown of the 2.8 Million People House Republicans Are Screwing" alt="A State by State Breakdown of the 2.8 Million People House Republicans Are Screwing" class="alignleft" src="http://src2.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/Screen-Shot-2014-03-27-at-3.28.30-PM-1.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                The Senate voted 64-34 today to proceed with five-month extension for unemployment benefits, which new data from the Department of Labor shows would help nearly 2.8 million Americans. 
+…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/sarah-jones">
+                  Sarah Jones
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Thu, Mar 27th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on A State by State Breakdown of the 2.8 Million People House Republicans Are Screwing" rel="nofollow" href="http://www.politicususa.com/2014/03/27/senate-votes-2-8-million-helped-state.html#comments">
+                    32 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146872 post type-post status-publish format-standard hentry category-featured-news entry" id="post-146872">
+              <h2 class="entry_title">
+                <a title="Permalink to Obama Keeps Promise To Take Government Out of the Business of Collecting and Storing Phone Meta Data" rel="bookmark" href="http://www.politicususa.com/2014/03/27/obama-government-business-collecting-storing-phone-meta-data.html">
+                  Obama Keeps Promise To Take Government Out of the Business of Collecting and Storing Phone Meta Data
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/27/obama-government-business-collecting-storing-phone-meta-data.html">
+                <img width="80" height="66" title="Obama Keeps Promise To Take Government Out of the Business of Collecting and Storing Phone Meta Data" alt="Obama Keeps Promise To Take Government Out of the Business of Collecting and Storing Phone Meta Data" class="alignleft" src="http://src2.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/Barack-Obama-e1392231845858.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                True to his word, President Obama is moving forward to take government out of the business of collecting and storing telephone meta data.…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/adalia-woodbury-2-2-2-2-2">
+                  Adalia Woodbury
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Thu, Mar 27th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Obama Keeps Promise To Take Government Out of the Business of Collecting and Storing Phone Meta Data" rel="nofollow" href="http://www.politicususa.com/2014/03/27/obama-government-business-collecting-storing-phone-meta-data.html#comments">
+                    2 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146837 post type-post status-publish format-standard hentry category-commentary category-featured-news entry" id="post-146837">
+              <h2 class="entry_title">
+                <a title="Permalink to Conservatives and Hobby Lobby Are Wrong: Plan B, Ella &amp; IUDs Do Not Cause Abortions" rel="bookmark" href="http://www.politicususa.com/2014/03/27/conservatives-hobby-lobby-wrong-plan-b-ella-iuds-abortifacients.html">
+                  Conservatives and Hobby Lobby Are Wrong: Plan B, Ella &amp; IUDs Do Not Cause Abortions
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/27/conservatives-hobby-lobby-wrong-plan-b-ella-iuds-abortifacients.html">
+                <img width="80" height="66" title="Conservatives and Hobby Lobby Are Wrong: Plan B, Ella &amp; IUDs Do Not Cause Abortions" alt="Conservatives and Hobby Lobby Are Wrong: Plan B, Ella &amp; IUDs Do Not Cause Abortions" class="alignleft" src="http://src2.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/61764_10152038001184639_450894795_n.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                Hobby Lobby finds itself arguing, against science, that three forms of emergency contraception are actually abortifacients. They have now moved the goal post to unfertilized eggs constituting a possible pregnancy.…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/sarah-jones">
+                  Sarah Jones
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Thu, Mar 27th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Conservatives and Hobby Lobby Are Wrong: Plan B, Ella &amp; IUDs Do Not Cause Abortions" rel="nofollow" href="http://www.politicususa.com/2014/03/27/conservatives-hobby-lobby-wrong-plan-b-ella-iuds-abortifacients.html#comments">
+                    13 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <p style="text-align: center;">
+              <script type="text/javascript">
+//<![CDATA[
+&lt;!--
+google_ad_client = "ca-pub-2001531914781608";
+/* politicus middle */
+google_ad_slot = "8064447651";
+google_ad_width = 300;
+google_ad_height = 250;
+//--&gt;
+
+//]]>
+              </script>
+              <script src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
+              </script>
+            </p>
+            <div class="post-146800 post type-post status-publish format-standard hentry category-commentary category-featured-news entry" id="post-146800">
+              <h2 class="entry_title">
+                <a title="Permalink to About Those NSA Intrusions…What Are The Other Options?" rel="bookmark" href="http://www.politicususa.com/2014/03/27/nsa-intrusions-are-options-available.html">
+                  About Those NSA Intrusions…What Are The Other Options?
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/27/nsa-intrusions-are-options-available.html">
+                <img width="80" height="66" title="About Those NSA Intrusions…What Are The Other Options?" alt="About Those NSA Intrusions…What Are The Other Options?" class="alignleft" src="http://src1.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/NSA-Prism.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                It pains me to write this because on a certain level it compromises one of the greatest perks of a Democracy - privacy.…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/dennis-s">
+                  Dennis S
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Thu, Mar 27th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on About Those NSA Intrusions…What Are The Other Options?" rel="nofollow" href="http://www.politicususa.com/2014/03/27/nsa-intrusions-are-options-available.html#comments">
+                    5 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146775 post type-post status-publish format-standard hentry category-featured-news entry" id="post-146775">
+              <h2 class="entry_title">
+                <a title="Permalink to GOP Senator Susan Collins Will Not Cruise To An Easy Election Victory This November" rel="bookmark" href="http://www.politicususa.com/2014/03/26/gop-senator-susan-collins-cruise-easy-election-victory-november.html">
+                  GOP Senator Susan Collins Will Not Cruise To An Easy Election Victory This November
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/26/gop-senator-susan-collins-cruise-easy-election-victory-november.html">
+                <img width="80" height="66" title="GOP Senator Susan Collins Will Not Cruise To An Easy Election Victory This November" alt="GOP Senator Susan Collins Will Not Cruise To An Easy Election Victory This November" class="alignleft" src="http://src1.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/susan-collins.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                On Tuesday, the Democratic Senatorial Campaign Committee formally endorsed Shenna Bellows in Maine's US Senate race this year. She could give Sen. Collins a real fight this November.…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/justin-baragona">
+                  Justin Baragona
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Wed, Mar 26th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on GOP Senator Susan Collins Will Not Cruise To An Easy Election Victory This November" rel="nofollow" href="http://www.politicususa.com/2014/03/26/gop-senator-susan-collins-cruise-easy-election-victory-november.html#comments">
+                    5 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146744 post type-post status-publish format-standard hentry category-featured-news category-issues entry" id="post-146744">
+              <h2 class="entry_title">
+                <a title="Permalink to Conservatives Plant A New Insane Conspiracy By Accusing Obama of Common Core Mind Control" rel="bookmark" href="http://www.politicususa.com/2014/03/26/tea-party-fears-common-core-president-obama-ability-control-minds.html">
+                  Conservatives Plant A New Insane Conspiracy By Accusing Obama of Common Core Mind Control
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/26/tea-party-fears-common-core-president-obama-ability-control-minds.html">
+                <img width="80" height="66" title="Conservatives Plant A New Insane Conspiracy By Accusing Obama of Common Core Mind Control" alt="Conservatives Plant A New Insane Conspiracy By Accusing Obama of Common Core Mind Control" class="alignleft" src="http://src1.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/8ef7c930-b44a-11e3-84f5-9547b2943d40_commoncorephoto-1.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                Conservatives think President Obama has taken hold of their minds via Common Core, in his attempt to educate the country. They aren't having it.…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/sarah-jones">
+                  Sarah Jones
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Wed, Mar 26th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Conservatives Plant A New Insane Conspiracy By Accusing Obama of Common Core Mind Control" rel="nofollow" href="http://www.politicususa.com/2014/03/26/tea-party-fears-common-core-president-obama-ability-control-minds.html#comments">
+                    26 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146704 post type-post status-publish format-standard hentry category-featured-news entry" id="post-146704">
+              <h2 class="entry_title">
+                <a title="Permalink to Former Bush Sec. Of Defense Donald Rumsfeld Compares President Obama To a Trained Ape" rel="bookmark" href="http://www.politicususa.com/2014/03/25/bush-sec-defense-donald-rumsfeld-compares-president-obama-trained-ape.html">
+                  Former Bush Sec. Of Defense Donald Rumsfeld Compares President Obama To a Trained Ape
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/25/bush-sec-defense-donald-rumsfeld-compares-president-obama-trained-ape.html">
+                <img width="80" height="66" title="Former Bush Sec. Of Defense Donald Rumsfeld Compares President Obama To a Trained Ape" alt="Former Bush Sec. Of Defense Donald Rumsfeld Compares President Obama To a Trained Ape" class="alignleft" src="http://src2.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/donald-rumsfeld.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                Former Bush Sec. of Defense Donald Rumsfeld wasn't content with disagreeing with President Obama's foreign policy. He felt the need to compare the first African American president to an ape.
+…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/jasoneasley-2-2">
+                  Jason Easley
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Tue, Mar 25th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Former Bush Sec. Of Defense Donald Rumsfeld Compares President Obama To a Trained Ape" rel="nofollow" href="http://www.politicususa.com/2014/03/25/bush-sec-defense-donald-rumsfeld-compares-president-obama-trained-ape.html#comments">
+                    46 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146688 post type-post status-publish format-standard hentry category-featured-news entry" id="post-146688">
+              <h2 class="entry_title">
+                <a title="Permalink to Mitch McConnell May Have Lost His Senate Seat By Using Duke Basketball In Kentucky Ad" rel="bookmark" href="http://www.politicususa.com/2014/03/25/mitch-mcconnell-lost-senate-seat-duke-basketball-kentucky-ad.html">
+                  Mitch McConnell May Have Lost His Senate Seat By Using Duke Basketball In Kentucky Ad
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/25/mitch-mcconnell-lost-senate-seat-duke-basketball-kentucky-ad.html">
+                <img width="80" height="66" title="Mitch McConnell May Have Lost His Senate Seat By Using Duke Basketball In Kentucky Ad" alt="Mitch McConnell May Have Lost His Senate Seat By Using Duke Basketball In Kentucky Ad" class="alignleft" src="http://src3.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/02/Screen-Shot-2014-02-28-at-9.58.46-AM-1.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                Sen. Mitch McConnell's latest self-inflicted wound to his bid for reelection was a whopper. The Kentucky Republican used footage of Duke winning the national title in a campaign ad.…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/jasoneasley-2-2">
+                  Jason Easley
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Tue, Mar 25th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Mitch McConnell May Have Lost His Senate Seat By Using Duke Basketball In Kentucky Ad" rel="nofollow" href="http://www.politicususa.com/2014/03/25/mitch-mcconnell-lost-senate-seat-duke-basketball-kentucky-ad.html#comments">
+                    28 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146654 post type-post status-publish format-standard hentry category-featured-news entry" id="post-146654">
+              <h2 class="entry_title">
+                <a title="Permalink to SCOTUS To Hear Argument on Corporate ‘Religious Freedom’" rel="bookmark" href="http://www.politicususa.com/2014/03/25/scotus-hear-argument-corporate-religious-freedom.html">
+                  SCOTUS To Hear Argument on Corporate ‘Religious Freedom’
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/25/scotus-hear-argument-corporate-religious-freedom.html">
+                <img width="80" height="66" title="SCOTUS To Hear Argument on Corporate ‘Religious Freedom’" alt="SCOTUS To Hear Argument on Corporate ‘Religious Freedom’" class="alignleft" src="http://src1.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/Hobby-Lobby.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                If someone told me even a year ago, that the Supreme Court would consider if corporations practice a religion and with it, have a right to freedom of religion I…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/adalia-woodbury-2-2-2-2-2">
+                  Adalia Woodbury
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Tue, Mar 25th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on SCOTUS To Hear Argument on Corporate ‘Religious Freedom’" rel="nofollow" href="http://www.politicususa.com/2014/03/25/scotus-hear-argument-corporate-religious-freedom.html#comments">
+                    22 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146635 post type-post status-publish format-standard hentry category-featured-news category-issues category-republican_party entry" id="post-146635">
+              <h2 class="entry_title">
+                <a title="Permalink to Pat Robertson Says Woman’s Atheism Caused by Rape or Demonic Possession" rel="bookmark" href="http://www.politicususa.com/2014/03/25/pat-robertson-womans-atheism-caused-rape-demonic-possession.html">
+                  Pat Robertson Says Woman’s Atheism Caused by Rape or Demonic Possession
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/25/pat-robertson-womans-atheism-caused-rape-demonic-possession.html">
+                <img width="80" height="66" title="Pat Robertson Says Woman’s Atheism Caused by Rape or Demonic Possession" alt="Pat Robertson Says Woman’s Atheism Caused by Rape or Demonic Possession" class="alignleft" src="http://src1.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/Robertson_atheist.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                "To be that openly hostile to the word 'God,' it's something beyond the normal human experience. Something has happened."…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/hrafnkell-haraldsson-2">
+                  Hrafnkell Haraldsson
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Tue, Mar 25th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Pat Robertson Says Woman’s Atheism Caused by Rape or Demonic Possession" rel="nofollow" href="http://www.politicususa.com/2014/03/25/pat-robertson-womans-atheism-caused-rape-demonic-possession.html#comments">
+                    24 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="post-146614 post type-post status-publish format-standard hentry category-featured-news entry" id="post-146614">
+              <h2 class="entry_title">
+                <a title="Permalink to Jimmy Carter Slams Republicans: Not Supporting Equal Pay Is Abuse Against Women" rel="bookmark" href="http://www.politicususa.com/2014/03/24/jimmy-carter-slams-republicans-supporting-equal-pay-abuse-women.html">
+                  Jimmy Carter Slams Republicans: Not Supporting Equal Pay Is Abuse Against Women
+                </a>
+              </h2>
+              <a rel="bookmark" href="http://www.politicususa.com/2014/03/24/jimmy-carter-slams-republicans-supporting-equal-pay-abuse-women.html">
+                <img width="80" height="66" title="Jimmy Carter Slams Republicans: Not Supporting Equal Pay Is Abuse Against Women" alt="Jimmy Carter Slams Republicans: Not Supporting Equal Pay Is Abuse Against Women" class="alignleft" src="http://src3.politicususa.netdna-cdn.com/cdn-thumb/src=/wp-content/uploads/2014/03/carter-equal-pay.jpg&amp;w=80&amp;h=66&amp;q=80&amp;zc=1/thumbnail"/>
+              </a>
+              <p>
+                In an interview on MSNBC, former President Jimmy Carter called women being paid less than men a form of abuse, and compared it to racial discrimination.
+…
+              </p>
+              <p class="postmeta">
+                By: 
+                <a href="http://www.politicususa.com/author/jasoneasley-2-2">
+                  Jason Easley
+                </a>
+                <span style="white-space: nowrap" class="meta_date">
+                  Mon, Mar 24th, 2014
+                </span>
+                <span style="white-space: nowrap" class="meta_comment">
+                  <a title="Comment on Jimmy Carter Slams Republicans: Not Supporting Equal Pay Is Abuse Against Women" rel="nofollow" href="http://www.politicususa.com/2014/03/24/jimmy-carter-slams-republicans-supporting-equal-pay-abuse-women.html#comments">
+                    10 Comments
+                  </a>
+                </span>
+              </p>
+            </div>
+            <!-- google_ad_section_end -->            <div class="numbered-pagination">
+              <span>
+                Page 1 of 592
+              </span>
+              <span class="current">
+                1
+              </span>
+              <a class="inactive" href="http://www.politicususa.com/page/2?s=us&amp;x=0&amp;y=0">
+                2
+              </a>
+              <a class="inactive" href="http://www.politicususa.com/page/3?s=us&amp;x=0&amp;y=0">
+                3
+              </a>
+              <a href="http://www.politicususa.com/page/2?s=us&amp;x=0&amp;y=0" class="pagi-next">
+                Next ›
+              </a>
+              <a href="http://www.politicususa.com/page/592?s=us&amp;x=0&amp;y=0" class="pagi-last">
+                Last »
+              </a>
+              <div class="clear">
+              </div>
+            </div>
+          </div>
+          <!-- #main -->          <div id="sidebar">
+            <div class="sidebarinner">
+              <div style="margin-top: -4px;" class="sidebar_left" id="left-sidebar">
+                <div class="widget widget_text" id="text-17">
+                  <div class="widgetinner">
+                    <div class="textwidget">
+                      <h3 class="widgettitle">
+                        <a rel="shadowbox" href="#newsletter-form" id="nl-link" style=" color: #fff !important;">
+                          Click to subscribe to our daily newsletter
+                        </a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget widget_text" id="text-7">
+                  <div class="widgetinner">
+                    <h3 class="widgettitle">
+                      Our Latest on Facebook
+                    </h3>
+                    <div class="textwidget">
+                      <iframe scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:572px" allowtransparency="true" src="http://www.facebook.com/plugins/fan.php?id=186473214703370&amp;width=300&amp;connections=10&amp;stream=true&amp;header=true&amp;locale=en_US" class="aipewpddfdevopyqmojj">
+                      </iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget widget_text" id="text-11">
+                  <div class="widgetinner">
+                    <h3 class="widgettitle">
+                      PoliticusUSA in the Twitterverse
+                    </h3>
+                    <div class="textwidget">
+                      <a data-widget-id="401899146010841088" href="https://twitter.com/search?q=%40politicususa" class="twitter-timeline">
+                        Tweets about "@politicususa"
+                      </a>
+                      <script>
+//<![CDATA[
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+//]]>
+                      </script>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget widget_execphp" id="execphp-27">
+                  <div class="widgetinner">
+                    <h3 class="widgettitle">
+                      What folks are talking about…
+                    </h3>
+                    <div class="execphpwidget">
+                      <style type="text/css">
+                        
+	.vsrc-regimag img { 
+	float: left ;
+	border: 1px solid #CCCCCC ;
+	vertical-align:bottom; 
+	padding: 3px ;
+	margin-right: 2px;
+	};
+    
+                      </style>
+                      <div style="padding-top:8px;padding-bottom:8px;">
+                        <div id="vsrc_Holder" style="text-align: left; vertical-align: middle; text-decoration: none; overflow: hidden; position: relative; margin-left: 1px; height: 420px;">
+                          <div style="height:80px;padding:2px 0px 2px 0px;" class="vsrc_div">
+                            <span style="font-weight: 600;">
+                              majiir: 
+                            </span>
+                            <span>
+                              <a href="http://www.politicususa.com/2014/03/30/chair-state-investigation-cautions-clear-chris-christie.html#comment-348959">
+                                Christie's willing to do anything to become POTUS, even if it involves lying, hypocrisy, and corrupt ...
+                              </a>
+                            </span>
+                          </div>
+                          <div style="height:80px;padding:2px 0px 2px 0px;" class="vsrc_div">
+                            <span style="font-weight: 600;">
+                              Churchlady320: 
+                            </span>
+                            <span>
+                              <a href="http://www.politicususa.com/2014/03/30/nate-silvers-numbers-good-news-democrats.html#comment-348957">
+                                Since we elected him TWICE, you may not be alone in understanding both what the President has endure ...
+                              </a>
+                            </span>
+                          </div>
+                          <div style="height:80px;padding:2px 0px 2px 0px;" class="vsrc_div">
+                            <span style="font-weight: 600;">
+                              Lynn: 
+                            </span>
+                            <span>
+                              <a href="http://www.politicususa.com/2014/03/30/democratic-support-young-people-reaches-record-high.html#comment-348956">
+                                Dustin, this might be painful but, it is the truth.    http://www.irs.gov/pub/irs-prior/i1040sd--201 ...
+                              </a>
+                            </span>
+                          </div>
+                          <div style="height:80px;padding:2px 0px 2px 0px;" class="vsrc_div">
+                            <span style="font-weight: 600;">
+                              Bruce: 
+                            </span>
+                            <span>
+                              <a href="http://www.politicususa.com/2014/03/30/chair-state-investigation-cautions-clear-chris-christie.html#comment-348953">
+                                Do you mean ...    "If on the bridge you sit, you must acquit."? ...
+                              </a>
+                            </span>
+                          </div>
+                          <div style="height:80px;padding:2px 0px 2px 0px;" class="vsrc_div">
+                            <span style="font-weight: 600;">
+                              Gary Vaughn: 
+                            </span>
+                            <span>
+                              <a href="http://www.politicususa.com/2014/03/29/desperate-times-chris-christie-shames-aide-save-hide.html#comment-348952">
+                                They are going to find Ms. Kelly and Mr. Wildstein suddenly have Swiss accounts opened in their name ...
+                              </a>
+                            </span>
+                          </div>
+                          <div style="height:80px;padding:2px 0px 2px 0px;" class="vsrc_div">
+                            <span style="font-weight: 600;">
+                              Shiva: 
+                            </span>
+                            <span>
+                              <a href="http://www.politicususa.com/2014/03/29/republican-led-southern-states-dragging-america-leeching-tax-dollars.html#comment-348951">
+                                Few are man enough to admit they were wrong ...
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <script src="http://www.politicususa.com/wp-content/plugins/vertical-scroll-recent-comments/vertical-scroll-recent-comments.js?x=1396256584%3C" type="text/javascript">
+                      </script>
+                      <script type="text/javascript">
+//<![CDATA[
+
+		var vsrc_array	= new Array();
+		var vsrc_obj	= '';
+		var vsrc_scrollPos 	= '';
+		var vsrc_numScrolls	= '';
+		var vsrc_heightOfElm = '84'; // Height of each element (px)
+		var vsrc_numberOfElm = '5';
+		var vsrc_scrollOn 	= 'true';
+		function vsrc_createscroll() 
+		{
+			vsrc_array[0] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;majiir: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/chair-state-investigation-cautions-clear-chris-christie.html#comment-348959\'&gt;Christie\'s willing to do anything to become POTUS, even if it involves lying, hypocrisy, and corrupt ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[1] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Churchlady320: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/nate-silvers-numbers-good-news-democrats.html#comment-348957\'&gt;Since we elected him TWICE, you may not be alone in understanding both what the President has endure ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[2] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Lynn: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/democratic-support-young-people-reaches-record-high.html#comment-348956\'&gt;Dustin, this might be painful but, it is the truth.    http://www.irs.gov/pub/irs-prior/i1040sd--201 ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[3] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Bruce: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/chair-state-investigation-cautions-clear-chris-christie.html#comment-348953\'&gt;Do you mean ...    \"If on the bridge you sit, you must acquit.\"? ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[4] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Gary Vaughn: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/29/desperate-times-chris-christie-shames-aide-save-hide.html#comment-348952\'&gt;They are going to find Ms. Kelly and Mr. Wildstein suddenly have Swiss accounts opened in their name ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[5] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Shiva: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/29/republican-led-southern-states-dragging-america-leeching-tax-dollars.html#comment-348951\'&gt;Few are man enough to admit they were wrong ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[6] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Gary Vaughn: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/29/republican-led-southern-states-dragging-america-leeching-tax-dollars.html#comment-348950\'&gt;I think if he knew that Unions are outspent 15-1 politically, it still wouldn\'t phase the obvious br ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[7] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;heubler: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/democratic-support-young-people-reaches-record-high.html#comment-348949\'&gt;I think after the mid-terms the 18-29 demographic will have increased their participation even great ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[8] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;JACK: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/05/republican-economy-2-million-people-lost-unemployment-benefits-dec-28.html#comment-348948\'&gt;I think that this entire situation is a disgrace, and speaks volumes to the HUGE disconnect between ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[9] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Tani: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/democratic-support-young-people-reaches-record-high.html#comment-348947\'&gt;MUST WATCH: Students Walk Out On Dick Cheney, Call Him \"War Criminal\"    http://youtu.be/a2dMLlFnJbY ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[10] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Dustin: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/democratic-support-young-people-reaches-record-high.html#comment-348946\'&gt;How dare you use my name, which is my REAL name mind you, and spout out this garbage?    How can you ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[11] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;l3lessed: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/nate-silvers-numbers-good-news-democrats.html#comment-348945\'&gt;It\'s simple. Being a 29 year old myself, I can tell you the right lost me when they decided to steak ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[12] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;marcos anthony toledo: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/29/hobby-lobby-mixture-racism-xenophobia.html#comment-348944\'&gt;The Greens worship slavery under guise of religion. They think you become their slaves when you beco ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[13] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Shiva: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/taxpayers-bilked-billions-republicans-unconstitutionally-fund-religious-schools.html#comment-348943\'&gt;I say tax them until people stop going and life can progress ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[14] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Shiva: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/case-missed-it-assorted-oddities-web.html#comment-348942\'&gt;My gf has the habit of buying eggs and keeping them in the fridge for up to 3-4 months. At 2 weeks I ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[15] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;dragontech64: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/taxpayers-bilked-billions-republicans-unconstitutionally-fund-religious-schools.html#comment-348941\'&gt;How about like taking money that you are NOT entitled to, as a religious school is NOT entitled to t ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[16] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Lance: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/democratic-support-young-people-reaches-record-high.html#comment-348940\'&gt;Dustin,  that is what the Tea Party wants you to believe, as if you don\'t vote Dem, its a vote for P ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[17] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;djchefron: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/case-missed-it-assorted-oddities-web.html#comment-348939\'&gt;Don’t Put Your Bread In The Fridge &amp; Other Important Food Storage Tips  http://consumerist.com/201 ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[18] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Dcbos: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/fox-news-chris-wallace-republican-marching-orders-bringing-benghazi.html#comment-348938\'&gt;Watching this man makes one believe that he\'s directly related to Honey BOO BOO. ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[19] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;djchefron: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/case-missed-it-assorted-oddities-web.html#comment-348937\'&gt;Two Christian SC Senators Block Third Grader’s State Fossil Proposal Because Jesus  http://crooksa ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[20] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Dcbos: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/02/darrell-issa-fox-news-lay-foundation-impeaching-obama-irs-scandal.html#comment-348936\'&gt;Habitual lier lying on a network that habitually lies to people who lie to their friends; \"don\'t wre ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[21] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;spencer: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/29/lie-die-democrats-republicans.html#comment-348935\'&gt;Healthcare reform was a top priority in the nation when Obama was elected.  Obama has done what he s ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[22] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Dustin: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/30/case-missed-it-assorted-oddities-web.html#comment-348934\'&gt;Is it me or does the stripper look like a Fembot extra from the first Austin Powers movie? ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[23] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;Shiva: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/28/wingers-stephen-colbert-thrown-comedy-central.html#comment-348933\'&gt;LOL, you are good with cliches. Ron Paul? The one who wants all corporations to have no regualtions ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; vsrc_array[24] = '&lt;div class=\'vsrc_div\' style=\'height:80px;padding:2px 0px 2px 0px;\'&gt;&lt;span style=\'font-weight: 600;\'&gt;spencer: &lt;/span&gt;&lt;span&gt;&lt;a href=\'http://www.politicususa.com/2014/03/29/lie-die-democrats-republicans.html#comment-348932\'&gt;I\'m sorry, I certainly didnt mean to get under your skin. my post wasnt meant to be  a put down.   I ...&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;'; 			vsrc_obj = document.getElementById('vsrc_Holder');
+			vsrc_obj.style.height = (vsrc_numberOfElm * vsrc_heightOfElm) + 'px'; // Set height of DIV
+			vsrc_content();
+		}
+		
+//]]>
+                      </script>
+                      <script type="text/javascript">
+//<![CDATA[
+
+		vsrc_createscroll();
+		
+//]]>
+                      </script>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget widget_recent_entries" id="recent-posts-10">
+                  <div class="widgetinner">
+                    <h3 class="widgettitle">
+                      Recent Posts
+                    </h3>
+                    <ul>
+                      <!-- google_ad_section_start -->                      <li>
+                        <a href="http://www.politicususa.com/2014/03/30/case-missed-it-assorted-oddities-web.html">
+                          In Case You Missed It… Assorted Oddities from Around the Web
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://www.politicususa.com/2014/03/30/fox-news-chris-wallace-republican-marching-orders-bringing-benghazi.html">
+                          Fox News’ Chris Wallace Follows His Republican Marching Orders By Bringing Up Benghazi
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://www.politicususa.com/2014/03/30/democratic-support-young-people-reaches-record-high.html">
+                          Democratic Support Among Young People Reaches a Record High
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://www.politicususa.com/2014/03/30/chair-state-investigation-cautions-clear-chris-christie.html">
+                          Chris Christie Comeback Squashed As Lead Investigator Says Governor is Not Cleared
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://www.politicususa.com/2014/03/30/aca-signups-skyrocket-7-million-fox-news-claims-obama-cooking-books.html">
+                          As ACA Signups Skyrocket Towards 7 Million Fox News Claims Obama Is Cooking the Books
+                        </a>
+                      </li>
+                      <!-- google_ad_section_end -->                    </ul>
+                  </div>
+                </div>
+                <div class="widget widget_execphp" id="execphp-22">
+                  <div class="widgetinner">
+                    <h3 class="widgettitle">
+                      The latest from Politicus Sports
+                    </h3>
+                    <div class="execphpwidget">
+                      <div class="sports-frame">
+                        <iframe width="100%" scrolling="no" height="465" frameborder="0" style="border: 4px #1D4792 double; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;" src="http://sports.politicususa.com/wp-content/scripts/iframes/feat-post/feat-post.php">
+                        </iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- .sidebar_left -->              <div class="sidebar_right">
+                <div class="widget widget_execphp" id="execphp-18">
+                  <div class="widgetinner">
+                    <h3 class="widgettitle">
+                      Our Sponsors
+                    </h3>
+                    <div class="execphpwidget">
+                      <div class="blogads-sb-home">
+                        <script src="http://cache.blogads.com/676631968/feed.js" language="javascript">
+                        </script>
+                        <p>
+                          <a href="http://www.blogads.com">
+                            Blog advertising
+                          </a>
+                           is good for you.
+                        </p>
+                        <script src="http://cache.blogads.com/204059049/feed.js" language="javascript">
+                        </script>
+                        <br/>
+                        <a href="http://www.blogads.com">
+                        </a>
+                      </div>
+                      <!-- /blogads sb -->                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- .sidebar_right -->              <div class="clear">
+              </div>
+            </div>
+            <!-- .sidebarinner -->          </div>
+          <!-- #Sidebar -->          <div class="clear">
+          </div>
+        </div>
+        <!-- #Container -->      </div>
+      <!-- wrapper -->      <div id="footer">
+        <!-- March 31, 2014 01:03:04  -->        <ul class="footercats">
+          <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63145" id="menu-item-63145">
+            <a>
+            </a>
+          </li>
+          <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63148" id="menu-item-63148">
+            <a>
+            </a>
+          </li>
+        </ul>
+        <div class="clear">
+        </div>
+        <ul class="footerpages">
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63097">
+            <a href="/">
+              HOME
+            </a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-118523">
+            <a href="http://sports.politicususa.com/">
+              Sports
+            </a>
+          </li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63066">
+            <a href="http://www.politicususa.com/all-time-popular-posts">
+              ALL TIME POPULAR POSTS
+            </a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79170">
+            <a href="http://www.politicususa.com/proof-war-women-2">
+              Proof of the GOP War on Women
+            </a>
+          </li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76060">
+            <a href="http://www.politicususa.com/the-dirty-thirty-page">
+              The Dirty Thirty
+            </a>
+          </li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85236">
+            <a href="http://www.politicususa.com/contact-us">
+              Contact Us
+            </a>
+          </li>
+        </ul>
+        <div class="clear">
+        </div>
+        <div id="footer_meta">
+          <div style="margin-bottom: 10px;">
+            <span style="float: left;">
+              <strong>
+                ©2008 - 2014, 
+                <a rel="home" title="PoliticusUSA" href="#top">
+                   PoliticusUSA.com.  All rights reserved.
+                </a>
+              </strong>
+            </span>
+            <span style="float: right;">
+              <a href="/website-privacy-cookies">
+                Website Privacy &amp; Cookies
+              </a>
+              <span>
+              </span>
+            </span>
+          </div>
+          <p>
+            <img width="1" height="1" src="http://www.politicususa.com/wp-content/plugins/cookies-for-comments/css.php?k=72b213a96e6f756415e5215deeb289e0&amp;o=i&amp;t=750115341" alt="css.php"/>
+            <!-- tW EU Cookies: START footer insert -->          </p>
+          <div style="font-size:100%;text-align:right;float:right;clear:both;margin:-30px 0px 0px 8px;" id="cookie-footer-link">
+            <a rel="nofollow" href="http://www.politicususa.com/website-privacy-cookies">
+              Website Privacy &amp; Cookies
+            </a>
+          </div>
+          <!-- tW EU Cookies: END footer insert -->          <!-- Start of StatCounter Code -->          <script type="text/javascript">
+//<![CDATA[
+
+	&lt;!-- 
+		var sc_project=3592873; 
+		var sc_security="65b184fc"; 
+		var sc_invisible=1;
+	//--&gt;
+	
+//]]>
+          </script>
+          <script src="http://www.statcounter.com/counter/counter_xhtml.js" type="text/javascript">
+          </script>
+          <noscript>
+            &lt;div class="statcounter"&gt;&lt;a title="web analytics" href="http://statcounter.com/"&gt;&lt;img class="statcounter" src="http://c.statcounter.com/3592873/0/65b184fc/1/" alt="web analytics" /&gt;&lt;/a&gt;&lt;/div&gt;
+          </noscript>
+          <!-- End of StatCounter Code -->          <div style="display: none;">
+            <a href="mailto:bon@mailxu.com">
+              bon@mailxu.com
+            </a>
+          </div>
+          <!--Plugin WP Missed Schedule 2013.1231.2013 Active - Tag 6707293c0218e2d8b7aa38d418ffa608-->          <!-- This site is patched which an important unfixed problem since WordPress 2.5+ -->          <div id="wptouch_desktop_switch">
+          </div>
+          <script type="text/javascript">
+//<![CDATA[
+var wptouchAjaxUrl = 'http://www.politicususa.com/wp-admin/admin-ajax.php'; wptouchAjaxNonce = 'e07e9d9eab'; wptouchAjaxSwitchLocation = '/?s=us&amp;amp;x=0&amp;amp;y=0';
+//]]>
+          </script>
+          <script src="http://src1.politicususa.netdna-cdn.com/wp-content/plugins/wptouch-pro-3/include/js/desktop-switch.js" type="text/javascript">
+          </script>
+          <!-- Powered by WPtouch Pro: 3.1.8 -->          <script type="text/javascript">
+//<![CDATA[
+
+		jQuery(window).load(function() {
+			jQuery("[id^=oa_social_login_frame]").css("height", "40px !important");
+		});
+	
+//]]>
+          </script>
+          <script type="text/javascript">
+          </script>
+          <script type="text/javascript">
+//<![CDATA[
+
+	jQuery('.comment-form-url').remove();
+
+//]]>
+          </script>
+          <style type="text/css">
+            
+	#sb-title-inner {
+		visibility: hidden;
+	}
+	#wp_thumbie ul li {
+    		list-style-type: none !important;
+	}
+
+          </style>
+          <script type="text/javascript">
+//<![CDATA[
+
+	jQuery('#gplus-td').show();
+	jQuery('#sb-table').show();
+	jQuery('.post-edit-lnk a').addClass('button');
+	jQuery('.c a').attr('target', '_blank');
+
+	function cookiesAreEnabled(){
+		var cookieEnabled = (navigator.cookieEnabled) ? true : false;
+
+		if (typeof navigator.cookieEnabled == "undefined" &amp;&amp; !cookieEnabled){
+			document.cookie="testcookie";
+			cookieEnabled = (document.cookie.indexOf("testcookie") != -1) ? true : false;
+		}
+
+		return (cookieEnabled);
+	}
+
+
+//]]>
+          </script>
+          <script type="text/javascript">
+//<![CDATA[
+
+
+	jQuery('.rw-center').wrap('&lt;div id="ratings-block" /&gt;');
+
+
+//]]>
+          </script>
+          <script type="text/javascript">
+//<![CDATA[
+
+
+	jQuery.removeCookie('llortsi',{ path: '/' });
+
+	jQuery.getJSON('/wp-content/scripts/trlchk/trlchk.php', function(data){
+		if(data.tr == 'true' || jQuery.cookie('polllortsi2').indexOf('true') &gt;= 0){
+			jQuery.cookie('polllortsi2', 'true', { expires: 365, path: '/' });
+			jQuery('#comment-container').remove();
+			jQuery('#sb-comments').remove();
+		}
+	});
+
+	jQuery(window).load(function() {
+		jQuery('img#wordpress-icon').attr('src', 'http://src2.politicususa.netdna-cdn.com/wp-content/common/images/favicon-16x16.jpg');
+	});
+
+//]]>
+          </script>
+          <script type="text/javascript">
+//<![CDATA[
+
+	jQuery(document).ready(function() {
+		if(!cookiesAreEnabled()) {
+			jQuery("#reply-title").html("Cookies must be activated to comment.");
+			jQuery("#reply-title").css("color", "#cd1713");
+			jQuery("#commentform").remove();
+			jQuery("div.comments-policy").html("");
+			jQuery("#cboxWrapper").css("width", "300px");
+			jQuery("#cboxWrapper").css("height", "400px");
+		}
+	});
+
+//]]>
+          </script>
+          <script type="text/javascript">
+//<![CDATA[
+
+	jQuery(window).unload(function(){
+		var X = jQuery(location).attr('href');
+		jQuery.cookie('last_page_visited', X, { path: '/', domain: 'politicususa.com', expires: 3});
+	});
+
+//]]>
+          </script>
+          <script type="text/javascript">
+//<![CDATA[
+
+	jQuery('label[for="email"]').html("Email &lt;span style='color: rgb(255, 75, 51);'&gt;*&lt;/span&gt; &lt;small&gt;(Must be a valid email address)&lt;/small&gt;");
+
+//]]>
+          </script>
+          <script type="text/javascript">
+//<![CDATA[
+
+	jQuery(".MsoNormal").removeAttr("style");
+	jQuery(".MsoNormal").removeClass("MsoNormal");
+
+//]]>
+          </script>
+          <div style="position: fixed; bottom: 0; right: 0; height: 70px; width: 70px; z-index: 0; zoom: 1; filter: alpha(opacity=33); opacity: 0.33; background-image: url(http://src2.politicususa.netdna-cdn.com/wp-content/common/images/br-corner-blu-80x80.png);" id="server-indicator">
+          </div>
+          <script src="http://src2.politicususa.netdna-cdn.com/wp-content/uploads/shadowbox-js/1f4ac6d579ec4afda164dc68f7a33475.js" type="text/javascript">
+          </script>
+          <script src="http://src3.politicususa.netdna-cdn.com/wp-content/plugins/cryptx/js/cryptx.min.js" type="text/javascript">
+          </script>
+          <!-- Begin Shadowbox JS v3.0.3.10 -->          <!-- Selected Players: html, iframe, img, qt, swf, wmp -->          <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+	var shadowbox_conf = {
+		animate: true,
+		animateFade: true,
+		animSequence: "sync",
+		modal: false,
+		showOverlay: true,
+		overlayColor: "#000",
+		overlayOpacity: "0.8",
+		flashBgColor: "#000000",
+		autoplayMovies: false,
+		showMovieControls: true,
+		slideshowDelay: 0,
+		resizeDuration: "0.10",
+		fadeDuration: "0.35",
+		displayNav: true,
+		continuous: false,
+		displayCounter: true,
+		counterType: "default",
+		counterLimit: "10",
+		viewportPadding: "32",
+		handleOversize: "resize",
+		handleUnsupported: "link",
+		autoDimensions: false,
+		initialHeight: "360",
+		initialWidth: "485",
+		enableKeys: true,
+		skipSetup: false,
+		useSizzle: false,
+		flashParams: {bgcolor:"#000000", allowFullScreen:true},
+		flashVars: {},
+		flashVersion: "9.0.0"
+	};
+	Shadowbox.init(shadowbox_conf);
+/* ]]&gt; */
+
+//]]>
+          </script>
+          <!-- End Shadowbox JS -->          <p>
+          </p>
+        </div>
+      </div>
+      <!-- /footer -->    </div>
+    <!-- /body-wrapper -->    <!-- twitter follow badge -->    <div id="tw-floating-badge">
+      <a target="_blank" href="https://twitter.com/politicususa" style="position: fixed; top: 35px; right: 0px;">
+        <img width="20" height="67" src="http://src3.politicususa.netdna-cdn.com/wp-content/common/images/twitter-follow-badge-20x67.jpg" style="border:0;" class="aipewpddfdevopyqmojj"/>
+      </a>
+    </div>
+    <!-- /twitter follow badge -->    <!-- Floating Facebook Badge -->    <div id="fb-floating-badge">
+      <a target="_blank" href="http://www.facebook.com/PoliticusUSA" style="position: fixed; top: 115px; right: 0px;">
+        <img width="20" height="67" src="http://src1.politicususa.netdna-cdn.com/wp-content/common/images/facebook_badge-20x67.jpg" style="border:0;" class="aipewpddfdevopyqmojj"/>
+      </a>
+    </div>
+    <!-- /Floating Facebook Badge -->    <!-- Back to top -->    <a href="#top" style="display: scroll; position: fixed; bottom: 2px; right: 4px; z-index: 1;">
+      <img width="32" height="32" title="Back to the top of the page" src="http://src1.politicususa.netdna-cdn.com/wp-content/common/images/back-to-top.png" style="border:0;"/>
+    </a>
+    <!-- /Back to top -->    <div style="display: none;" id="newsletter-form">
+      <!-- Begin MailChimp Signup Form -->      <link type="text/css" rel="stylesheet" href="//cdn-images.mailchimp.com/embedcode/classic-081711.css"/>
+      <style type="text/css">
+        
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; min-height: 300px;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+      </style>
+      <div id="mc_embed_signup">
+        <form novalidate="" target="_blank" class="validate" name="mc-embedded-subscribe-form" id="mc-embedded-subscribe-form" method="post" action="http://politicususa.us3.list-manage.com/subscribe/post?u=522f85d70e88c4caace8df597&amp;id=0e13562030">
+          <center>
+            <img width="360" height="80" src="http://src1.politicususa.netdna-cdn.com/wp-content/uploads/2012/03/polusa-logo-360x86-1.jpg"/>
+            <p class="clear">
+            </p>
+            <h2>
+              Subscribe to PoliticusUSA's daily newsletter
+            </h2>
+          </center>
+          <div class="mc-field-group">
+            <center>
+              <label for="mce-EMAIL">
+                Enter your valid email address 
+                <br/>
+                <small class="">
+                  (a subscription confirmation email will be sent to you shortly)
+                </small>
+              </label>
+            </center>
+            <input type="email" id="mce-EMAIL" class="required email" name="EMAIL" value=""/>
+          </div>
+          <div class="clear" id="mce-responses">
+            <div style="display:none" id="mce-error-response" class="response">
+            </div>
+            <div style="display:none" id="mce-success-response" class="response">
+            </div>
+          </div>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->          <div style="position: absolute; left: -5000px;">
+            <input type="text" value="" name="b_522f85d70e88c4caace8df597_0e13562030"/>
+          </div>
+          <div class="clear">
+            <input type="submit" class="button" id="mc-embedded-subscribe" name="subscribe" value="Subscribe"/>
+          </div>
+        </form>
+      </div>
+      <script type="text/javascript">
+//<![CDATA[
+
+var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';
+try {
+    var jqueryLoaded=jQuery;
+    jqueryLoaded=true;
+} catch(err) {
+    var jqueryLoaded=false;
+}
+var head= document.getElementsByTagName('head')[0];
+if (!jqueryLoaded) {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = '//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+    head.appendChild(script);
+    if (script.readyState &amp;&amp; script.onload!==null){
+        script.onreadystatechange= function () {
+              if (this.readyState == 'complete') mce_preload_check();
+        }    
+    }
+}
+
+var err_style = '';
+try{
+    err_style = mc_custom_error_style;
+} catch(e){
+    err_style = '#mc_embed_signup input.mce_inline_error{border-color:#6B0505;} #mc_embed_signup div.mce_inline_error{margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff;}';
+}
+var head= document.getElementsByTagName('head')[0];
+var style= document.createElement('style');
+style.type= 'text/css';
+if (style.styleSheet) {
+  style.styleSheet.cssText = err_style;
+} else {
+  style.appendChild(document.createTextNode(err_style));
+}
+head.appendChild(style);
+setTimeout('mce_preload_check();', 250);
+
+var mce_preload_checks = 0;
+function mce_preload_check(){
+    if (mce_preload_checks&gt;40) return;
+    mce_preload_checks++;
+    try {
+        var jqueryLoaded=jQuery;
+    } catch(err) {
+        setTimeout('mce_preload_check();', 250);
+        return;
+    }
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'http://downloads.mailchimp.com/js/jquery.form-n-validate.js';
+    head.appendChild(script);
+    try {
+        var validatorLoaded=jQuery("#fake-form").validate({});
+    } catch(err) {
+        setTimeout('mce_preload_check();', 250);
+        return;
+    }
+    mce_init_form();
+}
+function mce_init_form(){
+    jQuery(document).ready( function($) {
+      var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
+      var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
+      $("#mc-embedded-subscribe-form").unbind('submit');//remove the validator so we can get into beforeSubmit on the ajaxform, which then calls the validator
+      options = { url: 'http://politicususa.us3.list-manage.com/subscribe/post-json?u=522f85d70e88c4caace8df597&amp;id=0e13562030&amp;c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+                    beforeSubmit: function(){
+                        $('#mce_tmp_error_msg').remove();
+                        $('.datefield','#mc_embed_signup').each(
+                            function(){
+                                var txt = 'filled';
+                                var fields = new Array();
+                                var i = 0;
+                                $(':text', this).each(
+                                    function(){
+                                        fields[i] = this;
+                                        i++;
+                                    });
+                                $(':hidden', this).each(
+                                    function(){
+                                        var bday = false;
+                                        if (fields.length == 2){
+                                            bday = true;
+                                            fields[2] = {'value':1970};//trick birthdays into having years
+                                        }
+                                    	if ( fields[0].value=='MM' &amp;&amp; fields[1].value=='DD' &amp;&amp; (fields[2].value=='YYYY' || (bday &amp;&amp; fields[2].value==1970) ) ){
+                                    		this.value = '';
+									    } else if ( fields[0].value=='' &amp;&amp; fields[1].value=='' &amp;&amp; (fields[2].value=='' || (bday &amp;&amp; fields[2].value==1970) ) ){
+                                    		this.value = '';
+									    } else {
+									        if (/\[day\]/.test(fields[0].name)){
+    	                                        this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;									        
+									        } else {
+    	                                        this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
+	                                        }
+	                                    }
+                                    });
+                            });
+                        $('.phonefield-us','#mc_embed_signup').each(
+                            function(){
+                                var fields = new Array();
+                                var i = 0;
+                                $(':text', this).each(
+                                    function(){
+                                        fields[i] = this;
+                                        i++;
+                                    });
+                                $(':hidden', this).each(
+                                    function(){
+                                        if ( fields[0].value.length != 3 || fields[1].value.length!=3 || fields[2].value.length!=4 ){
+                                    		this.value = '';
+									    } else {
+									        this.value = 'filled';
+	                                    }
+                                    });
+                            });
+                        return mce_validator.form();
+                    }, 
+                    success: mce_success_cb
+                };
+      $('#mc-embedded-subscribe-form').ajaxForm(options);
+      
+      
+    });
+}
+function mce_success_cb(resp){
+    $('#mce-success-response').hide();
+    $('#mce-error-response').hide();
+    if (resp.result=="success"){
+        $('#mce-'+resp.result+'-response').show();
+        $('#mce-'+resp.result+'-response').html(resp.msg);
+        $('#mc-embedded-subscribe-form').each(function(){
+            this.reset();
+    	});
+    } else {
+        var index = -1;
+        var msg;
+        try {
+            var parts = resp.msg.split(' - ',2);
+            if (parts[1]==undefined){
+                msg = resp.msg;
+            } else {
+                i = parseInt(parts[0]);
+                if (i.toString() == parts[0]){
+                    index = parts[0];
+                    msg = parts[1];
+                } else {
+                    index = -1;
+                    msg = resp.msg;
+                }
+            }
+        } catch(e){
+            index = -1;
+            msg = resp.msg;
+        }
+        try{
+            if (index== -1){
+                $('#mce-'+resp.result+'-response').show();
+                $('#mce-'+resp.result+'-response').html(msg);            
+            } else {
+                err_id = 'mce_tmp_error_msg';
+                html = '&lt;div id="'+err_id+'" style="'+err_style+'"&gt; '+msg+'&lt;/div&gt;';
+                
+                var input_id = '#mc_embed_signup';
+                var f = $(input_id);
+                if (ftypes[index]=='address'){
+                    input_id = '#mce-'+fnames[index]+'-addr1';
+                    f = $(input_id).parent().parent().get(0);
+                } else if (ftypes[index]=='date'){
+                    input_id = '#mce-'+fnames[index]+'-month';
+                    f = $(input_id).parent().parent().get(0);
+                } else {
+                    input_id = '#mce-'+fnames[index];
+                    f = $().parent(input_id).get(0);
+                }
+                if (f){
+                    $(f).append(html);
+                    $(input_id).focus();
+                } else {
+                    $('#mce-'+resp.result+'-response').show();
+                    $('#mce-'+resp.result+'-response').html(msg);
+                }
+            }
+        } catch(e){
+            $('#mce-'+resp.result+'-response').show();
+            $('#mce-'+resp.result+'-response').html(msg);
+        }
+    }
+}
+
+
+//]]>
+      </script>
+      <!--End mc_embed_signup-->    </div>
+    <div id="fb-root" class=" fb_reset">
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_http" allowtransparency="true" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="http://static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f213f4807ff62e6&amp;origin=http%3A%2F%2Fwww.politicususa.com">
+          </iframe>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_https" allowtransparency="true" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f213f4807ff62e6&amp;origin=http%3A%2F%2Fwww.politicususa.com">
+          </iframe>
+        </div>
+      </div>
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+        </div>
+      </div>
+    </div>
+    <!-- / #newsletter-form -->    <script type="text/javascript">
+//<![CDATA[
+
+	jQuery(document).ready(function(){
+		jQuery('#respond').show();
+		jQuery('.comments-policy').show();
+		jQuery('#twitter-follow').show();
+		jQuery('#cboxOverlay').css({ opacity: 0.25 });
+		jQuery("#goStats a").removeAttr("href").removeAttr("target");
+		jQuery('.vsrc_widget').removeClass('widget').css('margin-bottom', '-15px');
+			});
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+	   jQuery('.adminsOnly').remove();
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+	function openChat(){
+		window.open("http://discuss.politicususa.com/four-more-for-44.php","PoliticusUSA&amp;apos;s 'Four More for 44' watch party.","menubar=0, resizable=0, width=975, height=800");
+	}
+
+//]]>
+    </script>
+    <!-- path = /?s=us&x=0&y=0 -->    <!-- Politicus_USA -->    <div style="width:1px; height:1px;" id="div-gpt-ad-1389628067901-0">
+      <script type="text/javascript">
+//<![CDATA[
+
+googletag.display('div-gpt-ad-1389628067901-0');
+
+//]]>
+      </script>
+    </div>
+    <script src="http://platform.tumblr.com/v1/share.js">
+    </script>
+    <div id="fancybox-tmp">
+    </div>
+    <div id="fancybox-loading">
+      <div>
+      </div>
+    </div>
+    <div id="fancybox-overlay">
+    </div>
+    <div id="fancybox-wrap">
+      <div id="fancybox-outer">
+        <div id="fancybox-bg-n" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-ne" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-e" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-se" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-s" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-sw" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-w" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-nw" class="fancybox-bg">
+        </div>
+        <div id="fancybox-content">
+        </div>
+        <a id="fancybox-close">
+        </a>
+        <div id="fancybox-title">
+        </div>
+        <a id="fancybox-left" href="javascript:;">
+          <span id="fancybox-left-ico" class="fancy-ico">
+          </span>
+        </a>
+        <a id="fancybox-right" href="javascript:;">
+          <span id="fancybox-right-ico" class="fancy-ico">
+          </span>
+        </a>
+      </div>
+    </div>
+    <div id="sb-container">
+      <div id="sb-overlay">
+      </div>
+      <div id="sb-wrapper">
+        <div id="sb-title">
+          <div id="sb-title-inner">
+          </div>
+        </div>
+        <div id="sb-wrapper-inner">
+          <div id="sb-body">
+            <div id="sb-body-inner">
+            </div>
+            <div id="sb-loading">
+              <div id="sb-loading-inner">
+                <span>
+                  loading
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sb-info">
+          <div id="sb-info-inner">
+            <div id="sb-counter">
+            </div>
+            <div id="sb-nav">
+              <a onclick="Shadowbox.close()" title="Close" id="sb-nav-close">
+              </a>
+              <a onclick="Shadowbox.next()" title="Next" id="sb-nav-next">
+              </a>
+              <a onclick="Shadowbox.play()" title="Play" id="sb-nav-play">
+              </a>
+              <a onclick="Shadowbox.pause()" title="Pause" id="sb-nav-pause">
+              </a>
+              <a onclick="Shadowbox.previous()" title="Previous" id="sb-nav-previous">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

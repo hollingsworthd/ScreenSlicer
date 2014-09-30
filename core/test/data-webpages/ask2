@@ -1,0 +1,2239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      Ask.com - What's Your Question?
+    </title>
+    <link href="http://sp.ask.com/sh/i/a14/favicon/favicon.ico" rel="shortcut icon"/>
+    <div class="kxhead" data-id="Ittk1TvC" style="display:none;">
+    </div>
+    <script type="text/javascript" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript" src="//www.google.com/ads/search/module/ads/3.0/ac4102d880e86dcb06ede7fa1c07bb644250c116/n/search.js">
+    </script>
+    <script src="//www.google.com/adsense/search/async-ads.js">
+    </script>
+    <script type="text/javascript" src="//www.google.com/ads/search/module/ads/3.0/ac4102d880e86dcb06ede7fa1c07bb644250c116/n/search.js">
+    </script>
+    <script src="//cdn.krxd.net/ctjs/controltag.js.8199b31f1f3181d713e4638eb1119712">
+    </script>
+    <script type="text/javascript" async="" src="http://cdn.krxd.net/controltag?confid=Ittk1TvC">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script async="" src="//www.google.com/adsense/search/async-ads.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    var WZInfo = WZInfo||{};
+    var ss=function(){},cs=function(){};
+    var _docReadyFns = [];
+        $j = function(){return {ready:function(fn){_docReadyFns.push(fn);}};};
+    window.onload = function() {
+        for (var i = 0; i &lt; _docReadyFns.length; i++) {
+            var fn = _docReadyFns[i];
+            if (typeof fn === 'function') fn.call(document, jQuery);
+        }
+    };
+
+    var JASK = JASK || {};
+    JASK.cfg = (function() {
+        return {
+            "ldomain":"http://www.ask.com" ,
+            "_ldomain":"www.ask.com"
+        };
+    })();
+
+
+//]]>
+    </script>
+    <script type="text/javascript">
+    </script>
+    <script charset="utf-8" type="text/javascript">
+//<![CDATA[
+
+    (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push( arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName( O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js'; e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+
+//]]>
+    </script>
+    <script charset="utf-8" type="text/javascript">
+//<![CDATA[
+
+var ask = ask || {};
+ask.CSA = {};
+
+(function(){
+    var _logInConsole = false,
+        _csaStartTime = new Date(),         _csaResponseTime = null,
+        _domReady = false,
+        _showSerpTimeoutCleared = false,
+        _showSerpTimeoutLength = 2000,
+        _showSerpTimer = null,
+        _log = function(){
+            if(('false' === 'true') &amp;&amp; window.console &amp;&amp; console.log) {
+                console.log(Array.prototype.slice.call(arguments));
+            }
+        },
+                _domCallbacks = [],
+                        _csaCallbacksObjects = [];
+
+        ask.CSA.startTime = _csaStartTime;
+    ask.CSA.responseReceived = false;
+    ask.CSA.adsShown = false;
+    ask.CSA.responseTime = null;     ask.CSA.adsShownTime = null;     ask.CSA.domReadyTime = null;     ask.CSA.serpShownTime = null;     ask.CSA.serpVisible = false;
+    ask.CSA.showSerpTimeoutFired = false;
+    ask.CSA.showSerpTimeoutLength = _showSerpTimeoutLength;
+    ask.CSA.showSerpStartTime = null;
+    ask.CSA.numTopAds = null;
+    ask.CSA.numBottomAds = null;
+    ask.CSA.adDepth = null;
+    ask.CSA.serpHiddenPreAds = null;
+    ask.CSA.serpShownPostAds = null;
+
+    
+    
+    ask.CSA.addCSALoadCallback = function(adsCb, timeoutCb, timeoutValue){
+        _log("addCSALoadCallback", adsCb, timeoutCb, timeoutValue);
+        var callbackObj = null;
+
+        if(typeof adsCb !== "function") {
+            return;
+        }
+
+        callbackObj = { adsCb: adsCb, timeoutCb: timeoutCb, timeoutValue: timeoutValue, timeout: null };
+
+        if(ask.CSA.adsShown) {
+                        adsCb();
+        } else {
+
+            if(typeof timeoutCb === "function" &amp;&amp; timeoutValue &gt; 0) {
+
+                callbackObj.timeout = setTimeout(function(){
+                                        var idx = _csaCallbacksObjects.indexOf(callbackObj);
+                    if(idx &gt; -1) {
+                        handleCallbackTimeout(callbackObj);
+                    }
+                }, timeoutValue);
+
+            }
+
+                        _csaCallbacksObjects.push(callbackObj);
+        }
+    };
+
+        ask.CSA.startShowSerpTimeout = function(){
+        _log("startShowSerpTimeout", _showSerpTimeoutLength);
+        _showSerpTimer = setTimeout(handleSerpTimeout, _showSerpTimeoutLength);
+        ask.CSA.showSerpStartTime = new Date() - _csaStartTime;
+    };
+
+        ask.CSA.domReady = function(){
+        _log("domReady");
+        _domReady = true;
+        ask.CSA.domReadyTime = new Date() - _csaStartTime;
+        invokeCallbacks(_domCallbacks);
+    };
+
+    ask.CSA.showSerp = makeSerpVisible;
+
+    ask.CSA.handleTopAdsLoaded = function(containerName, adsLoaded){
+        _log("handleTopAdsLoaded " + adsLoaded);
+
+        addBackgroundColor(adsLoaded, containerName, ask.CSA.adblock1["colorBackground"]);
+
+        ask.CSA.adsShown = true;
+        ask.CSA.adsShownTime = new Date() - _csaStartTime;
+
+        makeSerpVisible();
+
+        fireCSACallbacks();
+    };
+
+    ask.CSA.handleNoTopAdsLoaded = noAdLoadedCallback;
+
+    ask.CSA.handleBottomAdsLoaded = function(containerName, adsLoaded){
+        _log("handleBottomAdsLoaded " + adsLoaded);
+
+        addBackgroundColor(adsLoaded, containerName, ask.CSA.adblock2["colorBackground"]);
+    };
+
+    ask.CSA.handleNoBottomAdsLoaded = noAdLoadedCallback;
+
+    ask.CSA.handleCSAResponse = function(numAdsMap) {
+        _log("handleCSAResponse " + numAdsMap);
+        
+        ask.CSA.responseTime = new Date() - _csaStartTime;
+
+        if (numAdsMap["magic1"] != undefined) {
+            ask.CSA.numTopAds = numAdsMap["magic1"];
+            ask.CSA.adDepth = ask.CSA.numTopAds;
+        }
+
+        if (numAdsMap["magic2"] != undefined) {
+            ask.CSA.numBottomAds = numAdsMap["magic2"];
+        }
+
+        if (ask.CSA.adDepth &lt; ask.CSA.numBottomAds) {
+            ask.CSA.adDepth = ask.CSA.numBottomAds;
+        }
+
+        if(_domReady) {
+            processAdResponse();
+        } else {
+            _domCallbacks.push(processAdResponse);
+        }
+    };
+
+    function processAdResponse(){
+        _log("processAdResponse");
+
+        if (ask.CSA.numTopAds &gt; 0 || ask.CSA.numBottomAds &gt; 0) {
+
+            var img = new Image();
+            var matchImg = 'http://www.ask.com/match?q=ibm&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;ip=ae678fa9&amp;o=0&amp;l=dir&amp;qsrc=0&amp;page=1&amp;dqi=&amp;cl=aj-cat&amp;ch=computers-other,orig_homepageSearchBox&amp;c=a&amp;p_uid=&amp;p_clk_id=' + '&amp;topAds=' + ask.CSA.numTopAds + '&amp;botAds=' + ask.CSA.numBottomAds + '&amp;dr=' + ask.CSA.responseTime + '&amp;lodid=us&amp;loaid=a16&amp;losid=a&amp;lid=';
+
+            _log(matchImg);
+            img.src = matchImg;
+        }
+
+        ask.CSA.responseReceived = true;
+
+                setCSAMetaDataCookie();
+
+            }
+
+    function isSerpVisible() {
+                var visible = false,
+            selectors = ["#midblock", "#rightblock", "#mobile-footer", ".mobile-web-results", ".hcsa"],
+            elems = null;
+
+        for(var i = 0; i &lt; selectors.length; i++) {
+            if(visible) continue;
+
+            try{
+                elems = document.querySelectorAll(selectors[i]);
+            } catch(e) {
+                _log("Error fetching serp elements: " + e);
+            }
+
+            if(elems) {
+                for(var j = 0; j &lt; elems.length; j++) {
+                    visible=(visible || isVisible(elems[j]));
+                }
+            }
+        }
+
+        return visible;
+    }
+
+    function isVisible(elem) {
+        var outOfFlow = (elem.offsetWidth !== 0 || elem.offsetHeight !== 0),
+            invisible = false;
+        try {
+            invisible = (window.getComputedStyle(elem).getPropertyValue("visibility") === "hidden");
+        } catch(e) {
+            _log("Error getting style of elem: " + e);
+        }
+
+        return outOfFlow || invisible;
+    }
+
+    function makeSerpVisible() {
+        if(ask.CSA.serpVisible) return;
+        _log("makeSerpVisible");
+        var css = '#midblock,#rightblock,#mobile-footer,.mobile-web-results,.hcsa { visibility:visible;}';
+        var head = document.getElementsByTagName('head')[0];
+        var style = document.createElement('style');
+        style.type = 'text/css';
+        if (style.styleSheet){
+            style.styleSheet.cssText = css;
+        } else {
+            style.appendChild(document.createTextNode(css));
+        }
+        head.appendChild(style);
+
+                if (!_showSerpTimeoutCleared) {
+            clearTimeout(_showSerpTimer);
+            _showSerpTimeoutCleared = true;
+        }
+
+        ask.CSA.serpVisible = true;
+        ask.CSA.serpShownTime = new Date() - _csaStartTime;
+    }
+
+        function setCSAMetaDataCookie(){
+        document.cookie = 'adDepth=' + ask.CSA.adDepth + ";path=/;domain=.ask.com";
+        document.cookie = 'ad_cnt=' + (ask.CSA.numTopAds + ask.CSA.numBottomAds) + ";path=/;domain=.ask.com";
+    }
+
+    function updateMonitoringHash(){
+        _log("updateMonitoringHash");
+        var topAds = ask.CSA.numTopAds || 0,
+            bottomAds = ask.CSA.numBottomAds || 0,
+            hash = "num_ads_top=" + topAds +
+                    "&amp;num_ads_bottom=" + bottomAds +
+                    "&amp;total_num_ads=" + (topAds + bottomAds) +
+                    "&amp;content_hidden_pre_ads=" + (ask.CSA.serpHiddenPreAds ? 1 : 0) +
+                    "&amp;content_shown_post_ads=" + (ask.CSA.serpShownPostAds ? 1 : 0) +
+                    "&amp;ads_response_time_ms=" + ask.CSA.responseTime;
+        window.location.hash = hash;
+    }
+
+    function updateMonitoringElement(){
+        _log("updateMonitoringElement");
+        var topAds = ask.CSA.numTopAds || 0,
+                bottomAds = ask.CSA.numBottomAds || 0,
+                body = document.getElementsByTagName("body")[0],
+                elem = document.createElement("div");
+
+                elem.setAttribute("id", "csa-monitor-data");
+        elem.setAttribute("style", "visibility: hidden;");
+        elem.setAttribute("data-num_ads_top", topAds);
+        elem.setAttribute("data-num_ads_bottom", bottomAds);
+        elem.setAttribute("data-total_num_ads", topAds + bottomAds);
+        elem.setAttribute("data-content_hidden_pre_ads", ask.CSA.serpHiddenPreAds ? 1 : 0);
+        elem.setAttribute("data-content_shown_post_ads", ask.CSA.serpShownPostAds ? 1 : 0);
+        elem.setAttribute("data-ads_response_time_ms", ask.CSA.responseTime);
+
+                body.appendChild(elem);
+    }
+
+    function noAdLoadedCallback(containerName, adsLoaded) {
+        _log("noAdLoadedCallback");
+
+        function process(){
+            var adContainer = document.getElementById(containerName);
+
+            if(adContainer)
+                adContainer.style.display = "none";
+
+            makeSerpVisible();
+        }
+
+        if(_domReady) {
+            process();
+        } else {
+            _domCallbacks.push(process);
+        }
+
+    }
+
+    function addBackgroundColor(adsLoaded, containerName, shadeSelector) {
+        var adElement = document.getElementById(containerName);
+        if (adElement) {
+            adElement.style.backgroundColor = shadeSelector;
+        }
+    }
+
+    function handleCallbackTimeout(callbackObj) {
+        _log("handleCallbackTimeout", callbackObj);
+        clearTimeout(callbackObj.timeout);
+        callbackObj.timeoutCb();
+    }
+
+    function handleSerpTimeout() {
+        _log("handleSerpTimeout");
+        makeSerpVisible();
+        ask.CSA.showSerpTimeoutFired = true;
+        _showSerpTimeoutCleared = true;
+    }
+
+    function fireCSACallbacks(){
+        _log("fireCSACallbacks");
+        var csaCallbacks = [];
+
+                for(var i = 0; i &lt; _csaCallbacksObjects.length; i++) {
+            csaCallbacks.push(_csaCallbacksObjects[i].adsCb);
+            clearTimeout(_csaCallbacksObjects[i].timeout);
+        }
+
+                _csaCallbacksObjects = [];
+        _log("csaCallbacks: ", csaCallbacks);
+        invokeCallbacks(csaCallbacks);
+    }
+
+    function invokeCallbacks(callbacks) {
+        if(callbacks.length) {
+            for(var i = 0; i &lt; callbacks.length; i++) {
+                if(typeof callbacks[i] == "function") {
+                    _log("invoking callback " + i);
+                    try{
+                        callbacks[i].call(null);
+                    } catch(e){
+                                            }
+                }
+            }
+                        callbacks.splice(0, callbacks.length);
+        }
+    }
+})();
+
+
+
+_googCsa('jsLoadedCallback', function () {
+
+    var pageOptions = ask.CSA.pageOptions = {"instantPreviews":false,"adPage":"1","sellerRatings":true,"attributionSpacingBelow":7,"location":false,"plusOnes":true,"query":"ibm","numRepeated":"5","domainLinkAboveDescription":true,"adtest":"off","rightHandAttribution":false,"offerExtension":false,"hl":"","heightConstrained":false,"oe":"utf-8","adsafe":"medium","pubId":"aj-cat","ie":"utf-8","siteLinks":true,"linkTarget":"_blank","channel":"computers-other,orig_homepageSearchBox","clickToCall":false};
+    if (pageOptions) {
+        pageOptions['adsResponseCallback'] = ask.CSA.handleCSAResponse;
+    }
+
+    var adblock1 = ask.CSA.adblock1 = {"lineHeightDomainLink":"19","colorAttribution":"#333333","colorBackground":"#FFFFFF","colorDomainLink":"#0E7744","colorTitleLink":"#3300B5","width":"99.5%","detailedAttribution":true,"clicktrackUrl":"http://www.ask.com/clk?pos=top&amp;q=ibm&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;ip=ae678fa9&amp;o=0&amp;l=dir&amp;qsrc=0&amp;page=1&amp;dqi=&amp;cl=aj-cat&amp;ch=computers-other%2Corig_homepageSearchBox&amp;c=a&amp;p_uid=&amp;p_clk_id=&amp;lpurl=http%3A%2F%2Fwww.ask.com%2Fweb%3Fq%3Dibm%26qsrc%3D0%26o%3D0%26l%3Ddir%26qo%3DhomepageSearchBox&amp;lp_ref_url=0&amp;anxu=http%3A%2F%2Fwww.ask.com%2Fweb&amp;pl=3856Hq%3Dci%25%26Bj5%3DQQD63xxNe_sDQ_ArkGsXfifIZ8QLU6Sw1%26hw%3Dj83iG%26EC%3Dprw8kEEn9dF0fy4P0QRawhzIjNIMOudW%26jX%3DT3U7mam15bJJANwMZ%26VomD%3DyG-yta%26Sr%3DxSC90q%26L2R%3D%26FC%3DR8pk1MJhGTo%26rr%3D24Q04%265%25P%3DuR%26b8%3DtUk%264a%3Dw%26xg%3D%26Kgn%3D%26r%3Dc&amp;up=3a7bA%3DdTa92g%26In%3DK50%26%25v%3Dbok%263v.ioP6E2%3Ds%25p%26t0.Eu6O%2Br%3DlV-WSD%261N.x6FCenInt58E1%3DfHGjud5w1-woqWQ%2C1yJQ_ao8UaYXT7Jm0vmUKu%26X%3DgvyTI6","fontSizeDomainLink":"13","colorAdSeparator":"#FFFFFF","clickableBackgrounds":true,"colorText":"#333333","fontSizeDescription":"13","lineHeightDescription":"17","fontSizeTitle":"15","fontSizeAttribution":"13","maxTop":"5","container":"magic1","verticalSpacing":"9","lineHeightTitle":"18","longerHeadlines":true};
+    if (adblock1) {
+        adblock1['noAdLoadedCallback'] = ask.CSA.handleNoTopAdsLoaded;
+        adblock1['adLoadedCallback'] = ask.CSA.handleTopAdsLoaded;
+    }
+
+    var adblock2 = ask.CSA.adblock2 = {"lineHeightDomainLink":"19","colorAttribution":"#333333","colorBackground":"#FFFFFF","colorDomainLink":"#0E7744","colorTitleLink":"#3300B5","width":"99.5%","detailedAttribution":true,"number":"5","clicktrackUrl":"http://www.ask.com/clk?pos=bottom&amp;q=ibm&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;ip=ae678fa9&amp;o=0&amp;l=dir&amp;qsrc=0&amp;page=1&amp;dqi=&amp;cl=aj-cat&amp;ch=computers-other%2Corig_homepageSearchBox&amp;c=a&amp;p_uid=&amp;p_clk_id=&amp;lpurl=http%3A%2F%2Fwww.ask.com%2Fweb%3Fq%3Dibm%26qsrc%3D0%26o%3D0%26l%3Ddir%26qo%3DhomepageSearchBox&amp;lp_ref_url=0&amp;anxu=http%3A%2F%2Fwww.ask.com%2Fweb&amp;pl=ad4btN%3DvnR%26LS7%3D%2559mEaGDQ_Q6z_QROB5IpKU9wmc%2BvsFco%267p%3DBYB0T%26Cf%3DARj9GBX7j2%2BI0vrRYgORovNjO8SEzd2m%265o%3D2kjBvG9RVbydOC5eg%26Sm8H%3DXL-VZk%26JI%3Da6YDr3%26f4P%3D%26YZ%3DJhIe4QkpbwD%26uL%3DVeunU%26v7C%3DZR%269E%3DgNW%26C0%3DB%26ub%3D%26eSm%3D%262%3D7&amp;up=1f560%3DXr9F%2B8%26rl%3DZva%26Sx%3DyI9%26y5.rzvbhU%3D07f%26l5.Ldg8LK%3Da9-iqo%26Qg.38MvnZO0YwTiu%3DVOGvEoJ60-p253%25%2CVYgf_Heq7BXjzLw9QHGlrw%26s%3DJLL1tCbHY","fontSizeDomainLink":"13","colorAdSeparator":"#FFFFFF","clickableBackgrounds":true,"colorText":"#333333","fontSizeDescription":"13","lineHeightDescription":"17","fontSizeTitle":"15","fontSizeAttribution":"13","container":"magic2","verticalSpacing":"9","lineHeightTitle":"18","longerHeadlines":true};
+    if (adblock2) {
+        adblock2['noAdLoadedCallback'] = ask.CSA.handleNoBottomAdsLoaded;
+        adblock2['adLoadedCallback'] = ask.CSA.handleBottomAdsLoaded;
+    }
+
+    window['backfillParam'] = window.backfillParam || {};
+    window['backfillParam']['pl_hex'] = adblock1.colorBackground ? adblock1.colorBackground : "#FFFFFF";
+    window['backfillParam']['pl_cl'] = pageOptions.pubId,
+    window['backfillParam']['pl_ch'] = pageOptions.channel,
+    window['backfillParam']['pl_type'] = 'csa';
+    window['backfillParam']['pl_rp'] = (pageOptions.numRepeated) ? true : false;
+    window['backfillParam']['pl_clksp'] = adblock1.clickableBackgrounds;
+    window['backfillParam']['pl_rqnum'] = parseInt(adblock1.maxTop) + parseInt(adblock2.number);
+    window['backfillParam']['pl_timeout'] = ask.CSA.showSerpTimeoutLength ? ask.CSA.showSerpTimeoutLength : 0;
+
+    try {
+        _googCsa('ads', pageOptions, adblock1, adblock2);
+    } catch (err) {
+        ask.CSA.showSerp();
+    }
+});
+
+
+
+//]]>
+    </script>
+    <style type="text/css">
+      
+        #magic1 {
+        border-bottom: 1px solid #D7D7D7;
+    }
+
+    #magic2 {
+        border-top: 1px solid #D7D7D7;
+    }
+    
+    </style>
+  </head>
+  <body class="a16">
+    <noscript/>
+    <link type="text/css" rel="stylesheet" href="http://saservice.ask.com/c/css/sas-2f9b320ef5c4bb2df87939c5b30508f21601c831.css"/>
+    <link href="/st/c/css/ask_web-83c9b4996d9479264cae24a4a3e844d006fc59e3.css" rel="stylesheet" type="text/css"/>
+    <style>
+      
+
+    .ssp, #sbut{
+        background-image: url(http://sp.ask.com/sh/i/a16/serp/SERP_sprite_19.png);
+    }
+
+            .hcsa {
+            visibility:hidden;
+        }
+        .speech {
+        background-position: 52px 0;
+    }
+    .sa_headline {
+        font-size: 15px;
+    }
+    .avtsp {
+        background-image:url('http://sp.ask.com/sh/i/a16/avatarblock_sprite_02.png');
+        width:160px;
+        height:16px;
+    }
+
+            .txt1 {
+            line-height:14px;
+        }
+        .txt2 {
+            line-height:15px;
+        }
+        .txt3 {
+            line-height: 17px;
+        }
+        .txt4 {
+            line-height: 17px;
+        }
+        .txt_lg {
+            line-height:19px;
+        }
+        .spl_ad_plus .lindp {
+            line-height: 17px;
+        }
+        .spl_ad_plus {
+            line-height: 17px;
+        }
+        .lindp .splTitle{
+            line-height: 19px;
+        }
+    
+            .grey_bb{
+            border-bottom: 1px solid #D7D7D7;
+        }
+        .grey_bt{
+            border-top: 1px solid #D7D7D7;
+        }
+        .greypt5{
+            padding-top: 5px;
+        }
+        .arw_btn{
+        background-image: url(http://sp.ask.com/sh/i/a10f/btn_play.png);
+    }
+
+
+    
+    
+    
+    
+    
+    .ac_results span{
+        display: inline;
+    }
+
+    </style>
+    <script type="text/javascript" src="http://b.scorecardresearch.com/beacon.js">
+    </script>
+    <style type="text/css">
+      #midblock,#rightblock,#mobile-footer,.mobile-web-results,.hcsa { visibility:visible;}
+    </style>
+    <style type="text/css">
+      
+    .a16 .c2n {
+        height: 103px;
+    }
+
+    </style>
+    <div id="nav">
+      <div id="a16Cnb">
+        <div class="a16nb">
+          <div class="lm">
+            <div class="mi smi">
+              <div style="float:left;">
+                Answers
+              </div>
+              <div style="clear:both;">
+              </div>
+            </div>
+            <div class="mi ">
+              <a href="http://www.ask.com/answers/browse?qsrc=167&amp;q=ibm&amp;qo=channelNavigation&amp;o=0&amp;l=dir" style="display:block;" onmousedown="uaction(this,{up:'9aebX=kYxvtg&amp;W=xlIPIv&amp;7%=h&amp;l9=aSap3SOs2F&amp;jf=METllqda41&amp;pG=+&amp;NI=MREAG+IGA'});">
+                <div style="float:left;" class="tu">
+                  Q&amp;A Community
+                </div>
+                <div style="clear:both;">
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="rm">
+            <div style="padding-left:0;" class="mi">
+              <div style="visibility: visible;" id="signin">
+                <img src="http://sp.ask.com/sh/i/a14/c/generic.png" alt="" style="width:16px;height:16px;margin-top:1px;"/>
+                <a style="margin-left:12px;display:inline-block;vertical-align:top;" href="http://www.ask.com/answers/browse?qsrc=167&amp;q=ibm&amp;o=0&amp;l=dir#opensignin" onmousedown="uaction(this,{up:'21f6q=sqq4Pu&amp;T=uBZwmk&amp;Kg=0&amp;sr=qTeI7ww5Ah&amp;mt=wxZuYV3ydn&amp;CB=z&amp;l1=zbKEE8Dc4'});">
+                  Sign In
+                </a>
+              </div>
+              <div style="display:none;" id="signedin">
+                <a style="display:inline-block;height:16px;width:16px;vertical-align:top;margin-top:2px;" href="http://www.ask.com/answers/profile?qsrc=3099" id="avatar">
+                </a>
+                <a style="vertical-align:top;margin-left:8px;" href="http://www.ask.com/answers/profile?qsrc=3099" id="profile">
+                </a>
+                <a style="vertical-align:top;margin-left:10px;" href="javascript:void(0);" id="signout">
+                  Sign Out
+                </a>
+              </div>
+            </div>
+            <div style="float:right;height:21px;border-left:1px solid #898F91;border-right:1px solid #B8BFC1;margin:5px 5px 0 5px;width:0;">
+            </div>
+            <div class="mi">
+              <a href="http://www.ask.com/settings?qsrc=167&amp;q=ibm&amp;qo=channelNavigation&amp;o=0&amp;l=dir" onmousedown="uaction(this,{up:'989bH=x8Hjl1&amp;f=qU2kHJ&amp;0P=n&amp;eB=31Kt4637cY&amp;ct=%2s9TTtxMx&amp;kC=3&amp;ni=hVjQMntCf'});">
+                Settings
+              </a>
+            </div>
+            <div class="mi">
+              <a href="http://www.ask.com/advancedsearch?qsrc=167&amp;q=ibm&amp;qo=channelNavigation&amp;o=0&amp;l=dir" onmousedown="uaction(this,{up:'cf46P=i3GDKM&amp;J=dBWXhp&amp;mg=7&amp;CK=19tGeYQIiT&amp;LN=PjqtQRzcGu&amp;eW=B&amp;EI=zObqjjg5o'});">
+                Advanced Search
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="clear:both;">
+      </div>
+    </div>
+    <div id="top_search">
+      <div class="ssp" id="top_navbar_logo">
+        <a href="http://www.ask.com/?o=0&amp;l=dir&amp;qsrc=14137" title="Ask.com" onmousedown="uaction(this,{up:'f04bt=k4IGj2&amp;X=m48Hb3&amp;+R=u&amp;KR=KFoNqjSufM&amp;dY=SpDHgRQaQ7&amp;Rk=M&amp;w0=6i3IEsLEc'});" id="logo">
+          <span style="display:none">
+            askLogo
+          </span>
+        </a>
+      </div>
+      <div style="margin-left: 10px;" name="searchBoxContainer" id="searchBox">
+        <form action="/web" id="topform">
+          <div style="border-color: rgb(168, 212, 245);" class="sb-wr" id="sb">
+            <input type="hidden" name="qsrc" value="1" id="qsrc_top"/>
+            <input type="hidden" name="o" value="0" id="origin"/>
+            <input type="hidden" name="l" value="dir" id="partnerID"/>
+            <input type="text" maxlength="2048" autocomplete="off" name="q" value="ibm" class="ac_input" data-ordinal="5" id="top_q_comm"/>
+            <input type="hidden" name="qo" value="serpSearchTopBox" id="qo"/>
+          </div>
+          <input type="submit" value="" class="" id="sbut"/>
+        </form>
+      </div>
+    </div>
+    <div class="c2c fh">
+      <div class="main">
+        <div class="c3">
+          <div class="leftNav">
+            <ul>
+              <li>
+                <span class="b">
+                  Everything
+                </span>
+                <span class="arrow ssp">
+                </span>
+              </li>
+              <li>
+                <a href="http://www.ask.com/pictures?q=ibm&amp;qsrc=167&amp;qo=channelNavigation&amp;o=0&amp;l=dir" onmousedown="uaction(this,{up:'c296z=+fIW20J&amp;B=Jy%g&amp;Sa=%&amp;WP=x%z2Jz313N&amp;mJ=9bMJ2oXt4o&amp;XU=u&amp;A6=VvSMK%lIz'});" class="txt4">
+                  Images
+                </a>
+              </li>
+              <li>
+                <a href="http://www.ask.com/news?q=ibm&amp;qsrc=167&amp;qo=channelNavigation&amp;o=0&amp;l=dir" onmousedown="uaction(this,{up:'1ea6K=whkz+1C&amp;K=DyiU&amp;x+=A&amp;3f=wQ+dGw7YZ1&amp;Wr=4GOcW%tJYp&amp;YV=m&amp;Sz=HmpLi0++U'});" class="txt4">
+                  News
+                </a>
+              </li>
+              <li>
+                <a href="http://www.ask.com/youtube?q=ibm&amp;qsrc=167&amp;qo=channelNavigation&amp;o=0&amp;l=dir" onmousedown="uaction(this,{up:'70b6z=Beqovrt&amp;x=esWG&amp;pz=Z&amp;Oo=oZVD4qRDQG&amp;En=o8vpLm+bfo&amp;DE=+&amp;Ce=IEWozLrOq'});" class="txt4">
+                  Videos
+                </a>
+              </li>
+              <li>
+                <a href="http://www.ask.com/shopping?q=ibm&amp;qsrc=167&amp;qo=channelNavigation&amp;o=0&amp;l=dir" onmousedown="uaction(this,{up:'f8c6P=ERd8i3x&amp;L=O4fn&amp;K9=A&amp;0u=YQAuAy0gl5&amp;hN=UMDAehM9KA&amp;Jl=C&amp;5O=+6EsNaqkp'});" class="txt4">
+                  Shopping
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);" id="more" class="txt4">
+                  <span style="float: left;">
+                    More
+                  </span>
+                  <span class="lnavMore ssp">
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <ul style="display: none;" class="moreLinks">
+              <li>
+                <a href="http://www.ask.com/maps?q=ibm&amp;qsrc=167&amp;qo=channelNavigation&amp;o=0&amp;l=dir" onmousedown="uaction(this,{up:'f6d6d=UTZwPy4&amp;9=A3xK&amp;NC=F&amp;kO=VFV53%j8hq&amp;AU=iUVY%+3M8d&amp;Zf=u&amp;t4=krPGd2mx8'});" class="txt4">
+                  Maps
+                </a>
+              </li>
+              <li>
+                <a href="http://www.ask.com/games?q=ibm&amp;qsrc=167&amp;qo=channelNavigation&amp;o=0&amp;l=dir" onmousedown="uaction(this,{up:'aae6y=C5XjiJh&amp;q=Qc4w&amp;OL=r&amp;BA=4HFC%rxpn0&amp;iY=oJ8NcfJmaA&amp;%C=w&amp;7H=tsIP92w+N'});" class="txt4">
+                  Games
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);" id="less" class="txt4">
+                  <span style="float: left;">
+                    Less
+                  </span>
+                  <span class="lnavLess ssp">
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div style="padding-left: 10px;" class="c2 hcsa" id="midblock">
+          <div id="csaTop">
+            <div id="magic1">
+            </div>
+          </div>
+          <script>
+//<![CDATA[
+
+    window['backfillParam'] = window['backfillParam'] || {};
+            window['backfillParam']['pl_tmodn'] = 1;
+        ask.CSA.startShowSerpTimeout();
+
+//]]>
+          </script>
+          <div data-foresee="RLT" id="mrRSM" class="relmod rrItem">
+            <h2 class="sectionheader" id="rlTitle_0">
+              Explore Answers About
+            </h2>
+            <ul style="max-width:320px;margin-right:40px;" class="fl">
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+Computer+History&amp;qsrc=466&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'54f6x=7edJdieGGcbb1Hni&amp;+=VerxEY&amp;gw=1&amp;5e=dKGEv+SY8pZPB&amp;Tt=CL0s&amp;Km=E',tp:'rst',ec:'12'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   Computer History
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=History+of+IBM&amp;qsrc=466&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'a3fb9=4rWcefEL4BDy5b%C&amp;c=dFpTrk&amp;Au=1&amp;IA=8BVIEAZpO6im+&amp;tj=Wtc9&amp;wz=a',tp:'rst',io:'2',ec:'12'})" class="txt4 title">
+                  History of 
+                  <b>
+                    IBM
+                  </b>
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+Stock+Price+Today&amp;qsrc=466&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'2986Y=0sru1nRPl+bHzuM%&amp;D=z2FU+9&amp;QM=p&amp;Ea=m0EXxfcB3mIQp&amp;HB=ZrFZ&amp;tX=b',tp:'rst',io:'4',ec:'12'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   Stock Price Today
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+Laptops&amp;qsrc=466&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'2c6b3=%VjvGCUrSSKDdl86&amp;K=guhMn2&amp;QJ=S&amp;fd=JjjKBaeQ9zqaQ&amp;Ri=9wtZ&amp;8Z=l',tp:'rst',io:'6',ec:'12'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   Laptops
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+Retiree+Benefits&amp;qsrc=466&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'5416F=Zcv4nvOe9D3ZKkvi&amp;a=MEFQIE&amp;H7=m&amp;3U=6fWwEUn4xmM9i&amp;3z=9JnQ&amp;uC=f',tp:'rst',io:'8',ec:'12'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   Retiree Benefits
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=Dell&amp;qsrc=466&amp;o=0&amp;l=dir&amp;qo=relatedSearchExpand" onmousedown="pk(this,{en:'r2',b:'rlt',up:'3edbN=20L%q6HZsIT4GADo&amp;4=UltXof&amp;VM=i&amp;Rb=C8fBlmyBK%6Qi&amp;Pk=GRRm&amp;y+=7',tp:'rst',io:'10',ec:'12'})" class="txt4 title">
+                  Dell
+                </a>
+              </li>
+            </ul>
+            <ul style="max-width:320px;" class="fl">
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+Thinkpad&amp;qsrc=466&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'14a6o=ifE+BpkHdoYOJYPt&amp;4=flcB4K&amp;BM=B&amp;w%=EjO%7PF2T%rtx&amp;HC=QRTg&amp;xD=C',tp:'rst',io:'1',ec:'12'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   Thinkpad
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+Logo&amp;qsrc=466&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'9b4bC=rTZmbSMABnQ4a%qN&amp;U=m1f+LM&amp;6k=A&amp;dM=yfvzEoEXn53zj&amp;D%=Ocx3&amp;5U=G',tp:'rst',io:'3',ec:'12'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   Logo
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=Company+Profile+IBM&amp;qsrc=466&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'ab36X=cl8yURHXVcdVO8Zr&amp;w=No3tXG&amp;h2=S&amp;lH=hWwy9MfhitWBl&amp;m0=P4Wx&amp;nd=2',tp:'rst',io:'5',ec:'12'})" class="txt4 title">
+                  Company Profile 
+                  <b>
+                    IBM
+                  </b>
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+Employment&amp;qsrc=466&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'01bbN=%SJqLeUx2+iUsjgw&amp;4=VcT+Hj&amp;Bb=OH&amp;9i=aF2WKitsDMSxo&amp;rF=xPNW&amp;UI=F',tp:'rst',io:'7',ec:'12'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   Employment
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=Lenovo&amp;qsrc=466&amp;o=0&amp;l=dir&amp;qo=relatedSearchExpand" onmousedown="pk(this,{en:'r2',b:'rlt',up:'a6dbT=q6+eQa75SOh%6G3u&amp;s=0LzluF&amp;1a=jP&amp;f4=pySsHZ4Mid+DN&amp;HF=qXOE&amp;yy=s',tp:'rst',io:'9',ec:'12'})" class="txt4 title">
+                  Lenovo
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=Thomas+J+Watson&amp;qsrc=466&amp;o=0&amp;l=dir&amp;qo=relatedSearchNames" onmousedown="pk(this,{en:'r3',b:'rlt',up:'73fbj=SDKo4rsXSNrKTnYO&amp;2=ptBHD%&amp;Mi=a7&amp;KY=0C5+1OYekRNUx&amp;61=soZI&amp;mJ=q',tp:'rst',io:'11',ec:'12'})" class="txt4 title">
+                  Thomas J Watson
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div style="clear:both;" class="rmwi" id="teoma-results">
+            <div class="stm" id="lindm">
+              <div class="ptb5  sectionheader ">
+                More Answers
+              </div>
+              <div class="wresult tsrc_SAS">
+                <div data-area="82" data-partner="6" data-extended="da_sn=00090&amp;da_origin=raw&amp;da_sro=1789282&amp;da_lhs=1789173&amp;da_lhx=Amazon%3A+simple&amp;da_cat=16&amp;da_lhp=1&amp;da_partner=6" data-block="a001" data-en="asa" data-zen="true" data-foresee="SA" class="ptbs sasr sa_wide sa-cont ur">
+                  <div data-desc="Amazon: simple" data-lhs="1789173" data-sro="1789282" data-sn="00090" data-origin="raw" class="sa">
+                    <a target="_blank" class="sa_headline sa_ext" href="http://www.amazon.com/s/ref=nb_ss_gw?url=search-alias%3Daps&amp;field-keywords=ibm&amp;x=0&amp;y=0&amp;tag=askcom05-20" onmousedown="pk(this,{en:'asa',b:'a001',up:'691b7=ywjzbgfEgo&amp;S=GM3cuC&amp;gu=C&amp;al=OWmQ0HXX7ug&amp;A1=rajGLBDqt&amp;ra=Y&amp;0r=3T3lVo',ex:'da_sn%3D00090%26da_origin%3Draw%26da_sro%3D1789282%26da_lhs%3D1789173%26da_lhx%3DAmazon%253A%2Bsimple%26da_cat%3D16%26da_lhp%3D1%26da_partner%3D6'})">
+                      Amazon.com results for 
+                      <b>
+                        ibm
+                      </b>
+                    </a>
+                    <div class="sa_col">
+                      <script>
+//<![CDATA[
+
+        function sa_amazon_detect_img(target) {
+            if(target.width==1&amp;&amp;target.height==1){
+                target.src='http://sp.ask.com/sh/i/dd/noimg.png';
+            }
+        }
+    
+//]]>
+                      </script>
+                      <div class="sa_amz_block">
+                        <div class="sa_amz_item">
+                          <a target="_blank" class="sa_ext" href="http://www.amazon.com/Lenovo-ThinkPad-T60-2007-1-83GHz/dp/B000F95A88%3FSubscriptionId%3D06KMPSHEDSXXQMQVT482%26tag%3Daskcom05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB000F95A88" onmousedown="pk(this,{en:'asa',b:'a001',up:'691b7=ywjzbgfEgo&amp;S=GM3cuC&amp;gu=C&amp;al=OWmQ0HXX7ug&amp;A1=rajGLBDqt&amp;ra=Y&amp;0r=3T3lVo',ex:'da_sn%3D00090%26da_origin%3Draw%26da_sro%3D1789282%26da_lhs%3D1789173%26da_lhx%3DAmazon%253A%2Bsimple%26da_cat%3D16%26da_lhp%3D1%26da_partner%3D6'})">
+                            <img onload="sa_amazon_detect_img(this);" src="http://ecx.images-amazon.com/images/I/41Otdfvo%2BgL._SL75_.jpg"/>
+                          </a>
+                        </div>
+                        <div class="sa_amz_block_right">
+                          <div class="sa_amz_title">
+                            <a target="_blank" class="title sa_ext" href="http://www.amazon.com/Lenovo-ThinkPad-T60-2007-1-83GHz/dp/B000F95A88%3FSubscriptionId%3D06KMPSHEDSXXQMQVT482%26tag%3Daskcom05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB000F95A88" onmousedown="pk(this,{en:'asa',b:'a001',up:'691b7=ywjzbgfEgo&amp;S=GM3cuC&amp;gu=C&amp;al=OWmQ0HXX7ug&amp;A1=rajGLBDqt&amp;ra=Y&amp;0r=3T3lVo',ex:'da_sn%3D00090%26da_origin%3Draw%26da_sro%3D1789282%26da_lhs%3D1789173%26da_lhx%3DAmazon%253A%2Bsimple%26da_cat%3D16%26da_lhp%3D1%26da_partner%3D6'})">
+                              Lenovo ThinkPad T60 2007 -  
+                            </a>
+                          </div>
+                          <div class="sa_amz_price">
+                            
+                                            $1,699.00
+                                    
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sa_amz_block">
+                        <div class="sa_amz_item">
+                          <a target="_blank" class="sa_ext" href="http://www.amazon.com/Thinkpad-1-86GHz-Laptop-Notebook-Windows/dp/B000979258%3FSubscriptionId%3D06KMPSHEDSXXQMQVT482%26tag%3Daskcom05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB000979258" onmousedown="pk(this,{en:'asa',b:'a001',up:'691b7=ywjzbgfEgo&amp;S=GM3cuC&amp;gu=C&amp;al=OWmQ0HXX7ug&amp;A1=rajGLBDqt&amp;ra=Y&amp;0r=3T3lVo',ex:'da_sn%3D00090%26da_origin%3Draw%26da_sro%3D1789282%26da_lhs%3D1789173%26da_lhx%3DAmazon%253A%2Bsimple%26da_cat%3D16%26da_lhp%3D1%26da_partner%3D6'})">
+                            <img onload="sa_amazon_detect_img(this);" src="http://ecx.images-amazon.com/images/I/41Qb%2BUL33ML._SL75_.jpg"/>
+                          </a>
+                        </div>
+                        <div class="sa_amz_block_right">
+                          <div class="sa_amz_title">
+                            <a target="_blank" class="title sa_ext" href="http://www.amazon.com/Thinkpad-1-86GHz-Laptop-Notebook-Windows/dp/B000979258%3FSubscriptionId%3D06KMPSHEDSXXQMQVT482%26tag%3Daskcom05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB000979258" onmousedown="pk(this,{en:'asa',b:'a001',up:'691b7=ywjzbgfEgo&amp;S=GM3cuC&amp;gu=C&amp;al=OWmQ0HXX7ug&amp;A1=rajGLBDqt&amp;ra=Y&amp;0r=3T3lVo',ex:'da_sn%3D00090%26da_origin%3Draw%26da_sro%3D1789282%26da_lhs%3D1789173%26da_lhx%3DAmazon%253A%2Bsimple%26da_cat%3D16%26da_lhp%3D1%26da_partner%3D6'})">
+                              IBM Thinkpad T43 1.86GHz  
+                            </a>
+                          </div>
+                          <div class="sa_amz_price">
+                            
+                                            $999.99
+                                    
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sa_amz_block">
+                        <div class="sa_amz_item">
+                          <a target="_blank" class="sa_ext" href="http://www.amazon.com/Lenovo-Thinkpad-12-1-Inch-Black-Laptop/dp/B002SG7LX8%3FSubscriptionId%3D06KMPSHEDSXXQMQVT482%26tag%3Daskcom05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB002SG7LX8" onmousedown="pk(this,{en:'asa',b:'a001',up:'691b7=ywjzbgfEgo&amp;S=GM3cuC&amp;gu=C&amp;al=OWmQ0HXX7ug&amp;A1=rajGLBDqt&amp;ra=Y&amp;0r=3T3lVo',ex:'da_sn%3D00090%26da_origin%3Draw%26da_sro%3D1789282%26da_lhs%3D1789173%26da_lhx%3DAmazon%253A%2Bsimple%26da_cat%3D16%26da_lhp%3D1%26da_partner%3D6'})">
+                            <img onload="sa_amazon_detect_img(this);" src="http://ecx.images-amazon.com/images/I/31n00aA1m-L._SL75_.jpg"/>
+                          </a>
+                        </div>
+                        <div class="sa_amz_block_right">
+                          <div class="sa_amz_title">
+                            <a target="_blank" class="title sa_ext" href="http://www.amazon.com/Lenovo-Thinkpad-12-1-Inch-Black-Laptop/dp/B002SG7LX8%3FSubscriptionId%3D06KMPSHEDSXXQMQVT482%26tag%3Daskcom05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB002SG7LX8" onmousedown="pk(this,{en:'asa',b:'a001',up:'691b7=ywjzbgfEgo&amp;S=GM3cuC&amp;gu=C&amp;al=OWmQ0HXX7ug&amp;A1=rajGLBDqt&amp;ra=Y&amp;0r=3T3lVo',ex:'da_sn%3D00090%26da_origin%3Draw%26da_sro%3D1789282%26da_lhs%3D1789173%26da_lhx%3DAmazon%253A%2Bsimple%26da_cat%3D16%26da_lhp%3D1%26da_partner%3D6'})">
+                              Lenovo Thinkpad X200  
+                            </a>
+                          </div>
+                          <div class="sa_amz_price">
+                            
+                                            $1,099.99
+                                    
+                          </div>
+                        </div>
+                      </div>
+                      <div style="clear:both;" class="sa_content_block">
+                      </div>
+                      <a target="_blank" class="sa_ext" href="http://www.amazon.com/s/ref=nb_ss_gw?url=search-alias%3Daps&amp;field-keywords=ibm&amp;x=0&amp;y=0&amp;tag=askcom05-20" onmousedown="pk(this,{en:'asa',b:'a001',up:'691b7=ywjzbgfEgo&amp;S=GM3cuC&amp;gu=C&amp;al=OWmQ0HXX7ug&amp;A1=rajGLBDqt&amp;ra=Y&amp;0r=3T3lVo',ex:'da_sn%3D00090%26da_origin%3Draw%26da_sro%3D1789282%26da_lhs%3D1789173%26da_lhx%3DAmazon%253A%2Bsimple%26da_cat%3D16%26da_lhp%3D1%26da_partner%3D6'})">
+                        More products from Amazon.com »
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div style="clear: both;">
+                </div>
+              </div>
+              <div class="wresult tsrc_Wiki-SA">
+                <div data-zen="true" data-foresee="SA" class="ptbs ur">
+                  <div id="r_t1">
+                    <a class="title url" onmousedown="pk(this,{en:'nwsa',b:'a002',up:'07dbW=11DJl5e87v&amp;y=sitAzQ&amp;2x=2&amp;5p=yvYb%pGo+5%D&amp;M6=a4gzhaR2pW2&amp;I5=9&amp;rcE=gFa38',ex:'tsrc%3DWiki-SA'})" href="http://www.ask.com/wiki/IBM" id="r1_t">
+                      <kw>
+                        IBM
+                      </kw>
+                    </a>
+                  </div>
+                  <div style="overflow: hidden;padding-top: 3px;">
+                    <div style="text-align: center;" class="mgr10 fl">
+                      <a style="display: block;" onmousedown="pk(this,{en:'nwsa',b:'a002',up:'a466K=V90dQy3DSF&amp;s=j2Ci5c&amp;sL=u&amp;Nt=XeHapJ%CZh1p&amp;Qv=9Hgw21tNBeY&amp;Cp=e&amp;mAP=ugjKL',ex:'tsrc%3DWiki-SA'})" href="http://www.ask.com/wiki/IBM">
+                        <img border="0" alt="" src="http://rpmedia.ask.com/ts?u=/wikipedia/commons/thumb/5/51/IBM_logo.svg/212px-IBM_logo.svg.png" style="border:1px solid #666666;max-height:90px;max-width:90px;padding: 2px;" id="wiki1"/>
+                      </a>
+                      <a target="_blank" onmousedown="pk(this,{en:'nwsa',b:'a002',up:'4acbI=%3nfsmtpb5&amp;f=wniNoU&amp;8d=C&amp;9M=JT0POyHhhZ%N&amp;oL=+tm1gSrcmT7&amp;F2=l&amp;0Wz=LIFXS',io:'1',ex:'tsrc%3DWiki-SA'})" href="http://en.wikipedia.org/wiki/File:IBM_logo.svg" class="txt1 title">
+                        Source
+                      </a>
+                      <script type="text/javascript">
+//<![CDATA[
+
+                    var wikiImage = new Image();
+                    wikiImage.onload = function() {
+                        if (this.height &lt; 45) {
+                            document.getElementById('wiki1').height = this.height;
+                        }
+                    }
+                    wikiImage.src = "http://rpmedia.ask.com/ts?u=/wikipedia/commons/thumb/5/51/IBM_logo.svg/212px-IBM_logo.svg.png";
+                
+//]]>
+                      </script>
+                    </div>
+                    <div style="overflow:hidden;">
+                      <span data-module="webResults" id="r1_a" class="txt3 abstract more-link">
+                        
+                The International Business Machines Corporation (commonly referred to as 
+                        <b>
+                          IBM
+                        </b>
+                        ) is an American 
+                        <a onmousedown="pk(this, {en:'nwsa',b:'a001',io:'1',ec:'1'});triggerActionLog(this.parentNode.getAttribute('data-module'), '','center', 'click', 'searchResult', '','')" href="http://www.ask.com/allabout?q=Multinational%20corporation&amp;qsrc=470" class="title tdn" title="Multinational corporation">
+                          multinational
+                        </a>
+                        <a onmousedown="pk(this, {en:'nwsa',b:'a001',io:'1',ec:'1'});triggerActionLog(this.parentNode.getAttribute('data-module'), '','center', 'click', 'searchResult', '','')" href="http://www.ask.com/allabout?q=Technology&amp;qsrc=470" class="title tdn" title="technology">
+                          technology
+                        </a>
+                         and 
+                        <a onmousedown="pk(this, {en:'nwsa',b:'a001',io:'1',ec:'1'});triggerActionLog(this.parentNode.getAttribute('data-module'), '','center', 'click', 'searchResult', '','')" href="http://www.ask.com/allabout?q=Consultant&amp;qsrc=470" class="title tdn" title="Consultant">
+                          consulting
+                        </a>
+                         corporation, with headquarters in 
+                        <a onmousedown="pk(this, {en:'nwsa',b:'a001',io:'1',ec:'1'});triggerActionLog(this.parentNode.getAttribute('data-module'), '','center', 'click', 'searchResult', '','')" href="http://www.ask.com/allabout?q=Armonk,%20New%20York&amp;qsrc=470" class="title tdn" title="Armonk, New York">
+                          Armonk
+                        </a>
+                        , New York, United States. 
+                        <b>
+                          IBM
+                        </b>
+                         manufactures and markets computer 
+                        <a onmousedown="pk(this, {en:'nwsa',b:'a001',io:'1',ec:'1'});triggerActionLog(this.parentNode.getAttribute('data-module'), '','center', 'click', 'searchResult', '','')" href="http://www.ask.com/allabout?q=Personal%20computer%20hardware&amp;qsrc=470" class="title tdn" title="Personal computer hardware">
+                          hardware
+                        </a>
+                         and 
+                        <a onmousedown="pk(this, {en:'nwsa',b:'a001',io:'1',ec:'1'});triggerActionLog(this.parentNode.getAttribute('data-module'), '','center', 'click', 'searchResult', '','')" href="http://www.ask.com/allabout?q=Computer%20software&amp;qsrc=470" class="title tdn" title="computer software">
+                          software
+                        </a>
+                        , and offers 
+                        <a onmousedown="pk(this, {en:'nwsa',b:'a001',io:'1',ec:'1'});triggerActionLog(this.parentNode.getAttribute('data-module'), '','center', 'click', 'searchResult', '','')" href="http://www.ask.com/allabout?q=Infrastructure&amp;qsrc=470" class="title tdn" title="infrastructure">
+                          infrastructure
+                        </a>
+                        , 
+                        <a onmousedown="pk(this, {en:'nwsa',b:'a001',io:'1',ec:'1'});triggerActionLog(this.parentNode.getAttribute('data-module'), '','center', 'click', 'searchResult', '','')" href="http://www.ask.com/allabout?q=Internet%20hosting%20service&amp;qsrc=470" class="title tdn" title="Internet hosting service">
+                          hosting
+                        </a>
+                         and 
+                        <a onmousedown="pk(this, {en:'nwsa',b:'a001',io:'1',ec:'1'});triggerActionLog(this.parentNode.getAttribute('data-module'), '','center', 'click', 'searchResult', '','')" href="http://www.ask.com/allabout?q=Consultant&amp;qsrc=470" class="title tdn" title="consultant">
+                          consulting services
+                        </a>
+                         in areas ranging from 
+                        <a onmousedown="pk(this, {en:'nwsa',b:'a001',io:'1',ec:'1'});triggerActionLog(this.parentNode.getAttribute('data-module'), '','center', 'click', 'searchResult', '','')" href="http://www.ask.com/allabout?q=Mainframe%20computer&amp;qsrc=470" class="title tdn" title="mainframe computer">
+                          mainframe computer
+                        </a>
+                        s to 
+                        <a onmousedown="pk(this, {en:'nwsa',b:'a001',io:'1',ec:'1'});triggerActionLog(this.parentNode.getAttribute('data-module'), '','center', 'click', 'searchResult', '','')" href="http://www.ask.com/allabout?q=Nanotechnology&amp;qsrc=470" class="title tdn" title="nanotechnology">
+                          nanotechnology
+                        </a>
+                        .
+The company was founded in 1911 as the...
+                                    
+                        <a onmousedown="pk(this,{en:'nwsa',b:'a002',up:'6476f=+21eSqj9Fx&amp;1=iAs8xx&amp;hQ=q&amp;Th=hGyZ2ELpRHna&amp;Zo=grGTWK%EgYU&amp;YS=Y&amp;zp3=aKDJq',ex:'tsrc%3DWiki-SA'})" style="white-space:nowrap" class="title" target="_blank" href="http://www.ask.com/wiki/IBM">
+                          Read More »
+                        </a>
+                      </span>
+                      <div style="padding-top:4px;">
+                        <span class="txt3 info b">
+                          Go to:
+                        </span>
+                        <span class="more-link">
+                          <a onmousedown="pk(this,{en:'nwsa',b:'a002',up:'f7bbr=WN3fKT8GYl&amp;U=4DkobD&amp;VP=G&amp;kk=icH%m%TnRQPF&amp;WT=j8ToUgXSu4A&amp;AC=h&amp;t8F=r+8wj'})" href="http://www.ask.com/wiki/IBM" class="title txt3 pl2 tdn" style="display:inline-block;">
+                            Ask Encyclopedia
+                          </a>
+                          
+                    ·
+                    
+                          <a onmousedown="pk(this,{en:'nwsa',b:'a002',up:'da86I=T5dFRZixVy&amp;L=H7ZEVj&amp;h9=O&amp;WM=l2SXRZkRr1d8&amp;kH=nSNaiE2VVlx&amp;cM=P&amp;ZEc=xVR+g',io:'3'})" href="http://www.ask.com/pictures?q=ibm&amp;qsrc=1582&amp;o=0&amp;l=dir" class="title txt3 tdn">
+                            Images
+                          </a>
+                          
+                    ·
+                    
+                          <a onmousedown="pk(this,{en:'nwsa',b:'a002',up:'ceabo=%umZWRW+9A&amp;a=iNQacM&amp;G6=s&amp;tm=4KOrBrZXyUUu&amp;9I=ncz0YD8ewGe&amp;JD=a&amp;B2F=BNNvK',io:'4'})" href="http://www.ask.com/videos?q=ibm&amp;qsrc=1582&amp;o=0&amp;l=dir" class="title txt3 tdn">
+                            Videos
+                          </a>
+                        </span>
+                      </div>
+                      <div style="padding-top: 6px;">
+                        <div class="fl">
+                          <span class="txt3 info b">
+                            Browse Article:
+                          </span>
+                          <span class="more-link">
+                            <a onmousedown="pk(this,{en:'nwsa',b:'a002',up:'4696O=j4Vf3WfCSv&amp;Z=ePU9YO&amp;bT=j&amp;aF=m3UP9t9J00NY&amp;%+=IHS8osmlM%%&amp;9n=C&amp;R4A=i4Ki2',ec:'5'})" href="http://www.ask.com/wiki/IBM#History" class="title">
+                              History
+                            </a>
+                          </span>
+                          ·
+                            
+                          <span class="more-link">
+                            <a onmousedown="pk(this,{en:'nwsa',b:'a002',up:'8f9bO=vo7ENwE7t3&amp;U=vC4SG6&amp;FL=b&amp;f8=IK6YeIKdbq%w&amp;Kv=81+4+bHzd1O&amp;jP=g&amp;+Tk=tjVFn',io:'1',ec:'5'})" href="http://www.ask.com/wiki/IBM#Research_and_inventions" class="title">
+                              Research and inventions
+                            </a>
+                          </span>
+                          ·
+                            
+                          <span class="more-link">
+                            <a onmousedown="pk(this,{en:'nwsa',b:'a002',up:'e8a6j=IGjLH4q7N7&amp;V=J10Ppf&amp;Mk=M&amp;UI=AsTm8TnKKnit&amp;Gx=uH+urXqH68Z&amp;sY=4&amp;rmq=ep3pr',io:'2',ec:'5'})" href="http://www.ask.com/wiki/IBM#Selected_current_projects" class="title">
+                              Selected current projects
+                            </a>
+                          </span>
+                          ·
+                            
+                          <span class="more-link">
+                            <a onmousedown="pk(this,{en:'nwsa',b:'a002',up:'fa8bV=OM1w4+3KJX&amp;L=VRddRi&amp;7B=%&amp;tP=3sgW4bVstGi2&amp;ww=fMqQidr7ki3&amp;CV=Q&amp;SXp=iwKJt',io:'3',ec:'5'})" href="http://www.ask.com/wiki/IBM#Environmental_record" class="title">
+                              Environmental record
+                            </a>
+                          </span>
+                          ·
+                            
+                          <span class="more-link">
+                            <a onmousedown="pk(this,{en:'nwsa',b:'a002',up:'00b61=iKGW564LW8&amp;O=RV0Z3W&amp;LL=S&amp;kH=g45j5YkHYW2o&amp;+A=ZBV1HQrI80f&amp;YL=W&amp;0l0=6dvKg',io:'4',ec:'5'})" href="http://www.ask.com/wiki/IBM#Company_logo_and_nickname" class="title">
+                              Company logo and nickname
+                            </a>
+                          </span>
+                          ·
+                    
+                        </div>
+                        <div class="cl">
+                        </div>
+                      </div>
+                      <div style="padding-top: 4px">
+                        <span class="txt3 info b">
+                          Source:
+                        </span>
+                        <span class="more-link">
+                          <a target="_blank" onmousedown="ct(this,52431);" href="http://en.wikipedia.org/wiki/IBM" class="title txt3 pr2 tdn">
+                            Wikipedia
+                          </a>
+                        </span>
+                      </div>
+                      <div class="more-link pt10 ur" id="rq">
+                        <div class="txt3 info b">
+                          Related Questions:
+                        </div>
+                        <ul>
+                          <li class="pt5">
+                            <div class="fl">
+                              • 
+                            </div>
+                            <div class="ofh pl5 wiki-rq">
+                              <a onmousedown="pk(this,{en:'wkrq',b:'a002',up:'cf7b0=KSPSu2QlEy&amp;y=NfB00b&amp;el=z&amp;QJ=L9ik36Dh9Mf1a1&amp;sV=hzy3wQL8KJx&amp;rw=5&amp;zAb=kobHj',ec:'3'})" href="http://www.ask.com/web?q=Multinational+vendors+such+as+IBM+and+Accenture+have+stated+that+they+do+not+see+Indian+companies+participating+in+deals+in+excess+of+%24100+million%3F+What+is+your+view%3F&amp;qsrc=469&amp;o=0&amp;l=dir&amp;qo=relatedQuestions" class="title">
+                                 Multinational vendors such as IBM and Accenture have stated that they do not see Indian companies participating in deals in excess of $100 million? What is your view? 
+                              </a>
+                            </div>
+                          </li>
+                          <li class="pt5">
+                            <div class="fl">
+                              • 
+                            </div>
+                            <div class="ofh pl5 wiki-rq">
+                              <a onmousedown="pk(this,{en:'wkrq',b:'a002',up:'dbf65=zUla9qxbOF&amp;7=uCI6Rr&amp;FG=T&amp;FN=0enkThFxfoVPhl&amp;rC=5XyWFzrvW8C&amp;Fq=r&amp;JWw=0j09A',io:'1',ec:'3'})" href="http://www.ask.com/web?q=What+are+IBM%27s%C2%AE+goals+in+pursuing+this+technology%3F&amp;qsrc=469&amp;o=0&amp;l=dir&amp;qo=relatedQuestions" class="title">
+                                 What are IBM's® goals in pursuing this technology? 
+                              </a>
+                            </div>
+                          </li>
+                          <li class="pt5">
+                            <div class="fl">
+                              • 
+                            </div>
+                            <div class="ofh pl5 wiki-rq">
+                              <a onmousedown="pk(this,{en:'wkrq',b:'a002',up:'1c0br=88vGK9VwOw&amp;2=jhqRT9&amp;WC=O&amp;Fg=oJ1L53eyy6K90H&amp;RU=vCQT8eVPJuB&amp;1U=b&amp;v1Y=PetS+',io:'2',ec:'3'})" href="http://www.ask.com/web?q=Shall+I+work+for+Santander+Corporate+Banking+or+IBM+as+a+SAP+Consultant%3F&amp;qsrc=469&amp;o=0&amp;l=dir&amp;qo=relatedQuestions" class="title">
+                                 Shall I work for Santander Corporate Banking or IBM as a SAP Consultant? 
+                              </a>
+                            </div>
+                          </li>
+                        </ul>
+                        <div class="pt10 pl10">
+                          <a href="http://www.ask.com/web?q=ibm&amp;qsrc=3060&amp;o=0&amp;l=dir" class="title">
+                            View more Q&amp;A »
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cl">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wresult tsrc_abti">
+                <div data-zen="true" data-foresee="ABTI" class="ptbs ur">
+                  <div id="r_t2">
+                    <a target="_blank" onmousedown="pk(this,{en:'abt',b:'a003',up:'b266O=IrxN9m6IG0&amp;1=Tkql%2&amp;Nj=6&amp;7h=1ivuZirr3lOJ&amp;o6=6pnMq&amp;rY=U&amp;Yhd=v3W3aZu%eD',ex:'tsrc%3Dabti'})" href="http://clk.about.com?zi=13/1tO&amp;ity=boostOrg&amp;o=0&amp;eng=boost&amp;zu=http://jobsearchtech.about.com/od/company/p/IBM_jobs.htm" class="url txt_lg" id="r2_t">
+                      <kw>
+                        IBM
+                      </kw>
+                       Jobs
+                    </a>
+                  </div>
+                  <div>
+                    <div class="ofh">
+                      <div id="r_b2" class="durl">
+                        <span class="txt3" id="r2_u">
+                          jobsearchtech.about.com/od/company/p/IBM_jobs.htm
+                        </span>
+                      </div>
+                      <div id="r2_a" class="abstract txt3">
+                        
+                Nearly 54,000 possessed post-graduate degrees.
+ 
+                        <kw>
+                          IBM
+                        </kw>
+                         says that it has been the leader in corporate workforce diversity since its founding.  It's committed to creating a diverse workforce and is proud to be an equal opportunity employer.
+                        <a target="_blank" onmousedown="pk(this,{en:'abt',b:'a003',up:'18d6Z=qqiRILcF7L&amp;u=JCAbS+&amp;kv=I&amp;7d=yPmQTI++iEnQ&amp;3f=wVnRJ&amp;kj=R&amp;9AX=m4B8WRyASm',ex:'tsrc%3Dabti'})" href="http://clk.about.com?zi=13/1tO&amp;ity=boostOrg&amp;o=0&amp;eng=boost&amp;zu=http://jobsearchtech.about.com/od/company/p/IBM_jobs.htm" class="tdn title dsib" id="r2_t">
+                           More »
+                        </a>
+                      </div>
+                      <span class="info aboutAuthor">
+                        By John Steven Niznik, About.com Guide
+                      </span>
+                    </div>
+                    <div style="clear: left;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wresult tsrc_tled">
+                <div data-zen="true" data-foresee="DELTA" class="ptbs ur">
+                  <h3 id="r_t3">
+                    <a target="_blank" onmousedown="pk(this,{en:'te',b:'a004',up:'d546q=cYUHR+FUB5&amp;O=ltNmTn&amp;px=9&amp;Hc=rCjHDUtWWd4u&amp;vd=BuFbP&amp;Mv=B',ex:'tsrc%3Dtled'})" href="http://www.ibm.com/" class="url txt_lg" id="r3_t">
+                      <kw>
+                        IBM
+                      </kw>
+                       - United States
+                    </a>
+                  </h3>
+                  <p id="r_b3" class="durl txt3">
+                    www.ibm.com/
+                  </p>
+                  <p id="r3_a}" class="abstract txt3">
+                    The 
+                    <kw>
+                      IBM
+                    </kw>
+                     corporate home page, entry point to information about 
+                    <kw>
+                      IBM
+                    </kw>
+                     products and 
+services.
+                  </p>
+                </div>
+              </div>
+              <div class="wresult tsrc_tled">
+                <div data-zen="true" data-foresee="DELTA" class="ptbs ur">
+                  <h3 id="r_t4">
+                    <a target="_blank" onmousedown="pk(this,{en:'te',b:'a005',up:'933bS=ZMwOF0tlLA&amp;9=RhHv9a&amp;oO=O&amp;LX=+n0U7r4fsfSE&amp;pq=X+fe1&amp;D8=b',ex:'tsrc%3Dtled'})" href="http://finance.yahoo.com/q?s=IBM" class="url txt_lg" id="r4_t">
+                      <kw>
+                        IBM
+                      </kw>
+                      : Summary for 
+                      <kw>
+                        International Business Machines
+                      </kw>
+                      - Yahoo! Finance
+                    </a>
+                  </h3>
+                  <p id="r_b4" class="durl txt3">
+                    finance.yahoo.com/q?s=IBM
+                  </p>
+                  <p id="r4_a}" class="abstract txt3">
+                    View the basic 
+                    <kw>
+                      IBM
+                    </kw>
+                     stock chart on Yahoo! Finance. Change the date range, chart 
+type and compare 
+                    <kw>
+                      International Business Machines
+                    </kw>
+                     against other companies.
+                  </p>
+                </div>
+              </div>
+              <div class="wresult tsrc_tled">
+                <div data-zen="true" data-foresee="DELTA" class="ptbs ur">
+                  <h3 id="r_t5">
+                    <a target="_blank" onmousedown="pk(this,{en:'te',b:'a006',up:'2ab6d=JHkDZycZk6&amp;s=zPr%ek&amp;Jq=F&amp;e%=rfuhKGf%9%rl&amp;Ph=B16oq&amp;V3=X',ex:'tsrc%3Dtled'})" href="http://www.forbes.com/companies/ibm/" class="url txt_lg" id="r5_t">
+                      <kw>
+                        IBM
+                      </kw>
+                       on the Forbes World's Most Valuable Brands List
+                    </a>
+                  </h3>
+                  <p id="r_b5" class="durl txt3">
+                    www.forbes.com/companies/ibm/
+                  </p>
+                  <p id="r5_a}" class="abstract txt3">
+                    <kw>
+                      International Business Machines
+                    </kw>
+                     Corporation (
+                    <kw>
+                      IBM
+                    </kw>
+                    ) is an information technology (
+IT) company. 
+                    <kw>
+                      IBM
+                    </kw>
+                     operates in five segments: Global Technology Services 
+                    <kw>
+                      ...
+                    </kw>
+                  </p>
+                </div>
+              </div>
+              <div class="wresult tsrc_tled">
+                <div data-zen="true" data-foresee="DELTA" class="ptbs ur">
+                  <h3 id="r_t6">
+                    <a target="_blank" onmousedown="pk(this,{en:'te',b:'a007',up:'eacb6=Mp1D6K7NPr&amp;T=U1GpMw&amp;uR=6&amp;L%=lfCbqWjFVlM+&amp;29=uN1yc&amp;m1=8',ex:'tsrc%3Dtled'})" href="https://twitter.com/IBM" class="url txt_lg" id="r6_t">
+                      <kw>
+                        IBM
+                      </kw>
+                       (
+                      <kw>
+                        IBM
+                      </kw>
+                      ) on Twitter
+                    </a>
+                  </h3>
+                  <p id="r_b6" class="durl txt3">
+                    twitter.com/IBM
+                  </p>
+                  <p id="r6_a}" class="abstract txt3">
+                    The latest from 
+                    <kw>
+                      IBM
+                    </kw>
+                     (@
+                    <kw>
+                      IBM
+                    </kw>
+                    ). Official 
+                    <kw>
+                      IBM
+                    </kw>
+                     Twitter account. Managed by Katie 
+Keating and George Faulkner. Follows the 
+                    <kw>
+                      IBM
+                    </kw>
+                     Social Computing Guidelines.
+                  </p>
+                </div>
+              </div>
+              <div class="wresult tsrc_tled">
+                <div data-zen="true" data-foresee="DELTA" class="ptbs ur">
+                  <h3 id="r_t7">
+                    <a target="_blank" onmousedown="pk(this,{en:'te',b:'a008',up:'16264=zJS8WIl6po&amp;c=j1UuED&amp;jo=J&amp;ET=2X0+W0S+W7+v&amp;dU=qi7Dm&amp;lF=Q',ex:'tsrc%3Dtled'})" href="http://money.cnn.com/quote/quote.html?symb=IBM" class="url txt_lg" id="r7_t">
+                      <kw>
+                        IBM
+                      </kw>
+                       - 
+                      <kw>
+                        International Business Machines
+                      </kw>
+                       Corp Stock quote 
+                      <kw>
+                        ...
+                      </kw>
+                    </a>
+                  </h3>
+                  <p id="r_b7" class="durl txt3">
+                    money.cnn.com/quote/quote.html?symb=IBM
+                  </p>
+                  <p id="r7_a}" class="abstract txt3">
+                    <kw>
+                      International Business Machines
+                    </kw>
+                     Corp (NYSE:
+                    <kw>
+                      IBM
+                    </kw>
+                    ). Add to Watch List. Set Alert. 
+During the Trading Day 
+                    <kw>
+                      ...
+                    </kw>
+                     Latest 
+                    <kw>
+                      IBM
+                    </kw>
+                     News | Press Releases 
+                    <kw>
+                      ...
+                    </kw>
+                  </p>
+                </div>
+              </div>
+              <div class="wresult tsrc_tled">
+                <div data-zen="true" data-foresee="DELTA" class="ptbs ur">
+                  <h3 id="r_t8">
+                    <a target="_blank" onmousedown="pk(this,{en:'te',b:'a009',up:'cc5b9=lEwNOAf5GU&amp;H=h1JRgF&amp;+X=AA&amp;o6=a7P2FjMIeC%J&amp;8z=ubzuv&amp;VI=R',ex:'tsrc%3Dtled'})" href="http://www.google.com/finance?cid=6383184" class="url txt_lg" id="r8_t">
+                      <kw>
+                        INTERNATIONAL BUSINESS MACHINES
+                      </kw>
+                       CORPORATION COM 
+                      <kw>
+                        ...
+                      </kw>
+                    </a>
+                  </h3>
+                  <p id="r_b8" class="durl txt3">
+                    www.google.com/finance?cid=6383184
+                  </p>
+                  <p id="r8_a}" class="abstract txt3">
+                    Get detailed financial information on 
+                    <kw>
+                      INTERNATIONAL BUSINESS MACHINES
+                    </kw>
+                     
+CORPORATION COM STK USD0.20 (LON:
+                    <kw>
+                      IBM
+                    </kw>
+                    ) including real-time stock quotes,
+ 
+                    <kw>
+                      ...
+                    </kw>
+                  </p>
+                </div>
+              </div>
+              <div class="wresult tsrc_tled">
+                <div data-zen="true" data-foresee="DELTA" class="ptbs ur">
+                  <h3 id="r_t9">
+                    <a target="_blank" onmousedown="pk(this,{en:'te',b:'a010',up:'d20bl=zgI6IODqfH&amp;d=Jf7zOA&amp;7P=ba&amp;V9=SmVfqfr76doi&amp;3R=jWzrV&amp;PN=t',ex:'tsrc%3Dtled'})" href="http://topics.nytimes.com/top/news/business/companies/international_business_machines/" class="url txt_lg" id="r9_t">
+                      International Business Machines Corporation (
+                      <kw>
+                        IBM
+                      </kw>
+                      ) News - The New 
+                      <kw>
+                        ...
+                      </kw>
+                    </a>
+                  </h3>
+                  <p id="r_b9" class="durl txt3">
+                    topics.nytimes.com/top/news/business/companies/internat...
+                  </p>
+                  <p id="r9_a}" class="abstract txt3">
+                    News about International Business Machines (
+                    <kw>
+                      I.B.M.
+                    </kw>
+                    ). Commentary and archival 
+information about International Business Machines (
+                    <kw>
+                      I.B.M.
+                    </kw>
+                    ) from The New York 
+                    <kw>
+                      ...
+                    </kw>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="csaBottom">
+            <div id="magic2">
+            </div>
+          </div>
+          <script>
+//<![CDATA[
+
+    window['backfillParam'] = window['backfillParam'] || {};
+            window['backfillParam']['pl_bmodn'] = 4;
+    
+
+//]]>
+          </script>
+          <div data-foresee="RLT" id="mrRSM" class="relmod rrItem">
+            <h2 class="sectionheader" id="rlTitle_1">
+              Explore More Answers About
+            </h2>
+            <ul style="max-width:320px;margin-right:40px;" class="fl">
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+Layoffs&amp;qsrc=467&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'71bbl=Aq+0bOk7sJKsUIOkoFM&amp;D=kfHktO&amp;rE=g&amp;Kk=GqaGhgaUdX8G4&amp;Pr=owmf&amp;rs=u',tp:'rsb',ec:'7'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   Layoffs
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+Swot+Analysis&amp;qsrc=467&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'6eabM=HS%GN1h4wGGGsqJPq%G&amp;n=SvBluP&amp;jW=M&amp;wb=dpKw7JvJiUcvo&amp;fi=b9gT&amp;dk=U',tp:'rsb',io:'2',ec:'7'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   Swot Analysis
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+Products&amp;qsrc=467&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'d59b%=s12PxpFYglxlam5f9lv&amp;B=yZUk+y&amp;8G=s&amp;xt=K41hnm3Zlv1db&amp;Rm=pHSc&amp;WF=s',tp:'rsb',io:'4',ec:'7'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   Products
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=HP&amp;qsrc=467&amp;o=0&amp;l=dir&amp;qo=relatedSearchExpand" onmousedown="pk(this,{en:'r2',b:'rlt',up:'668bK=E7AGcgb6p04KPMzVfw0&amp;w=+Vnwff&amp;z9=3&amp;0V=s8dImU2nBxLDI&amp;mT=NtRu&amp;hI=X',tp:'rsb',io:'6',ec:'7'})" class="txt4 title">
+                  HP
+                </a>
+              </li>
+            </ul>
+            <ul style="max-width:320px;" class="fl">
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+Corporate+Headquarters&amp;qsrc=467&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'e17bO=0pxvxREGKQ078TZ3xUU&amp;o=qyL+v+&amp;rx=i&amp;+g=DkFyi7JIjJJqb&amp;x8=6J21&amp;5J=6',tp:'rsb',io:'1',ec:'7'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   Corporate Headquarters
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+PC&amp;qsrc=467&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'066bz=fbGxhoLZY96FQX5SKJY&amp;u=8%PwGw&amp;t+=Y&amp;ih=wtzysJoHKQ+pT&amp;9j=3G6Y&amp;1X=E',tp:'rsb',io:'3',ec:'7'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   PC
+                </a>
+              </li>
+              <li class="relItem ur">
+                <a href="http://www.ask.com/web?q=IBM+Drivers&amp;qsrc=467&amp;o=0&amp;l=dir&amp;qo=relatedSearchNarrow" onmousedown="pk(this,{en:'r1',b:'rlt',up:'955bh=aGI2b%hdS%7GIdyEBgX&amp;4=YYgRvB&amp;qf=O&amp;EJ=ngas6vg78Bih2&amp;TJ=pAQD&amp;SC=m',tp:'rsb',io:'5',ec:'7'})" class="txt4 title">
+                  <b>
+                    IBM
+                  </b>
+                   Drivers
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="p20" id="paging">
+            <div class="dsi" style="margin: 0 10px 0 0">
+              <div class="pgc pgcsel">
+                <div class="pg">
+                  1
+                </div>
+              </div>
+              <div class="pgc">
+                <a class="pg title" href="http://www.ask.com/web?q=ibm&amp;page=2&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;qsrc=0&amp;o=0&amp;l=dir">
+                  2
+                </a>
+              </div>
+              <div class="pgc">
+                <a class="pg title" href="http://www.ask.com/web?q=ibm&amp;page=3&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;qsrc=0&amp;o=0&amp;l=dir">
+                  3
+                </a>
+              </div>
+              <div class="pgc">
+                <a class="pg title" href="http://www.ask.com/web?q=ibm&amp;page=4&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;qsrc=0&amp;o=0&amp;l=dir">
+                  4
+                </a>
+              </div>
+              <div class="pgc">
+                <a class="pg title" href="http://www.ask.com/web?q=ibm&amp;page=5&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;qsrc=0&amp;o=0&amp;l=dir">
+                  5
+                </a>
+              </div>
+              <div class="pgc">
+                <a class="pg title" href="http://www.ask.com/web?q=ibm&amp;page=6&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;qsrc=0&amp;o=0&amp;l=dir">
+                  6
+                </a>
+              </div>
+              <div class="pgc">
+                <a class="pg title" href="http://www.ask.com/web?q=ibm&amp;page=7&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;qsrc=0&amp;o=0&amp;l=dir">
+                  7
+                </a>
+              </div>
+              <div class="pgc">
+                <a class="pg title" href="http://www.ask.com/web?q=ibm&amp;page=8&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;qsrc=0&amp;o=0&amp;l=dir">
+                  8
+                </a>
+              </div>
+              <div class="pgc">
+                <a class="pg title" href="http://www.ask.com/web?q=ibm&amp;page=9&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;qsrc=0&amp;o=0&amp;l=dir">
+                  9
+                </a>
+              </div>
+              <div class="pgc">
+                <a class="pg title" href="http://www.ask.com/web?q=ibm&amp;page=10&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;qsrc=0&amp;o=0&amp;l=dir">
+                  10
+                </a>
+              </div>
+            </div>
+            <div style="padding:1px 0 0 8px;float:left">
+              <a href="http://www.ask.com/web?q=ibm&amp;page=2&amp;qid=5270BF8E66941FC6DBA498AB1666EF55&amp;qsrc=0&amp;o=0&amp;l=dir" class="txt3 title l_nu">
+                Next »
+              </a>
+            </div>
+            <div class="cl">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c1 hcsa" id="rightblock">
+        <div class="rrmod">
+          <div class="sectionheader">
+            Answer
+          </div>
+          <div data-foresee="SA" data-zen="true" style="padding-top: 8px;">
+            <a onmousedown="pk(this,{en:'alcl',b:'SA',up:'4e4bd=w8pd2mZH+9MpvZdFTNA&amp;j=JeVnLE&amp;34=w&amp;rj=ruK4pcBFINoRT&amp;yA=XIZg&amp;n1=1',ex:'tsrc%3DNEWS'})" href="http://www.ask.com/news?qsrc=2431&amp;q=ibm&amp;o=0&amp;l=dir" class="title txt_lg">
+              News for ibm
+            </a>
+            <div>
+              <div style="padding-bottom: 5px;">
+                <div class="ur">
+                  <div style="margin-right: 10px;padding-top: 5px;" class="fl">
+                    <a target="_blank" onmousedown="pk(this,{en:'ni',b:'SA',up:'f13bD=7Mn5gvR8TB&amp;0=lZ7G8&amp;%v=h&amp;pp=mipn&amp;Sd=AeU&amp;JU=D',ex:'tsrc%3DNEWS'})" href="http://ct.moreover.com/ct?haid=8b279e8089d789251395060292266a8b0b9ca49974835&amp;co=f000000013912s-1248979087">
+                      <img height="50" border="0" src="http://media.mysearchsolution.com/e?t=2096155419451442508" style="border:1px solid #CCCCCC;"/>
+                    </a>
+                    <div style="text-align: center;">
+                      <a target="_blank" onmousedown="pk(this,{en:'ni',b:'SA',up:'a20bx=nswgw0rC5T&amp;3=%9abd&amp;fn=e&amp;Ps=3I8o&amp;k6=Ab+&amp;3b=y',ex:'tsrc%3DNEWS'})" class="txt1 title" href="http://ct.moreover.com/ct?haid=8b279e8089d789251395060292266a8b0b9ca49974835&amp;co=f000000013912s-1248979087">
+                        Source
+                      </a>
+                    </div>
+                  </div>
+                  <div style="padding-top: 2px;" class="ofh">
+                    <div>
+                      <a target="_blank" onmousedown="pk(this,{en:'ns',b:'SA',up:'8cdbB=+4o9KSggK4&amp;P=CfEVt&amp;Q%=W&amp;Sv=8lYT&amp;IG=d%Q&amp;AD=X',ex:'tsrc%3DNEWS'})" href="http://ct.moreover.com/?a=17139813259&amp;p=1cb&amp;v=1&amp;x=Nf0YKwsZUryWliz4Dm2v2g" class="title">
+                        <kw>
+                          IBM
+                        </kw>
+                        's Watson to help in brain cancer research
+                      </a>
+                      <div>
+                        <span class="durl">
+                          Miami Herald
+                        </span>
+                        <span>
+                          ·
+                        </span>
+                        <span class="info">
+                          1 hour ago
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ur">
+                  <div style="padding-top: 2px;" class="ofh">
+                    <div>
+                      <a target="_blank" onmousedown="pk(this,{en:'ns',b:'SA',up:'f1abz=EheobUzQ%T&amp;z=sCg9C&amp;%z=B&amp;iL=ksH7&amp;Je=fiE&amp;BZ=5',ex:'tsrc%3DNEWS'})" href="http://ct.moreover.com/?a=17136118251&amp;p=1cb&amp;v=1&amp;x=9e36TZPdAXd2maukJyfzTw" class="title">
+                        <kw>
+                          IBM
+                        </kw>
+                         Denies Links to NSA Spy-Gate [ICT Monitor Worldwide]
+                      </a>
+                      <div>
+                        <span class="durl">
+                          TMC Net
+                        </span>
+                        <span>
+                          ·
+                        </span>
+                        <span class="info">
+                          8 hours ago
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ur">
+                  <div style="padding-top: 2px;" class="ofh">
+                    <div>
+                      <a target="_blank" onmousedown="pk(this,{en:'ns',b:'SA',up:'107ba=9WjO8QA3w8&amp;y=srO4p&amp;qo=v&amp;Uv=ri6h&amp;92=rXl&amp;lY=+',ex:'tsrc%3DNEWS'})" href="http://ct.moreover.com/ct?haid=8a3e0f3dc91517721395095934316f1d0008c79db4c1b&amp;co=f000000013912s-1248979083" class="title">
+                        <kw>
+                          IBM
+                        </kw>
+                         Distances Itself From the NSA and Its Spy Activities
+                      </a>
+                      <div>
+                        <span class="durl">
+                          Slashdot
+                        </span>
+                        <span>
+                          ·
+                        </span>
+                        <span class="info">
+                          46 hours ago
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cl">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-foresee="ANSW" id="rrQnA" class="rrmod">
+          <h2 class="sectionheader">
+            Popular Q&amp;A
+          </h2>
+          <div class="rrQItem ptbs txt3 rr-div tsrc_answ" id="r_t0">
+            <h2 class="ur">
+              <span class="grey b valign">
+                Q: 
+              </span>
+              <span class="qna-txt b">
+                What is 
+                <kw>
+                  IBM
+                </kw>
+                ?
+              </span>
+            </h2>
+            <p class="ur">
+              <span class="grey b valign">
+                A:
+              </span>
+              <span class="qna-txt">
+                <kw>
+                  IBM
+                </kw>
+                 stands for International Business Machines. 
+                <kw>
+                  IBM
+                </kw>
+                 builds all types of computers, from laptops to mainframes. They have a reputation for having reliable, cutti...
+                            
+                <a onmousedown="pk(this,{en:'pqa',b:'qai',up:'294ba=JRR&amp;P=ZfnA9&amp;kQ=X&amp;9a=7wPycp15j&amp;MI=sdPqz%CFpQ&amp;vk=e',ec:'5'})" href="http://answers.ask.com/Computers/Hardware/what_is_ibm?ad=dirN&amp;o=0" target="_blank" style="display:inline-block;text-decoration:none;" class="title" id="r0_t">
+                  Read More »
+                </a>
+              </span>
+            </p>
+            <p class="pl16">
+              <span class="b pr5 grey">
+                Source:
+              </span>
+              <span class="attrib">
+                answers.ask.com
+              </span>
+            </p>
+          </div>
+          <div class="rrQItem ptbs txt3 rr-div tsrc_answ" id="r_t1">
+            <h2 class="ur">
+              <span class="grey b valign">
+                Q: 
+              </span>
+              <span class="qna-txt b">
+                Who Started 
+                <kw>
+                  IBM
+                </kw>
+                ?
+              </span>
+            </h2>
+            <p class="ur">
+              <span class="grey b valign">
+                A:
+              </span>
+              <span class="qna-txt">
+                <kw>
+                  IBM
+                </kw>
+                 stands for International Business Machines. The company was started in 1891 by Herman Hollerith known at that time as Tabulating Machines Company. It wasn't...
+                            
+                <a onmousedown="pk(this,{en:'pqa',b:'qai',up:'3816w=lId&amp;i=KWKwL&amp;8T=G&amp;ho=wjavGBg5x&amp;Fy=QSKyCVSKsp&amp;p5=z',io:'1',ec:'5'})" href="http://answers.ask.com/Computers/Hardware/who_started_ibm?ad=dirN&amp;o=0" target="_blank" style="display:inline-block;text-decoration:none;" class="title" id="r1_t">
+                  Read More »
+                </a>
+              </span>
+            </p>
+            <p class="pl16">
+              <span class="b pr5 grey">
+                Source:
+              </span>
+              <span class="attrib">
+                answers.ask.com
+              </span>
+            </p>
+          </div>
+          <div class="rrQItem ptbs txt3 rr-div tsrc_answ" id="r_t2">
+            <h2 class="ur">
+              <span class="grey b valign">
+                Q: 
+              </span>
+              <span class="qna-txt b">
+                Who is 
+                <kw>
+                  IBM
+                </kw>
+                ?
+              </span>
+            </h2>
+            <p class="ur">
+              <span class="grey b valign">
+                A:
+              </span>
+              <span class="qna-txt">
+                <kw>
+                  IBM
+                </kw>
+                 = International Business Machines, a computer hardware, software and services company.
+                            
+                <a onmousedown="pk(this,{en:'pqa',b:'qai',up:'8dfbA=cN+&amp;z=S2CEs&amp;W0=o&amp;TC=be0PcsB+e&amp;%I=n5wSjVEv0x&amp;SC=D',io:'2',ec:'5'})" href="http://wiki.answers.com/Q/What+does+exactly+IBM+does" target="_blank" style="display:inline-block;text-decoration:none;" class="title" id="r2_t">
+                  Read More »
+                </a>
+              </span>
+            </p>
+            <p class="pl16">
+              <span class="b pr5 grey">
+                Source:
+              </span>
+              <span class="attrib">
+                wiki.answers.com
+              </span>
+            </p>
+          </div>
+          <div class="rrQItem ptbs txt3 rr-div tsrc_answ" id="r_t3">
+            <h2 class="ur">
+              <span class="grey b valign">
+                Q: 
+              </span>
+              <span class="qna-txt b">
+                What is a 
+                <kw>
+                  IBM
+                </kw>
+                ?
+              </span>
+            </h2>
+            <p class="ur">
+              <span class="grey b valign">
+                A:
+              </span>
+              <span class="qna-txt">
+                <kw>
+                  IBM
+                </kw>
+                 stands for (International Business Machines) 
+                <kw>
+                  IBM
+                </kw>
+                 is known as the world's largest technology consulting company. Also made famous by the 
+                <kw>
+                  IBM
+                </kw>
+                 ThinkPad. 
+                <kw>
+                  IBM's
+                </kw>
+                 ...
+                            
+                <a onmousedown="pk(this,{en:'pqa',b:'qai',up:'9e669=3pr&amp;Q=L3NZ7&amp;FL=8&amp;Yl=dCaUdPBTV&amp;Oc=45OxgXR4wg&amp;jI=5',io:'3',ec:'5'})" href="http://wiki.answers.com/Q/What+is+ibm+and+its+function" target="_blank" style="display:inline-block;text-decoration:none;" class="title" id="r3_t">
+                  Read More »
+                </a>
+              </span>
+            </p>
+            <p class="pl16">
+              <span class="b pr5 grey">
+                Source:
+              </span>
+              <span class="attrib">
+                wiki.answers.com
+              </span>
+            </p>
+          </div>
+          <div class="rrQItem ptbs txt3 rr-div tsrc_answ" id="r_t4">
+            <h2 class="ur">
+              <span class="grey b valign">
+                Q: 
+              </span>
+              <span class="qna-txt b">
+                How to Reinstall an 
+                <kw>
+                  IBM
+                </kw>
+                 T42.
+              </span>
+            </h2>
+            <p class="ur">
+              <span class="grey b valign">
+                A:
+              </span>
+              <span class="qna-txt">
+                
+                            1. Shut down your computer completely. If you are using the original hard drive that came with the machine, Rescue and Recovery disks will not be needed. 2. Reb...
+                            
+                <a onmousedown="pk(this,{en:'pqa',b:'qai',up:'0cabg=3L6&amp;5=DjXZ9&amp;zL=t2&amp;xp=gIH2cZ45Q&amp;3B=jW6SAKbjU1&amp;JV=v',io:'4',ec:'5'})" href="http://www.ehow.com/how_6510143_reinstall-ibm-t42.html" target="_blank" style="display:inline-block;text-decoration:none;" class="title" id="r4_t">
+                  Read More »
+                </a>
+              </span>
+            </p>
+            <p class="pl16">
+              <span class="b pr5 grey">
+                Source:
+              </span>
+              <span class="attrib">
+                www.ehow.com
+              </span>
+            </p>
+          </div>
+        </div>
+        <script>
+//<![CDATA[
+
+        window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+        (function(){
+            function retrieve(n){
+                var m, k='kx'+n;
+                if (window.localStorage) {
+                    return window.localStorage[k] || "";
+                } else if (navigator.cookieEnabled) {
+                    m = document.cookie.match(k+'=([^;]*)');
+                    return (m &amp;&amp; unescape(m[1])) || "";
+                } else {
+                    return '';
+                }
+            }
+            Krux.user = retrieve('user');
+            Krux.segments = retrieve('segs') &amp;&amp; retrieve('segs').split(',') || [];
+        })();
+    
+//]]>
+        </script>
+      </div>
+    </div>
+    <div class="clr">
+    </div>
+    <div style="margin-left: 15px;" class="footer">
+      <div class="txt2" id="serp_ftr">
+        <div class="pb5">
+          <a target="_top" onmousedown="return ct(this,54453)" style="display:none;" class="mobileViewFooter" href="#">
+            Mobile Site
+          </a>
+          <span style="display: none;" class="separator mobileViewFooter">
+            ·
+          </span>
+          <a target="_top" class="link grey" href="http://about.ask.com" onmousedown="uaction(this,{up:'7cebX=sHVI8zJDC&amp;Q=el6wSI&amp;lO=b&amp;CM=KPbMabfQrF&amp;TY=+DfHnJ7tqV&amp;sf=y&amp;CD=WYI4JFjoR'});">
+            About
+          </a>
+          <span class="separator">
+            ·
+          </span>
+          <a target="_top" class="link grey" href="http://about.ask.com/privacy-policy" onmousedown="uaction(this,{up:'657b3=X6c+tPprT&amp;Y=jweuke&amp;nD=5&amp;vI=q5qAJQRyRH&amp;Qz=q5zavxNSp8&amp;vw=o&amp;c3=7GHPNeIwO'});">
+            Privacy 
+            <span style="color:#CC0000;font-weight:bold">
+              (New)
+            </span>
+          </a>
+          <span class="separator">
+            ·
+          </span>
+          <a target="_top" class="link grey" href="http://about.ask.com/terms-of-service/" onmousedown="uaction(this,{up:'580bs=Iz4rDF9Aq&amp;%=Xwa3R7&amp;Jx=u&amp;dq=Hm1Hm1h4RM&amp;9s=N2KtdoOxuS&amp;nA=Q&amp;QM=ysdpDn8Z3'});">
+            Terms
+          </a>
+          <span class="separator">
+            ·
+          </span>
+          <a target="_top" class="link grey" href="http://about.ask.com/jobs" onmousedown="uaction(this,{up:'949bY=2TGiQQ%Ov&amp;a=l8+WE4&amp;Ah=H&amp;xb=jXGlQZjAa9&amp;wU=ZMtNgxULoo&amp;QH=B&amp;MA=x6xBwSPwO'});">
+            Careers
+          </a>
+          <span class="separator">
+            ·
+          </span>
+          <a target="_top" class="link grey" href="http://blog.ask.com" onmousedown="uaction(this,{up:'5b2bi=8Nlwj7ITo&amp;O=O3qV0Q&amp;eD=W&amp;ae=15aNT0GqA3&amp;K8=KzyopcQLUZ&amp;D6=s&amp;df=kiU8Hr5Um'});">
+            Ask Blog
+          </a>
+          <span class="separator">
+            ·
+          </span>
+          <a target="_top" class="link grey" href="http://www.ask.com/questions-about" onmousedown="uaction(this,{up:'ebbbe=e2iOlb4wi&amp;L=x3eJ8b&amp;Xi=s&amp;UP=xZgggh9NQJ&amp;yn=SEJynGmNJQ&amp;w2=%&amp;tu=%RxIpR7RZ'});">
+            Q&amp;A
+          </a>
+          <span class="separator">
+            ·
+          </span>
+          <a target="_top" class="link grey" href="http://www.ask.com/mobile?&amp;o=0&amp;l=dir&amp;qsrc=0" onmousedown="uaction(this,{up:'864bv=GkNW+Trvv&amp;O=OTQ9hV&amp;W5=x&amp;tc=FWH3L9pXGr&amp;HW=4gJuWbd9De&amp;eK=p&amp;M5=fuI%VRa%S'});">
+            Mobile
+          </a>
+          <span class="separator">
+            ·
+          </span>
+          <a target="_top" class="link grey" href="http://help.ask.com" onmousedown="uaction(this,{up:'6adbS=Dv6E2U8Af&amp;G=SjsSKH&amp;sF=o&amp;CC=8+bl5Lg%Rs&amp;V1=6GjtP0a0nq&amp;yv=3&amp;lK=VYGaraxxi'});">
+            Help
+          </a>
+          <span class="separator">
+            ·
+          </span>
+          <a target="_top" class="link grey" href="http://feedback.ask.com" onmousedown="uaction(this,{up:'d96b4=neoH+0kuN&amp;9=Z6oGJj&amp;MR=i&amp;7j=FWxrZquD82&amp;0U=I9eKOkYEJE&amp;by=J&amp;te=l1HxhArLw'});">
+            Feedback
+          </a>
+          <span class="pl30">
+            © 2014 Ask.com
+          </span>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="/st/c/js/ask_web-fbf9dd31172c5a02f9ca2adfd306da975517e56f.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    JASK.ssCfg = (function(){
+
+        return {
+                            "width":616,
+                "top":4,
+                "left":-9,
+                        "channel":"web",
+            "path":"web",
+            "disableSS": false,
+            "server":"ss.ask.com",
+            "ldomain":"http://www.ask.com/",
+            "ssBold":"'false'",
+            "clearSearchHistory":"Clear search history",
+            "max":"",
+            "ssFromQueryHistory":"true",
+            "queryHistory":"ibm",
+            "queryHistoryContentColor":"#663399",
+            "ssContentColor":"'false'",
+            "ssContentColorCode": "",
+            "matchingTextUnBold": "",
+            "suggestionTextUnBold": "",
+            "ssItems":"",
+            "appendParams":(function(){
+                var appendParams = new Array();
+                return appendParams;
+            })()
+        };
+    })();
+
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    var WZInfo = window.WZInfo || {};
+    WZInfo.pickRedirectPrefix = "http://wzus1.ask.com/r?t=p&amp;d=us&amp;s=a&amp;c=a&amp;app=a16&amp;dqi=&amp;askid=&amp;l=dir&amp;o=0&amp;oo=0&amp;sv=0a5caae6&amp;ip=ae678fa9&amp;id=5270BF8E66941FC6DBA498AB1666EF55&amp;q=ibm&amp;p=1&amp;qs=0&amp;ac=590&amp;g=11fbsQgzfwuZI7&amp;vc=12&amp;ocq=0&amp;ocp=0&amp;ocu=0&amp;ocf=0&amp;qa1=590&amp;cu.wz=0&amp;en=&amp;io=&amp;b=&amp;tp=&amp;ec=&amp;ex=&amp;pt=&amp;u=";
+    WZInfo.pickNonRedirectPrefix = "http://wzus1.ask.com/i/b.html?t=p&amp;d=us&amp;s=a&amp;c=a&amp;app=a16&amp;dqi=&amp;askid=&amp;l=dir&amp;o=0&amp;oo=0&amp;sv=0a5caae6&amp;ip=ae678fa9&amp;id=5270BF8E66941FC6DBA498AB1666EF55&amp;q=ibm&amp;p=1&amp;qs=0&amp;ac=590&amp;g=010bm%GwUm9X6r&amp;vc=12&amp;ocq=0&amp;ocp=0&amp;ocu=0&amp;ocf=0&amp;qa1=590&amp;cu.wz=0&amp;en=&amp;io=&amp;b=&amp;tp=&amp;ec=&amp;ex=&amp;pt=&amp;u=";
+    WZInfo.ctRedirectPrefix = "http://wzus1.ask.com/r?t=a&amp;d=us&amp;s=a&amp;c=a&amp;app=a16&amp;dqi=&amp;askid=&amp;l=dir&amp;o=0&amp;oo=0&amp;sv=0a5caae6&amp;ip=ae678fa9&amp;ti=1&amp;ai=&amp;u=";
+    WZInfo.ctPrefix = "http://wzus1.ask.com/i/b.html?t=a&amp;d=us&amp;s=a&amp;c=a&amp;app=a16&amp;dqi=&amp;askid=&amp;l=dir&amp;o=0&amp;oo=0&amp;sv=0a5caae6&amp;ip=ae678fa9&amp;ti=1&amp;ai=&amp;u=";
+    WZInfo.impressionURL = "http://wzus1.ask.com/i/i.gif?t=a&amp;d=us&amp;s=a&amp;c=a&amp;app=a16&amp;dqi=&amp;askid=&amp;l=dir&amp;o=0&amp;oo=0&amp;sv=0a5caae6&amp;ip=ae678fa9&amp;ti=2&amp;ai=&amp;ord=2927726&amp;cu.wz=0";
+
+        var UInfo = window.UInfo || {};
+    UInfo.pl = "5a1bFz=Yvk&amp;t8G=VLaoIPw9b_qJv_uoe02bEA+AyFMykdwz2&amp;iz=Vnfr9&amp;Qm=j5kHILL8E%MaCARNTh1dDuN%k3FWo8D7&amp;be=pxKoHjRBUhyVA+mUR&amp;SYJ5=pE-t%e&amp;Vd=%rs6cR&amp;4tn=o40.Dnvb-GZztG+3yDWnBuQi%hyKRnq463J4q7ihJGT&amp;cz=wHK2t4PGWTg&amp;yt=KIFNu&amp;vHo=F5&amp;tt=lUj&amp;bN=i&amp;eb=&amp;4RO=&amp;%=e";
+    
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+var _AnemoneParams2 = {
+	appId: 'T2_AskUS',
+	appVersion: 'c8b07d5',
+	appDate: '2014-03-17T18:16:00Z',
+    serverName: 'askus001iad.io.askjeeves.info',
+	uniqueUser: 'B855269F-3F03-4B99-BA82-BD9813A33E39',
+	backFillRequired: true,
+    suppressCookies: false,
+	eventId: '1D00B983-B499-4BA2-9D89-526F28E07203',
+    browserLanguage: 'en-us',
+    maxSession: 30,
+	domain: '.ask.com',
+	url: '/ulog',
+	logPageView: false
+};
+
+//]]>
+    </script>
+    <script src="/st/c/js/ask_unified-846e61d9870534b40a64bd4c1252bf1d0f50c43f.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+        var ask = ask || {};
+
+        (function(){
+            var _timedOut = false,
+                _fullPayload = window.backfillParam || {},                 _timeFromSerpStart = null,
+                                _adsLoggingTimeout = null,
+                _dynamicLoggingTimeout = null;
+
+            
+
+            try{
+                _timeFromSerpStart = ((new Date() - ask.CSA.startTime) - ask.CSA.showSerpStartTime);
+                                _adsLoggingTimeout = parseInt('2000') - _timeFromSerpStart;
+                _dynamicLoggingTimeout = Math.max(_adsLoggingTimeout, 1);
+            }catch(e){
+                                _dynamicLoggingTimeout = 2000;
+            }
+
+            function mixinCSAAdData(payload){
+                var externalData = {
+                    csaInfo: {
+                                                domTime: ask.CSA.domReadyTime ? ask.CSA.domReadyTime : 0,
+                                                adsResponseTime: ask.CSA.responseTime ? ask.CSA.responseTime : 0,
+                                                adsShownTime: ask.CSA.adsShownTime ? ask.CSA.adsShownTime : 0,
+                                                serpShownTime: ask.CSA.serpShownTime ? ask.CSA.serpShownTime : 0,
+                                                supplement: _timedOut,
+                                                serpTimedOut: !!ask.CSA.showSerpTimeoutFired,
+                                                serpTimeoutStartTime: ask.CSA.showSerpStartTime ? ask.CSA.showSerpStartTime : 0,
+                                                dynamicTimeout: _dynamicLoggingTimeout
+                    }
+                };
+                payload.pl_time = ask.CSA.responseTime ? ask.CSA.responseTime : 0;
+                payload.pl_tnum = ask.CSA.numTopAds ? ask.CSA.numTopAds : 0;
+                payload.pl_bnum = ask.CSA.numBottomAds ? ask.CSA.numBottomAds : 0;
+                payload.pl_rnum = parseInt(payload.pl_tnum) + parseInt(payload.pl_bnum);
+                try{
+                    payload.pl_edata = JSON.stringify(externalData);
+                }catch(e){
+                                    }
+            }
+
+
+            if (ask &amp;&amp; ask.CSA) {
+                ask.CSA.addCSALoadCallback(function(){
+                                                            var payload = _timedOut ? { pl_supplement: true } : _fullPayload;
+
+                    mixinCSAAdData(payload);
+
+                    logBackfillEvent(payload);
+                }, function(){
+                                        _timedOut = true;
+
+                    logBackfillEvent(_fullPayload);
+                }, _dynamicLoggingTimeout);
+            } else {
+                logBackfillEvent(_fullPayload);
+            }
+
+            function logBackfillEvent(payload) {
+                payload['anxi'] = JSUtil.defaultVal(_AnemoneParams2.eventId, '');
+                _Anemone.logEvent('BackFill', payload);
+            }
+        })();
+    
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    var st = new Image();
+    st.height = 1;
+    st.width = 1;
+    st.id = "SessionTracker";
+    st.src = "http://wzus1.ask.com/i/i.gif?t=v&amp;d=us&amp;s=a&amp;c=a&amp;app=a16&amp;dqi=&amp;askid=&amp;l=dir&amp;o=0&amp;oo=0&amp;sv=0a5caae6&amp;ip=ae678fa9&amp;p=%2Fweb&amp;rf=0&amp;ord=2970805&amp;cu.wz=0";
+
+//]]>
+    </script>
+    <noscript/>
+    <script src="http://www.google-analytics.com/ga.js" type="text/javascript">
+    </script>
+    <span style="display:none">
+      <script type="text/javascript">
+//<![CDATA[
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-5081537-3']);
+        _gaq.push(['_trackPageview']);
+        _gaq.push(['_trackPageLoadTime']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    
+//]]>
+      </script>
+    </span>
+    <script src="http://b.scorecardresearch.com/beacon.js" type="text/javascript">
+    </script>
+    <span style="display:none">
+      <script type="text/javascript">
+//<![CDATA[
+
+        function addEvent(obj, evType, fn){
+            if (obj.addEventListener){
+                obj.addEventListener(evType, fn, false);
+                return true;
+            } else if (obj.attachEvent){
+                var r = obj.attachEvent("on"+evType, fn);
+                return r;
+            } else {
+                return false;
+            }
+        }
+
+        function comScore(){
+            var host = (("https:" == document.location.protocol) ? "https://sb" : "http://b");
+            var headTag = document.getElementsByTagName("head")[0];
+            var scanalytics = document.createElement("script");
+            scanalytics.setAttribute("type", "text/javascript");
+            scanalytics.setAttribute("src", host + ".scorecardresearch.com/beacon.js");
+            scanalytics.onload = scanalytics.onreadystatechange = function(){
+                try {
+                    COMSCORE.beacon({
+                        c1:2,
+                        c2:6034776,
+                        c3:"",
+                        c4:"",
+                        c5:"",
+                        c6:"",
+                        c15:""
+                    });
+                } catch(err) {
+                }
+            };
+            headTag.appendChild(scanalytics);
+        }
+        addEvent(window, 'load', comScore);
+    
+//]]>
+      </script>
+      <noscript/>
+    </span>
+    <script type="text/javascript">
+//<![CDATA[
+
+            $j(document).ready(function(){
+
+                JASK.namespace('foresee');
+                JASK.foresee.surveyCallback = function() {
+                    if($j.cookie("fsr.r")== null){
+                        var adCount = $j.cookie("adDepth");
+                        var isSpellCheckDisplayed = $j("#spell-check-result").length &gt; 0;
+                        FSR.CPPS.set('QID','5270BF8E66941FC6DBA498AB1666EF55');
+                        FSR.CPPS.set('SID','');
+                        FSR.CPPS.set('UID','');
+                        FSR.CPPS.set('c','a');
+                        FSR.CPPS.set('o','0');
+                        FSR.CPPS.set('Term',"ibm");
+                        FSR.CPPS.set('OCQ','0');
+                        FSR.CPPS.set('ADCAT','590');
+                        FSR.CPPS.set('CU','0');
+                        FSR.CPPS.set('ADDEP','' + adCount);
+                        FSR.CPPS.set('TTYPE','3');
+                        FSR.CPPS.set('app','a16');
+                        FSR.CPPS.set('ANSWTYPE','7');
+                        FSR.CPPS.set('ld','');
+                        FSR.CPPS.set('MATCH','0');
+                        FSR.CPPS.set('CHANNEL','web');
+                        FSR.CPPS.set('Ad_ID','');
+                        FSR.CPPS.set('clientid','aj-cat');
+                        FSR.CPPS.set('QSOURCE','0');
+                        FSR.CPPS.set('DQI_term','');
+                        FSR.CPPS.set('Partner_ID',JASK.foresee.getPartner());
+                        FSR.CPPS.set('SA_Area',JASK.foresee.getArea());
+                        FSR.CPPS.set('Spell_Display', isSpellCheckDisplayed? "true":"false");
+                        FSR.CPPS.set('SA',JASK.foresee.getCPPValue('SA'));
+                        FSR.CPPS.set('NAF',JASK.foresee.getCPPValue('ANSW'));
+                        FSR.CPPS.set('RELSearch',JASK.foresee.getCPPValue('RLT'));
+                        FSR.CPPS.set('ABOUT',JASK.foresee.getCPPValue('ABTI'));
+                        FSR.CPPS.set('SEO',JASK.foresee.getCPPValue('SEO'));
+                        FSR.CPPS.set('Concept_X',JASK.foresee.getCPPValue('CX'));
+                        FSR.CPPS.set('Concept_X_Position',JASK.foresee.getCPPValue('CXP'));
+                        FSR.CPPS.set('Concept_X_element',JASK.foresee.getCPPValue('CXE'));
+                        FSR.CPPS.set('UNI_UID','B855269F-3F03-4B99-BA82-BD9813A33E39');
+                        FSR.CPPS.set('UNI_SID','1285194212');
+                        FSR.CPPS.set('UNI_PID','5270BF8E66941FC6DBA498AB1666EF55');
+                    }
+                };
+
+                var foreseeFlag = "0";
+
+                if($j.cookie("fsf") == null &amp;&amp; true == true){
+                        $j.cookie("fsf", foreseeFlag, {path:'/', domain:"ask.com"});
+                }
+
+                if(($j.cookie("fsf") == '1' || false == true) &amp;&amp; $j.cookie("fsr.r") == null) {
+                                                                            $j.getScript(""+"/st/raw/ask/foresee/v1/foresee-trigger.js");                                                              }
+            });
+        
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+        /* &lt;![CDATA[ */
+        var google_conversion_id = 1003219837;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]&gt; */
+    
+//]]>
+    </script>
+    <script src="//www.googleadservices.com/pagead/conversion.js" type="text/javascript">
+    </script>
+    <iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1003219837/?random=1395263896366&amp;cv=7&amp;fst=1395263896366&amp;num=1&amp;fmt=1&amp;guid=ON&amp;u_h=768&amp;u_w=1024&amp;u_ah=768&amp;u_aw=1024&amp;u_cd=24&amp;u_his=1&amp;u_tz=-240&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;frm=0&amp;url=http%3A//www.ask.com/web%3Fq%3Dibm%26qsrc%3D0%26o%3D0%26l%3Ddir%26qo%3DhomepageSearchBox" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no">
+      <img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1003219837/?frame=0&amp;random=1395263896366&amp;cv=7&amp;fst=1395263896366&amp;num=1&amp;fmt=1&amp;guid=ON&amp;u_h=768&amp;u_w=1024&amp;u_ah=768&amp;u_aw=1024&amp;u_cd=24&amp;u_his=1&amp;u_tz=-240&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;frm=0&amp;url=http%3A//www.ask.com/web%3Fq%3Dibm%26qsrc%3D0%26o%3D0%26l%3Ddir%26qo%3DhomepageSearchBox"/>
+    </iframe>
+    <noscript/>
+    <script type="text/javascript" data-version="1.9" data-timing="async" data-id="Ittk1TvC" class="kxct">
+//<![CDATA[
+
+    window.Krux || ((Krux = function () {
+        Krux.q.push(arguments)
+    }).q = []);
+    (function () {
+        var k = document.createElement('script');
+        k.type = 'text/javascript';
+        k.async = true;
+        var m, src = (m = location.href.match(/\bkxsrc=([^&amp;]+)/)) &amp;&amp; decodeURIComponent(m[1]);
+        k.src = /^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+                (location.protocol === "https:" ? "https:" : "http:") + "//cdn.krxd.net/controltag?confid=Ittk1TvC";
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(k, s);
+    }());
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    var ask = ask || {},
+        sp = sp || {};
+    sp.site = 'US';
+    sp.gls_top = parseInt('$gslTop');
+    sp.gls_bottom = parseInt('$gslBottom');
+    sp.ad_count = (window['google_ads']) ? window['google_ads'].length : (sp.gls_top + sp.gls_bottom);
+    ask.adsPixelTimeout = '2000';
+
+    function initPixel(cb, cbTimeout) {
+        if (ask &amp;&amp; ask.CSA) {
+            ask.CSA.addCSALoadCallback(function() {
+                cb(true);
+            }, function(){
+                cbTimeout();
+            }, ask.adsPixelTimeout);
+        } else {
+            cb(false);
+        }
+    }
+
+    $j(document).ready(function(){
+        if (ask &amp;&amp; ask.CSA &amp;&amp; typeof ask.CSA.domReady == "function") {
+            ask.CSA.domReady();
+        }
+    });
+
+//]]>
+    </script>
+  </body>
+</html>

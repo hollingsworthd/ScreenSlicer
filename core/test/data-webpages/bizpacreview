@@ -1,0 +1,1786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml" style="" class=" js no-flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+  <head profile="http://gmpg.org/xfn/11">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <title>
+      Search Results    us -  BizPac Review
+    </title>
+    <meta content="noindex,noarchive,noodp,noydir" name="robots"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="http://www.bizpacreview.com/feed" title="BizPac Review » Feed" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.bizpacreview.com/comments/feed" title="BizPac Review » Comments Feed" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.bizpacreview.com/search/us/feed/rss2/" title="BizPac Review » Search Results for “us” Feed" type="application/rss+xml" rel="alternate"/>
+    <link media="all" type="text/css" href="http://www.bizpacreview.com/wp-content/plugins/wordpress-popular-posts/style/wpp.css?ver=2.3.7" id="wordpress-popular-posts-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://www.bizpacreview.com/wp-content/themes/bbm-biz_base_1.9.11/style.css?ver=2.0.1" id="genesis-sample-theme-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://www.bizpacreview.com/wp-content/plugins/socialize/frontend/css/socialize.css?ver=3.8.1" id="socialize-css" rel="stylesheet"/>
+    <script src="http://edge.quantserve.com/quant.js" async="" type="text/javascript">
+    </script>
+    <script async="" type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script type="text/javascript" async="" src="http://static.adzerk.net/ados.js">
+    </script>
+    <script async="" src="//www.google-analytics.com/analytics.js">
+    </script>
+    <script src="http://www.bizpacreview.com/wp-includes/js/jquery/jquery.js?ver=1.10.2" type="text/javascript">
+    </script>
+    <script src="http://www.bizpacreview.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript">
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js?ver=3.8.1" type="text/javascript">
+    </script>
+    <link href="http://www.bizpacreview.com/xmlrpc.php?rsd" title="RSD" type="application/rsd+xml" rel="EditURI"/>
+    <script>
+//<![CDATA[
+
+// Start allowance of jQuery to $ shortcut
+jQuery(document).ready(function($){
+
+	// Convert label to placeholder
+		$.each($('.gfap_placeholder input, .gfap_placeholder textarea'), function () {
+		var gfapId = this.id;
+		var gfapLabel = $('label[for=' + gfapId + ']');
+		$(gfapLabel).hide();
+		var gfapLabelValue = $(gfapLabel).text();
+		$(this).attr('placeholder',gfapLabelValue);
+	});
+
+	// Use modernizr to add placeholders for IE
+	if(!Modernizr.input.placeholder){$("input,textarea").each(function(){if($(this).val()=="" &amp;&amp; $(this).attr("placeholder")!=""){$(this).val($(this).attr("placeholder"));$(this).focus(function(){if($(this).val()==$(this).attr("placeholder")) $(this).val("");});$(this).blur(function(){if($(this).val()=="") $(this).val($(this).attr("placeholder"));});}});}
+
+// Ends allowance of jQuery to $ shortcut
+});
+
+//]]>
+    </script>
+    <link type="image/x-icon" href="http://www.bizpacreview.com/wp-content/themes/bbm-biz_base_1.9.11/images/favicon.ico" rel="Shortcut Icon"/>
+    <script>
+//<![CDATA[
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-19507856-1', 'bizpacreview.com');
+  ga('send', 'pageview');
+
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+var p="http",d="static";if(document.location.protocol=="https:"){p+="s";d="engine";}var 
+
+z=document.createElement("script");z.type="text/javascript";z.async=true;z.src=p+"://"+d+".adzerk.net/ados.js";var 
+
+s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(z,s);
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+var ados = ados || {};
+ados.run = ados.run || [];
+ados.run.push(function() {
+
+/* load placement for account: BizPac Review, site: BizPac Review, size: 728x90 - Leaderboard, zone: Footer BTF*/
+ados_add_placement(8358, 53524, "azk76682", 4).setZone(55547);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 728x90 - Leaderboard, zone: Above the Fold*/
+ados_add_placement(8358, 53524, "azk11481", 4).setZone(53828);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 300x250 - Medium Rectangle, zone: Above the Fold*/
+ados_add_placement(8358, 53524, "azk85688", 5).setZone(53828);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 300x250 - Medium Rectangle, zone: On the Fold*/
+ados_add_placement(8358, 53524, "azk99725", 5).setZone(53830);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 300x250 - Medium Rectangle, zone: Below the Fold*/
+ados_add_placement(8358, 53524, "azk20950", 5).setZone(53829);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 160x600 - Wide Skyscraper, zone: Below the Fold
+
+Right*/
+ados_add_placement(8358, 53524, "azk99473", 6).setZone(55546);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 300x250 - Medium Rectangle, zone: Below the Fold 
+
+Right*/
+ados_add_placement(8358, 53524, "azk22021", 5).setZone(55546);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 160x600 - Wide Skyscraper, zone: On the Fold*/
+ados_add_placement(8358, 53524, "azk78595", 6).setZone(53830);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 180x150 - Rectangle, zone: Below the Fold*/
+ados_add_placement(8358, 53524, "azk24208", 9).setZone(53829);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 160x600 - Wide Skyscraper, zone: Below the Fold 
+
+Left*/
+ados_add_placement(8358, 53524, "azk23741", 6).setZone(55545);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 234x60 - Half Banner, zone: F1 BTF*/
+ados_add_placement(8358, 53524, "azk11933", 12).setZone(56451);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 234x60 - Half Banner, zone: F2 BTF*/
+ados_add_placement(8358, 53524, "azk81452", 12).setZone(56452);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 234x60 - Half Banner, zone: F3 BTF*/
+ados_add_placement(8358, 53524, "azk92523", 12).setZone(56453);
+/* load placement for account: BizPac Review, site: BizPac Review, size: 234x60 - Half Banner, zone: F4 BTF*/
+ados_add_placement(8358, 53524, "azk65478", 12).setZone(56454);
+ados_load();
+});
+//]]>
+    </script>
+    <script async="" type="text/javascript" src="//disqus.com/forums/bizpacreview/count.js">
+    </script>
+    <script async="" type="text/javascript" src="http://partner.googleadservices.com/gpt/pubads_impl_35.js">
+    </script>
+    <script async="" src="http://bizpacreview.disqus.com/count-data.js?1=109193%20http%3A%2F%2Fwww.bizpacreview.com%2F%3Fp%3D109193&amp;1=109312%20http%3A%2F%2Fwww.bizpacreview.com%2F%3Fp%3D109312&amp;1=109322%20http%3A%2F%2Fwww.bizpacreview.com%2F%3Fp%3D109322&amp;1=109390%20http%3A%2F%2Fwww.bizpacreview.com%2F%3Fp%3D109390&amp;1=109414%20http%3A%2F%2Fwww.bizpacreview.com%2F%3Fp%3D109414&amp;1=109449%20http%3A%2F%2Fwww.bizpacreview.com%2F%3Fp%3D109449&amp;1=109503%20http%3A%2F%2Fwww.bizpacreview.com%2F%3Fp%3D109503&amp;1=109518%20http%3A%2F%2Fwww.bizpacreview.com%2F%3Fp%3D109518&amp;1=109567%20http%3A%2F%2Fwww.bizpacreview.com%2F%3Fp%3D109567&amp;1=109598%20http%3A%2F%2Fwww.bizpacreview.com%2F%3Fp%3D109598">
+    </script>
+  </head>
+  <body class="search search-results custom-header sidebar-content-sidebar">
+    <div class="area-before-site" id="area-before-site">
+      <div class="areawrap">
+        <div class="widget widget_nav_menu areawgt" id="nav_menu-5">
+          <div class="widget-wrap">
+            <div class="menu-socialnav-container">
+              <ul class="menu" id="menu-socialnav">
+                <li class="ico-facebook-32x32 ico-menu-32x32-notxt menu-item menu-item-type-custom menu-item-object-custom menu-item-4379" id="menu-item-4379">
+                  <a href="https://www.facebook.com/BizPacReview" target="_blank">
+                    Facebook
+                  </a>
+                </li>
+                <li class="ico-gplus-32x32 ico-menu-32x32-notxt menu-item menu-item-type-custom menu-item-object-custom menu-item-4380" id="menu-item-4380">
+                  <a href="https://plus.google.com/114963009107638864440" target="_blank">
+                    Google+
+                  </a>
+                </li>
+                <li class="ico-twitter-32x32 ico-menu-32x32-notxt menu-item menu-item-type-custom menu-item-object-custom menu-item-4381" id="menu-item-4381">
+                  <a href="https://twitter.com/BIZPACReview" target="_blank">
+                    Twitter
+                  </a>
+                </li>
+                <li class="ico-youtube-32x32 ico-menu-32x32-notxt menu-item menu-item-type-custom menu-item-object-custom menu-item-4383" id="menu-item-4383">
+                  <a href="http://www.youtube.com/user/BizPacReviewPolitics?feature=CAQQwRs%3D" target="_blank">
+                    YouTube
+                  </a>
+                </li>
+                <li class="ico-email-32x32 ico-menu-32x32-notxt menu-item menu-item-type-custom menu-item-object-custom menu-item-4384" id="menu-item-4384">
+                  <a href="mailto:tips@bizpacreview.com" target="_blank">
+                    Email
+                  </a>
+                </li>
+                <li class="ico-rss-32x32 ico-menu-32x32-notxt menu-item menu-item-type-custom menu-item-object-custom menu-item-56684" id="menu-item-56684">
+                  <a href="http://www.bizpacreview.com/feed/rss">
+                    RSS Feeds
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="wrap">
+      <div id="header">
+        <div class="wrap">
+          <div id="title-area">
+            <p id="title">
+              <a title="BizPac Review" href="http://www.bizpacreview.com/">
+                BizPac Review
+              </a>
+            </p>
+          </div>
+          <div class="widget-area header-widget-area">
+            <div class="widget widget_text" id="text-33">
+              <div class="widget-wrap">
+                <div class="textwidget">
+                  <div id="azk11481">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="nav">
+        <div class="wrap">
+          <ul class="menu genesis-nav-menu menu-primary" id="menu-mainnav">
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4344" id="menu-item-4344">
+              <a href="http://www.bizpacreview.com/">
+                Home
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67910" id="menu-item-67910">
+              <a href="http://www.bizpacreview.com/florida-news">
+                Florida News
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4349" id="menu-item-4349">
+              <a href="http://www.bizpacreview.com/videos">
+                Videos
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4345" id="menu-item-4345">
+              <a href="http://www.bizpacreview.com/about-us">
+                About
+              </a>
+              <ul class="sub-menu">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57874" id="menu-item-57874">
+                  <a href="http://www.bizpacreview.com/bizpac-review-writers">
+                    Writers
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50444" id="menu-item-50444">
+                  <a href="http://www.bizpacreview.com/writers">
+                    Guest Writers
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4346" id="menu-item-4346">
+                  <a href="http://www.bizpacreview.com/advertise">
+                    Advertise
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4348" id="menu-item-4348">
+              <a href="http://www.bizpacreview.com/contact-us">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="inner">
+        <div class="wrap">
+          <div id="content-sidebar-wrap">
+            <div class="hfeed" id="content">
+              <div class="archive-description">
+                <h1 class="archive-title">
+                  Search Results for: us
+                </h1>
+              </div>
+              <div class="post-109503 post type-post status-publish format-standard hentry category-feature-home-vertical category-news category-opinion entry">
+                <h2 class="entry-title">
+                  <a rel="bookmark" title="‘Moron’ judge renders DC businessman guilty for owning musket balls" href="http://www.bizpacreview.com/2014/03/30/moron-judge-renders-dc-businessman-guilty-for-owning-musket-balls-109503">
+                    ‘Moron’ judge renders DC businessman guilty for owning musket balls
+                  </a>
+                </h2>
+                <div class="post-info">
+                  <span title="2014-03-30T14:18:50+00:00" class="date published time">
+                    March 30, 2014
+                  </span>
+                    by 
+                  <span class="author vcard">
+                    <span class="fn">
+                      <a rel="author" title="Michael Dorstewitz" href="http://www.bizpacreview.com/author/michaeldorstewitz">
+                        Michael Dorstewitz
+                      </a>
+                    </span>
+                  </span>
+                  <span class="post-comments">
+                    <a href="http://www.bizpacreview.com/2014/03/30/moron-judge-renders-dc-businessman-guilty-for-owning-musket-balls-109503#disqus_thread" data-disqus-identifier="109503 http://www.bizpacreview.com/?p=109503">
+                      2 Comments
+                    </a>
+                  </span>
+                </div>
+                <div class="entry-content">
+                  <a title="‘Moron’ judge renders DC businessman guilty for owning musket balls" href="http://www.bizpacreview.com/2014/03/30/moron-judge-renders-dc-businessman-guilty-for-owning-musket-balls-109503">
+                    <img width="150" height="150" itemprop="image" alt="carlson-witachek-screenshot" class="alignleft post-image entry-image" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/carlson-witachek-screenshot-150x150.jpg"/>
+                  </a>
+                  <p>
+                    A Washington, D.C., financial consultant’s legal odyssey ended last week as surprisingly as his arrest on charges of possessing a misfired shotgun shell and 25 muzzle-loading lead projectiles. District of Columbia Circuit Judge Robert Morin found Mark Witaschek guilty of attempted possession of illegal ammunition and sentenced him to time served, a $50 fine and […]
+                  </p>
+                </div>
+                <div class="mod-disclaimer">
+                  <div class="modwrap">
+                    <h4>
+                      <em>
+                        BizPacReview.com is looking for comment moderators. If you’re interested, please review our 
+                        <a href="http://www.bizpacreview.com/comment-policy">
+                          comment policy page
+                        </a>
+                         and submit your request.
+                      </em>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="post-109598 post type-post status-publish format-standard hentry category-feature-home-vertical category-news category-opinion entry">
+                <h2 class="entry-title">
+                  <a rel="bookmark" title="Awesome animated crack at anti-gun, arms-dealing Democrat bust – because media doesn’t care" href="http://www.bizpacreview.com/2014/03/30/awesome-animated-crack-at-anti-gun-arms-dealing-democrat-bust-because-media-doesnt-care-109598">
+                    Awesome animated crack at anti-gun, arms-dealing Democrat bust – because media doesn’t care
+                  </a>
+                </h2>
+                <div class="post-info">
+                  <span title="2014-03-30T12:59:32+00:00" class="date published time">
+                    March 30, 2014
+                  </span>
+                    by 
+                  <span class="author vcard">
+                    <span class="fn">
+                      <a rel="author" title="Joe Saunders" href="http://www.bizpacreview.com/author/joesaunders">
+                        Joe Saunders
+                      </a>
+                    </span>
+                  </span>
+                  <span class="post-comments">
+                    <a href="http://www.bizpacreview.com/2014/03/30/awesome-animated-crack-at-anti-gun-arms-dealing-democrat-bust-because-media-doesnt-care-109598#disqus_thread" data-disqus-identifier="109598 http://www.bizpacreview.com/?p=109598">
+                      1 Comment
+                    </a>
+                  </span>
+                </div>
+                <div class="entry-content">
+                  <a title="Awesome animated crack at anti-gun, arms-dealing Democrat bust – because media doesn’t care" href="http://www.bizpacreview.com/2014/03/30/awesome-animated-crack-at-anti-gun-arms-dealing-democrat-bust-because-media-doesnt-care-109598">
+                    <img width="150" height="150" itemprop="image" alt="lelandyee0330" class="alignleft post-image entry-image" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/lelandyee0330-150x150.jpg"/>
+                  </a>
+                  <p>
+                    The case of an anti-gun California state senator dedicated to disarming Americans while running an international arms ring has gotten shamefully shortchanged by the national news media, but it’s not getting ignored everywhere. California Sen. Leland Yee – a Democrat, of course – was indicted on Wednesday on charges of conspiring to buy and supply […]
+                  </p>
+                </div>
+                <div class="mod-disclaimer">
+                  <div class="modwrap">
+                    <h4>
+                      <em>
+                        BizPacReview.com is looking for comment moderators. If you’re interested, please review our 
+                        <a href="http://www.bizpacreview.com/comment-policy">
+                          comment policy page
+                        </a>
+                         and submit your request.
+                      </em>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="post-109567 post type-post status-publish format-standard hentry category-feature-home-vertical category-news category-opinion entry">
+                <h2 class="entry-title">
+                  <a rel="bookmark" title="Liberal law professor sides with conservatives on Hobby Lobby, #FreeJustina" href="http://www.bizpacreview.com/2014/03/30/liberal-law-professor-sides-with-conservatives-on-hobby-lobby-freejustina-109567">
+                    Liberal law professor sides with conservatives on Hobby Lobby, #FreeJustina
+                  </a>
+                </h2>
+                <div class="post-info">
+                  <span title="2014-03-30T11:56:04+00:00" class="date published time">
+                    March 30, 2014
+                  </span>
+                    by 
+                  <span class="author vcard">
+                    <span class="fn">
+                      <a rel="author" title="Michael Dorstewitz" href="http://www.bizpacreview.com/author/michaeldorstewitz">
+                        Michael Dorstewitz
+                      </a>
+                    </span>
+                  </span>
+                  <span class="post-comments">
+                    <a href="http://www.bizpacreview.com/2014/03/30/liberal-law-professor-sides-with-conservatives-on-hobby-lobby-freejustina-109567#disqus_thread" data-disqus-identifier="109567 http://www.bizpacreview.com/?p=109567">
+                      3 Comments
+                    </a>
+                  </span>
+                </div>
+                <div class="entry-content">
+                  <a title="Liberal law professor sides with conservatives on Hobby Lobby, #FreeJustina" href="http://www.bizpacreview.com/2014/03/30/liberal-law-professor-sides-with-conservatives-on-hobby-lobby-freejustina-109567">
+                    <img width="150" height="150" itemprop="image" alt="huckabee-dershowitz" class="alignleft post-image entry-image" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/huckabee-dershowitz-150x150.jpg"/>
+                  </a>
+                  <p>
+                    Famed Harvard Law School professor Alan Dershowitz claims to be a die-hard liberal, but he sounded more like he was playing on the other side’s team during a Saturday appearance on “The Huckabee Show.” In both the #FreeJustina and Hobby Lobby cases dominating the news lately, Dershowitz came out on the side of the individual, […]
+                  </p>
+                </div>
+                <div class="mod-disclaimer">
+                  <div class="modwrap">
+                    <h4>
+                      <em>
+                        BizPacReview.com is looking for comment moderators. If you’re interested, please review our 
+                        <a href="http://www.bizpacreview.com/comment-policy">
+                          comment policy page
+                        </a>
+                         and submit your request.
+                      </em>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="post-109518 post type-post status-publish format-standard hentry category-feature-home-top category-news entry">
+                <h2 class="entry-title">
+                  <a rel="bookmark" title="Obama kisses Justin Bieber to promote healthcare in SNL’s brutal Obama-bashing open" href="http://www.bizpacreview.com/2014/03/30/obama-kisses-justin-bieber-to-promote-healthcare-in-snls-brutal-obama-bashing-open-109518">
+                    Obama kisses Justin Bieber to promote healthcare in SNL’s brutal Obama-bashing open
+                  </a>
+                </h2>
+                <div class="post-info">
+                  <span title="2014-03-30T06:52:24+00:00" class="date published time">
+                    March 30, 2014
+                  </span>
+                    by 
+                  <span class="author vcard">
+                    <span class="fn">
+                      <a rel="author" title="Michele Kirk" href="http://www.bizpacreview.com/author/michelekirk">
+                        Michele Kirk
+                      </a>
+                    </span>
+                  </span>
+                  <span class="post-comments">
+                    <a href="http://www.bizpacreview.com/2014/03/30/obama-kisses-justin-bieber-to-promote-healthcare-in-snls-brutal-obama-bashing-open-109518#disqus_thread" data-disqus-identifier="109518 http://www.bizpacreview.com/?p=109518">
+                      78 Comments
+                    </a>
+                  </span>
+                </div>
+                <div class="entry-content">
+                  <a title="Obama kisses Justin Bieber to promote healthcare in SNL’s brutal Obama-bashing open" href="http://www.bizpacreview.com/2014/03/30/obama-kisses-justin-bieber-to-promote-healthcare-in-snls-brutal-obama-bashing-open-109518">
+                    <img width="150" height="150" itemprop="image" alt="SNL 4" class="alignleft post-image entry-image" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/SNL-4-150x150.jpg"/>
+                  </a>
+                  <p>
+                    This week’s ‘Saturday Night Live’ cold open boldly mocked President Obama and the ridiculous final push of his unpopular disaster, Obamacare. What makes it so funny is that it isn’t that far from reality. Watching the stream of celebrities pimped out for the social media campaign was not a big shocker. Even the kiss with Justin Bieber […]
+                  </p>
+                </div>
+                <div class="mod-disclaimer">
+                  <div class="modwrap">
+                    <h4>
+                      <em>
+                        BizPacReview.com is looking for comment moderators. If you’re interested, please review our 
+                        <a href="http://www.bizpacreview.com/comment-policy">
+                          comment policy page
+                        </a>
+                         and submit your request.
+                      </em>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="post-109449 post type-post status-publish format-standard hentry category-home-middle category-news category-opinion entry">
+                <h2 class="entry-title">
+                  <a rel="bookmark" title="Dana Loesch on Hobby Lobby: ‘Predictably stupid’ progressives asking to be crushed" href="http://www.bizpacreview.com/2014/03/29/dana-loesch-on-hobby-lobby-predictably-stupid-progressives-asking-to-be-crushed-109449">
+                    Dana Loesch on Hobby Lobby: ‘Predictably stupid’ progressives asking to be crushed
+                  </a>
+                </h2>
+                <div class="post-info">
+                  <span title="2014-03-29T14:09:48+00:00" class="date published time">
+                    March 29, 2014
+                  </span>
+                    by 
+                  <span class="author vcard">
+                    <span class="fn">
+                      <a rel="author" title="Joe Saunders" href="http://www.bizpacreview.com/author/joesaunders">
+                        Joe Saunders
+                      </a>
+                    </span>
+                  </span>
+                  <span class="post-comments">
+                    <a href="http://www.bizpacreview.com/2014/03/29/dana-loesch-on-hobby-lobby-predictably-stupid-progressives-asking-to-be-crushed-109449#disqus_thread" data-disqus-identifier="109449 http://www.bizpacreview.com/?p=109449">
+                      3 Comments
+                    </a>
+                  </span>
+                </div>
+                <div class="entry-content">
+                  <a title="Dana Loesch on Hobby Lobby: ‘Predictably stupid’ progressives asking to be crushed" href="http://www.bizpacreview.com/2014/03/29/dana-loesch-on-hobby-lobby-predictably-stupid-progressives-asking-to-be-crushed-109449">
+                    <img width="150" height="150" itemprop="image" alt="danaloesch0329" class="alignleft post-image entry-image" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/danaloesch0329-150x150.jpg"/>
+                  </a>
+                  <p>
+                    Dana Loesch made it so simple, even a liberal could follow it. Hobby Lobby and Conestoga Wood Specialties, the two companies engaged in the latest round of Obamacare litigation in the Supreme Court, are fighting a battle that matters to every American, she said – no matter what they believe. “The government has no business […]
+                  </p>
+                </div>
+                <div class="mod-disclaimer">
+                  <div class="modwrap">
+                    <h4>
+                      <em>
+                        BizPacReview.com is looking for comment moderators. If you’re interested, please review our 
+                        <a href="http://www.bizpacreview.com/comment-policy">
+                          comment policy page
+                        </a>
+                         and submit your request.
+                      </em>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="post-109414 post type-post status-publish format-standard hentry category-news category-video-feature-right-vertical category-videos entry">
+                <h2 class="entry-title">
+                  <a rel="bookmark" title="Taco Bell uses Ronald McDonald to promote new breakfast menu, McDonald’s responds" href="http://www.bizpacreview.com/2014/03/29/taco-bell-uses-ronald-mcdonald-to-promote-new-breakfast-menu-mcdonalds-responds-109414">
+                    Taco Bell uses Ronald McDonald to promote new breakfast menu, McDonald’s responds
+                  </a>
+                </h2>
+                <div class="post-info">
+                  <span title="2014-03-29T13:05:56+00:00" class="date published time">
+                    March 29, 2014
+                  </span>
+                    by 
+                  <span class="author vcard">
+                    <span class="fn">
+                      <a rel="author" title="BizPac Review" href="http://www.bizpacreview.com/author/bizpacreview">
+                        BizPac Review
+                      </a>
+                    </span>
+                  </span>
+                  <span class="post-comments">
+                    <a href="http://www.bizpacreview.com/2014/03/29/taco-bell-uses-ronald-mcdonald-to-promote-new-breakfast-menu-mcdonalds-responds-109414#disqus_thread" data-disqus-identifier="109414 http://www.bizpacreview.com/?p=109414">
+                      0 Comments
+                    </a>
+                  </span>
+                </div>
+                <div class="entry-content">
+                  <a title="Taco Bell uses Ronald McDonald to promote new breakfast menu, McDonald’s responds" href="http://www.bizpacreview.com/2014/03/29/taco-bell-uses-ronald-mcdonald-to-promote-new-breakfast-menu-mcdonalds-responds-109414">
+                    <img width="150" height="150" itemprop="image" alt="Ronald 2" class="alignleft post-image entry-image" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/Ronald2-150x150.jpg"/>
+                  </a>
+                  <p>
+                    This isn’t exactly breaking news but an interesting advertising strategy. Taco Bell released a new ad this week featuring men from across the country named Ronald McDonald endorsing their new breakfast selections. On Friday, McDonald’s posted to their Facebook page: H/T: Truth Revolt Scary viral video causing sleepless nights The coolest way to knock down […]
+                  </p>
+                </div>
+                <div class="mod-disclaimer">
+                  <div class="modwrap">
+                    <h4>
+                      <em>
+                        BizPacReview.com is looking for comment moderators. If you’re interested, please review our 
+                        <a href="http://www.bizpacreview.com/comment-policy">
+                          comment policy page
+                        </a>
+                         and submit your request.
+                      </em>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="post-109390 post type-post status-publish format-standard hentry category-home-middle category-news category-opinion entry">
+                <h2 class="entry-title">
+                  <a rel="bookmark" title="Town council members stir up debate, refuse to stand, recite Pledge of Allegiance" href="http://www.bizpacreview.com/2014/03/29/town-council-members-stir-up-debate-refuse-to-stand-recite-pledge-of-allegiance-109390">
+                    Town council members stir up debate, refuse to stand, recite Pledge of Allegiance
+                  </a>
+                </h2>
+                <div class="post-info">
+                  <span title="2014-03-29T11:39:03+00:00" class="date published time">
+                    March 29, 2014
+                  </span>
+                    by 
+                  <span class="author vcard">
+                    <span class="fn">
+                      <a rel="author" title="Michael Dorstewitz" href="http://www.bizpacreview.com/author/michaeldorstewitz">
+                        Michael Dorstewitz
+                      </a>
+                    </span>
+                  </span>
+                  <span class="post-comments">
+                    <a href="http://www.bizpacreview.com/2014/03/29/town-council-members-stir-up-debate-refuse-to-stand-recite-pledge-of-allegiance-109390#disqus_thread" data-disqus-identifier="109390 http://www.bizpacreview.com/?p=109390">
+                      74 Comments
+                    </a>
+                  </span>
+                </div>
+                <div class="entry-content">
+                  <a title="Town council members stir up debate, refuse to stand, recite Pledge of Allegiance" href="http://www.bizpacreview.com/2014/03/29/town-council-members-stir-up-debate-refuse-to-stand-recite-pledge-of-allegiance-109390">
+                    <img width="150" height="150" itemprop="image" alt="Hampden pledge" class="alignleft post-image entry-image" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/Hampden-pledge-150x150.jpg"/>
+                  </a>
+                  <p>
+                    A YouTube video depicting a Maine town council meeting serving an area having fewer than 8,000 residents is stirring a local hornets’ nest and generating debate coast to coast due to two of its members’ refusal to stand for the Pledge of Allegiance. Hampden Council members William Shakespeare and Thomas Brann have refused to rise […]
+                  </p>
+                </div>
+                <div class="mod-disclaimer">
+                  <div class="modwrap">
+                    <h4>
+                      <em>
+                        BizPacReview.com is looking for comment moderators. If you’re interested, please review our 
+                        <a href="http://www.bizpacreview.com/comment-policy">
+                          comment policy page
+                        </a>
+                         and submit your request.
+                      </em>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="post-109312 post type-post status-publish format-standard hentry category-home-middle category-news entry">
+                <h2 class="entry-title">
+                  <a rel="bookmark" title="Former Dem. US Senator pegs Obama as self-delusional liar who ‘sucked less than Romney’" href="http://www.bizpacreview.com/2014/03/29/former-dem-us-senator-pegs-obama-as-self-delusional-liar-who-sucked-less-than-romney-109312">
+                    Former Dem. US Senator pegs Obama as self-delusional liar who ‘sucked less than Romney’
+                  </a>
+                </h2>
+                <div class="post-info">
+                  <span title="2014-03-29T11:35:55+00:00" class="date published time">
+                    March 29, 2014
+                  </span>
+                    by 
+                  <span class="author vcard">
+                    <span class="fn">
+                      <a rel="author" title="Tom Tillison" href="http://www.bizpacreview.com/author/tomtillison">
+                        Tom Tillison
+                      </a>
+                    </span>
+                  </span>
+                  <span class="post-comments">
+                    <a href="http://www.bizpacreview.com/2014/03/29/former-dem-us-senator-pegs-obama-as-self-delusional-liar-who-sucked-less-than-romney-109312#disqus_thread" data-disqus-identifier="109312 http://www.bizpacreview.com/?p=109312">
+                      65 Comments
+                    </a>
+                  </span>
+                </div>
+                <div class="entry-content">
+                  <a title="Former Dem. US Senator pegs Obama as self-delusional liar who ‘sucked less than Romney’" href="http://www.bizpacreview.com/2014/03/29/former-dem-us-senator-pegs-obama-as-self-delusional-liar-who-sucked-less-than-romney-109312">
+                    <img width="150" height="150" itemprop="image" alt="obama" class="alignleft post-image entry-image" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/obama_06-150x150.jpg"/>
+                  </a>
+                  <p>
+                    The latest sign that the bloom is off the rose for President Obama can be seen in the scathing criticism he received this week from a fellow Democrat. Former U.S. Sen. Bob Kerrey, a two-term Democrat from Nebraska, said Obama was reelected in 2012 because he “sucked less” than his GOP opponent Mitt Romney. In an […]
+                  </p>
+                </div>
+                <div class="mod-disclaimer">
+                  <div class="modwrap">
+                    <h4>
+                      <em>
+                        BizPacReview.com is looking for comment moderators. If you’re interested, please review our 
+                        <a href="http://www.bizpacreview.com/comment-policy">
+                          comment policy page
+                        </a>
+                         and submit your request.
+                      </em>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="post-109322 post type-post status-publish format-standard hentry category-home-middle category-news entry">
+                <h2 class="entry-title">
+                  <a rel="bookmark" title="Trey Gowdy mocks Harry Reid’s denial: ‘I didn’t think Mormons used drugs’" href="http://www.bizpacreview.com/2014/03/29/trey-gowdy-mocks-harry-reids-denial-i-didnt-think-mormons-used-drugs-109322">
+                    Trey Gowdy mocks Harry Reid’s denial: ‘I didn’t think Mormons used drugs’
+                  </a>
+                </h2>
+                <div class="post-info">
+                  <span title="2014-03-29T10:09:44+00:00" class="date published time">
+                    March 29, 2014
+                  </span>
+                    by 
+                  <span class="author vcard">
+                    <span class="fn">
+                      <a rel="author" title="Michael Dorstewitz" href="http://www.bizpacreview.com/author/michaeldorstewitz">
+                        Michael Dorstewitz
+                      </a>
+                    </span>
+                  </span>
+                  <span class="post-comments">
+                    <a href="http://www.bizpacreview.com/2014/03/29/trey-gowdy-mocks-harry-reids-denial-i-didnt-think-mormons-used-drugs-109322#disqus_thread" data-disqus-identifier="109322 http://www.bizpacreview.com/?p=109322">
+                      94 Comments
+                    </a>
+                  </span>
+                </div>
+                <div class="entry-content">
+                  <a title="Trey Gowdy mocks Harry Reid’s denial: ‘I didn’t think Mormons used drugs’" href="http://www.bizpacreview.com/2014/03/29/trey-gowdy-mocks-harry-reids-denial-i-didnt-think-mormons-used-drugs-109322">
+                    <img width="150" height="150" itemprop="image" alt="trey-gowdy" class="alignleft post-image entry-image" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/trey-gowdy-150x150.jpg"/>
+                  </a>
+                  <p>
+                    U.S. Rep. Trey Gowdy, R-S.C., slammed Senate Majority Leader Harry Reid during a radio interview Friday in which he said of the Nevada Democrat, “I didn’t think Mormons used drugs.” The host of the Mike Gallagher Radio Show brought up Reid’s recent statements claiming that the Affordable Care Act would be pretty much a non-issue […]
+                  </p>
+                </div>
+                <div class="mod-disclaimer">
+                  <div class="modwrap">
+                    <h4>
+                      <em>
+                        BizPacReview.com is looking for comment moderators. If you’re interested, please review our 
+                        <a href="http://www.bizpacreview.com/comment-policy">
+                          comment policy page
+                        </a>
+                         and submit your request.
+                      </em>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="post-109193 post type-post status-publish format-standard hentry category-home-middle category-news entry">
+                <h2 class="entry-title">
+                  <a rel="bookmark" title="Religious freedom group puts billboard in the middle of military’s ‘So help me God’ controversy" href="http://www.bizpacreview.com/2014/03/28/religious-freedom-group-puts-billboard-in-the-middle-of-militarys-so-help-me-god-controversy-109193">
+                    Religious freedom group puts billboard in the middle of military’s ‘So help me God’ controversy
+                  </a>
+                </h2>
+                <div class="post-info">
+                  <span title="2014-03-28T13:53:59+00:00" class="date published time">
+                    March 28, 2014
+                  </span>
+                    by 
+                  <span class="author vcard">
+                    <span class="fn">
+                      <a rel="author" title="Richard Berkow" href="http://www.bizpacreview.com/author/richard-berkow">
+                        Richard Berkow
+                      </a>
+                    </span>
+                  </span>
+                  <span class="post-comments">
+                    <a href="http://www.bizpacreview.com/2014/03/28/religious-freedom-group-puts-billboard-in-the-middle-of-militarys-so-help-me-god-controversy-109193#disqus_thread" data-disqus-identifier="109193 http://www.bizpacreview.com/?p=109193">
+                      2 Comments
+                    </a>
+                  </span>
+                </div>
+                <div class="entry-content">
+                  <a title="Religious freedom group puts billboard in the middle of military’s ‘So help me God’ controversy" href="http://www.bizpacreview.com/2014/03/28/religious-freedom-group-puts-billboard-in-the-middle-of-militarys-so-help-me-god-controversy-109193">
+                    <img width="150" height="150" itemprop="image" alt="Near AF Academy entrance Photo Credit:
+Restore Military Religious Freedom Coalition" class="alignleft post-image entry-image" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/sohelpmegod-620x485-150x150.jpg"/>
+                  </a>
+                  <p>
+                    U.S. Air Force Academy debate over the Honor Oath’s use of “So help me God” got kicked up a notch when a religious group unveiled a billboard near the academy’s Colorado Spring’s entrance. Are you free to say ‘So help me God’?” the Restore Military Religious Freedom coalition’s billboard asks, with an image of the […]
+                  </p>
+                </div>
+                <div class="mod-disclaimer">
+                  <div class="modwrap">
+                    <h4>
+                      <em>
+                        BizPacReview.com is looking for comment moderators. If you’re interested, please review our 
+                        <a href="http://www.bizpacreview.com/comment-policy">
+                          comment policy page
+                        </a>
+                         and submit your request.
+                      </em>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+
+    // &lt;![CDATA[
+        var disqus_shortname = 'bizpacreview';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i &lt; nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + 'disqus.com/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]&gt;
+    
+//]]>
+              </script>
+              <div class="navigation">
+                <ul>
+                  <li class="active">
+                    <a href="http://www.bizpacreview.com/?s=us">
+                      1
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.bizpacreview.com/page/2?s=us">
+                      2
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.bizpacreview.com/page/3?s=us">
+                      3
+                    </a>
+                  </li>
+                  <li class="pagination-omission">
+                    …
+                  </li>
+                  <li>
+                    <a href="http://www.bizpacreview.com/page/983?s=us">
+                      983
+                    </a>
+                  </li>
+                  <li class="pagination-next">
+                    <a href="http://www.bizpacreview.com/page/2?s=us">
+                      Next Page»
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="sidebar widget-area" id="sidebar">
+              <div class="widget gform_widget" id="gform_widget-2">
+                <div class="widget-wrap">
+                  <h4 class="widget-title widgettitle">
+                    Subscribe to Our Newsletter
+                  </h4>
+                  <link media="all" type="text/css" href="http://www.bizpacreview.com/wp-content/plugins/gravityforms/css/formreset.css?ver=1.8.5" id="gforms_reset_css-css" rel="stylesheet"/>
+                  <link media="all" type="text/css" href="http://www.bizpacreview.com/wp-content/plugins/gravityforms/css/datepicker.css?ver=1.8.5" id="gforms_datepicker_css-css" rel="stylesheet"/>
+                  <link media="all" type="text/css" href="http://www.bizpacreview.com/wp-content/plugins/gravityforms/css/formsmain.css?ver=1.8.5" id="gforms_formsmain_css-css" rel="stylesheet"/>
+                  <link media="all" type="text/css" href="http://www.bizpacreview.com/wp-content/plugins/gravityforms/css/readyclass.css?ver=1.8.5" id="gforms_ready_class_css-css" rel="stylesheet"/>
+                  <link media="all" type="text/css" href="http://www.bizpacreview.com/wp-content/plugins/gravityforms/css/browsers.css?ver=1.8.5" id="gforms_browsers_css-css" rel="stylesheet"/>
+                  <div id="gform_wrapper_1" class="gf_browser_gecko gform_wrapper plg-gvf-subscribe-mini_wrapper">
+                    <form action="/?s=us" class="plg-gvf-subscribe-mini" id="gform_1" enctype="multipart/form-data" method="post">
+                      <div class="gform_body">
+                        <ul class="gform_fields top_label description_below" id="gform_fields_1">
+                          <li class="gfield    ico-contact-email pl10" id="field_1_1">
+                            <label for="input_1_1" class="gfield_label">
+                              Email
+                            </label>
+                            <div class="ginput_container">
+                              <input type="text" tabindex="1" class="large" value="" id="input_1_1" name="input_1"/>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="gform_footer top_label">
+                        <input type="submit" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true; " tabindex="2" value="Submit" class="button gform_button" id="gform_submit_button_1"/>
+                        <input type="hidden" value="1" name="is_submit_1" class="gform_hidden"/>
+                        <input type="hidden" value="1" name="gform_submit" class="gform_hidden"/>
+                        <input type="hidden" value="" name="gform_unique_id" class="gform_hidden"/>
+                        <input type="hidden" value="WyJhOjA6e30iLCI0Njk1YmQ3OGEzYTY3ZTU1ZTYzYWQ5NTMzNWVjMWVhMiJd" name="state_1" class="gform_hidden"/>
+                        <input type="hidden" value="0" id="gform_target_page_number_1" name="gform_target_page_number_1" class="gform_hidden"/>
+                        <input type="hidden" value="1" id="gform_source_page_number_1" name="gform_source_page_number_1" class="gform_hidden"/>
+                        <input type="hidden" value="" name="gform_field_values"/>
+                      </div>
+                    </form>
+                  </div>
+                  <script type="text/javascript">
+//<![CDATA[
+ jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1, 1]) } ); 
+//]]>
+                  </script>
+                </div>
+              </div>
+              <div class="widget widget_text" id="text-34">
+                <div class="widget-wrap">
+                  <div class="textwidget">
+                    <div id="azk85688">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Wordpress Popular Posts Plugin v2.3.7 [W] [daily] [comments] [regular] -->              <div class="widget popular-posts" id="wpp-5">
+                <div class="widget-wrap">
+                  <h4 class="widget-title widgettitle">
+                    Trending Now
+                  </h4>
+                  <ul class="wpp-list">
+                    <li>
+                      <a target="_self" title="'Lunch lady said I can't pray,' 5-year-old tells her parents" href="http://www.bizpacreview.com/2014/03/27/lunch-lady-said-i-cant-pray-5-year-old-tells-her-parents-108889">
+                        <img width="60" height="60" border="0" class="wpp-thumbnail wpp_cached_thumb wpp_featured" alt="" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/Lunch-lady-says-60x60.png"/>
+                      </a>
+                      <a target="_self" class="wpp-post-title" title="'Lunch lady said I can't pray,' 5-year-old tells her parents" href="http://www.bizpacreview.com/2014/03/27/lunch-lady-said-i-cant-pray-5-year-old-tells-her-parents-108889">
+                        'Lunch lady said I can't pray,' 5-year-old tells her parents
+                      </a>
+                      <span class="post-stats">
+                      </span>
+                    </li>
+                    <li>
+                      <a target="_self" title="In the name of equality, feds force school to tear down brand new bleachers" href="http://www.bizpacreview.com/2014/03/29/in-the-name-of-equality-feds-force-school-to-tear-down-brand-new-bleachers-109270">
+                        <img width="60" height="60" border="0" class="wpp-thumbnail wpp_cached_thumb wpp_featured" alt="" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/baseball-60x60.jpg"/>
+                      </a>
+                      <a target="_self" class="wpp-post-title" title="In the name of equality, feds force school to tear down brand new bleachers" href="http://www.bizpacreview.com/2014/03/29/in-the-name-of-equality-feds-force-school-to-tear-down-brand-new-bleachers-109270">
+                        In the name of equality, feds force school to tear down brand new bleachers
+                      </a>
+                      <span class="post-stats">
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- End Wordpress Popular Posts Plugin v2.3.7 -->              <div class="widget widget_text" id="text-37">
+                <div class="widget-wrap">
+                  <div class="textwidget">
+                    <div data-client="409" id="nmWidgetContainer">
+                    </div>
+                    <script src="http://cdn.nmcdn.us/js/connect.js">
+                    </script>
+                    <script type="text/javascript">
+//<![CDATA[
+
+NM.init({ClientID: 409});
+
+//]]>
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <div class="widget widget_text" id="text-27">
+                <div class="widget-wrap">
+                  <div class="textwidget">
+                    <div id="azk99725">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="widget widget_text" id="text-32">
+                <div class="widget-wrap">
+                  <div class="textwidget">
+                    <div id="azk20950">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Wordpress Popular Posts Plugin v2.3.7 [W] [weekly] [comments] [regular] -->              <div class="widget popular-posts" id="wpp-2">
+                <div class="widget-wrap">
+                  <h4 class="widget-title widgettitle">
+                    Most Commented
+                  </h4>
+                  <ul class="wpp-list">
+                    <li>
+                      <a target="_self" title="'Lunch lady said I can't pray,' 5-year-old tells her parents" href="http://www.bizpacreview.com/2014/03/27/lunch-lady-said-i-cant-pray-5-year-old-tells-her-parents-108889">
+                        <img width="60" height="60" border="0" class="wpp-thumbnail wpp_cached_thumb wpp_featured" alt="" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/Lunch-lady-says-60x60.png"/>
+                      </a>
+                      <a target="_self" class="wpp-post-title" title="'Lunch lady said I can't pray,' 5-year-old tells her parents" href="http://www.bizpacreview.com/2014/03/27/lunch-lady-said-i-cant-pray-5-year-old-tells-her-parents-108889">
+                        'Lunch lady said I can't pray,' 5-year-old tells her pa…
+                      </a>
+                      <span class="post-stats">
+                        <span class="wpp-comments">
+                          898 comments
+                        </span>
+                      </span>
+                    </li>
+                    <li>
+                      <a target="_self" title="Nuke Manhattan? Babbling Obama fumbles through embarrassing question with no teleprompter" href="http://www.bizpacreview.com/2014/03/27/nuke-manhattan-babbling-obama-fumbles-through-embarrassing-question-with-no-teleprompter-108729">
+                        <img width="60" height="60" border="0" class="wpp-thumbnail wpp_cached_thumb wpp_featured" alt="" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/Karl-Obama-60x60.jpg"/>
+                      </a>
+                      <a target="_self" class="wpp-post-title" title="Nuke Manhattan? Babbling Obama fumbles through embarrassing question with no teleprompter" href="http://www.bizpacreview.com/2014/03/27/nuke-manhattan-babbling-obama-fumbles-through-embarrassing-question-with-no-teleprompter-108729">
+                        Nuke Manhattan? Babbling Obama fumbles through embarras…
+                      </a>
+                      <span class="post-stats">
+                        <span class="wpp-comments">
+                          572 comments
+                        </span>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- End Wordpress Popular Posts Plugin v2.3.7 -->              <div class="widget featuredpost" id="featured-post-14">
+                <div class="widget-wrap">
+                  <h4 class="widget-title widgettitle">
+                    Featured Video
+                  </h4>
+                  <div class="post-108889 post type-post status-publish format-standard hentry category-home-middle category-news category-video-right-sidebar category-videos entry gfwa-1 gfwa-odd">
+                    <a class="aligncenter" title="‘Lunch lady said I can’t pray,’ 5-year-old tells her parents" href="http://www.bizpacreview.com/2014/03/27/lunch-lady-said-i-cant-pray-5-year-old-tells-her-parents-108889">
+                      <img width="300" height="214" alt="Lunch lady says" class="aligncenter" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/Lunch-lady-says-300x214.png"/>
+                    </a>
+                    <h2>
+                      <a title="‘Lunch lady said I can’t pray,’ 5-year-old tells her parents" href="http://www.bizpacreview.com/2014/03/27/lunch-lady-said-i-cant-pray-5-year-old-tells-her-parents-108889">
+                        ‘Lunch lady said I can’t pray,’ 5-year-old tells her parents
+                      </a>
+                    </h2>
+                  </div>
+                  <!--end post_class()-->                </div>
+              </div>
+              <div class="widget widget_text" id="text-35">
+                <div class="widget-wrap">
+                  <div class="textwidget">
+                    <div id="azk99473">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="widget widget_text" id="text-21">
+                <div class="widget-wrap">
+                  <div class="textwidget">
+                    <script type="text/javascript">
+//<![CDATA[
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+
+//]]>
+                    </script>
+                    <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function() {
+googletag.defineSlot('/114066808/BizPacReview_300_BTF', [300, 250], 'div-gpt-ad-1387478148681-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+
+//]]>
+                    </script>
+                    <!-- BizPacReview_300_BTF -->                    <div style="width:300px; height:250px;" id="div-gpt-ad-1387478148681-0">
+                      <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1387478148681-0'); });
+
+//]]>
+                      </script>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar widget-area" id="sidebar-alt">
+            <!-- Wordpress Popular Posts Plugin v2.3.7 [W] [daily] [comments] [regular] -->            <div class="widget popular-posts" id="wpp-4">
+              <div class="widget-wrap">
+                <h4 class="widget-title widgettitle">
+                  Trending Now
+                </h4>
+                <ul class="wpp-list">
+                  <li>
+                    <a target="_self" title="'Lunch lady said I can't pray,' 5-year-old tells her parents" href="http://www.bizpacreview.com/2014/03/27/lunch-lady-said-i-cant-pray-5-year-old-tells-her-parents-108889">
+                      <img width="50" height="50" border="0" class="wpp-thumbnail wpp_cached_thumb wpp_featured" alt="" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/Lunch-lady-says-50x50.png"/>
+                    </a>
+                    <a target="_self" class="wpp-post-title" title="'Lunch lady said I can't pray,' 5-year-old tells her parents" href="http://www.bizpacreview.com/2014/03/27/lunch-lady-said-i-cant-pray-5-year-old-tells-her-parents-108889">
+                      'Lunch lady said I can't pray,' 5-year-old tells her parents
+                    </a>
+                    <span class="post-stats">
+                    </span>
+                  </li>
+                  <li>
+                    <a target="_self" title="In the name of equality, feds force school to tear down brand new bleachers" href="http://www.bizpacreview.com/2014/03/29/in-the-name-of-equality-feds-force-school-to-tear-down-brand-new-bleachers-109270">
+                      <img width="50" height="50" border="0" class="wpp-thumbnail wpp_cached_thumb wpp_featured" alt="" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/baseball-50x50.jpg"/>
+                    </a>
+                    <a target="_self" class="wpp-post-title" title="In the name of equality, feds force school to tear down brand new bleachers" href="http://www.bizpacreview.com/2014/03/29/in-the-name-of-equality-feds-force-school-to-tear-down-brand-new-bleachers-109270">
+                      In the name of equality, feds force school to tear down brand new bleachers
+                    </a>
+                    <span class="post-stats">
+                    </span>
+                  </li>
+                  <li>
+                    <a target="_self" title="Obama kisses Justin Bieber to promote healthcare in SNL's brutal Obama-bashing open" href="http://www.bizpacreview.com/2014/03/30/obama-kisses-justin-bieber-to-promote-healthcare-in-snls-brutal-obama-bashing-open-109518">
+                      <img width="50" height="50" border="0" class="wpp-thumbnail wpp_cached_thumb wpp_featured" alt="" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/SNL-4-50x50.jpg"/>
+                    </a>
+                    <a target="_self" class="wpp-post-title" title="Obama kisses Justin Bieber to promote healthcare in SNL's brutal Obama-bashing open" href="http://www.bizpacreview.com/2014/03/30/obama-kisses-justin-bieber-to-promote-healthcare-in-snls-brutal-obama-bashing-open-109518">
+                      Obama kisses Justin Bieber to promote healthcare in SNL's brutal Obama-bashing open
+                    </a>
+                    <span class="post-stats">
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- End Wordpress Popular Posts Plugin v2.3.7 -->            <div class="widget featuredpost" id="featured-post-23">
+              <div class="widget-wrap">
+                <h4 class="widget-title widgettitle">
+                  Featured Video
+                </h4>
+                <div class="post-108409 post type-post status-publish format-standard hentry category-video-feature-right-vertical category-video-left-sidebar category-video-right-sidebar category-videos entry gfwa-1 gfwa-odd">
+                  <a class="alignleft" title="Scary viral video causing sleepless nights" href="http://www.bizpacreview.com/2014/03/25/scary-viral-video-causing-sleepless-nights-108409">
+                    <img width="80" height="80" alt="Scary viral video causing sleepless nights" class="alignleft" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/scary-movie-80x80.jpg"/>
+                  </a>
+                  <h2>
+                    <a title="Scary viral video causing sleepless nights" href="http://www.bizpacreview.com/2014/03/25/scary-viral-video-causing-sleepless-nights-108409">
+                      Scary viral video causing sleepless nights
+                    </a>
+                  </h2>
+                </div>
+                <!--end post_class()-->              </div>
+            </div>
+            <div class="widget widget_text" id="text-29">
+              <div class="widget-wrap">
+                <div class="textwidget">
+                  <div id="azk78595">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Wordpress Popular Posts Plugin v2.3.7 [W] [weekly] [comments] [regular] -->            <div class="widget popular-posts" id="wpp-3">
+              <div class="widget-wrap">
+                <h4 class="widget-title widgettitle">
+                  Most Commented
+                </h4>
+                <ul class="wpp-list">
+                  <li>
+                    <a target="_self" title="'Lunch lady said I can't pray,' 5-year-old tells her parents" href="http://www.bizpacreview.com/2014/03/27/lunch-lady-said-i-cant-pray-5-year-old-tells-her-parents-108889">
+                      <img width="50" height="50" border="0" class="wpp-thumbnail wpp_cached_thumb wpp_featured" alt="" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/Lunch-lady-says-50x50.png"/>
+                    </a>
+                    <a target="_self" class="wpp-post-title" title="'Lunch lady said I can't pray,' 5-year-old tells her parents" href="http://www.bizpacreview.com/2014/03/27/lunch-lady-said-i-cant-pray-5-year-old-tells-her-parents-108889">
+                      'Lunch lady said I can't pray,' 5-year-old tells her parents
+                    </a>
+                    <span class="post-stats">
+                      <span class="wpp-comments">
+                        898 comments
+                      </span>
+                    </span>
+                  </li>
+                  <li>
+                    <a target="_self" title="Nuke Manhattan? Babbling Obama fumbles through embarrassing question with no teleprompter" href="http://www.bizpacreview.com/2014/03/27/nuke-manhattan-babbling-obama-fumbles-through-embarrassing-question-with-no-teleprompter-108729">
+                      <img width="50" height="50" border="0" class="wpp-thumbnail wpp_cached_thumb wpp_featured" alt="" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/Karl-Obama-50x50.jpg"/>
+                    </a>
+                    <a target="_self" class="wpp-post-title" title="Nuke Manhattan? Babbling Obama fumbles through embarrassing question with no teleprompter" href="http://www.bizpacreview.com/2014/03/27/nuke-manhattan-babbling-obama-fumbles-through-embarrassing-question-with-no-teleprompter-108729">
+                      Nuke Manhattan? Babbling Obama fumbles through embarrassing question with no teleprompter
+                    </a>
+                    <span class="post-stats">
+                      <span class="wpp-comments">
+                        572 comments
+                      </span>
+                    </span>
+                  </li>
+                  <li>
+                    <a target="_self" title="Justices Sotomayor, Kagan suggest Hobby Lobby drop insurance for employees, pay tax instead" href="http://www.bizpacreview.com/2014/03/26/justices-sotomayor-kagan-suggest-hobby-lobby-drop-insurance-for-employees-pay-tax-instead-108571">
+                      <img width="50" height="50" border="0" class="wpp-thumbnail wpp_cached_thumb wpp_featured" alt="" src="http://www.bizpacreview.com/wp-content/uploads/2014/03/110913_new_sotomayor_kagan_ap_328-50x50.jpg"/>
+                    </a>
+                    <a target="_self" class="wpp-post-title" title="Justices Sotomayor, Kagan suggest Hobby Lobby drop insurance for employees, pay tax instead" href="http://www.bizpacreview.com/2014/03/26/justices-sotomayor-kagan-suggest-hobby-lobby-drop-insurance-for-employees-pay-tax-instead-108571">
+                      Justices Sotomayor, Kagan suggest Hobby Lobby drop insurance for employees, pay tax instead
+                    </a>
+                    <span class="post-stats">
+                      <span class="wpp-comments">
+                        235 comments
+                      </span>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- End Wordpress Popular Posts Plugin v2.3.7 -->            <div class="widget gpoll_poll_widget" id="gpoll_poll_widget-2">
+              <div class="widget-wrap">
+                <h4 class="widget-title widgettitle">
+                  Poll
+                </h4>
+                <div id="gform_wrapper_13" class="gf_browser_gecko gform_wrapper gpoll_enabled gpoll_show_results_link gpoll_block_repeat_voters gpoll_wrapper">
+                  <form action="/?s=us" class="gpoll_enabled gpoll_show_results_link gpoll_block_repeat_voters gpoll" id="gform_13" enctype="multipart/form-data" method="post">
+                    <div class="gform_body">
+                      <ul class="gform_fields top_label description_below" id="gform_fields_13">
+                        <li class="gfield    poll-options           gfield_contains_required gpoll_field" id="field_13_1">
+                          <label class="gfield_label">
+                            How much will the Democrats pay for the Obamacare disaster in the upcoming elections?
+                            <span class="gfield_required">
+                              *
+                            </span>
+                          </label>
+                          <div class="ginput_container">
+                            <ul id="input_13_1" class="gfield_radio">
+                              <li class="gchoice_1_0">
+                                <input type="radio" tabindex="1" id="choice_1_0" value="gpoll10e333431" name="input_1"/>
+                                <label for="choice_1_0">
+                                  Not at all
+                                </label>
+                              </li>
+                              <li class="gchoice_1_1">
+                                <input type="radio" tabindex="2" id="choice_1_1" value="gpoll1a88f921f" name="input_1"/>
+                                <label for="choice_1_1">
+                                  Only a little bit
+                                </label>
+                              </li>
+                              <li class="gchoice_1_2">
+                                <input type="radio" tabindex="3" id="choice_1_2" value="gpoll184cb687c" name="input_1"/>
+                                <label for="choice_1_2">
+                                  They will be creamed for what they have done to healthcare
+                                </label>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="gfield    poll-subscribe           gfield_contains_required" id="field_13_2">
+                          <label for="input_13_2" class="gfield_label">
+                            Email
+                            <span class="gfield_required">
+                              *
+                            </span>
+                          </label>
+                          <div class="ginput_container">
+                            <input type="text" tabindex="4" class="large" value="" id="input_13_2" name="input_2"/>
+                          </div>
+                          <div class="gfield_description">
+                            Submission of email is required to participate in our poll.
+                          </div>
+                        </li>
+                        <li class="gfield    poll-options" id="field_13_3">
+                          <label class="gfield_label"/>
+                          <div class="ginput_container">
+                            <ul id="input_13_3" class="gfield_checkbox">
+                              <li class="gchoice_3_1">
+                                <input type="checkbox" tabindex="5" id="choice_3_1" checked="checked" value="I want to receive your newsletter." name="input_3.1"/>
+                                <label for="choice_3_1">
+                                  I want to receive your newsletter.
+                                </label>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="gfield    gform_validation_container" id="field_13_4">
+                          <label for="input_13_4" class="gfield_label">
+                            Phone
+                          </label>
+                          <div class="ginput_container">
+                            <input type="text" value="" id="input_13_4" name="input_4"/>
+                          </div>
+                          <div class="gfield_description">
+                            This field is for validation purposes and should be left unchanged.
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="gform_footer top_label">
+                      <input type="submit" onclick="if(window[&quot;gf_submitting_13&quot;]){return false;}  window[&quot;gf_submitting_13&quot;]=true; " tabindex="6" value="Submit" class="button gform_button" id="gform_submit_button_13"/>
+                      <input type="hidden" value="1" name="is_submit_13" class="gform_hidden"/>
+                      <input type="hidden" value="13" name="gform_submit" class="gform_hidden"/>
+                      <input type="hidden" value="" name="gform_unique_id" class="gform_hidden"/>
+                      <input type="hidden" value="WyJhOjA6e30iLCI0Njk1YmQ3OGEzYTY3ZTU1ZTYzYWQ5NTMzNWVjMWVhMiJd" name="state_13" class="gform_hidden"/>
+                      <input type="hidden" value="0" id="gform_target_page_number_13" name="gform_target_page_number_13" class="gform_hidden"/>
+                      <input type="hidden" value="1" id="gform_source_page_number_13" name="gform_source_page_number_13" class="gform_hidden"/>
+                      <input type="hidden" value="gpoll_enabled=1&amp;gpoll_field=0&amp;gpoll_style=orange&amp;gpoll_display_results=1&amp;gpoll_show_results_link=1&amp;gpoll_cookie=1+month&amp;gpoll_confirmation=1&amp;gpoll_percentages=1&amp;gpoll_counts=0&amp;gpoll_checksum=5cd8e1b98312f9d2d40dd9733c78a286" name="gform_field_values"/>
+                      <a class="gpoll_button" href="javascript:void(0)">
+                        View results
+                      </a>
+                      <div class="gpoll_summary">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <script type="text/javascript">
+//<![CDATA[
+ jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [13, 1]) } ); 
+//]]>
+                </script>
+              </div>
+            </div>
+            <div class="widget widget_text" id="text-31">
+              <div class="widget-wrap">
+                <div class="textwidget">
+                  <div id="azk24208">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="widget widget_text" id="text-30">
+              <div class="widget-wrap">
+                <div class="textwidget">
+                  <div id="azk23741">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-widgets" id="footer-widgets">
+        <div class="wrap">
+          <div class="footer-widgets-1 widget-area">
+            <div class="widget widget_text" id="text-38">
+              <div class="widget-wrap">
+                <div class="textwidget">
+                  <div id="azk11933">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="widget widget_text" id="text-39">
+              <div class="widget-wrap">
+                <div class="textwidget">
+                  <div id="azk81452">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="widget widget_text" id="text-40">
+              <div class="widget-wrap">
+                <div class="textwidget">
+                  <div id="azk92523">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="widget widget_text" id="text-41">
+              <div class="widget-wrap">
+                <div class="textwidget">
+                  <div id="azk65478">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-widgets-2 widget-area">
+            <div class="widget widget_nav_menu" id="nav_menu-4">
+              <div class="widget-wrap">
+                <h4 class="widget-title widgettitle">
+                  Other BizPac Pages
+                </h4>
+                <div class="menu-other-bizpac-pages-container">
+                  <ul class="menu" id="menu-other-bizpac-pages">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4757" id="menu-item-4757">
+                      <a href="http://www.bizpacreview.com/category/boating-fishing">
+                        Boating &amp; Fishing
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4758" id="menu-item-4758">
+                      <a href="http://www.bizpacreview.com/category/capt-richs-fishing-spot">
+                        Capt. Rich’s Fishing Spot
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4759" id="menu-item-4759">
+                      <a href="http://www.bizpacreview.com/category/digital-life">
+                        Digital Life
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4760" id="menu-item-4760">
+                      <a href="http://www.bizpacreview.com/category/food-wine">
+                        Food &amp; Wine
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4761" id="menu-item-4761">
+                      <a href="http://www.bizpacreview.com/category/jacks-jokes">
+                        Jack’s Jokes
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4762" id="menu-item-4762">
+                      <a href="http://www.bizpacreview.com/category/life">
+                        Life
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4765" id="menu-item-4765">
+                      <a href="http://www.bizpacreview.com/category/tech">
+                        Tech
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4766" id="menu-item-4766">
+                      <a href="http://www.bizpacreview.com/category/the-dish">
+                        The Dish
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50086" id="menu-item-50086">
+                      <a href="http://www.bizpacreview.com/photos">
+                        Photos
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5527" id="menu-item-5527">
+                      <a href="http://www.bizpacreview.com/polls">
+                        Polls
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4868" id="menu-item-4868">
+                      <a href="http://www.bizpacreview.com/writers">
+                        Guest Writers
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="widget widget_text" id="text-26">
+              <div class="widget-wrap">
+                <div class="textwidget">
+                  <div id="azk11228">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-widgets-3 widget-area">
+            <div class="widget widget_links" id="linkcat-2">
+              <div class="widget-wrap">
+                <h4 class="widget-title widgettitle">
+                  Other News Sources
+                </h4>
+                <ul class="xoxo blogroll">
+                  <li>
+                    <a target="_blank" href="http://www.breitbart.com/">
+                      Breitbart.com
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://drudgereport.com">
+                      Drudge Report
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://www.rightwingnews.com/">
+                      Right Wing News
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://www.theblaze.com/">
+                      The Blaze
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://freebeacon.com/">
+                      The Washington Free Beacon
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://townhall.com/">
+                      TownHall.com
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-widgets-4 widget-area">
+            <div class="widget widget_links" id="linkcat-50">
+              <div class="widget-wrap">
+                <h4 class="widget-title widgettitle">
+                  BizPac Supporters
+                </h4>
+                <ul class="xoxo blogroll">
+                  <li>
+                    <a target="_blank" href="http://www.royalpalmautomotive.com">
+                      Royal Palm Automotive
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://www.beautyandbrains.us">
+                      Small Business SEO Consultant
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-widgets-5 widget-area">
+            <div class="widget widget_search" id="search-3">
+              <div class="widget-wrap">
+                <h4 class="widget-title widgettitle">
+                  Search
+                </h4>
+                <form role="search" action="http://www.bizpacreview.com/" class="searchform search-form" method="get">
+                  <input type="text" onblur="if ('' === this.value) {this.value = 'us';}" onfocus="if ('us' === this.value) {this.value = '';}" class="s search-input" name="s" value="us"/>
+                  <input type="submit" value="Search" class="searchsubmit search-submit"/>
+                </form>
+              </div>
+            </div>
+            <div class="widget widget_categories" id="categories-3">
+              <div class="widget-wrap">
+                <h4 class="widget-title widgettitle">
+                  Other Categories
+                </h4>
+                <select class="postform" id="cat" name="cat">
+                  <option value="-1" selected="selected">
+                    Select Category
+                  </option>
+                  <option value="42" class="level-0">
+                    BizPac Review Videos
+                  </option>
+                  <option value="4" class="level-0">
+                    Boating &amp; Fishing
+                  </option>
+                  <option value="5" class="level-0">
+                    Capt. Rich’s Fishing Spot
+                  </option>
+                  <option value="16" class="level-0">
+                    Digital Life
+                  </option>
+                  <option value="22" class="level-0">
+                    Feature Home Top
+                  </option>
+                  <option value="23" class="level-0">
+                    Feature Home Vertical
+                  </option>
+                  <option value="58" class="level-0">
+                    Featured
+                  </option>
+                  <option value="1408" class="level-0">
+                    Florida
+                  </option>
+                  <option value="4160" class="level-0">
+                    Florida Five
+                  </option>
+                  <option value="4135" class="level-0">
+                    Florida Top
+                  </option>
+                  <option value="4136" class="level-0">
+                    Florida Vertical
+                  </option>
+                  <option value="6" class="level-0">
+                    Food &amp; Wine
+                  </option>
+                  <option value="9" class="level-0">
+                    Guest Commentary
+                  </option>
+                  <option value="53" class="level-0">
+                    Home Middle
+                  </option>
+                  <option value="14" class="level-0">
+                    Jack’s Jokes
+                  </option>
+                  <option value="54" class="level-0">
+                    Letters to the Editor
+                  </option>
+                  <option value="15" class="level-0">
+                    Life
+                  </option>
+                  <option value="11" class="level-0">
+                    News
+                  </option>
+                  <option value="3" class="level-0">
+                    Opinion
+                  </option>
+                  <option value="4097" class="level-0">
+                    Photo Feature Large
+                  </option>
+                  <option value="4098" class="level-0">
+                    Photo Feature Right Vertical
+                  </option>
+                  <option value="4100" class="level-0">
+                    Photos
+                  </option>
+                  <option value="41" class="level-0">
+                    Political Videos
+                  </option>
+                  <option value="18" class="level-0">
+                    Press Releases
+                  </option>
+                  <option value="12" class="level-0">
+                    Society
+                  </option>
+                  <option value="10" class="level-0">
+                    Tech
+                  </option>
+                  <option value="7" class="level-0">
+                    The Dish
+                  </option>
+                  <option value="1" class="level-0">
+                    Uncategorized
+                  </option>
+                  <option value="4137" class="level-0">
+                    Video Feature Large
+                  </option>
+                  <option value="4138" class="level-0">
+                    Video Feature Right Vertical
+                  </option>
+                  <option value="4139" class="level-0">
+                    Video Left Sidebar
+                  </option>
+                  <option value="4140" class="level-0">
+                    Video Right Sidebar
+                  </option>
+                  <option value="40" class="level-0">
+                    Videos
+                  </option>
+                </select>
+                <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+	var dropdown = document.getElementById("cat");
+	function onCatChange() {
+		if ( dropdown.options[dropdown.selectedIndex].value &gt; 0 ) {
+			location.href = "http://www.bizpacreview.com/?cat="+dropdown.options[dropdown.selectedIndex].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+/* ]]&gt; */
+
+//]]>
+                </script>
+              </div>
+            </div>
+            <div class="widget widget_archive" id="archives-3">
+              <div class="widget-wrap">
+                <h4 class="widget-title widgettitle">
+                  Archive
+                </h4>
+                <select onchange="document.location.href=this.options[this.selectedIndex].value;" name="archive-dropdown">
+                  <option value="" selected="selected">
+                    Select Month
+                  </option>
+                  <option value="http://www.bizpacreview.com/2014/03">
+                     March 2014 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2014/02">
+                     February 2014 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2014/01">
+                     January 2014 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2013/12">
+                     December 2013 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2013/11">
+                     November 2013 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2013/10">
+                     October 2013 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2013/09">
+                     September 2013 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2013/08">
+                     August 2013 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2013/07">
+                     July 2013 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2013/06">
+                     June 2013 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2013/05">
+                     May 2013 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2013/04">
+                     April 2013 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2013/03">
+                     March 2013 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2013/02">
+                     February 2013 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2013/01">
+                     January 2013 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2012/12">
+                     December 2012 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2012/11">
+                     November 2012 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2012/10">
+                     October 2012 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2012/09">
+                     September 2012 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2012/08">
+                     August 2012 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2012/07">
+                     July 2012 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2012/06">
+                     June 2012 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2012/05">
+                     May 2012 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2012/04">
+                     April 2012 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2012/03">
+                     March 2012 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2012/02">
+                     February 2012 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2012/01">
+                     January 2012 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2011/12">
+                     December 2011 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2011/11">
+                     November 2011 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2011/10">
+                     October 2011 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2011/09">
+                     September 2011 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2011/08">
+                     August 2011 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2011/07">
+                     July 2011 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2011/06">
+                     June 2011 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2011/05">
+                     May 2011 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2011/04">
+                     April 2011 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2011/03">
+                     March 2011 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2011/02">
+                     February 2011 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2011/01">
+                     January 2011 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2010/12">
+                     December 2010 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2010/11">
+                     November 2010 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2010/10">
+                     October 2010 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2010/09">
+                     September 2010 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2010/08">
+                     August 2010 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2010/07">
+                     July 2010 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2010/06">
+                     June 2010 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2010/05">
+                     May 2010 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2010/04">
+                     April 2010 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2010/02">
+                     February 2010 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2010/01">
+                     January 2010 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2009/12">
+                     December 2009 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2009/02">
+                     February 2009 
+                  </option>
+                  <option value="http://www.bizpacreview.com/2001/01">
+                     January 2001 
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span style="background-color:#3a3939;">
+        <center style="background-color:#3a3939;padding-bottom:10px;">
+          <div id="azk76682">
+          </div>
+        </center>
+      </span>
+      <div class="footer" id="footer">
+        <div class="wrap">
+          <span class="ftr-left">
+            © Copyright 2014 BizPac Review - 
+            <a rel="publisher" href="https://plus.google.com/114963009107638864440">
+              Google+
+            </a>
+          </span>
+          <span class="ftr-right">
+            <a href="http://www.bizpacreview.com/comment-policy">
+              Comment Policy
+            </a>
+             | 
+            <a target="_blank" href="http://www.bizpacreviews.com/news-sitemap.xml">
+              Site Map
+            </a>
+             | 
+            <a target="_blank" href="http://www.bizpacreviews.com/privacy-policy/">
+              Privacy Policy
+            </a>
+          </span>
+          <div class="clear">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Quantcast Tag -->    <script type="text/javascript">
+//<![CDATA[
+
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-Dtct-qT5AdqKX"
+});
+
+//]]>
+    </script>
+    <noscript>
+      &lt;div style="display:none;"&gt;
+&lt;img src="//pixel.quantserve.com/pixel/p-Dtct-qT5AdqKX.gif" border="0" height="1" width="1" alt="Quantcast"/&gt;
+&lt;/div&gt;
+
+    </noscript>
+    <!-- End Quantcast tag -->    <link media="all" type="text/css" href="http://www.bizpacreview.com/wp-content/plugins/gravityformspolls/css/gpoll.css?ver=2.0" id="gpoll_css-css" rel="stylesheet"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+var gpollVars = {"ajaxurl":"http:\/\/www.bizpacreview.com\/wp-admin\/admin-ajax.php","imagesUrl":"http:\/\/www.bizpacreview.com\/wp-content\/plugins\/gravityformspolls\/images"};
+var gpoll_strings = {"viewResults":"View results","backToThePoll":"Back to the poll"};
+var gpollVars = {"ajaxurl":"http:\/\/www.bizpacreview.com\/wp-admin\/admin-ajax.php","imagesUrl":"http:\/\/www.bizpacreview.com\/wp-content\/plugins\/gravityformspolls\/images"};
+var gpoll_strings = {"viewResults":"View results","backToThePoll":"Back to the poll"};
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <script src="http://www.bizpacreview.com/wp-content/plugins/gravityformspolls/js/gpoll.js?ver=2.0" type="text/javascript">
+    </script>
+    <!-- Dynamic page generated in 0.595 seconds. -->    <!-- Cached page generated by WP-Super-Cache on 2014-03-31 04:25:02 -->    <!-- Compression = gzip -->  </body>
+</html>

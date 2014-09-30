@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" data-channel="corporate" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" class="Corporate en-US">
+  <head>
+    <script async="" src="http://tcr.tynt.com/javascripts/Tracer.js?user=bpZvKQBBer360wadbi-bnq&amp;amp;st=1&amp;_=1395474484582">
+    </script>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" async="" src="https://apis.google.com/js/plusone.js?onload=gapiAsyncInit">
+    </script>
+    <script id="twitter-wjs" src="//platform.twitter.com/widgets.js">
+    </script>
+    <script id="facebook-jssdk" async="" src="//connect.facebook.net/en_US/all.js">
+    </script>
+    <script type="text/javascript" async="" src="//www.google.com/ads/search/module/ads/3.0/e832ba3785aafe373f2db8fd43594451feb9a198/n/search.js">
+    </script>
+    <script async="" src="http://wac.20b8.edgecastcdn.net/0020B8/s/ehow_am.js">
+    </script>
+    <script async="" src="http://b.scorecardresearch.com/beacon.js">
+    </script>
+    <script async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script async="" src="//www.google.com/adsense/search/async-ads.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+(window.NREUM||(NREUM={})).loader_config={xpid:"UAQFWFdTGwEHVlZTAAU="};window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f&lt;d.length;f++)e(d[f]);return e}({1:[function(a,b){function c(a,b,c){c||(c={});for(var d=f[a],e=d&amp;&amp;d.length||0,h=c[g]||(c[g]={}),i=0;e&gt;i;i++)d[i].apply(h,b);return h}function d(a,b){var c=f[a]||(f[a]=[]);c.push(b)}function e(a){return delete a[g]}var f={},g="nr@context";b.exports={on:d,emit:c,clear:e}},{}],2:[function(a){function b(a,b,e,g,i){return h?h-=1:c("err",[i||new UncaughtException(a,b,e)]),"function"==typeof f?f.apply(this,d(arguments)):!1}function UncaughtException(a,b,c){this.message=a||"Uncaught error with no additional information",this.sourceURL=b,this.line=c}var c=a("handle"),d=a("lodash._slice"),e=a("../../../contextual-ee"),f=window.onerror,g=!1,h=0;a("loader").features.push("err"),window.onerror=b;try{throw new Error}catch(i){"stack"in i&amp;&amp;(a("../../wrap-timer"),a("../../wrap-raf"),"addEventListener"in window&amp;&amp;a("../../wrap-events"),window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;a("../../wrap-xhr"),g=!0)}e.on("fn-start",function(){g&amp;&amp;(h+=1)}),e.on("fn-err",function(a,b,d){g&amp;&amp;(this.thrown=!0,c("err",[d,(new Date).getTime()]))}),e.on("fn-end",function(){g&amp;&amp;!this.thrown&amp;&amp;h&gt;0&amp;&amp;(h-=1)})},{"../../../contextual-ee":1,"../../wrap-events":3,"../../wrap-raf":4,"../../wrap-timer":5,"../../wrap-xhr":6,handle:"4O2Y62",loader:"YLUGVp","lodash._slice":14}],3:[function(a){function b(a){d.inPlace(a,["addEventListener","removeEventListener"],"-",c)}function c(a){return a[1]}var d=a("../wrap-function"),e=(a("lodash._slice"),a("../contextual-ee"));if(b(window),"getPrototypeOf"in Object){for(var f=document;f&amp;&amp;!f.hasOwnProperty("addEventListener");)f=Object.getPrototypeOf(f);f&amp;&amp;b(f);for(var g=XMLHttpRequest.prototype;g&amp;&amp;!g.hasOwnProperty("addEventListener");)g=Object.getPrototypeOf(g);g&amp;&amp;b(g)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&amp;&amp;b(XMLHttpRequest.prototype);e.on("addEventListener-start",function(a){if(a[1]){var b=a[1];"function"==typeof b?this.wrapped=b["nr@wrapped"]?a[1]=b["nr@wrapped"]:b["nr@wrapped"]=a[1]=d(b,"fn-"):"function"==typeof b.handleEvent&amp;&amp;d.inPlace(b,["handleEvent"],"fn-")}}),e.on("removeEventListener-start",function(a){var b=this.wrapped;b&amp;&amp;(a[1]=b)})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],4:[function(a){var b=(a("lodash._slice"),a("../wrap-function")),c=a("../contextual-ee");b.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),c.on("raf-start",function(a){a[0]=b(a[0],"fn-")})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],5:[function(a){function b(a){var b=a[0];"string"==typeof b&amp;&amp;(b=new Function(b)),a[0]=c(b,"fn-")}var c=(a("lodash._slice"),a("../wrap-function")),d=a("../contextual-ee");c.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),d.on("setTimer-start",b)},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],6:[function(a){function b(){c.inPlace(this,f,"fn-")}var c=a("../wrap-function"),d=a("../contextual-ee"),e=window.XMLHttpRequest,f=["onload","onerror","onabort","onloadstart","onloadend","onprogress","onreadystatechange","ontimeout"];window.XMLHttpRequest=function(a){var f=new e(a);return d.emit("new-xhr",[],f),c.inPlace(f,["addEventListener","removeEventListener"],"-",function(a,b){return b}),f.addEventListener("readystatechange",b,!1),f},window.XMLHttpRequest.prototype=e.prototype},{"../contextual-ee":1,"../wrap-function":15}],7:[function(a){function b(a){if("string"==typeof a&amp;&amp;a.length)return a.length;if("object"!=typeof a)return void 0;if("undefined"!=typeof ArrayBuffer&amp;&amp;a instanceof ArrayBuffer&amp;&amp;a.byteLength)return a.byteLength;if("undefined"!=typeof Blob&amp;&amp;a instanceof Blob&amp;&amp;a.size)return a.size;if("undefined"!=typeof FormData&amp;&amp;a instanceof FormData)return void 0;try{return JSON.stringify(a).length}catch(b){return void 0}}function c(a){var c=this.params,d=this.metrics;if(!this.ended){this.ended=!0;for(var e=0;k&gt;e;e++)a.removeEventListener(j[e],this.listener,!1);if(!c.aborted){if(d.duration=(new Date).getTime()-this.startTime,4===a.readyState){c.status=a.status;var g=a.responseType,h="arraybuffer"===g||"blob"===g||"json"===g?a.response:a.responseText,i=b(h);if(i&amp;&amp;(d.rxSize=i),this.sameOrigin){var l=a.getResponseHeader("X-NewRelic-App-Data");l&amp;&amp;(c.cat=l.split(", ").pop())}}else c.status=0;d.cbTime=this.cbTime,f("xhr",[c,d])}}}function d(a,b){var c=g(b),d=a.params;d.host=c.hostname+":"+c.port,d.pathname=c.pathname,a.sameOrigin=c.sameOrigin}function e(a,b){return b}if(window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;!/CriOS/.test(navigator.userAgent)){a("loader").features.push("xhr");var f=a("handle"),g=a("./parse-url.js"),h=a("../../../wrap-function"),i=a("../../../contextual-ee"),j=["load","error","abort","timeout"],k=j.length,l=a("../../../loader/id");a("../../wrap-events"),a("../../wrap-xhr"),i.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=c,this.ended=!1,this.xhrGuids={}}),h.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",e),i.on("open-xhr-start",function(a){this.params={method:a[0]},d(this,a[1]),this.metrics={}}),i.on("open-xhr-end",function(a,b){"loader_config"in NREUM&amp;&amp;"xpid"in NREUM.loader_config&amp;&amp;this.sameOrigin&amp;&amp;b.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),i.on("send-xhr-start",function(a,c){var d=this.metrics,e=a[0],f=this;if(d&amp;&amp;e){var g=b(e);g&amp;&amp;(d.txSize=g)}this.startTime=(new Date).getTime(),this.listener=function(a){try{"abort"===a.type&amp;&amp;(f.params.aborted=!0),("load"!==a.type||f.called===f.totalCbs&amp;&amp;(f.onloadCalled||"function"!=typeof c.onload))&amp;&amp;f.end(c)}catch(b){}};for(var h=0;k&gt;h;h++)c.addEventListener(j[h],this.listener,!1)}),i.on("xhr-cb-time",function(a,b,c){this.cbTime+=a,b?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&amp;&amp;"function"==typeof c.onload||this.end(c)}),i.on("xhr-load-added",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&amp;&amp;!this.xhrGuids[c]&amp;&amp;(this.xhrGuids[c]=!0,this.totalCbs+=1)}),i.on("xhr-load-removed",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&amp;&amp;this.xhrGuids[c]&amp;&amp;(delete this.xhrGuids[c],this.totalCbs-=1)}),i.on("addEventListener-end",function(a,b){b instanceof XMLHttpRequest&amp;&amp;"load"===a[0]&amp;&amp;i.emit("xhr-load-added",[a[1],a[2]],b)}),i.on("removeEventListener-end",function(a,b){b instanceof XMLHttpRequest&amp;&amp;"load"===a[0]&amp;&amp;i.emit("xhr-load-removed",[a[1],a[2]],b)}),i.on("fn-start",function(a,b,c){b instanceof XMLHttpRequest&amp;&amp;("onload"===c&amp;&amp;(this.onload=!0),("load"===(a[0]&amp;&amp;a[0].type)||this.onload)&amp;&amp;(this.xhrCbStart=(new Date).getTime()))}),i.on("fn-end",function(a,b){this.xhrCbStart&amp;&amp;i.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,b],b)})}},{"../../../contextual-ee":1,"../../../loader/id":11,"../../../wrap-function":15,"../../wrap-events":3,"../../wrap-xhr":6,"./parse-url.js":8,handle:"4O2Y62",loader:"YLUGVp"}],8:[function(a,b){b.exports=function(a){var b=document.createElement("a"),c=window.location,d={};b.href=a,d.port=b.port;var e=b.href.split("://");return!d.port&amp;&amp;e[1]&amp;&amp;(d.port=e[1].split("/")[0].split(":")[1]),d.port&amp;&amp;"0"!==d.port||(d.port="https"===e[0]?"443":"80"),d.hostname=b.hostname||c.hostname,d.pathname=b.pathname,"/"!==d.pathname.charAt(0)&amp;&amp;(d.pathname="/"+d.pathname),d.sameOrigin=!b.hostname||b.hostname===document.domain&amp;&amp;b.port===c.port&amp;&amp;b.protocol===c.protocol,d}},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],11:[function(a,b){function c(a){if(!a||"object"!=typeof a&amp;&amp;"function"!=typeof a)return-1;if(a===window)return 0;if(e.call(a,"__nr"))return a.__nr;try{return Object.defineProperty(a,"__nr",{value:d,writable:!0,enumerable:!1}),d}catch(b){return a.__nr=d,d}finally{d+=1}}var d=1,e=Object.prototype.hasOwnProperty;b.exports=c},{}],loader:[function(a,b){b.exports=a("YLUGVp")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&amp;&amp;a.agent&amp;&amp;a.licenseKey&amp;&amp;a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&amp;&amp;e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l,features:[]};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],14:[function(a,b){function c(a,b,c){b||(b=0),"undefined"==typeof c&amp;&amp;(c=a?a.length:0);for(var d=-1,e=c-b||0,f=Array(0&gt;e?0:e);++d&lt;e;)f[d]=a[b+d];return f}b.exports=c},{}],15:[function(a,b){function c(a,b,c,d){function nrWrapper(){var g,h=f(arguments),i=this,j=c&amp;&amp;c(h,i)||{};try{e.emit(b+"start",[h,i,d],j)}catch(k){}try{return g=a.apply(i,h)}catch(l){throw e.emit(b+"err",[h,i,l],j),l}finally{try{e.emit(b+"end",[h,i,g],j)}catch(k){}}}return a&amp;&amp;"function"==typeof a&amp;&amp;a.apply&amp;&amp;!a._wrapped?(b||(b=""),nrWrapper._wrapped=!0,nrWrapper):a}function d(a,b,d,e){d||(d="");var f,g,h,i="-"===d.charAt(0);for(h=0;h&lt;b.length;h++)g=b[h],f=a[g],f&amp;&amp;"function"==typeof f&amp;&amp;f.apply&amp;&amp;!f._wrapped&amp;&amp;(a[g]=c(f,i?g+d:d,e,g,a))}var e=a("../contextual-ee"),f=a("lodash._slice");b.exports=c,c.inPlace=d},{"../contextual-ee":1,"lodash._slice":14}]},{},["YLUGVp",7,2]);
+//]]>
+    </script>
+    <meta content="Cse_all Search" name="description"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta content="4d4cb4ef1ad334cb" name="y_key"/>
+    <meta content="xlJch1oUHrXNtOQBpiuUCV0-rlc" name="alexaVerifyID"/>
+    <meta content="5F1B06EBE88583F1C05B9114514366ED" name="msvalidate.01"/>
+    <meta content="201403220048" name="cachetime"/>
+    <meta content="4d1387210be25228f0c4692cc47db05b" name="p:domain_verify"/>
+    <meta content="search" scheme="DMINSTR2" name="pagetype"/>
+    <meta content="search" scheme="DMINSTR2" name="subpagetype"/>
+    <meta content="!adwords!ibm!ibm!!!ehow!ehow!!0" scheme="DMINSTR2" name="exp_page"/>
+    <meta content="en-US" scheme="DMINSTR2" name="wa_lr"/>
+    <meta content="" scheme="DMINSTR2" name="studioid"/>
+    <meta content="" scheme="DMINSTR2" name="contentid"/>
+    <meta content="" scheme="DMINSTR2" name="category"/>
+    <meta content="" scheme="DMINSTR2" name="subcategory"/>
+    <meta content="" scheme="DMINSTR2" name="subsubcat"/>
+    <meta content="EHWC" scheme="DMINSTR2" name="siteid"/>
+    <meta content="desktop:default" scheme="DMINSTR2" name="exp_name"/>
+    <meta content="" scheme="DMINSTR2" name="wa_un"/>
+    <meta content="" scheme="DMINSTR2" name="wa_isreg"/>
+    <meta content="" scheme="DMINSTR2" name="wa_lgdin"/>
+    <meta content="1" scheme="DMINSTR2" name="wa_clvl"/>
+    <meta content="1" scheme="DMINSTR2" name="wa_lgsrc"/>
+    <meta content="63203377906" property="fb:app_id"/>
+    <meta content="604800" property="fb:ttl"/>
+    <meta content="eHow" property="og:site_name"/>
+    <meta content="eHow | How to Videos, Articles &amp; More - Discover the expert in you." property="og:title"/>
+    <meta content="http://v5-static.ehowcdn.com/media/vendor/facebook/og-images/fb_logo.jpg" property="og:image"/>
+    <title>
+      ibm | eHow
+    </title>
+    <link rel="shortcut icon apple-touch-icon" href="http://v5-static.ehowcdn.com/favicon.ico"/>
+    <link rel="stylesheet" href="http://v5-static.ehowcdn.com/content/compressed/common_header-a4fe3c56.css" type="text/css"/>
+    <link rel="stylesheet" href="http://v5-static.ehowcdn.com/content/compressed/corporate-skin-4ade1dd0.css" type="text/css"/>
+    <link rel="stylesheet" href="http://v5-static.ehowcdn.com/content/compressed/search-a22af5eb.css" type="text/css"/>
+    <link href="http://v5-static.ehowcdn.com/ui/stylesheets/layout/ie.css" rel="stylesheet"/>
+    <script src="http://v5-static.ehowcdn.com/ui/vendor/misc/json3.min.js">
+    </script>
+    <script>
+//<![CDATA[
+window._omnitureLinkSetDomain = 'extended.dmtracker.com';
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+var crtg_nid="2389";
+var crtg_cookiename="cto_demand";
+var crtg_varname="crtg_content";
+function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(";");for(i=0;i&lt;ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf("="));y=ARRCookies[i].substr(ARRCookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){return unescape(y);}}return'';}
+var crtg_content = crtg_getCookie(crtg_cookiename);var crtg_rnd=Math.floor(Math.random()*99999999999);
+var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);crtg_url+='&amp;cookieName='+escape(crtg_cookiename);crtg_url+='&amp;rnd='+crtg_rnd;crtg_url+='&amp;varName=' + escape(crtg_varname);
+var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;
+if(document.getElementsByTagName("head").length&gt;0)document.getElementsByTagName("head")[0].appendChild(crtg_script);else if(document.getElementsByTagName("body").length&gt;0)document.getElementsByTagName("body")[0].appendChild(crtg_script);
+//]]>
+    </script>
+    <script type="text/javascript" src="http://rtax.criteo.com/delivery/rta/rta.js?netId=2389&amp;cookieName=cto_demand&amp;rnd=82021272233&amp;varName=crtg_content" async="">
+    </script>
+    <script src="http://v5-static.ehowcdn.com/content/compressed/common_header-090b9414.js">
+    </script>
+    <script>
+//<![CDATA[
+
+  dmjs.global.glbBaseUrl="http:\/\/www.ehow.com";  dmjs.global.facebook={"app_id":"63203377906","login_service":"http:\/\/www.ehow.com\/services\/fb\/login\/","comment_service":"http:\/\/www.ehow.com\/services\/comment\/refresh\/"};  dmjs.urls={"cdn":"http:\/\/v5-static.ehowcdn.com","sitelife":"http:\/\/sitelife.ehow.com\/ver1.0\/","dmtracker":"vs.dmtracker.com"};  dmjs.global.IN_PRODUCTION=true;  dmjs.global.pool="default";  dmjs.global.channel="corporate";  dmjs.global.skin="corporate";
+
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-709906-67']);
+	try {
+		dmjs.GA.segment('Env','');
+		dmjs.GA.segment('Page', 'corporate~site-search');
+			} catch (e) {}
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+//]]>
+    </script>
+    <script src="//cdn.optimizely.com/js/9718688.js">
+    </script>
+    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&amp;gt;div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&amp;gt;span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}
+    </style>
+  </head>
+  <body data-skin="corporate" class="Corporate">
+    <header data-section="header" id="Header">
+      <section class="topContainer">
+        <section class="Logo">
+          <a class="image" href="http://www.ehow.com/">
+            <img width="117" height="33" alt="eHow Logo" src="http://v5-static.ehowcdn.com/media/images/logos/logov2.png"/>
+          </a>
+        </section>
+        <form class="Search" id="searchHeader" action="http://www.ehow.com/search.html" method="get">
+          <input type="text" class="text" data-type="searchinput" name="s"/>
+          <input type="hidden" value="corporate" name="skin"/>
+          <input type="hidden" value="all" name="t"/>
+          <span class="searchBtn">
+            <input type="submit" class="submit" value="SEARCH"/>
+          </span>
+        </form>
+      </section>
+      <nav role="navigation" id="primaryNav">
+        <ul class="channelListing ">
+          <li class="list ">
+            <a data-channel="mom" class="Heading4 title channel mom" href="http://www.ehow.com/ehow-mom/">
+              mom
+            </a>
+          </li>
+          <li class="list ">
+            <a data-channel="style" class="Heading4 title channel style" href="http://www.ehow.com/ehow-style/">
+              style
+            </a>
+          </li>
+          <li class="list ">
+            <a data-channel="food" class="Heading4 title channel food" href="http://www.ehow.com/ehow-food/">
+              food
+            </a>
+          </li>
+          <li class="list ">
+            <a data-channel="tech" class="Heading4 title channel tech" href="http://www.ehow.com/ehow-tech/">
+              tech
+            </a>
+          </li>
+          <li class="list ">
+            <a data-channel="home" class="Heading4 title channel home" href="http://www.ehow.com/ehow-home/">
+              home
+            </a>
+          </li>
+          <li class="list ">
+            <a data-channel="money" class="Heading4 title channel money" href="http://www.ehow.com/ehow-money/">
+              money
+            </a>
+          </li>
+          <li class="list ">
+            <a data-channel="health" class="Heading4 title channel health" href="http://www.ehow.com/ehow-health/">
+              health
+            </a>
+          </li>
+          <li class="list ">
+            <a data-channel="crafts" class="Heading4 title channel crafts" href="http://www.ehow.com/ehow-crafts/">
+              crafts
+            </a>
+          </li>
+          <li class="list">
+            <a href="http://www.ehow.com/how-to.html" data-channel="more" class="Heading4 title more">
+              More
+              <span class="downArrow">
+              </span>
+            </a>
+          </li>
+          <li class="list ehownowTab">
+            <a data-channel="ehownow" class="Heading4 title ehownow" href="https://now.ehow.com/?utm_source=eHow&amp;utm_medium=nav&amp;term=homepage">
+              <span class="divider">
+              </span>
+              eHow Now
+            </a>
+          </li>
+        </ul>
+        <div class="subChannel">
+        </div>
+        <div class="more_dropdown">
+          <div class="headline">
+            Browse Articles &amp; Videos By Category
+          </div>
+          <div class="moreLinks">
+            <ul>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/arts/">
+                  Arts &amp; Entertainment
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/business/">
+                  Business
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/careers/">
+                  Careers &amp; Work
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/cars/">
+                  Cars
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/computers/">
+                  Computers
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/crafts/">
+                  Crafts
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/cultures/">
+                  Culture &amp; Society
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/education/">
+                  Education
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/electronics/">
+                  Electronics
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/fashion/">
+                  Fashion, Style &amp; Personal Care
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/food/">
+                  Food &amp; Drink
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/health/">
+                  Health
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/hobbies-games/">
+                  Hobbies, Games &amp; Toys
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/holidays/">
+                  Holidays &amp; Celebrations
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/home/">
+                  Home &amp; Garden
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/internet/">
+                  Internet
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/legal/">
+                  Legal
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/parenting/">
+                  Parenting
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/parties/">
+                  Parties &amp; Entertaining
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/personal-finance/">
+                  Personal Finance
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/pets/">
+                  Pets
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/relationships/">
+                  Relationships &amp; Family
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/sports/">
+                  Sports &amp; Fitness
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/travel/">
+                  Travel
+                </a>
+              </li>
+              <li>
+                <a class="Heading4 title" href="http://www.ehow.com/weddings/">
+                  Weddings
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="ehownow_dropdown">
+          <span class="navArrow">
+          </span>
+          <form data-landing="https://now.ehow.com/#category?utm_source=eHow&amp;utm_campaign=none&amp;utm_term=#category&amp;utm_medium=header-link" id="ehowNavQuestionForm" data-action="https://now.ehow.com/#category?utm_source=eHow&amp;utm_campaign=none&amp;utm_term=#category&amp;utm_medium=header-form" action="https://now.ehow.com/health?utm_source=eHow&amp;utm_campaign=none&amp;utm_term=health&amp;utm_medium=header-form" class="form-search" method="post">
+            <h3 class="cta">
+              Get expert answers to your questions
+            </h3>
+            <h4>
+              Start a 1-on-1 chat now!
+            </h4>
+            <ul class="nav">
+              <li class="l1 health active">
+                <span data-category="health">
+                  Medical Professionals
+                </span>
+              </li>
+              <li class="l2 legal">
+                <span data-category="legal">
+                  Lawyers
+                </span>
+              </li>
+              <li class="l3 tech">
+                <span data-category="tech">
+                  Tech Support
+                </span>
+              </li>
+              <li class="l4 cars">
+                <span data-category="cars">
+                  Mechanics
+                </span>
+              </li>
+              <li class="l5 more">
+                <span data-category="more">
+                  More »
+                </span>
+                <ul>
+                  <li>
+                    <span data-landing="pets">
+                      Veterinarians
+                    </span>
+                  </li>
+                  <li>
+                    <span data-landing="finance">
+                      Personal Finance Professionals
+                    </span>
+                  </li>
+                  <li>
+                    <span data-landing="handyman">
+                      Handymen
+                    </span>
+                  </li>
+                  <li>
+                    <span data-landing="appliance-repair">
+                      Appliance Repair Specialist
+                    </span>
+                  </li>
+                  <li>
+                    <span data-landing="taxes">
+                      Tax Advisors
+                    </span>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <textarea maxlength="450" value="" placeholder="Type your question here" name="text"></textarea>            <button type="submit" class="btn btn-primary btn-homepage">
+              Get Your Answer
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <div class="SubHeader " id="SubHeader">
+      <dl class="links">
+        <dt class="Heading6 header">
+          Featured:
+        </dt>
+        <dd class="item">
+          <a class="Heading6 url FeatureNavLink" href="http://www.ehow.com/ehow-tax-time/">
+            Tax Time
+          </a>
+        </dd>
+        <dd class="item">
+          <a class="Heading6 url FeatureNavLink" href="http://www.ehow.com/ehow-positive-change/">
+            Pawsitive Change
+          </a>
+        </dd>
+        <dd class="item">
+          <a class="Heading6 url FeatureNavLink" href="http://www.ehow.com/ehow-quick-recipes/">
+            Smart Living
+          </a>
+        </dd>
+      </dl>
+    </div>
+    <section data-section="body" data-page-id="searchresults" class="SearchResults FLC" id="Body">
+      <!--  vtype:csa,cli:ehow,stype:cse_all,chann: -->      <div class="Grid8 Push2">
+        <div class="container" style="visibility: visible;">
+          <script charset="utf-8" type="text/javascript">
+//<![CDATA[
+ 
+
+	$('.container').css('visibility','hidden');
+
+        var pageOptions = {     'pubId': 'ehow',
+                                'query': 'ibm',
+                                'hl': 'en',
+                                'sellerRatings' : true,
+                                'siteLinks' : true,
+                                'plusOnes' : true,
+                                'adtest': 'off',
+                                'longerHeadlines' : 'true',
+                                'channel' : '',
+				'numRepeated':4,
+				'adPage': 1,
+				'domainLinkAboveDescription': false,
+				'linkTarget' :'_blank'
+                          };
+
+        var adblock1 = {        'container': 'adcontainer1', 
+                                'maxTop': 4, 
+                                'fontSizeTitle': '17px', 
+                                'fontSizeDescription': '13px', 
+                                'fontSizeDomainLink': '13px', 
+                                'colorTitleLink': '0086DF', 
+                                'colorText': '232323', 
+                                'colorDomainLink': '0086DF', 
+				'attributionText': 'sponsored links',
+				'colorAttribution':'#959595',
+				'attributionSpacingBelow':4,
+				'adLoadedCallback' : function(containerName, adsLoaded) {
+				   if (adsLoaded) { 
+				      try {
+						$('.container').css('visibility','visible');
+				      } catch (e) {
+						$('.container').css('visibility','visible');
+				      }
+				    } else {
+				       hideAttribution();
+				    }
+				  },
+ 
+				'width' : '578px'
+                        };
+
+	  var adblock2 = { 
+	  			'container' : 'adcontainer3',
+				'number' : '4',
+                                'fontSizeTitle': '17px', 
+                                'fontSizeDescription': '13px', 
+                                'fontSizeDomainLink': '13px', 
+                                'colorTitleLink': '0086DF', 
+                                'colorText': '232323', 
+                                'colorDomainLink': '0086DF', 
+				'attributionText': 'sponsored links',
+				'attributionSpacingBelow':4,
+				'colorAttribution':'#959595', 
+				'width' : '578px'
+			};
+
+
+        var adblock3= {        'container': 'adcontainer2',
+				'number' : '2',
+                                'fontSizeTitle': '17px', 
+                                'fontSizeDescription': '13px', 
+                                'fontSizeDomainLink': '13px', 
+                                'colorTitleLink': '0086DF', 
+                                'colorText': '232323', 
+                                'colorDomainLink': '0086DF',
+				'attributionText': 'sponsored links', 
+				'colorAttribution':'#959595', 
+				'width' : '140px'
+                        };
+
+			_googCsa('ads', pageOptions, adblock1, adblock2, adblock3);
+
+        
+//]]>
+          </script>
+          <div name="&amp;ad_unit_id=ehow;ad_unit_type=SRC&amp;ad_unit_network=GAP&amp;revenue_basis=CPC&amp;ad_position=T&amp;revenue_tag=search" onclick="_JT.DM_Click(this)" type="adimpression" class="" id="DMINSTR">
+            <div id="adcontainer1" class="" style="width: 578px; font-weight: normal; text-align: center; height: 377px;">
+              <iframe width="100%" scrolling="no" frameborder="0" marginwidth="0" marginheight="0" allowtransparency="true" style="visibility: visible; height: 377px;" name="{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-1-1&quot;:{&quot;lines&quot;:3,&quot;colorText&quot;:&quot;232323&quot;,&quot;colorTitleLink&quot;:&quot;0086DF&quot;,&quot;colorDomainLink&quot;:&quot;0086DF&quot;,&quot;colorAttribution&quot;:&quot;#959595&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;17px&quot;,&quot;fontSizeDescription&quot;:&quot;13px&quot;,&quot;fontSizeDomainLink&quot;:&quot;13px&quot;,&quot;attributionText&quot;:&quot;sponsored links&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;domainLinkAboveDescription&quot;:false,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;578px&quot;,&quot;attributionSpacingBelow&quot;:4,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;adcontainer3&quot;},&quot;slave-2-1&quot;:{&quot;lines&quot;:3,&quot;colorText&quot;:&quot;232323&quot;,&quot;colorTitleLink&quot;:&quot;0086DF&quot;,&quot;colorDomainLink&quot;:&quot;0086DF&quot;,&quot;colorAttribution&quot;:&quot;#959595&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;17px&quot;,&quot;fontSizeDescription&quot;:&quot;13px&quot;,&quot;fontSizeDomainLink&quot;:&quot;13px&quot;,&quot;attributionText&quot;:&quot;sponsored links&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;domainLinkAboveDescription&quot;:false,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;140px&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;adcontainer2&quot;},&quot;master-1&quot;:{&quot;lines&quot;:3,&quot;colorText&quot;:&quot;232323&quot;,&quot;colorTitleLink&quot;:&quot;0086DF&quot;,&quot;colorDomainLink&quot;:&quot;0086DF&quot;,&quot;colorAttribution&quot;:&quot;#959595&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;17px&quot;,&quot;fontSizeDescription&quot;:&quot;13px&quot;,&quot;fontSizeDomainLink&quot;:&quot;13px&quot;,&quot;attributionText&quot;:&quot;sponsored links&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;domainLinkAboveDescription&quot;:false,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;578px&quot;,&quot;attributionSpacingBelow&quot;:4,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;adcontainer1&quot;}}" id="master-1" src="//www.google.com/uds/afs?q=ibm&amp;client=ehow&amp;hl=en&amp;adtest=off&amp;r=m&amp;adpage=1&amp;adrep=4&amp;po=true&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404&amp;format=p4%7Cn4%7Cn2&amp;ad=n6p4&amp;nocache=3391395474483995&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;adlh=on&amp;adext=as1%2Csr1&amp;u_his=12&amp;u_tz=-240&amp;dt=1395474483997&amp;u_w=1366&amp;u_h=768&amp;biw=1009&amp;bih=442&amp;psw=990&amp;psh=1409&amp;frm=0&amp;ui=uv3sRsLpOlHva-wi578st17sd13sv13-wi578st17sd13sv13-wi140st17sd13sv13&amp;rurl=http%3A%2F%2Fwww.ehow.com%2Fsearch.html%3Fs%3Dibm%26skin%3Dcorporate%26t%3Dall&amp;referer=http%3A%2F%2Fwww.ehow.com%2F#master-1">
+              </iframe>
+            </div>
+          </div>
+          <div style="margin-bottom:5px;">
+          </div>
+          <div class="Heading4 heading">
+            eHow.com Search Results:
+          </div>
+          <ul class="Results">
+            <li class="item">
+              <a class="Heading5 title" href="http://www.ehow.com/how_5523168_use-ibm-thinkpad-docking-station.html">
+                How to Use an 
+                <b>
+                  IBM
+                </b>
+                 Thinkpad Docking Station
+              </a>
+              <p class="excerpt">
+                An 
+                <b>
+                  IBM
+                </b>
+                 ThinkPad docking station turns a laptop computer into a desktop machine
+. The docking station allows for the addition of IDE cards and additional drives 
+                <b>
+                  ...
+                </b>
+              </p>
+              <div class="url">
+                http://www.ehow.com/how_5523168_use-ibm-thinkpad-docking-station.html
+              </div>
+            </li>
+            <li class="item">
+              <a class="Heading5 title" href="http://www.ehow.com/how_7321084_unlock-ibm-laptop.html">
+                How to Unlock an 
+                <b>
+                  IBM
+                </b>
+                 Laptop
+              </a>
+              <p class="excerpt">
+                How to Unlock an 
+                <b>
+                  IBM
+                </b>
+                 Laptop. 
+                <b>
+                  IBM
+                </b>
+                 laptops have three different power-
+management modes, all specifically designed to conserve battery power. While 
+the 
+                <b>
+                  ...
+                </b>
+              </p>
+              <div class="url">
+                http://www.ehow.com/how_7321084_unlock-ibm-laptop.html
+              </div>
+            </li>
+            <li class="item">
+              <a class="Heading5 title" href="http://www.ehow.com/how_5974490_turn-ibm-laptop-number-lock.html">
+                How to Turn Off My 
+                <b>
+                  IBM
+                </b>
+                 Laptop Number Lock
+              </a>
+              <p class="excerpt">
+                How to Turn Off My 
+                <b>
+                  IBM
+                </b>
+                 Laptop Number Lock. The number lock, or NumLk, key 
+on an 
+                <b>
+                  IBM
+                </b>
+                 ThinkPad laptop can be turned off and on at will with a few simple 
+                <b>
+                  ...
+                </b>
+              </p>
+              <div class="url">
+                http://www.ehow.com/how_5974490_turn-ibm-laptop-number-lock.html
+              </div>
+            </li>
+            <li class="item">
+              <a class="Heading5 title" href="http://www.ehow.com/how_7494286_troubleshoot-ibm-selectric-typewriter.html">
+                How to Troubleshoot an 
+                <b>
+                  IBM
+                </b>
+                 Selectric Typewriter
+              </a>
+              <p class="excerpt">
+                How to Troubleshoot an 
+                <b>
+                  IBM
+                </b>
+                 Selectric Typewriter. Typewriters might not be used 
+every day in businesses anymore, but there may still be times when they are 
+                <b>
+                  ...
+                </b>
+              </p>
+              <div class="url">
+                http://www.ehow.com/how_7494286_troubleshoot-ibm-selectric-typewriter.html
+              </div>
+            </li>
+            <li class="item">
+              <a class="Heading5 title" href="http://www.ehow.com/how_4867911_connect-ibm-laptop-television.html">
+                How to Connect an 
+                <b>
+                  IBM
+                </b>
+                 Laptop to a Television
+              </a>
+              <p class="excerpt">
+                <b>
+                  IBM
+                </b>
+                 laptops are portable and often very compact, making them convenient for 
+transporting information you might want to access and share. If you want to 
+present 
+                <b>
+                  ...
+                </b>
+              </p>
+              <div class="url">
+                http://www.ehow.com/how_4867911_connect-ibm-laptop-television.html
+              </div>
+            </li>
+            <li class="item">
+              <a class="Heading5 title" href="http://www.ehow.com/how_6936874_turn-off-monitor-ibm-thinkpad.html">
+                How to Turn Off Monitor on 
+                <b>
+                  IBM
+                </b>
+                 ThinkPad
+              </a>
+              <p class="excerpt">
+                How to Turn Off Monitor on 
+                <b>
+                  IBM
+                </b>
+                 ThinkPad. When working with an external 
+monitor or projector, your 
+                <b>
+                  IBM
+                </b>
+                 ThinkPad lets you select which display you want to
+ 
+                <b>
+                  ...
+                </b>
+              </p>
+              <div class="url">
+                http://www.ehow.com/how_6936874_turn-off-monitor-ibm-thinkpad.html
+              </div>
+            </li>
+            <li class="item">
+              <a class="Heading5 title" href="http://www.ehow.com/how_8500001_insert-ibm-selectric-ii-typewriter.html">
+                How to Insert the Ribbon Into an 
+                <b>
+                  IBM
+                </b>
+                 Selectric II Typewriter
+              </a>
+              <p class="excerpt">
+                How to Insert the Ribbon Into an 
+                <b>
+                  IBM
+                </b>
+                 Selectric II Typewriter. While computers and 
+printers have replaced the typewriter for most business applications, some 
+                <b>
+                  ...
+                </b>
+              </p>
+              <div class="url">
+                http://www.ehow.com/how_8500001_insert-ibm-selectric-ii-typewriter.html
+              </div>
+            </li>
+            <li class="item">
+              <a class="Heading5 title" href="http://www.ehow.com/how_7416142_increase-ibm-thinkpad-model-41.html">
+                How to Increase the Processing Performance of a 
+                <b>
+                  IBM
+                </b>
+                 ThinkPad 
+                <b>
+                  ...
+                </b>
+              </a>
+              <p class="excerpt">
+                Lenovo's ThinkPad model 41 laptop carries Windows 98 or XP as the stock 
+operating system. The motherboard in the 
+                <b>
+                  IBM
+                </b>
+                 laptop holds up to 512kb of RAM 
+in 
+                <b>
+                  ...
+                </b>
+              </p>
+              <div class="url">
+                http://www.ehow.com/how_7416142_increase-ibm-thinkpad-model-41.html
+              </div>
+            </li>
+            <li class="item">
+              <a class="Heading5 title" href="http://www.ehow.com/how_5692989_unlock-lock-ibm-laptop-computers.html">
+                How to Unlock the Number Lock on 
+                <b>
+                  IBM
+                </b>
+                 Laptop Computers
+              </a>
+              <p class="excerpt">
+                How to Unlock the Number Lock on 
+                <b>
+                  IBM
+                </b>
+                 Laptop Computers. Laptop computers 
+have the advantage being portable and self-contained, but among their 
+                <b>
+                  ...
+                </b>
+              </p>
+              <div class="url">
+                http://www.ehow.com/how_5692989_unlock-lock-ibm-laptop-computers.html
+              </div>
+            </li>
+            <li class="item">
+              <a class="Heading5 title" href="http://www.ehow.com/how_12016135_install-audio-device-ibm-thinkpad-r51.html">
+                How to Install an Audio Device for an 
+                <b>
+                  IBM
+                </b>
+                 ThinkPad R51
+              </a>
+              <p class="excerpt">
+                The 
+                <b>
+                  IBM
+                </b>
+                 ThinkPad R51 comes with a built-in sound card, which enables the 
+computer to output sound. You can connect audio devices like headphones and
+ 
+                <b>
+                  ...
+                </b>
+              </p>
+              <div class="url">
+                http://www.ehow.com/how_12016135_install-audio-device-ibm-thinkpad-r51.html
+              </div>
+            </li>
+          </ul>
+          <div name="&amp;ad_unit_id=ehow;ad_unit_type=SRC&amp;ad_unit_network=GAP&amp;revenue_basis=CPC&amp;ad_position=B&amp;revenue_tag=search" onclick="_JT.DM_Click(this)" type="adimpression" class="" id="DMINSTR">
+            <div id="adcontainer3" class="" style="width: 578px; font-weight: normal; text-align: center;">
+              <iframe width="100%" scrolling="no" frameborder="0" marginwidth="0" marginheight="0" allowtransparency="true" style="visibility: hidden; height: 0px;" name="slave-1-1|{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-1-1&quot;:{&quot;lines&quot;:3,&quot;colorText&quot;:&quot;232323&quot;,&quot;colorTitleLink&quot;:&quot;0086DF&quot;,&quot;colorDomainLink&quot;:&quot;0086DF&quot;,&quot;colorAttribution&quot;:&quot;#959595&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;17px&quot;,&quot;fontSizeDescription&quot;:&quot;13px&quot;,&quot;fontSizeDomainLink&quot;:&quot;13px&quot;,&quot;attributionText&quot;:&quot;sponsored links&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;domainLinkAboveDescription&quot;:false,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;578px&quot;,&quot;attributionSpacingBelow&quot;:4,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;adcontainer3&quot;},&quot;slave-2-1&quot;:{&quot;lines&quot;:3,&quot;colorText&quot;:&quot;232323&quot;,&quot;colorTitleLink&quot;:&quot;0086DF&quot;,&quot;colorDomainLink&quot;:&quot;0086DF&quot;,&quot;colorAttribution&quot;:&quot;#959595&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;17px&quot;,&quot;fontSizeDescription&quot;:&quot;13px&quot;,&quot;fontSizeDomainLink&quot;:&quot;13px&quot;,&quot;attributionText&quot;:&quot;sponsored links&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;domainLinkAboveDescription&quot;:false,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;140px&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;adcontainer2&quot;},&quot;master-1&quot;:{&quot;lines&quot;:3,&quot;colorText&quot;:&quot;232323&quot;,&quot;colorTitleLink&quot;:&quot;0086DF&quot;,&quot;colorDomainLink&quot;:&quot;0086DF&quot;,&quot;colorAttribution&quot;:&quot;#959595&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;17px&quot;,&quot;fontSizeDescription&quot;:&quot;13px&quot;,&quot;fontSizeDomainLink&quot;:&quot;13px&quot;,&quot;attributionText&quot;:&quot;sponsored links&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;domainLinkAboveDescription&quot;:false,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;578px&quot;,&quot;attributionSpacingBelow&quot;:4,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;adcontainer1&quot;}}" id="slave-1-1" src="//www.google.com/uds/afs?q=ibm&amp;client=ehow&amp;hl=en&amp;adtest=off&amp;r=s&amp;adpage=1&amp;adrep=4&amp;po=true&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404&amp;format=n4&amp;ad=n0&amp;nocache=2351395474483994&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;adext=as1%2Csr1&amp;rurl=http%3A%2F%2Fwww.ehow.com%2Fsearch.html%3Fs%3Dibm%26skin%3Dcorporate%26t%3Dall&amp;referer=http%3A%2F%2Fwww.ehow.com%2F#slave-1-1">
+              </iframe>
+            </div>
+          </div>
+          <div class="RelatedSearches">
+            <div class="Heading4 heading">
+              Searches related to 
+              <strong>
+                ibm
+              </strong>
+            </div>
+            <div id="GoogleRelatedModule">
+            </div>
+          </div>
+          <ul class="Pagination">
+            <li class="selected">
+              1
+            </li>
+            <li>
+              <a href="http://www.ehow.com/search.html?s=ibm&amp;skin=corporate&amp;t=all&amp;p=2">
+                2
+              </a>
+            </li>
+            <li>
+              <a href="http://www.ehow.com/search.html?s=ibm&amp;skin=corporate&amp;t=all&amp;p=3">
+                3
+              </a>
+            </li>
+            <li>
+              <a href="http://www.ehow.com/search.html?s=ibm&amp;skin=corporate&amp;t=all&amp;p=4">
+                4
+              </a>
+            </li>
+            <li>
+              <a href="http://www.ehow.com/search.html?s=ibm&amp;skin=corporate&amp;t=all&amp;p=5">
+                5
+              </a>
+            </li>
+            <li>
+              <a href="http://www.ehow.com/search.html?s=ibm&amp;skin=corporate&amp;t=all&amp;p=6">
+                6
+              </a>
+            </li>
+            <li>
+              <a class="next" rel="next" href="http://www.ehow.com/search.html?s=ibm&amp;skin=corporate&amp;t=all&amp;p=2">
+                Next
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="Grid2 Pull8 Filter">
+        <li class="item all active">
+          <b>
+            <a class="Heading6 link" href="http://www.ehow.com/search.html?s=ibm&amp;skin=corporate&amp;t=all">
+              Everything
+            </a>
+          </b>
+        </li>
+        <li class="item article">
+          <b>
+            <a class="Heading6 link" href="http://www.ehow.com/search.html?s=ibm&amp;skin=corporate&amp;t=article">
+              Articles
+            </a>
+          </b>
+        </li>
+        <li class="item video">
+          <b>
+            <a class="Heading6 link" href="http://www.ehow.com/search.html?s=ibm&amp;skin=corporate&amp;t=video">
+              Videos
+            </a>
+          </b>
+        </li>
+      </ul>
+      <div name="&amp;ad_unit_id=ehow;ad_unit_type=SRC&amp;ad_unit_network=GAP&amp;revenue_basis=CPC&amp;ad_position=B&amp;revenue_tag=search" onclick="_JT.DM_Click(this)" type="adimpression" class="" id="DMINSTR">
+        <div id="adcontainer2" class="Grid2" style="width: 140px; font-weight: normal; text-align: center;">
+          <iframe width="100%" scrolling="no" frameborder="0" marginwidth="0" marginheight="0" allowtransparency="true" style="visibility: hidden; height: 0px;" name="slave-2-1|{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-1-1&quot;:{&quot;lines&quot;:3,&quot;colorText&quot;:&quot;232323&quot;,&quot;colorTitleLink&quot;:&quot;0086DF&quot;,&quot;colorDomainLink&quot;:&quot;0086DF&quot;,&quot;colorAttribution&quot;:&quot;#959595&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;17px&quot;,&quot;fontSizeDescription&quot;:&quot;13px&quot;,&quot;fontSizeDomainLink&quot;:&quot;13px&quot;,&quot;attributionText&quot;:&quot;sponsored links&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;domainLinkAboveDescription&quot;:false,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;578px&quot;,&quot;attributionSpacingBelow&quot;:4,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;adcontainer3&quot;},&quot;slave-2-1&quot;:{&quot;lines&quot;:3,&quot;colorText&quot;:&quot;232323&quot;,&quot;colorTitleLink&quot;:&quot;0086DF&quot;,&quot;colorDomainLink&quot;:&quot;0086DF&quot;,&quot;colorAttribution&quot;:&quot;#959595&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;17px&quot;,&quot;fontSizeDescription&quot;:&quot;13px&quot;,&quot;fontSizeDomainLink&quot;:&quot;13px&quot;,&quot;attributionText&quot;:&quot;sponsored links&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;domainLinkAboveDescription&quot;:false,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;140px&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;adcontainer2&quot;},&quot;master-1&quot;:{&quot;lines&quot;:3,&quot;colorText&quot;:&quot;232323&quot;,&quot;colorTitleLink&quot;:&quot;0086DF&quot;,&quot;colorDomainLink&quot;:&quot;0086DF&quot;,&quot;colorAttribution&quot;:&quot;#959595&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;17px&quot;,&quot;fontSizeDescription&quot;:&quot;13px&quot;,&quot;fontSizeDomainLink&quot;:&quot;13px&quot;,&quot;attributionText&quot;:&quot;sponsored links&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;domainLinkAboveDescription&quot;:false,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;578px&quot;,&quot;attributionSpacingBelow&quot;:4,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;adcontainer1&quot;}}" id="slave-2-1" src="//www.google.com/uds/afs?q=ibm&amp;client=ehow&amp;hl=en&amp;adtest=off&amp;r=s&amp;adpage=1&amp;adrep=4&amp;po=true&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404&amp;format=n2&amp;ad=n0&amp;nocache=5761395474483991&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;adext=as1%2Csr1&amp;rurl=http%3A%2F%2Fwww.ehow.com%2Fsearch.html%3Fs%3Dibm%26skin%3Dcorporate%26t%3Dall&amp;referer=http%3A%2F%2Fwww.ehow.com%2F#slave-2-1">
+          </iframe>
+        </div>
+      </div>
+      <script>
+//<![CDATA[
+
+	var opChannel = dmjs.global.skin;
+	if(opChannel=='food' || opChannel=='simplify-the-season'){
+		opChannel = 'food';
+	};
+	googleAds.addAdUnit({
+		priority : 1,
+		adUnitId : 'GoogleRelatedModule',
+		google_ad_channel : 'Channel_D',
+		google_ad_client : 'ca-ehow-radlinks_js',
+		google_max_num_ads : '0',
+		google_num_radlinks : '8',
+		google_kw : "ibm",
+		google_kw_type : 'radlink',
+		google_max_radlink_len : '20',
+		templates: {
+			relatedAds: '&lt;ul class="RelatedAds"&gt; \
+						{! for (var i = 0; i &lt; ads.length; i++) { !}\
+							&lt;li class="inlineAd" &gt; \
+								&lt;a href="/search.html?rs=2&amp;\
+								s={!= ads[i].url_escaped_term !}\
+								&amp;skin={!= opChannel !}\
+								&amp;t=all"\
+								class="ad"&gt;\
+									&lt;span&gt;{!= ads[i].term !}&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;\
+						{! }!} \
+					&lt;/ul&gt;'
+		}
+	});
+
+	googleAds.render();
+
+//]]>
+      </script>
+      <script>
+//<![CDATA[
+var priority = '1';var adUnitId = 'GoogleRelatedModule';var google_ad_channel = 'Channel_D';var google_ad_client = 'ca-ehow-radlinks_js';var google_max_num_ads = '0';var google_num_radlinks = '8';var google_kw = decodeURIComponent("ibm");var google_kw_type = 'radlink';var google_max_radlink_len = '20';var enabled = 'true';var google_ad_type = 'text_image_flash';var google_ad_output = 'js';var google_safe = 'high';var google_abtest = 'false';var google_adtest = 'off';var google_ad_section = 'default';var google_encoding = 'utf8';var google_language = 'en';google_skip = google_ad_num;
+//]]>
+      </script>
+      <script src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+      </script>
+    </section>
+    <footer data-section="footer" class="Note" id="Footer">
+      <div class="details">
+        <div class="identity">
+          <a data-url="http://www.ehow.com/" class="logo" href="http://www.ehow.com/">
+            ehow.com
+          </a>
+          <p class="copyright">
+            © 1999-2014 Demand Media, Inc.
+          </p>
+        </div>
+        <a0:nav xmlns:a0="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+          <a0:ul class="listing">
+            <a0:li>
+              <a0:ul>
+                <a0:li class="item row1">
+                  <a0:a class="title" href="http://www.ehow.com/about-us.html">
+                    About eHow
+                  </a0:a>
+                </a0:li>
+                <a0:li class="item row1">
+                  <a0:a class="title" href="http://www.ehow.co.uk/">
+                    eHow UK
+                  </a0:a>
+                </a0:li>
+                <a0:li class="item row1">
+                  <a0:a class="title" href="http://www.ehowenespanol.com/">
+                    eHow en Español
+                  </a0:a>
+                </a0:li>
+                <a0:li class="item row1">
+                  <a0:a class="title" href="http://www.ehow.com.br/">
+                    eHow Brasil
+                  </a0:a>
+                </a0:li>
+                <a0:li class="item row1">
+                  <a0:a class="title" href="http://www.ehow.de/">
+                    eHow Deutschland
+                  </a0:a>
+                </a0:li>
+                <a0:li class="item row1">
+                  <a0:a class="title" href="http://www.ehow.com/site-map.html">
+                    Sitemap
+                  </a0:a>
+                </a0:li>
+              </a0:ul>
+            </a0:li>
+            <a0:li>
+              <a0:ul>
+                <a0:li class="item row2">
+                  <a0:a class="title" href="http://www.ehow.com/blog/">
+                    eHow Blog
+                  </a0:a>
+                </a0:li>
+                <a0:li class="item row2">
+                  <a0:a class="title" href="http://www.ehow.com/how-to.html">
+                    How to by Topic
+                  </a0:a>
+                </a0:li>
+                <a0:li class="item row2">
+                  <a0:a class="title" href="http://www.ehow.com/videos.html">
+                    How to Videos
+                  </a0:a>
+                </a0:li>
+              </a0:ul>
+            </a0:li>
+            <a0:li>
+              <a0:ul>
+                <a0:li class="item row3">
+                  <a0:a class="title" href="http://www.ehow.com/terms-of-use.html">
+                    Terms of Use
+                  </a0:a>
+                </a0:li>
+                <a0:li class="item row3">
+                  <a0:a class="title" href="http://www.ehow.com/privacy.html">
+                    Privacy Policy
+                  </a0:a>
+                </a0:li>
+                <a0:li class="item row3">
+                  <a0:a class="title" href="http://www.ehow.com/terms-of-use.html#copyright/">
+                    Report Copyright
+                  </a0:a>
+                </a0:li>
+                <a0:li class="item row3">
+                  <a0:a style="cursor:pointer !important" class="ad-choice" id="_bapw-link">
+                    <a0:img style="display:inline !important;vertical-align:middle !important" id="_bapw-icon" src="http://cdn.betrad.com/pub/icon1.png" class="gzvdsnmpmftoqeyyfcdl"/>
+                    <a0:span style="vertical-align:middle !important">
+                      Ad Choices
+                    </a0:span>
+                  </a0:a>
+                  <a0:abbr>
+                    en-US
+                  </a0:abbr>
+                </a0:li>
+              </a0:ul>
+            </a0:li>
+          </a0:ul>
+        </a0:nav>
+        <div class="socialConnect">
+          <p class="heading">
+            Connect with us:
+          </p>
+          <ul>
+            <li class="source">
+              <a href="https://www.facebook.com/eHow" class="icon elegant-icons">
+                
+              </a>
+            </li>
+            <li class="source">
+              <a href="https://twitter.com/ehow" class="icon elegant-icons">
+                
+              </a>
+            </li>
+            <li class="source">
+              <a href="https://plus.google.com/+howto/posts" class="icon elegant-icons">
+                
+              </a>
+            </li>
+            <li class="source last">
+              <a href="http://www.pinterest.com/ehow/" class="icon elegant-icons">
+                
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="extras">
+        <div class="comscore hiddenLogo">
+          <img alt="Demand Media" data-img="http://v5-static.ehowcdn.com/media/vendor/comscore/partners/demand-media.png" src="http://v5-static.ehowcdn.com/ui/images/modules/loading/no-image.gif" id="comscoreBrick"/>
+        </div>
+      </div>
+    </footer>
+    <script src="http://v5-static.ehowcdn.com/content/compressed/common_footer-0bad330c.js">
+    </script>
+    <script src="http://v5-static.ehowcdn.com/content/compressed/search-34ac7f91.js">
+    </script>
+    <script>
+//<![CDATA[
+
+	dmjs.addLoadEvent(function(){
+        var e = document,
+            b,a = (e.location.protocol=="https:"?"https":"http"),
+            c=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");
+        e.getElementById("_bapw-icon").src=c+"icon1.png";
+        
+            $(".ad-choice").click(function(){
+                var f=this;
+                function d(i,l){
+                    var j=e.getElementsByTagName("head")[0]||e.documentElement,
+                    h=false,
+                    g=e.createElement("script");
+                
+                    function k(){
+                        g.onload=g.onreadystatechange=null;
+                        j.removeChild(g);
+                        l()
+                    }
+                    g.src=i;
+                    g.onreadystatechange=function(){
+                        if(!h&amp;&amp;(this.readyState=="loaded"||this.readyState=="complete")){
+                            h=true;k()}
+                            };
+                            g.onload=k;
+                            j.insertBefore(g,j.firstChild)
+                }
+                d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js",function(){
+                    d(c+"pub1.js",function(){
+                        BAPW.i(f,
+                            {pid:46,
+                            ocid:374
+                        },false)
+                    })
+                });
+             
+                return false;
+            });
+        b=new Image();
+        b.src=a+"://l.betrad.com/pub/p.gif?pid=46&amp;ocid=374&amp;ii=1&amp;r="+Math.random()
+    }, 20);
+        
+    
+
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+    if (dmjs.revenueTags.length != 0) {
+        $("&lt;meta/&gt;").attr("scheme", "DMINSTR2")
+            .attr("name", "ltvtag")
+            .attr("content", escape(dmjs.revenueTags.join("|")))
+            .appendTo($("head"));
+    };
+
+//]]>
+    </script>
+    <!-- BEGIN dmtracker -->    <noscript>
+      &lt;img src="http://vs.dmtracker.com/images/zig.gif?Log=1" alt="zig"/&gt;
+    </noscript>
+    <script async="" src="http://vs.dmtracker.com/tags/vs.js">
+    </script>
+    <div id="dmOmni">
+    </div>
+    <script defer="defer" async="">
+//<![CDATA[
+
+(function() {
+	var ua = navigator.userAgent.toLowerCase();
+	var dmTrackUrl = "vs.dmtracker.com";
+	var jsUrl = "vs.js";
+	if (ua.indexOf('safari') != -1) {
+		if (ua.indexOf('chrome')  &gt; -1) {
+			// Not on Safari
+		} else {
+			dmTrackUrl = "bit.ehow.com";
+			dmjs.urls.dmtracker = "bit.ehow.com";
+			jsUrl = "bit" + ".js";
+		}
+	}
+	var dmJSUrl = "http://"+dmTrackUrl+"/tags/"+jsUrl;
+
+	var dmTrack = document.createElement('script');
+	dmTrack.async = true;
+	dmTrack.src = dmJSUrl;
+	var s = document.getElementById('dmOmni'); s.parentNode.insertBefore(dmTrack, s);
+})();
+
+//]]>
+    </script>
+    <!-- END dmtracker -->    <script>
+//<![CDATA[
+
+	var _comscore = _comscore || [];
+	dmjs.global.comscore = {"c1":"2","c2":"6036385","c3":"","options":{"url_append":"comscorekw="}};
+	_comscore.push(dmjs.global.comscore);
+	(function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	})();
+
+//]]>
+    </script>
+    <noscript>
+      &lt;img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6036385&amp;c3=&amp;c7=http%3A%2F%2Fwww.ehow.com%2Fsearch.html%3Fs%3Dibm%26skin%3Dcorporate%26t%3Dall%26comscorekw%3D&amp;cv=2.0&amp;cj=1" /&gt;
+    </noscript>
+    <script src="http://indieclick.3janecdn.com/media/ad-block-detect/advertisement.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+		var resource = document.createElement('script');
+		resource.async = true;
+		resource.src = "http://wac.20b8.edgecastcdn.net/0020B8/s/ehow_am.js";
+		var script = document.getElementsByTagName('script')[0];
+		script.parentNode.insertBefore(resource, script);
+	
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+		$(window).load(function() {
+			dmjs.fireEvents();
+		});
+	
+//]]>
+    </script>
+    <div id="fb-root" class=" fb_reset">
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+        </div>
+      </div>
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_http" allowtransparency="true" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="http://static.ak.facebook.com/connect/xd_arbiter/LEdxGgtB9cN.js?version=40#channel=f3ded4012c4365&amp;origin=http%3A%2F%2Fwww.ehow.com">
+          </iframe>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_https" allowtransparency="true" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter/LEdxGgtB9cN.js?version=40#channel=f3ded4012c4365&amp;origin=http%3A%2F%2Fwww.ehow.com">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <div class="view-mobile">
+      <a onclick="(function() { dmjs.cookies.createCookie('dmp', 'mobile:default', 1, '/') })();" href="http://www.ehow.com/search.html?s=ibm&amp;skin=corporate&amp;t=all&amp;view=mobile">
+        View Mobile Site
+      </a>
+    </div>
+    <script src="http://js.revsci.net/gateway/gw.js?csid=F08747&amp;auto=t">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","licenseKey":"da697fea5f","applicationID":"2727174","transactionName":"MlMDZUNYDBYHAUBfVgsZNENYFgsLAgdMGEkNRg==","queueTime":0,"applicationTime":344,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"jserror.newrelic.com","agent":"js-agent.newrelic.com\/nr-361.min.js"}
+//]]>
+    </script>
+    <script src="http://js-agent.newrelic.com/nr-361.min.js">
+    </script>
+  </body>
+</html>

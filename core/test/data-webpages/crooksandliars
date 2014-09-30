@@ -1,0 +1,1960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#" prefix="og: http://ogp.me/ns#" class="js">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <script async="" src="//www.google-analytics.com/analytics.js">
+    </script>
+    <script async="" src="http://cdn.taboola.com/libtrc/rs-crooksandliars/loader.js">
+    </script>
+    <script async="" type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+      var disableShareFloat = false;
+    
+//]]>
+    </script>
+    <meta content="ZD8FXatzTA8IUUJR-ZTLm6TNCa5anRbPApADrOWnmgM" name="google-site-verification"/>
+    <meta charset="utf-8"/>
+    <title>
+      Search | Crooks and Liars
+    </title>
+    <link href="http://crooksandliars.com/sites/all/themes/cl_theme/touch//apple-touch-icon.png" rel="apple-touch-icon"/>
+    <link href="http://crooksandliars.com/sites/all/themes/cl_theme/touch//apple-touch-icon-57x57.png" sizes="57x57" rel="apple-touch-icon"/>
+    <link href="http://crooksandliars.com/sites/all/themes/cl_theme/touch//apple-touch-icon-72x72.png" sizes="72x72" rel="apple-touch-icon"/>
+    <link href="http://crooksandliars.com/sites/all/themes/cl_theme/touch//apple-touch-icon-76x76.png" sizes="76x76" rel="apple-touch-icon"/>
+    <link href="http://crooksandliars.com/sites/all/themes/cl_theme/touch//apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon"/>
+    <link href="http://crooksandliars.com/sites/all/themes/cl_theme/touch//apple-touch-icon-120x120.png" sizes="120x120" rel="apple-touch-icon"/>
+    <link href="http://crooksandliars.com/sites/all/themes/cl_theme/touch//apple-touch-icon-144x144.png" sizes="144x144" rel="apple-touch-icon"/>
+    <link href="http://crooksandliars.com/sites/all/themes/cl_theme/touch//apple-touch-icon-152x152.png" sizes="152x152" rel="apple-touch-icon"/>
+    <link href="http://feeds.crooksandliars.com/crooksandliars/YaCP" title="RSS Feed" type="application/rss+xml" rel="alternate"/>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <script type="text/javascript">
+//<![CDATA[
+var CLABResponsiveUnits = [];
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            (function() {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') +
+                        '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+            })();
+        
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+            googletag.cmd.push(function() {
+                var mapping = googletag.sizeMapping().
+                        //  addSize([459, 100], [[320, 50]).
+                        // Accepts both common mobile banner formats
+                        addSize([0,0], [320, 50]).
+                        // Same width as above, more available height
+                        addSize([600, 200], [468,60]).// Landscape tablet
+                        addSize([920, 200], [728, 90]).
+                        build();
+                googletag.defineSlot('/1010624/CL_300_1', [300, 250], 'div-gpt-ad-1386288741770-0').addService(googletag.pubads());
+                googletag.defineSlot('/1010624/CL_300_2', [300, 250], 'div-gpt-ad-1386288741770-1').addService(googletag.pubads());
+                googletag.defineSlot('/1010624/CL_300_3', [300, 250], 'div-gpt-ad-1386288741770-2').addService(googletag.pubads());
+                googletag.defineSlot('/1010624/CL_300_Article_Embedded', [300, 250], 'div-gpt-ad-1386288741770-3').addService(googletag.pubads());
+
+               CLABResponsiveUnits.push(googletag.defineSlot('/1010624/CL_Top_728', [728, 90], 'div-gpt-ad-1386288741770-7').defineSizeMapping(mapping).addService(googletag.pubads()));
+
+                googletag.pubads().enableSingleRequest();
+                googletag.enableServices();
+            });
+
+        
+//]]>
+    </script>
+    <meta content="Your online magazine coverage of progressive politics and media" name="description"/>
+    <meta content="2014 Crooks and Liars" name="copyright"/>
+    <meta content="on" http-equiv="x-dns-prefetch-control"/>
+    <link href="//cdn.crooksandliars.com" rel="dns-prefetch"/>
+    <link type="image/x-icon" href="http://cdn.crooksandliars.com/files/cl_theme_favicon_0.ico" rel="shortcut icon"/>
+    <meta content="CA97BE6D257F69A253773C6E5C001E03" name="msvalidate.01"/>
+    <link href="http://cache.blogads.com/353442700/feed.css" type="text/css" rel="stylesheet"/>
+    <script src="http://mediacdn.crooksandliars.com/blueamerica/widgets/js" type="text/javascript">
+    </script>
+    <link rel="stylesheet" type="text/css" href="http://mediacdn.crooksandliars.com/blueamerica/widgets/css"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+
+        window._taboola = window._taboola || [];
+
+        _taboola.push({article:'auto'});
+
+        !function (e, f, u) {
+
+            e.async = 1;
+
+             e.src = u;
+
+             f.parentNode.insertBefore(e, f);
+
+        }(document.createElement('script'), document.getElementsByTagName('script')[0], 'http://cdn.taboola.com/libtrc/rs-crooksandliars/loader.js');
+
+    
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+      
+        var cl_refresh_timeout = 0;
+      
+//]]>
+    </script>
+    <!-- CSS aggregated by CDN module. -->    <link href="http://cdn.crooksandliars.com/files/css/cdn_css_http_8326bfac4c0530678a5f0bfd58f0244a_search.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="http://cdn.crooksandliars.com/files/css/cdn_css_http_099ca90a5ce9054a81908373178dbf3b.css" media="all" rel="stylesheet" type="text/css"/>
+    <!-- CSS aggregated by CDN module. -->    <script src="http://cdn.crooksandliars.com/files/js/js_5fa14f63ef49875067e7ceee5d94c2f0.js" type="text/javascript">
+    </script>
+    <script async="" type="text/javascript" src="http://partner.googleadservices.com/gpt/pubads_impl_35.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","colorbox":{"transition":"elastic","speed":350,"opacity":"0.85","slideshow":false,"slideshowAuto":false,"slideshowSpeed":2500,"slideshowStart":"","slideshowStop":"","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"100%","maxHeight":"100%"},"clPopup":{"pid":"1","title":"CT Popup","status":"1","type":"inline","body":"\u003c!-- Begin MailChimp Signup Form --\u003e\r\n\u003cdiv style=\"background: #333; color: #fff; text-align: center; font-size: 10px; font-weight: bold; padding: 4px 0px;\"\u003eSponsored by Compassion and Choices\u003c\/div\u003e\r\n\u003cimg class=\"alignleft\" style=\"margin: 0px;\" alt=\"Tell Wendy Davis: You stood for us, now run for us.\" src=\"http:\/\/www.rawstory.com\/rs\/wp-content\/uploads\/2013\/10\/hawking-optima.jpg\" width=\"700\" height=\"300\" \/\u003e\r\n\u003cdiv style=\"clear: both;\"\u003e\u003c\/div\u003e\r\n\u003cdiv style=\"margin: 15px 10px; line-height: 20px; text-align: center;\"\u003eDeath-with-dignity opponents will stop at nothing to prevent choice at end of life, even calling Hawking \u201cstupid.\"\r\n\u003cb\u003eProfessor Hawking is giving voice to a growing movement of people who want to have a measure of dignity in how they die. Add your name here and join with Stephen Hawking. It's about time we bring aid in dying to Connecticut.\u003ci\u003e\r\n\u003c\/i\u003e\u003c\/b\u003e\u003c\/div\u003e\r\n\u003cdiv id=\"mc_embed_signup_x\"\u003e\u003cform id=\"mc-embedded-subscribe-form\" action=\"http:\/\/rawstory.us2.list-manage.com\/subscribe\/post?u=80b42ecc21f29763320aceb90\u0026amp;id=b5ea498ca2\" method=\"post\" name=\"mc-embedded-subscribe-form\"\u003e\r\n\u003cdiv\u003e\r\n\u003cdiv style=\"float: left; width: 150px; text-align: right; line-height: 16px;\"\u003e\u003cstrong\u003eEmail Address * \u003c\/strong\u003e\u003c\/div\u003e\r\n\u003cdiv style=\"float: left; width: 550px; line-height: 20px;\"\u003e\u003cinput class=\"required\" id=\"mce-EMAIL\" style=\"width: 500px;\" type=\"text\" name=\"EMAIL\" \/\u003e\u003c\/div\u003e\r\n\u003cdiv class=\"clear\"\u003e\u003c\/div\u003e\r\n\u003c\/div\u003e\r\n\u003cdiv\u003e\r\n\u003cdiv style=\"float: left; width: 150px; text-align: right; line-height: 16px;\"\u003eFull Name\u003c\/div\u003e\r\n\u003cdiv style=\"float: left; width: 200px; line-height: 20px;\"\u003e\u003cinput class=\"required\" id=\"mce-FULLNAME\" style=\"width: 180px;\" type=\"text\" name=\"FULLNAME\" \/\u003e\u003c\/div\u003e\r\n\u003cdiv style=\"float: left; width: 100px; text-align: right; line-height: 16px;\"\u003e\u003cstrong\u003eZipcode * \u003c\/strong\u003e\u003c\/div\u003e\r\n\u003cdiv style=\"float: left; width: 200px; line-height: 20px;\"\u003e\u003cinput class=\"required\" id=\"mce-ZIPCODE\" style=\"width: 180px;\" type=\"text\" name=\"ZIPCODE\" \/\u003e\u003c\/div\u003e\r\n\u003cdiv class=\"clear\"\u003e\u003c\/div\u003e\r\n\u003c\/div\u003e\r\n\u003cdiv class=\"mc-field-group input-group\"\u003e\u003cinput id=\"mce-EMAILTYPE-0\" type=\"hidden\" name=\"EMAILTYPE\" value=\"html\" \/\u003e\u003c\/div\u003e\r\n\u003cdiv class=\"clear\"\u003e\r\n\u003cdiv style=\"text-align: center; line-height: 20px;\"\u003e\u003cinput class=\"button\" id=\"mc-embedded-subscribe\" type=\"submit\" name=\"subscribe\" value=\"Join Us!\" \/\u003e\u003c\/div\u003e\r\n\u003c\/div\u003e\r\n\u003c\/form\u003e\u003c\/div\u003e","created":"1382638603","settings":{"width":"700","height":"525","maxWidth":"","maxHeight":"","geo_filter":["CT"],"cookie":"365"}},"clCookieDomain":".crooksandliars.com","disqus":{"shortname":"candl"},"sectionPreviews":{"all":[{"title":"Politics","href":"\/politics"},{"title":"Media Bites","href":"\/media-bites"},{"title":"Entertainment","href":"\/entertainment"},{"title":"Activism","href":"\/activism"},{"title":"Yesteryear","href":"\/section\/yesteryear"},{"title":"Tech","href":"\/section\/tech"},{"title":"Green","href":"\/section\/green"},{"title":"Sports","href":"\/section\/sports"},{"title":"Misc","href":"\/section\/misc"},{"title":"Business","href":"\/section\/business"}],"1":[{"title":"Ted Cruz, Don't Ask The Question If You Don't Want To Know The Answer","href":"\/2014\/03\/ted-cruz-dont-ask-question-if-you-dont"},{"title":"This Week In Duh: David Brock Warns Democratic Candidates Will Be Targeted By GOP","href":"\/2014\/03\/week-duh-david-brock-warns-democratic"},{"title":"George W. Bush's Chief Strategist Blasts Jeb Bush For For 'Kissing The Ring' Of Billionaires ","href":"\/2014\/03\/george-w-bushs-chief-strategist-blasts-jeb"},{"title":"Christie Appointed Law Firm Is Same Group That Cleared Nixon of Corruption Charges","href":"\/2014\/03\/randy-mastros-law-firm-which-cleared-gov"},{"title":"Chris Christie's Defenders Are Ridiculously Lame","href":"\/2014\/03\/chris-christies-defenders-are-ridiculously"},{"title":"Santorum: Uninsured Obamacare Enrollees Are Deadbeats And 'Won't Make A Payment' ","href":"\/2014\/03\/santorum-uninsured-obamacare-enrolees-are"}],"2":[{"title":"Laura Ingraham: O'Reilly Has 'Innate Sense Of Fairness' And Aims To Educate The Public","href":"\/2014\/03\/laura-ingraham-oreilly-has-innate-sense"},{"title":"Fox Analyst Agrees With Maddow: Christie Report Is 'Slut Shaming' Bridget Kelly ","href":"\/2014\/03\/fox-analyst-agrees-maddow-christie-report"},{"title":"Rudy Giuliani: Gov. Christie's Internal Report Doesn't 'Vindicate' Him From Bridgegate Scandal","href":"\/2014\/03\/rudy-giuliani-gov-christies-internal"},{"title":"Chuck Todd Asks NJ Senator What It Will Take To Accept Christie's Side Of The Story","href":"\/2014\/03\/chuck-todd-asks-nj-senator-what-it-will"},{"title":"Karl Rove Flips Out When Fox News Guest Says Christie Report Is A 'Whitewash' ","href":"\/2014\/03\/karl-rove-flips-out-when-fox-news-guest"},{"title":"Chris Matthews Is The Least Liked Newsman","href":"\/2014\/03\/chris-matthews-least-liked-newsman"}],"3":[{"title":"Astrology ~ Conquering My Self, Aries New Moon","href":"\/2014\/03\/astrology-conquering-my-self-aries-new"},{"title":"C\u0026L's Late Nite Music Club With Eddie Palmieri","href":"\/2014\/03\/cls-late-nite-music-club-eddie-palmieri"},{"title":"The Walking Dead Season 4 Finale Episode 15: 'A'","href":"\/2014\/03\/walking-dead-season-4-finale-episode-15"},{"title":"Program Reminder: Virtually Speaking","href":"\/2014\/03\/program-reminder-virtually-speaking-1"},{"title":"C\u0026L's Late Nite Music Club With George Martin","href":"\/2014\/03\/cls-late-nite-music-club-george-martin"},{"title":"\u2018Persecuted:\u2019 Christian Conservatism Is Now A Movement Of Querulants","href":"\/2014\/03\/persecuted-christian-conservatism-now"}],"5":[{"title":"Ford Absolutely Owns Cadillac's Absurd ELR Ad With 'Upside' Ad","href":"\/2014\/03\/ford-absolutely-owns-cadillacs-absurd-elr"},{"title":"North Carolina Scuttles Earlier Settlement With Duke Energy Over Mounting Public Outrage","href":"\/2014\/03\/north-carolina-scuttles-earlier-settlement"},{"title":"The Case For Hope\u2026 In Virginia","href":"\/2014\/03\/case-hope-virginia"},{"title":"DFA Night School: Budget \u0026 Finance Planning ","href":"\/2014\/03\/dfa-night-school-budget-finance-planning"},{"title":"Duke Energy Busted In North Carolina For Pumping Coal-Ash Water Into River","href":"\/2014\/03\/duke-energy-busted-north-carolina-pumping"},{"title":"DFA Night School - Tactics: Call Time, Direct Mail, Event Planning ","href":"\/2014\/03\/dfa-night-school-tactics-calltime-direct"}]}});
+//--&gt;&lt;!]]&gt;
+
+//]]>
+    </script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <link type="text/css" rel="stylesheet" media="all" href=" http://cdn.crooksandliars.com/sites/all/themes/cl_theme/css/ie8.css?2626417830c934a632aba25a3fbccde6"/>
+    <script async="" type="text/javascript" src="http://candl.disqus.com/count.js">
+    </script>
+    <script type="text/javascript" src="http://mediacdn.crooksandliars.com/blueamerica/widgets/data/blog/posts-5">
+    </script>
+    <script async="" src="http://candl.disqus.com/count-data.js?1=node%2F1360&amp;1=node%2F206&amp;1=node%2F2118&amp;1=node%2F2784&amp;1=node%2F382&amp;1=node%2F4649&amp;1=node%2F71713&amp;1=node%2F74628&amp;1=node%2F78012&amp;1=node%2F8413">
+    </script>
+  </head>
+  <body class="no-sidebar clab-processed clpopup-processed">
+    <div class="clearfix" id="page-wrapper">
+      <header>
+        <div id="topnav">
+          <!-- Start top nav bar -->          <div class="container">
+            <div class="pull-left">
+              <div class="block clearfix block-block no-title" id="block-block-32">
+                <div class="content">
+                  <p>
+                    <a href="/contactus">
+                      Contact
+                    </a>
+                    <a title="Follow us on Facebook" class="cl-facebook" href="https://www.facebook.com/crooksandliars.site">
+                    </a>
+                    <a title="Follow us on Twitter" class="cl-twitter" href="https://twitter.com/crooksandliars">
+                    </a>
+                    <a title="Follow us on Google+" class="cl-google" style="text-indent:-4000px" rel="publisher" href="https://plus.google.com/117871620287885726908">
+                      Google+
+                    </a>
+                    <a title="Follow us on Tumblr" class="cl-tumblr" href="http://crooksandliars.tumblr.com/">
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="pull-right">
+              <div class="block clearfix block-cl_misc no-title" id="block-cl_misc-user">
+                <div class="content">
+                  <div id="cl_log_in" class="cl-theme-processed">
+                    <div class="login cl-hover">
+                      <div class="login-hover">
+                        <span class="login-link">
+                          <a href="/user/login?destination=solr%2Fus">
+                            Login
+                          </a>
+                        </span>
+                        <div class="cl-hover-body">
+                          <div class="cl-hover-body-inner">
+                            <form id="user-login-form" method="post" accept-charset="UTF-8" action="/solr/us?destination=solr%2Fus">
+                              <div>
+                                <div class="user-login-block-wrapper clearfix">
+                                  <div class="user-login-block-right">
+                                    <p>
+                                      Connect to C&amp;L with your social network account
+                                    </p>
+                                    <div class="clconnect-buttons">
+                                      <a href="/connect/facebook/redirect">
+                                        <img width="176" height="31" title="" alt="Sign in with Facebook" src="http://cdn.crooksandliars.com/sites/all/modules/custom/clconnect/providers/facebook/buttons/button.gif"/>
+                                      </a>
+                                       
+                                      <a href="/connect/twitter/redirect">
+                                        <img width="165" height="28" title="" alt="Sign in with Twitter" src="http://cdn.crooksandliars.com/sites/all/modules/custom/clconnect/providers/twitter/buttons/button.gif"/>
+                                      </a>
+                                       
+                                    </div>
+                                  </div>
+                                  <div class="user-login-block-left">
+                                    <p>
+                                      Login with your C&amp;L account
+                                    </p>
+                                    <div id="edit-name-wrapper" class="form-item">
+                                      <label for="edit-name">
+                                        Username: 
+                                        <span title="This field is required." class="form-required">
+                                          *
+                                        </span>
+                                      </label>
+                                      <input type="text" class="form-text required" value="" size="15" id="edit-name" name="name" maxlength="60"/>
+                                    </div>
+                                    <div id="edit-pass-wrapper" class="form-item">
+                                      <label for="edit-pass">
+                                        Password: 
+                                        <span title="This field is required." class="form-required">
+                                          *
+                                        </span>
+                                      </label>
+                                      <input type="password" class="form-text required" size="15" maxlength="60" id="edit-pass" name="pass"/>
+                                    </div>
+                                    <div class="new-password">
+                                      <a href="/user/password">
+                                        Forgot password?
+                                      </a>
+                                    </div>
+                                    <div id="edit-persistent-login-wrapper" class="form-item">
+                                      <label for="edit-persistent-login" class="option">
+                                        <input type="checkbox" class="form-checkbox" value="1" id="edit-persistent-login" name="persistent_login"/>
+                                         Remember my login on this computer
+                                      </label>
+                                    </div>
+                                    <input type="submit" class="form-submit" value="Log in" id="edit-submit-2" name="op"/>
+                                    <input type="hidden" value="form-tZLhYQqdbWfwJnaRLs67HFflhqqsG5DwhUrmBBR_lss" id="form-tZLhYQqdbWfwJnaRLs67HFflhqqsG5DwhUrmBBR_lss" name="form_build_id"/>
+                                    <input type="hidden" value="user_login_block" id="edit-user-login-block" name="form_id"/>
+                                  </div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cl-register">
+                       | 
+                      <a href="/user/register">
+                        Register
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /top nav bar -->        <div class="branding container">
+          <!-- Start Main Header Region -->          <div id="logo">
+            <h1>
+              <a title="" href="/">
+                <img alt="" src="http://cdn.crooksandliars.com/files/cl_theme_logo.png"/>
+              </a>
+            </h1>
+          </div>
+          <div class="special">
+            <div class="block clearfix block-cl_ad_blocks no-title" id="block-cl_ad_blocks-9">
+              <div class="content">
+                <div class="clab-block">
+                  <div class="clab-body">
+                    <div id="div-gpt-ad-1386288741770-7">
+                      <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1386288741770-7'); });
+
+//]]>
+                      </script>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Main Header Region -->        <nav>
+          <div class="container">
+            <!-- Start site navigation bar -->            <div class="pull-left">
+              <div class="block clearfix block-cl_sections no-title" id="block-cl_sections-section_menu">
+                <div class="content">
+                  <ul class="links cl-sections-links cl-hover-links cl-sections-links-processed cl-hover-links-processed" style="width: auto;">
+                    <li class="0 first">
+                      <a href="/">
+                        Home
+                      </a>
+                    </li>
+                    <li class="1">
+                      <a data-section-sid="1" href="/politics">
+                        Politics
+                      </a>
+                    </li>
+                    <li class="2">
+                      <a data-section-sid="2" href="/media-bites">
+                        Media Bites
+                      </a>
+                    </li>
+                    <li class="3">
+                      <a data-section-sid="3" href="/entertainment">
+                        Entertainment
+                      </a>
+                    </li>
+                    <li class="4 last">
+                      <a data-section-sid="5" href="/activism">
+                        Activism
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="links section-all-link cl-hover-links cl-hover-links-processed" style="left: 557.583px;">
+                    <li class="0 first last">
+                      <a data-section-sid="all" href="/sections">
+                        All Sections
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="pull-right">
+              <div class="block clearfix block-cl_misc no-title" id="block-cl_misc-solr">
+                <div class="content">
+                  <form id="cl-misc-search-block" method="post" accept-charset="UTF-8" action="/solr">
+                    <div>
+                      <div id="edit-search-block-form-wrapper" class="form-item">
+                        <label for="edit-search-block-form">
+                          Search this site: 
+                        </label>
+                        <input type="text" class="form-text" placeholder="Search..." title="Enter the terms you wish to search for." value="" size="15" id="edit-search-block-form" name="search_block_form" maxlength="128"/>
+                      </div>
+                      <input type="submit" class="form-submit" value="Search" id="edit-submit-3" name="op"/>
+                      <input type="hidden" value="cl_misc_search_block" id="edit-cl-misc-search-block" name="form_id"/>
+                      <input type="hidden" value="form-fKIoJyb0I82ElXMkKwme1UaLbsQ008IDGb8a6VHkGLs" id="form-fKIoJyb0I82ElXMkKwme1UaLbsQ008IDGb8a6VHkGLs" name="form_build_id"/>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Site navigation bar -->        </nav>
+        <div class="header-bottom">
+        </div>
+        <!-- Display our bottom divider bar -->      </header>
+      <div class="clearfix" id="primary-content">
+        <div class="clearfix" id="main-wrapper">
+          <div class="container">
+            <!-- Start main container -->            <div class="clearfix" id="breadcrumb">
+                 You are here: 
+              <a href="/">
+                Home
+              </a>
+               / 
+              <a href="/politics">
+                Politics
+              </a>
+            </div>
+            <div id="content">
+              <h2 class="page-title">
+                Search
+              </h2>
+              <div class="main-wrapper">
+                <div class="content" id="main-content">
+                  <div class="inner-content">
+                    <div id="search-page" class="cl-2x2">
+                      <div class="container">
+                        <div class="panel-panel cl-1x2-main main-column">
+                          <div class="panel-inner">
+                            <div class="panel-pane pane-apachesolr-form">
+                              <div class="pane-content">
+                                <div class="clearfix" id="cl-search-form">
+                                  <form class="search-form" id="apachesolr-panels-search-form" method="post" accept-charset="UTF-8" action="/solr">
+                                    <div>
+                                      <div id="edit-keys-wrapper" class="form-item">
+                                        <label for="edit-keys">
+                                          Enter your keywords: 
+                                        </label>
+                                        <div class="container-inline">
+                                          <div id="edit-keys-wrapper" class="form-item">
+                                            <input type="text" class="form-text" value="us" size="40" id="edit-keys" name="keys" maxlength="255"/>
+                                          </div>
+                                          <input type="submit" class="form-submit" value="Search" id="edit-submit" name="op"/>
+                                        </div>
+                                      </div>
+                                      <input type="hidden" value="form-00f359f813d627369f99c2dba166954a" id="form-00f359f813d627369f99c2dba166954a" name="form_build_id"/>
+                                      <input type="hidden" value="apachesolr_panels_search_form" id="edit-apachesolr-panels-search-form" name="form_id"/>
+                                    </div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel-region-separator">
+                            </div>
+                            <div class="panel-pane pane-apachesolr-info">
+                              <div class="pane-content">
+                                
+    Results 
+                                <em>
+                                  1
+                                </em>
+                                 - 
+                                <em>
+                                  10
+                                </em>
+                                 of 
+                                <em>
+                                  21779
+                                </em>
+                                 for 
+                                <em>
+                                  us
+                                </em>
+                              </div>
+                            </div>
+                            <div class="panel-region-separator">
+                            </div>
+                            <div class="panel-pane pane-apachesolr-result">
+                              <h2 class="pane-title">
+                                Search results
+                              </h2>
+                              <div class="pane-content">
+                                <div class="search-results">
+                                  <div class="buildmode-teaser">
+                                    <div class="node node-type-blog  clear-block">
+                                      <div class="nd-region-left ">
+                                        <div class="cl-media-group">
+                                          <a href="/2004/10/23/395">
+                                            <img width="170" height="128" class="imagecache imagecache-node_teaser" title="Another Crooked TV Ad From The GOP!" alt="Another Crooked TV Ad From The GOP!" src="http://cdn.crooksandliars.com/files/imagecache/node_teaser/section-icons/politics.png"/>
+                                          </a>
+                                        </div>
+                                      </div>
+                                      <div class="nd-region-middle-wrapper  nd-main-body nd-one-sidebar nd-sidebar-left">
+                                        <div class="nd-region-middle">
+                                          <div class="field field-title">
+                                            <h2>
+                                              <a href="/2004/10/23/395">
+                                                Another Crooked TV Ad From The GOP!
+                                              </a>
+                                            </h2>
+                                          </div>
+                                          <div class="field field-submitted submitted">
+                                            By 
+                                            <a title="View user profile." href="/user/john-amato">
+                                              John Amato
+                                            </a>
+                                             October 22, 2004 6:43 pm - 
+                                            <a data-disqus-identifier="node/382" href="/2004/10/23/395#disqus_thread">
+                                              Comments
+                                            </a>
+                                          </div>
+                                          <div class="field field-node-summary">
+                                            <div class="field-items">
+                                              <div class="field-item odd">
+                                                
+                    Factcheck.org exposes another distortion.
+Would Kerry Throw Us To The Wolves?
+A misleading Bush ad criticizes Kerry for proposing to cut intelligence  
+                                                <span class="read-more">
+                                                  <a title="Another Crooked TV Ad From The GOP!" href="/2004/10/23/395">
+                                                    Read more...
+                                                  </a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- /node -->                                  </div>
+                                  <!-- /buildmode -->                                  <div class="buildmode-teaser">
+                                    <div class="node node-type-blog  clear-block">
+                                      <div class="nd-region-left ">
+                                        <div class="cl-media-group">
+                                          <a href="/2005/04/06/2137">
+                                            <img width="170" height="128" class="imagecache imagecache-node_teaser" title="Brad DeLong's Semi-Daily Journal" alt="Brad DeLong's Semi-Daily Journal" src="http://cdn.crooksandliars.com/files/imagecache/node_teaser/section-icons/politics.png"/>
+                                          </a>
+                                        </div>
+                                      </div>
+                                      <div class="nd-region-middle-wrapper  nd-main-body nd-one-sidebar nd-sidebar-left">
+                                        <div class="nd-region-middle">
+                                          <div class="field field-title">
+                                            <h2>
+                                              <a href="/2005/04/06/2137">
+                                                Brad DeLong's Semi-Daily Journal
+                                              </a>
+                                            </h2>
+                                          </div>
+                                          <div class="field field-submitted submitted">
+                                            By 
+                                            <a title="View user profile." href="/user/john-amato">
+                                              John Amato
+                                            </a>
+                                             April 6, 2005 2:13 am - 
+                                            <a data-disqus-identifier="node/2118" href="/2005/04/06/2137#disqus_thread">
+                                              0 Comments
+                                            </a>
+                                          </div>
+                                          <div class="field field-node-summary">
+                                            <div class="field-items">
+                                              <div class="field-item odd">
+                                                
+                    Kash of Angry Bear Is Upset
+
+
+Employment is almost exactly the same as it was four years ago, even though there are an extra twelve million Americans  
+                                                <span class="read-more">
+                                                  <a title="Brad DeLong's Semi-Daily Journal" href="/2005/04/06/2137">
+                                                    Read more...
+                                                  </a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- /node -->                                  </div>
+                                  <!-- /buildmode -->                                  <div class="buildmode-teaser">
+                                    <div class="node node-type-blog  clear-block">
+                                      <div class="nd-region-left ">
+                                        <div class="cl-media-group">
+                                          <a href="/scarce/teens-confront-speaker-boehner-immigration">
+                                            <img width="170" height="128" class="imagecache imagecache-node_teaser" title="Teens Confront Speaker Boehner On Immigration Reform" alt="Teens Confront Speaker Boehner On Immigration Reform" src="http://cdn.crooksandliars.com/files/imagecache/node_teaser/section-icons/media-bites.png"/>
+                                          </a>
+                                        </div>
+                                      </div>
+                                      <div class="nd-region-middle-wrapper  nd-main-body nd-one-sidebar nd-sidebar-left">
+                                        <div class="nd-region-middle">
+                                          <div class="field field-title">
+                                            <h2>
+                                              <a href="/scarce/teens-confront-speaker-boehner-immigration">
+                                                Teens Confront Speaker Boehner On Immigration Reform
+                                              </a>
+                                            </h2>
+                                          </div>
+                                          <div class="field field-submitted submitted">
+                                            By 
+                                            <a title="View user profile." href="/user/34">
+                                              scarce
+                                            </a>
+                                             November 13, 2013 2:25 pm - 
+                                            <a data-disqus-identifier="node/74628" href="/scarce/teens-confront-speaker-boehner-immigration#disqus_thread">
+                                              19 Comments
+                                            </a>
+                                          </div>
+                                          <div class="field field-node-summary">
+                                            <div class="field-items">
+                                              <div class="field-item odd">
+                                                
+                    Teens Confront Speaker Boehner On Immigration Reform 
+                                                <span class="read-more">
+                                                  <a title="Teens Confront Speaker Boehner On Immigration Reform" href="/scarce/teens-confront-speaker-boehner-immigration">
+                                                    Read more...
+                                                  </a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- /node -->                                  </div>
+                                  <!-- /buildmode -->                                  <div class="buildmode-teaser">
+                                    <div class="node node-type-blog  clear-block">
+                                      <div class="nd-region-left ">
+                                        <div class="cl-media-group">
+                                          <div class="field field-primary-image cl-with-video cl-theme-processed">
+                                            <div class="field-items">
+                                              <div class="field-item odd">
+                                                <a class="imagecache imagecache-node_teaser imagecache-linked imagecache-node_teaser_linked" href="/emptywheel/i-told-you-so-it-s-about-cybersecurity-">
+                                                  <img width="170" height="128" class="imagecache imagecache-node_teaser" title="'I Told You So, It’s About Cybersecurity' Edition" alt="'I Told You So, It’s About Cybersecurity' Edition" src="http://cdn.crooksandliars.com/files/imagecache/node_teaser/primary_image/2013/08/yt-71713.jpg"/>
+                                                  <span class="cl-video-play-bug">
+                                                  </span>
+                                                </a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="nd-region-middle-wrapper  nd-main-body nd-one-sidebar nd-sidebar-left">
+                                        <div class="nd-region-middle">
+                                          <div class="field field-title">
+                                            <h2>
+                                              <a href="/emptywheel/i-told-you-so-it-s-about-cybersecurity-">
+                                                'I Told You So, It’s About Cybersecurity' Edition
+                                              </a>
+                                            </h2>
+                                          </div>
+                                          <div class="field field-submitted submitted">
+                                            By 
+                                            <a title="View user profile." href="/user/49347">
+                                              emptywheel
+                                            </a>
+                                             August 8, 2013 2:00 pm - 
+                                            <a data-disqus-identifier="node/71713" href="/emptywheel/i-told-you-so-it-s-about-cybersecurity-#disqus_thread">
+                                              14 Comments
+                                            </a>
+                                          </div>
+                                          <div class="field field-node-summary">
+                                            <div class="field-items">
+                                              <div class="field-item odd">
+                                                
+                    The NSA spying is about about hackers as much as terrorists. 
+                                                <span class="read-more">
+                                                  <a title="'I Told You So, It’s About Cybersecurity' Edition" href="/emptywheel/i-told-you-so-it-s-about-cybersecurity-">
+                                                    Read more...
+                                                  </a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- /node -->                                  </div>
+                                  <!-- /buildmode -->                                  <div class="buildmode-teaser">
+                                    <div class="node node-type-blog  clear-block">
+                                      <div class="nd-region-left ">
+                                        <div class="cl-media-group">
+                                          <div class="field field-primary-image">
+                                            <div class="field-items">
+                                              <div class="field-item odd">
+                                                <a class="imagecache imagecache-node_teaser imagecache-linked imagecache-node_teaser_linked" href="/2014/03/what-us-media-isnt-telling-us-about">
+                                                  <img width="170" height="128" class="imagecache imagecache-node_teaser" title="What The U.S. Media Isn't Telling Us About Ukraine" alt="What The U.S. Media Isn't Telling Us About Ukraine" src="http://cdn.crooksandliars.com/files/imagecache/node_teaser/primary_image/14/03/12930430553_e0e17b040c_z.jpg"/>
+                                                </a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="nd-region-middle-wrapper  nd-main-body nd-one-sidebar nd-sidebar-left">
+                                        <div class="nd-region-middle">
+                                          <div class="field field-title">
+                                            <h2>
+                                              <a href="/2014/03/what-us-media-isnt-telling-us-about">
+                                                What The U.S. Media Isn't Telling Us About Ukraine
+                                              </a>
+                                            </h2>
+                                          </div>
+                                          <div class="field field-submitted submitted">
+                                            By 
+                                            <a title="View user profile." href="/users/susie-madrak">
+                                              Susie Madrak
+                                            </a>
+                                             March 4, 2014 10:52 am - 
+                                            <a data-disqus-identifier="node/78012" href="/2014/03/what-us-media-isnt-telling-us-about#disqus_thread">
+                                              85 Comments
+                                            </a>
+                                          </div>
+                                          <div class="field field-node-summary">
+                                            <div class="field-items">
+                                              <div class="field-item odd">
+                                                
+                    In the former Soviet Union, everyone knows that the road to statelessness, unpersonhood and poverty begins with the official elimination of Russian as an official language. 
+                                                <span class="read-more">
+                                                  <a title="What The U.S. Media Isn't Telling Us About Ukraine" href="/2014/03/what-us-media-isnt-telling-us-about">
+                                                    Read more...
+                                                  </a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- /node -->                                  </div>
+                                  <!-- /buildmode -->                                  <div class="buildmode-teaser">
+                                    <div class="node node-type-blog  clear-block">
+                                      <div class="nd-region-left ">
+                                        <div class="cl-media-group">
+                                          <a href="/2005/10/28/quottruth-is-the-enginequot-and-quotit-was-done-to-all-of-usquot">
+                                            <img width="170" height="128" class="imagecache imagecache-node_teaser" title="&quot;Truth Is The Engine,&quot; And &quot;It Was Done To All Of Us&quot;" alt="&quot;Truth Is The Engine,&quot; And &quot;It Was Done To All Of Us&quot;" src="http://cdn.crooksandliars.com/files/imagecache/node_teaser/section-icons/politics.png"/>
+                                          </a>
+                                        </div>
+                                      </div>
+                                      <div class="nd-region-middle-wrapper  nd-main-body nd-one-sidebar nd-sidebar-left">
+                                        <div class="nd-region-middle">
+                                          <div class="field field-title">
+                                            <h2>
+                                              <a href="/2005/10/28/quottruth-is-the-enginequot-and-quotit-was-done-to-all-of-usquot">
+                                                "Truth Is The Engine," And "It Was Done To All Of Us"
+                                              </a>
+                                            </h2>
+                                          </div>
+                                          <div class="field field-submitted submitted">
+                                            By 
+                                            <a title="View user profile." href="/user/john-amato">
+                                              John Amato
+                                            </a>
+                                             October 28, 2005 1:30 am - 
+                                            <a data-disqus-identifier="node/4649" href="/2005/10/28/quottruth-is-the-enginequot-and-quotit-was-done-to-all-of-usquot#disqus_thread">
+                                              0 Comments
+                                            </a>
+                                          </div>
+                                          <div class="field field-node-summary">
+                                            <div class="field-items">
+                                              <div class="field-item odd">
+                                                
+                    "Truth is the engine," and "It was done to all of us"
+Arthur:  I am certain that Patrick Fitzgerald's extraordinarily impressive press conference will 
+                                                <span class="read-more">
+                                                  <a title="&quot;Truth Is The Engine,&quot; And &quot;It Was Done To All Of Us&quot;" href="/2005/10/28/quottruth-is-the-enginequot-and-quotit-was-done-to-all-of-usquot">
+                                                    Read more...
+                                                  </a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- /node -->                                  </div>
+                                  <!-- /buildmode -->                                  <div class="buildmode-teaser">
+                                    <div class="node node-type-blog  clear-block">
+                                      <div class="nd-region-left ">
+                                        <div class="cl-media-group">
+                                          <a href="/2005/06/26/2805">
+                                            <img width="170" height="128" class="imagecache imagecache-node_teaser" title="Spotted Via " alt="Spotted Via " src="http://cdn.crooksandliars.com/files/imagecache/node_teaser/section-icons/politics.png"/>
+                                          </a>
+                                        </div>
+                                      </div>
+                                      <div class="nd-region-middle-wrapper  nd-main-body nd-one-sidebar nd-sidebar-left">
+                                        <div class="nd-region-middle">
+                                          <div class="field field-title">
+                                            <h2>
+                                              <a href="/2005/06/26/2805">
+                                                Spotted Via 
+                                              </a>
+                                            </h2>
+                                          </div>
+                                          <div class="field field-submitted submitted">
+                                            By 
+                                            <a title="View user profile." href="/user/john-amato">
+                                              John Amato
+                                            </a>
+                                             June 25, 2005 11:08 am - 
+                                            <a data-disqus-identifier="node/2784" href="/2005/06/26/2805#disqus_thread">
+                                              0 Comments
+                                            </a>
+                                          </div>
+                                          <div class="field field-node-summary">
+                                            <div class="field-items">
+                                              <div class="field-item odd">
+                                                
+                    Even Our Allies Are Going to Hate Us Discourse.net
+Jurist
+
+An Italian official speaking anonymously said Friday that a judge
+in Milan has ordered the  
+                                                <span class="read-more">
+                                                  <a title="Spotted Via " href="/2005/06/26/2805">
+                                                    Read more...
+                                                  </a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- /node -->                                  </div>
+                                  <!-- /buildmode -->                                  <div class="buildmode-teaser">
+                                    <div class="node node-type-blog  clear-block">
+                                      <div class="nd-region-left ">
+                                        <div class="cl-media-group">
+                                          <a href="/2004/11/16/8499">
+                                            <img width="170" height="128" class="imagecache imagecache-node_teaser" title="NOW He Tells Us...." alt="NOW He Tells Us...." src="http://cdn.crooksandliars.com/files/imagecache/node_teaser/section-icons/politics.png"/>
+                                          </a>
+                                        </div>
+                                      </div>
+                                      <div class="nd-region-middle-wrapper  nd-main-body nd-one-sidebar nd-sidebar-left">
+                                        <div class="nd-region-middle">
+                                          <div class="field field-title">
+                                            <h2>
+                                              <a href="/2004/11/16/8499">
+                                                NOW He Tells Us....
+                                              </a>
+                                            </h2>
+                                          </div>
+                                          <div class="field field-submitted submitted">
+                                            By 
+                                            <a title="View user profile." href="/user/john-amato">
+                                              John Amato
+                                            </a>
+                                             November 15, 2004 10:22 am - 
+                                            <a data-disqus-identifier="node/8413" href="/2004/11/16/8499#disqus_thread">
+                                              Comments
+                                            </a>
+                                          </div>
+                                          <div class="field field-node-summary">
+                                            <div class="field-items">
+                                              <div class="field-item odd">
+                                                
+                    Now He Tells Us Brad DeLongOn November 11, 2004, Bush 41 and Ford-era Assistant to the President for National Security Brent Scowcroft endorses John K 
+                                                <span class="read-more">
+                                                  <a title="NOW He Tells Us...." href="/2004/11/16/8499">
+                                                    Read more...
+                                                  </a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- /node -->                                  </div>
+                                  <!-- /buildmode -->                                  <div class="buildmode-teaser">
+                                    <div class="node node-type-blog  clear-block">
+                                      <div class="nd-region-left ">
+                                        <div class="cl-media-group">
+                                          <a href="/2004/09/24/218">
+                                            <img width="170" height="128" class="imagecache imagecache-node_teaser" title="By ROBIN TONER" alt="By ROBIN TONER" src="http://cdn.crooksandliars.com/files/imagecache/node_teaser/section-icons/politics.png"/>
+                                          </a>
+                                        </div>
+                                      </div>
+                                      <div class="nd-region-middle-wrapper  nd-main-body nd-one-sidebar nd-sidebar-left">
+                                        <div class="nd-region-middle">
+                                          <div class="field field-title">
+                                            <h2>
+                                              <a href="/2004/09/24/218">
+                                                By ROBIN TONER
+                                              </a>
+                                            </h2>
+                                          </div>
+                                          <div class="field field-submitted submitted">
+                                            By 
+                                            <a title="View user profile." href="/user/john-amato">
+                                              John Amato
+                                            </a>
+                                             September 24, 2004 12:17 am - 
+                                            <a data-disqus-identifier="node/206" href="/2004/09/24/218#disqus_thread">
+                                              0 Comments
+                                            </a>
+                                          </div>
+                                          <div class="field field-node-summary">
+                                            <div class="field-items">
+                                              <div class="field-item odd">
+                                                
+                    Bring on the debates.Kerry Promises to Refocus U.S. on Terror War
+
+Published: September 25, 2004
+HILADELPHIA, Sept. 24 - Escalating his critique of Pr 
+                                                <span class="read-more">
+                                                  <a title="By ROBIN TONER" href="/2004/09/24/218">
+                                                    Read more...
+                                                  </a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- /node -->                                  </div>
+                                  <!-- /buildmode -->                                  <div class="buildmode-teaser">
+                                    <div class="node node-type-blog  clear-block">
+                                      <div class="nd-region-left ">
+                                        <div class="cl-media-group">
+                                          <a href="/2005/03/26/1378">
+                                            <img width="170" height="128" class="imagecache imagecache-node_teaser" title="Imposter Syndrome" alt="Imposter Syndrome" src="http://cdn.crooksandliars.com/files/imagecache/node_teaser/section-icons/politics.png"/>
+                                          </a>
+                                        </div>
+                                      </div>
+                                      <div class="nd-region-middle-wrapper  nd-main-body nd-one-sidebar nd-sidebar-left">
+                                        <div class="nd-region-middle">
+                                          <div class="field field-title">
+                                            <h2>
+                                              <a href="/2005/03/26/1378">
+                                                Imposter Syndrome
+                                              </a>
+                                            </h2>
+                                          </div>
+                                          <div class="field field-submitted submitted">
+                                            By 
+                                            <a title="View user profile." href="/user/john-amato">
+                                              John Amato
+                                            </a>
+                                             March 25, 2005 1:52 pm - 
+                                            <a data-disqus-identifier="node/1360" href="/2005/03/26/1378#disqus_thread">
+                                              0 Comments
+                                            </a>
+                                          </div>
+                                          <div class="field field-node-summary">
+                                            <div class="field-items">
+                                              <div class="field-item odd">
+                                                
+                    Reynolds Wrap Up  I called out to my readers and fellow bloggers (all of whom I trust to have good taste) for their opinions on whether or not I shoul 
+                                                <span class="read-more">
+                                                  <a title="Imposter Syndrome" href="/2005/03/26/1378">
+                                                    Read more...
+                                                  </a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- /node -->                                  </div>
+                                  <!-- /buildmode -->                                </div>
+                                <div class="item-list">
+                                  <ul class="pager">
+                                    <li class="pager-current first">
+                                      1
+                                    </li>
+                                    <li class="pager-item">
+                                      <a class="active" title="Go to page 2" href="/solr/us?page=1">
+                                        2
+                                      </a>
+                                    </li>
+                                    <li class="pager-item">
+                                      <a class="active" title="Go to page 3" href="/solr/us?page=2">
+                                        3
+                                      </a>
+                                    </li>
+                                    <li class="pager-item">
+                                      <a class="active" title="Go to page 4" href="/solr/us?page=3">
+                                        4
+                                      </a>
+                                    </li>
+                                    <li class="pager-item">
+                                      <a class="active" title="Go to page 5" href="/solr/us?page=4">
+                                        5
+                                      </a>
+                                    </li>
+                                    <li class="pager-item">
+                                      <a class="active" title="Go to page 6" href="/solr/us?page=5">
+                                        6
+                                      </a>
+                                    </li>
+                                    <li class="pager-item">
+                                      <a class="active" title="Go to page 7" href="/solr/us?page=6">
+                                        7
+                                      </a>
+                                    </li>
+                                    <li class="pager-item">
+                                      <a class="active" title="Go to page 8" href="/solr/us?page=7">
+                                        8
+                                      </a>
+                                    </li>
+                                    <li class="pager-item">
+                                      <a class="active" title="Go to page 9" href="/solr/us?page=8">
+                                        9
+                                      </a>
+                                    </li>
+                                    <li class="pager-ellipsis">
+                                      …
+                                    </li>
+                                    <li class="pager-next">
+                                      <a class="active" title="Go to next page" href="/solr/us?page=1">
+                                        next ›
+                                      </a>
+                                    </li>
+                                    <li class="pager-last last">
+                                      <a class="active" title="Go to last page" href="/solr/us?page=2177">
+                                        last »
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel-panel cl-1x2-sidebar sidebar ">
+                          <div class="panel-inner">
+                            <div class="panel-pane panel-block block apachesolr-sort with-title">
+                              <div class="block-title">
+                                <h2 class="pane-title">
+                                  Sort by
+                                </h2>
+                              </div>
+                              <div class="pane-content">
+                                <div class="item-list">
+                                  <ul>
+                                    <li class="first">
+                                      <a class="active" href="/solr/us">
+                                        Relevancy
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="/solr/us?solrsort=sort_title%20asc">
+                                        Title
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="/solr/us?solrsort=type%20asc">
+                                        Type
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="/solr/us?solrsort=sort_name%20asc">
+                                        Author
+                                      </a>
+                                    </li>
+                                    <li class="last">
+                                      <a href="/solr/us?solrsort=created%20desc">
+                                        Date
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel-region-separator">
+                            </div>
+                            <div class="panel-pane panel-block block cl_sections-section_facet with-title">
+                              <div class="block-title">
+                                <h2 class="pane-title">
+                                  Filter by section
+                                </h2>
+                              </div>
+                              <div class="pane-content">
+                                <div class="item-list">
+                                  <ul>
+                                    <li class="first">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=im_cl_section%3A1">
+                                        Politics (15057)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=im_cl_section%3A2">
+                                        Media Bites (4261)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=im_cl_section%3A5">
+                                        Activism (1271)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=im_cl_section%3A6">
+                                        Yesteryear (722)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=im_cl_section%3A3">
+                                        Entertainment (327)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=im_cl_section%3A7">
+                                        Misc (73)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=im_cl_section%3A10">
+                                        Business (23)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=im_cl_section%3A8">
+                                        Tech (17)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=im_cl_section%3A9">
+                                        Green (16)
+                                      </a>
+                                    </li>
+                                    <li class="last">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=im_cl_section%3A4">
+                                        Sports (12)
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel-region-separator">
+                            </div>
+                            <div class="panel-pane panel-block block apachesolr_search-uid with-title">
+                              <div class="block-title">
+                                <h2 class="pane-title">
+                                  Filter by author
+                                </h2>
+                              </div>
+                              <div class="pane-content">
+                                <div class="item-list">
+                                  <ul>
+                                    <li class="first">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A2">
+                                        John Amato (3780)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A91">
+                                        Heather (2949)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A8">
+                                        Nicole Belle (2559)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A7228">
+                                        Susie Madrak (2267)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A11862">
+                                        karoli (1196)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A33">
+                                        Diane Sweet (1174)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A250">
+                                        David Neiwert (939)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A7">
+                                        David (866)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A7702">
+                                        Gordonskene (719)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A5">
+                                        Steve Benen (453)
+                                      </a>
+                                    </li>
+                                    <li class="apachesolr-hidden-facet" style="display: none;">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A14">
+                                        SilentPatriot (429)
+                                      </a>
+                                    </li>
+                                    <li class="apachesolr-hidden-facet" style="display: none;">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A3">
+                                        Mike Finnigan (414)
+                                      </a>
+                                    </li>
+                                    <li class="apachesolr-hidden-facet" style="display: none;">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A42">
+                                        Jon Perr (411)
+                                      </a>
+                                    </li>
+                                    <li class="apachesolr-hidden-facet" style="display: none;">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A21">
+                                        Logan Murphy (404)
+                                      </a>
+                                    </li>
+                                    <li class="apachesolr-hidden-facet" style="display: none;">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A29">
+                                        Bluegal aka Fran (369)
+                                      </a>
+                                    </li>
+                                    <li class="apachesolr-hidden-facet" style="display: none;">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A34">
+                                        scarce (273)
+                                      </a>
+                                    </li>
+                                    <li class="apachesolr-hidden-facet" style="display: none;">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A40317">
+                                        Kenneth Quinnell (176)
+                                      </a>
+                                    </li>
+                                    <li class="apachesolr-hidden-facet" style="display: none;">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A45">
+                                        Steve Hynd (172)
+                                      </a>
+                                    </li>
+                                    <li class="apachesolr-hidden-facet" style="display: none;">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A2470">
+                                        CSPANJunkie (134)
+                                      </a>
+                                    </li>
+                                    <li class="apachesolr-hidden-facet last" style="display: none;">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=uid%3A16478">
+                                        Tengrain (129)
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel-region-separator">
+                            </div>
+                            <div class="panel-pane panel-block block apachesolr_search-created with-title">
+                              <div class="block-title">
+                                <h2 class="pane-title">
+                                  Filter by post date
+                                </h2>
+                              </div>
+                              <div class="pane-content">
+                                <div class="item-list">
+                                  <ul>
+                                    <li class="first">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=created%3A%5B2004-01-01T00%3A00%3A00Z%20TO%202005-01-01T00%3A00%3A00Z%5D">
+                                        2004 (261)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=created%3A%5B2005-01-01T00%3A00%3A00Z%20TO%202006-01-01T00%3A00%3A00Z%5D">
+                                        2005 (850)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=created%3A%5B2006-01-01T00%3A00%3A00Z%20TO%202007-01-01T00%3A00%3A00Z%5D">
+                                        2006 (1171)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=created%3A%5B2007-01-01T00%3A00%3A00Z%20TO%202008-01-01T00%3A00%3A00Z%5D">
+                                        2007 (2096)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=created%3A%5B2008-01-01T00%3A00%3A00Z%20TO%202009-01-01T00%3A00%3A00Z%5D">
+                                        2008 (1984)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=created%3A%5B2009-01-01T00%3A00%3A00Z%20TO%202010-01-01T00%3A00%3A00Z%5D">
+                                        2009 (2783)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=created%3A%5B2010-01-01T00%3A00%3A00Z%20TO%202011-01-01T00%3A00%3A00Z%5D">
+                                        2010 (2962)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=created%3A%5B2011-01-01T00%3A00%3A00Z%20TO%202012-01-01T00%3A00%3A00Z%5D">
+                                        2011 (3112)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=created%3A%5B2012-01-01T00%3A00%3A00Z%20TO%202013-01-01T00%3A00%3A00Z%5D">
+                                        2012 (3172)
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="apachesolr-facet" href="/solr/us?filters=created%3A%5B2013-01-01T00%3A00%3A00Z%20TO%202014-01-01T00%3A00%3A00Z%5D">
+                                        2013 (2628)
+                                      </a>
+                                    </li>
+                                    <li class="apachesolr-hidden-facet last" style="display: none;">
+                                      <a class="apachesolr-facet" href="/solr/us?filters=created%3A%5B2014-01-01T00%3A00%3A00Z%20TO%202015-01-01T00%3A00%3A00Z%5D">
+                                        2014 (760)
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel-region-separator">
+                            </div>
+                            <div class="panel-pane panel-block block cl_misc-mailchimp no-title">
+                              <div class="pane-content">
+                                <form class="cl-mailchimp-block-form cl-mailchimp-anon" id="mailchimp_subscribe_anon_form_d4904be7bc" method="post" accept-charset="UTF-8" action="/solr/us">
+                                  <div>
+                                    <div class="cl-mailchimp-desc">
+                                      Our daily top picks right to your inbox
+                                    </div>
+                                    <div id="edit-mailchimp-lists-d4904be7bc-EMAIL-wrapper" class="form-item">
+                                      <label for="edit-mailchimp-lists-d4904be7bc-EMAIL">
+                                        Email Address: 
+                                        <span title="This field is required." class="form-required">
+                                          *
+                                        </span>
+                                      </label>
+                                      <input type="text" class="form-text required" placeholder="Email Address..." value="" size="25" id="edit-mailchimp-lists-d4904be7bc-EMAIL" name="mailchimp_lists[d4904be7bc][EMAIL]" maxlength="128"/>
+                                    </div>
+                                    <input type="hidden" value="" id="edit-mailchimp-lists-d4904be7bc-FNAME" name="mailchimp_lists[d4904be7bc][FNAME]"/>
+                                    <input type="hidden" value="" id="edit-mailchimp-lists-d4904be7bc-LNAME" name="mailchimp_lists[d4904be7bc][LNAME]"/>
+                                    <input type="hidden" value="form-htGoN-0OKBbjdJoZUY-zbauES90iL3rskmv114FsUn4" id="form-htGoN-0OKBbjdJoZUY-zbauES90iL3rskmv114FsUn4" name="form_build_id"/>
+                                    <input type="hidden" value="cl_misc_mailchimp_anon_signup" id="edit-cl-misc-mailchimp-anon-signup" name="form_id"/>
+                                    <input type="submit" class="form-submit" value="Sign Up!" id="edit-submit-1" name="op"/>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                            <div class="panel-region-separator">
+                            </div>
+                            <div class="panel-pane panel-block block cl_ad_blocks-5 no-title">
+                              <div class="pane-content">
+                                <div style="width:300px; height:250px" class="clab-block clab-box-sized">
+                                  <div class="clab-block-text">
+                                  </div>
+                                  <div style="width:300px; height:250px" class="clab-body">
+                                    <div style="width:300px; height:250px;" id="div-gpt-ad-1386288741770-0">
+                                      <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1386288741770-0'); });
+
+//]]>
+                                      </script>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel-region-separator">
+                            </div>
+                            <div class="panel-pane pane-views pane-widgets">
+                              <h2 class="pane-title">
+                                Latest Posts
+                              </h2>
+                              <div class="pane-content">
+                                <div class="view view-widgets view-id-widgets view-display-id-latest_posts_block view-dom-id-22d34d2b6e09d12f7d041413059922a5">
+                                  <div class="view-content">
+                                    <div class="item-list">
+                                      <ul class="posts-list">
+                                        <li class="views-row views-row-1 views-row-odd views-row-first">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/astrology-conquering-my-self-aries-new">
+                                                Astrology ~ Conquering My Self, Aries New Moon
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-2 views-row-even">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/open-thread-withdrawal">
+                                                Open Thread - Withdrawal?
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-3 views-row-odd">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/cls-late-nite-music-club-eddie-palmieri">
+                                                C&amp;L's Late Nite Music Club With Eddie Palmieri
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-4 views-row-even">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/walking-dead-season-4-finale-episode-15">
+                                                The Walking Dead Season 4 Finale Episode 15: 'A'
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-5 views-row-odd">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/ted-cruz-dont-ask-question-if-you-dont">
+                                                Ted Cruz, Don't Ask The Question If You Don't Want To Know The Answer
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-6 views-row-even">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/week-duh-david-brock-warns-democratic">
+                                                This Week In Duh: David Brock Warns Democratic Candidates Will Be Targeted By GOP
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-7 views-row-odd">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/george-w-bushs-chief-strategist-blasts-jeb">
+                                                George W. Bush's Chief Strategist Blasts Jeb Bush For For 'Kissing The Ring' Of Billionaires 
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-8 views-row-even">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/randy-mastros-law-firm-which-cleared-gov">
+                                                Christie Appointed Law Firm Is Same Group That Cleared Nixon Of Corruption Charges
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-9 views-row-odd">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/laura-ingraham-oreilly-has-innate-sense">
+                                                Laura Ingraham: O'Reilly Has 'Innate Sense Of Fairness' And Aims To Educate The Public
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-10 views-row-even">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/fox-analyst-agrees-maddow-christie-report">
+                                                Fox Analyst Agrees With Maddow: Christie Report Is 'Slut Shaming' Bridget Kelly 
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-11 views-row-odd">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/chris-christies-defenders-are-ridiculously">
+                                                Chris Christie's Defenders Are Ridiculously Lame
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-12 views-row-even">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/rudy-giuliani-gov-christies-internal">
+                                                Rudy Giuliani: Gov. Christie's Internal Report Doesn't 'Vindicate' Him From Bridgegate Scandal
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-13 views-row-odd">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/santorum-uninsured-obamacare-enrolees-are">
+                                                Santorum: Uninsured Obamacare Enrollees Are Deadbeats And 'Won't Make A Payment' 
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-14 views-row-even">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/program-reminder-virtually-speaking-1">
+                                                Program Reminder: Virtually Speaking
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="views-row views-row-15 views-row-odd views-row-last">
+                                          <div class="views-field views-field-title">
+                                            <div class="field-content">
+                                              <a href="/2014/03/sen-barrasso-administration-cooking-books">
+                                                Sen. Barrasso: Administration 'Cooking The Books' On Obamacare Enrollment
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel-region-separator">
+                            </div>
+                            <div class="panel-pane panel-block block cl_ad_blocks-6 no-title">
+                              <div class="pane-content">
+                                <div style="width:300px; height:250px" class="clab-block clab-box-sized">
+                                  <div class="clab-block-text">
+                                  </div>
+                                  <div style="width:300px; height:250px" class="clab-body">
+                                    <div style="width:300px; height:250px;" id="div-gpt-ad-1386288741770-1">
+                                      <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1386288741770-1'); });
+
+//]]>
+                                      </script>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel-region-separator">
+                            </div>
+                            <div class="panel-pane panel-block block block-30 no-title">
+                              <div class="pane-content">
+                                <div style="width:300px" data-widget-config="posts-5" data-widget-type="blog" class="blueamerica-widget">
+                                  <div class="blueamerica-blog-widget">
+                                    <div class="blueamerica-header">
+                                      <a href="http://blueamerica.crooksandliars.com/blog">
+                                        <img width="100%" alt="Blue America" src="http://mediacdn.crooksandliars.com/blueamerica/sites/all/modules/custom/ba_widgets/images/bloghdr.png"/>
+                                      </a>
+                                    </div>
+                                    <div class="blueamerica-posts">
+                                      <div class="item-list">
+                                        <ul>
+                                          <li class="first">
+                                            <a href="http://blueamerica.crooksandliars.com/jacqrat/1000-matching-fund-why-shenna">
+                                              $1,000 Matching Fund-- Why Shenna?
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a href="http://blueamerica.crooksandliars.com/howie-klein/why-blue-america-taking-time-out">
+                                              Why Blue America Is Taking A Time Out
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a href="http://blueamerica.crooksandliars.com/howie-klein/you-know-even-if-republicans-dont-hawa">
+                                              You Know-- Even If Republicans Don't-- Hawaii Is A State
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a href="http://blueamerica.crooksandliars.com/howie-klein/we-need-members-congress-who-know-some">
+                                              We Need Members Of Congress Who KNOW Something
+                                            </a>
+                                          </li>
+                                          <li class="last">
+                                            <a href="http://blueamerica.crooksandliars.com/howie-klein/tell-dscc-your-job-elect-democrats-not">
+                                              Tell the DSCC: "Your Job is to Elect Democrats, Not Susan Collins"
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <div class="blueamerica-postsFooter">
+                                        <a href="">
+                                          Visit Blog »
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /main container -->        </div>
+        <footer class="clearfix">
+          <div class="footer-top">
+            <div class="container">
+              <div class="first one-third column  alpha">
+                <div class="block clearfix block-cl_sections with-title" id="block-cl_sections-section_list">
+                  <h2 class="block-title">
+                    All sections
+                  </h2>
+                  <div class="content">
+                    <div class="item-list">
+                      <ul>
+                        <li class="first">
+                          <a href="/activism">
+                            Activism
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/section/business">
+                            Business
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/entertainment">
+                            Entertainment
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/section/green">
+                            Green
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/media-bites">
+                            Media Bites
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/section/misc">
+                            Misc
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/politics">
+                            Politics
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/section/sports">
+                            Sports
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/section/tech">
+                            Tech
+                          </a>
+                        </li>
+                        <li class="last">
+                          <a href="/section/yesteryear">
+                            Yesteryear
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="third one-third column">
+                <div class="block clearfix block-block with-title" id="block-block-25">
+                  <h2 class="block-title">
+                    Support
+                  </h2>
+                  <div class="content">
+                    <form method="post" action="https://www.paypal.com/cgi-bin/webscr">
+                      <input type="hidden" value="_s-xclick" name="cmd"/>
+                      <input type="hidden" value="NRC45DGVRGQZ6" name="hosted_button_id"/>
+                      <input type="image" border="0" alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif"/>
+                      <img width="1" height="1" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt=""/>
+                      <br/>
+                    </form>
+                    <p>
+                      Or by snail mail:
+                      <br/>
+                      
+CrooksandLiars.com
+                      <br/>
+                      
+PO BOX 66310
+                      <br/>
+                      
+Los Angeles, CA 90066
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="fourth one-third column  omega">
+                <div class="block clearfix block-cl_ad_blocks no-title" id="block-cl_ad_blocks-7">
+                  <div class="content">
+                    <div style="width:300px; height:250px" class="clab-block clab-box-sized">
+                      <div class="clab-block-text">
+                      </div>
+                      <div style="width:300px; height:250px" class="clab-body">
+                        <div style="width:300px; height:250px;" id="div-gpt-ad-1386288741770-2">
+                          <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1386288741770-2'); });
+
+//]]>
+                          </script>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="container">
+              <div class="footer-bottom-left pull-left">
+                <div class="block clearfix block-block no-title" id="block-block-34">
+                  <div class="content">
+                    ©2014 Crooks and Liars
+                  </div>
+                </div>
+                <div class="block clearfix block-block no-title" id="block-block-33">
+                  <div class="content">
+                    <!-- Start of StatCounter Code for Default Guide -->                    <script type="text/javascript">
+//<![CDATA[
+
+var sc_project=8624509; 
+var sc_invisible=0; 
+var sc_security="4af12c5c"; 
+var sc_https=1; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("&lt;sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'&gt;&lt;/"+"script&gt;");
+
+//]]>
+                    </script>
+                    <script src="http://www.statcounter.com/counter/counter.js" type="text/javascript">
+                    </script>
+                    <noscript>
+                      &lt;div class="statcounter"&gt;&lt;a title="web analytics"
+href="http://statcounter.com/" target="_blank"&gt;&lt;img
+class="statcounter"
+src="http://c.statcounter.com/8624509/0/4af12c5c/0/"
+alt="web analytics"&gt;&lt;/a&gt;&lt;/div&gt;
+                    </noscript>
+                    <!-- End of StatCounter Code for Default Guide -->                  </div>
+                </div>
+              </div>
+              <div class="footer-bottom-right pull-right">
+                <div class="block clearfix block-menu no-title" id="block-menu-menu-footer-menu">
+                  <div class="content">
+                    <ul class="menu">
+                      <li class="leaf first">
+                        <a title="" href="/feeds">
+                          Feeds
+                        </a>
+                      </li>
+                      <li class="leaf">
+                        <a title="" href="/tos">
+                          Terms of Service
+                        </a>
+                      </li>
+                      <li class="leaf last">
+                        <a title="" href="/privacy">
+                          Privacy
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <script type="text/javascript">
+//<![CDATA[
+var clMediaEmbedBase="http://embed.crooksandliars.com"; var clMediaEmbeds={"MjgzMzddLQ":{"key":"MjgzMzddLQ","ar":"0.5625","sizes":["360x239","440x284","520x329"],"type":"video"},"MjgzMzhdLQ":{"key":"MjgzMzhdLQ","ar":"0.560748","sizes":["360x238","440x283","520x328"],"type":"video"}};
+//]]>
+        </script>
+        <script>
+//<![CDATA[
+
+  (function () {
+  var s = document.createElement('script'); s.async = true;
+  s.type = 'text/javascript';
+  s.src = 'http://candl.disqus.com/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+
+//]]>
+        </script>
+        <script charset="utf-8" src="//platform.twitter.com/widgets.js" async="">
+        </script>
+        <!--Start Analytics-->        <script>
+//<![CDATA[
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2640119-1', 'crooksandliars.com');
+      
+      
+  ga('send', 'pageview');
+
+
+//]]>
+        </script>
+        <!--/Analytics-->        <!--START CL SHARETHIS -->        <script type="text/javascript">
+//<![CDATA[
+
+if (typeof stLight !="undefined") {stLight.options({"publisher":"616b92f5-503e-4c6c-9b8f-8e5632b62315","doNotCopy":true,"doNotHash":true,"hashAddressBar":false});}
+
+//]]>
+        </script>
+        <!--/START CL SHARETHIS -->        <div style="width:1px; height:1px;" id="div-gpt-ad-1348518656289-0">
+          <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1348518656289-0'); });
+
+//]]>
+          </script>
+        </div>
+        <script type="text/javascript">
+//<![CDATA[
+
+_qoptions={
+qacct:"p-07N9s2zbA8yR2"
+};
+
+
+//]]>
+        </script>
+        <script src="http://edge.quantserve.com/quant.js" type="text/javascript">
+        </script>
+        <noscript>
+          &lt;img src="http://pixel.quantserve.com/pixel/p-07N9s2zbA8yR2.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/&gt;
+
+        </noscript>
+      </div>
+    </div>
+    <div id="cboxOverlay" style="display: none;">
+    </div>
+    <div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;">
+      <div id="cboxWrapper">
+        <div>
+          <div id="cboxTopLeft" style="float: left;">
+          </div>
+          <div id="cboxTopCenter" style="float: left;">
+          </div>
+          <div id="cboxTopRight" style="float: left;">
+          </div>
+        </div>
+        <div style="clear: left;">
+          <div id="cboxMiddleLeft" style="float: left;">
+          </div>
+          <div id="cboxContent" style="float: left;">
+            <div id="cboxTitle" style="float: left;">
+            </div>
+            <div id="cboxCurrent" style="float: left;">
+            </div>
+            <button type="button" id="cboxPrevious"/>
+            <button type="button" id="cboxNext"/>
+            <button id="cboxSlideshow"/>
+            <div id="cboxLoadingOverlay" style="float: left;">
+            </div>
+            <div id="cboxLoadingGraphic" style="float: left;">
+            </div>
+          </div>
+          <div id="cboxMiddleRight" style="float: left;">
+          </div>
+        </div>
+        <div style="clear: left;">
+          <div id="cboxBottomLeft" style="float: left;">
+          </div>
+          <div id="cboxBottomCenter" style="float: left;">
+          </div>
+          <div id="cboxBottomRight" style="float: left;">
+          </div>
+        </div>
+      </div>
+      <div style="position: absolute; width: 9999px; visibility: hidden; display: none;">
+      </div>
+    </div>
+    <div id="cl-section-hover-1" class="cl-section-hover">
+      <div class="hover-inner">
+        <a href="/2014/03/ted-cruz-dont-ask-question-if-you-dont">
+          Ted Cruz, Don't Ask The Question If You Don't Want To Know The Answer
+        </a>
+        <a href="/2014/03/week-duh-david-brock-warns-democratic">
+          This Week In Duh: David Brock Warns Democratic Candidates Will Be Targeted By GOP
+        </a>
+        <a href="/2014/03/george-w-bushs-chief-strategist-blasts-jeb">
+          George W. Bush's Chief Strategist Blasts Jeb Bush For For 'Kissing The Ring' Of Billionaires 
+        </a>
+        <a href="/2014/03/randy-mastros-law-firm-which-cleared-gov">
+          Christie Appointed Law Firm Is Same Group That Cleared Nixon of Corruption Charges
+        </a>
+        <a href="/2014/03/chris-christies-defenders-are-ridiculously">
+          Chris Christie's Defenders Are Ridiculously Lame
+        </a>
+        <a href="/2014/03/santorum-uninsured-obamacare-enrolees-are" class="last">
+          Santorum: Uninsured Obamacare Enrollees Are Deadbeats And 'Won't Make A Payment' 
+        </a>
+      </div>
+    </div>
+    <div id="cl-section-hover-2" class="cl-section-hover">
+      <div class="hover-inner">
+        <a href="/2014/03/laura-ingraham-oreilly-has-innate-sense">
+          Laura Ingraham: O'Reilly Has 'Innate Sense Of Fairness' And Aims To Educate The Public
+        </a>
+        <a href="/2014/03/fox-analyst-agrees-maddow-christie-report">
+          Fox Analyst Agrees With Maddow: Christie Report Is 'Slut Shaming' Bridget Kelly 
+        </a>
+        <a href="/2014/03/rudy-giuliani-gov-christies-internal">
+          Rudy Giuliani: Gov. Christie's Internal Report Doesn't 'Vindicate' Him From Bridgegate Scandal
+        </a>
+        <a href="/2014/03/chuck-todd-asks-nj-senator-what-it-will">
+          Chuck Todd Asks NJ Senator What It Will Take To Accept Christie's Side Of The Story
+        </a>
+        <a href="/2014/03/karl-rove-flips-out-when-fox-news-guest">
+          Karl Rove Flips Out When Fox News Guest Says Christie Report Is A 'Whitewash' 
+        </a>
+        <a href="/2014/03/chris-matthews-least-liked-newsman" class="last">
+          Chris Matthews Is The Least Liked Newsman
+        </a>
+      </div>
+    </div>
+    <div id="cl-section-hover-3" class="cl-section-hover">
+      <div class="hover-inner">
+        <a href="/2014/03/astrology-conquering-my-self-aries-new">
+          Astrology ~ Conquering My Self, Aries New Moon
+        </a>
+        <a href="/2014/03/cls-late-nite-music-club-eddie-palmieri">
+          C&amp;L's Late Nite Music Club With Eddie Palmieri
+        </a>
+        <a href="/2014/03/walking-dead-season-4-finale-episode-15">
+          The Walking Dead Season 4 Finale Episode 15: 'A'
+        </a>
+        <a href="/2014/03/program-reminder-virtually-speaking-1">
+          Program Reminder: Virtually Speaking
+        </a>
+        <a href="/2014/03/cls-late-nite-music-club-george-martin">
+          C&amp;L's Late Nite Music Club With George Martin
+        </a>
+        <a href="/2014/03/persecuted-christian-conservatism-now" class="last">
+          ‘Persecuted:’ Christian Conservatism Is Now A Movement Of Querulants
+        </a>
+      </div>
+    </div>
+    <div id="cl-section-hover-5" class="cl-section-hover">
+      <div class="hover-inner">
+        <a href="/2014/03/ford-absolutely-owns-cadillacs-absurd-elr">
+          Ford Absolutely Owns Cadillac's Absurd ELR Ad With 'Upside' Ad
+        </a>
+        <a href="/2014/03/north-carolina-scuttles-earlier-settlement">
+          North Carolina Scuttles Earlier Settlement With Duke Energy Over Mounting Public Outrage
+        </a>
+        <a href="/2014/03/case-hope-virginia">
+          The Case For Hope… In Virginia
+        </a>
+        <a href="/2014/03/dfa-night-school-budget-finance-planning">
+          DFA Night School: Budget &amp; Finance Planning 
+        </a>
+        <a href="/2014/03/duke-energy-busted-north-carolina-pumping">
+          Duke Energy Busted In North Carolina For Pumping Coal-Ash Water Into River
+        </a>
+        <a href="/2014/03/dfa-night-school-tactics-calltime-direct" class="last">
+          DFA Night School - Tactics: Call Time, Direct Mail, Event Planning 
+        </a>
+      </div>
+    </div>
+    <div id="cl-section-hover-all" class="cl-section-hover">
+      <div class="hover-inner">
+        <a href="/politics">
+          Politics
+        </a>
+        <a href="/media-bites">
+          Media Bites
+        </a>
+        <a href="/entertainment">
+          Entertainment
+        </a>
+        <a href="/activism">
+          Activism
+        </a>
+        <a href="/section/yesteryear">
+          Yesteryear
+        </a>
+        <a href="/section/tech">
+          Tech
+        </a>
+        <a href="/section/green">
+          Green
+        </a>
+        <a href="/section/sports">
+          Sports
+        </a>
+        <a href="/section/misc">
+          Misc
+        </a>
+        <a href="/section/business" class="last">
+          Business
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

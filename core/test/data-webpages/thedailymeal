@@ -1,0 +1,2489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" dir="ltr" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" class="js">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <script async="" src="//tdi.mezzobit.com/tag-log?c=5283efca8f77c3d45f00012b&amp;ids=52d0551f0c67711c6d000072,52cdd122fed940be4d000014&amp;r=1396257299168.0.588654642460758">
+    </script>
+    <script id="facebook-jssdk" async="" src="//connect.facebook.net/en_US/all.js">
+    </script>
+    <script async="" src="//tdi.mezzobit.com/tag-log?c=5283efca8f77c3d45f00012b&amp;ids=528413038f77c3d45f00015d,52d043960c67711c6d000065,52e82c1568dc52cc5cae1253,528415068f77c3d45f000161,528412a18f77c3d45f000159,528411f18f77c3d45f000155,528418bb8f77c3d45f00016a,5284190f8f77c3d45f00016e,52841a1f8f77c3d45f000173,532864b7e7d4f9a558575717,528417768f77c3d45f000165&amp;r=1396257299168.0.588654642460758">
+    </script>
+    <script type="text/javascript" src="http://contextual.media.net/dmedianet.js?cid=8CU16V6SG" async="">
+    </script>
+    <script async="" src="//tdi.mezzobit.com/tag-log?c=5283efca8f77c3d45f00012b&amp;ids=528411088f77c3d45f00014f,52d70e867d988f5442000020,532b0277e7d4f9a5585757da&amp;r=1396257299168.0.588654642460758">
+    </script>
+    <script async="" src="http://b.scorecardresearch.com/beacon.js">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script async="" src="//d36wtdrdo22bqa.cloudfront.net/mngr/5283efca8f77c3d45f00012b.js">
+    </script>
+    <script async="" src="//d36wtdrdo22bqa.cloudfront.net/mngr/mtm.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);
+//]]>
+    </script>
+    <title>
+      Search | The Daily Meal
+    </title>
+    <meta content="width=1024, user-scalable=yes" name="viewport"/>
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+    <link href="https://plus.google.com/116781893481103637241" rel="publisher"/>
+    <link href="http://www.thedailymeal.com/search/apachesolr_search/us" rel="canonical"/>
+    <!-- Facebook OpenGraph tags  -->    <meta content="The Daily Meal" property="og:site_name"/>
+    <meta content="100004480541066" property="fb:admins"/>
+    <meta content="summary" property="twitter:card"/>
+    <meta content="@thedailymeal" property="twitter:site"/>
+    <meta content="" property="og:type"/>
+    <meta content="" property="og:url"/>
+    <meta content="" property="og:title"/>
+    <meta content="" property="twitter:title"/>
+    <meta content="" property="og:description"/>
+    <meta content="" property="twitter:description"/>
+    <meta content="http://cdn-jpg.thedailymeal.com/sites/default/files/daily_meal_logo_OG_default.jpg" property="og:image"/>
+    <meta content="http://cdn-jpg.thedailymeal.com/sites/default/files/daily_meal_logo_OG_default.jpg" property="twitter:image"/>
+    <meta content="http://itunes.apple.com/us/app/best-dishes-where-what-to/id529818136?ls=1&amp;mt=8" name="twitter:app:url:iphone"/>
+    <!-- end Facebook OpenGraph tags  -->    <script language="Javascript">
+//<![CDATA[
+document.cookie="ac=y";
+//]]>
+    </script>
+    <script language="Javascript">
+//<![CDATA[
+
+
+  var ad_target_index = 0; // supports multiple sponsors of a single page
+
+  var sponsor_names = "";
+  var sponsor_logo_rights = "";
+  var sponsor_logo_contents = "";
+  var sponsor_more_on_boxes = "";
+  var sponsor_promo_boxes = "&lt;div class=\"hp-join-community-wrapper\"&gt;&lt;div class=\"hp-join-community-title hp-section-header\"&gt;&lt;div class=\"hp-join-community-title-border hp-section-header-content\"&gt;  &lt;/div&gt;&lt;/div&gt;&lt;div class=\"hp-join-community-links-wrapper\"&gt;&lt;div style=\"width:100%; margin-top:15px; text-align:right;&gt;&lt;img src=\"/\"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br class=\"hp-clear\"&gt;|&lt;div class=\"hp-join-community-wrapper\"&gt;&lt;div class=\"hp-join-community-title hp-section-header\"&gt;&lt;div class=\"hp-join-community-title-border hp-section-header-content\"&gt;  &lt;/div&gt;&lt;/div&gt;&lt;div class=\"hp-join-community-links-wrapper\"&gt;&lt;div style=\"width:100%; margin-top:15px; text-align:right;&gt;&lt;img src=\"/\"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br class=\"hp-clear\"&gt;";
+
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+var video = {};
+video.site = "tdm";
+video.ova = true;
+video.ova_tag = "http://oascentral.thedailymeal.com/RealMedia/ads/adstream_sx.ads/sitepage/126211296@x10".replace("sitepage", "tdm//search/apachesolr_search/us");
+video.path_module = "/sites/all/modules/custom/default/dam_video/";
+video.path_player = "/sites/all/modules/custom/default/dam_video/jw6/";
+video.path_skin = "/sites/all/modules/custom/default/dam_video/jw6/skins/tdm/tdm.xml";
+video.path_playlist = "/sites/all/modules/custom/default/dam_video/jw6/jwplayer.playlist.php?";
+video.path_site = "http://www.thedailymeal.com";
+OAS_onexecute = [];
+
+//]]>
+    </script>
+    <script language="javascript">
+//<![CDATA[
+
+  function getCookie(name) {
+    name += '=';
+    var parts = document.cookie.split(/;\s*/);
+    for (var i = 0; i &lt; parts.length; i++) {
+      var part = parts[i];
+      if (part.indexOf(name) == 0)
+        return part.substring(name.length)
+    }
+    return null;
+  }
+
+  // initial call - set up sitepage and sponsor index
+
+  function adTargetSitePage(PHP_sitepage) {
+    targets = PHP_sitepage.split("|");
+    if (targets.length&gt;1) {
+      var d = new Date();
+      var n = d.getMilliseconds();
+      ad_target_index = n%targets.length;
+      return targets[ad_target_index];
+    } else {
+      return PHP_sitepage;
+    }
+  }
+
+  // subsquent placement calls (sponsor logo, more on box, promo box)
+
+  function adTargetSponsorAssets(position) {
+    switch(position) {
+      case "sponsor-logo-right": html = sponsor_logo_rights; break;
+      case "sponsor-logo-content": html = sponsor_logo_contents; break;
+      case "sponsor-more-on-box": html = sponsor_more_on_boxes; break;
+      case "sponsor-promo-box": html = sponsor_promo_boxes; break;
+      default: html = ""; break;
+    }
+    targets = html.split("|");
+    if (targets.length&gt;1) {
+      return targets[ad_target_index];
+    } else {
+      return html;
+    }
+  }
+
+  var ad_target_sitepage = adTargetSitePage('tdm//search/apachesolr_search/us');
+
+  ad_target_sitepage = ad_target_sitepage.replace("//","/");
+
+  if(getCookie("ac")!="y" || getCookie("as")=="n") ad_target_sitepage = ad_target_sitepage.replace("tdm","tdm/campaign");
+
+
+
+//]]>
+    </script>
+    <script async="">
+//<![CDATA[
+
+    (function() {
+      __mtm = [ '5283efca8f77c3d45f00012b', 'd36wtdrdo22bqa.cloudfront.net/mngr', 'tdi.mezzobit.com' ];
+      var s = document.createElement('script');
+      s.async = 1;
+      s.src = '//' + __mtm[1] + '/mtm.js';
+      var e = document.getElementsByTagName('script')[0];
+      (e.parentNode || document.body).insertBefore(s, e);
+    })();
+    
+//]]>
+    </script>
+    <meta content="on" http-equiv="x-dns-prefetch-control"/>
+    <link href="//cdn-js.thedailymeal.com" rel="dns-prefetch"/>
+    <link href="//cdn-css.thedailymeal.com" rel="dns-prefetch"/>
+    <link href="//cdn-jpg.thedailymeal.com" rel="dns-prefetch"/>
+    <link href="//cdn-png.thedailymeal.com" rel="dns-prefetch"/>
+    <link href="//cdn-mime.thedailymeal.com" rel="dns-prefetch"/>
+    <link type="image/x-icon" href="http://cdn-mime.thedailymeal.com/sites/default/files/thedailymeal_favicon_0.ico" rel="shortcut icon"/>
+    <meta content="" name="description"/>
+    <link href="//video-img.thedailymeal.com" rel="dns-prefetch"/>
+    <link href="//oascentral.thedailymeal.com" rel="dns-prefetch"/>
+    <link href="http://cdn-css.thedailymeal.com/modules/search/search.css?b" media="all" rel="stylesheet" type="text/css"/>
+    <link href="http://cdn-css.thedailymeal.com/sites/default/files/advagg_css/css_f83fbe4b6b7b39630728669d4acc4c5e_1.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="http://cdn-css.thedailymeal.com/sites/default/files/advagg_css/css_51643ee60f27398f7e73deebbd8d72b8_6.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="http://cdn-css.thedailymeal.com/sites/default/files/advagg_css/css_fe8ba396a89b77b8d7e25498c89c0248_23.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="http://cdn-css.thedailymeal.com/sites/default/files/advagg_css/css_d38b2261ab8ccfa7834caa0209ff996a_6.css" media="all" rel="stylesheet" type="text/css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="http://cdn.thedailymeal.com/sites/all/themes/thedailymeal/css/ie8.css"/>
+    <link href="http://cdn-css.thedailymeal.com/sites/all/themes/thedailymeal/css/aux-or.css" media="all" rel="stylesheet" type="text/css"/>
+    <script src="http://cdn-js.thedailymeal.com/sites/default/files/advagg_js/js_bdbecfb8098b2734465319afa9d8cd0c_25.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+  // Setup Ad Targeting Variables
+  console.log('setup collected');
+  var ad_target_url = "http://oascentral.thedailymeal.com/RealMedia/ads/";
+  var ad_target_query = ""; // &amp; Separated
+  var ad_target_target = "_blank";
+  var ad_target_rn = new String(Math.random());
+  var ad_target_rns = ad_target_rn.substring(2, 11);
+  var ad_target_listpos = parsePositions({"Top":"","Right":"","Right2":"","Right3":"","Bottom":"","Bottom1":"","Frame1":"","Video":0});
+
+  (function() {
+    // Setup Welcome Ad Variables
+    var welcome_ad = 0;
+    var welcome_ad_frequency = "frequency_once_daily";
+
+    // Set Welcome Ad Frequency Cap
+    var wa_hours,wa_minutes;
+    if (welcome_ad_frequency == "frequency_three_daily") {
+        wa_hours = 8;
+        wa_days = 0;
+    } else if (welcome_ad_frequency == "frequency_twice_daily") {
+        wa_hours = 12;
+        wa_days = 0;
+    } else {
+        wa_hours = 0;
+        wa_days = 1;
+    }
+
+    // Jump to the Welcome Ad
+    if (!getCookie("tdm_welcome") &amp;&amp; welcome_ad == 1) {
+      setCookie("tdm_welcome",document.URL,wa_days,wa_hours);
+      this.location="/ads/welcome.html";
+    }
+
+    // Setup Video Variables
+    if (ad_target_listpos.indexOf(",Video")&gt;-1) {
+      ad_target_listpos = ad_target_listpos.replace(",Video","");
+      video.ova = true;
+    } else {
+      video.ova = false;
+    }
+  })();
+
+  // Setup OAS Vars
+  var OAS_sitepage = ad_target_sitepage;
+  var OAS_query = ad_target_query;
+
+  document.write("&lt;scr" + "ipt type=\"text/javascript\" src=\"" + ad_target_url + "adstream_mjx.ads/" + ad_target_sitepage + "/1" + ad_target_rns + "@" + ad_target_listpos + "?" + ad_target_query + "\"&gt;&lt;\/script&gt;");
+
+  function OAS_AD(pos) {
+   //If Add Position is on call OAS_RICH()
+      if ((navigator.userAgent.indexOf("Mozilla/3") != -1) || (navigator.userAgent.indexOf("Mozilla/4.0 webTV") != -1)) {
+        document.write("&lt;a href=\"" + ad_target_url + "click_nx.ads/" + ad_target_sitepage + "/1" + ad_target_rns + "@" + ad_target_listpos + "!" + pos + "?" + ad_target_query + "\" target=\"" + ad_target_target + "\"&gt;");
+        document.write("&lt;img src=\"" + ad_target_url + "adstream_nx.ads/" + ad_target_sitepage + "/1" + ad_target_rns + "@" + ad_target_listpos + "!" + pos + "?" + ad_target_query + "\" border=\"0\" /&gt;");
+        document.write("&lt;/a&gt;");
+      } else {
+        if (typeof OAS_RICH == 'function') OAS_RICH(pos);
+      }
+  }
+
+  /* parsePositions(jsonObj)
+   *
+   * Determine which ads run based on frequency cap settings.
+   */
+  function parsePositions(jsonObj) {
+    var list = "";
+    var currentPosition = "";
+    //console.log("JsonObj: "+jsonObj["Middle2"]);
+    if (jsonObj["Middle2"]==1) {
+      list = "Middle2";
+    } else {
+    for (var x in jsonObj) { //for each position
+        if (x.indexOf("ros") != -1) {
+            currentPosition = x;
+        }
+        else {
+            currentPosition = "content-" + x;
+        }
+        if(typeof(Storage)!=="undefined") { //if the browser supports local storage
+            if (parseInt(jsonObj[x]) &gt; 0) { //and if frequency cap is a non-zero number then increment local storage
+                //console.log(currentPosition);
+                if (localStorage[currentPosition]) {
+                    localStorage[currentPosition] = Number(localStorage[currentPosition]) + 1; //add 1 to the positions view count
+                }
+                else {
+                    localStorage[currentPosition] = 1; //make new variable and set it to 1
+                }
+                /*ad to the list if not capped*/
+                if (parseInt(localStorage[currentPosition]) &lt;= jsonObj[x]) {
+                    list = list + x + ",";
+                }
+            }
+            else { //otherwise delete the local storage key/value if it exists and add position to the list
+                //delete page-specific value
+                if (localStorage.getItem(currentPosition) != null) {
+                    localStorage.removeItem(currentPosition);
+                }
+                //delete run-of-site value if present
+                if (localStorage.getItem("ros-" + x) != null) {
+                    localStorage.removeItem("ros-" + x);
+                }
+              list = list + x + ",";
+            }
+        }
+        else { //on older browsers fall back to cookies.
+            if (parseInt(jsonObj[x]) &gt; 0) { //and if frequency cap is a non-zero number then increment local storage
+                //console.log(currentPosition);
+                if (getCookie(currentPosition)) {
+                    setCookie(currentPosition, Number(getCookie(currentPosition)) + 1); //add 1 to the positions view count
+                }
+                else {
+                    setCookie(currentPosition,1); //make new variable and set it to 1
+                }
+                /*ad to the list if not capped*/
+                if (parseInt(getCookie(currentPosition)) &lt;= jsonObj[x]) {
+                    list = list + x + ",";
+                }
+            }
+            else { //otherwise delete the local storage key/value if it exists and add position to the list
+                //delete page-specific value
+                if (getCookie(currentPosition)) {
+                    deleteCookie(currentPosition);
+                }
+                //delete run-of-site value if present
+                if (getCookie("ros-" + x)) {
+                    deleteCookie("ros-" + x);
+                }
+              list = list + x + ",";
+            }
+        }
+    }//for loop
+    list = list.slice(0,-1); //remove trailing comma
+    }
+    return(list);
+  }//parsePositions
+
+
+  /* setCookie / getCookie / deleteCookie
+   *
+   *  Helper functions to set/get cookies.
+   */
+  function setCookie(name,value,days,hours) {
+      if (!days &amp;&amp; days != 0) {
+          days = 15;
+      }
+      if (!hours) {
+          hours = 0;
+      }
+      var expDate = new Date();
+      expDate.setDate(expDate.getDate() + days);
+      expDate.setHours(expDate.getHours() + hours);
+      var expires = expDate.toUTCString();
+      document.cookie = name + "=" + value + ";expires=" + expires + "; path=/";
+  }
+
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(";");
+    for(var i=0;i &lt; ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==" ") c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+  }
+
+  function deleteCookie(name) {
+      setCookie(name,"",-1);
+  }
+
+  // execute OAS post-initialization callbacks if any
+  if (typeof OAS_onexecute != "undefined") {
+    for (var i = 0, j = OAS_onexecute.length; i != j; i++) { 
+       try { OAS_onexecute[i](); } catch(err) {}
+    }
+  }
+  OAS_onexecute = { push : function (cb) { cb() } };
+  
+//]]>
+    </script>
+    <script type="text/javascript" src="http://oascentral.thedailymeal.com/RealMedia/ads/adstream_mjx.ads/tdm/search/apachesolr_search/us/1701719569@Top,Right,Right2,Right3,Bottom,Bottom1,Frame1?">
+    </script>
+    <script src="http://apis.google.com/js/plusone.js">
+    </script>
+    <script src="https://www.surveymonkey.com/jsPop.aspx?sm=ad67N2e7FZGLo6VjSGn3ig_3d_3d">
+    </script>
+    <script src="http://cdn-js.thedailymeal.com/sites/default/files/advagg_js/js_3bd64ffdfa19ef93b27065ead03d6930_1.js" type="text/javascript">
+    </script>
+    <style type="text/css">
+    </style>
+    <script src="http://cdn-js.thedailymeal.com/sites/default/files/advagg_js/js_be487497c3860695256578237e201154_7.js" type="text/javascript">
+    </script>
+    <script src="http://cdn-js.thedailymeal.com/sites/default/files/advagg_js/js_4f67a28c785b047de09fa1d2e8289f4b_26.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","apachesolr_autocomplete":{"path":"\/apachesolr_autocomplete"},"colorbox":{"transition":"elastic","speed":350,"opacity":"0.85","slideshow":false,"slideshowAuto":false,"slideshowSpeed":2500,"slideshowStart":"","slideshowStop":"","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"100%","maxHeight":"100%"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"user_relationships_ui":{"loadingimage":"\/sites\/all\/modules\/contrib\/user_relationships\/user_relationships_ui\/images\/loadingAnimation.gif","savingimage":"\/sites\/all\/modules\/contrib\/user_relationships\/user_relationships_ui\/images\/savingimage.gif","position":{"position":"absolute","left":"0","top":"0"}},"fivestar":{"titleUser":"Your rating: ","titleAverage":"Average: ","feedbackSavingVote":"Saving your vote...","feedbackVoteSaved":"Your vote has been saved.","feedbackDeletingVote":"Deleting your vote...","feedbackVoteDeleted":"Your vote has been deleted."},"exitpopup":{"visits":3},"cookieid":"53393205a9e21"});
+//--&gt;&lt;!]]&gt;
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+window.googleanalytics_search_results = 9225;
+//--&gt;&lt;!]]&gt;
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+function siteSearchSubmit() {
+        search_val = document.getElementById("edit-search-theme-form-1").value;
+
+        if (search_val.replace(/^\s*(\S*(?:\s+\S+)*)\s*$/, "$1") != "") {
+          // location = "/search/luceneapi_node/" + encodeURIComponent(search_val);
+          location = "/search/apachesolr_search/" + encodeURIComponent(search_val);
+        }
+      }
+//--&gt;&lt;!]]&gt;
+
+//]]>
+    </script>
+    <script src="http://cdn-js.thedailymeal.com/sites/all/themes/thedailymeal/js/aux-or.js" language="Javascript">
+    </script>
+    <!-- Only fire if we're on a disqus login or sign up page -->    <script type="text/javascript">
+//<![CDATA[
+
+
+  if (getURLByParameter('destination') == 'disqus/closewindow' || getURLByParameter('disqus') == '1') {
+    document.write('&lt;link type="text/css" rel="stylesheet" media="all" href="http://www.thedailymeal.com/sites/all/themes/thedailymeal/css/disqus-auth.css" /&gt;');
+    document.write('&lt;script type="text/javascript" src="http://www.thedailymeal.com/sites/all/themes/thedailymeal/js/disqus-auth.js"&gt;&lt;\/script&gt;');
+  }
+
+  //Get query strings in URL via https://gist.github.com/1771618
+  function getURLByParameter(key){
+    var result = new RegExp(key + "=([^&amp;]*)", "i").exec(window.location.search);
+    return result &amp;&amp; unescape(result[1]) || "";
+  }
+
+//]]>
+    </script>
+    <!-- End disqus login/signup css/js -->    <script style="background-position: 97px" type="text/javascript">
+//<![CDATA[
+
+  var cur_chan;
+
+//]]>
+    </script>
+    <!-- OAS SETUP begin -->    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&amp;gt;div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&amp;gt;span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}
+    </style>
+  </head>
+  <body class="not-front not-logged-in page-search two-sidebars">
+    <div id="cboxOverlay" style="display: none;">
+    </div>
+    <div id="colorbox" class="" style="padding-bottom: 57px; padding-right: 28px; display: none;">
+      <div id="cboxWrapper">
+        <div>
+          <div id="cboxTopLeft" style="float: left;">
+          </div>
+          <div id="cboxTopCenter" style="float: left;">
+          </div>
+          <div id="cboxTopRight" style="float: left;">
+          </div>
+        </div>
+        <div style="clear: left;">
+          <div id="cboxMiddleLeft" style="float: left;">
+          </div>
+          <div id="cboxContent" style="float: left;">
+            <div id="cboxLoadedContent" style="width: 0px; height: 0px; overflow: hidden; float: left;">
+            </div>
+            <div id="cboxLoadingOverlay" style="float: left;">
+            </div>
+            <div id="cboxLoadingGraphic" style="float: left;">
+            </div>
+            <div id="cboxTitle" style="float: left;">
+            </div>
+            <div id="cboxCurrent" style="float: left;">
+            </div>
+            <div id="cboxNext" style="float: left;">
+            </div>
+            <div id="cboxPrevious" style="float: left;">
+            </div>
+            <div id="cboxSlideshow" style="float: left;">
+            </div>
+            <div id="cboxClose" style="float: left;">
+            </div>
+          </div>
+          <div id="cboxMiddleRight" style="float: left;">
+          </div>
+        </div>
+        <div style="clear: left;">
+          <div id="cboxBottomLeft" style="float: left;">
+          </div>
+          <div id="cboxBottomCenter" style="float: left;">
+          </div>
+          <div id="cboxBottomRight" style="float: left;">
+          </div>
+        </div>
+      </div>
+      <div style="position: absolute; width: 9999px; visibility: hidden; display: none;">
+      </div>
+    </div>
+    <div class="ad" id="wrapper_ad_Frame1">
+      <span>
+        <script type="text/javascript" style="background-position: 97px">
+//<![CDATA[
+ 
+OAS_AD('Frame1');
+console.log('----frame1----');
+
+//]]>
+        </script>
+      </span>
+    </div>
+    <div class="ad" id="wrapper_ad_Frame2">
+      <span>
+        <script type="text/javascript" style="background-position: 97px">
+//<![CDATA[
+
+ OAS_AD('Frame2');
+console.log('----frame2----');
+
+//]]>
+        </script>
+      </span>
+    </div>
+    <div class="ad" id="wrapper_ad_Bottom2">
+      <span>
+        <script type="text/javascript" style="background-position: 97px">
+//<![CDATA[
+ 
+OAS_AD('Bottom2');
+console.log('----bottom2----');
+
+//]]>
+        </script>
+      </span>
+    </div>
+    <!-- OAS SETUP end -->    <!-- Begin Google Analytics -->    <script type="text/javascript">
+//<![CDATA[
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-18661641-1']);
+_gaq.push(['_setVar', ''])
+_gaq.push(['_setCustomVar', 1, // This custom var is set to slot #1.  Required parameter.
+'Section', // The name acts as a kind of category for the user activity.  Required parameter.
+'', // This value of the custom variable.  Required parameter.
+3 // Sets the scope to page-level.  Optional parameter.
+]);
+_gaq.push(['_setCustomVar', 2, // This custom var is set to slot #2.  Required parameter.
+'Channel', // The name acts as a kind of category for the user activity.  Required parameter.
+'', // This value of the custom variable.  Required parameter.
+]);
+3 // Sets the scope to page-level.  Optional parameter.
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+//]]>
+    </script>
+    <!-- End Google Analytics -->    <!-- Custom form elements -->    <script type="text/javascript">
+//<![CDATA[
+
+    $(document).ready(function() {
+        Custom.init();
+    });
+
+//]]>
+    </script>
+    <!-- End Custom Form elements -->    <!-- Fix DISQUS url's -->    <script type="text/javascript">
+//<![CDATA[
+
+(function() {
+  if (Drupal.settings.disqus) {
+    Drupal.settings.disqus.url = 'http://www.thedailymeal.com' + window.location.pathname;
+  }
+})();
+
+//]]>
+    </script>
+    <!-- Body -->    <!-- Media.net Ad Interstitial -->    <div id="media-net-interstitial">
+    </div>
+    <!--<script type="text/javascript">
+  (function (){
+    var sct = document.createElement("script"),
+    sctHl = document.getElementsByTagName("script")[0];
+    sct.type = "text/javascript";
+    sct.src = 'http://contextual.media.net/inslmedianet.js?cid=8CU16V6SG&crid=338658418&size=641x481';
+    sct.async = "async";
+    sctHl.parentNode.insertBefore(sct, sctHl);
+  })();
+  </script>-->    <!-- End: Media.net Ads -->    <div class="ad" id="wrapper_ad_Bottom1">
+      <span>
+        <script type="text/javascript" style="background-position: 97px">
+//<![CDATA[
+ 
+OAS_AD('Bottom1');
+console.log('----bottom1----');
+
+//]]>
+        </script>
+      </span>
+    </div>
+    <div style="display:none;">
+      <!-- Begin comScore Tag -->      <script type="text/javascript">
+//<![CDATA[
+
+var _comscore = _comscore || [];  _comscore.push({ c1: "2", c2: "9009860" });
+(function() {    var s =document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") +".scorecardresearch.com/beacon.js";    el.parentNode.insertBefore(s, el);  })();
+//&lt;!-- End comScore Tag --&gt;
+
+//]]>
+      </script>
+      <noscript>
+        &lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=9009860&amp;cv=2.0&amp;cj=1" /&gt;
+      </noscript>
+      <!-- End comScore Tag -->    </div>
+    <div id="fb-connect">
+      <span>
+        <div id="fb-root" class=" fb_reset">
+          <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+            <div>
+            </div>
+          </div>
+          <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+            <div>
+              <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_http" allowtransparency="true" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="http://static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f1f8bd66bf4558&amp;origin=http%3A%2F%2Fwww.thedailymeal.com">
+              </iframe>
+              <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_https" allowtransparency="true" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f1f8bd66bf4558&amp;origin=http%3A%2F%2Fwww.thedailymeal.com">
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+//<![CDATA[
+
+    // This is boilerplate code that is used to initialize the Facebook
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '360873670694541',  // App ID
+        status     : true,           // check login status
+        cookie     : true,           // enable cookies to allow the server to access the session
+        xfbml      : true            // parse page for xfbml or html5 social plugins like login button below
+      });
+  
+      // Put additional init code here
+    };
+    
+    // Load the SDK Asynchronously
+    (function(d){
+       var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement('script'); js.id = id; js.async = true;
+       js.src = "//connect.facebook.net/en_US/all.js";
+       ref.parentNode.insertBefore(js, ref);
+     }(document));
+  console.log("----fbc----");
+
+//]]>
+        </script>
+      </span>
+    </div>
+    <div id="haze">
+    </div>
+    <div id="site-layout">
+      <div class="block block-tdm_profile" id="block-tdm_profile-5">
+        <div class="content">
+          <div id="preheader">
+            <div id="header_top_bar">
+              <div id="header_top_bar_left" style="display: block;">
+                <a href="http://www.thedailymeal.com/user/login/colorbox?destination=search/apachesolr_search/us" class="cboxElement">
+                  Sign In
+                </a>
+                 | 
+                <a href="http://www.thedailymeal.com/colorbox/form/colorbox_user_register_form?destination=search/apachesolr_search/us" class="cboxElement">
+                  Become a Member
+                </a>
+              </div>
+              <!-- end #header_top_bar_left -->              <div id="header_top_bar_right">
+                <ul>
+                  <li id="header_fb_like_wrap">
+                    <fb:like font="trebuchet ms" show_faces="false" width="90" layout="button_count" send="false" href="http://www.facebook.com/TheDailyMeal" class=" fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=360873670694541&amp;font=trebuchet%20ms&amp;href=http%3A%2F%2Fwww.facebook.com%2FTheDailyMeal&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=90">
+                      <span style="vertical-align: top; width: 0px; height: 0px;">
+                        <iframe width="90px" scrolling="no" height="1000px" frameborder="0" name="f17fae1e6a74436" allowtransparency="true" title="fb:like Facebook Social Plugin" style="border: medium none; visibility: visible;" src="http://www.facebook.com/plugins/like.php?app_id=360873670694541&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FwTH8U0osOYl.js%3Fversion%3D40%23cb%3Df1cc07028ed40b2%26domain%3Dwww.thedailymeal.com%26origin%3Dhttp%253A%252F%252Fwww.thedailymeal.com%252Ff1f8bd66bf4558%26relation%3Dparent.parent&amp;font=trebuchet%20ms&amp;href=http%3A%2F%2Fwww.facebook.com%2FTheDailyMeal&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=90" class="aipewpddfdevopyqmojj">
+                        </iframe>
+                      </span>
+                    </fb:like>
+                  </li>
+                  <li id="header_twitter_follow_wrap">
+                    <a data-show-count="false" data-show-screen-name="false" class="twitter-follow-button" href="https://twitter.com/thedailymeal">
+                      Follow
+                    </a>
+                    <!--<script src="http://platform.twitter.com/widgets.js" type="text/javascript" style="background-position: 85px"></script>-->                    <span>
+                      <script src="http://platform.twitter.com/widgets.js">
+                      </script>
+                    </span>
+                  </li>
+                  <li id="header_google_plus_wrap">
+                    <a style="text-decoration:none;" href="https://plus.google.com/116781893481103637241?prsrc=3">
+                      <img style="border:0;width:16px;height:16px;" alt="" src="https://ssl.gstatic.com/images/icons/gplus-16.png" class="aipewpddfdevopyqmojj"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Most Popular" href="/popular/all">
+                      Most Popular
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Top Rated" href="/top-rated-percent">
+                      Top Rated
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Most Recent" href="/most_recent">
+                      Most Recent
+                    </a>
+                  </li>
+                  <li>
+                    <img style="vertical-align: middle; margin-right: 5px; width: 11px; height: 18px;" src="http://cdn-png.thedailymeal.com/sites/all/themes/thedailymeal/images/iphone.png"/>
+                    <a title="The Daily Meal iPhone App" href="http://itunes.apple.com/us/app/best-dishes-where-what-to/id529818136?ls=1&amp;mt=8">
+                      iPhone App
+                    </a>
+                  </li>
+                </ul>
+                <!-- The tooltip / bubble for the header facebook button/widget: -->                <div class="header_social_tooltips" id="fb_sitewide_like_tooltip">
+                  <span class="fb_bubble_text">
+                    Click the Like button to get updates directly in your Facebook feed
+                  </span>
+                  <div class="header_social_tooltip_arrow_border" id="header_social_tooltip_arrow_border_fb">
+                  </div>
+                  <div class="header_social_tooltip_arrow" id="header_social_tooltip_arrow_fb">
+                  </div>
+                </div>
+                <!-- End facebook bubble -->                <!-- The tooltip / bubble for the header twitter button/widget: -->                <div class="header_social_tooltips" id="twitter_sitewide_like_tooltip">
+                  <span class="twitter_bubble_text">
+                    Follow @TheDailyMeal on Twitter
+                  </span>
+                  <div class="header_social_tooltip_arrow_border" id="header_social_tooltip_arrow_border_twitter">
+                  </div>
+                  <div class="header_social_tooltip_arrow" id="header_social_tooltip_arrow_twitter">
+                  </div>
+                </div>
+                <!-- End twitter bubble -->              </div>
+            </div>
+            <!-- end #header_top_bar -->          </div>
+          <!-- end #preheader -->          <!-- header-wrap starts-->          <div id="header-wrap">
+            <div class="container_12" id="header">
+              <div class="" id="header-main">
+                <div id="logo-floater">
+                  <a title="The Daily Meal " href="/">
+                    <img id="logo" alt="The Daily Meal " src="http://cdn-png.thedailymeal.com/sites/all/themes/thedailymeal/images/thedailymeal_logo.png"/>
+                  </a>
+                </div>
+                <div id="header_search_wrap">
+                  <div id="header_search_tab_wrap">
+                    <a id="header_search_recipes" class="header_search_tab" title="Search Recipes..." href="/recipe_search/">
+                      Search Recipes
+                    </a>
+                    <a id="header_search_restaurants" title="Enter Name or Cuisine..." class="header_search_tab" href="/search/where/">
+                      Find Restaurants/Bars
+                    </a>
+                    <a id="header_search_site" class="header_search_tab current" title="Search Site..." href="/search/apachesolr_search/">
+                      Site Search
+                    </a>
+                    <a href="http://feeds.feedburner.com/thedailymeal" class="social_links">
+                      <img src="http://cdn.thedailymeal.com/sites/all/themes/thedailymeal/images/rss_22.png" alt="RSS" class="aipewpddfdevopyqmojj"/>
+                    </a>
+                    <a href="http://www.facebook.com/TheDailyMeal" class="social_links">
+                      <img src="http://cdn.thedailymeal.com/sites/all/themes/thedailymeal/images/facebook_22.png" alt="Facebook" class="aipewpddfdevopyqmojj"/>
+                    </a>
+                    <a href="http://twitter.com/thedailymeal" class="social_links">
+                      <img src="http://cdn.thedailymeal.com/sites/all/themes/thedailymeal/images/twitter_22.png" alt="Twitter" class="aipewpddfdevopyqmojj"/>
+                    </a>
+                  </div>
+                  <br clear="all"/>
+                  <!-- The site search form: -->                  <form action="/search/apachesolr_search/" id="header_search_form" method="POST" style="display: block;">
+                    <fieldset class="header_search_fldset">
+                      <input type="text" value="us" class="form-text apachesolr-autocomplete unprocessed form-autocomplete" id="header_search_form_input" name="keys" autocomplete="off" title="Search Site..."/>
+                      <input type="submit" value="Go" id="header_search_form_submit"/>
+                    </fieldset>
+                  </form>
+                  <!-- The recipe and restaurant/bar search form: -->                  <form id="header_search_form_1" method="GET" style="display: none;">
+                    <fieldset class="header_search_fldset">
+                      <input type="text" value="" id="header_search_form_input_1" name="search_input_1"/>
+                      <input type="text" title="City, State OR Zipcode" value="" id="header_search_form_input_2" name="search_input_2"/>
+                      <input type="submit" value="Go" id="header_search_form_submit_1"/>
+                    </fieldset>
+                  </form>
+                </div>
+                <br clear="all"/>
+                <!-- begin main navigation: -->                <div id="nav_wrap">
+                  <ul id="topnav">
+                    <li id="top_nav_home_li">
+                      <a class="nav_anchor" id="nav_home" href="/">
+                        <img height="20" alt="Home" title="Home" src="http://cdn-png.thedailymeal.com/sites/all/themes/thedailymeal/images/home-icon.png"/>
+                      </a>
+                      <div class="sub" style="opacity: 0;">
+                        <ul>
+                          <li>
+                            <a href="http://www.thedailymeal.com/user/login/colorbox?destination=search/apachesolr_search/us" class="variable_login_profile_link cboxElement">
+                              Sign In/Join
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/newsletter/subscriptions">
+                              Newsletters
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/user/favorites">
+                              My Favorites
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a class="nav_anchor" id="nav_cook" href="/cook">
+                        Cook
+                      </a>
+                      <div class="sub" style="opacity: 0;">
+                        <ul>
+                          <li>
+                            <a href="/cook/quick-easy">
+                              Quick &amp; Easy
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cook/cooking-healthy">
+                              Healthy Eating
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cook/special-occasions">
+                              Special Occasions
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cook/cooking-ideas">
+                              Cooking Ideas
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cook/daily-meals-guide-baking">
+                              Baking 101
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cook/chefs-cookbooks">
+                              Chefs &amp; Cookbooks
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cook/seasonal">
+                              Seasonal
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cook/desserts">
+                              Desserts
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cook/how-to-do-it">
+                              How To Do It
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cook/kitchen-tools">
+                              Kitchen &amp; Tools
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cook/grilling-and-barbecue-essentials">
+                              Grilling &amp; Barbecue
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cook/cookies">
+                              Cookies
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a class="nav_anchor" id="nav_eat" href="/eat">
+                        Eat/Dine
+                      </a>
+                      <div class="sub" style="opacity: 0;">
+                        <ul>
+                          <li>
+                            <a href="/eat/restaurants">
+                              Restaurants
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/eat/chefs-and-personalities">
+                              Chefs &amp; Personalities
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/eat/casual-eats">
+                              Casual Eats
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/eat/sandwiches">
+                              Sandwiches
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/eat/products">
+                              Products
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/eat/food-for-thought">
+                              Food for Thought
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/your-city">
+                              In Your City
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a class="nav_anchor" id="nav_drink" href="/drink">
+                        Drink
+                      </a>
+                      <div class="sub" style="opacity: 0;">
+                        <div class="row">
+                          <ul>
+                            <li>
+                              <a href="/wine">
+                                Wine
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/drink/cocktails">
+                                Cocktails &amp; Spirits
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/drink/where-to-drink">
+                                Where to Drink
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/drink/beer">
+                                Beer
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/drink/coffee-and-tea">
+                                Coffee &amp; Tea
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/drink/non-alcoholic">
+                                Non-Alcoholic
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/your-city-0">
+                                In Your City
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a class="nav_anchor" id="nav_travel" href="/travel">
+                        Travel
+                      </a>
+                      <div class="sub" style="opacity: 0;">
+                        <ul>
+                          <li>
+                            <a href="/travel/trip-tips">
+                              Trip Tips
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/travel/culinary-vacations">
+                              Culinary Vacations
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/travel/global-cuisine">
+                              Global Cuisine
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/travel/festivals-and-events">
+                              Festivals &amp; Events
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/city-guides">
+                              In Your City
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a class="nav_anchor" id="nav_entertain" href="/entertain">
+                        Entertain
+                      </a>
+                      <div class="sub" style="opacity: 0;">
+                        <ul>
+                          <li>
+                            <a href="/entertain/etiquette">
+                              Etiquette
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/entertain/celebrations">
+                              Celebrations
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/entertain/weddings-and-wedding-cakes">
+                              Weddings &amp; Wedding Cakes
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/entertain/hosting-tips">
+                              Hosting Tips
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/entertain/setting-the-scene">
+                              Setting the Scene
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/entertain/football">
+                              Eat. Drink. Football.
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/entertain/celebrity-bites">
+                              Celebrity Bites
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a class="nav_anchor" id="nav_best_recipes_popular" href="/best-recipes">
+                        Best Recipes
+                      </a>
+                    </li>
+                    <li>
+                      <a class="nav_anchor" id="nav_holidays" href="/holidays">
+                        Holidays
+                      </a>
+                      <div class="sub" style="opacity: 0;">
+                        <ul>
+                          <li>
+                            <a href="/holiday/valentines-day">
+                              Valentine's Day
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/saint-patricks-day">
+                              Saint Patrick's Day
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/passover">
+                              Passover
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/holiday/celebrate-easter-with-the-daily-meal">
+                              Easter
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/holiday/fourth-july">
+                              Fourth of July
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/holiday/halloween">
+                              Halloween
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/holiday/thanksgiving">
+                              Thanksgiving
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/holiday/celebrating-hannukah">
+                              Hanukkah
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/holiday/christmas">
+                              Christmas
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/holiday/new-years">
+                              New Year's
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/other">
+                              Other
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a class="nav_anchor" id="nav_list" href="/list">
+                        Lists
+                      </a>
+                    </li>
+                    <li>
+                      <a class="nav_anchor" id="nav_community" href="/community">
+                        Community
+                      </a>
+                      <div class="sub" style="opacity: 0;">
+                        <ul>
+                          <li>
+                            <a href="/myprofile">
+                              My Profile
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="/video" class="nav_anchor" id="nav_video">
+                        Video
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end main navigation -->              </div>
+              <!-- header-main ends here -->            </div>
+            <!-- header ends here -->          </div>
+          <!-- header-wrap -->          <!-- header-wrap ends here -->        </div>
+      </div>
+      <!-- content starts -->      <div class="container_12" id="content-wrapper">
+        <div class="alpha grid_12 omega" id="content-top">
+          <div class="block block-block" id="block-block-36">
+            <div class="content">
+              <style type="text/css">
+                #wrapper_ad_Top img {display: inline-block;}#wrapper_ad_Top div {margin: 0 auto;}
+              </style>
+              <div class="ad" id="wrapper_ad_Top" style="width:1000px; min-height:95px; vertical-align:middle; text-align:center; margin:0 auto;">
+                <span>
+                  <script type="text/javascript" style="background-position:95px">
+//<![CDATA[
+OAS_AD('Top');
+console.log('----Top----');
+
+//]]>
+                  </script>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="block block-block" id="block-block-46">
+            <div class="content">
+              <script type="text/javascript">
+//<![CDATA[
+
+
+
+// Bookmark
+
+
+/* Modified to support Opera */
+function bookmarksite(title,url){
+if (window.sidebar) // firefox
+	window.sidebar.addPanel(title, url, "");
+else if(window.opera &amp;&amp; window.print){ // opera
+	var elem = document.createElement('a');
+	elem.setAttribute('href',url);
+	elem.setAttribute('title',title);
+	elem.setAttribute('rel','sidebar');
+	elem.click();
+} 
+else if(document.all)// ie
+	window.external.AddFavorite(url, title);
+}
+
+//]]>
+              </script>
+              <script type="text/javascript">
+//<![CDATA[
+
+// Favorites
+
+function setHome() 
+{if(document.all)
+window.external.setHomePage('http://www.thedailymeal.com'); else{location.href='/set_homepage_info.html'}}
+
+//]]>
+              </script>
+            </div>
+          </div>
+        </div>
+        <br clear="all"/>
+        <!--
+
+    END OF THE "HEADER" HERE
+
+    -->        <div class="grid_8" id="left-and-main-area">
+          <!-- left sidebar starts here -->          <div class="sidebar-left">
+            <div class="block block-apachesolr_search" id="block-apachesolr_search-currentsearch">
+              <h3 class="title">
+                Current search
+              </h3>
+              <div class="content">
+                <div class="item-list">
+                  <h3>
+                    Search found 9225 items
+                  </h3>
+                  <ul>
+                    <li class="first last">
+                      <a class="apachesolr-unclick" href="/search/apachesolr_search/">
+                        (-)
+                      </a>
+                       us
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="block block-apachesolr" id="block-apachesolr-sort">
+              <h3 class="title">
+                Sort by
+              </h3>
+              <div class="content">
+                <div class="item-list">
+                  <ul>
+                    <li class="first">
+                      <a class="active" href="/search/apachesolr_search/us">
+                        Relevance
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/search/apachesolr_search/us?solrsort=sort_title%20asc">
+                        Title
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/search/apachesolr_search/us?solrsort=type%20asc">
+                        Type
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/search/apachesolr_search/us?solrsort=sort_name%20asc">
+                        Author
+                      </a>
+                    </li>
+                    <li class="last">
+                      <a href="/search/apachesolr_search/us?solrsort=created%20desc">
+                        Date
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="block block-apachesolr_search" id="block-apachesolr_search-type">
+              <h3 class="title">
+                Filter by type
+              </h3>
+              <div class="content">
+                <div class="item-list">
+                  <ul>
+                    <li class="first">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=type%3Astory">
+                        Story (7970)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=type%3Aarticle">
+                        Article (353)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=type%3Aweb_recipe">
+                        Web Recipe (333)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=type%3Arecipe">
+                        Recipe (327)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=type%3Arestaurant_review">
+                        Restaurant Review (234)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=type%3Apoint_of_interest">
+                        Point of Interest (3)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=type%3Apoll">
+                        Poll (2)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=type%3Aedamam_tip">
+                        Edamam Tip (1)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=type%3Aplain_page">
+                        Plain page (1)
+                      </a>
+                    </li>
+                    <li class="last">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=type%3Awine_region">
+                        Wine Region (1)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="block block-apachesolr_search" id="block-apachesolr_search-created">
+              <h3 class="title">
+                Filter by post date
+              </h3>
+              <div class="content">
+                <div class="item-list">
+                  <ul>
+                    <li class="first">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=created%3A%5B2009-01-01T00%3A00%3A00Z%20TO%202010-01-01T00%3A00%3A00Z%5D">
+                        2009 (5)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=created%3A%5B2010-01-01T00%3A00%3A00Z%20TO%202011-01-01T00%3A00%3A00Z%5D">
+                        2010 (260)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=created%3A%5B2011-01-01T00%3A00%3A00Z%20TO%202012-01-01T00%3A00%3A00Z%5D">
+                        2011 (1918)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=created%3A%5B2012-01-01T00%3A00%3A00Z%20TO%202013-01-01T00%3A00%3A00Z%5D">
+                        2012 (2746)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=created%3A%5B2013-01-01T00%3A00%3A00Z%20TO%202014-01-01T00%3A00%3A00Z%5D">
+                        2013 (3236)
+                      </a>
+                    </li>
+                    <li class="last">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=created%3A%5B2014-01-01T00%3A00%3A00Z%20TO%202015-01-01T00%3A00%3A00Z%5D">
+                        2014 (1060)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="block block-apachesolr_search" id="block-apachesolr_search-uid">
+              <h3 class="title">
+                Filter by author
+              </h3>
+              <div class="content">
+                <div class="item-list">
+                  <ul>
+                    <li class="first">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A2679">
+                        NRN.com (828)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A4929">
+                        Jessica Chou (753)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A3305">
+                        JustLuxe (418)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A8710">
+                        marcyafranklin (386)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A5950">
+                        Francesca Borgognone (358)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A28681">
+                        Dan Myers (268)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A29">
+                        Arthur Bovino (254)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A861">
+                        tomfitzmorris (230)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A12338">
+                        Anne Dolce (200)
+                      </a>
+                    </li>
+                    <li>
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A22759969">
+                        Spoon University (197)
+                      </a>
+                    </li>
+                    <li class="apachesolr-hidden-facet" style="display: none;">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A3900">
+                        Lauren Gordon (176)
+                      </a>
+                    </li>
+                    <li class="apachesolr-hidden-facet" style="display: none;">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A21">
+                        Yasmin Fahr (164)
+                      </a>
+                    </li>
+                    <li class="apachesolr-hidden-facet" style="display: none;">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A20">
+                        Allison Beck (159)
+                      </a>
+                    </li>
+                    <li class="apachesolr-hidden-facet" style="display: none;">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A11879">
+                        Lauren Mack (130)
+                      </a>
+                    </li>
+                    <li class="apachesolr-hidden-facet" style="display: none;">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A2165">
+                        Nicole Campoy-Leffler (119)
+                      </a>
+                    </li>
+                    <li class="apachesolr-hidden-facet" style="display: none;">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A58340">
+                        haleywillard (118)
+                      </a>
+                    </li>
+                    <li class="apachesolr-hidden-facet" style="display: none;">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A41">
+                        Colman Andrews (115)
+                      </a>
+                    </li>
+                    <li class="apachesolr-hidden-facet" style="display: none;">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A8364">
+                        Elizabeth Licata (115)
+                      </a>
+                    </li>
+                    <li class="apachesolr-hidden-facet" style="display: none;">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A19">
+                        Molly Aronica (100)
+                      </a>
+                    </li>
+                    <li class="apachesolr-hidden-facet last" style="display: none;">
+                      <a class="apachesolr-facet" href="/search/apachesolr_search/us?filters=uid%3A690">
+                        The Daily Sip (99)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a class="apachesolr-showhide" href="#">
+                Show more
+              </a>
+            </div>
+          </div>
+          <!-- left sidebar ends here -->          <!-- main -->          <div class="left_main_area " id="main">
+            <h1 id="page-title" class="title">
+              Search
+            </h1>
+            <div class="help">
+            </div>
+            <div id="sponsor_logo_content">
+              <script language="Javascript">
+//<![CDATA[
+document.write(adTargetSponsorAssets("sponsor-logo-content"));
+//]]>
+              </script>
+            </div>
+            <div id="content-output">
+              <form class="search-form" id="search-form" method="post" accept-charset="UTF-8" action="/search/apachesolr_search">
+                <div>
+                  <div id="edit-keys-wrapper" class="form-item">
+                    <label for="edit-keys" class="">
+                      Enter your keywords: 
+                    </label>
+                    <div class="container-inline">
+                      <div id="edit-keys-wrapper" class="form-item">
+                        <input type="text" class="form-text apachesolr-autocomplete unprocessed form-autocomplete" value="us" size="40" id="edit-keys" name="keys" maxlength="255" autocomplete="off"/>
+                      </div>
+                      <input type="submit" class="form-submit" value="Search" id="edit-submit" name="op"/>
+                    </div>
+                    <input type="hidden" value="[]" id="edit-apachesolr-search-queryvalues" name="apachesolr_search[queryvalues]"/>
+                    <input type="hidden" value="[]" id="edit-apachesolr-search-get" name="apachesolr_search[get]"/>
+                  </div>
+                  <input type="hidden" value="form-Zn047BC3JI5n6vPIOILj-Y8wDfsSWjipKT3Sz5jHub8" id="form-Zn047BC3JI5n6vPIOILj-Y8wDfsSWjipKT3Sz5jHub8" name="form_build_id"/>
+                  <input type="hidden" value="search_form" id="edit-search-form" name="form_id"/>
+                </div>
+              </form>
+              <div class="box">
+                <h2>
+                  Search results
+                </h2>
+                <div class="content">
+                  <!-- Normal search results -->                  <ol class="search-results apachesolr_search-results">
+                    <!-- Normal search results -->                    <li>
+                      <img width="80" height="64" class="imagecache imagecache-thumbnail" title="U.S. Joins Milan’s Global Food Expo with ‘American Food 2.0’" alt="U.S. Joins Milan’s Global Food Expo with ‘American Food 2.0’" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/thumbnail/photo2_secjohnkerrymain.jpg"/>
+                      <h3 class="title">
+                        Story: 
+                        <a href="http://www.thedailymeal.com/us-joins-milan-s-global-food-expo-american-food-20/32814">
+                          U.S. Joins Milan’s Global Food Expo with ‘American Food 2.0’
+                        </a>
+                      </h3>
+                      <span class="search-body">
+                                  
+          
+  
+  
+      
+              
+                    Global Food Expo 2015          
+          
+  
+  
+      
+              
+                    
+                        <strong>
+                          U.S
+                        </strong>
+                        . Joins ...  the 
+                        <strong>
+                          U.S
+                        </strong>
+                        . Pavilion Milano 2015    , which will launch a year-long series of programs dedicated to food security and sustainability. During Milan Expo 2015, the 
+                        <strong>
+                          U.S
+                        </strong>
+                        . Pavilion will focus on ‘American Food ...
+                      </span>
+                      <span class="search-info">
+                        by 
+                        <span class="name">
+                          <a title="View user profile." href="/users/karen-lo">
+                            Karen Lo
+                          </a>
+                        </span>
+                        <br/>
+                        <span class="role">
+                          Editor
+                        </span>
+                        , 2014-03-28 11:26
+                      </span>
+                    </li>
+                    <!-- Normal search results -->                    <li>
+                      <img width="80" height="64" class="imagecache imagecache-thumbnail" title="" alt="" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/thumbnail/ecsimagemainhp.jpg"/>
+                      <h3 class="title">
+                        Story: 
+                        <a href="http://www.thedailymeal.com/european-coffee-society-brings-old-world-traditions-us/31914">
+                          European Coffee Society Brings Old-World Traditions to U.S.
+                        </a>
+                      </h3>
+                      <span class="search-body">
+                         caught up with Marcus and asked him to tell 
+                        <strong>
+                          us
+                        </strong>
+                         a little more about how this European-American connection ...
+                      </span>
+                      <span class="search-info">
+                        by 
+                        <span class="name">
+                          <a title="View user profile." href="/users/jessnovak">
+                            Jess Novak
+                          </a>
+                        </span>
+                        <br/>
+                        <span class="role">
+                          Editor
+                        </span>
+                        , 2014-03-19 18:12
+                      </span>
+                    </li>
+                    <!-- Normal search results -->                    <li>
+                      <img class="imagecache imagecache-thumbnail" title="" alt="" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/thumbnail/justluxe_fashion_nav_logo_193.png"/>
+                      <h3 class="title">
+                        Story: 
+                        <a href="http://www.thedailymeal.com/proenza-schoulers-new-thriller-fashion-film-keeps-us-edge-our-seat">
+                          Proenza Schouler's New Thriller Fashion Film Keeps Us On the Edge of Our Seat
+                        </a>
+                      </h3>
+                      <span class="search-body">
+                              Spring fashion films   have been popping up everywhere over the last few months, conjuring up images that range from   beautiful ocean breezes   to   creepy men walking a haunted runway  —but what they all have in common is the focus they put on thos ...
+                      </span>
+                      <span class="search-info">
+                        by 
+                        <span class="name">
+                          <a title="View user profile." href="/users/justluxe">
+                            JustLuxe
+                          </a>
+                        </span>
+                        <br/>
+                        <span class="role">
+                          Special Contributor
+                        </span>
+                        , 2014-03-17 07:00
+                      </span>
+                    </li>
+                    <!-- Normal search results -->                    <li>
+                      <img width="53" height="80" class="imagecache imagecache-thumbnail" title="" alt="" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/thumbnail/siem-reap-cambodia.jpg"/>
+                      <h3 class="title">
+                        Story: 
+                        <a href="http://www.thedailymeal.com/culture-enthusiast-jennifer-dor-dallas-tells-us-how-get-tourist-trail-southeast-asia">
+                          Culture Enthusiast Jennifer Doré Dallas Tells Us How To Get Off The Tourist Trail In Southeast Asia
+                        </a>
+                      </h3>
+                      <span class="search-body">
+                         Southeast Asia? Avid traveler and blogger at   Moi, mes souliers   Jennifer Doré Dallas of  tells 
+                        <strong>
+                          us
+                        </strong>
+                         where ...  authentic cultural experience in Southeast Asia.  
+  1. Please tell 
+                        <strong>
+                          us
+                        </strong>
+                         a bit about your travels in Southeast ...   
+          
+      Southeast Asian culture. Photo courtesy of Jennifer.    
+  6. Tell 
+                        <strong>
+                          us
+                        </strong>
+                         about one of your most memorable ...
+                      </span>
+                      <span class="search-info">
+                        by 
+                        <span class="name">
+                          <a title="View user profile." href="/users/jessica-festa">
+                            Jessica Festa
+                          </a>
+                        </span>
+                        <br/>
+                        <span class="role">
+                          Special Contributor
+                        </span>
+                        , 2014-03-07 09:36
+                      </span>
+                    </li>
+                    <!-- Normal search results -->                    <li>
+                      <img width="80" height="64" class="imagecache imagecache-thumbnail" title="" alt="" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/thumbnail/shutterstock_mainfarmed-fis.jpg"/>
+                      <h3 class="title">
+                        Story: 
+                        <a href="http://www.thedailymeal.com/frankenfish-or-way-feed-us-all/22014">
+                          'Frankenfish' or a Way to Feed Us All?
+                        </a>
+                      </h3>
+                      <span class="search-body">
+                          
+      
+              
+                    Is GMO fish worth the potential environmental and health risks?          
+          
+  
+  
+      
+              
+                    Is 'Frankenfish' Good?          
+          
+  
+  
+      
+            ...
+                      </span>
+                      <span class="search-info">
+                        by 
+                        <span class="name">
+                          <a title="View user profile." href="/users/emily-jacobs">
+                            Emily Jacobs
+                          </a>
+                        </span>
+                        <br/>
+                        <span class="role">
+                          Editor
+                        </span>
+                        , 2014-02-20 10:30
+                      </span>
+                    </li>
+                    <!-- Normal search results -->                    <li>
+                      <img class="imagecache imagecache-thumbnail" title="" alt="" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/thumbnail/"/>
+                      <h3 class="title">
+                        Story: 
+                        <a href="http://www.thedailymeal.com/head-california-and-hawaii-some-uss-most-creative-valentines-day-packages">
+                          Head to California and Hawaii for Some of the US's Most Creative Valentine's Day Packages
+                        </a>
+                      </h3>
+                      <span class="search-body">
+                            CALIFORNIASan Diego (La Jolla)               One of my favorite hotels, the iconic pink   La Valencia  (affectionately known as “La V”), has been recently redone top to bottom.  This year’s Valentine’s Day celebration turns the hotel a different shade  ...
+                      </span>
+                      <span class="search-info">
+                        by 
+                        <span class="name">
+                          <a title="View user profile." href="/users/travel-and-food-notes">
+                            Meryl Pearlstein
+                          </a>
+                        </span>
+                        <br/>
+                        <span class="role">
+                          Special Contributor
+                        </span>
+                        , 2014-02-11 04:33
+                      </span>
+                    </li>
+                    <!-- Normal search results -->                    <li>
+                      <img width="39" height="80" class="imagecache imagecache-thumbnail" title="" alt="" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/thumbnail/imperialnewschoolad2_6.jpg"/>
+                      <h3 class="title">
+                        Story: 
+                        <a href="http://www.thedailymeal.com/gorge-us-event-portland">
+                          A Gorge-Us Event in Portland
+                        </a>
+                      </h3>
+                      <span class="search-body">
+                                    One of my favorite new Portland beer bars, the aptly named   BEER   on SE 14th and Stark has put together an eclectic little event tonight 2/11 featuring most of the brewers in Hood River and the Gorge. Meet the brewers &amp; try beers from Dou ...
+                      </span>
+                      <span class="search-info">
+                        by 
+                        <span class="name">
+                          <a title="View user profile." href="/users/ezra-johnson-greenough">
+                            The New School Beer
+                          </a>
+                        </span>
+                        <br/>
+                        <span class="role">
+                          Special Contributor
+                        </span>
+                        , 2014-02-11 04:02
+                      </span>
+                    </li>
+                    <!-- Normal search results -->                    <li>
+                      <img width="80" height="64" class="imagecache imagecache-thumbnail" title="" alt="" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/thumbnail/121219-bol-luxury-hotels_172.png"/>
+                      <h3 class="title">
+                        Story: 
+                        <a href="http://www.thedailymeal.com/delta-first-us-carrier-decade-win-airline-year">
+                          Delta is First US Carrier in a Decade to Win Airline of the Year!
+                        </a>
+                      </h3>
+                      <span class="search-body">
+                              Delta   has been named the Airline of the Year by     Air Transport World    , which is a big deal because it's the first time in a decade a 
+                        <strong>
+                          US
+                        </strong>
+                         carrier has won the title. The editors with ...  in the 
+                        <strong>
+                          U.S
+                        </strong>
+                        . and globally, has never been as competitive, so when   ATW   editors make their Airline ...
+                      </span>
+                      <span class="search-info">
+                        by 
+                        <span class="name">
+                          <a title="View user profile." href="/users/justluxe">
+                            JustLuxe
+                          </a>
+                        </span>
+                        <br/>
+                        <span class="role">
+                          Special Contributor
+                        </span>
+                        , 2014-01-27 05:31
+                      </span>
+                    </li>
+                    <!-- Normal search results -->                    <li>
+                      <img width="80" height="58" class="imagecache imagecache-thumbnail" title="" alt="" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/thumbnail/justluxe_fashion_nav_logo_64.png"/>
+                      <h3 class="title">
+                        Story: 
+                        <a href="http://www.thedailymeal.com/bario-neal-helps-us-go-green-environmentally-friendly-jewelry-pieces">
+                          Bario-Neal Helps Us Go Green with Environmentally-Friendly Jewelry Pieces
+                        </a>
+                      </h3>
+                      <span class="search-body">
+                            We all love jewelry—trendy pieces we can wear when we’re out with friends, glittering gems for date night, simple chains for just grabbing a bite to eat—but how much of what we own is ethically sourced? Do our cocktail rings do more than just add somet ...
+                      </span>
+                      <span class="search-info">
+                        by 
+                        <span class="name">
+                          <a title="View user profile." href="/users/justluxe">
+                            JustLuxe
+                          </a>
+                        </span>
+                        <br/>
+                        <span class="role">
+                          Special Contributor
+                        </span>
+                        , 2014-01-30 06:55
+                      </span>
+                    </li>
+                    <!-- Normal search results -->                    <li>
+                      <img width="80" height="44" class="imagecache imagecache-thumbnail" title="" alt="" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/thumbnail/61685_0.jpg"/>
+                      <h3 class="title">
+                        Story: 
+                        <a href="http://www.thedailymeal.com/first-curved-coin-minted-us-mint-celebrates-national-baseball-hall-fame">
+                          First Curved-Coin Minted by U.S. Mint Celebrates National Baseball Hall of Fame
+                        </a>
+                      </h3>
+                      <span class="search-body">
+                         die-hard fans. The sport that introduced 
+                        <strong>
+                          us
+                        </strong>
+                         to the curve ball will soon have matching curved coins, sure to be an immediate collector's item. According to the   
+                        <strong>
+                          U.S
+                        </strong>
+                        . Mint  , a series of curved coins will ...  time ever in 
+                        <strong>
+                          U.S
+                        </strong>
+                        . history that a coin produced by the mint will have a curvature built into it.  
+  The ...
+                      </span>
+                      <span class="search-info">
+                        by 
+                        <span class="name">
+                          <a title="View user profile." href="/users/justluxe">
+                            JustLuxe
+                          </a>
+                        </span>
+                        <br/>
+                        <span class="role">
+                          Special Contributor
+                        </span>
+                        , 2014-01-21 04:08
+                      </span>
+                    </li>
+                  </ol>
+                  <div class="item-list">
+                    <ul class="custom pager">
+                      <li class="pager-current first">
+                        Page 1 of 923
+                      </li>
+                      <li class="pager-next last">
+                         / 
+                        <a class="active" href="/search/apachesolr_search/us?page=1">
+                          Next &gt;
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /#content-output -->          </div>
+          <!-- main ends here -->        </div>
+        <!-- left-and-main-area ends here -->        <!-- right sidebar starts here -->        <div class="alpha omega sidebar-right grid_4">
+          <div class="block block-block" id="block-block-37">
+            <div class="content">
+              <center>
+                <img src="http://images.thedailymeal.net/sites/all/themes/thedailymeal/images/ad-header.gif" style="background: none repeat scroll 0% 0% transparent; border: 0px none; display: inline; vertical-align: middle;" class="aipewpddfdevopyqmojj"/>
+              </center>
+              <div align="center" id="wrapper_ad_Right">
+                <span>
+                  <script type="text/javascript" style="background-position: 94px">
+//<![CDATA[
+OAS_AD('Right');
+console.log('----right----');
+//]]>
+                  </script>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="block block-block" id="block-block-100">
+            <div class="content">
+              <!--paging_filter-->              <!-- Active Times Widget -->              <!-- Active Times Widget -->              <link href="http://cdn-css.theactivetimes.com/sites/all/modules/activetimes/at_widget/at_widget_trending/at_widget_trending.css" type="text/css" rel="stylesheet"/>
+              <div id="tdm-tat-widget">
+                <span>
+                  <script src="http://www.theactivetimes.com/at-widget-trending?cache=2057122116">
+                  </script>
+                  <div id="Trending_AT">
+                    <!--Trending_AT-->                    <div style="display: block;" id="AT_unit">
+                      <!-- AT_unit-->                      <div id="AT_headline">
+                        <!-- AT_headline-->                        <span>
+                          Trending Stories
+                        </span>
+                        <a href="http://www.theactivetimes.com/">
+                          <img src="http://cdn-png.theactivetimes.com/sites/all/modules/activetimes/at_widget/at_widget_trending/TheActiveTimes_Logo.png"/>
+                        </a>
+                      </div>
+                      <!-- AT_headline-->                    </div>
+                    <!-- End AT_unit-->                    <div id="AT_storyLinks">
+                      <!--AT_storyLinks-->                      <div class="AT_story">
+                        <div class="ATstory_content">
+                          <a href="http://www.theactivetimes.com/13-things-keep-your-car-could-save-your-life">
+                            <img width="100px" height="80px" alt="" src="http://cdn-jpg.theactivetimes.com/sites/default/files/imagecache/activetimes_carousel_100x80/help_in_the_snow_shutterstock_i.jpg"/>
+                          </a>
+                        </div>
+                        <div class="ATstory_title">
+                          <a href="http://www.theactivetimes.com/13-things-keep-your-car-could-save-your-life">
+                            13 Things to Keep in Your Car That Could Save Your Life
+                          </a>
+                        </div>
+                      </div>
+                      <div class="AT_story">
+                        <div class="ATstory_content">
+                          <a href="http://www.theactivetimes.com/how-cold-too-cold-exercising-outside">
+                            <img width="100px" height="80px" alt="" src="http://cdn-jpg.theactivetimes.com/sites/default/files/imagecache/activetimes_carousel_100x80/snow_runner_shutterstock_i.jpg"/>
+                          </a>
+                        </div>
+                        <div class="ATstory_title">
+                          <a href="http://www.theactivetimes.com/how-cold-too-cold-exercising-outside">
+                            How Cold Is Too Cold For Exercising Outside?
+                          </a>
+                        </div>
+                      </div>
+                      <div class="AT_story">
+                        <div class="ATstory_content">
+                          <a href="http://www.theactivetimes.com/10-best-energy-bars">
+                            <img width="100px" height="80px" alt="" src="http://cdn-jpg.theactivetimes.com/sites/default/files/imagecache/activetimes_carousel_100x80/best_worst_energy_bars_i.jpg"/>
+                          </a>
+                        </div>
+                        <div class="ATstory_title">
+                          <a href="http://www.theactivetimes.com/10-best-energy-bars">
+                            The 10 Best Energy Bars For Athletes (And Everybody Else)
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <!--AT_storyLinks-->                    <div id="AT_MoreOn">
+                      <!--AT_MoreOn-->                      <span>
+                        More on
+                        <a href="http://www.theactivetimes.com/">
+                           The Active Times
+                        </a>
+                      </span>
+                    </div>
+                    <!--AT_MoreOn-->                  </div>
+                  <!--Trending_AT-->                </span>
+              </div>
+              <!--<script src="http://www.theactivetimes.com/at-widget-trending" type="text/javascript" ></script>-->              <!--<script src="http://www.theactivetimes.com/at-widget-trending" type="text/javascript" ></script>-->              <!--End Widget-->              <!--End Widget-->            </div>
+          </div>
+          <div class="block block-block" id="block-block-142">
+            <div class="content">
+              <div id="media-net-rightrail">
+                <span>
+                  <script type="text/javascript">
+//<![CDATA[
+
+console.log('----mnrr----');
+window._mNHandle = window._mNHandle || {};
+window._mNHandle.queue = window._mNHandle.queue || [];
+(function (){var sct = document.createElement("script"),sctHl = document.getElementsByTagName("script")[0];sct.type = "text/javascript";sct.src = 'http://contextual.media.net/dmedianet.js?cid=8CU16V6SG';sct.async = "async";sctHl.parentNode.insertBefore(sct, sctHl);})();
+
+//]]>
+                  </script>
+                  <script type="text/javascript">
+//<![CDATA[
+
+_mNHandle.queue.push(function () {
+	_mNDetails.loadTag('media-net-rightrail', '300x250', '362531072');
+});
+
+//]]>
+                  </script>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="block block-block" id="block-block-112">
+            <div class="content">
+              <!--paging_filter-->              <div align="center" style="padding-top:10px;" id="wrapper_ad_Right2">
+                <span>
+                  <script type="text/javascript" style="background-position: 94px">
+//<![CDATA[
+
+OAS_AD('Right2');
+console.log('----right2----');
+
+//]]>
+                  </script>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="block block-block" id="block-block-1">
+            <div class="content">
+              <!--paging_filter-->              <!-- TDM Join the Community -->              <!-- TDM Join the Community -->              <div class="hp-join-community-wrapper">
+                <div class="hp-join-community-title hp-section-header">
+                  <div class="hp-join-community-title-border hp-section-header-content">
+                    
+                  Join the Community!
+                
+                  </div>
+                </div>
+                <div class="hp-join-community-links-wrapper">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img src="http://images.thedailymeal.net/sites/all/themes/thedailymeal/images/homepage/JoinCom_Review.png"/>
+                        </td>
+                        <td>
+                          <a rel="nofollow" href="/add/restaurant-review">
+                            Review a Restaurant or Bar
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="http://images.thedailymeal.net/sites/all/themes/thedailymeal/images/homepage/JoinCom_ShareRecipe.png"/>
+                        </td>
+                        <td>
+                          <a rel="nofollow" href="/node/add/recipe">
+                            Share a Recipe
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="/sites/all/themes/thedailymeal/images/homepage/JoinCom_RecommendWine.png"/>
+                        </td>
+                        <td>
+                          <a rel="nofollow" href="/wines_catalog">
+                            Recommend a Wine
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="http://images.thedailymeal.net/sites/all/themes/thedailymeal/images/homepage/JoinCom_Write.png"/>
+                        </td>
+                        <td>
+                          <a rel="nofollow" href="/node/add/article">
+                            Write an Article
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="http://images.thedailymeal.net/sites/all/themes/thedailymeal/images/homepage/JoinCom_PostPhoto.png"/>
+                        </td>
+                        <td>
+                          <a rel="nofollow" href="/node/add/image">
+                            Post a Photo
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <p>
+                <br class="hp-clear"/>
+              </p>
+              <!-- End TDM Join the Community -->              <!-- End TDM Join the Community -->            </div>
+          </div>
+          <div class="block block-block" id="block-block-118">
+            <div class="content">
+              <script type="text/javascript">
+//<![CDATA[
+
+    var ybotq = ybotq || [];
+    ybotq.push(function () {
+      var slot = yieldbot.slot_available('yieldbot_300x250');
+      if (slot) {
+          yieldbot.ad({"slot": slot});
+      }
+    });
+  
+//]]>
+              </script>
+            </div>
+          </div>
+          <div class="block block-block" id="block-block-154">
+            <div class="content">
+              <!--paging_filter-->              <!-- MediaForce -->              <!-- MediaForce -->              <div id="mediaforce">
+                <span>
+                  <script type="text/javascript">
+//<![CDATA[
+&lt;!--
+  adblade_cid="4516-4254973974";
+  adblade_ad_width="300";
+  adblade_ad_height="400";
+  adblade_ad_host="web.adblade.com";
+  adblade_tag_type="1";
+//--&gt;
+//]]>
+                  </script>
+                  <script type="text/javascript" src="http://web.adblade.com/js/ads/show.js">
+                  </script>
+                </span>
+              </div>
+              <!-- End MediaForce -->              <!-- End MediaForce -->            </div>
+          </div>
+          <div class="block block-block" id="block-block-106">
+            <div class="content">
+              <!-- Begin Featured Partners -->              <!-- Begin Featured Partners -->              <div class="hp-season-wrapper">
+                <div class="channel-header-wrapper channel-header-wrapper-default channel-header-wrapper-default-featured">
+                  <div class="channel-header-title channel-header-title-default">
+                    <h2 class="span-title">
+                      Featured Partners
+                    </h2>
+                  </div>
+                </div>
+                <a href="%20http://oascentral.thedailymeal.com/RealMedia/ads/click_lx.ads/tdm/9992354778/TopRight/SpanFell/TDM_AFM_FP/TDM_AFM_more_on_160x58_revised2.png/1">
+                  <img alt="avocado" src="http://cdn-png.thedailymeal.com/sites/default/files/afm_partner_300x100_revised.png"/>
+                </a>
+                <a href="">
+                  <img alt="stcroix" src="http://cdn-png.thedailymeal.com/sites/default/files/1x1.png"/>
+                </a>
+              </div>
+              <br class="hp-clear"/>
+              <!-- End Featured Partners -->              <br class="hp-clear"/>
+              <!-- End Featured Partnerz -->            </div>
+          </div>
+          <div class="block block-block" id="block-block-149">
+            <div class="content">
+              <!--paging_filter-->              <div align="center" id="wrapper_ad_Right3">
+                <span>
+                  <script type="text/javascript" style="background-position: 94px">
+//<![CDATA[
+
+OAS_AD('Right3');
+console.log('----right3----');
+
+//]]>
+                  </script>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- right sidebar ends here -->        <br clear="all"/>
+      </div>
+      <!-- content ends here -->      <!-- footer starts here -->      <div class="container_12" id="footer-wrapper">
+        <!-- footer top starts here -->        <div id="footer-content">
+          <div style="text-align:center;" class="ad" id="wrapper_ad_Bottom">
+          </div>
+          <!-- footer bottom starts here -->          <div id="footer-bottom">
+            <div id="footer-bottom-content">
+              <div class="block block-tdm_profile" id="block-tdm_profile-4">
+                <div class="content">
+                  <div id="footer_wrapper">
+                    <div id="footer_left">
+                      <div id="footer_left_header">
+                        <h3>
+                          Latest from our Community
+                        </h3>
+                      </div>
+                      <div id="footer_left_members">
+                        <!-- start dynamic content -->                        <div class="global_site_footer_user_profile" id="footer_user_profile_879202">
+                          <a rel="noindex,nofollow" href="/foodish-boy-hopping-mad-beijing/32714">
+                            <img width="184" height="184" class="site_footer_user_profile_image" title="The Foodish Boy" alt="The Foodish Boy" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/in_season_184x184/pictures/picture-61785.png"/>
+                            <div class="node_teaser_wrapper" id="footer_user_profile_node_teaser_879202" style="left: 15px;">
+                              <div class="node_image">
+                                <img src="http://cdn-jpg.thedailymeal.com/sites/default/files/imagecache/site_footer_node_img/sites/default/files/foodishmain.jpg"/>
+                              </div>
+                              <div class="node_title">
+                                The Foodish Boy is Hopping Mad in Beijing
+                              </div>
+                              <div class="node_author">
+                                by The Foodish Boy
+                              </div>
+                              <div class="node_teaser_text">
+                                The Foodish Boy spends a week whipping up spicy creations in a Beijing restaurant kitchen...
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="global_site_footer_user_profile" id="footer_user_profile_879169">
+                          <a rel="noindex,nofollow" href="/its-world-whisky-day">
+                            <img width="184" height="184" class="site_footer_user_profile_image" title="Shelbi Nation" alt="Shelbi Nation" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/in_season_184x184/pictures/picture-22873783.jpg"/>
+                            <div class="node_teaser_wrapper" id="footer_user_profile_node_teaser_879169" style="left: 15px;">
+                              <div class="node_title">
+                                It's World Whisky Day! 
+                              </div>
+                              <div class="node_author">
+                                by Shelbi Nation
+                              </div>
+                              <div class="node_teaser_text">
+                                Learn all the ways to order whisky at a bar...
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="global_site_footer_user_profile" id="footer_user_profile_879137">
+                          <a rel="noindex,nofollow" href="/end-summer-salmon-rolls">
+                            <img width="184" height="184" class="site_footer_user_profile_image" title="360Cookware" alt="360Cookware" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/in_season_184x184/pictures/picture-22868804.jpg"/>
+                            <div class="node_teaser_wrapper" id="footer_user_profile_node_teaser_879137" style="left: 15px;">
+                              <div class="node_title">
+                                End of Summer Salmon Rolls 
+                              </div>
+                              <div class="node_author">
+                                by 360Cookware
+                              </div>
+                              <div class="node_teaser_text">
+                                Make a tasty treat for you and your family to cool down on a warm summer night. Don’t worry if you’re busy- cooking the salmon a...
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="global_site_footer_user_profile" id="footer_user_profile_878749">
+                          <a rel="noindex,nofollow" href="/lloyds-chicago-lloyds-great">
+                            <img width="184" height="184" class="site_footer_user_profile_image" title="WilliamSchroeder2000" alt="WilliamSchroeder2000" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/in_season_184x184/pictures/picture-22873726.jpg"/>
+                            <div class="node_teaser_wrapper" id="footer_user_profile_node_teaser_878749" style="left: 15px;">
+                              <div class="node_title">
+                                Lloyd's Chicago: LLoyd's is great
+                              </div>
+                              <div class="node_author">
+                                by WilliamSchroeder2000
+                              </div>
+                              <div class="node_teaser_text">
+                                ...
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="global_site_footer_user_profile" id="footer_user_profile_878395">
+                          <a rel="noindex,nofollow" href="/world-color-austria-white-0">
+                            <img width="184" height="184" class="site_footer_user_profile_image" title="" alt="" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/in_season_184x184/avatar_selection/dineprivatedelpostozagat___v1_28_-_version_2_60_0.jpg"/>
+                            <div class="node_teaser_wrapper" id="footer_user_profile_node_teaser_878395" style="left: 15px;">
+                              <div class="node_title">
+                                A World of Color: Austria in White
+                              </div>
+                              <div class="node_author">
+                                by 
+                              </div>
+                              <div class="node_teaser_text">
+                                A World of Color: Austria in White...
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="global_site_footer_user_profile" id="footer_user_profile_878127">
+                          <a rel="noindex,nofollow" href="/antioxidant-blast-bars">
+                            <img width="184" height="184" class="site_footer_user_profile_image" title="Debbie Adler" alt="Debbie Adler" src="http://cdn.thedailymeal.com/sites/default/files/imagecache/in_season_184x184/avatar_selection/jimmeehanpdtcocktails__concordgrape_v1_248_-_version_2_60.jpg"/>
+                            <div class="node_teaser_wrapper" id="footer_user_profile_node_teaser_878127" style="left: 15px;">
+                              <div class="node_title">
+                                Antioxidant Blast Bars 
+                              </div>
+                              <div class="node_author">
+                                by Debbie Adler
+                              </div>
+                              <div class="node_teaser_text">
+                                By Debbie Adler, author of Sweet Debbie's Organic Treats: Allergy-free &amp; Vegan Recipes from the Famous Los Angeles Bakery...
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- end dynamic content -->                      </div>
+                      <!-- end left memebers -->                    </div>
+                    <!-- end footer-left -->                    <div id="footer_right">
+                      <br/>
+                      <h2>
+                        Join the Community!
+                      </h2>
+                      <br/>
+                      <div class="footer_right_subdiv">
+                        <a href="/add/restaurant-review">
+                          Review a Restaurant or Bar
+                        </a>
+                      </div>
+                      <div class="footer_right_subdiv">
+                        <a href="/node/add/recipe">
+                          Share a Recipe
+                        </a>
+                      </div>
+                      <div class="footer_right_subdiv">
+                        <a href="/wines_catalog">
+                          Recommend a Wine
+                        </a>
+                      </div>
+                      <div class="footer_right_subdiv">
+                        <a href="/node/add/article">
+                          Write Articles
+                        </a>
+                      </div>
+                      <div class="footer_right_subdiv">
+                        <a href="/node/add/image">
+                          Post a Photo
+                        </a>
+                      </div>
+                      <div class="footer_right_subdiv">
+                        <a href="/most_recent">
+                          Comment on a Recent Story
+                        </a>
+                      </div>
+                    </div>
+                    <div class="footer_sub_links">
+                      <ul class="footer_sub_links menu">
+                        <li class="leaf first active-trail">
+                          <a class="active" title="" href="/">
+                            Home
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/cook">
+                            Cook
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/eat">
+                            Eat/Dine
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/drink">
+                            Drink
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/travel">
+                            Travel
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/entertain">
+                            Entertain
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/best-recipes">
+                            Best Recipes
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/lists">
+                            Lists
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/community">
+                            Community
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/video">
+                            Video
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div id="footer_copyright">
+                      <ul class="footer_sub_links menu">
+                        <li class="leaf">
+                          <a title="" href="/about-us">
+                            About Us
+                          </a>
+                        </li>
+                        <li class="leaf last">
+                          <a title="Contact Us" href="/contact-us">
+                            Contact Us
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/privacy-policy">
+                            Privacy
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/legal">
+                            Terms
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="http://www.aboutads.info/consumers/">
+                            Ad Choices
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="http://mediakit.thedailymeal.com">
+                            Advertise
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/html_sitemap/Top">
+                            Sitemap
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="/newsletter/subscriptions">
+                            Newsletters
+                          </a>
+                        </li>
+                        <li class="leaf">
+                          <a title="" href="http://www.spanfellergroup.com/?page_id=45">
+                            Careers
+                          </a>
+                        </li>
+                      </ul>
+                      
+    Copyright © 2014 Spanfeller Media Group, Inc. All Rights Reserved. 
+                      <br/>
+                       The Daily Meal ® is a registered
+    trademark of Spanfeller Media Group, Inc
+  
+                    </div>
+                    <div id="footer-smg-logos">
+                      <div class="footer-tdm-logo">
+                        <a title="The Daily Meal" href="http://www.thedailymeal.com">
+                          <img alt="" src="http://cdn-png.thedailymeal.com/sites/all/themes/thedailymeal/images/tdm-redesign/TDM_logo_footer.png"/>
+                        </a>
+                      </div>
+                      <div class="footer-smg-logo">
+                        <a title="Spanfeller Media Group" href="http://www.spanfellergroup.com/">
+                          <img alt="" src="http://cdn-png.thedailymeal.com/sites/all/themes/thedailymeal/images/tdm-redesign/SMG_logo_footer.png"/>
+                        </a>
+                      </div>
+                      <div class="footer-tat-logo">
+                        <a title="The Active Times" href="http://www.theactivetimes.com">
+                          <img alt="" src="http://cdn-png.thedailymeal.com/sites/all/themes/thedailymeal/images/tdm-redesign/TAT_logo_footer.png"/>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- footer_wrapper end -->                </div>
+              </div>
+            </div>
+          </div>
+          <!-- footer bottom ends here -->        </div>
+      </div>
+      <!-- footer ends here -->      <script type="text/javascript">
+//<![CDATA[
+
+      var disablemobile = getCookie('disablemobile');
+      if (disablemobile==1) {
+        document.write("&lt;!-- Mobile cookie starts here --&gt;");
+        document.write("&lt;div id='mobile-cookie'&gt;");
+      document.write("&lt;a href=''&gt;View Mobile Site&lt;/a&gt;");
+      document.write("&lt;/div&gt;");
+      document.write("&lt;!-- Mobile cookie ends here --&gt;");
+      }
+    
+//]]>
+      </script>
+    </div>
+    <!-- site-layout ends here -->    <script type="text/javascript">
+//<![CDATA[
+
+window._sf_endpt = new Date().getTime();
+var _sf_async_config = {uid:15936, domain:"thedailymeal.com"};
+
+//]]>
+    </script>
+    <!-- Gravity Tag -->    <script type="text/javascript">
+//<![CDATA[
+
+  //&lt;![CDATA[
+  /*
+    (function(){
+    window.gravityInsightsParams = {
+      'type': 'content',
+      'action': '',
+      'site_guid': 'e013a50a093a9feeebf87a084fc27350'
+    };
+    var b,c;b="https:"===document.location.protocol?"https://b-ssl.grvcdn.com/moth-min.js":"http://b.grvcdn.com/moth-min.js";window.grvMakeScript=function(d){var a;a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=d;return a};c=document.getElementsByTagName("script")[0];b&amp;&amp;c.parentNode.insertBefore(window.grvMakeScript(b),c);})();
+  */
+  //]]&gt;
+
+//]]>
+    </script>
+    <!-- End Gravity Tag -->    <div class="user_relationships_ui_popup_form" id="user_relationships_popup_form">
+    </div>
+    <script src="http://cdn-js.thedailymeal.com/sites/default/files/advagg_js/js_600503969a18aa6880f0eadd73937a90_0.js" type="text/javascript">
+    </script>
+    <!-- Generator: 2 -->    <script type="text/javascript">
+//<![CDATA[
+if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-2.newrelic.com","1f3f0e47cb","1815867","MVwAYRcADUoEV0BZXQgWI1YRCAxXSlVEUVEOXBFaCRM8SgBVRlNaOU8LUBI=",0,1966,new Date().getTime(),"","","","",""]);
+//]]>
+    </script>
+    <script type="text/javascript" src="http://js-agent.newrelic.com/nr-100.js">
+    </script>
+  </body>
+</html>

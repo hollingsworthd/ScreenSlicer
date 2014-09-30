@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" class="lte-ie9 lt-ie9">
+  <!--<![endif]-->  <head>
+    <script async="" src="http://b.scorecardresearch.com/beacon.js?_=1396254859818">
+    </script>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <title>
+      Search Results | FiveThirtyEight
+    </title>
+  </head>
+  <body class="search search-results mp6 typekit-enabled full-width highlander-enabled highlander-light">
+    <div class="fit-vids-style" id="fit-vids-style" style="display: none;">
+      ­
+      <style>
+        .fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}
+      </style>
+    </div>
+    <script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=797620670264818">
+    </script>
+    <script type="text/javascript" src="//r-login.wordpress.com/remote-login.php?action=js&amp;host=fivethirtyeight.com&amp;id=64146350&amp;t=1396254859&amp;back=fivethirtyeight.com%2F%3Fs%3Dus">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+		/* &lt;![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]&gt; */
+		
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <link media="all" type="text/css" href="http://s2.wp.com/_static/??-eJx9T0kOwjAM/BDFIEoRB8RbQmMSQzbFphW/J62EQCy5jT2bDWNq+hgEg4C/NcndDAUGR1dkuKAk1V+beVr2zAv4Le9jxrL3Scmk8KhJoUNfZDWbT93TNUFbur5rxJYchoESnGlAsZTljmSsgGJGKe3Mn9TSU6g1Zzy5aAo0s/s11kwGA2YqxDv8d69twbh4Uq6WOJI2zw9MjDqj0nPi0R/Wm323anerbnt5AH8/neY=" id="all-css-0" rel="stylesheet"/>
+    <script type="text/javascript">
+//<![CDATA[
+var _sf_startpt = (new Date()).getTime()
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+			var _sf_async_config = {};
+			/** CONFIGURATION START **/
+			_sf_async_config.uid = 222222;
+			_sf_async_config.domain = "fivethirtyeight.com";
+			_sf_async_config.pingServer = "pespn.chartbeat.net";
+			_sf_async_config.useCanonical = true;
+			_sf_async_config.useSubdomains = false;
+			_sf_async_config.title = "Search Results";
+			_sf_async_config.sections = "politics,index";
+			_sf_async_config.authors = "index";
+			//_sf_async_config.path = "/-0001/11/30/";
+
+			if ("undefined" !== typeof ad_site) {
+				_sf_async_config.zone = ad_site;
+			}
+
+			/** CONFIGURATION END **/
+			(function () {
+				function loadChartbeat() {
+					window._sf_endpt = (new Date()).getTime();
+					var e = document.createElement("script");
+					e.setAttribute("language", "javascript");
+					e.setAttribute("type", "text/javascript");
+					e.setAttribute('src', '//static.chartbeat.com/js/chartbeat_pub.js');
+					document.body.appendChild(e);
+				}
+
+				var oldonload = window.onload;
+				window.onload = (typeof window.onload != "function") ?
+						loadChartbeat : function () {
+					oldonload();
+					loadChartbeat();
+				};
+			})();
+		
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+			function fiveThirtyEightGetCookie(c_name) {
+				var c_value = document.cookie;
+				var c_start = c_value.indexOf(" " + c_name + "=");
+				if (c_start == -1) {
+					c_start = c_value.indexOf(c_name + "=");
+				}
+				if (c_start == -1) {
+					c_value = null;
+				} else {
+					c_start = c_value.indexOf("=", c_start) + 1;
+					var c_end = c_value.indexOf(";", c_start);
+					if (c_end == -1) {
+						c_end = c_value.length;
+					}
+					c_value = unescape(c_value.substring(c_start, c_end));
+				}
+				return c_value;
+			}
+
+			var ad_site = "espn.fivethirtyeight.com",
+					ad_zone = "search",
+					ad_kvps = "sp=espn;",
+					ad_swid = "",
+					ad_counter = 1,
+					ad_ord = Math.floor(9999999999 * Math.random()),
+					ad_seg = "",
+					ad_mnr = -1 &lt; document.cookie.indexOf("grif=1") ? "t" : "f",
+					ad_ref = "other",
+					ref = document.referrer,
+					refsMap = {"facebook.com": "facebook", "twitter.com|t.co": "twitter", "plus.url.google.com|plus.google.com": "googleplus", "google.com": "google", "bing.com": "bing", "yahoo.com": "yahoo", "espn.go.com": "espn"},
+					refKey;
+			for (refKey in refsMap) {
+				ref.match(refKey) &amp;&amp; (ad_ref = refsMap[ refKey ]);
+			}
+			ad_kvps = ad_kvps + "ref=" + ad_ref + ";mnr=" + ad_mnr + ";";
+			ad_swid = fiveThirtyEightGetCookie("SWID");
+			"undefined" != typeof espn &amp;&amp; "function" === typeof espn.core.ad_segments &amp;&amp; (ad_seg = espn.core.ad_segments(), null != ad_seg &amp;&amp; "" != ad_seg &amp;&amp; (ad_kvps += ad_seg));
+			var ad_u = "";
+			null != ad_swid &amp;&amp; "" != ad_swid &amp;&amp; (ad_u = "swid=" + ad_swid + ";");
+		
+//]]>
+    </script>
+    <script src="http://s0.wp.com/_static/??-eJyFzVEKwjAMgOEL2RUnOvYgnqXWOBLXtDbphp7eDhQUhD0Fko/8dk7GR1ZgtSQ2xDOOYIpAdkPdGeRrbEg2tjpkP5YLyALpXiA/3mMVmIBDdgpNQP7gr2qKogFEavLP9TeFPCHMq4xAk/M3k0HwuXw9heN21+8PXde3Lb0AKZZb3Q==" type="text/javascript">
+    </script>
+    <script src="http://a.espncdn.com/prod/scripts/mbox.20.r2.js?ver=3.9-beta2-27714" type="text/javascript">
+    </script>
+    <link href="http://espnfivethirtyeight.wordpress.com/xmlrpc.php?rsd" title="RSD" type="application/rsd+xml" rel="EditURI"/>
+    <link href="http://espnfivethirtyeight.wordpress.com/wp-includes/wlwmanifest.xml" type="application/wlwmanifest+xml" rel="wlwmanifest"/>
+    <meta content="WordPress.com" name="generator"/>
+    <link href="http://espnfivethirtyeight.wordpress.com/?openidserver=1" rel="openid.server"/>
+    <link href="http://espnfivethirtyeight.wordpress.com/" rel="openid.delegate"/>
+    <link title="FiveThirtyEight" href="http://fivethirtyeight.com/osd.xml" type="application/opensearchdescription+xml" rel="search"/>
+    <link title="WordPress.com" href="http://wordpress.com/opensearch.xml" type="application/opensearchdescription+xml" rel="search"/>
+    <meta content="FiveThirtyEight" name="application-name"/>
+    <meta content="width=device-width;height=device-height" name="msapplication-window"/>
+    <meta content="It'll make you smarter - probably" name="msapplication-tooltip"/>
+    <meta content="name=Subscribe;action-uri=http://fivethirtyeight.com/feed/;icon-uri=http://0.gravatar.com/blavatar/2a2b628e813bd94080c4b8714f73bfcd?s=16" name="msapplication-task"/>
+    <style id="syntaxhighlighteranchor" type="text/css">
+    </style>
+    <link href="http://fivethirtyeight.com/?custom-css=1&amp;csblog=4l9oy&amp;cscache=6&amp;csrev=3" type="text/css" id="custom-css-css" rel="stylesheet"/>
+    <link href="http://s2.wp.com/wp-content/themes/vip/fivethirtyeight/assets/img/favicon.ico?m=1394817853g&amp;v=0.9.0" type="image/x-icon" rel="shortcut icon"/>
+    <link href="http://s2.wp.com/wp-content/themes/vip/fivethirtyeight/assets/img/favicon.ico?m=1394817853g&amp;v=0.9.0" type="image/x-icon" rel="icon"/>
+    <link href="http://s2.wp.com/wp-content/themes/vip/fivethirtyeight/assets/img/apple-touch-icon.png?m=1394952613g&amp;v=0.9.0" rel="apple-touch-icon"/>
+    <link href="http://0.gravatar.com/css/hovercard.css?ver=201414x" id="gravatar-card-css" type="text/css" rel="stylesheet"/>
+    <link href="http://0.gravatar.com/css/services.css?ver=201414x" id="gravatar-card-services-css" type="text/css" rel="stylesheet"/>
+    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&amp;gt;div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&amp;gt;span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}
+    </style>
+    <div class="mboxDefault" style="visibility: visible; display: block;">
+    </div>
+    <script>
+//<![CDATA[
+mboxCreate("538_global");
+//]]>
+    </script>
+    <div style="visibility:hidden;display:none" id="mboxMarker-default-538_global-0">
+       
+    </div>
+    <div class="visually-hidden" id="upgrade-browser">
+      <p>
+        For a better browsing experience, please upgrade your browser.
+      </p>
+    </div>
+    <div id="wrapper">
+      <div id="masterad">
+        <!-- Ad placement: Banner -->        <div class="ad-wrapper">
+          <script>
+//<![CDATA[
+
+				// if() statement if there is a min-width for this ad block
+								var FiveThirtyEight_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+				if (924 &lt;= FiveThirtyEight_width){
+					
+					// if() statement if there is a max-width for this ad block
+					
+					if ("undefined" != typeof ad_kvps &amp;&amp; "undefined" != typeof ad_u &amp;&amp; "undefined" != typeof ad_counter &amp;&amp; "undefined" != typeof ad_ord) {
+						if ("undefined" == typeof ad_site || "undefined" == typeof ad_zone) {
+							var ad_site = "espn.fivethirtyeight.com",
+									ad_zone = "story";
+						}
+						var ad_finalString = "http://ad.doubleclick.net/N6444/adj/" + ad_site + "/" + ad_zone + ";" + ad_kvps + "pos=Banner;" + ad_u + "sz=728x90,924x50,1x1;tile=" + ad_counter + ";ord=" + ad_ord;
+						document.write('&lt;div data-cb-ad-id="Banner" data-cb-dfp-id="' + ad_kvps + 'sz=728x90,924x50,1x1"&gt;&lt;script src=' + ad_finalString + '&gt;\x3c/script&gt;&lt;/div&gt;');
+						ad_counter++
+					}
+
+				}			
+//]]>
+          </script>
+          <div data-cb-dfp-id="sp=espn;ref=twitter;mnr=f;sz=728x90,924x50,1x1" data-cb-ad-id="Banner">
+            <script src="http://ad.doubleclick.net/N6444/adj/espn.fivethirtyeight.com/search;sp=espn;ref=twitter;mnr=f;pos=Banner;sz=728x90,924x50,1x1;tile=1;ord=8065082009">
+            </script>
+          </div>
+          <noscript>
+            &lt;a href="http://ad.doubleclick.net/jump/espn.fivethirtyeight.com/search;sp=espn;sz=728x90,924x50,1x1;" target="_blank"&gt;
+					&lt;img src="http://ad.doubleclick.net/ad/espn.fivethirtyeight.com/search;sp=espn;sz=728x90,924x50,1x1;" border="0" alt="" /&gt;
+				&lt;/a&gt;
+			
+          </noscript>
+        </div>
+        <!-- Ad placement: banner -->        <div class="ad-wrapper">
+          <script>
+//<![CDATA[
+
+				// if() statement if there is a min-width for this ad block
+				
+					// if() statement if there is a max-width for this ad block
+											var FiveThirtyEight_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+					if (728 &gt;= FiveThirtyEight_width){
+						
+					if ("undefined" != typeof ad_kvps &amp;&amp; "undefined" != typeof ad_u &amp;&amp; "undefined" != typeof ad_counter &amp;&amp; "undefined" != typeof ad_ord) {
+						if ("undefined" == typeof ad_site || "undefined" == typeof ad_zone) {
+							var ad_site = "espn.fivethirtyeight.com",
+									ad_zone = "story";
+						}
+						var ad_finalString = "http://ad.doubleclick.net/N6444/adj/" + ad_site + "/" + ad_zone + ";" + ad_kvps + "pos=banner;" + ad_u + "sz=320x50,1x1;tile=" + ad_counter + ";ord=" + ad_ord;
+						document.write('&lt;div data-cb-ad-id="banner" data-cb-dfp-id="' + ad_kvps + 'sz=320x50,1x1"&gt;&lt;script src=' + ad_finalString + '&gt;\x3c/script&gt;&lt;/div&gt;');
+						ad_counter++
+					}
+
+				}			
+//]]>
+          </script>
+          <noscript>
+            &lt;a href="http://ad.doubleclick.net/jump/espn.fivethirtyeight.com/search;sp=espn;sz=320x50,1x1;" target="_blank"&gt;
+					&lt;img src="http://ad.doubleclick.net/ad/espn.fivethirtyeight.com/search;sp=espn;sz=320x50,1x1;" border="0" alt="" /&gt;
+				&lt;/a&gt;
+			
+          </noscript>
+        </div>
+      </div>
+      <!-- #masterad -->      <div id="masthead">
+        <h1>
+          <a name="&amp;lpos=fivethirtyeightTopNav&amp;lid=fivethirtyeight" href="http://fivethirtyeight.com">
+            
+			FiveThirtyEight
+		
+          </a>
+        </h1>
+        <div id="ad-presentedby">
+          <!-- Ad placement: PresentedBy -->          <div class="ad-wrapper">
+            <script>
+//<![CDATA[
+
+				// if() statement if there is a min-width for this ad block
+				
+					// if() statement if there is a max-width for this ad block
+					
+					if ("undefined" != typeof ad_kvps &amp;&amp; "undefined" != typeof ad_u &amp;&amp; "undefined" != typeof ad_counter &amp;&amp; "undefined" != typeof ad_ord) {
+						if ("undefined" == typeof ad_site || "undefined" == typeof ad_zone) {
+							var ad_site = "espn.fivethirtyeight.com",
+									ad_zone = "story";
+						}
+						var ad_finalString = "http://ad.doubleclick.net/N6444/adj/" + ad_site + "/" + ad_zone + ";" + ad_kvps + "pos=PresentedByLogo;" + ad_u + "sz=200x24,1x1;tile=" + ad_counter + ";ord=" + ad_ord;
+						document.write('&lt;div data-cb-ad-id="PresentedByLogo" data-cb-dfp-id="' + ad_kvps + 'sz=200x24,1x1"&gt;&lt;script src=' + ad_finalString + '&gt;\x3c/script&gt;&lt;/div&gt;');
+						ad_counter++
+					}
+
+							
+//]]>
+            </script>
+            <div data-cb-dfp-id="sp=espn;ref=twitter;mnr=f;sz=200x24,1x1" data-cb-ad-id="PresentedByLogo">
+              <script src="http://ad.doubleclick.net/N6444/adj/espn.fivethirtyeight.com/search;sp=espn;ref=twitter;mnr=f;pos=PresentedByLogo;sz=200x24,1x1;tile=2;ord=8065082009">
+              </script>
+            </div>
+            <noscript>
+              &lt;a href="http://ad.doubleclick.net/jump/espn.fivethirtyeight.com/search;sp=espn;sz=200x24,1x1;" target="_blank"&gt;
+					&lt;img src="http://ad.doubleclick.net/ad/espn.fivethirtyeight.com/search;sp=espn;sz=200x24,1x1;" border="0" alt="" /&gt;
+				&lt;/a&gt;
+			
+            </noscript>
+          </div>
+        </div>
+        <form class="closed" id="searchform" method="get" action="http://fivethirtyeight.com/">
+          <label for="search-field">
+            Search
+          </label>
+          <input type="search" id="search-field" name="s"/>
+          <input type="submit" class="visually-hidden"/>
+          <button>
+            <i class="icon icon-search icon-lg"/>
+            <span class="visually-hidden">
+              Search
+            </span>
+          </button>
+        </form>
+        <ul class="fte-social">
+          <li>
+            <a name="&amp;lpos=fivethirtyeightHeader&amp;lid=twitter" class="header-share-twitter" target="_blank" href="http://twitter.com/FiveThirtyEight">
+            </a>
+          </li>
+          <li>
+            <a name="&amp;lpos=fivethirtyeightHeader&amp;lid=facebook" class="header-share-facebook" target="_blank" href="http://www.facebook.com/FiveThirtyEight">
+            </a>
+          </li>
+        </ul>
+        <nav id="main-navigation">
+          <span class="mobile-toggle">
+          </span>
+          <div class="menu-main-container">
+            <ul class="menu" id="menu-main">
+              <li class="menu-item">
+                <a href="http://fivethirtyeight.com">
+                  Menu
+                </a>
+                <div class="dropdown">
+                  <ul class="menu" id="menu-home">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25503" id="menu-item-25503">
+                      <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=Home" href="http://fivethirtyeight.com/">
+                        Home
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-25502" id="menu-item-25502">
+                      <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=DataLab" href="http://fivethirtyeight.com/datalab/">
+                        DataLab
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25504" id="menu-item-25504">
+                      <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=Features" href="/features/">
+                        Features
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25505" id="menu-item-25505">
+                      <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=Interactives" href="/interactives/">
+                        Interactives
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25520" id="menu-item-25520">
+                      <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=Contributors" href="http://fivethirtyeight.com/contributors/">
+                        Contributors
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27704" id="menu-item-27704">
+                      <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=ESPN.com" href="http://espn.com">
+                        ESPN.com
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25506" id="menu-item-25506">
+                      <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=Contact" href="/contact/">
+                        Contact
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- .dropdown -->              </li>
+              <li class="menu-item">
+                <a name="&amp;lpos=fivethirtyeightTSiteNav&amp;lid=politics" href="http://fivethirtyeight.com/politics/">
+                  
+							Politics						
+                </a>
+                <div class="dropdown">
+                  <ul>
+                    <li>
+                      <article>
+                        <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=politics1" class="post-thumbnail" href="http://fivethirtyeight.com/features/clinton-is-polling-like-an-incumbent-and-that-could-help-her-in-2016/">
+                          <img width="300" height="200" alt="Hillary Clinton speaks at the University Of Miami." class="attachment-small wp-post-image" src="http://espnfivethirtyeight.files.wordpress.com/2014/03/4751114572.jpg?w=300&amp;h=200&amp;crop=1"/>
+                        </a>
+                        <h3>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=politics1" href="http://fivethirtyeight.com/features/clinton-is-polling-like-an-incumbent-and-that-could-help-her-in-2016/">
+                            
+												Clinton Is Polling Like an Incumbent, And That Could Help Her in 2016											
+                          </a>
+                        </h3>
+                      </article>
+                    </li>
+                    <li>
+                      <article>
+                        <h4>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=politics2" href="http://fivethirtyeight.com/features/fivethirtyeight-senate-forecast/">
+                            
+															FiveThirtyEight Senate Forecast: GOP Is Slight Favorite in Race for Senate Control														
+                          </a>
+                        </h4>
+                      </article>
+                    </li>
+                    <li>
+                      <article>
+                        <h4>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=politics3" href="http://fivethirtyeight.com/features/all-politics-is-presidential/">
+                            
+															All Politics Is Presidential														
+                          </a>
+                        </h4>
+                      </article>
+                    </li>
+                    <li>
+                      <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=politics" class="link-allvertical" href="http://fivethirtyeight.com/politics/">
+                        
+										All Politics									
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item">
+                <a name="&amp;lpos=fivethirtyeightTSiteNav&amp;lid=economics" href="http://fivethirtyeight.com/economics/">
+                  
+							Economics						
+                </a>
+                <div class="dropdown">
+                  <ul>
+                    <li>
+                      <article>
+                        <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=economics1" class="post-thumbnail" href="http://fivethirtyeight.com/features/standard-market-forces-appear-to-apply-to-hospitals-too/">
+                          <img width="300" height="200" alt="Heart patient Maxine Bennett talks to a nurse from her bed at Cape Fear Valley Heart and Vascular Center August 4, 2010 in Fayetteville, North Carolina." class="attachment-small wp-post-image" src="http://espnfivethirtyeight.files.wordpress.com/2014/03/61227562.jpg?w=300&amp;h=200&amp;crop=1"/>
+                        </a>
+                        <h3>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=economics1" href="http://fivethirtyeight.com/features/standard-market-forces-appear-to-apply-to-hospitals-too/">
+                            
+												Market Forces Appear to Apply to Hospitals, Too											
+                          </a>
+                        </h3>
+                      </article>
+                    </li>
+                    <li>
+                      <article>
+                        <h4>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=economics2" href="http://fivethirtyeight.com/features/residents-of-struggling-cities-opt-to-skip-town/">
+                            
+															Residents of Struggling Cities Opt to Skip Town														
+                          </a>
+                        </h4>
+                      </article>
+                    </li>
+                    <li>
+                      <article>
+                        <h4>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=economics3" href="http://fivethirtyeight.com/features/missing-up-to-4-million-workers/">
+                            
+															Missing: Up To 4 Million Workers														
+                          </a>
+                        </h4>
+                      </article>
+                    </li>
+                    <li>
+                      <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=economics" class="link-allvertical" href="http://fivethirtyeight.com/economics/">
+                        
+										All Economics									
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item">
+                <a name="&amp;lpos=fivethirtyeightTSiteNav&amp;lid=science" href="http://fivethirtyeight.com/science/">
+                  
+							Science						
+                </a>
+                <div class="dropdown">
+                  <ul>
+                    <li>
+                      <article>
+                        <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=science1" class="post-thumbnail" href="http://fivethirtyeight.com/features/reports-of-a-drop-in-childhood-obesity-are-overblown/">
+                          <img width="300" height="200" alt="Nathaniel Cabrera, 4, right, stretches with classmates Crystal Vargas, center, and Luis Ochoa, left, as a part of a Head Start pilot program aimed at preventing childhood obesity at P.S. 5, Nov. 19, 2003 in New York." class="attachment-small wp-post-image" src="http://espnfivethirtyeight.files.wordpress.com/2014/03/family-childhood-obesity-1-5.jpg?w=300&amp;h=200&amp;crop=1"/>
+                        </a>
+                        <h3>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=science1" href="http://fivethirtyeight.com/features/reports-of-a-drop-in-childhood-obesity-are-overblown/">
+                            
+												Reports of a Drop in Childhood Obesity Are Overblown											
+                          </a>
+                        </h3>
+                      </article>
+                    </li>
+                    <li>
+                      <article>
+                        <h4>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=science2" href="http://fivethirtyeight.com/features/can-evolution-outrace-climate-change/">
+                            
+															Can Evolution Outrace Climate Change?														
+                          </a>
+                        </h4>
+                      </article>
+                    </li>
+                    <li>
+                      <article>
+                        <h4>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=science3" href="http://fivethirtyeight.com/features/when-picking-a-bracket-its-easier-to-be-accurate-than-skillful/">
+                            
+															When Picking a Bracket, It’s Easier to Be Accurate Than Skillful														
+                          </a>
+                        </h4>
+                      </article>
+                    </li>
+                    <li>
+                      <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=science" class="link-allvertical" href="http://fivethirtyeight.com/science/">
+                        
+										All Science									
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item">
+                <a name="&amp;lpos=fivethirtyeightTSiteNav&amp;lid=life" href="http://fivethirtyeight.com/life/">
+                  
+							Life						
+                </a>
+                <div class="dropdown">
+                  <ul>
+                    <li>
+                      <article>
+                        <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=life1" class="post-thumbnail" href="http://fivethirtyeight.com/datalab/are-american-teenagers-getting-more-promiscuous/">
+                          <img width="300" height="200" alt="A Boston City Council hearing on sexual health education and condom availability in Boston Public High Schools in 2011." class="attachment-small wp-post-image" src="http://espnfivethirtyeight.files.wordpress.com/2014/03/02162011_16railpic.jpg?w=300&amp;h=200&amp;crop=1"/>
+                        </a>
+                        <h3>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=life1" href="http://fivethirtyeight.com/datalab/are-american-teenagers-getting-more-promiscuous/">
+                            
+												Are American Teenagers Getting More Promiscuous?											
+                          </a>
+                        </h3>
+                      </article>
+                    </li>
+                    <li>
+                      <article>
+                        <h4>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=life2" href="http://fivethirtyeight.com/features/standard-market-forces-appear-to-apply-to-hospitals-too/">
+                            
+															Market Forces Appear to Apply to Hospitals, Too														
+                          </a>
+                        </h4>
+                      </article>
+                    </li>
+                    <li>
+                      <article>
+                        <h4>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=life3" href="http://fivethirtyeight.com/features/reports-of-a-drop-in-childhood-obesity-are-overblown/">
+                            
+															Reports of a Drop in Childhood Obesity Are Overblown														
+                          </a>
+                        </h4>
+                      </article>
+                    </li>
+                    <li>
+                      <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=life" class="link-allvertical" href="http://fivethirtyeight.com/life/">
+                        
+										All Life									
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item">
+                <a name="&amp;lpos=fivethirtyeightTSiteNav&amp;lid=sports" href="http://fivethirtyeight.com/sports/">
+                  
+							Sports						
+                </a>
+                <div class="dropdown">
+                  <ul>
+                    <li>
+                      <article>
+                        <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=sports1" class="post-thumbnail" href="http://fivethirtyeight.com/features/most-managers-are-headed-to-the-hall-of-mediocrity/">
+                          <img width="300" height="200" alt="New York Yankee manager Joe Girardi." class="attachment-small wp-post-image" src="http://espnfivethirtyeight.files.wordpress.com/2014/03/470403481lh004_toronto_blue.jpg?w=300&amp;h=200&amp;crop=1"/>
+                        </a>
+                        <h3>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=sports1" href="http://fivethirtyeight.com/features/most-managers-are-headed-to-the-hall-of-mediocrity/">
+                            
+												Most Managers Are Headed to the Hall of Mediocrity											
+                          </a>
+                        </h3>
+                      </article>
+                    </li>
+                    <li>
+                      <article>
+                        <h4>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=sports2" href="http://fivethirtyeight.com/features/even-if-they-dont-win-tonight-the-76ers-are-getting-better/">
+                            
+															Even If They Don’t Win Tonight, the 76ers Are Getting Better														
+                          </a>
+                        </h4>
+                      </article>
+                    </li>
+                    <li>
+                      <article>
+                        <h4>
+                          <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=sports3" href="http://fivethirtyeight.com/features/the-imperfect-pursuit-of-a-perfect-baseball-forecast/">
+                            
+															The Imperfect Pursuit of a Perfect Baseball Forecast														
+                          </a>
+                        </h4>
+                      </article>
+                    </li>
+                    <li>
+                      <a name="&amp;lpos=fivethirtyeightTSubNav&amp;lid=sports" class="link-allvertical" href="http://fivethirtyeight.com/sports/">
+                        
+										All Sports									
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- #main-navigation -->      </div>
+      <!-- #masthead -->      <div data-col="2" class="home" id="content">
+        <div class="single-col" id="primary">
+          <div class="content-area" id="main">
+            <div class="page-header">
+              <h1 class="page-title">
+                <span>
+                  Search results for
+                </span>
+                “us”				
+              </h1>
+            </div>
+            <div class="post-15556 fte_features type-fte_features status-publish hentry tag-2010 tag-us-house vertical-politics" id="post-15556">
+              <div class="post-info">
+                <p class="topic">
+                  <span class="datetime">
+                    
+				Jul 29, 2009			
+                  </span>
+                </p>
+                <h2 class="article-title">
+                  <a href="http://fivethirtyeight.com/features/2010-its-all-about-the-national-swing/">
+                    
+				2010:  It’s All About the National Swing			
+                  </a>
+                </h2>
+                <p class="byline">
+                  By 
+                  <span>
+                    Andrew Gelman
+                  </span>
+                </p>
+                <p class="tags">
+                  
+				Filed under
+				
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/2010/">
+                    2010
+                  </a>
+                  , 
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/us-house/">
+                    US House
+                  </a>
+                </p>
+              </div>
+            </div>
+            <!-- .post -->            <div class="post-23040 fte_features type-fte_features status-publish hentry vertical-politics" id="post-23040">
+              <div class="post-info">
+                <p class="topic">
+                  <span class="datetime">
+                    
+				Nov 29, 2010			
+                  </span>
+                </p>
+                <h2 class="article-title">
+                  <a href="http://fivethirtyeight.com/features/what-the-t-s-a-hasnt-told-us/">
+                    
+				What The T.S.A. Hasn’t Told Us			
+                  </a>
+                </h2>
+                <p class="byline">
+                  By 
+                  <a rel="author" title="Posts by Nate Silver" href="http://fivethirtyeight.com/contributors/nate-silver/">
+                    Nate Silver
+                  </a>
+                </p>
+              </div>
+            </div>
+            <!-- .post -->            <div class="post-15245 fte_features type-fte_features status-publish hentry tag-2010 tag-us-house vertical-politics" id="post-15245">
+              <div class="post-info">
+                <p class="topic">
+                  <span class="datetime">
+                    
+				Sep 23, 2009			
+                  </span>
+                </p>
+                <h2 class="article-title">
+                  <a href="http://fivethirtyeight.com/features/generic-house-polling-suggests-the-republicans-could-regain-the-house-in-2010/">
+                    
+				Generic House Polling Suggests the Republicans Could Regain the House in 2010			
+                  </a>
+                </h2>
+                <p class="byline">
+                  By 
+                  <span>
+                    Andrew Gelman
+                  </span>
+                </p>
+                <p class="tags">
+                  
+				Filed under
+				
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/2010/">
+                    2010
+                  </a>
+                  , 
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/us-house/">
+                    US House
+                  </a>
+                </p>
+              </div>
+            </div>
+            <!-- .post -->            <div class="post-15475 fte_features type-fte_features status-publish hentry tag-2010 tag-national-polls tag-us-house vertical-politics" id="post-15475">
+              <div class="post-info">
+                <p class="topic">
+                  <span class="datetime">
+                    
+				Aug 12, 2009			
+                  </span>
+                </p>
+                <h2 class="article-title">
+                  <a href="http://fivethirtyeight.com/features/looking-forward-to-2010/">
+                    
+				Looking Forward to 2010			
+                  </a>
+                </h2>
+                <p class="byline">
+                  By 
+                  <span>
+                    Andrew Gelman
+                  </span>
+                </p>
+                <p class="tags">
+                  
+				Filed under
+				
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/2010/">
+                    2010
+                  </a>
+                  , 
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/national-polls/">
+                    National Polls
+                  </a>
+                  , 
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/us-house/">
+                    US House
+                  </a>
+                </p>
+              </div>
+            </div>
+            <!-- .post -->            <div class="post-14184 fte_features type-fte_features status-publish hentry vertical-politics" id="post-14184">
+              <div class="post-info">
+                <p class="topic">
+                  <span class="datetime">
+                    
+				Feb 28, 2010			
+                  </span>
+                </p>
+                <h2 class="article-title">
+                  <a href="http://fivethirtyeight.com/features/us-manufacturing-is-not-dead/">
+                    
+				US Manufacturing Is Not Dead			
+                  </a>
+                </h2>
+                <p class="byline">
+                  By 
+                  <span>
+                    Hale Stewart
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- .post -->            <div class="post-12923 fte_features type-fte_features status-publish hentry tag-2010 tag-generic-ballot tag-us-house vertical-politics" id="post-12923">
+              <div class="post-info">
+                <p class="topic">
+                  <span class="datetime">
+                    
+				Aug 20, 2010			
+                  </span>
+                </p>
+                <h2 class="article-title">
+                  <a href="http://fivethirtyeight.com/features/how-the-generic-ballot-is-used-to-estimate-votes-and-then-seats-in-congressional-elections/">
+                    
+				How the Generic Ballot is Used to Estimate Votes and then Seats in Congressional Elections			
+                  </a>
+                </h2>
+                <p class="byline">
+                  By 
+                  <span>
+                    Andrew Gelman
+                  </span>
+                </p>
+                <p class="tags">
+                  
+				Filed under
+				
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/2010/">
+                    2010
+                  </a>
+                  , 
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/generic-ballot/">
+                    Generic Ballot
+                  </a>
+                  , 
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/us-house/">
+                    US House
+                  </a>
+                </p>
+              </div>
+            </div>
+            <!-- .post -->            <div class="post-13969 fte_features type-fte_features status-publish hentry tag-econometrics tag-economy-2 vertical-politics" id="post-13969">
+              <div class="post-info">
+                <p class="topic">
+                  <span class="datetime">
+                    
+				Mar 28, 2010			
+                  </span>
+                </p>
+                <h2 class="article-title">
+                  <a href="http://fivethirtyeight.com/features/what-is-the-bond-market-telling-us/">
+                    
+				What is the Bond Market Telling Us?			
+                  </a>
+                </h2>
+                <p class="byline">
+                  By 
+                  <span>
+                    Hale Stewart
+                  </span>
+                </p>
+                <p class="tags">
+                  
+				Filed under
+				
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/econometrics/">
+                    Econometrics
+                  </a>
+                  , 
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/economy-2/">
+                    Economy
+                  </a>
+                </p>
+              </div>
+            </div>
+            <!-- .post -->            <div class="post-22912 fte_features type-fte_features status-publish hentry vertical-politics" id="post-22912">
+              <div class="post-info">
+                <p class="topic">
+                  <span class="datetime">
+                    
+				Feb 16, 2011			
+                  </span>
+                </p>
+                <h2 class="article-title">
+                  <a href="http://fivethirtyeight.com/features/what-early-presidential-polls-tell-us/">
+                    
+				What Early Presidential Polls Tell Us			
+                  </a>
+                </h2>
+                <p class="byline">
+                  By 
+                  <a rel="author" title="Posts by Nate Silver" href="http://fivethirtyeight.com/contributors/nate-silver/">
+                    Nate Silver
+                  </a>
+                </p>
+              </div>
+            </div>
+            <!-- .post -->            <div class="post-28360 fte_datalab type-fte_datalab status-publish format-large-image has-post-thumbnail hentry tag-ask-us-something tag-mitt-romney tag-president-obama tag-world-views vertical-politics" id="post-28360">
+              <a class="post-thumbnail" href="http://fivethirtyeight.com/datalab/romney-obama-and-international-opinion/">
+                <img width="300" height="200" alt="Mitt Romney on Late Night with Jimmy Fallon." class="attachment-small wp-post-image" src="http://espnfivethirtyeight.files.wordpress.com/2014/03/nup_160744_0702.jpg?w=300&amp;h=200&amp;crop=1"/>
+              </a>
+              <div class="post-info">
+                <p class="topic">
+                  <a class="topic-slug" href="http://fivethirtyeight.com/tag/ask-us-something/">
+                    Ask Us Something
+                  </a>
+                  <span class="datetime">
+                    
+				Mar 20, 2014			
+                  </span>
+                </p>
+                <h2 class="article-title">
+                  <a href="http://fivethirtyeight.com/datalab/romney-obama-and-international-opinion/">
+                    
+				Romney, Obama And International Opinion			
+                  </a>
+                </h2>
+                <p class="byline">
+                  By 
+                  <a rel="author" title="Posts by Harry Enten" href="http://fivethirtyeight.com/contributors/harry-enten/">
+                    Harry Enten
+                  </a>
+                </p>
+                <p class="tags">
+                  
+				Filed under
+				
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/ask-us-something/">
+                    Ask Us Something
+                  </a>
+                  , 
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/mitt-romney/">
+                    Mitt Romney
+                  </a>
+                  , 
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/president-obama/">
+                    President Obama
+                  </a>
+                  , 
+                  <a rel="tag" href="http://fivethirtyeight.com/tag/world-views/">
+                    World Views
+                  </a>
+                </p>
+              </div>
+            </div>
+            <!-- .post -->            <div class="post-22585 fte_features type-fte_features status-publish hentry vertical-politics" id="post-22585">
+              <div class="post-info">
+                <p class="topic">
+                  <span class="datetime">
+                    
+				Jun 3, 2011			
+                  </span>
+                </p>
+                <h2 class="article-title">
+                  <a href="http://fivethirtyeight.com/features/what-do-economic-models-really-tell-us-about-elections/">
+                    
+				What Do Economic Models Really Tell Us About Elections?			
+                  </a>
+                </h2>
+                <p class="byline">
+                  By 
+                  <a rel="author" title="Posts by Nate Silver" href="http://fivethirtyeight.com/contributors/nate-silver/">
+                    Nate Silver
+                  </a>
+                </p>
+              </div>
+            </div>
+            <!-- .post -->            <a class="link-sectionmore" href="http://fivethirtyeight.com/page/2/?s=us">
+              More &gt;
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="colophon">
+        <div id="footer-social">
+          <div class="menu-main-container">
+            <ul class="menu">
+              <li>
+                <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=contact" href="http://fivethirtyeight.com/contact/">
+                  Contact
+                </a>
+              </li>
+              <li>
+                <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=ESPN" target="_blank" href="http://espn.com">
+                  ESPN
+                </a>
+              </li>
+              <li>
+                <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=fivethirtyeight" href="http://fivethirtyeight.com">
+                  FiveThirtyEight
+                </a>
+              </li>
+              <li>
+                <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=rss" href="http://fivethirtyeight.com/datalab/fear-not-readers-we-have-rss-feeds/">
+                  RSS
+                </a>
+              </li>
+              <li>
+                <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=masthead" href="http://fivethirtyeight.com/masthead/">
+                  Masthead
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- #footer-navigation -->        <div id="footer-navigation">
+          <div class="menu-main-container">
+            <ul class="menu">
+              <li>
+                <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=politics" href="http://fivethirtyeight.com/politics/">
+                  Politics
+                </a>
+              </li>
+              <li>
+                <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=economics" href="http://fivethirtyeight.com/economics/">
+                  Economics
+                </a>
+              </li>
+              <li>
+                <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=science" href="http://fivethirtyeight.com/science/">
+                  Science
+                </a>
+              </li>
+              <li>
+                <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=life" href="http://fivethirtyeight.com/life/">
+                  Life
+                </a>
+              </li>
+              <li>
+                <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=sports" href="http://fivethirtyeight.com/sports/">
+                  Sports
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- #footer-navigation -->        <p id="copyright">
+          <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyTOS" href="http://disneytermsofuse.com/">
+            Terms of Use
+          </a>
+           and 
+          <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyPrivacy" href="http://disneyprivacycenter.com/">
+            Privacy Policy and Safety Information/Your California Privacy Rights
+          </a>
+           are applicable to you. ©2014 ESPN Internet Ventures. All rights reserved. 
+          <a name="&amp;lpos=fivethirtyeightFooter&amp;lid=adPreferences" href="http://preferences-mgr.truste.com/?type=espn&amp;affiliateId=148">
+            Interest-Based Ads
+          </a>
+        </p>
+        <p>
+          
+		Powered by 
+          <a class="powered-by-wpcom" rel="generator nofollow" href="http://vip.wordpress.com/">
+            WordPress.com VIP
+          </a>
+        </p>
+      </div>
+      <!-- #colophon -->    </div>
+    <!-- #wrapper -->    <div id="fb-root" class=" fb_reset">
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+        </div>
+      </div>
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_http" allowtransparency="true" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="http://static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f1fc4201ed0e1de&amp;origin=http%3A%2F%2Ffivethirtyeight.com">
+          </iframe>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_https" allowtransparency="true" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f1fc4201ed0e1de&amp;origin=http%3A%2F%2Ffivethirtyeight.com">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <script>
+//<![CDATA[
+(function (d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s);
+				js.id = id;
+				js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=797620670264818";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+//]]>
+    </script>
+    <!-- Begin comScore Tag -->    <script type="text/javascript">
+//<![CDATA[
+
+			jQuery(function ($) {
+				if (typeof window._comscore === 'undefined') {
+					window._comscore = window._comscore || [];
+					window._comscore.push({ c1: "2", c2: "3000005" });
+					jQuery.getScript((document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js");
+				}
+			});
+		
+//]]>
+    </script>
+    <!-- End comScore Tag -->    <!-- START Nielsen Online SiteCensus V6.0 -->    <!-- COPYRIGHT 2010 Nielsen Online -->    <script type="text/javascript">
+//<![CDATA[
+
+			(function () {
+				var d = new Image(1, 1);
+				d.onerror = d.onload = function () {
+					d.onerror = d.onload = null;
+				};
+				d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-903969h&amp;cg=0&amp;cc=1&amp;si=", escape(window.location.href), "&amp;rp=", escape(document.referrer), "&amp;ts=compact&amp;rnd=", (new Date()).getTime()].join('');
+			})();
+		
+//]]>
+    </script>
+    <noscript>
+      &lt;div&gt;
+				&lt;img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-903969h&amp;amp;cg=0&amp;amp;cc=1&amp;amp;ts=noscript"
+						 width="1" height="1" alt="" /&gt;
+			&lt;/div&gt;
+		
+    </noscript>
+    <!-- END Nielsen Online SiteCensus V6.0 -->    <script type="text/javascript">
+//<![CDATA[
+
+			function fiveThirtyEightGetCookie(c_name) {
+				var c_value = document.cookie;
+				var c_start = c_value.indexOf(" " + c_name + "=");
+				if (c_start == -1) {
+					c_start = c_value.indexOf(c_name + "=");
+				}
+				if (c_start == -1) {
+					c_value = null;
+				} else {
+					c_start = c_value.indexOf("=", c_start) + 1;
+					var c_end = c_value.indexOf(";", c_start);
+					if (c_end == -1) {
+						c_end = c_value.length;
+					}
+					c_value = unescape(c_value.substring(c_start, c_end));
+				}
+				return c_value;
+			}
+
+			var ad_site = "espn.fivethirtyeight.com",
+					ad_zone = "search",
+					ad_kvps = "sp=espn;",
+					ad_swid = "",
+					ad_counter = 1,
+					ad_ord = Math.floor(9999999999 * Math.random()),
+					ad_seg = "",
+					ad_mnr = -1 &lt; document.cookie.indexOf("grif=1") ? "t" : "f",
+					ad_ref = "other",
+					ref = document.referrer,
+					refsMap = {"facebook.com": "facebook", "twitter.com|t.co": "twitter", "plus.url.google.com|plus.google.com": "googleplus", "google.com": "google", "bing.com": "bing", "yahoo.com": "yahoo", "espn.go.com": "espn"},
+					refKey;
+			for (refKey in refsMap) {
+				ref.match(refKey) &amp;&amp; (ad_ref = refsMap[ refKey ]);
+			}
+			ad_kvps = ad_kvps + "ref=" + ad_ref + ";mnr=" + ad_mnr + ";";
+			ad_swid = fiveThirtyEightGetCookie("SWID");
+			"undefined" != typeof espn &amp;&amp; "function" === typeof espn.core.ad_segments &amp;&amp; (ad_seg = espn.core.ad_segments(), null != ad_seg &amp;&amp; "" != ad_seg &amp;&amp; (ad_kvps += ad_seg));
+			var ad_u = "";
+			null != ad_swid &amp;&amp; "" != ad_swid &amp;&amp; (ad_u = "swid=" + ad_swid + ";");
+		
+//]]>
+    </script>
+    <script src="//0.gravatar.com/js/gprofiles.js?ver=201414x" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <script src="http://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g" type="text/javascript">
+    </script>
+    <script>
+//<![CDATA[
+
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	
+//]]>
+    </script>
+    <div style="display:none">
+    </div>
+    <script src="//platform.twitter.com/widgets.js?ver=3.9-beta2-27714" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <script src="http://s0.wp.com/_static/??-eJxtjFEKwjAQBS+kXYoG6od4FkmeZkOThuwm1dsbRUHEz8fMG1rz1i5JkZSCkENji3wbgmyoI052rg7yZDU5FLFLwRA5/TP6rMrzN/601SN2qXGmCzeo56J38NUrnUWgr/8PeXdO8TjuDmYyo9lP4QEN80FN" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+// &lt;![CDATA[
+(function() {
+try{
+  if ( window.external &amp;&amp;'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]&gt;
+
+//]]>
+    </script>
+    <script type="text/javascript" src="http://s.stats.wordpress.com/w.js?21">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+st_go({'blog':'64146350','v':'wpcom','tz':'-4','user_id':'0','subd':'espnfivethirtyeight'});
+function st_vt() {var x=document.createElement("img");x.src="http://stats.wordpress.com/g.gif?blog=64146350&amp;v=wpcomvt&amp;tz=-4&amp;user_id=0&amp;subd=espnfivethirtyeight&amp;rand="+Math.random();}
+ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtXRThKbHcwXTdETWI1alhvb1oseHImN101ZFpEakVpYjlQYVFLYzBaVHRtPz0wXS9bM2Z8Zm5RMyY5ZndiVVErREo3ZE40MDBtNlpnMHlSQV8ySnxdU0w2TEhwWm5STXNpT1JIdl1XSWdGViZTcHxxa0RqNW8rVEF3WmNwQSY0NVMtaFhULF18OWlaeEwxR0MyRFclQnhIVDZLUlRYYzB2K1YrNWtXNWwlUiU/TU1lUTc1eVhBcUJsdmVNSW8xYW9TeklXL3RnVGoxPTF5aVpmbEdxTHlRM1FQVkg2ZV9tQWpGb0IxRA=='});
+addLoadEvent(function(){linktracker_init('64146350',0);});
+	
+//]]>
+    </script>
+    <noscript>
+      &lt;img src="http://stats.wordpress.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;
+    </noscript>
+    <script>
+//<![CDATA[
+
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&amp;x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&amp;x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&amp;x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//stats.wordpress.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&amp;baba=' + Math.random();
+	}
+	
+}
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+			var undef = 'undefined',
+					s_account = "wdgespfivethirtyeight",
+					omniPageName = "search:results",
+					insiderStatus = "",
+					anLoginStatus = "",
+					anGen = "",
+					anYear = "",
+					anDateString = "",
+					callOmniture = function () {
+						// FOR TESTING ONLY
+						s_omni.linkInternalFilters = s_omni.linkInternalFilters + ",http://fivethirtyeight.10uplabs.com/,http://538.vip.local";
+
+						/*-- core story s_omni properties --*/
+						if (typeof anCV != "undefined") {
+							anParseLoginBarInfo(anCV);
+						}
+						s_omni.pageName = "search:results";
+						s_omni.server = window.location.host; // Server from the Host
+						s_omni.channel = "search";
+						s_omni.prop1 = "fivethirtyeight";
+						s_omni.prop4 = "search results";
+s_omni.prop5 = "search";
+s_omni.prop7 = "us";
+s_omni.prop11 = (insiderStatus !== null) ? insiderStatus + ":premium-no" : "premium-no";
+
+						s_omni.prop17 = "en";
+						s_omni.prop21 = anDateString;
+						s_omni.prop22 = anGen;
+
+						
+						s_omni.prop29 = anLoginStatus;
+
+						s_omni.prop35 = "search results";
+
+						s_omni.eVar4 = "us";
+
+						s_omni.eVar7 = anYear + ":" + anGen + ":" + anLoginStatus + ":" + s_omni.prop11 + ":";
+						s_omni.eVar9 = "en";
+
+						s_omni.eVar11 = "search results:fivethirtyeight:search";
+s_omni.eVar13 = "search:results";
+s_omni_events = "event3,event2";
+						if (s_omni.prop11 == "anonymous:premium-yes" || s_omni.prop11 == "insider-no:premium-yes" &amp;&amp; typeof s_omni.prop4 != "undefined" &amp;&amp;
+								(s_omni.prop4 == "story" || s_omni.prop4 == "blog")) {
+							if (typeof s_omni.events != "undefined" &amp;&amp; s_omni.events != "") {
+								s_omni.events = s_omni.events + ",event8"
+							}
+							else {
+								s_omni.events = "event8"
+							}
+						}
+						anDebugCase = "ver_15Feb11_0_";
+						/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+
+						var s_code = s_omni.t();
+						if (s_code) {
+							var sci = new Image(1, 1);
+							sci.onload = function () {
+								console.log("loaded no append")
+							};
+							sci.src = s_code;
+						}
+
+					};
+
+
+			if (typeof(s_omni) === 'undefined') {
+				jQuery(function ($) {
+					// we want to load the analytics files from the cache if possible - so, let's use full $.ajax() calls
+					$.ajax({
+						type    : 'GET',
+						url     : 'http://a.espncdn.com/combiner/c?js=analytics/sOmniFuncs.1.js,analytics/analytics.1.js,analytics/sOmni.1.js,analytics/externalnielsen.js&amp;xhr=1',
+						dataType: 'script',
+						cache   : true,
+						success : function () {
+							var lgSrc;
+							if (typeof anCV !== undef &amp;&amp; anCV === '' &amp;&amp; document.getElementById('form-memberarea') != null) {
+								lgSrc = 'https://r.espn.go.com/members/util/getUserInfo?cb=runOmnitureIndependently';
+								$.getScript(lgSrc); // we don't want this to be cached - so we'll use the $.getScript() method
+							} else {
+								callOmniture();
+							}
+						}
+					});
+				});
+			}
+
+
+		
+//]]>
+    </script>
+    <script language="javascript" type="text/javascript" src="//static.chartbeat.com/js/chartbeat_pub.js">
+    </script>
+  </body>
+</html>

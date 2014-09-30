@@ -1,0 +1,4508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html class="">
+  <head>
+    <title>
+      cincinnati all for sale / wanted classifieds "ibm" - craigslist
+    </title>
+    <meta name="description" content="cincinnati all for sale / wanted classifieds &quot;ibm&quot; - craigslist"/>
+    <link rel="alternate" type="application/rss+xml" href="http://cincinnati.craigslist.org/search/?areaID=35&amp;catAbb=sss&amp;query=ibm&amp;sort=rel&amp;format=rss" title="RSS feed for craigslist | all for sale / wanted &quot;ibm&quot; in cincinnati "/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=1"/>
+    <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/clnew.css?v=723f6cb74da418ed870b0c632abde862"/>
+    <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/jquery-ui-1.9.2.custom.css?v=cb67f2e720fe8a2c7d83234590b2d1ed"/>
+    <script type="text/javascript">
+//<![CDATA[
+<!--
+			var currencySymbol = "&#x0024;";
+var areaRegion = "OH";
+var zoomToPosting = null;
+var showInfoText = "show info";
+var imageHost = "http://images.craigslist.org";
+var areaId = "35";
+var lessInfoText = "less info";
+var showMapTabs = 1;
+var areaCountry = "US";
+var starHint = "save this post in your favorites list";
+var expFaves = "";
+var pID = null;
+var catAbb = "sss";
+var catType = "sss";
+
+		-->
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+<!--
+			var lsDomain = "www";
+
+		-->
+//]]>
+    </script>
+  </head>
+  <body class="toc search w1024" style="zoom: 1;">
+    <script type="text/javascript">
+//<![CDATA[
+<!--
+	function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
+	var pagetype, pagemode;
+	(function(){
+		var h = document.documentElement;
+		h.className = h.className.replace('nojs', '');
+		var b = document.body;
+		var bodyClassList = b.className.split(/\s+/);;
+		pagetype = bodyClassList[0];
+		var fmt = C('cl_fmt');
+		if (fmt) {
+			pagemode = fmt;
+			bodyClassList.push(fmt);
+		} else if (screen.width <= 480) {
+			pagemode = 'mobile';
+			bodyClassList.push(pagemode);
+		}
+		var width = window.innerWidth || document.documentElement.clientWidth;
+		if (width > 1000) { bodyClassList.push('w1024'); }
+		if (typeof catType !== 'undefined') {
+			var mode = (decodeURIComponent(C('cl_img') || '').match(new RegExp(catType + ':([^,]+)', 'i')) || {})[1];
+			for (var i = 0, len = bodyClassList.length; i < len; i++){
+				if (bodyClassList[i] === 'map') { mode = undefined; }
+			}
+			if (mode) { bodyClassList.push(mode); }
+		}
+		b.className = bodyClassList.join(' ');
+	}());
+-->
+//]]>
+    </script>
+    <article id="pagecontainer">
+      <header class="bchead">
+        <div class="contents closed">
+          <div class="breadbox">
+            <div class="mi post">
+              <em>
+                [ 
+              </em>
+              <a href="https://post.craigslist.org/c/cin?lang=en">
+                post
+              </a>
+              <em>
+                 ]
+              </em>
+            </div>
+            <div class="mi account">
+              <em>
+                [ 
+              </em>
+              <a href="https://accounts.craigslist.org">
+                account
+              </a>
+              <em>
+                 ]
+              </em>
+            </div>
+            <div class="mi fav">
+              <div id="favorites">
+                <a href="#" class="favlink">
+                  <span class="n">
+                    0
+                  </span>
+                   favorites
+                </a>
+              </div>
+            </div>
+            <span class="crumb">
+              <a href="//www.craigslist.org/about/sites">
+                CL
+              </a>
+               &gt;
+            </span>
+            <span class="crumb">
+              <a href="/">
+                cincinnati
+              </a>
+               &gt;
+            </span>
+            <span class="crumb">
+              <a href="/sss/">
+                for sale / wanted
+              </a>
+            </span>
+          </div>
+          <div class="dropdown">
+            — — —
+          </div>
+        </div>
+      </header>
+      <blockquote class="searchform">
+        <script type="text/javascript">
+//<![CDATA[
+<!--
+			var catAbb = "sss";
+
+		-->
+//]]>
+        </script>
+        <form action="/search/sss" id="searchform" method="get" accept-charset="utf-8">
+          <input type="checkbox" name="useMap" id="useMap" style="display:none;" value="1"/>
+          <input id="zoomtoposting" type="hidden" name="zoomToPosting" value=""/>
+          <fieldset id="searchfieldset">
+            <legend id="searchlegend">
+              <select id="catAbb" name="catAbb">
+                <option value="ccc">
+                  all community
+
+                
+                </option>
+                <option value="eee">
+                  all event
+
+                
+                </option>
+                <option value="sss" selected="">
+                  all for sale / wanted
+
+                </option>
+                <option disabled="" value="">
+                  --
+
+                </option>
+                <option value="ata">
+                   antiques
+
+                </option>
+                <option data-acat="ata" value="atd">
+                   antiques - by dealer
+
+                </option>
+                <option data-acat="ata" value="atq">
+                   antiques - by owner
+
+                </option>
+                <option value="ppa">
+                   appliances
+
+                </option>
+                <option data-acat="ppa" value="ppd">
+                   appliances - by dealer
+
+                </option>
+                <option data-acat="ppa" value="app">
+                   appliances - by owner
+
+                </option>
+                <option value="ara">
+                   arts+crafts
+
+                </option>
+                <option data-acat="ara" value="ard">
+                   arts &amp; crafts - by dealer
+
+                </option>
+                <option data-acat="ara" value="art">
+                   arts &amp; crafts - by owner
+
+                </option>
+                <option value="sna">
+                   atvs/utvs/snowmobiles
+
+                </option>
+                <option data-acat="sna" value="snd">
+                   atvs, utvs, snowmobiles - by dea
+
+                </option>
+                <option data-acat="sna" value="sno">
+                   atvs, utvs, snowmobiles - by own
+
+                </option>
+                <option value="pta">
+                   auto parts
+
+                </option>
+                <option data-acat="pta" value="ptd">
+                   auto parts - by dealer
+
+                </option>
+                <option data-acat="pta" value="pts">
+                   auto parts - by owner
+
+                </option>
+                <option value="baa">
+                   baby+kids
+
+                </option>
+                <option data-acat="baa" value="bad">
+                   baby &amp; kid stuff - by dealer
+
+                </option>
+                <option data-acat="baa" value="bab">
+                   baby &amp; kid stuff - by owner
+
+                </option>
+                <option value="bar">
+                   barter
+
+                </option>
+                <option value="haa">
+                   beauty+hlth
+
+                </option>
+                <option data-acat="bia" value="bid">
+                   bicycles - by dealer
+
+                </option>
+                <option data-acat="bia" value="bik">
+                   bicycles - by owner
+
+                </option>
+                <option value="bia">
+                   bikes
+
+                </option>
+                <option value="boo">
+                   boats
+
+                </option>
+                <option data-acat="boo" value="bod">
+                   boats - by dealer
+
+                </option>
+                <option data-acat="boo" value="boa">
+                   boats - by owner
+
+                </option>
+                <option value="bka">
+                   books
+
+                </option>
+                <option data-acat="bka" value="bkd">
+                   books &amp; magazines - by dealer
+
+                </option>
+                <option data-acat="bka" value="bks">
+                   books &amp; magazines - by owner
+
+                </option>
+                <option value="bfa">
+                   business
+
+                </option>
+                <option data-acat="bfa" value="bfd">
+                   business/commercial - by dealer
+
+                </option>
+                <option data-acat="bfa" value="bfs">
+                   business/commercial - by owner
+
+                </option>
+                <option value="cta">
+                   cars+trucks
+
+                </option>
+                <option data-acat="cta" value="ctd">
+                   cars &amp; trucks - by dealer
+
+                </option>
+                <option data-acat="cta" value="cto">
+                   cars &amp; trucks - by owner
+
+                </option>
+                <option data-acat="ema" value="emq">
+                   cds / dvds / vhs - by dealer
+
+                </option>
+                <option data-acat="ema" value="emd">
+                   cds / dvds / vhs - by owner
+
+                </option>
+                <option value="ema">
+                   cds/dvd/vhs
+
+                </option>
+                <option value="moa">
+                   cell phones
+
+                </option>
+                <option data-acat="moa" value="mod">
+                   cell phones - by dealer
+
+                </option>
+                <option data-acat="moa" value="mob">
+                   cell phones - by owner
+
+                </option>
+                <option value="cla">
+                   clothes+acc
+
+                </option>
+                <option data-acat="cla" value="cld">
+                   clothing &amp; accessories - by deal
+
+                </option>
+                <option data-acat="cla" value="clo">
+                   clothing &amp; accessories - by owne
+
+                </option>
+                <option value="cba">
+                   collectibles
+
+                </option>
+                <option data-acat="cba" value="cbd">
+                   collectibles - by dealer
+
+                </option>
+                <option data-acat="cba" value="clt">
+                   collectibles - by owner
+
+                </option>
+                <option value="sya">
+                   computers
+
+                </option>
+                <option data-acat="sya" value="syd">
+                   computers - by dealer
+
+                </option>
+                <option data-acat="sya" value="sys">
+                   computers - by owner
+
+                </option>
+                <option value="ela">
+                   electronics
+
+                </option>
+                <option data-acat="ela" value="eld">
+                   electronics - by dealer
+
+                </option>
+                <option data-acat="ela" value="ele">
+                   electronics - by owner
+
+                </option>
+                <option value="gra">
+                   farm+garden
+
+                </option>
+                <option data-acat="gra" value="grq">
+                   farm &amp; garden - by dealer
+
+                </option>
+                <option data-acat="gra" value="grd">
+                   farm &amp; garden - by owner
+
+                </option>
+                <option data-acat="sss" value="ssq">
+                   for sale by dealer
+
+                </option>
+                <option data-acat="sss" value="sso">
+                   for sale by owner
+
+                </option>
+                <option value="zip">
+                   free stuff
+
+                </option>
+                <option value="fua">
+                   furniture
+
+                </option>
+                <option data-acat="fua" value="fud">
+                   furniture - by dealer
+
+                </option>
+                <option data-acat="fua" value="fuo">
+                   furniture - by owner
+
+                </option>
+                <option value="gms">
+                   garage sales
+
+                </option>
+                <option value="foa">
+                   general
+
+                </option>
+                <option data-acat="foa" value="fod">
+                   general for sale - by dealer
+
+                </option>
+                <option data-acat="foa" value="for">
+                   general for sale - by owner
+
+                </option>
+                <option data-acat="haa" value="had">
+                   health and beauty - by dealer
+
+                </option>
+                <option data-acat="haa" value="hab">
+                   health and beauty - by owner
+
+                </option>
+                <option value="hva">
+                   heavy equipment
+
+                </option>
+                <option data-acat="hva" value="hvd">
+                   heavy equipment - by dealer
+
+                </option>
+                <option data-acat="hva" value="hvo">
+                   heavy equipment - by owner
+
+                </option>
+                <option value="hsa">
+                   household
+
+                </option>
+                <option data-acat="hsa" value="hsd">
+                   household items - by dealer
+
+                </option>
+                <option data-acat="hsa" value="hsh">
+                   household items - by owner
+
+                </option>
+                <option value="jwa">
+                   jewelry
+
+                </option>
+                <option data-acat="jwa" value="jwd">
+                   jewelry - by dealer
+
+                </option>
+                <option data-acat="jwa" value="jwl">
+                   jewelry - by owner
+
+                </option>
+                <option value="maa">
+                   materials
+
+                </option>
+                <option data-acat="maa" value="mad">
+                   materials - by dealer
+
+                </option>
+                <option data-acat="maa" value="mat">
+                   materials - by owner
+
+                </option>
+                <option value="mpa">
+                   motorcycle parts &amp; acc
+
+                </option>
+                <option data-acat="mpa" value="mpd">
+                   motorcycle parts/acc - by dealer
+
+                </option>
+                <option data-acat="mpa" value="mpo">
+                   motorcycle parts/acc - by owner
+
+                </option>
+                <option value="mca">
+                   motorcycles
+
+                </option>
+                <option data-acat="mca" value="mcd">
+                   motorcycles/scooters - by dealer
+
+                </option>
+                <option data-acat="mca" value="mcy">
+                   motorcycles/scooters - by owner
+
+                </option>
+                <option data-acat="msa" value="msd">
+                   musical instruments - by dealer
+
+                </option>
+                <option data-acat="msa" value="msg">
+                   musical instruments - by owner
+
+                </option>
+                <option value="msa">
+                   music instr
+
+                </option>
+                <option value="pha">
+                   photo+video
+
+                </option>
+                <option data-acat="pha" value="phd">
+                   photo/video - by dealer
+
+                </option>
+                <option data-acat="pha" value="pho">
+                   photo/video - by owner
+
+                </option>
+                <option value="rva">
+                   recreational vehicles
+
+                </option>
+                <option data-acat="rva" value="rvd">
+                   rvs - by dealer
+
+                </option>
+                <option data-acat="rva" value="rvs">
+                   rvs - by owner
+
+                </option>
+                <option value="sga">
+                   sporting
+
+                </option>
+                <option data-acat="sga" value="sgd">
+                   sporting goods - by dealer
+
+                </option>
+                <option data-acat="sga" value="spo">
+                   sporting goods - by owner
+
+                </option>
+                <option value="tia">
+                   tickets
+
+                </option>
+                <option data-acat="tia" value="tid">
+                   tickets - by dealer
+
+                </option>
+                <option data-acat="tia" value="tix">
+                   tickets - by owner
+
+                </option>
+                <option value="tla">
+                   tools
+
+                </option>
+                <option data-acat="tla" value="tld">
+                   tools - by dealer
+
+                </option>
+                <option data-acat="tla" value="tls">
+                   tools - by owner
+
+                </option>
+                <option value="taa">
+                   toys+games
+
+                </option>
+                <option data-acat="taa" value="tad">
+                   toys &amp; games - by dealer
+
+                </option>
+                <option data-acat="taa" value="tag">
+                   toys &amp; games - by owner
+
+                </option>
+                <option value="vga">
+                   video gaming
+
+                </option>
+                <option data-acat="vga" value="vgd">
+                   video gaming - by dealer
+
+                </option>
+                <option data-acat="vga" value="vgm">
+                   video gaming - by owner
+
+                </option>
+                <option value="waa">
+                   wanted
+
+                </option>
+                <option data-acat="waa" value="wad">
+                   wanted - by dealer
+
+                </option>
+                <option data-acat="waa" value="wan">
+                   wanted - by owner
+
+                </option>
+                <option disabled="" value="">
+                  --
+
+                
+                </option>
+                <option value="ggg">
+                  all gigs
+
+                
+                </option>
+                <option value="hhh">
+                  all housing
+
+                
+                </option>
+                <option value="jjj">
+                  all jobs
+
+                
+                </option>
+                <option value="ppp">
+                  all personals
+
+                
+                </option>
+                <option value="res">
+                  all resume
+
+                
+                </option>
+                <option value="bbb">
+                  all services offered
+
+                </option>
+              </select>
+              <span class="posterpicker">
+                <a href="../sso" data-cat="sso">
+                  owner
+                </a>
+                <b>
+                   | 
+                </b>
+                <a href="../ssq" data-cat="ssq">
+                  dealer
+                </a>
+                <b>
+                   | 
+                </b>
+                <b>
+                  all
+                </b>
+              </span>
+            </legend>
+            <div class="experimentalFeature">
+            </div>
+            <div id="searchtable">
+              <span class="searchgroup">
+                <span>
+                  <input id="query" name="query" data-suggest="search" size="24" value="ibm" placeholder="search" autocorrect="off" autocapitalize="off" type="text"/>
+                </span>
+                <input id="searchbtn" type="submit" value="search"/>
+              </span>
+              <span class="searchgroup">
+                
+	price:
+	
+                <input name="minAsk" class="min" size="5" placeholder="min" value="" type="text"/>
+                <input name="maxAsk" class="max" size="5" placeholder="max" value="" type="text"/>
+              </span>
+              <input type="hidden" name="sort" value="rel"/>
+              <span class="searchgroup">
+                <label>
+                  <input type="checkbox" name="hasPic" value="1"/>
+                  <span class="haspic">
+                    pic
+                  </span>
+                </label>
+                <label>
+                  <input type="checkbox" name="srchType" value="T" title="search only posting titles"/>
+                  title
+			
+                </label>
+              </span>
+              <span class="searchgroup">
+              </span>
+            </div>
+          </fieldset>
+          <input id="excats" type="hidden" name="excats" value=""/>
+        </form>
+      </blockquote>
+      <div class="catfilterbox">
+        <div class="center">
+          <div class="summary all">
+            <a class="catfilterlink" href="#">
+              showing 
+              <b class="multiple">
+                <span class="subset">
+                  <span class="num">
+                    8
+                  </span>
+                   of 
+                </span>
+                8
+              </b>
+               categories...
+            </a>
+            <button class="filterbutton" style="display: none;">
+              go
+            </button>
+          </div>
+          <div class="dropdown">
+            <div class="info">
+              click and drag to select
+            </div>
+            <div class="catfilter">
+              <div class="catrow in" data-ids="7,166" unselectable="on">
+                <div class="in" unselectable="on">
+                  +
+                </div>
+                <div class="ex" unselectable="on">
+                  –
+                </div>
+                <span class="cat" unselectable="on">
+                  <span class="count">
+                    (172)
+                  </span>
+                   computers+tech
+                </span>
+              </div>
+              <div class="catrow in" data-ids="20,190" unselectable="on">
+                <div class="in" unselectable="on">
+                  +
+                </div>
+                <div class="ex" unselectable="on">
+                  –
+                </div>
+                <span class="cat" unselectable="on">
+                  <span class="count">
+                    (24)
+                  </span>
+                   wanted
+                </span>
+              </div>
+              <div class="catrow in" data-ids="96,167" unselectable="on">
+                <div class="in" unselectable="on">
+                  +
+                </div>
+                <div class="ex" unselectable="on">
+                  –
+                </div>
+                <span class="cat" unselectable="on">
+                  <span class="count">
+                    (17)
+                  </span>
+                   electronics
+                </span>
+              </div>
+              <div class="catrow in" data-ids="134,174" unselectable="on">
+                <div class="in" unselectable="on">
+                  +
+                </div>
+                <div class="ex" unselectable="on">
+                  –
+                </div>
+                <span class="cat" unselectable="on">
+                  <span class="count">
+                    (5)
+                  </span>
+                   business
+                </span>
+              </div>
+              <div class="catrow in" data-ids="5,179" unselectable="on">
+                <div class="in" unselectable="on">
+                  +
+                </div>
+                <div class="ex" unselectable="on">
+                  –
+                </div>
+                <span class="cat" unselectable="on">
+                  <span class="count">
+                    (2)
+                  </span>
+                   general
+                </span>
+              </div>
+              <div class="catrow in" data-ids="151,189" unselectable="on">
+                <div class="in" unselectable="on">
+                  +
+                </div>
+                <div class="ex" unselectable="on">
+                  –
+                </div>
+                <span class="cat" unselectable="on">
+                  <span class="count">
+                    (1)
+                  </span>
+                   video gaming
+                </span>
+              </div>
+              <div class="catrow in" data-ids="145,146" unselectable="on">
+                <div class="in" unselectable="on">
+                  +
+                </div>
+                <div class="ex" unselectable="on">
+                  –
+                </div>
+                <span class="cat" unselectable="on">
+                  <span class="count">
+                    (1)
+                  </span>
+                   cars + trucks
+                </span>
+              </div>
+              <div class="catrow in" data-ids="95,177" unselectable="on">
+                <div class="in" unselectable="on">
+                  +
+                </div>
+                <div class="ex" unselectable="on">
+                  –
+                </div>
+                <span class="cat" unselectable="on">
+                  <span class="count">
+                    (1)
+                  </span>
+                   collectibles
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="body">
+        <section class="favlistinfo"/>
+        <div id="toc_rows">
+          <div class="toc_legend">
+            <div class="center">
+              <span class="tocview buttongroup">
+                <a href="#list" title="show results in a list" class="mode button" data-view="list" id="listview">
+                  list
+                </a>
+                <a href="#pic" title="show results in a list with thumbnail pictures" class="mode button" data-view="pic" id="picview">
+                  thumb
+                </a>
+                <a href="#grid" title="show results side-by-side with larger pictures" class="mode button" data-view="grid" id="gridview">
+                  gallery
+                </a>
+                <a href="#map" title="show results on a map" class="mapview mode button" data-view="map" id="mapview">
+                  map
+                </a>
+              </span>
+              <span class="paginator buttongroup">
+                <span class="button first" title="first page">
+                  &lt;&lt; 
+                </span>
+                <span class="button prev" title="previous page">
+                  &lt; prev 
+                </span>
+                <span class="button pagenum">
+                  1 - 100 of 
+                  <span class="resultcount">
+                    223
+                  </span>
+                </span>
+                <a href="/search/?s=100&amp;areaID=35&amp;catAbb=sss&amp;query=ibm&amp;sort=rel" class="button next" title="next page">
+                   next &gt; 
+                </a>
+              </span>
+              <span class="tocsort buttongroup">
+                <a class="button" title="show newest matches first" href="/search/?sort=date&amp;areaID=35&amp;catAbb=sss&amp;query=ibm">
+                  newest
+                </a>
+                <span class="button sel">
+                  relevant
+                </span>
+                <a class="button" title="sort by price, lowest to highest" href="/search/?sort=priceasc&amp;areaID=35&amp;catAbb=sss&amp;query=ibm">
+                  <span class="pricesort">
+                    <span class="pricesort">
+                      $
+                    </span>
+                    $
+                  </span>
+                  $
+                </a>
+                <a class="button" title="sort by price, highest to lowest" href="/search/?sort=pricedsc&amp;areaID=35&amp;catAbb=sss&amp;query=ibm">
+                  $
+                  <span class="pricesort">
+                    $
+                    <span class="pricesort">
+                      $
+                    </span>
+                  </span>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="content">
+            <p class="row" data-pid="4257920105">
+              <a href="/sys/4257920105.html" class="i" data-id="0:00b0b_3LuhNsHZn5m">
+                <span class="price">
+                  $145
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 24
+                </span>
+                <a href="/sys/4257920105.html">
+                  DELL LATITUDE &amp; IBM THINKPAD LAPTOPS 30 to choose from COMPLETE! - 
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $145
+                </span>
+                <span class="pnr">
+                  <small>
+                     (FAIRFIELD- Xmas EVE SALE til 7ish)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4263794628">
+              <a href="/ele/4263794628.html" class="i" data-id="0:00A0A_5wl6Zzj2pzi">
+                <span class="price">
+                  $145
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 29
+                </span>
+                <a href="/ele/4263794628.html">
+                  Dell Latitude D400/410 subcompacts/IBM RUGID Titanium T60/61LAPTOPS! -
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $145
+                </span>
+                <span class="pnr">
+                  <small>
+                     (25 LAPTOPS $125 to $225)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4278548797">
+              <a href="/sys/4278548797.html" class="i" data-id="0:00H0H_fGkC88H7wJH">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  8
+                </span>
+                <a href="/sys/4278548797.html">
+                  IBM Thinkpad T61 SuperCores/Dell D400/410/430/X1 mini ultra portables 
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Cincinnati, Ohio)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4257984221">
+              <a href="/sys/4257984221.html" class="i" data-id="0:00x0x_5Hxpsv3lGs9">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 24
+                </span>
+                <a href="/sys/4257984221.html">
+                  IBM Thinkpad T60 SuperCores/Dell D430 mini ultra portables - - $199 (F
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (fAIRFIELD, mile north of Jungle Jims)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4267615020">
+              <a href="/sys/4267615020.html" class="i" data-id="0:01313_iFRVYguujaZ">
+                <span class="price">
+                  $165
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  1
+                </span>
+                <a href="/sys/4267615020.html">
+                  IBM Thinkpad T61 SuperCores/Dell D400/410/430/X1 mini ultra portables
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $165
+                </span>
+                <span class="pnr">
+                  <small>
+                     (cincinnati)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4242086949">
+              <a href="/sys/4242086949.html" class="i" data-id="0:01616_eyMdG3nX9pU">
+                <span class="price">
+                  $180
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 13
+                </span>
+                <a href="/sys/4242086949.html">
+                  LAPTOP SALE til XmasEve!50 Dell IBM HP$125to$235 complete!warranted
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $180
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield/Springdale area,daily price drops!)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4242661342">
+              <a href="/sys/4242661342.html" class="i" data-id="0:00o0o_1nHNiMNZdgw">
+                <span class="price">
+                  $165
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 13
+                </span>
+                <a href="/sys/4242661342.html">
+                  LAPTOP SALE! 50 Dell IBM HP $125 to $235 complete!! -OpenDaily
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $165
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield near JungleJims)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4257930358">
+              <a href="/sys/4257930358.html" class="i" data-id="0:00707_5cevXBMJyEm">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 24
+                </span>
+                <a href="/sys/4257930358.html">
+                  Practical Economical DELL &amp; IBM LAPTOPS 20 under $165 Xmas Eve Sale - 
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (5min fromBassProShop/I-275 Fairfield))
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4282765832">
+              <a href="/sys/4282765832.html" class="i" data-id="0:00H0H_fGkC88H7wJH">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan 11
+                </span>
+                <a href="/sys/4282765832.html">
+                  Low-Cost LAPTOPS DELL Latitude &amp; IBM Lenovo Thinkpads complete/cheap -
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Cincincinati Area)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4286977037">
+              <a href="/ele/4286977037.html" class="i" data-id="0:01313_iFRVYguujaZ">
+                <span class="price">
+                  $165
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan 14
+                </span>
+                <a href="/ele/4286977037.html">
+                  IBM Thinkpad T40,T43,T60,T61 Dell Latitude D400,D430 CORE2s many more!
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $165
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Greater Cincinnati)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4242122616">
+              <a href="/sys/4242122616.html" class="i" data-id="0:00Q0Q_5qBmrAXI78I">
+                <span class="price">
+                  $189
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 13
+                </span>
+                <a href="/sys/4242122616.html">
+                  Selection of 50 Dell,IBM,Toshiba,HP Centrino or better LAPTOPS CHEAP -
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $189
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield, Ohio)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4244579353">
+              <a href="/ele/4244579353.html" class="i" data-id="0:00Y0Y_jdKD4frfBeF">
+                <span class="price">
+                  $165
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 14
+                </span>
+                <a href="/ele/4244579353.html">
+                  45 LAPTOPS COMPLETE DELL Latitude IBM Lenovo Thinkpads ALL $125 to$235
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $165
+                </span>
+                <span class="pnr">
+                  <small>
+                     (cincinnati)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4245071925">
+              <a href="/sys/4245071925.html" class="i" data-id="0:00E0E_btOBawG90T8">
+                <span class="price">
+                  $175
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 15
+                </span>
+                <a href="/sys/4245071925.html">
+                  IBM Thinkpad T40,T43,T60,T61 Dell Latitude D400,D430 CORE2s many more!
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $175
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Greater Cincinnati )
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4254023208">
+              <a href="/sys/4254023208.html" class="i" data-id="0:00B0B_5xWl1dqIHAo">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 21
+                </span>
+                <a href="/sys/4254023208.html">
+                  MARKING DOWN 10 LAPTOPS of 40 DAILY! until all gone! Dell IBM Toshiba 
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield/Springdale)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4256506162">
+              <a href="/sys/4256506162.html" class="i" data-id="0:00x0x_5Hxpsv3lGs9">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 23
+                </span>
+                <a href="/sys/4256506162.html">
+                  IBM Thinkpad Lenovo T40, T43, T60, T61 and others; Dell Latitude D400,
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield, plenty left to Select from!)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4256623192">
+              <a href="/sys/4256623192.html" class="i" data-id="0:00P0P_k1VTWUNonhZ">
+                <span class="price">
+                  $149
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 23
+                </span>
+                <a href="/sys/4256623192.html">
+                  Practical Economical DELL &amp; IBM LAPTOPS 20 under $165 Xmas Eve Sale
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $149
+                </span>
+                <span class="pnr">
+                  <small>
+                     (5min fromBassProShop/I-275 Fairfield)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4256871831">
+              <a href="/sys/4256871831.html" class="i" data-id="0:01515_EYvbxmBze3">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 23
+                </span>
+                <a href="/sys/4256871831.html">
+                  10 LOWER PRICED IBM &amp; Dells $125 to $215 complete
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield, open now til Xmas Eve)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4257914199">
+              <a href="/sys/4257914199.html" class="i" data-id="0:01616_eyMdG3nX9pU">
+                <span class="price">
+                  $165
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 24
+                </span>
+                <a href="/sys/4257914199.html">
+                  Dell Latitude and IBM Thinkpads COMPLETE $115 to $215
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $165
+                </span>
+                <span class="pnr">
+                  <small>
+                     (FAIRFIELD all evening! call!)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4263607428">
+              <a href="/sys/4263607428.html" class="i" data-id="0:01313_iFRVYguujaZ">
+                <span class="price">
+                  $165
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 29
+                </span>
+                <a href="/sys/4263607428.html">
+                  Practical Economical DELL &amp; IBM LAPTOPS 20 under $165 Xmas Eve Sale - 
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $165
+                </span>
+                <span class="pnr">
+                  <small>
+                     (30 LAPTOPS $125 to $225 COMPLETE)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4276653314">
+              <a href="/sys/4276653314.html" class="i" data-id="0:00w0w_k9N4DDQZdFw">
+                <span class="price">
+                  $165
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  7
+                </span>
+                <a href="/sys/4276653314.html">
+                  DELL LATITUDE, IBM Lenovo THINKPAD &amp; HP LAPTOP SALE 35 TO CHOOSE FROM!
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $165
+                </span>
+                <span class="pnr">
+                  <small>
+                     (3 @ $125 as of Today's posting!)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4279117939">
+              <a href="/ele/4279117939.html" class="i" data-id="0:00H0H_fGkC88H7wJH">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  8
+                </span>
+                <a href="/ele/4279117939.html">
+                  11 LAPTOPS at or under $145 of 40 DAILY! Dell IBM Toshiba HP
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (35 laptops $125 to $225 complete)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4209512710">
+              <a href="/sys/4209512710.html" class="i" data-id="0:00x0x_6LLJr5rEBAa">
+                <span class="price">
+                  $45
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  3
+                </span>
+                <a href="/sys/4209512710.html">
+                  Laptop - IBM Thinkpad 600E Type 2645
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $45
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Evendale)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4242100887">
+              <a href="/ele/4242100887.html" class="i" data-id="0:00w0w_44kT8fKeXhm">
+                <span class="price">
+                  $165
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 13
+                </span>
+                <a href="/ele/4242100887.html">
+                  MASS LAPTOP Selection! 50 Dell, IBM,Toshiba&amp;HPs $125 to $235 complete!
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $165
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield, Ohio off route 4)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4252418800">
+              <a href="/sys/4252418800.html" class="i" data-id="0:00x0x_5Hxpsv3lGs9">
+                <span class="price">
+                  $154
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 20
+                </span>
+                <a href="/sys/4252418800.html">
+                  Several mint Pairs of Dell Latitude &amp; Ibm/Lenono Thinkpad, your choice
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $154
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4257011557">
+              <a href="/sys/4257011557.html" class="i" data-id="0:00505_dSC1uSIIcRr">
+                <span class="price">
+                  $175
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 23
+                </span>
+                <a href="/sys/4257011557.html">
+                  2GIG IBM Lenovo Thinkpads T60's &amp; T43's complete $175/$215
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $175
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="39.3266198442943" data-longitude="-84.5478867803569" data-pid="4264434069">
+              <a href="/sys/4264434069.html" class="i" data-id="0:00H0H_fGkC88H7wJH">
+                <span class="price">
+                  $165
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 29
+                </span>
+                <a href="/sys/4264434069.html">
+                  DELL LATITUDE, IBM Lenovo THINKPAD &amp; HP LAPTOP SALE 35 TO CHOOSE FROM!
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $165
+                </span>
+                <span class="pnr">
+                  <small>
+                     (35 TO CHOOSE FROM $125 TO $225 MAX!))
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4264434069">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4270555664">
+              <a href="/sys/4270555664.html" class="i" data-id="0:00H0H_fGkC88H7wJH">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  3
+                </span>
+                <a href="/sys/4270555664.html">
+                  Pair of mint IBM LenonoThinkpads/Dell Latitude mini &amp; fullsize LAPTOPS
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Cincinnati)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4272003480">
+              <a href="/sys/4272003480.html" class="i" data-id="0:00T0T_cdMrdYkA3up">
+                <span class="price">
+                  $150
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  4
+                </span>
+                <a href="/sys/4272003480.html">
+                  POWERFUL Lenovo/IBM Thinkpad T43 2.0gigCpu/2gigRAM selection COMPLETE
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $150
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfiled - Laptop Selction)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4276369844">
+              <a href="/bfd/4276369844.html" class="i">
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan 13
+                </span>
+                <a href="/bfd/4276369844.html">
+                  WE BUY HIGH END USED AND NEW Cisco, HP, Compaq, Sun Micro systems, IBM
+                </a>
+              </span>
+              <span class="l2">
+                <span class="pnr">
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/bfd/" data-cat="bfd">
+                  business/commercial - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4279759777">
+              <a href="/sys/4279759777.html" class="i" data-id="0:00x0x_5Hxpsv3lGs9">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  9
+                </span>
+                <a href="/sys/4279759777.html">
+                  Choice from several IBM Lenovo Thinkpad T43 and T60 titanium laptops -
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Cincinnati)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="39.1119325584703" data-longitude="-84.4236122345997" data-pid="4179336270">
+              <a href="/sys/4179336270.html" class="i" data-id="0:00909_etws2UDl6AF">
+                <span class="price">
+                  $60
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  2
+                </span>
+                <a href="/sys/4179336270.html">
+                  IBM 600GB 15k SAS server hard drive
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $60
+                </span>
+                <span class="pnr">
+                  <small>
+                     (east end )
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4179336270">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4212185607">
+              <a href="/ele/4212185607.html" class="i" data-id="0:01111_k08RW6JOJHN">
+                <span class="price">
+                  $25
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 15
+                </span>
+                <a href="/ele/4212185607.html">
+                  IBM Electric Typewriter
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $25
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Cincinnati, OH)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9940751400183" data-longitude="-84.6420237460918" data-pid="4214937737">
+              <a href="/sys/4214937737.html" class="i">
+                <span class="price">
+                  $50
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 19
+                </span>
+                <a href="/sys/4214937737.html">
+                  IBM DS8000 300GB 10K Fibre Channel Hard Disks with caddy 22R1559
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $50
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Florence)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                      <a href="#" class="maptag" data-pid="4214937737">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="39.4181784999513" data-longitude="-84.4244716712924" data-pid="4224550725">
+              <a href="/sys/4224550725.html" class="i" data-id="0:00101_5AIA5x0Rg6d">
+                <span class="price">
+                  $70
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  9
+                </span>
+                <a href="/sys/4224550725.html">
+                  IBM ThinkPad Laptop
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $70
+                </span>
+                <span class="pnr">
+                  <small>
+                     (middletown)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4224550725">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4231182919">
+              <a href="/sys/4231182919.html" class="i" data-id="0:00707_f0kLdLu3ZEv">
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 18
+                </span>
+                <a href="/sys/4231182919.html">
+                  LOOK 2 IBM POS Here REDUCED 
+                </a>
+              </span>
+              <span class="l2">
+                <span class="pnr">
+                  <small>
+                     (Batavia)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4234873656">
+              <a href="/sys/4234873656.html" class="i">
+                <span class="price">
+                  $125
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 19
+                </span>
+                <a href="/sys/4234873656.html">
+                  IBM X60s Duel Core
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $125
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Hamilton,OH)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="39.0753205553634" data-longitude="-84.0432255544328" data-pid="4242772012">
+              <a href="/sys/4242772012.html" class="i">
+                <span class="price">
+                  $100
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 13
+                </span>
+                <a href="/sys/4242772012.html">
+                  IBM LAPTOP T43
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $100
+                </span>
+                <span class="pnr">
+                  <small>
+                     (WILLIAMSBURG)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                      <a href="#" class="maptag" data-pid="4242772012">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4243591889">
+              <a href="/sys/4243591889.html" class="i" data-id="0:01616_eyMdG3nX9pU">
+                <span class="price">
+                  $165
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 14
+                </span>
+                <a href="/sys/4243591889.html">
+                  DELL LATITUDE, IBM Lenovo THINKPAD &amp; HP LAPTOP SALE 45 TO CHOOSE FROM!
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $165
+                </span>
+                <span class="pnr">
+                  <small>
+                     (45 TO CHOOSE FROM $125 TO $235 MAX! )
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4251413928">
+              <a href="/sys/4251413928.html" class="i" data-id="0:00000_9Yqr69huanY">
+                <span class="price">
+                  $137
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 19
+                </span>
+                <a href="/sys/4251413928.html">
+                  Choice from several IBM Lenovo Thinkpad T43 and T60 titanium laptops
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $137
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield Ohio demo location)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4252316542">
+              <a href="/syd/4252316542.html" class="i">
+                <span class="price">
+                  $20
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 20
+                </span>
+                <a href="/syd/4252316542.html">
+                  17" LCD Displays DELL, IBM Good Condition
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $20
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Erlanger KY)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4254792941">
+              <a href="/ele/4254792941.html" class="i" data-id="0:00303_5LKGlYl8aAO">
+                <span class="price">
+                  $30
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 21
+                </span>
+                <a href="/ele/4254792941.html">
+                  IBM monitor 19 inches
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $30
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Montgomery)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4258065990">
+              <a href="/sys/4258065990.html" class="i" data-id="0:00C0C_l1Xvy9nnDJa">
+                <span class="price">
+                  $110
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 24
+                </span>
+                <a href="/sys/4258065990.html">
+                  Laptop, Dell D400,D600,C610,C640,IBM,HP,Toshiba 
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $110
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Florence , Burlington, NKY)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4258791251">
+              <a href="/sys/4258791251.html" class="i" data-id="0:00d0d_eN4pyChFQ1i">
+                <span class="price">
+                  $180
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 25
+                </span>
+                <a href="/sys/4258791251.html">
+                  IBM Lenovo Thinkpad T43 Titanium re-enforced LAPTOP 2.0gig w/60gigHD 
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $180
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield - T43 Thinkpad MINT+++)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4264848206">
+              <a href="/sys/4264848206.html" class="i">
+                <span class="price">
+                  $350
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 30
+                </span>
+                <a href="/sys/4264848206.html">
+                  Great IBM Lenova 420 laptop
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $350
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Cincinnati)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="39.4361120789379" data-longitude="-84.6184751807132" data-pid="4266153651">
+              <a href="/syd/4266153651.html" class="i" data-id="0:01010_1zntcjRhMXq">
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan 14
+                </span>
+                <a href="/syd/4266153651.html">
+                  IBM Lenovo Laptop Model t400
+                </a>
+              </span>
+              <span class="l2">
+                <span class="pnr">
+                  <small>
+                     (Hamilton)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4266153651">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4266928789">
+              <a href="/sys/4266928789.html" class="i" data-id="0:01212_jOlXTYZ9kAP">
+                <span class="price">
+                  $250
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 31
+                </span>
+                <a href="/sys/4266928789.html">
+                  IBM ThinkPad T61
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $250
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Hamilton )
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4270311851">
+              <a href="/syd/4270311851.html" class="i" data-id="0:00L0L_9BKomO9Jnj4">
+                <span class="price">
+                  $140
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan 13
+                </span>
+                <a href="/syd/4270311851.html">
+                  ♣♣♣ IBM NETBOOK 10.1"LCD, 160GB HDD, WEBCAM, Windows 7
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $140
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Eastgate -- Amelia - Batavia)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4272084947">
+              <a href="/sys/4272084947.html" class="i" data-id="0:01313_iFRVYguujaZ">
+                <span class="price">
+                  $150
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  4
+                </span>
+                <a href="/sys/4272084947.html">
+                  Compact/Netbook Dell Selection &amp; full size IBM/DELL/HP/Toshiba LAPTOPS
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $150
+                </span>
+                <span class="pnr">
+                  <small>
+                     (30 to choose from complete/warranted)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9940751400183" data-longitude="-84.6420237460918" data-pid="4275411621">
+              <a href="/syd/4275411621.html" class="i">
+                <span class="price">
+                  $75
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  9
+                </span>
+                <a href="/syd/4275411621.html">
+                  IBM R52 laptop- internet ready.  Good battery and charger
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $75
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Florence, KY)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                      <a href="#" class="maptag" data-pid="4275411621">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4278168106">
+              <a href="/sys/4278168106.html" class="i" data-id="0:00V0V_6RRakFrCyKc">
+                <span class="price">
+                  $1
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  8
+                </span>
+                <a href="/sys/4278168106.html">
+                  IBM 1380999 Ribbon, Black
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $1
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Oakley)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4278170264">
+              <a href="/sys/4278170264.html" class="i" data-id="0:00t0t_fHdUaJnseT9">
+                <span class="price">
+                  $1
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  8
+                </span>
+                <a href="/sys/4278170264.html">
+                  IBM 1337765 lift off correction tape - Typewriter 
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $1
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Oakley)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4278171569">
+              <a href="/sys/4278171569.html" class="i" data-id="0:00I0I_eeEBzxBpBTo">
+                <span class="price">
+                  $1
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  8
+                </span>
+                <a href="/sys/4278171569.html">
+                  IBM  Cartridge Printwheel II - Typewriter
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $1
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Oakley)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4278626745">
+              <a href="/sys/4278626745.html" class="i">
+                <span class="price">
+                  $25
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  8
+                </span>
+                <a href="/sys/4278626745.html">
+                  IBM Network Printer 12 
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $25
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Red Bank Rd.)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="39.1538730690716" data-longitude="-84.3853959496665" data-pid="4283109918">
+              <a href="/ele/4283109918.html" class="i" data-id="0:00D0D_1RcR5K5KznX">
+                <span class="price">
+                  $150
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan 11
+                </span>
+                <a href="/ele/4283109918.html">
+                  IBM Selectric II Typewriter (Black)
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $150
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Madeira, OH)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4283109918">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4284015951">
+              <a href="/sys/4284015951.html" class="i" data-id="0:00X0X_5jZyYliSS0u">
+                <span class="price">
+                  $70
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan 14
+                </span>
+                <a href="/sys/4284015951.html">
+                  IBM S51 desktop - 2GB Ram - WIN7 - Office 07
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $70
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Middletown)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4231607165">
+              <a href="/sys/4231607165.html" class="i" data-id="0:00404_6M5KtDREinJ">
+                <span class="price">
+                  $199
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  6
+                </span>
+                <a href="/sys/4231607165.html">
+                  50 DELL, IBM, HP, TOSHIBA LAPTOP WAREHOUSE SALE DAILY all $125 to $235
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $199
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield, mile north of JungleJims)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4272114157">
+              <a href="/sys/4272114157.html" class="i" data-id="0:00y0y_kjOlS3vs8Yd">
+                <span class="price">
+                  $75
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan 13
+                </span>
+                <a href="/sys/4272114157.html">
+                  IBM ThinkPad/Laptop
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $75
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Aurora Indiana)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4277874737">
+              <a href="/syd/4277874737.html" class="i" data-id="0:00202_5jaflhZznP4">
+                <span class="price">
+                  $125
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan 14
+                </span>
+                <a href="/syd/4277874737.html">
+                  ♣♣♣ IBM NETBOOK 10.1"LCD, 160GB HDD, WEBCAM, Windows 7
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $125
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Eastgate -- Amelia - Batavia)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4278271460">
+              <a href="/sys/4278271460.html" class="i" data-id="0:00v0v_7aQUgtNNJlE">
+                <span class="price">
+                  $165
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  8
+                </span>
+                <a href="/sys/4278271460.html">
+                  DELL Compact/MINI D400/410&amp;large Multimedia Latitude LAPTOPS LOW COST!
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $165
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Dell,IBM,Tohisba,HP LAPTOPS)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4247883773">
+              <a href="/sys/4247883773.html" class="i" data-id="0:00i0i_1iTgi8zabvX">
+                <span class="price">
+                  $150
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 17
+                </span>
+                <a href="/sys/4247883773.html">
+                  30 LAPTOPS to SELECT from all $115 to $185 complete!
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $150
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield, Ohio - SelectComputerResources)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4257346610">
+              <a href="/sys/4257346610.html" class="i" data-id="0:00o0o_ll06e3kErOU">
+                <span class="price">
+                  $145
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 23
+                </span>
+                <a href="/sys/4257346610.html">
+                  Dell Latitude D400(3), D410, D430,X1 complete/compact/netbook Dells
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $145
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield $125 to $225)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4257352157">
+              <a href="/ele/4257352157.html" class="i" data-id="0:00O0O_jYi2s77qaMQ">
+                <span class="price">
+                  $185
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 23
+                </span>
+                <a href="/ele/4257352157.html">
+                  2.0gigIBM Thinkpads $180to$225. T43,T60,T61 MINT
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $185
+                </span>
+                <span class="pnr">
+                  <small>
+                     (XmasEve NOON to 4pm-call)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4257852886">
+              <a href="/sys/4257852886.html" class="i" data-id="0:00x0x_5Hxpsv3lGs9">
+                <span class="price">
+                  $165
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 24
+                </span>
+                <a href="/sys/4257852886.html">
+                  2.0gigIBM Thinkpads $180to$225. T43,T60,T61 MINT - $185 XmasEve til 6
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $165
+                </span>
+                <span class="pnr">
+                  <small>
+                     (30 LAPTOPS $125 to $199 complete)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4257949193">
+              <a href="/sys/4257949193.html" class="i" data-id="0:01616_eyMdG3nX9pU">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 24
+                </span>
+                <a href="/sys/4257949193.html">
+                  2.0gigIBM Thinkpads $180to$225. T43,T60,T61 MINT - until bout 7ish
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield, 30+ LAPTOPS complete til 7ish)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4229028241">
+              <a href="/sys/4229028241.html" class="i" data-id="0:00R0R_j6RD3jUmzKL">
+                <span class="price">
+                  $199
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  4
+                </span>
+                <a href="/sys/4229028241.html">
+                  Dell Latitude D430 compact/thin/mini laptop selection - !
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $199
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4252967456">
+              <a href="/cto/4252967456.html" class="i" data-id="0:00D0D_bIkTNH2kdUD">
+                <span class="price">
+                  $19000
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan 14
+                </span>
+                <a href="/cto/4252967456.html">
+                  Procharged 06 gto
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $19000
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Shepherdsville)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/cto/" data-cat="cto">
+                  cars &amp; trucks - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4253276896">
+              <a href="/sys/4253276896.html" class="i" data-id="0:01616_eyMdG3nX9pU">
+                <span class="price">
+                  $146
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 20
+                </span>
+                <a href="/sys/4253276896.html">
+                  DELL LATITUDE mini/compact/netbooks &amp; FULL-sized units CHEAP! Complete
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $146
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield/Hamilton 30 Laptops $135&amp;up)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4256499798">
+              <a href="/ele/4256499798.html" class="i" data-id="0:00Q0Q_k3WsAjNRAxq">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 23
+                </span>
+                <a href="/ele/4256499798.html">
+                  DELL LATITUDE D810 wide-aspect display/Dell Mini/compact laptops 30+
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield-30+laptops 1pm today -4pm xmas)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4256663861">
+              <a href="/sys/4256663861.html" class="i" data-id="0:00i0i_1iTgi8zabvX">
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 23
+                </span>
+                <a href="/sys/4256663861.html">
+                  DELL LATITUDE D810 wide-aspect display/Dell Mini/compact laptops 30+ -
+                </a>
+              </span>
+              <span class="l2">
+                <span class="pnr">
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4266290470">
+              <a href="/sys/4266290470.html" class="i" data-id="0:01313_iFRVYguujaZ">
+                <span class="price">
+                  $150
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 31
+                </span>
+                <a href="/sys/4266290470.html">
+                  DELL Compact/MINI D400/410&amp;large Multimedia Latitude LAPTOPS LOW COST!
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $150
+                </span>
+                <span class="pnr">
+                  <small>
+                     (HAPPY NEW YEAR! open all week!)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4267625107">
+              <a href="/ele/4267625107.html" class="i" data-id="0:01313_iFRVYguujaZ">
+                <span class="price">
+                  $155
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Jan  1
+                </span>
+                <a href="/ele/4267625107.html">
+                  Dell Latitude Sub Compact Netbook "mini" D400 3lbs/wifi/XP/complete - 
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $155
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield/Middletown)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4199568120">
+              <a href="/sys/4199568120.html" class="i">
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 17
+                </span>
+                <a href="/sys/4199568120.html">
+                  WANTED: AGILENT, AVAYA, CAC, CISCO, DIALOGIC &amp; More
+                </a>
+              </span>
+              <span class="l2">
+                <span class="pnr">
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="39.259182711811" data-longitude="-84.7837162088201" data-pid="4203254639">
+              <a href="/sys/4203254639.html" class="i" data-id="0:00n0n_8E4lic8Q1cX">
+                <span class="price">
+                  $35
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 10
+                </span>
+                <a href="/sys/4203254639.html">
+                  Dell 926 All-in-One Printer
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $35
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Harrison Ohio)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4203254639">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="39.259182711811" data-longitude="-84.7837162088201" data-pid="4203329902">
+              <a href="/ele/4203329902.html" class="i" data-id="0:00n0n_8E4lic8Q1cX">
+                <span class="price">
+                  $35
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 10
+                </span>
+                <a href="/ele/4203329902.html">
+                  Dell 926 All-in-one Inkjet Printer
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $35
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Harrison, Ohio)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4203329902">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="39.2838771927798" data-longitude="-84.4743762952456" data-pid="4219290748">
+              <a href="/sys/4219290748.html" class="i">
+                <span class="price">
+                  $35
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 27
+                </span>
+                <a href="/sys/4219290748.html">
+                  Power Supply's Today Only
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $35
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Tri-County)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                      <a href="#" class="maptag" data-pid="4219290748">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9951064640494" data-longitude="-84.6839069609136" data-pid="4220942506">
+              <a href="/syd/4220942506.html" class="i" data-id="0:00W0W_3yfx2xbE6qK">
+                <span class="price">
+                  $79
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Nov 30
+                </span>
+                <a href="/syd/4220942506.html">
+                  Desktop&amp;17inch LCD; Pentium 3000MHz,DVD-Burner,Internet,Windows&amp;Ofc-XP
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $79
+                </span>
+                <span class="pnr">
+                  <small>
+                     (NKY)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4220942506">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9940751400183" data-longitude="-84.6420237460918" data-pid="4220944151">
+              <a href="/sys/4220944151.html" class="i" data-id="0:00h0h_9VBHfRTUMgm">
+                <span class="price">
+                  $95
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Nov 30
+                </span>
+                <a href="/sys/4220944151.html">
+                  Laptop, Compaq-Evo,Pentium 4-1700, HD=40,Ram-1024,DVD-Burner,Bat,adpt
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $95
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Florence:KY-18 Kroger)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4220944151">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4222016512">
+              <a href="/wan/4222016512.html" class="i">
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Nov 30
+                </span>
+                <a href="/wan/4222016512.html">
+                  Broken Damaged Unwanted LAPTOP - Turn into CASH
+                </a>
+              </span>
+              <span class="l2">
+                <span class="pnr">
+                  <small>
+                     (513-685-4694)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/wan/" data-cat="wan">
+                  wanted - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4222688403">
+              <a href="/sys/4222688403.html" class="i" data-id="0:00h0h_4QLDctvjQD7">
+                <span class="price">
+                  $100
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 20
+                </span>
+                <a href="/sys/4222688403.html">
+                  LABTOPS
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $100
+                </span>
+                <span class="pnr">
+                  <small>
+                     (CINCINNATI)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9951064640494" data-longitude="-84.6839069609136" data-pid="4223080854">
+              <a href="/syd/4223080854.html" class="i" data-id="0:00W0W_3yfx2xbE6qK">
+                <span class="price">
+                  $89
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 20
+                </span>
+                <a href="/syd/4223080854.html">
+                  Desktop&amp;17inch LCD; Pentium 3000MHz,DVD-Burner,Internet,Windows&amp;Ofc-XP
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $89
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Burlington's Kroger on KY-18,Exit 181 Off Hwy (I-75 &amp; I-)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4223080854">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="39.1192664182476" data-longitude="-84.6968558070829" data-pid="4225936127">
+              <a href="/ele/4225936127.html" class="i" data-id="0:00w0w_3tpyf7A5C3u">
+                <span class="price">
+                  $1
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  2
+                </span>
+                <a href="/ele/4225936127.html">
+                  selling electronics
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $1
+                </span>
+                <span class="pnr">
+                  <small>
+                     (cincinnati oh )
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4225936127">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/ele/" data-cat="ele">
+                  electronics - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4226542497">
+              <a href="/wan/4226542497.html" class="i">
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  3
+                </span>
+                <a href="/wan/4226542497.html">
+                  Broken Damaged Unwanted LAPTOP - Turn into CASH
+                </a>
+              </span>
+              <span class="l2">
+                <span class="pnr">
+                  <small>
+                     (513-685-4694)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/wan/" data-cat="wan">
+                  wanted - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4228588668">
+              <a href="/wan/4228588668.html" class="i">
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  4
+                </span>
+                <a href="/wan/4228588668.html">
+                  Broken Damaged Unwanted LAPTOP - Turn into CASH
+                </a>
+              </span>
+              <span class="l2">
+                <span class="pnr">
+                  <small>
+                     (Cincinnati 513-685-4694)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/wan/" data-cat="wan">
+                  wanted - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4230169959">
+              <a href="/wan/4230169959.html" class="i">
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  5
+                </span>
+                <a href="/wan/4230169959.html">
+                  Broken Damaged Unwanted LAPTOP - Turn into CASH
+                </a>
+              </span>
+              <span class="l2">
+                <span class="pnr">
+                  <small>
+                     (Cincinnati 513-685-4694)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/wan/" data-cat="wan">
+                  wanted - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4231594204">
+              <a href="/sys/4231594204.html" class="i" data-id="0:00o0o_1nHNiMNZdgw">
+                <span class="price">
+                  $189
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  6
+                </span>
+                <a href="/sys/4231594204.html">
+                  Hewlett Packard NC6220/NC6400&amp;1 wide screen NC6715 LAPTOP SELECTION
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $189
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Fairfield, mile north of JungleJims)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4231731057">
+              <a href="/wan/4231731057.html" class="i">
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  6
+                </span>
+                <a href="/wan/4231731057.html">
+                  Broken Damaged Unwanted LAPTOP - Turn into CASH
+                </a>
+              </span>
+              <span class="l2">
+                <span class="pnr">
+                  <small>
+                     (513-685-4694)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/wan/" data-cat="wan">
+                  wanted - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9940751400183" data-longitude="-84.6420237460918" data-pid="4231929496">
+              <a href="/sys/4231929496.html" class="i" data-id="0:00h0h_9VBHfRTUMgm">
+                <span class="price">
+                  $95
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  6
+                </span>
+                <a href="/sys/4231929496.html">
+                  Laptop, Compaq-Evo,Pentium 4-1700, HD=40,Ram-1024,DVD-Burner,Bat,adpt
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $95
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Florence:KY-18 Kroger)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4231929496">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4231931863">
+              <a href="/sys/4231931863.html" class="i" data-id="0:00w0w_i7e7SLWNSzj">
+                <span class="price">
+                  $99
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  6
+                </span>
+                <a href="/sys/4231931863.html">
+                  Dell D600, Pentium Four 1600MHz, HD-80,Ram 1GB, Wireless, WIFI,Batter
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $99
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Florence, KY)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9940751400183" data-longitude="-84.6420237460918" data-pid="4231935414">
+              <a href="/syd/4231935414.html" class="i" data-id="0:00g0g_8MvYB4XRelB">
+                <span class="price">
+                  $95
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  6
+                </span>
+                <a href="/syd/4231935414.html">
+                  Laptop,Pentium four-1700,Wireless,DVD,Adap,Bat, Win&amp;Ofc-XP  
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $95
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Burlington's Kroger,KY-18,Exit 181,I-75 )
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4231935414">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9951064640494" data-longitude="-84.6839069609136" data-pid="4231942643">
+              <a href="/sys/4231942643.html" class="i" data-id="0:01414_kbM0xe0wpvE">
+                <span class="price">
+                  $79
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 12
+                </span>
+                <a href="/sys/4231942643.html">
+                  Insprion,Pentium Four-1600, HD-40,Ram-1024,DVD,Win&amp;Ofc-XP        
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $79
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Burlington's Kroger on KY-18,Exit 181 Off I-75&amp;I-71         )
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4231942643">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9951064640494" data-longitude="-84.6839069609136" data-pid="4232875117">
+              <a href="/syd/4232875117.html" class="i" data-id="0:00W0W_3yfx2xbE6qK">
+                <span class="price">
+                  $65
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  7
+                </span>
+                <a href="/syd/4232875117.html">
+                  Desktop&amp;17inch LCD; Pentium 3000MHz,DVD-Burner,Internet,Windows&amp;Ofc-XP
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $65
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Burlington's Kroger on KY-18,Exit 181 Off Hwy (I-75 &amp; I-)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4232875117">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4233274189">
+              <a href="/vgm/4233274189.html" class="i">
+                <span class="price">
+                  $120
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 29
+                </span>
+                <a href="/vgm/4233274189.html">
+                  Over 100 Video Games for the PC
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $120
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Loveland)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/vgm/" data-cat="vgm">
+                  video gaming - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4233749653">
+              <a href="/wan/4233749653.html" class="i">
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  7
+                </span>
+                <a href="/wan/4233749653.html">
+                  Broken Damaged Unwanted LAPTOP - Turn into CASH
+                </a>
+              </span>
+              <span class="l2">
+                <span class="pnr">
+                  <small>
+                     (Cincinnati 513-685-4694)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/wan/" data-cat="wan">
+                  wanted - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9951064640494" data-longitude="-84.6839069609136" data-pid="4234346054">
+              <a href="/syd/4234346054.html" class="i" data-id="0:00W0W_3yfx2xbE6qK">
+                <span class="price">
+                  $89
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  8
+                </span>
+                <a href="/syd/4234346054.html">
+                  Desktop&amp;17inch LCD; Pentium 3000MHz,DVD-Burner,Internet,Windows&amp;Ofc-XP
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $89
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Burlington's Kroger on KY-18,Exit 181 Off Hwy (I-75 &amp; I-)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4234346054">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9940751400183" data-longitude="-84.6420237460918" data-pid="4234347033">
+              <a href="/sys/4234347033.html" class="i" data-id="0:00h0h_9VBHfRTUMgm">
+                <span class="price">
+                  $95
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  8
+                </span>
+                <a href="/sys/4234347033.html">
+                  Laptop, Compaq-Evo,Pentium 4-1700, HD=40,Ram-1024,DVD-Burner,Bat,adpt
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $95
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Florence:KY-18 Kroger)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4234347033">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9951064640494" data-longitude="-84.6839069609136" data-pid="4234359841">
+              <a href="/syd/4234359841.html" class="i" data-id="0:00E0E_8p8u2kqKMSz">
+                <span class="price">
+                  $99
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  8
+                </span>
+                <a href="/syd/4234359841.html">
+                  Dell C610,Hard-80,Ram-1,Wireless,Adapter, battery, Win-XP, Office 2007
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $99
+                </span>
+                <span class="pnr">
+                  <small>
+                     (nky)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4234359841">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4236057246">
+              <a href="/sys/4236057246.html" class="i">
+                <span class="price">
+                  $175
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  9
+                </span>
+                <a href="/sys/4236057246.html">
+                  brand new &amp; refurbished laptops
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $175
+                </span>
+                <span class="pnr">
+                  <small>
+                     (tri-county)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/sys/" data-cat="sys">
+                  computers - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-pid="4236394596">
+              <a href="/wan/4236394596.html" class="i">
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  9
+                </span>
+                <a href="/wan/4236394596.html">
+                  Broken Damaged Unwanted LAPTOP - Turn into CASH 
+                </a>
+              </span>
+              <span class="l2">
+                <span class="pnr">
+                  <small>
+                     (Cincinnati 513-685-4694)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/wan/" data-cat="wan">
+                  wanted - by owner
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9951064640494" data-longitude="-84.6839069609136" data-pid="4236487445">
+              <a href="/syd/4236487445.html" class="i" data-id="0:00E0E_8p8u2kqKMSz">
+                <span class="price">
+                  $89
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec  9
+                </span>
+                <a href="/syd/4236487445.html">
+                  Dell C610,Hard-80,Ram-1,Wireless,Adapter, battery, Win-XP, Office 2007
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $89
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Florence / Burlington)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4236487445">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+            <p class="row" data-latitude="38.9951064640494" data-longitude="-84.6839069609136" data-pid="4236847232">
+              <a href="/syd/4236847232.html" class="i" data-id="0:00E0E_8p8u2kqKMSz">
+                <span class="price">
+                  $89
+                </span>
+              </a>
+              <span class="star">
+              </span>
+              <span class="pl">
+                <span class="date">
+                  Dec 12
+                </span>
+                <a href="/syd/4236847232.html">
+                  Dell C610,Hard-80,Ram-1,Wireless,Adapter, battery, Win-XP, Office 2007
+                </a>
+              </span>
+              <span class="l2">
+                <span class="price">
+                  $89
+                </span>
+                <span class="pnr">
+                  <small>
+                     (Florence / Burlington)
+                  </small>
+                  <span class="px">
+                    <span class="p">
+                       pic 
+                      <a href="#" class="maptag" data-pid="4236847232">
+                        map
+                      </a>
+                    </span>
+                  </span>
+                </span>
+                <a class="gc" href="/syd/" data-cat="syd">
+                  computers - by dealer
+                </a>
+              </span>
+            </p>
+          </div>
+          <div class="toc_legend bottom">
+            <div class="center">
+              <div class="bottompaginator">
+                <span class="paginator buttongroup">
+                  <span class="button first" title="first page">
+                    &lt;&lt; 
+                  </span>
+                  <span class="button prev" title="previous page">
+                    &lt; prev 
+                  </span>
+                  <span class="button pagenum">
+                    1 - 100 of 
+                    <span class="resultcount">
+                      223
+                    </span>
+                  </span>
+                  <a href="/search/?s=100&amp;areaID=35&amp;catAbb=sss&amp;query=ibm&amp;sort=rel" class="button next" title="next page">
+                     next &gt; 
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="floater">
+          <img class="loading" src="http://www.craigslist.org/images/map/animated-spinny.gif"/>
+          <img class="payload" src="http://www.craigslist.org/images/map/animated-spinny.gif"/>
+        </div>
+        <section class="blurbs"/>
+      </section>
+      <footer>
+        <span class="rss">
+          <a class="l" href="http://cincinnati.craigslist.org/search/?areaID=35&amp;catAbb=sss&amp;query=ibm&amp;sort=rel&amp;format=rss">
+            RSS
+          </a>
+          <a href="http://www.craigslist.org/about/rss">
+            (?)
+          </a>
+          <br/>
+        </span>
+        <ul class="clfooter">
+          <li>
+            © 2014 
+            <span class="desktop">
+              craigslist
+            </span>
+            <span class="mobile">
+              CL
+            </span>
+          </li>
+          <li>
+            <a href="//www.craigslist.org/about/help/">
+              help
+            </a>
+          </li>
+          <li>
+            <a href="//www.craigslist.org/about/scams">
+              safety
+            </a>
+          </li>
+          <li class="desktop">
+            <a href="//www.craigslist.org/about/privacy.policy">
+              privacy
+            </a>
+          </li>
+          <li class="desktop">
+            <a href="https://forums.craigslist.org/?forumID=8">
+              feedback
+            </a>
+          </li>
+          <li class="desktop">
+            <a href="//www.craigslist.org/about/craigslist_is_hiring">
+              cl jobs
+            </a>
+          </li>
+          <li>
+            <a href="//www.craigslist.org/about/terms.of.use">
+              terms
+            </a>
+          </li>
+          <li>
+            <a href="//www.craigslist.org/about/">
+              about
+            </a>
+          </li>
+          <li class="fsel desktop" data-mode="mobile">
+            <a href="#">
+              mobile
+            </a>
+          </li>
+          <li class="fsel mobile" data-mode="regular">
+            <a href="#">
+              desktop
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </article>
+    <script type="text/javascript" src="//www.craigslist.org/js/jquery-1.9.1.js?v=56eaef3b8a28d9d45bb4f86004b0eaae">
+    </script>
+    <script type="text/javascript" src="//www.craigslist.org/js/jquery-ui-1.9.2.custom.js?v=32c38510c8db71f2fbef00da891aeaac">
+    </script>
+    <script type="text/javascript" src="//www.craigslist.org/js/formats.js?v=5073b3dc61c933687ba35b2a7b84506e">
+    </script>
+    <iframe style="display: none;" src="//www.craigslist.org/about/localstorage">
+    </iframe>
+    <script type="text/javascript" src="//www.craigslist.org/js/toChecklist.js?v=b163a7aa23a6dad79076f92e56c622f7">
+    </script>
+    <script type="text/javascript" src="//www.craigslist.org/js/jquery.form-defaults.js?v=421648d06bad2f29bbfc2f66c5205aeb">
+    </script>
+    <script type="text/javascript" src="//www.craigslist.org/js/tocs.js?v=dfa448fa33c5b77251cafea397fb09d6">
+    </script>
+    <script type="text/javascript" src="//www.craigslist.org/js/favorites.js?v=1e1d66b56ad41646aa50ee33f4533c04">
+    </script>
+    <script type="text/javascript" src="//www.craigslist.org/js/suggestions.js?v=3402c47237951f68650469f3b15ad2c4">
+    </script>
+    <script type="text/javascript" src="//www.craigslist.org/js/postings.js?v=0ef01ee0f08afce3a82e77611ee210dd" defer="" async="">
+    </script>
+  </body>
+</html>

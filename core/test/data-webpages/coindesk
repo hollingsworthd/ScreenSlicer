@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html class="no-js ie ie8 oldie" lang="en">
+  <!--<![endif]-->  <head>
+    <script async="" src="http://www.reddit.com/search.json?q=url:http://www.coindesk.com/search/us/&amp;jsonp=jQuery11020869161709089667_1396254402713&amp;_=1396254402714">
+    </script>
+    <link media="all" href="http://www.coindesk.com/wp-content/cache/minify/000000/56546/default.include.e3858d.css" type="text/css" rel="stylesheet"/>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" async="" src="//platform.linkedin.com/in.js">
+    </script>
+    <script type="text/javascript" async="" src="https://apis.google.com/js/plusone.js">
+    </script>
+    <script type="text/javascript" async="" src="//connect.facebook.net/en_US/all.js#xfbml=1">
+    </script>
+    <script type="text/javascript" async="" src="//platform.twitter.com/widgets.js">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript" async="" src="//platform.twitter.com/widgets.js" defer="defer">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+(window.NREUM||(NREUM={})).loader_config={xpid:"UA4DWVFaGwEHV1RRDgc="};window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f&lt;d.length;f++)e(d[f]);return e}({1:[function(a,b){function c(a,b,c){c||(c={});for(var d=f[a],e=d&amp;&amp;d.length||0,h=c[g]||(c[g]={}),i=0;e&gt;i;i++)d[i].apply(h,b);return h}function d(a,b){var c=f[a]||(f[a]=[]);c.push(b)}function e(a){return delete a[g]}var f={},g="nr@context";b.exports={on:d,emit:c,clear:e}},{}],2:[function(a){function b(a,b,e,g,i){return h?h-=1:c("err",[i||new UncaughtException(a,b,e)]),"function"==typeof f?f.apply(this,d(arguments)):!1}function UncaughtException(a,b,c){this.message=a||"Uncaught error with no additional information",this.sourceURL=b,this.line=c}var c=a("handle"),d=a("lodash._slice"),e=a("../../../contextual-ee"),f=window.onerror,g=!1,h=0;a("loader").features.push("err"),window.onerror=b;try{throw new Error}catch(i){"stack"in i&amp;&amp;(a("../../wrap-timer"),a("../../wrap-raf"),"addEventListener"in window&amp;&amp;a("../../wrap-events"),window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;a("../../wrap-xhr"),g=!0)}e.on("fn-start",function(){g&amp;&amp;(h+=1)}),e.on("fn-err",function(a,b,d){g&amp;&amp;(this.thrown=!0,c("err",[d,(new Date).getTime()]))}),e.on("fn-end",function(){g&amp;&amp;!this.thrown&amp;&amp;h&gt;0&amp;&amp;(h-=1)})},{"../../../contextual-ee":1,"../../wrap-events":3,"../../wrap-raf":4,"../../wrap-timer":5,"../../wrap-xhr":6,handle:"4O2Y62",loader:"YLUGVp","lodash._slice":14}],3:[function(a){function b(a){d.inPlace(a,["addEventListener","removeEventListener"],"-",c)}function c(a){return a[1]}var d=a("../wrap-function"),e=(a("lodash._slice"),a("../contextual-ee"));if(b(window),"getPrototypeOf"in Object){for(var f=document;f&amp;&amp;!f.hasOwnProperty("addEventListener");)f=Object.getPrototypeOf(f);f&amp;&amp;b(f);for(var g=XMLHttpRequest.prototype;g&amp;&amp;!g.hasOwnProperty("addEventListener");)g=Object.getPrototypeOf(g);g&amp;&amp;b(g)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&amp;&amp;b(XMLHttpRequest.prototype);e.on("addEventListener-start",function(a){if(a[1]){var b=a[1];"function"==typeof b?this.wrapped=b["nr@wrapped"]?a[1]=b["nr@wrapped"]:b["nr@wrapped"]=a[1]=d(b,"fn-"):"function"==typeof b.handleEvent&amp;&amp;d.inPlace(b,["handleEvent"],"fn-")}}),e.on("removeEventListener-start",function(a){var b=this.wrapped;b&amp;&amp;(a[1]=b)})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],4:[function(a){var b=(a("lodash._slice"),a("../wrap-function")),c=a("../contextual-ee");b.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),c.on("raf-start",function(a){a[0]=b(a[0],"fn-")})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],5:[function(a){function b(a){var b=a[0];"string"==typeof b&amp;&amp;(b=new Function(b)),a[0]=c(b,"fn-")}var c=(a("lodash._slice"),a("../wrap-function")),d=a("../contextual-ee");c.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),d.on("setTimer-start",b)},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],6:[function(a){function b(){c.inPlace(this,f,"fn-")}var c=a("../wrap-function"),d=a("../contextual-ee"),e=window.XMLHttpRequest,f=["onload","onerror","onabort","onloadstart","onloadend","onprogress","onreadystatechange","ontimeout"];window.XMLHttpRequest=function(a){var f=new e(a);return d.emit("new-xhr",[],f),c.inPlace(f,["addEventListener","removeEventListener"],"-",function(a,b){return b}),f.addEventListener("readystatechange",b,!1),f},window.XMLHttpRequest.prototype=e.prototype},{"../contextual-ee":1,"../wrap-function":15}],7:[function(a){function b(a){if("string"==typeof a&amp;&amp;a.length)return a.length;if("object"!=typeof a)return void 0;if("undefined"!=typeof ArrayBuffer&amp;&amp;a instanceof ArrayBuffer&amp;&amp;a.byteLength)return a.byteLength;if("undefined"!=typeof Blob&amp;&amp;a instanceof Blob&amp;&amp;a.size)return a.size;if("undefined"!=typeof FormData&amp;&amp;a instanceof FormData)return void 0;try{return JSON.stringify(a).length}catch(b){return void 0}}function c(a){var c=this.params,d=this.metrics;if(!this.ended){this.ended=!0;for(var e=0;k&gt;e;e++)a.removeEventListener(j[e],this.listener,!1);if(!c.aborted){if(d.duration=(new Date).getTime()-this.startTime,4===a.readyState){c.status=a.status;var g=a.responseType,h="arraybuffer"===g||"blob"===g||"json"===g?a.response:a.responseText,i=b(h);if(i&amp;&amp;(d.rxSize=i),this.sameOrigin){var l=a.getResponseHeader("X-NewRelic-App-Data");l&amp;&amp;(c.cat=l.split(", ").pop())}}else c.status=0;d.cbTime=this.cbTime,f("xhr",[c,d])}}}function d(a,b){var c=g(b),d=a.params;d.host=c.hostname+":"+c.port,d.pathname=c.pathname,a.sameOrigin=c.sameOrigin}function e(a,b){return b}if(window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;!/CriOS/.test(navigator.userAgent)){a("loader").features.push("xhr");var f=a("handle"),g=a("./parse-url.js"),h=a("../../../wrap-function"),i=a("../../../contextual-ee"),j=["load","error","abort","timeout"],k=j.length,l=a("../../../loader/id");a("../../wrap-events"),a("../../wrap-xhr"),i.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=c,this.ended=!1,this.xhrGuids={}}),h.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",e),i.on("open-xhr-start",function(a){this.params={method:a[0]},d(this,a[1]),this.metrics={}}),i.on("open-xhr-end",function(a,b){"loader_config"in NREUM&amp;&amp;"xpid"in NREUM.loader_config&amp;&amp;this.sameOrigin&amp;&amp;b.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),i.on("send-xhr-start",function(a,c){var d=this.metrics,e=a[0],f=this;if(d&amp;&amp;e){var g=b(e);g&amp;&amp;(d.txSize=g)}this.startTime=(new Date).getTime(),this.listener=function(a){try{"abort"===a.type&amp;&amp;(f.params.aborted=!0),("load"!==a.type||f.called===f.totalCbs&amp;&amp;(f.onloadCalled||"function"!=typeof c.onload))&amp;&amp;f.end(c)}catch(b){}};for(var h=0;k&gt;h;h++)c.addEventListener(j[h],this.listener,!1)}),i.on("xhr-cb-time",function(a,b,c){this.cbTime+=a,b?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&amp;&amp;"function"==typeof c.onload||this.end(c)}),i.on("xhr-load-added",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&amp;&amp;!this.xhrGuids[c]&amp;&amp;(this.xhrGuids[c]=!0,this.totalCbs+=1)}),i.on("xhr-load-removed",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&amp;&amp;this.xhrGuids[c]&amp;&amp;(delete this.xhrGuids[c],this.totalCbs-=1)}),i.on("addEventListener-end",function(a,b){b instanceof XMLHttpRequest&amp;&amp;"load"===a[0]&amp;&amp;i.emit("xhr-load-added",[a[1],a[2]],b)}),i.on("removeEventListener-end",function(a,b){b instanceof XMLHttpRequest&amp;&amp;"load"===a[0]&amp;&amp;i.emit("xhr-load-removed",[a[1],a[2]],b)}),i.on("fn-start",function(a,b,c){b instanceof XMLHttpRequest&amp;&amp;("onload"===c&amp;&amp;(this.onload=!0),("load"===(a[0]&amp;&amp;a[0].type)||this.onload)&amp;&amp;(this.xhrCbStart=(new Date).getTime()))}),i.on("fn-end",function(a,b){this.xhrCbStart&amp;&amp;i.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,b],b)})}},{"../../../contextual-ee":1,"../../../loader/id":11,"../../../wrap-function":15,"../../wrap-events":3,"../../wrap-xhr":6,"./parse-url.js":8,handle:"4O2Y62",loader:"YLUGVp"}],8:[function(a,b){b.exports=function(a){var b=document.createElement("a"),c=window.location,d={};b.href=a,d.port=b.port;var e=b.href.split("://");return!d.port&amp;&amp;e[1]&amp;&amp;(d.port=e[1].split("/")[0].split(":")[1]),d.port&amp;&amp;"0"!==d.port||(d.port="https"===e[0]?"443":"80"),d.hostname=b.hostname||c.hostname,d.pathname=b.pathname,"/"!==d.pathname.charAt(0)&amp;&amp;(d.pathname="/"+d.pathname),d.sameOrigin=!b.hostname||b.hostname===document.domain&amp;&amp;b.port===c.port&amp;&amp;b.protocol===c.protocol,d}},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],11:[function(a,b){function c(a){if(!a||"object"!=typeof a&amp;&amp;"function"!=typeof a)return-1;if(a===window)return 0;if(e.call(a,"__nr"))return a.__nr;try{return Object.defineProperty(a,"__nr",{value:d,writable:!0,enumerable:!1}),d}catch(b){return a.__nr=d,d}finally{d+=1}}var d=1,e=Object.prototype.hasOwnProperty;b.exports=c},{}],loader:[function(a,b){b.exports=a("YLUGVp")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&amp;&amp;a.agent&amp;&amp;a.licenseKey&amp;&amp;a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&amp;&amp;e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l,features:[]};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],14:[function(a,b){function c(a,b,c){b||(b=0),"undefined"==typeof c&amp;&amp;(c=a?a.length:0);for(var d=-1,e=c-b||0,f=Array(0&gt;e?0:e);++d&lt;e;)f[d]=a[b+d];return f}b.exports=c},{}],15:[function(a,b){function c(a,b,c,d){function nrWrapper(){var g,h=f(arguments),i=this,j=c&amp;&amp;c(h,i)||{};try{e.emit(b+"start",[h,i,d],j)}catch(k){}try{return g=a.apply(i,h)}catch(l){throw e.emit(b+"err",[h,i,l],j),l}finally{try{e.emit(b+"end",[h,i,g],j)}catch(k){}}}return a&amp;&amp;"function"==typeof a&amp;&amp;a.apply&amp;&amp;!a._wrapped?(b||(b=""),nrWrapper._wrapped=!0,nrWrapper):a}function d(a,b,d,e){d||(d="");var f,g,h,i="-"===d.charAt(0);for(h=0;h&lt;b.length;h++)g=b[h],f=a[g],f&amp;&amp;"function"==typeof f&amp;&amp;f.apply&amp;&amp;!f._wrapped&amp;&amp;(a[g]=c(f,i?g+d:d,e,g,a))}var e=a("../contextual-ee"),f=a("lodash._slice");b.exports=c,c.inPlace=d},{"../contextual-ee":1,"lodash._slice":14}]},{},["YLUGVp",7,2]);
+//]]>
+    </script>
+    <link href="//media.coindesk.com" rel="dns-prefetch"/>
+    <link href="http://feeds.feedburner.com/CoinDesk" title="CoinDesk RSS Feed" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.coindesk.com/wp-content/uploads/2013/04/favicon1.ico" rel="shortcut icon"/>
+    <meta content="266ef71c542343fed103b1f5f9ebba6e" name="p:domain_verify"/>
+    <meta content="1418565129" property="twitter:account_id"/>
+    <meta content="MJ12_ed730275-fee8-4fdf-a2f3-32bb8092e061" name="majestic-site-verification"/>
+    <meta content="CGq9LThNt02vzHpLoscJj-arUCM" name="alexaVerifyID"/>
+    <meta content="none" name="msapplication-config"/>
+    <meta content="width=device-width,initial-scale=1" name="viewport"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <title>
+      You searched for us - CoinDesk
+    </title>
+    <meta content="noindex,follow" name="robots"/>
+    <link href="http://www.coindesk.com/search/us/" rel="canonical"/>
+    <link href="http://www.coindesk.com/search/us/page/2/" rel="next"/>
+    <link href="https://plus.google.com/+Coindesk/" rel="publisher"/>
+    <meta content="en_US" property="og:locale"/>
+    <meta content="website" property="og:type"/>
+    <meta content="You searched for us - CoinDesk" property="og:title"/>
+    <meta content="http://www.coindesk.com/search/us/" property="og:url"/>
+    <meta content="CoinDesk" property="og:site_name"/>
+    <meta content="https://www.facebook.com/coindesk" property="article:publisher"/>
+    <meta content="http://www.coindesk.com/wp-content/uploads/2013/05/coindesk-logo.png" property="og:image"/>
+    <link media="all" type="text/css" href="http://www.coindesk.com/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=3.8.1" id="jetpack-subscriptions-css" rel="stylesheet"/>
+    <meta content="WordPress 3.8.1" name="generator"/>
+    <link href="http://www.coindesk.com/page/2/?s=us" rel="next"/>
+    <style type="text/css">
+      img#wpstats{display:none}
+    </style>
+    <style id="ubermenu-style-generator-css" type="text/css">
+      
+/* Menu Width - UberMenu Advanced Settings */
+#megaMenu{ width: 700px; max-width:100%; }
+/* Image Text Padding */
+#megaMenu .ss-nav-menu-with-img &amp;gt; a &amp;gt; .wpmega-link-title, #megaMenu .ss-nav-menu-with-img &amp;gt; a &amp;gt; .wpmega-link-description, #megaMenu .ss-nav-menu-with-img &amp;gt; a &amp;gt; .wpmega-item-description, #megaMenu .ss-nav-menu-with-img &amp;gt; span.um-anchoremulator &amp;gt; .wpmega-link-title, #megaMenu .ss-nav-menu-with-img &amp;gt; span.um-anchoremulator &amp;gt; .wpmega-link-description, #megaMenu .ss-nav-menu-with-img &amp;gt; span.um-anchoremulator &amp;gt; .wpmega-item-description{
+  padding-left: 23px;
+}	
+
+    </style>
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.coindesk.com/wp-content/themes/coindesk2/css/ie8.css"/>
+    <script src="//d3ewslr5655zon.cloudfront.net/tags/coindesk-9efeba062d.js">
+    </script>
+    <script async="" type="text/javascript" src="//disqus.com/forums/coindesk/count.js">
+    </script>
+    <link href="http://s.gravatar.com/css/hovercard.css?ver=2014Maraa" id="gravatar-card-css" type="text/css" rel="stylesheet"/>
+    <link href="http://s.gravatar.com/css/services.css?ver=2014Maraa" id="gravatar-card-services-css" type="text/css" rel="stylesheet"/>
+    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&amp;gt;div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&amp;gt;span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}
+    </style>
+  </head>
+  <body class="search search-results">
+    <div id="fb-root" class=" fb_reset">
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_http" allowtransparency="true" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="http://static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f290199568e4922&amp;origin=http%3A%2F%2Fwww.coindesk.com">
+          </iframe>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_https" allowtransparency="true" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f290199568e4922&amp;origin=http%3A%2F%2Fwww.coindesk.com">
+          </iframe>
+        </div>
+      </div>
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+        </div>
+      </div>
+    </div>
+    <div class="header row">
+      <div class="grid_7 header-logo mintop">
+        <a href="/">
+          <img width="328" height="73" alt="CoinDesk Bitcoin News" src="/wp-content/themes/coindesk2/images/header-logo.png"/>
+        </a>
+      </div>
+      <div class="grid_5 top-nav-wrapper headerExchangeData" style="cursor: pointer;">
+        <h2>
+          <a title="CoinDesk BTC Price" href="/price/">
+            CoinDesk Bitcoin Price Index
+          </a>
+        </h2>
+        <div id="exi">
+          <img width="16" height="16" class="infosymbol" alt="Info on how this value was calculated" src="/wp-content/themes/coindesk2/images/info_symbol.png"/>
+          <div id="exinfo">
+             Based on the following values:
+            <table id="extable">
+              <tbody>
+                <tr>
+                  <td cols="2">
+                    <strong>
+                      USD:
+                    </strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="bpiBTC-e">
+                    BTC-e
+                  </td>
+                  <td>
+                    $454.00
+                  </td>
+                </tr>
+                <tr>
+                  <td class="bpiBitstamp">
+                    Bitstamp
+                  </td>
+                  <td>
+                    $450.74
+                  </td>
+                </tr>
+                <tr>
+                  <td class="bpiBitfinex">
+                    Bitfinex
+                  </td>
+                  <td>
+                    $448.00
+                  </td>
+                </tr>
+                <tr>
+                  <td cols="2">
+                    <strong>
+                      CNY:
+                    </strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="bpiBTC China">
+                    BTC China
+                  </td>
+                  <td>
+                    ¥2,735.98
+                  </td>
+                </tr>
+                <tr>
+                  <td class="bpiOKCoin">
+                    OKCoin
+                  </td>
+                  <td>
+                    ¥2,725.35
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <ul id="bpidisplay">
+          <li class="bpiUSD">
+            $450.91
+          </li>
+          <li class="bpiGBP">
+            £270.98
+          </li>
+          <li class="bpiEUR">
+            €327.85
+          </li>
+          <li class="bpiCNY">
+            ¥2,730.66
+          </li>
+        </ul>
+        <div class="lastupdate">
+          Last updated: 
+          <span id="bpiUpdated">
+            Mar 31, 2014 at 09:26 BST
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="navigation row">
+      <div class="main">
+        <div class="megaMenuContainer wpmega-withjs megaMenuOnHover megaMenuHorizontal wpmega-noconflict megaMinimizeResiduals megaResetStyles megaMenu-withjs" id="megaMenu">
+          <ul class="megaMenu" id="megaUber">
+            <li class="menu-home menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-0 ss-nav-menu-item-depth-0 ss-nav-menu-reg um-flyout-align-center" id="menu-item-14880">
+              <a href="/">
+                <span class="wpmega-link-title">
+                  <span class="icon icon-home">
+                  </span>
+                  <em>
+                    Home
+                  </em>
+                </span>
+              </a>
+            </li>
+            <li class="menu-news menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children mega-with-sub ss-nav-menu-item-1 ss-nav-menu-item-depth-0 ss-nav-menu-mega ss-nav-menu-mega-alignCenter ss-nav-menu-with-desc" id="menu-item-8351">
+              <a href="http://www.coindesk.com/news/">
+                <span class="wpmega-link-title">
+                  News
+                </span>
+                <span class="wpmega-item-description">
+                  News &amp; analysis
+                </span>
+              </a>
+              <ul class="sub-menu sub-menu-1" style="left: 0px; display: none;">
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children ss-nav-menu-item-depth-1" id="menu-item-8360">
+                  <a href="http://www.coindesk.com/companies/">
+                    <span class="wpmega-link-title">
+                      Companies
+                    </span>
+                  </a>
+                  <ul class="sub-menu sub-menu-2">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-8361">
+                      <a href="http://www.coindesk.com/companies/exchanges/">
+                        <span class="wpmega-link-title">
+                          Exchanges
+                        </span>
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-8363">
+                      <a href="http://www.coindesk.com/companies/merchants/">
+                        <span class="wpmega-link-title">
+                          Merchants
+                        </span>
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-8364">
+                      <a href="http://www.coindesk.com/companies/startups/">
+                        <span class="wpmega-link-title">
+                          Startups
+                        </span>
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-8365">
+                      <a href="http://www.coindesk.com/companies/wallets/">
+                        <span class="wpmega-link-title">
+                          Wallets
+                        </span>
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-8362">
+                      <a href="http://www.coindesk.com/companies/investors/">
+                        <span class="wpmega-link-title">
+                          Investors
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children ss-nav-menu-item-depth-1" id="menu-item-19380">
+                  <a href="http://www.coindesk.com/regulation/">
+                    <span class="wpmega-link-title">
+                      Regulation
+                    </span>
+                  </a>
+                  <ul class="sub-menu sub-menu-2">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-19383">
+                      <a href="http://www.coindesk.com/regulation/us-canada/">
+                        <span class="wpmega-link-title">
+                          US &amp; Canada
+                        </span>
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-19381">
+                      <a href="http://www.coindesk.com/regulation/europe-regulation/">
+                        <span class="wpmega-link-title">
+                          Europe
+                        </span>
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-19382">
+                      <a href="http://www.coindesk.com/regulation/law-regulation/">
+                        <span class="wpmega-link-title">
+                          Law
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children ss-nav-menu-item-depth-1" id="menu-item-8372">
+                  <a href="http://www.coindesk.com/technology/">
+                    <span class="wpmega-link-title">
+                      Technology
+                    </span>
+                  </a>
+                  <ul class="sub-menu sub-menu-2">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-8374">
+                      <a href="http://www.coindesk.com/technology/mining/">
+                        <span class="wpmega-link-title">
+                          Mining
+                        </span>
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-19384">
+                      <a href="http://www.coindesk.com/technology/bitcoin-protocol/">
+                        <span class="wpmega-link-title">
+                          Bitcoin protocol
+                        </span>
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-8373">
+                      <a href="http://www.coindesk.com/technology/altcoins/">
+                        <span class="wpmega-link-title">
+                          Altcoins
+                        </span>
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-19385">
+                      <a href="http://www.coindesk.com/technology/altcoins/litecoin-news/">
+                        <span class="wpmega-link-title">
+                          Litecoin
+                        </span>
+                      </a>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-2" id="menu-item-45467">
+                      <a href="http://www.coindesk.com/technology/altcoins/dogecoin-news/">
+                        <span class="wpmega-link-title">
+                          Dogecoin
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-1" id="menu-item-8375">
+                  <a href="http://www.coindesk.com/price-news/">
+                    <span class="wpmega-link-title">
+                      Prices
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-1" id="menu-item-18489">
+                  <a href="http://www.coindesk.com/lifestyle/">
+                    <span class="wpmega-link-title">
+                      Lifestyle
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-events menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-1" id="menu-item-19387">
+                  <a href="http://www.coindesk.com/events/">
+                    <span class="wpmega-link-title">
+                      Events
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category ss-nav-menu-item-depth-1" id="menu-item-20038">
+                  <a href="http://www.coindesk.com/analysis/">
+                    <span class="wpmega-link-title">
+                      Analysis
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-information menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children mega-with-sub ss-nav-menu-item-2 ss-nav-menu-item-depth-0 ss-nav-menu-mega ss-nav-menu-mega-alignCenter ss-nav-menu-with-desc" id="menu-item-14881">
+              <a href="/information/">
+                <span class="wpmega-link-title">
+                  Information
+                </span>
+                <span class="wpmega-item-description">
+                  What is bitcoin?
+                </span>
+              </a>
+              <ul class="sub-menu sub-menu-1" style="left: 86px; display: none;">
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-19153">
+                  <a href="http://www.coindesk.com/information/what-is-bitcoin/">
+                    <span class="wpmega-link-title">
+                      What is bitcoin?
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-19155">
+                  <a href="http://www.coindesk.com/information/why-use-bitcoin/">
+                    <span class="wpmega-link-title">
+                      Why use bitcoin?
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-19150">
+                  <a href="http://www.coindesk.com/information/how-can-i-buy-bitcoins/">
+                    <span class="wpmega-link-title">
+                      How can I buy bitcoins?
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-41896">
+                  <a href="http://www.coindesk.com/information/sell-bitcoin/">
+                    <span class="wpmega-link-title">
+                      How to sell bitcoin
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-19151">
+                  <a href="http://www.coindesk.com/information/how-to-store-your-bitcoins/">
+                    <span class="wpmega-link-title">
+                      How to store your bitcoins
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-19146">
+                  <a href="http://www.coindesk.com/information/what-can-you-buy-with-bitcoins/">
+                    <span class="wpmega-link-title">
+                      What can you buy with bitcoins?
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-19149">
+                  <a href="http://www.coindesk.com/information/is-bitcoin-legal/">
+                    <span class="wpmega-link-title">
+                      Is bitcoin legal?
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-19152">
+                  <a href="http://www.coindesk.com/information/how-do-bitcoin-transactions-work/">
+                    <span class="wpmega-link-title">
+                      How do bitcoin transactions work?
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-19154">
+                  <a href="http://www.coindesk.com/information/how-bitcoin-mining-works/">
+                    <span class="wpmega-link-title">
+                      How bitcoin mining works
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-19147">
+                  <a href="http://www.coindesk.com/information/how-to-set-up-a-miner/">
+                    <span class="wpmega-link-title">
+                      How to set up a bitcoin miner
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-19148">
+                  <a href="http://www.coindesk.com/information/who-is-satoshi-nakamoto/">
+                    <span class="wpmega-link-title">
+                      Who is Satoshi Nakamoto?
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-38024">
+                  <a href="http://www.coindesk.com/information/buy-litecoins/">
+                    <span class="wpmega-link-title">
+                      How to buy litecoin
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-50251">
+                  <a href="http://www.coindesk.com/information/paper-wallet-tutorial/">
+                    <span class="wpmega-link-title">
+                      How to Make a Paper Wallet for Bitcoin
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-50252">
+                  <a href="http://www.coindesk.com/information/cloud-mining-bitcoin-guide/">
+                    <span class="wpmega-link-title">
+                      How Does Cloud Mining Work?
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-information ss-nav-menu-item-depth-1" id="menu-item-19156">
+                  <a href="http://www.coindesk.com/information/bitcoin-glossary/">
+                    <span class="wpmega-link-title">
+                      Bitcoin glossary
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-price menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children mega-with-sub ss-nav-menu-item-3 ss-nav-menu-item-depth-0 ss-nav-menu-reg um-flyout-align-center ss-nav-menu-with-desc" id="menu-item-17104">
+              <a href="/price/">
+                <span class="wpmega-link-title">
+                  Price
+                </span>
+                <span class="wpmega-item-description">
+                  Current Bitcoin Price
+                </span>
+              </a>
+              <ul class="sub-menu sub-menu-1" style="display: none;">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1" id="menu-item-19082">
+                  <a href="http://www.coindesk.com/price/">
+                    <span class="wpmega-link-title">
+                      Bitcoin Price Index
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1" id="menu-item-39181">
+                  <a href="http://www.coindesk.com/price/bitcoin-price-index/">
+                    <span class="wpmega-link-title">
+                      About the BPI
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1" id="menu-item-33835">
+                  <a href="http://www.coindesk.com/price-news/">
+                    <span class="wpmega-link-title">
+                      Price News
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1" id="menu-item-25455">
+                  <a href="http://www.coindesk.com/calculator/">
+                    <span class="wpmega-link-title">
+                      Bitcoin Calculator
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1" id="menu-item-19081">
+                  <a href="http://www.coindesk.com/api/">
+                    <span class="wpmega-link-title">
+                      CoinDesk API
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1" id="menu-item-44601">
+                  <a href="http://www.coindesk.com/price/bitcoin-price-ticker-widget/">
+                    <span class="wpmega-link-title">
+                      Bitcoin Price Ticker Widget
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-data menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children mega-with-sub ss-nav-menu-item-4 ss-nav-menu-item-depth-0 ss-nav-menu-reg um-flyout-align-center ss-nav-menu-with-desc" id="menu-item-36719">
+              <a href="/data/bitcoin">
+                <span class="wpmega-link-title">
+                  Data
+                </span>
+                <span class="wpmega-item-description">
+                  Bitcoin Stats
+                </span>
+              </a>
+              <ul class="sub-menu sub-menu-1" style="display: none;">
+                <li class="menu-item menu-item-type-post_type menu-item-object-data ss-nav-menu-item-depth-1" id="menu-item-37355">
+                  <a href="http://www.coindesk.com/data/bitcoin/">
+                    <span class="wpmega-link-title">
+                      Bitcoin Statistics
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-data ss-nav-menu-item-depth-1" id="menu-item-37354">
+                  <a href="http://www.coindesk.com/data/litecoin/">
+                    <span class="wpmega-link-title">
+                      Litecoin Statistics
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="social">
+        <ul class="social-links">
+          <li class="twitter">
+            <a title="Follow CoinDesk on Twitter" href="http://www.twitter.com/coindesk" target="_blank">
+              <span class="icon icon-twitter">
+              </span>
+              <em>
+                Twitter
+              </em>
+            </a>
+          </li>
+          <li class="facebook">
+            <a title="Follow CoinDesk on Facebook" href="http://facebook.com/coindesk" target="_blank">
+              <span class="icon icon-facebook">
+              </span>
+              <em>
+                Facebook
+              </em>
+            </a>
+          </li>
+          <li class="google">
+            <a title="Add CoinDesk on Google+ " href="https://plus.google.com/+Coindesk/" target="_blank">
+              <span class="icon icon-google">
+              </span>
+              <em>
+                Google+
+              </em>
+            </a>
+          </li>
+          <li class="youtube">
+            <a title="View the CoinDesk YouTube channel" href="http://www.youtube.com/user/CoinDesk" target="_blank">
+              <span class="icon icon-youtube">
+              </span>
+              <em>
+                YouTube
+              </em>
+            </a>
+          </li>
+          <li class="rss">
+            <a title="Get the CoinDesk RSS Feed" href="http://feeds.feedburner.com/CoinDesk" target="_blank">
+              <span class="icon icon-rss">
+              </span>
+              <em>
+                RSS
+              </em>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="mobile">
+        <div class="menu-top-nav-container">
+          <select class="menu dropdown-menu" id="menu-top-nav">
+            <option class="blank" value="" selected="selected">
+              Select a Page
+            </option>
+            <option value="/" class="menu-home menu-item menu-item-type-custom menu-item-object-custom menu-item-14880 menu-item-depth-0">
+              Home
+            </option>
+            <option value="http://www.coindesk.com/news/" class="menu-news menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-8351 menu-item-depth-0">
+              News
+            </option>
+            <option value="http://www.coindesk.com/companies/" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-8360 menu-item-depth-1">
+              - Companies
+            </option>
+            <option value="http://www.coindesk.com/companies/exchanges/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8361 menu-item-depth-2">
+              - - Exchanges
+            </option>
+            <option value="http://www.coindesk.com/companies/merchants/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8363 menu-item-depth-2">
+              - - Merchants
+            </option>
+            <option value="http://www.coindesk.com/companies/startups/" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-8364 menu-item-depth-2">
+              - - Startups
+            </option>
+            <option value="http://www.coindesk.com/companies/wallets/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8365 menu-item-depth-2">
+              - - Wallets
+            </option>
+            <option value="http://www.coindesk.com/companies/investors/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8362 menu-item-depth-2">
+              - - Investors
+            </option>
+            <option value="http://www.coindesk.com/regulation/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-19380 menu-item-depth-1">
+              - Regulation
+            </option>
+            <option value="http://www.coindesk.com/regulation/us-canada/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19383 menu-item-depth-2">
+              - - US &amp; Canada
+            </option>
+            <option value="http://www.coindesk.com/regulation/europe-regulation/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19381 menu-item-depth-2">
+              - - Europe
+            </option>
+            <option value="http://www.coindesk.com/regulation/law-regulation/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19382 menu-item-depth-2">
+              - - Law
+            </option>
+            <option value="http://www.coindesk.com/technology/" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-8372 menu-item-depth-1">
+              - Technology
+            </option>
+            <option value="http://www.coindesk.com/technology/mining/" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-8374 menu-item-depth-2">
+              - - Mining
+            </option>
+            <option value="http://www.coindesk.com/technology/bitcoin-protocol/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19384 menu-item-depth-2">
+              - - Bitcoin protocol
+            </option>
+            <option value="http://www.coindesk.com/technology/altcoins/" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-8373 menu-item-depth-2">
+              - - Altcoins
+            </option>
+            <option value="http://www.coindesk.com/technology/altcoins/litecoin-news/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19385 menu-item-depth-2">
+              - - Litecoin
+            </option>
+            <option value="http://www.coindesk.com/technology/altcoins/dogecoin-news/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45467 menu-item-depth-2">
+              - - Dogecoin
+            </option>
+            <option value="http://www.coindesk.com/price-news/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8375 menu-item-depth-1">
+              - Prices
+            </option>
+            <option value="http://www.coindesk.com/lifestyle/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18489 menu-item-depth-1">
+              - Lifestyle
+            </option>
+            <option value="http://www.coindesk.com/events/" class="menu-events menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19387 menu-item-depth-1">
+              - Events
+            </option>
+            <option value="http://www.coindesk.com/analysis/" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20038 menu-item-depth-1">
+              - Analysis
+            </option>
+            <option value="/information/" class="menu-information menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14881 menu-item-depth-0">
+              Information
+            </option>
+            <option value="http://www.coindesk.com/information/what-is-bitcoin/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-19153 menu-item-depth-1">
+              - What is bitcoin?
+            </option>
+            <option value="http://www.coindesk.com/information/why-use-bitcoin/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-19155 menu-item-depth-1">
+              - Why use bitcoin?
+            </option>
+            <option value="http://www.coindesk.com/information/how-can-i-buy-bitcoins/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-19150 menu-item-depth-1">
+              - How can I buy bitcoins?
+            </option>
+            <option value="http://www.coindesk.com/information/sell-bitcoin/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-41896 menu-item-depth-1">
+              - How to sell bitcoin
+            </option>
+            <option value="http://www.coindesk.com/information/how-to-store-your-bitcoins/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-19151 menu-item-depth-1">
+              - How to store your bitcoins
+            </option>
+            <option value="http://www.coindesk.com/information/what-can-you-buy-with-bitcoins/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-19146 menu-item-depth-1">
+              - What can you buy with bitcoins?
+            </option>
+            <option value="http://www.coindesk.com/information/is-bitcoin-legal/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-19149 menu-item-depth-1">
+              - Is bitcoin legal?
+            </option>
+            <option value="http://www.coindesk.com/information/how-do-bitcoin-transactions-work/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-19152 menu-item-depth-1">
+              - How do bitcoin transactions work?
+            </option>
+            <option value="http://www.coindesk.com/information/how-bitcoin-mining-works/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-19154 menu-item-depth-1">
+              - How bitcoin mining works
+            </option>
+            <option value="http://www.coindesk.com/information/how-to-set-up-a-miner/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-19147 menu-item-depth-1">
+              - How to set up a bitcoin miner
+            </option>
+            <option value="http://www.coindesk.com/information/who-is-satoshi-nakamoto/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-19148 menu-item-depth-1">
+              - Who is Satoshi Nakamoto?
+            </option>
+            <option value="http://www.coindesk.com/information/buy-litecoins/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-38024 menu-item-depth-1">
+              - How to buy litecoin
+            </option>
+            <option value="http://www.coindesk.com/information/paper-wallet-tutorial/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-50251 menu-item-depth-1">
+              - How to Make a Paper Wallet for Bitcoin
+            </option>
+            <option value="http://www.coindesk.com/information/cloud-mining-bitcoin-guide/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-50252 menu-item-depth-1">
+              - How Does Cloud Mining Work?
+            </option>
+            <option value="http://www.coindesk.com/information/bitcoin-glossary/" class="menu-item menu-item-type-post_type menu-item-object-information menu-item-19156 menu-item-depth-1">
+              - Bitcoin glossary
+            </option>
+            <option value="/price/" class="menu-price menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17104 menu-item-depth-0">
+              Price
+            </option>
+            <option value="http://www.coindesk.com/price/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19082 menu-item-depth-1">
+              - Bitcoin Price Index
+            </option>
+            <option value="http://www.coindesk.com/price/bitcoin-price-index/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39181 menu-item-depth-1">
+              - About the BPI
+            </option>
+            <option value="http://www.coindesk.com/price-news/" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33835 menu-item-depth-1">
+              - Price News
+            </option>
+            <option value="http://www.coindesk.com/calculator/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25455 menu-item-depth-1">
+              - Bitcoin Calculator
+            </option>
+            <option value="http://www.coindesk.com/api/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19081 menu-item-depth-1">
+              - CoinDesk API
+            </option>
+            <option value="http://www.coindesk.com/price/bitcoin-price-ticker-widget/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44601 menu-item-depth-1">
+              - Bitcoin Price Ticker Widget
+            </option>
+            <option value="/data/bitcoin" class="menu-data menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-36719 menu-item-depth-0">
+              Data
+            </option>
+            <option value="http://www.coindesk.com/data/bitcoin/" class="menu-item menu-item-type-post_type menu-item-object-data menu-item-37355 menu-item-depth-1">
+              - Bitcoin Statistics
+            </option>
+            <option value="http://www.coindesk.com/data/litecoin/" class="menu-item menu-item-type-post_type menu-item-object-data menu-item-37354 menu-item-depth-1">
+              - Litecoin Statistics
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="content row">
+      <div class="sidebar-holder">
+        <div class="main-holder">
+          <div class="grid_8 main blog-one">
+            <h1>
+              Search results for "us"
+            </h1>
+            <div id="post-60625" class="article top-post">
+              <div class="picture">
+                <a title="Mt. Gox Used Client Money for Operations and Extravagances, Allege Staff" href="http://www.coindesk.com/mt-gox-used-client-money-operations-extravagances-allege-staff/" class="standard-format-icon">
+                  <img width="200" height="135" alt="shutterstock_1054154" class=" wp-post-image" src="http://media.coindesk.com/2014/03/shutterstock_1054154-200x135.jpg"/>
+                </a>
+              </div>
+              <h3>
+                <a title="Mt. Gox Used Client Money for Operations and Extravagances, Allege Staff" href="http://www.coindesk.com/mt-gox-used-client-money-operations-extravagances-allege-staff/">
+                  Mt. Gox Used Client Money for Operations and Extravagances, Allege Staff
+                </a>
+              </h3>
+              <p class="timeauthor">
+                <time datetime="2014-03-30T12:35:29+00:00">
+                  Mar 30, 2014 at 12:35
+                </time>
+                 | 
+                <cite>
+                  <a rel="author" title="Posts by Jon Southurst" href="http://www.coindesk.com/author/jon-southurst/">
+                    Jon Southurst
+                  </a>
+                </cite>
+              </p>
+              <p class="desc">
+                Mt Gox used customer deposits to fund company operations and unnecessary purchases back in 2012, according to its staff.
+              </p>
+            </div>
+            <div id="post-58234" class="article ">
+              <div class="picture">
+                <a title="The Death of Windows XP Won’t Kill the ATM Industry, or Help Bitcoin" href="http://www.coindesk.com/death-windows-xp-wont-kill-atm-industry-help-bitcoin/" class="standard-format-icon">
+                  <img width="200" height="135" alt="bitcoin, atm" class=" wp-post-image" src="http://media.coindesk.com/2014/01/2160544145_a2e4ed61df_b-200x135.jpg"/>
+                </a>
+              </div>
+              <h3>
+                <a title="The Death of Windows XP Won’t Kill the ATM Industry, or Help Bitcoin" href="http://www.coindesk.com/death-windows-xp-wont-kill-atm-industry-help-bitcoin/">
+                  The Death of Windows XP Won’t Kill the ATM Industry, or Help Bitcoin
+                </a>
+              </h3>
+              <p class="timeauthor">
+                <time datetime="2014-03-30T09:09:49+00:00">
+                  Mar 30, 2014 at 09:09
+                </time>
+                 | 
+                <cite>
+                  <a rel="author" title="Posts by Nermin Hajdarbegovic" href="http://www.coindesk.com/author/nermin-hajdarbegovic/">
+                    Nermin Hajdarbegovic
+                  </a>
+                </cite>
+              </p>
+              <p class="desc">
+                Windows XP will soon cease to be supported. How will this affect the ATM industry and the bitcoin industry?
+              </p>
+            </div>
+            <div id="post-60592" class="article ">
+              <div class="picture">
+                <a title="Bitcoin is Key to Empowering Small Businesses" href="http://www.coindesk.com/bitcoin-key-empowering-small-businesses/" class="standard-format-icon">
+                  <img width="200" height="135" alt="small business owner" class=" wp-post-image" src="http://media.coindesk.com/2014/03/small-business-01-200x135.jpg"/>
+                </a>
+              </div>
+              <h3>
+                <a title="Bitcoin is Key to Empowering Small Businesses" href="http://www.coindesk.com/bitcoin-key-empowering-small-businesses/">
+                  Bitcoin is Key to Empowering Small Businesses
+                </a>
+              </h3>
+              <p class="timeauthor">
+                <time datetime="2014-03-29T14:05:56+00:00">
+                  Mar 29, 2014 at 14:05
+                </time>
+                 | 
+                <cite>
+                  <a rel="author" title="Posts by Hemant Taneja" href="http://www.coindesk.com/author/hemant-taneja/">
+                    Hemant Taneja
+                  </a>
+                </cite>
+              </p>
+              <p class="desc">
+                Bitcoin has the potential to unleash small businesses and fuel their growth, but it must be trustworthy.
+              </p>
+            </div>
+            <div id="post-60517" class="article ">
+              <div class="picture">
+                <a title="Coinbase Launches App Store in Push for Developer Integration" href="http://www.coindesk.com/coinbase-launches-app-store/" class="standard-format-icon">
+                  <img width="200" height="135" alt="Screen Shot 2014-03-28 at 6.07.12 PM" class=" wp-post-image" src="http://media.coindesk.com/2014/03/Screen-Shot-2014-03-28-at-6.07.12-PM-200x135.png"/>
+                </a>
+              </div>
+              <h3>
+                <a title="Coinbase Launches App Store in Push for Developer Integration" href="http://www.coindesk.com/coinbase-launches-app-store/">
+                  Coinbase Launches App Store in Push for Developer Integration
+                </a>
+              </h3>
+              <p class="timeauthor">
+                <time datetime="2014-03-29T01:12:17+00:00">
+                  Mar 29, 2014 at 01:12
+                </time>
+                 | 
+                <cite>
+                  <a rel="author" title="Posts by Danny Bradbury" href="http://www.coindesk.com/author/danny-bradbury/">
+                    Danny Bradbury
+                  </a>
+                </cite>
+              </p>
+              <p class="desc">
+                Coinbase launched an app store on 28th March that includes Hive and Gliph among its first apps.
+              </p>
+            </div>
+            <div id="post-60310" class="article ">
+              <div class="picture">
+                <a title="Bitcoin Enthusiast Loses Price Bet, Eats Hat" href="http://www.coindesk.com/bitcoin-enthusiast-loses-price-bet-eats-hat/" class="standard-format-icon">
+                  <img width="200" height="135" alt="Screen Shot 2014-03-28 at 5.15.32 PM" class=" wp-post-image" src="http://media.coindesk.com/2014/03/Screen-Shot-2014-03-28-at-5.15.32-PM-200x135.png"/>
+                </a>
+              </div>
+              <h3>
+                <a title="Bitcoin Enthusiast Loses Price Bet, Eats Hat" href="http://www.coindesk.com/bitcoin-enthusiast-loses-price-bet-eats-hat/">
+                  Bitcoin Enthusiast Loses Price Bet, Eats Hat
+                </a>
+              </h3>
+              <p class="timeauthor">
+                <time datetime="2014-03-28T21:14:06+00:00">
+                  Mar 28, 2014 at 21:14
+                </time>
+                 | 
+                <cite>
+                  <a rel="author" title="Posts by Nermin Hajdarbegovic" href="http://www.coindesk.com/author/nermin-hajdarbegovic/">
+                    Nermin Hajdarbegovic
+                  </a>
+                </cite>
+              </p>
+              <p class="desc">
+                An extremely optimistic American has filmed himself eating his hat after losing a bet on the BTC price.
+              </p>
+            </div>
+            <div id="post-59750" class="article ">
+              <div class="picture">
+                <a title="Study: Mt. Gox May Have Lost Just 386 BTC Due to Transaction Malleability" href="http://www.coindesk.com/study-finds-mt-gox-lost-386-bitcoins-due-transaction-malleability/" class="standard-format-icon">
+                  <img width="200" height="135" alt="zurich" class=" wp-post-image" src="http://media.coindesk.com/2014/03/shutterstock_154474691-200x135.jpg"/>
+                </a>
+              </div>
+              <h3>
+                <a title="Study: Mt. Gox May Have Lost Just 386 BTC Due to Transaction Malleability" href="http://www.coindesk.com/study-finds-mt-gox-lost-386-bitcoins-due-transaction-malleability/">
+                  Study: Mt. Gox May Have Lost Just 386 BTC Due to Transaction Malleability
+                </a>
+              </h3>
+              <p class="timeauthor">
+                <time datetime="2014-03-27T14:55:58+00:00">
+                  Mar 27, 2014 at 14:55
+                </time>
+                 | 
+                <cite>
+                  <a rel="author" title="Posts by Pete Rizzo" href="http://www.coindesk.com/author/pete-rizzo/">
+                    Pete Rizzo
+                  </a>
+                </cite>
+              </p>
+              <p class="desc">
+                Researchers at ETH Zurich University question whether transaction malleability played an extensive role in Mt. Gox's bitcoin losses.
+              </p>
+            </div>
+            <div id="post-59328" class="article ">
+              <div class="picture">
+                <a title="Colombia Stops Short of Bitcoin Ban, Bars Banks From Industry" href="http://www.coindesk.com/colombia-stops-short-bitcoin-ban-bars-banks-sector/" class="standard-format-icon">
+                  <img width="200" height="135" alt="shutterstock_129644270" class=" wp-post-image" src="http://media.coindesk.com/2014/03/shutterstock_129644270-200x135.jpg"/>
+                </a>
+              </div>
+              <h3>
+                <a title="Colombia Stops Short of Bitcoin Ban, Bars Banks From Industry" href="http://www.coindesk.com/colombia-stops-short-bitcoin-ban-bars-banks-sector/">
+                  Colombia Stops Short of Bitcoin Ban, Bars Banks From Industry
+                </a>
+              </h3>
+              <p class="timeauthor">
+                <time datetime="2014-03-26T19:51:22+00:00">
+                  Mar 26, 2014 at 19:51
+                </time>
+                 | 
+                <cite>
+                  <a rel="author" title="Posts by Pete Rizzo" href="http://www.coindesk.com/author/pete-rizzo/">
+                    Pete Rizzo
+                  </a>
+                </cite>
+              </p>
+              <p class="desc">
+                Despite fears Colombia would ban bitcoin outright this week, regulators have issued only a warning.
+              </p>
+            </div>
+            <div id="post-59294" class="article ">
+              <div class="picture">
+                <a title="Bitcoin Exchange Leaders Look to Rebuild Trust in Aftermath of Mt. Gox" href="http://www.coindesk.com/bitcoin-exchange-leaders-rebuild-trust-mt-gox/" class="standard-format-icon">
+                  <img width="200" height="135" alt="exchangesmtgoxfeat" class=" wp-post-image" src="http://media.coindesk.com/2014/03/exchangesmtgoxfeat-200x135.png"/>
+                </a>
+              </div>
+              <h3>
+                <a title="Bitcoin Exchange Leaders Look to Rebuild Trust in Aftermath of Mt. Gox" href="http://www.coindesk.com/bitcoin-exchange-leaders-rebuild-trust-mt-gox/">
+                  Bitcoin Exchange Leaders Look to Rebuild Trust in Aftermath of Mt. Gox
+                </a>
+              </h3>
+              <p class="timeauthor">
+                <time datetime="2014-03-26T19:11:13+00:00">
+                  Mar 26, 2014 at 19:11
+                </time>
+                 | 
+                <cite>
+                  <a rel="author" title="Posts by Daniel Cawrey" href="http://www.coindesk.com/author/daniel-cawrey/">
+                    Daniel Cawrey
+                  </a>
+                </cite>
+              </p>
+              <p class="desc">
+                The CEOs of Kraken and BTC China emphasized the need for building consumer trust today at CoinSummit.
+              </p>
+            </div>
+            <div id="post-58900" class="article ">
+              <div class="picture">
+                <a title="Rising Stars of Bitcoin Set Ambitious Goals for 2014" href="http://www.coindesk.com/rising-stars-bitcoin-startups-ambitious-goals-2014/" class="standard-format-icon">
+                  <img width="200" height="135" alt="cointsummitbtcstartupfeat" class=" wp-post-image" src="http://media.coindesk.com/2014/03/cointsummitbtcstartupfeat-200x135.png"/>
+                </a>
+              </div>
+              <h3>
+                <a title="Rising Stars of Bitcoin Set Ambitious Goals for 2014" href="http://www.coindesk.com/rising-stars-bitcoin-startups-ambitious-goals-2014/">
+                  Rising Stars of Bitcoin Set Ambitious Goals for 2014
+                </a>
+              </h3>
+              <p class="timeauthor">
+                <time datetime="2014-03-26T01:49:44+00:00">
+                  Mar 26, 2014 at 01:49
+                </time>
+                 | 
+                <cite>
+                  <a rel="author" title="Posts by Daniel Cawrey" href="http://www.coindesk.com/author/daniel-cawrey/">
+                    Daniel Cawrey
+                  </a>
+                </cite>
+              </p>
+              <p class="desc">
+                BitPay, Blockchain, Coinbase and Ripple are thinking big when setting goals for their operations in 2014 and beyond.
+              </p>
+            </div>
+            <div id="post-58595" class="article ">
+              <div class="picture">
+                <a title="Decentralized Applications to Offer More Than Just Bitcoin Transactions" href="http://www.coindesk.com/decentralized-applications-offer-just-bitcoin-transactions/" class="standard-format-icon">
+                  <img width="200" height="135" alt="(L-R) Synder, Johnston, Buterin, Levine" class=" wp-post-image" src="http://media.coindesk.com/2014/03/focusednextgen-200x135.png"/>
+                </a>
+              </div>
+              <h3>
+                <a title="Decentralized Applications to Offer More Than Just Bitcoin Transactions" href="http://www.coindesk.com/decentralized-applications-offer-just-bitcoin-transactions/">
+                  Decentralized Applications to Offer More Than Just Bitcoin Transactions
+                </a>
+              </h3>
+              <p class="timeauthor">
+                <time datetime="2014-03-25T22:32:48+00:00">
+                  Mar 25, 2014 at 22:32
+                </time>
+                 | 
+                <cite>
+                  <a rel="author" title="Posts by Daniel Cawrey" href="http://www.coindesk.com/author/daniel-cawrey/">
+                    Daniel Cawrey
+                  </a>
+                </cite>
+              </p>
+              <p class="desc">
+                The Bitcoin protocol's more forward-thinking implications were the subject of CoinSummit's decentralized application panel on 25th March.
+              </p>
+            </div>
+            <script type="text/javascript">
+//<![CDATA[
+
+    // &lt;![CDATA[
+        var disqus_shortname = 'coindesk';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i &lt; nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + 'disqus.com/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]&gt;
+    
+//]]>
+            </script>
+            <div class="pagination">
+              <span class="current">
+                1
+              </span>
+              <a class="inactive" href="http://www.coindesk.com/page/2/?s=us">
+                2
+              </a>
+              <a class="inactive" href="http://www.coindesk.com/page/3/?s=us">
+                3
+              </a>
+              <a href="http://www.coindesk.com/page/2/?s=us">
+                ›
+              </a>
+              <a href="http://www.coindesk.com/page/174/?s=us">
+                »
+              </a>
+            </div>
+          </div>
+          <div class="grid_4 sidebar">
+            <div class="widget reedwan_search_widget" id="reedwan_search_widget-2">
+              <div class="search-sidebar">
+                <form action="http://www.coindesk.com/" id="search" method="get">
+                  <input type="text" placeholder="Search CoinDesk" id="s" name="s"/>
+                  <button id="searchbutton" type="submit">
+                    <span class="icon icon-search">
+                    </span>
+                    <em>
+                      Search
+                    </em>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="widget widget_text" id="nlsignup">
+              <h3>
+                Daily Bitcoin News
+              </h3>
+              <div class="textwidget signup-sidebar">
+                <p>
+                  Don't miss a single story - subscribe now!
+                </p>
+                <div id="signup-rhs" class="cd-signupbox">
+                  <form id="rhs-signupbox" novalidate="novalidate" class="signupbox-form" method="POST" action="/ajax-signup/">
+                    <div style="display: none;">
+                      <input type="hidden" value="c599a74f0e" name="signup-noncename" id="signup-noncename"/>
+                      <input type="hidden" value="/?s=us" name="_wp_http_referer"/>
+                      <input type="hidden" value="1" name="ajaxsignup"/>
+                    </div>
+                    <input type="email" required="" placeholder="Email Address" class="validates-as-email" size="25" value="" name="your-email"/>
+                    <input type="submit" class="cd-signup-submit" value="Subscribe" style="background: none repeat scroll 0% 0% rgb(254, 195, 0) ! important; color: rgb(0, 0, 0); font-weight: bold;"/>
+                    <div style="display: none;" class="signup-sidebar error">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="widget reedwan_adds300x250_widget" id="reedwan_adds300x250_widget-5">
+              <div class="adds300x250">
+                <a href="/bitcoin-2014-report/">
+                  <img width="300" height="250" style="border: 1px solid #e8e8e8;" src="http://media.coindesk.com/2014/03/State-of-Bitcoin-2014-banner-ad-14Mar2014.png" class="aipewpddfdevopyqmojj"/>
+                </a>
+              </div>
+            </div>
+            <div class="widget popularitypostsmustreadwidget" id="popularitypostsmustreadwidget-2">
+              <div class="tabs-wrapper">
+                <ul class="tabs">
+                  <li rel="must-read" class="must-read active">
+                    <a href="#">
+                      Must Read
+                    </a>
+                  </li>
+                  <li rel="popular" class="popular">
+                    <a href="#">
+                      Most Popular
+                    </a>
+                  </li>
+                </ul>
+                <div class="tab_container">
+                  <ul class="list tab_content active" id="must-read">
+                    <li>
+                      <a rel="nofollow" title="11 Top Bitcoin Memes" href="http://www.coindesk.com/11-top-bitcoin-memes/">
+                        <div class="picture">
+                          <img width="54" height="45" alt="Bitcoin meme Breaking Bad" class="attachment-thumb wp-post-image" src="http://media.coindesk.com/2014/03/Extremely_Volatile_Bitcoin-54x45.jpg"/>
+                        </div>
+                        <h4>
+                          11 Top Bitcoin Memes
+                        </h4>
+                      </a>
+                    </li>
+                    <li>
+                      <a rel="nofollow" title="Court Grants Order to Freeze Hashfast’s Bitcoin Wallets" href="http://www.coindesk.com/court-grants-order-freeze-hashfasts-bitcoin-wallets/">
+                        <div class="picture">
+                          <img width="54" height="45" alt="Baby-Jet-Front" class="attachment-thumb wp-post-image" src="http://media.coindesk.com/2014/03/Baby-Jet-Front-54x45.jpg"/>
+                        </div>
+                        <h4>
+                          Court Grants Order to Freeze Hashfast’s Bitcoin Wallets
+                        </h4>
+                      </a>
+                    </li>
+                    <li>
+                      <a rel="nofollow" title="The Benefits of Bitcoin in International Travel" href="http://www.coindesk.com/benefits-bitcoin-international-travel/">
+                        <div class="picture">
+                          <img width="54" height="45" alt="passport-travel" class="attachment-thumb wp-post-image" src="http://media.coindesk.com/2014/03/passport-travel-54x45.jpg"/>
+                        </div>
+                        <h4>
+                          The Benefits of Bitcoin in International Travel
+                        </h4>
+                      </a>
+                    </li>
+                    <li>
+                      <a rel="nofollow" title="Price of Bitcoin Falls Under $500 Amid Uncertainty in China" href="http://www.coindesk.com/price-bitcoin-remains-500-amid-china-uncertainty/">
+                        <div class="picture">
+                          <img width="54" height="45" alt="Screen Shot 2014-03-28 at 4.27.27 PM" class="attachment-thumb wp-post-image" src="http://media.coindesk.com/2014/03/Screen-Shot-2014-03-28-at-4.27.27-PM-54x45.png"/>
+                        </div>
+                        <h4>
+                          Price of Bitcoin Falls Under $500 Amid Uncertainty in China
+                        </h4>
+                      </a>
+                    </li>
+                    <li>
+                      <a rel="nofollow" title="Bitcoin is Key to Empowering Small Businesses" href="http://www.coindesk.com/bitcoin-key-empowering-small-businesses/">
+                        <div class="picture">
+                          <img width="54" height="45" alt="small business owner" class="attachment-thumb wp-post-image" src="http://media.coindesk.com/2014/03/small-business-01-54x45.jpg"/>
+                        </div>
+                        <h4>
+                          Bitcoin is Key to Empowering Small Businesses
+                        </h4>
+                      </a>
+                    </li>
+                    <li>
+                      <a rel="nofollow" title="Bitcoin Enthusiast Loses Price Bet, Eats Hat" href="http://www.coindesk.com/bitcoin-enthusiast-loses-price-bet-eats-hat/">
+                        <div class="picture">
+                          <img width="54" height="45" alt="Screen Shot 2014-03-28 at 5.15.32 PM" class="attachment-thumb wp-post-image" src="http://media.coindesk.com/2014/03/Screen-Shot-2014-03-28-at-5.15.32-PM-54x45.png"/>
+                        </div>
+                        <h4>
+                          Bitcoin Enthusiast Loses Price Bet, Eats Hat
+                        </h4>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="list tab_content" id="popular">
+                    <li>
+                      <a rel="nofollow" title="Bitcoin Price Drops After New Chinese Bank Rumours" href="http://www.coindesk.com/bitcoin-price-drops-new-chinese-bank-rumours/">
+                        <div class="picture">
+                          <img width="54" height="45" alt="China BTC price drop" class="attachment-thumb wp-post-image" src="http://media.coindesk.com/2014/03/China-BTC-price-drop-54x45.png"/>
+                        </div>
+                        <h4>
+                          Bitcoin Price Drops After New Chinese Bank Rumours
+                        </h4>
+                      </a>
+                    </li>
+                    <li>
+                      <a rel="nofollow" title="Price of Bitcoin Falls Under $500 Amid Uncertainty in China" href="http://www.coindesk.com/price-bitcoin-remains-500-amid-china-uncertainty/">
+                        <div class="picture">
+                          <img width="54" height="45" alt="Screen Shot 2014-03-28 at 4.27.27 PM" class="attachment-thumb wp-post-image" src="http://media.coindesk.com/2014/03/Screen-Shot-2014-03-28-at-4.27.27-PM-54x45.png"/>
+                        </div>
+                        <h4>
+                          Price of Bitcoin Falls Under $500 Amid Uncertainty in China
+                        </h4>
+                      </a>
+                    </li>
+                    <li>
+                      <a rel="nofollow" title="Developers Battle Over Bitcoin Block Chain" href="http://www.coindesk.com/developers-battle-bitcoin-block-chain/">
+                        <div class="picture">
+                          <img width="54" height="45" alt="shutterstock_164111051" class="attachment-thumb wp-post-image" src="http://media.coindesk.com/2014/03/shutterstock_164111051-54x45.jpg"/>
+                        </div>
+                        <h4>
+                          Developers Battle Over Bitcoin Block Chain
+                        </h4>
+                      </a>
+                    </li>
+                    <li>
+                      <a rel="nofollow" title="11 Top Bitcoin Memes" href="http://www.coindesk.com/11-top-bitcoin-memes/">
+                        <div class="picture">
+                          <img width="54" height="45" alt="Bitcoin meme Breaking Bad" class="attachment-thumb wp-post-image" src="http://media.coindesk.com/2014/03/Extremely_Volatile_Bitcoin-54x45.jpg"/>
+                        </div>
+                        <h4>
+                          11 Top Bitcoin Memes
+                        </h4>
+                      </a>
+                    </li>
+                    <li>
+                      <a rel="nofollow" title="Mt. Gox Used Client Money for Operations and Extravagances, Allege Staff" href="http://www.coindesk.com/mt-gox-used-client-money-operations-extravagances-allege-staff/">
+                        <div class="picture">
+                          <img width="54" height="45" alt="shutterstock_1054154" class="attachment-thumb wp-post-image" src="http://media.coindesk.com/2014/03/shutterstock_1054154-54x45.jpg"/>
+                        </div>
+                        <h4>
+                           Mt. Gox Used Client Money for Operations and Extravagances, Allege...
+                        </h4>
+                      </a>
+                    </li>
+                    <li>
+                      <a rel="nofollow" title="Would a $10,000 Bitcoin Help or Hurt Transactions?" href="http://www.coindesk.com/will-10000-bitcoin-help-hurt-transactions/">
+                        <div class="picture">
+                          <img width="54" height="45" alt="Screen Shot 2014-03-27 at 4.31.12 PM" class="attachment-thumb wp-post-image" src="http://media.coindesk.com/2014/03/Screen-Shot-2014-03-27-at-4.31.12-PM-54x45.png"/>
+                        </div>
+                        <h4>
+                          Would a $10,000 Bitcoin Help or Hurt Transactions?
+                        </h4>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="widget coindesk_tips_widget" id="coindesk_tips_widget-2">
+              <div class="tip">
+                <span id="showtip">
+                  <span class="icon icon-tip">
+                  </span>
+                  Got a news tip or guest feature?
+                </span>
+                <div class="tip-box">
+                  <p>
+                    If you have a news tip, please email us at 
+                    <a href="mailto:news@coindesk.com">
+                      news@coindesk.com
+                      <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l,b=document.getElementsByTagName("script");l=b[b.length-1].previousSibling;a=l.getAttribute('data-cfemail');if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
+/* ]]&gt; */
+
+//]]>
+                      </script>
+                    </a>
+                    .
+                  </p>
+                  <p>
+                    Interested in guest writing?  Please email your idea for a guest article to 
+                    <a href="mailto:writers@coindesk.com">
+                      writers@coindesk.com
+                      <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l,b=document.getElementsByTagName("script");l=b[b.length-1].previousSibling;a=l.getAttribute('data-cfemail');if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
+/* ]]&gt; */
+
+//]]>
+                      </script>
+                    </a>
+                    .
+                  </p>
+                  <p>
+                    Please read our 
+                    <a target="_blank" href="/contact/">
+                      guidelines
+                    </a>
+                     before submitting your request.
+                  </p>
+                  <span class="cancel">
+                    Close
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="widget reedwan_adds300x250_widget" id="reedwan_adds300x250_widget-6">
+              <div class="adds300x250">
+                <a href="http://www.mediabistro.com/insidebitcoins/new-york/?c=coindeskad">
+                  <img width="300" height="250" style="border: 1px solid #e8e8e8;" src="http://media.coindesk.com/2014/03/inside-bitcoins-nyc.jpg"/>
+                </a>
+              </div>
+            </div>
+            <div class="guide">
+              <h2>
+                <a href="/information/">
+                  A beginner's guide to bitcoin
+                </a>
+              </h2>
+              <p>
+                Bitcoin is a digital currency that is being used increasingly all over the world. Find out more about how it works and how you can use it with our straightforward guides.
+              </p>
+              <ul>
+                <li>
+                  <a href="http://www.coindesk.com/information/what-is-bitcoin/">
+                    <span class="icon-detailed icon-detailed-question">
+                    </span>
+                    <h3>
+                      What is bitcoin?
+                    </h3>
+                    <h4>
+                      It's a decentralized digital currency
+                    </h4>
+                    <span class="icon icon-arrow-right">
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.coindesk.com/information/how-to-set-up-a-miner/">
+                    <span class="icon-detailed icon-detailed-pickaxe">
+                    </span>
+                    <h3>
+                      How to set up a bitcoin miner
+                    </h3>
+                    <h4>
+                      Generate bitcoins yourself
+                    </h4>
+                    <span class="icon icon-arrow-right">
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.coindesk.com/information/how-can-i-buy-bitcoins/">
+                    <span class="icon-detailed icon-detailed-coins">
+                    </span>
+                    <h3>
+                      How can I buy bitcoins?
+                    </h3>
+                    <h4>
+                      From an exchange or an individual
+                    </h4>
+                    <span class="icon icon-arrow-right">
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="widget coindesk_quotes_widget" id="coindesk_quotes_widget-2">
+              <div class="quote">
+                <blockquote>
+                  <a href="http://www.coindesk.com/online-payment-network-ripple-labs-receives-3-5m-new-funding/">
+                    <p>
+                      <span>
+                        “
+                      </span>
+                      We are investing in a veteran leadership team with a vision for using one of the most disruptive innovations in financial services to do good and empower individuals through financial inclusion.
+                      <span>
+                        ”
+                      </span>
+                    </p>
+                    <cite>
+                      Arjan Schütte, founder and managing partner of Core Innovation Capital
+                    </cite>
+                  </a>
+                </blockquote>
+              </div>
+            </div>
+            <div class="widget widget_facebook_likebox" id="facebook-likebox-2">
+              <iframe scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 300px;  height: 250px; background: #fff" src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fcoindesk&amp;width=300&amp;height=250&amp;colorscheme=light&amp;show_faces=true&amp;stream=false&amp;show_border=true&amp;header=false&amp;force_wall=false" class="aipewpddfdevopyqmojj">
+              </iframe>
+            </div>
+            <div id="rhstwitter">
+              <p>
+                <a data-size="large" data-show-count="false" class="twitter-follow-button" href="https://twitter.com/coindesk">
+                  Follow @coindesk
+                </a>
+                <script type="text/javascript">
+//<![CDATA[
+// &lt;![CDATA[
+(function() {
+        var twitterScriptTag = document.createElement('script');
+        twitterScriptTag.type = 'text/javascript';
+        twitterScriptTag.async = true;
+        twitterScriptTag.src = '//platform.twitter.com/widgets.js';
+ 	twitterScriptTag.defer = 'defer';
+	twitterScriptTag.async = 'async';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(twitterScriptTag, s);
+})();
+// ]]&gt;
+//]]>
+                </script>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-nav row">
+      <ul class="bottomNav" id="menu-footer-menu">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7285" id="menu-item-7285">
+          <a href="http://www.coindesk.com/about-us/">
+            About
+          </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16643" id="menu-item-16643">
+          <a href="http://www.coindesk.com/price/">
+            Bitcoin Price Index
+          </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51587" id="menu-item-51587">
+          <a href="http://www.coindesk.com/bitcoin-events/">
+            Events
+          </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17103" id="menu-item-17103">
+          <a href="http://www.coindesk.com/api/" title="CoinDesk API">
+            API
+          </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7290" id="menu-item-7290">
+          <a href="http://www.coindesk.com/terms-conditions/">
+            Terms &amp; conditions
+          </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7291" id="menu-item-7291">
+          <a href="http://www.coindesk.com/privacy-policy/">
+            Privacy policy
+          </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7289" id="menu-item-7289">
+          <a href="http://www.coindesk.com/jobs/">
+            Jobs
+          </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39179" id="menu-item-39179">
+          <a href="http://www.coindesk.com/press/">
+            Press
+          </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7287" id="menu-item-7287">
+          <a href="http://www.coindesk.com/contact-us/">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer row">
+      <div itemtype="http://schema.org/Organization" itemscope="" class="credits">
+        <a class="hide" href="http://www.coindesk.com/" itemprop="url">
+          <img width="80" height="80" itemprop="logo" alt="CoinDesk" src="/wp-content/themes/coindesk2/images/logo-coindesk-square.png" class="mar-lv3"/>
+        </a>
+        <br/>
+         © CoinDesk 2014
+      </div>
+      <a class="rss" target="_blank" href="http://feeds.feedburner.com/CoinDesk">
+        <span>
+        </span>
+      </a>
+      <div class="social-footer-wrap">
+        <div class="social-footer">
+          <ul>
+            <li class="social facebook">
+              <a href="http://facebook.com/coindesk" target="new">
+              </a>
+            </li>
+            <li class="social twitter">
+              <a href="http://www.twitter.com/coindesk" target="new">
+              </a>
+            </li>
+            <li class="social googleplus">
+              <a href="https://plus.google.com/u/1/100137472973541677207/posts" target="new">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+ var _gaq = _gaq || [];
+//]]>
+    </script>
+    <script src="/wp-content/themes/coindesk2/js/cdtestsuite.min.js?6" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40183560-1']);
+_gaq.push(['_trackPageview']);
+if((window.devicePixelRatio===undefined?1:window.devicePixelRatio)&gt;1) document.cookie='dpr=' + window.devicePixelRatio + ';expires=Sun, 09-Jul-2023 23:59:59 GMT;path=/';
+
+//]]>
+    </script>
+    <script src="http://www.coindesk.com/wp-includes/js/jquery/jquery.js?ver=1.10.2" type="text/javascript">
+    </script>
+    <script src="http://www.coindesk.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript">
+    </script>
+    <script src="http://www.coindesk.com/wp-content/themes/coindesk2/js/custom.1403.js?ver=140202015" type="text/javascript">
+    </script>
+    <script src="http://www.coindesk.com/wp-content/themes/coindesk2/js/html5shiv.js" type="text/javascript">
+    </script>
+    <script src="http://www.coindesk.com/wp-content/themes/coindesk2/js/jquery-ui.js" type="text/javascript">
+    </script>
+    <script src="http://www.coindesk.com/wp-content/themes/coindesk2/js/jquery.cookie.js" type="text/javascript">
+    </script>
+    <script src="http://www.coindesk.com/wp-content/themes/coindesk2/js/jquery.uniform.min.js" type="text/javascript">
+    </script>
+    <script src="http://www.coindesk.com/wp-content/plugins/ubermenu/core/js/hoverIntent.js?ver=3.8.1" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+var uberMenuSettings = {"speed":"200","trigger":"hoverIntent","orientation":"horizontal","transition":"none","hoverInterval":"20","hoverTimeout":"400","removeConflicts":"on","autoAlign":"off","noconflict":"off","fullWidthSubs":"off","androidClick":"on","iOScloseButton":"on","loadGoogleMaps":"off","repositionOnLoad":"off"};
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <script src="http://www.coindesk.com/wp-content/plugins/ubermenu/core/js/ubermenu.min.js?ver=3.8.1" type="text/javascript">
+    </script>
+    <div style="display:none">
+    </div>
+    <script>
+//<![CDATA[
+
+		var getElementsByClassName=function(a,b,c){if(document.getElementsByClassName){getElementsByClassName=function(a,b,c){c=c||document;var d=c.getElementsByClassName(a),e=b?new RegExp("\\b"+b+"\\b","i"):null,f=[],g;for(var h=0,i=d.length;h&lt;i;h+=1){g=d[h];if(!e||e.test(g.nodeName)){f.push(g)}}return f}}else if(document.evaluate){getElementsByClassName=function(a,b,c){b=b||"*";c=c||document;var d=a.split(" "),e="",f="http://www.w3.org/1999/xhtml",g=document.documentElement.namespaceURI===f?f:null,h=[],i,j;for(var k=0,l=d.length;k&lt;l;k+=1){e+="[contains(concat(' ', @class, ' '), ' "+d[k]+" ')]"}try{i=document.evaluate(".//"+b+e,c,g,0,null)}catch(m){i=document.evaluate(".//"+b+e,c,null,0,null)}while(j=i.iterateNext()){h.push(j)}return h}}else{getElementsByClassName=function(a,b,c){b=b||"*";c=c||document;var d=a.split(" "),e=[],f=b==="*"&amp;&amp;c.all?c.all:c.getElementsByTagName(b),g,h=[],i;for(var j=0,k=d.length;j&lt;k;j+=1){e.push(new RegExp("(^|\\s)"+d[j]+"(\\s|$)"))}for(var l=0,m=f.length;l&lt;m;l+=1){g=f[l];i=false;for(var n=0,o=e.length;n&lt;o;n+=1){i=e[n].test(g.className);if(!i){break}}if(i){h.push(g)}}return h}}return getElementsByClassName(a,b,c)},
+			dropdowns = getElementsByClassName( 'dropdown-menu' );
+		for ( i=0; i&lt;dropdowns.length; i++ )
+			dropdowns[i].onchange = function(){ if ( this.value != '' ) window.location.href = this.value; }
+	
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+var wu=["//platform.twitter.com/widgets.js","//connect.facebook.net/en_US/all.js#xfbml=1","https://apis.google.com/js/plusone.js","//platform.linkedin.com/in.js"],wc=4;
+function wpsrload(){ for(var i=0;i&lt;wc;i++){wpsrasync(wu[i]);} }
+function wpsrasync(u){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=u;var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s);} wpsrload();
+
+//]]>
+    </script>
+    <link media="all" type="text/css" href="http://www.coindesk.com/wp-content/plugins/wp-socializer/public/css/wp-socializer-buttons-css.css?ver=2.4.9" id="wpsr-socialbuttons-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://www.coindesk.com/wp-content/plugins/ubermenu/standard/styles/basic.css?ver=2.3.2.2" id="ubermenu-basic-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://www.coindesk.com/wp-content/plugins/ubermenu/custom/custom.css?ver=2.3.2.2" id="ubermenu-custom-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://www.coindesk.com/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003" id="jetpack-widgets-css" rel="stylesheet"/>
+    <script src="http://www.coindesk.com/wp-content/plugins/wp-socializer/public/js/wp-socializer-bookmark-js.js?ver=2.4.9" type="text/javascript">
+    </script>
+    <script src="http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201414" type="text/javascript">
+    </script>
+    <script src="http://s.gravatar.com/js/gprofiles.js?ver=2014Maraa" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <script src="http://www.coindesk.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.8.1" type="text/javascript">
+    </script>
+    <script type="text/javascript" src="http://stats.wordpress.com/e-201414.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+	st_go({v:'ext',j:'1:2.9',blog:'65172777',post:'0',tz:'1'});
+	var load_cmc = function(){linktracker_init(65172777,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","licenseKey":"813c691dd0","applicationID":"2735396","transactionName":"MVRbYRMCWxdYB0YNWAgeeFYVCloKFhdXBUUFWQ==","queueTime":0,"applicationTime":819,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"jserror.newrelic.com","agent":"js-agent.newrelic.com\/nr-361.min.js"}
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&amp;&amp;"www.cloudflare.com/email-protection"==a.substr(7 ,35)){s='';j=43;r=parseInt(a.substr(j,2),16);for(j+=2;a.length-j&amp;&amp;a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);t.innerHTML=s.replace(/&lt;/g,"&amp;lt;").replace(/&gt;/g,"&amp;gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <script src="http://js-agent.newrelic.com/nr-361.min.js">
+    </script>
+  </body>
+</html>

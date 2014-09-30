@@ -1,0 +1,3842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="application/xhtml+xml; charset=utf-8" http-equiv="content-type"/>
+    <link href="http://gulfnews.com/advanced-search/search-results" rel="canonical"/>
+    <meta content="index" name="robots"/>
+    <meta content="ACAP allow-index" name="robots"/>
+    <!--split-->    <title>
+      Gulfnews.com | advanced-search |search-results | Dubai, Abu Dhabi, Sharjah, Gulf, GCC and Middle East News, Latest Breaking News, News, Analysis, and Opinion
+    </title>
+    <link rel="publisher" href="https://plus.google.com/107829103066768808324"/>
+    <link type="image/x-icon" href="/media/img/favicon.ico" rel="icon"/>
+    <link type="image/x-icon" href="/media/img/favicon.ico" rel="shortcut icon"/>
+    <link type="text/css" media="screen,projection" href="/media/css/screen.css?v=4" rel="stylesheet"/>
+    <link type="text/css" media="screen,projection" href="/media/css/sifr.css" rel="stylesheet"/>
+    <link type="text/css" media="screen,projection" href="/media/css/common.css" rel="stylesheet"/>
+    <link type="text/css" media="print" href="/media/css/print-article.css" rel="stylesheet"/>
+    <link type="text/css" media="print" href="/media/css/social-bookmarking.css" rel="stylesheet"/>
+    <link type="text/css" media="print" href="/media/css/reset.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/media/css/opinionlist.css" media="screen,projection" type="text/css"/>
+    <link type="text/css" media="screen,projection" href="/media/css/leadstory.css" rel="stylesheet"/>
+    <link type="text/css" media="screen,projection" href="/media/css/leadstory2.css" rel="stylesheet"/>
+    <link type="text/css" media="screen,projection" href="/media/css/publications.css" rel="stylesheet"/>
+    <!-- CSS included for Resource Search Module-->    <link rel="stylesheet" href="/media/css/resource-screen.css" media="screen,projection" type="text/css"/>
+    <!-- CSS included for Cross Linking Article -->    <link rel="stylesheet" href="/media/css/linking.css" media="screen,projection" type="text/css"/>
+    <link rel="stylesheet" href="/media/css/ie.css" media="screen,projection" type="text/css"/>
+    <link href="/cmlink/newsletter-feed-1.1185670?localLinksEnabled=false" title="Newsletter Feed" type="application/rss+xml" rel="alternate"/>
+    <meta content="http://gulfnews.com/media/img/gulfnews_logo.png" property="og:image"/>
+    <script src="http://dnn506yrbagrg.cloudfront.net/pages/scripts/0012/5053.js?388356" async="" type="text/javascript">
+    </script>
+    <script async="" src="http://a.visualrevenue.com/vrs.js">
+    </script>
+    <script type="text/javascript" async="" src="http://me-cdn.effectivemeasure.net/em.js">
+    </script>
+    <script type="text/javascript" async="" src="http://stats.g.doubleclick.net/dc.js">
+    </script>
+    <script src="/media/js/profileC.js?v4.13" type="text/javascript">
+    </script>
+    <script src="/media/js/adtech_async.js" type="text/javascript">
+    </script>
+    <meta content="http://gulfnews.com?utm_source=ie9&amp;utm_medium=web&amp;utm_campaign=Pinned-ie9" name="msapplication-starturl"/>
+    <script src="/media/js/gn-generic.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+		var cookieDomain = ".gulfnews.com";
+        var cookieExists=getCookie("isAdTechCookieExist");
+        var browserName=window.navigator.userAgent;
+        if (cookieExists == undefined &amp;&amp; browserName.toLowerCase().indexOf('safari/') != -1 ) {
+            setCookie("isAdTechCookieExist", "true", 180, cookieDomain);
+            cookieExists=getCookie("isAdTechCookieExist");
+            if(cookieExists != undefined)
+            	window.location.href="http://webdata.alnisrgroup.com/Default.aspx?cname=editorial-nav-&amp;postBackUrl="+escape(window.location.href);
+        } else {
+                            var temp=new Image;
+                temp.src="http://webdata.alnisrgroup.com/Default.aspx?cname=editorial-nav-&amp;cvalue=search-results:140421";
+                    }
+    
+        	if (window.adgroupid == undefined) {
+		window.adgroupid = Math.round(Math.random() * 1000);
+        	}
+    	var misc= new Date().getTime();	
+    	var tempAdtech = 'grp='+window.adgroupid+';misc='+misc;
+    	var kvUser = 'kvcountry=;kvgender=;kvnationality=;kvyob=;kvprof=;kvindustry=;kvinterests=;';
+    	kvUser = kvUser + tempAdtech;
+    
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    var addthis_share = {
+    	url_transforms : {
+    		shorten: {
+    			twitter: 'bitly'
+    		}
+    	}, 
+    	shorteners : {
+    		bitly : {}
+    	}
+    };
+
+//]]>
+    </script>
+    <!-- JS added for Article level of Magazines inline with GN-->    <script src="/media/js/shadowbox.js" type="text/javascript">
+    </script>
+    <script src="/media/js/individual.js" type="text/javascript">
+    </script>
+    <script src="/media/js/resource.js" language="Javascript" type="text/javascript">
+    </script>
+    <script src="/media/js/slider.js" language="Javascript" type="text/javascript">
+    </script>
+    <script src="/media/js/leadstory2.js" language="Javascript" type="text/javascript">
+    </script>
+    <!--CR for adding category and subcategory start -->    <script type="text/javaScript">
+//<![CDATA[
+
+              var _gaq = _gaq || [];
+              _gaq.push(['_setAccount', 'UA-7996438-2'],
+						['_setCustomVar', 3, 'Category','advanced-search',3],
+						['_setCustomVar', 4, 'SubCategory','search-results',3],
+						['_trackPageview'],
+						['_trackPageLoadTime']
+						);
+                  (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              })();
+            
+//]]>
+    </script>
+    <!-- CR for adding category and subcategory end -->    <script type="text/javascript">
+//<![CDATA[
+(window.NREUM||(NREUM={})).loader_config={xpid:"XQMHUVNACgIDVFVXDw=="};window.NREUM||(NREUM={}),__nr_require=function t(e,n,r){function o(i){if(!n[i]){var a=n[i]={exports:{}};e[i][0].call(a.exports,function(t){var n=e[i][1][t];return o(n?n:t)},a,a.exports,t,e,n,r)}return n[i].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i&lt;r.length;i++)o(r[i]);return o}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=o[t],a=r&amp;&amp;r.length||0,s=n[i]||(n[i]={}),u=0;a&gt;u;u++)r[u].apply(s,e);return s}function r(t,e){var n=o[t]||(o[t]=[]);n.push(e)}var o={},i="nr@context";e.exports={on:r,emit:n}},{}],2:[function(t){function e(t,e,o,a,u){return s?s-=1:n("err",[u||new UncaughtException(t,e,o)]),"function"==typeof i?i.apply(this,r(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}var n=t("handle"),r=t(6),o=t(5),i=window.onerror,a=!1,s=0;t("loader").features.push("err"),window.onerror=e;try{throw new Error}catch(u){"stack"in u&amp;&amp;(t(1),t(2),"addEventListener"in window&amp;&amp;t(3),window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;t(4),a=!0)}o.on("fn-start",function(){a&amp;&amp;(s+=1)}),o.on("fn-err",function(t,e,r){a&amp;&amp;(this.thrown=!0,n("err",[r,(new Date).getTime()]))}),o.on("fn-end",function(){a&amp;&amp;!this.thrown&amp;&amp;s&gt;0&amp;&amp;(s-=1)}),o.on("internal-error",function(t){n("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&amp;&amp;!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&amp;&amp;e(i);for(var a=XMLHttpRequest.prototype;a&amp;&amp;!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&amp;&amp;e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&amp;&amp;e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&amp;&amp;r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&amp;&amp;(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&amp;&amp;(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){o.inPlace(this,s,"fn-")}function n(t,e){o.inPlace(e,["onreadystatechange"],"fn-")}function r(t,e){return e}var o=t(1),i=t(2),a=window.XMLHttpRequest,s=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];window.XMLHttpRequest=function(t){var n=new a(t);return i.emit("new-xhr",[],n),o.inPlace(n,["addEventListener","removeEventListener"],"-",function(t,e){return e}),n.addEventListener("readystatechange",e,!1),n},window.XMLHttpRequest.prototype=a.prototype,o.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&amp;&amp;t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&amp;&amp;t instanceof ArrayBuffer&amp;&amp;t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&amp;&amp;t instanceof Blob&amp;&amp;t.size)return t.size;if("undefined"!=typeof FormData&amp;&amp;t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;u&gt;i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,d="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,p=e(d);if(p&amp;&amp;(r.rxSize=p),this.sameOrigin){var f=t.getResponseHeader("X-NewRelic-App-Data");f&amp;&amp;(n.cat=f.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}t("loader").features.push("xhr");var o=t("handle"),i=t(1),a=t(5),s=["load","error","abort","timeout"],u=s.length,d=t(2);t(3),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&amp;&amp;"xpid"in NREUM.loader_config&amp;&amp;this.sameOrigin&amp;&amp;e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&amp;&amp;o){var d=e(o);d&amp;&amp;(r.txSize=d)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&amp;&amp;(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&amp;&amp;(i.onloadCalled||"function"!=typeof n.onload))&amp;&amp;i.end(n)}catch(e){a.emit("internal-error",e)}};for(var p=0;u&gt;p;p++)n.addEventListener(s[p],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&amp;&amp;"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&amp;&amp;!this.xhrGuids[n]&amp;&amp;(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&amp;&amp;this.xhrGuids[n]&amp;&amp;(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&amp;&amp;"load"===t[0]&amp;&amp;a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&amp;&amp;"load"===t[0]&amp;&amp;a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&amp;&amp;("onload"===n&amp;&amp;(this.onload=!0),("load"===(t[0]&amp;&amp;t[0].type)||this.onload)&amp;&amp;(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&amp;&amp;a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;!/CriOS/.test(navigator.userAgent)&amp;&amp;e()},{1:8,2:11,3:3,4:6,5:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&amp;&amp;o[1]&amp;&amp;(r.port=o[1].split("/")[0].split(":")[1]),r.port&amp;&amp;"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&amp;&amp;(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&amp;&amp;e.port===n.port&amp;&amp;e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&amp;&amp;"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=c.info=NREUM.info;if(t&amp;&amp;t.agent&amp;&amp;t.licenseKey&amp;&amp;t.applicationID){c.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=c.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&amp;&amp;o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,u=s.document,d="addEventListener",p="attachEvent",f=(""+location).split("?")[0],c=e.exports={offset:i(),origin:f,features:[]};u[d]?(u[d]("DOMContentLoaded",o,!1),s[d]("load",n,!1)):(u[p]("onreadystatechange",r),s[p]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&amp;&amp;(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0&gt;o?0:o);++r&lt;o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,n,r){function nrWrapper(){try{var a,u=s(arguments),d=this,p=n&amp;&amp;n(u,d)||{}}catch(f){i([f,"",[u,d,r],p])}o(e+"start",[u,d,r],p);try{return a=t.apply(d,u)}catch(c){throw o(e+"err",[u,d,c],p),c}finally{o(e+"end",[u,d,a],p)}}return t&amp;&amp;"function"==typeof t&amp;&amp;t.apply&amp;&amp;!t._wrapped?(e||(e=""),nrWrapper._wrapped=!0,nrWrapper):t}function r(t,e,r,o){r||(r="");var i,a,s,u="-"===r.charAt(0);for(s=0;s&lt;e.length;s++)a=e[s],i=t[a],i&amp;&amp;"function"==typeof i&amp;&amp;i.apply&amp;&amp;!i._wrapped&amp;&amp;(t[a]=n(i,u?a+r:r,o,a,t))}function o(t,e,n){try{a.emit(t,e,n)}catch(r){i([r,t,e,n])}}function i(t){try{a.emit("internal-error",t)}catch(e){}}var a=t(1),s=t(2);e.exports=n,n.inPlace=r},{1:1,2:14}]},{},["G9z0Bl",2,7]);
+//]]>
+    </script>
+  </head>
+  <body id="home">
+    <!-- BEGIN EFFECTIVE MEASURE CODE -->    <!-- COPYRIGHT EFFECTIVE MEASURE -->    <script type="text/javascript">
+//<![CDATA[
+
+  (function() {
+    var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+    em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+  })();
+
+//]]>
+    </script>
+    <noscript>
+      &lt;img src="//me.effectivemeasure.net/em_image" alt="" style="position:absolute; left:-5px;" /&gt;
+
+    </noscript>
+    <!--END EFFECTIVE MEASURE CODE -->    <div id="wrapper">
+      <div id="masthead" class="frame">
+        <div id="adtop">
+          <noscript>
+            &lt;a href="http://adtech.alnisrgroup.com/adlink/3.0/1348/4047423/0/225/ADTECH;loc=300;key=family;kvlabel=;kvkeywords=;kvpublication=gulfnews;kvsubsection=search-results;" target="_blank"&gt;
+			&lt;img src="http://adtech.alnisrgroup.com/adserv/3.0/1348/4047423/0/225/ADTECH;loc=300;key=family;kvlabel=;kvkeywords=;kvpublication=gulfnews;kvsubsection=search-results;" border="0" width="728" height="90"&gt;
+		&lt;/a&gt;
+	
+          </noscript>
+        </div>
+        <!-- Added by HCL to remove the border from the advert elements if required-->        <!-- BEGIN ADVERTPRO CODE BLOCK -->        <!--Added for replacing Tile with Advert Element on Home Page-->        <!-- to check if element is in right col-->        <!-- to check if element is in twothirdsplitter-->        <!-- to check the number of columns to be displayed-->        <script type="text/javascript" language="JavaScript">
+//<![CDATA[
+
+&lt;!--
+document.write('&lt;SCR'+'IPT src="http://gulfnews.advertserve.com/servlet/view/banner/javascript/zone?zid=760&amp;pid=0&amp;custom5=Search-Results&amp;custom6=&amp;random='+Math.floor(89999999*Math.random()+10000000)+'&amp;millis='+new Date().getTime()+'&amp;referrer='+escape(document.location)+'" language="JavaScript" type="text/javascript"&gt;&lt;/SCR'+'IPT&gt;');
+//--&gt;
+
+//]]>
+        </script>
+        <script type="text/javascript" language="JavaScript" src="http://gulfnews.advertserve.com/servlet/view/banner/javascript/zone?zid=760&amp;pid=0&amp;custom5=Search-Results&amp;custom6=&amp;random=76350899&amp;millis=1398083560159&amp;referrer=http%3A//gulfnews.com/advanced-search/search-results%3Faction%3Dsearch%26submitted%3Dtrue%26freeText%3Dfamily%26site%3Dgulfnews%26search%3DSearch">
+        </script>
+        <noscript>
+          &lt;A href="http://gulfnews.advertserve.com/servlet/click/zone?zid=760&amp;pid=0&amp;custom5=Search-Results&amp;custom6=&amp;lookup=true&amp;position=1" target="_top"&gt;
+&lt;IMG src="http://gulfnews.advertserve.com/servlet/view/banner/image/zone?zid=760&amp;pid=0&amp;custom5=Search-Results&amp;custom6=&amp;position=1" height="" width="" hspace="0" vspace="0" border="0" alt="Click Here!"&gt;
+&lt;/A&gt;
+
+        </noscript>
+        <!-- END ADVERTPRO CODE BLOCK -->      </div>
+      <!-- .frame #masthead -->      <div id="header" class="frame">
+        <script type="text/javascript">
+//<![CDATA[
+
+$.post("/latestcommit", function(data){
+  process(data);
+});
+
+function process(data) {
+	var random;
+    var lastupdated;
+	if(data.indexOf("1970") != -1){
+	lastupdated = "few minutes back"
+	data = lastupdated;
+	}
+	var tag = document.getElementById('updated'); 
+	if (tag.innerHTML) { 
+		tag.innerHTML = data; 
+	} 
+	else if (tag.innertext) { 
+		tag.innertext = data; 
+	} 
+}
+
+//]]>
+        </script>
+        <a title="Skip To Navigation" href="#nav" class="skiplink">
+          Skip To Navigation
+        </a>
+        <a title="Skip To Content" href="#content" class="skiplink">
+          Skip To Content
+        </a>
+        <div id="launchPanel">
+          <p>
+            <strong>
+              April 21 2014
+            </strong>
+             | 
+            <span id="updated">
+              Last updated 2 minutes ago
+
+            </span>
+          </p>
+          <form name="jump1" method="post" action="" class="publications">
+            <fieldset>
+              <label for="publications">
+                Publications:
+              </label>
+              <select tabindex="?" name="publications" id="publications">
+                <option value="#" selected="selected">
+                  Select
+                </option>
+                <option value="http://fridaymagazine.ae/">
+                  friday
+                </option>
+                <option value="http://www.alphamagazine.ae/">
+                  alpha
+                </option>
+                <option value="http://aquarius.ae/">
+                  aquarius
+                </option>
+                <option value="http://insideoutmagazine.ae/">
+                  insideout
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/scene">
+                  Scene
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/tabloid">
+                  tabloid!
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/tabloid-on-saturday">
+                  tabloid! on Saturday
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/weekend-review">
+                  Weekend Review
+                </option>
+                <option value="http://wheels.ae/">
+                  Wheels
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/xpress">
+                  XPRESS
+                </option>
+              </select>
+              <button onclick="location=document.jump1.publications.options[(document.jump1.publications.selectedIndex)].value;" value="Go" name="Go" type="button">
+                Go
+              </button>
+            </fieldset>
+          </form>
+          <form name="jump2" method="post" action="">
+            <fieldset>
+              <label for="jumpTo">
+                Jump to:
+              </label>
+              <select tabindex="?" name="jumpTo" id="jumpTo">
+                <option value="#" selected="selected">
+                  Select
+                </option>
+                <option value="http://gulfnews.com/">
+                  gulfnews
+                </option>
+                <option value="http://goodliving.gulfnews.com">
+                  Good Living
+                </option>
+                <option value="http://gulfnews.com/news/gulf/uae">
+                  UAE
+                </option>
+                <option value="http://gulfnews.com/business">
+                  Business
+                </option>
+                <option value="http://gulfnews.com/business/property">
+                  Property
+                </option>
+                <option value="http://gulfnews.com/life-style/travel">
+                  Travel
+                </option>
+                <option value="http://gulfnews.com/life-style/motoring">
+                  Motoring
+                </option>
+                <option value="http://gulfnews.com/life-style/food">
+                  Food
+                </option>
+                <option value="http://gulfnews.com/life-style/beauty-fashion">
+                  Beauty &amp; Fashion
+                </option>
+                <option value="http://gulfnews.com/arts-entertainment/film">
+                  Film &amp; Cinema
+                </option>
+                <option value="http://gulfnews.com/gntv">
+                  Video
+                </option>
+                <option value="http://gulfnews.com/pictures">
+                  Pictures
+                </option>
+                <option value="http://gulfnews.com/pictures/upload-picture">
+                  Upload a picture
+                </option>
+                <option value="http://gulfnews.com/multimedia/desktop-photo">
+                  Desktop photos
+                </option>
+                <option value="http://gulfnews.com/uaessentials/ask-the-law">
+                  Ask The Law
+                </option>
+                <option value="http://gulfnews.com/uaessentials/events-calendar">
+                  Events Calendar
+                </option>
+                <option value="http://gulfnews.com/uaessentials/events-calendar/upload-an-event">
+                  Upload an event
+                </option>
+                <option value="http://gulfnews.com/uaessentials/residents-guide">
+                  Resident Guide
+                </option>
+                <option value="http://gulfnews.com/uaessentials/tourist-guide">
+                  Tourist Guide
+                </option>
+                <option value="http://gulfnews.com/uaessentials/dining-out">
+                  Dining out
+                </option>
+                <option value="http://gulfnews.com/uaessentials/prayer-timings">
+                  Prayer timings
+                </option>
+                <option value="http://gulfnews.com/uaessentials/weather">
+                  Weather
+                </option>
+                <option value="http://gulfnews.com/life-style/horoscope">
+                  Horoscopes
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news/readers-club">
+                  Reader's Club
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news/promotions">
+                  Promotions
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news/terms-conditions">
+                  Terms &amp; Conditions
+                </option>
+                <option value="http://checkout1.gulfnews.com/index.php">
+                  Print Subscriptions
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news/privacy-policy">
+                  Privacy policy
+                </option>
+                <option value="http://gulfnews.com/advertising-information">
+                  Advertising Guide 
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news/gn-direct-marketing-2.3198">
+                  GN Direct Marketing
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news">
+                  About Gulf News
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news/contact-us">
+                  Contact us
+                </option>
+                <option value="http://gulfnews.com/about-gulf-news/help">
+                  Help &amp; FAQs
+                </option>
+              </select>
+              <button onclick="location=document.jump2.jumpTo.options[document.jump2.jumpTo.selectedIndex].value;" value="Go" name="Go" type="button">
+                Go
+              </button>
+            </fieldset>
+          </form>
+        </div>
+        <!-- #launchPanel -->        <h2>
+          <a title="Gulf News" href="http://gulfnews.com/">
+            gulfnews.com
+          </a>
+        </h2>
+        <form action="http://gulfnews.com/advanced-search/search-results">
+          <input type="hidden" name="action" value="search"/>
+          <input type="hidden" name="submitted" value="true"/>
+          <fieldset>
+            <label for="keywords">
+              Search Keywords:
+            </label>
+            <input type="text" default="Search Gulf News" name="freeText" value="Search Gulf News" tabindex="?" class="text autoclear" id="keywords"/>
+            <select style="display:none" id="id" name="site">
+              <option value="gulfnews" selected="selected">
+                gulfnews
+              </option>
+            </select>
+            <button value="Search" name="search" type="submit">
+              Search
+            </button>
+          </fieldset>
+        </form>
+        <p id="memberInfo">
+        </p>
+        <p>
+          <a title="Advanced Search" href="http://gulfnews.com/advanced-search">
+            Advanced Search
+          </a>
+           | 
+  
+	      
+			
+		
+			      
+          <a title="Mobile version" href="JavaScript:void(0);" onclick="_gaq.push(['_trackEvent', 'mobile', 'link', 'mobilesite']);javascript:mobileRedirect('.gulfnews.com','http://m.gulfnews.com','mobile');">
+            Mobile version
+          </a>
+           | 
+	
+  
+			
+					
+		
+		
+		  
+          <a title="ePaper edition" href="http://gulfnews.newspaperdirect.com/">
+            ePaper edition
+          </a>
+        </p>
+        <ul id="nav" class="sf-js-enabled sf-shadow">
+          <li style="border-width: 0pt;" class="">
+            <a title="Home" href="/" style="border-width: 0pt;">
+              Home 
+            </a>
+            <ul style="display: none; visibility: hidden;">
+              <li>
+                <p>
+                  <strong>
+                    Hot topics:
+                  </strong>
+                  <a title="IPL 2014" href="http://gulfnews.com/in-focus/ipl">
+                    IPL 2014
+                  </a>
+                  
+					|		    			    		
+			
+		
+					    		
+                  <a title="MH370 Mystery" href="http://gulfnews.com/in-focus/mh370">
+                    MH370 Mystery
+                  </a>
+                  
+					|		    			    		
+			
+		
+					    		
+                  <a title="India Election" href="http://gulfnews.com/in-focus/india-election">
+                    India Election
+                  </a>
+                  
+					|		    			    		
+			
+		
+					    		
+                  <a title="Dubai Expo 2020" href="http://gulfnews.com/in-focus/dubai-expo-2020">
+                    Dubai Expo 2020
+                  </a>
+                  
+					|		    			    		
+			
+		
+					    		
+                  <a title="Flight Tracker" href="http://gulfnews.com/life-style/travel/flight-tracker">
+                    Flight Tracker
+                  </a>
+                  
+					|		    			    		
+			
+		
+					    		
+                  <a title="Blogs" href="http://gulfnews.com/blogs">
+                    Blogs
+                  </a>
+                  
+					|		    			    		
+			
+		
+					    		
+                  <a title="Gold Rate" href="http://gulfnews.com/business/gold-rate">
+                    Gold Rate
+                  </a>
+                  
+					|		    			    		
+			
+		
+					    		
+                  <a title="Prayer timings" href="http://gulfnews.com/uaessentials/prayer-timings">
+                    Prayer timings
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li id="News" class="">
+            <a class="" href="http://gulfnews.com/news">
+              News
+            </a>
+            <ul style="display: none; visibility: hidden;">
+              <li>
+                <p>
+                  <a class="" href="http://gulfnews.com/news/gulf/uae">
+                    UAE
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/news/gulf/oman">
+                    Oman
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/news/gulf/bahrain">
+                    Bahrain
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/news/gulf/qatar">
+                    Qatar
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/news/gulf/kuwait">
+                    Kuwait
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/news/gulf/yemen">
+                    Yemen
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/news/gulf/saudi-arabia">
+                    Saudi Arabia
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/news/gulf">
+                    Gulf
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/news/region">
+                    Region
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/news/world">
+                    World
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li id="Business" class="">
+            <a class="" href="http://gulfnews.com/business">
+              Business
+            </a>
+            <ul style="display: none; visibility: hidden;">
+              <li>
+                <p>
+                  <a class="" href="http://gulfnews.com/business/property">
+                    Property
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/business/markets">
+                    Markets
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/business/data">
+                    Data
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/business/gold-rate">
+                    Gold Rate
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/in-focus/forex">
+                    Forex
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/business/industries">
+                    Industries
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/business/economy">
+                    Economy
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/business/technology">
+                    Technology
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/business/your-money">
+                    Your Money
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/business/opinion">
+                    Business Analysis
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li id="Sport" class="">
+            <a class="" href="http://gulfnews.com/sport">
+              Sport
+            </a>
+            <ul style="display: none; visibility: hidden;">
+              <li>
+                <p>
+                  <a class="" href="http://gulfnews.com/in-focus/cricket-2.1593/ipl">
+                    IPL
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/sport/cricket">
+                    Cricket
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/sport/football">
+                    Football
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/sport/athletics">
+                    Athletics
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/sport/motorsport">
+                    Motorsport
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/sport/horse-racing">
+                    Horse Racing
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/sport/tennis">
+                    Tennis
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/sport/golf">
+                    Golf
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/sport/rugby">
+                    Rugby
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/sport/basketball">
+                    Basketball
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/sport/sailing">
+                    Sailing
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/sport/other-sports">
+                    Other sports
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li id="Life " class="">
+            <a class="" href="http://gulfnews.com/life-style">
+              Life 
+            </a>
+            <ul style="display: none; visibility: hidden;">
+              <li>
+                <p>
+                  <a class="" href="http://gulfnews.com/life-style/food">
+                    Food
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/life-style/window-shopping">
+                    Shopping
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/life-style/motoring">
+                    Motoring
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/life-style/travel">
+                    Travel
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/life-style/travel/traveloffers">
+                    Hotel Offers
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/life-style/travel/flight-tracker">
+                    Flight Tracker
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/life-style/gadgets-technology">
+                    Gadgets
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/life-style/beauty-fashion">
+                    Beauty &amp; Fashion
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/life-style/home-interiors">
+                    Interiors
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/life-style/people">
+                    People
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/life-style/health">
+                    Health
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/life-style/education">
+                    Education
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li id="Entertainment" class="">
+            <a class="" href="http://gulfnews.com/arts-entertainment">
+              Entertainment
+            </a>
+            <ul style="display: none; visibility: hidden;">
+              <li>
+                <p>
+                  <a class="" href="http://gulfnews.com/arts-entertainment/books">
+                    Books
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/arts-entertainment/celebrity">
+                    Celebrity
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/arts-entertainment/film">
+                    Film &amp; Cinema
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/arts-entertainment/gaming">
+                    Gaming
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/arts-entertainment/internet">
+                    Internet
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/arts-entertainment/music">
+                    Music
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/arts-entertainment/performing-visual-arts">
+                    Performing and Visual Arts
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/arts-entertainment/television">
+                    Television
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li id="Guides" class="">
+            <a class="" href="http://gulfnews.com/uaessentials">
+              Guides
+            </a>
+            <ul style="display: none; visibility: hidden;">
+              <li>
+                <p>
+                  <a class="" href="http://gulfnews.com/uaessentials/ask-the-law">
+                    Ask The Law
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/uaessentials/restaurant-reviews">
+                    Restaurant Reviews
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/uaessentials/events">
+                    Events
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/uaessentials/events-calendar/upload-an-event">
+                    Upload an event
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/uaessentials/residents-guide">
+                    Resident Guide
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/uaessentials/tourist-guide">
+                    Tourist Guide
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/uaessentials/prayer-timings">
+                    Prayer timings
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/uaessentials/weather">
+                    Weather
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li id="Opinion" class="">
+            <a class="" href="http://gulfnews.com/opinions">
+              Opinion
+            </a>
+            <ul style="display: none; visibility: hidden;">
+              <li>
+                <p>
+                  <a class="" href="http://gulfnews.com/opinions/columnists/meet-our-writers-1.780197">
+                    Meet our writers 
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/opinions/cartoons">
+                    Cartoons
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/opinions/columnists">
+                    Columnists
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/opinions/editorials">
+                    Editorials
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/opinions/letters">
+                    Letters
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/opinions/offthecuff">
+                    Off the Cuff
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/opinions/your-say">
+                    Your say
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/opinions/speakyourmind">
+                    Speak Your Mind
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li id="Video" class="">
+            <a class="" href="http://gulfnews.com/gntv">
+              Video
+            </a>
+            <ul style="display: none; visibility: hidden;">
+              <li>
+                <p>
+                  <a class="" href="http://gulfnews.com/gntv/upload-video">
+                    Upload a video
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/gntv/arts">
+                    Arts &amp; Entertainment
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/gntv/business">
+                    Business
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/gntv/lifestyle">
+                    Life &amp; Style
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/gntv/motoring">
+                    Motoring
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/gntv/news">
+                    News
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/gntv/sport">
+                    Sport
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/gntv/technology">
+                    Technology
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/gntv/travel">
+                    Travel
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li id="Interact">
+            <a class="" href="http://gulfnews.com/multimedia">
+              Interact
+            </a>
+          </li>
+          <li id="Pictures" class="">
+            <a class="" href="http://gulfnews.com/pictures">
+              Pictures
+            </a>
+            <ul style="display: none; visibility: hidden;">
+              <li>
+                <p>
+                  <a class="" href="http://gulfnews.com/pictures/upload-picture">
+                    Upload a picture
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/pictures/business">
+                    Business
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/pictures/arts-entertainment">
+                    Arts &amp; Entertainment
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/pictures/day-in-pictures">
+                    Day in Pictures
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/pictures/life-style">
+                    Life &amp; Style
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/pictures/motoring">
+                    Motoring
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/pictures/news">
+                    News
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/pictures/sport">
+                    Sport
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/pictures/travel">
+                    Travel
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/pictures/viewer">
+                    Your pictures
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/pictures/spotlight">
+                    Spotlight
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li id="Focus" class="">
+            <a class="" href="http://gulfnews.com/in-focus">
+              Focus
+            </a>
+            <ul style="display: none; visibility: hidden;">
+              <li>
+                <p>
+                  <a class="" href="http://gulfnews.com/in-focus/ipl">
+                    IPL 2014
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/in-focus/mh370">
+                    MH370 Mystery
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/in-focus/india-election">
+                    India Election
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/in-focus/dubai-expo-2020">
+                    Dubai Expo 2020
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/business/gold-rate">
+                    Gold Rate
+                  </a>
+                  
+								|					          					          
+					            				                				                
+					            
+			
+		
+								            
+					            
+                  <a class="" href="http://gulfnews.com/uaessentials/prayer-timings">
+                    Prayer timings
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li class="right" id="navProperty">
+            <div>
+              <a href="http://www.gnproperty.com/" class="externalLink">
+                Property
+              </a>
+            </div>
+          </li>
+          <li class="right" id="navWheels">
+            <div>
+              <a target="_blank" href="http://www.gnads4u.com/wheels" class="externalLink">
+                Wheels
+              </a>
+            </div>
+          </li>
+          <li class="right" id="navCareers">
+            <div>
+              <a href="http://www.gncareers.com/" class="externalLink">
+                Careers
+              </a>
+            </div>
+          </li>
+          <li class="right" id="navClassifieds">
+            <div>
+              <a href="http://www.gnclassifieds.com/" class="externalLink">
+                Classifieds
+              </a>
+            </div>
+          </li>
+        </ul>
+        <!-- #nav -->        <div id="navBar">
+          <p class="right">
+          </p>
+          <ul style="margin: 0; padding: 0; float: right;">
+            <li style="float: left; list-style-type: none; padding: 0; margin: 0 5px 0 0;">
+              <a target="_new" href="http://www.instagram.com/gulfnews">
+                <img border="0" title="Instagram GulfNews" alt="Instagram GulfNews" src="/media/img/Instagram.png" class="tqayktayatunrodeijee"/>
+              </a>
+            </li>
+            <li style="float: left; list-style-type: none; padding: 0; margin: 0 5px 0 0;">
+              <a target="_new" href="http://www.youtube.com/user/GulfNewsTV">
+                <img border="0" title="Youtube GulfNews" alt="Youtube GulfNews" src="/media/img/youtube.png" class="tqayktayatunrodeijee"/>
+              </a>
+            </li>
+            <li style="float: left; list-style-type: none; padding: 0; margin: 0 5px 0 0;">
+              <a target="_new" href="http://gulfnews.com/about-gulf-news/rss">
+                <img border="0" title="Subscribe to RSS feeds" alt="Subscribe to RSS feeds" src="/media/img/RSS.png" class="tqayktayatunrodeijee"/>
+              </a>
+            </li>
+            <li style="float: left; list-style-type: none; padding: 0; margin: 0 5px 0 0;">
+              <a target="_new" href="https://www.facebook.com/GulfNews.UAE">
+                <img border="0" title="Facebook GulfNews" alt="Facebook GulfNews" src="/media/img/FaceBook.png" class="tqayktayatunrodeijee"/>
+              </a>
+            </li>
+            <li style="float: left; list-style-type: none; padding: 0; margin: 0 5px 0 0;">
+              <a target="_new" href="https://twitter.com/gulf_news">
+                <img border="0" title="Twitter GulfNews" alt="Twitter GulfNews" src="/media/img/Twitter.png" class="tqayktayatunrodeijee"/>
+              </a>
+            </li>
+            <li style="float: left; list-style-type: none; padding: 0; margin: 0 5px 0 0;">
+              <a target="_new" href="https://plus.google.com/+gulfnews/">
+                <img border="0" title="Goggle+ GulfNews" alt="Goggle+ GulfNews" src="/media/img/Google+.png"/>
+              </a>
+            </li>
+          </ul>
+          <p>
+          </p>
+        </div>
+        <!-- #navBar -->        <script type="text/javascript">
+//<![CDATA[
+
+        function loadLogin(json) {
+        if (json.loginStatus.loggedIn) {
+            $('#memberInfo').empty().append(
+                '&lt;a href="http://checkout1.gulfnews.com/index.php/" title="Subscribe" style="color: white;background-color: red;padding: 3px 5px 3px 5px;font-weight: bold;"&gt;Subscribe&lt;/a&gt; | Welcome back, ' + json.loginStatus.userName + ' &lt;a href="/profile"&gt;My Profile&lt;/a&gt; | &lt;a href="/dologout?referrer=http://gulfnews.com/advanced-search/search-results"&gt;Sign Out&lt;/a&gt;');
+        } else {
+            $('#memberInfo').empty().append(
+                '&lt;a href="http://checkout1.gulfnews.com/index.php/" title="Subscribe" style="color: white;background-color: red;padding: 3px 5px 3px 5px;font-weight: bold;"&gt;Subscribe&lt;/a&gt; | &lt;a href="/login" title="Register"&gt;Register&lt;/a&gt; | &lt;a href="/login?referrer=http://gulfnews.com/advanced-search/search-results" title="Sign In"&gt;Sign In&lt;/a&gt;');
+        }
+    }
+
+    $(document).ready(function() {
+        $.getJSON('/ajaxservlet?action=loginStatus', loadLogin);
+    });
+  
+//]]>
+        </script>
+      </div>
+      <!-- .frame #header -->      <div id="content" class="frame frame onesixth_half_onethird">
+        <div id="sectionHeading" class="frame">
+          <h2 id="sectionH2">
+            Search Results
+          </h2>
+          <p>
+          </p>
+        </div>
+        <!-- .frame #sectionHeading -->        <div class="wrapper_twothirds">
+          <div class="column onesixth">
+            <ul>
+              <li class="noborder">
+                <h4>
+                  Channel
+                </h4>
+              </li>
+              <li>
+                <a title="News" href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014&amp;channel=news">
+                  News
+                </a>
+              </li>
+              <li>
+                <a title="Business" href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014&amp;channel=business">
+                  Business
+                </a>
+              </li>
+              <li>
+                <a title="Life " href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014&amp;channel=life+">
+                  Life 
+                </a>
+              </li>
+              <li>
+                <a title="Sport" href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014&amp;channel=sport">
+                  Sport
+                </a>
+              </li>
+              <li>
+                <a title="Entertainment" href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014&amp;channel=entertainment">
+                  Entertainment
+                </a>
+              </li>
+              <li>
+                <a title="Opinion" href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014&amp;channel=opinion">
+                  Opinion
+                </a>
+              </li>
+              <li>
+                <a title="Guides" href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014&amp;channel=guides">
+                  Guides
+                </a>
+              </li>
+              <li>
+                <a title="Video" href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014&amp;channel=video">
+                  Video
+                </a>
+              </li>
+              <li>
+                <a title="Pictures" href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014&amp;channel=pictures">
+                  Pictures
+                </a>
+              </li>
+              <li>
+                <a title="Interact" href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014&amp;channel=interact">
+                  Interact
+                </a>
+              </li>
+              <li>
+                <a title="Focus" href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014&amp;channel=focus">
+                  Focus
+                </a>
+              </li>
+            </ul>
+            <div class="hr">
+              <hr/>
+            </div>
+            <ul>
+              <li class="noborder">
+                <h4>
+                  Source
+                </h4>
+              </li>
+              <li>
+                <a title="alpha" href="?site=gulfnews&amp;source=alpha&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  alpha
+                </a>
+              </li>
+              <li>
+                <a title="Aquarius" href="?site=gulfnews&amp;source=aquarius&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Aquarius
+                </a>
+              </li>
+              <li>
+                <a title="Scene" href="?site=gulfnews&amp;source=scene&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Scene
+                </a>
+              </li>
+              <li>
+                <a title="Friday" href="?site=gulfnews&amp;source=friday&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Friday
+                </a>
+              </li>
+              <li>
+                <a title="InsideOut" href="?site=gulfnews&amp;source=insideout&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  InsideOut
+                </a>
+              </li>
+              <li>
+                <a title="Wheels" href="?site=gulfnews&amp;source=wheels&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Wheels
+                </a>
+              </li>
+              <li>
+                <a title="Gulf News" href="?site=gulfnews&amp;source=gulf+news&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Gulf News
+                </a>
+              </li>
+              <li>
+                <a title="Tabloid" href="?site=gulfnews&amp;source=tabloid&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Tabloid
+                </a>
+              </li>
+              <li>
+                <a title="XPRESS" href="?site=gulfnews&amp;source=xpress&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  XPRESS
+                </a>
+              </li>
+              <li>
+                <a title="About Gulf News" href="?site=gulfnews&amp;source=about+gulf+news&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  About Gulf News
+                </a>
+              </li>
+              <li>
+                <a title="Explore" href="?site=gulfnews&amp;source=explore&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Explore
+                </a>
+              </li>
+              <li>
+                <a title="Al Nisr portfolio" href="?site=gulfnews&amp;source=al+nisr+portfolio&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Al Nisr portfolio
+                </a>
+              </li>
+              <li>
+                <a title="ANG events" href="?site=gulfnews&amp;source=ang+events&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  ANG events
+                </a>
+              </li>
+              <li>
+                <a title="Business" href="?site=gulfnews&amp;source=business&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Business
+                </a>
+              </li>
+              <li>
+                <a title="e+" href="?site=gulfnews&amp;source=e%2B&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  e+
+                </a>
+              </li>
+              <li>
+                <a title="Freehold Monthly" href="?site=gulfnews&amp;source=freehold+monthly&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Freehold Monthly
+                </a>
+              </li>
+              <li>
+                <a title="GN Focus" href="?site=gulfnews&amp;source=gn+focus&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  GN Focus
+                </a>
+              </li>
+              <li>
+                <a title="GN TV" href="?site=gulfnews&amp;source=gn+tv&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  GN TV
+                </a>
+              </li>
+              <li>
+                <a title="GN Rewards" href="?site=gulfnews&amp;source=gn+rewards&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  GN Rewards
+                </a>
+              </li>
+              <li>
+                <a title="Gulf" href="?site=gulfnews&amp;source=gulf&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Gulf
+                </a>
+              </li>
+              <li>
+                <a title="Gulf News Quarterly Financial Review" href="?site=gulfnews&amp;source=gulf+news+quarterly+financial+review&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Gulf News Quarterly Financial Review
+                </a>
+              </li>
+              <li>
+                <a title="In Focus" href="?site=gulfnews&amp;source=in+focus&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  In Focus
+                </a>
+              </li>
+              <li>
+                <a title="Property" href="?site=gulfnews&amp;source=property&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Property
+                </a>
+              </li>
+              <li>
+                <a title="Multimedia" href="?site=gulfnews&amp;source=multimedia&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Multimedia
+                </a>
+              </li>
+              <li>
+                <a title="News" href="?site=gulfnews&amp;source=news&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  News
+                </a>
+              </li>
+              <li>
+                <a title="Notes" href="?site=gulfnews&amp;source=notes&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Notes
+                </a>
+              </li>
+              <li>
+                <a title="Opinions" href="?site=gulfnews&amp;source=opinions&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Opinions
+                </a>
+              </li>
+              <li>
+                <a title="Promotions" href="?site=gulfnews&amp;source=promotions&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Promotions
+                </a>
+              </li>
+              <li>
+                <a title="Radio 1" href="?site=gulfnews&amp;source=radio+1&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Radio 1
+                </a>
+              </li>
+              <li>
+                <a title="Radio 2" href="?site=gulfnews&amp;source=radio+2&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Radio 2
+                </a>
+              </li>
+              <li>
+                <a title="Readers club" href="?site=gulfnews&amp;source=readers+club&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Readers club
+                </a>
+              </li>
+              <li>
+                <a title="Region" href="?site=gulfnews&amp;source=region&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Region
+                </a>
+              </li>
+              <li>
+                <a title="Sport" href="?site=gulfnews&amp;source=sport&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Sport
+                </a>
+              </li>
+              <li>
+                <a title="Tabloid on Saturday" href="?site=gulfnews&amp;source=tabloid+on+saturday&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Tabloid on Saturday
+                </a>
+              </li>
+              <li>
+                <a title="Unwind" href="?site=gulfnews&amp;source=unwind&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Unwind
+                </a>
+              </li>
+              <li>
+                <a title="Weekend Review" href="?site=gulfnews&amp;source=weekend+review&amp;fromDate=01%2F01%2F1997&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  Weekend Review
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- .column onesixth -->          <div class="column half">
+            <form method="get" action="" id="eventsSearch">
+              <input type="hidden" name="action" value="search"/>
+              <input type="hidden" name="submitted" value="true"/>
+              <fieldset>
+                <ol>
+                  <li class="first full">
+                    <label for="keyword">
+                      Keyword:
+                    </label>
+                    <input type="text" value="family" title="" class="text" id="keyword" name="freeText"/>
+                  </li>
+                  <li class="first">
+                    <label for="fromDate">
+                      From:
+                    </label>
+                    <input type="text" value="01/01/1997" title="21/04/2014" class="text datePicker dp-applied" id="fromDate" name="fromDate"/>
+                    <a title="Select Date" class="dp-choose-date" href="#">
+                      Select Date
+                    </a>
+                  </li>
+                  <li>
+                    <label for="toDate">
+                      To:
+                    </label>
+                    <input type="text" value="21/04/2014" title="21/04/2014" class="text datePicker dp-applied" id="toDate" name="toDate"/>
+                    <a title="Select Date" class="dp-choose-date" href="#">
+                      Select Date
+                    </a>
+                  </li>
+                  <li class="first">
+                    <label for="channel">
+                      Channel:
+                    </label>
+                    <select title="All Channels" class="" id="channel" name="channel">
+                      <option value="News">
+                        News
+                      </option>
+                      <option value="Business">
+                        Business
+                      </option>
+                      <option value="Life ">
+                        Life 
+                      </option>
+                      <option value="Sport">
+                        Sport
+                      </option>
+                      <option value="Entertainment">
+                        Entertainment
+                      </option>
+                      <option value="Opinion">
+                        Opinion
+                      </option>
+                      <option value="Guides">
+                        Guides
+                      </option>
+                      <option value="Video">
+                        Video
+                      </option>
+                      <option value="Pictures">
+                        Pictures
+                      </option>
+                      <option value="Interact">
+                        Interact
+                      </option>
+                      <option value="Focus">
+                        Focus
+                      </option>
+                      <option selected="selected" value="">
+                        All Channels
+                      </option>
+                    </select>
+                  </li>
+                  <li>
+                    <label for="source">
+                      Source:
+                    </label>
+                    <select title="All Sources" class="" id="source" name="source">
+                      <option value="alpha">
+                        alpha
+                      </option>
+                      <option value="Aquarius">
+                        Aquarius
+                      </option>
+                      <option value="Scene">
+                        Scene
+                      </option>
+                      <option value="Friday">
+                        Friday
+                      </option>
+                      <option value="InsideOut">
+                        InsideOut
+                      </option>
+                      <option value="Wheels">
+                        Wheels
+                      </option>
+                      <option value="Gulf News">
+                        Gulf News
+                      </option>
+                      <option value="Tabloid">
+                        Tabloid
+                      </option>
+                      <option value="XPRESS">
+                        XPRESS
+                      </option>
+                      <option value="About Gulf News">
+                        About Gulf News
+                      </option>
+                      <option value="Explore">
+                        Explore
+                      </option>
+                      <option value="Al Nisr portfolio">
+                        Al Nisr portfolio
+                      </option>
+                      <option value="ANG events">
+                        ANG events
+                      </option>
+                      <option value="Business">
+                        Business
+                      </option>
+                      <option value="e+">
+                        e+
+                      </option>
+                      <option value="Freehold Monthly">
+                        Freehold Monthly
+                      </option>
+                      <option value="GN Focus">
+                        GN Focus
+                      </option>
+                      <option value="GN TV">
+                        GN TV
+                      </option>
+                      <option value="GN Rewards">
+                        GN Rewards
+                      </option>
+                      <option value="Gulf">
+                        Gulf
+                      </option>
+                      <option value="Gulf News Quarterly Financial Review">
+                        Gulf News Quarterly Financial Review
+                      </option>
+                      <option value="In Focus">
+                        In Focus
+                      </option>
+                      <option value="Property">
+                        Property
+                      </option>
+                      <option value="Multimedia">
+                        Multimedia
+                      </option>
+                      <option value="News">
+                        News
+                      </option>
+                      <option value="Notes">
+                        Notes
+                      </option>
+                      <option value="Opinions">
+                        Opinions
+                      </option>
+                      <option value="Promotions">
+                        Promotions
+                      </option>
+                      <option value="Radio 1">
+                        Radio 1
+                      </option>
+                      <option value="Radio 2">
+                        Radio 2
+                      </option>
+                      <option value="Readers club">
+                        Readers club
+                      </option>
+                      <option value="Region">
+                        Region
+                      </option>
+                      <option value="Sport">
+                        Sport
+                      </option>
+                      <option value="Tabloid on Saturday">
+                        Tabloid on Saturday
+                      </option>
+                      <option value="Unwind">
+                        Unwind
+                      </option>
+                      <option value="Weekend Review">
+                        Weekend Review
+                      </option>
+                      <option selected="selected" value="">
+                        All Sources
+                      </option>
+                    </select>
+                  </li>
+                  <select style="display:none" id="id" name="site">
+                    <option value="gulfnews" selected="selected">
+                      gulfnews
+                    </option>
+                  </select>
+                  <li class="first">
+                    <label for="author">
+                      Author:
+                    </label>
+                    <input type="text" value="" title="" class="text" id="author" name="author"/>
+                  </li>
+                  <li>
+                    <button name="search" type="submit">
+                      Search
+                    </button>
+                  </li>
+                </ol>
+              </fieldset>
+            </form>
+            <p>
+              <strong>
+                Results  1 - 15 of 68718 for your search...
+              </strong>
+            </p>
+            <p class="control">
+              Order by: 
+              <a href="?site=gulfnews&amp;sort=publisheddate_descending&amp;fromDate=01%2F01%2F1997&amp;page=0&amp;action=search&amp;freeTextQuery=text%3Afamily&amp;submitted=true&amp;freeText=family&amp;toDate=21%2F04%2F2014" title="Most recent first">
+                Most recent first
+              </a>
+               | 
+              <a class="current" href="?site=gulfnews&amp;sort=relevance&amp;fromDate=01%2F01%2F1997&amp;page=0&amp;action=search&amp;freeTextQuery=text%3Afamily&amp;submitted=true&amp;freeText=family&amp;toDate=21%2F04%2F2014" title="Most relevant first">
+                Most relevant first
+              </a>
+            </p>
+            <ul class="overview">
+              <li>
+                <h6>
+                  Published 18:10 December 27, 2007
+                </h6>
+                <h3>
+                  <a href="http://gulfnews.com/news/world/pakistan/bhutto-s-family-head-for-pakistan-1.219604" title="">
+                    Bhutto's 
+                    <b>
+                      family
+                    </b>
+                     head for Pakistan
+                  </a>
+                </h3>
+                <p>
+                  Bhutto's 
+                  <b>
+                    family
+                  </b>
+                   head for Pakistan
+                </p>
+                <h5>
+                  Type: Article | Channel: News |  Source: Gulf News | Author: Gulf News Report
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 00:00 May 8, 2006
+                </h6>
+                <h3>
+                  <a href="http://gulfnews.com/news/gulf/uae/general/panel-to-improve-quality-of-family-counselling-set-up-1.236046" title="">
+                    Panel to improve quality of 
+                    <b>
+                      family
+                    </b>
+                     counselling set up
+                  </a>
+                </h3>
+                <p>
+                  Panel to improve quality of 
+                  <b>
+                    family
+                  </b>
+                   counselling set up
+                </p>
+                <h5>
+                  Type: Article | Channel: News |  Source: Gulf News | Author: By Alia Al Theeb, Staff Reporter
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 23:15 May 21, 2009
+                </h6>
+                <h3>
+                  <a href="http://gulfnews.com/news/gulf/uae/general/toddler-to-stay-with-foster-family-1.69415" title="">
+                    Toddler to stay with foster 
+                    <b>
+                      family
+                    </b>
+                  </a>
+                </h3>
+                <p>
+                  Toddler to stay with foster 
+                  <b>
+                    family
+                  </b>
+                </p>
+                <h5>
+                  Type: Article | Channel: News |  Source: Gulf News | Author: By Fuad Mohammed Ali, Staff Reporter
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 22:31 August 27, 2009
+                </h6>
+                <h3>
+                  <a href="http://gulfnews.com/news/gulf/uae/general/saif-meets-with-bereaved-family-members-1.537187" title="">
+                    Saif meets with bereaved 
+                    <b>
+                      family
+                    </b>
+                     members
+                  </a>
+                </h3>
+                <p>
+                  Saif meets with bereaved 
+                  <b>
+                    family
+                  </b>
+                   members
+                </p>
+                <h5>
+                  Type: Article | Channel: News |  Source: Gulf News | Author: WAM 
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 19:14 December 3, 2012
+                </h6>
+                <h3>
+                  <a href="http://gulfnews.com/news/gulf/uae/government/shaikh-mohammad-offers-condolences-to-lootah-family-1.1113956" title="">
+                    Shaikh Mohammad offers condolences to Lootah 
+                    <b>
+                      family
+                    </b>
+                  </a>
+                </h3>
+                <p>
+                  UAE Vice-President offers condolences to Lootah 
+                  <b>
+                    family
+                  </b>
+                   during a visit to the 
+                  <b>
+                    family
+                  </b>
+                  ’s home
+                </p>
+                <h5>
+                  Type: Article | Channel: Government, UAE |  Source: Gulf News | Author: WAM
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 00:00 June 6, 2007
+                </h6>
+                <h3>
+                  <a href="http://gulfnews.com/news/gulf/uae/general/forum-to-help-boost-family-values-1.183173" title="">
+                     Forum to help boost 
+                    <b>
+                      family
+                    </b>
+                     values
+                  </a>
+                </h3>
+                <p>
+                   Forum to help boost 
+                  <b>
+                    family
+                  </b>
+                   values
+                </p>
+                <h5>
+                  Type: Article | Channel: News |  Source: Gulf News | Author: WAM
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 00:00 April 2, 2006
+                </h6>
+                <h3>
+                  <a href="http://gulfnews.com/business/markets/difc-opens-family-office-to-protect-business-assets-1.231304" title="">
+                    DIFC opens 
+                    <b>
+                      Family
+                    </b>
+                     Office to protect business assets
+                  </a>
+                </h3>
+                <p>
+                  DIFC opens 
+                  <b>
+                    Family
+                  </b>
+                   Office to protect business assets
+                </p>
+                <h5>
+                  Type: Article | Channel: Business |  Source: Gulf News | Author: Staff Report
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 15:11 May 21, 2012
+                </h6>
+                <h3>
+                  <a href="http://gulfnews.com/news/world/india/four-members-of-family-found-dead-in-kerala-1.1025759" title="">
+                    Four members of 
+                    <b>
+                      family
+                    </b>
+                     found dead in Kerala
+                  </a>
+                </h3>
+                <p>
+                  Neighbours discover bodies of four members of a 
+                  <b>
+                    family
+                  </b>
+                   suspected of having committed suicide
+                </p>
+                <h5>
+                  Type: Article | Channel: News |  Source: Gulf News | Author: By Akhel Mathew, Correspondent
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 23:09 October 3, 2012
+                </h6>
+                <dl>
+                  <dt>
+                    <a href="http://gulfnews.com/pictures/life-style/the-arte-famiglia-nicola-1.1084933" title="">
+                      <img alt="advanced search" src="/polopoly_fs/1.1084929%21/image/189016521.jpg_gen/derivatives/box_90/189016521.jpg"/>
+                    </a>
+                  </dt>
+                  <dd>
+                    <h3>
+                      <a href="http://gulfnews.com/pictures/life-style/the-arte-famiglia-nicola-1.1084933" title="">
+                        The arte famiglia Nicola
+                      </a>
+                    </h3>
+                    <p>
+                      Meet the Nicolas, a renowned 
+                      <b>
+                        family
+                      </b>
+                       of art restorers in Italy
+                    </p>
+                  </dd>
+                </dl>
+                <h5>
+                  Type: Picture gallery | Channel: Pictures |  Source:  | Author: alpha
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 23:15 September 2, 2008
+                </h6>
+                <h3>
+                  <a href="http://gulfnews.com/business/banking/new-regulations-to-make-difc-a-centre-for-family-businesses-1.129521" title="">
+                     New regulations to make DIFC a centre for 
+                    <b>
+                      family
+                    </b>
+                     businesses
+                  </a>
+                </h3>
+                <p>
+                   New regulations to make DIFC a centre for 
+                  <b>
+                    family
+                  </b>
+                   businesses
+                </p>
+                <h5>
+                  Type: Article | Channel: Business |  Source: Gulf News | Author: Staff Report
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 08:17 May 19, 2011
+                </h6>
+                <dl>
+                  <dt>
+                    <a href="http://gulfnews.com/news/region/libya/tunisia-denies-gaddafi-family-members-are-in-the-country-1.809939" title="">
+                      <img alt="advanced search" src="/polopoly_fs/1.807551%21/image/1191283056.jpg_gen/derivatives/box_90/1191283056.jpg"/>
+                    </a>
+                  </dt>
+                  <dd>
+                    <h3>
+                      <a href="http://gulfnews.com/news/region/libya/tunisia-denies-gaddafi-family-members-are-in-the-country-1.809939" title="">
+                        Tunisia denies Gaddafi 
+                        <b>
+                          family
+                        </b>
+                         members are in the country 
+                      </a>
+                    </h3>
+                    <p>
+                      Tunisia denies Gaddafi 
+                      <b>
+                        family
+                      </b>
+                       members are in the country 
+                    </p>
+                  </dd>
+                </dl>
+                <h5>
+                  Type: Article | Channel: News |  Source:  | Author: Reuters
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 14:02 September 1, 2010
+                </h6>
+                <dl>
+                  <dt>
+                    <a href="http://gulfnews.com/arts-entertainment/film/movie-trailers/we-are-family-1.676125" title="">
+                      <img alt="advanced search" src="/polopoly_fs/1.676127%21/image/817904567.jpg_gen/derivatives/box_90/817904567.jpg"/>
+                    </a>
+                  </dt>
+                  <dd>
+                    <h3>
+                      <a href="http://gulfnews.com/arts-entertainment/film/movie-trailers/we-are-family-1.676125" title="">
+                        We Are 
+                        <b>
+                          Family
+                        </b>
+                      </a>
+                    </h3>
+                    <p>
+                      We Are 
+                      <b>
+                        Family
+                      </b>
+                       is a story about Maya, a woman whose life revolves around her three children
+                    </p>
+                  </dd>
+                </dl>
+                <h5>
+                  Type: Multimedia | Channel: Entertainment |  Source:  | Author: tabloid! 
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 16:15 January 19, 2009
+                </h6>
+                <dl>
+                  <dt>
+                    <a href="http://gulfnews.com/pictures/general/america-s-new-first-family-1.16678" title="">
+                      <img alt="advanced search" src="/polopoly_fs/1.13162%21/image/2440065860._gen/derivatives/box_90/2440065860."/>
+                    </a>
+                  </dt>
+                  <dd>
+                    <h3>
+                      <a href="http://gulfnews.com/pictures/general/america-s-new-first-family-1.16678" title="">
+                        America's new first 
+                        <b>
+                          family
+                        </b>
+                      </a>
+                    </h3>
+                    <p>
+                      The Obamas: A closer look at America's new first 
+                      <b>
+                        family
+                      </b>
+                    </p>
+                  </dd>
+                </dl>
+                <h5>
+                  Type: Picture gallery | Channel: Pictures |  Source:  | Author: Gulf News Web Report
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 21:41 February 23, 2012
+                </h6>
+                <dl>
+                  <dt>
+                    <a href="http://gulfnews.com/gntv/news/finding-an-identity-1.985500" title="">
+                      <img alt="advanced search" src="/polopoly_fs/1.981529%21/image/4132766022.jpg_gen/derivatives/box_90/4132766022.jpg"/>
+                    </a>
+                  </dt>
+                  <dd>
+                    <h3>
+                      <a href="http://gulfnews.com/gntv/news/finding-an-identity-1.985500" title="">
+                        Finding an identity
+                      </a>
+                    </h3>
+                    <p>
+                      Response to Gulf News article helps Dubai resident to reunite with 
+                      <b>
+                        family
+                      </b>
+                      . 
+                      <b>
+                        Watch the video
+                      </b>
+                    </p>
+                  </dd>
+                </dl>
+                <h5>
+                  Type: Multimedia | Channel: Video |  Source:  | Author: By Huda Tabrez, Community Web Editor
+                </h5>
+              </li>
+              <li>
+                <h6>
+                  Published 00:00 April 25, 2002
+                </h6>
+                <h3>
+                  <a href="http://gulfnews.com/news/gulf/uae/general/office-set-up-for-family-counselling-1.439317" title="">
+                    Office set up for 
+                    <b>
+                      family
+                    </b>
+                     counselling
+                  </a>
+                </h3>
+                <p>
+                  A 
+                  <b>
+                    family
+                  </b>
+                   counselling office has been established by Her Highness Sheikha Jawaher   bint Mohammed Al Qasimi, chairperson of the Supreme 
+                  <b>
+                    Family
+                  </b>
+                   Council and wife   of His Highness Dr Sheikh Sultan bin Mohammed Al Qasimi, Member of Supreme Council   and Ruler of Sharjah.
+                </p>
+                <h5>
+                  Type: Article | Channel: News |  Source: Gulf News | Author: By A Staff Reporter
+                </h5>
+              </li>
+            </ul>
+            <!-- .overview -->            <ul style="width: 282px;" class="pagination">
+              <li style="">
+                <a href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;page=0&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014" class="prev">
+                  Back
+                </a>
+              </li>
+              <li style="" class="center">
+                <a class="current" href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;page=0&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  1
+                </a>
+                <a href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;page=1&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  2
+                </a>
+                <a href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;page=2&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  3
+                </a>
+                <a href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;page=3&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  4
+                </a>
+                <a href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;page=4&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  5
+                </a>
+                <a href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;page=5&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  6
+                </a>
+                <a href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;page=6&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  7
+                </a>
+                <a href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;page=7&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  8
+                </a>
+                <a href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;page=8&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  9
+                </a>
+                <a href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;page=9&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014">
+                  10
+                </a>
+              </li>
+              <li class="right" style="">
+                <a href="?site=gulfnews&amp;fromDate=01%2F01%2F1997&amp;page=1&amp;submitted=true&amp;freeTextQuery=text%3Afamily&amp;action=search&amp;freeText=family&amp;toDate=21%2F04%2F2014" class="next">
+                  Next
+                </a>
+              </li>
+            </ul>
+            <!-- .pagination -->          </div>
+        </div>
+        <!-- wrapper_twothirds -->        <div class="onethird">
+          <div class="advert nomargin" id="adright">
+            <noscript>
+              &lt;a href="http://adtech.alnisrgroup.com/adlink/3.0/1348/4047422/0/170/ADTECH;loc=300;key=family;kvlabel=;kvkeywords=;kvpublication=gulfnews;kvsubsection=search-results;" target="_blank"&gt;
+			&lt;img src="http://adtech.alnisrgroup.com/adserv/3.0/1348/4047422/0/170/ADTECH;loc=300;key=family;kvlabel=;kvkeywords=;kvpublication=gulfnews;kvsubsection=search-results;" border="0" width="300" height="250"&gt;
+		&lt;/a&gt;
+	
+            </noscript>
+          </div>
+          <!-- passed param 'portion' to check if element is in right coloumn-->          <!-- Added by HCL to remove the border from the advert elements if required-->          <div class="advert nomargin">
+            <!-- BEGIN ADVERTPRO CODE BLOCK -->            <!--Added for replacing Tile with Advert Element on Home Page-->            <!-- to check if element is in right col-->            <!-- to check if element is in twothirdsplitter-->            <!-- to check the number of columns to be displayed-->            <script type="text/javascript" language="JavaScript">
+//<![CDATA[
+
+&lt;!--
+document.write('&lt;SCR'+'IPT src="http://gulfnews.advertserve.com/servlet/view/banner/javascript/zone?zid=762&amp;pid=0&amp;custom5=Search-Results&amp;custom6=&amp;random='+Math.floor(89999999*Math.random()+10000000)+'&amp;millis='+new Date().getTime()+'&amp;referrer='+escape(document.location)+'" language="JavaScript" type="text/javascript"&gt;&lt;/SCR'+'IPT&gt;');
+//--&gt;
+
+//]]>
+            </script>
+            <script type="text/javascript" language="JavaScript" src="http://gulfnews.advertserve.com/servlet/view/banner/javascript/zone?zid=762&amp;pid=0&amp;custom5=Search-Results&amp;custom6=&amp;random=94573147&amp;millis=1398083560183&amp;referrer=http%3A//gulfnews.com/advanced-search/search-results%3Faction%3Dsearch%26submitted%3Dtrue%26freeText%3Dfamily%26site%3Dgulfnews%26search%3DSearch">
+            </script>
+            <noscript>
+              &lt;A href="http://gulfnews.advertserve.com/servlet/click/zone?zid=762&amp;pid=0&amp;custom5=Search-Results&amp;custom6=&amp;lookup=true&amp;position=1" target="_top"&gt;
+&lt;IMG src="http://gulfnews.advertserve.com/servlet/view/banner/image/zone?zid=762&amp;pid=0&amp;custom5=Search-Results&amp;custom6=&amp;position=1" height="" width="" hspace="0" vspace="0" border="0" alt="Click Here!"&gt;
+&lt;/A&gt;
+
+            </noscript>
+            <!-- END ADVERTPRO CODE BLOCK -->          </div>
+          <div class="advert" id="adbelowfold">
+            <noscript>
+              &lt;a href="http://adtech.alnisrgroup.com/adlink/3.0/1348/4047420/0/170/ADTECH;loc=300;key=family;kvlabel=;kvkeywords=;kvpublication=gulfnews;kvsubsection=search-results;" target="_blank"&gt;
+			&lt;img src="http://adtech.alnisrgroup.com/adserv/3.0/1348/4047420/0/170/ADTECH;loc=300;key=family;kvlabel=;kvkeywords=;kvpublication=gulfnews;kvsubsection=search-results;" border="0" width="300" height="250"&gt;
+		&lt;/a&gt;
+	
+            </noscript>
+          </div>
+        </div>
+        <!-- .onethird -->      </div>
+      <!-- .frame three_equalcols #content -->      <div id="footer" class="frame">
+        <div id="adbottom">
+          <noscript>
+            &lt;a href="http://adtech.alnisrgroup.com/adlink/3.0/1348/4047421/0/225/ADTECH;loc=300;key=family;kvlabel=;kvkeywords=;kvpublication=gulfnews;kvsubsection=search-results;" target="_blank"&gt;
+			&lt;img src="http://adtech.alnisrgroup.com/adserv/3.0/1348/4047421/0/225/ADTECH;loc=300;key=family;kvlabel=;kvkeywords=;kvpublication=gulfnews;kvsubsection=search-results;" border="0" width="728" height="90"&gt;
+		&lt;/a&gt;
+	
+          </noscript>
+        </div>
+        <!-- Added by HCL to remove the border from the advert elements if required-->        <!-- BEGIN ADVERTPRO CODE BLOCK -->        <!--Added for replacing Tile with Advert Element on Home Page-->        <!-- to check if element is in right col-->        <!-- to check if element is in twothirdsplitter-->        <!-- to check the number of columns to be displayed-->        <script type="text/javascript" language="JavaScript">
+//<![CDATA[
+
+&lt;!--
+document.write('&lt;SCR'+'IPT src="http://gulfnews.advertserve.com/servlet/view/banner/javascript/zone?zid=761&amp;pid=0&amp;custom5=Search-Results&amp;custom6=&amp;random='+Math.floor(89999999*Math.random()+10000000)+'&amp;millis='+new Date().getTime()+'&amp;referrer='+escape(document.location)+'" language="JavaScript" type="text/javascript"&gt;&lt;/SCR'+'IPT&gt;');
+//--&gt;
+
+//]]>
+        </script>
+        <script type="text/javascript" language="JavaScript" src="http://gulfnews.advertserve.com/servlet/view/banner/javascript/zone?zid=761&amp;pid=0&amp;custom5=Search-Results&amp;custom6=&amp;random=44565863&amp;millis=1398083560187&amp;referrer=http%3A//gulfnews.com/advanced-search/search-results%3Faction%3Dsearch%26submitted%3Dtrue%26freeText%3Dfamily%26site%3Dgulfnews%26search%3DSearch">
+        </script>
+        <noscript>
+          &lt;A href="http://gulfnews.advertserve.com/servlet/click/zone?zid=761&amp;pid=0&amp;custom5=Search-Results&amp;custom6=&amp;lookup=true&amp;position=1" target="_top"&gt;
+&lt;IMG src="http://gulfnews.advertserve.com/servlet/view/banner/image/zone?zid=761&amp;pid=0&amp;custom5=Search-Results&amp;custom6=&amp;position=1" height="" width="" hspace="0" vspace="0" border="0" alt="Click Here!"&gt;
+&lt;/A&gt;
+
+        </noscript>
+        <!-- END ADVERTPRO CODE BLOCK -->        <div id="footer" class="frame">
+          <div id="quickLinks" class="frame">
+            <h5>
+              <strong>
+                Gulfnews.com
+              </strong>
+               | Quick links
+            </h5>
+            <form name="footer_jump1" method="post" action="">
+              <fieldset>
+                <label for="publicationsFoot">
+                  Publications:
+                </label>
+                <select tabindex="?" name="publications" id="publicationsFoot">
+                  <option value="http://gulfnews.com/" selected="selected">
+                    gulfnews
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/alpha">
+                    alpha
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/aquarius">
+                    Aquarius
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/notes">
+                    Campus Notes
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/friday">
+                    Friday
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/inside-out">
+                    InsideOut
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/scene">
+                    Scene
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/tabloid">
+                    tabloid!
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/tabloid-on-saturday">
+                    tabloid! on Saturday
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/weekend-review">
+                    Weekend Review
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/wheels">
+                    Wheels
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/xpress">
+                    XPRESS
+                  </option>
+                </select>
+                <button onclick="location=document.footer_jump1.publicationsFoot.options[document.footer_jump1.publicationsFoot.selectedIndex].value;" value="Go" name="Go" type="button">
+                  Go
+                </button>
+              </fieldset>
+            </form>
+            <form name="footer_jump2" method="post" action="">
+              <fieldset>
+                <label for="jumpToFoot">
+                  Jump to:
+                </label>
+                <select tabindex="?" name="jumpTo" id="jumpToFoot">
+                  <option value="http://gulfnews.com/advertising-information" selected="selected">
+                    Advertising Guide 
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news">
+                    About Gulf News
+                  </option>
+                  <option value="http://gulfnews.com/about-gulf-news/help">
+                    Help &amp; FAQs
+                  </option>
+                  <option value="http://gulfnews.com/news/gulf/uae">
+                    UAE
+                  </option>
+                </select>
+                <button onclick="location=document.footer_jump2.jumpToFoot.options[document.footer_jump2.jumpToFoot.selectedIndex].value;" value="Go" name="Go" type="button">
+                  Go
+                </button>
+              </fieldset>
+            </form>
+            <form action="http://gulfnews.com/advanced-search/search-results" id="search">
+              <input type="hidden" name="action" value="search"/>
+              <input type="hidden" name="submitted" value="true"/>
+              <fieldset>
+                <label for="keywords">
+                  Search Keywords:
+                </label>
+                <input type="text" default="Search Gulf News" name="freeText" value="Search Gulf News" tabindex="?" class="text autoclear" id="keywords"/>
+                <select style="display:none" id="id" name="site">
+                  <option value="gulfnews" selected="selected">
+                    gulfnews
+                  </option>
+                </select>
+                <button value="Search" name="search" type="submit">
+                  Search
+                </button>
+              </fieldset>
+            </form>
+            <ul>
+              <li>
+                <h6>
+                  <a title="News" href="http://gulfnews.com/news">
+                    News
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="UAE" href="http://gulfnews.com/news/gulf/uae">
+                      UAE
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Bahrain" href="http://gulfnews.com/news/gulf/bahrain">
+                      Bahrain
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Kuwait" href="http://gulfnews.com/news/gulf/kuwait">
+                      Kuwait
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Qatar" href="http://gulfnews.com/news/gulf/qatar">
+                      Qatar
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Oman" href="http://gulfnews.com/news/gulf/oman">
+                      Oman
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Saudi Arabia" href="http://gulfnews.com/news/gulf/saudi-arabia">
+                      Saudi Arabia
+                    </a>
+                  </li>
+                  <li>
+                    <a title="World" href="http://gulfnews.com/news/world">
+                      World
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Business" href="http://gulfnews.com/business">
+                    Business
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Property" href="http://gulfnews.com/business/property">
+                      Property
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Aviation" href="http://gulfnews.com/business/aviation">
+                      Aviation
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Technology" href="http://gulfnews.com/business/technology">
+                      Technology
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Oil &amp; Gas" href="http://gulfnews.com/business/oil-gas">
+                      Oil &amp; Gas
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Investment" href="http://gulfnews.com/business/investment">
+                      Investment
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Business Analysis" href="http://gulfnews.com/business/opinion">
+                      Business Analysis
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Your Money" href="http://gulfnews.com/business/your-money">
+                      Your Money
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Sport" href="http://gulfnews.com/sport">
+                    Sport
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Cricket" href="http://gulfnews.com/sport/cricket">
+                      Cricket
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Football" href="http://gulfnews.com/sport/football">
+                      Football
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Horse Racing" href="http://gulfnews.com/sport/horse-racing">
+                      Horse Racing
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Motorsport" href="http://gulfnews.com/sport/motorsport">
+                      Motorsport
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Golf" href="http://gulfnews.com/sport/golf">
+                      Golf
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Tennis" href="http://gulfnews.com/sport/tennis">
+                      Tennis
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Sailing" href="http://gulfnews.com/sport/sailing">
+                      Sailing
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Entertainment" href="http://gulfnews.com/arts-entertainment">
+                    Entertainment
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Film &amp; Cinema" href="http://gulfnews.com/arts-entertainment/film">
+                      Film &amp; Cinema
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Music" href="http://gulfnews.com/arts-entertainment/music">
+                      Music
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Celebrity" href="http://gulfnews.com/arts-entertainment/celebrity">
+                      Celebrity
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Gaming" href="http://gulfnews.com/arts-entertainment/gaming">
+                      Gaming
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Internet" href="http://gulfnews.com/arts-entertainment/internet">
+                      Internet
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Books" href="http://gulfnews.com/arts-entertainment/books">
+                      Books
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Television" href="http://gulfnews.com/arts-entertainment/television">
+                      Television
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Life " href="http://gulfnews.com/life-style">
+                    Life 
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Food" href="http://gulfnews.com/life-style/food">
+                      Food
+                    </a>
+                  </li>
+                  <li>
+                    <a title="People" href="http://gulfnews.com/life-style/people">
+                      People
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Motoring" href="http://gulfnews.com/life-style/motoring">
+                      Motoring
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Travel" href="http://gulfnews.com/life-style/travel">
+                      Travel
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Gadgets" href="http://gulfnews.com/life-style/gadgets-technology">
+                      Gadgets
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Beauty &amp; Fashion" href="http://gulfnews.com/life-style/beauty-fashion">
+                      Beauty &amp; Fashion
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Interiors" href="http://gulfnews.com/life-style/home-interiors">
+                      Interiors
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Guides" href="http://gulfnews.com/uaessentials">
+                    Guides
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Resident Guide" href="http://gulfnews.com/uaessentials/residents-guide">
+                      Resident Guide
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Tourist Guide" href="http://gulfnews.com/uaessentials/tourist-guide">
+                      Tourist Guide
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Ask The Law" href="http://gulfnews.com/uaessentials/ask-the-law">
+                      Ask The Law
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Events Calendar" href="http://gulfnews.com/uaessentials/events-calendar">
+                      Events Calendar
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Weather" href="http://gulfnews.com/uaessentials/weather">
+                      Weather
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Dining out" href="http://gulfnews.com/uaessentials/dining-out">
+                      Dining out
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Maps" href="http://gulfnews.com/multimedia/maps">
+                      Maps
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Opinion" href="http://gulfnews.com/opinions">
+                    Opinion
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Columnists" href="http://gulfnews.com/opinions/columnists">
+                      Columnists
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Editorials" href="http://gulfnews.com/opinions/editorials">
+                      Editorials
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Letters" href="http://gulfnews.com/opinions/letters">
+                      Letters
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Speak Your Mind" href="http://gulfnews.com/opinions/speakyourmind">
+                      Speak Your Mind
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Your say" href="http://gulfnews.com/opinions/your-say">
+                      Your say
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Reader's Club" href="http://gulfnews.com/about-gulf-news/readers-club">
+                      Reader's Club
+                    </a>
+                  </li>
+                </ol>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <h6>
+                  <a title="Video" href="http://gulfnews.com/gntv">
+                    Video
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="News" href="http://gulfnews.com/gntv/news">
+                      News
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Business" href="http://gulfnews.com/gntv/business">
+                      Business
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Sport" href="http://gulfnews.com/gntv/sport">
+                      Sport
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Travel" href="http://gulfnews.com/gntv/travel">
+                      Travel
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Motoring" href="http://gulfnews.com/gntv/motoring">
+                      Motoring
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Life &amp; Style" href="http://gulfnews.com/gntv/lifestyle">
+                      Life &amp; Style
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Arts &amp; Entertainment" href="http://gulfnews.com/gntv/arts">
+                      Arts &amp; Entertainment
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Pictures" href="http://gulfnews.com/pictures">
+                    Pictures
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Upload a picture" href="http://gulfnews.com/pictures/upload-picture">
+                      Upload a picture
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Your pictures" href="http://gulfnews.com/pictures/viewer">
+                      Your pictures
+                    </a>
+                  </li>
+                  <li>
+                    <a title="News" href="http://gulfnews.com/pictures/news">
+                      News
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Travel" href="http://gulfnews.com/pictures/travel">
+                      Travel
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Business" href="http://gulfnews.com/pictures/business">
+                      Business
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Life &amp; Style" href="http://gulfnews.com/pictures/life-style">
+                      Life &amp; Style
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Arts &amp; Entertainment" href="http://gulfnews.com/pictures/arts-entertainment">
+                      Arts &amp; Entertainment
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Desktop photos" href="http://gulfnews.com/multimedia/desktop-photo">
+                      Desktop photos
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="GN Focus" href="http://gulfnews.com/gn-focus">
+                    GN Focus
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Consumer Friendliness Index" href="http://gulfnews.com/gn-focus/consumer-friendliness-index">
+                      Consumer Friendliness Index
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Fifa World Cup" href="http://gulfnews.com/gn-focus/fifa-world-cup">
+                      Fifa World Cup
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Gulf Education" href="http://gulfnews.com/gn-focus/gulf-education">
+                      Gulf Education
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Deal" href="http://gulfnews.com/gn-focus/deal">
+                      Deal
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Annual Investment Meet" href="http://gulfnews.com/gn-focus/annual-investment-meet">
+                      Annual Investment Meet
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Personal Loans" href="http://gulfnews.com/gn-focus/personal-loans">
+                      Personal Loans
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Islamic Finance" href="http://gulfnews.com/gn-focus/islamic-finance">
+                      Islamic Finance
+                    </a>
+                  </li>
+                  <li>
+                    <a title="UAE Driving Schools" href="http://gulfnews.com/gn-focus/uae-driving-schools">
+                      UAE Driving Schools
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Focus" href="http://gulfnews.com/in-focus">
+                    Focus
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="ICC Twenty20 World Cup" href="http://gulfnews.com/in-focus/icc-twenty20-world-cup">
+                      ICC Twenty20 World Cup
+                    </a>
+                  </li>
+                  <li>
+                    <a title="MH370 Mystery" href="http://gulfnews.com/in-focus/mh370">
+                      MH370 Mystery
+                    </a>
+                  </li>
+                  <li>
+                    <a title="India Election" href="http://gulfnews.com/in-focus/india-election">
+                      India Election
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Dubai Expo 2020" href="http://gulfnews.com/in-focus/dubai-expo-2020">
+                      Dubai Expo 2020
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Gold Rate" href="http://gulfnews.com/business/gold-rate">
+                      Gold Rate
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Forex" href="http://gulfnews.com/in-focus/forex">
+                      Forex
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="GNAds4U" href="http://www.gnads4u.com/">
+                    GNAds4U
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Careers" href="http://www.gncareers.com/">
+                      Careers
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Wheels" href="http://www.gnads4u.com/wheels%20target=_blank">
+                      Wheels
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Property" href="http://www.gnproperty.com/">
+                      Property
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Classifieds" href="http://www.gnclassifieds.com/">
+                      Classifieds
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Place an ad" href="http://www.gnads4u.com/selfservice/step1.html">
+                      Place an ad
+                    </a>
+                  </li>
+                  <li>
+                    <a title="FAQs" href="http://www.gnads4u.com/staticpages.html?_a=faq">
+                      FAQs
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Promotions" href="http://gulfnews.com/about-gulf-news/promotions">
+                    Promotions
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Smart Subscriptions" href="http://gulfnews.com/about-gulf-news/promotions/smart-subscriptions">
+                      Smart Subscriptions
+                    </a>
+                  </li>
+                  <li>
+                    <a title="GN Winners" href="http://gulfnews.com/about-gulf-news/promotions/gn-rewards">
+                      GN Winners
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Good Living" href="http://goodliving.gulfnews.com">
+                      Good Living
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Competitions" href="http://gulfnews.com/about-gulf-news/promotions/competitions">
+                      Competitions
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Gulf News Mobile" href="http://gulfnews.com/apps">
+                    Gulf News Mobile
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="SMS Breaking News" href="http://gulfnews.com/apps/sms-breaking-news-service-1.1089419">
+                      SMS Breaking News
+                    </a>
+                  </li>
+                  <li>
+                    <a title="App for iPad" href="http://gulfnews.com/apps/gulf-news-tablet-for-the-ipad-1.1241622#App%20for%20Ipad">
+                      App for iPad
+                    </a>
+                  </li>
+                  <li>
+                    <a title="App for iPhone" href="http://gulfnews.com/apps/gulf-news-iphone-app-1.1241643#App%20for%20iPhone">
+                      App for iPhone
+                    </a>
+                  </li>
+                  <li>
+                    <a title="App for Android Tablet" href="http://gulfnews.com/apps/gulf-news-android-tablet-app-1.1241660#App%20for%20Android%20Tablet">
+                      App for Android Tablet
+                    </a>
+                  </li>
+                  <li>
+                    <a title="App for Android Mobile" href="http://gulfnews.com/apps/gulf-news-android-mobile-app-1.1241648#App%20for%20Android%20mobile">
+                      App for Android Mobile
+                    </a>
+                  </li>
+                  <li>
+                    <a title="App for Blackberry 10" href="http://gulfnews.com/apps/gulf-news-blackberry-10-app-1.1241667#App%20for%20Blackberry%2010">
+                      App for Blackberry 10
+                    </a>
+                  </li>
+                  <li>
+                    <a title="App for Windows 8 Phone" href="http://gulfnews.com/apps/gulf-news-windows-8-phone-app-1.1246696#App%20for%20Windows%208%20Phone">
+                      App for Windows 8 Phone
+                    </a>
+                  </li>
+                  <li>
+                    <a title="App for Nokia mobile" href="http://gulfnews.com/apps/gulf-news-nokia-mobile-app-1.768655#App%20for%20Nokia%20mobile">
+                      App for Nokia mobile
+                    </a>
+                  </li>
+                </ol>
+              </li>
+            </ul>
+            <p>
+              <strong>
+                Other Al Nisr publications
+              </strong>
+              <a title="alpha" href="http://www.alphamagazine.ae/">
+                alpha
+              </a>
+               |
+	    	    	
+			
+		
+				    	
+              <a title="aquarius" href="http://aquarius.ae/">
+                aquarius
+              </a>
+               |
+	    	    	
+			
+		
+				    	
+              <a title="Friday" href="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/friday">
+                Friday
+              </a>
+               |
+	    	    	
+			
+		
+				    	
+              <a title="insideout" href="http://insideoutmagazine.ae/">
+                insideout
+              </a>
+               |
+	    	    	
+			
+		
+				    	
+              <a title="tabloid!" href="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/tabloid">
+                tabloid!
+              </a>
+               |
+	    	    	
+			
+		
+				    	
+              <a title="tabloid! on Saturday" href="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/tabloid-on-saturday">
+                tabloid! on Saturday
+              </a>
+               |
+	    	    	
+			
+		
+				    	
+              <a title="Weekend Review" href="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/weekend-review">
+                Weekend Review
+              </a>
+               |
+	    	    	
+			
+		
+				    	
+              <a title="Wheels" href="http://wheels.ae/">
+                Wheels
+              </a>
+               |
+	    	    	
+			
+		
+				    	
+              <a title="XPRESS" href="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/xpress">
+                XPRESS
+              </a>
+               |
+	    	    
+              <br/>
+              <br/>
+              <font style="margin-left: 0px;color: #999999;">
+                <a href="http://checkout1.gulfnews.com" style="color: #999999">
+                  Subscribe now for home delivery of the GulfNews print edition and our magazines
+                </a>
+              </font>
+            </p>
+          </div>
+          <!-- .frame #quickLinks -->          <div id="newfooterlinks" class="frame">
+            <ul>
+              <li>
+                <h6>
+                  <a title="About Gulf News" href="http://gulfnews.com/about-gulf-news">
+                    About Gulf News
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="The History of Gulf News" href="http://gulfnews.com/about-gulf-news/help/the-history-of-gulf-news-1.446035">
+                      The History of Gulf News
+                    </a>
+                  </li>
+                  <li>
+                    <a title="How to find Gulf News" href="http://gulfnews.com/about-gulf-news/how-to-find-gulf-news-1.504859">
+                      How to find Gulf News
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Print Subscriptions" href="http://checkout1.gulfnews.com/index.php/">
+                      Print Subscriptions
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Help &amp; FAQs" href="http://gulfnews.com/about-gulf-news/help">
+                      Help &amp; FAQs
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Contact us" href="http://gulfnews.com/about-gulf-news/contact-us">
+                      Contact us
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Corporate Information" href="http://gulfnews.com/about-gulf-news/corporate-information">
+                    Corporate Information
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Al Nisr Portfolio" href="http://gulfnews.com/about-gulf-news/al-nisr-portfolio">
+                      Al Nisr Portfolio
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Company News" href="http://gulfnews.com/about-gulf-news/company-news">
+                      Company News
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Careers at Gulf News " href="http://gulfnews.com/about-gulf-news/careers-at-gulf-news-1.614542">
+                      Careers at Gulf News 
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Policies" href="http://gulfnews.com/about-gulf-news/policies">
+                    Policies
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Code of Ethics" href="http://gulfnews.com/about-gulf-news/help/code-of-ethics-1.446056">
+                      Code of Ethics
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Gulf News Ethics Policy" href="http://gulfnews.com/about-gulf-news/help/gulf-news-ethics-policy-1.446052">
+                      Gulf News Ethics Policy
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Gulf News Reader's Policy" href="http://gulfnews.com/about-gulf-news/help/gulf-news-reader-s-policy-1.446061">
+                      Gulf News Reader's Policy
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Privacy policy" href="http://gulfnews.com/about-gulf-news/privacy-policy">
+                      Privacy policy
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Advertising Guide " href="http://gulfnews.com/advertising-information">
+                    Advertising Guide 
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="Advertising Guide - Print " href="http://gulfnews.com/advertising-information/advertising-guide-print">
+                      Advertising Guide - Print 
+                    </a>
+                  </li>
+                  <li>
+                    <a title="GN Direct Marketing" href="http://gulfnews.com/about-gulf-news/gn-direct-marketing-2.3198">
+                      GN Direct Marketing
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Contract Publishing" href="http://gulfnews.com/contract-publishing">
+                    Contract Publishing
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="What We Do" href="http://gulfnews.com/contract-publishing/what-we-do">
+                      What We Do
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Our Clients" href="http://gulfnews.com/contract-publishing/our-clients">
+                      Our Clients
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Contact Us" href="http://gulfnews.com/contract-publishing/contact-us">
+                      Contact Us
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <h6>
+                  <a title="Commercial Printing" href="http://gulfnews.com/commercial-printing">
+                    Commercial Printing
+                  </a>
+                </h6>
+                <ol>
+                  <li>
+                    <a title="What We Do" href="http://gulfnews.com/commercial-printing/what-we-do">
+                      What We Do
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Facilities" href="http://gulfnews.com/commercial-printing/facilities">
+                      Facilities
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Contact Us" href="http://gulfnews.com/commercial-printing/contact-us">
+                      Contact Us
+                    </a>
+                  </li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+          <div id="smallprint" class="frame">
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <p class="copyright">
+                         	    © Al Nisr Publishing LLC 2014. All rights reserved.  |
+  	     
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <a title="Contact us" href="http://gulfnews.com/about-gulf-news/contact-us">
+                        Contact us
+                      </a>
+                      
+  		
+  		 |   		  	  	      		
+  		
+			
+		
+			  		
+                      <a title="Register" href="http://gulfnews.com/register">
+                        Register
+                      </a>
+                      
+  		
+  		 |   		  	  	      		
+  		
+			
+		
+			  		
+                      <a title="Terms &amp; Conditions" href="http://gulfnews.com/about-gulf-news/terms-conditions">
+                        Terms &amp; Conditions
+                      </a>
+                      
+  		
+  		 |   		  	  	      		
+  		
+			
+		
+			  		
+                      <a title="Privacy policy" href="http://gulfnews.com/about-gulf-news/privacy-policy">
+                        Privacy policy
+                      </a>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- .frame #smallprint -->        </div>
+        <!-- .frame #footer -->        <script type="text/javascript">
+//<![CDATA[
+    
+		kvUser = 'kvcountry=;kvgender=;kvnationality=;kvyob=;kvprof=;kvindustry=;kvinterests=;';
+	function getUser(json) {		
+        if (json.loginStatus.loggedIn) {	
+			kvUser = '';	
+			if (json.loginStatus.country) {
+				kvUser = kvUser+'kvcountry='+json.loginStatus.country+';';
+			}
+			else{
+				kvUser = kvUser+'kvcountry=;';
+			}				
+			if (json.loginStatus.gender){ 
+				kvUser = kvUser+'kvgender='+json.loginStatus.gender+';';
+			}
+			else{
+				kvUser = kvUser+'kvgender=;';
+			}		
+			if (json.loginStatus.nationality){ 
+				kvUser = kvUser+'kvnationality='+json.loginStatus.nationality+';';
+			}
+			else{		
+				kvUser = kvUser+'kvnationality=;';
+			}	
+			if (json.loginStatus.dob){ 
+				kvUser = kvUser+'kvyob='+json.loginStatus.dob.substring(json.loginStatus.dob.length-4)+';';
+			}
+			else{
+				kvUser = kvUser+'kvyob=;';
+			}		
+			if (json.loginStatus.prof){ 
+				kvUser = kvUser+'kvprof='+json.loginStatus.prof+';';
+			}
+			else{
+				kvUser = kvUser+'kvprof=;';
+			}	
+			if (json.loginStatus.industry){ 
+				kvUser = kvUser+'kvindustry='+json.loginStatus.industry+';';
+			}
+			else{
+				kvUser = kvUser+'kvindustry=;';
+			}	
+			if (json.loginStatus.interests){ 
+				kvUser = kvUser+'kvinterests='+json.loginStatus.interests+';';
+			}
+			else{
+				kvUser = kvUser+'kvinterests=;';
+			}			
+			kvUser = kvUser + tempAdtech;
+		}
+		else{		
+			kvUser = 'kvcountry=;kvgender=;kvnationality=;kvyob=;kvprof=;kvindustry=;kvinterests=;';	
+			kvUser = kvUser + tempAdtech;
+		}		
+
+					if ($('#adtop').length &gt; 0 ) { ADTECH.loadAd('adtop','http://adtech.alnisrgroup.com/addyn/3.0/1348/4047423/0/2473/ADTECH;loc=300;key=family;kvlabel=;kvkeywords=;kvpublication=gulfnews;kvsubsection=search-results;'+kvUser); }
+												if ($('#adright').length &gt; 0 ) { ADTECH.loadAd('adright','http://adtech.alnisrgroup.com/addyn/3.0/1348/4047422/0/529/ADTECH;loc=300;key=family;kvlabel=;kvkeywords=;kvpublication=gulfnews;kvsubsection=search-results;'+kvUser); }
+						if ($('#adbelowfold').length &gt; 0 ) { ADTECH.loadAd('adbelowfold','http://adtech.alnisrgroup.com/addyn/3.0/1348/4047420/0/529/ADTECH;loc=300;key=family;kvlabel=;kvkeywords=;kvpublication=gulfnews;kvsubsection=search-results;'+kvUser); }
+														if ($('#adbottom').length &gt; 0 ) { ADTECH.loadAd('adbottom','http://adtech.alnisrgroup.com/addyn/3.0/1348/4047421/0/2473/ADTECH;loc=300;key=family;kvlabel=;kvkeywords=;kvpublication=gulfnews;kvsubsection=search-results;'+kvUser); }
+										
+    }
+	$.getJSON('/ajaxservlet?action=loginStatus', getUser);
+	
+//]]>
+        </script>
+      </div>
+      <!-- .frame #footer -->    </div>
+    <!-- #wrapper -->    <div>
+      <img alt="" src="/logger/p.gif?d=/2.205/2.1155/2.1168" class="tqayktayatunrodeijee"/>
+    </div>
+    <script src="/media/js/pin.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    	// Thumbnail Toolbar Buttons
+        if (window.external.msIsSiteMode()) {
+    		// Add buttons listener
+        	if (document.addEventListener) {
+           		 document.addEventListener('msthumbnailclick', onThumbnailButtonClicked, false);
+            }
+            else if (document.attachEvent) {
+                document.attachEvent('onmsthumbnailclick', onThumbnailButtonClicked);
+            };
+    
+            // Add buttons
+            btnFb = window.external.msSiteModeAddThumbBarButton('/media/img/facebook.ico', 'Facebook');
+            btnTw = window.external.msSiteModeAddThumbBarButton('/media/img/twitter.ico', 'Twitter');
+    
+            // Show thumbbar
+            window.external.msSiteModeShowThumbBar();
+    
+            // Make the buttons enabled and visible.
+            window.external.msSiteModeUpdateThumbBarButton(btnFb, true, true);
+            window.external.msSiteModeUpdateThumbBarButton(btnTw, true, true);
+        }
+    
+        function onThumbnailButtonClicked(e) {
+            // Scroll to the next or previous page in the site
+            var itemURL;
+            switch (e.buttonID) {
+                case btnFb:
+                    itemURL = "http://www.facebook.com/pages/Gulf-News/143017562431177?sk=app_4949752878";
+                    break;
+                case btnTw:
+                    itemURL = "http://twitter.com/#!/gulf_news";
+                    break;       
+            }
+            window.open(itemURL);
+        }
+	
+//]]>
+    </script>
+    <!-- START CRAZY EGG IMPLEMENTATION -->    <script type="text/javascript">
+//<![CDATA[
+
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0012/5053.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+
+//]]>
+    </script>
+    <!-- STOP CRAZY EGG IMPLEMENTATION -->    <!--Visual Revenue Reader Response Tracking Script (v6) -->    <script type="text/javascript">
+//<![CDATA[
+
+        var _vrq = _vrq || [];
+        _vrq.push(['id', 234]);
+        _vrq.push(['automate', false]);
+        _vrq.push(['track', function(){}]);
+        (function(d, a){
+        var s = d.createElement(a),
+        x = d.getElementsByTagName(a)[0];
+        s.async = true;
+        s.src = 'http://a.visualrevenue.com/vrs.js';
+        x.parentNode.insertBefore(s, x);
+    	})(document, 'script');
+        
+//]]>
+    </script>
+    <!-- End of VR RR Tracking Script - All rights reserved -->    <!--Changes done for adtech in Article issues-->    <script type="text/javascript">
+//<![CDATA[
+
+		initialAdTech();
+
+//]]>
+    </script>
+    <!-- end of changes-->    <script type="text/javascript">
+//<![CDATA[
+window.NREUM||(NREUM={});NREUM.info={"applicationID":"2130458","applicationTime":1786,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"c2956a3c68","transactionName":"NgMHMUBXVktUURddWw9JNgBAQFRdQR0HXUcRBxEGWlNK","agent":"js-agent.newrelic.com\/nr-397.min.js","errorBeacon":"jserror.newrelic.com"}
+//]]>
+    </script>
+    <script src="http://js-agent.newrelic.com/nr-397.min.js">
+    </script>
+    <div id="sb-container">
+      <div id="sb-overlay">
+      </div>
+      <div id="sb-wrapper">
+        <div id="sb-title">
+          <div id="sb-title-inner">
+          </div>
+        </div>
+        <div id="sb-wrapper-inner">
+          <div id="sb-body">
+            <div id="sb-body-inner">
+            </div>
+            <div id="sb-loading">
+              <div id="sb-loading-inner">
+                <span>
+                  loading
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sb-info">
+          <div id="sb-info-inner">
+            <div id="sb-counter">
+            </div>
+            <div id="sb-nav">
+              <a onclick="Shadowbox.close()" title="Close" id="sb-nav-close">
+                Close [x]
+              </a>
+              <a onclick="Shadowbox.next()" title="Next" id="sb-nav-next">
+              </a>
+              <a onclick="Shadowbox.play()" title="Play" id="sb-nav-play">
+              </a>
+              <a onclick="Shadowbox.pause()" title="Pause" id="sb-nav-pause">
+              </a>
+              <a onclick="Shadowbox.previous()" title="Previous" id="sb-nav-previous">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

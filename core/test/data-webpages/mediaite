@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      Us | Mediaite
+    </title>
+    <script id="twitter-wjs" src="//platform.twitter.com/widgets.js">
+    </script>
+    <script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1">
+    </script>
+    <script type="text/javascript" async="" src="//apis.sharethrough.com/v0/tags.js">
+    </script>
+    <script type="text/javascript" src="http://contextual.media.net/inslmedianet.js?cid=8CUB7R73T&amp;crid=268911681&amp;size=641x481" async="">
+    </script>
+    <script type="text/javascript" async="" src="http://stats.g.doubleclick.net/dc.js">
+    </script>
+    <script async="" type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script async="" src="http://b.scorecardresearch.com/beacon.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+			var bloginfo = {
+				'is_home': false,
+				'is_front_page': false,
+				'url': 'http://www.mediaite.com',
+				'template_directory': 'http://static01.mediaite.com/med/wp-content/themes/mediaite-new'
+			};
+		
+//]]>
+    </script>
+    <!-- Start Dynamic Yield -->    <script type="text/javascript">
+//<![CDATA[
+
+			DY = {scsec : 8765294 ,API: function(){(DY.API.actions = DY.API.actions || []).push(arguments)}};
+		
+//]]>
+    </script>
+    <script src="http://ddrn6tjst80qg.cloudfront.net/api/8765294/api.js" type="text/javascript">
+    </script>
+    <!-- End Dynamic Yield -->    <script type="text/javascript">
+//<![CDATA[
+
+			var _sf_startpt = (new Date()).getTime();
+		
+//]]>
+    </script>
+    <!-- start chartbeat -->    <script type="text/javascript">
+//<![CDATA[
+
+			var _sf_async_config={};
+			/** CONFIGURATION START **/
+			_sf_async_config.uid = 3557;
+			_sf_async_config.domain = "mediaite.com";
+						/** CONFIGURATION END **/
+			(function(){
+				function loadChartbeat() {
+					window._sf_endpt=(new Date()).getTime();
+					var e = document.createElement("script");
+					e.setAttribute("language", "javascript");
+					e.setAttribute("type", "text/javascript");
+					e.setAttribute("src",
+						(("https:" == document.location.protocol) ?
+						"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" :
+						"http://static.chartbeat.com/") +
+						"js/chartbeat.js");
+					document.body.appendChild(e);
+				}
+				var oldonload = window.onload;
+				window.onload = (typeof window.onload != "function") ?
+				loadChartbeat : function() { oldonload(); loadChartbeat(); };
+			})();
+		
+//]]>
+    </script>
+    <!-- end chartbeat -->    <!-- Start comScore Tag -->    <script type="text/javascript">
+//<![CDATA[
+
+			var _comscore = _comscore || [];
+			_comscore.push({c1: '2', c2: '9304643'});
+			(function() {
+				var s = document.createElement('script'), el = document.getElementsByTagName('script')[0]; s.async = true;
+				s.src = (document.location.protocol == 'https:' ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+				el.parentNode.insertBefore(s, el);
+			})();
+		
+//]]>
+    </script>
+    <!-- End comScore Tag -->    <!-- Start Dynamic Header -->    <link href="http://www.mediaite.com/search/us/feed/rss2/" title="Mediaite » Search Results for “us” Feed" type="application/rss+xml" rel="alternate"/>
+    <link media="all" type="text/css" href="http://static01.mediaite.com/med/wp-content/plugins/am-ngg-front-end/media/skin/skin.css?ver=3.1.4" id="am-ngg-car-skin-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://static01.mediaite.com/med/wp-content/plugins/am-ngg-front-end/media/style.css?ver=3.1.4" id="am-ngg-css-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://static01.mediaite.com/med/wp-content/plugins/wp-polls/polls-css.css?ver=2.63" id="wp-polls-css" rel="stylesheet"/>
+    <link media="screen" type="text/css" href="http://static01.mediaite.com/med/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0" id="NextGEN-css" rel="stylesheet"/>
+    <link media="screen" type="text/css" href="http://static01.mediaite.com/med/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.0" id="shutter-css" rel="stylesheet"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript">
+    </script>
+    <script src="http://static01.mediaite.com/med/wp-content/plugins/am-ngg-front-end/js/jquery.jcarousel.min.js?ver=3.1.4" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+var shutterSettings = {
+	msgLoading: "L O A D I N G",
+	msgClose: "Click to Close",
+	imageCount: "1"
+};
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <script src="http://static01.mediaite.com/med/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js?ver=1.3.0" type="text/javascript">
+    </script>
+    <link href="http://www.mediaite.com/xmlrpc.php?rsd" title="RSD" type="application/rsd+xml" rel="EditURI"/>
+    <link href="http://www.mediaite.com/wp-includes/wlwmanifest.xml" type="application/wlwmanifest+xml" rel="wlwmanifest"/>
+    <link href="http://www.mediaite.com/" title="Mediaite" rel="index"/>
+    <meta content="WordPress 2014.14" name="generator"/>
+    <!-- All in One SEO Pack 1.6.13.4 by Michael Torbert of Semper Fi Web Design[199,214] -->    <!-- /all in one seo pack -->    <script type="text/javascript">
+//<![CDATA[
+
+				var googletag = googletag || {};
+				googletag.cmd = googletag.cmd || [];
+				(function() {
+				var gads = document.createElement('script');
+				gads.async = true;
+				gads.type = 'text/javascript';
+				var useSSL = 'https:' == document.location.protocol;
+				gads.src = (useSSL ? 'https:' : 'http:') + 
+				'//www.googletagservices.com/tag/js/gpt.js';
+				var node = document.getElementsByTagName('script')[0];
+				node.parentNode.insertBefore(gads, node);
+				})();
+			
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+				googletag.cmd.push(function() {
+						googletag.defineSlot('/23390214/RON/Mediaite/TVSection', [[728, 90], [970, 250]], 'leaderboard-atf')
+						.addService(googletag.pubads())
+						.setTargeting("Position", "ATF")
+						.setTargeting("Shape", "Leaderboard_728x90")
+						;
+						googletag.defineSlot('/23390214/RON/Mediaite/TVSection', [[300, 250], [300, 600], [300, 1050]], 'rectangle-atf')
+						.addService(googletag.pubads())
+						.setTargeting("Position", "ATF")
+						.setTargeting("Shape", "Rectangle_300x250")
+						;
+						googletag.defineSlot('/23390214/RON/Mediaite/TVSection', [[300, 250], [300, 600], [300, 1050]], 'rectangle-btf')
+						.addService(googletag.pubads())
+						.setTargeting("Position", "BTF")
+						.setTargeting("Shape", "Rectangle_300x250")
+						;
+						googletag.defineSlot('/23390214/RON/Mediaite/TVSection', [[728, 90], [970, 250]], 'leaderboard-btf')
+						.addService(googletag.pubads())
+						.setTargeting("Position", "BTF")
+						.setTargeting("Shape", "Leaderboard_728x90")
+						;
+						googletag.pubads().setTargeting("Section", "TV Section");
+					
+				
+						
+																								googletag.pubads().enableSingleRequest();
+						googletag.enableServices();
+					});
+				
+//]]>
+    </script>
+    <style type="text/css">
+      
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 8px;
+	line-height: 10px;
+	height: 10px;
+	background: #245d71;
+	border: 1px solid #c8c8c8;
+}
+
+    </style>
+    <meta content="1.5.5" name="NextGEN"/>
+    <!-- End Dynamic Header -->    <script id="onswipe_synapse" src="http://cdn.onswipe.com/synapse/on.js?usr=mediaite" type="text/javascript">
+    </script>
+    <script src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/js/jquery.fancybox-1.3.4.min.js" type="text/javascript">
+    </script>
+    <script src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/js/scripts.js?v=4lu9ed" type="text/javascript">
+    </script>
+    <!-- Start Perfect Market -->    <script>
+//<![CDATA[
+//var pm_pgtp='ad_text_only';
+//]]>
+    </script>
+    <!-- End Perfect Market -->    <!-- Start Media.net -->    <!-- desktop interstitial -->    <script type="text/javascript">
+//<![CDATA[
+
+				(function (){
+					var sct = document.createElement("script"),
+					sctHl = document.getElementsByTagName("script")[0];
+					sct.type = "text/javascript";
+					sct.src = 'http://contextual.media.net/inslmedianet.js?cid=8CUB7R73T&amp;crid=268911681&amp;size=641x481';
+					sct.async = "async";
+					sctHl.parentNode.insertBefore(sct, sctHl);
+				})();
+			
+//]]>
+    </script>
+    <!-- mobile ad -->    <script language="javascript" id="mNCC">
+//<![CDATA[
+
+				medianet_width='316';
+				medianet_height= '150';
+				medianet_crid='693103274';
+			
+//]]>
+    </script>
+    <script language="javascript" src="http://contextual.media.net/nmedianet.js?cid=8CUB7R73T" id="mNSC">
+    </script>
+    <!-- End Media.net -->    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <meta content="no-cache" http-equiv="Pragma"/>
+    <meta content="no-cache" http-equiv="cache-control"/>
+    <meta content="QlYy3Ufwkc8mTa0t7hb3M5xDZtAY6oxkwu1o8wiEnAs" name="google-site-verification"/>
+    <meta content="uU-kCL8m6pZs3ItjjMT-26yDeNI" name="alexaVerifyID"/>
+    <link media="screen" href="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/style.css?v=4m7y2v" type="text/css" rel="stylesheet"/>
+    <link href="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/fancybox/fancybox.1.1.css" type="text/css" rel="stylesheet"/>
+    <link media="print" href="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/print.css?v=4bbskc" type="text/css" rel="stylesheet"/>
+    <link href="http://static01.mediaite.com/med/wp-content/static/apple-touch-icon.png" rel="apple-touch-icon"/>
+    <link href="http://static01.mediaite.com/med/wp-content/static/favicon.ico" rel="shortcut icon"/>
+    <link title="Mediaite RSS Feed" href="http://www.mediaite.com/feed/" type="application/rss+xml" rel="alternate"/>
+    <link title="Mediaite Atom Feed" href="http://www.mediaite.com/feed/atom/" type="application/atom+xml" rel="alternate"/>
+    <link href="http://www.mediaite.com/xmlrpc.php" rel="pingback"/>
+    <script async="" type="text/javascript" src="//disqus.com/forums/mediaite/count.js">
+    </script>
+    <script async="" type="text/javascript" src="http://partner.googleadservices.com/gpt/pubads_impl_35.js">
+    </script>
+    <script async="" src="http://mediaite.disqus.com/count-data.js?1=2394781%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2394781&amp;1=2394841%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2394841&amp;1=2394921%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2394921&amp;1=2394941%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2394941&amp;1=2395431%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2395431&amp;1=2395721%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2395721&amp;1=2395831%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2395831&amp;1=2395941%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2395941&amp;1=2396051%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2396051&amp;1=2396151%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2396151">
+    </script>
+    <script async="" src="http://mediaite.disqus.com/count-data.js?1=2396261%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2396261&amp;1=2396351%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2396351&amp;1=2396521%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2396521&amp;1=2396651%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2396651&amp;1=2396711%20http%3A%2F%2Fwww.mediaite.com%2F%3Fp%3D2396711">
+    </script>
+    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&amp;gt;div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&amp;gt;span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}
+    </style>
+  </head>
+  <body class="cat-">
+    <!-- Skin queued for 630 - 631 !-->    <!-- Start comScore Tag -->    <noscript>
+      &lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;amp;c2=9304643&amp;amp;cv=2.0&amp;amp;cj=1" style="visibility:hidden;" alt="comScore" /&gt;
+    </noscript>
+    <div id="network-bar">
+      <ol>
+        <li id="bar-mediaite">
+          <a href="http://www.mediaite.com/" class="bar-current">
+            Mediaite
+          </a>
+        </li>
+        <li id="bar-gossipcop">
+          <a href="http://www.gossipcop.com/">
+            Gossip Cop
+          </a>
+        </li>
+        <li id="bar-geekosystem">
+          <a href="http://www.geekosystem.com/">
+            Geekosystem
+          </a>
+        </li>
+        <li id="bar-styleite">
+          <a href="http://www.styleite.com/">
+            Styleite
+          </a>
+        </li>
+        <li id="bar-sportsgrid">
+          <a href="http://www.sportsgrid.com/">
+            SportsGrid
+          </a>
+        </li>
+        <li id="bar-marysue">
+          <a href="http://www.themarysue.com/">
+            The Mary Sue
+          </a>
+        </li>
+        <li id="bar-themaude">
+          <a href="http://www.themaude.com/">
+            The Maude
+          </a>
+        </li>
+        <li id="bar-thebraiser">
+          <a href="http://www.thebraiser.com/">
+            The Braiser
+          </a>
+        </li>
+      </ol>
+    </div>
+    <div id="header">
+      <div id="topshelf">
+        <!-- ###topshelf-start### -->        <ul id="featured-posts">
+          <li>
+            <a title="Karma, Part Two: 'Redneck Rage' Viral Video Gets Driver Arrested" href="http://www.mediaite.com/tv/karma-part-two-redneck-rage-viral-video-gets-driver-arrested/">
+              <span class="featured-post-thumb">
+                <img width="150" height="100" title="Karma, Part Two: ‘Redneck Rage’ Viral Video Gets Driver Arrested" alt="rr" class="attachment-thumbnail wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/rr-150x100.jpg"/>
+              </span>
+              <span class="featured-post-title">
+                Karma, Part Two: 'Redneck Rage' Viral Video Gets Driver Arrested
+              </span>
+            </a>
+          </li>
+          <li>
+            <a title="Hollywood, Leave My Childhood Alone: A Guide to What You Can Maim" href="http://www.mediaite.com/tv/hollywood-leave-my-childhood-alone-a-guide-to-what-you-can-maim/">
+              <span class="featured-post-thumb">
+                <img width="150" height="100" title="Hollywood, Leave My Childhood Alone: A Guide to What You Can Maim" alt="tmnt" class="attachment-thumbnail wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/tmnt-150x100.jpg"/>
+              </span>
+              <span class="featured-post-title">
+                Hollywood, Leave My Childhood Alone: A Guide to What You Can Maim
+              </span>
+            </a>
+          </li>
+          <li>
+            <a title="Louis CK Wonders Whether God Murdered His Mom on SNL  Monologue" href="http://www.mediaite.com/tv/louis-ck-wonders-whether-god-murdered-his-wife-on-snl-monologue/">
+              <span class="featured-post-thumb">
+                <img width="150" height="100" title="Louis CK Wonders Whether God Murdered His Mom on SNL  Monologue" alt="Capture (1)" class="attachment-thumbnail wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/Capture-11-150x100.jpg"/>
+              </span>
+              <span class="featured-post-title">
+                Louis CK Wonders Whether God Murdered His Mom on 
+                <em>
+                  SNL 
+                </em>
+                 Monologue
+              </span>
+            </a>
+          </li>
+          <li>
+            <a title="ESPN Host Echoes Kobe on Trayvon: We Can't Let Emotion Get in the Way of Facts" href="http://www.mediaite.com/tv/espn-host-echoes-kobe-on-trayvon-we-cant-let-emotion-get-in-the-way-of-facts/">
+              <span class="featured-post-thumb">
+                <img width="150" height="100" title="ESPN Host Echoes Kobe on Trayvon: We Can’t Let Emotion Get in the Way of Facts" alt="stephen smith" class="attachment-thumbnail wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/stephen-smith-150x100.jpg"/>
+              </span>
+              <span class="featured-post-title">
+                ESPN Host Echoes Kobe on Trayvon: We Can't Let Emotion Get in the Way of Facts
+              </span>
+            </a>
+          </li>
+          <li class="featured-post-last">
+            <a title="Fmr. Adult Film Star Kicked Out of Neo-Nazi Political Party for Doing Mixed-Race Porno" href="http://www.mediaite.com/online/fmr-adult-film-star-kicked-out-of-neo-nazi-political-party-for-doing-mixed-race-porno/">
+              <span class="featured-post-thumb">
+                <img width="150" height="100" title="Fmr. Adult Film Star Kicked Out of Neo-Nazi Political Party for Doing Mixed-Race Porno" alt="ina groll" class="attachment-thumbnail wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/ina-groll-150x100.jpg"/>
+              </span>
+              <span class="featured-post-title">
+                Fmr. Adult Film Star Kicked Out of Neo-Nazi Political Party for Doing Mixed-Race Porno
+              </span>
+            </a>
+          </li>
+        </ul>
+        <!-- ###topshelf-end### -->      </div>
+      <div id="banner">
+        <div id="unit-header">
+          <div id="leaderboard-atf">
+            <script type="text/javascript">
+//<![CDATA[
+
+					googletag.cmd.push(function() { googletag.display('leaderboard-atf'); });
+				
+//]]>
+            </script>
+            <script type="text/javascript" src="//px.dynamicyield.com/geo?jsonp">
+            </script>
+          </div>
+        </div>
+      </div>
+      <div id="top">
+        <div id="logo">
+          <a href="http://www.mediaite.com">
+            <img width="255" height="71" alt="Mediaite" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/logo-mediaite.png?v=2"/>
+          </a>
+        </div>
+        <div id="nav">
+          <a href="http://www.mediaite.com/tv/" title="TV">
+            <img width="65" height="58" alt="TV" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/nav-icon-tv.png"/>
+          </a>
+          <a href="http://www.mediaite.com/online/" title="Online">
+            <img width="65" height="58" alt="Online" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/nav-icon-online.png"/>
+          </a>
+          <a href="http://www.mediaite.com/print/" title="Print">
+            <img width="65" height="58" alt="Print" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/nav-icon-print.png"/>
+          </a>
+          <a href="http://www.mediaite.com/power-grid/" title="Power Grid">
+            <img width="65" height="58" alt="Power Grid" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/nav-icon-power.png"/>
+          </a>
+          <!--<a title="Video" href="http://videos.mediaite.com/"><img src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/nav-icon-video.png" width="65" height="58" alt="Video" /></a>-->          <a href="http://www.mediaite.com/columnists/" title="Columns">
+            <img width="65" height="58" alt="Columns" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/nav-icon-columns.png"/>
+          </a>
+          <a href="http://jobs.mediaite.com/" title="Jobs">
+            <img width="65" height="58" alt="Jobs" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/nav-icon-jobs.png"/>
+          </a>
+        </div>
+        <div id="search">
+          <form id="searchform" method="get" action="http://www.mediaite.com/">
+            <input type="submit" class="searchbutton" value="Search"/>
+            <input type="text" class="searchbox" name="s" value=""/>
+          </form>
+        </div>
+        <div class="social">
+          <div id="fb-root" class=" fb_reset">
+            <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+              <div>
+                <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_http" allowtransparency="true" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="http://static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f33c44b97572024&amp;origin=http%3A%2F%2Fwww.mediaite.com">
+                </iframe>
+                <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_https" allowtransparency="true" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f33c44b97572024&amp;origin=http%3A%2F%2Fwww.mediaite.com">
+                </iframe>
+              </div>
+            </div>
+            <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+              <div>
+              </div>
+            </div>
+          </div>
+          <ul>
+            <li class="soc-google soc-item">
+              <a title="Follow on Google Plus" rel="publisher" href="https://plus.google.com/u/0/b/101930585376292817982/">
+                Follow on Google Plus
+              </a>
+            </li>
+            <li class="soc-pinterest soc-item">
+              <a title="Follow on Pinterest" href="http://pinterest.com/mediaite/">
+                Follow on Pinterest
+              </a>
+            </li>
+            <li class="soc-twitter">
+              <a title="Follow @mediaite" href="https://twitter.com/mediaite" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">
+                Follow @mediaite
+              </a>
+            </li>
+            <li class="soc-facebook">
+              <div data-show-faces="false" data-layout="button_count" data-send="false" class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/mediaite" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;href=https%3A%2F%2Fwww.facebook.com%2Fmediaite&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false">
+                <span style="vertical-align: top; width: 0px; height: 0px;">
+                  <iframe width="1000px" scrolling="no" height="1000px" frameborder="0" name="f28dc6080634aa2" allowtransparency="true" title="fb:like Facebook Social Plugin" style="border: medium none; visibility: visible;" src="http://www.facebook.com/plugins/like.php?app_id=&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FwTH8U0osOYl.js%3Fversion%3D40%23cb%3Df257b81dd8a6662%26domain%3Dwww.mediaite.com%26origin%3Dhttp%253A%252F%252Fwww.mediaite.com%252Ff33c44b97572024%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fwww.facebook.com%2Fmediaite&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false" class="aipewpddfdevopyqmojj">
+                  </iframe>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+      <div class="black-bgcolor" id="section-head">
+        <div class="section-label">
+          <span class="arrows-superbig">
+            »»
+          </span>
+          
+        us      
+        </div>
+      </div>
+      <div class="slice">
+        <div class="posts section">
+          <div class="post0">
+            <h1>
+              <a title="Josh Elliott Leaving Good Morning America for NBC Sports; Amy Robach Replaces Him" href="http://www.mediaite.com/tv/josh-elliott-leaving-good-morning-america-for-nbc-sports-amy-robach-replaces-him/">
+                Josh Elliott Leaving 
+                <em>
+                  Good Morning America
+                </em>
+                 for NBC Sports; Amy Robach Replaces Him
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Josh Elliott Leaving Good Morning America for NBC Sports; Amy Robach Replaces Him" href="http://www.mediaite.com/tv/josh-elliott-leaving-good-morning-america-for-nbc-sports-amy-robach-replaces-him/">
+                <img width="150" height="100" title="Josh Elliott Leaving Good Morning America for NBC Sports; Amy Robach Replaces Him" alt="elliott robach" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/elliott-robach-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Andrew Kirell" href="http://www.mediaite.com/author/andrew-kirell/">
+                  Andrew Kirell
+                </a>
+                 |
+                                    March 30th, 2014                
+              </div>
+              <p>
+                An internal ABC News email obtained by Mediaite reveal that after reportedly 
+                <a target="_blank" href="http://pagesix.com/2014/03/22/josh-elliott-wants-8m-to-stay-at-gma/">
+                  tough
+                </a>
+                 contract negotiations, 
+                <em>
+                  Good Morning America
+                </em>
+                ‘s 
+                <strong>
+                  <a href="http://www.mediaite.com/power-grid/person/?q=Josh+Elliott">
+                    Josh Elliott
+                  </a>
+                </strong>
+                 will depart for a role at NBC Sports. 
+                <strong>
+                  <a href="http://www.mediaite.com/power-grid/person/?q=Amy+Robach">
+                    Amy Robach
+                  </a>
+                </strong>
+                 will replace him as the morning show’s news anchor.
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/josh-elliott-leaving-good-morning-america-for-nbc-sports-amy-robach-replaces-him/#disqus_thread" data-disqus-identifier="2396711 http://www.mediaite.com/?p=2396711">
+                  33
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="Hollywood, Leave My Childhood Alone: A Guide to What You Can Maim" href="http://www.mediaite.com/tv/hollywood-leave-my-childhood-alone-a-guide-to-what-you-can-maim/">
+                Hollywood, Leave My Childhood Alone: A Guide to What You Can Maim
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Hollywood, Leave My Childhood Alone: A Guide to What You Can Maim" href="http://www.mediaite.com/tv/hollywood-leave-my-childhood-alone-a-guide-to-what-you-can-maim/">
+                <img width="150" height="100" title="Hollywood, Leave My Childhood Alone: A Guide to What You Can Maim" alt="tmnt" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/tmnt-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Clark Young" href="http://www.mediaite.com/author/clark-young/">
+                  Clark Young
+                </a>
+                 |
+                                    March 30th, 2014                
+              </div>
+              <p>
+                The heroes-in-a-half-shell oozed forth in 1984 Northampton, Mass., when two broke artists used tax refunds and savings accounts to print 3,000 copies of 
+                <a target="_blank" href="http://www.recalledcomics.com/TeenageMutantNinjaTurtles1Page2.jpg">
+                  the inaugural
+                </a>
+                <em>
+                  Teenage Mutant Ninja Turtles
+                </em>
+                 comic book.
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/hollywood-leave-my-childhood-alone-a-guide-to-what-you-can-maim/#disqus_thread" data-disqus-identifier="2396651 http://www.mediaite.com/?p=2396651">
+                  19
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="Matthew Dowd Blasts GOPers for ‘Kissing the Ring’ of Sheldon Adelson" href="http://www.mediaite.com/tv/matthew-dowd-blasts-gopers-for-kissing-the-ring-of-sheldon-adelson/">
+                Matthew Dowd Blasts GOPers for ‘Kissing the Ring’ of Sheldon Adelson
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Matthew Dowd Blasts GOPers for ‘Kissing the Ring’ of Sheldon Adelson" href="http://www.mediaite.com/tv/matthew-dowd-blasts-gopers-for-kissing-the-ring-of-sheldon-adelson/">
+                <img width="150" height="100" title="Matthew Dowd Blasts GOPers for 'Kissing the Ring' of Sheldon Adelson" alt="dowd" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/dowd-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Evan McMurry" href="http://www.mediaite.com/author/evan-mcmurry/">
+                  Evan McMurry
+                </a>
+                 |
+                                    March 30th, 2014                
+              </div>
+              <p>
+                On 
+                <em>
+                  This Week With George Stephaonopoulos
+                </em>
+                , ABC News contributor and former 
+                <strong>
+                  George W Bush
+                </strong>
+                 political strategist 
+                <strong>
+                  Matthew Dowd
+                </strong>
+                 denounced the rush to attend casino mogul and GOP donor 
+                <strong>
+                  Sheldon Adelson’
+                </strong>
+                s convention in Las Vegas this weekend as prioritizing money over message.
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/matthew-dowd-blasts-gopers-for-kissing-the-ring-of-sheldon-adelson/#disqus_thread" data-disqus-identifier="2396521 http://www.mediaite.com/?p=2396521">
+                  242
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div style="display:none;" data-sharethrough-params="{}" data-sharethrough-type="placement" data-sharethrough-key="b0976f2a" class="sharethrough-placement" id="sharethrough-placement-b0976f2a">
+          </div>
+          <script>
+//<![CDATA[
+
+            (function() {
+            var t   = document.createElement('script');
+            t.type  = 'text/javascript';
+            t.async = true;
+            t.src = '//apis.sharethrough.com/v0/tags.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(t, s);
+            })();
+            
+//]]>
+          </script>
+          <div class="post0">
+            <h1>
+              <a title="Christie Apologizes to Casino Mogul for ‘Occupied Territories’ Comment" href="http://www.mediaite.com/online/christie-apologizes-to-casino-mogal-for-occupied-territories-comment/">
+                Christie Apologizes to Casino Mogul for ‘Occupied Territories’ Comment
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Christie Apologizes to Casino Mogul for ‘Occupied Territories’ Comment" href="http://www.mediaite.com/online/christie-apologizes-to-casino-mogal-for-occupied-territories-comment/">
+                <img width="150" height="100" title="Christie Apologizes to Casino Mogul for 'Occupied Territories' Comment" alt="christie4" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/christie41-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Evan McMurry" href="http://www.mediaite.com/author/evan-mcmurry/">
+                  Evan McMurry
+                </a>
+                 |
+                                    March 30th, 2014                
+              </div>
+              <span class="category-label red-bgcolor">
+                video
+              </span>
+              <p>
+                New Jersey Governor and potential 2012 presidential contender 
+                <strong>
+                  Chris Christie
+                </strong>
+                 apologized on Saturday to casino mogul 
+                <strong>
+                  Sheldon Adelson
+                </strong>
+                 for a comment made during a speech earlier in which Christie referred to Palestinian areas as “occupied territories.”
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/online/christie-apologizes-to-casino-mogal-for-occupied-territories-comment/#disqus_thread" data-disqus-identifier="2396351 http://www.mediaite.com/?p=2396351">
+                  78
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="Kristol: ‘No Democrat Running for Reelection’ Believes Obamacare’s Working" href="http://www.mediaite.com/tv/kristol-no-democrat-running-for-reelection-believes-obamacares-working/">
+                Kristol: ‘No Democrat Running for Reelection’ Believes Obamacare’s Working
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Kristol: ‘No Democrat Running for Reelection’ Believes Obamacare’s Working" href="http://www.mediaite.com/tv/kristol-no-democrat-running-for-reelection-believes-obamacares-working/">
+                <img width="150" height="100" title="Kristol: 'No Democrat Running for Reelection' Believes Obamacare's Working" alt="kristol" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/kristol1-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Evan McMurry" href="http://www.mediaite.com/author/evan-mcmurry/">
+                  Evan McMurry
+                </a>
+                 |
+                                    March 30th, 2014                
+              </div>
+              <span class="category-label red-bgcolor">
+                VIDEO
+              </span>
+              <p>
+                On 
+                <em>
+                  This Week With George Stephanopoulos
+                </em>
+                 Monday morning, 
+                <em>
+                  Weekly Standard
+                </em>
+                 editor 
+                <strong>
+                  Bill Kristol
+                </strong>
+                 took issue with Obama advisor 
+                <strong>
+                  David Plouffe’
+                </strong>
+                s statement that the Affordable Care Act was working, arguing you could only hold that opinion if you weren’t running for anything.
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/kristol-no-democrat-running-for-reelection-believes-obamacares-working/#disqus_thread" data-disqus-identifier="2396261 http://www.mediaite.com/?p=2396261">
+                  411
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="Some Ohio State Students Unhappy with Chris Matthews as Commencement Speaker" href="http://www.mediaite.com/tv/some-osu-students-unhappy-with-selection-of-chris-matthews-as-commencement-speaker/">
+                Some Ohio State Students Unhappy with Chris Matthews as Commencement Speaker
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Some Ohio State Students Unhappy with Chris Matthews as Commencement Speaker" href="http://www.mediaite.com/tv/some-osu-students-unhappy-with-selection-of-chris-matthews-as-commencement-speaker/">
+                <img width="150" height="100" title="Some Ohio State Students Unhappy with Chris Matthews as Commencement Speaker" alt="matthews" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/matthews2-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Evan McMurry" href="http://www.mediaite.com/author/evan-mcmurry/">
+                  Evan McMurry
+                </a>
+                 |
+                                    March 30th, 2014                
+              </div>
+              <p>
+                Fresh from his 
+                <a target="_blank" href="http://www.mediaite.com/tv/bill-oreilly-chris-matthews-inducted-into-irish-american-hall-of-fame/">
+                  induction into the Irish-American Hall of Fame
+                </a>
+                , MSNBC host 
+                <strong>
+                  Chris Matthews
+                </strong>
+                 will soon be off to give this year’s commencement address at Ohio State University—
+                <a target="_blank" href="http://www.dispatch.com/content/stories/local/2014/03/28/osu-students-had-no-say-on-speaker.html">
+                  much to the chagrin
+                </a>
+                 of some OSU students.
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/some-osu-students-unhappy-with-selection-of-chris-matthews-as-commencement-speaker/#disqus_thread" data-disqus-identifier="2396151 http://www.mediaite.com/?p=2396151">
+                  109
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="Stephanopoulos Challenges Russian Ambassador to Deny Plans to Invade Ukraine" href="http://www.mediaite.com/tv/stephanopoulos-challenges-russian-ambassador-to-deny-plans-to-invade-ukraine/">
+                Stephanopoulos Challenges Russian Ambassador to Deny Plans to Invade Ukraine
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Stephanopoulos Challenges Russian Ambassador to Deny Plans to Invade Ukraine" href="http://www.mediaite.com/tv/stephanopoulos-challenges-russian-ambassador-to-deny-plans-to-invade-ukraine/">
+                <img width="150" height="100" title="Stephanopoulos Challenges Russian Ambassador to Deny Plans to Invade Ukraine" alt="steph" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/steph-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Evan McMurry" href="http://www.mediaite.com/author/evan-mcmurry/">
+                  Evan McMurry
+                </a>
+                 |
+                                    March 30th, 2014                
+              </div>
+              <span class="category-label red-bgcolor">
+                VIDEO
+              </span>
+              <p>
+                <strong>
+                  George Stephanopoulos
+                </strong>
+                 grilled Russia’s Ambassador to the U.S. 
+                <strong>
+                  Sergey Kislyak
+                </strong>
+                 on 
+                <em>
+                  This Week
+                </em>
+                 Sunday morning, trying to get Kislyak to firmly deny his country would invade eastern Ukraine following its annexation of the Crimean peninsula.
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/stephanopoulos-challenges-russian-ambassador-to-deny-plans-to-invade-ukraine/#disqus_thread" data-disqus-identifier="2396051 http://www.mediaite.com/?p=2396051">
+                  35
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="Fox’s Wallace, Sen. King Battle Over ‘Huge Surge’ in Obamacare Enrollment" href="http://www.mediaite.com/tv/foxs-wallace-sen-king-battle-over-huge-surge-in-obamacare-enrollment/">
+                Fox’s Wallace, Sen. King Battle Over ‘Huge Surge’ in Obamacare Enrollment
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Fox’s Wallace, Sen. King Battle Over ‘Huge Surge’ in Obamacare Enrollment" href="http://www.mediaite.com/tv/foxs-wallace-sen-king-battle-over-huge-surge-in-obamacare-enrollment/">
+                <img width="150" height="100" title="Fox's Wallace, Sen. King Battle Over 'Huge Surge' in Obamacare Enrollment" alt="kingwallace" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/kingwallace1-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Evan McMurry" href="http://www.mediaite.com/author/evan-mcmurry/">
+                  Evan McMurry
+                </a>
+                 |
+                                    March 30th, 2014                
+              </div>
+              <span class="category-label red-bgcolor">
+                VIDEO
+              </span>
+              <p>
+                On 
+                <em>
+                  Fox News Sunday
+                </em>
+                , host 
+                <strong>
+                  Chris Wallace
+                </strong>
+                 battled with Senator 
+                <strong>
+                  Angus King
+                </strong>
+                 (I-ME), an independent who often caucuses with Democrats, over the Affordable Care Act enrollment figures, which are reportedly surging in advance of the March 31 kinda-sorta deadline…
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/foxs-wallace-sen-king-battle-over-huge-surge-in-obamacare-enrollment/#disqus_thread" data-disqus-identifier="2395941 http://www.mediaite.com/?p=2395941">
+                  383
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="Stephanopoulos Presses Christie’s Bridgegate Investigator over Conflict of Interest" href="http://www.mediaite.com/tv/stephanopoulos-presses-christies-bridgegate-investigator-over-conflict-of-interest/">
+                Stephanopoulos Presses Christie’s Bridgegate Investigator over Conflict of Interest
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Stephanopoulos Presses Christie’s Bridgegate Investigator over Conflict of Interest" href="http://www.mediaite.com/tv/stephanopoulos-presses-christies-bridgegate-investigator-over-conflict-of-interest/">
+                <img width="150" height="100" title="Stephanopoulos Presses Christie's Bridgegate Investigator over Conflict of Interest" alt="mastro" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/mastro-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Evan McMurry" href="http://www.mediaite.com/author/evan-mcmurry/">
+                  Evan McMurry
+                </a>
+                 |
+                                    March 30th, 2014                
+              </div>
+              <span class="category-label red-bgcolor">
+                VIDEO
+              </span>
+              <p>
+                On 
+                <em>
+                  This Week With George Stephanopoulos
+                </em>
+                , the titular host pressed 
+                <strong>
+                  <a target="_blank" href="http://www.mediaite.com/tv/chris-christie-ordered-bridgegate-report-clears-chris-christie/">
+                    Chris Christie
+                  </a>
+                </strong>
+                <a target="_blank" href="http://www.mediaite.com/tv/chris-christie-ordered-bridgegate-report-clears-chris-christie/">
+                  -appointed Bridgegate investigator
+                </a>
+                <strong>
+                  Randy Mastro
+                </strong>
+                 over whether Mastro’s connections to both Christie (whom his firm represents) and the Port Authority (which he represents) constituted a conflict of interest.
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/stephanopoulos-presses-christies-bridgegate-investigator-over-conflict-of-interest/#disqus_thread" data-disqus-identifier="2395831 http://www.mediaite.com/?p=2395831">
+                  119
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="Karma, Part Two: ‘Redneck Rage’ Viral Video Gets Driver Arrested" href="http://www.mediaite.com/tv/karma-part-two-redneck-rage-viral-video-gets-driver-arrested/">
+                Karma, Part Two: ‘Redneck Rage’ Viral Video Gets Driver Arrested
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Karma, Part Two: ‘Redneck Rage’ Viral Video Gets Driver Arrested" href="http://www.mediaite.com/tv/karma-part-two-redneck-rage-viral-video-gets-driver-arrested/">
+                <img width="150" height="100" title="Karma, Part Two: 'Redneck Rage' Viral Video Gets Driver Arrested" alt="rr" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/rr-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Evan McMurry" href="http://www.mediaite.com/author/evan-mcmurry/">
+                  Evan McMurry
+                </a>
+                 |
+                                    March 30th, 2014                
+              </div>
+              <span class="category-label red-bgcolor">
+                VIDEO
+              </span>
+              <p>
+                The Tampa, FL driver behind “Redneck Roadrage/Instant Karma,” a viral YouTube video in which an aggressive driver 
+                <a target="_blank" href="http://www.mediaite.com/online/angry-driver-gets-whats-coming-to-him-in-amazing-video/">
+                  gets his sweet, sweet comeuppance
+                </a>
+                , spoke to WTSP about the incident, and said the video had led to an arrest of the driver.
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/karma-part-two-redneck-rage-viral-video-gets-driver-arrested/#disqus_thread" data-disqus-identifier="2395721 http://www.mediaite.com/?p=2395721">
+                  203
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="Louis CK Totally Doesn’t Have a Darth Vader Action Figure in His Butt" href="http://www.mediaite.com/tv/louis-ck-totally-doesnt-have-a-darth-vader-action-figure-in-his-butt/">
+                Louis CK Totally Doesn’t Have a Darth Vader Action Figure in His Butt
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Louis CK Totally Doesn’t Have a Darth Vader Action Figure in His Butt" href="http://www.mediaite.com/tv/louis-ck-totally-doesnt-have-a-darth-vader-action-figure-in-his-butt/">
+                <img width="150" height="100" title="Louis CK Totally Doesn't Have a Darth Vader Action Figure in His Butt" alt="Capture" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/Capture18-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Tina Nguyen" href="http://www.mediaite.com/author/tina-nguyen/">
+                  Tina Nguyen
+                </a>
+                 |
+                                    March 30th, 2014                
+              </div>
+              <span class="category-label red-bgcolor">
+                video
+              </span>
+              <p>
+                We’re not sure where this silent epidemic came from, but this week’s 
+                <em>
+                  SNL
+                </em>
+                 gave everyone a helpful PSA: after every physical exam, always, always ask your doctor to check if you have Darth Vader action figures in your butt.
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/louis-ck-totally-doesnt-have-a-darth-vader-action-figure-in-his-butt/#disqus_thread" data-disqus-identifier="2395431 http://www.mediaite.com/?p=2395431">
+                  13
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="Louis CK Wonders Whether God Murdered His Mom on SNL  Monologue" href="http://www.mediaite.com/tv/louis-ck-wonders-whether-god-murdered-his-wife-on-snl-monologue/">
+                Louis CK Wonders Whether God Murdered His Mom on 
+                <em>
+                  SNL 
+                </em>
+                 Monologue
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Louis CK Wonders Whether God Murdered His Mom on SNL  Monologue" href="http://www.mediaite.com/tv/louis-ck-wonders-whether-god-murdered-his-wife-on-snl-monologue/">
+                <img width="150" height="100" title="Louis CK Wonders Whether God Murdered His Mom on SNL  Monologue" alt="Capture (1)" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/Capture-11-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Tina Nguyen" href="http://www.mediaite.com/author/tina-nguyen/">
+                  Tina Nguyen
+                </a>
+                 |
+                                    March 29th, 2014                
+              </div>
+              <span class="category-label red-bgcolor">
+                video
+              </span>
+              <p>
+                On his second run as an 
+                <em>
+                  SNL
+                </em>
+                 host, 
+                <strong>
+                  Louis CK
+                </strong>
+                 tackled his normal favorite subjects — single fatherhood, children, and women’s rights — and then tied them all together in an existential question: if God is known as “Our Father,” then where the hell is “Our Mother”?
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/louis-ck-wonders-whether-god-murdered-his-wife-on-snl-monologue/#disqus_thread" data-disqus-identifier="2394941 http://www.mediaite.com/?p=2394941">
+                  233
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="WATCH: SNL’s Obama Makes Out with Justin Bieber to Push Healthcare.gov" href="http://www.mediaite.com/tv/watch-snls-obama-makes-out-with-justin-bieber-to-push-healthcare-gov/">
+                WATCH: 
+                <em>
+                  SNL’s
+                </em>
+                 Obama Makes Out with Justin Bieber to Push Healthcare.gov
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="WATCH: SNL’s Obama Makes Out with Justin Bieber to Push Healthcare.gov" href="http://www.mediaite.com/tv/watch-snls-obama-makes-out-with-justin-bieber-to-push-healthcare-gov/">
+                <img width="150" height="100" title="WATCH: SNL's Obama Makes Out with Justin Bieber to Push Healthcare.gov" alt="Capture2" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/Capture22-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Tina Nguyen" href="http://www.mediaite.com/author/tina-nguyen/">
+                  Tina Nguyen
+                </a>
+                 |
+                                    March 29th, 2014                
+              </div>
+              <span class="category-label red-bgcolor">
+                video
+              </span>
+              <p>
+                After 
+                <strong>
+                  Barack Obama
+                </strong>
+                 went on Zach Galifinakis’s 
+                <em>
+                  Between Two Ferns
+                </em>
+                 to push Healthcare.gov, there wasn’t much else he could do in pop culture without jumping his own personal shark. This week’s cold open on SNL imagined a future in which he did.
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/watch-snls-obama-makes-out-with-justin-bieber-to-push-healthcare-gov/#disqus_thread" data-disqus-identifier="2394921 http://www.mediaite.com/?p=2394921">
+                  116
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="Man Proposes to Girlfriend During L.A. Times Newsroom Tour" href="http://www.mediaite.com/online/man-proposes-to-girlfriend-during-l-a-times-newsroom-tour/">
+                Man Proposes to Girlfriend During 
+                <em>
+                  L.A. Times
+                </em>
+                 Newsroom Tour
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="Man Proposes to Girlfriend During L.A. Times Newsroom Tour" href="http://www.mediaite.com/online/man-proposes-to-girlfriend-during-l-a-times-newsroom-tour/">
+                <img width="150" height="100" title="Man Proposes to Girlfriend During L.A. Times Newsroom Tour" alt="Screen Shot 2014-03-29 at 6.34.55 PM" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/Screen-Shot-2014-03-29-at-6.34.55-PM-150x100.png"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Josh Feldman" href="http://www.mediaite.com/author/josh-feldman/">
+                  Josh Feldman
+                </a>
+                 |
+                                    March 29th, 2014                
+              </div>
+              <p>
+                A couple on tour in the 
+                <em>
+                  L.A. Times
+                </em>
+                 newsroom ended up getting engaged after the lucky fellow in question popped the question in the middle of the newsroom as staffers watched it unfold.
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/online/man-proposes-to-girlfriend-during-l-a-times-newsroom-tour/#disqus_thread" data-disqus-identifier="2394841 http://www.mediaite.com/?p=2394841">
+                  7
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="post0">
+            <h1>
+              <a title="ESPN Host Echoes Kobe on Trayvon: We Can’t Let Emotion Get in the Way of Facts" href="http://www.mediaite.com/tv/espn-host-echoes-kobe-on-trayvon-we-cant-let-emotion-get-in-the-way-of-facts/">
+                ESPN Host Echoes Kobe on Trayvon: We Can’t Let Emotion Get in the Way of Facts
+              </a>
+            </h1>
+            <div class="blurbtext">
+              <a title="ESPN Host Echoes Kobe on Trayvon: We Can’t Let Emotion Get in the Way of Facts" href="http://www.mediaite.com/tv/espn-host-echoes-kobe-on-trayvon-we-cant-let-emotion-get-in-the-way-of-facts/">
+                <img width="150" height="100" title="ESPN Host Echoes Kobe on Trayvon: We Can't Let Emotion Get in the Way of Facts" alt="stephen smith" class="alignleft wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/stephen-smith-150x100.jpg"/>
+              </a>
+              <div class="dateline">
+                
+                                      by 
+                <a title="Posts by Josh Feldman" href="http://www.mediaite.com/author/josh-feldman/">
+                  Josh Feldman
+                </a>
+                 |
+                                    March 29th, 2014                
+              </div>
+              <span class="category-label red-bgcolor">
+                video
+              </span>
+              <p>
+                ESPN radio host 
+                <strong>
+                  Stephen A. Smith
+                </strong>
+                 told 
+                <strong>
+                  Arsenio Hall
+                </strong>
+                 Friday night that 
+                <strong>
+                  Kobe Bryant
+                </strong>
+                 had a point when he 
+                <a target="_blank" href="http://www.mediaite.com/online/kobe-bryant-admits-he-wasnt-comfortable-with-miami-heats-trayvon-protest/">
+                  expressed his discomfort
+                </a>
+                 with the Miami Heat speaking out in support of 
+                <strong>
+                  Trayvon Martin
+                </strong>
+                .
+              </p>
+              <div class="comments-link">
+                <a href="http://www.mediaite.com/tv/espn-host-echoes-kobe-on-trayvon-we-cant-let-emotion-get-in-the-way-of-facts/#disqus_thread" data-disqus-identifier="2394781 http://www.mediaite.com/?p=2394781">
+                  745
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end post0 -->          <div class="navigation">
+            <p class="alignleft">
+              <a href="http://www.mediaite.com/page/2/?s=us">
+                « Older Entries
+              </a>
+            </p>
+            <p class="alignright">
+            </p>
+          </div>
+        </div>
+        <div id="sidebar">
+          <div id="unit-sidebar">
+            <div id="rectangle-atf">
+              <script type="text/javascript">
+//<![CDATA[
+
+				googletag.cmd.push(function() { googletag.display('rectangle-atf'); });
+			
+//]]>
+              </script>
+            </div>
+          </div>
+          <!-- PerfectMarket -->          <script type="text/javascript">
+//<![CDATA[
+
+		$(document).ready(function(){
+			clean_perfect_market();
+		});
+	
+//]]>
+          </script>
+          <!-- End PerfectMarket -->          <!-- Outbrain -->          <!-- End Outbrain -->          <!-- PerfectMarket -->          <!-- End PerfectMarket -->          <div class="promo promo-sidebar">
+            <h2>
+              Mediaite Newsletter
+            </h2>
+            <p>
+              Sign up for our newsletter to receive Mediaite in your inbox, daily!
+            </p>
+            <form method="get" action="http://www.mediaite.com/email-newsletter/">
+              <p>
+                <input type="text" onblur="if(this.value==''){this.value='Your email address';}" onfocus="if(this.value=='Your email address'){this.value='';}" value="Your email address" name="subscribe"/>
+                <input type="submit" class="button" value="Subscribe"/>
+              </p>
+            </form>
+          </div>
+          <div class="clearfix">
+          </div>
+          <div class="sidebar-title">
+            <div class="tabs">
+              <span class="active">
+                <a href="#most-popular">
+                  Most Popular
+                </a>
+              </span>
+              <!--<span><a href="#most-commented">Most Commented</a></span>-->            </div>
+          </div>
+          <div class="most-popular">
+            <div class="tab_content" id="most-popular" style="display: block;">
+              <ul>
+                <li class="most-pop">
+                  <a title="ESPN Host Echoes Kobe on Trayvon: We Can’t Let Emotion Get in the Way of Facts" href="http://www.mediaite.com/tv/espn-host-echoes-kobe-on-trayvon-we-cant-let-emotion-get-in-the-way-of-facts/">
+                    <span>
+                      <img width="65" height="65" title="ESPN Host Echoes Kobe on Trayvon: We Can’t Let Emotion Get in the Way of Facts" alt="stephen smith" class="attachment-smallsquare wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/stephen-smith-65x65.jpg"/>
+                      ESPN Host Echoes Kobe on Trayvon: We Can’t Let Emotion Get in the Way of Facts
+                    </span>
+                  </a>
+                </li>
+                <li class="most-pop">
+                  <a title="Maher Trips Up Guests with ‘Racist’ Paul Ryan Quote… Except Michelle Obama Said it" href="http://www.mediaite.com/tv/maher-trips-up-panel-with-racist-paul-ryan-quote-except-michelle-obama-said-it/">
+                    <span>
+                      <img width="65" height="65" title="Maher Trips Up Guests with ‘Racist’ Paul Ryan Quote… Except Michelle Obama Said it" alt="maher" class="attachment-smallsquare wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/maher-65x65.jpg"/>
+                      Maher Trips Up Guests with ‘Racist’ Paul Ryan Quote… Except Michelle Obama Said it
+                    </span>
+                  </a>
+                </li>
+                <li class="most-pop">
+                  <a title="SNL Throws Louis CK into Episode of Black Jeopardy!" href="http://www.mediaite.com/tv/snl-throws-louis-ck-into-episode-of-black-jeopardy/">
+                    <span>
+                      <img width="65" height="65" title="SNL Throws Louis CK into Episode of Black Jeopardy!" alt="BlkJep" class="attachment-smallsquare wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/BlkJep-65x65.jpg"/>
+                      <em>
+                        SNL
+                      </em>
+                       Throws Louis CK into Episode of 
+                      <em>
+                        Black Jeopardy!
+                      </em>
+                    </span>
+                  </a>
+                </li>
+                <li class="most-pop">
+                  <a title="Karma, Part Two: ‘Redneck Rage’ Viral Video Gets Driver Arrested" href="http://www.mediaite.com/tv/karma-part-two-redneck-rage-viral-video-gets-driver-arrested/">
+                    <span>
+                      <img width="65" height="65" title="Karma, Part Two: ‘Redneck Rage’ Viral Video Gets Driver Arrested" alt="rr" class="attachment-smallsquare wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/rr-65x65.jpg"/>
+                      Karma, Part Two: ‘Redneck Rage’ Viral Video Gets Driver Arrested
+                    </span>
+                  </a>
+                </li>
+                <li class="most-pop">
+                  <a title="Louis CK Wonders Whether God Murdered His Mom on SNL  Monologue" href="http://www.mediaite.com/tv/louis-ck-wonders-whether-god-murdered-his-wife-on-snl-monologue/">
+                    <span>
+                      <img width="65" height="65" title="Louis CK Wonders Whether God Murdered His Mom on SNL  Monologue" alt="Capture (1)" class="attachment-smallsquare wp-post-image" src="http://static01.mediaite.com/med/wp-content/uploads/2014/03/Capture-11-65x65.jpg"/>
+                      Louis CK Wonders Whether God Murdered His Mom on 
+                      <em>
+                        SNL 
+                      </em>
+                       Monologue
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!--<div id="most-commented" class="tab_content">
+					</div>-->            <div class="tab_content" id="most-pop-loading" style="display: none;">
+              <img alt="Loading" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/loading.gif"/>
+            </div>
+          </div>
+          <script type="text/javascript">
+//<![CDATA[
+
+		$('.tab_content').hide();
+		$('.tab_content:first').show();
+		$('div.tabs span:first').addClass('active').show();
+		$('div.tabs span').click(function() {
+		$('div.tabs span').removeClass('active');
+		$(this).addClass('active');
+		$('.tab_content').hide();
+		$($(this).find('a').attr('href')).fadeIn();
+			return false;
+		});
+	
+//]]>
+          </script>
+          <div class="clearfix">
+          </div>
+          <div class="sidebar-title">
+            Follow Us
+          </div>
+          <div class="facebook-sidebar">
+            <iframe scrolling="no" frameborder="0" allowtransparency="true" class="facebook-sidebar-inner aipewpddfdevopyqmojj" src="http://www.facebook.com/plugins/likebox.php?id=41201204962&amp;width=300&amp;connections=10&amp;stream=false&amp;header=false&amp;height=255">
+            </iframe>
+          </div>
+          <div class="promo promo-sidebar">
+            <a href="mailto:tips@mediaite.com">
+              <img width="78" height="60" align="left" alt="" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/promo-gossip.jpg"/>
+            </a>
+            <h2>
+              Tips
+            </h2>
+            <p>
+              Have a tip or story idea? 
+              <a href="mailto:tips@mediaite.com">
+                Email us.
+              </a>
+               Or to keep it anonymous, 
+              <a href="http://www.mediaite.com/tips/">
+                click here
+              </a>
+              .
+            </p>
+          </div>
+          <div class="clearfix">
+          </div>
+          <div id="unit-sidebar-btf">
+            <div id="rectangle-btf">
+              <script type="text/javascript">
+//<![CDATA[
+
+				googletag.cmd.push(function() { googletag.display('rectangle-btf'); });
+			
+//]]>
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="network">
+          <div id="network-container">
+            <img alt="Abrams Media Network" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/abrams-media-network.png" class="network-header"/>
+            <span class="ad-link">
+              <a target="_blank" href="http://www.abrams-media.com/mediaite">
+                click here for advertising opportunities
+              </a>
+            </span>
+            <br class="clear"/>
+            <div id="rows-container">
+              <div class="row">
+                <a target="_blank" href="http://www.thebraiser.com/">
+                  <img alt="The Braiser" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/network-thebraiser.png" class="site-logo"/>
+                </a>
+                <ul class="site-headlines">
+                  <li>
+                    <a target="_blank" href="http://www.thebraiser.com/come-on-chefs-we-all-know-you-smoke-pot-get-high-with-your-bad-self/">
+                      Come On Chefs, We All Know You Smoke Pot – Get High with Your Bad Self
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://www.thebraiser.com/being-a-professional-frozen-food-taster-is-exactly-as-traumatic-as-it-sounds/">
+                      Being a Professional Frozen Food Taster is Exactly As Traumatic As it Sounds
+                    </a>
+                  </li>
+                </ul>
+                <div class="fade-left">
+                </div>
+                <div class="fade-right">
+                </div>
+              </div>
+              <div class="row">
+                <a target="_blank" href="http://www.sportsgrid.com/">
+                  <img alt="SportsGrid" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/network-sportsgrid.png" class="site-logo"/>
+                </a>
+                <ul class="site-headlines">
+                  <li>
+                    <a target="_blank" href="http://www.sportsgrid.com/ncaa-basketball/this-guys-tattoo-is-looking-pretty-good-right-now/">
+                      This Guy’s Tattoo Is Looking Pretty Good Right Now
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://www.sportsgrid.com/ncaa-basketball/uconn-dance-party-most-likely-still-going-on/">
+                      It Appears That Your Middle School Vice Principal Has Broken Into The UConn Locker Room
+                    </a>
+                  </li>
+                </ul>
+                <div class="fade-left">
+                </div>
+                <div class="fade-right">
+                </div>
+              </div>
+              <div class="row">
+                <a target="_blank" href="http://www.themaude.com/">
+                  <img alt="The Maude" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/network-themaude.png" class="site-logo"/>
+                </a>
+                <ul class="site-headlines">
+                  <li>
+                    <a target="_blank" href="http://www.themaude.com/video-of-the-week-the-body-is-disgusting/">
+                      Video of the Week: “The Body is Disgusting” - It's so disgusting that it deserves a second look. Like the Hulk Holgan sex tape!
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://www.themaude.com/there-are-only-two-types-of-trains-in-this-world/">
+                      There are Only Two Types of Trains in This World… - Forget everything you know about trains. Oh, you don't know anything about trains? Well, forget that too.
+                    </a>
+                  </li>
+                </ul>
+                <div class="fade-left">
+                </div>
+                <div class="fade-right">
+                </div>
+              </div>
+              <div class="row">
+                <a target="_blank" href="http://www.geekosystem.com/">
+                  <img alt="Geekosystem" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/network-geekosystem.png" class="site-logo"/>
+                </a>
+                <ul class="site-headlines">
+                  <li>
+                    <a target="_blank" href="http://www.geekosystem.com/got-flash-mob/">
+                      This Incredible Game of Thrones Flash Mob Takes What Is Theirs With Fire And Blood
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://www.geekosystem.com/dst-causes-heart-attacks/">
+                      Daylight Saving Time Makes You Lose Sleep And Causes A Bunch Of Heart Attacks
+                    </a>
+                  </li>
+                </ul>
+                <div class="fade-left">
+                </div>
+                <div class="fade-right">
+                </div>
+              </div>
+              <div class="row">
+                <a target="_blank" href="http://www.styleite.com/">
+                  <img alt="Styleite" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/network-styleite.png" class="site-logo"/>
+                </a>
+                <ul class="site-headlines">
+                  <li>
+                    <a target="_blank" href="http://www.styleite.com/runway/what-kind-of-mule-are-you/">
+                      Quiz: What Kind of Mule Are You?
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://www.styleite.com/living/eva-chen-tax-instagrams/">
+                      Eva Chen Is Also Putting off Taxes
+                    </a>
+                  </li>
+                </ul>
+                <div class="fade-left">
+                </div>
+                <div class="fade-right">
+                </div>
+              </div>
+              <div class="row last">
+                <a target="_blank" href="http://www.themarysue.com/">
+                  <img alt="The Mary Sue" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/network-themarysue.png" class="site-logo"/>
+                </a>
+                <ul class="site-headlines">
+                  <li>
+                    <a target="_blank" href="http://www.themarysue.com/happy-75th-birthday-batman/">
+                      Happy 75th Birthday, Batman!
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://www.themarysue.com/things-we-saw-today-507/">
+                      Things We Saw Today: A Dragon Egg Cake Fit For A Khaleesi
+                    </a>
+                  </li>
+                </ul>
+                <div class="fade-left">
+                </div>
+                <div class="fade-right">
+                </div>
+              </div>
+            </div>
+          </div>
+          <script type="text/javascript">
+//<![CDATA[
+
+  $('ul.site-headlines a').hover(
+    function() {
+      var xd = $(this).width() - ($(this).closest('ul').width() - 30);
+      if (xd &gt; 0) $(this).parent().stop().animate({'margin-left': -xd+'px'}, 1000);
+    },
+    function() {
+      $(this).parent().stop().animate({'margin-left': '0px'}, 1000);
+    }
+  );
+
+//]]>
+          </script>
+        </div>
+      </div>
+    </div>
+    <div id="unit-footer">
+      <div id="leaderboard-btf">
+        <script type="text/javascript">
+//<![CDATA[
+
+					googletag.cmd.push(function() { googletag.display('leaderboard-btf'); });
+				
+//]]>
+        </script>
+      </div>
+    </div>
+    <div id="credits">
+      <p>
+        <strong>
+          © 2014 Mediaite, LLC
+        </strong>
+         |
+			
+        <a href="http://www.mediaite.com/about/">
+          About Us
+        </a>
+         |
+			
+        <a href="http://www.abrams-media.com/mediaite">
+          Advertise
+        </a>
+         |
+			
+        <a href="http://www.mediaite.com/email-newsletter/">
+          Newsletter
+        </a>
+         |
+			
+        <a href="http://jobs.mediaite.com/">
+          Jobs
+        </a>
+         |
+			
+        <a href="http://www.mediaite.com/privacy/">
+          Privacy
+        </a>
+         |
+			
+        <a href="http://www.mediaite.com/user-agreement/">
+          User Agreement
+        </a>
+         |
+			
+        <a href="http://www.mediaite.com/disclaimer/">
+          Disclaimer
+        </a>
+         |
+			
+        <a href="http://www.mediaite.com/power-grid-faq/">
+          Power Grid FAQ
+        </a>
+         |
+			
+        <a href="http://www.mediaite.com/contact/">
+          Contact
+        </a>
+          |
+			
+        <a href="http://www.mediaite.com/archives/">
+          Archives
+        </a>
+         |
+			
+        <a href="http://www.mediaite.com/feed/">
+          <img alt="RSS" src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/images/rss.png" class="aipewpddfdevopyqmojj"/>
+           RSS
+        </a>
+        <br/>
+        <a target="_blank" title="Dan Abrams" href="http://www.dan-abrams.com">
+          Dan Abrams
+        </a>
+        , 
+        <a target="_blank" href="/dan-abrams/">
+          Founder
+        </a>
+         |
+			Power Grid by 
+        <a title="SEO" target="_blank" href="http://www.soundst.com/">
+          Sound Strategies
+        </a>
+         |
+			
+        <a target="_blank" title="Hosting" href="http://www.datagram.com">
+          Hosting by Datagram
+        </a>
+      </p>
+    </div>
+    <!-- Start Dynamic Footer -->    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+var pollsL10n = {
+	ajax_url: "http://www.mediaite.com/wp-admin/admin-ajax.php",
+	text_wait: "Your last request is still being processed. Please wait a while ...",
+	text_valid: "Please choose a valid poll answer.",
+	text_multiple: "Maximum number of choices allowed: ",
+	show_loading: "1",
+	show_fading: "1"
+};
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <script src="http://static01.mediaite.com/med/wp-content/plugins/wp-polls/polls-js.js?ver=2.63" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    // &lt;![CDATA[
+        var disqus_shortname = 'mediaite';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i &lt; nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) url = url[0];
+                    else url = url[1]
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + 'disqus.com/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]&gt;
+    
+//]]>
+    </script>
+    <!-- End Dynamic Footer -->    <!-- Start Social Script -->    <script src="http://static01.mediaite.com/med/wp-content/themes/mediaite-new/js/soc-scripts.js" type="text/javascript">
+    </script>
+    <!-- End Social Script -->    <!-- Start Quantcast Tag -->    <script type="text/javascript">
+//<![CDATA[
+_qoptions = {qacct: 'p-41YeEX_ui4Qms'};
+//]]>
+    </script>
+    <script src="http://edge.quantserve.com/quant.js" type="text/javascript">
+    </script>
+    <noscript>
+      &lt;img src="http://pixel.quantserve.com/pixel/p-41YeEX_ui4Qms.gif" style="visibility:hidden;" alt="Quantcast" /&gt;
+    </noscript>
+    <!-- End Quantcast Tag -->    <script type="text/javascript">
+//<![CDATA[
+var _sf_endpt = (new Date()).getTime();
+//]]>
+    </script>
+    <!-- Start Dynamic Yield
+	<div id='DYSCR'></div>
+	<script type='text/javascript'>
+	(function(){var d=document,e='createElement',a='appendChild',g='getElementsByTagName',m='getElementById',i=d[e]('iframe'); 
+	i.id=i.name='DY-iframe'; i.style.display='none'; i.width=i.height='1px';d[m]('DYSCR')[a](i);
+	DY.x = function(w) { var d=w.document, s=d[e]('script');s.type='text/javascript'; s.async=true;
+	s.src=('https:'==d.location.protocol?'http://st.dynamicyield.com'.replace('http:','https:') : 'http://st.dynamicyield.com')+'/ast?sec='+DY.scsec; 
+	d[g]('head')[0][a](s);}; var c = i.contentWindow.document;
+	c.open().write('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><body onload="parent.DY.x(window)" style="margin:0"></'+'body></html>');
+	c.close();})();
+	</script>
+	End Dynamic Yield -->    <!-- BEGIN DY SCRIPT TAG FOR SECTION 8765294 - DO NOT MODIFY -->    <div id="DYSCR">
+      <iframe width="1px" height="1px" name="DY-iframe" id="DY-iframe" style="display: none;">
+      </iframe>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+
+		(function(){var d=document,e='createElement',a='appendChild',g='getElementsByTagName',m='getElementById',i=d[e]('iframe');
+			i.id=i.name='DY-iframe'; i.style.display='none'; i.width=i.height='1px';d[m]('DYSCR')[a](i);
+			DY.x = function(w) { var d=w.document, s=d[e]('script');s.type='text/javascript'; s.async=true;
+			s.src=('https:'==d.location.protocol?'http://st.dynamicyield.com'.replace('http:','https:') : 'http://st.dynamicyield.com')+'/ast?sec='+DY.scsec;
+			d[g]('head')[0][a](s);}; var c = i.contentWindow.document;
+			c.open().write('&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"&gt;&lt;body onload="parent.DY.x(window)" style="margin:0"&gt;&lt;/'+'body&gt;&lt;/html&gt;');
+			c.close();})();
+	
+//]]>
+    </script>
+    <!-- END TAG -->    <!-- Start Perfect Market -->    <!-- End Perfect Market -->    <script src="http://s.skimresources.com/js/35941X1022475.skimlinks.js" type="text/javascript">
+    </script>
+    <div id="fancybox-tmp">
+    </div>
+    <div id="fancybox-loading">
+      <div>
+      </div>
+    </div>
+    <div id="fancybox-overlay">
+    </div>
+    <div id="fancybox-wrap">
+      <div id="fancybox-outer">
+        <div id="fancybox-bg-n" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-ne" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-e" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-se" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-s" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-sw" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-w" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-nw" class="fancybox-bg">
+        </div>
+        <div id="fancybox-content">
+        </div>
+        <a id="fancybox-close">
+        </a>
+        <div id="fancybox-title">
+        </div>
+        <a id="fancybox-left" href="javascript:;">
+          <span id="fancybox-left-ico" class="fancy-ico">
+          </span>
+        </a>
+        <a id="fancybox-right" href="javascript:;">
+          <span id="fancybox-right-ico" class="fancy-ico">
+          </span>
+        </a>
+      </div>
+    </div>
+    <script language="javascript" type="text/javascript" src="http://static.chartbeat.com/js/chartbeat.js">
+    </script>
+    <!--2014-03-31T04:51:23-04:00/86/0.990-->    <!-- Dynamic page generated in 0.988 seconds. -->    <!-- Cached page generated by WP-Super-Cache on 2014-03-31 04:51:23 -->  </body>
+</html>

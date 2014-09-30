@@ -1,0 +1,2030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# 2490221586: http://ogp.me/ns/fb/2490221586#">
+    <meta charset="utf-8"/>
+    <!--
+    __________.__SlideShare_______               __
+    \______   \__| ____ \______   \ ____   _____/  |_
+     |    |  _/  |/ ___\ |    |  _//  _ \ /  _ \   __\
+     |    |   \  / /_/  >|    |   (  <_> |  <_> )  |
+     |______  /__\___  / |______  /\____/ \____/|__|
+            \/  /_____/         \/
+    -->    <title>
+      'ibm' on SlideShare
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Slideshow search results for ibm"/>
+    <meta name="include_mode" content="async"/>
+    <link rel="canonical" href="http://www.slideshare.net/search/slideshow?q=ibm"/>
+    <link href="http://public.slidesharecdn.com/bigboot/css/ss-core.css?3e0cc1ee07" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="http://public.slidesharecdn.com/stylesheets/solr_search.css?ba7c5a804a" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="http://public.slidesharecdn.com/stylesheets/jquery-ui-ss.css?1e4c0f9508" media="screen" rel="stylesheet" type="text/css"/>
+    <!--[if lte IE 7]><link href="//public.slidesharecdn.com/stylesheets/ie.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->    <!--[if lt IE 9]>
+      <script src="//public.slidesharecdn.com/javascripts/plugins/html5.js"></script>
+    <![endif]-->    <script type="text/javascript" src="http://b.scorecardresearch.com/beacon.js">
+    </script>
+    <script type="text/javascript" src="http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkZpcmVmb3giLCIkcmVmZXJyZXIiOiAiaHR0cDovL3d3dy5zbGlkZXNoYXJlLm5ldC8iLCIkcmVmZXJyaW5nX2RvbWFpbiI6ICJ3d3cuc2xpZGVzaGFyZS5uZXQiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICJodHRwOi8vd3d3LnNsaWRlc2hhcmUubmV0LyIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAid3d3LnNsaWRlc2hhcmUubmV0IiwibXBfcmVmZXJyZXIiOiAiaHR0cDovL3d3dy5zbGlkZXNoYXJlLm5ldC8iLCJtcF9icm93c2VyIjogIkZpcmVmb3giLCJtcF9wbGF0Zm9ybSI6ICJXaW5kb3dzIiwibXBfcGFnZSI6ICJodHRwOi8vd3d3LnNsaWRlc2hhcmUubmV0L3NlYXJjaC9zbGlkZXNob3c%2Fc2VhcmNoZnJvbT1oZWFkZXImcT1pYm0iLCJ0b2tlbiI6ICJkZDlmMzkzNWI5OWI4ZGJiOWI1ZTg1YTZhZjU2YjQ2MyIsInRpbWUiOiAxMzg5Nzc2NzcwfX0%3D&amp;ip=1&amp;callback=mpq.metrics.jsonp_callback&amp;_=1389776770768">
+    </script>
+    <script type="text/javascript" src="http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js">
+    </script>
+    <script type="text/javascript" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript" src="http://api.mixpanel.com/site_media/js/api/mixpanel.js">
+    </script>
+    <script type="text/javascript" src="//public.slidesharecdn.com/javascripts/instrumentation_wrapper.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+      // <![CDATA[
+        var timer = (new Date()).getTime();
+      // ]]>
+      
+//]]>
+    </script>
+    <!--userobject starts here-->    <script type="text/javascript">
+//<![CDATA[
+
+          window._auth_token_name = "authenticity_token";
+          window._auth_token = "+C3IxRuhu5R8dn3gpJqIgZO2pRNj5V6UpdwGNsC3BFc=";
+
+        // GA Segmentation
+        window._gaq = window._gaq || []; _gaq.push(['_setAccount', 'UA-2330466-1']);_gaq.push(['_setDomainName', '.slideshare.net']);_gaq.push(['_addIgnoredRef', 'slideshare.net']);_gaq.push(['_setCustomVar', 1, 'member_type', 'LOGGEDOUT', 1]);
+          _gaq.push(['_trackPageview']);
+        // Comscore
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "6402952" });
+        var slideshare_object = {
+          user: {"name":null,"userGroup":"non-member","is_pro":"false","su":false,"fb_access_token":null,"id":null,"is_opengraph_user":false,"has_uploads":null,"is_fbuser":null,"login":"guest","loggedin":false,"opengraph_permissions":{},"fb_userid":null},
+          timer: { start: (new Date()).getTime(), end: '', execTime: '' },
+          top_nav: { get_url: "/top_nav"},
+          li_bar: {get_url: "/li_bar"},
+          dev: false,
+          fb_app_name: 'slideshare',
+          init: [],
+          feature_flag: [],
+          is_mobile: ""
+        };
+        var mpq = [];
+        mpq.push(["init","dd9f3935b99b8dbb9b5e85a6af56b463"]);
+      
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+          var _sstq=[];
+          (function(){
+            var a,b;
+            b=document.createElement("script");
+            b.type="text/javascript";
+            b.async=true;
+            b.src="//public.slidesharecdn.com/javascripts/instrumentation_wrapper.js";
+            a=document.getElementsByTagName("script")[0];
+            a.parentNode.insertBefore(b,a)
+          })();
+_sstq.push(['init_experiment', {"bucket":"out","experiment_name":"quickupload","disabled":true}]);
+//]]>
+    </script>
+    <script type="text/javascript">
+
+//<![CDATA[
+var smtId = "ab5bb963d";
+var smtDefaultStyles = false;
+var smtRedirect = true;
+var smtProt = (("https:" == document.location.protocol) ? "https://" : "http://");
+
+var smtPreRender = function(data) {
+  for (i in data) {
+    if (data[i].code === "en-us") {
+      data[i].name = "English";
+    }
+  }
+};
+
+var smtRedirectMapper = function(locale, sites) {
+  if (/^es/i.test(locale)){ //disable redirect to spanish site
+    return null;
+  }
+  if (locale in sites) {
+    return sites[locale];
+  }
+  if (/^fr/i.test(locale)) {
+    return sites['fr-fr'] || null;
+  }
+  if (/^de/i.test(locale)) {
+    return sites['de-de'] || null;
+  }
+  return null;
+};
+
+document.write(unescape("%3Cscript src='" + smtProt + "cdn01.smartling.com/ls/"+ smtId +".js' type='text/javascript'%3E%3C/script%3E"));
+
+//]]>
+
+    </script>
+    <script src="http://cdn01.smartling.com/ls/ab5bb963d.js" type="text/javascript">
+    </script>
+    <script src="http://public.slidesharecdn.com/javascripts/bigboot/combined_bigboot_layout.js?e1adcf5b44" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+        function getErrorTag(error){
+          var tag = "Javascript errors";
+          var errors = {'GA_google' : 'Ad errors',
+                        'exception' : 'Browser errors',
+                        'Script error' : 'Browser errors',
+                        'translate' : 'Google translate errors'};
+          for( i in errors ){
+            if (error.match(i)) tag = errors[i];
+          }
+          return tag;
+        }
+        jQuery(document.body).ready(function(){
+          slideshare_object.timer.end = (new Date()).getTime();
+          slideshare_object.timer.execTime = slideshare_object.timer.end-slideshare_object.timer.start;
+          log("Execution time : "+slideshare_object.timer.execTime+"ms");
+        });
+      
+//]]>
+    </script>
+    <script src="http://www.google.com/jsapi">
+//<![CDATA[
+
+  
+//]]>
+    </script>
+    <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+
+  google.load('ads.search', '2');
+  
+//]]>
+    </script>
+    <script src="http://www.google.com/uds/?file=ads&amp;v=2&amp;packages=search" type="text/javascript">
+    </script>
+    <script src="//www.google.com/ads/search/module/ads/3.0/3d81dc54500f4c78bbd6344f71211248904658b9/n/search.js" type="text/javascript">
+    </script>
+    <script>
+//<![CDATA[
+
+    var search_object = {
+    items_per_page: 12,
+    searchfrom: '"header"',
+    query: "ibm"
+    }
+  
+//]]>
+    </script>
+    <script src="http://public.slidesharecdn.com/javascripts/solr_search_new.js?3888689063" type="text/javascript">
+    </script>
+    <script src="http://public.slidesharecdn.com/javascripts/ajax_signup.js?0eee7db836" type="text/javascript">
+    </script>
+    <!--Javascripts ends here-->    <!--Misc Head contents starts here-->    <!--Misc Head contents ends here-->    <link rel="shortcut icon" href="//public.slidesharecdn.com/images/favicon.ico"/>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.slideshare.net/rss/latest"/>
+    <link rel="search" type="application/opensearchdescription+xml" href="/search/opensearch.xml" title="SlideShare Search"/>
+    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}
+.fb_invisible{display:none}
+.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}
+.fb_reset &gt; div{overflow:hidden}
+.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}
+.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
+.fb_dialog_content{background:#fff;color:#333}
+.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px;top:8px\9;right:7px\9}
+.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}
+.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}
+.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}
+.fb_dialog_top_left,
+.fb_dialog_top_right,
+.fb_dialog_bottom_left,
+.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}
+.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}
+.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}
+.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}
+.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right,
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right{width:10px;height:100%}
+.fb_dialog_vert_left{margin-left:-10px}
+.fb_dialog_vert_right{right:0;margin-right:-10px}
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{width:100%;height:10px}
+.fb_dialog_horiz_top{margin-top:-10px}
+.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}
+.fb_dialog_iframe{line-height:0}
+.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}
+.fb_dialog_content .dialog_title &gt; span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif)
+no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}
+body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}
+.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif)
+white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}
+.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}
+#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}
+#fb-root #fb_dialog_ipad_overlay.hidden{display:none}
+.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}
+.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}
+.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%
+}
+.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6),
+color-stop(0.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset,
+rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}
+.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}
+.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}
+.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}
+#fb_dialog_loader_close{float:left}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}
+.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}
+.fb_iframe_widget iframe{position:absolute}
+.fb_iframe_widget_lift{z-index:1}
+.fb_hide_iframes iframe{position:relative;left:-10000px}
+.fb_iframe_widget_loader{position:relative;display:inline-block}
+.fb_iframe_widget_fluid{display:inline}
+.fb_iframe_widget_fluid span{width:100%}
+.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}
+.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,
+.fb_connect_bar_container span,
+.fb_connect_bar_container a,
+.fb_connect_bar_container img,
+.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}
+.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}
+.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}
+.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}
+.fb_connect_bar a:hover{color:#fff}
+.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}
+.fb_connect_bar div a,
+.fb_connect_bar span,
+.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}
+.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fb_edge_widget_with_comment{position:relative;*z-index:1000}
+.fb_edge_widget_with_comment span.fb_edge_comment_widget{position:absolute}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget{z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget .FB_Loader{left:0;top:1px;margin-top:6px;margin-left:0;background-position:50% 50%;background-color:#fff;height:150px;width:394px;border:1px #666 solid;border-bottom:2px solid #283e6c;z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.dark .FB_Loader{background-color:#000;border-bottom:2px solid #ccc}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.siderender
+.FB_Loader{margin-top:0}
+.fbpluginrecommendationsbarleft,
+.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}
+.fbpluginrecommendationsbarleft{left:10px}
+.fbpluginrecommendationsbarright{right:10px}
+    </style>
+    <script src="http://platform.linkedin.com/js/nonSecureAnonymousFramework?v=0.0.2000-RC8.32361-1408&amp;">
+    </script>
+  </head>
+  <body class="sticky_navbar ">
+    <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+
+  adtest = (slideshare_object.dev ? 'on' : 'off');
+  var pageOptions = {
+  'pubId' : 'pub-5203428669823392',
+  'query' : search_object.query,
+  'adtest': adtest
+  }
+
+  var ad_above_pagination = {
+  'container' : 'ad_above_pagination',
+  'number' : 3,
+  'width' : 'auto',
+  'lines' : 2,
+  'fontFamily' : 'arial',
+  'fontSizeTitle' : '14px',
+  'fontSizeDescription' : '12px',
+  'fontSizeDomainLink' : '12px',
+  'colorTitleLink' : '#0077aa',
+  'colorDomainLink' : '#0077aa'
+  };
+
+
+  var ad_below_pagination = {
+  'container' : 'ad_below_pagination',
+  'number' : 3,
+  'width' : 'auto',
+  'lines' : 2,
+  'fontFamily' : 'arial',
+  'fontSizeTitle' : '14px',
+  'fontSizeDescription' : '12px',
+  'fontSizeDomainLink' : '12px',
+  'colorTitleLink' : '#0077aa',
+  'colorDomainLink' : '#0077aa'
+  };
+
+
+
+  var right_ad_one = {
+  'container' : 'right_ad_one',
+  'number' : 10,
+  'width' : '300px',
+  'lines' : 3,
+  'fontFamily' : 'arial',
+  'fontSizeTitle' : '14px',
+  'fontSizeDescription' : '12px',
+  'fontSizeDomainLink' : '12px',
+  'colorTitleLink' : '#0077aa',
+  'colorDomainLink' : '#0077aa'
+  };
+  var loadAFSAds = true;
+  var isProUser = slideshare_object.user.is_pro;
+  if( loadAFSAds == true && isProUser !== true){
+    new google.ads.search.Ads(pageOptions, ad_above_pagination, ad_below_pagination, right_ad_one);
+  }
+  
+//]]>
+    </script>
+    <div style="height: 0px; visibility: hidden; font-weight: normal; text-align: center;">
+      <iframe allowtransparency="true" style="visibility: hidden; height: 0px;" width="100%" name="{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-0-1&quot;:{&quot;lines&quot;:2,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;ad_above_pagination&quot;},&quot;slave-1-1&quot;:{&quot;lines&quot;:2,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;ad_below_pagination&quot;},&quot;slave-2-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;300px&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;right_ad_one&quot;},&quot;master-1&quot;:{&quot;lines&quot;:2,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;}}" id="master-1" src="http://www.google.com/uds/afs?q=ibm&amp;client=pub-5203428669823392&amp;adtest=off&amp;r=m&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404%2C7000108&amp;jsei=4&amp;format=n3%7Cn3%7Cn10&amp;ad=n16&amp;nocache=6271389776770380&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;allwcallad=1&amp;preload=true&amp;adext=as1%2Csr1%2Cctc1&amp;u_his=2&amp;u_tz=-300&amp;dt=1389776770384&amp;u_w=1024&amp;u_h=768&amp;biw=1256&amp;bih=605&amp;psw=1256&amp;psh=665&amp;frm=0&amp;ui=uv3aTsLsRcC-af2ff2st14sd12sv12-af2ff2st14sd12sv12-af3wi300ff2st14sd12sv12&amp;rurl=http%3A%2F%2Fwww.slideshare.net%2Fsearch%2Fslideshow%3Fsearchfrom%3Dheader%26q%3Dibm&amp;referer=http%3A%2F%2Fwww.slideshare.net%2F#master-1">
+      </iframe>
+    </div>
+    <div id="fb-root" class=" fb_reset">
+      <script src="http://connect.facebook.net/en_US/all.js" id="facebook-jssdk">
+      </script>
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+        </div>
+      </div>
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+          <iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: none;" src="http://static.ak.facebook.com/connect/xd_arbiter.php?version=28#channel=f3048a2cdab2d5a&amp;channel_path=%2Fchannel.html%3Ffb_xd_fragment%23xd_sig%3Df33982bfecd1ea%26&amp;origin=http%3A%2F%2Fwww.slideshare.net">
+          </iframe>
+          <iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=28#channel=f3048a2cdab2d5a&amp;channel_path=%2Fchannel.html%3Ffb_xd_fragment%23xd_sig%3Df33982bfecd1ea%26&amp;origin=http%3A%2F%2Fwww.slideshare.net">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <div class="admanager-section">
+    </div>
+    <div id="main_navbar" class="navbar new_navbar mobile-hide">
+      <div class="navbar-inner">
+        <div class="container">
+          <!-- Logo -->          <div class="logo-wrapper" itemscope="" itemtype="http://schema.org/Organization">
+            <a class="sprite-brand" href="/?ss" itemprop="url" id="j-slideshare-logo" rel="tooltip" data-ga="homepage" data-placement="bottom" data-original-title="Homepage">
+              <img itemprop="logo" src="//public.slidesharecdn.com/images/logo.png" width="185" height="38" alt="SlideShare"/>
+            </a>
+          </div>
+          <ul class="nav">
+            <!-- Updates -->            <li class="nav_divider"/>
+            <!-- Explore -->            <li class="dropdown" id="browse">
+              <a href="/featured" class="dropdown-toggle" data-toggle="dropdown">
+                Explore 
+                <b class="caret"/>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="/featured" data-ga="featured">
+                    Featured
+                  </a>
+                </li>
+                <li>
+                  <a href="/popular/week" data-ga="popular">
+                    Popular
+                  </a>
+                </li>
+                <li>
+                  <a href="/most-liked/week" data-ga="most_liked">
+                    Most Liked
+                  </a>
+                </li>
+                <li>
+                  <a href="/featured/media/infographics" data-ga="infographics">
+                    Infographics
+                  </a>
+                </li>
+                <li>
+                  <a href="/popular/media/videos/week" data-ga="videos">
+                    Videos
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav_divider"/>
+            <!-- Search -->            <form class="navbar-search pull-left" method="get" action="/search/slideshow" data-ga="search_submit">
+              <input type="submit" class="iconTemp-search iconTemp-gray hide-text"/>
+              <input name="searchfrom" type="hidden" value="header"/>
+              <input class="search-query focused" value="ibm" name="q" id="search_query_top" type="text" placeholder="Search" autocomplete="off" data-ga="search"/>
+              <div class="suggestionContainer">
+              </div>
+              <input id="filter_time" name="ud" type="hidden"/>
+              <input id="filter_type" type="hidden" name="ft"/>
+              <input id="filter_lang" name="lang" type="hidden"/>
+            </form>
+          </ul>
+          <div id="topNavLinks-11" class="pull-right">
+            <!-- New navbar -->            <ul class="nav pull-right" id="login_link">
+              <!-- Upload button -->              <li>
+                <span>
+                  <a id="upload-link" href="/upload" class="btn btn-primary void_fancybox" data-ga="upload">
+                    Upload
+                  </a>
+                </span>
+              </li>
+              <li>
+                <a id="go-pro" href="/business/premium/plans?cmp_src=general&amp;cmp_src_from=main_nav" class="goPro j-tooltip" onclick="window._gaq = _gaq || []; _gaq.push(['_trackEvent', 'top_nav','topnav','business-index']);" data-ga="go_pro" data-original-title="Upgrade to SlideShare PRO">
+                  
+              Go 
+                  <span class="goProLabel">
+                    Pro
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a id="login" href="https://www.slideshare.net/login" class="void_fancybox void_redirect_link" data-ga="login">
+                  Login
+                </a>
+              </li>
+              <li>
+                <a id="signup" href="https://www.slideshare.net/signup" class="void_fancybox void_redirect_link j-icon_Notification" data-ga="signup" data-original-title="Signup now for a SlideShare account">
+                  Signup
+                </a>
+              </li>
+            </ul>
+            <script src="http://public.slidesharecdn.com/javascripts/ajax_signup.js?0eee7db836" type="text/javascript">
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="page-notice" class="alert" style="display:none; ">
+        <a href="#" class="closeThis close" title="Close this notification">
+          ×
+        </a>
+        <span>
+        </span>
+      </div>
+      <div id="page-warning" class="alert" style="display:none; ">
+        <a href="#" class="closeThis close" title="Close this notification">
+          ×
+        </a>
+        <span>
+        </span>
+      </div>
+      <div id="page-message" class="alert alert-info" style="display:none; ">
+        <a href="#" class="closeThis close" title="Close this notification">
+          ×
+        </a>
+        <span>
+        </span>
+      </div>
+      <div id="page-success" class="alert alert-success" style="display:none; ">
+        <a href="#" class="closeThis close" title="Close this notification">
+          ×
+        </a>
+        <span>
+        </span>
+      </div>
+      <div id="page-error" class="alert alert-error" style="display:none; ">
+        <a href="#" class="closeThis close" title="Close this notification">
+          ×
+        </a>
+        <span>
+        </span>
+      </div>
+      <div id="page-permanent" class="alert alert-info" style="display:none; ">
+        <span>
+        </span>
+      </div>
+      <div id="page-modal_notice" class="" style="display:none; ">
+        <a href="#" class="closeThis close" title="Close this notification">
+          ×
+        </a>
+        <span>
+        </span>
+      </div>
+      <script src="http://public.slidesharecdn.com/bigboot/js/bootstrap-transition.js?299a9022d8" type="text/javascript">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+    slideshare_object.search = {};
+    slideshare_object.search.desc_per = 41;
+    slideshare_object.search.desc_hl_per = 41;
+  
+//]]>
+      </script>
+      <!-- Start new code -->      <div class="container">
+        <div class="row">
+          <!-- Search Results -->          <div class="span8 results-container">
+            <!-- Top Information Bar -->            <div class="resultsCount">
+              <div class="searchResultsCount">
+                <!-- Result Count -->                <p class="j-resultCount searchResultsCountNormal">
+                  <span class="result-count">
+                    
+    Page 1 of 149,604 results
+  
+                  </span>
+                   for 
+  
+                  <strong>
+                    <span class="search-term">
+                      
+      ibm
+    
+                    </span>
+                  </strong>
+                </p>
+                <!-- End Result Count -->                <!-- Spelling Suggestions -->                <!-- End Spelling Suggestions -->              </div>
+              <img style="display:none" class="search-results-loading" width="21" height="5" src="http://public.slidesharecdn.com/images/indicator.gif"/>
+            </div>
+            <!-- End Top Information Bar -->            <div class="searchpanel clearfix">
+              <div class="advancedSearch">
+                <a href="#" class="collapse j-filterResults">
+                  <span>
+                    Filter results
+                  </span>
+                </a>
+                <!-- Search type selection radio field -->                <ul class="searchtype">
+                  <li>
+                    <span>
+                      Search 
+                    </span>
+                  </li>
+                  <li>
+                    <label>
+                      <input class="h-searchtype-presentations" type="radio" checked="checked" name="searchtype" value="presentations"/>
+                       Content
+                  
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input class="h-searchtype-users" type="radio" name="searchtype" value="users"/>
+                       Users
+                  
+                    </label>
+                  </li>
+                </ul>
+                <!-- End Search type selection radio field -->                <!-- Filter Options -->                <!-- Form for filtering slideshows -->                <form class="searchForm slideshow-search show" action="/search/slideshow" method="get" id="search_form">
+                  <input type="hidden" class="j-searchQuery notranslate_value" name="q" value="ibm"/>
+                  <input class="notranslate_value" type="hidden" name="qf" value="qf2"/>
+                  <fieldset>
+                    <label>
+                      <input class="notranslate_value" type="checkbox" name="ru" value="download_only"/>
+                       Downloadable
+    
+                    </label>
+                    <select id="slideshows_time" name="ud" class="wide">
+                      <option class="notranslate_value" value="any" selected="selected">
+                        Uploaded anytime
+                      </option>
+                      <option class="notranslate_value" value="week">
+                        Last 7 days
+                      </option>
+                      <option class="notranslate_value" value="month">
+                        Last 30 days
+                      </option>
+                      <option class="notranslate_value" value="year">
+                        Last 365 days
+                      </option>
+                    </select>
+                    <select id="slideshows_type" name="ft" class="wide">
+                      <option class="notranslate_value" value="all" selected="selected">
+                        All file types
+                      </option>
+                      <option class="notranslate_value" value="presentations">
+                        Presentations
+                      </option>
+                      <option class="notranslate_value" value="documents">
+                        Documents
+                      </option>
+                      <option class="notranslate_value" value="slidecasts">
+                        Slidecasts
+                      </option>
+                      <option class="notranslate_value" value="videos">
+                        Videos
+                      </option>
+                      <option class="notranslate_value" value="infographics">
+                        Infographics
+                      </option>
+                    </select>
+                    <select class="wide" id="slideshows_lang" name="lang">
+                      <option value="**" selected="selected">
+                        All languages
+                      </option>
+                      <option value="en">
+                        English
+                      </option>
+                      <option value="es">
+                        Spanish
+                      </option>
+                      <option value="pt">
+                        Portuguese
+                      </option>
+                      <option value="fr">
+                        French
+                      </option>
+                      <option value="it">
+                        Italian
+                      </option>
+                      <option value="nl">
+                        Dutch
+                      </option>
+                      <option value="de">
+                        German
+                      </option>
+                      <option value="zh">
+                        Chinese
+                      </option>
+                      <option value="ja">
+                        Japanese
+                      </option>
+                      <option value="ko">
+                        Korean
+                      </option>
+                      <option value="--" disabled="disabled">
+                        ------
+                      </option>
+                      <option value="af">
+                        Afrikaans
+                      </option>
+                      <option value="sq">
+                        Albanian
+                      </option>
+                      <option value="ar">
+                        Arabic
+                      </option>
+                      <option value="bn">
+                        Bangla
+                      </option>
+                      <option value="bg">
+                        Bulgarian
+                      </option>
+                      <option value="hr">
+                        Croatian
+                      </option>
+                      <option value="cs">
+                        Czech
+                      </option>
+                      <option value="da">
+                        Danish
+                      </option>
+                      <option value="et">
+                        Estonian
+                      </option>
+                      <option value="fi">
+                        Finnish
+                      </option>
+                      <option value="fy">
+                        Frisian
+                      </option>
+                      <option value="el">
+                        Greek
+                      </option>
+                      <option value="gu">
+                        Gujarati
+                      </option>
+                      <option value="he">
+                        Hebrew
+                      </option>
+                      <option value="hi">
+                        Hindi
+                      </option>
+                      <option value="hu">
+                        Hungarian
+                      </option>
+                      <option value="is">
+                        Icelandic
+                      </option>
+                      <option value="io">
+                        Ido
+                      </option>
+                      <option value="id">
+                        Indonesian
+                      </option>
+                      <option value="ga">
+                        Irish
+                      </option>
+                      <option value="kn">
+                        Kannada
+                      </option>
+                      <option value="lv">
+                        Latvian
+                      </option>
+                      <option value="lt">
+                        Lithuanian
+                      </option>
+                      <option value="mk">
+                        Macedonian
+                      </option>
+                      <option value="ml">
+                        Malayalam
+                      </option>
+                      <option value="mr">
+                        Marathi
+                      </option>
+                      <option value="ne">
+                        Nepali
+                      </option>
+                      <option value="no">
+                        Norwegian
+                      </option>
+                      <option value="fa">
+                        Persian
+                      </option>
+                      <option value="pl">
+                        Polish
+                      </option>
+                      <option value="pa">
+                        Punjabi
+                      </option>
+                      <option value="ro">
+                        Romanian
+                      </option>
+                      <option value="ru">
+                        Russian
+                      </option>
+                      <option value="sk">
+                        Slovak
+                      </option>
+                      <option value="sl">
+                        Slovenian
+                      </option>
+                      <option value="so">
+                        Somali
+                      </option>
+                      <option value="sw">
+                        Swahili
+                      </option>
+                      <option value="sv">
+                        Swedish
+                      </option>
+                      <option value="tl">
+                        Tagalog
+                      </option>
+                      <option value="ta">
+                        Tamil
+                      </option>
+                      <option value="te">
+                        Telugu
+                      </option>
+                      <option value="th">
+                        Thai
+                      </option>
+                      <option value="tr">
+                        Turkish
+                      </option>
+                      <option value="uk">
+                        Ukrainian
+                      </option>
+                      <option value="ur">
+                        Urdu
+                      </option>
+                      <option value="vi">
+                        Vietnamese
+                      </option>
+                    </select>
+                  </fieldset>
+                </form>
+                <!-- End Filter Options -->              </div>
+            </div>
+            <!-- Space for Google Ads above Search Result -->            <div id="ad_above_pagination" class="ad-above-pagination" style="width: 100%; font-weight: normal; text-align: center;">
+              <iframe allowtransparency="true" style="visibility: hidden; height: 0px;" width="100%" name="slave-0-1|{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-0-1&quot;:{&quot;lines&quot;:2,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;ad_above_pagination&quot;},&quot;slave-1-1&quot;:{&quot;lines&quot;:2,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;ad_below_pagination&quot;},&quot;slave-2-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;300px&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;right_ad_one&quot;},&quot;master-1&quot;:{&quot;lines&quot;:2,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;}}" id="slave-0-1" src="http://www.google.com/uds/afs?q=ibm&amp;client=pub-5203428669823392&amp;adtest=off&amp;oe=UTF-8&amp;ie=UTF-8&amp;r=s&amp;fexp=21404%2C7000108&amp;jsei=4&amp;format=n3&amp;ad=n0&amp;nocache=951389776770381&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;allwcallad=1&amp;adext=as1%2Csr1%2Cctc1&amp;rurl=http%3A%2F%2Fwww.slideshare.net%2Fsearch%2Fslideshow%3Fsearchfrom%3Dheader%26q%3Dibm&amp;referer=http%3A%2F%2Fwww.slideshare.net%2F#slave-0-1">
+              </iframe>
+            </div>
+            <!-- End Google Ads above search result -->            <div class="j-searchOverlay searchloadingOverlay hide">
+              <img src="/images/searchpreloader-new.gif" alt="search results loading" width="32" height="32"/>
+            </div>
+            <div class="notice-no-ajaxy-results" style="display:none">
+              Your search for “
+              <b>
+                ibm
+              </b>
+              ” did not yield any results.
+              <br/>
+              <br/>
+              Suggestions:
+            
+              <ul>
+                <li>
+                  Make sure the spelling is correct 
+                </li>
+                <li>
+                  Try a different or more general keyword
+                </li>
+              </ul>
+            </div>
+            <div class="j-resultsContainer">
+              <!-- Display Search Results -->              <ol class="j-searchResults searchResults" id="qf2">
+                <li class="clearfix">
+                  <!-- Thumbnail Link -->                  <a class="searchResultThumbnail ga-track j-url" id="click_page_1_result_1" title="Virtualization" href="/Cameroon45/virtualization-4515140?from_search=1">
+                    <span class="pptThumb thumb">
+                      <img class="searchResultThumb slideshow-thumbnail" alt="Virtualization" src="//cdn.slidesharecdn.com/ss_thumbnails/virtualization1111-thumbnail-2.jpg?32170"/>
+                    </span>
+                  </a>
+                  <!-- Meta Information -->                  <div class="searchResultMeta">
+                    <!-- Title -->                    <a class="slideshow-title" id="click_page_1_result_1" href="/Cameroon45/virtualization-4515140?from_search=1">
+                      
+      Virtualization
+    
+                    </a>
+                    <!-- Description -->                    <span class="description">
+                    </span>
+                    <!-- Additional Information about slideshow -->                    <span class="meta">
+                       
+      by
+      
+                      <!-- Author Name -->                      <span class="slideshow-owner-name">
+                        
+        Cameroon45,
+      
+                      </span>
+                      <!-- Posted At -->                      <span class="slideshow-posted-at">
+                        
+          3 years
+        
+                      </span>
+                      <span class="h-posted-at-text">
+                         ago 
+                      </span>
+                      <!-- Category -->                      <span class="category-in">
+                        in
+                      </span>
+                      <span class="category">
+                        
+          Business &amp; Mgmt
+        
+                      </span>
+                    </span>
+                    <!-- Stats and Download Link -->                    <span class="stats meta">
+                      <span class="h-stats">
+                        
+        39 slides | 
+      
+                      </span>
+                      <!-- Download Link -->                      <span class="h-download download">
+                        <a class="download-link" id="click_page_1_result_1" href="/signup?from=download&amp;login_source=search.popup.download&amp;from_source=%252Fsavedfiles%253Fs_title%253Dvirtualization-4515140%2526user_login%253DCameroon45&amp;download_id=4515140-ca28216feeaee5d8bbe3075d99a3636cc12d43a6-slideshow" rel="nofollow" data-toggle="modal" data-target="#login_modal">
+                          Save
+          
+                        </a>
+                      </span>
+                      <span class="h-stats">
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <!-- Thumbnail Link -->                  <a class="searchResultThumbnail ga-track j-url" id="click_page_1_result_2" title="&lt;strong>Ibm&lt;/strong>" href="/CarolinaDiaz10/ibm-8789348?from_search=2">
+                    <span class="pptThumb thumb">
+                      <img class="searchResultThumb slideshow-thumbnail" alt="&lt;strong>Ibm&lt;/strong>" src="//cdn.slidesharecdn.com/ss_thumbnails/ibm-110806152238-phpapp01-thumbnail-2.jpg?32170"/>
+                    </span>
+                  </a>
+                  <!-- Meta Information -->                  <div class="searchResultMeta">
+                    <!-- Title -->                    <a class="slideshow-title" id="click_page_1_result_2" href="/CarolinaDiaz10/ibm-8789348?from_search=2">
+                      <strong>
+                        Ibm
+                      </strong>
+                    </a>
+                    <!-- Description -->                    <span class="description">
+                      
+      productos de software 
+                      <strong>
+                        IBM
+                      </strong>
+                    </span>
+                    <!-- Additional Information about slideshow -->                    <span class="meta">
+                       
+      by
+      
+                      <!-- Author Name -->                      <span class="slideshow-owner-name">
+                        
+        CarolinaDiaz10,
+      
+                      </span>
+                      <!-- Posted At -->                      <span class="slideshow-posted-at">
+                        
+          2 years
+        
+                      </span>
+                      <span class="h-posted-at-text">
+                         ago 
+                      </span>
+                      <!-- Category -->                      <span class="category-in">
+                        in
+                      </span>
+                      <span class="category">
+                        
+          Technology
+        
+                      </span>
+                    </span>
+                    <!-- Stats and Download Link -->                    <span class="stats meta">
+                      <span class="h-stats">
+                        
+        5 slides | 
+      
+                      </span>
+                      <!-- Download Link -->                      <span class="h-download download">
+                        <a class="download-link" id="click_page_1_result_2" href="/signup?from=download&amp;login_source=search.popup.download&amp;from_source=%252Fsavedfiles%253Fs_title%253Dibm-8789348%2526user_login%253DCarolinaDiaz10&amp;download_id=8789348-f579b1f63ee31667ff4e8a95fa3a4afd387adf16-slideshow" rel="nofollow" data-toggle="modal" data-target="#login_modal">
+                          Save
+          
+                        </a>
+                      </span>
+                      <span class="h-stats">
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <!-- Thumbnail Link -->                  <a class="searchResultThumbnail ga-track j-url" id="click_page_1_result_3" title="&lt;strong>IBM&lt;/strong>" href="/ravithesun/ibm-146409?from_search=3">
+                    <span class="pptThumb thumb">
+                      <img class="searchResultThumb slideshow-thumbnail" alt="&lt;strong>IBM&lt;/strong>" src="//cdn.slidesharecdn.com/ss_thumbnails/ibm-1193398327743704-3-thumbnail-2.jpg?32170"/>
+                    </span>
+                  </a>
+                  <!-- Meta Information -->                  <div class="searchResultMeta">
+                    <!-- Title -->                    <a class="slideshow-title" id="click_page_1_result_3" href="/ravithesun/ibm-146409?from_search=3">
+                      <strong>
+                        IBM
+                      </strong>
+                    </a>
+                    <!-- Description -->                    <span class="description">
+                      
+      This presentation is about 
+                      <strong>
+                        IBM
+                      </strong>
+                       history and how 
+                      <strong>
+                        IBM
+                      </strong>
+                       shifted it's business from product base to services based. 2nd part of the presentation covers details about 
+                      <strong>
+                        IBM
+                      </strong>
+                       Global Services
+    
+                    </span>
+                    <!-- Additional Information about slideshow -->                    <span class="meta">
+                       
+      by
+      
+                      <!-- Author Name -->                      <span class="slideshow-owner-name">
+                        
+        ravithesun,
+      
+                      </span>
+                      <!-- Posted At -->                      <span class="slideshow-posted-at">
+                        
+          6 years
+        
+                      </span>
+                      <span class="h-posted-at-text">
+                         ago 
+                      </span>
+                      <!-- Category -->                      <span class="category-in">
+                        in
+                      </span>
+                      <span class="category">
+                        
+          Business &amp; Mgmt
+        
+                      </span>
+                    </span>
+                    <!-- Stats and Download Link -->                    <span class="stats meta">
+                      <span class="h-stats">
+                        
+        36 slides | 7 likes | 
+      
+                      </span>
+                      <!-- Download Link -->                      <span class="h-download download">
+                        <a class="download-link" id="click_page_1_result_3" href="/signup?from=download&amp;login_source=search.popup.download&amp;from_source=%252Fsavedfiles%253Fs_title%253Dibm-146409%2526user_login%253Dravithesun&amp;download_id=146409-ba7abb6fc0d528cd5a7f52999dbad6e6d129fe17-slideshow" rel="nofollow" data-toggle="modal" data-target="#login_modal">
+                          Save
+          
+                        </a>
+                      </span>
+                      <span class="h-stats">
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <!-- Thumbnail Link -->                  <a class="searchResultThumbnail ga-track j-url" id="click_page_1_result_4" title="&lt;strong>IBM&lt;/strong>" href="/StephenfromIBM/ibm-1052268?from_search=4">
+                    <span class="pptThumb thumb">
+                      <img class="searchResultThumb slideshow-thumbnail" alt="&lt;strong>IBM&lt;/strong>" src="//cdn.slidesharecdn.com/ss_thumbnails/IBM-090220125003-phpapp01-thumbnail-2.jpg?32170"/>
+                    </span>
+                  </a>
+                  <!-- Meta Information -->                  <div class="searchResultMeta">
+                    <!-- Title -->                    <a class="slideshow-title" id="click_page_1_result_4" href="/StephenfromIBM/ibm-1052268?from_search=4">
+                      <strong>
+                        IBM
+                      </strong>
+                    </a>
+                    <!-- Description -->                    <span class="description">
+                      
+      1 slide about the use and impact of web 2.0/collaboration 2.0 at 
+                      <strong>
+                        IBM
+                      </strong>
+                      . read more at www.thecollaborationsoapbox.com
+    
+                    </span>
+                    <!-- Additional Information about slideshow -->                    <span class="meta">
+                       
+      by
+      
+                      <!-- Author Name -->                      <span class="slideshow-owner-name">
+                        
+        StephenfromIBM,
+      
+                      </span>
+                      <!-- Posted At -->                      <span class="slideshow-posted-at">
+                        
+          4 years
+        
+                      </span>
+                      <span class="h-posted-at-text">
+                         ago 
+                      </span>
+                      <!-- Category -->                      <span class="category-in">
+                        in
+                      </span>
+                      <span class="category">
+                        
+          Business &amp; Mgmt
+        
+                      </span>
+                    </span>
+                    <!-- Stats and Download Link -->                    <span class="stats meta">
+                      <span class="h-stats">
+                        
+        1 slide | 1 like | 
+      
+                      </span>
+                      <!-- Download Link -->                      <span class="h-download download">
+                        <a class="download-link" id="click_page_1_result_4" href="/signup?from=download&amp;login_source=search.popup.download&amp;from_source=%252Fsavedfiles%253Fs_title%253Dibm-1052268%2526user_login%253DStephenfromIBM&amp;download_id=1052268-014726fba3478dd649d1efd6a15519a4fc05450c-slideshow" rel="nofollow" data-toggle="modal" data-target="#login_modal">
+                          Save
+          
+                        </a>
+                      </span>
+                      <span class="h-stats">
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <!-- Thumbnail Link -->                  <a class="searchResultThumbnail ga-track j-url" id="click_page_1_result_5" title="&lt;strong>Ibm&lt;/strong>" href="/honey83pooh/ibm-2347449?from_search=5">
+                    <span class="pptThumb thumb">
+                      <img class="searchResultThumb slideshow-thumbnail" alt="&lt;strong>Ibm&lt;/strong>" src="//cdn.slidesharecdn.com/ss_thumbnails/ibm-091026042247-phpapp01-thumbnail-2.jpg?32170"/>
+                    </span>
+                  </a>
+                  <!-- Meta Information -->                  <div class="searchResultMeta">
+                    <!-- Title -->                    <a class="slideshow-title" id="click_page_1_result_5" href="/honey83pooh/ibm-2347449?from_search=5">
+                      <strong>
+                        Ibm
+                      </strong>
+                    </a>
+                    <!-- Description -->                    <span class="description">
+                    </span>
+                    <!-- Additional Information about slideshow -->                    <span class="meta">
+                       
+      by
+      
+                      <!-- Author Name -->                      <span class="slideshow-owner-name">
+                        
+        honey83pooh,
+      
+                      </span>
+                      <!-- Posted At -->                      <span class="slideshow-posted-at">
+                        
+          4 years
+        
+                      </span>
+                      <span class="h-posted-at-text">
+                         ago 
+                      </span>
+                      <!-- Category -->                      <span class="category-in">
+                        in
+                      </span>
+                      <span class="category">
+                        
+          Business &amp; Mgmt
+        
+                      </span>
+                    </span>
+                    <!-- Stats and Download Link -->                    <span class="stats meta">
+                      <span class="h-stats">
+                        
+        32 slides 
+      
+                      </span>
+                      <!-- Download Link -->                      <span class="h-stats">
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <!-- Thumbnail Link -->                  <a class="searchResultThumbnail ga-track j-url" id="click_page_1_result_6" title="&lt;strong>Ibm&lt;/strong>" href="/janeth1989/ibm-4500489?from_search=6">
+                    <span class="pptThumb thumb">
+                      <img class="searchResultThumb slideshow-thumbnail" alt="&lt;strong>Ibm&lt;/strong>" src="//cdn.slidesharecdn.com/ss_thumbnails/ibm-100614155043-phpapp02-thumbnail-2.jpg?32170"/>
+                    </span>
+                  </a>
+                  <!-- Meta Information -->                  <div class="searchResultMeta">
+                    <!-- Title -->                    <a class="slideshow-title" id="click_page_1_result_6" href="/janeth1989/ibm-4500489?from_search=6">
+                      <strong>
+                        Ibm
+                      </strong>
+                    </a>
+                    <!-- Description -->                    <span class="description">
+                    </span>
+                    <!-- Additional Information about slideshow -->                    <span class="meta">
+                       
+      by
+      
+                      <!-- Author Name -->                      <span class="slideshow-owner-name">
+                        
+        janeth1989,
+      
+                      </span>
+                      <!-- Posted At -->                      <span class="slideshow-posted-at">
+                        
+          3 years
+        
+                      </span>
+                      <span class="h-posted-at-text">
+                         ago 
+                      </span>
+                      <!-- Category -->                      <span class="category-in">
+                        in
+                      </span>
+                      <span class="category">
+                        
+          Business &amp; Mgmt
+        
+                      </span>
+                    </span>
+                    <!-- Stats and Download Link -->                    <span class="stats meta">
+                      <span class="h-stats">
+                        
+        5 slides | 
+      
+                      </span>
+                      <!-- Download Link -->                      <span class="h-download download">
+                        <a class="download-link" id="click_page_1_result_6" href="/signup?from=download&amp;login_source=search.popup.download&amp;from_source=%252Fsavedfiles%253Fs_title%253Dibm-4500489%2526user_login%253Djaneth1989&amp;download_id=4500489-e2ae47ec3378d556bc2477dfd3f145575dc133a8-slideshow" rel="nofollow" data-toggle="modal" data-target="#login_modal">
+                          Save
+          
+                        </a>
+                      </span>
+                      <span class="h-stats">
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <!-- Thumbnail Link -->                  <a class="searchResultThumbnail ga-track j-url" id="click_page_1_result_7" title="&lt;strong>IBM&lt;/strong>" href="/pilimed92/dispositivas-ibm?from_search=7">
+                    <span class="pptThumb thumb">
+                      <img class="searchResultThumb slideshow-thumbnail" alt="&lt;strong>IBM&lt;/strong>" src="//cdn.slidesharecdn.com/ss_thumbnails/dispositivasibm-130607105639-phpapp01-thumbnail-2.jpg?32170"/>
+                    </span>
+                  </a>
+                  <!-- Meta Information -->                  <div class="searchResultMeta">
+                    <!-- Title -->                    <a class="slideshow-title" id="click_page_1_result_7" href="/pilimed92/dispositivas-ibm?from_search=7">
+                      <strong>
+                        IBM
+                      </strong>
+                    </a>
+                    <!-- Description -->                    <span class="description">
+                    </span>
+                    <!-- Additional Information about slideshow -->                    <span class="meta">
+                       
+      by
+      
+                      <!-- Author Name -->                      <span class="slideshow-owner-name">
+                        
+        pilimed92,
+      
+                      </span>
+                      <!-- Posted At -->                      <span class="slideshow-posted-at">
+                        
+          7 months
+        
+                      </span>
+                      <span class="h-posted-at-text">
+                         ago 
+                      </span>
+                      <!-- Category -->                      <span class="category-in">
+                        in
+                      </span>
+                      <span class="category">
+                        
+          Business &amp; Mgmt
+        
+                      </span>
+                    </span>
+                    <!-- Stats and Download Link -->                    <span class="stats meta">
+                      <span class="h-stats">
+                        
+        12 slides | 1 like 
+      
+                      </span>
+                      <!-- Download Link -->                      <span class="h-stats">
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <!-- Thumbnail Link -->                  <a class="searchResultThumbnail ga-track j-url" id="click_page_1_result_8" title="&lt;strong>Ibm&lt;/strong>" href="/regie8/ibm-14262604?from_search=8">
+                    <span class="pptThumb thumb">
+                      <img class="searchResultThumb slideshow-thumbnail" alt="&lt;strong>Ibm&lt;/strong>" src="//cdn.slidesharecdn.com/ss_thumbnails/ibm-120912080432-phpapp01-thumbnail-2.jpg?32170"/>
+                    </span>
+                  </a>
+                  <!-- Meta Information -->                  <div class="searchResultMeta">
+                    <!-- Title -->                    <a class="slideshow-title" id="click_page_1_result_8" href="/regie8/ibm-14262604?from_search=8">
+                      <strong>
+                        Ibm
+                      </strong>
+                    </a>
+                    <!-- Description -->                    <span class="description">
+                      <strong>
+                        IBM
+                      </strong>
+                       case st
+    
+                    </span>
+                    <!-- Additional Information about slideshow -->                    <span class="meta">
+                       
+      by
+      
+                      <!-- Author Name -->                      <span class="slideshow-owner-name">
+                        
+        regie8,
+      
+                      </span>
+                      <!-- Posted At -->                      <span class="slideshow-posted-at">
+                        
+          1 year
+        
+                      </span>
+                      <span class="h-posted-at-text">
+                         ago 
+                      </span>
+                      <!-- Category -->                      <span class="category-in">
+                        in
+                      </span>
+                      <span class="category">
+                        
+          Technology
+        
+                      </span>
+                    </span>
+                    <!-- Stats and Download Link -->                    <span class="stats meta">
+                      <span class="h-stats">
+                        
+        20 slides | 
+      
+                      </span>
+                      <!-- Download Link -->                      <span class="h-download download">
+                        <a class="download-link" id="click_page_1_result_8" href="/signup?from=download&amp;login_source=search.popup.download&amp;from_source=%252Fsavedfiles%253Fs_title%253Dibm-14262604%2526user_login%253Dregie8&amp;download_id=14262604-67919a30b433683cfa7d750ccb8897ae9131f46d-slideshow" rel="nofollow" data-toggle="modal" data-target="#login_modal">
+                          Save
+          
+                        </a>
+                      </span>
+                      <span class="h-stats">
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <!-- Thumbnail Link -->                  <a class="searchResultThumbnail ga-track j-url" id="click_page_1_result_9" title="&lt;strong>ibm&lt;/strong>" href="/canaleenergia/ibm-13538441?from_search=9">
+                    <span class="pptThumb thumb">
+                      <img class="searchResultThumb slideshow-thumbnail" alt="&lt;strong>ibm&lt;/strong>" src="//cdn.slidesharecdn.com/ss_thumbnails/11ibm-120704035824-phpapp01-thumbnail-2.jpg?32170"/>
+                    </span>
+                  </a>
+                  <!-- Meta Information -->                  <div class="searchResultMeta">
+                    <!-- Title -->                    <a class="slideshow-title" id="click_page_1_result_9" href="/canaleenergia/ibm-13538441?from_search=9">
+                      <strong>
+                        ibm
+                      </strong>
+                    </a>
+                    <!-- Description -->                    <span class="description">
+                    </span>
+                    <!-- Additional Information about slideshow -->                    <span class="meta">
+                       
+      by
+      
+                      <!-- Author Name -->                      <span class="slideshow-owner-name">
+                        
+        canaleenergia,
+      
+                      </span>
+                      <!-- Posted At -->                      <span class="slideshow-posted-at">
+                        
+          1 year
+        
+                      </span>
+                      <span class="h-posted-at-text">
+                         ago 
+                      </span>
+                      <!-- Category -->                      <span class="category-in">
+                        in
+                      </span>
+                      <span class="category">
+                        
+          Business &amp; Mgmt
+        
+                      </span>
+                    </span>
+                    <!-- Stats and Download Link -->                    <span class="stats meta">
+                      <span class="h-stats">
+                        
+        23 slides | 
+      
+                      </span>
+                      <!-- Download Link -->                      <span class="h-download download">
+                        <a class="download-link" id="click_page_1_result_9" href="/signup?from=download&amp;login_source=search.popup.download&amp;from_source=%252Fsavedfiles%253Fs_title%253Dibm-13538441%2526user_login%253Dcanaleenergia&amp;download_id=13538441-388a6221b305e5ded8b481aeb5fa6bb71ee92d5d-slideshow" rel="nofollow" data-toggle="modal" data-target="#login_modal">
+                          Save
+          
+                        </a>
+                      </span>
+                      <span class="h-stats">
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <!-- Thumbnail Link -->                  <a class="searchResultThumbnail ga-track j-url" id="click_page_1_result_10" title="&lt;strong>Ibm&lt;/strong>" href="/sasanabhishek/ibm-12931978?from_search=10">
+                    <span class="pptThumb thumb">
+                      <img class="searchResultThumb slideshow-thumbnail" alt="&lt;strong>Ibm&lt;/strong>" src="//cdn.slidesharecdn.com/ss_thumbnails/ibm-120514174702-phpapp01-thumbnail-2.jpg?32170"/>
+                    </span>
+                  </a>
+                  <!-- Meta Information -->                  <div class="searchResultMeta">
+                    <!-- Title -->                    <a class="slideshow-title" id="click_page_1_result_10" href="/sasanabhishek/ibm-12931978?from_search=10">
+                      <strong>
+                        Ibm
+                      </strong>
+                    </a>
+                    <!-- Description -->                    <span class="description">
+                      
+      This presentation is for anyone who is interested in knowing what strategy is adopted by 
+                      <strong>
+                        IBM
+                      </strong>
+                       Inc,.
+    
+                    </span>
+                    <!-- Additional Information about slideshow -->                    <span class="meta">
+                       
+      by
+      
+                      <!-- Author Name -->                      <span class="slideshow-owner-name">
+                        
+        sasanabhishek,
+      
+                      </span>
+                      <!-- Posted At -->                      <span class="slideshow-posted-at">
+                        
+          1 year
+        
+                      </span>
+                      <span class="h-posted-at-text">
+                         ago 
+                      </span>
+                      <!-- Category -->                      <span class="category-in">
+                        in
+                      </span>
+                      <span class="category">
+                        
+          Technology
+        
+                      </span>
+                    </span>
+                    <!-- Stats and Download Link -->                    <span class="stats meta">
+                      <span class="h-stats">
+                        
+        24 slides | 
+      
+                      </span>
+                      <!-- Download Link -->                      <span class="h-download download">
+                        <a class="download-link" id="click_page_1_result_10" href="/signup?from=download&amp;login_source=search.popup.download&amp;from_source=%252Fsavedfiles%253Fs_title%253Dibm-12931978%2526user_login%253Dsasanabhishek&amp;download_id=12931978-5ed43cdd5c8002c3bbfa352167bf2731f7bb2aa9-slideshow" rel="nofollow" data-toggle="modal" data-target="#login_modal">
+                          Save
+          
+                        </a>
+                      </span>
+                      <span class="h-stats">
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <!-- Thumbnail Link -->                  <a class="searchResultThumbnail ga-track j-url" id="click_page_1_result_11" title="&lt;strong>ibm&lt;/strong>" href="/sslideshare/ibm?from_search=11">
+                    <span class="pptThumb thumb">
+                      <img class="searchResultThumb slideshow-thumbnail" alt="&lt;strong>ibm&lt;/strong>" src="//cdn.slidesharecdn.com/ss_thumbnails/ibm-29096-thumbnail-2.jpg?32170"/>
+                    </span>
+                  </a>
+                  <!-- Meta Information -->                  <div class="searchResultMeta">
+                    <!-- Title -->                    <a class="slideshow-title" id="click_page_1_result_11" href="/sslideshare/ibm?from_search=11">
+                      <strong>
+                        ibm
+                      </strong>
+                    </a>
+                    <!-- Description -->                    <span class="description">
+                    </span>
+                    <!-- Additional Information about slideshow -->                    <span class="meta">
+                       
+      by
+      
+                      <!-- Author Name -->                      <span class="slideshow-owner-name">
+                        
+        sslideshare,
+      
+                      </span>
+                      <!-- Posted At -->                      <span class="slideshow-posted-at">
+                        
+          6 years
+        
+                      </span>
+                      <span class="h-posted-at-text">
+                         ago 
+                      </span>
+                      <!-- Category -->                      <span class="category-in">
+                        in
+                      </span>
+                      <span class="category">
+                        
+          Business &amp; Mgmt
+        
+                      </span>
+                    </span>
+                    <!-- Stats and Download Link -->                    <span class="stats meta">
+                      <span class="h-stats">
+                        
+        1 slide | 
+      
+                      </span>
+                      <!-- Download Link -->                      <span class="h-download download">
+                        <a class="download-link" id="click_page_1_result_11" href="/signup?from=download&amp;login_source=search.popup.download&amp;from_source=%252Fsavedfiles%253Fs_title%253Dibm%2526user_login%253Dsslideshare&amp;download_id=56625-93907db188ce81d0de340517759fdf1d60c830fa-slideshow" rel="nofollow" data-toggle="modal" data-target="#login_modal">
+                          Save
+          
+                        </a>
+                      </span>
+                      <span class="h-stats">
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <!-- Thumbnail Link -->                  <a class="searchResultThumbnail ga-track j-url" id="click_page_1_result_12" title="&lt;strong>Ibm&lt;/strong>" href="/ssuser3d1154/ibm-11083861?from_search=12">
+                    <span class="pptThumb thumb">
+                      <img class="searchResultThumb slideshow-thumbnail" alt="&lt;strong>Ibm&lt;/strong>" src="//cdn.slidesharecdn.com/ss_thumbnails/ibm-120116110507-phpapp01-thumbnail-2.jpg?32170"/>
+                    </span>
+                  </a>
+                  <!-- Meta Information -->                  <div class="searchResultMeta">
+                    <!-- Title -->                    <a class="slideshow-title" id="click_page_1_result_12" href="/ssuser3d1154/ibm-11083861?from_search=12">
+                      <strong>
+                        Ibm
+                      </strong>
+                    </a>
+                    <!-- Description -->                    <span class="description">
+                    </span>
+                    <!-- Additional Information about slideshow -->                    <span class="meta">
+                       
+      by
+      
+                      <!-- Author Name -->                      <span class="slideshow-owner-name">
+                        
+        ssuser3d1154,
+      
+                      </span>
+                      <!-- Posted At -->                      <span class="slideshow-posted-at">
+                        
+          1 year
+        
+                      </span>
+                      <span class="h-posted-at-text">
+                         ago 
+                      </span>
+                      <!-- Category -->                      <span class="category-in">
+                        in
+                      </span>
+                      <span class="category">
+                        
+          Business &amp; Mgmt
+        
+                      </span>
+                    </span>
+                    <!-- Stats and Download Link -->                    <span class="stats meta">
+                      <span class="h-stats">
+                        
+        21 slides | 
+      
+                      </span>
+                      <!-- Download Link -->                      <span class="h-download download">
+                        <a class="download-link" id="click_page_1_result_12" href="/signup?from=download&amp;login_source=search.popup.download&amp;from_source=%252Fsavedfiles%253Fs_title%253Dibm-11083861%2526user_login%253Dssuser3d1154&amp;download_id=11083861-d10a8f2cc4a33abf2a96fe7714e724915e9afb13-slideshow" rel="nofollow" data-toggle="modal" data-target="#login_modal">
+                          Save
+          
+                        </a>
+                      </span>
+                      <span class="h-stats">
+                      </span>
+                    </span>
+                  </div>
+                </li>
+              </ol>
+              <!-- End Display Search Results -->              <!-- Pagination -->              <div class="h-pagination">
+                <div wrap_in_li="true" class="pagination">
+                  <ul>
+                    <li class="prev previous_page disabled">
+                      <a href="#">
+                        ← Previous
+                      </a>
+                    </li>
+                    <li class="active">
+                      <a rel="start" href="/search/slideshow?lang=%2A%2A&amp;page=1&amp;q=ibm&amp;searchfrom=header&amp;sort=relevance">
+                        1
+                      </a>
+                    </li>
+                    <li>
+                      <a rel="next" href="/search/slideshow?lang=%2A%2A&amp;page=2&amp;q=ibm&amp;searchfrom=header&amp;sort=relevance">
+                        2
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/search/slideshow?lang=%2A%2A&amp;page=3&amp;q=ibm&amp;searchfrom=header&amp;sort=relevance">
+                        3
+                      </a>
+                    </li>
+                    <li class="disabled">
+                      <a href="#">
+                        <span class="gap">
+                          …
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/search/slideshow?lang=%2A%2A&amp;page=82&amp;q=ibm&amp;searchfrom=header&amp;sort=relevance">
+                        82
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/search/slideshow?lang=%2A%2A&amp;page=83&amp;q=ibm&amp;searchfrom=header&amp;sort=relevance">
+                        83
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/search/slideshow?lang=%2A%2A&amp;page=84&amp;q=ibm&amp;searchfrom=header&amp;sort=relevance">
+                        84
+                      </a>
+                    </li>
+                    <li class="next next_page ">
+                      <a rel="next" href="/search/slideshow?lang=%2A%2A&amp;page=2&amp;q=ibm&amp;searchfrom=header&amp;sort=relevance">
+                        Next →
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- End Pagination -->            </div>
+            <!-- Google Ads below pagination -->            <div class="ad-below-pagination" id="ad_below_pagination" style="width: 100%; font-weight: normal; text-align: center;">
+              <iframe allowtransparency="true" style="visibility: hidden; height: 0px;" width="100%" name="slave-1-1|{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-0-1&quot;:{&quot;lines&quot;:2,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;ad_above_pagination&quot;},&quot;slave-1-1&quot;:{&quot;lines&quot;:2,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;ad_below_pagination&quot;},&quot;slave-2-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;300px&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;right_ad_one&quot;},&quot;master-1&quot;:{&quot;lines&quot;:2,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;}}" id="slave-1-1" src="http://www.google.com/uds/afs?q=ibm&amp;client=pub-5203428669823392&amp;adtest=off&amp;r=s&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404%2C7000108&amp;jsei=4&amp;format=n3&amp;ad=n0&amp;nocache=5051389776770378&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;allwcallad=1&amp;adext=as1%2Csr1%2Cctc1&amp;rurl=http%3A%2F%2Fwww.slideshare.net%2Fsearch%2Fslideshow%3Fsearchfrom%3Dheader%26q%3Dibm&amp;referer=http%3A%2F%2Fwww.slideshare.net%2F#slave-1-1">
+              </iframe>
+            </div>
+            <!-- End Google Ads below pagination -->          </div>
+          <!-- end results -->          <!-- Sponsored ads -->          <div class="span4" id="rightColumn">
+            <div id="right_ad_one" style="width: 300px; font-weight: normal; text-align: center;">
+              <iframe allowtransparency="true" style="visibility: hidden; height: 0px;" width="100%" name="slave-2-1|{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-0-1&quot;:{&quot;lines&quot;:2,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;ad_above_pagination&quot;},&quot;slave-1-1&quot;:{&quot;lines&quot;:2,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;ad_below_pagination&quot;},&quot;slave-2-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;300px&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;right_ad_one&quot;},&quot;master-1&quot;:{&quot;lines&quot;:2,&quot;colorTitleLink&quot;:&quot;#0077aa&quot;,&quot;colorDomainLink&quot;:&quot;#0077aa&quot;,&quot;fontFamily&quot;:&quot;arial&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;fontSizeTitle&quot;:&quot;14px&quot;,&quot;fontSizeDescription&quot;:&quot;12px&quot;,&quot;fontSizeDomainLink&quot;:&quot;12px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;}}" id="slave-2-1" src="http://www.google.com/uds/afs?q=ibm&amp;client=pub-5203428669823392&amp;adtest=off&amp;r=s&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404%2C7000108&amp;jsei=4&amp;format=n10&amp;ad=n0&amp;nocache=9401389776770376&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;allwcallad=1&amp;adext=as1%2Csr1%2Cctc1&amp;rurl=http%3A%2F%2Fwww.slideshare.net%2Fsearch%2Fslideshow%3Fsearchfrom%3Dheader%26q%3Dibm&amp;referer=http%3A%2F%2Fwww.slideshare.net%2F#slave-2-1">
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <!-- end row -->      </div>
+      <!-- end container -->      <!-- end new code -->      <div class="h-search-templates">
+      </div>
+    </div>
+    <footer>
+      <div class="footerWrapper">
+        <div class="footer">
+          <div class="footerLeft">
+            <!-- .social-links -->            <div class="social-links">
+              <ul>
+                <li>
+                  <a title="Follow us on LinkedIn" href="http://www.linkedin.com/company/slideshare" class="iconLinkedInFooter" rel="nofollow" target="_blank">
+                    Follow us on LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a title="Follow us on Twitter" href="http://twitter.com/SlideShare" class="iconTwitterFooter" rel="nofollow" target="_blank">
+                    Follow us on Twitter
+                  </a>
+                </li>
+                <li>
+                  <a title="Find us on Facebook" href="http://www.facebook.com/slideshare" class="iconFacebookFooter" rel="nofollow" target="_blank">
+                    Find us on Facebook
+                  </a>
+                </li>
+                <li>
+                  <a title="Find us on Google+" href="http://www.google.com/+SlideShare" class="iconGooglePlusFooter" rel="publisher" target="_blank">
+                    Find us on Google+
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.social-links -->          </div>
+          <div class="links footerRight">
+            <div class="fColumn fColumnSmall">
+              <ul class="linksList">
+                <li>
+                  <strong>
+                    Learn About Us
+                  </strong>
+                </li>
+                <li>
+                  <a title="About us" href="/about" rel="nofollow">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a title="Careers" href="/about/workatslideshare" rel="nofollow">
+                    Careers
+                  </a>
+                </li>
+                <li>
+                  <a title="Our Blog" href="http://blog.slideshare.net">
+                    Our Blog
+                  </a>
+                </li>
+                <li>
+                  <a title="Press" href="/about/press" rel="nofollow">
+                    Press
+                  </a>
+                </li>
+                <li>
+                  <a title="Contact us" href="/about/contactus" rel="nofollow">
+                    Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a id="j-helpLink" title="Get Help" href="http://help.slideshare.com/home" rel="nofollow">
+                    Help &amp; Support
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- .fColumn -->            <div class="fColumn fColumnMid">
+              <ul class="linksList">
+                <li>
+                  <strong>
+                    Using SlideShare
+                  </strong>
+                </li>
+                <li>
+                  <a title="SlideShare 101" href="/about" rel="nofollow">
+                    SlideShare 101
+                  </a>
+                </li>
+                <li>
+                  <a title="Terms of Use" href="/terms" rel="nofollow">
+                    Terms of Use
+                  </a>
+                </li>
+                <li>
+                  <a title="Privacy Policy" href="/privacy" rel="nofollow">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a title="Copyright &amp; DMCA" href="/terms#dmca" rel="nofollow">
+                    Copyright &amp; DMCA
+                  </a>
+                </li>
+                <li>
+                  <a title="Community Guidelines" href="/community_guidelines" rel="nofollow">
+                    Community Guidelines
+                  </a>
+                </li>
+                <li>
+                  <a title="SlideShare Mobile" href="http://www.slideshare.net/mobile?enable_mobile=true" rel="nofollow">
+                    SlideShare on Mobile
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- .fColumn -->            <div class="fColumn">
+              <ul class="linksList">
+                <li>
+                  <strong>
+                    Pro &amp; more
+                  </strong>
+                </li>
+                <li>
+                  <a title="Go PRO" href="/business/premium/plans?cmp_src=general&amp;cmp_src_from=footer">
+                    Go PRO
+                  </a>
+                </li>
+                <li>
+                  <a title="Enterprise Sales" href="/contact_sales" rel="nofollow">
+                    Enterprise Sales
+                  </a>
+                </li>
+                <li>
+                  <a title="PRO features" href="/features?cmp_src=general&amp;cmp_src_from=footer&amp;tabs=true" rel="nofollow">
+                    PRO Features
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- .fColumn -->            <div class="fColumn last">
+              <ul class="linksList">
+                <li>
+                  <strong>
+                    Developers &amp; API
+                  </strong>
+                </li>
+                <li>
+                  <a href="/developers" rel="nofollow">
+                    Developers Section
+                  </a>
+                </li>
+                <li>
+                  <a href="http://groups.google.com/group/slideshare-developers?lnk=srg" rel="nofollow">
+                    Developers Group
+                  </a>
+                </li>
+                <li>
+                  <a title="Engineering Blog" href="http://engineering.slideshare.net">
+                    Engineering Blog
+                  </a>
+                </li>
+                <li>
+                  <a title="Widgets for your blog" href="http://www.slideshare.net/widgets/blogbadge">
+                    Blog Widgets
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- .fColumn -->          </div>
+          <!-- .links -->          <div class="clearfix copyright">
+            <p>
+              LinkedIn Corporation © 2014
+            </p>
+            <a href="http://www.slideshare.net/rss/latest" class="rssFooter">
+              RSS Feed
+            </a>
+            <div id="smt-lang-selector">
+              <ul style="display: block;" class="smt-menu">
+                <li class="smt-trigger">
+                  <a class="smt-trigger-link">
+                    <span class="smt-lang">
+                      ENGLISH
+                    </span>
+                  </a>
+                  <ul style="width: 173px;">
+                    <li class="smt-item">
+                      <a class="smt-link" href="http://www.slideshare.net/search/slideshow?searchfrom=header&amp;q=ibm&amp;smtNoRedir=1" style="display: block;">
+                        English
+                      </a>
+                    </li>
+                    <li class="smt-item">
+                      <a class="smt-link" href="http://fr.slideshare.net/search/slideshow?searchfrom=header&amp;q=ibm" style="display: block;">
+                        Français
+                      </a>
+                    </li>
+                    <li class="smt-item">
+                      <a class="smt-link" href="http://es.slideshare.net/search/slideshow?searchfrom=header&amp;q=ibm" style="display: block;">
+                        Español
+                      </a>
+                    </li>
+                    <li class="smt-item">
+                      <a class="smt-link" href="http://pt.slideshare.net/search/slideshow?searchfrom=header&amp;q=ibm" style="display: block;">
+                        Português (Brasil)
+                      </a>
+                    </li>
+                    <li class="smt-item">
+                      <a class="smt-link" href="http://de.slideshare.net/search/slideshow?searchfrom=header&amp;q=ibm" style="display: block;">
+                        Deutsch
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- .footer -->        <img alt="" height="1" src="http://www.linkedin.com/analytics/noauthtracker?pageType=full_page&amp;type=leo.pageTracking&amp;pageKey=sld_search_jsbeacon" width="1"/>
+      </div>
+      <!-- .footerWrapper -->    </footer>
+    <div id="errorlogger">
+      <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+if(window.console){console.error('','@sec_nav_type is missing','@noRobots is missing');} 
+//]]>
+      </script>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+
+      var BrowserDetect = {
+        init: function () {
+          this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
+          this.version = this.searchVersion(navigator.userAgent)
+            || this.searchVersion(navigator.appVersion)
+            || "an unknown version";
+          this.OS = this.searchString(this.dataOS) || "an unknown OS";
+          return this.browser + " " + this.version + " on " + this.OS;
+        },
+        searchString: function (data) {
+          for (var i=0, length = data.length; i < length; i++)  {
+            var dataString = data[i].string;
+            var dataProp = data[i].prop;
+            this.versionSearchString = data[i].versionSearch || data[i].identity;
+            if (dataString) {
+              if (dataString.indexOf(data[i].subString) != -1)
+                return data[i].identity;
+            }
+            else if (dataProp)
+              return data[i].identity;
+          }
+        },
+        searchVersion: function (dataString) {
+          var index = dataString.indexOf(this.versionSearchString);
+          if (index == -1) return;
+          return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
+        },
+        dataBrowser: [
+                        { string: navigator.userAgent, subString: "Chrome", identity: "Chrome" },
+                        { string: navigator.userAgent, subString: "OmniWeb", versionSearch: "OmniWeb/",identity: "OmniWeb"},
+                        { string: navigator.vendor, subString: "Apple", identity: "Safari", versionSearch: "Version" },
+                        { prop: window.opera, identity: "Opera" },
+                        { string: navigator.vendor, subString: "iCab", identity: "iCab" },
+                        { string: navigator.vendor, subString: "KDE", identity: "Konqueror" },
+                        { string: navigator.userAgent, subString: "Firefox", identity: "Firefox" },
+                        { string: navigator.vendor, subString: "Camino", identity: "Camino" },
+                        { string: navigator.userAgent, subString: "Netscape", identity: "Netscape" },
+                        { string: navigator.userAgent, subString: "MSIE", identity: "Explorer", versionSearch: "MSIE" },
+                        { string: navigator.userAgent, subString: "Gecko", identity: "Mozilla", versionSearch: "rv" },
+                        { string: navigator.userAgent, subString: "Mozilla", identity: "Netscape", versionSearch: "Mozilla"}
+                      ],
+        dataOS : [
+                    { string: navigator.platform, subString: "Win", identity: "Windows" },
+                    { string: navigator.platform, subString: "Mac", identity: "Mac" },
+                    { string: navigator.userAgent, subString: "iPhone", identity: "iPhone/iPod" },
+                    { string: navigator.platform, subString: "Linux", identity: "Linux" }
+                  ]
+      };
+      /* From http://www.quirksmode.org/js/detect.html */
+      try {
+        if(slideshare_object.cache['pageTag']){
+          window._gaq = _gaq || [];
+          _gaq.push(["_trackEvent", "Pageload time", slideshare_object.cache['pageTag'], BrowserDetect.init(), (new Date()).getTime() - timer, true]);
+        }
+      } catch(e) {}
+    
+//]]>
+    </script>
+    <script src="http://public.slidesharecdn.com/bigboot/js/bootstrap_combined.js?03591d10d1" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+      (function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=(document.location.protocol==="https:"?"https:":"http:")+"//api.mixpanel.com/site_media/js/api/mixpanel.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push([f].concat(Array.prototype.slice.call(arguments,0)))}};d=["init","track","track_links","track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<d.length;c++){mpq[d[c]]=e(d[c])}})();
+
+      (function($,$$){
+        $('#j-slideshare-logo').click(function(e) {
+          e.preventDefault();
+          if($$.user.loggedin) {
+            window.location.href = "/?ss";
+          } else {
+            window.location.href = "/";
+          }
+        });
+
+        //@todo: monitor performance of ga and load it on window.load
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+        s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+
+        $(window).load(function(){
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId  : '2490221586',
+              oauth  : true,
+              channelUrl  : '//public.slidesharecdn.com/channel.html',
+              status : true, // check login status
+              cookie : true, // enable cookies to allow the server to access the session
+              xfbml  : true  // parse XFBML
+            });
+            FB.getLoginStatus(function (response){
+              // all the functions that wait for fb to be initialized can listen to this event.
+              $(document).trigger('fbinitialized');
+              if (response.status ==='unknown'){
+                // user is logged out from facebook
+                slideshare_object.fb_logged_out = true;
+              }
+            },true);
+            var subscribe_to_status_change = slideshare_object.isHomePage() ? slideshare_object.top_nav_loaded : true;
+            if(subscribe_to_status_change && !slideshare_object.user.loggedin) {
+              FB.Event && FB.Event.subscribe('auth.statusChange', slideshare_object.onFBStatusChange);
+            }
+          };
+
+          var e = document.createElement('script');
+          e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+          e.id = 'facebook-jssdk';
+          e.async = true;
+          document.getElementById('fb-root').appendChild(e);
+          slideshare_object.setup_fbconnect_interaction();
+            var ca = document.createElement("script");
+            ca.type = "text/javascript";
+            ca.async = true;
+            ca.src = (document.location.protocol == "https:" ?
+              "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(ca, s);
+
+            $.getScript('//platform.linkedin.com/in.js?async=true', function() {
+              IN.init();
+            });
+        });
+      })(jQuery,slideshare_object);
+
+      // MixPanel People for PRO Users
+      (function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?g=a[f]=[]:f="mixpanel";g.people=g.people||[];h=['disable','track','track_pageview','track_links','track_forms','register','register_once','unregister','identify','alias','name_tag','set_config','people.set','people.increment','people.track_charge','people.append'];for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.2;})(document,window.mixpanel||[]);
+
+      var slidetrackingKey = "375425c76eeed6d07d74c0bfe032fec0";
+
+      if(slideshare_object.user.loggedin && slideshare_object.user.is_pro){
+        mixpanel.init("dd9f3935b99b8dbb9b5e85a6af56b463");
+        mixpanel.identify(slideshare_object.user.login);
+        mixpanel.people.set({
+          "$name": slideshare_object.user.name,
+          "last_action": new Date(),
+          "fbconnect": slideshare_object.user.is_fbuser,
+          "id": slideshare_object.user.id
+        });
+      }
+    
+//]]>
+    </script>
+    <div id="fancy_overlay">
+    </div>
+    <div id="fancy_loading">
+      <div>
+      </div>
+    </div>
+    <div id="fancy_outer">
+      <div id="fancy_inner">
+        <div id="fancy_close">
+          ×
+        </div>
+        <div id="fancy_bg">
+          <div class="fancy_bg" id="fancy_bg_n">
+          </div>
+          <div class="fancy_bg" id="fancy_bg_ne">
+          </div>
+          <div class="fancy_bg" id="fancy_bg_e">
+          </div>
+          <div class="fancy_bg" id="fancy_bg_se">
+          </div>
+          <div class="fancy_bg" id="fancy_bg_s">
+          </div>
+          <div class="fancy_bg" id="fancy_bg_sw">
+          </div>
+          <div class="fancy_bg" id="fancy_bg_w">
+          </div>
+          <div class="fancy_bg" id="fancy_bg_nw">
+          </div>
+        </div>
+        <a href="javascript:;" id="fancy_left">
+          <span class="fancy_ico" id="fancy_left_ico">
+          </span>
+        </a>
+        <a href="javascript:;" id="fancy_right">
+          <span class="fancy_ico" id="fancy_right_ico">
+          </span>
+        </a>
+        <div id="fancy_content">
+        </div>
+      </div>
+    </div>
+    <div id="fancy_title">
+      <table cellspacing="0" cellpadding="0" border="0">
+        <tbody align="left">
+          <tr>
+            <td class="fancy_title" id="fancy_title_left"/>
+            <td class="fancy_title" id="fancy_title_main">
+              <div>
+              </div>
+            </td>
+            <td class="fancy_title" id="fancy_title_right"/>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="modal fade FBlogin login-wrapper hide" id="login_modal" style="width:470px;height:347px;">
+    </div>
+    <div class="modal fade FBlogin login-wrapper hide" id="login_modal" style="width:470px;height:347px;">
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html class="ie8 no-js light_layout" lang="en">
+  <!--<![endif]-->  <head>
+    <title>
+      Businessweek - Search
+    </title>
+    <meta name="robots" content="noindex"/>
+    <meta name="google-site-verification" content="L7zxW9ChzqzPwbLIMzRbGzhn-Mly9AIDiF64J6DgQl0"/>
+    <meta name="google-site-verification" content="dEHOKZR1s6GmOfGrPHHJFrXJwDoZXW6BjpnhmxPzRCE"/>
+    <meta name="google-site-verification" content="nm_Na3kYYwG-eQKKUQs9A07nqn-GlhmC2qMzvutTDRA"/>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <script async="" type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_companion_ad.js">
+    </script>
+    <script async="" src="//www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript" async="" src="http://cdn.taboolasyndication.com/libtrc/businessweek/loader.js">
+    </script>
+    <script async="" type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script type="text/javascript" async="" src="http://cdn.krxd.net/controltag?confid=IDeZK3A5">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-1.newrelic.com","errorBeacon":"jserror.newrelic.com","licenseKey":"b220098848","applicationID":"138689","transactionName":"c1hbFURcXFsGRRYRUVFFVgkZQFhYFA==","queueTime":0,"applicationTime":368,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-361.min.js"}
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+(window.NREUM||(NREUM={})).loader_config={xpid:"VgMEUVJACQAIUllb"};window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f&lt;d.length;f++)e(d[f]);return e}({1:[function(a,b){function c(a,b,c){c||(c={});for(var d=f[a],e=d&amp;&amp;d.length||0,h=c[g]||(c[g]={}),i=0;e&gt;i;i++)d[i].apply(h,b);return h}function d(a,b){var c=f[a]||(f[a]=[]);c.push(b)}function e(a){return delete a[g]}var f={},g="nr@context";b.exports={on:d,emit:c,clear:e}},{}],2:[function(a){function b(a,b,e,g,i){return h?h-=1:c("err",[i||new UncaughtException(a,b,e)]),"function"==typeof f?f.apply(this,d(arguments)):!1}function UncaughtException(a,b,c){this.message=a||"Uncaught error with no additional information",this.sourceURL=b,this.line=c}var c=a("handle"),d=a("lodash._slice"),e=a("../../../contextual-ee"),f=window.onerror,g=!1,h=0;a("loader").features.push("err"),window.onerror=b;try{throw new Error}catch(i){"stack"in i&amp;&amp;(a("../../wrap-timer"),a("../../wrap-raf"),"addEventListener"in window&amp;&amp;a("../../wrap-events"),window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;a("../../wrap-xhr"),g=!0)}e.on("fn-start",function(){g&amp;&amp;(h+=1)}),e.on("fn-err",function(a,b,d){g&amp;&amp;(this.thrown=!0,c("err",[d,(new Date).getTime()]))}),e.on("fn-end",function(){g&amp;&amp;!this.thrown&amp;&amp;h&gt;0&amp;&amp;(h-=1)})},{"../../../contextual-ee":1,"../../wrap-events":3,"../../wrap-raf":4,"../../wrap-timer":5,"../../wrap-xhr":6,handle:"4O2Y62",loader:"YLUGVp","lodash._slice":14}],3:[function(a){function b(a){d.inPlace(a,["addEventListener","removeEventListener"],"-",c)}function c(a){return a[1]}var d=a("../wrap-function"),e=(a("lodash._slice"),a("../contextual-ee"));if(b(window),"getPrototypeOf"in Object){for(var f=document;f&amp;&amp;!f.hasOwnProperty("addEventListener");)f=Object.getPrototypeOf(f);f&amp;&amp;b(f);for(var g=XMLHttpRequest.prototype;g&amp;&amp;!g.hasOwnProperty("addEventListener");)g=Object.getPrototypeOf(g);g&amp;&amp;b(g)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&amp;&amp;b(XMLHttpRequest.prototype);e.on("addEventListener-start",function(a){if(a[1]){var b=a[1];"function"==typeof b?this.wrapped=b["nr@wrapped"]?a[1]=b["nr@wrapped"]:b["nr@wrapped"]=a[1]=d(b,"fn-"):"function"==typeof b.handleEvent&amp;&amp;d.inPlace(b,["handleEvent"],"fn-")}}),e.on("removeEventListener-start",function(a){var b=this.wrapped;b&amp;&amp;(a[1]=b)})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],4:[function(a){var b=(a("lodash._slice"),a("../wrap-function")),c=a("../contextual-ee");b.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),c.on("raf-start",function(a){a[0]=b(a[0],"fn-")})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],5:[function(a){function b(a){var b=a[0];"string"==typeof b&amp;&amp;(b=new Function(b)),a[0]=c(b,"fn-")}var c=(a("lodash._slice"),a("../wrap-function")),d=a("../contextual-ee");c.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),d.on("setTimer-start",b)},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],6:[function(a){function b(){c.inPlace(this,f,"fn-")}var c=a("../wrap-function"),d=a("../contextual-ee"),e=window.XMLHttpRequest,f=["onload","onerror","onabort","onloadstart","onloadend","onprogress","onreadystatechange","ontimeout"];window.XMLHttpRequest=function(a){var f=new e(a);return d.emit("new-xhr",[],f),c.inPlace(f,["addEventListener","removeEventListener"],"-",function(a,b){return b}),f.addEventListener("readystatechange",b,!1),f},window.XMLHttpRequest.prototype=e.prototype},{"../contextual-ee":1,"../wrap-function":15}],7:[function(a){function b(a){if("string"==typeof a&amp;&amp;a.length)return a.length;if("object"!=typeof a)return void 0;if("undefined"!=typeof ArrayBuffer&amp;&amp;a instanceof ArrayBuffer&amp;&amp;a.byteLength)return a.byteLength;if("undefined"!=typeof Blob&amp;&amp;a instanceof Blob&amp;&amp;a.size)return a.size;if("undefined"!=typeof FormData&amp;&amp;a instanceof FormData)return void 0;try{return JSON.stringify(a).length}catch(b){return void 0}}function c(a){var c=this.params,d=this.metrics;if(!this.ended){this.ended=!0;for(var e=0;k&gt;e;e++)a.removeEventListener(j[e],this.listener,!1);if(!c.aborted){if(d.duration=(new Date).getTime()-this.startTime,4===a.readyState){c.status=a.status;var g=a.responseType,h="arraybuffer"===g||"blob"===g||"json"===g?a.response:a.responseText,i=b(h);if(i&amp;&amp;(d.rxSize=i),this.sameOrigin){var l=a.getResponseHeader("X-NewRelic-App-Data");l&amp;&amp;(c.cat=l.split(", ").pop())}}else c.status=0;d.cbTime=this.cbTime,f("xhr",[c,d])}}}function d(a,b){var c=g(b),d=a.params;d.host=c.hostname+":"+c.port,d.pathname=c.pathname,a.sameOrigin=c.sameOrigin}function e(a,b){return b}if(window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;!/CriOS/.test(navigator.userAgent)){a("loader").features.push("xhr");var f=a("handle"),g=a("./parse-url.js"),h=a("../../../wrap-function"),i=a("../../../contextual-ee"),j=["load","error","abort","timeout"],k=j.length,l=a("../../../loader/id");a("../../wrap-events"),a("../../wrap-xhr"),i.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=c,this.ended=!1,this.xhrGuids={}}),h.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",e),i.on("open-xhr-start",function(a){this.params={method:a[0]},d(this,a[1]),this.metrics={}}),i.on("open-xhr-end",function(a,b){"loader_config"in NREUM&amp;&amp;"xpid"in NREUM.loader_config&amp;&amp;this.sameOrigin&amp;&amp;b.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),i.on("send-xhr-start",function(a,c){var d=this.metrics,e=a[0],f=this;if(d&amp;&amp;e){var g=b(e);g&amp;&amp;(d.txSize=g)}this.startTime=(new Date).getTime(),this.listener=function(a){try{"abort"===a.type&amp;&amp;(f.params.aborted=!0),("load"!==a.type||f.called===f.totalCbs&amp;&amp;(f.onloadCalled||"function"!=typeof c.onload))&amp;&amp;f.end(c)}catch(b){}};for(var h=0;k&gt;h;h++)c.addEventListener(j[h],this.listener,!1)}),i.on("xhr-cb-time",function(a,b,c){this.cbTime+=a,b?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&amp;&amp;"function"==typeof c.onload||this.end(c)}),i.on("xhr-load-added",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&amp;&amp;!this.xhrGuids[c]&amp;&amp;(this.xhrGuids[c]=!0,this.totalCbs+=1)}),i.on("xhr-load-removed",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&amp;&amp;this.xhrGuids[c]&amp;&amp;(delete this.xhrGuids[c],this.totalCbs-=1)}),i.on("addEventListener-end",function(a,b){b instanceof XMLHttpRequest&amp;&amp;"load"===a[0]&amp;&amp;i.emit("xhr-load-added",[a[1],a[2]],b)}),i.on("removeEventListener-end",function(a,b){b instanceof XMLHttpRequest&amp;&amp;"load"===a[0]&amp;&amp;i.emit("xhr-load-removed",[a[1],a[2]],b)}),i.on("fn-start",function(a,b,c){b instanceof XMLHttpRequest&amp;&amp;("onload"===c&amp;&amp;(this.onload=!0),("load"===(a[0]&amp;&amp;a[0].type)||this.onload)&amp;&amp;(this.xhrCbStart=(new Date).getTime()))}),i.on("fn-end",function(a,b){this.xhrCbStart&amp;&amp;i.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,b],b)})}},{"../../../contextual-ee":1,"../../../loader/id":11,"../../../wrap-function":15,"../../wrap-events":3,"../../wrap-xhr":6,"./parse-url.js":8,handle:"4O2Y62",loader:"YLUGVp"}],8:[function(a,b){b.exports=function(a){var b=document.createElement("a"),c=window.location,d={};b.href=a,d.port=b.port;var e=b.href.split("://");return!d.port&amp;&amp;e[1]&amp;&amp;(d.port=e[1].split("/")[0].split(":")[1]),d.port&amp;&amp;"0"!==d.port||(d.port="https"===e[0]?"443":"80"),d.hostname=b.hostname||c.hostname,d.pathname=b.pathname,"/"!==d.pathname.charAt(0)&amp;&amp;(d.pathname="/"+d.pathname),d.sameOrigin=!b.hostname||b.hostname===document.domain&amp;&amp;b.port===c.port&amp;&amp;b.protocol===c.protocol,d}},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],11:[function(a,b){function c(a){if(!a||"object"!=typeof a&amp;&amp;"function"!=typeof a)return-1;if(a===window)return 0;if(e.call(a,"__nr"))return a.__nr;try{return Object.defineProperty(a,"__nr",{value:d,writable:!0,enumerable:!1}),d}catch(b){return a.__nr=d,d}finally{d+=1}}var d=1,e=Object.prototype.hasOwnProperty;b.exports=c},{}],loader:[function(a,b){b.exports=a("YLUGVp")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&amp;&amp;a.agent&amp;&amp;a.licenseKey&amp;&amp;a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&amp;&amp;e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l,features:[]};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],14:[function(a,b){function c(a,b,c){b||(b=0),"undefined"==typeof c&amp;&amp;(c=a?a.length:0);for(var d=-1,e=c-b||0,f=Array(0&gt;e?0:e);++d&lt;e;)f[d]=a[b+d];return f}b.exports=c},{}],15:[function(a,b){function c(a,b,c,d){function nrWrapper(){var g,h=f(arguments),i=this,j=c&amp;&amp;c(h,i)||{};try{e.emit(b+"start",[h,i,d],j)}catch(k){}try{return g=a.apply(i,h)}catch(l){throw e.emit(b+"err",[h,i,l],j),l}finally{try{e.emit(b+"end",[h,i,g],j)}catch(k){}}}return a&amp;&amp;"function"==typeof a&amp;&amp;a.apply&amp;&amp;!a._wrapped?(b||(b=""),nrWrapper._wrapped=!0,nrWrapper):a}function d(a,b,d,e){d||(d="");var f,g,h,i="-"===d.charAt(0);for(h=0;h&lt;b.length;h++)g=b[h],f=a[g],f&amp;&amp;"function"==typeof f&amp;&amp;f.apply&amp;&amp;!f._wrapped&amp;&amp;(a[g]=c(f,i?g+d:d,e,g,a))}var e=a("../contextual-ee"),f=a("lodash._slice");b.exports=c,c.inPlace=d},{"../contextual-ee":1,"lodash._slice":14}]},{},["YLUGVp",7,2]);
+//]]>
+    </script>
+    <link type="image/vnd.microsoft.icon" rel="shortcut icon" href="http://static.btrd.net/assets/favicon.ico"/>
+    <link type="image/png" rel="apple-touch-icon" href="http://static.btrd.net/assets/BW-bubble.png"/>
+    <link type="application/rss+xml" title="Businessweek.com Top News RSS" rel="alternate" href="http://www.businessweek.com/feeds/homepage.rss"/>
+    <!-- * font definitions */ -->    <style>
+      
+  @font-face {
+    font-family: 'BloombergLBold';
+      src: url("/assets/type/bloombergl_heavy.eot?#iefix") format('embedded-opentype'),
+           url('/assets/type/bloombergl_heavy.ttf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+  }
+  @font-face {
+    font-family:'BWHaasHead';
+    src: url('/assets/type/hinted/haas/bwhaasgroteskhead-95black.eot?#iefix') format('eot'),
+         url('/assets/type/hinted/haas/bwhaasgroteskhead-95black.woff') format('woff'),
+         url('/assets/type/haas/bwhaasgroteskhead-95black.ttf') format('truetype');
+  
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+  }
+  @font-face {
+    font-family:'BWHaasHead75Bold';
+    src: url('/assets/type/hinted/haas75/bwhaasgroteskhead-75bold.eot?#iefix') format('eot'),
+         url('/assets/type/hinted/haas75/bwhaasgroteskhead-75bold.woff') format('woff'),
+         url('/assets/type/haas75/bwhaasgrotesktext-75bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+  }
+  @font-face {
+    font-family:'BWHaasRegular';
+    src: url('/assets/web_fonts/bwhaasgroteskhead-65medium.eot?#iefix') format('eot'),
+         url('/assets/web_fonts/bwhaasgroteskhead-65medium.woff') format('woff'),
+         url('/assets/web_fonts/bwhaasgrotesktext-65medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+  }
+
+    </style>
+    <link type="text/css" rel="stylesheet" media="screen" href="http://static.btrd.net/assets/application-1e8b91bf2ed0ead91b856a9b2be9878b.css"/>
+    <link type="text/css" rel="stylesheet" media="screen" href="http://static.btrd.net/assets/pages-27c3fa88521ea0d258a93288d9215a98.css"/>
+    <meta property="og:site_name" content="Businessweek.com"/>
+    <!-- BEGIN Krux Control Tag -->    <script type="text/javascript" src="http://static.btrd.net/assets/krux-2219e2e7b21a9027972af37eaeb5ee88.js">
+    </script>
+    <script>
+//<![CDATA[
+
+  var AVAILABLE_BUCKETS = []
+
+//]]>
+    </script>
+    <script type="text/javascript" src="http://static.btrd.net/assets/buckets-d84e1f4dcb5b5442542ec0a4b3fb1865.js">
+    </script>
+    <meta name="viewport" content="width=1000px"/>
+    <script>
+//<![CDATA[
+
+  var ROOT_URL          = "http://www.businessweek.com/";
+  var FACEBOOK_APP_KEY  = "381515401910729";
+  var FACEBOOK_APP_NS   = "bw_prod";
+  var COOKIE_DOMAIN     = "businessweek.com";
+  var SECURE_DOMAIN_URL = "https://secure.businessweek.com";
+  var STICKY_NEWS_ENGINE= "none";
+  var VIDEO_AD_PREFIX   = "http://ad.doubleclick.net/N5262/pfadx/";
+  var VIDEO_SITE        = "mgh.bw.video";
+  var VIDEO_SUB_SITE    = "/general";
+  var DOUBLECLICK_URL_PREFIX = "http://ad.doubleclick.net/N5262";
+  var AD_SITE           = "mgh.bw";
+  var AD_LAYOUT_DESC    = "search";
+  var AD_SUB_SITE       = ".home/";
+  if (AD_LAYOUT_DESC.indexOf("video") &gt;= 0){
+      AD_SITE           = VIDEO_SITE;
+      AD_SUB_SITE       = VIDEO_SUB_SITE;
+  }
+  var AD_ZONE           = ""; // TODO: this is used to tag "department" pages
+  var AD_KEYWORD        = ""; //TODO: This is used on article and department index pages
+  var AD_URL            = (window.location.pathname == undefined) ? "/" : window.location.pathname.replace(/\/?$/, '/');
+  var YIELDEX           = true;
+  var AD_INTERVAL_TO    = 450;
+  var AD_DEPT_TRACKING  = false; //Temporary flag to be removed when the time is right
+  
+  var VIDEO_AD_SIZE     = "1x1";
+  var VIDEO_AD_YIELD_EX = (YIELDEX) ? '"u=sz='+VIDEO_AD_SIZE+'|' + ';' : '';
+  var RANDOM_NUMBER     = ("1"+(""+Math.random()).substring(2,11));
+  var VIDEO_AD_SUFFIX   = ";sz="+VIDEO_AD_SIZE+";tile=15;tp_video=null;dcmt=text/html;"+encodeURIComponent(VIDEO_AD_YIELD_EX)+"ord="+RANDOM_NUMBER+";";
+  var TILE_NUMBER       = 1;
+  var URL_HASH          = window.location.hash.replace(/#video=/, '');
+  var google_ad_channel = "6537084077 3231123392";
+  var discus_car, lead_module_interval;
+  var NEGATIVE_AD_CATEGORIES = "";
+  
+  
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    gads.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+     node.parentNode.insertBefore(gads, node);
+  })();
+  
+  var COMPANION_AD_SITE = AD_SITE + AD_SUB_SITE; //these create the video companion ads
+  googletag.cmd.push(function() {
+    googletag.defineSlot(COMPANION_AD_SITE, [728,  90], 'header-companion-ad').addService(googletag.companionAds()).addService(googletag.pubads());
+    googletag.defineSlot(COMPANION_AD_SITE, [300, 250], 'right-companion-ad').addService(googletag.companionAds()).addService(googletag.pubads());
+    googletag.defineSlot(COMPANION_AD_SITE, [728,  90], 'bottom-companion-ad').addService(googletag.companionAds()).addService(googletag.pubads());
+    googletag.companionAds().setRefreshUnfilledSlots(true);
+    googletag.pubads().disableInitialLoad();
+    googletag.enableServices();
+  });
+
+//]]>
+    </script>
+    <script async="" type="text/javascript" src="http://bwbeta.disqus.com/count.js">
+    </script>
+    <script async="" type="text/javascript" src="http://partner.googleadservices.com/gpt/pubads_impl_34.js">
+    </script>
+  </head>
+  <body itemtype="http://schema.org/WebPage" itemscope="" data-controller="search" data-action="show" class="search">
+    <div id="cboxOverlay" style="display: none;">
+    </div>
+    <div id="colorbox" class="" style="padding-bottom: 20px; padding-right: 20px; display: none;">
+      <div id="cboxWrapper">
+        <div>
+          <div id="cboxTopLeft" style="float: left;">
+          </div>
+          <div id="cboxTopCenter" style="float: left;">
+          </div>
+          <div id="cboxTopRight" style="float: left;">
+          </div>
+        </div>
+        <div style="clear: left;">
+          <div id="cboxMiddleLeft" style="float: left;">
+          </div>
+          <div id="cboxContent" style="float: left;">
+            <div id="cboxLoadedContent" style="width: 0px; height: 0px; overflow: hidden; float: left;">
+            </div>
+            <div id="cboxLoadingOverlay" style="float: left;">
+            </div>
+            <div id="cboxLoadingGraphic" style="float: left;">
+            </div>
+            <div id="cboxTitle" style="float: left;">
+            </div>
+            <div id="cboxCurrent" style="float: left;">
+            </div>
+            <div id="cboxNext" style="float: left;">
+            </div>
+            <div id="cboxPrevious" style="float: left;">
+            </div>
+            <div id="cboxSlideshow" style="float: left;">
+            </div>
+            <div id="cboxClose" style="float: left;">
+            </div>
+          </div>
+          <div id="cboxMiddleRight" style="float: left;">
+          </div>
+        </div>
+        <div style="clear: left;">
+          <div id="cboxBottomLeft" style="float: left;">
+          </div>
+          <div id="cboxBottomCenter" style="float: left;">
+          </div>
+          <div id="cboxBottomRight" style="float: left;">
+          </div>
+        </div>
+      </div>
+      <div style="position: absolute; width: 9999px; visibility: hidden; display: none;">
+      </div>
+    </div>
+    <div id="fb-root">
+    </div>
+    <script type="text/javascript" src="http://static.btrd.net/assets/interstitial-092b725129fc6be18fc7ee027160c34f.js">
+    </script>
+    <div id="showInterstitial">
+      <div id="backgroundInterstitial">
+      </div>
+      <div id="intro_ad_header">
+        <div id="small_logo">
+          <span>
+            Bloomberg Businessweek
+          </span>
+        </div>
+        <div id="skip_ad">
+          <a onclick="disableInterstitial(); return false;" class="skip-ad">
+            Go To Businessweek.com
+          </a>
+        </div>
+      </div>
+      <div id="intro_ad">
+        <div id="ad-interstitial">
+          <script>
+//<![CDATA[
+
+  var site = AD_SITE+AD_SUB_SITE+AD_ZONE+";";
+  var noad = 0;
+  var size = "sz=640x480;"; // comma seperated list of possible sizes :-)
+  var url  = (window.location.pathname == undefined) ? "url=/;" : "url="+window.location.pathname+";"; //path url
+  var ran  = "ord="+RANDOM_NUMBER+"?"; //a random number that is applied to all ad tags on the page for targeting and cache-busting purposes
+  var tile = "tile=1;"; //ensure interstitial always is 0 tile
+  var ist  = (parseInt(tile) == 1) ? "dcopt=ist;" : ""; //enables interstital ads on pages and should only be applied to a single ad (the first) on a page
+  var keyword = (AD_KEYWORD != "") ? "keyword="+AD_KEYWORD+";" : ""; //keyword or issue should only be set on article pages
+  var tz = "t0=interstitial;";
+  var pt = "page=t0;";
+  TILE_NUMBER++; // iterate through tile numbers on the parent window
+  
+  var issue_key = '';
+  var yield_ex_string = (parent.YIELDEX) ? ("u="+size+"|"+pt+"|"+tz+"|"+keyword).replace(/;/g, "")+";" : "";
+  
+  src = "http://ad.doubleclick.net/N5262/adj/"+site+url+size+pt+tz+tile+keyword+ist+yield_ex_string+ran;
+  document.write('&lt;scr'+'ipt type="text/javascript" src="'+src+'"&gt;&lt;/scr'+'ipt&gt;');
+
+//]]>
+          </script>
+          <script src="http://ad.doubleclick.net/N5262/adj/mgh.bw.home/;url=/search;sz=640x480;page=t0;t0=interstitial;tile=1;u=sz=640x480%7Cpage=t0%7Ct0=interstitial%7C;ord=1297460329?" type="text/javascript">
+          </script>
+        </div>
+      </div>
+    </div>
+    <script>
+//<![CDATA[
+
+  var interstitialStatus = 0;
+  hideIntroAd();
+  if ( (noad !=1) &amp;&amp; show_interstitial_ad() ) {
+    displayInterstitialAd();
+  }
+
+//]]>
+    </script>
+    <div id="container" class="clearfix">
+      <div id="sign_in" class="clearfix">
+        <div class="sign_in_frame">
+          <span class="login facebook">
+            
+Sign in with Facebook
+
+            <span class="facebook_button">
+              <a href="#">
+                <span class="inline_icon icons-connect_with_facebook facebook_login">
+                </span>
+              </a>
+            </span>
+          </span>
+          <span class="login">
+            Or use your Businessweek account
+          </span>
+          <div class="login_form">
+            <form method="post" id="new_user_form" class="new_user_form" action="https://secure.businessweek.com/login" accept-charset="UTF-8">
+              <div style="margin:0;padding:0;display:inline">
+                <input type="hidden" value="✓" name="utf8"/>
+                <input type="hidden" value="ccvGDEVAWDHAEoFU9FKy/AbWtXRhbK1K8FB8T41N6Dc=" name="authenticity_token"/>
+              </div>
+              <label for="user_form_email" class="for_email">
+                Email
+              </label>
+              <input type="text" size="100" name="user_form[email]" maxlength="100" id="user_form_email" class=""/>
+              <label for="user_form_password" class="password">
+                Password
+              </label>
+              <a class="forgot_password" href="https://secure.businessweek.com/password/forgot">
+                Forgot  password?
+              </a>
+              <input type="password" size="20" name="user_form[password]" maxlength="20" id="user_form_password" class=""/>
+              <input type="hidden" value="0" name="user_form[remember_me]"/>
+              <input type="checkbox" value="1" name="user_form[remember_me]" id="user_form_remember_me"/>
+              <label for="user_form_remember_me" class="checkbox_label">
+                Remember me
+              </label>
+              <input type="submit" value="Sign In" name="commit" class="button"/>
+            </form>
+          </div>
+          <p class="bloomberg_user">
+            
+Already a Bloomberg.com user?
+
+          </p>
+          <p>
+            Sign in with the same account.
+          </p>
+          <p class="other_options">
+            
+Don't have an account?
+
+            <a href="https://secure.businessweek.com/register">
+              Sign up.
+            </a>
+          </p>
+          <p class="account-help">
+            <a href="https://secure.businessweek.com/users/forgot-account">
+              Help! I can't access my account.
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="branding_hat">
+      </div>
+      <div style="display:none;" id="consent-track">
+        
+This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies.
+
+        <a href="#closeConsentTrack" class="close-consent-track">
+          X
+        </a>
+        <span id="consent-track-image">
+          <script type="text/javascript" src="http://consent.truste.com/notice?domain=businessweek.com&amp;c=consent-track-image">
+          </script>
+        </span>
+      </div>
+      <div id="header" class="clearfix">
+        <div class="inner_wrapper">
+          <div id="logo">
+            <a id="home_link" class="ir" href="http://www.businessweek.com/">
+              Bloomberg Businessweek
+            </a>
+          </div>
+          <div id="promo">
+            <span class="house_ad">
+              <iframe scrolling="no" frameborder="0" data-uri="/dynamic_frames/ads-v2.html" data-tz="circ_header" data-tile="2" data-size="200x92,1x1" data-pt="t0" data-position="circ_header" class="ad_frame" allowtransparency="true" src="/dynamic_frames/ads-v2.html?tile=2&amp;size=200x92%2C1x1&amp;tz=circ_header&amp;pt=t0&amp;ord=1524188464">
+              </iframe>
+            </span>
+          </div>
+          <div id="search">
+            <div id="sub_sales_header">
+              <a class="sub_sales" href="https://subscribe.businessweek.com/servlet/OrdersGateway?cds_mag_code=BWK&amp;cds_page_id=155236">
+                <div class="sub_sales-cover">
+                  <img width="75px" src="http://wbbw1.bwbx.io/cms/2014-03-13/1412_covnew_110x155.jpg" alt="The Epic Hack"/>
+                </div>
+                <div class="sub_sales-background">
+                  <div class="sub_sales-content">
+                    <span class="sub_sales-offer">
+                      
+LIMITED-TIME OFFER
+
+                    </span>
+                    <span class="sub_sales-subscribe">
+                      
+SUBSCRIBE NOW
+
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <form method="get" action="http://www.businessweek.com/search">
+              <div class="with_search_icon">
+                <input type="text" value="Search" title="Search" name="q" id="search_input" class="toggle_text text-label"/>
+              </div>
+            </form>
+            <div id="social">
+              <div data-show-faces="false" data-send="false" data-layout="button_count" data-href="http://www.facebook.com/bloombergbusinessweek" data-font="arial" class="fb-like">
+              </div>
+              <a href="http://twitter.com/BW" data-show-screen-name="true" data-show-count="false" data-lang="en" class="twitter-follow-button">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="global_nav">
+        <div class="inner_wrapper">
+          <ul class="navigation clearfix">
+            <li class="global_economics has_sub_menu tracked">
+              <a class="channel_link" href="http://www.businessweek.com/global-economics">
+                Global Economics
+              </a>
+            </li>
+            <li class="companies_and_industries has_sub_menu tracked">
+              <a class="channel_link" href="http://www.businessweek.com/companies-and-industries">
+                Companies &amp; Industries
+              </a>
+            </li>
+            <li class="politics_and_policy has_sub_menu tracked">
+              <a class="channel_link" href="http://www.businessweek.com/politics-and-policy">
+                Politics &amp; Policy
+              </a>
+            </li>
+            <li class="technology has_sub_menu tracked">
+              <a class="channel_link" href="http://www.businessweek.com/technology">
+                Technology
+              </a>
+            </li>
+            <li class="markets_and_finance has_sub_menu tracked">
+              <a class="channel_link" href="http://www.businessweek.com/markets-and-finance">
+                Markets &amp; Finance
+              </a>
+            </li>
+            <li class="innovation_and_design has_sub_menu tracked">
+              <a class="channel_link" href="http://www.businessweek.com/innovation-and-design">
+                Innovation &amp; Design
+              </a>
+            </li>
+            <li class="lifestyle has_sub_menu tracked">
+              <a class="channel_link" href="http://www.businessweek.com/lifestyle">
+                Lifestyle
+              </a>
+            </li>
+            <li class="business_schools has_sub_menu tracked">
+              <a class="channel_link" href="http://www.businessweek.com/business-schools">
+                Business Schools
+              </a>
+            </li>
+            <li class="small_business has_sub_menu tracked">
+              <a class="channel_link" href="http://www.businessweek.com/small-business">
+                Small Business
+              </a>
+            </li>
+            <li class="media has_sub_menu tracked">
+              <a class="channel_link" href="http://www.businessweek.com/media">
+                Video &amp; Multimedia
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="companion_ad top_banner_ad">
+        <div id="header-companion-ad" class="advertisement">
+          <script>
+//<![CDATA[
+
+  googletag.cmd.push(function() { googletag.display('header-companion-ad'); });
+
+//]]>
+          </script>
+        </div>
+      </div>
+      <div id="leader_board" class="banner_ad top_banner_ad companion_replace" data-cb-ad-id="top">
+        <iframe scrolling="no" frameborder="0" data-uri="/dynamic_frames/ads-v2.html" data-tz="hometop" data-tile="3" data-size="728x90,970x66,1x1" data-pt="t0" data-position="hometop" class="ad_frame" allowtransparency="true" src="/dynamic_frames/ads-v2.html?tile=3&amp;size=728x90%2C970x66%2C1x1&amp;tz=hometop&amp;pt=t0&amp;ord=1524188464">
+        </iframe>
+      </div>
+      <div id="flash">
+      </div>
+      <div class="search_form">
+        <h2>
+          
+Search results for
+
+        </h2>
+        <form method="get" action="http://www.businessweek.com/search">
+          <div class="with_search_icon">
+            <input type="text" value="ibm" title="ibm" name="q" class="toggle_text text-label"/>
+          </div>
+        </form>
+      </div>
+      <div class="column_container">
+        <div class="column primary">
+          <div class="status">
+            <div class="sort_options">
+              <div class="title">
+                Sort By
+              </div>
+              <ul>
+                <li data-label="Page 1" data-category="Site Search" data-action-type="relevance" class="tracked">
+                  <span class="current">
+                    Relevance
+                  </span>
+                </li>
+                <li data-label="Page 1" data-category="Site Search" data-action-type="newest" class="tracked">
+                  <a href="http://www.businessweek.com/search?q=ibm&amp;sort=newest">
+                    Newest
+                  </a>
+                </li>
+                <li data-label="Page 1" data-category="Site Search" data-action-type="oldest" class="tracked">
+                  <a href="http://www.businessweek.com/search?q=ibm&amp;sort=oldest">
+                    Oldest
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="result_count">
+              
+1-15
+of
+11423  results
+(0.02 seconds)
+
+            </div>
+          </div>
+          <div class="results">
+            <div data-type="ap" data-label="Page 1, Location 1" data-id="ap-429309" data-category="Site Search" data-actions="click" data-action-type="Success" class="search_result tracked">
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/ap/2014-03-19/ibms-watson-to-help-sequence-cancer-dna">
+                <h4>
+                  IBM's Watson to help sequence cancer DNA
+                </h4>
+              </a>
+              <time class="publication_date">
+                
+March 19, 2014
+
+              </time>
+              <div class="description">
+                NEW YORK (AP) — IBM and its Watson cloud computing system are partnering with the New York Genome Center to help it sequence DNA for the treatment of brain cancer.New York Genome will use...
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>ap</h4>
+<h4></h4>
+<h4>128.43494</h4>
+<h4>[&quot;US&quot;, &quot;IBM&quot;, &quot;New&quot;, &quot;York&quot;, &quot;genome&quot;, &quot;Center&quot;, &quot;Tumors&quot;, &quot;cancer&quot;, &quot;Diseases and conditions&quot;, &quot;Health&quot;]</h4>
+-->            </div>
+            <div data-type="story" data-label="Page 1, Location 2" data-id="96ab6ca6-9a49-11e3-b9ba-d8d385601e40" data-category="Site Search" data-actions="click" data-action-type="Success" class="search_result tracked">
+              <a title="Warren Buffett's Berkshire Hathaway Grows Less Transparent" class="thumbnail" href="http://www.businessweek.com/articles/2014-02-20/warren-buffetts-berkshire-hathaway-grows-less-transparent#r=search_result">
+                <img width="190" data-original="http://wbbw1.bwbx.io/cms/2014-02-20/mf_buffett09__01__630x420-190x127.jpg" src="/assets/grey.gif" class="lazy" alt="Warren Buffett's Berkshire Hathaway Grows Less Transparent"/>
+              </a>
+              <noscript>
+                <a title="Warren Buffett's Berkshire Hathaway Grows Less Transparent" class="thumbnail" href="http://www.businessweek.com/articles/2014-02-20/warren-buffetts-berkshire-hathaway-grows-less-transparent#r=search_result">
+                  &lt;img alt="Warren Buffett&amp;#x27;s Berkshire Hathaway Grows Less Transparent" src="http://wbbw1.bwbx.io/cms/2014-02-20/mf_buffett09__01__630x420-190x127.jpg" width="190" /&gt;
+                </a>
+              </noscript>
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/articles/2014-02-20/warren-buffetts-berkshire-hathaway-grows-less-transparent">
+                <h4>
+                  Warren Buffett's Berkshire Hathaway Grows Less Transparent
+                </h4>
+              </a>
+              <h5 class="byline">
+                
+By
+
+                <a rel="author" itemprop="name" href="http://www.businessweek.com/authors/3008-noah-buhayar">
+                  Noah Buhayar
+                </a>
+              </h5>
+              <time class="publication_date">
+                
+February 20, 2014
+
+              </time>
+              <div class="description">
+                As his holding company grows, it becomes more opaque
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>story</h4>
+<h4>14_09</h4>
+<h4>121.11605</h4>
+<h4>[&quot;Berkshire Hathaway&quot;, &quot;Burlington Northern Santa Fe&quot;, &quot;Charles Munger&quot;, &quot;Fruit of the Loom&quot;, &quot;Geico&quot;, &quot;IBM&quot;, &quot;insurance&quot;, &quot;Lubrizol&quot;, &quot;Regulation&quot;, &quot;regulatory filings&quot;, &quot;reinsurance&quot;, &quot;U.S. Securities and Exchange Commission&quot;, &quot;Warren Buffett&quot;]</h4>
+-->            </div>
+            <div data-type="story" data-label="Page 1, Location 3" data-id="db6a7bb2-d946-11e2-925c-d8d38560fdc0" data-category="Site Search" data-actions="click" data-action-type="Success" class="search_result tracked">
+              <a title="Hewlett-Packard Makes Its Move Against IBM in Big Data" class="thumbnail" href="http://www.businessweek.com/articles/2013-06-20/hewlett-packard-makes-its-move-against-ibm-in-big-data#r=search_result">
+                <img width="190" data-original="http://wbbw1.bwbx.io/cms/2013-06-20/tech_hp2613__01__190x127.jpg" src="/assets/grey.gif" class="lazy" alt="Hewlett-Packard Makes Its Move Against IBM in Big Data"/>
+              </a>
+              <noscript>
+                <a title="Hewlett-Packard Makes Its Move Against IBM in Big Data" class="thumbnail" href="http://www.businessweek.com/articles/2013-06-20/hewlett-packard-makes-its-move-against-ibm-in-big-data#r=search_result">
+                  &lt;img alt="Hewlett-Packard Makes Its Move Against IBM in Big Data" src="http://wbbw1.bwbx.io/cms/2013-06-20/tech_hp2613__01__190x127.jpg" width="190" /&gt;
+                </a>
+              </noscript>
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/articles/2013-06-20/hewlett-packard-makes-its-move-against-ibm-in-big-data">
+                <h4>
+                  Hewlett-Packard Makes Its Move Against IBM in Big Data
+                </h4>
+              </a>
+              <h5 class="byline">
+                
+By
+
+                <a rel="author" itemprop="name" href="http://www.businessweek.com/authors/10-aaron-ricadela">
+                  Aaron Ricadela
+                </a>
+                 and 
+                <a rel="author" itemprop="name" href="http://www.businessweek.com/authors/2850-sarah-frier">
+                  Sarah Frier
+                </a>
+              </h5>
+              <time class="publication_date">
+                
+June 20, 2013
+
+              </time>
+              <div class="description">
+                The troubled PC maker tries to push its way into the enterprise data analytics market
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>story</h4>
+<h4>13_26</h4>
+<h4>101.642365</h4>
+<h4>[&quot;Hewlett-Packard&quot;, &quot;IBM. Big Data&quot;, &quot;Oracle&quot;, &quot;SAP&quot;, &quot;Teradata&quot;]</h4>
+-->            </div>
+            <div data-type="ap" data-label="Page 1, Location 4" data-id="ap-429287" data-category="Site Search" data-actions="click" data-action-type="Success" class="search_result tracked">
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/ap/2014-03-19/ibms-watson-to-help-sequence-cancer-dna">
+                <h4>
+                  IBM's Watson to help in brain cancer research
+                </h4>
+              </a>
+              <time class="publication_date">
+                
+March 19, 2014
+
+              </time>
+              <div class="description">
+                NEW YORK (AP) — IBM is teaming up with the New York Genome Center to help fight brain cancer.The company said Wednesday that its Watson cloud computing system will be used in partnership...
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>ap</h4>
+<h4></h4>
+<h4>98.49483</h4>
+<h4>[&quot;IBM&quot;, &quot;New York Genome Center&quot;, &quot;business&quot;, &quot;Health&quot;, &quot;Technology&quot;, &quot;medical research&quot;, &quot;Genetics research&quot;, &quot;cancer&quot;, &quot;Diseases and conditions&quot;, &quot;Genetics&quot;, &quot;Biology&quot;, &quot;Science&quot;, &quot;information technology&quot;, &quot;INDUSTRIES&quot;]</h4>
+-->            </div>
+            <div data-type="story" data-label="Page 1, Location 5" data-id="20c484b6-b802-11e2-bfdb-d8d385601e40" data-category="Site Search" data-actions="click" data-action-type="Success" class="search_result tracked">
+              <a title="The Right Way for a CEO to Deliver Bad News" class="thumbnail" href="http://www.businessweek.com/articles/2013-05-09/the-right-way-for-a-ceo-to-deliver-bad-news#r=search_result">
+                <img width="190" data-original="http://wbbw1.bwbx.io/cms/2013-05-08/etc_ibm20__01__190x127.jpg" src="/assets/grey.gif" class="lazy" alt="The Right Way for a CEO to Deliver Bad News"/>
+              </a>
+              <noscript>
+                <a title="The Right Way for a CEO to Deliver Bad News" class="thumbnail" href="http://www.businessweek.com/articles/2013-05-09/the-right-way-for-a-ceo-to-deliver-bad-news#r=search_result">
+                  &lt;img alt="The Right Way for a CEO to Deliver Bad News" src="http://wbbw1.bwbx.io/cms/2013-05-08/etc_ibm20__01__190x127.jpg" width="190" /&gt;
+                </a>
+              </noscript>
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/articles/2013-05-09/the-right-way-for-a-ceo-to-deliver-bad-news">
+                <h4>
+                  The Right Way for a CEO to Deliver Bad News
+                </h4>
+              </a>
+              <h5 class="byline">
+                
+By
+
+                <a rel="author" itemprop="name" href="http://www.businessweek.com/authors/3616-claire-suddath">
+                  Claire Suddath
+                </a>
+              </h5>
+              <time class="publication_date">
+                
+May 09, 2013
+
+              </time>
+              <div class="description">
+                IBM chief Virginia Rometty's video "reprimand" of employees wasn't all bad
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>story</h4>
+<h4>13_20</h4>
+<h4>88.57412</h4>
+<h4>[&quot;bad news&quot;, &quot;corporate communication&quot;, &quot;IBM&quot;, &quot;internal communication&quot;, &quot;morale&quot;, &quot;Virginia Rometty&quot;, &quot;Yahoo&quot;]</h4>
+-->            </div>
+            <div data-type="bloomberg_news" data-label="Page 1, Location 6" data-id="news-696419" data-category="Site Search" data-actions="click" data-action-type="Pass" class="search_result tracked">
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/news/2014-03-14/ibm-says-no-client-data-disclosed-to-nsa-would-fight-gag-orders">
+                <h4>
+                  IBM Rejects Spying Claims and Calls for More Transparency
+                </h4>
+              </a>
+              <time class="publication_date">
+                
+March 14, 2014
+
+              </time>
+              <div class="description">
+                International Business Machines
+Corp. said it hasn’t disclosed client data to the U.S.
+government under a National Security Agency surveillance program
+and would challenge any order to do so.
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>bloomberg_news</h4>
+<h4></h4>
+<h4>82.65725</h4>
+<h4>[]</h4>
+-->            </div>
+            <div data-type="ap" data-label="Page 1, Location 7" data-id="ap-417787" data-category="Site Search" data-actions="click" data-action-type="Pass" class="search_result tracked">
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/ap/2014-02-25/ny-says-ibm-adding-jobs-in-buffalo-hudson-valley">
+                <h4>
+                  NY says IBM adding jobs in Buffalo, Hudson Valley
+                </h4>
+              </a>
+              <time class="publication_date">
+                
+February 25, 2014
+
+              </time>
+              <div class="description">
+                ALBANY, N.Y. (AP) — IBM said Monday it will keep 3,100 high-tech jobs in upstate New York and add 500 more in Buffalo.The agreement between the company and the State University of New York...
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>ap</h4>
+<h4></h4>
+<h4>69.475464</h4>
+<h4>[&quot;US&quot;, &quot;IBM&quot;, &quot;Jobs&quot;, &quot;New&quot;, &quot;York&quot;, &quot;Hiring and recruitment&quot;, &quot;layoffs&quot;, &quot;Science&quot;, &quot;Technology&quot;, &quot;Personnel&quot;, &quot;business&quot;, &quot;information technology&quot;, &quot;INDUSTRIES&quot;, &quot;Industrial products and services&quot;]</h4>
+-->            </div>
+            <div data-type="story" data-label="Page 1, Location 8" data-id="1d78e7d8-b358-11e2-926c-d8d385601e40" data-category="Site Search" data-actions="click" data-action-type="Pass" class="search_result tracked">
+              <a title="Apple Bonds: How Much Could Happen in 30 Years?" class="thumbnail" href="http://www.businessweek.com/articles/2013-05-03/apple-bonds-how-much-could-happen-in-30-years#r=search_result">
+                <img width="190" data-original="http://wbbw1.bwbx.io/cms/2013-05-02/0502-apple-bonds-190.jpg" src="/assets/grey.gif" class="lazy" alt="Apple Bonds: How Much Could Happen in 30 Years?"/>
+              </a>
+              <noscript>
+                <a title="Apple Bonds: How Much Could Happen in 30 Years?" class="thumbnail" href="http://www.businessweek.com/articles/2013-05-03/apple-bonds-how-much-could-happen-in-30-years#r=search_result">
+                  &lt;img alt="Apple Bonds: How Much Could Happen in 30 Years?" src="http://wbbw1.bwbx.io/cms/2013-05-02/0502-apple-bonds-190.jpg" width="190" /&gt;
+                </a>
+              </noscript>
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/articles/2013-05-03/apple-bonds-how-much-could-happen-in-30-years">
+                <h4>
+                  Apple Bonds: How Much Could Happen in 30 Years?
+                </h4>
+              </a>
+              <h5 class="byline">
+                
+By
+
+                <a rel="author" itemprop="name" href="http://www.businessweek.com/authors/51426-nick-summers">
+                  Nick Summers
+                </a>
+              </h5>
+              <time class="publication_date">
+                
+May 03, 2013
+
+              </time>
+              <div class="description">
+                Eastman Kodak, Atari, Computervision: Tech bonds from 30 years ago look comically old today
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>story</h4>
+<h4>13_20</h4>
+<h4>59.18029</h4>
+<h4>[&quot;Apple&quot;, &quot;bonds&quot;, &quot;IBM&quot;]</h4>
+-->            </div>
+            <div data-type="video" data-label="Page 1, Location 9" data-id="video-261117" data-category="Site Search" data-actions="click" data-action-type="Pass" class="search_result tracked">
+              <a title="IBM CEO Rometty: How Data Is Disrupting Industry" class="thumbnail" href="http://www.businessweek.com/videos/2014-02-26/ibm-ceo-rometty-how-data-is-disrupting-industry#r=search_result">
+                <img width="190" data-original="http://www.bloomberg.com/image/i1k0Kskuq1hg.jpg" src="/assets/grey.gif" class="lazy" alt="IBM CEO Rometty: How Data Is Disrupting Industry"/>
+              </a>
+              <noscript>
+                <a title="IBM CEO Rometty: How Data Is Disrupting Industry" class="thumbnail" href="http://www.businessweek.com/videos/2014-02-26/ibm-ceo-rometty-how-data-is-disrupting-industry#r=search_result">
+                  &lt;img alt="IBM CEO Rometty: How Data Is Disrupting Industry" src="http://www.bloomberg.com/image/i1k0Kskuq1hg.jpg" width="190" /&gt;
+                </a>
+              </noscript>
+              <p class="content_type">
+                Video
+              </p>
+              <a href="http://www.businessweek.com/videos/2014-02-26/ibm-ceo-rometty-how-data-is-disrupting-industry">
+                <h4>
+                  IBM CEO Rometty: How Data Is Disrupting Industry
+                </h4>
+              </a>
+              <time class="publication_date">
+                
+February 26, 2014
+
+              </time>
+              <div class="description">
+                Feb. 26 (Bloomberg) -- Ginni Rometty, CEO at IBM, speaks about data disruption and the pace of technological advances in business at the Mobile World Congress in Barcelona, Spain on Bloomberg...
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>video</h4>
+<h4></h4>
+<h4>55.444344</h4>
+<h4>[]</h4>
+-->            </div>
+            <div data-type="story" data-label="Page 1, Location 10" data-id="63f6d370-4d75-11e3-9c22-d8d38560fdc0" data-category="Site Search" data-actions="click" data-action-type="Pass" class="search_result tracked">
+              <a title="IBM Faces a Crisis In the Cloud" class="thumbnail" href="http://www.businessweek.com/articles/2013-11-15/ibm-faces-a-crisis-in-the-cloud#r=search_result">
+                <img width="190" data-original="http://wbbw1.bwbx.io/cms/2013-11-14/1114_IBM_cloud_630x420-190x127.jpg" src="/assets/grey.gif" class="lazy" alt="IBM Faces a Crisis In the Cloud"/>
+              </a>
+              <noscript>
+                <a title="IBM Faces a Crisis In the Cloud" class="thumbnail" href="http://www.businessweek.com/articles/2013-11-15/ibm-faces-a-crisis-in-the-cloud#r=search_result">
+                  &lt;img alt="IBM Faces a Crisis In the Cloud" src="http://wbbw1.bwbx.io/cms/2013-11-14/1114_IBM_cloud_630x420-190x127.jpg" width="190" /&gt;
+                </a>
+              </noscript>
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/articles/2013-11-15/ibm-faces-a-crisis-in-the-cloud">
+                <h4>
+                  IBM Faces a Crisis In the Cloud
+                </h4>
+              </a>
+              <h5 class="byline">
+                
+By
+
+                <a rel="author" itemprop="name" href="http://www.businessweek.com/authors/283-ashlee-vance">
+                  Ashlee Vance
+                </a>
+              </h5>
+              <time class="publication_date">
+                
+November 15, 2013
+
+              </time>
+              <div class="description">
+                After long downplaying services such as Amazon's as insecure, low-margin businesses, IBM now boasts of its dominance in the cloud rental market
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>story</h4>
+<h4></h4>
+<h4>38.552006</h4>
+<h4>[&quot;accounting&quot;, &quot;Amazon.com&quot;, &quot;cloud computing&quot;, &quot;cloud rental marke&quot;, &quot;cloud revenue&quot;, &quot;IBM&quot;, &quot;security&quot;, &quot;Services&quot;, &quot;SoftLayer&quot;, &quot;U.S. Securities and Exchange Commission&quot;]</h4>
+-->            </div>
+            <div data-type="story" data-label="Page 1, Location 11" data-id="60d0fc4c-6414-11e3-98d7-d8d38560fdc0" data-category="Site Search" data-actions="click" data-action-type="Pass" class="search_result tracked">
+              <a title="IBM Shareholder Sues the Company Over NSA Cooperation" class="thumbnail" href="http://www.businessweek.com/articles/2013-12-13/ibm-shareholder-sues-company-over-nsa-cooperation#r=search_result">
+                <img width="190" data-original="http://wbbw1.bwbx.io/cms/2013-12-13/1213_IBM_630x420-190x127.jpg" src="/assets/grey.gif" class="lazy" alt="IBM Shareholder Sues the Company Over NSA Cooperation"/>
+              </a>
+              <noscript>
+                <a title="IBM Shareholder Sues the Company Over NSA Cooperation" class="thumbnail" href="http://www.businessweek.com/articles/2013-12-13/ibm-shareholder-sues-company-over-nsa-cooperation#r=search_result">
+                  &lt;img alt="IBM Shareholder Sues the Company Over NSA Cooperation" src="http://wbbw1.bwbx.io/cms/2013-12-13/1213_IBM_630x420-190x127.jpg" width="190" /&gt;
+                </a>
+              </noscript>
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/articles/2013-12-13/ibm-shareholder-sues-company-over-nsa-cooperation">
+                <h4>
+                  IBM Shareholder Sues the Company Over NSA Cooperation
+                </h4>
+              </a>
+              <h5 class="byline">
+                
+By
+
+                <a rel="author" itemprop="name" href="http://www.businessweek.com/authors/54476-dimitra-kessenides">
+                  Dimitra Kessenides
+                </a>
+              </h5>
+              <time class="publication_date">
+                
+December 13, 2013
+
+              </time>
+              <div class="description">
+                The Louisiana Sheriffs’ Pension and Relief Fund claims IBM defrauded investors by allegedly concealing a decline in hardware sales in China
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>story</h4>
+<h4></h4>
+<h4>36.886475</h4>
+<h4>[&quot;CISPA&quot;, &quot;Cyber Intelligence Sharing and Protection Act.&quot;, &quot;IBM&quot;, &quot;National Security Agency&quot;, &quot;NSA&quot;, &quot;Prism scandal&quot;, &quot;Prism surveillance program&quot;]</h4>
+-->            </div>
+            <div data-type="bloomberg_news" data-label="Page 1, Location 12" data-id="news-688763" data-category="Site Search" data-actions="click" data-action-type="Pass" class="search_result tracked">
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/news/2014-02-28/ibm-begins-cutting-u-dot-s-dot-jobs-in-1-billion-restructuring-1">
+                <h4>
+                  IBM Begins Cutting U.S. Jobs in $1 Billion Restructuring (2)
+                </h4>
+              </a>
+              <time class="publication_date">
+                
+February 28, 2014
+
+              </time>
+              <div class="description">
+                International Business Machines
+Corp. began dismissing U.S. workers yesterday, part of a $1
+billion restructuring to help the company meet profit goals as
+it adapts to shifts in the technology...
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>bloomberg_news</h4>
+<h4></h4>
+<h4>36.197834</h4>
+<h4>[]</h4>
+-->            </div>
+            <div data-type="bloomberg_news" data-label="Page 1, Location 13" data-id="news-686577" data-category="Site Search" data-actions="click" data-action-type="Pass" class="search_result tracked">
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/news/2014-02-25/ibm-employee-headcount-falls-in-2013-for-first-time-in-a-decade">
+                <h4>
+                  IBM Employee Headcount Falls in 2013 for First Time in a Decade
+                </h4>
+              </a>
+              <time class="publication_date">
+                
+February 26, 2014
+
+              </time>
+              <div class="description">
+                International Business Machines
+Corp.’s employee count dropped for the first time in a decade as
+the world’s biggest computer-services company reined in costs to
+help meet profit goals.
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>bloomberg_news</h4>
+<h4></h4>
+<h4>35.846317</h4>
+<h4>[]</h4>
+-->            </div>
+            <div data-type="bloomberg_news" data-label="Page 1, Location 14" data-id="news-687929" data-category="Site Search" data-actions="click" data-action-type="Pass" class="search_result tracked">
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/news/2014-02-27/ibm-begins-cutting-u-dot-s-dot-jobs-in-1-billion-restructuring-plan">
+                <h4>
+                  IBM Begins Cutting U.S. Jobs in $1 Billion Restructuring Plan
+                </h4>
+              </a>
+              <time class="publication_date">
+                
+February 28, 2014
+
+              </time>
+              <div class="description">
+                International Business Machines
+Corp. began dismissing U.S. workers yesterday, part of a $1
+billion restructuring to help the company meet profit goals as
+it adapts to shifts in the technology...
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>bloomberg_news</h4>
+<h4></h4>
+<h4>35.714073</h4>
+<h4>[]</h4>
+-->            </div>
+            <div data-type="bloomberg_news" data-label="Page 1, Location 15" data-id="news-685229" data-category="Site Search" data-actions="click" data-action-type="Pass" class="search_result tracked">
+              <p class="content_type">
+              </p>
+              <a href="http://www.businessweek.com/news/2014-02-24/ibm-boosts-investment-in-new-cloud-services-to-attract-customers">
+                <h4>
+                  IBM Boosts Investment in Cloud Services to Attract Customers (1)
+                </h4>
+              </a>
+              <time class="publication_date">
+                
+February 24, 2014
+
+              </time>
+              <div class="description">
+                International Business Machines
+Corp. is expanding its cloud services to lure customers to its
+SoftLayer Technologies Inc. business, which it’s counting on to
+help reverse seven quarters of falling...
+              </div>
+              <!--
+keeping below info for debugging purpose only
+<h4>bloomberg_news</h4>
+<h4></h4>
+<h4>35.64399</h4>
+<h4>[]</h4>
+-->            </div>
+          </div>
+          <div class="pagination">
+            <span class="previous_page disabled">
+              Previous
+            </span>
+            <em class="current">
+              1
+            </em>
+            <a href="http://www.businessweek.com/search?page=2&amp;q=ibm" rel="next">
+              2
+            </a>
+            <a href="http://www.businessweek.com/search?page=3&amp;q=ibm">
+              3
+            </a>
+            <a href="http://www.businessweek.com/search?page=4&amp;q=ibm">
+              4
+            </a>
+            <a href="http://www.businessweek.com/search?page=5&amp;q=ibm">
+              5
+            </a>
+            <span class="gap">
+              …
+            </span>
+            <a href="http://www.businessweek.com/search?page=761&amp;q=ibm">
+              761
+            </a>
+            <a href="http://www.businessweek.com/search?page=762&amp;q=ibm">
+              762
+            </a>
+            <a href="http://www.businessweek.com/search?page=2&amp;q=ibm" rel="next" class="next_page">
+              Next
+            </a>
+          </div>
+          <div class="search_ads">
+            <span>
+              
+Sponsored Results
+
+            </span>
+            <div id="adcontainer_bottom" class="ads">
+            </div>
+          </div>
+        </div>
+        <div class="column rail">
+          <div class="module advertisement rectangle" data-cb-ad-id="right3">
+            <iframe scrolling="no" frameborder="0" data-uri="/dynamic_frames/ads-v2.html" data-tz="right3" data-tile="7" data-size="300x250,1x1" data-pt="t0" data-position="right3" class="ad_frame" allowtransparency="true">
+            </iframe>
+          </div>
+          <div class="search_ads">
+            <span>
+              
+Sponsored Results
+
+            </span>
+            <div id="adcontainer_right" class="ads">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer" class="clearfix">
+        <div class="social module">
+          <h3>
+            Social
+          </h3>
+          <ul>
+            <li class="twitter">
+              <a href="http://twitter.com/BW">
+                Follow us on Twitter
+              </a>
+            </li>
+            <li class="fb">
+              <a href="http://facebook.com/Bloombergbusinessweek/">
+                Join us on Facebook
+              </a>
+            </li>
+            <li class="linked_in">
+              <a href="http://www.linkedin.com/today/businessweek">
+                Connect with us on LinkedIn
+              </a>
+            </li>
+            <li class="subscribe last">
+              <a href="https://subscribe.businessweek.com/pubs/BW/BWK/2_offer_packaged_keys_06_20.jsp?cds_page_id=140171">
+                Subscribe to Bloomberg Businessweek
+              </a>
+            </li>
+            <li class="bloomberg_logo last ir">
+              <a target="_blank" href="http://www.bloomberg.com">
+                Bloomberg
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="links module clearfix">
+          <h3>
+            Links
+          </h3>
+          <ul>
+            <li>
+              <a href="http://bloomberg.com/company">
+                Our Company
+              </a>
+            </li>
+            <li>
+              <a href="http://bloombergmedia.com">
+                Advertising
+              </a>
+            </li>
+            <li>
+              <a href="http://bloomberg.com/careers">
+                Careers
+              </a>
+            </li>
+            <li>
+              <a href="http://www.bloomberg.com/contentlicensing">
+                Content Licensing
+              </a>
+            </li>
+            <li>
+              <a href="http://www.businessweek.com/contact">
+                Feedback
+              </a>
+            </li>
+            <li>
+              <a href="http://www.businessweek.com/adsections/">
+                Custom Publishing
+              </a>
+            </li>
+            <li>
+              <a href="http://www.businessweek.com/manage-subscription">
+                Manage Subscription
+              </a>
+            </li>
+          </ul>
+          <ul class="last">
+            <li>
+              <a href="http://www.businessweek.com/mobile">
+                Mobile
+              </a>
+            </li>
+            <li>
+              <a href="https://secure.businessweek.com/newsletters/sign-up">
+                Newsletters
+              </a>
+            </li>
+            <li>
+              <a href="http://www.businessweek.com/privacy">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="http://reprints.ygsgroup.com/m/bloombergbusinessweek">
+                Reprints &amp; Permissions
+              </a>
+            </li>
+            <li>
+              <a href="http://www.businessweek.com/sitemap.htm">
+                Sitemap
+              </a>
+            </li>
+            <li>
+              <a href="http://www.businessweek.com/terms">
+                Terms of Use
+              </a>
+            </li>
+            <li>
+              <a class="opinion-lab" href="javascript:void(0)">
+                [+] Rate This Page
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="current_issue module clearfix">
+          <h3>
+            Get Businessweek Delivered
+          </h3>
+          <a href="https://subscribe.businessweek.com/pubs/BW/BWK/2_offer_packaged_keys_06_20.jsp?cds_page_id=140171" class="cover_image_thumbnail">
+            <img width="110" height="155" src="http://wbbw1.bwbx.io/cms/2014-03-13/1412_covnew_110x155.jpg" alt="The Epic Hack"/>
+          </a>
+          <h6>
+            <a href="https://subscribe.businessweek.com/pubs/BW/BWK/2_offer_packaged_keys_06_20.jsp?cds_page_id=140171">
+              The Epic Hack
+            </a>
+          </h6>
+          <a href="https://subscribe.businessweek.com/pubs/BW/BWK/2_offer_packaged_keys_06_20.jsp?cds_page_id=140171" class="subscribe_button">
+            Subscribe
+          </a>
+        </div>
+        <div class="copyright">
+          <p>
+            <span>
+              ©2014 Bloomberg L.P. All Rights Reserved. Made in NYC
+            </span>
+            <span class="ad_choice">
+              <a href="http://www.businessweek.com/privacy#advertisements">
+                Ad Choices
+
+                <span class="icons-ad_choice">
+                </span>
+              </a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://static.btrd.net/assets/application-8aa9bcf4325e8344e1f478329c634b46.js">
+    </script>
+    <script>
+//<![CDATA[
+
+  var _gaq=[["_setAccount","UA-11413116-6"],["_trackPageview"],["_trackPageLoadTime"]];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+  g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+  s.parentNode.insertBefore(g,s)}(document,"script"));
+
+//]]>
+    </script>
+    <script type="text/javascript" src="http://static.btrd.net/assets/jquery.bloomberg_hat-40820ecd724303b0cc5cdc9f27815360.js">
+    </script>
+    <script type="text/javascript" src="http://static.btrd.net/assets/jquery.truste-consent-1f59258579d7f178906f4d9042377f96.js">
+    </script>
+    <script type="text/javascript" src="http://cdn.gotraffic.net/projector/v0.7.16/video.js">
+    </script>
+    <script>
+//<![CDATA[
+
+  try {
+    $(window).load(function() {
+      $('.branding_hat').bloomberg_hat({ 'active_link':'businessweek'}, function(){
+        BLOOMBERG.bw_user.init_sign_in_box();
+      }); //create the hat, all markup is in the jquery plugin file
+  
+    $.each(
+      $('.lazy'), function(index, value){ 
+        $(value).attr('src', $(value).attr('data-original')); 
+      }
+    );
+  
+    });
+  } catch(err){}
+  
+  try {
+    var tracking_code = window.location.hash.match(/#r=[a-zA-Z_-]*/);
+    if (tracking_code != null &amp;&amp; tracking_code != "" &amp;&amp; tracking_code.length &gt; 0)
+      _gaq.push(['_trackEvent', tracking_code[0], document.referrer, location.href]);
+  } catch(err){}
+  
+  // Lazy load navigation submenus, see also layouts/_navigation
+  $('#global_nav').ready(function() {
+    var params = window.location.href.split('?');
+    if (params.length == 2) {
+      pass_along_params = "?" + params[1];
+    } else {
+      pass_along_params = "";
+    }
+    $(window).load(function() {
+      if ($('body').hasClass("admin") == false) {
+        $.ajax({
+          url: '/layout/navigation'+pass_along_params,
+          dataType: "html",
+          success: function(data) {
+            $('#global_nav').replaceWith(data);
+            BLOOMBERG.event_track.linkTrack();
+          }
+        });
+      }
+    });
+  });
+
+//]]>
+    </script>
+    <script type="text/javascript" src="http://www.google.com/adsense/search/ads.js">
+    </script>
+    <script>
+//<![CDATA[
+
+  $(window).load(function(){
+    BLOOMBERG.searchAd.display_ad("ibm");
+  });
+
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+  $(window).load(function() {
+    var page = 1;
+    if (page == 1) {
+      BLOOMBERG.track_event("Site Search", "SERP View", "ibm");
+    }  
+    $('.search .pagination a').click(function() {
+      BLOOMBERG.track_event("Site Search", "Page Turn", $(this).text());
+    });
+  });
+
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+  $(window).load(function() {
+    var REMOTE = "https://secure.businessweek.com";
+  
+    var xhr = new easyXDM.Rpc({
+        local: "/easyxdm/name.html",
+        swf: REMOTE + "/easyxdm/easyxdm.swf",
+        remote: REMOTE + "/easyxdm/cors/",
+        remoteHelper: REMOTE + "/easyxdm/name.html"
+    }, {
+        remote: {
+            request: {}
+        }
+    });
+  
+    BLOOMBERG.bw_user.ajax_sign_on = function(form) {
+  
+      $(".report_error").remove();
+      form.find('input').removeClass("error");
+  
+      request = {
+          url: "https://secure.businessweek.com/login",
+          method: "POST",
+          data: {
+                  email : $('#new_user_form #user_form_email').val(),
+                  password : $('#new_user_form #user_form_password').val(),
+                  remember_me : $('#new_user_form #user_form_remember_me').val()
+          }
+      }
+  
+      var responseHandler = function(response) {
+          var json = easyXDM.getJSONObject().parse(response.data);
+          if (json.message == "success") {
+            $('.sign_in_frame').fadeOut("fast", function() {BLOOMBERG.bw_user.replace_with_username('#sign_in')});
+          }
+      };
+  
+      var errorHandler = function(error) {
+          var json = easyXDM.getJSONObject().parse(error.data.data);
+          if(json.message == "migrate"){
+             window.location = json.url;
+          } else {
+            $("&lt;span class='report_error'&gt;"+json.message+"&lt;/span&gt;").insertBefore($("#user_form_email"));
+            $('#new_user_form input').addClass("error");
+          }
+      };
+      xhr.request(request, responseHandler, errorHandler);
+    };
+  });
+
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+  $(".facebook_button").bind('click', function(e) {
+    e.preventDefault();
+    FB.login(function(response) {
+      if(response &amp;&amp; response.status == 'connected' ){
+        login_with_facebook();
+      }
+     }, {scope: 'email'});
+  });
+  
+  $(".facebook_link_button").bind('click', function(e) {
+    e.preventDefault();
+    FB.login(function(response) {
+      if(response &amp;&amp; response.status == 'connected' ){
+        link_account(response);
+      }
+     }, {scope: 'email'});
+  });
+  
+  function show_protected_content(){
+    $("#facebook_wall").hide();
+    $('.protected_content').removeClass('protected_content');
+    if ( $('body').hasClass('article_old_article')){
+      $('body.article_old_article #story_body div.unprotected_content').remove();
+      $('body.article_old_article #story_body p.sign_in').remove();
+    }
+  };
+  
+  function login_with_facebook() {
+  
+    var REMOTE = "https://secure.businessweek.com";
+  
+    var xhr = new easyXDM.Rpc({
+        local: "/easyxdm/name.html",
+        swf: REMOTE + "/easyxdm/easyxdm.swf",
+        remote: REMOTE + "/easyxdm/cors/",
+        remoteHelper: REMOTE + "/easyxdm/name.html"
+    }, {
+        remote: {
+            request: {}
+        }
+    });
+  
+    request = {
+        url: "https://secure.businessweek.com/auth/facebook/callback",
+        method: "GET",
+        data: {
+        referrer_url : window.location.href
+        }
+    }
+  
+    var responseHandler = function(response) {
+        reg_enabled = "true";
+        if (reg_enabled == "true"){
+          $('.sign_in_frame').html('&lt;span class="success"&gt;Success!&lt;/span&gt;');
+          $('#sign_in a.opened').removeClass('opened');
+          $('.sign_in_frame').fadeOut("fast", function() {BLOOMBERG.bw_user.replace_with_username('#sign_in')});
+          if ($('body').hasClass('registration')){
+            var json_response = easyXDM.getJSONObject().parse(response.data)
+            window.location = json_response.url;
+          }
+        }
+    };
+  
+    var errorHandler = function(error) {
+    };
+    xhr.request(request, responseHandler, errorHandler);
+  };
+  
+  function link_account(facebook_user) {
+    $.ajax({
+      type: "POST",
+      data: facebook_user,
+      dataType: "json",
+      url: "https://secure.businessweek.com/users/link-account",
+      success: function(response) {
+        $('.facebook_account').html('&lt;a href="http://www.businessweek.com/users/unlink-account" class="unlink_facebook"&gt; Unlink your facebook account&lt;/a&gt;');
+        $(".unlink_facebook").bind('click', function(e) {
+          e.preventDefault();
+          BLOOMBERG.bw_user.unlink_account(e);
+        });
+      },
+      error: function(response){
+        $('.errors').append(JSON.parse(response.responseText)["message"]);
+      }
+    });
+  }
+
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+  $(window).load(function() {
+    if ($.fn.trusteConsent) {
+      $("#consent-track").trusteConsent({
+        consentButton: "span#consent-track-image",
+        closeButton: "a.close-consent-track",
+        domain: "businessweek.com",
+        footerCallback: function() {
+          var $links = $("#footer ul");
+          $links.find("li").last().attr("class", ""); // remove class from last el
+          $links.append('&lt;li class="last"&gt;&lt;a href="#consentManager"&gt;Cookie Preferences&lt;/a&gt;&lt;/li&gt;');
+          return $links.last();
+        }
+      });
+    }
+  }
+  );
+
+//]]>
+    </script>
+    <script type="text/javascript" src="http://content.dl-rms.com/rms/mother/516/nodetag.js">
+    </script>
+    <script>
+//<![CDATA[
+
+  $(window).load(function(){
+    var script_tag = document.createElement('SCRIPT');
+    script_tag.src = "http://static.btrd.net/foresee/foresee-trigger.js";
+    script_tag.type = "text/javascript";
+    document.body.appendChild(script_tag);
+  });
+
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+  $(window).load(function(){
+     if(true == true){
+        BLOOMBERG.bw_user.show_reg();
+     }
+  });
+
+//]]>
+    </script>
+    <!-- BEGIN DISQUS COMMENTS COUNT -->    <script>
+//<![CDATA[
+
+  var disqus_shortname  = "bwbeta";
+  var disqus_developer  = 0;
+  var s = document.createElement('script'); s.async = true;
+  s.type = 'text/javascript';
+  s.src = ('https:' == document.location.protocol ? 'https://' : 'http://')  + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+
+//]]>
+    </script>
+    <!-- END DISQUS COMMENTS COUNT -->    <!-- BEGIN COMSCORE -->    <script>
+//<![CDATA[
+
+  BBBW_comScore.params = {};
+  if (_BUCKET != "" &amp;&amp; _BUCKET_GROUP != ""){
+    BBBW_comScore.params['bb_bucket']       = _BUCKET;
+    BBBW_comScore.params['bb_bucket_group'] = _BUCKET_GROUP;
+  }
+  BBBW_comScore.track();
+  BBBW_comScore.write_cookie(comScore_track_key,"",-1);
+
+//]]>
+    </script>
+    <noscript>
+      &lt;p&gt;
+&lt;img alt='*' height='1' src='http://b.scorecardresearch.com/p?c1=2&amp;amp;amp;c2=3005059' width='1'&gt;
+&lt;/p&gt;
+
+    </noscript>
+    <!-- END COMSCORE -->    <!-- Chartbeat Monitoring -->    <script>
+//<![CDATA[
+
+  var _sf_async_config= {uid: 15087, domain: "www.businessweek.com"};
+  _sf_async_config.useCanonical = true;
+  
+  
+  
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+        (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") + "static.chartbeat.com/js/chartbeat_pub.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ? loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+
+//]]>
+    </script>
+    <!-- Last Update: 2014-03-19 20:59:55 -0400 -->  </body>
+</html>
