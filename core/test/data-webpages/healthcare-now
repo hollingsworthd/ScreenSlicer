@@ -1,0 +1,1899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head profile="http://gmpg.org/xfn/11">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <meta content="global" name="distribution"/>
+    <meta content="follow, all" name="robots"/>
+    <meta content="en, sv" name="language"/>
+    <meta content="OXQcMPIZVv+UlDof518TJ7zVR4LV0g4YgwtOijwitOQ=" name="verify-v1"/>
+    <title>
+      family | Healthcare-NOW!
+    </title>
+    <meta content="WordPress 3.8.1" name="generator"/>
+    <!-- leave this for stats please -->    <link type="image/x-icon" href="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/images/favicon.png" rel="Shortcut Icon"/>
+    <link href="http://www.healthcare-now.org/feed" title="RSS 2.0" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.healthcare-now.org/feed/rss" title="RSS .92" type="text/xml" rel="alternate"/>
+    <link href="http://www.healthcare-now.org/feed/atom" title="Atom 0.3" type="application/atom+xml" rel="alternate"/>
+    <link href="http://www.healthcare-now.org/xmlrpc.php" rel="pingback"/>
+    <link href="http://www.healthcare-now.org/2014/03" title="March 2014" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2014/02" title="February 2014" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2014/01" title="January 2014" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2013/12" title="December 2013" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2013/11" title="November 2013" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2013/10" title="October 2013" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2013/09" title="September 2013" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2013/08" title="August 2013" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2013/07" title="July 2013" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2013/06" title="June 2013" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2013/05" title="May 2013" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2013/04" title="April 2013" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2013/03" title="March 2013" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2013/02" title="February 2013" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2013/01" title="January 2013" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2012/12" title="December 2012" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2012/11" title="November 2012" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2012/10" title="October 2012" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2012/09" title="September 2012" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2012/08" title="August 2012" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2012/07" title="July 2012" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2012/06" title="June 2012" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2012/05" title="May 2012" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2012/04" title="April 2012" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2012/03" title="March 2012" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2012/02" title="February 2012" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2012/01" title="January 2012" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2011/12" title="December 2011" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2011/11" title="November 2011" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2011/10" title="October 2011" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2011/09" title="September 2011" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2011/08" title="August 2011" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2011/07" title="July 2011" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2011/06" title="June 2011" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2011/05" title="May 2011" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2011/04" title="April 2011" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2011/03" title="March 2011" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2011/02" title="February 2011" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2011/01" title="January 2011" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2010/12" title="December 2010" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2010/11" title="November 2010" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2010/10" title="October 2010" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2010/09" title="September 2010" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2010/08" title="August 2010" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2010/07" title="July 2010" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2010/06" title="June 2010" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2010/05" title="May 2010" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2010/04" title="April 2010" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2010/03" title="March 2010" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2010/02" title="February 2010" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2010/01" title="January 2010" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2009/12" title="December 2009" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2009/11" title="November 2009" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2009/10" title="October 2009" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2009/09" title="September 2009" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2009/08" title="August 2009" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2009/07" title="July 2009" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2009/06" title="June 2009" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2009/05" title="May 2009" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2009/04" title="April 2009" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2009/03" title="March 2009" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2009/02" title="February 2009" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2009/01" title="January 2009" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2008/12" title="December 2008" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2008/11" title="November 2008" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2008/10" title="October 2008" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2008/09" title="September 2008" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2008/08" title="August 2008" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2008/07" title="July 2008" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2008/06" title="June 2008" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2008/05" title="May 2008" rel="archives"/>
+    <link href="http://www.healthcare-now.org/2007/11" title="November 2007" rel="archives"/>
+    <link href="http://www.healthcare-now.org/search/family/feed/rss2/" title="Healthcare-NOW! » Search Results for “family” Feed" type="application/rss+xml" rel="alternate"/>
+    <link media="all" type="text/css" href="http://www.healthcare-now.org/wp-content/plugins/sociable/css/sociable.css?ver=3.8.1" id="sociablecss-css" rel="stylesheet"/>
+    <script src="http://www.healthcare-now.org/wp-includes/js/jquery/jquery.js?ver=1.10.2" type="text/javascript">
+    </script>
+    <script src="http://www.healthcare-now.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript">
+    </script>
+    <script src="http://www.healthcare-now.org/wp-content/plugins/sociable/js/sociable.js?ver=3.8.1" type="text/javascript">
+    </script>
+    <script src="http://www.healthcare-now.org/wp-content/plugins/sociable/js/vuible.js?ver=3.8.1" type="text/javascript">
+    </script>
+    <script src="http://www.healthcare-now.org/wp-content/plugins/sociable/js/addtofavorites.js?ver=3.8.1" type="text/javascript">
+    </script>
+    <link href="http://www.healthcare-now.org/xmlrpc.php?rsd" title="RSD" type="application/rsd+xml" rel="EditURI"/>
+    <link href="http://www.healthcare-now.org/wp-includes/wlwmanifest.xml" type="application/wlwmanifest+xml" rel="wlwmanifest"/>
+    <meta content="WordPress 3.8.1" name="generator"/>
+    <script src="http://www.healthcare-now.org/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.6" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+AudioPlayer.setup("http://www.healthcare-now.org/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.6", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"ea6c0f",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});
+//]]>
+    </script>
+    <!-- Start Of Script Generated By cforms v12.2 [Oliver Seidel | www.deliciousdays.com] -->    <link href="http://www.healthcare-now.org/wp-content/plugins/cforms/styling/grey_blocks.css" type="text/css" rel="stylesheet"/>
+    <script src="http://www.healthcare-now.org/wp-content/plugins/cforms/js/cforms.js" type="text/javascript">
+    </script>
+    <!-- End Of Script Generated By cforms -->    <link media="screen" type="text/css" href="http://www.healthcare-now.org/wp-content/plugins/shutter-reloaded/shutter-reloaded.css?ver=2.4" rel="stylesheet"/>
+    <style type="text/css">
+      
+div#shNavBar {color:#;}
+
+    </style>
+    <script type="text/javascript">
+//<![CDATA[
+var base_url_sociable = 'http://www.healthcare-now.org/wp-content/plugins/sociable/'
+//]]>
+    </script>
+    <script src="http://apis.google.com/js/plusone.js" type="text/javascript">
+    </script>
+    <!-- All in One SEO Pack 2.1.4 by Michael Torbert of Semper Fi Web Design[499,532] -->    <!-- /all in one seo pack -->    <style media="screen" type="text/css">
+      &amp;lt;!-- @import url( http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/style.css ); --&amp;gt;
+    </style>
+    <link href="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/tab.css" rel="stylesheet" media="screen" type="text/css"/>
+    <script type="text/javascript" src="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/javascript/tabber.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+document.write('&lt;style type="text/css"&gt;.tabber{display:none;}&lt;\/style&gt;');
+var tabberOptions = {manualStartup:true};
+function begForMoney()
+{
+  if (!arguments.callee.stopBegging) {
+    arguments.callee.stopBegging = true;
+  }
+}
+
+//]]>
+    </script>
+    <style type="text/css">
+      .tabber{display:none;}
+    </style>
+    <script type="text/javascript">
+//<![CDATA[
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+sfHover = function() {
+	if (!document.getElementsByTagName) return false;
+	var sfEls = document.getElementById("nav").getElementsByTagName("li");
+
+	// if you only have one main menu - delete the line below //
+	var sfEls1 = document.getElementById("subnav").getElementsByTagName("li");
+	//
+
+	for (var i=0; i&lt;sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+
+	// if you only have one main menu - delete the "for" loop below //
+	for (var i=0; i&lt;sfEls1.length; i++) {
+		sfEls1[i].onmouseover=function() {
+			this.className+=" sfhover1";
+		}
+		sfEls1[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover1\\b"), "");
+		}
+	}
+	//
+
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+//--&gt;&lt;!]]&gt;
+//]]>
+    </script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="topnavbar">
+        <div class="topnavbarleft">
+          <p>
+            <script type="text/javascript" src="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/javascript/date.js">
+            </script>
+          </p>
+          <p>
+            Tuesday, April 01, 2014
+          </p>
+          <p>
+          </p>
+        </div>
+        <div class="topnavbarright">
+          <p>
+            <a href="http://www.healthcare-now.org/feed/">
+              <img alt="Subscribe to Healthcare-NOW!" src="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/images/rss.gif" style="vertical-align:middle" class="yrdnafyjmybfaxrqrpwm"/>
+            </a>
+            <a href="http://www.healthcare-now.org/feed/">
+              Updates Feed
+            </a>
+            <a href="http://www.healthcare-now.org/comments/feed">
+              <img alt="Subscribe to Healthcare-NOW!" src="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/images/rss.gif" style="vertical-align:middle;margin-left:10px;" class="yrdnafyjmybfaxrqrpwm"/>
+            </a>
+            <a href="http://www.healthcare-now.org/comments/feed">
+              Comments
+            </a>
+          </p>
+        </div>
+      </div>
+      <div id="header">
+        <div class="headerleft">
+          <a href="http://www.healthcare-now.org/">
+            <img alt="Organizing for a national, single-payer healthcare system." src="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/images/headerdraft.jpg"/>
+          </a>
+        </div>
+      </div>
+      <div id="navbar">
+        <div class="navbarleft">
+          <ul id="nav">
+            <li class="page_item page-item-2 page_item_has_children">
+              <a href="http://www.healthcare-now.org/about">
+                About
+              </a>
+              <ul class="children">
+                <li class="page_item page-item-101">
+                  <a href="http://www.healthcare-now.org/about/our-board">
+                    Our Board
+                  </a>
+                </li>
+                <li class="page_item page-item-7096">
+                  <a href="http://www.healthcare-now.org/about/newsletters">
+                    Newsletters
+                  </a>
+                </li>
+                <li class="page_item page-item-668 page_item_has_children">
+                  <a href="http://www.healthcare-now.org/about/thank-you">
+                    Thank You
+                  </a>
+                </li>
+                <li class="page_item page-item-681">
+                  <a href="http://www.healthcare-now.org/about/old-site">
+                    Old Site?
+                  </a>
+                </li>
+                <li class="page_item page-item-762">
+                  <a href="http://www.healthcare-now.org/about/regarding-hcan">
+                    Regarding HCAN
+                  </a>
+                </li>
+                <li class="page_item page-item-3309">
+                  <a href="http://www.healthcare-now.org/about/terms">
+                    Terms
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="page_item page-item-124 page_item_has_children">
+              <a href="http://www.healthcare-now.org/whats-single-payer">
+                Single-Payer
+              </a>
+              <ul class="children">
+                <li class="page_item page-item-67">
+                  <a href="http://www.healthcare-now.org/whats-single-payer/hr-676">
+                    HR 676
+                  </a>
+                </li>
+                <li class="page_item page-item-5038 page_item_has_children">
+                  <a href="http://www.healthcare-now.org/whats-single-payer/s-915hr-1200">
+                    S 915/HR 1200
+                  </a>
+                </li>
+                <li class="page_item page-item-2692">
+                  <a href="http://www.healthcare-now.org/whats-single-payer/faith-for-single-payer">
+                    Faith for Single-Payer
+                  </a>
+                </li>
+                <li class="page_item page-item-69 page_item_has_children">
+                  <a href="http://www.healthcare-now.org/whats-single-payer/endorse">
+                    Endorse
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="page_item page-item-73 page_item_has_children">
+              <a href="http://www.healthcare-now.org/takeaction">
+                Take Action
+              </a>
+              <ul class="children">
+                <li class="page_item page-item-93">
+                  <a href="http://www.healthcare-now.org/takeaction/events-calendar">
+                    Events Calendar
+                  </a>
+                </li>
+                <li class="page_item page-item-5431">
+                  <a href="http://www.healthcare-now.org/takeaction/organizational-affiliation">
+                    Organizational Affiliation
+                  </a>
+                </li>
+                <li class="page_item page-item-463">
+                  <a href="http://www.healthcare-now.org/takeaction/books-and-videos">
+                    Resources and Videos
+                  </a>
+                </li>
+                <li class="page_item page-item-97">
+                  <a href="http://www.healthcare-now.org/takeaction/resources">
+                    HC-N! Store
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="page_item page-item-15 page_item_has_children">
+              <a href="http://www.healthcare-now.org/campaigns">
+                Campaigns
+              </a>
+              <ul class="children">
+                <li class="page_item page-item-10">
+                  <a href="http://www.healthcare-now.org/campaigns/win-win">
+                    Win-Win
+                  </a>
+                </li>
+                <li class="page_item page-item-3890">
+                  <a href="http://www.healthcare-now.org/campaigns/peoples-movement-assembly">
+                    People’s Movement Assembly
+                  </a>
+                </li>
+                <li class="page_item page-item-3567">
+                  <a href="http://www.healthcare-now.org/campaigns/marilyn-clement-fund">
+                    Marilyn Clement Fund
+                  </a>
+                </li>
+                <li class="page_item page-item-2157 page_item_has_children">
+                  <a href="http://www.healthcare-now.org/campaigns/single-payer-rally">
+                    Medicare’s Birthday
+                  </a>
+                </li>
+                <li class="page_item page-item-4028">
+                  <a href="http://www.healthcare-now.org/campaigns/candidate-pledge">
+                    Candidate Pledge
+                  </a>
+                </li>
+                <li class="page_item page-item-5374">
+                  <a href="http://www.healthcare-now.org/campaigns/divestment">
+                    Divestment Campaign for Healthcare
+                  </a>
+                </li>
+                <li class="page_item page-item-7310">
+                  <a href="http://www.healthcare-now.org/campaigns/everybody-institutes">
+                    Everybody INstitutes
+                  </a>
+                </li>
+                <li class="page_item page-item-574 page_item_has_children">
+                  <a href="http://www.healthcare-now.org/campaigns/strat-conf">
+                    Strategy Conference
+                  </a>
+                </li>
+                <li class="page_item page-item-88">
+                  <a href="http://www.healthcare-now.org/campaigns/healthcare-justice-week">
+                    Healthcare Justice Week
+                  </a>
+                </li>
+                <li class="page_item page-item-2122">
+                  <a href="http://www.healthcare-now.org/campaigns/share-your-story">
+                    Share Your Story
+                  </a>
+                </li>
+                <li class="page_item page-item-3248 page_item_has_children">
+                  <a href="http://www.healthcare-now.org/campaigns/past-campaigns">
+                    Past Campaigns
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="page_item page-item-50 page_item_has_children">
+              <a href="http://www.healthcare-now.org/contact">
+                Contact
+              </a>
+              <ul class="children">
+                <li class="page_item page-item-257 page_item_has_children">
+                  <a href="http://www.healthcare-now.org/contact/sign-up">
+                    Sign Up!
+                  </a>
+                </li>
+                <li class="page_item page-item-99">
+                  <a href="http://www.healthcare-now.org/contact/local-contact-list">
+                    Local Contacts
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="http://salsa.wiredforchange.com/o/6055/p/dia/action/public/?action_KEY=589">
+                Petition
+              </a>
+            </li>
+            <li>
+              <a href="https://salsa.wiredforchange.com/o/6055/t/5756/shop/custom.jsp?donate_page_KEY=3152">
+                Donate
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbarright">
+          
+		Search:
+		
+          <form action="/index.php" method="get" id="searchform">
+            <input type="text" onblur="if (this.value == '') {this.value = 'Type and hit enter...';}" onfocus="if (this.value == 'Type and hit enter...') {this.value = '';}" id="s-head" name="s" value="Type and hit enter..."/>
+          </form>
+        </div>
+      </div>
+      <div style="clear:both;">
+      </div>
+      <div id="subnavbar">
+        <ul id="subnav">
+          <li class="cat-item cat-item-794">
+            <a title="View all posts filed under Announcements" href="http://www.healthcare-now.org/category/announcements">
+              Announcements
+            </a>
+          </li>
+          <li class="cat-item cat-item-3">
+            <a title="Healthcare-NOW! news and updates from the single-payer movement." href="http://www.healthcare-now.org/category/news">
+              Healthcare-NOW! Updates
+            </a>
+            <ul class="children">
+              <li class="cat-item cat-item-107">
+                <a title="Support single-payer healthcare with these easy actions." href="http://www.healthcare-now.org/category/news/action-alert-news">
+                  Action Alerts
+                </a>
+              </li>
+              <li class="cat-item cat-item-4">
+                <a title="View all posts filed under Campaign News" href="http://www.healthcare-now.org/category/news/campaign-news">
+                  Campaign News
+                </a>
+              </li>
+              <li class="cat-item cat-item-7">
+                <a title="Personal messages about the single-payer movement from Marilyn Clement." href="http://www.healthcare-now.org/category/news/message">
+                  Marilyn's Message
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="cat-item cat-item-455">
+            <a title="View all posts filed under Patient Stories" href="http://www.healthcare-now.org/category/patient-stories">
+              Patient Stories
+            </a>
+          </li>
+          <li class="cat-item cat-item-463">
+            <a title="View all posts filed under Press Releases" href="http://www.healthcare-now.org/category/press">
+              Press Releases
+            </a>
+          </li>
+          <li class="cat-item cat-item-6">
+            <a title="Single-payer news from around the Web." href="http://www.healthcare-now.org/category/single-payer-news">
+              Single-Payer News
+            </a>
+          </li>
+          <li class="cat-item cat-item-8">
+            <a title="Single-payer healthcare resources and studies." href="http://www.healthcare-now.org/category/resources">
+              Single-Payer Resources
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div style="clear:both;">
+      </div>
+      <div id="content">
+        <div id="contentleft">
+          <div class="postarea">
+            <div class="breadcrumb">
+              
+	Browse &gt; 
+
+              <!-- Breadcrumb, generated by 'Breadcrumb Nav XT' - http://mtekk.weblogs.us/code -->              <a title="Browse to: Home" href="http://www.healthcare-now.org">
+                Home
+              </a>
+               / Search
+	
+
+            </div>
+            <h1>
+              <a rel="bookmark" href="http://www.healthcare-now.org/health-care-for-a-family-of-four-now-costs-more-than-the-groceries-to-feed-them-for-an-entire-year">
+                Healthcare For A Family Now Costs More Than Groceries To Feed Them For A Year
+              </a>
+            </h1>
+            <div class="date">
+              <div class="dateleft">
+                <p>
+                  <span class="time">
+                    May 23, 2013
+                  </span>
+                   by 
+                  <a rel="author" title="Posts by Healthcare-NOW!" href="http://www.healthcare-now.org/author/jtmhcn">
+                    Healthcare-NOW!
+                  </a>
+                     
+                  <br/>
+                   Filed under 
+                  <a rel="category tag" title="View all posts in Single-Payer News" href="http://www.healthcare-now.org/category/single-payer-news">
+                    Single-Payer News
+                  </a>
+                </p>
+              </div>
+              <div class="dateright">
+                <p>
+                  <span class="comment">
+                    <a title="Comment on Healthcare For A Family Now Costs More Than Groceries To Feed Them For A Year" href="http://www.healthcare-now.org/health-care-for-a-family-of-four-now-costs-more-than-the-groceries-to-feed-them-for-an-entire-year#respond">
+                      Leave a Comment
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <p>
+              By 
+              <a target="_blank" href="http://thinkprogress.org/health/2013/05/22/2048481/health-care-grocery-costs/">
+                Tara Culp-Ressler for ThinkProgress
+              </a>
+               – 
+            </p>
+            <p>
+              As medical costs continue to rise, the annual health expenses for a family of four now exceed the typical of cost of their groceries during the same time period, according to a 
+              <a target="_blank" href="http://www.reuters.com/article/2013/05/22/healthcare-cost-study-idUSnPNNY18859+1e0+PRN20130522">
+                new report
+              </a>
+               from consulting firm Milliman, Inc.
+            </p>
+            <p>
+              The firm estimates that a typical family of four with an employer-sponsored health plan will end up incurring about $22,030 for all of their medical costs in 2013. That represents a 6.3 increase from last year, when the typical family racked up $20,728.
+            </p>
+            <p>
+              Some of that total sum ends up being covered by the family’s health insurance plan — the firm’s analysts found that employers paid about 58 percent of the total health care costs — but a big chunk of it falls onto the family itself. The average family pays more than $9,000 in payroll deductions and out-of-pocket bills for their health care, which is more than they typically spend on 
+              <a target="_blank" href="http://www.forbes.com/sites/brucejapsen/2013/05/22/health-costs-for-family-of-four-higher-than-year-of-groceries/">
+                groceries and gas for an entire year
+              </a>
+              :
+            </p>
+            <blockquote>
+              <p>
+                “It is a huge expense,” Chris Girod, principal and consulting actuary at Milliman Inc. said in an interview. “Although the trends are slowing down, the total dollar amount has risen $1,300 per year each of the last four years.”
+              </p>
+              <p>
+                Meanwhile, the share a family and employees pay continues to rise as employers push more costs onto their workers. Therefore, the total share of the overall costs continues to mount, surpassing other household milestones like food and a year’s worth of gas.
+              </p>
+              <p>
+                “The total share of this cost borne directly by the family — $9,144 in payroll deductions and out-of-pocket costs — now exceeds the cost of groceries for the (Milliman Medical Index’s) typical family of four,” the study says. “The out-of-pocket cost alone — $3,600 for co-pays, coinsurance and other cost sharing, is more than the average U.S. household spends on gas in a year.”
+              </p>
+            </blockquote>
+            <p>
+              That’s been a consistent trend over the past several years. As the cost of health care increases, Americans’ 
+              <a target="_blank" href="http://thinkprogress.org/health/2012/12/12/1322681/study-workers-health-care-costs/">
+                contributions to their health plans
+              </a>
+               have risen at a much faster rate than their employers’ share. Since 2003, workers in every single state have had to increase their contributions to their family health plans by 
+              <a target="_blank" href="http://thinkprogress.org/health/2012/12/12/1322681/study-workers-health-care-costs/">
+                nearly 75 percent
+              </a>
+              . At the same time, workers’ wages have stagnated. As struggling Americans aren’t able to afford the treatment they need, they’re 
+              <a target="_blank" href="http://thinkprogress.org/health/2012/10/02/939901/40-percent-poverty-doctor/">
+                putting off doctor’s visits
+              </a>
+               and 
+              <a target="_blank" href="http://thinkprogress.org/health/2013/04/09/1838411/americans-skipping-prescriptions/">
+                skipping out on their medication
+              </a>
+              .
+            </p>
+            <p>
+              And, if the regular health costs that a typical American family incurs over the course of the year already represent such a big expense, it’s easy to see how just 
+              <a target="_blank" href="http://thinkprogress.org/health/2012/10/26/1099221/crowd-source-medical-bills/">
+                one catastrophic medical event
+              </a>
+               could plunge Americans into serious debt. The average trip to an emergency room costs 
+              <a target="_blank" href="http://thinkprogress.org/health/2013/03/01/1659021/average-er-trip/">
+                40 percent more
+              </a>
+               than what most Americans spend on monthly rent. It’s even worse for those with ongoing conditions that need expensive treatment — for instance, the Americans who are battling cancer are 
+              <a target="_blank" href="http://thinkprogress.org/health/2013/05/16/2022881/cancer-americans-bankruptcy/">
+                twice as likely to go bankrupt
+              </a>
+              , even if they have health insurance.
+            </p>
+            <div style="clear:both;">
+            </div>
+            <div class="postmeta2">
+              <p>
+                <span class="tags">
+                  Tags: 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/health-insurance">
+                    Health Insurance
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/healthcare-costs">
+                    Healthcare Costs
+                  </a>
+                </span>
+              </p>
+            </div>
+            <h1>
+              <a rel="bookmark" href="http://www.healthcare-now.org/healthcare-costs-per-family-more-than-doubled-in-nine-years">
+                Healthcare Costs Per Family More Than Doubled In Nine Years
+              </a>
+            </h1>
+            <div class="date">
+              <div class="dateleft">
+                <p>
+                  <span class="time">
+                    May 17, 2011
+                  </span>
+                   by 
+                  <a rel="author" title="Posts by Healthcare-NOW!" href="http://www.healthcare-now.org/author/jtmhcn">
+                    Healthcare-NOW!
+                  </a>
+                     
+                  <br/>
+                   Filed under 
+                  <a rel="category tag" title="View all posts in Single-Payer News" href="http://www.healthcare-now.org/category/single-payer-news">
+                    Single-Payer News
+                  </a>
+                </p>
+              </div>
+              <div class="dateright">
+                <p>
+                  <span class="comment">
+                    <a title="Comment on Healthcare Costs Per Family More Than Doubled In Nine Years" href="http://www.healthcare-now.org/healthcare-costs-per-family-more-than-doubled-in-nine-years#comments">
+                      3 Comments
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <p>
+              From the 
+              <a href="http://www.huffingtonpost.com/2011/05/16/us-healthcare-costs-double-report_n_862677.html">
+                Huffington Post
+              </a>
+               – 
+            </p>
+            <p>
+              <a href="http://www.healthcare-now.org/wp-content/uploads/2011/05/HEALTHCARE-COSTS.jpg">
+                <img width="300" height="268" class="aligncenter size-medium wp-image-4893" title="HEALTHCARE-COSTS" alt="" src="http://www.healthcare-now.org/wp-content/uploads/2011/05/HEALTHCARE-COSTS-300x268.jpg"/>
+              </a>
+            </p>
+            <p>
+              U.S. healthcare is so expensive that records are broken even when cost increases slow.
+            </p>
+            <p>
+              According to a new report by Milliman, a global consulting and actuarial firm, the total cost of healthcare for the average family of four, if covered by a preferred provider organization, is now a record $19,393.
+            </p>
+            <p>
+              That might be only 7.3 percent higher than last year’s average cost of $18.074, which is the smallest year-over-year increase in almost a decade. But it’s also the highest year-over-year increase in total dollars spent per family at $1,319.
+            </p>
+            <p>
+              Trends over the last decade more completely illustrate the toll taken on the average American by rising healthcare costs.
+            </p>
+            <p>
+              “In 2002, American families had healthcare costs of $9,235, and those costs have now doubled in fewer than nine years,” said Lorraine Mayne, Milliman principal and consulting actuary, in a press release. “As costs continue to grow — and even as the cost trend decelerates — the total cost of care for American families constitutes a larger and larger portion of the household budget.”
+            </p>
+            <p>
+              Of that $1,319 increase, employers were paid for 48.6 percent of the increase, while the additional 51.6 percent was the responsibility of employees.
+            </p>
+            <p>
+              That’s only slightly different from trends of the last five years. Over that period, employers have absorbed $3,023 in additional healthcare costs, employees themselves absorbing only slightly less, at $2,988.
+            </p>
+            <p>
+              Take away costs paid by employers, and the employee’s share of costs has still doubled. In 2010, the average employee paid $8,008 for his family’s healthcare, up from $3,634 in 2002.
+            </p>
+            <div style="clear:both;">
+            </div>
+            <div class="postmeta2">
+              <p>
+                <span class="tags">
+                  Tags: 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/american-families">
+                    american families
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/cost-of-healthcare">
+                    cost of healthcare
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/health-insurance">
+                    Health Insurance
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/healthcare-costs">
+                    Healthcare Costs
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/huffington-post">
+                    huffington post
+                  </a>
+                </span>
+              </p>
+            </div>
+            <h1>
+              <a rel="bookmark" href="http://www.healthcare-now.org/dateline-nbc-brings-the-sarkisyan-family-and-wendell-potter-together">
+                Dateline NBC Brings the Sarkisyan Family and Wendell Potter Together
+              </a>
+            </h1>
+            <div class="date">
+              <div class="dateleft">
+                <p>
+                  <span class="time">
+                    January 26, 2010
+                  </span>
+                   by 
+                  <a rel="author" title="Posts by Healthcare-NOW!" href="http://www.healthcare-now.org/author/jtmhcn">
+                    Healthcare-NOW!
+                  </a>
+                     
+                  <br/>
+                   Filed under 
+                  <a rel="category tag" title="View all posts in Single-Payer News" href="http://www.healthcare-now.org/category/single-payer-news">
+                    Single-Payer News
+                  </a>
+                </p>
+              </div>
+              <div class="dateright">
+                <p>
+                  <span class="comment">
+                    <a title="Comment on Dateline NBC Brings the Sarkisyan Family and Wendell Potter Together" href="http://www.healthcare-now.org/dateline-nbc-brings-the-sarkisyan-family-and-wendell-potter-together#comments">
+                      1 Comment
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <p>
+              Mother Hilda Sarkisyan, takes her fight for her daughter Nataline to recieve a liver transplant to the executive headquarters of health insurance giant CIGNA. Her battle inspires top executive Wendell Potter to resign and become a leading advocate for reform.
+            </p>
+            <p>
+              Dateline NBC, segment 5, with Sarkisyan, CNA protest &amp; Nataline’s death.
+            </p>
+            <p>
+              <object width="420" height="245" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="msnbc44dce0">
+                <param value="http://www.msnbc.msn.com/id/32545640" name="movie"/>
+                <param value="launch=35035397&amp;width=420&amp;height=245" name="FlashVars"/>
+                <param value="always" name="allowScriptAccess"/>
+                <param value="true" name="allowFullScreen"/>
+                <param value="opaque" name="wmode"/>
+                <embed width="420" height="245" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" wmode="opaque" allowfullscreen="true" allowscriptaccess="always" flashvars="launch=35035397&amp;width=420&amp;height=245" src="http://www.msnbc.msn.com/id/32545640" name="msnbc44dce0"/>
+              </object>
+            </p>
+            <p style="font-size:11px; font-family:Arial, Helvetica, sans-serif; color: #999; margin-top: 5px; background: transparent; text-align: center; width: 420px;">
+              Visit msnbc.com for 
+              <a href="http://www.msnbc.msn.com" style="text-decoration:none !important; border-bottom: 1px dotted #999 !important; font-weight:normal !important; height: 13px; color:#5799DB !important;">
+                breaking news
+              </a>
+              , 
+              <a style="text-decoration:none !important; border-bottom: 1px dotted #999 !important; font-weight:normal !important; height: 13px; color:#5799DB !important;" href="http://www.msnbc.msn.com/id/3032507">
+                world news
+              </a>
+              , and 
+              <a style="text-decoration:none !important; border-bottom: 1px dotted #999 !important; font-weight:normal !important; height: 13px; color:#5799DB !important;" href="http://www.msnbc.msn.com/id/3032072">
+                news about the economy
+              </a>
+            </p>
+            <p>
+              Dateline NBC, segment 6, with Sarkisyan, Philadelphia protest with CNA and Wendell Potter meets the family two years later.
+            </p>
+            <p>
+              <object width="420" height="245" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="msnbc2d6490">
+                <param value="http://www.msnbc.msn.com/id/32545640" name="movie"/>
+                <param value="launch=35035411&amp;width=420&amp;height=245" name="FlashVars"/>
+                <param value="always" name="allowScriptAccess"/>
+                <param value="true" name="allowFullScreen"/>
+                <param value="opaque" name="wmode"/>
+                <embed width="420" height="245" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" wmode="opaque" allowfullscreen="true" allowscriptaccess="always" flashvars="launch=35035411&amp;width=420&amp;height=245" src="http://www.msnbc.msn.com/id/32545640" name="msnbc2d6490"/>
+              </object>
+            </p>
+            <p style="font-size:11px; font-family:Arial, Helvetica, sans-serif; color: #999; margin-top: 5px; background: transparent; text-align: center; width: 420px;">
+              Visit msnbc.com for 
+              <a href="http://www.msnbc.msn.com" style="text-decoration:none !important; border-bottom: 1px dotted #999 !important; font-weight:normal !important; height: 13px; color:#5799DB !important;">
+                breaking news
+              </a>
+              , 
+              <a style="text-decoration:none !important; border-bottom: 1px dotted #999 !important; font-weight:normal !important; height: 13px; color:#5799DB !important;" href="http://www.msnbc.msn.com/id/3032507">
+                world news
+              </a>
+              , and 
+              <a style="text-decoration:none !important; border-bottom: 1px dotted #999 !important; font-weight:normal !important; height: 13px; color:#5799DB !important;" href="http://www.msnbc.msn.com/id/3032072">
+                news about the economy
+              </a>
+            </p>
+            <div style="clear:both;">
+            </div>
+            <div class="postmeta2">
+              <p>
+                <span class="tags">
+                  Tags: 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/california-nurses-association">
+                    California Nurses Association
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/health-care">
+                    health care
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/healthcare-reform">
+                    Healthcare Reform
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/msnbc">
+                    msnbc
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/sarkisyan">
+                    sarkisyan
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/universal-healthcare">
+                    universal healthcare
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/wendell-potter">
+                    Wendell Potter
+                  </a>
+                </span>
+              </p>
+            </div>
+            <h1>
+              <a rel="bookmark" href="http://www.healthcare-now.org/teen%e2%80%99s-family-sues-cigna-over-denied-transplant">
+                Teen’s family sues Cigna over denied transplant
+              </a>
+            </h1>
+            <div class="date">
+              <div class="dateleft">
+                <p>
+                  <span class="time">
+                    December 29, 2008
+                  </span>
+                   by 
+                  <a rel="author" title="Posts by HC-N!" href="http://www.healthcare-now.org/author/katie">
+                    HC-N!
+                  </a>
+                     
+                  <br/>
+                   Filed under 
+                  <a rel="category tag" title="View all posts in Single-Payer News" href="http://www.healthcare-now.org/category/single-payer-news">
+                    Single-Payer News
+                  </a>
+                </p>
+              </div>
+              <div class="dateright">
+                <p>
+                  <span class="comment">
+                    <a title="Comment on Teen’s family sues Cigna over denied transplant" href="http://www.healthcare-now.org/teen%e2%80%99s-family-sues-cigna-over-denied-transplant#respond">
+                      Leave a Comment
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <p>
+              <a href="http://www.healthcare-now.org/wp-content/uploads/2008/12/aptrans1.gif">
+                <img width="140" height="20" class="alignnone size-thumbnail wp-image-924" title="aptrans1" alt="" src="http://www.healthcare-now.org/wp-content/uploads/2008/12/aptrans1.gif"/>
+              </a>
+              <em>
+                <strong>
+                  17-year-old leukemia patient died hours after insurance reversed refusal
+                </strong>
+              </em>
+            </p>
+            <p>
+              updated 6:32 p.m. ET, Fri., Dec. 26, 2008
+              <br/>
+              
+LOS ANGELES – The family of a 17-year-old leukemia patient has sued health insurance giant Cigna Corp. for her death in 2007 after the company initially refused to pay for a liver transplant. 
+            </p>
+            <p>
+              The lawsuit filed last week in Los Angeles County Superior Court by the family’s attorney, Mark Geragos, alleges breach of contract, unfair business practices and intentional infliction of emotional distress. The suit accuses Cigna of delaying and rejecting valid claims, which resulted in the wrongful death of Nataline Sarkisyan. 
+            </p>
+            <p>
+              The Philadelphia-based insurer eventually approved the transplant after Sarkisyan’s family held a rally outside Cigna’s suburban Los Angeles office. Nataline, however, died hours after the approval was secured. 
+            </p>
+            <p>
+              Chris Curran, a spokesman for Cigna, said the company empathizes with the family but feels the lawsuit is without merit. Curran said Cigna volunteered to pay for the procedure out of its own pocket and not the employer’s. 
+            </p>
+            <p>
+              “This decision was made despite the fact that Cigna had no obligation to do so and despite concluding, based on the information available, that the treatment would be unproven and ineffective and therefore experimental and not covered by the employer’s benefit plan,” Curran said, reading from a statement. 
+            </p>
+            <p>
+              But Charles Idelson, a spokesman for the California Nurses Association, said insurance companies are “in business to provide profits for shareholders, not to provide care.” 
+            </p>
+            <p>
+              “Nataline Sarkisyan’s case serves as a tragic poster child for everything that’s wrong with our insurance based health care system,” he said. “Why did it take public humiliation for Cigna Corporation to approve a transplant?” 
+            </p>
+            <p>
+              Nataline was diagnosed with leukemia at 14 and received a bone marrow transplant from her brother the day before Thanksgiving 2007. A complication, however, caused the teen’s liver to fail. 
+            </p>
+            <p>
+              The family had asked Cigna to pay for a liver transplant but the insurer refused, calling the procedure experimental. 
+            </p>
+            <p>
+              Full article found 
+              <a href="http://www.msnbc.msn.com/id/28393752/from/ET/">
+                here
+              </a>
+              .
+            </p>
+            <div style="clear:both;">
+            </div>
+            <div class="postmeta2">
+              <p>
+                <span class="tags">
+                  Tags: 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/hr-676">
+                    HR 676
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/nataline-sarkisyan">
+                    Nataline Sarkisyan
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/single-payer">
+                    Single-Payer
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/universal-healthcare">
+                    universal healthcare
+                  </a>
+                </span>
+              </p>
+            </div>
+            <h1>
+              <a rel="bookmark" href="http://www.healthcare-now.org/with-hippocratic-oath-doctors-pledge-allegiance-to-patients-not-profits">
+                With Hippocratic Oath, Doctors Pledge Allegiance to Patients, Not Profits
+              </a>
+            </h1>
+            <div class="date">
+              <div class="dateleft">
+                <p>
+                  <span class="time">
+                    March 28, 2014
+                  </span>
+                   by 
+                  <a rel="author" title="Posts by Healthcare-NOW!" href="http://www.healthcare-now.org/author/jtmhcn">
+                    Healthcare-NOW!
+                  </a>
+                     
+                  <br/>
+                   Filed under 
+                  <a rel="category tag" title="View all posts in Single-Payer News" href="http://www.healthcare-now.org/category/single-payer-news">
+                    Single-Payer News
+                  </a>
+                </p>
+              </div>
+              <div class="dateright">
+                <p>
+                  <span class="comment">
+                    <a title="Comment on With Hippocratic Oath, Doctors Pledge Allegiance to Patients, Not Profits" href="http://www.healthcare-now.org/with-hippocratic-oath-doctors-pledge-allegiance-to-patients-not-profits#respond">
+                      Leave a Comment
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <p>
+              By 
+              <a target="_blank" href="http://bangordailynews.com/2014/03/20/health/with-hippocratic-oath-doctors-pledge-allegiance-to-patients-not-profits/">
+                Dr. Philip Caper for Bangor Daily News
+              </a>
+               – 
+            </p>
+            <p>
+              The Maine Medical Association recently updated a 2008 poll of their members that asked the question, “When considering the topic of health care reform, would you prefer to make improvements in the current public/private system (or) a single-payer system, such as a ‘Medicare-for-all’ approach?” In 2008, 52.3 percent favored the Medicare-for-all approach. In the updated poll, released last week, that number had risen to 64.3 percent.
+            </p>
+            <p>
+              It’s pretty unusual for two-thirds of a group of doctors to agree on something as controversial as a single-payer health care system. Until recently, doctors formed the core resistance to “government-run” health insurance in the U.S.
+            </p>
+            <p>
+              A number of factors account for this impressive change, but the huge administrative burden on practicing physicians created by our plethora of private insurance schemes is certainly near the top of the list.
+            </p>
+            <p>
+              The other day, I spoke with a Maine physician nearing retirement and looking forward to it. She was recently returning home after a long day in her practice, carrying her “homework,” a pile of administrative paperwork several inches high. Her husband asked her how she got so far behind in her paperwork. “I wasn’t behind at all,” she replied. She did this much paperwork, mostly insurance forms, at least twice a week.
+            </p>
+            <p>
+              American physicians spend at least three times as much time, money and effort on administrative work related to payment and insurance coverage as our Canadian brethren, with their single-payer system. Administrative hassle is a major factor driving more and more American doctors to sell our practices to large corporations that take care of the back-office work. The Affordable Care Act has only added to that burden. Sixty percent of doctors now work for corporations, and that number is growing.
+            </p>
+            <p>
+              Working for a corporate provider of health care services is a mixed bag. He who pays the piper calls the tune. As both for-profit and nonprofit health care corporations have become increasingly focused on the bottom line, doctors working for them have come under increasingly subtle and not-so-subtle pressures to generate revenue for their employers.
+            </p>
+            <p>
+              Some tests and procedures are more profitable than others. Increasingly, doctors’ “productivity” is measured by the amount of profitable revenue we produce rather than by the results we get for our patients. But in health care, profitability is a very unreliable measure of value because doctors’ fees and other health care prices are often set arbitrarily.
+            </p>
+            <p>
+              When we graduate from medical school, most of us take the Hippocratic Oath, swearing our primary allegiance to our patients. Young doctors tend to take their oath very seriously. Most doctors truly want to do what’s best for patients, not their insurance company or our employers’ bottom line.
+            </p>
+            <p>
+              But in today’s corporatized and increasingly monetized health care environment, the demands for generation of profit often directly conflict with our clinical judgment. The belief that doctors and other healers act as stewards for our patients’ welfare has long earned us a special place in society and the trust of our patients. That position and that trust, so critical to healing, is now threatened.
+            </p>
+            <p>
+              This conflict has made many doctors very angry. Practicing a profession that has traditionally been a calling has become a business. Doctors today are caught in a system corrupted by an excessive focus on money that is forcing us to behave in ways that conflict with our professional ethics. We are growing very tired of being told how to practice medicine by insurance company bureaucrats and corporate MBAs.
+            </p>
+            <p>
+              This is another major cause of the burnout experienced by increasing numbers of doctors. Many older doctors are now simply looking for a way out. Others are calling for systemwide reforms that will allow them to return to focusing on the welfare of their patients. Hence the results of the recent MMA poll.
+            </p>
+            <p>
+              In an excellent new book called “What Matters In Medicine”, longtime Maine family doctor David Loxterkamp points out that medical care, while often using scientific jargon, methods and tools, is at its core a profession about relationships, not profits. That’s something the bean-counters and policy wonks who have become increasingly influential in determining the nature of our corporatized health care system seem unable to understand.
+            </p>
+            <p>
+              It’s time to remove corporate profit from the financing of health care, and perverse financial incentives from the direct provision of services. It’s time for improved Medicare-for-all.
+            </p>
+            <p>
+              <em>
+                Physician Philip Caper of Brooklin is a founding board member of Maine AllCare, a nonpartisan, nonprofit group committed to making health care in Maine universal, accessible and affordable for all. He can be reached at pcpcaper21@gmail.com.
+              </em>
+            </p>
+            <div style="clear:both;">
+            </div>
+            <div class="postmeta2">
+              <p>
+                <span class="tags">
+                  Tags: 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/maine-allcare">
+                    Maine AllCare
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/physicians-for-a-national-health-program">
+                    Physicians for a National Health Program
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/pnhp">
+                    PNHP
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/single-payer-healthcare">
+                    Single Payer Healthcare
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/universal-healthcare">
+                    universal healthcare
+                  </a>
+                </span>
+              </p>
+            </div>
+            <h1>
+              <a rel="bookmark" href="http://www.healthcare-now.org/single-payer-activism-gets-boost-from-obamacare">
+                Single-Payer Activism Gets Boost from Obamacare
+              </a>
+            </h1>
+            <div class="date">
+              <div class="dateleft">
+                <p>
+                  <span class="time">
+                    January 14, 2014
+                  </span>
+                   by 
+                  <a rel="author" title="Posts by Healthcare-NOW!" href="http://www.healthcare-now.org/author/jtmhcn">
+                    Healthcare-NOW!
+                  </a>
+                     
+                  <br/>
+                   Filed under 
+                  <a rel="category tag" title="View all posts in Single-Payer News" href="http://www.healthcare-now.org/category/single-payer-news">
+                    Single-Payer News
+                  </a>
+                </p>
+              </div>
+              <div class="dateright">
+                <p>
+                  <span class="comment">
+                    <a title="Comment on Single-Payer Activism Gets Boost from Obamacare" href="http://www.healthcare-now.org/single-payer-activism-gets-boost-from-obamacare#comments">
+                      8 Comments
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <p>
+              By 
+              <a target="_blank" href="http://www.timesunion.com/local/article/Single-payer-activism-gets-boost-from-Obamacare-5136793.php">
+                Claire Hughes for the Times Union
+              </a>
+               – 
+            </p>
+            <p>
+              Dr. Richard Propp and Alice Brody thought Obamacare might sink their movement.
+            </p>
+            <p>
+              Instead, based on the interest they say they are getting, the federal Affordable Care Act has buoyed their cause of universal health coverage, or “improved Medicare for all,” they said.
+            </p>
+            <p>
+              At the heart of the new federal law are government-run online markets that provide one-stop shopping to public and private insurance plans for previously uninsured people. The intent was to improve access to health care.
+            </p>
+            <p>
+              But confusion over the insurance websites and disappointment with the coverage offered has fueled interest in something the activists say is simpler and better — a national health system supported with tax dollars. On Tuesday, they’re screening a documentary about the issue at the First Unitarian Society in Albany.
+            </p>
+            <p>
+              Recently joining the ranks of single-payer promoters are young adults and labor unions, they said. Both have been dismayed by the trend toward higher-deductible health plans, whether through the new government-run health exchanges or from private employers.
+            </p>
+            <p>
+              “We’re really surprised at how much new interest there is in this issue,” said Brody, 69, who is active in Single Payer New York, which has supported a proposed state law that would create universal health coverage for New Yorkers.
+            </p>
+            <p>
+              Propp, 79, launched the Capital District Alliance for Universal Healthcare in 2005. The group is an affiliate of Healthcare-Now!, a national grass-roots advocate that supports similar federal legislation.
+            </p>
+            <p>
+              The trouble with the Affordable Care Act, single-payer proponents said, is that lawmakers gave too much weight to the concerns of the industries that profit from an overpriced medical system. The result, they say, was a convoluted law that perhaps no one understands completely.
+            </p>
+            <p>
+              “The reason Obamacare is so complex is it’s so gerrymandered,” said Dr. David Ray of Albany Medical Center, who is active in CDAUH and heads the local chapter of Physicians for a National Health Program, a Chicago-based advocacy group. “The power of the moneyed interests — specifically the insurance industry and the pharmaceutical industry — was not taken out of the equation.”
+            </p>
+            <p>
+              By contrast, Medicare is easy to apply for and use, they said.
+            </p>
+            <p>
+              “You can understand Medicare,” Brody said. “The main problem with Medicare is it only serves the elderly, who are very sick. That’s why costs are high on Medicare.”
+            </p>
+            <p>
+              Another group whose support of universal health coverage may be surprising is doctors. Close to 60 percent of doctors support a single-payer health system, according to PNHP. Doctors support universal health coverage because it would make their business operations simpler, Ray said. Instead of meeting the requirements of dozens of insurance contracts, they would have to handle just one — with the government.
+            </p>
+            <p>
+              “Most physicians are dealing with so many masters, in terms of the insurance companies,” Ray said. “Single-payer is the only road to continuation of physician autonomy. And if there’s anything that physicians care about, it’s their autonomy.”
+            </p>
+            <p>
+              Ray, who has practiced medicine for 35 years at the former Community Health Plan and at the Whitney M. Young Jr. Health Center in Albany, said he has long held a philosophy that doctors should be paid for keeping people healthy, not for treating them only when they’re sick. His work at Whitney Young, an Albany-based clinic serving low-income patients, showed him the need for better health coverage for all people, he said.
+            </p>
+            <p>
+              Propp founded CDAUH when he retired, shortly after reading a Harvard study that showed uninsured people with diabetes had a 50 percent higher death rate than insured patients.
+            </p>
+            <p>
+              Brody’s impetus to join the movement came with the understanding in recent years that her childhood had been shaped by her family’s struggle to secure adequate health care. Her mother had multiple sclerosis, and her father worked three jobs to pay the household and medical bills. She and her sisters, Brody said, raised themselves.
+            </p>
+            <p>
+              “Health care should be a human right,” Brody said. “You have a right to be able to, if you’re sick, go see a doctor. It should be with you from birth to death.”
+            </p>
+            <div style="clear:both;">
+            </div>
+            <div class="postmeta2">
+              <p>
+                <span class="tags">
+                  Tags: 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/aca">
+                    ACA
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/obamacare">
+                    Obamacare
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/single-payer-healthcare">
+                    Single Payer Healthcare
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/single-payer-new-york">
+                    Single Payer New York
+                  </a>
+                </span>
+              </p>
+            </div>
+            <h1>
+              <a rel="bookmark" href="http://www.healthcare-now.org/an-outsider-on-the-inside">
+                An Outsider on the Inside
+              </a>
+            </h1>
+            <div class="date">
+              <div class="dateleft">
+                <p>
+                  <span class="time">
+                    December 4, 2013
+                  </span>
+                   by 
+                  <a rel="author" title="Posts by Healthcare-NOW!" href="http://www.healthcare-now.org/author/jtmhcn">
+                    Healthcare-NOW!
+                  </a>
+                     
+                  <br/>
+                   Filed under 
+                  <a rel="category tag" title="View all posts in Single-Payer News" href="http://www.healthcare-now.org/category/single-payer-news">
+                    Single-Payer News
+                  </a>
+                </p>
+              </div>
+              <div class="dateright">
+                <p>
+                  <span class="comment">
+                    <a title="Comment on An Outsider on the Inside" href="http://www.healthcare-now.org/an-outsider-on-the-inside#comments">
+                      1 Comment
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <p>
+              <strong>
+                Though battling terminal illness, Tim Carpenter is still busy moving Congress left.
+              </strong>
+            </p>
+            <p>
+              By 
+              <a target="_blank" href="http://inthesetimes.com/article/15827/an_outsider_on_the_inside/">
+                Cole Stangler for In These Times
+              </a>
+               – 
+            </p>
+            <p>
+              Tim Carpenter is the national director of Progressive Democrats of America (PDA). Founded in 2004 in the aftermath of Rep. Dennis Kucinich’s (D-Ohio) presidential run, the group works what it calls an “inside-outside” strategy—aimed at translating the activism of outside social movements into progressive legislation in Congress. PDA works closely with progressive advocacy groups and about a dozen activist members of the Congressional Progressive Caucus, aiming to push the 72-member voting block to take more aggressive stances on issues as diverse as the welfare state, healthcare, trade and foreign policy. This year, PDA has lobbied Congress and helped organize rallies against reductions in Social Security and pushed for a so-called Robin Hood tax on financial transactions.
+            </p>
+            <p>
+              A native of Southern California, Carpenter is a longtime activist with history in the grassroots campaigns against anti-nuclear power, the Catholic Worker movement and Democratic Socialists of America. When he is not on the road organizing, he lives with his family in western Massachusetts.
+            </p>
+            <p>
+              <strong>
+                Do progressives in Congress have anything to learn from the Tea Party?
+              </strong>
+            </p>
+            <p>
+              Progressives can learn a lot from the Tea Party in regards to the inside-outside strategy of holding elected officials accountable. The Congressional Progressive Caucus took a number of missteps and miscues leading up to the Affordable Care Act. We should never have abandoned the fight on single payer. We should have never opted for a public option. We divided our forces much too early. What we can learn from the Tea Baggers is to hold elected officials accountable and not give up—certainly not before we’re deep into a fight.
+            </p>
+            <p>
+              <strong>
+                You have been working with the Progressive Caucus since the founding of PDA in 2004. How effective is the caucus?
+              </strong>
+            </p>
+            <p>
+              The Progressive Caucus has been a landing point for progressive activists who are working inside the Democratic Party. If you’re working an inside-outside strategy, you have to have a base to come home to, and the Progressive Caucus has offered us that. In reality, of those 72 members, only about 10 are what we would call leaders within the Progressive Caucus. Our work as Progressive Democrats of America is to strengthen those who are leading. To have a place where we as progressives can come together and work is important. Over the course of the last year or two under the leadership of Rep. Keith Ellison (D-Minn.) and Raúl Grijalva (D-Ariz.), we’ve seen the more progressive wing of the caucus hold the line, particularly in regard to making sure that no missiles were tossed into Damascus.
+            </p>
+            <p>
+              <strong>
+                Some critics of the Progressive Caucus suggest that it would be more effective to have a smaller, more aggressive caucus. What do you think?
+              </strong>
+            </p>
+            <p>
+              I agree. I would rather be in a meeting with 10 people who want to make a difference, get out and lead than be in a room with 60 people who call themselves progressives. I would rather surround myself with those who are willing to roll up their sleeves and go out and risk defeat. An aggressive, focused, principled caucus that held the line on single payer would have served our movement much better through this fight over the Affordable Care Act.
+            </p>
+            <p>
+              Steve Cobble, a co-founder of PDA, makes this analogy of the horseshoe, saying there are issues in Congress where you can link the left of the Progressive Caucus with some Tea Party, libertarian-minded Republicans. Is that an effective strategy?
+            </p>
+            <p>
+              We have political opportunities in this Congress, whether it’s the horseshoe analogy or in bed with strange bedfellows—whatever you want to term it. There are libertarians and Tea Baggers out there who agree with us that it’s unconscionable to spend the resources we do on the military budget. And we find agreement on not going into Syria. So if you can find the votes and if you can put together a majority to prevent our president from taking us into an unnecessary, illegal war, you’re going to take those votes wherever you can get them.
+            </p>
+            <p>
+              <strong>
+                What kind of small victories are achievable in this political landscape?
+              </strong>
+            </p>
+            <p>
+              I’m a glass-half-full person, so it’s not that difficult for me to find those little victories, beginning with the food stamp program. We began that fight when the Democratic Party leadership was absolutely silent. We had a phone call with Rep. Jim McGovern (D-Mass.) when PDA activists were delivering letters every month to their members of Congress in defense of food stamps. McGovern told us the Democratic Party leadership was silent on this question and that it was important that we simply have a vote of conscience to save the food stamp program. By the time it went on to the floor, we thought we had 133 votes but ended up with 188 votes [out of a possible 218 needed to win]. That was a victory. A vote of conscience in which 188 folks stood up to save food stamps. At the same time as we were garnering those votes, we were doing street actions in front of the offices of the Democratic leadership, Chief Deputy Minority Whip Debbie Wasserman Schultz (Fla.), Minority Whip Rep. Ste- ny Hoyer (Md.) and Minority Leader Nancy Pelosi (Calif.). By the time the Farm Bill came back around again then for a vote, all of those members in the leadership were on the floor voting to kill that bill.
+            </p>
+            <p>
+              An example of a major victory would be Syria. Again, our Democratic leadership was silent. Our president was willing to risk another war. And again activists around the country, led by Rep. Barbara Lee (D-Calif.), pushed Congress not to use military force but to begin a course of diplomacy.
+            </p>
+            <p>
+              <strong>
+                What do you say to the critics on the Left who would claim that the PDA mission is ultimately hopeless, that the Democratic Party is not going to be reformed, and that if you really want to build progressive political power, it necessarily has to take place outside of that framework?
+              </strong>
+            </p>
+            <p>
+              We live in a two-party system. Until we change the political realities of our two-party system, whether it be until we can get real public financing or until we can get real proportional representation, the playing field will be skewed. Before we have a third party, we need a strong second party. We’re the insurgency inside the Democratic Party fighting to return it to its progressive roots. We are hopeful that, through the work we do, we can begin to engage on the inside with those who are now on the outside and encourage them to do what they can to level the playing field.
+            </p>
+            <p>
+              <strong>
+                A lot of PDA folks were part of Dennis Kucinich’s 2004 campaign for president. How important do you think it is in 2016 to have a progressive presidential candidate?
+              </strong>
+            </p>
+            <p>
+              That’s a big debate. We need to be realistic. We are not going to elect a progressive president in 2016, just as we weren’t going to elect a progressive president in 2004, though Kucinich certainly didn’t want to hear it at the time. But if we’re going to transform the Democratic Party it’s important that we put in place a vision of what the Democratic Party can look like under a progressive presidency. So for that reason alone we need to have a horse in the race in 2016 who will challenge Hillary Clinton, the presumptive nominee. We need to re- mind folks that Hillary was wrong on the war in Iraq and she was wrong on trade. There are a lot of issues that as progressive Democrats we would want to challenge her on.
+            </p>
+            <p>
+              The Democratic Party, at its roots, is a progressive party. So my hope is that we would have a candidate who will be the standard-bearer for the progressive Democrats. I see the tide turning. It’s imperative that the progressive movement run a strong, articulate progressive candidate and campaign in 2016.
+            </p>
+            <p>
+              <strong>
+                Given that you are waging an uphill battle against cancer, have you been preparing for what’s going to happen with PDA?
+              </strong>
+            </p>
+            <p>
+              You’re definitely putting the elephant in the room in talking about the fact that I’ve got a terminal illness. It’s a question we’re wrestling with. The short answer is we honestly don’t know. We’re not a card-carrying organization; we’re a community of people. We’re going to meet in February as a community and we’ll talk about it. The work’s going to continue and I hope to be as productive, or even more productive, as we move on to the 2014 election season.
+            </p>
+            <div style="clear:both;">
+            </div>
+            <div class="postmeta2">
+              <p>
+                <span class="tags">
+                  Tags: 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/pda">
+                    PDA
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/progressive-democrats-of-america">
+                    Progressive Democrats of America
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/single-payer-healthcare">
+                    Single Payer Healthcare
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/tim-carpenter">
+                    Tim Carpenter
+                  </a>
+                </span>
+              </p>
+            </div>
+            <h1>
+              <a rel="bookmark" href="http://www.healthcare-now.org/millions-of-poor-are-left-uncovered-by-health-law">
+                Millions of Poor Are Left Uncovered by Health Law
+              </a>
+            </h1>
+            <div class="date">
+              <div class="dateleft">
+                <p>
+                  <span class="time">
+                    October 9, 2013
+                  </span>
+                   by 
+                  <a rel="author" title="Posts by Healthcare-NOW!" href="http://www.healthcare-now.org/author/jtmhcn">
+                    Healthcare-NOW!
+                  </a>
+                     
+                  <br/>
+                   Filed under 
+                  <a rel="category tag" title="View all posts in Single-Payer News" href="http://www.healthcare-now.org/category/single-payer-news">
+                    Single-Payer News
+                  </a>
+                </p>
+              </div>
+              <div class="dateright">
+                <p>
+                  <span class="comment">
+                    <a title="Comment on Millions of Poor Are Left Uncovered by Health Law" href="http://www.healthcare-now.org/millions-of-poor-are-left-uncovered-by-health-law#comments">
+                      1 Comment
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <p>
+              From the 
+              <a target="_blank" href="http://www.nytimes.com/2013/10/03/health/millions-of-poor-are-left-uncovered-by-health-law.html?hp&amp;_r=1&amp;pagewanted=all&amp;">
+                New York Times
+              </a>
+               – 
+            </p>
+            <p>
+              A sweeping national effort to extend health coverage to millions of Americans will leave out two-thirds of the poor blacks and single mothers and more than half of the low-wage workers who do not have insurance, the very kinds of people that the program was intended to help, according to an analysis of census data by The New York Times. 
+            </p>
+            <p>
+               Because they live in states largely controlled by Republicans that have declined to participate in a vast expansion of Medicaid, the medical insurance program for the poor, they are among the eight million Americans who are impoverished, uninsured and ineligible for help. The federal government will pay for the expansion through 2016 and no less than 90 percent of costs in later years.
+            </p>
+            <p>
+              Those excluded will be stranded without insurance, stuck between people with slightly higher incomes who will qualify for federal subsidies on the new health exchanges that went live this week, and those who are poor enough to qualify for Medicaid in its current form, which has income ceilings as low as $11 a day in some states.
+            </p>
+            <p>
+              People shopping for insurance on the health exchanges are already discovering this bitter twist.
+            </p>
+            <p>
+              “How can somebody in poverty not be eligible for subsidies?” an unemployed health care worker in Virginia asked through tears. The woman, who identified herself only as Robin L. because she does not want potential employers to know she is down on her luck, thought she had run into a computer problem when she went online Tuesday and learned she would not qualify.
+            </p>
+            <p>
+              At 55, she has high blood pressure, and she had been waiting for the law to take effect so she could get coverage. Before she lost her job and her house and had to move in with her brother in Virginia, she lived in Maryland, a state that is expanding Medicaid. “Would I go back there?” she asked. “It might involve me living in my car. I don’t know. I might consider it.”
+            </p>
+            <p>
+              The 26 states that have rejected the Medicaid expansion are home to about half of the country’s population, but about 68 percent of poor, uninsured blacks and single mothers. About 60 percent of the country’s uninsured working poor are in those states. Among those excluded are about 435,000 cashiers, 341,000 cooks and 253,000 nurses’ aides.
+            </p>
+            <p>
+              “The irony is that these states that are rejecting Medicaid expansion — many of them Southern — are the very places where the concentration of poverty and lack of health insurance are the most acute,” said Dr. H. Jack Geiger, a founder of the community health center model. “It is their populations that have the highest burden of illness and costs to the entire health care system.”
+            </p>
+            <p>
+              The disproportionate impact on poor blacks introduces the prickly issue of race into the already politically charged atmosphere around the health care law. Race was rarely, if ever, mentioned in the state-level debates about the Medicaid expansion. But the issue courses just below the surface, civil rights leaders say, pointing to the pattern of exclusion.
+            </p>
+            <p>
+              Every state in the Deep South, with the exception of Arkansas, has rejected the expansion. Opponents of the expansion say they are against it on exclusively economic grounds, and that the demographics of the South — with its large share of poor blacks — make it easy to say race is an issue when it is not.
+            </p>
+            <p>
+              In Mississippi, Republican leaders note that a large share of people in the state are on Medicaid already, and that, with an expansion, about a third of the state would have been insured through the program. Even supporters of the health law say that eventually covering 10 percent of that cost would have been onerous for a predominantly rural state with a modest tax base.
+            </p>
+            <p>
+              “Any additional cost in Medicaid is going to be too much,” said State Senator Chris McDaniel, a Republican, who opposes expansion.
+            </p>
+            <p>
+              The law was written to require all Americans to have health coverage. For lower and middle-income earners, there are subsidies on the new health exchanges to help them afford insurance. An expanded Medicaid program was intended to cover the poorest. In all, about 30 million uninsured Americans were to have become eligible for financial help.
+            </p>
+            <p>
+              But the Supreme Court’s ruling on the health care law last year, while upholding it, allowed states to choose whether to expand Medicaid. Those that opted not to leave about eight million uninsured people who live in poverty ($19,530 for a family of three) without any assistance at all.
+            </p>
+            <p>
+              Poor people excluded from the Medicaid expansion will not be subject to fines for lacking coverage. In all, about 14 million eligible Americans are uninsured and living in poverty, the Times analysis found.
+            </p>
+            <p>
+              The federal government provided the tally of how many states were not expanding Medicaid for the first time on Tuesday. It included states like New Hampshire, Ohio, Pennsylvania and Tennessee that might still decide to expand Medicaid before coverage takes effect in January. If those states go forward, the number would change, but the trends that emerged in the analysis would be similar.
+            </p>
+            <p>
+              Mississippi has the largest percentage of poor and uninsured people in the country — 13 percent. Willie Charles Carter, an unemployed 53-year-old whose most recent job was as a maintenance worker at a public school, has had problems with his leg since surgery last year.
+            </p>
+            <p>
+              His income is below Mississippi’s ceiling for Medicaid — which is about $3,000 a year — but he has no dependent children, so he does not qualify. And his income is too low to make him eligible for subsidies on the federal health exchange.
+            </p>
+            <p>
+              “You got to be almost dead before you can get Medicaid in Mississippi,” he said.
+            </p>
+            <p>
+              He does not know what he will do when the clinic where he goes for medical care, the Good Samaritan Health Center in Greenville, closes next month because of lack of funding.
+            </p>
+            <p>
+              “I’m scared all the time,” he said. “I just walk around here with faith in God to take care of me.”
+            </p>
+            <p>
+              The states that did not expand Medicaid have less generous safety nets: For adults with children, the median income limit for Medicaid is just under half of the federal poverty level — or about $5,600 a year for an individual — while in states that are expanding, it is above the poverty line, or about $12,200, according to the Kaiser Family Foundation. There is little or no coverage of childless adults in the states not expanding, Kaiser said.
+            </p>
+            <p>
+              The New York Times analysis excluded immigrants in the country illegally and those foreign-born residents who would not be eligible for benefits under Medicaid expansion. It included people who are uninsured even though they qualify for Medicaid in its current form.
+            </p>
+            <p>
+              Blacks are disproportionately affected, largely because more of them are poor and living in Southern states. In all, 6 out of 10 blacks live in the states not expanding Medicaid. In Mississippi, 56 percent of all poor and uninsured adults are black, though they account for just 38 percent of the population.
+            </p>
+            <p>
+              Dr. Aaron Shirley, a physician who has worked for better health care for blacks in Mississippi, said that the history of segregation and violence against blacks still informs the way people see one another, particularly in the South, making some whites reluctant to support programs that they believe benefit blacks.
+            </p>
+            <p>
+              That is compounded by the country’s rapidly changing demographics, Dr. Geiger said, in which minorities will eventually become a majority, a pattern that has produced a profound cultural unease, particularly when it has collided with economic insecurity.
+            </p>
+            <p>
+              Dr. Shirley said: “If you look at the history of Mississippi, politicians have used race to oppose minimum wage, Head Start, all these social programs. It’s a tactic that appeals to people who would rather suffer themselves than see a black person benefit.”
+            </p>
+            <p>
+              Opponents of the expansion bristled at the suggestion that race had anything to do with their position. State Senator Giles Ward of Mississippi, a Republican, called the idea that race was a factor “preposterous,” and said that with the demographics of the South — large shares of poor people and, in particular, poor blacks — “you can argue pretty much any way you want.”
+            </p>
+            <p>
+              The decision not to expand Medicaid will also hit the working poor. Claretha Briscoe earns just under $11,000 a year making fried chicken and other fast food at a convenience store in Hollandale, Miss., too much to qualify for Medicaid but not enough to get subsidies on the new health exchange. She had a heart attack in 2002 that a local hospital treated as part of its charity care program.
+            </p>
+            <p>
+              “I skip months on my blood pressure pills,” said Ms. Briscoe, 48, who visited the Good Samaritan Health Center last week because she was having chest pains. “I buy them when I can afford them.”
+            </p>
+            <p>
+              About half of poor and uninsured Hispanics live in states that are expanding Medicaid. But Texas, which has a large Hispanic population, rejected the expansion. Gladys Arbila, a housekeeper in Houston who earns $17,000 a year and supports two children, is under the poverty line and therefore not eligible for new subsidies. But she makes too much to qualify for Medicaid under the state’s rules. She recently spent 36 hours waiting in the emergency room for a searing pain in her back.
+            </p>
+            <p>
+              “We came to this country, and we are legal and we work really hard,” said Ms. Arbila, 45, who immigrated to the United States 12 years ago, and whose son is a soldier in Afghanistan. “Why we don’t have the same opportunities as the others?”
+            </p>
+            <div style="clear:both;">
+            </div>
+            <div class="postmeta2">
+              <p>
+                <span class="tags">
+                  Tags: 
+                </span>
+              </p>
+            </div>
+            <h1>
+              <a rel="bookmark" href="http://www.healthcare-now.org/health-laws-ailments-can-be-cured-by-single-payer-system">
+                Health law’s ailments can be cured by single-payer system
+              </a>
+            </h1>
+            <div class="date">
+              <div class="dateleft">
+                <p>
+                  <span class="time">
+                    September 11, 2013
+                  </span>
+                   by 
+                  <a rel="author" title="Posts by Healthcare-NOW!" href="http://www.healthcare-now.org/author/jtmhcn">
+                    Healthcare-NOW!
+                  </a>
+                     
+                  <br/>
+                   Filed under 
+                  <a rel="category tag" title="View all posts in Single-Payer News" href="http://www.healthcare-now.org/category/single-payer-news">
+                    Single-Payer News
+                  </a>
+                </p>
+              </div>
+              <div class="dateright">
+                <p>
+                  <span class="comment">
+                    <a title="Comment on Health law’s ailments can be cured by single-payer system" href="http://www.healthcare-now.org/health-laws-ailments-can-be-cured-by-single-payer-system#respond">
+                      Leave a Comment
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <p>
+              <em>
+                All the shortcomings of the healthcare restructuring result from the decision to leave it in the hands of private insurers.
+              </em>
+            </p>
+            <p>
+              By 
+              <a target="_blank" href="http://www.latimes.com/business/la-fi-hiltzik-20130911,0,2211922.column">
+                Michael Hiltzik for the LA Times
+              </a>
+               – 
+            </p>
+            <p>
+              With the Oct. 1 rollout of a major facet of the Affordable Care Act on the horizon, you’ll be hearing a lot about the glitches, loopholes and shortcomings of this most important restructuring of America’s healthcare system in our lifetimes. Here are a couple of things to keep in mind:
+            </p>
+            <p>
+              First, the vast majority of these issues result from one crucial compromise made in the drafting of the 2010 law, ostensibly to ease its passage through Congress. That was to leave the system in the hands of private health insurance companies.
+            </p>
+            <p>
+              Second, there’s an obvious way to correct this flaw: The country should progress on to a single-payer system.
+            </p>
+            <p>
+              The idea that the ACA is a logical precursor to single-payer, in which the government would be the source of all medical reimbursement, has been gaining traction as key thresholds for 
+              <a href="/topic/economy-business-finance/financial-business-services/healthcare-access/health-care-reform-%282009%29-EVHST0000197.topic" title="Health Care Reform (2009)" id="EVHST0000197" class="taxInlineTagLink">
+                healthcare reform
+              </a>
+               approach. The biggest milestone is the Oct. 1 launch of open enrollment for the health insurance exchanges that will offer individual insurance starting Jan. 1.
+            </p>
+            <p>
+              Last month, Senate Majority Leader 
+              <a href="http://bit.ly/1axxHkp">
+                Harry Reid made that point
+              </a>
+               in a Nevada news broadcast, calling the ACA “a step in the right direction” but adding that the U.S. would have to “work our way past” private insurance-based healthcare. “We’re far from having something that’s going to work forever,” he said.
+            </p>
+            <p>
+              “There isn’t a popular groundswell yet” for a single-payer plan “because most people haven’t seen the ACA at work in detail yet,” says David Himmelstein, a professor of public health at the 
+              <a href="/topic/education/colleges-universities/city-university-of-new-york-OREDU000094.topic" title="City University of New York" id="OREDU000094" class="taxInlineTagLink">
+                City University of New York
+              </a>
+               and co-founder of Physicians for a National Health Program, the leading advocacy group for single-payer healthcare. But he anticipates that discontent will start in October “and accelerate through the winter.”
+            </p>
+            <p>
+              Among the law’s shortcomings, he says, are the lack of effective provisions to control healthcare costs and insurance premiums. Premium regulation remains in the hands of the states, and many don’t have strong regulatory oversight of health insurance. In California, health insurance premiums are exempt from prior approval by the insurance commissioner, unlike home and auto insurance. (An initiative to remove the exemption will appear on the November 2014 ballot.)
+            </p>
+            <p>
+              That’s not to say that the ACA won’t make health insurance more affordable and accessible to millions of Americans now excluded from the market. Published exchange premiums in 18 states have generally come in below expectations, and the federal subsidies available to most buyers will make them cheaper still.
+            </p>
+            <p>
+              In some cases the premiums may be higher than those of plans on the market now. But because of exclusions for preexisting conditions — which will no longer be legal — they’re actually unavailable at any price to people who will have no trouble qualifying for the exchange plans.
+            </p>
+            <p>
+              The ACA’s critics observe that a plurality of Americans still view the ACA unfavorably (43%, according to an opinion poll released in June by the Kaiser Family Foundation). They rarely acknowledge, however, that nearly 1 in 5 of those critics think the law doesn’t go far enough — that is, further toward single-payer.
+            </p>
+            <p>
+              In its earliest incarnation, the Affordable Care Act included a prototype government single-payer provision — the “public option,” a government-sponsored plan to compete with commercial insurers in the exchanges. The public option was deleted at the insurance industry’s insistence.
+            </p>
+            <p>
+              But the U.S. does offer a healthcare program that resembles single-payer. It’s 
+              <a href="/topic/health/government-health-care/medicare-HEPRG00002.topic" title="Medicare" id="HEPRG00002" class="taxInlineTagLink">
+                Medicare
+              </a>
+              , the broadly popular health plan that covers all Americans over 65. Medicare’s administrative costs are only about 2%, and its size gives it the clout to extract large discounts from doctors and hospitals. That’s why one oft-proposed version of single-payer is “Medicare for all” — simply expand its coverage beyond the 65-plus.
+            </p>
+            <p>
+              Canada’s single-payer system is another model. It’s popular and efficient and costs about one-third of America’s system to administer. 
+              <a href="http://bit.ly/1aZ2Dtg">
+                Don’t believe the myths
+              </a>
+               purveyed about Canada’s healthcare by the U.S. insurance industry’s minions.
+            </p>
+            <p>
+              As health economist Aaron Carroll has documented, Canadian patients and doctors are satisfied with the program. As for the contention that it “rations” care, he points out that care in the U.S. is rationed by cost: one-third of adult Americans surveyed by the Commonwealth Fund in 2010 said they had put off important treatment because of the cost. In Canada, the figure was 15%.
+            </p>
+            <p>
+              There’s little question that taking private insurers out of the American healthcare system would save hundreds of billions of dollars a year. 
+              <a href="http://www.pnhp.org/facts/single-payer-system-cost">
+                Dozens of studies
+              </a>
+               of federal and state single-payer proposals have found that single-payer plans could provide universal coverage — not even the ACA does that — and still save money.
+            </p>
+            <p>
+              Estimates of the administrative costs of commercial health insurers exceed 10%. That doesn’t include the costs to doctors and hospitals of maintaining billing staffs to deal with insurers and keep all their rules and peculiarities straight, or the time lost to individuals and their employers of navigating this unnecessarily byzantine system.
+            </p>
+            <p>
+              Add those, and the overall administrative costs embedded in the U.S. healthcare system come to 
+              <a href="http://www.pnhp.org/publications/nejmadmin.pdf">
+                31% of all spending,
+              </a>
+               according to a 2003 article co-written by Himmelstein for the New England Journal of Medicine. Administrative and clerical workers accounted for nearly 44% of all employees in doctors’ offices, they calculated.
+            </p>
+            <p>
+              What do Americans receive in return for all this overhead? Practically nothing. The insurance industry says its role is to hold down costs by negotiating for preferential fees from doctors and hospitals and trolling for abuses, but the truth is they’re totally ineffective at cost control.
+            </p>
+            <p>
+              Just last year I reported on 
+              <a href="http://articles.latimes.com/2012/jul/11/business/la-fi-hiltzik-20120711">
+                an admission by Aetna and United Healthcare,
+              </a>
+               two of our biggest insurers, that they had been snookered to the tune of $60 million by one chain of small surgical clinics in Northern California. That happened because the insurers didn’t hire enough staff to give the claims from those clinics decent scrutiny — in other words, their administrative costs, high as they were, didn’t buy adequate oversight.
+            </p>
+            <p>
+              The result, to cite just one example, was that United paid the chain more than $97,000 for a kidney stone operation that it usually covers for $6,851.
+            </p>
+            <p>
+              “Private insurance is a parasite in the system,” says Arnold S. Relman, the former editor of the New England Journal of Medicine and an advocate of healthcare reform. “It adds nothing of value commensurate with its cost.”
+            </p>
+            <p>
+              Relman believes that fixing the healthcare system will require more than single-payer. The delivery of care needs to be reorganized by promoting the formation of more “accountable care organizations” — medium- and large-scale group practices with hospital affiliates whose physicians would be salaried to discourage the overuse fostered by the fee-for-service system.
+            </p>
+            <p>
+              What’s really needed is political will. It would help if big companies, which grouse incessantly about the rising costs of covering their employees, would throw their weight behind a system that would relieve them of that burden.
+            </p>
+            <p>
+              The forces of opposition won’t lie down; the insurance industry won’t give up its central role in the healthcare system without a costly and bruising fight, as it showed in Congress and in numerous states, including California, where single-payer plans were on the table.
+            </p>
+            <p>
+              “It’s going to be a slow and painful process,” Relman says. “But sooner or later we’ll have to turn to single-payer. It’s the only logical solution.”
+            </p>
+            <div style="clear:both;">
+            </div>
+            <div class="postmeta2">
+              <p>
+                <span class="tags">
+                  Tags: 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/aca">
+                    ACA
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/obamacare">
+                    Obamacare
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/single-payer">
+                    Single-Payer
+                  </a>
+                </span>
+              </p>
+            </div>
+            <h1>
+              <a rel="bookmark" href="http://www.healthcare-now.org/lets-talk-about-health-care-and-i-dont-mean-the-aca">
+                Let’s Talk About Health Care and I Don’t Mean the ACA
+              </a>
+            </h1>
+            <div class="date">
+              <div class="dateleft">
+                <p>
+                  <span class="time">
+                    August 13, 2013
+                  </span>
+                   by 
+                  <a rel="author" title="Posts by Healthcare-NOW!" href="http://www.healthcare-now.org/author/jtmhcn">
+                    Healthcare-NOW!
+                  </a>
+                     
+                  <br/>
+                   Filed under 
+                  <a rel="category tag" title="View all posts in Single-Payer News" href="http://www.healthcare-now.org/category/single-payer-news">
+                    Single-Payer News
+                  </a>
+                </p>
+              </div>
+              <div class="dateright">
+                <p>
+                  <span class="comment">
+                    <a title="Comment on Let’s Talk About Health Care and I Don’t Mean the ACA" href="http://www.healthcare-now.org/lets-talk-about-health-care-and-i-dont-mean-the-aca#comments">
+                      12 Comments
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <p>
+              By 
+              <a target="_blank" href="http://www.nationalnursesunited.org/blog/entry/lets-talk-about-health-care-and-i-dont-mean-the-aca/">
+                Deborah Burger, RN and NNU Co-president
+              </a>
+               – 
+            </p>
+            <p>
+              Let’s talk about health care. I don’t mean debating the  Affordable Care Act. I mean health care, as in: If everyone needs health  care, guarantee that everybody gets it.
+            </p>
+            <p>
+              I know, when it comes to health care, it’s easy to get into a debate  for or against Obamacare. But we nurses see the world through a  different lens: our patients.
+            </p>
+            <p>
+              Share this video of nurses summing up why everyone in the U.S. needs &amp; deserves healthcare:
+            </p>
+            <p>
+              <iframe width="500" height="281" frameborder="0" src="//www.youtube.com/embed/oYSnFjvVvuE">
+              </iframe>
+            </p>
+            <p>
+              Good health care is a fundamental resource that keeps America’s big  engine running. Every day, as we do our best to care for our patients,  nurses see people with chronic disease like asthma or diabetes who can’t  afford insurance costs or medication. Maybe they’re absent from work,  tired, and distracted from trying to manage their health on a  shoestring. They run the risk of hospitalization. They struggle for a  distant unreachable shore hoping something will help. They can’t get  ahead because their health keeps dragging them down. 
+            </p>
+            <p>
+              And yet the answer isn’t on the horizon, the answer is in our  pockets, in our hands. It’s our taxes. We pay them and we ought to  benefit from them.
+            </p>
+            <p>
+              There’s one thing that every American does. Every working American  (OK, except the Wall Street crowd) pays taxes. But what do we pay taxes  for? Increasingly, we wonder where our money is going, how our money is  serving our communities, and how our tax money is helping us and our  families.
+            </p>
+            <p>
+              There are dozens of arguments about what our tax dollars should be  doing. But what if we spent a portion of our tax dollars on the one  thing that would position every American, young and old, on the road to  success? That one thing is good health. You need it to go to school, get  to your job, excel at what you do, and dream big dreams that will make  our country great again.
+            </p>
+            <p>
+              We must do better and nurses have a solution. The United States ranks  first in costs but 37th in health outcomes in the world. We do even  worse for infant morality and life expectancy.
+              <br/>
+               So nurses are proposing another way. We’re saying that our taxes should  help pay for our healthcare. It works for seniors, it works for Congress  members, and it will work for all of us.
+            </p>
+            <p>
+              This week, we launched an online campaign, asking voters to demand this from Congress. You can learn more about the 
+              <a target="_hplink" href="http://www.nationalnursesunited.org/press/entry/nurses-unveil-bold-new-ad-charting-third-way-in-healthcare-debate/">
+                online campaign here.
+              </a>
+            </p>
+            <p>
+              <a title="sample-nnu-banner-ads by NationalNursesUnited-WEB, on Flickr" href="http://www.flickr.com/photos/58326394@N04/9460068153/">
+                <img width="640" height="177" src="http://farm8.staticflickr.com/7443/9460068153_fd1434e241_z.jpg" alt="sample-nnu-banner-ads"/>
+              </a>
+              <br/>
+               Ads appearing online this week.
+            </p>
+            <p>
+              We’re talking about something that already exists for some, right  here in the United States of America, and what can easily exist for  everyone. A tax-funded national healthcare system would negotiate prices  for prescription drugs, medical devices and services, specialists and  more, effectively lowering the cost of delivering care. Taxpayers don’t  have to worry about paying for someone else’s care. You’ll be paying for  your own care, your family’s care, without raising taxes at all.
+            </p>
+            <p>
+              Since the tax subsidies to buy insurance under the ACA mostly move  money around to pay for private insurance for some that don’t have it,  and which allows the insurers to take 20 cents off the dollar, it would  be more efficient to uses taxes to pay for everybody’s healthcare  directly, eliminating the middleman and the shell game.
+            </p>
+            <p>
+              <img width="600" height="443" title="international healthcare cost chart" src="http://farm4.staticflickr.com/3748/9465410621_dd67c09db3_z.jpg" alt="international healthcare cost chart"/>
+              <br/>
+              International healthcare cost vs. quality chart.
+            </p>
+            <p>
+              We are reaching inside the box to think outside the box; we are  charting a third way. It’s time to rediscover healthcare as care rather  than insurance for the first time in a long time, and let the taxes we  already pay deliver what every American needs.
+            </p>
+            <div style="clear:both;">
+            </div>
+            <div class="postmeta2">
+              <p>
+                <span class="tags">
+                  Tags: 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/medicare-for-all">
+                    medicare for all
+                  </a>
+                  , 
+                  <a rel="tag" href="http://www.healthcare-now.org/tag/single-payer">
+                    Single-Payer
+                  </a>
+                </span>
+              </p>
+            </div>
+            <p>
+              <a href="http://www.healthcare-now.org/page/2?s=family">
+                Next Page »
+              </a>
+            </p>
+          </div>
+        </div>
+        <!-- begin sidebar -->        <div id="sidebar">
+          <div class="video">
+            <h2>
+              Sign Up!
+            </h2>
+            <p>
+              Sign up to receive free monthly Healthcare-NOW! email updates and/or action alerts.
+            </p>
+            <p>
+            </p>
+            <form action="http://hq-salsa.wiredforchange.com/save">
+              <style>
+                .memberCode{display:none;}
+              </style>
+              <div class="memberCode">
+                 Optional Member Code 
+                <input value="" name="first_name_949" type="text"/>
+              </div>
+              <input type="hidden" value="supporter" name="table"/>
+              <input type="hidden" value="6055" name="organization_KEY"/>
+              <input type="hidden" value="groups" name="link"/>
+              <input type="hidden" value="44156" name="linkKey"/>
+              <input type="hidden" value="groups" name="link"/>
+              <input type="hidden" value="43764" name="linkKey"/>
+              <input type="hidden" value="Healthcare-NOW! Supporter" id="tag" name="tag"/>
+              <input type="hidden" value="http://www.healthcare-now.org/about/thank-you/sign-up-thank-you" name="redirect"/>
+              <input type="hidden" value="6013" name="email_trigger_KEYS"/>
+              <input type="text" name="Email" onblur="if ( this.value == '' ) { this.value = 'Enter your email address'; }" onfocus="if ( this.value == 'Enter your email address') { this.value = ''; }" id="subbox" value="Enter your email address"/>
+              <input type="submit" value="Sign Up"/>
+            </form>
+            <p>
+            </p>
+          </div>
+          <div class="video">
+            <h2>
+              Donate!
+            </h2>
+            <p>
+              Healthcare-NOW! survives on the generosity of our supporters. Please become a member by donating on our secure server today!
+            </p>
+            <p align="center">
+              <a href="https://salsa.wiredforchange.com/o/6055/p/salsa/donation/common/public/?donate_page_KEY=3152">
+                <img border="0" alt="Donate" src="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/images/donate.gif"/>
+              </a>
+            </p>
+            <p>
+              Get your single-payer bumper stickers and pins here!
+            </p>
+            <p align="center">
+              <a href="https://salsa.wiredforchange.com/o/6055/t/5756/shop/shop.jsp?storefront_KEY=173">
+                <img border="0" alt="Store" src="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/images/store.gif"/>
+              </a>
+            </p>
+          </div>
+          <div class="video">
+            <h2>
+              Facebook!
+            </h2>
+            <p>
+              Follow us on Facebook.
+            </p>
+            <iframe scrolling="no" frameborder="0" allowtransparency="true" style="border:none; overflow:hidden; width:290px; height:80px;" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FHealthcareNow&amp;send=false&amp;layout=standard&amp;width=290&amp;show_faces=true&amp;font&amp;colorscheme=light&amp;action=like&amp;height=80" class="yrdnafyjmybfaxrqrpwm">
+            </iframe>
+          </div>
+          <div class="video">
+            <h2>
+              Find Us On
+            </h2>
+            <table width="300">
+              <tbody>
+                <tr align="center">
+                  <td>
+                    <p>
+                      <a href="http://twitter.com/hcnow">
+                        <img alt="Twitter" src="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/images/twitter_logo.png" class="yrdnafyjmybfaxrqrpwm"/>
+                      </a>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <a href="http://www.facebook.com/HealthcareNow">
+                        <img alt="Facebook" src="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/images/facebook-logo.jpg" class="yrdnafyjmybfaxrqrpwm"/>
+                      </a>
+                    </p>
+                  </td>
+                </tr>
+                <tr align="center">
+                  <td>
+                    <p>
+                      <a href="http://www.youtube.com/user/healthcarenow4all">
+                        <img alt="YouTube" src="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/images/youtube_logo.jpg" class="yrdnafyjmybfaxrqrpwm"/>
+                      </a>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <a href="http://flickr.com/photos/30648929@N04/">
+                        <img alt="Flickr" src="http://www.healthcare-now.org/wp-content/themes/revolution_city_gray-10/images/flickr-logo.jpg"/>
+                      </a>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!-- end sidebar -->      </div>
+      <!-- The main column ends  -->      <script type="text/javascript" src="http://www.healthcare-now.org/wp-content/plugins/shutter-reloaded//shutter-reloaded.js?ver=2.5">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+	var shutterSettings = {"imgDir":"http:\/\/www.healthcare-now.org\/wp-content\/plugins\/shutter-reloaded\/\/menu\/","imageCount":false,"FS":false,"textBtns":false,"oneSet":false};
+	try{shutterReloaded.init();}catch(e){}	
+//]]>
+      </script>
+      <!-- begin footer -->      <div style="clear:both;">
+      </div>
+      <div id="footer">
+        <p>
+          Built by 
+          <a href="http://www.CityInvincible.org">
+            Jeff M.
+          </a>
+           · 
+          <a href="http://www.healthcare-now.org">
+            Healthcare-NOW!
+          </a>
+           · 1315 Spruce St., Philadelphia, PA 19107 · 
+          <a href="http://www.healthcare-now.org/category/news/">
+            Single-Payer Updates
+          </a>
+           · 
+          <a href="http://www.healthcare-now.org/category/single-payer-news/">
+            Single-Payer News
+          </a>
+           · 
+          <a href="http://www.healthcare-now.org/about/terms/">
+            Terms and Conditions
+          </a>
+        </p>
+      </div>
+      <script src="http://www.healthcare-now.org/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3" type="text/javascript">
+      </script>
+      <script src="http://www.healthcare-now.org/wp-includes/js/jquery/ui/jquery.ui.datepicker.min.js?ver=1.10.3" type="text/javascript">
+      </script>
+    </div>
+    <!-- Google Analytics -->    <script type="text/javascript" src="http://www.google-analytics.com/urchin.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+_uacct = "UA-361306-2";
+urchinTracker();
+
+//]]>
+    </script>
+  </body>
+</html>

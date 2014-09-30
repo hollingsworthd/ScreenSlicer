@@ -1,0 +1,3618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html class="ie8 lt-ie9" lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+  <!--<![endif]-->  <!-- stopgap_start -->  <head>
+    <script async="" src="http://search.twitter.com/search.json?callback=jQuery17107865445483236829_1398157213107&amp;include_rts=true&amp;rpp=6&amp;q=family+Reds&amp;_=1398157214698">
+    </script>
+    <!-- h:2d0808d590ce553dae7af757a31e3549 -->    <title>
+      reds.com: Search
+    </title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+    <meta content="en" http-equiv="content-language"/>
+    <meta content="" name="description"/>
+    <meta content="en" name="language"/>
+    <meta content="Cincinnati Reds" property="og:title"/>
+    <meta content="Cincinnati Reds" itemprop="name"/>
+    <link href="http://cincinnati.reds.mlb.com/search/?query=family&amp;c_id=cin" rel="canonical"/>
+    <meta content="http://cincinnati.reds.mlb.com/search/?query=family&amp;c_id=cin" property="og:url"/>
+    <meta content="http://cincinnati.reds.mlb.com/mlb/images/team_logos/social_media/og/cin.jpg" property="og:image"/>
+    <meta content="website" property="og:type"/>
+    <meta content="Cincinnati Reds" property="og:site_name"/>
+    <meta content="7848098180" property="fb:app_id"/>
+    <meta content="http://cincinnati.reds.mlb.com/mlb/images/team_logos/social_media/og/cin.jpg" itemprop="image"/>
+    <link href="http://cincinnati.reds.mlb.com/mlb/images/team_logos/social_media/og/cin.jpg" rel="image_src"/>
+    <link href="/style/global.css" rel="stylesheet" type="text/css"/>
+    <link href="/style/cin.css" rel="stylesheet" type="text/css"/>
+    <link href="/shared/scripts/external/themes/jquery-ui/custom-theme/jquery-ui-1.8.custom.css" rel="stylesheet" type="text/css"/>
+    <link href="/shared/style/jquery-ui-1.8.8.custom.css" rel="stylesheet" type="text/css"/>
+    <link href="/style/header/mlb_header_account_2012.css" rel="stylesheet" type="text/css"/>
+    <link href="/shared/css/facebook_button.css" rel="stylesheet" type="text/css"/>
+    <link href="/shared/css/widget/bam.buttons.css" rel="stylesheet" type="text/css"/>
+    <link href="/style/bam.css.jsp?c_id=cin" rel="stylesheet" type="text/css"/>
+    <link href="/components/search/style/search2011.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+var club      = "cin",
+    section   = "search",
+    ctxPath   = "",
+    page_id   = "index",
+    pageid    = "index",
+    dc_keyVal = "",
+    dc_lang   = "en",
+    sysdate   = "201404220500";
+
+//]]>
+    </script>
+    <script src="/shared/scripts/ie/ie8.es5shim.min.js">
+    </script>
+    <script src="/shared/scripts/external/jquery.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/external/jquery-etc/jquery.etc.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/external/jquery-enable/0.6.0/jquery.enable.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/external/jquery-sajax/jquery.sajax.min.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/external/jquery-template/jquery.template.min.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/external/jquery-validate/1.9/jquery.validate.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+if(!Function.prototype.bind){Function.prototype.bind=function(c){return $.proxy(this,c)}}
+//]]>
+    </script>
+    <script src="/shared/scripts/external/jquery-ui.1.8.8.bamcore.min.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/external/jquery-ui/1.8.9/jquery.ui.autocomplete.min.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/external/jquery-ui/1.8.9/jquery.ui.autocomplete.html.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/external/jquery-ui/1.8.9/jquery.ui.dialog.min.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/flashobject.js" type="text/javascript">
+    </script>
+    <script src="/scripts/global.js" type="text/javascript">
+    </script>
+    <script src="/scripts/legacy.js" type="text/javascript">
+    </script>
+    <script src="/scripts/util/playMedia.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/bam.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/jsloader.min.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/bam/required.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/bam.media.js" type="text/javascript">
+    </script>
+    <script src="/scripts/mediaplayer/mlb_player.js" type="text/javascript">
+    </script>
+    <script src="/scripts/util/external_players.js" type="text/javascript">
+    </script>
+    <script src="/scripts/dc_ads.js" type="text/javascript">
+    </script>
+    <script src="/scripts/util/json_source_autocomplete.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/serviceClients/registrationServiceUtils_client.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/serviceClients/identityPointService_client.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/account/UserAccountStatus.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/bam/bam.session.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/bam/bam.xd.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/bam/bam.fbconnect.js" type="text/javascript">
+    </script>
+    <script src="/shared/scripts/bam/bam.opengraph.js" type="text/javascript">
+    </script>
+    <script src="/scripts/account_management/mlb_fbconnect.js" type="text/javascript">
+    </script>
+    <script src="/scripts/account_management/myAccountMini/myaccountmini.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+
+(function ($, bam) {
+  bam.env = bam.env || {};
+  bam.env.host = bam.env.host || {};
+  $.extend(bam.env.host, {
+      getWebCacheServerURL : function () {
+          return "http://mlb.mlb.com";
+      },
+      getSSLServerURL : function () { 
+          return "https://secure.mlb.com";
+      },
+      getServerURL : function () {
+          return "http://www.mlb.com"; 
+      }
+  });
+  bam.I18N = 'en';
+  bam.EASTERN_OFFSET = -400;
+  bam.getEasternDate = function () {
+    return bam.getDateByOffset(bam.EASTERN_OFFSET);
+  };
+  bam.EASTERN_TIME = bam.getEasternDate();
+  var flips = {
+    global: '04/22/2014 11:00 AM GMT-400'
+  };
+
+  bam.getFlipDate = function (club) {
+    return new Date(flips[club || window.club] || flips.global);
+  };
+
+  bam.getFlipDisplayDate = function (club) {
+    var flip = bam.getFlipDate(club);
+    if (new Date() &lt; flip) {
+      flip.setDate(flip.getDate() - 1);
+    }
+    return $.floorDate('day', flip);
+  };
+
+})(jQuery, bam);
+
+var swapFLAforMIA = (function(){
+  var c_id = bam.url.Location(window.location).getParam("c_id");
+  if(c_id !== undefined &amp;&amp; c_id.toLowerCase() === "fla"){
+    $.getScript("/shared/scripts/external/jquery.ba-bbq.min.js", function(x){
+      window.location.replace($.param.querystring(window.location.href, "c_id=mia"));
+    });
+  }
+})();
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+var _sf_startpt=(new Date()).getTime()
+//]]>
+    </script>
+    <style type="text/css">
+      .mblistrowleft{ cssFloat:;text-align:;} .mblistrowright{ cssFloat:;text-align:;} .mbsalerowleft{ cssFloat:;text-align:;} .mbsalerowright{ cssFloat:;text-align:;} .mbpricerowleft{ cssFloat:;text-align:;} .mbpricerowright{ cssFloat:;text-align:;} .mbdiscrowleft{ cssFloat:;text-align:;} .mbdiscrowright{ cssFloat:;text-align:;} 
+    </style>
+    <style type="text/css">
+      .citem .item .bold{ display:block;} .citem .item .on_sale a{ color:#FF0000;text-decoration:none;font-weight:bold;display:block;} #mybuyspagezone10 .citem .item .img img{ max-height:148px;max-width:148px;} #mybuyspagezone10 .citem .item .img{ height:148px;width:148px;} 
+    </style>
+  </head>
+  <body class="team ">
+    <div style="position:absolute; top:-100px; left:-100px; width:100px;" id="omniture_tracking">
+      <!-- SiteCatalyst code version: H.13. Copyright 1997-2007 Omniture, Inc. More info available at http://www.omniture.com -->      <script type="text/javascript">
+//<![CDATA[
+
+	if (typeof urlDecode == "undefined") document.writeln("&lt;scr"+"ipt src='/scripts/util.js' type='text/javascript'&gt;&lt;/scr"+"ipt&gt;");
+	if (typeof GetCookie == "undefined") document.writeln("&lt;scr"+"ipt src='/scripts/cookie.js' type='text/javascript'&gt;&lt;/scr"+"ipt&gt;");
+	
+	var omDomain  = document.location.hostname.toLowerCase();
+	var isProd    = ( (omDomain.indexOf("betasecure.") == -1) &amp;&amp; (omDomain.indexOf("beta.") == -1) &amp;&amp; (omDomain.indexOf("dev-") == -1) &amp;&amp; (omDomain.indexOf("qa.") == -1) &amp;&amp; (omDomain.indexOf("qa2.") == -1) ) ? true : false;
+  
+	var s_rsid    = (isProd) ? "mlbglobal08,mlbreds" : "devmlbglobal";
+	if (/alwaysepic|iam42|fancave/.test(document.location.href)){ 
+		if (isProd) {
+			s_rsid += ",mlbhillholliday";
+		} else {
+			s_rsid += ",mlbhillhollidaydev"; // custom rsid for Hill Holliday tracking suite
+		}
+	}  
+
+	var s_account = s_rsid; // for legacy g code tracking
+	
+	var omPageName = (document.location.href.indexOf("/wbc/2009/") &gt; 0) ? "WBC wbc:".toUpperCase() + " Cincinnati Reds: Search" : "Cincinnati Reds: Search"; 
+
+//]]>
+      </script>
+      <script src="/scripts/mlbamscv2.js" type="text/javascript">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+	var omniture_meta_author = "";
+	var omniture_meta_title = "";
+	var omniture_sponsor_name = "";
+	var author_test;
+	var res_arr = [];
+	s.pageName = omPageName;
+	s.channel = "Search";
+	s.prop1 = "";
+	s.currencyCode= "USD";
+	if (s.pageName.match(/News/)) {
+		s.prop2 = s.getQueryParam("content_id");
+	} 
+	s.prop3 = s.getQueryParam("player_id"); 
+	if (window.location.pathname.match(/search/)) {
+		s.prop4 = s.getQueryParam("query") ? unescape(s.getQueryParam("query").toLowerCase()) : "";
+	}
+	//s.prop5 = s.getTimeParting('h','-5','2014'); // Set hour 
+	//s.prop6 = s.getTimeParting('d','-5','2014'); // Set day  	
+	//s.prop7 = s.getTimeParting('w','-5','2014'); // Set Weekend / Weekday
+	//if (document.location.href.indexOf("/wbc/2009/") &gt; 0){ s.prop8 = "WBC"; }  // custom attribute for WBC section
+	if (document.location.href.indexOf("article") &gt; 0){
+		s.prop61 = omniture_meta_title;
+	}
+
+	if (omniture_meta_author) {
+		if (omniture_meta_author.indexOf("/") &gt; -1) {
+			author_test = new RegExp(/^By\s(.*\s.*)\s\//);
+			res_arr = author_test.exec(omniture_meta_author);
+			omniture_meta_author = res_arr[1];
+		}
+		if (document.location.href.indexOf("article") &gt; 0){
+			s.prop62 = omniture_meta_author;
+		}
+	}
+	if (document.location.href.indexOf("article") &gt; 0){
+		s.prop63 = omniture_sponsor_name;
+	}
+	
+	s.prop24 = s_rsid;
+	s.campaign = s.getQueryParam("partnerId");
+
+	s.eVar1 = s.getQueryParam("vbID");
+	s.eVar2 = s.prop4;
+	s.eVar4 = s.getQueryParam("affiliateId");
+	
+	s.eVar8 = "";
+	s.eVar9 = "";
+	s.eVar14 = s.getQueryParam("tcid"); 
+	
+	s.eVar21 = s.getQueryParam("tdl");
+	s.eVar22 = s.getQueryParam("tfl");
+	s.eVar25 = s.getQueryParam("mlbkw");
+	s.eVar34 = s.getQueryParam('app_data','','f');
+
+
+		s.events = "event4";
+
+
+var _ns=1, _uidn="", _nd = new Date(), _puidn = "", _suc = GetCookie("stUtil_cookie");
+if (_suc) {
+	_ns = _suc.split("|")[0];
+	_uidn = _suc.split("|")[1];
+	_puidn = _suc.split("|")[2];
+}
+if (GetCookie("ipid")) {
+	var T_uidn = GetCookie("ipid");
+	if (_uidn == "") {
+		_uidn = T_uidn;
+	} else if (_uidn != T_uidn) {
+		_uidn = T_uidn;
+		_puidn = Math.floor(Math.random() * 1000000000) + "" + _nd.getTime();
+	}
+}
+
+if (_puidn == "") _puidn = Math.floor(Math.random() * 1000000000) + "" + _nd.getTime();
+_suc = _ns + "|" + _uidn + "|" + _puidn;
+SetCookie("stUtil_cookie", _suc, 365, "/", ".mlb.com");
+
+//s.prop21 = _puidn, s.eVar10 = _puidn;
+s.prop22 = _uidn, s.eVar11 = _uidn;
+
+s.linkInternalFilters="javascript:,cincinnati,reds,mlb"
+
+
+/* functions ported from s_code_remote.js */
+function launchFlashLink(linkURL, trackCode) { 
+	if (linkURL.indexOf("javascript:") != -1) eval(linkURL);
+	else window.location.href = linkURL;
+}
+function simOmniturePageView() {  }
+function sendAnalyticsEvent() {}
+function trackFlash(linkname) {}
+function trackSProp(s_prop, val) {}
+function trackClick(linkname,t_sprop,cat_name) {} 
+ 
+
+/********* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--&gt;
+//]]>
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+&lt;!--
+if(navigator.appVersion.indexOf('MSIE')&gt;=0)document.write(unescape('%3C')+'\!-'+'-')
+//--&gt;
+//]]>
+      </script>
+      <noscript>
+        &lt;a href="http://www.omniture.com" title="Web Analytics"&gt;&lt;img
+src="http://mlbreloaded.112.2O7.net/b/ss/mlbreloaded/1/H.13--NS/0?[AQB]&amp;cdp=3&amp;[AQE]"
+height="1" width="1" border="0" alt="" /&gt;&lt;/a&gt;
+      </noscript>
+      <!--/DO NOT REMOVE/-->      <!-- End SiteCatalyst code version: H.13. -->      <script src="/shared/scripts/bam.tracking.js" type="text/javascript">
+      </script>
+      <!-- Begin BlueKai Tag -->      <iframe width="0" height="0" frameborder="0" src="javascript:void(0)" name="__bkframe">
+      </iframe>
+      <script src="//tags.bkrtx.com/js/bk-coretag.js" type="text/javascript">
+      </script>
+      <script src="/scripts/tracking/bluekai.js" type="text/javascript">
+      </script>
+      <!-- End BlueKai Tag -->    </div>
+    <div id="bodyWrap">
+      <div id="metaWrap" style="display: block;">
+        <span class="screen_reader">
+          To learn about our efforts to improve the accessibility and usability of our website, please visit our 
+          <a href="http://mlb.mlb.com/mlb/help/accessibility.jsp" onclick="s_objectID=&quot;http://mlb.mlb.com/mlb/help/accessibility.jsp_1&quot;;return this.s_oc?this.s_oc(e):true">
+            Accessibility Information
+          </a>
+           page.
+        </span>
+        <span class="screen_reader">
+          <a href="#main" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/search/_query=family&amp;c_id=cin#main_1&quot;;return this.s_oc?this.s_oc(e):true">
+            Skip to main content
+          </a>
+        </span>
+        <div id="header_container">
+          <link type="text/css" rel="stylesheet" href="/style/nav_2012.jsp?c_id=cin&amp;section=search&amp;_v=3"/>
+          <span class="screen_reader">
+            Below is an advertisement.
+          </span>
+          <div id="banner_ad">
+            <script type="text/javascript">
+//<![CDATA[
+writeAds({sizes : ["728x90"], customparams : {"dcopt":"ist"}});
+//]]>
+            </script>
+            <script type="text/javascript" src="http://ad.doubleclick.net/N2605/adj/reds.mlb/search;pageid=index;adunit=search;dcopt=ist;;pos=1;sz=728x90;tile=1;ord=627315275?">
+            </script>
+            <iframe style="display:none;" src="#">
+            </iframe>
+          </div>
+          <style>
+            
+		body.team #bodyWrap, body.team #banner_ad {height:90px;background:#000;}
+		body.team {background-position:center 117px;background-repeat:no-repeat;}
+		@media screen and (-webkit-min-device-pixel-ratio:0) { body.team { background-position: 49.99% 117px; } } /* Hack for Chrome background-positioning bug */
+	
+          </style>
+          <div id="header">
+            <div class="index" id="top-content-container">
+              <div class="mlb-bar clrfix" id="top-content">
+                <div class="clrfix" id="logo_mask">
+                  <a href="http://mlb.mlb.com/" onclick="s_objectID=&quot;http://mlb.mlb.com/_1&quot;;return this.s_oc?this.s_oc(e):true">
+                  </a>
+                </div>
+                <div class="container" id="mlb_logo_container">
+                  <a href="http://mlb.mlb.com/" onclick="s_objectID=&quot;http://mlb.mlb.com/_2&quot;;return this.s_oc?this.s_oc(e):true">
+                    <img alt="MLB.com" src="/images/masthead/y2009/clubs/mlb_logo.gif"/>
+                  </a>
+                </div>
+                <ul class="clrfix" id="lang-nav">
+                  <li>
+                    <a title="MLB Japanese" target="_blank" href="http://gyao.yahoo.co.jp/mlb" onclick="s_objectID=&quot;http://gyao.yahoo.co.jp/mlb_1&quot;;return this.s_oc?this.s_oc(e):true">
+                      日本語
+                    </a>
+                  </li>
+                  <li>
+                    <a title="MLB en Español" target="_blank" href="http://mlb.mlb.com/es/s_index.jsp?c_id=cin" onclick="s_objectID=&quot;http://mlb.mlb.com/es/s_index.jsp_c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                      Español
+                    </a>
+                  </li>
+                  <li>
+                    <a title="MLB Korea" target="_blank" href="http://www.mlbkorea.com" onclick="s_objectID=&quot;http://www.mlbkorea.com/_1&quot;;return this.s_oc?this.s_oc(e):true">
+                      한국어
+                    </a>
+                  </li>
+                  <li class="last">
+                    <a title="MLB Taiwan" target="_blank" href="http://mlb.tw" onclick="s_objectID=&quot;http://mlb.tw/_1&quot;;return this.s_oc?this.s_oc(e):true">
+                      繁體中文
+                    </a>
+                  </li>
+                </ul>
+                <span class="dek">
+                  The Official Site of the Cincinnati Reds
+                </span>
+                <div class="center" id="header-tunein">
+                </div>
+                <div class="container clrfix">
+                  <ul class="nav" id="login-nav">
+                    <li class="hd clrfix">
+                      <a title="Login to MLB.com" class="login-lnk" id="login-lnk" href="/enterworkflow.do?flowId=registration.ajax.wizard&amp;c_id=mlb" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/enterworkflow.do_flowId=registration.ajax.wizard&amp;c_id=mlb_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Login
+                      </a>
+                      <a title="Login with Facebook" class="login-lnk fb" id="fb-login-lnk" href="/enterworkflow.do?flowId=registration.ajax.wizard&amp;c_id=mlb" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/enterworkflow.do_flowId=registration.ajax.wizard&amp;c_id=mlb_2&quot;;return this.s_oc?this.s_oc(e):true">
+                      </a>
+                    </li>
+                    <li class="hd last">
+                      <a title="Create an account" id="reg-lnk" href="https://secure.mlb.com/enterworkflow.do?flowId=registration.ajax.wizard&amp;c_id=mlb" onclick="s_objectID=&quot;https://secure.mlb.com/enterworkflow.do_flowId=registration.ajax.wizard&amp;c_id=mlb_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Register
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="hide" id="mlb-overlay-container">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script type="text/javascript">
+//<![CDATA[
+
+    (function (window, document, $) {
+        /**
+        * this little utility could be abstracted out and made generic for re-use
+        */
+        function globalSearch(e, defaultText) {
+            var $elem = $(e);
+
+            if ($elem) {
+
+                if ($.trim($elem.val()) === '' || $.trim($elem.val()) === defaultText) {
+                    $elem.val(defaultText);
+                }
+
+                $elem.blur(function() {
+                    if ($.trim(this.value) === '') {
+                        this.value = defaultText;
+                    }
+                });
+
+                $elem.focus(function() {
+                    if (this.value == defaultText) {
+                        this.value = '';
+                    }
+                });
+
+                $("#hdr_search").submit(function(e) {
+                    if ($.trim($elem.val()) == defaultText || $.trim($elem.val()) == "") {
+                        e.preventDefault();
+                        $elem.focus();
+                    } else {
+                        bam.tracking.track({
+                        async: {
+                            isDynamic    : false,
+                            compName     : "Site Search",
+                            compActivity : "Site Search: Go Click",
+                            actionGen    : false
+                        }
+                        });
+
+                        $("#hdr_search input[name='query']").val($elem.val());
+                        return true;
+                    }
+                    return false;
+                });
+
+            }
+        }
+        globalSearch("#query_text1", "Search");
+
+    })(this, document, jQuery);
+    
+//]]>
+            </script>
+            <!-- DEFAULT LOGIN : bigDoor not included -->            <!-- test:  -->            <script type="text/javascript">
+//<![CDATA[
+
+                $(function(){
+                    var defaultConfig = {
+                            formContainer   : "#mlb-overlay-container",
+                            navContainer    : "#login-nav",
+                            modalLink       : "#login-lnk",
+                            fbLink          : "#fb-login-lnk",
+                            displayType     : "modal"
+                        };
+                        
+                    
+                        
+                    bam.require(["account.loginRegister-1.0"]).done(function(ctx) {
+                        console.log("defaultConfig");
+                        console.log(defaultConfig);
+                        ctx["account.loginRegister"].init(defaultConfig);
+
+                    });
+                });
+            
+//]]>
+            </script>
+          </div>
+          <style>
+            
+#homepage_container h3 {font-family:arial, sans-serif !important;font-weight:bold;}
+
+          </style>
+          <div id="masthead">
+            <style type="text/css">
+              
+				body.team, body.team #masthead {background-image:url(/images/masthead/y2013/clubs/bg/cin_body_bg.jpg);}
+			
+            </style>
+            <div class="container" id="h_container">
+              <div id="header-logo">
+                <a href="http://cincinnati.reds.mlb.com/" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/_1&quot;;return this.s_oc?this.s_oc(e):true">
+                  <img alt="Cincinnati Reds" src="/images/masthead/y2013/clubs/logos/cin.png"/>
+                </a>
+              </div>
+            </div>
+            <div class="hide" id="mlb-overlay-container">
+            </div>
+            <div class="container" id="search_container">
+              <div class="search">
+                <form action="http://cincinnati.reds.mlb.com/search/" name="hdr_search" id="hdr_search">
+                  <input type="hidden" name="query"/>
+                  <input type="hidden" value="cin" name="c_id"/>
+                  <label class="screen_reader" for="query_text1">
+                    Search
+                  </label>
+                  <input type="text" value="Search" class="textXs ui-autocomplete-input" id="query_text1" size="20" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"/>
+                  <input type="submit" alt="Go" id="search_button" value=""/>
+                  <span class="auto_complete">
+                  </span>
+                  <ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 2; top: 0px; left: 0px; display: none;">
+                  </ul>
+                </form>
+              </div>
+            </div>
+            <div id="header-content-container">
+              <div id="header-content">
+                <div id="value-menu-container" class="no-touch">
+                  <ul class="value-menu-links" id="value-menu-links">
+                    <li data-panel-url="/components/global/header/panels.jsp?section=news&amp;c_id=cin" data-section="news" id="nav-news" class="value-menu-link value-menu-item">
+                      <a href="http://cincinnati.reds.mlb.com/news/index.jsp?c_id=cin" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/news/index.jsp_c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        News
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=video&amp;c_id=cin" data-section="video" id="nav-video" class="value-menu-link value-menu-item">
+                      <a href="http://cincinnati.reds.mlb.com/video/play.jsp?tcid=mm_cin_vid&amp;c_id=cin" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/video/play.jsp_tcid=mm_cin_vid&amp;c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Video
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=scoreboard&amp;c_id=cin" data-section="scoreboard" id="nav-scoreboard" class="value-menu-link">
+                      <a href="http://cincinnati.reds.mlb.com/mlb/scoreboard/index.jsp?c_id=cin" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/mlb/scoreboard/index.jsp_c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Scores
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=stats&amp;c_id=cin" data-section="stats" id="nav-stats" class="value-menu-link value-menu-item">
+                      <a href="http://cincinnati.reds.mlb.com/stats/sortable.jsp?c_id=cin#playerType=ALL" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/stats/sortable.jsp_c_id=cin#playerType=ALL_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Stats
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=schedule&amp;c_id=cin" data-section="schedule" id="nav-schedule" class="value-menu-link value-menu-item">
+                      <a href="http://cincinnati.reds.mlb.com/schedule/?c_id=cin" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/schedule/_c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Schedule
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=team&amp;c_id=cin" data-section="team" id="nav-team" class="value-menu-link value-menu-item">
+                      <a href="http://cincinnati.reds.mlb.com/team/index.jsp?c_id=cin" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/team/index.jsp_c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Roster
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=community&amp;c_id=cin" data-section="community" id="nav-community" class="value-menu-link value-menu-item">
+                      <a href="http://cincinnati.reds.mlb.com/cin/community/index.jsp" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/cin/community/index.jsp_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Community
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=fan_forum&amp;c_id=cin" data-section="fan_forum" id="nav-fan_forum" class="value-menu-link value-menu-item">
+                      <a href="http://cincinnati.reds.mlb.com/fan_forum/index.jsp?c_id=cin" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/fan_forum/index.jsp_c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Fans
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=ballpark&amp;c_id=cin" data-section="ballpark" id="nav-ballpark" class="value-menu-link value-menu-item">
+                      <a href="http://cincinnati.reds.mlb.com/cin/ballpark/index.jsp" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/cin/ballpark/index.jsp_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Great American Ball Park
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=teams&amp;c_id=cin" data-section="teams" id="nav-teams" class="value-menu-link value-menu-item last_five">
+                      <a href="http://cincinnati.reds.mlb.com/team/index.jsp" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/team/index.jsp_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Teams
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=fantasy&amp;c_id=cin" data-section="fantasy" id="nav-fantasy" class="value-menu-link value-menu-item last_five">
+                      <a href="http://cincinnati.reds.mlb.com/mlb/fantasy/?tcid=mm_cin_fantasy" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/mlb/fantasy/_tcid=mm_cin_fantasy_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Fantasy
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=mlbtv&amp;c_id=cin" data-section="mlbtv" id="nav-mlbtv" class="value-menu-link value-menu-item last_five">
+                      <a href="http://cincinnati.reds.mlb.com/mlb/subscriptions/index.jsp?c_id=cin&amp;affiliateId=clubMEGAMENU" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/mlb/subscriptions/index.jsp_c_id=cin&amp;affiliateId=clubMEGAMENU_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        MLB.TV
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=shop&amp;c_id=cin" data-section="shop" id="nav-shop" class="value-menu-link value-menu-item last_five">
+                      <a target="_blank" href="http://shop.mlb.com/entry.point?entry=1452348&amp;source=CIN_HomePageTab" class="value-menu-section" onclick="s_objectID=&quot;http://shop.mlb.com/entry.point_entry=1452348&amp;source=CIN_HomePageTab_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Shop
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=mobile&amp;c_id=cin" data-section="mobile" id="nav-mobile" class="value-menu-link value-menu-item last_five">
+                      <a href="http://cincinnati.reds.mlb.com/mobile/?c_id=cin" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/mobile/_c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Mobile
+                      </a>
+                    </li>
+                    <li data-panel-url="/components/global/header/panels.jsp?section=tickets&amp;c_id=cin" data-section="tickets" id="nav-tickets" class="value-menu-link value-menu-item last_five">
+                      <a href="http://cincinnati.reds.mlb.com/ticketing/index.jsp?c_id=cin" class="value-menu-section" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/ticketing/index.jsp_c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Tickets
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="value-menu-panels panel-drawer" id="value-menu-panels">
+                    <div class="panel panel-news">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/news/headlines.jsp?c_id=cin">
+                                Team Headlines
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/news/search_archive.jsp?c_id=cin">
+                                Team Archive
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/news/press_releases/index.jsp?c_id=cin">
+                                Official Releases
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/news/probable_pitchers/index.jsp?c_id=cin">
+                                Probable Pitchers
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/presspass/gamenotes.jsp?c_id=cin">
+                                Game Notes
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/prospects/watch/y2014/index.jsp?c_id=cin#list=cin">
+                                Reds Top 20 Prospects
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/minorleagues/affiliates/index.jsp?c_id=cin">
+                                Affiliates/Pipeline
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cutfour/index.jsp?c_id=cin">
+                                Cut4
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://mlb.mlb.com/blogs/">
+                                Blogs
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/newsletters.jsp">
+                                      <img src="/mlb/images/email/newsletters/160x90/cin_newsletter_160x90.jpg" alt="Redlegs Newsletter"/>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/newsletters.jsp">
+                                      <strong>
+                                        Redlegs Newsletter
+                                      </strong>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <strong class="header">
+                                  Related Links
+                                </strong>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/newsletters.jsp">
+                                      Register for Redlegs Newsletter
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://mlb.mlb.com/photogallery/archive.jsp?c_id=cin">
+                                      Photo Galleries
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/history/index.jsp">
+                                      Team History
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/team/depth_chart/index.jsp?c_id=cin">
+                                      Depth Chart
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/partnerxml/gen/news/rss/cin.xml">
+                                      RSS News Feeds
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/news/rss/terms.jsp?c_id=cin">
+                                      RSS Terms of Use
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/news/index.jsp">
+                                      MLB Daily News
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/mlb/news/entertainment/index.jsp">
+                                      Entertainment
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/mlb/news/perspectives.jsp">
+                                      Opinion
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a target="_blank" href="http://www.sportsonearth.com/">
+                                      Sports on Earth
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-video">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/video/index.jsp?c_id=cin&amp;tcid=mm_cin_vid">
+                                Video Homepage
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://mlb.mlb.com/mlb/subscriptions/index.jsp?c_id=cin&amp;affiliateId=clubMENU">
+                                Buy MLB.TV
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://mlb.mlb.com/mlb/subscriptions/index.jsp?content=gameday_audio&amp;c_id=cin&amp;affiliateId=clubMENU">
+                                Buy Gameday Audio
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://mlb.mlb.com/mediacenter/index.jsp?c_id=cin&amp;affiliateId=clubMENU">
+                                Watch / Listen
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/video/play.jsp?tcid=mm_cin_vid&amp;c_id=cin">
+                                Reds Video Highlights
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/help/faq_index.jsp?tcid=mm_cin_vid">
+                                FAQs
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/help/supportforum/index.jsp?tcid=mm_cin_vid">
+                                MLB.com Support Forum
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/video/play.jsp?topic_id=7759164&amp;tcid=mm_cin_vid">
+                                Baseball's Best Moments
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/audio/podcast/?tcid=mm_cin_vid">
+                                Podcasts
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <strong class="header">
+                                  Related Links
+                                </strong>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://mlb.mlb.com/network/?tcid=mm_cin_vid">
+                                      MLB Network
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://mlb.mlb.com/mlb/video/mlb_productions/index.jsp?tcid=mm_cin_vid">
+                                      MLB Productions
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://mlbfancave.mlb.com/fancave/index.jsp?tcid=mm_fancave_clubvid">
+                                      MLB Fan Cave
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-scoreboard">
+                      
+						Loading...
+					
+                    </div>
+                    <div class="panel panel-stats">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/standings/index.jsp?tcid=mm_mlb_standings">
+                                Standings
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/stats/sortable.jsp?c_id=cin#playerType=ALL">
+                                Sortable Player Stats
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/stats/sortable.jsp?c_id=cin#sectionType=st">
+                                Sortable Team Stats
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/stats/sortable_rookie.jsp?c_id=cin">
+                                Top Rookies Tracker
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/milb/stats/org.jsp?id=cin">
+                                Winter League Stats
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/stats/sortable.jsp?c_id=cin#playerType=ALL">
+                                      <img src="/cin/images/masthead/160x160_sortable_stats.jpg" alt="Reds Statistics"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <!--<ul>
+	<li>
+	<ul>
+		<li><a href="http://vote.mlb.com/"><img alt="Vote Reds]" height="90" src="/mlb/images/events/all_star/y2013/ballot_offers/160x90_promo_cin.gif" width="160" /></a></li>
+		<li><a href="http://vote.mlb.com/"><strong>All-Star Game Ballot</strong></a></li>
+		<li><a href="http://vote.mlb.com/">Vote for your favorite Red in the 2013 All-Star Game MLB.com Ballot</a></li>
+	</ul>
+	</li>
+</ul>-->                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-schedule">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/schedule/sortable.jsp?c_id=cin&amp;year=2014">
+                                Sortable Schedule
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/schedule/printable_schedules.jsp">
+                                Printable Schedule
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/schedule/downloadable.jsp?c_id=cin&amp;year=2014">
+                                Downloadable Schedules
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/schedule/promotions.jsp?c_id=cin">
+                                Promotions &amp; Giveaways
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/schedule/broadcast/index.jsp?c_id=cin">
+                                Broadcast Schedule
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/news/probable_pitchers/index.jsp?c_id=cin">
+                                Probable Pitchers
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/schedule/important_dates.jsp?c_id=cin">
+                                MLB Important Dates
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/schedule/spring_training.jsp?league_id=114&amp;c_id=CIN">
+                                Spring Training Sortable Schedule
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/schedule/promotions.jsp?c_id=cin">
+                                      <img src="/cin/images/masthead/160x160_promosandgiveaways.jpg" alt="2014 Promotions and Giveaways Schedule"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://mlb.mlb.com/schedule/index.jsp?c_id=cin#y=2014&amp;m=3&amp;calendar=DEFAULT">
+                                      <img src="/cin/images/schedule/y2014/160x160_2014_Schedule_CIN.jpg" alt="2014 Season Schedule"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-team">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/team/roster_active.jsp?c_id=cin">
+                                Active Roster
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/team/roster_40man.jsp?c_id=cin">
+                                40-Man Roster
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/team/roster_nri.jsp?c_id=cin">
+                                Non-Roster Invitees
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/team/depth_chart/index.jsp?c_id=cin">
+                                Depth Chart
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/team/coaches.jsp?c_id=cin">
+                                Coaches
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/prospects/watch/y2014/index.jsp?c_id=cin#list=cin">
+                                Top 20 Prospects
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/team/transactions.jsp?c_id=cin">
+                                Transactions
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/fantasy/wsfb/news/injuries.jsp#team113">
+                                Injury Updates
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/team/draft.jsp?c_id=cin">
+                                Draft Results
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/team/front_office.jsp?c_id=cin">
+                                Front Office
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/team/broadcasters.jsp?c_id=cin">
+                                Broadcasters
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://mlb.mlb.com/mlb/prospects/watch/y2013/index.jsp?c_id=cin#list=cin">
+                                      <img width="160" height="90" src="/images/masthead/y2011/clubs/prospects/cin_160x90.gif" alt="Prospect Watch"/>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://mlb.mlb.com/mlb/prospects/watch/y2013/index.jsp?c_id=cin#list=cin">
+                                      <strong>
+                                        Orioles Top 20 Prospects
+                                      </strong>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://mlb.mlb.com/mlb/prospects/watch/y2013/index.jsp?c_id=cin#list=cin">
+                                      Keep up with the Reds up-and-coming stars with MLB.com's Prospect Watch
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/mlb/minorleagues/affiliates/index.jsp?c_id=cin">
+                                      <img src="/cin/images/masthead/roster_minors_160x90.gif" alt="Minor Leagues"/>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/mlb/minorleagues/affiliates/index.jsp?c_id=cin">
+                                      <strong>
+                                        Minor League Affiliates
+                                      </strong>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <strong class="header">
+                                  Related Links:
+                                </strong>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/mlb/players/">
+                                      Player Search
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/mlb/minorleagues/team_index.jsp?c_id=cin">
+                                      Minor League Affiliates
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-community">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/community/family_catch.jsp">
+                                Family Catch
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/community/camps.jsp">
+                                Baseball &amp; Softball Camps
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com">
+                                Military &amp; First Responders
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/community/rcf.jsp">
+                                Reds Community Fund
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://secure.mlb.com/enterworkflow.do?flowId=commerce.cart.purchase&amp;campaignCode=CIN_RCFDONATE_CMPGN&amp;voucherCode=CIN_RCFDONATE_VOCHR&amp;keepWfParams=true&amp;c_id=cin">
+                                Support the Reds Community Fund
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/community/race.jsp">
+                                Redlegs Run
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/community/uya.jsp">
+                                Urban Youth Academy
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/spring_training/goodyear.jsp?loc=community">
+                                Arizona Community
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/community/reducation.jsp">
+                                Reducation Guide
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/community/blue_crew.jsp">
+                                BLUE Crew Ticket Program
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/community/photos.jsp">
+                                Photo Galleries
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/community/community_relations.jsp">
+                                Community Relations
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/community/rcf.jsp">
+                                      <img src="/cin/images/community/y2012/reds_community_160x140.jpg" alt="Stand Up Stadiums"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/community/camps.jsp">
+                                      <img src="/cin/images/masthead/camps_phillips_160x160.jpg" alt="Baseball &amp; Softball Camps"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <strong class="header">
+                                  Related Links:
+                                </strong>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/rosie_reds.jsp">
+                                      Rosie Reds
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/ballpark/museum/tours.jsp#extra">
+                                      Education Programs
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://mlb.mlb.com/mlb/official_info/community/btf.jsp">
+                                      Baseball Tomorrow Fund
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://web.mlbcommunity.org/index.jsp">
+                                      MLBcommunity.org
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-fan_forum">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/community/camps.jsp">
+                                Reds Baseball &amp; Softball Camps
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://www.match.com/cpx/en-us/partner/mlb/cincinnati-reds/?trackingid=528726&amp;bannerid=2833293">
+                                Reds Singles
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/clubred.jsp">
+                                Club Red
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/fan_forum/browsertheme.jsp?c_id=cin">
+                                Official Reds Browser Theme
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/fan_forum/ballpark_music.jsp?c_id=cin">
+                                Reds Music
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/fan_forum/social_media/?c_id=cin">
+                                Connect with the Reds
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/reds_radio.jsp">
+                                Reds Radio Network
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/fantasy_camp.jsp">
+                                Reds Fantasy Camp
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/hot_stove.jsp">
+                                Reds Hot Stove League
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/community/hometown_heroes.jsp">
+                                Nominate a Hometown Hero
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/scoreboard_memories.jsp">
+                                Scoreboard Memories
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/pregame_galleries.jsp">
+                                Reds Pregame Photos
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/newsletters.jsp">
+                                Free Redlegs Newsletter
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/spring_training/tours.jsp?c_id=cin">
+                                Spring Training Travel
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/experiences.jsp">
+                                Fan Experiences
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/kids_index.jsp">
+                                Reds Kids
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/publications.jsp">
+                                Reds Gameday Publications
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/media_guide.jsp">
+                                Reds Media Guide
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://www.match.com/cpx/en-us/partner/mlb/cincinnati-reds/?trackingid=528726&amp;bannerid=2833293">
+                                      <img src="/mlb/images/club_match/160x160_CIN_match.jpg" alt="Reds Singles"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a target="_blank" href="http://cincinnati.reds.mlb.com/fan_forum/ballpark_music.jsp?c_id=cin">
+                                      <img width="160" height="90" src="/mobile/images/attheballpark/music_160x90.jpg" alt="Ballpark Music"/>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a target="_blank" href="http://cincinnati.reds.mlb.com/fan_forum/ballpark_music.jsp?c_id=cin">
+                                      <strong>
+                                        Ballpark Music
+                                      </strong>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a target="_blank" href="http://cincinnati.reds.mlb.com/fan_forum/ballpark_music.jsp?c_id=cin">
+                                      Download the Reds ballpark music, including your favorite players' entrance songs.
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-ballpark">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ballpark/transportation/index.jsp">
+                                Getting to the Ballpark
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ballpark/information/index.jsp">
+                                Ballpark Information
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ballpark/tours/index.jsp">
+                                Scotts Ballpark Tours
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ballpark/panoramic_views.jsp">
+                                Panoramic Views
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/ballparks/stadium_maps.jsp?c_id=cin">
+                                Great American Ball Park Map
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/scoreboard.jsp">
+                                Scoreboard Messages
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ballpark/restaurants/index.jsp">
+                                Ballpark Restaurants
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://cincinnati.reds.mlb.com/cin/hof/index.jsp">
+                                Hall of Fame &amp; Museum
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ballpark/special_events/">
+                                Special Events
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/spring_training/ballpark.jsp?c_id=cin">
+                                Goodyear Ballpark
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://mlb.mlb.com/spring_training/tours.jsp?c_id=cin">
+                                Spring Training Travel Packages
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a target="_blank" href="http://www.mapquest.com/?q1=&amp;q2=5905199+type:mqid">
+                                      <img width="160" height="160" src="/mlb/images/sponsorship/mapquest/mq_getdirections_160x160.jpg" alt="Get your directions from MapQuest" class="dlcftissvgczarscwcum"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/ticketing/seating_pricing.jsp">
+                                      <img width="160" height="90" src="/cin/images/masthead/ballpark_seating_160x90.gif" alt="Seating chart"/>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/ticketing/seating_pricing.jsp">
+                                      <strong>
+                                        Ballpark Seating
+                                      </strong>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/ticketing/seating_pricing.jsp">
+                                      Check out the view from your seats before you get to the game.
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <strong class="header">
+                                  Related Links:
+                                </strong>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/ticketing/index.jsp?c_id=cin">
+                                      Ticket Information
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a target="_blank" href="http://www.groupon.com/local/cincinnati/great-american-ballpark">
+                                      Deals near Great American Ballpark
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/history/index.jsp">
+                                      Reds History
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a target="_blank" href="http://www.printroom.com/pro/reds/">
+                                      fanfoto
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-teams">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li>
+                          <ul id="header_teams">
+                            <li class="first">
+                              <ul class="tray_container">
+                                <li class="american">
+                                  <span class="league">
+                                    American League
+                                  </span>
+                                  <ul class="league first">
+                                    <li>
+                                      <strong>
+                                        AL East
+                                      </strong>
+                                      <ul>
+                                        <li class="bal">
+                                          <a href="http://baltimore.orioles.mlb.com/index.jsp?c_id=bal&amp;tcid=mm_cin_sitelist">
+                                            Baltimore
+                                          </a>
+                                        </li>
+                                        <li class="bos">
+                                          <a href="http://boston.redsox.mlb.com/index.jsp?c_id=bos&amp;tcid=mm_cin_sitelist">
+                                            Boston
+                                          </a>
+                                        </li>
+                                        <li class="nyy">
+                                          <a href="http://newyork.yankees.mlb.com/index.jsp?c_id=nyy&amp;tcid=mm_cin_sitelist">
+                                            NY Yankees
+                                          </a>
+                                        </li>
+                                        <li class="tb">
+                                          <a href="http://tampabay.rays.mlb.com/index.jsp?c_id=tb&amp;tcid=mm_cin_sitelist">
+                                            Tampa Bay
+                                          </a>
+                                        </li>
+                                        <li class="tor">
+                                          <a href="http://toronto.bluejays.mlb.com/index.jsp?c_id=tor&amp;tcid=mm_cin_sitelist">
+                                            Toronto
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <strong>
+                                        AL Central
+                                      </strong>
+                                      <ul>
+                                        <li class="cws">
+                                          <a href="http://chicago.whitesox.mlb.com/index.jsp?c_id=cws&amp;tcid=mm_cin_sitelist">
+                                            Chi White Sox
+                                          </a>
+                                        </li>
+                                        <li class="cle">
+                                          <a href="http://cleveland.indians.mlb.com/index.jsp?c_id=cle&amp;tcid=mm_cin_sitelist">
+                                            Cleveland
+                                          </a>
+                                        </li>
+                                        <li class="det">
+                                          <a href="http://detroit.tigers.mlb.com/index.jsp?c_id=det&amp;tcid=mm_cin_sitelist">
+                                            Detroit
+                                          </a>
+                                        </li>
+                                        <li class="kc">
+                                          <a href="http://kansascity.royals.mlb.com/index.jsp?c_id=kc&amp;tcid=mm_cin_sitelist">
+                                            Kansas City
+                                          </a>
+                                        </li>
+                                        <li class="min">
+                                          <a href="http://minnesota.twins.mlb.com/index.jsp?c_id=min&amp;tcid=mm_cin_sitelist">
+                                            Minnesota
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <strong>
+                                        AL West
+                                      </strong>
+                                      <ul>
+                                        <li class="hou">
+                                          <a href="http://houston.astros.mlb.com/index.jsp?c_id=hou&amp;tcid=mm_cin_sitelist">
+                                            Houston
+                                          </a>
+                                        </li>
+                                        <li class="ana">
+                                          <a href="http://losangeles.angels.mlb.com/index.jsp?c_id=ana&amp;tcid=mm_cin_sitelist">
+                                            LA Angels
+                                          </a>
+                                        </li>
+                                        <li class="oak">
+                                          <a href="http://oakland.athletics.mlb.com/index.jsp?c_id=oak&amp;tcid=mm_cin_sitelist">
+                                            Oakland
+                                          </a>
+                                        </li>
+                                        <li class="sea">
+                                          <a href="http://seattle.mariners.mlb.com/index.jsp?c_id=sea&amp;tcid=mm_cin_sitelist">
+                                            Seattle
+                                          </a>
+                                        </li>
+                                        <li class="tex">
+                                          <a href="http://texas.rangers.mlb.com/index.jsp?c_id=tex&amp;tcid=mm_cin_sitelist">
+                                            Texas
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li class="national">
+                                  <span class="league">
+                                    National League
+                                  </span>
+                                  <ul class="league">
+                                    <li>
+                                      <strong>
+                                        NL East
+                                      </strong>
+                                      <ul>
+                                        <li class="atl">
+                                          <a href="http://atlanta.braves.mlb.com/index.jsp?c_id=atl&amp;tcid=mm_cin_sitelist">
+                                            Atlanta
+                                          </a>
+                                        </li>
+                                        <li class="mia">
+                                          <a href="http://miami.marlins.mlb.com/index.jsp?c_id=mia&amp;tcid=mm_cin_sitelist">
+                                            Miami
+                                          </a>
+                                        </li>
+                                        <li class="nym">
+                                          <a href="http://newyork.mets.mlb.com/index.jsp?c_id=nym&amp;tcid=mm_cin_sitelist">
+                                            NY Mets
+                                          </a>
+                                        </li>
+                                        <li class="phi">
+                                          <a href="http://philadelphia.phillies.mlb.com/index.jsp?c_id=phi&amp;tcid=mm_cin_sitelist">
+                                            Philadelphia
+                                          </a>
+                                        </li>
+                                        <li class="was">
+                                          <a href="http://washington.nationals.mlb.com/index.jsp?c_id=was&amp;tcid=mm_cin_sitelist">
+                                            Washington
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <strong>
+                                        NL Central
+                                      </strong>
+                                      <ul>
+                                        <li class="chc">
+                                          <a href="http://chicago.cubs.mlb.com/index.jsp?c_id=chc&amp;tcid=mm_cin_sitelist">
+                                            Chi Cubs
+                                          </a>
+                                        </li>
+                                        <li class="cin">
+                                          <a href="http://cincinnati.reds.mlb.com/index.jsp?c_id=cin&amp;tcid=mm_cin_sitelist">
+                                            Cincinnati
+                                          </a>
+                                        </li>
+                                        <li class="mil">
+                                          <a href="http://milwaukee.brewers.mlb.com/index.jsp?c_id=mil&amp;tcid=mm_cin_sitelist">
+                                            Milwaukee
+                                          </a>
+                                        </li>
+                                        <li class="pit">
+                                          <a href="http://pittsburgh.pirates.mlb.com/index.jsp?c_id=pit&amp;tcid=mm_cin_sitelist">
+                                            Pittsburgh
+                                          </a>
+                                        </li>
+                                        <li class="stl">
+                                          <a href="http://stlouis.cardinals.mlb.com/index.jsp?c_id=stl&amp;tcid=mm_cin_sitelist">
+                                            St. Louis
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <strong>
+                                        NL West
+                                      </strong>
+                                      <ul>
+                                        <li class="ari">
+                                          <a href="http://arizona.diamondbacks.mlb.com/index.jsp?c_id=ari&amp;tcid=mm_cin_sitelist">
+                                            Arizona
+                                          </a>
+                                        </li>
+                                        <li class="col">
+                                          <a href="http://colorado.rockies.mlb.com/index.jsp?c_id=col&amp;tcid=mm_cin_sitelist">
+                                            Colorado
+                                          </a>
+                                        </li>
+                                        <li class="la">
+                                          <a href="http://losangeles.dodgers.mlb.com/index.jsp?c_id=la&amp;tcid=mm_cin_sitelist">
+                                            LA Dodgers
+                                          </a>
+                                        </li>
+                                        <li class="sd">
+                                          <a href="http://sandiego.padres.mlb.com/index.jsp?c_id=sd&amp;tcid=mm_cin_sitelist">
+                                            San Diego
+                                          </a>
+                                        </li>
+                                        <li class="sf">
+                                          <a href="http://sanfrancisco.giants.mlb.com/index.jsp?c_id=sf&amp;tcid=mm_cin_sitelist">
+                                            San Francisco
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-fantasy">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://mlb.mlb.com/mlb/fantasy/bts/y2014/splash_index.jsp">
+                                Beat the Streak
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&amp;c=20&amp;mc=click&amp;pli=9023483&amp;PluID=0&amp;ord=[cachebuster]">
+                                Yahoo Fantasy Baseball
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://www.draftkings.com/gateway?s=591768348">
+                                DraftKings Free Fantasy Baseball
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://m.mlb.com/fantasy/preview/?team=cin">
+                                2014 Player Preview
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://mlb.mlb.com/mlb/fantasy/fb/info/">
+                                MLB.com Fantasy Baseball
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://mlb.mlb.com/mlb/fantasy/franchisemvp/">
+                                MLB.com Franchise MVP
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://mlb.mlb.com/mlb/fantasy/hr_derby/index.jsp">
+                                MLB.com Home Run Derby
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://apps.facebook.com/ballpark-empire/">
+                                MLB Ballpark Empire
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a target="_blank" href="http://mlb.mlb.com/mlb/prospects/watch/y2014/">
+                                Prospect Watch
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://mlb.mlb.com/mlb/fantasy/news/">
+                                Player News &amp; Updates
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://mlb.mlb.com/mlb/fantasy/wsfb/news/injuries.jsp">
+                                Injury Report
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/fantasy/preplay/index.jsp">
+                                MLB PrePlay
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="https://apps.facebook.com/wgtbaseballmlb/?utm_source=MLBcom&amp;utm_medium=homenav&amp;utm_campaign=fantasytextlink">
+                                WGT Baseball: MLB
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://fantasy411.mlblogs.com/">
+                                Fantasy 411 Blog
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="https://twitter.com/#%21/fantasy411">
+                                Follow @Fantasy411
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://mlb.mlb.com/mlb/fantasy/closers/">
+                                Closer Report
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://mlb.mlb.com/mlb/fantasy/bts/y2014/splash_index.jsp">
+                                      <img src="/mlb/components/fantasy/bts/y2013/images/bts_160x160.jpg" alt="Beat the Streak"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://apps.facebook.com/ballpark-empire/?fb_source=bookmark_apps&amp;ref=bookmarks&amp;count=0&amp;fb_bmpos=2_0">
+                                      <img src="/images/masthead/y2010/promos/160x160_MLB-BallparkEmpire_01.jpg" alt="Bracket Challenge"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="https://www.draftkings.com/gateway?s=591768348">
+                                      <img src="/mlb/images/160x160_draftkings.jpg" alt="DraftKings"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-mlbtv">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/subscriptions/index.jsp?c_id=cin&amp;affiliateId=clubMENU">
+                                Buy MLB.TV
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/media/video.jsp?content_id=31336481">
+                                View MLB.TV Demo
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/subscriptions/index.jsp?content=gameday_audio&amp;affiliateId=clubMENU">
+                                Buy Gameday Audio
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mediacenter/index.jsp?c_id=cin&amp;affiliateId=clubMENU">
+                                Watch/Listen
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/media/player/mpa/index.jsp?&amp;affiliateId=clubMENU">
+                                Alternative Audio
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/subscriptions/index.jsp?content=products&amp;affiliateId=clubMENU">
+                                MLB.TV Devices
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/help/faq_index.jsp?&amp;affiliateId=clubMENU">
+                                FAQs
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/help/supportforum/index.jsp?&amp;affiliateId=clubMENU">
+                                MLB.com Support Forum
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/subscriptions/download.jsp?&amp;affiliateId=clubMENU">
+                                MLB.TV Download Center
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/subscriptions/tutorials.jsp?&amp;affiliateId=clubMENU">
+                                MLB.TV Tutorials
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/help/contact_us.jsp?&amp;affiliateId=mlbMENU">
+                                Contact Us
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://mlb.mlb.com/mlb/subscriptions/index.jsp?content=gameday_audio&amp;affiliateId=clubMENU">
+                                      <img src="/images/masthead/y2014/160x160_GDA2014_cin.jpg" alt="MLB.tv"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://mlb.mlb.com/mlb/subscriptions/index.jsp?c_id=cin&amp;affiliateId=clubMENU">
+                                      <img src="/images/masthead/y2014/160x160_MLBTV2014_cin.jpg" alt="MLB.tv"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-shop">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a target="_blank" href="http://shop.mlb.com/entry.point?entry=1452717&amp;cp=1452717&amp;source=CIN_HomePageTab">
+                                Jerseys
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://shop.mlb.com/entry.point?entry=1452718&amp;cp=1452718&amp;source=CIN_HomePageTab">
+                                Caps
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://shop.mlb.com/entry.point?entry=1452719&amp;cp=1452719&amp;source=CIN_HomePageTab">
+                                Men's
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://shop.mlb.com/entry.point?entry=1452720&amp;cp=1452720&amp;source=CIN_HomePageTab">
+                                Women's
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://shop.mlb.com/entry.point?entry=1452721&amp;cp=1452721&amp;source=CIN_HomePageTab">
+                                Kids
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://shop.mlb.com/entry.point?entry=1452722&amp;cp=1452722&amp;source=CIN_HomePageTab">
+                                Collectibles
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://shop.mlb.com/entry.point?entry=1452723&amp;cp=1452723&amp;source=CIN_HomePageTab">
+                                Memorabilia
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a target="_blank" href="http://shop.mlb.com/entry.point?entry=1452724&amp;cp=1452724&amp;source=CIN_HomePageTab">
+                                Baseball Cards
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://shop.mlb.com/entry.point?entry=2292474&amp;cp=2292474&amp;source=CIN_HomePageTab">
+                                DVDs and Books
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://mlb.com/books/">
+                                Official MLB.com eBooks
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://shop.mlb.com/entry.point?entry=1452726&amp;cp=1452726&amp;source=CIN_HomePageTab">
+                                Home &amp; Office
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/photos/index.jsp?c_id=cin">
+                                Photo Store
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://shop.mlb.com/entry.point?entry=1840213&amp;cp=1503844">
+                                Clearance
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://auctions.mlb.com/iSynApp/showHomePage.action?sid=1101001&amp;pgmode1=teamsite&amp;pgcust1=reds&amp;pgcust2=brandHome&amp;queryTokenList[0].type=openbrac&amp;queryTokenList[0].name=&amp;queryTokenList[0].value1=&amp;queryTokenList[0].value2=&amp;queryTokenList[1].type=openbrac&amp;queryTokenList[1].name=&amp;queryTokenList[1].value1=&amp;queryTokenList[1].value2=&amp;queryTokenList[2].type=fieldmatch&amp;queryTokenList[2].name=panname_partnername_s&amp;queryTokenList[2].value1=mlb&amp;queryTokenList[2].value2=&amp;queryTokenList[3].type=operor&amp;queryTokenList[3].name=&amp;queryTokenList[3].value1=&amp;queryTokenList[3].value2=&amp;queryTokenList[4].type=fieldmatch&amp;queryTokenList[4].name=panname_partnername_s&amp;queryTokenList[4].value1=team&amp;queryTokenList[4].value2=&amp;queryTokenList[5].type=closebrac&amp;queryTokenList[5].name=&amp;queryTokenList[5].value1=&amp;queryTokenList[5].value2=&amp;queryTokenList[6].type=operand&amp;queryTokenList[6].name=&amp;queryTokenList[6].value1=&amp;queryTokenList[6].value2=&amp;queryTokenList[7].type=fieldmatch&amp;queryTokenList[7].name=panname_teamname_s&amp;queryTokenList[7].value1=reds&amp;queryTokenList[7].value2=&amp;queryTokenList[8].type=closebrac&amp;queryTokenList[8].name=&amp;queryTokenList[8].value1=&amp;queryTokenList[8].value2=%0A">
+                                      <img width="160" height="160" src="/cin/images/masthead/160x160_auction_tray_CIN.jpg" alt="reds.com Auctions"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://shop.mlb.com/entry.point?entry=1452717&amp;cp=1452717&amp;source=CIN_HomePageTab">
+                                      <img width="160" height="160" src="/images/masthead/y2010/promos/shop/jersey_cin_160x140.jpg" alt="Personalized Jerseys"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <strong class="header">
+                                  Auctions:
+                                </strong>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://auctions.mlb.com/iSynApp/showHomePage.action?sid=1101001&amp;pgmode1=teamsite&amp;pgcust2=&amp;queryTokenList[0].type=openbrac&amp;queryTokenList[0].name=&amp;queryTokenList[0].value1=&amp;queryTokenList[0].value2=&amp;queryTokenList[1].type=openbrac&amp;queryTokenList[1].name=&amp;queryTokenList[1].value1=&amp;queryTokenList[1].value2=&amp;queryTokenList[2].type=fieldmatch&amp;queryTokenList[2].name=panname_partnername_s&amp;queryTokenList[2].value1=mlb&amp;queryTokenList[2].value2=&amp;queryTokenList[3].type=operor&amp;queryTokenList[3].name=&amp;queryTokenList[3].value1=&amp;queryTokenList[3].value2=&amp;queryTokenList[4].type=fieldmatch&amp;queryTokenList[4].name=panname_partnername_s&amp;queryTokenList[4].value1=team&amp;queryTokenList[4].value2=&amp;queryTokenList[5].type=closebrac&amp;queryTokenList[5].name=&amp;queryTokenList[5].value1=&amp;queryTokenList[5].value2=&amp;queryTokenList[6].type=operand&amp;queryTokenList[6].name=&amp;queryTokenList[6].value1=&amp;queryTokenList[6].value2=&amp;queryTokenList[7].type=fieldmatch&amp;queryTokenList[7].name=panname_teamname_s&amp;queryTokenList[7].value1=reds&amp;&amp;queryTokenList[1].value2=&amp;queryTokenList[8].type=closebrac&amp;queryTokenList[8].name=&amp;queryTokenList[8].value1=&amp;queryTokenList[8].value2=&amp;pgcust1=reds&amp;=">
+                                      Reds Charity Auctions
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a target="_blank" href="http://auctions.mlb.com/iSynApp/showHomePage.action?sid=1101001&amp;pgmode1=teamsite&amp;pgcust2=&amp;queryTokenList[0].type=openbrac&amp;queryTokenList[0].name=&amp;queryTokenList[0].value1=&amp;queryTokenList[0].value2=&amp;queryTokenList[1].type=openbrac&amp;queryTokenList[1].name=&amp;queryTokenList[1].value1=&amp;queryTokenList[1].value2=&amp;queryTokenList[2].type=fieldmatch&amp;queryTokenList[2].name=panname_partnername_s&amp;queryTokenList[2].value1=mlb&amp;queryTokenList[2].value2=&amp;queryTokenList[3].type=operor&amp;queryTokenList[3].name=&amp;queryTokenList[3].value1=&amp;queryTokenList[3].value2=&amp;queryTokenList[4].type=fieldmatch&amp;queryTokenList[4].name=panname_partnername_s&amp;queryTokenList[4].value1=team&amp;queryTokenList[4].value2=&amp;queryTokenList[5].type=closebrac&amp;queryTokenList[5].name=&amp;queryTokenList[5].value1=&amp;queryTokenList[5].value2=&amp;queryTokenList[6].type=operand&amp;queryTokenList[6].name=&amp;queryTokenList[6].value1=&amp;queryTokenList[6].value2=&amp;queryTokenList[7].type=fieldmatch&amp;queryTokenList[7].name=panname_teamname_s&amp;queryTokenList[7].value1=reds&amp;&amp;queryTokenList[1].value2=&amp;queryTokenList[8].type=closebrac&amp;queryTokenList[8].name=&amp;queryTokenList[8].value1=&amp;queryTokenList[8].value2=&amp;pgcust1=reds&amp;=">
+                                      Reds Hall of Fame Auctions
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a target="_blank " href="http://auctions.mlb.com/">
+                                      MLB.com Auctions
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://mlb.mlb.com/mlb/authentication/index.jsp">
+                                      MLB Authentication
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-mobile">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mobile/?c_id=cin">
+                                Mobile Home
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mobile/atbat/index.jsp?c_id=cin">
+                                At Bat
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mobile/tablets/index.jsp?c_id=cin">
+                                At Bat on Tablets
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mobile/ipad/index.jsp?c_id=cin">
+                                At Bat for iPad
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mobile/attheballpark/index.jsp?c_id=cin">
+                                At the Ballpark App 
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/fantasy/bts/y2012/index.jsp?c_id=cin">
+                                Beat the Streak
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mobile/team_alerts.jsp?c_id=CIN">
+                                Text Messaging
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mobile/team_alerts.jsp?c_id=cin">
+                                Team Alerts with Video
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mobile/teamTxt.jsp?c_id=cin">
+                                Team TXT: On-demand updates
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mobile/dashboard.jsp?c_id=cin">
+                                Manage Services - Mobile Dashboard
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mobile/mobileweb.jsp?c_id=cin">
+                                Mobile Web
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/mlb/help/faq_alerts.jsp?c_id=cin">
+                                Mobile FAQ
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://mlb.mlb.com/mobile/attheballpark/index.jsp?c_id=cin">
+                                      <img src="/mobile/images/attheballpark/160x160_atb_ballpark.png" class="png" alt="At the Ballpark"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://mlb.mlb.com/mobile/atbat/index.jsp?c_id=cin">
+                                      <img src="/mobile/images/atbat/y2014/megamenu_atbat14_160x160.jpg" alt="At Bat 14"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="panel panel-tickets">
+                      <!--
+reds.mlb.com
+-->                      <ul class="panel-columns">
+                        <li class="panel-column" id="panel-column-section">
+                          <strong class="header">
+                            In This Section
+                          </strong>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/ticketing/singlegame.jsp?c_id=cin">
+                                2014 Single Game Tickets
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/season.jsp">
+                                Season Ticket Plans
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/mini_plan.jsp">
+                                Mini Plans
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/ticketing/pricing.jsp?c_id=cin&amp;layout=gameflow#date=">
+                                Dynamic Pricing
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/premium.jsp">
+                                Premium Seating
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/clubred.jsp">
+                                Club Red
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/group_tickets.jsp">
+                                Group Tickets
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/mothersday.jsp">
+                                Mother's Day Package
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/dog_day.jsp">
+                                Bark in the Park
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/tickets_plus.jsp">
+                                Tickets Plus
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="panel-column-linklist">
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/32crew.jsp">
+                                Jay Bruce 32 Crew
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/group_theme_dates.jsp?loc=govx">
+                                Military &amp; First Responders
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/bww_wild.jsp">
+                                Wild Wednesdays
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/fireworks_fridays.jsp">
+                                Fireworks Fridays
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/business_special.jsp">
+                                Business Day Special
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/ticketing/mobile_ticket_info.jsp?c_id=cin">
+                                Mobile Ticket Information
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/giftcards.jsp">
+                                Gift Certificates
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/seating_pricing.jsp">
+                                Seating Map
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/ticketing/stubhub.jsp?c_id=cin">
+                                StubHub
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://cincinnati.reds.mlb.com/cin/ticketing/sth/mytickets.jsp">
+                                My Reds Account
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="panel-column" id="panel-column-features">
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/ticketing/four_48.jsp">
+                                      <img width="160" height="160" src="/cin/images/ticketing/y2014/4for48_160x160.png" alt="4 for $48"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/ticketing/mothersday.jsp">
+                                      <img width="160" height="160" src="/cin/images/ticketing/y2014/mothersday_160x160.png" alt="Mothers Day Packages"/>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul class="panel-column-feature">
+                            <ul>
+                              <li>
+                                <strong class="header">
+                                  Related Links:
+                                </strong>
+                                <ul class="navigation_feature">
+                                  <li>
+                                    <a href="http://mlb.mlb.com/schedule/index.jsp?c_id=cin#y=2014&amp;m=3&amp;calendar=DEFAULT">
+                                      2014 Season Schedule
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/ticketing/sth/index.jsp">
+                                      Season Ticket Holders
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/ballpark/tours/index.jsp">
+                                      Ballpark Tours
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/ballpark/private_events/index.jsp">
+                                      Special Events
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://cincinnati.reds.mlb.com/cin/hof/visit/index.jsp?loc=hours_prices">
+                                      HOF Hours &amp; Prices
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <script type="text/javascript">
+//<![CDATA[
+
+$('#nav-scoreboard, #nav-newsletter, #nav-military, #nav-rewards, #nav-membership, #nav-republic, #nav-clubhouse, #nav-kc_rewards, #nav-bal_rewards, #nav-bos_rewards').removeClass('value-menu-item');
+
+
+
+
+$(document).ready(function(){
+	$("#value-menu-container").on("valuemenuaftershow", function(e, tab) {
+	console.log(e);
+	console.log(tab);
+      if($(tab).attr("id") === "nav-tickets") {
+		var axel = ((Math.round((Math.random() + 1) * 10000)).toString()).slice(1,5);
+		var a = axel * 10000000000000;
+		$('body').append('&lt;iframe src="http://ad.doubleclick.net/adi/mlb.mlb/dummy;page=megamenu_'+club+';pos=1;sz=1x1;ord=' + a + '" width="1" height="1" frameborder="0" style="display:none"&gt;&lt;/iframe&gt;');
+      }
+    });
+
+    var sec = 'nav-' + section;
+	$.each($('#value-menu-links &gt; li'), function() {
+	    if (this.id === sec) {
+	        $('#'+sec).addClass('active-select');
+	    }
+	});
+});
+
+//]]>
+                </script>
+              </div>
+            </div>
+          </div>
+          <script src="/shared/scripts/bam/widget/dcRefreshableAd/bam.widget.dcRefreshableAd-1.0.0.js" type="text/javascript">
+          </script>
+          <script src="/shared/scripts/bam/value_menu.1.1.js" type="text/javascript">
+          </script>
+          <script src="/shared/scripts/bam/value_menu.js" type="text/javascript">
+          </script>
+          <script type="text/javascript">
+//<![CDATA[
+
+$("#header_teams").ValueMenu().find('ul');
+
+/*Removed TEX conditional */
+
+	$('#value-menu-links .value-menu-link').slice(-6).addClass('last_five');
+
+
+  (function (window, document, $) {
+	$("#hdr_search").submit(function() {
+			bam.tracking.track({
+            	async:{
+                	isDynamic    : false,
+                    compName     : "Site Search",
+                    compActivity : "Site Search: Go Click",
+        			actionGen    : false
+               	}
+			});
+			var _searchBox = $("#query_text1").val();
+			$("input[name='query']").val(_searchBox);
+			return true;
+		});
+
+    /*
+        var myAccountMiniContainerID = 'myAccountMiniContainer',
+            tplRegistrationLinksPath = '/scripts/account_management/myAccountMini/registration_links.js.tpl',
+            tplMyAccountPath         = '/scripts/account_management/myAccountMini/myaccount.js.tpl',
+            tplLoginPath             = '/scripts/account_management/myAccountMini/quick_login.js.tpl';
+
+        MyAccountMini.init( myAccountMiniContainerID, tplRegistrationLinksPath, tplMyAccountPath, tplLoginPath, "http://www.mlb.com");
+    */
+		// var fprt = bam.cookies.get("fprt");
+		// if(fprt!=null &amp;&amp; fprt!="") {
+		// 	$("#account_logout").show();
+		// 	$("#account_login").hide();
+		// }
+		// else {
+		// 	$("#account_logout").hide();
+		// 	$("#account_login").show();
+		// }		
+		
+    $('#value-menu-container').valuemenu();
+   
+  })(this, document, jQuery);
+
+//]]>
+          </script>
+          <script type="text/javascript">
+//<![CDATA[
+
+    bam.require(["account.loginRegister-1.0"]).done(function(ctx) {
+        ctx["account.loginRegister"].init({
+            formContainer   : "#mlb-overlay-container",
+            navContainer    : "#login-nav",
+            modalLink       : "#login-lnk",
+            fbLink          : "#fb-login-lnk",
+            displayType     : "modal"
+         });
+
+    });
+
+//]]>
+          </script>
+        </div>
+        <div id="contentWrap">
+          <div id="content_wrapper">
+            <a name="main">
+            </a>
+            <form id="frmSearch" name="frmSearch" method="post" action="">
+              <div class="sch-main">
+                <div class="inner">
+                  <div class="sch-search-input">
+                    <ul class="sch-search-input-parts inline-list">
+                      <li class="sch-search-box">
+                        <ul class="sch-search-input-blocks inline-list">
+                          <li class="field">
+                            <input type="text" id="txtSearch" name="query"/>
+                          </li>
+                          <li class="reset">
+                            <button class="sch-reset-button" name="btnClearSearch" type="reset">
+                              X
+                            </button>
+                          </li>
+                          <li class="submit">
+                            <button class="sch-search-submit-button" name="btnSubmitSearch" type="submit">
+                              Search
+                            </button>
+                          </li>
+                        </ul>
+                        <div class="clearfix">
+                        </div>
+                      </li>
+                      <li class="sch-search-filter">
+                        <select name="teamFilter">
+                          <option value="mlb" selected="selected">
+                            -- All MLB Sites --
+                          </option>
+                          <option value="ana">
+                            Angels
+                          </option>
+                          <option value="hou">
+                            Astros
+                          </option>
+                          <option value="oak">
+                            Athletics
+                          </option>
+                          <option value="tor">
+                            Blue Jays
+                          </option>
+                          <option value="atl">
+                            Braves
+                          </option>
+                          <option value="mil">
+                            Brewers
+                          </option>
+                          <option value="stl">
+                            Cardinals
+                          </option>
+                          <option value="chc">
+                            Cubs
+                          </option>
+                          <option value="ari">
+                            D-backs
+                          </option>
+                          <option value="la">
+                            Dodgers
+                          </option>
+                          <option value="sf">
+                            Giants
+                          </option>
+                          <option value="cle">
+                            Indians
+                          </option>
+                          <option value="sea">
+                            Mariners
+                          </option>
+                          <option value="mia">
+                            Marlins
+                          </option>
+                          <option value="nym">
+                            Mets
+                          </option>
+                          <option value="was">
+                            Nationals
+                          </option>
+                          <option value="bal">
+                            Orioles
+                          </option>
+                          <option value="sd">
+                            Padres
+                          </option>
+                          <option value="phi">
+                            Phillies
+                          </option>
+                          <option value="pit">
+                            Pirates
+                          </option>
+                          <option value="tex">
+                            Rangers
+                          </option>
+                          <option value="tb">
+                            Rays
+                          </option>
+                          <option value="bos">
+                            Red Sox
+                          </option>
+                          <option value="cin">
+                            Reds
+                          </option>
+                          <option value="col">
+                            Rockies
+                          </option>
+                          <option value="kc">
+                            Royals
+                          </option>
+                          <option value="det">
+                            Tigers
+                          </option>
+                          <option value="min">
+                            Twins
+                          </option>
+                          <option value="cws">
+                            White Sox
+                          </option>
+                          <option value="nyy">
+                            Yankees
+                          </option>
+                        </select>
+                      </li>
+                      <li class="sch-seach-tips">
+                        <a href="/mlb/help/search_tips.jsp?c_id=mlb" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/mlb/help/search_tips.jsp_c_id=mlb_1&quot;;return this.s_oc?this.s_oc(e):true">
+                          Search Tips
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div class="sch-search-counts">
+                    About 116 results (0.030 seconds)
+                  </div>
+                  <div class="sch-search-suggestions">
+                  </div>
+                  <!-- Keyword search results -->                  <div class="sch-keywords-section">
+                    <div class="sch-keywords-search-results">
+                    </div>
+                  </div>
+                  <div class="sch-video-section" style="display: block;">
+                    <!-- Video search results -->                    <div data-type="Video" class="sch-video-search-for sch-resuts-for">
+                      Video results for 
+                      <span class="sch-term">
+                        family
+                      </span>
+                    </div>
+                    <div class="sch-video-search-container">
+                      <ul class="sch-video-search-results inline-list" style="width: 847px;">
+                        <li data-topicid="" data-pos="0" data-contentid="25997405" class="sch-video-slide first" style="visibility: visible;">
+                          <div>
+                            <a href="javascript:void(0)">
+                              <img src="http://mediadownloads.mlb.com/mlbam/2013/04/04/images/mlbf_25997405_th_1.jpg"/>
+                              <div class="sch-video-text">
+                                Reds Sundays are family days at the ballpark
+                              </div>
+                            </a>
+                            <div class="sch-video-duration">
+                              00:33
+                            </div>
+                          </div>
+                        </li>
+                        <li data-topicid="vtp_manager_postgame" data-pos="1" data-contentid="25349049" class="sch-video-slide" style="visibility: visible;">
+                          <div>
+                            <a href="javascript:void(0)">
+                              <img src="http://mediadownloads.mlb.com/mlbam/2012/10/06/images/mlbf_25349049_th_1.jpg"/>
+                              <div class="sch-video-text">
+                                CIN@SF Gm1: Phillips on playing in front of cameras
+                              </div>
+                            </a>
+                            <div class="sch-video-duration">
+                              00:45
+                            </div>
+                          </div>
+                        </li>
+                        <li data-topicid="" data-pos="2" data-contentid="23725567" class="sch-video-slide" style="visibility: visible;">
+                          <div>
+                            <a href="javascript:void(0)">
+                              <img src="http://mediadownloads.mlb.com/mlbam/2012/08/08/images/mlbf_23725567_th_1.jpg"/>
+                              <div class="sch-video-text">
+                                The Maples make Reds Fantasy Camp a family affair
+                              </div>
+                            </a>
+                            <div class="sch-video-duration">
+                              03:35
+                            </div>
+                          </div>
+                        </li>
+                        <li data-topicid="" data-pos="3" data-contentid="22659953" class="sch-video-slide" style="visibility: visible;">
+                          <div>
+                            <a href="javascript:void(0)">
+                              <img src="http://mediadownloads.mlb.com/mlbam/2012/06/28/images/mlbf_22659953_th_1.jpg"/>
+                              <div class="sch-video-text">
+                                Reds HOF Induction Ceremonies for John Reilly
+                              </div>
+                            </a>
+                            <div class="sch-video-duration">
+                              02:30
+                            </div>
+                          </div>
+                        </li>
+                        <li data-topicid="" data-pos="4" data-contentid="20052845" class="sch-video-slide" style="visibility: visible;">
+                          <div>
+                            <a href="javascript:void(0)">
+                              <img src="http://mediadownloads.mlb.com/mlbam/2012/01/11/images/mlbf_20052845_th_1.jpg"/>
+                              <div class="sch-video-text">
+                                Barry Larkin and his family talk about his career
+                              </div>
+                            </a>
+                            <div class="sch-video-duration">
+                              04:52
+                            </div>
+                          </div>
+                        </li>
+                        <li data-topicid="" data-pos="5" data-contentid="17404543" class="sch-video-slide last" style="visibility: visible;">
+                          <div>
+                            <a href="javascript:void(0)">
+                              <img src="http://mediadownloads.mlb.com/mlbam/2011/08/01/images/mlbf_17404543_th_7.jpg"/>
+                              <div class="sch-video-text">
+                                2011 Reds Fantasy Camp with the Robertson brothers
+                              </div>
+                            </a>
+                            <div class="sch-video-duration">
+                              05:12
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="clearfix">
+                      </div>
+                      <a href="/search/media.jsp?query=family" id="sch-more-media-results" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/search/media.jsp_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        View All Video Results »
+                      </a>
+                      <div class="clearfix">
+                      </div>
+                    </div>
+                  </div>
+                  <ul class="two-column-list inline-list">
+                    <li class="column-1">
+                      <!-- Text search results -->                      <div data-type="Site" class="sch-text-search-for sch-resuts-for">
+                        Site results for 
+                        <span class="sch-term">
+                          family
+                        </span>
+                      </div>
+                      <div id="divSearchResults" class="sch-text-search-results">
+                        <div class="sch-text-result first">
+                          <div class="sch-text-title">
+                            <a pos="0" href="http://cincinnati.reds.mlb.com/cin/community/family_catch.jsp">
+                              <b>
+                                Family
+                              </b>
+                               Catch | reds.com: Community
+                            </a>
+                          </div>
+                          <div class="sch-text-body">
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             Reds Community Fund 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Catch. 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             Order Packages. The Reds Community
+                            <br/>
+                             Fund is the beneficiary of the annual "
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Catch" fundraising event. 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                          </div>
+                          <div>
+                            <a href="http://cincinnati.reds.mlb.com/cin/community/family_catch.jsp" class="sch-text-link">
+                              http://cincinnati.reds.mlb.com/cin/community/family_catch.jsp
+                            </a>
+                          </div>
+                        </div>
+                        <div class="sch-text-result">
+                          <div class="sch-text-title">
+                            <a pos="1" href="http://cincinnati.reds.mlb.com/cin/ticketing/family_fun.jsp">
+                              <b>
+                                Family
+                              </b>
+                               Fun | reds.com: Tickets
+                            </a>
+                          </div>
+                          <div class="sch-text-body">
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             Loading... Tickets; 2014 Single Game Tickets; 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Fun. 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Fun. 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             Reach
+                            <br/>
+                             Magazine Sunday 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Days. Click here for a larger version ». 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                          </div>
+                          <div>
+                            <a href="http://cincinnati.reds.mlb.com/cin/ticketing/family_fun.jsp" class="sch-text-link">
+                              http://cincinnati.reds.mlb.com/cin/ticketing/family_fun.jsp
+                            </a>
+                          </div>
+                        </div>
+                        <div class="sch-text-result">
+                          <div class="sch-text-title">
+                            <a pos="2" href="http://cincinnati.reds.mlb.com/cin/ticketing/group_theme_dates.jsp?loc=familycatch">
+                              Group Special Dates - 
+                              <b>
+                                Family
+                              </b>
+                               Catch | reds.com: Tickets
+                            </a>
+                          </div>
+                          <div class="sch-text-body">
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             Reds Community Fund 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Catch Ticket Redemption. If you are ready to
+                            <br/>
+                             redeem your tickets for 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Catch, you have come to the right place! 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                          </div>
+                          <div>
+                            <a href="http://cincinnati.reds.mlb.com/cin/ticketing/group_theme_dates.jsp?loc=familycatch" class="sch-text-link">
+                              http://cincinnati.reds.mlb.com/cin/ticketing/group_theme_dates.jsp?loc=familycatch
+                            </a>
+                          </div>
+                        </div>
+                        <div class="sch-twitter-container">
+                          <div class="sch-twitter-header">
+                            <div data-type="Twitter" class="sch-twitter-results-for sch-resuts-for">
+                              Twitter results for 
+                              <span class="sch-term">
+                                family
+                              </span>
+                            </div>
+                            <ul class="sch-twitter-tabs inline-list">
+                              <li data-ref="#sch-twitter-results" id="sch-twitter-tab-club" class="sch-twitter-tab active">
+                                Insider Tweets
+                              </li>
+                              <li data-ref="#sch-twitter-scroller" id="sch-twitter-tab-everyone" class="sch-twitter-tab">
+                                Everyone
+                              </li>
+                            </ul>
+                            <div class="clearfix">
+                            </div>
+                          </div>
+                          <div class="sch-twitter-results" id="sch-twitter-results">
+                            <div class="align-center">
+                              <p>
+                                Looking for more of the conversation?
+                              </p>
+                              <p>
+                                See what the Insiders have to say at the 
+                                <a href="/fan_forum/social_media/index.jsp?c_id=cin" target="_blank">
+                                  Reds Social Media Clubhouse »
+                                </a>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="sch-twitter-results" id="sch-twitter-scroller">
+                          </div>
+                        </div>
+                        <div class="sch-text-result">
+                          <div class="sch-text-title">
+                            <a pos="3" href="http://cincinnati.reds.mlb.com/cin/ticketing/family_fun.jsp?affiliateId=56Y661-UC6">
+                              <b>
+                                Family
+                              </b>
+                               Fun | reds.com: Tickets
+                            </a>
+                          </div>
+                          <div class="sch-text-body">
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             Loading... Tickets; 2014 Single Game Tickets; 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Fun. 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Fun. 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             Reach
+                            <br/>
+                             Magazine Sunday 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Days. Click here for a larger version ». 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                          </div>
+                          <div>
+                            <a href="http://cincinnati.reds.mlb.com/cin/ticketing/family_fun.jsp?affiliateId=56Y661-UC6" class="sch-text-link">
+                              http://cincinnati.reds.mlb.com/cin/ticketing/family_fun.jsp?affiliateId=56Y661-UC6
+                            </a>
+                          </div>
+                        </div>
+                        <div class="sch-text-result">
+                          <div class="sch-text-title">
+                            <a pos="4" href="http://cincinnati.reds.mlb.com/cin/community/race.jsp">
+                              Redlegs Run | reds.com: Community
+                            </a>
+                          </div>
+                          <div class="sch-text-body">
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             8 am - All 10K participants and first 1,500 registered 5K participants * 8:10
+                            <br/>
+                             am -Remaining 5K participants ** 9:30 am - One Mile 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Run 10:15 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                          </div>
+                          <div>
+                            <a href="http://cincinnati.reds.mlb.com/cin/community/race.jsp" class="sch-text-link">
+                              http://cincinnati.reds.mlb.com/cin/community/race.jsp
+                            </a>
+                          </div>
+                        </div>
+                        <div class="sch-text-result">
+                          <div class="sch-text-title">
+                            <a pos="5" href="http://cincinnati.reds.mlb.com/cin/hof/hof/induction_gala_2012.jsp">
+                              2012 Reds Hall of Fame Induction Gala | reds.com: Hall of 
+                              <b>
+                                ...
+                              </b>
+                            </a>
+                          </div>
+                          <div class="sch-text-body">
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             Title Sponsor: CincyFavorites.com Presenting Sponsor: Castellini 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             The
+                            <br/>
+                             Williams 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Cincinnati Bell Hall of Fame Sponsor: Associated 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                          </div>
+                          <div>
+                            <a href="http://cincinnati.reds.mlb.com/cin/hof/hof/induction_gala_2012.jsp" class="sch-text-link">
+                              http://cincinnati.reds.mlb.com/cin/hof/hof/induction_gala_2012.jsp
+                            </a>
+                          </div>
+                        </div>
+                        <div class="sch-text-result">
+                          <div class="sch-text-title">
+                            <a pos="6" href="http://cincinnati.reds.mlb.com/cin/ticketing/premium.jsp">
+                              Premium Seating | reds.com: Tickets
+                            </a>
+                          </div>
+                          <div class="sch-text-body">
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             kind experience, perfect for entertaining clients, rewarding co-workers,
+                            <br/>
+                             celebrating a special occasion or just getting together with 
+                            <span class="highlight">
+                              family
+                            </span>
+                             and friends 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                          </div>
+                          <div>
+                            <a href="http://cincinnati.reds.mlb.com/cin/ticketing/premium.jsp" class="sch-text-link">
+                              http://cincinnati.reds.mlb.com/cin/ticketing/premium.jsp
+                            </a>
+                          </div>
+                        </div>
+                        <div class="sch-text-result">
+                          <div class="sch-text-title">
+                            <a pos="7" href="http://cincinnati.reds.mlb.com/cin/fan_forum/redsheads.jsp?loc=faq">
+                              2014 Reds Heads Members - Frequently Asked Questions 
+                              <b>
+                                ...
+                              </b>
+                            </a>
+                          </div>
+                          <div class="sch-text-body">
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             ticket offer for the Joey Votto figurine games and ballpark experience games
+                            <br/>
+                             can be used for Reds Heads members and any 
+                            <span class="highlight">
+                              family
+                            </span>
+                             and friends 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                          </div>
+                          <div>
+                            <a href="http://cincinnati.reds.mlb.com/cin/fan_forum/redsheads.jsp?loc=faq" class="sch-text-link">
+                              http://cincinnati.reds.mlb.com/cin/fan_forum/redsheads.jsp?loc=faq
+                            </a>
+                          </div>
+                        </div>
+                        <div class="sch-text-result">
+                          <div class="sch-text-title">
+                            <a pos="8" href="http://cincinnati.reds.mlb.com/cin/hof/index.jsp">
+                              Reds Hall of Fame and Museum | reds.com: Hall of Fame
+                            </a>
+                          </div>
+                          <div class="sch-text-body">
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             For the 
+                            <span class="highlight">
+                              Family
+                            </span>
+                            . The Museum has something to offer fans
+                            <br/>
+                             of all ages. Explore all of the 
+                            <span class="highlight">
+                              family
+                            </span>
+                             fun here! 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                          </div>
+                          <div>
+                            <a href="http://cincinnati.reds.mlb.com/cin/hof/index.jsp" class="sch-text-link">
+                              http://cincinnati.reds.mlb.com/cin/hof/index.jsp
+                            </a>
+                          </div>
+                        </div>
+                        <div class="sch-text-result">
+                          <div class="sch-text-title">
+                            <a pos="9" href="http://cincinnati.reds.mlb.com/cin/ballpark/cin_ballpark_gabp_azguide.jsp">
+                              AZ Guide | reds.com: Ballpark
+                            </a>
+                          </div>
+                          <div class="sch-text-body">
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             Birthdays. Looking for the perfect way to make your friends' or 
+                            <span class="highlight">
+                              family
+                            </span>
+                             members'
+                            <br/>
+                             special day extra special this season? 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                             Meijer 
+                            <span class="highlight">
+                              Family
+                            </span>
+                             Section. 
+                            <span class="ellipsis">
+                              ...
+                            </span>
+                          </div>
+                          <div>
+                            <a href="http://cincinnati.reds.mlb.com/cin/ballpark/cin_ballpark_gabp_azguide.jsp" class="sch-text-link">
+                              http://cincinnati.reds.mlb.com/cin/ballpark/cin_ballpark_gabp_azguide.jsp
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="column-2">
+                      <!-- Shopping search results -->                      <div class="sch-shop-container">
+                        <div data-type="Shop" class="sch-shop-search-for sch-resuts-for">
+                          Shop results for 
+                          <span class="sch-term">
+                            family
+                          </span>
+                        </div>
+                        <div class="sch-shop-results-container">
+                          <ul class="sch-shop-results">
+                          </ul>
+                          <a href="http://shop.mlb.com/search/index.jsp?kwCatId=&amp;kw=$0&amp;origkw=$1&amp;sr=1" id="sch-more-shop-results" onclick="s_objectID=&quot;http://shop.mlb.com/search/index.jsp_kwCatId=&amp;kw=$0&amp;origkw=$1&amp;sr=1_1&quot;;return this.s_oc?this.s_oc(e):true">
+                            More Shop Results »
+                          </a>
+                          <div class="clearfix">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sch-ad-placeholder">
+                        <script>
+//<![CDATA[
+writeAd(300,250);
+//]]>
+                        </script>
+                        <script type="text/javascript" src="http://ad.doubleclick.net/N2605/adj/reds.mlb/search;pageid=index;adunit=search;pos=1;sz=300x250;tile=2;ord=627315275?">
+                        </script>
+                        <iframe style="display:none;" src="#">
+                        </iframe>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="clearfix">
+                  </div>
+                  <div class="sch-navigation bottom">
+                    <ul class="nav-links">
+                      <li class="page-link selected nav-link" data-start="1">
+                        1
+                      </li>
+                      <li class="page-link nav-link" data-start="11">
+                        2
+                      </li>
+                      <li class="page-link nav-link" data-start="21">
+                        3
+                      </li>
+                      <li class="page-link nav-link" data-start="31">
+                        4
+                      </li>
+                      <li class="page-link nav-link" data-start="41">
+                        5
+                      </li>
+                      <li class="page-link nav-link" data-start="51">
+                        6
+                      </li>
+                      <li class="page-link nav-link" data-start="61">
+                        7
+                      </li>
+                      <li class="page-link nav-link" data-start="71">
+                        8
+                      </li>
+                      <li class="page-link nav-link" data-start="81">
+                        9
+                      </li>
+                      <li class="page-link nav-link" data-start="91">
+                        10
+                      </li>
+                      <li class="next-page nav-link" data-start="11">
+                        Next &gt;
+                      </li>
+                      <li class="next-set nav-link" data-start="101">
+                        Next 10 »
+                      </li>
+                    </ul>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <script>
+//<![CDATA[
+
+	$(window).ready(function() {
+		MLBSearch.load({
+			query: 'family',
+			start: '1',
+			site: 'mlb',
+			hitsPerPage: '10',
+			hitsPerSite: '10',
+			c_id: 'cin',
+			teamCode: '',
+			teamFilter: '' ? club : "mlb"	   
+		}).done(function() {
+			MLBSearch.init({
+				showShoppingResults: true
+			});
+		});
+	});
+
+//]]>
+            </script>
+          </div>
+          <div id="team_footer">
+            <img class="png footer_logo" alt="" src="/images/homepage/team/y2011/footer/cin.png"/>
+            <div id="team_footer_links">
+              <ul>
+                <li class="home">
+                  <a href="http://cincinnati.reds.mlb.com/index.jsp?c_id=cin" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/index.jsp_c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Home
+                  </a>
+                </li>
+                <li class="second">
+                  <a href="http://cincinnati.reds.mlb.com/mlb/official_info/index.jsp" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/mlb/official_info/index.jsp_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Official Info
+                  </a>
+                </li>
+                <li>
+                  <a href="http://cincinnati.reds.mlb.com/cin/help/cin_help_about_terms.jsp" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/cin/help/cin_help_about_terms.jsp_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Terms of Use
+                  </a>
+                </li>
+                <li>
+                  <a href="http://cincinnati.reds.mlb.com/cin/help/cin_help_about_privacy.jsp" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/cin/help/cin_help_about_privacy.jsp_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="http://cincinnati.reds.mlb.com/help/index.jsp?c_id=cin" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/help/index.jsp_c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Help/Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a href="http://cincinnati.reds.mlb.com/mlb/help/accessibility.jsp?c_id=cin" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/mlb/help/accessibility.jsp_c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Accessibility
+                  </a>
+                </li>
+                <li>
+                  <a href="http://cincinnati.reds.mlb.com/mlb/help/jobs.jsp?c_id=cin" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/mlb/help/jobs.jsp_c_id=cin_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Job Opportunities
+                  </a>
+                </li>
+                <li>
+                  <a target="_new" href="http://cincinnati.reds.mlb.com/cin/sponsorship/index.jsp" onclick="s_objectID=&quot;http://cincinnati.reds.mlb.com/cin/sponsorship/index.jsp_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Advertising Opportunities
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div id="team_footer_global">
+              <div id="sponsor_image_container">
+                <a href="http://www.bgca.org/meetourpartners/Pages/MLB.aspx" onclick="s_objectID=&quot;http://www.bgca.org/meetourpartners/Pages/MLB.aspx_1&quot;;return this.s_oc?this.s_oc(e):true">
+                  <img border="0" class="png" id="sponsor_image" alt="Boys and Girls Club of America" src="/images/footer/bgca_us.png"/>
+                </a>
+              </div>
+              <div id="footer_blurb">
+                <p>
+                  <a href="http://mlb.mlb.com/cin/help/cin_help_about_terms.jsp" onclick="s_objectID=&quot;http://mlb.mlb.com/cin/help/cin_help_about_terms.jsp_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Terms of Use
+                  </a>
+                   | 
+			
+                  <a href="http://mlb.mlb.com/cin/help/cin_help_about_privacy.jsp" onclick="s_objectID=&quot;http://mlb.mlb.com/cin/help/cin_help_about_privacy.jsp_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Privacy Policy (updated March 27, 2014)
+                  </a>
+                   | 
+			
+                  <a href="javascript:void(window.open('http://mlb.mlb.com/cin/help/cin_help_about_privacy.jsp#about_our_ads','PopupWindow','width=700,height=280,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=yes'));" onclick="s_objectID=&quot;javascript:void(window.open('http://mlb.mlb.com/cin/help/cin_help_about_privacy.jsp#about_our_ads_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    About Our Ads
+                  </a>
+                </p>
+                <p>
+                  ©
+                  <span>
+                    2014
+                  </span>
+                   MLB Advanced Media, LP. All rights reserved.
+                </p>
+                <script type="text/javascript">
+//<![CDATA[
+
+				var footer_date = new Date(); 
+				$("#footer_blurb span:first").html(footer_date.getFullYear());		
+			
+//]]>
+                </script>
+                <p>
+                  The following are trademarks or service marks of Major League Baseball entities and may be used only with permission of Major League Baseball Properties, Inc. or the relevant Major League Baseball entity: Major League, Major League Baseball, MLB, the silhouetted batter logo, World Series, National League, American League, Division Series, League Championship Series, All-Star Game, and the names, nicknames, logos, uniform designs, color combinations, and slogans designating the Major League Baseball clubs and entities, and their respective mascots, events and exhibitions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <script src="http://t.p.mybuys.com/js/mybuys4.js" type="text/javascript">
+          </script>
+          <script src="http://t.p.mybuys.com/clients/MLB/js/setup.js" type="text/javascript">
+          </script>
+          <script type="text/javascript">
+//<![CDATA[
+
+	mybuys.setPageType("LANDING");
+	$(function(){
+		mybuys.initPage();
+	});
+
+//]]>
+          </script>
+          <script type="text/javascript">
+//<![CDATA[
+
+if (section=="gameday" || section=="homepage" || section=="multimedia" || section=="news") {
+	var _sf_mlb_sec = (section=="gameday")?"gd":(section=="homepage")?"hp":(section=="multimedia")?"mm":(section=="news")?"news":"";
+	var _sf_async_config={};
+	// curfour article only
+	var isCutFourArticle = (window.location.pathname === '/cutfour/index.jsp' &amp;&amp; window.location.hash !== "") ? true : false;
+	
+	/** CONFIGURATION START **/
+	_sf_async_config.uid = 43794;
+	_sf_async_config.domain = "mlb.com";	
+	_sf_async_config.sections = _sf_mlb_sec+","+page_id;//CHANGE THIS
+	_sf_async_config.authors = club;					//CHANGE THIS
+	bam.CBTrackingOnLoad = true;
+	
+	
+       
+    
+       _sf_async_config.useCanonical =  true;
+    
+    
+   
+	/** CONFIGURATION END **/
+	if (bam &amp;&amp; bam.CBTrackingOnLoad) {
+	(function(){
+		function loadChartbeat() {
+			window._sf_endpt=(new Date()).getTime();
+			var e = document.createElement('script');
+			e.setAttribute('language', 'javascript');
+			e.setAttribute('type', 'text/javascript');
+			e.setAttribute('src', (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') + 'js/chartbeat.js');
+			document.body.appendChild(e);
+		}
+		var oldonload = window.onload;
+		window.onload = (typeof window.onload != 'function') ? loadChartbeat : function() { oldonload(); loadChartbeat(); };
+	})();
+	} 
+}
+
+//]]>
+          </script>
+        </div>
+      </div>
+      <!-- end of #metaWrap -->    </div>
+    <!-- end of #bodyWrap -->    <script src="/components/search/scripts/bam.search.js" type="text/javascript">
+    </script>
+    <span id="mybuyscontainer" style="display: none;">
+      <iframe width="0" height="0" id="mbframe" style="display: none;" src="http://t.p.mybuys.com/webrec/wr.do?client=MLB&amp;sessionId=FB1672B7-910C-5C18-BB6F-65A84ADC63F8&amp;pt=lnd&amp;mbcc=77A13D70-A557-5810-BE61-4B5C741FF3E2&amp;mbdc=280B8B02.05AC.5E3C.A5BB.D68ED3FB6911&amp;lang=en&amp;v4=5.4.1&amp;mbts=1398157214067&amp;rf=http%3A%2F%2Fcincinnati.reds.mlb.com%2Findex.jsp%3Fc_id%3Dcin&amp;purl=http%3A%2F%2Fcincinnati.reds.mlb.com%2Fsearch%2F%3Fquery%3Dfamily%26c_id%3Dcin">
+      </iframe>
+    </span>
+    <iframe width="1px" height="1px" name="_login" id="_login" style="position:absolute;bottom:0;width:1px;height:1px;border:none;">
+    </iframe>
+    <div style="display: none; z-index: 10000; outline: 0px none;" class="ui-dialog ui-widget ui-widget-content ui-corner-all mlb-dialog" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-mlb-login-overlay">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span class="ui-dialog-title" id="ui-dialog-title-mlb-login-overlay">
+           
+        </span>
+        <a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button">
+          <span class="ui-icon ui-icon-closethick">
+            close
+          </span>
+        </a>
+      </div>
+      <div class="mlb-overlay clrfix ui-dialog-content ui-widget-content" id="mlb-login-overlay">
+        <div class="column col1">
+          <div class="mlb-form-wrap">
+            <div class="loadingMask" style="display: none;">
+            </div>
+            <h4>
+              Login
+            </h4>
+            <form method="post" id="mlb-login" novalidate="novalidate">
+              <div class="form-messages">
+              </div>
+              <div class="form-field">
+                <label for="email">
+                  E-mail
+                </label>
+                <input type="text" name="email" class="input required email" id="email"/>
+              </div>
+              <div class="form-field">
+                <label for="login-password">
+                  Password
+                </label>
+                <input type="password" name="password" class="input required" id="login-password"/>
+              </div>
+              <div class="form-actions clrfix">
+                <a class="get-pswd" href="https://secure.mlb.com/enterworkflow.do?flowId=registration.forgottenpassword&amp;c_id=mlb">
+                  Forgot Password?
+                </a>
+                <input type="submit" value="Login" name="submitButton" class="bam-button bam-button-primary submit-btn"/>
+              </div>
+              <input type="hidden" value="firstName,lastName,_email,avatar,fbShareArticle,birthMonth,birthDay,birthYear,favoriteTeam" name="profileFields"/>
+            </form>
+          </div>
+          <div class="fb-connect">
+            <p class="divider">
+              -OR-
+            </p>
+            <p class="fb-link">
+              <a title="Sign in with Facebook" class="fb_button fb_button_large" href="#">
+                <span class="fb_button_text">
+                  Sign in with Facebook
+                </span>
+              </a>
+            </p>
+            <iframe scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden; width:285px; height:95px;" data-src="http://www.facebook.com/plugins/facepile.php?app_id=7848098180" id="facepile-iframe">
+            </iframe>
+          </div>
+        </div>
+        <div class="column col2">
+          <h4>
+            Don't have an account?
+          </h4>
+          <a title="Register" id="reg-mod-lnk" href="https://secure.mlb.com/enterworkflow.do?flowId=registration.ajax.wizard&amp;c_id=mlb">
+            Register now it's easy and free
+          </a>
+          <dl class="list">
+            <dt>
+              Benefits include:
+            </dt>
+            <dd>
+              MLB.com Rewards
+            </dd>
+            <dd>
+              Fantasy Games
+            </dd>
+            <dd>
+              Commenting / Message Boards
+            </dd>
+            <dd>
+              Personalized Profiles
+            </dd>
+            <dd>
+              MLBlogs
+            </dd>
+            <dd class="last">
+              ...and more!
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div style="display: none; z-index: 10000; outline: 0px none;" class="ui-dialog ui-widget ui-widget-content ui-corner-all mlb-dialog" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-mlb-login-overlay">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span class="ui-dialog-title" id="ui-dialog-title-mlb-login-overlay">
+           
+        </span>
+        <a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button">
+          <span class="ui-icon ui-icon-closethick">
+            close
+          </span>
+        </a>
+      </div>
+      <div class="mlb-overlay clrfix ui-dialog-content ui-widget-content" id="mlb-login-overlay">
+        <div class="column col1">
+          <div class="mlb-form-wrap">
+            <div class="loadingMask" style="display: none;">
+            </div>
+            <h4>
+              Login
+            </h4>
+            <form method="post" id="mlb-login" novalidate="novalidate">
+              <div class="form-messages">
+              </div>
+              <div class="form-field">
+                <label for="email">
+                  E-mail
+                </label>
+                <input type="text" name="email" class="input required email" id="email"/>
+              </div>
+              <div class="form-field">
+                <label for="login-password">
+                  Password
+                </label>
+                <input type="password" name="password" class="input required" id="login-password"/>
+              </div>
+              <div class="form-actions clrfix">
+                <a class="get-pswd" href="https://secure.mlb.com/enterworkflow.do?flowId=registration.forgottenpassword&amp;c_id=mlb">
+                  Forgot Password?
+                </a>
+                <input type="submit" value="Login" name="submitButton" class="bam-button bam-button-primary submit-btn"/>
+              </div>
+              <input type="hidden" value="firstName,lastName,_email,avatar,fbShareArticle,birthMonth,birthDay,birthYear,favoriteTeam" name="profileFields"/>
+            </form>
+          </div>
+          <div class="fb-connect">
+            <p class="divider">
+              -OR-
+            </p>
+            <p class="fb-link">
+              <a title="Sign in with Facebook" class="fb_button fb_button_large" href="#">
+                <span class="fb_button_text">
+                  Sign in with Facebook
+                </span>
+              </a>
+            </p>
+            <iframe scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden; width:285px; height:95px;" data-src="http://www.facebook.com/plugins/facepile.php?app_id=7848098180" id="facepile-iframe">
+            </iframe>
+          </div>
+        </div>
+        <div class="column col2">
+          <h4>
+            Don't have an account?
+          </h4>
+          <a title="Register" id="reg-mod-lnk" href="https://secure.mlb.com/enterworkflow.do?flowId=registration.ajax.wizard&amp;c_id=mlb">
+            Register now it's easy and free
+          </a>
+          <dl class="list">
+            <dt>
+              Benefits include:
+            </dt>
+            <dd>
+              MLB.com Rewards
+            </dd>
+            <dd>
+              Fantasy Games
+            </dd>
+            <dd>
+              Commenting / Message Boards
+            </dd>
+            <dd>
+              Personalized Profiles
+            </dd>
+            <dd>
+              MLBlogs
+            </dd>
+            <dd class="last">
+              ...and more!
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <!-- stopgap_end -->  </body>
+</html>

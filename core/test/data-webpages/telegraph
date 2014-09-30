@@ -1,0 +1,2353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+  <head>
+    <!-- Google Adsense for Search Start -->    <!-- Google Adsense for Search End -->    <div class="kxhead" data-id="IL2HXIjT" style="display:none;">
+      <span class="kxtag kxinvisible" data-id="18089" data-alias="Krux Load Segments v2">
+        <script type="text/javascript" src="http://apiservices.krxd.net/user_data/segments/3?pubid=73d63640-00aa-4b5a-8fd2-7d80afb25a19&amp;callback=Krux.ns._default.kxjsonp_userData">
+        </script>
+        <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/lidar.js">
+        </script>
+        <script src="http://edge.quantserve.com/quant.js" type="text/javascript">
+        </script>
+        <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/lidar.js">
+        </script>
+        <script type="text/javascript" src="http://s.skimresources.com/js/296X467.skimlinks.js">
+        </script>
+        <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/lidar.js">
+        </script>
+        <script type="text/javascript" src="//www.google.com/ads/search/module/ads/3.0/3d81dc54500f4c78bbd6344f71211248904658b9/n/search.js">
+        </script>
+        <script src="//www.google.com/adsense/search/async-ads.js">
+        </script>
+        <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/lidar.js">
+        </script>
+        <script src="http://b.scorecardresearch.com/beacon.js">
+        </script>
+        <script type="text/javascript" src="http://www.google-analytics.com/ga.js">
+        </script>
+        <script type="text/javascript" src="/template/ver1-0/js/asyncwebtrends/qbert-wtplugin.js">
+        </script>
+        <script type="text/javascript" src="/template/ver1-0/js/asyncwebtrends/webtrends.hm.js">
+        </script>
+        <script src="/template/ver1-0/js/asyncwebtrends/webtrends.js">
+        </script>
+        <script type="text/javascript" src="//www.google.com/ads/search/module/ads/3.0/3d81dc54500f4c78bbd6344f71211248904658b9/n/search.js">
+        </script>
+        <script type="text/javascript">
+//<![CDATA[
+
+// DFP premium
+(function(require) {
+  var store = require('store');
+  var _ = require('util');  
+  var segments;
+  
+  function handleUserDataResponse(r) {
+    // Handle the response as usual.
+    segments.handleUserDataResponse(r);
+    
+    // Override localStorage.kxuser with a case-insensitive value for DFP premium.
+    // This will get read by the interchange direct snippet for Krux.user
+    // and Krux.dfpKeyValues
+    if(r.kuid_long) {
+      store.set('user', r.kuid_long, store.DAYS*30);
+    }
+  }
+  
+  // Our own fetch uses our own handleResponse
+  function fetch() {
+    var options = {
+      url: _.get('url_userData'),
+      data: {pubid: _.get('pubid')},
+      callback: 'kxjsonp_userData',
+      done: handleUserDataResponse
+    };
+    if(!segments.readTechFromStore()) {
+      options.data.technographics = 1;
+    }
+    require('http').jsonp(options);  
+  }
+  
+  
+  if(!store.get('segWait')) {
+    // disable segments.fetch and use our own
+    _.set('segWait', 1, store.MINUTES*5);
+    _.onOnce('dom:load', fetch);
+    _.fire('user_data_fetch_scheduled');
+  }
+  
+  // Finally, require segments as usual.
+  segments = require('segments');
+}(Krux.require));
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="24325" data-alias="Krux InterchangeExtension User Match">
+        <img src="//apiservices.krxd.net/um?partner=adnxs&amp;r=http://ib.adnxs.com/pxj"/>
+        <script>
+//<![CDATA[
+
+(function(){
+  var prefix = location.protocol == 'https:' ? "https:" :
+"http:";
+  var r_url = prefix + '//cm.g.doubleclick.net/pixel'
+  var kurl = prefix +
+'//apiservices.krxd.net/um?partner=google&r=' + r_url;
+  var i = new Image();
+  i.src = kurl;
+})();
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="21544" data-alias="Krux Data Transfer Code">
+        <script>
+//<![CDATA[
+
+Krux('scrape', { "page_attr_DCSext.Channel": {meta_name: "DCSext.Channel"}});
+Krux('scrape', { "page_attr_DCSext.Category": {meta_name: "DCSext.Category"}});
+Krux('scrape', { "page_attr_DCSext.Genre": {meta_name: "DCSext.Genre"}});
+Krux('scrape', { "page_attr_DCSext.MLC": {meta_name: "DCSext.MLC"}});
+Krux('scrape', { "page_attr_DCSext.articleId": {meta_name: "DCSext.articleId"}});
+Krux('scrape', { "page_attr_DCSext.GalleryType": {meta_name: "DCSext.GalleryType"}});
+Krux('scrape', { "page_attr_DCSext.Content_Type": {meta_name: "DCSext.Content_Type"}});
+Krux('scrape', { "page_attr_DCSext.Level": {meta_name: "DCSext.Level"}});
+Krux('scrape', { "page_attr_DCSext.author": {meta_name: "DCSext.author"}});
+Krux('scrape', { "page_attr_DCSext.platform ": {meta_name: "DCSext.platform"}});
+Krux('scrape', { "page_attr_DCSext.imageNo": {meta_name: "DCSext.imageNo"}});
+Krux('scrape', { "page_attr_DCSext.articleFirstPublished": {meta_name: "DCSext.articleFirstPublished"}});
+Krux('scrape', { "page_attr_tmgads_geo": {meta_name: "tmgads.geo"}});
+// Using Cookie tmg_pid to produce page attribute cookie_tmg_pid
+Krux('scrape', { "user_attr_cookie_tmg_pid": {cookie: "tmg_pid"}});
+//new variables as of May 9 2013
+// Using Meta DCSext.Category to produce page attribute dcsext_category
+Krux('scrape', { "page_attr_dcsext_share": {meta_name: "DCSext.Share"}});
+Krux('scrape', { "page_attr_dcsext_cf": {meta_name: "DCSext.cf"}});
+Krux('scrape', { "page_attr_dcsext_cd": {meta_name: "DCSext.cd"}});
+Krux('scrape', { "page_attr_dcsext_cn": {meta_name: "DCSext.cn"}});
+Krux('scrape', { "page_attr_dcsext_pd": {meta_name: "DCSext.pd"}});
+Krux('scrape', { "page_attr_dcsext_navigation": {meta_name: "DCSext.navigation"}});
+// Using Cookie tmg_subs to produce page attribute cookie_tmg_subs
+Krux('scrape', { "user_attr_cookie_tmg_subs": {cookie: "tmg_subs"}});
+// Using Javascript 
+Krux('scrape', { "user_attr_tmgads_audienceScienceConnect": {javascript: "tmgAds.page.audienceScienceConnect"}});
+Krux('scrape', { "page_attr_tmgads_grapeshot": {javascript: "tmgAds.page.grapeshot"}});
+Krux('scrape', { "user_attr_tmgads_cookies_audienceScienceOther": {javascript: " tmgAds.cookies.audienceScienceOther"}});
+// Using Cookie tmg_authz_session to produce page attribute cookie_tmg_authz_session
+Krux('scrape', { "user_attr_cookie_tmg_authz_session": {cookie: "tmg_authz_session"}});
+
+Krux('scrape', { "page_attr_WT.rv": {meta_name: "WT.rv"}});
+Krux('scrape', { "page_attr_producttype": {javascript: "Webtrends.dcss.dcsobj_0.DCSext.productType"}});
+Krux('scrape', { "page_attr_status": {javascript: "Webtrends.dcss.dcsobj_0.DCSext.status"}});
+
+Krux('scrape', { "user_attr_cookie_WT_FPC": {cookie: "WT_FPC"}});
+Krux('scrape', { "page_attr_cookie_tmg_web_trends": {cookie: "tmg_web_trends"}});
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="23103" data-alias="Visual DNA provider tag">
+        <img src="//apiservices.krxd.net/um?partner=vdna&amp;r=http%3A%2F%2Fe.visualdna.com%2Fconversion&amp;_kdpid=8f95f20d-4acf-43fc-9832-3f5174a166cc"/>
+      </span>
+      <span class="kxtag kxinvisible" data-id="23219" data-alias="Krux Quantcast Tag">
+        <script>
+//<![CDATA[
+
+(function () {
+    if (location.protocol.indexOf('s') > -1) {
+       return;
+    }
+    var u =
+"http://segapi.quantserve.com/seg/r;a=p-gyXAHFFgnNQDj;rand="
++
+        Math.round(Math.random() * 999999942) + ";redirect="
++
+       
+"http://beacon.krxd.net/data.gif?_kdpid=53de8d91-7065-4d44-afa9-9370c20825d0&segs=!qcsegs";
+
+    (new Image()).src = u;
+})();
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="21545" data-alias="Krux Geographic Data provider tag">
+      </span>
+      <span class="kxtag kxinvisible" data-id="21546" data-alias="Technographic Data provider tag">
+        <script>
+//<![CDATA[
+
+// this tag is intentionally blank
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="23102" data-alias="eXelate Media provider tag">
+        <script>
+//<![CDATA[
+
+(function(){
+  var kuid = Krux('get', 'user');
+  if (kuid) {
+    Krux('require:http').pixel({
+      url: "//loadm.exelator.com/load",
+      data: {
+          _kdpid: 'e4942ff0-4070-4896-a7ef-e6a5a30ce9f9',
+          buid: kuid,
+          p: '204',
+          g: '270',
+          j: '0'
+      }});
+  }
+  })();
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="27809" data-alias="Visual DNA (Telegraph Only) provider tag">
+      </span>
+      <span class="kxtag kxinvisible" data-id="23276" data-alias="Quantcast (Telegraph) provider tag">
+      </span>
+      <span class="kxtag kxinvisible" data-id="26097" data-alias="SIC Data provider tag">
+      </span>
+      <span class="kxtag kxinvisible" data-id="27399" data-alias="Rubicon User Matching">
+        <script>
+//<![CDATA[
+
+(function(){
+  if (window.Krux) {
+    var kuid = window.Krux('get', 'user');
+    if (kuid) {
+       var rubicon_url = '//tap.rubiconproject.com/oz/feeds/krux/tokens?afu=' + kuid;
+       var i = new Image();
+       i.src = rubicon_url;
+    }
+  }
+})();
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="27199" data-alias="Rubicon Segment Sharing">
+        <script type="text/javascript">
+//<![CDATA[
+
+(function() {
+  var segs = Krux('get', 'user_prvx_segments') || [];
+  if (segs.length) {
+    var config = Krux('get', 'config');
+    if (config) {
+      var partner_segment_map = config['partner_segment_map'];
+      if (partner_segment_map) {
+        rubicon_segs = [];
+        for (var i = 0; i < segs.length; i++) {
+          var seg_map_data = partner_segment_map[segs[i]];
+          if (seg_map_data) {
+            rseg = seg_map_data['rubicon'];
+            if (rseg) {
+              rubicon_segs.push(rseg)
+            }
+          }          
+        }
+        if (rubicon_segs.length) {
+            (new Image()).src = '//pixel.rubiconproject.com/tap.php?v=' + rubicon_segs.join('||');
+        }
+      }         
+    }
+  }
+})();
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="22646" data-alias="Krux AS Transfer Code">
+        <script>
+//<![CDATA[
+
+var scripts = document.getElementsByTagName('script');
+var asiSegmentValues = [];
+
+for(var i = 0; i < scripts.length; i++){
+    var srcUrl = scripts[i].getAttribute('src');
+    if(srcUrl && srcUrl.indexOf('http://ad.doubleclick.net') === 0){
+        var dfpSrcUrl = srcUrl;
+        var keyValPairs = dfpSrcUrl.split(";");
+        for(var i = 0; i < keyValPairs.length; i++){
+            if(keyValPairs[i] && keyValPairs[i].indexOf('as=') === 0){
+               var asiVals = keyValPairs[i].split("=");
+               asiSegmentValues.push(asiVals[1]); 
+            }
+        }
+        break;
+     }
+}
+
+Krux('scrape', {
+  page_attr_asiSegments: {
+    javascript: 'asiSegmentValues'
+  } 
+});
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="22725" data-alias="Krux ASO Transfer Code">
+        <script>
+//<![CDATA[
+
+var asoScripts = document.getElementsByTagName('script');
+var asoSegmentValues = [];
+
+for(var i = 0; i < asoScripts.length; i++){
+    var asoSrcUrl = asoScripts[i].getAttribute('src');
+    if(asoSrcUrl && asoSrcUrl.indexOf('http://ad.doubleclick.net') === 0){
+        var asoDfpSrcUrl = asoSrcUrl;
+        var asoKeyValPairs = asoDfpSrcUrl.split(";");
+        for(var i = 0; i < asoKeyValPairs.length; i++){
+            if(asoKeyValPairs[i] && asoKeyValPairs[i].indexOf('aso=') === 0){
+               var asoVals = asoKeyValPairs[i].split("=");
+               asoSegmentValues.push(asoVals[1]); 
+            }
+        }
+        break;
+     }
+}
+
+Krux('scrape', {
+  page_attr_asoSegments: {
+    javascript: 'asoSegmentValues'
+  } 
+});
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="22726" data-alias="Krux ASC Transfer Code">
+        <script>
+//<![CDATA[
+
+var ascScripts = document.getElementsByTagName('script');
+var ascSegmentValues = [];
+
+for(var i = 0; i < ascScripts.length; i++){
+    var ascSrcUrl = ascScripts[i].getAttribute('src');
+    if(ascSrcUrl && ascSrcUrl.indexOf('http://ad.doubleclick.net') === 0){
+        var ascDfpSrcUrl = ascSrcUrl;
+        var ascKeyValPairs = ascDfpSrcUrl.split(";");
+        for(var i = 0; i < ascKeyValPairs.length; i++){
+            if(ascKeyValPairs[i] && ascKeyValPairs[i].indexOf('aso=') === 0){
+               var ascVals = ascKeyValPairs[i].split("=");
+               ascSegmentValues.push(ascVals[1]); 
+            }
+        }
+        break;
+     }
+}
+
+Krux('scrape', {
+  page_attr_ascSegments: {
+    javascript: 'ascSegmentValues'
+  } 
+});
+
+//]]>
+        </script>
+      </span>
+    </div>
+    <script src="//cdn.krxd.net/ctjs/controltag.js.71720528ed400e824115e431824ce5ed">
+    </script>
+    <script src="//www.google.com/adsense/search/async-ads.js">
+    </script>
+    <script src="//a1.vdna-assets.com/analytics.js">
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>
+      Search - Telegraph
+    </title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content="Search"/>
+    <meta name="tmgads.zone" content="search"/>
+    <meta name="tmgads.channel" content="search"/>
+    <meta name="tmgads.section" content="search"/>
+    <meta name="tmgads.pagetype" content="index"/>
+    <meta name="tmgads.level" content="1"/>
+    <meta name="tmgads.otherdata" content=""/>
+    <meta name="tmgads.geo" content="US"/>
+    <meta name="DCSext.akamigeo" content="US"/>
+    <meta name="section-id" content="209"/>
+    <meta name="GSAMLC" content="search"/>
+    <meta name="GSAChannel" content="search"/>
+    <meta name="GSAChannelName" content="Search"/>
+    <meta name="GSASectionUniqueName" content="search"/>
+    <meta name="robots" content="noarchive,noodp"/>
+    <meta property="fb:app_id" content="120118784736295"/>
+    <meta property="fb:admins" content="686953094,531239902,100002344351237"/>
+    <meta property="og:description" content="A Sri-Lankan born billionaire and former hedge fund titan begins his fight to   stay out of prison on Tuesday this week in the biggest insider trading trial   on Wall Street in a generation."/>
+    <meta property="og:site_name" content="Telegraph.co.uk"/>
+    <meta property="og:title" content=" - Telegraph"/>
+    <meta property="og:url" content="http://www.telegraph.co.uk/search/"/>
+    <meta property="og:image" content="http://www.telegraph.co.uk/template/ver1-0/i/telegraphFacebook.jpg"/>
+    <meta property="og:type" content="author"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@Telegraph"/>
+    <link rel="canonical" href="http://www.telegraph.co.uk/search/"/>
+    <!--  Line no 278 normal.jsp where 1st code change should be made -->    <link rel="stylesheet" type="text/css" href="/template/ver1-0/css/screen.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/template/ver1-0/css/newscreen.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/template/ver1-0/templates/fragments/common/tmglBrandCSS.jsp" media="screen"/>
+    <!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="/template/ver1-0/css/ie6.css" media="screen" />
+<![endif]-->    <!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="/template/ver1-0/css/ie7.css" media="screen" />
+<![endif]-->    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Search articles - Telegraph.co.uk" href="http://www.telegraph.co.uk/search/rss"/>
+    <script type="text/javascript" src="http://cdn.krxd.net/controltag?confid=IL2HXIjT">
+    </script>
+    <script type="text/javascript" src="/template/ver1-0/js/jquery-1.4.2.min.js">
+    </script>
+    <script language="Javascript" type="text/javascript" src="/template/ver1-0/js/jquery.cookie.js">
+    </script>
+    <script src="//d3c3cq33003psk.cloudfront.net/opentag-35657-106653.js">
+    </script>
+    <!-- BEGIN Krux Control Tag for "www.telegraph.co.uk - UAT" -->    <!-- Source: /controltag?confid=IL2HXIjT&site=www.telegraph.co.uk%20-%20UAT&edit=1 -->    <!-- END Krux Controltag -->    <!-- VisualDNA Audience Analytics API Import -->    <!-- End of VisualDNA Audience Analytics API Import -->    <script type="text/javascript" src="http://rtax.criteo.com/delivery/rta/rta.js?netId=2039&amp;cookieName=cto_telegraph&amp;rnd=7878475089&amp;varName=crtg_content">
+    </script>
+    <meta name="DCSext.MLC" content="/search"/>
+    <meta name="DCSext.Channel" content="search"/>
+    <meta name="WT.cg_n" content="search"/>
+    <meta name="DCSext.Content_Type" content="Index"/>
+    <meta name="DCSext.Level" content="1"/>
+    <meta name="DCSext.oss" content="ibm"/>
+    <meta name="DCSext.ossType" content="gateway"/>
+    <meta name="WT.oss_r" content="1"/>
+    <meta name="DCSext.cf" content="0"/>
+    <meta name="DCSext.cn" content="0"/>
+    <meta name="DCSext.cd" content="0"/>
+    <script src="/template/ver1-0/js/webtrends/WTDcsVid.js" type="text/javascript">
+    </script>
+    <script src="/template/ver1-0/js/webtrends/LIVE/WTID.js" type="text/javascript">
+    </script>
+    <script>
+//<![CDATA[
+
+window.webtrendsAsyncInit=function(){
+    var dcs=new Webtrends.dcs().init({
+        dcsid:"dcsshgbi400000gscd62rrg43_4o2o",
+        domain:"webtrends.telegraph.co.uk",
+        timezone:0,
+        adimpressions:true,
+        adsparam:"WT.ac",
+        offsite:false,
+        download:true,
+        downloadtypes:"xls,doc,pdf,txt,csv,zip,docx,xlsx,rar,gzip",
+        metanames:"DCSext.MLC, DCSext.source, DCSext.Category, DCSext.Genre, DCSext.Channel, DCSext.imageNo, DCSext.GalleryType, DCSext.Content_Type, DCSext.Level, DCSext.author, DCSext.articleFirstPublished, DCSext.articleId, DCSext.productProvider, DCSext.productName, DCSext.EA_Search_Type, DCSext.EA_Search_Engine, DCSext.EA_Search_Phrase, DCSext.oss, DCSext.ossType, DCSext.cf, DCSext.cn, DCSext.cd, DCSext.pd",        
+        fpcdom:".telegraph.co.uk",
+        plugins:{
+            hm:{src:"/template/ver1-0/js/asyncwebtrends/webtrends.hm.js",hmurlparams:"frame,image"},
+            qbert: { src:"/template/ver1-0/js/asyncwebtrends/qbert-wtplugin.js" }
+        }
+        });
+    if ($.cookie("tmg_subs") != null){
+    	var ts = $.parseJSON($.cookie("tmg_subs"));
+        dcs.DCSext.location = ts.location;
+    	dcs.DCSext.trialDescription =ts.trialDescription;
+	    dcs.DCSext.subscriptionType = ts.subscriptionType;
+	    dcs.DCSext.flowType = ts.flowType;
+	    dcs.DCSext.productType = ts.productType;
+	    dcs.DCSext.serviceId = ts.serviceId;
+	    dcs.DCSext.servicePriceId = ts.servicePriceId;
+	
+	    dcs.DCSext.discountVoucher = ts.discountVoucher;
+	    dcs.DCSext.partnerName = ts.partnerName;
+	    dcs.DCSext.currentPromoName = ts.currentPromoName;
+	    dcs.DCSext.sourcePromoName = ts.sourcePromoName;
+	    dcs.DCSext.promoType = ts.promoType;
+	    dcs.DCSext.tCode = ts.tCode;
+	    dcs.DCSext.status = ts.status == true  && ts.acquisitionCompleted == true ? 'Active':'Inactive';
+
+   }
+   dcs.track();
+
+};
+(function(){
+    var s=document.createElement("script"); s.async=true; s.src="/template/ver1-0/js/asyncwebtrends/webtrends.js";
+    var s2=document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(s,s2);
+}());
+
+//]]>
+    </script>
+    <link rel="stylesheet" href="http://s.telegraph.co.uk/toolbar/css/tmgMenu.css" type="text/css"/>
+  </head>
+  <body>
+    <iframe title="VisualDNA Analytics" width="0" height="0" style="display: none;" aria-hidden="true" src="//w.visualdna.com/analytics/?api_key=telegraph.co.uk&amp;post_message=1">
+    </iframe>
+    <iframe style="width: 1px; height: 1px; position: absolute; top: -7px; left: -7px; border: 0;" src="http://secure-uk.imrworldwide.com/storageframe.html" id="LOCSTORAGE" scrolling="no">
+    </iframe>
+    <script type="text/javascript" src="http://pix04.revsci.net/E06560/b3/0/3/120814/677935524.js?D=DM_LOC%3Dhttp%253A%252F%252Fwww.telegraph.co.uk%252Fsearch%252F%253FqueryText%253Dibm%2526Search%253D%2526Site%253DTelegraph%2526Level1%253DSearch%2526_rsiL%253D0%26DM_REF%3Dhttp%253A%252F%252Fwww.telegraph.co.uk%252F%26DM_EOM%3D1&amp;C=E06560">
+    </script>
+    <script type="text/javascript" src="http://das.uk.experian.com/AudienceIQ/AudienceIQService.svc/GetExpPixels?PartnerID=101&amp;PublisherID=1">
+    </script>
+    <div id="tmgMenu-z1">
+      <div id="tmgMenuBar-z1">
+        <div class="tmgMainMenu">
+          <span class="menuButtonCon">
+            <a href="http://www.telegraph.co.uk/" title="The Telegraph Home">
+              <img src="http://s.telegraph.co.uk/toolbar/images/logoU.png" name="logoU" alt="logoU" class="tmgMainMenuLogo"/>
+            </a>
+          </span>
+          <span id="privacyPolicyButton" class="menuButtonTelegraphArea noArrow" title="read our privacy and cookies policy">
+            Privacy and cookies
+            <span class="dLine">
+            </span>
+          </span>
+          <span class="menuButton noArrow" id="subscribeButton">
+            Subscribe
+            <span class="dLine">
+            </span>
+          </span>
+          <span class="menuButtonCon">
+            <span class="menuButton downArrow" id="registerButton">
+              Register
+              <span class="dLine">
+              </span>
+            </span>
+            <span class="menuButtonCon">
+              <span class="menuButton downArrow" id="loginButton">
+                Log in
+                <span class="dLine">
+                </span>
+              </span>
+            </span>
+            <span class="menuButtonCon">
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="drop" style="display: none;">
+      </div>
+    </div>
+    <noscript>
+      &lt; img alt="dcsimg" id="dcsimg" width="1" height="1" src="//webtrends.telegraph.co.uk/dcsshgbi400000gscd62rrg43_4o2o/njs.gif?MLC=&amp;amp;Channel=&amp;amp;Genre=&amp;amp;Category=&amp;amp;Content_Type=&amp;amp;Level=&amp;amp;source=&amp;amp;dcsuri=/nojavascript&amp;amp;WT.js=No&amp;amp;WT.tv=10.2.10&amp;amp;dcssip=www.telegraph.co.uk"/&gt;
+    </noscript>
+    <script type="text/javascript" src="http://s.telegraph.co.uk/maxymiser/production/js/mmcore.js">
+    </script>
+    <script id="mmcore.1" type="text/javascript" charset="utf-8" src="http://service.maxymiser.net/cg/v5/?fv=dmn%3Dtelegraph.co.uk%3Bref%3Dhttp%253A%2F%2Fwww.telegraph.co.uk%2F%3Burl%3Dhttp%253A%252F%252Fwww.telegraph.co.uk%252Fsearch%252F%253FqueryText%253Dibm%2526Search%253D%3Bscrw%3D1024%3Bscrh%3D768%3Bclrd%3D24%3Bcok%3D1%3B&amp;tst=0.056&amp;pd=1515701151%257CAQAAAAoBQt47SQwLCqMOrNcBANN%2Ftrzo39BIAAwAAADTf7a86N%2FQSAAAAAD%2F%2F%2F%2F%2FAP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FAAZEaXJlY3QBCwoBAAAAAAABAQABAAARMAAAgTAAAP%2F%2F%2F%2F8BACsSAADJ3P1jCwr%2F%2F%2F%2F%2FAAsKCwr%2F%2FwEAAAAAAAABx0gAAGpgAAAAAAAAAUU%253D&amp;srv=cg6.use&amp;mmid=157001107%7CAQAAAAreO0kMCwoAAA%3D%3D&amp;jsver=5.13&amp;ri=1&amp;rul=">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+ 
+//Events tracking for Google Analytics 
+function trackGoogle() { 
+try {var pageTracker = _gat._getTracker("UA-7226372-1");pageTracker._trackPageview();} catch(err) {} 
+} 
+
+//External links tracking through Google Analytics 
+function isLinkExternal(link) { 
+    var r = new RegExp('^https?://(?:www.)?' + location.host.replace(/^www./, '')); 
+        return !r.test(link); 
+} 
+$(document).ready(function() { 
+    $(document).bind('click', function(e) { 
+        var target = (window.event) ? e.srcElement : e.target; 
+        while (target) { 
+            if (target.href) break; 
+            target = target.parentNode; 
+        } 
+        if (!target || !isLinkExternal(target.href)) return true; 
+        var link = target.href; 
+        link = '/outgoing/' + link.replace(/:\/\//, '/'); 
+        _gaq.push(['_trackPageview', link]); 
+    }); 
+}); 
+
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', 'UA-7226372-1']); 
+  _gaq.push(['_setDomainName', 'telegraph.co.uk']); 
+  _gaq.push(['_trackPageview']); 
+
+  (function() { 
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+  })(); 
+
+
+//]]>
+    </script>
+    <script type="text/javascript" language="JavaScript">
+//<![CDATA[
+ 
+  // Wunderloop/Adprobe Tag 
+  // Male : 13463,13464 
+  // Female: 13399,13400 
+  var wlOrd = new Date().getTime(); 
+  var wlFSites = ['culture','fashion','gardening','health','lifestyle','travel','women','foodanddrink','food_and_drink'];
+   var wlFSects = ['news.newstopics.celebritynews','news.newstopics.theroyalfamily','travel.cruises','travel.destination','travel.destinations','travel.hotel','culture.art','culture.books','culture.music.opera','culture.theatre'];
+   var wlMSites = ['earth','education','finance','history','motoring','news','property','science','sport','technology'];
+   var wlMSects = ['travel.activityandadventure','travel.snowandski','culture.film','culture.music','culture.photography','culture.tvandradio'];
+   // create a function to deal with metatag values 
+  function wlGetMetaTag(tagname){	   
+    var tmp = "null"; 
+    if(document.getElementsByName(tagname)[0] != null){ 
+      tmp = document.getElementsByName(tagname)[0].content; 
+    } 
+    return tmp.toLowerCase(); 
+  } 
+  var wlSite = wlGetMetaTag("tmgads.channel"); 
+  var wlSect = wlGetMetaTag("tmgads.zone");
+  // Male Sites 
+  for(var i=0;i<wlMSites.length;i++){ 
+     if(wlMSites[i]===wlSite){ 
+       var wlTag = "http://req.connect.wunderloop.net/AP/1585/6731/13463/js?cus=13463,13464&ord="+wlOrd;
+      } 
+  } 
+  // Female Sites 
+  for(var i=0;i<wlFSites.length;i++){ 
+    if(wlFSites[i]===wlSite){ 
+       var wlTag = "http://req.connect.wunderloop.net/AP/1585/6731/13399/js?cus=13399,13400&ord="+wlOrd;
+     } 
+  } 
+  // Male Sections 
+  for(var i=0;i<wlMSects.length;i++){ 
+    if(wlMSects[i]===wlSect){ 
+       var wlTag = "http://req.connect.wunderloop.net/AP/1585/6731/13463/js?cus=13463,13464&ord="+wlOrd;
+     } 
+  } 
+  // Female Sections 
+  for(var i=0;i<wlFSects.length;i++){ 
+    if(wlFSects[i]===wlSect){ 
+       var wlTag = "http://req.connect.wunderloop.net/AP/1585/6731/13399/js?cus=13399,13400&ord="+wlOrd;
+     } 
+  } 
+  // write the tag 
+   try { 	 
+	  if(wlTag != undefined)		  
+			document.write('<scr'+'ipt type="text/javascript" language="JavaScript" src="'+wlTag+'"></scr'+'ipt>');		  
+   } catch(err) {	   
+    // catch errors 
+  } 
+
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+  var gs_channels="default";
+  // Last-updated: 2014-01-15 09:10:30.295
+gs_channels="spt_cricket";
+
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+ 
+  var qcSegs = ''; 
+  var qcResults = function(qc){ 
+    for (var i=0;i<=qc.segments.length-1;i++){ 
+      if(qc.segments[i].id != 'D' && qc.segments[i].id != 'T') qcSegs += ';qc='+qc.segments[i].id; 
+    } 
+  } 
+
+//]]>
+    </script>
+    <script type="text/javascript" src="http://pixel.quantserve.com/api/segments.json?a=p-gyXAHFFgnNQDj&amp;callback=qcResults">
+    </script>
+    <script language="Javascript" type="text/javascript" src="/template/ver1-0/js/dfp.js">
+    </script>
+    <script src="http://s.telegraph.co.uk/toolbar/disqus_parameters_prod.js" type="text/javascript">
+    </script>
+    <link rel="stylesheet" type="text/css" href="/template/utils/ooyala/styles/styles.css" media="screen"/>
+    <script type="text/javascript" src="/template/utils/ooyala/scripts/stepcarousel.js">
+//<![CDATA[
+ 
+//]]>
+    </script>
+    <link rel="stylesheet" type="text/css" href="/template/ver1-0/css/subscriber.css" media="screen"/>
+    <link href="http://cdn.inskinmedia.com/isfe/4.1/css/base.css" type="text/css" rel="stylesheet"/>
+    <!--[if lt IE 7]><link href="http://cdn.inskinmedia.com/isfe/4.1/css/base-ie6.css" type="text/css" rel="stylesheet" /><![endif]-->    <script type="text/javascript" src="http://cdn.inskinmedia.com/isfe/4.1/js/base/api/telegraph.js">
+//<![CDATA[
+
+        
+//]]>
+    </script>
+    <!-- <script type="text/javascript" src="http://cdn.inskinmedia.com/isfe/4.1/js/base/api/telegraph.js"></script> -->    <script src="http://player.ooyala.com/v3/7dfd98005dba40baacc82277f292e522?platform=html5-fallback">
+    </script>
+    <script src="/template/ver1-0/js/ooyala.js" type="text/javascript">
+    </script>
+    <script language="Javascript" type="text/javascript" src="/template/ver1-0/js/ajax.js">
+    </script>
+    <script language="Javascript" type="text/javascript" src="/template/ver1-0/js/commWidget.js">
+    </script>
+    <!-- Begin KRUX Digital Control Tag for The Telegraph -->    <!-- End KRUX Digital Control Tag for The Telegraph -->    <!-- Begin comScore Tag -->    <script>
+//<![CDATA[
+
+	var _comscore = _comscore || [];
+	_comscore.push({
+		c1 : "2",
+		c2 : "6035736"
+	});
+	(function() {
+		var s = document.createElement("script"), el = document
+				.getElementsByTagName("script")[0];
+		s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb"
+				: "http://b")
+				+ ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	})();
+
+//]]>
+    </script>
+    <noscript>
+      
+	&lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035736&amp;cv=2.0&amp;cj=1" /&gt;
+
+    </noscript>
+    <!-- End comScore Tag -->    <link rel="stylesheet" type="text/css" href="/template/ver1-0/css/majornews.css" media="screen"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+		var subsInfo = new Object();
+		subsInfo.channel =  $('meta[name="DCSext.Channel"]').attr("content");
+		if(subsInfo.channel==undefined){subsInfo.channel='';}
+		subsInfo.mlc = $('meta[name="DCSext.MLC"]').attr("content");
+		if(subsInfo.mlc==undefined){subsInfo.mlc='';}
+		subsInfo.category = $('meta[name="DCSext.Category"]').attr("content");
+		if(subsInfo.category==undefined){subsInfo.category='';}
+		subsInfo.level = $('meta[name="DCSext.Level"]').attr("content");
+		if(subsInfo.level==undefined){subsInfo.level='';}
+		subsInfo.author = $('meta[name="DCSext.author"]').attr("content");
+		if(subsInfo.author==undefined){subsInfo.author='';}
+		subsInfo.content_type = $('meta[name="DCSext.Content_Type"]').attr("content");
+		if(subsInfo.content_type==undefined){subsInfo.content_type='';}
+		subsInfo.articleId = $('meta[name="DCSext.articleId"]').attr("content");
+		if(subsInfo.articleId==undefined){subsInfo.articleId='';}
+		var subsJson = JSON.stringify(subsInfo);
+		$.cookie("tmg_subs_referer",subsJson, { path: '/', domain: 'telegraph.co.uk'});
+		var inviteWTUrlSuffix='?channel='+ subsInfo.channel+'&mlc='+subsInfo.mlc+'&category='+ subsInfo.category+'&level='+subsInfo.level+'&author='+subsInfo.author+'&content_type='+subsInfo.content_type+'&articleId='+subsInfo.articleId;
+		
+		
+			
+				
+					var inviteUrl = "/subscriptions/invitation-intl/";
+				
+			
+	
+		
+				
+				
+				
+			
+		var plink = "http://www.telegraph.co.uk/template/ver1-0/templates/fragments/common/toolBar-js.jsp";
+	
+//]]>
+    </script>
+    <script src="" type="text/javascript">
+    </script>
+    <script src="http://s.telegraph.co.uk/toolbar/js/tmgMenu.js" type="text/javascript">
+    </script>
+    <!--[if lte IE 6]>
+<div id="ieLteSix">
+	<div class="ieLteSixBanner">
+		<table cellspacing="0" cellpadding="0">
+			<tbody>
+				<tr>
+					<td class="ieLteSixLeft">
+						<p class="ieFirstP">We no longer check to see whether Telegraph.co.uk displays properly in Internet Explorer version 6 or earlier.</p>
+						<p class="ieSecondtP">To see our content at its best we recommend <a href="/browser-support/">upgrading if you wish to continue using IE or using another browser such as Firefox, Safari or Google Chrome.</a></p>
+					</td>
+					<td valign="top" class="ieLteSixRight">
+						<a href="#" id="ieX"><img width="20" height="20" border="0" alt="Hide this banner" src="/template/ver1-0/i/ieX.gif"></a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<script language="Javascript" type="text/javascript" src="/template/ver1-0/js/ieSix.js"></script>
+<![endif]-->    <a name="top">
+    </a>
+    <div class="hidden">
+      <p>
+        Accessibility links
+      </p>
+      <ul>
+        <li>
+          <a href="#topstories">
+            Skip to content
+          </a>
+        </li>
+        <li>
+          <a href="#mainsections">
+            Skip to navigation
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="tmglSite">
+      <div class="printLogo">
+        <img src="/template/ver1-0/i/telegraph_print_190.gif"/>
+      </div>
+      <div id="tmglHeader" class="">
+        <div id="tmglBannerAd">
+          <div class="access">
+            Advertisement
+          </div>
+          <div class="adbanner" align="center">
+            <div id="banner" class="InSkinHide">
+              <script type="text/javascript">
+//<![CDATA[
+
+		document.write(tmgAdsBuildAdTag("ban", "940x250,728x90,468x60", "adj", "", 2));
+		
+//]]>
+              </script>
+              <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[1] = {};tmgAds.performance[1].begin = tmgAdsTimer();
+//]]>
+              </script>
+              <div id="tmgAd_div_ban_1" style="margin:auto;padding:0px;width:940px">
+                <script type="text/javascript" id="tmgAd_script_ban_1" src="http://ad.doubleclick.net/N6582/adj/tmg.telegraph.search/search;at=ban;ver=5.97;sc=search;pt=index;lvl=1;biw=1256;bih=605;fv=9;dnt=0;rd=www.telegraph.co.uk;platform=desktop;pos=1;div=tmgAd_div_ban_1;geo=us;wtid=590198d5-fc94-4a8f-bdb3-fbd7d039a81f;gs=spt_cricket;dc_ref=http%3A%2F%2Fwww.telegraph.co.uk%2Fsearch%2F;kxuid=null;kxsid=ng3re6tif;as=10964;as=10605;as=10856;as=10788;as=10537;tile=1;sz=940x250,728x90,468x60;ord=1389777039133?">
+                </script>
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[1].finish= tmgAdsTimer();tmgAds.performance[1].time  = tmgAds.performance[1].finish - tmgAds.performance[1].begin;tmgAds.performance.adTotal     += tmgAds.performance[1].time;tmgAds.performance.adAvg        = tmgAds.performance.adTotal/1;tmgAds.performance.adCount      = 1;
+//]]>
+              </script>
+              <div class="GoogleActiveViewClass" id="DfpVisibilityIdentifier_7526403808707056" data-admeta-dfp="6582/tmg.telegraph.search/search,728,90,3225950624626264002,0.02">
+                <div id="google_ads_div_917961">
+                  <iframe id="google_ads_iframe_917961" name="google_ads_iframe_917961" src="about:blank" width="728" height="90" style="border: 0;">
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tmglBrandLarge">
+          <a href="/">
+            <div id="brand">
+              Telegraph.co.uk
+            </div>
+          </a>
+          <div id="topBarRightContainer">
+            <div id="searchBar">
+              <div id="searchBlock">
+                <form name="tg_search" id="tg_search" method="get" action="/search/">
+                  <input type="text" class="searchBox google" name="queryText" value="ibm" size="19" tabindex="1"/>
+                  <input type="submit" class="formSubmit" tabindex="2" id="go" name="Search" value="" alt="Search"/>
+                </form>
+                <div class="cl">
+                </div>
+              </div>
+            </div>
+            <div id="tmgTopBar">
+              <div id="tmglTopRight" class="tmgTopBarDate">
+                <div id="tmglLasUpdatedDateFeed">
+                  <p>
+                    
+		Wednesday 15 January 2014
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cl">
+          </div>
+        </div>
+        <div class="cl">
+        </div>
+      </div>
+      <div id="tmglMenu">
+        <div id="tmglPriExWrap">
+          <div id="tmglPrimaryNav" class="activeNav">
+            <div class="access">
+              <a name="mainsections">
+              </a>
+            </div>
+            <ul class="mainNav">
+              <li class="first styleTen">
+                <a href="http://www.telegraph.co.uk/">
+                  Home
+                </a>
+              </li>
+              <li class="styleTen">
+                <a href="http://www.telegraph.co.uk/news/">
+                  News
+                </a>
+              </li>
+              <li class="styleTen">
+                <a href="http://www.telegraph.co.uk/news/worldnews/">
+                  World
+                </a>
+              </li>
+              <li class="styleTen">
+                <a href="http://www.telegraph.co.uk/sport/">
+                  Sport
+                </a>
+              </li>
+              <li class="styleTen">
+                <a href="http://www.telegraph.co.uk/finance/">
+                  Finance
+                </a>
+              </li>
+              <li class="styleTen">
+                <a href="http://www.telegraph.co.uk/comment/">
+                  Comment
+                </a>
+              </li>
+              <li class="styleTen">
+                <a href="http://www.telegraph.co.uk/culture/">
+                  Culture
+                </a>
+              </li>
+              <li class="styleTen">
+                <a href="http://www.telegraph.co.uk/travel/">
+                  Travel
+                </a>
+              </li>
+              <li class="styleTen">
+                <a href="http://www.telegraph.co.uk/lifestyle/">
+                  Life
+                </a>
+              </li>
+              <li class="styleTen">
+                <a href="http://www.telegraph.co.uk/women/">
+                  Women
+                </a>
+              </li>
+              <li class="styleTen">
+                <a href="http://fashion.telegraph.co.uk">
+                  Fashion
+                </a>
+              </li>
+              <li class="styleTen">
+                <a href="http://www.telegraph.co.uk/luxury/">
+                  Luxury
+                </a>
+              </li>
+              <li class="styleTen">
+                <a href="http://www.telegraph.co.uk/technology/">
+                  Tech
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div id="tmglExtraNav">
+            <ul class="extraNav">
+              <li class="first">
+                <a href="http://dating.telegraph.co.uk/s/a/4167">
+                  Dating
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/promotions/">
+                  Offers
+                </a>
+              </li>
+              <li>
+                <a href="http://jobs.telegraph.co.uk">
+                  Jobs
+                </a>
+              </li>
+            </ul>
+            <div class="cl">
+            </div>
+          </div>
+          <div class="cl">
+          </div>
+        </div>
+        <div id="tmglSecondNav" class="nonActiveNav noItems styleTen">
+          <div id="tg_search_sort_by">
+            <div id="currentsection">
+              Search results: 
+              <strong>
+                Telegraph.co.uk
+              </strong>
+            </div>
+            <div id="sort_by">
+              <ul>
+                <li>
+                  <a href="/search/?queryText=ibm&amp;startIndex=0&amp;site=default_collection&amp;sort=date%3AD%3AS%3Ad1&amp;type=recent">
+                    Sort by most recent
+                  </a>
+                </li>
+                <li>
+                  <a href="/search/?queryText=ibm&amp;startIndex=0&amp;site=default_collection&amp;sort=date%3AD%3AL%3Ad1&amp;type=relevant">
+                    Sort by most relevant
+                  </a>
+                </li>
+                <li class="last">
+                  <a href="http://www.google.co.uk/search?hl=en&amp;q=site%3Awww.telegraph.co.uk+ibm&amp;meta=">
+                    Google
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="tmglCrumbtrail">
+          <ol>
+            <li class="first">
+              <a href="/">
+                Home
+              </a>
+              <span>
+                »
+              </span>
+            </li>
+            <li class="styleTen">
+              <a href="http://www.telegraph.co.uk/search/">
+                Search
+              </a>
+            </li>
+          </ol>
+          <div class="cl">
+          </div>
+        </div>
+      </div>
+      <div id="tmglBody">
+        <link rel="stylesheet" href="/search/css/gsa.css" type="text/css"/>
+        <div class="twoThirdsThird2">
+          <div class="twoThirds gutter">
+            <div id="gafsslot1" style="width: 620px; font-weight: normal; text-align: center;">
+              <iframe allowtransparency="true" style="visibility: hidden; height: 0px;" width="100%" name="{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-1-1&quot;:{&quot;lines&quot;:2,&quot;colorAdBorder&quot;:&quot;#FFFADD&quot;,&quot;colorTitleLink&quot;:&quot;#234B7B&quot;,&quot;colorDomainLink&quot;:&quot;#41A042&quot;,&quot;colorBackground&quot;:&quot;#FFFADD&quot;,&quot;colorBorder&quot;:&quot;#FFFADD&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;620px&quot;,&quot;detailedAttribution&quot;:false,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;gafsslot2&quot;},&quot;master-1&quot;:{&quot;lines&quot;:2,&quot;colorAdBorder&quot;:&quot;#FFFADD&quot;,&quot;colorTitleLink&quot;:&quot;#234B7B&quot;,&quot;colorDomainLink&quot;:&quot;#41A042&quot;,&quot;colorBackground&quot;:&quot;#FFFADD&quot;,&quot;colorBorder&quot;:&quot;#FFFADD&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;620px&quot;,&quot;detailedAttribution&quot;:false,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;gafsslot1&quot;}}" id="master-1" src="//www.google.com/uds/afs?q=ibm&amp;client=telegraph&amp;hl=en&amp;r=m&amp;lo=false&amp;po=false&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404%2C7000108&amp;jsei=4&amp;format=n2%7Cn2&amp;ad=n4&amp;nocache=4421389777042144&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;u_his=2&amp;u_tz=-300&amp;dt=1389777042145&amp;u_w=1024&amp;u_h=768&amp;biw=1256&amp;bih=605&amp;psw=1256&amp;psh=2331&amp;frm=0&amp;ui=uv3loposrsl-af2wi620da-af2wi620da&amp;rurl=http%3A%2F%2Fwww.telegraph.co.uk%2Fsearch%2F%3FqueryText%3Dibm%26Search%3D&amp;referer=http%3A%2F%2Fwww.telegraph.co.uk%2F#master-1">
+              </iframe>
+            </div>
+            <script xmlns:fn="http://www.w3.org/2005/02/xpath-functions" type="text/javascript" language="javascript">
+//<![CDATA[
+
+        var searchUrl = "/search/"
+        var jsQuery = "ibm";
+        var siteName = "default_collection";
+        var currentSection = "Telegraph.co.uk";
+        
+        var innerHtml = '<div id="tg_search_sort_by"><div id="currentsection">Search results: <strong>' + currentSection + '</strong></div>';
+        
+    
+//]]>
+            </script>
+            <div id="tg_search_sort_by">
+              <script type="text/javascript" language="javascript">
+//<![CDATA[
+
+                
+                innerHtml += '<div id="sort_by"><ul><li><a href="' + searchUrl + '?queryText=' + jsQuery + '&amp;startIndex=0&amp;site=' + siteName + '&amp;sort=date%3AD%3AS%3Ad1&amp;type=recent">Sort by most recent</a></li>';                
+                innerHtml += '<li><a href="' + searchUrl + '?queryText=' + jsQuery + '&amp;startIndex=0&amp;site=' + siteName + '&amp;sort=date%3AD%3AL%3Ad1&amp;type=relevant">Sort by most relevant</a></li>';
+                  
+                
+//]]>
+              </script>
+            </div>
+            <script type="text/javascript" language="javascript">
+//<![CDATA[
+
+            
+            innerHtml += '<li class="last"><a href="http://www.google.co.uk/search?hl=en&q=site%3Awww.telegraph.co.uk+' + jsQuery + '&meta=">Google</a></li></ul></div></div>';
+            
+        
+//]]>
+            </script>
+            <script type="text/javascript" language="javascript">
+//<![CDATA[
+
+        
+        var secondNav = document.getElementById('tmglSecondNav');
+        if( secondNav ) secondNav.innerHTML = innerHtml;
+        
+    
+//]]>
+            </script>
+            <div class="headerOne">
+              <h2>
+                More on telegraph.co.uk
+              </h2>
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/sponsored/sport/rugby-trytracker/?WT.mc_id=605679&amp;source=GSA">
+                  <h3>
+                    IBM TryTracker
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/sponsored/sport/rugby-trytracker/?WT.mc_id=605679&amp;source=GSA">
+                    www.telegraph.co.uk/sponsored/sport/rugby-trytracker/?WT.mc_id=605679&amp;source=GSA
+                  </a>
+                </p>
+              </div>
+            </div>
+            <script type="text/javascript" language="javascript">
+//<![CDATA[
+
+    var queryText = "ibm";
+    
+        try {
+            function replaceAll(text, strA, strB)
+            {
+                while ( text.indexOf(strA) != -1)
+                {
+                    text = text.replace(strA,strB);
+                }
+                return text;
+            }
+
+            var queryTextRemovePlus = replaceAll(queryText, "+", " ");            
+            var queryTextRemoveQuotes = unescape(replaceAll(queryTextRemovePlus, "%22", ""));
+
+            document.forms['tg_search'].elements['queryText'].value = queryTextRemoveQuotes;
+        } catch(e) {}
+    
+    
+//]]>
+            </script>
+            <div class="headerOne">
+              <h2>
+                <a href="/search/?queryText=ibm&amp;type=recent&amp;sort=date%3AD%3AS%3Ad1&amp;site=default_collection&amp;version=">
+                  Most recent
+                </a>
+              </h2>
+            </div>
+            <div id="tg_search_results_details">
+              <span class="tg_search_results_details">
+                
+                     Results 
+                <strong>
+                  1
+                </strong>
+                 - 
+                <strong>
+                  3
+                </strong>
+                
+                     of about 
+                <strong>
+                  5,330
+                </strong>
+              </span>
+            </div>
+            <div class="cl">
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/finance/personalfinance/expat-money/10553138/Technology-skills-in-demand-particularly-in-the-US.html">
+                  <h3>
+                    Technology skills in demand, particularly in the US
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/archive/2014-1-6.html#Finance">
+                    January 6 2014 |
+		        
+                  </a>
+                  <a href="/search/?queryText=%22Justin Harper%22&amp;version=">
+                    Justin Harper
+                  </a>
+                   |
+               
+                  <a href="http://www.telegraph.co.uk/finance/">
+                    Finance
+                  </a>
+                </p>
+                <p>
+                  The best opportunities for expats this year lie in technology and big data    jobs with the US the top employer.
+                </p>
+              </div>
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandtelecoms/10551902/The-new-tech-world-will-turn-on-talent-and-how-to-keep-it-says-Cisco-boss.html">
+                  <h3>
+                    The new tech world will turn on talent and how to keep it, says 
+                    <b>
+                      ...
+                    </b>
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/archive/2014-1-5.html#Finance">
+                    January 5 2014 |
+		        
+                  </a>
+                  <a href="/search/?queryText=%22Louise Armitstead%22&amp;version=">
+                    Louise Armitstead
+                  </a>
+                   |
+               
+                  <a href="http://www.telegraph.co.uk/finance/">
+                    Finance
+                  </a>
+                </p>
+                <p>
+                  Phil Smith believes companies must look at how to retain their brightest and    best employees in a fast-changing and mobile arena
+                </p>
+              </div>
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandtelecoms/digital-media/10543077/Facebook-may-be-out-of-fashion-but-it-isnt-dead.html">
+                  <h3>
+                    Facebook may be out of fashion but it isnt dead
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/archive/2013-12-30.html#Finance">
+                    December 30 2013 |
+		        
+                  </a>
+                  <a href="/search/?queryText=%22Telegraph staff%22&amp;version=">
+                    Telegraph staff
+                  </a>
+                   |
+               
+                  <a href="http://www.telegraph.co.uk/finance/">
+                    Finance
+                  </a>
+                </p>
+                <p>
+                  The cash Facebook generates will allow it to pick off upstart threats
+                </p>
+              </div>
+            </div>
+            <div class="moreresults">
+              <a href="/search/?queryText=ibm&amp;type=recent&amp;sort=date%3AD%3AS%3Ad1&amp;site=default_collection&amp;version=">
+                More results
+              </a>
+            </div>
+            <div class="cl">
+            </div>
+            <div class="headerOne">
+              <h2>
+                <a href="/search/?queryText=ibm&amp;type=relevant&amp;sort=date%3AD%3AL%3Ad1&amp;site=default_collection&amp;version=">
+                  Most relevant
+                </a>
+              </h2>
+            </div>
+            <div xmlns:fn="http://www.w3.org/2005/02/xpath-functions" id="tg_search_results_details">
+              <span class="tg_search_results_details">
+                
+                     Results 
+                <strong>
+                  1
+                </strong>
+                 - 
+                <strong>
+                  10
+                </strong>
+                
+                     of about 
+                <strong>
+                  5,330
+                </strong>
+              </span>
+            </div>
+            <div class="cl">
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/sponsored/sport/rugby-trytracker/?WT.mc_id=605679&amp;source=TrafficDriver">
+                  <h3>
+                    <b>
+                      IBM
+                    </b>
+                     TryTracker - Rugby Statistics
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/sponsored/">
+                    Sponsored
+                  </a>
+                </p>
+                <p>
+                  Want to find out what England need to do to improve their performance or simply to know more about the match you are watching? Then the IBM TryTracker is for you.
+                </p>
+              </div>
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/sponsored/sport/rugby-trytracker/10447101/ibm-trytracker-rugby-statistics.html?WT.mc_id=605679&amp;source=TrafficDriver">
+                  <h3>
+                    Video: 
+                    <b>
+                      IBM
+                    </b>
+                     TryTracker: the rugby coach in your room
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/archive/2013-11-14.html#Sponsored">
+                    November 14 2013 |
+		        
+                  </a>
+                  <a href="http://www.telegraph.co.uk/sponsored/">
+                    Sponsored
+                  </a>
+                </p>
+                <p>
+                  Fnd out how IBM TryTracker uses technology and statistics to increase the nation's engagement with and enjoyment of the game of rugby
+                </p>
+              </div>
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/technology/news/10435864/IBM-opens-its-research-doors-into-Africa.html">
+                  <h3>
+                    <b>
+                      IBM
+                    </b>
+                     opens its research doors into Africa
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/archive/2013-11-10.html#Technology">
+                    November 10 2013 |
+		        
+                  </a>
+                  <a href="/search/?queryText=%22Monty Munford%22&amp;version=">
+                    Monty Munford
+                  </a>
+                   |
+               
+                  <a href="http://www.telegraph.co.uk/technology/">
+                    Technology
+                  </a>
+                </p>
+                <p>
+                  The 1980s adage that nobody ever got fired for buying IBM is one of    marketing’s great slogans, but the company has always been more enterprising    than its customers. Its recent move into Africa underlines how it is looking    to the future.
+                </p>
+              </div>
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/sponsored/technology/cool-list/10447483/watson-ibm-supercomputer.html">
+                  <h3>
+                    Why Watson, 
+                    <b>
+                      IBM's
+                    </b>
+                     supercomputer, makes The Cool List
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/archive/2013-11-20.html#Sponsored">
+                    November 20 2013 |
+		        
+                  </a>
+                  <a href="/search/?queryText=%22Hunter Skipworth&lt;br/>Technology editor, Digital Spy%22&amp;version=">
+                    Hunter Skipworth&lt;br/&gt;Technology editor, Digital Spy
+                  </a>
+                   |
+               
+                  <a href="http://www.telegraph.co.uk/sponsored/">
+                    Sponsored
+                  </a>
+                </p>
+                <p>
+                  Cool gadget: Watson, built by IBM, is an incredibly powerful computer system capable of answering questions in spoken word. More here &gt;&gt;
+                </p>
+              </div>
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/journalists/monty-munford/">
+                  <h3>
+                    Monty Munford
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/journalists/">
+                    Journalists
+                  </a>
+                </p>
+                <p>
+                  Monty Munford has 15 years' experience in the mobile, digital and technology sectors and has been writing fo the Telegraph since 2008.
+                </p>
+              </div>
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandtelecoms/electronics/10315545/IBM-eyes-second-1bn-Linux-investment.html">
+                  <h3>
+                    <b>
+                      IBM
+                    </b>
+                     eyes second $1bn Linux investment
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/archive/2013-9-17.html#Finance">
+                    September 17 2013 |
+		        
+                  </a>
+                  <a href="/search/?queryText=%22By Telegraph Staff%22&amp;version=">
+                    By Telegraph Staff
+                  </a>
+                   |
+               
+                  <a href="http://www.telegraph.co.uk/finance/">
+                    Finance
+                  </a>
+                </p>
+                <p>
+                  IBM is reported to be considering investing a further $1bn (£630m) in Linux,    the open source operating system which is a rival of Microsoft in the server    market.
+                </p>
+              </div>
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/travel/travelnews/10476795/Telegraph-Travel-Awards-2013-Best-countries.html">
+                  <h3>
+                    Telegraph Travel Awards 2013: Best countries
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/archive/2013-11-27.html#Travel">
+                    November 27 2013 |
+		        
+                  </a>
+                  <a href="http://www.telegraph.co.uk/travel/">
+                    Travel
+                  </a>
+                </p>
+                <p>
+                  Find out about the winner and the runners-up in the countries category of this    year's Telegraph Travel awards
+                </p>
+              </div>
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/technology/microsoft/10337653/Bill-Gates-CtrlAltDel-was-a-mistake.html">
+                  <h3>
+                    Bill Gates: Ctrl+Alt+Del was a mistake
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/archive/2013-9-26.html#Technology">
+                    September 26 2013 |
+		        
+                  </a>
+                  <a href="/search/?queryText=%22Sophie Curtis%22&amp;version=">
+                    Sophie Curtis
+                  </a>
+                   |
+               
+                  <a href="http://www.telegraph.co.uk/technology/">
+                    Technology
+                  </a>
+                </p>
+                <p>
+                  Microsoft co-founder Bill Gates has admitted that the decision to use    Ctrl+Alt+Del as the command for logging on to a PC was a mistake.
+                </p>
+              </div>
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/men/10478830/Spy-gadgets-the-ultimate-Christmas-gifts-for-the-James-Bond-fan-in-your-life.html">
+                  <h3>
+                    Spy gadgets: the ultimate Christmas gifts for the James Bond fan 
+                    <b>
+                      ...
+                    </b>
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/archive/2013-11-28.html#Men">
+                    November 28 2013 |
+		        
+                  </a>
+                  <a href="http://www.telegraph.co.uk/men/">
+                    Men
+                  </a>
+                </p>
+                <p>
+                </p>
+              </div>
+            </div>
+            <div class="summaryMedium">
+              <div class="summary">
+                <a href="http://www.telegraph.co.uk/technology/news/10493834/Cyber-Monday-purchases-made-on-mobile-double.html">
+                  <h3>
+                    Cyber Monday: purchases made on mobile double
+                  </h3>
+                </a>
+                <p>
+                  <a href="http://www.telegraph.co.uk/archive/2013-12-4.html#Technology">
+                    December 4 2013 |
+		        
+                  </a>
+                  <a href="/search/?queryText=%22Daniel Johnson%22&amp;version=">
+                    Daniel Johnson
+                  </a>
+                   |
+               
+                  <a href="http://www.telegraph.co.uk/technology/">
+                    Technology
+                  </a>
+                </p>
+                <p>
+                  Orders made on smartphones and tablets account for more than a third of all    online sales
+                </p>
+              </div>
+            </div>
+            <div class="moreresults">
+              <a href="/search/?queryText=ibm&amp;type=relevant&amp;sort=date%3AD%3AL%3Ad1&amp;startIndex=10&amp;site=default_collection&amp;version=">
+                More results
+              </a>
+            </div>
+            <div class="cl">
+            </div>
+            <div id="gafsslot2" style="width: 620px; font-weight: normal; text-align: center;">
+              <iframe allowtransparency="true" style="visibility: hidden; height: 0px;" width="100%" name="slave-1-1|{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-1-1&quot;:{&quot;lines&quot;:2,&quot;colorAdBorder&quot;:&quot;#FFFADD&quot;,&quot;colorTitleLink&quot;:&quot;#234B7B&quot;,&quot;colorDomainLink&quot;:&quot;#41A042&quot;,&quot;colorBackground&quot;:&quot;#FFFADD&quot;,&quot;colorBorder&quot;:&quot;#FFFADD&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;620px&quot;,&quot;detailedAttribution&quot;:false,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;gafsslot2&quot;},&quot;master-1&quot;:{&quot;lines&quot;:2,&quot;colorAdBorder&quot;:&quot;#FFFADD&quot;,&quot;colorTitleLink&quot;:&quot;#234B7B&quot;,&quot;colorDomainLink&quot;:&quot;#41A042&quot;,&quot;colorBackground&quot;:&quot;#FFFADD&quot;,&quot;colorBorder&quot;:&quot;#FFFADD&quot;,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;620px&quot;,&quot;detailedAttribution&quot;:false,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;gafsslot1&quot;}}" id="slave-1-1" src="//www.google.com/uds/afs?q=ibm&amp;client=telegraph&amp;hl=en&amp;r=s&amp;lo=false&amp;po=false&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404%2C7000108&amp;jsei=4&amp;format=n2&amp;ad=n0&amp;nocache=8551389777042141&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;rurl=http%3A%2F%2Fwww.telegraph.co.uk%2Fsearch%2F%3FqueryText%3Dibm%26Search%3D&amp;referer=http%3A%2F%2Fwww.telegraph.co.uk%2F#slave-1-1">
+              </iframe>
+            </div>
+            <!-- Google Adsense for Search Start -->            <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+
+	(function(G, o, O, g, L, e) {
+		G[g] = G[g] || function() {
+			(G[g]['q'] = G[g]['q'] || []).push(arguments)
+		}, G[g]['t'] = 1 * new Date;
+		L = o.createElement(O), e = o.getElementsByTagName(O)[0];
+		L.async = 1;
+		L.src = '//www.google.com/adsense/search/async-ads.js';
+		e.parentNode.insertBefore(L, e)
+	})(window, document, 'script', '_googCsa');
+
+//]]>
+            </script>
+            <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+
+	var pageOptions = {
+		'pubId' : 'telegraph',
+		'query' : tmgAdsGetMetaTag("DCSext.oss").replace(/\+/g, " & "),
+		'hl' : 'en',
+		'instantPreviews' : false,
+		'location' : false,
+		'plusOnes' : false,
+		'sellerRatings' : false,
+		'siteLinks' : false
+	};
+
+	var adblock1 = {
+		'container' : 'gafsslot1',
+		'width' : '620px',
+		'lines' : 2,
+		'colorTitleLink' : '#234B7B',
+		'colorDomainLink' : '#41A042',
+		'colorBackground' : '#FFFADD',
+		'colorAdBorder' : '#FFFADD',
+		'colorBorder' : '#FFFADD',
+		'detailedAttribution' : false
+	};
+
+	var adblock2 = {
+		'container' : 'gafsslot2',
+		'width' : '620px',
+		'lines' : 2,
+		'colorTitleLink' : '#234B7B',
+		'colorDomainLink' : '#41A042',
+		'colorBackground' : '#FFFADD',
+		'colorAdBorder' : '#FFFADD',
+		'colorBorder' : '#FFFADD',
+		'detailedAttribution' : false
+	};
+
+	_googCsa('ads', pageOptions, adblock1, adblock2);
+
+//]]>
+            </script>
+            <!-- Google Adsense for Search End -->          </div>
+          <div class="oneThird">
+            <div id="gsa_channels">
+              <div class="headerOne">
+                <h2>
+                  Filter your search
+                </h2>
+              </div>
+              <div class="cl">
+              </div>
+              <div class="gsachannel lsection">
+                <p>
+                  <a href="/search/?queryText=ibm">
+                    Telegraph.co.uk 
+                  </a>
+                   (5,330)
+                </p>
+              </div>
+              <div class="gsachannel rsection">
+                <p>
+                  <a href="/search/?queryText=ibm&amp;site=telegraph_news">
+                    News
+                  </a>
+                   (428)
+			        		    
+                </p>
+              </div>
+              <div class="cl">
+              </div>
+              <div class="gsachannel lsection">
+                <p>
+                  <a href="/search/?queryText=ibm&amp;site=telegraph_sport">
+                    Sport
+                  </a>
+                   (450)
+			        		    
+                </p>
+              </div>
+              <div class="gsachannel rsection">
+                <p>
+                  <a href="/search/?queryText=ibm&amp;site=telegraph_finance">
+                    Finance
+                  </a>
+                   (3,790)
+			        		    
+                </p>
+              </div>
+              <div class="cl">
+              </div>
+              <div class="gsachannel lsection">
+                <p>
+                  <a href="/search/?queryText=ibm&amp;site=telegraph_travel">
+                    Travel
+                  </a>
+                   (109)
+			        		    
+                </p>
+              </div>
+              <div class="gsachannel rsection">
+                <p>
+                  <a href="/search/?queryText=ibm&amp;site=telegraph_lifestyle">
+                    Lifestyle
+                  </a>
+                   (603)
+			        		    
+                </p>
+              </div>
+              <div class="cl">
+              </div>
+              <div class="gsachannel lsection">
+                <p>
+                  <a href="/search/?queryText=ibm&amp;site=telegraph_culture">
+                    Culture
+                  </a>
+                   (768)
+			        		    
+                </p>
+              </div>
+              <div class="gsachannel rsection">
+                <p>
+                  <a href="/search/?queryText=ibm&amp;site=telegraph_blogs">
+                    Blogs
+                  </a>
+                   (4)
+			        		    
+                </p>
+              </div>
+              <div class="cl">
+              </div>
+            </div>
+            <div class="admpu">
+              <div class="admpu gutterUnder">
+                <div class="access">
+                  Advertisement
+                </div>
+                <div id="mpu" class="InSkinHide">
+                  <script type="text/javascript">
+//<![CDATA[
+
+		document.write(tmgAdsBuildAdTag("mpu", "300x250", "adj", "", 2));
+		
+//]]>
+                  </script>
+                  <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[2] = {};tmgAds.performance[2].begin = tmgAdsTimer();
+//]]>
+                  </script>
+                  <div id="tmgAd_div_mpu_2" style="margin:auto;padding:0px;width:300px">
+                    <script type="text/javascript" id="tmgAd_script_mpu_2" src="http://ad.doubleclick.net/N6582/adj/tmg.telegraph.search/search;at=mpu;ver=5.97;sc=search;pt=index;lvl=1;biw=1256;bih=605;fv=9;dnt=0;rd=www.telegraph.co.uk;platform=desktop;pos=2;div=tmgAd_div_mpu_2;geo=us;wtid=590198d5-fc94-4a8f-bdb3-fbd7d039a81f;gs=spt_cricket;dc_ref=http%3A%2F%2Fwww.telegraph.co.uk%2Fsearch%2F;kxuid=null;kxsid=ng3re6tif;as=10964;as=10605;as=10856;as=10788;as=10537;tile=2;sz=300x250;ord=1389777039133?">
+                    </script>
+                  </div>
+                  <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[2].finish= tmgAdsTimer();tmgAds.performance[2].time  = tmgAds.performance[2].finish - tmgAds.performance[2].begin;tmgAds.performance.adTotal     += tmgAds.performance[2].time;tmgAds.performance.adAvg        = tmgAds.performance.adTotal/2;tmgAds.performance.adCount      = 2;
+//]]>
+                  </script>
+                  <div class="GoogleActiveViewClass" id="DfpVisibilityIdentifier_3104912067086562" data-admeta-dfp="6582/tmg.telegraph.search/search,300,250,13472706436396717027,0.02">
+                    <div id="google_ads_div_503542">
+                      <iframe id="google_ads_iframe_503542" name="google_ads_iframe_503542" src="about:blank" width="300" height="250" style="border: 0;">
+                      </iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gutterUnder">
+              <div class="likeBoxContainer">
+                <p>
+                  <a href="http://www.facebook.com/TELEGRAPH.CO.UK" class="serviceImage" target="_blank">
+                    <img class="profileimage img" src="http://profile.ak.fbcdn.net/hprofile-ak-snc4/187772_143666524748_2204823_q.jpg" alt="The Telegraph"/>
+                  </a>
+                  <a href="http://www.facebook.com/TELEGRAPH.CO.UK" target="_blank">
+                    <span class="name">
+                      The Telegraph
+                    </span>
+                     on Facebook
+                  </a>
+                </p>
+                <div id="shareLikeBox" class="storyFunc nobord">
+                </div>
+                <div class="cl">
+                </div>
+              </div>
+            </div>
+            <div class="InSkinHide">
+              <script type="text/javascript">
+//<![CDATA[
+
+		document.write(tmgAdsBuildAdTag("pp", "1x1", "adj", "", 2));
+		
+//]]>
+              </script>
+              <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[3] = {};tmgAds.performance[3].begin = tmgAdsTimer();
+//]]>
+              </script>
+              <div id="tmgAd_div_pp_3" style="margin:auto;padding:0px;width:1px">
+                <script type="text/javascript" id="tmgAd_script_pp_3" src="http://ad.doubleclick.net/N6582/adj/tmg.telegraph.search/search;at=pp;ver=5.97;sc=search;pt=index;lvl=1;biw=1256;bih=605;fv=9;dnt=0;rd=www.telegraph.co.uk;platform=desktop;pos=3;div=tmgAd_div_pp_3;geo=us;wtid=590198d5-fc94-4a8f-bdb3-fbd7d039a81f;gs=spt_cricket;dc_ref=http%3A%2F%2Fwww.telegraph.co.uk%2Fsearch%2F;kxuid=null;kxsid=ng3re6tif;as=10964;as=10605;as=10856;as=10788;as=10537;tile=3;sz=1x1;ord=1389777039133?">
+                </script>
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[3].finish= tmgAdsTimer();tmgAds.performance[3].time  = tmgAds.performance[3].finish - tmgAds.performance[3].begin;tmgAds.performance.adTotal     += tmgAds.performance[3].time;tmgAds.performance.adAvg        = tmgAds.performance.adTotal/3;tmgAds.performance.adCount      = 3;
+//]]>
+              </script>
+            </div>
+            <div class="InSkinHide">
+              <script type="text/javascript">
+//<![CDATA[
+
+		document.write(tmgAdsBuildAdTag("pp", "1x1", "adj", "", 2));
+		
+//]]>
+              </script>
+              <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[4] = {};tmgAds.performance[4].begin = tmgAdsTimer();
+//]]>
+              </script>
+              <div id="tmgAd_div_pp_4" style="margin:auto;padding:0px;width:1px">
+                <script type="text/javascript" id="tmgAd_script_pp_4" src="http://ad.doubleclick.net/N6582/adj/tmg.telegraph.search/search;at=pp;ver=5.97;sc=search;pt=index;lvl=1;biw=1256;bih=605;fv=9;dnt=0;rd=www.telegraph.co.uk;platform=desktop;pos=4;div=tmgAd_div_pp_4;geo=us;wtid=590198d5-fc94-4a8f-bdb3-fbd7d039a81f;gs=spt_cricket;dc_ref=http%3A%2F%2Fwww.telegraph.co.uk%2Fsearch%2F;kxuid=null;kxsid=ng3re6tif;as=10964;as=10605;as=10856;as=10788;as=10537;tile=4;sz=1x1;ord=1389777039133?">
+                </script>
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[4].finish= tmgAdsTimer();tmgAds.performance[4].time  = tmgAds.performance[4].finish - tmgAds.performance[4].begin;tmgAds.performance.adTotal     += tmgAds.performance[4].time;tmgAds.performance.adAvg        = tmgAds.performance.adTotal/4;tmgAds.performance.adCount      = 4;
+//]]>
+              </script>
+            </div>
+            <div class="adarea gutterUnder">
+              <div class="adsky">
+                <div class="access">
+                  Advertisement
+                </div>
+                <div class="InSkinHide" align="center">
+                  <script type="text/javascript">
+//<![CDATA[
+
+		document.write(tmgAdsBuildAdTag("hpg,sks,skl", "300x600,120x600,160x600", "adj", "", 2));
+		
+//]]>
+                  </script>
+                  <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[5] = {};tmgAds.performance[5].begin = tmgAdsTimer();
+//]]>
+                  </script>
+                  <div id="tmgAd_div_hpg_5" style="margin:auto;padding:0px;width:300px">
+                    <script type="text/javascript" id="tmgAd_script_hpg_5" src="http://ad.doubleclick.net/N6582/adj/tmg.telegraph.search/search;at=hpg;at=sks;at=skl;ver=5.97;sc=search;pt=index;lvl=1;biw=1256;bih=605;fv=9;dnt=0;rd=www.telegraph.co.uk;platform=desktop;pos=5;div=tmgAd_div_hpg_5;geo=us;wtid=590198d5-fc94-4a8f-bdb3-fbd7d039a81f;gs=spt_cricket;dc_ref=http%3A%2F%2Fwww.telegraph.co.uk%2Fsearch%2F;kxuid=null;kxsid=ng3re6tif;as=10964;as=10605;as=10856;as=10788;as=10537;tile=5;sz=300x600,120x600,160x600;ord=1389777039133?">
+                    </script>
+                  </div>
+                  <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[5].finish= tmgAdsTimer();tmgAds.performance[5].time  = tmgAds.performance[5].finish - tmgAds.performance[5].begin;tmgAds.performance.adTotal     += tmgAds.performance[5].time;tmgAds.performance.adAvg        = tmgAds.performance.adTotal/5;tmgAds.performance.adCount      = 5;
+//]]>
+                  </script>
+                  <div class="GoogleActiveViewClass" id="DfpVisibilityIdentifier_3489590594169671" data-admeta-dfp="6582/tmg.telegraph.search/search,160,600,3396817752274306700,0.02">
+                    <div id="google_ads_div_72748">
+                      <iframe id="google_ads_iframe_72748" name="google_ads_iframe_72748" src="about:blank" width="160" height="600" style="border: 0;">
+                      </iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cl">
+              </div>
+            </div>
+            <div class="InSkinHide">
+              <script type="text/javascript">
+//<![CDATA[
+
+		document.write(tmgAdsBuildAdTag("pp", "1x1", "adj", "", 2));
+		
+//]]>
+              </script>
+              <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[6] = {};tmgAds.performance[6].begin = tmgAdsTimer();
+//]]>
+              </script>
+              <div id="tmgAd_div_pp_6" style="margin:auto;padding:0px;width:1px">
+                <script type="text/javascript" id="tmgAd_script_pp_6" src="http://ad.doubleclick.net/N6582/adj/tmg.telegraph.search/search;at=pp;ver=5.97;sc=search;pt=index;lvl=1;biw=1256;bih=605;fv=9;dnt=0;rd=www.telegraph.co.uk;platform=desktop;pos=6;div=tmgAd_div_pp_6;geo=us;wtid=590198d5-fc94-4a8f-bdb3-fbd7d039a81f;gs=spt_cricket;dc_ref=http%3A%2F%2Fwww.telegraph.co.uk%2Fsearch%2F;kxuid=null;kxsid=ng3re6tif;as=10964;as=10605;as=10856;as=10788;as=10537;tile=6;sz=1x1;ord=1389777039133?">
+                </script>
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[6].finish= tmgAdsTimer();tmgAds.performance[6].time  = tmgAds.performance[6].finish - tmgAds.performance[6].begin;tmgAds.performance.adTotal     += tmgAds.performance[6].time;tmgAds.performance.adAvg        = tmgAds.performance.adTotal/6;tmgAds.performance.adCount      = 6;
+//]]>
+              </script>
+            </div>
+          </div>
+          <div class="cl">
+          </div>
+        </div>
+        <script type="text/javascript">
+//<![CDATA[
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+//]]>
+        </script>
+        <script src="http://www.google-analytics.com/ga.js" type="text/javascript">
+        </script>
+        <script type="text/javascript">
+//<![CDATA[
+
+try {
+var pageTracker = _gat._getTracker("UA-7226372-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//]]>
+        </script>
+      </div>
+      <div class="backtotop">
+        <p>
+          <a href="#top">
+            Back to top
+          </a>
+        </p>
+      </div>
+      <div id="tmglFooterLarge">
+        <a href="http://www.telegraph.co.uk/" id="footerlogolink" title="Telegraph.co.uk: news, business, sport, the Daily Telegraph newspaper, Sunday Telegraph - Telegraph">
+        </a>
+        <div id="tmglFooterLargeItems">
+          <div class="footercolumn">
+            <ul class="menu1">
+              <li class="itemfocus">
+                <a href="http://www.telegraph.co.uk/?utm_source=TMG&amp;utm_medium=footer_home&amp;utm_campaign=footerhomelink">
+                  HOME
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/news/">
+                  News
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/news/worldnews/">
+                  World News
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/news/obituaries/">
+                  Obituaries
+                </a>
+              </li>
+            </ul>
+            <ul class="menu2">
+              <li class="itemfocus">
+                <a href="http://www.telegraph.co.uk/travel/">
+                  Travel
+                </a>
+              </li>
+            </ul>
+            <ul class="menu3">
+              <li class="itemfocus">
+                <a href="http://www.telegraph.co.uk/health/">
+                  Health
+                </a>
+              </li>
+              <li>
+                <a href="http://jobs.telegraph.co.uk/">
+                  Jobs
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footercolumn">
+            <ul class="menu1">
+              <li class="itemfocus">
+                <a href="http://www.telegraph.co.uk/sport/">
+                  Sport
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/sport/football/">
+                  Football
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/sport/cricket/">
+                  Cricket
+                </a>
+              </li>
+              <li>
+                <a href="https://fantasyfootball.telegraph.co.uk/">
+                  Fantasy Football
+                </a>
+              </li>
+            </ul>
+            <ul class="menu2">
+              <li class="itemfocus">
+                <a href="http://www.telegraph.co.uk/culture/">
+                  Culture
+                </a>
+              </li>
+            </ul>
+            <ul class="menu3">
+              <li class="itemfocus">
+                <a href="http://www.telegraph.co.uk/motoring/">
+                  Motoring
+                </a>
+              </li>
+              <li>
+                <a href="http://dating.telegraph.co.uk/s/a/4168">
+                  Dating
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footercolumn">
+            <ul class="menu1">
+              <li class="itemfocus">
+                <a href="http://www.telegraph.co.uk/finance/">
+                  Finance
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/finance/personalfinance/">
+                  Personal Finance
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/finance/economics/">
+                  Economics
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/finance/markets/">
+                  Markets
+                </a>
+              </li>
+            </ul>
+            <ul class="menu2">
+              <li class="itemfocus">
+                <a href="http://fashion.telegraph.co.uk">
+                  Fashion
+                </a>
+              </li>
+            </ul>
+            <ul class="menu3">
+              <li class="itemfocus">
+                <a href="http://www.telegraph.co.uk/property/">
+                  Property
+                </a>
+              </li>
+              <li>
+                <a href="http://puzzles.telegraph.co.uk/">
+                  Puzzles
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footercolumn">
+            <ul class="menu1">
+              <li class="itemfocus">
+                <a href="http://www.telegraph.co.uk/comment/">
+                  Comment
+                </a>
+              </li>
+              <li>
+                <a href="http://blogs.telegraph.co.uk/">
+                  Blogs
+                </a>
+              </li>
+              <li>
+                <a href="http://my.telegraph.co.uk">
+                  My Telegraph
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/comment/letters/">
+                  Letters
+                </a>
+              </li>
+            </ul>
+            <ul class="menu2">
+              <li class="itemfocus">
+                <a href="http://www.telegraph.co.uk/technology/">
+                  Technology
+                </a>
+              </li>
+            </ul>
+            <ul class="menu3">
+              <li class="itemfocus">
+                <a href="http://www.telegraph.co.uk/gardening/">
+                  Gardening
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/journalists/">
+                  Telegraph Journalists
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footercolumn">
+            <ul class="menu1">
+              <li class="itemfocus">
+                <a href="http://www.telegraph.co.uk/topics/about-us/">
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="/topics/about-us/3691972/Privacy-and-Cookie-Policy.html">
+                  Privacy and Cookies
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/advertising/">
+                  Advertising
+                </a>
+              </li>
+              <li>
+                <a href="http://mobiles.telegraph.co.uk/">
+                  Mobile Comparison
+                </a>
+              </li>
+            </ul>
+            <ul class="menu2">
+              <li class="itemfocus">
+                <a href="http://tickets.telegraph.co.uk/">
+                  Tickets
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="http://announcements.telegraph.co.uk/">
+                  Announcements
+                </a>
+              </li>
+              <li>
+                <a href="http://3276.e-printphoto.co.uk/dailytelegraph/">
+                  Reader Prints
+                </a>
+              </li>
+              <li>
+                <a href="">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- RSSFeeds Menu-->          <div id="footercolumn_last">
+            <ul class="imgBulletList">
+              <li class="footrss">
+                <a href="http://www.telegraph.co.uk/topics/follow-us/">
+                  Follow Us
+                </a>
+              </li>
+              <li class="footmobile">
+                <a href="http://www.telegraph.co.uk/apps/">
+                  Apps
+                </a>
+              </li>
+              <li class="footepaper">
+                <a href="http://dailytelegraph.newspaperdirect.com/epaper/viewer.aspx ">
+                  Epaper
+                </a>
+              </li>
+              <li class="">
+                <a href="http://www.telegraph.co.uk/expat/">
+                  Expat
+                </a>
+              </li>
+            </ul>
+            <ul class="ullast">
+              <li>
+                <a href="http://www.telegraph.co.uk/promotions/">
+                  Promotions
+                </a>
+              </li>
+              <li>
+                <a href="http://subscriber.telegraph.co.uk/loyalty/">
+                  Subscriber
+                </a>
+              </li>
+              <li>
+                <a href="http://www.telegraph.co.uk/topics/syndication-services/">
+                  Syndication
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="cl">
+          </div>
+        </div>
+        <!-- end of tmglFooterLargeItems div -->        <div id="footerinfo">
+          <p>
+            © Copyright of Telegraph Media Group Limited 2014
+          </p>
+          <p>
+            <a href="http://www.telegraph.co.uk/termsandconditions">
+              Terms and Conditions
+            </a>
+          </p>
+          <p>
+            <a href="/archive/2014-1-15.html">
+              Today's News
+            </a>
+          </p>
+          <p>
+            <a href="http://www.telegraph.co.uk/archive/">
+              Archive
+            </a>
+          </p>
+          <p>
+            <a href="http://www.telegraph.co.uk/topics/about-us/style-book/">
+              Style Book
+            </a>
+          </p>
+          <p class="last">
+            <a href="/topics/weather/4142730/Weather-forecast.html">
+              Weather Forecast
+            </a>
+          </p>
+          <div class="cl">
+          </div>
+        </div>
+      </div>
+      <!-- end of tmglFooterLargeNew div -->    </div>
+    <script type="text/javascript" src="http://js.revsci.net/gateway/gw.js?csid=E06560">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+DM_addToLoc("Site",escape("Telegraph"));
+
+DM_addToLoc("Level1",escape("Search"));
+	
+DM_tag();
+
+//]]>
+    </script>
+    <script type="text/javascript" src="/template/utils/ooyala/scripts/ooyala.js">
+//<![CDATA[
+ 
+//]]>
+    </script>
+    <script type="text/javascript" src="/template/ver1-0/js/jquery-ui-1.8.4.custom.min.js">
+    </script>
+    <script type="text/javascript" src="/template/ver1-0/js/jquery.tablesorter.js">
+    </script>
+    <script type="text/javascript" src="/template/ver1-0/js/jquery.ticker.js">
+    </script>
+    <script type="text/javascript" src="/template/ver1-0/js/common.js">
+    </script>
+    <script type="text/javascript" src="/template/ver1-0/js/tmglSlideShow.js">
+    </script>
+    <script type="text/javascript" src="/template/ver1-0/js/jquery.cycle.all.js">
+    </script>
+    <script type="text/javascript" src="/template/ver1-0/js/supersleight.plugin.js">
+    </script>
+    <script type="text/javascript" src="/template/ver1-0/js/tracker.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+			(function() {
+				var links = $("a[href*='disqus_thread']");
+				var query = "";
+				var blogQuery = "";
+				var normal = new Array();
+				var normalCounts = new Array();
+				var blog = new Array();
+				var blogCounts = new Array();
+
+				for(var i = 0; i < links.length; i++) {
+					if (links[i].getAttribute('dsqid')) {
+						var dsqid = links[i].getAttribute('dsqid');
+						if (links[i].className == 'dsqblog') { blogQuery += 'dsqid' + i + '=' + dsqid + '&'; } else { query += 'dsqid' + i + '=' + dsqid + '&'; }
+					}
+				}
+				if (query.length != "" && blogQuery.length != "") {
+					$("a[href*='disqus_thread']") && $("a.dsqblog").each(function(i) {
+						blog[i] = $(this).attr("href");
+						$(this).attr("href","blog_link");
+					});
+					loadScript("http://telegraphuk.disqus.com/get_num_replies_from_dsqid.js?" + query, function() {
+						$("a[href*='disqus_thread']").not(".dsqblog").each(function(i) {
+							normal[i] = $(this).attr("href");
+							normalCounts[i] = $(this).html();
+							$(this).attr("href","normal_link");
+						});
+
+						$("a[href*='blog_link']").each(function(i) { $(this).attr("href",blog[i]); });
+
+						loadScript("http://telegraphblogs.disqus.com/get_num_replies_from_dsqid.js?" + blogQuery, function() {
+							$("a[href*='normal_link']").each(function(i) { $(this).attr("href",normal[i]); });
+						});
+					});
+				} else {
+					document.write('<script charset="utf-8" type="text/javascript" src="http://telegraphuk.disqus.com/get_num_replies_from_dsqid.js?' + query + '"></' + 'script>');
+				}
+			})();
+		
+//]]>
+    </script>
+    <script charset="utf-8" type="text/javascript" src="http://telegraphuk.disqus.com/get_num_replies_from_dsqid.js?">
+    </script>
+    <script type="text/javascript" src="/template/ver1-0/js/tmglMultitrackSelector1.js">
+    </script>
+    <script type="text/javascript" src="/template/ver1-0/js/popup.js">
+    </script>
+    <script language="Javascript" type="text/javascript" src="/template/ver1-0/js/poll.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+		var _sf_async_config={uid:22437,domain:"telegraph.co.uk"};
+
+		
+			_sf_async_config.sections = "Search";
+		
+
+		(function(){
+			function loadChartbeat() {
+			window._sf_endpt=(new Date()).getTime();
+			var e = document.createElement('script');
+			e.setAttribute('language', 'javascript');
+			e.setAttribute('type', 'text/javascript');
+			e.setAttribute('src',
+			(("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://") +
+			"static.chartbeat.com/js/chartbeat.js"); document.body.appendChild(e);
+		}
+		var oldonload = window.onload;
+		window.onload = (typeof window.onload != 'function') ?
+		loadChartbeat : function() { oldonload(); loadChartbeat(); }; })();
+	
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+ 
+			var skimlinks_script = document.createElement('script'); 
+			    skimlinks_script.type = 'text/javascript'; 
+			    skimlinks_script.async = 'true';
+			    skimlinks_script.src = 'http://s.skimresources.com/js/296X467.skimlinks.js';
+			var skimlinks_script_attach = document.getElementsByTagName('script')[0]; 
+			skimlinks_script_attach.parentNode.insertBefore(skimlinks_script, skimlinks_script_attach.nextSibling); 
+		
+//]]>
+    </script>
+    <!-- START Nielsen Online SiteCensus V6.0 -->    <!-- COPYRIGHT 2010 Nielsen Online -->    <script type="text/javascript" src="//secure-uk.imrworldwide.com/v60.js">
+//<![CDATA[
+
+		
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+			 var pvar = { cid: "uk-101665h", content: "0", server: "secure-uk" };
+			 var feat = { surveys_enabled: 1 };
+			 var trac = nol_t(pvar, feat);
+			 trac.record().post().do_sample();
+		
+//]]>
+    </script>
+    <script type="text/javascript" src="http://secure-uk.imrworldwide.com/cgi-bin/j?rnd=1389777047571&amp;ci=uk-101665h&amp;js=1&amp;ts=v60.js&amp;vn=6.0.25&amp;cc=0&amp;se=1&amp;te=0&amp;cd=24&amp;ck=y&amp;je=n&amp;lg=en-us&amp;si=http%3A//www.telegraph.co.uk/search/%3FqueryText%3Dibm%26Search%3D&amp;rp=http%3A//www.telegraph.co.uk/&amp;sr=1024x768&amp;tz=-5">
+    </script>
+    <noscript>
+      
+		 &lt;div&gt;
+			 &lt;img src="//secure-uk.imrworldwide.com/cgi-bin/m?ci=uk-101665h&amp;amp;cg=0&amp;amp;cc=1&amp;amp;ts=noscript"
+			 width="1" height="1" alt="" /&gt;
+		 &lt;/div&gt;
+		
+    </noscript>
+    <!-- END Nielsen Online SiteCensus V6.0 -->    <script type="text/javascript">
+//<![CDATA[
+
+		g_opt_ch = '{}';g_opt_cv = '{}';g_opt_b = true;g_opt_s = true;
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+		document.write(tmgAdsBuildAdTag("ftr", "1x1", "adj", "", 2));
+		
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[7] = {};tmgAds.performance[7].begin = tmgAdsTimer();
+//]]>
+    </script>
+    <div id="tmgAd_div_ftr_7" style="margin:auto;padding:0px;width:1px">
+      <script type="text/javascript" id="tmgAd_script_ftr_7" src="http://ad.doubleclick.net/N6582/adj/tmg.telegraph.search/search;at=ftr;ver=5.97;sc=search;pt=index;lvl=1;biw=1256;bih=605;fv=9;dnt=0;rd=www.telegraph.co.uk;platform=desktop;pos=7;div=tmgAd_div_ftr_7;geo=us;wtid=590198d5-fc94-4a8f-bdb3-fbd7d039a81f;gs=spt_cricket;dc_ref=http%3A%2F%2Fwww.telegraph.co.uk%2Fsearch%2F;kxuid=null;kxsid=ng3re6tif;as=10964;as=10605;as=10856;as=10788;as=10537;tile=7;sz=1x1;ord=1389777039133?">
+      </script>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+tmgAds.performance[7].finish= tmgAdsTimer();tmgAds.performance[7].time  = tmgAds.performance[7].finish - tmgAds.performance[7].begin;tmgAds.performance.adTotal     += tmgAds.performance[7].time;tmgAds.performance.adAvg        = tmgAds.performance.adTotal/7;tmgAds.performance.adCount      = 7;
+//]]>
+    </script>
+    <div class="GoogleActiveViewClass" id="DfpVisibilityIdentifier_5339503530163719" data-admeta-dfp="6582/tmg.telegraph.search/search,1,1,17653192060730791213,0.02">
+      <script type="text/javascript">
+//<![CDATA[
+
+ if(typeof tmgAds.ads !== 'undefined'){
+    //tmgAds.ads[7].dfp = {adv:"14636214",aid:"10613814",buy:"89574054",cid:"14062306134",pid:"7854774",rid:"14062306134",sid:"5306094"};
+    tmgAds.ads[7].dfp = {adv:"14636214",aid:"10613814",buy:"89574054",cid:"14062306134",pid:"7854774",rid:"14062306134",sid:"5306094",szw:'1',szh:'1',sz:'1x1'};
+  }
+
+//]]>
+      </script>
+      <!-- ct=US&st=KY&city=16522&dma=17&zp=41042&bw=4 -->      <!-- Quantcast Tag -->      <script type="text/javascript">
+//<![CDATA[
+
+var _qevents = _qevents || [];
+(function() {
+  var elem = document.createElement('script');
+  elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+  elem.async = true;
+  elem.type = "text/javascript";
+  var scpt = document.getElementsByTagName('script')[0];
+  scpt.parentNode.insertBefore(elem, scpt);
+})();
+_qevents.push({qacct:"p-gyXAHFFgnNQDj",labels:tmgAds['site']});
+
+//]]>
+      </script>
+      <!-- End Quantcast tag -->    </div>
+    <iframe style="display: none;" src="http://player.ooyala.com/ooyala_storage.html">
+    </iframe>
+    <script language="javascript" type="text/javascript" src="http://static.chartbeat.com/js/chartbeat.js">
+    </script>
+  </body>
+</html>

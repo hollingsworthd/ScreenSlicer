@@ -1,0 +1,2272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xmlns:fb="https://www.facebook.com/2008/fbml">
+  <head>
+    <script type="text/javascript" async="" src="http://content.secondspace.com/kmov/widgets.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="http://content.secondspace.com/kmov/widgets.css"/>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script src="http://cdn.bimreg.co/loader" type="text/javascript">
+    </script>
+    <script type="text/javascript" src="http://cdn.bimreg.co/js?ref=kmov.com">
+    </script>
+    <meta content="259009004153221" property="fb:app_id"/>
+    <title>
+      
+                        KMOV.com                        | Search Results - KMOV.com            
+    </title>
+    <meta content="app-id=454363934" name="apple-itunes-app"/>
+    <meta content="en" http-equiv="content-language"/>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <meta content="text/css" http-equiv="Content-Style-Type"/>
+    <link type="image/x-icon" href="http://media.kmov.com/designimages/KMOV_favicon_16.ico" rel="icon"/>
+    <link type="image/x-icon" href="http://media.kmov.com/designimages/KMOV_favicon_16.ico" rel="shortcut icon"/>
+    <link href="/KMOV_iPhone.png" rel="apple-touch-icon"/>
+    <meta content="C3iq0-MwWvI-9qyREOCY2yryOYoFRMyEkh02Gq-mmy0" name="google-site-verification"/>
+    <meta content="KMOV kmov.com" property="og:site_name"/>
+    <meta content="KMOV.com, Channel 4, As Seen on News 4, St. Louis news,  St. Louis entertainment,  Cardinals, St. Louis Rams, St. Louis jobs, St. Louis real estate, St. Louis cars, St. Louis local news, Missouri news, St. Louis sports, St. Louis business, jobs, job searc" name="keywords"/>
+    <meta content="Search KMOV.com for the news that’s important to you. KMOV.com" name="description"/>
+    <meta content="Search Results " property="og:title"/>
+    <link media="screen" type="text/css" href="http://www.kmov.com/includes/belo-jquery-ui.css" rel="stylesheet"/>
+    <link media="screen" type="text/css" href="http://www.kmov.com/includes/belo_styles.css" rel="stylesheet"/>
+    <link media="screen" type="text/css" href="http://www.kmov.com/includes/belo_top_styles.css" rel="stylesheet"/>
+    <link media="screen" type="text/css" href="http://www.kmov.com/includes/belo_section.css" rel="stylesheet"/>
+    <link media="screen" type="text/css" href="http://www.kmov.com/templates/belo_colors.css" rel="stylesheet"/>
+    <link media="screen" type="text/css" href="http://www.kmov.com/includes/kmov_styles.css" rel="stylesheet"/>
+    <link media="screen" type="text/css" href="http://www.kmov.com/includes/kmov_top_styles.css" rel="stylesheet"/>
+    <link media="screen" type="text/css" href="http://www.kmov.com/includes/kmov_local_styles.css" rel="stylesheet"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js">
+    </script>
+    <script>
+//<![CDATA[
+!window.jQuery &amp;&amp; document.write('&lt;script src="http://www.kmov.com/includes/jquery-1.6.4.min.js"&gt;&lt;\/script&gt;')
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+	/* Modernizr 2.0.6 (Custom Build) | MIT & BSD
+	 * Build: http://www.modernizr.com/download/#-iepp
+	 */
+	;window.Modernizr=function(a,b,c){function w(a,b){return!!~(""+a).indexOf(b)}function v(a,b){return typeof a===b}function u(a,b){return t(prefixes.join(a+";")+(b||""))}function t(a){j.cssText=a}var d="2.0.6",e={},f=b.documentElement,g=b.head||b.getElementsByTagName("head")[0],h="modernizr",i=b.createElement(h),j=i.style,k,l=Object.prototype.toString,m={},n={},o={},p=[],q,r={}.hasOwnProperty,s;!v(r,c)&&!v(r.call,c)?s=function(a,b){return r.call(a,b)}:s=function(a,b){return b in a&&v(a.constructor.prototype[b],c)};for(var x in m)s(m,x)&&(q=x.toLowerCase(),e[q]=m[x](),p.push((e[q]?"":"no-")+q));t(""),i=k=null,a.attachEvent&&function(){var a=b.createElement("div");a.innerHTML="<elem></elem>";return a.childNodes.length!==1}()&&function(a,b){function s(a){var b=-1;while(++b<g)a.createElement(f[b])}a.iepp=a.iepp||{};var d=a.iepp,e=d.html5elements||"abbr|article|aside|audio|canvas|datalist|details|figcaption|figure|footer|header|hgroup|mark|meter|nav|output|progress|section|summary|time|video",f=e.split("|"),g=f.length,h=new RegExp("(^|\\s)("+e+")","gi"),i=new RegExp("<(/*)("+e+")","gi"),j=/^\s*[\{\}]\s*$/,k=new RegExp("(^|[^\\n]*?\\s)("+e+")([^\\n]*)({[\\n\\w\\W]*?})","gi"),l=b.createDocumentFragment(),m=b.documentElement,n=m.firstChild,o=b.createElement("body"),p=b.createElement("style"),q=/print|all/,r;d.getCSS=function(a,b){if(a+""===c)return"";var e=-1,f=a.length,g,h=[];while(++e<f){g=a[e];if(g.disabled)continue;b=g.media||b,q.test(b)&&h.push(d.getCSS(g.imports,b),g.cssText),b="all"}return h.join("")},d.parseCSS=function(a){var b=[],c;while((c=k.exec(a))!=null)b.push(((j.exec(c[1])?"\n":c[1])+c[2]+c[3]).replace(h,"$1.iepp_$2")+c[4]);return b.join("\n")},d.writeHTML=function(){var a=-1;r=r||b.body;while(++a<g){var c=b.getElementsByTagName(f[a]),d=c.length,e=-1;while(++e<d)c[e].className.indexOf("iepp_")<0&&(c[e].className+=" iepp_"+f[a])}l.appendChild(r),m.appendChild(o),o.className=r.className,o.id=r.id,o.innerHTML=r.innerHTML.replace(i,"<$1font")},d._beforePrint=function(){p.styleSheet.cssText=d.parseCSS(d.getCSS(b.styleSheets,"all")),d.writeHTML()},d.restoreHTML=function(){o.innerHTML="",m.removeChild(o),m.appendChild(r)},d._afterPrint=function(){d.restoreHTML(),p.styleSheet.cssText=""},s(b),s(l);d.disablePP||(n.insertBefore(p,n.firstChild),p.media="print",p.className="iepp-printshim",a.attachEvent("onbeforeprint",d._beforePrint),a.attachEvent("onafterprint",d._afterPrint))}(a,b),e._version=d;return e}(this,this.document);
+	
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+if(typeof beloadcode == "undefined"){
+		beloadcode = {
+		ordId: Math.floor(Math.random()*1000000),
+                        		zoneName:"/results",
+                		dartSite:"belo.kmov",
+		pageType:""
+		};
+	}else if(beloadcode.pageType=="slideshow"){
+        beloadcode.ordId=Math.floor(Math.random()*1000000);
+}
+
+
+
+
+if(typeof(OAS_sitepage) == "undefined"){
+	OAS_sitepage = "www.kmov.com/";
+	}
+
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+	function videopopitup(url) {
+		videowindow=window.open(url,'name','height=376,width=778','toolbar = 0','location=1','status=0','scrollbars=0');
+		if (window.focus) {videowindow.focus()}
+		return false;
+	}
+	
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+                var belo_tracking_sitepage = "www.kmov.com/results";
+                var _sf_startpt=(new Date()).getTime();
+        
+//]]>
+    </script>
+    <!-- Criteo script -->    <script type="text/javascript">
+//<![CDATA[
+ 
+	var crtg_nid="1493"; 
+	var crtg_cookiename="cto_belo"; 
+	function crtg_getCookie(c_name){var i,x,y,ARRcookies=document.cookie.split(";");for(i=0;i&lt;ARRcookies.length;i++){x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){return unescape(y);}}return'';} var crtg_content=crtg_getCookie(crtg_cookiename);var crtg_rnd=Math.floor(Math.random()*99999999999);var crtg_url='http://rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);crtg_url+='&amp;cookieName='+escape(crtg_cookiename);crtg_url+='&amp;rnd='+crtg_rnd;crtg_url+='&amp;varName=crtg_content';var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;if(document.getElementsByTagName("head").length&gt;0)document.getElementsByTagName("head")[0].appendChild(crtg_script);else if(document.getElementsByTagName("body").length&gt;0)document.getElementsByTagName("body")[0].appendChild(crtg_script); 
+//]]>
+    </script>
+    <script type="text/javascript" src="http://rtax.criteo.com/delivery/rta/rta.js?netId=1493&amp;cookieName=cto_belo&amp;rnd=8460555647&amp;varName=crtg_content" async="">
+    </script>
+    <!--DataSphere Loader Code Start -->    <script type="text/javascript">
+//<![CDATA[
+
+	/*
+	window['tsaRestyle_bck'] = tsaRestyle;
+	window['tsaRestyle'] = function() {};
+	setTimeout(tsaRestyle_bck, 500);
+	*/
+	
+	
+ 
+	
+	setTimeout(function(){var s="kmov",a=document.getElementsByTagName("head")[0]||document.documentElement,c=document.createElement("script"),b=document.createElement("link");c.type="text/javascript";c.async=true;c.src="http://content.secondspace.com/"+s+"/widgets"+(window.__dsns_.GetCookie('dsnswidgetversion')||'')+".js";b.rel="stylesheet";b.type="text/css";b.href="http://content.secondspace.com/"+s+"/widgets"+(window.__dsns_.GetCookie('dsnswidgetversion')||'')+".css";a.insertBefore(b,a.firstChild);a.insertBefore(c,a.firstChild);},200);if(typeof window.__dsns_=="undefined")window.__dsns_={};window.__dsns_.GetCookie=function(a){a+="=";for(var c=document.cookie.split(";"),b=0;b&lt;c.length;b++){for(var d=c[b];d.charAt(0)==" ";)d=d.substring(1,d.length);if(d.indexOf(a)==0)return d.substring(a.length,d.length)}return null};document.write('&lt;style type="text/css"&gt;#dsnslocal {display:none}&lt;/style&gt;');
+	
+	
+//]]>
+    </script>
+    <style type="text/css">
+      #dsnslocal {display:none}
+    </style>
+    <!--DataSphere Loader Code End -->    <!-- %% section req.param("fId") = $req.param("fId")  isGallerySection $isGallerySection-->  </head>
+  <body id="results" class="section">
+    <!-- layout classname $layout.className -->    <div id="wrapper">
+      <ul class="skipnav">
+        <li class="skip">
+          <a href="#content">
+            Skip Navigation.
+          </a>
+        </li>
+        <li class="skip">
+          <a href="#sidebar">
+            Jump to Side Bar.
+          </a>
+        </li>
+      </ul>
+      <div id="header">
+        <a id="header-link" title="Return to the homepage" href="/">
+          Return to the homepage
+        </a>
+        <div id="leadertop">
+          <!-- belodartMeta: ;dcopt=ist;mtfIFPath=includes;sz=728x90;tile=1;pagetype=search;"+crtg_content+"ord= -->          <div id="ad-leadertop" class="ad-display">
+            <!-- beloDartSection /results -->            <!-- tag LeaderTop currentDartAd com.clickability.cms.translator.UtilContext$userObject@7d4c4498 -->            <!-- dartTag tile1 -->            <script>
+//<![CDATA[
+
+					beloadcode.adsource = "http://ad.doubleclick.net/adj/belo.kmov"+ beloadcode.zoneName + ";dcopt=ist;mtfIFPath=includes;sz=728x90;tile=1;pagetype=search;"+crtg_content+"ord="+ beloadcode.ordId + "?";
+					document.write('&lt;script src="'+beloadcode.adsource+'" &gt;&lt;\/script&gt;')
+					
+//]]>
+            </script>
+            <script src="http://ad.doubleclick.net/adj/belo.kmov/results;dcopt=ist;mtfIFPath=includes;sz=728x90;tile=1;pagetype=search;ord=132121?">
+            </script>
+            <script type="text/javascript">
+//<![CDATA[
+
+					&lt;!--
+					if ((!document.images &amp;&amp; navigator.userAgent.indexOf('Mozilla/2.') &gt;= 0) || (navigator.userAgent.indexOf('WebTV') &gt;= 0)) {
+						document.write("&lt;a href='http://ad.doubleclick.net/jump/belo.kmov"+beloadcode.zoneName+";dcopt=ist;mtfIFPath=includes;sz=728x90;tile=1;pagetype=search;"+crtg_content+"ord="+beloadcode.ordId+"?'&gt;&lt;img src='http://ad.doubleclick.net/adj/belo.kmov"+beloadcode.zoneName+";dcopt=ist;mtfIFPath=includes;sz=728x90;tile=1;pagetype=search;"+crtg_content+"ord="+beloadcode.ordId+"?' width='728' height='90'  border='0' /&gt;&lt;/a&gt;");	
+					}
+					//--&gt;
+					
+//]]>
+            </script>
+            <noscript>
+              &lt;a href="http://ad.doubleclick.net/jump/belo.kmov/results;dcopt=ist;mtfIFPath=includes;sz=728x90;tile=1;pagetype=search;ord=26891169?"&gt;&lt;img src="http://ad.doubleclick.net/adj/belo.kmov/results;dcopt=ist;mtfIFPath=includes;sz=728x90;tile=1;pagetype=search;ord=26891169?" width="728" height="90"  border="0" /&gt;&lt;/a&gt;
+					
+            </noscript>
+          </div>
+        </div>
+        <div id="search-top" class="search">
+          <form method="get" name="searchForm" class="search-form" action="/results">
+            <p>
+              <label for="search-box">
+                Search
+              </label>
+            </p>
+            <input type="hidden" value="site" name="search" id="search-box"/>
+            <input type="text" onfocus="this.value='';" value="Find stories, photos and video" accesskey="f" title="Search KMOV.com" maxlength="255" id="search-text-top" class="search-text" name="keywords"/>
+            <input type="submit" title="Search" value="Go" name="searchbutton" id="search-button-top" class="search-button"/>
+          </form>
+        </div>
+        <div style="background: transparent url(http://media.kmov.com/designimages/belo_nt_partlycloudy.png) right 25px  no-repeat;" id="quickcast">
+          <a title="" href="http://www.kmov.com/weather/radar?radar=63175302&amp;img=0&amp;sz=lrg&amp;c=y">
+            <img width="100" height="75" border="0" class="weather-image" alt="Skytracker Doppler Radar" src="%20%09%20http://belo.bimedia.net/KMOV/weather/animated-loops/radar-adi_thumb.gif"/>
+          </a>
+          <ul id="quickcast-links">
+            <li class="quickcast-links-area">
+              Saint Louis, MO
+            </li>
+            <li class="quickcast-links-link">
+              <a target="_self" href="http://www.kmov.com/weather/maps?radar=63273612&amp;img=1&amp;c=y">
+                7-Day
+              </a>
+            </li>
+            <li class="quickcast-links-link">
+              <a target="_self" href="http://www.kmov.com/weather/interactive-radar/radar?map=main">
+                Interactive Radars
+              </a>
+            </li>
+            <li class="quickcast-links-link">
+              <a target="_self" href="http://www.kmov.com/weather/cameras">
+                Web Cams
+              </a>
+            </li>
+          </ul>
+          <p class="temp">
+            50°
+          </p>
+          <p class="conditions">
+            Scattered Clouds
+          </p>
+        </div>
+      </div>
+      <div id="nav-top" class="nav ">
+        <ul class="top-level">
+          <li class="top-level-item topNav1 ">
+            <a rel="home" href="/">
+              Home
+            </a>
+          </li>
+          <li class="top-level-item topNav2 ">
+            <a href="/news">
+              News
+            </a>
+          </li>
+          <li class="top-level-item topNav3 ">
+            <a href="/weather">
+              Weather
+            </a>
+          </li>
+          <li class="top-level-item topNav4 ">
+            <a href="/traffic">
+              Traffic
+            </a>
+          </li>
+          <li class="top-level-item topNav5 ">
+            <a href="/sports">
+              Sports
+            </a>
+          </li>
+          <li class="top-level-item topNav6 ">
+            <a href="/entertainment">
+              Entertainment
+            </a>
+          </li>
+          <li class="top-level-item topNav7 ">
+            <a href="/video">
+              Video
+            </a>
+          </li>
+          <li class="top-level-item topNav8 ">
+            <a href="/community">
+              Community
+            </a>
+          </li>
+          <li class="top-level-item topNav9 ">
+            <a href="http://coupons.kmov.com/">
+              Marketplace
+            </a>
+          </li>
+          <li class="top-level-item topNav10 ">
+            <a href="http://yournews.kmov.com">
+              Your News
+            </a>
+          </li>
+          <li class="top-level-item topNav11 ">
+            <a href="/traffic/autos">
+              Auto
+            </a>
+          </li>
+          <li class="top-level-item topNav12 ">
+            <a href="/great-day-st-louis">
+              Great Day
+            </a>
+          </li>
+          <li class="top-level-item topNav13  last">
+            <a href="/on-tv">
+              On TV
+            </a>
+          </li>
+          <li class="top-level-item" id="login-item">
+            <div class="" id="login-button">
+              <a class="signin" href="/register/?form=login&amp;docReferrer=http://www.kmov.com/results?search=site&amp;keywords=us&amp;searchbutton=Go">
+                <span>
+                  Login
+                </span>
+              </a>
+            </div>
+          </li>
+        </ul>
+        <ul class="sub-level">
+        </ul>
+      </div>
+      <!-- belodartMeta: ;mtfIFPath=includes;sz=980x30,970x90;tile=3;pagetype=search;"+crtg_content+"ord= -->      <div id="Billboard" class="ad-display">
+        <!-- beloDartSection /results -->        <!-- tag Billboard currentDartAd com.clickability.cms.translator.UtilContext$userObject@23e240e0 -->        <!-- dartTag tile3 -->        <script>
+//<![CDATA[
+
+					beloadcode.adsource = "http://ad.doubleclick.net/adj/belo.kmov"+ beloadcode.zoneName + ";mtfIFPath=includes;sz=980x30,970x90;tile=3;pagetype=search;"+crtg_content+"ord="+ beloadcode.ordId + "?";
+					document.write('&lt;script src="'+beloadcode.adsource+'" &gt;&lt;\/script&gt;')
+					
+//]]>
+        </script>
+        <script src="http://ad.doubleclick.net/adj/belo.kmov/results;mtfIFPath=includes;sz=980x30,970x90;tile=3;pagetype=search;ord=132121?">
+        </script>
+        <script type="text/javascript">
+//<![CDATA[
+
+					&lt;!--
+					if ((!document.images &amp;&amp; navigator.userAgent.indexOf('Mozilla/2.') &gt;= 0) || (navigator.userAgent.indexOf('WebTV') &gt;= 0)) {
+						document.write("&lt;a href='http://ad.doubleclick.net/jump/belo.kmov"+beloadcode.zoneName+";mtfIFPath=includes;sz=980x30,970x90;tile=3;pagetype=search;"+crtg_content+"ord="+beloadcode.ordId+"?'&gt;&lt;img src='http://ad.doubleclick.net/adj/belo.kmov"+beloadcode.zoneName+";mtfIFPath=includes;sz=980x30,970x90;tile=3;pagetype=search;"+crtg_content+"ord="+beloadcode.ordId+"?' width='980' height='30'  border='0' /&gt;&lt;/a&gt;");	
+					}
+					//--&gt;
+					
+//]]>
+        </script>
+        <noscript>
+          &lt;a href="http://ad.doubleclick.net/jump/belo.kmov/results;mtfIFPath=includes;sz=980x30,970x90;tile=3;pagetype=search;ord=26891169?"&gt;&lt;img src="http://ad.doubleclick.net/adj/belo.kmov/results;mtfIFPath=includes;sz=980x30,970x90;tile=3;pagetype=search;ord=26891169?" width="980" height="30"  border="0" /&gt;&lt;/a&gt;
+					
+        </noscript>
+      </div>
+      <div class="hide" id="bimregStatusBox">
+        <div id="status-loggingin">
+        </div>
+        <ul>
+          <li id="status-avatar">
+            <div id="avatar-image">
+            </div>
+          </li>
+          <li id="status-welcome"/>
+          <li id="status-profile">
+            <a title="Profile" href="#">
+              My Profile
+            </a>
+          </li>
+          <li id="status-signout">
+            <a title="Log out of your account." href="#">
+              Sign Out
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- promoresults.size() 0 -->      <!-- 
+Type - $Type
+Keyword - us
+orderResultsBy - date
+itemcount - 25
+searchdate - $date1
+searchend - $date2
+video search - $req.param("videoresults")
+exact match - $req.param("exactmatch")
+section - $searchwss
+page - 1
+-->      <div id="content" class="search-results">
+        <form name="GenSearchBox" action="/results" method="get" id="search-advanced">
+          <div id="basic-search">
+            <fieldset id="searchkeyword">
+              <label for="keywords" class="keytext">
+                Search by keyword:
+              </label>
+              <input type="radio" id="exactword" value="true" name="exactmatch"/>
+              <label for="exactword">
+                Exact word
+              </label>
+              <input type="radio" checked="checked" id="anyword" value="false" name="exactmatch"/>
+              <label for="anyword">
+                Any word
+              </label>
+              <input type="text" value="us" maxlength="255" size="50" class="searchbox" id="keywords" name="keywords"/>
+            </fieldset>
+            <fieldset id="secitonalsearch">
+              <label class="sectionsearchtitle" for="section">
+                Section:
+              </label>
+              <select name="searchwss">
+                <option selected="selected" value="site">
+                  Section
+                </option>
+                <option value="549472">
+                  News
+                </option>
+                <option value="549707">
+                  Weather
+                </option>
+                <option value="549667">
+                  Traffic
+                </option>
+                <option value="549607">
+                  Sports
+                </option>
+                <option value="657229">
+                  Entertainment
+                </option>
+                <option value="549687">
+                  Video
+                </option>
+                <option value="549292">
+                  Community
+                </option>
+                <option value="744254">
+                  Auto
+                </option>
+                <option value="549332">
+                  Great Day
+                </option>
+                <option value="549547">
+                  On TV
+                </option>
+              </select>
+            </fieldset>
+            <fieldset id="countoptions">
+              <p>
+              </p>
+              <h3>
+                Show:
+              </h3>
+              <input type="radio" checked="checked" id="twentyfive" value="25" name="itemcount"/>
+              <label for="twentyfive">
+                25
+              </label>
+              <input type="radio" id="fifty" value="50" name="itemcount"/>
+              <label for="fifty">
+                50
+              </label>
+              <input type="radio" id="seventyfive" value="75" name="itemcount"/>
+              <label for="seventyfive">
+                75
+              </label>
+               per page
+              <p>
+              </p>
+            </fieldset>
+            <fieldset id="sortoptions">
+              <p>
+              </p>
+              <h3>
+                Sort:
+              </h3>
+              <input type="radio" id="relevance" value="relevance" name="order"/>
+              <label for="relevance">
+                Relevance
+              </label>
+              <input type="radio" checked="checked" id="date-order" value="date" name="order"/>
+              <label for="date-order">
+                Date
+              </label>
+              <p>
+              </p>
+            </fieldset>
+            <input type="submit" value="Search" class="searchbutton" name="submit"/>
+          </div>
+          <div id="advancedsearchoptions" style="display: none;">
+            <fieldset id="datesearch">
+              <div class="dateholder">
+                <label for="searchend">
+                  From
+                </label>
+                <input type="text" id="searchdate" name="searchdate" class="hasDatepicker"/>
+              </div>
+              <div class="dateholder">
+                <label for="searchend">
+                  Through
+                </label>
+                <input type="text" id="searchend" name="searchend" class="hasDatepicker"/>
+              </div>
+            </fieldset>
+            <fieldset id="typeofsearch">
+              <h3>
+                Type of Results:
+              </h3>
+              <input type="checkbox" checked="checked" value="true" id="videoresults" name="videoresults"/>
+              <label for="videoresults">
+                Video
+              </label>
+              <input type="checkbox" checked="checked" value="true" id="ugc" name="ugc"/>
+              <label for="ugc">
+                YouNews
+              </label>
+              <input type="checkbox" checked="checked" value="true" id="articles" name="articles"/>
+              <label for="articles">
+                Articles
+              </label>
+            </fieldset>
+          </div>
+        </form>
+        <div id="search-hide">
+          <a href="#">
+            <span style="display: none;">
+              Hide
+            </span>
+             Advanced
+          </a>
+        </div>
+        <div class="results-heading">
+          <p class="sort-tally">
+            109300 results returned for 
+            <span class="keyword">
+              us
+            </span>
+          </p>
+          <p class="sortby">
+            Sorted by date
+          </p>
+          <p class="sort-page">
+            Page 1 of 4372
+          </p>
+        </div>
+        <div id="search-Filter">
+          <a href="http://www.kmov.com/results?search=site&amp;keywords=us&amp;searchbutton=Go&amp;videoOnly=true">
+            Videos Only
+          </a>
+           | 
+          <a href="http://www.kmov.com/results?search=site&amp;keywords=us&amp;searchbutton=Go&amp;videoOnly=false">
+            All Content
+          </a>
+        </div>
+        <div class="results">
+          <ul id="ss">
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap  w-image ">
+                <h6>
+                  <a rel="tag" title="KMOV Yahoo News" href="/outbound-feeds/yahoo-news">
+                    KMOV Yahoo News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 31, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Firefighters battle Central West End apartment blaze" href="http://www.kmov.com/home/Firefighters-battle-Central-West-End-apartment-fire-253154431.html">
+                    Firefighters battle Central West End apartment blaze
+                  </a>
+                </h3>
+                <p>
+                  Firefighters were called to battle a blaze at an apartment building in the Central West End early Monday morning.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/home/Firefighters-battle-Central-West-End-apartment-fire-253154431.html">
+                    http://www.kmov.com/home/Firefighters-battle-Central-West-End-apartment-fire-253154431.html
+                  </a>
+                </p>
+              </span>
+              <div class="photo-wrap">
+                <a class="photo-link" title="Firefighters battle Central West End apartment blaze" href="http://www.kmov.com/home/Firefighters-battle-Central-West-End-apartment-fire-253154431.html">
+                  <img width="120" height="67" border="0" title="Firefighters battle Central West End apartment blaze" alt="" class="photo" src="http://media.kmov.com/images/120*67/CWE+fire+2.jpg"/>
+                </a>
+              </div>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap  w-image ">
+                <h6>
+                  <a rel="tag" title="Entertainment" href="/entertainment">
+                    Entertainment
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 31, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Today In History" href="http://www.kmov.com/home/Today-In-History-253154351.html">
+                    Today In History
+                  </a>
+                </h3>
+                <p>
+                  Today is Monday, March 31, the 90th day of 2014. There are 275 days left in the year.
+Today's Highlight in History:
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/home/Today-In-History-253154351.html">
+                    http://www.kmov.com/home/Today-In-History-253154351.html
+                  </a>
+                </p>
+              </span>
+              <div class="photo-wrap">
+                <a class="photo-link" title="Today In History" href="http://www.kmov.com/home/Today-In-History-253154351.html">
+                  <img width="120" height="68" border="0" title="Today In History" alt="" class="photo" src="http://media.kmov.com/images/120*68/generic_today-in-history_bi.jpg"/>
+                </a>
+              </div>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 31, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Mudslide death toll rises; rains expected to ease" href="http://www.kmov.com/news/national/253154251.html">
+                    Mudslide death toll rises; rains expected to ease
+                  </a>
+                </h3>
+                <p>
+                  DARRINGTON, Wash. (AP) — The rains that have bedeviled rescuers working to find more victims in the debris field from the deadly Washington state mudslide are expected to ease this week, but searchers faced other challenges at the site like household chemicals and sewage.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253154251.html">
+                    http://www.kmov.com/news/national/253154251.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 31, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Senate torture report examines hunt for bin Laden" href="http://www.kmov.com/news/national/253150421.html">
+                    Senate torture report examines hunt for bin Laden
+                  </a>
+                </h3>
+                <p>
+                  WASHINGTON (AP) — A hotly disputed Senate torture report concludes that waterboarding and other harsh interrogation methods provided no key evidence in the hunt for Osama bin Laden, according to congressional aides and outside experts familiar with the investigation.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253150421.html">
+                    http://www.kmov.com/news/national/253150421.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 31, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Orson Welles' camera, other items up for auction" href="http://www.kmov.com/news/national/253151791.html">
+                    Orson Welles' camera, other items up for auction
+                  </a>
+                </h3>
+                <p>
+                  PHOENIX (AP) — The youngest daughter of director and writer Orson Welles is giving film buffs a chance to buy some of his personal possessions, including a camera, scripts and photos from the set of "Citizen Kane."
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253151791.html">
+                    http://www.kmov.com/news/national/253151791.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 31, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Test accurately rules out heart attacks in the ER" href="http://www.kmov.com/news/national/253150431.html">
+                    Test accurately rules out heart attacks in the ER
+                  </a>
+                </h3>
+                <p>
+                  WASHINGTON (AP) — A simple test appears very good at ruling out heart attacks in people who go to emergency rooms with chest pain, a big public health issue and a huge worry for patients.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253150431.html">
+                    http://www.kmov.com/news/national/253150431.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="Off Beat News" href="/news/off-beat">
+                    Off Beat News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 31, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Man does C-section on dead porcupine, saves baby" href="http://www.kmov.com/news/off-beat/253055781.html">
+                    Man does C-section on dead porcupine, saves baby
+                  </a>
+                </h3>
+                <p>
+                  LISBON, Maine (AP) — A Maine man in search of a valuable mineral cut open a dead porcupine on the side of the road and unexpectedly pulled out its baby.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/off-beat/253055781.html">
+                    http://www.kmov.com/news/off-beat/253055781.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="Autos" href="/traffic/autos">
+                    Autos
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 31, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Kyle Busch wins pole at Martinsville Speedway" href="http://www.kmov.com/traffic/autos/252986751.html">
+                    Kyle Busch wins pole at Martinsville Speedway
+                  </a>
+                </h3>
+                <p>
+                  MARTINSVILLE, Va. (AP) — Kyle Busch has seen it time and again at Martinsville Speedway.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/traffic/autos/252986751.html">
+                    http://www.kmov.com/traffic/autos/252986751.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="Autos" href="/traffic/autos">
+                    Autos
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 31, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Stocks end the week higher ...Oil has good week... GM adding more vehicles to recall list" href="http://www.kmov.com/traffic/autos/253046161.html">
+                    Stocks end the week higher ...Oil has good week... GM adding more vehicles to recall list
+                  </a>
+                </h3>
+                <p>
+                  NEW YORK (AP) — Investors are feeling a bit better this weekend after a positive report on U.S. consumer spending yesterday helped push stocks mostly higher for the first time in three days. But the gains were modest. The Dow Jones Industrial average climbed 59 points to 16,323. The S&amp;P 500 index rose 8 1/2 points 1,857. The Nasdaq composite closed up 4 ½ points to 4,155.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/traffic/autos/253046161.html">
+                    http://www.kmov.com/traffic/autos/253046161.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 31, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Albuquerque police face hundreds of protesters" href="http://www.kmov.com/news/national/253120131.html">
+                    Albuquerque police face hundreds of protesters
+                  </a>
+                </h3>
+                <p>
+                  ALBUQUERQUE, N.M. (AP) — The Albuquerque mayor said late Sunday that a more than 10-hour protest over recent police shootings has turned from peaceful into "mayhem," as officers in riot gear clashed with protesters who blocked traffic, tried to get on freeways and shouted anti-police slogans.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253120131.html">
+                    http://www.kmov.com/news/national/253120131.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="ABC's Josh Elliott leaving show for NBC Sports" href="http://www.kmov.com/news/national/253136241.html">
+                    ABC's Josh Elliott leaving show for NBC Sports
+                  </a>
+                </h3>
+                <p>
+                  NEW YORK (AP) — ABC's top-rated "Good Morning America" has suffered its second personnel defection in four months, with news anchor Josh Elliott telling the network on Sunday that he's leaving for a job at NBC Sports.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253136241.html">
+                    http://www.kmov.com/news/national/253136241.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Surfboard, sailboat innovator 'Hobie' Alter dies" href="http://www.kmov.com/news/national/253139911.html">
+                    Surfboard, sailboat innovator 'Hobie' Alter dies
+                  </a>
+                </h3>
+                <p>
+                  PALM DESERT, Calif. (AP) — Hobart "Hobie" Alter, who helped popularize surfing and sailing with the development of the foam surfboard and the "Hobie Cat" sailboat, has died. He was 80.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253139911.html">
+                    http://www.kmov.com/news/national/253139911.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Mudslide death toll rises, search dogs take break" href="http://www.kmov.com/news/national/253081031.html">
+                    Mudslide death toll rises, search dogs take break
+                  </a>
+                </h3>
+                <p>
+                  DARRINGTON, Wash. (AP) — Many of the dogs that have been essential in the search for victims of the deadly mudslide that buried the mountainside community of Oso will take a two-day break after long hours in the cold and rain, rescue crews said Sunday.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253081031.html">
+                    http://www.kmov.com/news/national/253081031.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap  w-image ">
+                <h6>
+                  <a rel="tag" title="KMOV Yahoo News" href="/outbound-feeds/yahoo-news">
+                    KMOV Yahoo News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Mo. lawmakers want to re-issue property tax program to help seniors" href="http://www.kmov.com/news/politics/Mo-lawmakers-want-to-re-issue-property-tax-program-to-help-seniors-253132331.html">
+                    Mo. lawmakers want to re-issue property tax program to help seniors
+                  </a>
+                  <span class="video-icon">
+                     
+                  </span>
+                </h3>
+                <p>
+                  Some Missouri lawmakers want to revive a program that funds property tax rebates for senior and disabled homeowners.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/politics/Mo-lawmakers-want-to-re-issue-property-tax-program-to-help-seniors-253132331.html">
+                    http://www.kmov.com/news/politics/Mo-lawmakers-want-to-re-issue-property-tax-program-to-help-seniors-253132331.html
+                  </a>
+                </p>
+              </span>
+              <div class="photo-wrap">
+                <a class="photo-link" title="Mo. lawmakers want to re-issue property tax program to help seniors" href="http://www.kmov.com/news/politics/Mo-lawmakers-want-to-re-issue-property-tax-program-to-help-seniors-253132331.html">
+                  <img width="120" height="67" border="0" title="Mo. lawmakers want to re-issue property tax program to help seniors" alt="" class="photo" src="http://media.kmov.com/images/120*67/481478711.jpg"/>
+                </a>
+              </div>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="No national system to track landslide hazards" href="http://www.kmov.com/news/national/253104341.html">
+                    No national system to track landslide hazards
+                  </a>
+                </h3>
+                <p>
+                  SEATTLE (AP) — People living in the path of a deadly Washington state landslide had virtually no warning before a wall of mud, trees and other debris thundered down the mountain. Some of the homeowners didn't even know the hillside could give way at any time.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253104341.html">
+                    http://www.kmov.com/news/national/253104341.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap  w-image ">
+                <h6>
+                  <a rel="tag" title="Baseball Headlines" href="/sports/baseball/headlines">
+                    Baseball Headlines
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Wainwright chases  first Opening Day win, defines goals for 2014" href="http://www.kmov.com/sports/Wainwright-chases--first-Opening-Day-win-defines-goals-for-2014-253126181.html">
+                    Wainwright chases  first Opening Day win, defines goals for 2014
+                  </a>
+                  <span class="video-icon">
+                     
+                  </span>
+                </h3>
+                <p>
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/sports/Wainwright-chases--first-Opening-Day-win-defines-goals-for-2014-253126181.html">
+                    http://www.kmov.com/sports/Wainwright-chases--first-Opening-Day-win-defines-goals-for-2014-253126181.html
+                  </a>
+                </p>
+              </span>
+              <div class="photo-wrap">
+                <a class="photo-link" title="Wainwright chases  first Opening Day win, defines goals for 2014" href="http://www.kmov.com/sports/Wainwright-chases--first-Opening-Day-win-defines-goals-for-2014-253126181.html">
+                  <img width="120" height="67" border="0" title="Wainwright chases  first Opening Day win, defines goals for 2014" alt="" class="photo" src="http://media.kmov.com/images/120*67/wainwright_startOD.jpg"/>
+                </a>
+              </div>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Magnitude-4.8 earthquake shakes Yellowstone park" href="http://www.kmov.com/news/national/253109221.html">
+                    Magnitude-4.8 earthquake shakes Yellowstone park
+                  </a>
+                </h3>
+                <p>
+                  YELLOWSTONE NATIONAL PARK, Wyo. (AP) — The U.S. Geological Survey says the magnitude-4.8 earthquake that shook northern Yellowstone National Park is the strongest there since 1980.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253109221.html">
+                    http://www.kmov.com/news/national/253109221.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Health overhaul signup ends, survives for now" href="http://www.kmov.com/news/national/253043891.html">
+                    Health overhaul signup ends, survives for now
+                  </a>
+                </h3>
+                <p>
+                  WASHINGTON (AP) — Monday marks the end of the six-month sign-up period for insurance under President Barack Obama's health care overhaul, a highly controversial attempt to reduce the number of Americans without medical coverage, estimated at about 50 million.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253043891.html">
+                    http://www.kmov.com/news/national/253043891.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Test accurately rules out heart attacks in the ER" href="http://www.kmov.com/news/national/253115471.html">
+                    Test accurately rules out heart attacks in the ER
+                  </a>
+                </h3>
+                <p>
+                  WASHINGTON (AP) — A simple test appears very good at ruling out heart attacks in people who go to emergency rooms with chest pain, a big public health issue and a huge worry for patients.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253115471.html">
+                    http://www.kmov.com/news/national/253115471.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap  w-image ">
+                <h6>
+                  <a rel="tag" title="Entertainment" href="/entertainment">
+                    Entertainment
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="'Noah' rises to top of box office with $44M debut" href="http://www.kmov.com/entertainment/Noah-rises-to-top-of-box-office-with-44M-debut-253116051.html">
+                    'Noah' rises to top of box office with $44M debut
+                  </a>
+                </h3>
+                <p>
+                  After weathering a sea of controversy, "Noah" arrived in first place at the weekend box office.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/entertainment/Noah-rises-to-top-of-box-office-with-44M-debut-253116051.html">
+                    http://www.kmov.com/entertainment/Noah-rises-to-top-of-box-office-with-44M-debut-253116051.html
+                  </a>
+                </p>
+              </span>
+              <div class="photo-wrap">
+                <a class="photo-link" title="'Noah' rises to top of box office with $44M debut" href="http://www.kmov.com/entertainment/Noah-rises-to-top-of-box-office-with-44M-debut-253116051.html">
+                  <img width="120" height="67" border="0" title="'Noah' rises to top of box office with $44M debut" alt="" class="photo" src="http://media.kmov.com/images/120*67/noahboxofficeopening.jpg"/>
+                </a>
+              </div>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Test accurately rules out heart attacks in the ER" href="http://www.kmov.com/news/national/253112041.html">
+                    Test accurately rules out heart attacks in the ER
+                  </a>
+                </h3>
+                <p>
+                  WASHINGTON (AP) — A simple test appears very good at ruling out heart attacks in people who go to emergency rooms with chest pain, a big public health issue and a huge worry for patients.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253112041.html">
+                    http://www.kmov.com/news/national/253112041.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Animal mummies displayed at California museum" href="http://www.kmov.com/news/national/253109201.html">
+                    Animal mummies displayed at California museum
+                  </a>
+                </h3>
+                <p>
+                  SANTA ANA, Calif. (AP) — We love our dogs and cats, but the ancient Egyptians REALLY loved their dogs and cats — not to mention their snakes, crocodiles and birds.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253109201.html">
+                    http://www.kmov.com/news/national/253109201.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Clash between police, Arizona fans repeats past" href="http://www.kmov.com/sports/ap/253079151.html">
+                    Clash between police, Arizona fans repeats past
+                  </a>
+                </h3>
+                <p>
+                  TUCSON, Ariz. (AP) — Repeating a scene from 13 years ago, several hundred Arizona fans and Tucson police clashed in the streets late Saturday following the University of Arizona basketball team's loss to Wisconsin in the NCAA tournament.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/sports/ap/253079151.html">
+                    http://www.kmov.com/sports/ap/253079151.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="Business News" href="/news/business">
+                    Business News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="Another case between Apple-Samsung heads to court" href="http://www.kmov.com/news/national/253107741.html">
+                    Another case between Apple-Samsung heads to court
+                  </a>
+                </h3>
+                <p>
+                  SAN JOSE, Calif. (AP) — The fiercest rivalry in the world of smartphones is heading back to court this week in Silicon Valley, with Apple and Samsung accusing each other, once again, of ripping off designs and features.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253107741.html">
+                    http://www.kmov.com/news/national/253107741.html
+                  </a>
+                </p>
+              </span>
+            </li>
+            <!--story.related $story.related -->            <li>
+              <span class="text-wrap ">
+                <h6>
+                  <a rel="tag" title="National News" href="/news/national">
+                    National News
+                  </a>
+                </h6>
+                <p class="date">
+                  Mar 30, 2014
+                </p>
+                <h3 class="entry-title">
+                  <a title="NYC mayor's next big push: affordable housing" href="http://www.kmov.com/news/national/253106671.html">
+                    NYC mayor's next big push: affordable housing
+                  </a>
+                </h3>
+                <p>
+                  NEW YORK (AP) — Now that state lawmakers have closed a budget deal to fund prekindergarten in New York City, Mayor Bill de Blasio (dih BLAH'-zee-oh) is ready to turn to the next items on his sweeping liberal agenda.
+                </p>
+                <p class="more">
+                  <a href="http://www.kmov.com/news/national/253106671.html">
+                    http://www.kmov.com/news/national/253106671.html
+                  </a>
+                </p>
+              </span>
+            </li>
+          </ul>
+          <div class="paginationLinks">
+            <span class="page_selected">
+              1
+            </span>
+            <a href="?page=2&amp;searchbutton=Go&amp;keywords=us&amp;search=site">
+              2
+            </a>
+            <a href="?page=3&amp;searchbutton=Go&amp;keywords=us&amp;search=site">
+              3
+            </a>
+            <a href="?page=4&amp;searchbutton=Go&amp;keywords=us&amp;search=site">
+              4
+            </a>
+            <a href="?page=5&amp;searchbutton=Go&amp;keywords=us&amp;search=site">
+              5
+            </a>
+            <a href="?page=6&amp;searchbutton=Go&amp;keywords=us&amp;search=site">
+              6
+            </a>
+            <a href="?page=7&amp;searchbutton=Go&amp;keywords=us&amp;search=site">
+              7
+            </a>
+            <a href="?page=8&amp;searchbutton=Go&amp;keywords=us&amp;search=site">
+              8
+            </a>
+            <a href="?page=9&amp;searchbutton=Go&amp;keywords=us&amp;search=site">
+              9
+            </a>
+            <a href="?page=10&amp;searchbutton=Go&amp;keywords=us&amp;search=site">
+              10
+            </a>
+            
+                                                                        ...
+                                            | 
+            <a href="?page=2&amp;searchbutton=Go&amp;keywords=us&amp;search=site">
+              NEXT&gt;&gt;
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- fullSearch true -->      <script>
+//<![CDATA[
+
+	$(document).ready(function() {
+		$( "#searchdate, #searchend" ).datepicker();
+		$('#header #search-text-top').val("us");
+					$("#advancedsearchoptions").slideToggle();
+				$("#search-hide a span").toggle();
+		$("#search-hide a").click(function(){
+			$("#search-hide a span").toggle();
+			$("#advancedsearchoptions").slideToggle();
+			return false;
+		});
+	});
+
+//]]>
+      </script>
+      <div id="sidebar">
+        <div class="fancyToolBar" id="content-toolbar2">
+          <ul id="content-tools">
+            <li style="background: transparent url(http://media.kmov.com/images/kens-facebook-icon.png) top left no-repeat" class=" item1 hasimage">
+              <a title="Facebook" href="http://www.facebook.com/news4stlouis">
+                Facebook
+              </a>
+            </li>
+            <li style="background: transparent url(http://media.kmov.com/images/kens-twitter-icon.png) top left no-repeat" class=" item2 hasimage">
+              <a title="Twitter" href="/content-toolbar/twitter">
+                Twitter
+              </a>
+            </li>
+          </ul>
+          <ul id="contentToolsStdLink">
+            <li style="background: transparent url(http://media.kmov.com/images/belo-mobile-icon.png) top left no-repeat" class=" item1 hasimage">
+              <a title="Mobile" href="http://q.belo.com/shared/mobappdir/v3/?station=kmov">
+                Mobile
+              </a>
+            </li>
+            <li style="background: transparent url(http://media.kmov.com/images/belo-feeds-icon.png) top left no-repeat" class=" item2 hasimage">
+              <a title="RSS Feeds" href="/content-toolbar/rss">
+                RSS Feeds
+              </a>
+            </li>
+            <li style="background: transparent url(http://media.kmov.com/images/belo-offers-icon.png) top left no-repeat" class=" item3 hasimage">
+              <a title="Special Offers" href="/content-toolbar/specials">
+                Special Offers
+              </a>
+            </li>
+            <li style="background: transparent url(http://media.kmov.com/images/belo-newsletters-icon.png) top left no-repeat" class=" item4 hasimage">
+              <a title="Newsletters" href="/content-toolbar/newsletters">
+                Newsletters
+              </a>
+            </li>
+            <li style="background: transparent url(http://media.kmov.com/images/widget_icon16x161.jpg) top left no-repeat" class=" item5 hasimage">
+              <a title="Widgets" href="/weather/Free-weather-widget-for-your-website-95112919.html">
+                Widgets
+              </a>
+            </li>
+            <li style="background: transparent url(http://media.kmov.com/images/Home16x16.jpg) top left no-repeat" class=" item6 hasimage">
+              <a title="Set Home Page" href="/news/local/Make-KMOVcom-your-Home-Page--97086739.html">
+                Set Home Page
+              </a>
+            </li>
+            <li style="background: transparent url(http://media.kmov.com/images/camera_icon_16x161.jpg) top left no-repeat" class=" item7 hasimage">
+              <a title="Eye on StL" href="/weather/cameras/KMOV-Cameras-63274597.html?img=1&amp;sz=lrg&amp;c=y">
+                Eye on StL
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="featuredvideo" class="module vidOption1 ">
+          <h5>
+            Top Video
+          </h5>
+          <!-- BEFORE CHECK path: 
+isSanders: true
+?domainId pos: -1
+10217 kmov pos: -1
+8852 ktvk pos: -1
+goodToGo: false
+-->          <!-- AFTER CHECK path: 
+isSanders: true
+?domainId pos: -1
+10217 kmov pos: -1
+8852 ktvk pos: -1
+goodToGo: true
+-->          <!-- dockey  -->          <ul>
+            <li class="hentry item1 hasvideo hasimage ">
+              <!-- showThumbs:true
+					hasLiveEvent: false -->              <a class="photo-link" title="Video: Final 24 hours before the healthcare sign up deadline" href="/video?id=253135361&amp;sec=549692&amp;ref=rcvidmod">
+                <img width="128" height="71" border="0" title="Video: Final 24 hours before the healthcare sign up deadline" alt="Video: Final 24 hours before the healthcare sign up deadline" class="photo" src="http://media.kmov.com/images/128*71/Friday10000.jpg"/>
+              </a>
+              <p class="credit light-gray">
+                Credit: Getty Images
+              </p>
+              <!--
+					showSectionHeading: true
+					sectionHeadingLink : /news/local
+					sectionHeading: Local News
+					-->              <h6>
+                <a rel="tag" title="Local News" href="/news/local">
+                  Local News
+                </a>
+              </h6>
+              <h3 class="entry-title">
+                <a rel="bookmark" class="storyLink" title="Video: Final 24 hours before the healthcare sign up deadline" href="/video?id=253135361&amp;sec=549692&amp;ref=rcvidmod">
+                  Video: Final 24 hours before the healthcare sign up deadline
+                </a>
+                <a class="addToList hide" href="#">
+                  <span style="display:none;">
+                    add to reading list
+                  </span>
+                </a>
+                <span class="video-icon">
+                   
+                </span>
+              </h3>
+              <span class="author fn hide">
+                			By Matt Sczesny / News 4	
+			
+              </span>
+            </li>
+            <li class="hentry item2 hasvideo hasimage ">
+              <!-- showThumbs:true
+					hasLiveEvent: false -->              <a class="photo-link" title="Government memo says GM canceled potential fixes for ignition defect" href="/video?id=253132771&amp;sec=549692&amp;ref=rcvidmod">
+                <img width="128" height="71" border="0" title="Government memo says GM canceled potential fixes for ignition defect" alt="Government memo says GM canceled potential fixes for ignition defect" class="photo" src="http://media.kmov.com/images/128*71/GM-getty.jpg"/>
+              </a>
+              <!--
+					showSectionHeading: true
+					sectionHeadingLink : /news/national
+					sectionHeading: National News
+					-->              <h6>
+                <a rel="tag" title="National News" href="/news/national">
+                  National News
+                </a>
+              </h6>
+              <h3 class="entry-title">
+                <a rel="bookmark" class="storyLink" title="Government memo says GM canceled potential fixes for ignition defect" href="/video?id=253132771&amp;sec=549692&amp;ref=rcvidmod">
+                  Government memo says GM canceled potential fixes for ignition defect
+                </a>
+                <a class="addToList hide" href="#">
+                  <span style="display:none;">
+                    add to reading list
+                  </span>
+                </a>
+                <span class="video-icon">
+                   
+                </span>
+              </h3>
+              <span class="author fn hide">
+                			By Elizabeth Eisele/ KMOV.com	
+			
+              </span>
+            </li>
+            <li class="hentry item3 hasvideo hasimage ">
+              <!-- showThumbs:true
+					hasLiveEvent: false -->              <a class="photo-link" title="Video: News 4’s Julian Johnson investigates tax fraud frenzy" href="/video?id=253130951&amp;sec=549692&amp;ref=rcvidmod">
+                <img width="128" height="71" border="0" title="Video: News 4’s Julian Johnson investigates tax fraud frenzy" alt="Video: News 4’s Julian Johnson investigates tax fraud frenzy" class="photo" src="http://media.kmov.com/images/128*71/irs_tax_fraud-kmov.jpg"/>
+              </a>
+              <!--
+					showSectionHeading: true
+					sectionHeadingLink : /video/featured-videos
+					sectionHeading: Featured Videos
+					-->              <h6>
+                <a rel="tag" title="Featured Videos" href="/video/featured-videos">
+                  Featured Videos
+                </a>
+              </h6>
+              <h3 class="entry-title">
+                <a rel="bookmark" class="storyLink" title="Video: News 4’s Julian Johnson investigates tax fraud frenzy" href="/video?id=253130951&amp;sec=549692&amp;ref=rcvidmod">
+                  Video: News 4’s Julian Johnson investigates tax fraud frenzy
+                </a>
+                <a class="addToList hide" href="#">
+                  <span style="display:none;">
+                    add to reading list
+                  </span>
+                </a>
+                <span class="video-icon">
+                   
+                </span>
+              </h3>
+              <span class="author fn hide">
+                			By KMOV Web Producer	
+			
+              </span>
+            </li>
+            <li class="hentry item4 hasvideo hasimage ">
+              <!-- showThumbs:true
+					hasLiveEvent: false -->              <a class="photo-link" title="CTA reopens O'Hare station after derailment" href="/video?id=253122031&amp;sec=549692&amp;ref=rcvidmod">
+                <img width="128" height="71" border="0" title="CTA reopens O'Hare station after derailment" alt="CTA reopens O'Hare station after derailment" class="photo" src="http://media.kmov.com/images/128*71/train-derailment-kmov.gif"/>
+              </a>
+              <!--
+					showSectionHeading: true
+					sectionHeadingLink : /news/just-posted
+					sectionHeading: Just Posted
+					-->              <h6>
+                <a rel="tag" title="Just Posted" href="/news/just-posted">
+                  Just Posted
+                </a>
+              </h6>
+              <h3 class="entry-title">
+                <a rel="bookmark" class="storyLink" title="CTA reopens O'Hare station after derailment" href="/video?id=253122031&amp;sec=549692&amp;ref=rcvidmod">
+                  CTA reopens O'Hare station after derailment
+                </a>
+                <a class="addToList hide" href="#">
+                  <span style="display:none;">
+                    add to reading list
+                  </span>
+                </a>
+                <span class="video-icon">
+                   
+                </span>
+              </h3>
+              <span class="author fn hide">
+                			By Associated Press	
+			
+              </span>
+            </li>
+          </ul>
+          <!-- targetWssID 549692 -->          <!-- linkToExtendedContent $linkToExtendedContent -->          <!-- targetWssIDStr 549692 -->          <a href="http://www.kmov.com/video/featured-videos" class="headlines-morelink">
+            More
+          </a>
+          <a class="more" href="/video?sec=549692&amp;ref=rcvidmod">
+            More Video
+          </a>
+        </div>
+        <!-- belodartMeta: ;mtfIFPath=includes;sz=300x250,300x600;tile=7;pagetype=search;"+crtg_content+"ord= -->        <div id="ad-medrectangle" class="ad-display">
+          <!-- beloDartSection /results -->          <!-- tag MedRectangle currentDartAd com.clickability.cms.translator.UtilContext$userObject@52c68cb2 -->          <!-- dartTag tile7 -->          <script>
+//<![CDATA[
+
+					beloadcode.adsource = "http://ad.doubleclick.net/adj/belo.kmov"+ beloadcode.zoneName + ";mtfIFPath=includes;sz=300x250,300x600;tile=7;pagetype=search;"+crtg_content+"ord="+ beloadcode.ordId + "?";
+					document.write('&lt;script src="'+beloadcode.adsource+'" &gt;&lt;\/script&gt;')
+					
+//]]>
+          </script>
+          <script src="http://ad.doubleclick.net/adj/belo.kmov/results;mtfIFPath=includes;sz=300x250,300x600;tile=7;pagetype=search;ord=132121?">
+          </script>
+          <script type="text/javascript">
+//<![CDATA[
+
+					&lt;!--
+					if ((!document.images &amp;&amp; navigator.userAgent.indexOf('Mozilla/2.') &gt;= 0) || (navigator.userAgent.indexOf('WebTV') &gt;= 0)) {
+						document.write("&lt;a href='http://ad.doubleclick.net/jump/belo.kmov"+beloadcode.zoneName+";mtfIFPath=includes;sz=300x250,300x600;tile=7;pagetype=search;"+crtg_content+"ord="+beloadcode.ordId+"?'&gt;&lt;img src='http://ad.doubleclick.net/adj/belo.kmov"+beloadcode.zoneName+";mtfIFPath=includes;sz=300x250,300x600;tile=7;pagetype=search;"+crtg_content+"ord="+beloadcode.ordId+"?' width='300' height='250'  border='0' /&gt;&lt;/a&gt;");	
+					}
+					//--&gt;
+					
+//]]>
+          </script>
+          <noscript>
+            &lt;a href="http://ad.doubleclick.net/jump/belo.kmov/results;mtfIFPath=includes;sz=300x250,300x600;tile=7;pagetype=search;ord=26891169?"&gt;&lt;img src="http://ad.doubleclick.net/adj/belo.kmov/results;mtfIFPath=includes;sz=300x250,300x600;tile=7;pagetype=search;ord=26891169?" width="300" height="250"  border="0" /&gt;&lt;/a&gt;
+					
+          </noscript>
+        </div>
+        <!-- module setting -->        <!-- Parse XML Cache time Mon Mar 31 01:49:58 PDT 2014 -->        <!-- refresh -->        <!-- refresh -->        <!-- refresh -->        <!-- refresh -->        <!-- refresh -->        <!-- refresh -->        <!-- refresh -->        <!-- refresh -->        <div class=" fouritems" id="cell-journalist-widget">
+          <h2>
+            <a href="http://yournews.kmov.com%20" target="_blank">
+              Photo of the Day
+            </a>
+          </h2>
+          <ul>
+            <li>
+              <a href="http://yournews.kmov.com/Media/6418390">
+                <div class="photo">
+                  <img src="http://af725be43536f9ef2805-f13c8f7f91b91c346ed390a5787a2661.r33.cf1.rackcdn.com/19f75d7f-b16c-4913-adf2-0c2f6a3d71a4.jpg"/>
+                </div>
+                <div class="slideup">
+                  <div>
+                    <p class="cj-title">
+                      Kitty
+                    </p>
+                    <p class="cj-author">
+                      
+        Lemmer
+      
+                    </p>
+                  </div>
+                  <p class="cj-pubDate">
+                    
+                                           Mar 31 2014
+                                        
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="http://yournews.kmov.com/Media/6416998">
+                <div class="photo">
+                  <img src="http://af725be43536f9ef2805-f13c8f7f91b91c346ed390a5787a2661.r33.cf1.rackcdn.com/08cb6f51-e86e-47bd-a3bf-7b3335cb0d14.jpg"/>
+                </div>
+                <div class="slideup">
+                  <div>
+                    <p class="cj-title">
+                      lighting picture from last thunderstorm
+                    </p>
+                    <p class="cj-author">
+                      
+        Anonymous
+      
+                    </p>
+                  </div>
+                  <p class="cj-pubDate">
+                    
+                                           Mar 31 2014
+                                        
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="http://yournews.kmov.com/Media/6398687">
+                <div class="photo">
+                  <img src="http://af725be43536f9ef2805-f13c8f7f91b91c346ed390a5787a2661.r33.cf1.rackcdn.com/fa3ea18c-cff2-4638-aaef-674fa6ca0a04.jpg"/>
+                </div>
+                <div class="slideup">
+                  <div>
+                    <p class="cj-title">
+                      Jefferson County Fire Districts Training
+                    </p>
+                    <p class="cj-author">
+                      
+        Anonymous
+      
+                    </p>
+                  </div>
+                  <p class="cj-pubDate">
+                    
+                                           Mar 31 2014
+                                        
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="http://yournews.kmov.com/Media/6393424">
+                <div class="photo">
+                  <img src="http://af725be43536f9ef2805-f13c8f7f91b91c346ed390a5787a2661.r33.cf1.rackcdn.com/086f532f-fdcf-45b2-bb9d-7db56498c9a2.jpg"/>
+                </div>
+                <div class="slideup">
+                  <div>
+                    <p class="cj-title">
+                      Storm clouds
+                    </p>
+                    <p class="cj-author">
+                      
+        BlueRiver
+      
+                    </p>
+                  </div>
+                  <p class="cj-pubDate">
+                    
+                                           Mar 31 2014
+                                        
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <div class="cj-links">
+            <a href="http://yournews.kmov.com/upload" target="_blank">
+              Submit photos/video
+            </a>
+             |
+    
+            <a href="http://yournews.kmov.com" target="_blank">
+              View More
+            </a>
+          </div>
+        </div>
+        <script>
+//<![CDATA[
+
+$('#cell-journalist-widget ul li a').hover(function(){
+  $(this).children('.slideup').stop(true, true).slideDown('slow');
+ },function() {
+   $(this).children('.slideup').stop(true, false).slideUp('slow',function(){
+           $(this).css('height','auto');
+    });
+});
+
+//]]>
+        </script>
+        <!-- <center><iframe height = "195px" frameborder = "0"  scrolling = "no" src = "http://kmovmobile.com/weather/guessTemp/"></iframe></center> -->        <div id="popular" class="module ui-tabs ui-widget ui-widget-content ui-corner-all">
+          <h5>
+            Most Popular
+          </h5>
+          <ul id="most-tabs" class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+            <li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active">
+              <a href="#most-view">
+                Most Viewed
+              </a>
+            </li>
+            <li class="ui-state-default ui-corner-top">
+              <a href="#most-email">
+                Most Emailed
+              </a>
+            </li>
+          </ul>
+          <div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="most-view">
+            <ul>
+            </ul>
+          </div>
+          <div class="ui-tabs-panel ui-tabs-hide ui-widget-content ui-corner-bottom" id="most-email">
+            <ul>
+            </ul>
+          </div>
+          <a class="headlines-morelink" rel="bookmark" title="More most popular options" href="/most-popular">
+            More&gt;&gt;
+          </a>
+        </div>
+        <!-- Displayw  -->        <script>
+//<![CDATA[
+
+jQuery(document).ready(function() {
+    jQuery("#featuredvideo .video-icon").click(function(){
+       window.location=jQuery(this).siblings("a.storyLink").attr("href");
+  });
+});
+
+//]]>
+        </script>
+      </div>
+      <div id="nav-bottom" class="nav">
+        <ul class="top-level">
+          <li class="top-level-item topNav1 ">
+            <a rel="home" href="/">
+              Home
+            </a>
+          </li>
+          <li class="top-level-item topNav2 ">
+            <a href="/news">
+              News
+            </a>
+          </li>
+          <li class="top-level-item topNav3 ">
+            <a href="/weather">
+              Weather
+            </a>
+          </li>
+          <li class="top-level-item topNav4 ">
+            <a href="/traffic">
+              Traffic
+            </a>
+          </li>
+          <li class="top-level-item topNav5 ">
+            <a href="/sports">
+              Sports
+            </a>
+          </li>
+          <li class="top-level-item topNav6 ">
+            <a href="/entertainment">
+              Entertainment
+            </a>
+          </li>
+          <li class="top-level-item topNav7 ">
+            <a href="/video">
+              Video
+            </a>
+          </li>
+          <li class="top-level-item topNav8 ">
+            <a href="/community">
+              Community
+            </a>
+          </li>
+          <li class="top-level-item topNav9 ">
+            <a href="http://coupons.kmov.com/">
+              Marketplace
+            </a>
+          </li>
+          <li class="top-level-item topNav10 ">
+            <a href="http://yournews.kmov.com">
+              Your News
+            </a>
+          </li>
+          <li class="top-level-item topNav11 ">
+            <a href="/traffic/autos">
+              Auto
+            </a>
+          </li>
+          <li class="top-level-item topNav12 ">
+            <a href="/great-day-st-louis">
+              Great Day
+            </a>
+          </li>
+          <li class="top-level-item topNav13  last">
+            <a href="/on-tv">
+              On TV
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="footer">
+        <div class="vcard" id="footer-contact">
+          <div class="fn org">
+            
+			KMOV.com
+		
+          </div>
+          <div class="tel">
+            (314) 621-4444 (phone)
+          </div>
+          <div class="fax">
+            (314) 444-3368 (fax)
+          </div>
+          <a href="mailto:website@kmov.com" class="email">
+            website@kmov.com
+          </a>
+        </div>
+        <div id="search-bottom" class="search">
+          <form method="get" name="searchForm" class="search-form" action="/results">
+            <p>
+              <label for="search-box">
+                Search
+              </label>
+            </p>
+            <input type="hidden" value="site" name="search" id="search-box"/>
+            <input type="text" onfocus="this.value='';" value="Find stories, photos and video" accesskey="f" title="Search KMOV.com" maxlength="255" id="search-text-bottom" class="search-text" name="keywords"/>
+            <input type="submit" title="Search" value="Go" name="searchbutton" id="search-button-bottom" class="search-button"/>
+          </form>
+        </div>
+        <ul id="footer-tools">
+          <li class="footer-tools-contact">
+            <a title="Contact Us" href="/on-tv/contact">
+              Contact Us
+            </a>
+          </li>
+          <li class="footer-tools-employment">
+            <a title="Employment" href="/on-tv/employment">
+              Employment
+            </a>
+          </li>
+          <li class="footer-tools-advertising">
+            <a title="Advertising" href="/advertise">
+              Advertising
+            </a>
+          </li>
+          <li class="footer-tools-terms">
+            <a title="Terms Of Service" href="/terms-and-conditions/terms-of-use">
+              Terms Of Service
+            </a>
+          </li>
+          <li class="footer-tools-privacy">
+            <a title="Privacy Policy" href="/terms-and-conditions/privacy-policy">
+              Privacy Policy
+            </a>
+          </li>
+        </ul>
+        <div id="copyright">
+          <p>
+            ©2014 KMOV, The Meredith Corporation. All Rights Reserved.
+          </p>
+          <p class="bimpower">
+            Powered by 
+            <a title="Broadcast Interactive Media" target="_new" href="http://www.broadcast-interactive.com">
+              Broadcast Interactive Media
+            </a>
+            .
+          </p>
+        </div>
+      </div>
+      <script language="Javascript">
+//<![CDATA[
+var js="0.0";
+//]]>
+      </script>
+      <script language="Javascript1.0">
+//<![CDATA[
+js="1.0";
+//]]>
+      </script>
+      <script language="Javascript1.1">
+//<![CDATA[
+js="1.1";
+//]]>
+      </script>
+      <script language="Javascript1.2">
+//<![CDATA[
+js="1.2";
+//]]>
+      </script>
+      <script language="Javascript1.3">
+//<![CDATA[
+js="1.3";
+//]]>
+      </script>
+      <script language="Javascript1.4">
+//<![CDATA[
+js="1.4";
+//]]>
+      </script>
+      <script language="Javascript1.5">
+//<![CDATA[
+js="1.5";
+//]]>
+      </script>
+      <script language="Javascript1.6">
+//<![CDATA[
+js="1.6";
+//]]>
+      </script>
+      <script language="Javascript1.7">
+//<![CDATA[
+js="1.7";
+//]]>
+      </script>
+      <script language="Javascript1.8">
+//<![CDATA[
+js="1.8";
+//]]>
+      </script>
+      <script language="Javascript1.9">
+//<![CDATA[
+js="1.9";
+//]]>
+      </script>
+      <script type="text/javascript" language="javascript1.1">
+//<![CDATA[
+ 
+&lt;!-- 
+var bb=new Image();var _ti=910;var _q="";var na=(navigator.appName=="Netscape");var ns=(navigator.appName.substring(0,9)=="Microsoft");var _qDate=new Date();var _r=(document.referrer.indexOf(getdomain(location))&gt;-1?"":document.referrer);_q+="&amp;5="+parseInt(_qDate.getTimezoneOffset());_q+="&amp;35="+parseInt(_qDate.toString().indexOf("aylight")&gt;-1?1:0);_q+="&amp;6=900549602";_q+="&amp;7=549602";_q+="&amp;8="+encodeURIComponent(document.location);_q+="&amp;9="+encodeURIComponent(_r);_q+="&amp;10="+encodeURIComponent(document.title);_q+="&amp;11="+encodeURIComponent(navigator.userAgent);_q+="&amp;12="+encodeURIComponent((na?navigator.language:navigator.userLanguage));_q+="&amp;13="+((navigator.javaEnabled()?'1':'0'));_q+="&amp;14="+encodeURIComponent(js);if(document.cookie.indexOf("cc")==-1)document.cookie="cc=t;";_q+="&amp;15="+((document.cookie.indexOf("cc")==-1)?"0":"1");_q+="&amp;16="+encodeURIComponent((screen.width+'x'+screen.height));_q+="&amp;17="+encodeURIComponent(((ns)?screen.colorDepth:screen.pixelDepth));_q+="&amp;18="+encodeURIComponent(Math.random());_q+="&amp;19="+_ti;bb.src="http://s.clickability.com/s?"+_q;
+function setonclicks(a,b){var i=0;var retval=true;while(document.links[i]!=a){i++;}if(b.li[i])retval=b.li[i].oldonclick();bye(a);return retval;}
+function newonld(){if(hasonload)oldonld();lnks=new Object();var sze=document.links.length;lnks.li=new Array(sze);for (var i=0; i&lt;sze; i++){if(document.links[i].onclick){lnks.li[i]=document.links[i];lnks.li[i].oldonclick=document.links[i].onclick;}eval("document.links[i].onclick=function(){return setonclicks(this,lnks);}");}}function bye(a){if(a.href.toLowerCase().indexOf('http')!=0)return true;if(getdomain(location)==getdomain(a))return true;if(a.href.toLowerCase().indexOf('http')!=0)return true;var _qc="http://s.clickability.com/s?19=912";_qc+="&amp;6=900549602";_qc+="&amp;7=549602";_qc+="&amp;18="+encodeURIComponent(Math.random());_qc+="&amp;100="+a.href;_qc+="&amp;101="+encodeURIComponent(a.text);var cc=new Image();if(na){cc.src=_qc;pc(100);}else cc.src=_qc;return true;}function pc(a){d = new Date(); while (1){m =new Date(); df = m-d;if( df &gt; a ) {break;}}}function getdomain(a){var i=a.host.indexOf(":");return (i&gt;=0)?a.host.substring(0,i):a.host;}if(self['setupalready']){var dosetup = false;alert('There are two $imware.tracker calls on this page. Please alert Client Services');}else{var dosetup = true;var hasonload=false;}if(dosetup &amp;&amp; ((window.screen)||((new Array()).toSource)||((new Array()).shift&amp;&amp;ns))&amp;&amp;(navigator.userAgent.indexOf('Mac')&lt;0)){if(window.onload){oldonld=window.onload;hasonload=true;}window.onload=newonld;var setupalready = true;}//--&gt;
+
+//]]>
+      </script>
+      <noscript>
+        &lt;img width="1" height="1" src="http://s.clickability.com/s?19=990&amp;14=0&amp;6=900549602&amp;7=549602&amp;25=0&amp;18=0.06775509949719005"&gt;
+
+      </noscript>
+      <script type="text/javascript">
+//<![CDATA[
+
+_qoptions={
+qacct:"p-9a3CzpxOy4iiQ"
+};
+
+//]]>
+      </script>
+      <script src="http://edge.quantserve.com/quant.js" type="text/javascript">
+      </script>
+      <noscript>
+        &lt;a href="http://www.quantcast.com/p-9a3CzpxOy4iiQ" target="_blank"&gt;&lt;img src="http://pixel.quantserve.com/pixel/p-9a3CzpxOy4iiQ.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/&gt;&lt;/a&gt;
+
+      </noscript>
+      <script type="text/javascript">
+//<![CDATA[
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-13292987-1']);
+  _gaq.push(['_setDomainName', 'kmov.com']); 
+  _gaq.push(['_trackPageview']);
+(function() {
+	if (typeof _gat === "undefined") {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	}
+})();
+
+
+//]]>
+      </script>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js">
+      </script>
+      <script type="text/javascript" src="http://www.kmov.com/includes/bim_javascript_library.js">
+      </script>
+      <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.js">
+      </script>
+      <script src="http://cdn.bimreg.co/loader" type="text/javascript">
+      </script>
+      <script type="text/javascript" src="http://cdn.bimreg.co/js?ref=kmov.com">
+      </script>
+      <!-- <script src="http://www.kmov.com/includes/lazyload.js" type="text/javascript"></script> -->      <script type="text/javascript" src="http://www.kmov.com/templates/belo_js_lib_template.js">
+      </script>
+      <!-- <script src="http://www.kmov.com/includes/jquery.pop-min.js" type="text/javascript"></script> -->      <script type="text/javascript">
+//<![CDATA[
+
+// BIMreg Hooks
+
+bim_reg.subscribeToChannel("bim_reg_ready", function(message) {
+    if (!bim_reg.m.user.isLoggedIn()) {
+    	$("li#login-item.top-level-item, li#login-item.top-level-item #login-button").removeClass("hide");
+    }
+});
+
+// 
+(function(){
+		var regOptions = {
+		emailchangeurl: "/register?form=confirm"			
+	}
+	 	
+				
+
+
+})();
+var	ajaxImgObj = 'http://media.kmov.com/designimages/belo-ajax-loader.gif';
+$(document).ready(function() {
+	$("#regModal").dialog({ 
+		position: ['center',100],
+    	autoOpen: false,
+    	modal: true,
+    	width:"640px"
+    });
+
+});
+
+function belologout() {
+	bim_reg.m.user.logout();
+};  
+function regAuthEvents() {
+		};
+
+//bimreg.listener.addListener("regAuth",regAuthEvents);
+//bimreg.listener.addListener("regAuthNoUser",belologoutFromNav);  
+
+function userloginEvents(event){
+	belologinFromNav();
+			userNameErrorCheck();
+		createIMGCookie();
+	//initRedirect();
+		};
+
+
+bim_reg.subscribeToChannel("user_data_ready", userloginEvents);
+//bim_reg.subscribeToChannel("user_data_ready", moreInfoLoggedIn);
+bim_reg.subscribeToChannel("regAuthNoUser", thresholdReg);
+
+
+
+
+function thresholdReg() {
+	var _optout = bim_reg.l.cookies.get("BIMREG_optout");
+
+    if(!_optout) {
+        if(bim_reg.m.page.getPageCount() &gt; 5) {
+            bim_reg.m.page.resetPageCount();
+            setTimeout("$('#login-button a.signin').click()",500);
+        }
+    }
+};
+
+function initRedirect() {
+			}
+	
+function createIMGCookie() {
+	var zipcode = bim_reg.m.user.getZipcode();
+	if(typeof(zipcode) == "undefined") zipcode = "";
+	var firstname = bim_reg.m.user.getFirstName();
+	if(typeof(firstname) == "undefined") firstname = "";
+	bim_reg.l.cookies.set("IMG","|"+firstname+"|"+zipcode+"||",365);	
+}
+        
+function userNameErrorCheck() {
+	
+        //if ( bim_reg.m.user.getEmail().replace(/\W/g,"") === bim_reg.m.user.getUsername().replace(/\W/g,"") ) {
+	//	var failedName = bimreg.getuserkey("username");  
+	//	var forcedUpdateName = failedName.replace(/@.*/,"").replace(/\W/g,"");
+	//	var currentTime = new Date();
+	//	var seconds = currentTime.getTime();
+	//	var secString = seconds+'';
+	//	var digits = secString.length + forcedUpdateName.length - 16;
+	//	if (digits &gt; 0) {
+	//		seconds = secString.substring(digits,secString.length);
+	//	}
+	//	username = forcedUpdateName + seconds;
+	//	//update user
+	//	bimreg.updateprofile({username:username});
+	//	
+	//	if ( document.URL.indexOf('form=login') &gt; -1 ) {
+	//		//window.location.replace("/register/?form=user");
+	//		$('#login-button a.signin').click();
+	//	} else {
+	//		//window.location = "/register/?form=user";
+	//		$('#login-button a.signin').click();
+	//	}
+	//}
+	
+	//[bim_reg] Update -Begin-
+	if(bim_reg.m.user.getEmail().replace(/\W/g,"") === bim_reg.m.user.getUsername().replace(/\W/g,"")){
+		var failedName = bim_reg.m.user.getUsername();  
+		var forcedUpdateName = failedName.replace(/@.*/,"").replace(/\W/g,"");
+		var currentTime = new Date();
+		var seconds = currentTime.getTime();
+		var secString = seconds+'';
+		var digits = secString.length + forcedUpdateName.length - 16;
+		if (digits &gt; 0) {
+			seconds = secString.substring(digits,secString.length);
+		}
+		username = forcedUpdateName + seconds;
+		//update user
+		bim_reg.m.user.setUsername(username);
+		bim_reg.m.user.save();
+		
+		if ( document.URL.indexOf('form=login') &gt; -1 ) {
+			//window.location.replace("/register/?form=user");
+			$('#login-button a.signin').click();
+		} else {
+			//window.location = "/register/?form=user";
+			$('#login-button a.signin').click();
+		}
+	}
+	//[bim_reg] Update -End-
+}
+        
+function checkLoginReferrer() {
+	if(referrer) {
+		bim_reg.l.cookies.remove("BIMREG_signup_referrer");
+		window.location = referrer;
+	} else {
+		try {
+			if (document.referrer) {
+				window.location = document.referrer+window.location.hash; 
+							} else if (window.location.hash !== "") { 
+								window.history.go(-1);
+			} else {
+				window.location = "/";
+			}
+		} catch(e) {
+			window.location = "/";
+		}  
+	} 	
+}
+    
+//function beloYouNewsPostPage() {
+//	var username = bimreg.getuserkey("username");
+//	$("#submission").show();
+//	//		if(bimreg.loggedin &amp;&amp; document.URL.indexOf('form=post') &gt; -1){
+//			document.getElementById('username').appendChild(document.createTextNode(username));
+//			document.forms['ynform']['element.author'].value = username;
+//			$("p#author").text(username);
+//			document.forms['ynform']['element.ae'].value = bimreg.getuserkey("private.email");
+//			$("div#authorcopy div.text-note p a").attr("href", "/register/?profile="+username);
+//		}
+//	//}
+function belologinFromNav() {
+	//var username = bimreg.getuserkey("username");
+	//[bim_reg] update -Begin-
+	var username = bim_reg.m.user.getUsername();
+	//[bim_reg] update -End-
+if($("#bimregStatusBox").length){
+        var toolbarObject = $("#bimregStatusBox");
+}else{
+	var toolbarObject = $("#toolbar-status");
+}
+	$(toolbarObject).removeClass("loggingiIn").removeClass("hide");
+	$(toolbarObject).find("ul").show();
+	$(toolbarObject).find("#status-loggingin").hide();
+	$(".status-out").hide();
+	$("li#login-item.top-level-item").addClass("hide");
+	$(toolbarObject).show();
+	$("li.status-loggedin").show();
+	//$('span.username').text(bimreg.getuserkey("username"));
+	//[bim_reg] update -Begin-
+	$('span.username').text(bim_reg.m.user.getUsername());
+	//[bim_reg] update -End-
+	$(toolbarObject).find('li#status-welcome').html('Welcome, &lt;a href=\"/register?profile='+username+'"\'&gt;'+username+'&lt;\/a&gt;');
+	//if(typeof bimreg.getuseravatar() != "undefined"){
+		//var avatarImageSrc="http://bim-storage.s3.amazonaws.com/BIM/"+bimreg.getuserkey('key')+".jpg?cb="+Math.floor(Math.random()*90000) + 10000;
+		//$("div#avatar-image").html("&lt;img src='"+avatarImageSrc+"' width='40' height='34'/&gt;");
+	//};
+	//[bim_reg] update -Begin-
+	$("div#avatar-image").html("&lt;img src='"+bim_reg.m.user.getAvatarUrl()+"' width='40' height='34'/&gt;");
+	//[bim_reg] update -End-
+	$(toolbarObject).find('li#status-profile').html("&lt;a href='/register?profile="+username+"'&gt;My Profile&lt;\/a&gt;");
+	var surveyObject = $('#content-two table .cmP_survey') 
+	$(surveyObject).find('.cmP_question, .cmP_response, .cmP_responses, #survey-submit, .cmP_input, .cmP_label, #survey-signup-newsletters').removeClass("hide");
+	$("#survey-reg-prompt").addClass("hide");
+	$("form[name=loginformnav] input[name=login-nav-password]").val("");
+}
+    
+function belologoutFromNav() {
+if($("#bimregStatusBox").length){
+        var toolbarObject = $("#bimregStatusBox");
+}else{
+	var toolbarObject = $("#toolbar-status");
+}
+	$(".status-out").show();
+	$("li#login-item.top-level-item, li#login-item.top-level-item #login-button").removeClass("hide");
+	$(toolbarObject).hide();
+	$("li.status-loggedin").hide();
+	$("#status-loggingin").hide();
+	}
+    	
+
+function onloadlogout(status) {
+	$("li#login-item.top-level-item").removeClass("hide");
+	$(".signin").removeClass("menu-open");
+	BELOJS.reg.pagecount.reset();
+	belologoutFromNav();
+}
+
+//bimreg.listener.addListener("userLogout",onloadlogout);
+//[bim_reg] update -Begin-
+bim_reg.subscribeToChannel("user_logout", function(){document.location = '/'; });
+//[bim_reg] update -End-
+
+var carouselRan = false;
+
+function modalShow() {
+	$("#regModal").removeClass("hide").dialog();
+	BELOJS.reg.showLoginModal();
+	//bimreg.listener.addListener("userLogin",BELOJS.reg.loginModalClose);
+	//[bim_reg] Update -Begin-
+	bim_reg.subscribeToChannel("user_login_success", BELOJS.reg.loginModalClose);
+	//[bim_reg] Update -End-
+	if(!carouselRan){
+		setTimeout("loadCarousel()",500);
+		carouselRan = true;
+	}
+	return false;
+}
+    
+$(function() {
+    if(document.URL.indexOf('form=int') &gt; -1 || document.URL.indexOf('form=signup') &gt; -1) {
+        $(function() {
+            window.onunload = function() { bim_reg.l.cookies.set("BELO_OptOut","true",30); }
+        })
+    }
+    
+    $("#status-signout a").click(function(e) {
+        belologout(belologoutFromNav);
+        return false;
+    });
+
+    $("#login-button a.signin").click(function(e) {
+    	if($('#regModal').html().length&lt;5){
+    		jQuery.post('/templates/belo_registration_modal', function(data) {
+  				$('#regModal').html(data);
+			});
+    	}
+    	setTimeout("modalShow()",500);
+    	return false;
+	});
+});
+
+
+//]]>
+      </script>
+      <!--  Removing vote iq
+-->      <script language="javascript">
+//<![CDATA[
+
+ bim_reg.main();
+
+//]]>
+      </script>
+      <script>
+//<![CDATA[
+ 
+
+$(function() {
+        
+                
+        
+        if ($("#popular").size() &gt; 0) {
+            $("#popular").tabs().tabs("option", "disabled", false);
+        }
+        
+        
+              
+        
+        
+            });
+
+//]]>
+      </script>
+      <script>
+//<![CDATA[
+
+window.twttr=window.twttr||{};
+
+//]]>
+      </script>
+      <script>
+//<![CDATA[
+
+         if ($('#promo-alert').length &gt; 0){ 
+                 $('#promo-alert').beloScroll(); 
+        } 
+
+//]]>
+      </script>
+      <script language="javascript">
+//<![CDATA[
+
+	var _sf_async_config={};
+	/** CONFIGURATION START **/
+	_sf_async_config.uid = 31997;
+	_sf_async_config.domain = 'kmov.com';
+		   
+	_sf_async_config.sections = 'KMOV- Search Results';
+			_sf_async_config.authors = '';
+		_sf_async_config.title = "";
+		/** CONFIGURATION END **/
+	(function(){
+		function loadChartbeat() {
+			window._sf_endpt=(new Date()).getTime();
+			var e = document.createElement('script');
+			e.setAttribute('language', 'javascript');
+			e.setAttribute('type', 'text/javascript');
+			e.setAttribute('src',
+			(('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+			'js/chartbeat.js');
+			document.body.appendChild(e);
+		}
+		var oldonload = window.onload;
+		window.onload = (typeof window.onload != 'function') ?
+		loadChartbeat : function() { oldonload(); loadChartbeat(); };
+	})(); 
+
+	
+//]]>
+      </script>
+    </div>
+    <script src="http://cdn.bimreg.co/site?ref=bimreg.kmov.com">
+    </script>
+    <script src="http://cdn.bimreg.co/site?ref=bimreg.kmov.com">
+    </script>
+    <div class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-helper-hidden-accessible" id="ui-datepicker-div">
+    </div>
+    <div style="display: none; z-index: 1000; outline: 0px none; position: absolute;" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-regModal">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span class="ui-dialog-title" id="ui-dialog-title-regModal">
+           
+        </span>
+        <a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button">
+          <span class="ui-icon ui-icon-closethick">
+            close
+          </span>
+        </a>
+      </div>
+      <div class="hide ui-dialog-content ui-widget-content" id="regModal" style="display: block;">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-n">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-e">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-s">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-w">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se" style="z-index: 1001;">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1002;">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1003;">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1004;">
+      </div>
+    </div>
+    <script language="javascript" type="text/javascript" src="http://static.chartbeat.com/js/chartbeat.js">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" class=" js no-flexbox canvas canvastext no-touch geolocation postmessage no-websqldatabase no-indexeddb hashchange no-history no-draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface video audio localstorage sessionstorage no-webworkers applicationcache svg no-inlinesvg smil svgclippaths">
+  <!--<![endif]-->  <head>
+    <meta charset="utf-8"/>
+    <meta id="webtracker" name="webtracker" content="{&quot;event_id&quot;: &quot;c83bc38a-7dc3-11e3-9842-0200ac1d1d92&quot;, &quot;non_clicker&quot;: 0.9133223533202812, &quot;active_tests&quot;: [&quot;psp_redirect_immersion&quot;], &quot;clicker&quot;: 0.08809627160085237}"/>
+    <link rel="canonical" href="http://sourceforge.net/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm"/>
+    <meta name="description" content="Windows Software. Free, secure and fast downloads from the largest Open Source applications and software directory - SourceForge.net"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>
+      
+
+Search Results for “ibm”: SourceForge
+
+
+    </title>
+    <link rel="shortcut icon" href="http://a.fsdn.com/con/img/sftheme/favicon.ico"/>
+    <script type="text/javascript" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript" src="//www.google.com/ads/search/module/ads/3.0/3d81dc54500f4c78bbd6344f71211248904658b9/n/search.js">
+    </script>
+    <script src="//www.google.com/adsense/search/async-ads.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+            /*global unescape, window, console, jQuery, $, net, SF, COMSCORE, DD_belatedPNG */
+            // Setup our namespace
+            if (!window.SF) { window.SF = {}; }
+            if (!window.net) { window.net = {}; }
+            if (!window.net.sf) { window.net.sf = {}; }
+            SF.cdn = 'http://a.fsdn.com/con';
+            SF.deploy_time = '1389642290';
+        
+//]]>
+    </script>
+    <script src="http://a.fsdn.com/con/js/min/sf.head.js?1389642290" type="text/javascript">
+    </script>
+    <!--[if lt IE 7 ]>
+  <script src="http://a.fsdn.com/con/js/sftheme/dd_belatedpng.js"></script>
+  <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+<![endif]-->    <link href="//fonts.googleapis.com/css?family=Ubuntu:regular" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+      
+    @font-face {
+        font-family: "Pictos";
+        src: url('http://a.fsdn.com/con/css/fonts/sftheme/pictos-web.eot');
+        src: local("☺"), url('http://a.fsdn.com/con/css/fonts/sftheme/pictos-web.woff') format('woff'), url('http://a.fsdn.com/con/css/fonts/sftheme/pictos-web.ttf') format('truetype'), url('http://a.fsdn.com/con/css/fonts/sftheme/pictos-web.svg') format('svg');
+    }
+
+    </style>
+    <link rel="stylesheet" href="http://a.fsdn.com/con/css/sf.css?1389642290" type="text/css"/>
+    <style type="text/css">
+      .sfdl { width:100px;height:48px;padding:0;position:relative;font:bold 12px/1.17 sans-serif !important; border:1px solid #aaa;display:inline;float:left;text-decoration:none;-moz-box-shadow:rgba(255, 255, 255, 0.6) 0 1px 0 0;-webkit-box-shadow:rgba(255, 255, 255, 0.6) 0 1px 0 0;-o-box-shadow:rgba(255, 255, 255, 0.6) 0 1px 0 0;box-shadow:rgba(255, 255, 255, 0.6) 0 1px 0 0;-moz-border-radius:4px;-webkit-border-radius:4px;-o-border-radius:4px;-ms-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;background:no-repeat #e5e5e5 8px center url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANFJREFUeNqcUosNgjAUbE0HcARGwAnqZxBxBCbQDXQE2UOkTIAj4AZsgPfMa1JeGqhecimU63HvvepxHFUq6mebY2nAdbi/Ur/hKg0IRv2H3WFvnX/Rj9qRcxH7A+BIjDK2eCYewQy8g2/WDJSk4w8xWDICz2ziUchyvMGLXIVJK9acE0+0VM53PIitE6bTcKJJT0wg6ESSHiwhHpbMDYszjhrDKcVkE5mO5dhZyrwNx72J2i9iGvMmODB372U/aCpV2NSlG0sGVbiBw2VM+BFgALYfPdL6UCEWAAAAAElFTkSuQmCC);background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANFJREFUeNqcUosNgjAUbE0HcARGwAnqZxBxBCbQDXQE2UOkTIAj4AZsgPfMa1JeGqhecimU63HvvepxHFUq6mebY2nAdbi/Ur/hKg0IRv2H3WFvnX/Rj9qRcxH7A+BIjDK2eCYewQy8g2/WDJSk4w8xWDICz2ziUchyvMGLXIVJK9acE0+0VM53PIitE6bTcKJJT0wg6ESSHiwhHpbMDYszjhrDKcVkE5mO5dhZyrwNx72J2i9iGvMmODB372U/aCpV2NSlG0sGVbiBw2VM+BFgALYfPdL6UCEWAAAAAElFTkSuQmCC), -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #fff), color-stop(100%, #ccc));background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANFJREFUeNqcUosNgjAUbE0HcARGwAnqZxBxBCbQDXQE2UOkTIAj4AZsgPfMa1JeGqhecimU63HvvepxHFUq6mebY2nAdbi/Ur/hKg0IRv2H3WFvnX/Rj9qRcxH7A+BIjDK2eCYewQy8g2/WDJSk4w8xWDICz2ziUchyvMGLXIVJK9acE0+0VM53PIitE6bTcKJJT0wg6ESSHiwhHpbMDYszjhrDKcVkE5mO5dhZyrwNx72J2i9iGvMmODB372U/aCpV2NSlG0sGVbiBw2VM+BFgALYfPdL6UCEWAAAAAElFTkSuQmCC), -moz-linear-gradient(top, #fff 0%, #ccc 100%);background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANFJREFUeNqcUosNgjAUbE0HcARGwAnqZxBxBCbQDXQE2UOkTIAj4AZsgPfMa1JeGqhecimU63HvvepxHFUq6mebY2nAdbi/Ur/hKg0IRv2H3WFvnX/Rj9qRcxH7A+BIjDK2eCYewQy8g2/WDJSk4w8xWDICz2ziUchyvMGLXIVJK9acE0+0VM53PIitE6bTcKJJT0wg6ESSHiwhHpbMDYszjhrDKcVkE5mO5dhZyrwNx72J2i9iGvMmODB372U/aCpV2NSlG0sGVbiBw2VM+BFgALYfPdL6UCEWAAAAAElFTkSuQmCC), linear-gradient(top, #fff 0%, #ccc 100%);background-position:8px center, 0 0;margin:0 10px 7px 0;overflow:hidden;color:#555 !important;}.sfdl:hover { cursor:pointer;text-decoration:none;background:8px center no-repeat #eee url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANFJREFUeNqcUosNgjAUbE0HcARGwAnqZxBxBCbQDXQE2UOkTIAj4AZsgPfMa1JeGqhecimU63HvvepxHFUq6mebY2nAdbi/Ur/hKg0IRv2H3WFvnX/Rj9qRcxH7A+BIjDK2eCYewQy8g2/WDJSk4w8xWDICz2ziUchyvMGLXIVJK9acE0+0VM53PIitE6bTcKJJT0wg6ESSHiwhHpbMDYszjhrDKcVkE5mO5dhZyrwNx72J2i9iGvMmODB372U/aCpV2NSlG0sGVbiBw2VM+BFgALYfPdL6UCEWAAAAAElFTkSuQmCC);}.sfdl-lite { background:0 center no-repeat #337733 none;color:white !important;height:auto;padding:0.5em 1em;text-align:center;-moz-border-radius:4px;-webkit-border-radius:4px;-o-border-radius:4px;-ms-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #339933), color-stop(100%, #337733));background-image:-moz-linear-gradient(top, #339933 0%, #337733 100%);background-image:linear-gradient(top, #339933 0%, #337733 100%);}.sfdl-lite:hover { background:0 center no-repeat #339933;}.sfdl span { border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;display:block;margin:3px;margin-left:35px;padding:4px;text-align:left;color:#FFF;background:#363;background-image:-moz-linear-gradient(center top, #393 0%, #373 100%);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #393),color-stop(1, #373));background-image:linear-gradient(top, #393 0%, #373 100%);overflow:hidden;height:34px;}.sfdl b { display:block;line-height:17.0px;}.sfdl small { display:block;line-height:17.0px;color:#ADC2AD; font-weight:normal;white-space:nowrap;overflow:hidden;font-size:77%;}
+    </style>
+    <script type="text/javascript">
+//<![CDATA[
+
+    SF.adblock = true;
+    var immersion_adcode = "";
+
+//]]>
+    </script>
+    <script type="text/javascript" src="http://a.fsdn.com/con/js/adframe.js?1389642290">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* jshint ignore:start */
+(function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+  arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+  O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+  e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+/* jshint ignore:end */
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+            var _gaq = _gaq || [];
+                _gaq.push(['1._setAccount', 'UA-32013-6']);
+                _gaq.push(['2._setAccount', 'UA-36130941-1']);
+                _gaq.push(['_setAccount', 'UA-36130941-1']);
+                _gaq.push(['1._trackPageview']);
+                _gaq.push(['2._trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' === document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        
+//]]>
+    </script>
+  </head>
+  <body id="pg_search" class="bluesteel search">
+    <div id="busy-spinner" style="display: none;">
+    </div>
+    <header id="site-header">
+      <div class="wrapper">
+        <a href="/" class="logo">
+          <span>
+            SourceForge
+          </span>
+        </a>
+        <form method="get" action="/directory/">
+          <input type="text" id="words" name="q" placeholder="Search" class="placeholder" value="Search"/>
+        </form>
+        <!--Switch to {language}-->        <nav id="nav-site">
+          <a href="/directory/" title="Browse our software.">
+            Browse
+          </a>
+          <a href="/directory/enterprise" title="Browse our Enterprise software.">
+            Enterprise
+          </a>
+          <a href="/blog/" title="Read the latest news from the SF HQ.">
+            Blog
+          </a>
+          <a href="/support" title="Contact us for help and feedback.">
+            Help
+          </a>
+          <a href="/jobs?source=header" title="Search 80k+ tech jobs." class="featured-link">
+            Jobs
+          </a>
+        </nav>
+        <nav id="nav-account">
+          <div class="logged_out">
+            <a href="https://sourceforge.net/account/login.php">
+              Log In
+            </a>
+            <span>
+              or
+            </span>
+            <a href="https://sourceforge.net/user/registration">
+              Join
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <header id="site-sec-header">
+      <div class="wrapper">
+        <nav id="nav-hubs">
+          <h4>
+            Solution Centers
+          </h4>
+          <a href="http://goparallel.sourceforge.net/">
+            Go Parallel
+          </a>
+          <a href="http://html5center.sourceforge.net/">
+            HTML5
+          </a>
+          <a href="http://ibmsmarteritservices.sourceforge.net/">
+            Smarter IT
+          </a>
+          <a href="http://ibmsoftwaredelivery.sourceforge.net/">
+            Software Delivery
+          </a>
+          <a href="http://apmsolutions.sourceforge.net/">
+            Performance
+          </a>
+          <a href="http://ibmsmarterdata.sourceforge.net/">
+            Data Management
+          </a>
+        </nav>
+        <nav id="nav-collateral">
+          <a href="http://library.slashdotmedia.com/?source=sfnet_header">
+            Resources
+          </a>
+          <a href="https://sourceforge.net/user/registration">
+            Newsletters
+          </a>
+        </nav>
+      </div>
+    </header>
+    <div id="messages">
+    </div>
+    <div id="page-body">
+      <div id="banner-ads" class="ads">
+      </div>
+      <nav id="breadcrumbs">
+        <ul>
+          <li>
+            <a href="/">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="/directory/">
+              Browse
+            </a>
+          </li>
+          <li>
+            Search Results
+          </li>
+        </ul>
+      </nav>
+      <article id="directory" class="content-wrapper">
+        <section id="main-content">
+          <section id="search">
+            <div class="ads">
+              <div id="adcontainer1" style="width: 613px; font-weight: normal; text-align: center;">
+                <iframe allowtransparency="true" style="visibility: hidden; height: 0px;" width="100%" name="{&quot;name&quot;:&quot;master-1&quot;,&quot;master-1&quot;:{&quot;lines&quot;:3,&quot;linkTarget&quot;:&quot;_top&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;613px&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;adcontainer1&quot;}}" id="master-1" src="//www.google.com/uds/afs?q=ibm&amp;client=pub-6471043051383295&amp;hl=en&amp;r=m&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404&amp;format=n2&amp;ad=n2&amp;nocache=3281389776557472&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;allwcallad=1&amp;adext=as1%2Csr1%2Cctc1&amp;u_his=2&amp;u_tz=-300&amp;dt=1389776557473&amp;u_w=1024&amp;u_h=768&amp;biw=1256&amp;bih=605&amp;psw=1256&amp;psh=310&amp;frm=0&amp;ui=uv3wi613sLsRcC-&amp;rurl=http%3A%2F%2Fsourceforge.net%2Fdirectory%2Fos%3Awindows%2Ffreshness%3Arecently-updated%2F%3Fq%3Dibm&amp;referer=http%3A%2F%2Fsourceforge.net%2F#master-1">
+                </iframe>
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+
+              /* jshint ignore:start */
+              var pageOptions = {
+                'pubId': 'pub-6471043051383295',
+                'query': 'ibm',
+                'hl': 'en'
+              };
+
+              var adblock1 = {
+                'container': 'adcontainer1',
+                'width': '613px'
+              };
+
+              _googCsa('ads', pageOptions, adblock1);
+              /* jshint ignore:end */
+          
+//]]>
+              </script>
+            </div>
+            <form method="GET" action="." id="search_form">
+              <input name="q" placeholder="Search" value="ibm" type="text"/>
+              <b class="search ico ico-search" title="Search" data-icon="s"/>
+              <a href="#" class="advanced" style="display:none" title="Show advanced search options">
+                Advanced 
+                <b class="ico ico-admin" title="Advanced" data-icon="y"/>
+              </a>
+            </form>
+            <section id="search_filters">
+              <header>
+                Filters
+              </header>
+              <ul>
+                <li title="Windows ">
+                  <span class="filter">
+                    OS: 
+                    <span class="value">
+                      Windows
+                    </span>
+                    <a href="./remove_facet_filter?i=0&amp;q=ibm" class="ico-remove">
+                      ×
+                    </a>
+                  </span>
+                </li>
+                <li title="Recently updated ">
+                  <span class="filter">
+                    Freshness: 
+                    <span class="value">
+                      Recently updated
+                    </span>
+                    <a href="./remove_facet_filter?i=1&amp;q=ibm" class="ico-remove">
+                      ×
+                    </a>
+                  </span>
+                </li>
+              </ul>
+            </section>
+            <div id="advanced_options">
+              <section id="search_facets">
+                <header>
+                  Refine your search
+                </header>
+                <div class="facet">
+                  <header>
+                    Category 
+                    <span class="ui-icon ui-icon-triangle-1-s">
+                    </span>
+                  </header>
+                  <ul>
+                    <li>
+                      <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development">
+                        Software Development (70)
+                      </a>
+                      <span class="ui-icon ui-icon-triangle-1-e">
+                      </span>
+                      <ul>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+Frameworks">
+                            Frameworks (16)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+Compilers">
+                            Compilers (8)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+Testing">
+                            Testing (8)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+Libraries">
+                            Libraries (7)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+Build+Tools">
+                            Build Tools (6)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+Code+Generators">
+                            Code Generators (6)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+Quality+Assurance">
+                            Quality Assurance (6)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+ORM+%28Object-relational+mapping%29">
+                            ORM (5)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+Interpreters">
+                            Interpreters (4)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+User+Interfaces">
+                            User Interfaces (3)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+Algorithms">
+                            Algorithms (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+Design">
+                            Design (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+Modeling">
+                            Modeling (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Software+Development+%3A%3A+Usability">
+                            Usability (2)
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System">
+                        System (46)
+                      </a>
+                      <span class="ui-icon ui-icon-triangle-1-e">
+                      </span>
+                      <ul>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Systems+Administration">
+                            Systems Administration (16)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Networking">
+                            Networking (10)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Storage">
+                            Storage (5)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Logging">
+                            Logging (4)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Benchmark">
+                            Benchmark (3)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Clustering">
+                            Clustering (3)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Emulators">
+                            Emulators (3)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Filesystems">
+                            Filesystems (3)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Operating+System+Kernels">
+                            Operating System Kernels (3)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+System+Shells">
+                            System Shells (3)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Cron+and+scheduling">
+                            Cron and scheduling (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Distributed+Computing">
+                            Distributed Computing (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Hardware">
+                            Hardware (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Installation%2FSetup">
+                            Installation/Setup (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=System+%3A%3A+Software+Distribution">
+                            Software Distribution (2)
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Office%2FBusiness">
+                        Office/Business (35)
+                      </a>
+                      <span class="ui-icon ui-icon-triangle-1-e">
+                      </span>
+                      <ul>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Office%2FBusiness+%3A%3A+Enterprise">
+                            Enterprise (27)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Office%2FBusiness+%3A%3A+Financial">
+                            Financial (8)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Office%2FBusiness+%3A%3A+Scheduling">
+                            Scheduling (4)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Office%2FBusiness+%3A%3A+E-Commerce+%2F+Shopping">
+                            E-Commerce / Shopping (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Office%2FBusiness+%3A%3A+Report+Generators">
+                            Report Generators (2)
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Database">
+                        Database (29)
+                      </a>
+                      <span class="ui-icon ui-icon-triangle-1-e">
+                      </span>
+                      <ul>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Database+%3A%3A+Front-Ends">
+                            Front-Ends (12)
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Internet">
+                        Internet (26)
+                      </a>
+                      <span class="ui-icon ui-icon-triangle-1-e">
+                      </span>
+                      <ul>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Internet+%3A%3A+WWW%2FHTTP">
+                            WWW/HTTP (19)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Internet+%3A%3A+Log+Analysis">
+                            Log Analysis (2)
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Communications">
+                        Communications (18)
+                      </a>
+                      <span class="ui-icon ui-icon-triangle-1-e">
+                      </span>
+                      <ul>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Communications+%3A%3A+Email">
+                            Email (7)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Communications+%3A%3A+Chat">
+                            Chat (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Communications+%3A%3A+Conferencing">
+                            Conferencing (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Communications+%3A%3A+File+Sharing">
+                            File Sharing (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Communications+%3A%3A+FIDO">
+                            FIDO (1)
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Scientific%2FEngineering">
+                        Scientific/Engineering (16)
+                      </a>
+                      <span class="ui-icon ui-icon-triangle-1-e">
+                      </span>
+                      <ul>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Scientific%2FEngineering+%3A%3A+Bio-Informatics">
+                            Bio-Informatics (5)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Scientific%2FEngineering+%3A%3A+Medical+Science+Apps.">
+                            Medical Science Apps. (3)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Scientific%2FEngineering+%3A%3A+Visualization">
+                            Visualization (3)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=topic&amp;q=ibm&amp;constraint=Scientific%2FEngineering+%3A%3A+Human+Machine+Interfaces">
+                            Human Machine Interfaces (2)
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="facet">
+                  <header>
+                    Translations 
+                    <span class="ui-icon ui-icon-triangle-1-s">
+                    </span>
+                  </header>
+                  <ul>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=English">
+                        English (96)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=German">
+                        German (25)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=French">
+                        French (17)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=Spanish">
+                        Spanish (17)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=Italian">
+                        Italian (15)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=Russian">
+                        Russian (12)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=Dutch">
+                        Dutch (11)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=Chinese+%28Simplified%29">
+                        Chinese (10)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=Polish">
+                        Polish (9)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=Brazilian+Portuguese">
+                        Brazilian Portuguese (7)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=Danish">
+                        Danish (5)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=Portuguese">
+                        Portuguese (5)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=Turkish">
+                        Turkish (5)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=Czech">
+                        Czech (4)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=natlanguage&amp;q=ibm&amp;constraint=Finnish">
+                        Finnish (4)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="facet">
+                  <header>
+                    License 
+                    <span class="ui-icon ui-icon-triangle-1-s">
+                    </span>
+                  </header>
+                  <ul>
+                    <li>
+                      <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source">
+                        OSI-Approved Open Source (173)
+                      </a>
+                      <span class="ui-icon ui-icon-triangle-1-e">
+                      </span>
+                      <ul>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+GNU+General+Public+License+version+2.0+%28GPLv2%29">
+                            GNU General Public License version 2.0 (73)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+GNU+General+Public+License+version+3.0+%28GPLv3%29">
+                            GNU General Public License version 3.0 (22)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+GNU+Library+or+Lesser+General+Public+License+version+2.0+%28LGPLv2%29">
+                            GNU Library or Lesser General Public License version 2.0 (20)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+BSD+License">
+                            BSD License (19)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+Apache+License+V2.0">
+                            Apache License V2.0 (17)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+GNU+Library+or+Lesser+General+Public+License+version+3.0+%28LGPLv3%29">
+                            GNU Library or Lesser General Public License version 3.0 (9)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+IBM+Public+License">
+                            IBM Public License (7)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+MIT+License">
+                            MIT License (5)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+Common+Public+License+1.0">
+                            Common Public License 1.0 (4)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+Eclipse+Public+License">
+                            Eclipse Public License (4)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+Mozilla+Public+License+1.1+%28MPL+1.1%29">
+                            Mozilla Public License 1.1 (3)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+Academic+Free+License+%28AFL%29">
+                            Academic Free License (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+Apache+Software+License">
+                            Apache Software License (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+Artistic+License">
+                            Artistic License (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=OSI-Approved+Open+Source+%3A%3A+Affero+GNU+Public+License">
+                            Affero GNU Public License (1)
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=Other+License">
+                        Other License (13)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=license&amp;q=ibm&amp;constraint=Public+Domain">
+                        Public Domain (4)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="facet">
+                  <header>
+                    Programming Language 
+                    <span class="ui-icon ui-icon-triangle-1-s">
+                    </span>
+                  </header>
+                  <ul>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=Java">
+                        Java (84)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=C">
+                        C (42)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=C%2B%2B">
+                        C++ (36)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=PHP">
+                        PHP (21)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=JavaScript">
+                        JavaScript (19)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=Perl">
+                        Perl (15)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=Python">
+                        Python (13)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=JSP">
+                        JSP (11)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=Unix+Shell">
+                        Unix Shell (10)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=Assembly">
+                        Assembly (6)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=C%23">
+                        C# (5)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=Groovy">
+                        Groovy (5)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=XSL+%28XSLT%2FXPath%2FXSL-FO%29">
+                        XSL (5)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=Delphi%2FKylix">
+                        Delphi/Kylix (4)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=language&amp;q=ibm&amp;constraint=Pascal">
+                        Pascal (3)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="facet">
+                  <header>
+                    Status 
+                    <span class="ui-icon ui-icon-triangle-1-s">
+                    </span>
+                  </header>
+                  <ul>
+                    <li>
+                      <a href="add_facet_filter?facet=developmentstatus&amp;q=ibm&amp;constraint=5+-+Production%2FStable">
+                        5 - Production/Stable (122)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=developmentstatus&amp;q=ibm&amp;constraint=4+-+Beta">
+                        4 - Beta (38)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=developmentstatus&amp;q=ibm&amp;constraint=6+-+Mature">
+                        6 - Mature (31)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=developmentstatus&amp;q=ibm&amp;constraint=3+-+Alpha">
+                        3 - Alpha (12)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=developmentstatus&amp;q=ibm&amp;constraint=2+-+Pre-Alpha">
+                        2 - Pre-Alpha (6)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=developmentstatus&amp;q=ibm&amp;constraint=1+-+Planning">
+                        1 - Planning (5)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=developmentstatus&amp;q=ibm&amp;constraint=7+-+Inactive">
+                        7 - Inactive (2)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="facet">
+                  <header>
+                    OS 
+                    <span class="ui-icon ui-icon-triangle-1-s">
+                    </span>
+                  </header>
+                  <ul>
+                    <li>
+                      <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Linux">
+                        Linux (196)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Mac">
+                        Mac (163)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories">
+                        Grouping and Descriptive Categories (149)
+                      </a>
+                      <span class="ui-icon ui-icon-triangle-1-e">
+                      </span>
+                      <ul>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories+%3A%3A+All+POSIX+%28Linux%2FBSD%2FUNIX-like+OSes%29">
+                            All POSIX (80)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories+%3A%3A+All+32-bit+MS+Windows+%2895%2F98%2FNT%2F2000%2FXP%29">
+                            All 32-bit MS Windows (65)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories+%3A%3A+64-bit+MS+Windows">
+                            64-bit MS Windows (57)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories+%3A%3A+OS+Independent+%28Written+in+an+interpreted+language%29">
+                            OS Independent (54)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories+%3A%3A+All+BSD+Platforms+%28FreeBSD%2FNetBSD%2FOpenBSD%2FApple+Mac+OS+X%29">
+                            All BSD Platforms (44)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories+%3A%3A+32-bit+MS+Windows+%28NT%2F2000%2FXP%29">
+                            32-bit MS Windows (35)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories+%3A%3A+OS+Portable+%28Source+code+to+work+with+many+OS+platforms%29">
+                            OS Portable (29)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories+%3A%3A+32-bit+MS+Windows+%2895%2F98%29">
+                            32-bit MS Windows (5)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories+%3A%3A+Project+is+OS+Distribution-Specific">
+                            Project is OS Distribution-Specific (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories+%3A%3A+Project+is+an+Operating+System+Distribution">
+                            Project is an Operating System Distribution (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories+%3A%3A+Project+is+an+Operating+System+Kernel">
+                            Project is an Operating System Kernel (2)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Grouping+and+Descriptive+Categories+%3A%3A+Classic+8-bit+Operating+Systems+%28Apple%2C+Atari%2C+Commodore%2C+etc.%29">
+                            Classic 8-bit Operating Systems (1)
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems">
+                        Other Operating Systems (101)
+                      </a>
+                      <span class="ui-icon ui-icon-triangle-1-e">
+                      </span>
+                      <ul>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+IBM+AIX">
+                            IBM AIX (62)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+HP-UX">
+                            HP-UX (43)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+IBM+OS%2F2">
+                            IBM OS/2 (35)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+MS-DOS">
+                            MS-DOS (15)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+Microsoft+Windows+Server+2003">
+                            Microsoft Windows Server 2003 (12)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+Other">
+                            Other (10)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+SGI+IRIX">
+                            SGI IRIX (9)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+GNU+Hurd">
+                            GNU Hurd (7)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+BeOS">
+                            BeOS (6)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+WinNT">
+                            WinNT (6)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+Apple+Mac+OS+Classic">
+                            Apple Mac OS Classic (5)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+SCO">
+                            SCO (5)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+AmigaOS">
+                            AmigaOS (4)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+BSD%2FOS">
+                            BSD/OS (4)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Other+Operating+Systems+%3A%3A+Console-based+Platforms">
+                            Console-based Platforms (4)
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Modern+%28Vendor-Supported%29+Desktop+Operating+Systems">
+                        Modern (84)
+                      </a>
+                      <span class="ui-icon ui-icon-triangle-1-e">
+                      </span>
+                      <ul>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Modern+%28Vendor-Supported%29+Desktop+Operating+Systems+%3A%3A+Linux">
+                            Linux (68)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Modern+%28Vendor-Supported%29+Desktop+Operating+Systems+%3A%3A+OS+X">
+                            OS X (44)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Modern+%28Vendor-Supported%29+Desktop+Operating+Systems+%3A%3A+Solaris">
+                            Solaris (43)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Modern+%28Vendor-Supported%29+Desktop+Operating+Systems+%3A%3A+Windows+7">
+                            Windows 7 (29)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Modern+%28Vendor-Supported%29+Desktop+Operating+Systems+%3A%3A+WinXP">
+                            WinXP (27)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Modern+%28Vendor-Supported%29+Desktop+Operating+Systems+%3A%3A+FreeBSD">
+                            FreeBSD (24)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Modern+%28Vendor-Supported%29+Desktop+Operating+Systems+%3A%3A+Vista">
+                            Vista (19)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Modern+%28Vendor-Supported%29+Desktop+Operating+Systems+%3A%3A+OpenBSD">
+                            OpenBSD (18)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Modern+%28Vendor-Supported%29+Desktop+Operating+Systems+%3A%3A+Win2K">
+                            Win2K (15)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=Modern+%28Vendor-Supported%29+Desktop+Operating+Systems+%3A%3A+NetBSD">
+                            NetBSD (14)
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="add_facet_filter?facet=os&amp;q=ibm&amp;constraint=BSD">
+                        BSD (76)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="facet">
+                  <header>
+                    Collection 
+                    <span class="ui-icon ui-icon-triangle-1-s">
+                    </span>
+                  </header>
+                  <ul>
+                    <li>
+                      <a href="add_facet_filter?facet=vertical&amp;q=ibm&amp;constraint=Enterprise">
+                        Enterprise (16)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+            <section id="search_results">
+              <header>
+                <h3>
+                  Search Results for "ibm"
+                </h3>
+                <div class="drop-down-menu">
+                  <div class="sort-options">
+                    <span>
+                      Sort By
+                    </span>
+                    <div class="sort-drop-down">
+                      <a href="#">
+                        Relevance
+                      </a>
+                    </div>
+                    <ul>
+                      <li>
+                        <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;sort=score" title="Relevance" class="active">
+                          
+     Relevance
+
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;sort=popular" title="Most Popular" class="">
+                          
+     Most Popular
+
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;sort=update" title="Last Updated" class="">
+                          
+     Last Updated
+
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;sort=name" title="Name" class="">
+                          
+     Name
+
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;sort=rating" title="Rating" class="">
+                          
+     Rating
+
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </header>
+              <section id="result_data">
+                <p id="result_count">
+                  
+    Showing page 1 of 9.
+
+                </p>
+                <ul class="projects">
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/ibm/?source=directory" title="Find out more about Internet Bandwidth Monitor(IBM)">
+                      <img width="48" height="48" src="http://a.fsdn.com/con/img/project_default.png" alt="Internet Bandwidth Monitor(IBM) Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/ibm/?source=directory" itemprop="url" title="Find out more about Internet Bandwidth Monitor(IBM)">
+                          <span itemprop="name">
+                            Internet Bandwidth Monitor(IBM)
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Developed in JDK
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:30">
+                        30
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="screenshots">
+                        <a class="thumbnail" href="/projects/ibm/?source=directory#screenshots" title="Dashboard">
+                          <img src="//a.fsdn.com/con/app/proj/ibm/screenshots/screenshot.JPG/182/137" width="182" height="137" alt="Dashboard"/>
+                        </a>
+                      </div>
+                      <div class="details">
+                        <div class="description">
+                          <p>
+                            This is a simple software that monitors bandwidth usage of any network adapter. 
+                          </p>
+                          <p class="updated">
+                            <strong>
+                              Last Updated:
+                            </strong>
+                             2012-01-02
+                          </p>
+                        </div>
+                        <div class="project-rating rating">
+                          <em>
+                            3.7
+                          </em>
+                          <span title="1 of 5" class="rating star">
+                            1 of 5
+                          </span>
+                          <span title="2 of 5" class="rating star">
+                            2 of 5
+                          </span>
+                          <span title="3 of 5" class="rating star">
+                            3 of 5
+                          </span>
+                          <span title="4 of 5" class="rating star_half">
+                            4 of 5
+                          </span>
+                          <span title="5 of 5" class="rating ">
+                            5 of 5
+                          </span>
+                        </div>
+                        <div class="download">
+                          <a href="/projects/ibm/files/latest/download?source=directory" title="Download /JpcapSetup-0.7.exe from SourceForge - 165.6 kB" class="sfdl sfdl-lite">
+                            
+    Download Now
+
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="screenslicer">
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/hibernate/?source=directory-featured" title="Find out more about Hibernate">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/hibernate/icon" alt="Hibernate Icon"/>
+                    </a>
+                    <span class="featured-badge">
+                      Enterprise
+                    </span>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/hibernate/?source=directory-featured" itemprop="url" title="Find out more about Hibernate">
+                          <span itemprop="name">
+                            Hibernate
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Relational Persistence for Idiomatic Java
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:11357">
+                        11,357
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="details">
+                        <div class="description">
+                          <p>
+                            Hibernate is an Object/Relational Mapper tool. It's very popular among Java applications and implements the Java Persistence API. 
+                          </p>
+                          <p class="updated">
+                            <strong>
+                              Last Updated:
+                            </strong>
+                             2013-12-16
+                          </p>
+                        </div>
+                        <div class="project-rating rating">
+                          <em>
+                            4.3
+                          </em>
+                          <span title="1 of 5" class="rating star">
+                            1 of 5
+                          </span>
+                          <span title="2 of 5" class="rating star">
+                            2 of 5
+                          </span>
+                          <span title="3 of 5" class="rating star">
+                            3 of 5
+                          </span>
+                          <span title="4 of 5" class="rating star">
+                            4 of 5
+                          </span>
+                          <span title="5 of 5" class="rating ">
+                            5 of 5
+                          </span>
+                        </div>
+                        <div class="download">
+                          <a href="/projects/hibernate/files/latest/download?source=directory-featured" title="Download /hibernate-search/4.4.2.Final/hibernate-search-4.4.2.Final-dist.zip from SourceForge - 39.2 MB" class="sfdl sfdl-lite">
+                            
+    Download Now
+
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/exo/?source=directory-featured" title="Find out more about eXo Platform - Social Collaboration">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/exo/icon" alt="eXo Platform - Social Collaboration Icon"/>
+                    </a>
+                    <span class="featured-badge">
+                      Enterprise
+                    </span>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/exo/?source=directory-featured" itemprop="url" title="Find out more about eXo Platform - Social Collaboration">
+                          <span itemprop="name">
+                            eXo Platform - Social Collaboration
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        The Open Source Enterprise Social Platform
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:1187">
+                        1,187
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/db2mc/?source=directory" title="Find out more about Technology Explorer for IBM DB2">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/db2mc/icon" alt="Technology Explorer for IBM DB2 Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/db2mc/?source=directory" itemprop="url" title="Find out more about Technology Explorer for IBM DB2">
+                          <span itemprop="name">
+                            Technology Explorer for IBM DB2
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        The Technology Explorer for IBM DB2 is a light weight, web based console for DB2 that helps you learn about DB2 using demonstrations and tutorials. The TE is designed from the ground up to be easy to use and customize to suit your needs.
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:172">
+                        172
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/jackibmmqexplorer/?source=directory" title="Find out more about Jack IBM MQ Explorer">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/jackibmmqexplorer/icon" alt="Jack IBM MQ Explorer Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/jackibmmqexplorer/?source=directory" itemprop="url" title="Find out more about Jack IBM MQ Explorer">
+                          <span itemprop="name">
+                            Jack IBM MQ Explorer
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Administer IBM MQ objects.
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:29">
+                        29
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/jt400/?source=directory" title="Find out more about Toolbox for Java/JTOpen">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/jt400/icon" alt="Toolbox for Java/JTOpen Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/jt400/?source=directory" itemprop="url" title="Find out more about Toolbox for Java/JTOpen">
+                          <span itemprop="name">
+                            Toolbox for Java/JTOpen
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        The IBM Toolbox for Java / JTOpen is a library of Java classes supporting the client/server and internet programming models to a system running OS/400, i5/OS, or IBM i. 
+
+JTOpenLite is delivered since JTOpen 7.7.1. JTOpenLite is a set of lightweight Java classes suitable for use on mobile devices. It provides Java application access to IBM i: DDM access, basic JDBC access, command call, program call access, etc.
+
+The latest version is JTopen 8.1, released 16/12/2013.
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:546">
+                        546
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/assp/?source=directory" title="Find out more about Anti-Spam SMTP Proxy Server">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/assp/icon" alt="Anti-Spam SMTP Proxy Server Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/assp/?source=directory" itemprop="url" title="Find out more about Anti-Spam SMTP Proxy Server">
+                          <span itemprop="name">
+                            Anti-Spam SMTP Proxy Server
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        The Anti-Spam SMTP Proxy (ASSP) Server project aims to create an open source platform-independent SMTP Proxy server which implements auto-whitelists, self learning Bayesian, Greylisting, DNSBL, DNSWL, URIBL, SPF, SRS, Backscatter, Virus scanning, attachment blocking, Senderbase and multiple other filter methods. Click 'Browse all files' to download  the professional version 2.3.3 build 13335.
+
+Note to V2 users build 12265 and less: don't upgrade the module Thread::Queue to version 3.01 - this will cause ASSP to die -&gt; revert to version 2.11/2.12 of Thread::Queue
+
+GUI-&gt;Server Setup-&gt;AutoUpdateASSP-&gt;"never upgrade these modules" or put 'Thread::Queue' in to the file 'files/noupgrade.txt'
+
+2.2.1 build 12313 and higher fixes this problem
+
+V2 users should check the version of 'Regex::Optimizer' and 'Regex::List' in the 'lib' folder - please upgrade these modules to version
+Regex::Optimizer - 1.12
+Regex::List - 1.06
+available in the files section of this page
+
+
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:264312">
+                        264,312
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/scribus/?source=directory" title="Find out more about Scribus">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/scribus/icon" alt="Scribus Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/scribus/?source=directory" itemprop="url" title="Find out more about Scribus">
+                          <span itemprop="name">
+                            Scribus
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Cross-platform page layout
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:19468">
+                        19,468
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/telnet.vb5250.p/?source=directory" title="Find out more about Telnet">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/con/icons/te/telnet.vb5250.p%40sf.net/telnet.vb5250.p_default.png" alt="Telnet Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/telnet.vb5250.p/?source=directory" itemprop="url" title="Find out more about Telnet">
+                          <span itemprop="name">
+                            Telnet
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        A telnet client with IBM handshaking
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:0">
+                        0
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/ganglia/?source=directory" title="Find out more about Ganglia">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/con/icons/ga/ganglia%40sf.net/ganglia_default.png" alt="Ganglia Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/ganglia/?source=directory" itemprop="url" title="Find out more about Ganglia">
+                          <span itemprop="name">
+                            Ganglia
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids. It is based on a hierarchical design targeted at federations of clusters. Supports clusters up to 2000 nodes in size. 
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:39390">
+                        39,390
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/ibm5250.vb5250.p/?source=directory" title="Find out more about IBM5250">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/con/icons/ib/ibm5250.vb5250.p%40sf.net/ibm5250.vb5250.p_default.png" alt="IBM5250 Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/ibm5250.vb5250.p/?source=directory" itemprop="url" title="Find out more about IBM5250">
+                          <span itemprop="name">
+                            IBM5250
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Interprets an IBM 5250 data stream
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:0">
+                        0
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/webcalendar/?source=directory" title="Find out more about WebCalendar">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/webcalendar/icon" alt="WebCalendar Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/webcalendar/?source=directory" itemprop="url" title="Find out more about WebCalendar">
+                          <span itemprop="name">
+                            WebCalendar
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        WebCalendar is a PHP application used to maintain a calendar for a single user or an intranet group of users. It can also be configured as an event calendar.
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:716">
+                        716
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/gnuplot/?source=directory" title="Find out more about gnuplot development">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/gnuplot/icon" alt="gnuplot development Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/gnuplot/?source=directory" itemprop="url" title="Find out more about gnuplot development">
+                          <span itemprop="name">
+                            gnuplot development
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Famous scientific plotting package.
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:7425">
+                        7,425
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/cx-oracle/?source=directory" title="Find out more about cx_Oracle">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/con/icons/cx/cx-oracle%40sf.net/cx-oracle_default.png" alt="cx_Oracle Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/cx-oracle/?source=directory" itemprop="url" title="Find out more about cx_Oracle">
+                          <span itemprop="name">
+                            cx_Oracle
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        cx_Oracle is a Python extension module that allows access to Oracle databases and conforms to the Python database API specification version 2.0
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:2817">
+                        2,817
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/x10/?source=directory" title="Find out more about X10">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/con/icons/x1/x10%40sf.net/x10_default.png" alt="X10 Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/x10/?source=directory" itemprop="url" title="Find out more about X10">
+                          <span itemprop="name">
+                            X10
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Productivity and Performance at Scale
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:64">
+                        64
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/firebird/?source=directory" title="Find out more about Firebird">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/firebird/icon" alt="Firebird Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/firebird/?source=directory" itemprop="url" title="Find out more about Firebird">
+                          <span itemprop="name">
+                            Firebird
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Firebird is a powerful cross platform SQL database system
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:27447">
+                        27,447
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/lportal/?source=directory" title="Find out more about Liferay Portal">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/lportal/icon" alt="Liferay Portal Icon"/>
+                    </a>
+                    <span class="featured-badge">
+                      Enterprise
+                    </span>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/lportal/?source=directory" itemprop="url" title="Find out more about Liferay Portal">
+                          <span itemprop="name">
+                            Liferay Portal
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        The world's leading enterprise open source portal framework
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:43132">
+                        43,132
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/jtlite/?source=directory" title="Find out more about JTOpen Lite/JTLite">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/con/icons/jt/jtlite%40sf.net/jtlite_default.png" alt="JTOpen Lite/JTLite Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/jtlite/?source=directory" itemprop="url" title="Find out more about JTOpen Lite/JTLite">
+                          <span itemprop="name">
+                            JTOpen Lite/JTLite
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        A library of Java classes supporting the mobile programming to IBM i.
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:0">
+                        0
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/pentaho/?source=directory" title="Find out more about Pentaho Business Analytics">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/pentaho/icon" alt="Pentaho Business Analytics Icon"/>
+                    </a>
+                    <span class="featured-badge">
+                      Enterprise
+                    </span>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/pentaho/?source=directory" itemprop="url" title="Find out more about Pentaho Business Analytics">
+                          <span itemprop="name">
+                            Pentaho Business Analytics
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Pentaho tightly couples data integration with business analytics in a modern platform that brings together IT and business users to easily access, visualize and explore all data that impacts business results. Use it as a full suite or as individual components that are accessible on-premise in the cloud or on-the-go (mobile).  Pentaho Kettle enables IT and developers to access and integrate data from any source, and deliver it to your business applications, all from within an intuitive and easy to use graphical tool. 
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:9268">
+                        9,268
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/fukurokuju/?source=directory" title="Find out more about fukurokuju">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/con/icons/fu/fukurokuju%40sf.net/fukurokuju_default.png" alt="fukurokuju Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/fukurokuju/?source=directory" itemprop="url" title="Find out more about fukurokuju">
+                          <span itemprop="name">
+                            fukurokuju
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Project Generator of Probability 
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:0">
+                        0
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/hessling-editor/?source=directory" title="Find out more about The Hessling Editor">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/con/icons/he/hessling-editor%40sf.net/hessling-editor_default.png" alt="The Hessling Editor Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/hessling-editor/?source=directory" itemprop="url" title="Find out more about The Hessling Editor">
+                          <span itemprop="name">
+                            The Hessling Editor
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        The Hessling Editor (THE) is a cross-platform text editor.  Based on the IBM mainframe editor XEDIT, and includes many features of Kedit. All of THE is configurable, including syntax highlighting. THE uses Rexx as its macro language. 
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:66">
+                        66
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/maarch/?source=directory" title="Find out more about Maarch Archiving DMS">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/maarch/icon" alt="Maarch Archiving DMS Icon"/>
+                    </a>
+                    <span class="featured-badge">
+                      Enterprise
+                    </span>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/maarch/?source=directory" itemprop="url" title="Find out more about Maarch Archiving DMS">
+                          <span itemprop="name">
+                            Maarch Archiving DMS
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Maarch is a PHP Document Management System dedicated to electronic processing and archiving of high volumes of documents. Maarch includes scan connectors, mailroom management, life cycle, replication, OAIS based electronic archiving, workflow.
+Maarch complies with electronic archiving regulations (ISO14721, ISO15489, ISO14641), but also provides handy features like content management, version control, workflow, office templates, statistics, etc.
+Documents are secured with a strong security policy and contained in Archival Information Packages (AIP).
+
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:203">
+                        203
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/dos2unix/?source=directory" title="Find out more about dos2unix">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/con/icons/do/dos2unix%40sf.net/dos2unix_default.png" alt="dos2unix Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/dos2unix/?source=directory" itemprop="url" title="Find out more about dos2unix">
+                          <span itemprop="name">
+                            dos2unix
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Dos2Unix / Unix2Dos - Text file format converters
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:482">
+                        482
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/mp3diags/?source=directory" title="Find out more about MP3 Diags">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/con/icons/mp/mp3diags%40sf.net/mp3diags_default.png" alt="MP3 Diags Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/mp3diags/?source=directory" itemprop="url" title="Find out more about MP3 Diags">
+                          <span itemprop="name">
+                            MP3 Diags
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        Finds problems in MP3 files and helps the user to fix many of them using included tools. Looks at both the audio part (VBR info, quality, normalization) and the tags containing track information (ID3.) Also includes a tag editor and a file renamer.
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:706">
+                        706
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/freedos/?source=directory" title="Find out more about The FreeDOS Project">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/allura/p/freedos/icon" alt="The FreeDOS Project Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/freedos/?source=directory" itemprop="url" title="Find out more about The FreeDOS Project">
+                          <span itemprop="name">
+                            The FreeDOS Project
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        FreeDOS is a free DOS-compatible operating system.
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:183">
+                        183
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                  <li itemscope="" itemtype="http://schema.org/MobileSoftwareApplication">
+                    <a class="project-icon" href="/projects/jobscheduler/?source=directory" title="Find out more about JobScheduler">
+                      <img itemprop="image" width="48" height="48" src="//c.fsdn.com/con/icons/jo/jobscheduler%40sf.net/jobscheduler_default.png" alt="JobScheduler Icon"/>
+                    </a>
+                    <div class="project_info">
+                      <header>
+                        <a href="/projects/jobscheduler/?source=directory" itemprop="url" title="Find out more about JobScheduler">
+                          <span itemprop="name">
+                            JobScheduler
+                          </span>
+                        </a>
+                      </header>
+                      <p itemprop="description">
+                        JS runs executables, scripts and database procedures (e.g. MySQL,SQL Server,Oracle ...). JS provides sequential/parallel tasks, job chains, distributed processing, events, sync-points, load balancing, failover, SAP R/3-Adapter and a real API.
+
+Release notes at www.sos-berlin.com/jobscheduler_release_notes.
+
+FAQs at http://www.sos-berlin.com/mediawiki/index.php/JobScheduler_FAQ
+                      </p>
+                      <strong itemprop="interactionCount" content="UserDownloads:487">
+                        487
+                      </strong>
+                       weekly downloads
+    
+                    </div>
+                    <span class="ui-icon ui-icon-circle-triangle-s">
+                    </span>
+                    <div class="more-info">
+                      <div class="busy">
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="paging">
+                  <li>
+                    
+      
+        Back
+      
+    
+                  </li>
+                  <li>
+                    
+      
+        1
+      
+    
+                  </li>
+                  <li>
+                    <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;page=2">
+                      2
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;page=3">
+                      3
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;page=4">
+                      4
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;page=5">
+                      5
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;page=6">
+                      6
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;page=7">
+                      7
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;page=8">
+                      8
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;page=9">
+                      9
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/directory/os%3Awindows/freshness%3Arecently-updated/?q=ibm&amp;page=2">
+                      Next
+                    </a>
+                  </li>
+                </ul>
+              </section>
+            </section>
+            <div class="ads">
+              <div class="ad" id="afs2">
+              </div>
+            </div>
+          </section>
+          <!-- #search -->        </section>
+        <!-- #main-content -->        <section id="sidebar">
+          <section class="ads">
+            <div id="p84_medrec" class="ad medrec">
+              <script type="text/javascript">
+//<![CDATA[
+
+            (function(){
+              var immersionCompliment = false;
+              if (!immersion_adcode || immersionCompliment) {
+                document.write('<iframe src="http://ad.doubleclick.net/N4140/adi/ostg.sourceforge/cons_mobile_p84_medrec;pg=%2Fsearch%2Findex.php;psrch=0;logged_in=0;dc_ref=http%3A%2F%2Fsourceforge.net%2Fdirectory%2Fos%253Awindows%2Ffreshness%253Arecently-updated%2F;tile=1;sz=300x250;u=e%3Ac83bc38a-7dc3-11e3-9842-0200ac1d1d92;ord=1841291252946242?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" seamless></iframe>');
+              }
+            })();
+       
+//]]>
+              </script>
+              <iframe src="http://ad.doubleclick.net/N4140/adi/ostg.sourceforge/cons_mobile_p84_medrec;pg=%2Fsearch%2Findex.php;psrch=0;logged_in=0;dc_ref=http%3A%2F%2Fsourceforge.net%2Fdirectory%2Fos%253Awindows%2Ffreshness%253Arecently-updated%2F;tile=1;sz=300x250;u=e%3Ac83bc38a-7dc3-11e3-9842-0200ac1d1d92;ord=1841291252946242?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" seamless="">
+              </iframe>
+            </div>
+            <div id="top_medrec" class="ad medrec">
+              <script type="text/javascript">
+//<![CDATA[
+
+            (function(){
+              var immersionCompliment = false;
+              if (!immersion_adcode || immersionCompliment) {
+                document.write('<iframe src="http://ad.doubleclick.net/N4140/adi/ostg.sourceforge/cons_search_top_medrec;pg=%2Fsearch%2Findex.php;psrch=0;logged_in=0;dc_ref=http%3A%2F%2Fsourceforge.net%2Fdirectory%2Fos%253Awindows%2Ffreshness%253Arecently-updated%2F;tile=2;sz=300x250;u=e%3Ac83bc38a-7dc3-11e3-9842-0200ac1d1d92;ord=1841291252946242?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" seamless></iframe>');
+              }
+            })();
+       
+//]]>
+              </script>
+              <iframe src="http://ad.doubleclick.net/N4140/adi/ostg.sourceforge/cons_search_top_medrec;pg=%2Fsearch%2Findex.php;psrch=0;logged_in=0;dc_ref=http%3A%2F%2Fsourceforge.net%2Fdirectory%2Fos%253Awindows%2Ffreshness%253Arecently-updated%2F;tile=2;sz=300x250;u=e%3Ac83bc38a-7dc3-11e3-9842-0200ac1d1d92;ord=1841291252946242?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" seamless="">
+              </iframe>
+            </div>
+            <div id="google_bottom_medrec" class="ad medrec">
+              <script type="text/javascript">
+//<![CDATA[
+
+            (function(){
+              var immersionCompliment = false;
+              if (!immersion_adcode || immersionCompliment) {
+                document.write('<iframe src="http://ad.doubleclick.net/N4140/adi/ostg.sourceforge/cons_search_google_bottom_medrec;pg=%2Fsearch%2Findex.php;psrch=0;logged_in=0;dc_ref=http%3A%2F%2Fsourceforge.net%2Fdirectory%2Fos%253Awindows%2Ffreshness%253Arecently-updated%2F;tile=3;sz=300x250;u=e%3Ac83bc38a-7dc3-11e3-9842-0200ac1d1d92;ord=1841291252946242?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" seamless></iframe>');
+              }
+            })();
+       
+//]]>
+              </script>
+              <iframe src="http://ad.doubleclick.net/N4140/adi/ostg.sourceforge/cons_search_google_bottom_medrec;pg=%2Fsearch%2Findex.php;psrch=0;logged_in=0;dc_ref=http%3A%2F%2Fsourceforge.net%2Fdirectory%2Fos%253Awindows%2Ffreshness%253Arecently-updated%2F;tile=3;sz=300x250;u=e%3Ac83bc38a-7dc3-11e3-9842-0200ac1d1d92;ord=1841291252946242?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" seamless="">
+              </iframe>
+            </div>
+          </section>
+          <aside class="sidebar-widget">
+            <header>
+              <h3>
+                Staff Picks
+              </h3>
+            </header>
+            <ul>
+              <li class="item odd">
+                <a href="/projects/doublecmd/?source=staffpicks" title="Double Commander">
+                  <img alt="Icon" src="//c.fsdn.com/allura/p/doublecmd/icon"/>
+                </a>
+                <a href="/projects/doublecmd/?source=staffpicks" title="Learn more about Double Commander ">
+                  Double Commander
+                </a>
+              </li>
+              <li class="item even">
+                <a href="/projects/filezilla/?source=staffpicks" title="FileZilla">
+                  <img alt="Icon" src="//c.fsdn.com/allura/p/filezilla/icon"/>
+                </a>
+                <a href="/projects/filezilla/?source=staffpicks" title="Learn more about FileZilla ">
+                  FileZilla
+                </a>
+              </li>
+              <li class="item odd">
+                <a href="/projects/glew/?source=staffpicks" title="The OpenGL Extension Wrangler Library">
+                  <img alt="Icon" src="//c.fsdn.com/allura/p/glew/icon"/>
+                </a>
+                <a href="/projects/glew/?source=staffpicks" title="Learn more about The OpenGL Extension Wrangler Library ">
+                  The OpenGL Extension Wrangler Library
+                </a>
+              </li>
+              <li class="item even">
+                <a href="/projects/mingwbuilds/?source=staffpicks" title="MinGW-builds">
+                  <img alt="Icon" src="//c.fsdn.com/con/img/project_default.png"/>
+                </a>
+                <a href="/projects/mingwbuilds/?source=staffpicks" title="Learn more about MinGW-builds ">
+                  MinGW-builds
+                </a>
+              </li>
+              <li class="item odd">
+                <a href="/projects/openfiler/?source=staffpicks" title="Openfiler">
+                  <img alt="Icon" src="//c.fsdn.com/con/img/project_default.png"/>
+                </a>
+                <a href="/projects/openfiler/?source=staffpicks" title="Learn more about Openfiler ">
+                  Openfiler
+                </a>
+              </li>
+              <li class="item even">
+                <a href="/projects/openofficeorg.mirror/?source=staffpicks" title="Apache OpenOffice">
+                  <img alt="Icon" src="//c.fsdn.com/allura/mirror/openofficeorg/icon"/>
+                </a>
+                <a href="/projects/openofficeorg.mirror/?source=staffpicks" title="Learn more about Apache OpenOffice ">
+                  Apache OpenOffice
+                </a>
+              </li>
+              <li class="item odd">
+                <a href="/projects/osxportableapps/?source=staffpicks" title="OS X Portable Applications">
+                  <img alt="Icon" src="//c.fsdn.com/con/img/project_default.png"/>
+                </a>
+                <a href="/projects/osxportableapps/?source=staffpicks" title="Learn more about OS X Portable Applications ">
+                  OS X Portable Applications
+                </a>
+              </li>
+              <li class="item even">
+                <a href="/projects/simplicitylinux/?source=staffpicks" title="Simplicity Linux">
+                  <img alt="Icon" src="//c.fsdn.com/con/img/project_default.png"/>
+                </a>
+                <a href="/projects/simplicitylinux/?source=staffpicks" title="Learn more about Simplicity Linux ">
+                  Simplicity Linux
+                </a>
+              </li>
+              <li class="item odd">
+                <a href="/projects/warzone2100/?source=staffpicks" title="Warzone 2100">
+                  <img alt="Icon" src="//c.fsdn.com/allura/p/warzone2100/icon"/>
+                </a>
+                <a href="/projects/warzone2100/?source=staffpicks" title="Learn more about Warzone 2100 ">
+                  Warzone 2100
+                </a>
+              </li>
+              <li class="item even last">
+                <a href="/projects/zabbix/?source=staffpicks" title="ZABBIX">
+                  <img alt="Icon" src="//c.fsdn.com/allura/p/zabbix/icon"/>
+                </a>
+                <a href="/projects/zabbix/?source=staffpicks" title="Learn more about ZABBIX ">
+                  ZABBIX
+                </a>
+              </li>
+            </ul>
+          </aside>
+          <aside class="sidebar-widget" id="top-downloaded-widget">
+            <header>
+              <h3>
+                Top Downloaded
+              </h3>
+            </header>
+            <ul>
+            </ul>
+          </aside>
+          <aside class="sidebar-widget jobs-widget">
+            <header>
+              <h3>
+                <span>
+                  
+                Powered by
+                
+                  <a href="http://www.dice.com/?CMPID=AF_SF_UP_JS_AV_OG_BN_&amp;utm_source=SourceForge&amp;utm_medium=Affiliate&amp;utm_content=&amp;utm_campaign=Advocacy_Ongoing">
+                    <img src="http://a.fsdn.com/con/img/jobs/dice_logo.png" alt="Dice Logo" class="dice-logo"/>
+                  </a>
+                </span>
+                
+            Latest Tech Jobs
+        
+              </h3>
+            </header>
+            <section>
+              <form action="/jobs/" method="get" id="job-search">
+                <input type="hidden" name="source" value="widget"/>
+                <input type="text" name="text" placeholder="Senior Java Developer (Job Title)" id="job-title" value="Senior Java Developer (Job Title)" class="placeholder"/>
+                <input type="submit" name="submit" value="Find" id="job-search-button"/>
+              </form>
+            </section>
+            <ul id="job-listing">
+              <li class="item even">
+                <span class="job-link">
+                  <a href="http://www.dice.com/job/result/10107704/11251?src=19&amp;utm_medium=Affiliate&amp;CMPID=AF_SF_UP_JS_AV_OG_WG_&amp;source=76&amp;utm_campaign=Advocacy_Ongoing&amp;utm_source=SourceForge">
+                    PHP Developer or C++/Java developers
+                  </a>
+                </span>
+                <span class="job-details">
+                  Magnum Technologies, Inc. - Lexington, KY
+                </span>
+              </li>
+              <li class="item odd">
+                <span class="job-link">
+                  <a href="http://www.dice.com/job/result/RTX1389ff/416138?src=19&amp;utm_medium=Affiliate&amp;CMPID=AF_SF_UP_JS_AV_OG_WG_&amp;source=76&amp;utm_campaign=Advocacy_Ongoing&amp;utm_source=SourceForge">
+                    Software Engineer
+                  </a>
+                </span>
+                <span class="job-details">
+                  Appriss Inc - Louisville, KY
+                </span>
+              </li>
+              <li class="item even">
+                <span class="job-link">
+                  <a href="http://www.dice.com/job/result/10105424/2978716?src=19&amp;utm_medium=Affiliate&amp;CMPID=AF_SF_UP_JS_AV_OG_WG_&amp;source=76&amp;utm_campaign=Advocacy_Ongoing&amp;utm_source=SourceForge">
+                    Developer
+                  </a>
+                </span>
+                <span class="job-details">
+                  TEKsystems - Elizabethtown, KY
+                </span>
+              </li>
+              <li class="item odd">
+                <span class="job-link">
+                  <a href="http://www.dice.com/job/result/10107704/11251?src=19&amp;utm_medium=Affiliate&amp;CMPID=AF_SF_UP_JS_AV_OG_WG_&amp;source=76&amp;utm_campaign=Advocacy_Ongoing&amp;utm_source=SourceForge">
+                    PHP Developer or C++/Java developers
+                  </a>
+                </span>
+                <span class="job-details">
+                  Magnum Technologies, Inc. - Lexington, KY
+                </span>
+              </li>
+              <li class="item even">
+                <span class="job-link">
+                  <a href="http://www.dice.com/job/result/10425966/38762991?src=19&amp;utm_medium=Affiliate&amp;CMPID=AF_SF_UP_JS_AV_OG_WG_&amp;source=76&amp;utm_campaign=Advocacy_Ongoing&amp;utm_source=SourceForge">
+                    Citrix Engineer - 00748
+                  </a>
+                </span>
+                <span class="job-details">
+                  Modis - Fort Knox, KY
+                </span>
+              </li>
+            </ul>
+            <section class="all-jobs" style="border: none;">
+              <a href="/jobs?source=widget">
+                See All Jobs ››
+              </a>
+            </section>
+          </aside>
+          <script type="text/javascript">
+//<![CDATA[
+
+    /*global Handlebars*/
+    jQuery(function($) {
+        var source = $('#jobwidget-template').html();
+        var template = Handlebars.compile(source);
+
+        Handlebars.registerHelper('stripe', function(array, display_count, random, fn) {
+            var buffer = "";
+            var max_iterations = Math.min(array.length,display_count);
+            for (var i = 0, len = array.length; i < max_iterations; i++) {
+                var item = null;
+                if (random === true) {
+                    var ri = Math.floor((Math.random()*array.length)+1);
+                    item = array[ri];
+                } else {
+                    item = array[i];
+                }
+                if (item) {
+                    item.css_class = (i % 2 === 0 ? 'even' : 'odd');
+                }
+                buffer += fn.fn(item);
+            }
+            return buffer;
+        });
+
+        function load_jobBoard() {
+            $.ajax({
+                url:'/jobs/json',
+                success: function(data) {
+                    $('#job-listing').html(template(data));
+                },
+                dataType: 'json'
+            });
+        }
+        load_jobBoard();
+    });
+
+//]]>
+          </script>
+          <script type="text/x-handlebars-template" id="jobwidget-template">
+//<![CDATA[
+
+    
+    {{#stripe data.jobs 5 true}}
+    <li class="item {{css_class}}">
+    <span class="job-link"><a href="{{ this.url }}">{{ this.title }}</a></span>
+        <span class="job-details">{{ this.company}} - {{ this.location}}</span>
+    </li>
+    {{/stripe}}
+    
+
+//]]>
+          </script>
+          <img src="http://stats.dice.com/b/ss/diceprod/1/display/3604716325483432?mtp=oslsc&amp;mtss=2592000&amp;ns=diceinc&amp;v70=SFWDG&amp;ce=UTF-8"/>
+          <section class="ads">
+            <div id="medrec_bottom" class="ad medrec">
+              <script type="text/javascript">
+//<![CDATA[
+
+            (function(){
+              var immersionCompliment = false;
+              if (!immersion_adcode || immersionCompliment) {
+                document.write('<iframe src="http://ad.doubleclick.net/N4140/adi/ostg.sourceforge/cons_pg_directory_medrec_bottom;pg=%2Fsearch%2Findex.php;psrch=0;logged_in=0;dc_ref=http%3A%2F%2Fsourceforge.net%2Fdirectory%2Fos%253Awindows%2Ffreshness%253Arecently-updated%2F;tile=4;sz=300x250;u=e%3Ac83bc38a-7dc3-11e3-9842-0200ac1d1d92;ord=1841291252946242?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" seamless></iframe>');
+              }
+            })();
+       
+//]]>
+              </script>
+              <iframe src="http://ad.doubleclick.net/N4140/adi/ostg.sourceforge/cons_pg_directory_medrec_bottom;pg=%2Fsearch%2Findex.php;psrch=0;logged_in=0;dc_ref=http%3A%2F%2Fsourceforge.net%2Fdirectory%2Fos%253Awindows%2Ffreshness%253Arecently-updated%2F;tile=4;sz=300x250;u=e%3Ac83bc38a-7dc3-11e3-9842-0200ac1d1d92;ord=1841291252946242?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" seamless="">
+              </iframe>
+            </div>
+          </section>
+        </section>
+      </article>
+    </div>
+    <footer id="site-footer">
+      <div class="wrapper">
+        <nav>
+          <h5>
+            SourceForge
+          </h5>
+          <a href="/about">
+            About
+          </a>
+          <a href="/blog/category/sitestatus/">
+            Site Status
+          </a>
+          <a href="http://twitter.com/sfnet_ops">
+            @sfnet_ops
+          </a>
+        </nav>
+        <nav>
+          <h5>
+            Find and Develop Software
+          </h5>
+          <a href="/create/">
+            Create a Project
+          </a>
+          <a href="/directory/">
+            Software Directory
+          </a>
+          <a href="/top">
+            Top Downloaded Projects
+          </a>
+        </nav>
+        <nav>
+          <h5>
+            Community
+          </h5>
+          <a href="/blog/">
+            Blog
+          </a>
+          <a href="http://twitter.com/sourceforge">
+            @sourceforge
+          </a>
+          <a href="/jobs?source=footer">
+            Job Board
+          </a>
+          <a href="http://library.slashdotmedia.com/?source=sfnet_footer">
+            Resources
+          </a>
+        </nav>
+        <nav>
+          <h5>
+            Help
+          </h5>
+          <a href="http://p.sf.net/sourceforge/docs">
+            Site Documentation
+          </a>
+          <a href="/support">
+            Support Request
+          </a>
+          <a href="http://p.sf.net/sourceforge/irc">
+            Real-Time Support
+          </a>
+        </nav>
+      </div>
+    </footer>
+    <footer id="site-copyright-footer">
+      <div class="wrapper">
+        <div id="copyright">
+          
+            Copyright © 2014 Dice. All Rights Reserved.
+          <br/>
+          
+            SourceForge is a 
+          <a href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&amp;p=irol-landing">
+            Dice Holdings, Inc.
+          </a>
+           service.
+        
+        </div>
+        <nav>
+          <a href="http://slashdotmedia.com/terms-of-use/">
+            Terms
+          </a>
+          <a href="http://slashdotmedia.com/privacy-statement/">
+            Privacy
+          </a>
+          <span id="teconsent">
+          </span>
+          <a href="http://slashdotmedia.com/opt-out-choices/">
+            Opt Out Choices
+          </a>
+          <a href="http://slashdotmedia.com">
+            Advertise
+          </a>
+          <a href="http://sourceforge.jp/">
+            SourceForge.JP
+          </a>
+          <a href="http://ibmsmarteritservices.sourceforge.net/">
+            Smarter IT
+          </a>
+        </nav>
+      </div>
+    </footer>
+    <script src="http://a.fsdn.com/con/js/min/sf.js?1389642290" type="text/javascript">
+    </script>
+    <!-- Begin comScore Tag -->    <script src="http://b.scorecardresearch.com/beacon.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+            if (window.COMSCORE) {
+                COMSCORE.beacon({
+                    c1: 2,
+                    c2: 6035546,
+                    c3: "",
+                    c4: "",
+                    c5: "",
+                    c6: "",
+                    c15: ""
+                });
+            }
+        
+//]]>
+    </script>
+    <noscript>
+      
+            &lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;amp;c2=6035546&amp;amp;c3=&amp;amp;c4=&amp;amp;c5=&amp;amp;c6=&amp;amp;c15=&amp;amp;cj=1" alt="comScore2" /&gt;
+        
+    </noscript>
+    <!-- End comScore Tag -->    <script type="text/javascript">
+//<![CDATA[
+
+    $(function() {
+        /*global addCommas */
+        var $top_widget = $('#top-downloaded-widget');
+        $.ajax('/top/top_data', {
+            global: false,
+            success: function(data) {
+                if(data.download_alltime.length) {
+                    $.each(data.download_alltime, function(index, p) {
+                        $top_widget.find('ul').
+                        append('<li><span>{downloads}</span><a href="/projects/{shortname}">{name}</a></li>'.format({
+                            shortname: p.shortname,
+                            name: p.name,
+                            downloads: SF.Humanize.intWord(p.downloads)
+                        }));
+                    });
+                    $top_widget.show();
+                }
+            }
+        });
+    });
+
+//]]>
+    </script>
+    <script type="text/javascript" src="//consent-st.truste.com/get?name=notice.js&amp;domain=slashdot.org&amp;c=teconsent&amp;text=true" id="truste_0.15140091042797832">
+    </script>
+    <!--behavior='-->    <div id="fancybox-tmp">
+    </div>
+    <div id="fancybox-loading">
+      <div>
+      </div>
+    </div>
+    <div id="fancybox-overlay">
+    </div>
+    <div id="fancybox-wrap">
+      <div id="fancybox-outer">
+        <div class="fancybox-bg" id="fancybox-bg-n">
+        </div>
+        <div class="fancybox-bg" id="fancybox-bg-ne">
+        </div>
+        <div class="fancybox-bg" id="fancybox-bg-e">
+        </div>
+        <div class="fancybox-bg" id="fancybox-bg-se">
+        </div>
+        <div class="fancybox-bg" id="fancybox-bg-s">
+        </div>
+        <div class="fancybox-bg" id="fancybox-bg-sw">
+        </div>
+        <div class="fancybox-bg" id="fancybox-bg-w">
+        </div>
+        <div class="fancybox-bg" id="fancybox-bg-nw">
+        </div>
+        <div id="fancybox-content">
+        </div>
+        <a id="fancybox-close">
+        </a>
+        <div id="fancybox-title">
+        </div>
+        <a href="javascript:;" id="fancybox-left">
+          <span class="fancy-ico" id="fancybox-left-ico">
+          </span>
+        </a>
+        <a href="javascript:;" id="fancybox-right">
+          <span class="fancy-ico" id="fancybox-right-ico">
+          </span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

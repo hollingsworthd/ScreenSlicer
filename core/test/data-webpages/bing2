@@ -1,0 +1,202 @@
+<body onload="if(_w.lb)lb();" class="  fftheme_12 "> 
+ <!--FdBodyAsync--> 
+ <header id="b_header" class=" fftheme_13 "> 
+  <div class="b_topbar fftheme_14 "> 
+   <div class="b_navbar fftheme_15 "> 
+    <nav class="b_scopebar fftheme_16 " aria-label="navigation"> 
+     <ul class=" fftheme_17 "> 
+      <li class="b_active fftheme_18 "> <a h="ID=SERP,5032.1" href="/?scope=web&amp;FORM=HDRSC1" class=" fftheme_19 "> Web </a> </li> 
+      <li class=" fftheme_20 "> <a h="ID=SERP,5033.1" href="/images/search?q=site%3aamazon.com+9780634060793&amp;FORM=HDRSC2" class=" fftheme_21 "> Images </a> </li> 
+      <li class=" fftheme_22 "> <a h="ID=SERP,5034.1" href="/videos/search?q=site%3aamazon.com+9780634060793&amp;FORM=HDRSC3" class=" fftheme_23 "> Videos </a> </li> 
+      <li class=" fftheme_24 "> <a h="ID=SERP,5035.1" href="/maps/default.aspx?q=site%3aamazon.com+9780634060793&amp;mkt=en&amp;FORM=HDRSC4" class=" fftheme_25 "> Maps </a> </li> 
+      <li class=" fftheme_26 "> <a h="ID=SERP,5036.1" href="/news/search?q=site%3aamazon.com+9780634060793&amp;FORM=HDRSC6" class=" fftheme_27 "> News </a> </li> 
+      <li class=" fftheme_28 "> <a h="ID=SERP,5037.1" href="/explore?q=site%3aamazon.com+9780634060793&amp;FORM=HDRSC5" class=" fftheme_29 "> More </a> </li> 
+     </ul> 
+    </nav> 
+    <div id="id_h" style="display: block;" class=" fftheme_30 "> 
+     <a h="ID=SERP.5121,5022.1" title="Notification Center" id="bep" class=" id_button bepon gleamon fftheme_31 " href="javascript:void(0)"> <span class="bepcnt fftheme_32 "> 2 </span> <span class="sw_meIc rwds_bep_head fftheme_33 "> </span> </a> 
+     <a h="ID=SERP,5045.1" id="id_rh" class="id_button fftheme_34 " href="https://www.bing.com/rewards/dashboard"> <span id="id_rc" class=" fftheme_35 "> 1 </span> <span title="Bing Rewards" class="id_avatar sw_meIc fftheme_36 "> </span> </a> 
+     <a h="ID=SERP,5045.1" id="id_rwl" class="b_hide fftheme_37  xmoztheme " href="/rewards/dashboard"> </a> 
+     <a h="ID=SERP,5041.1" id="id_l" class="id_button fftheme_38 " href="javascript:void(0);"> <span id="id_s" style="display: inline-block;" class=" fftheme_39 "> Sign in </span> <span id="id_a" class="sw_spd id_avatar fftheme_40 " style="display: inline-block;"> </span> <span style="display:none" id="id_n" class=" fftheme_41  xmoztheme "> </span> <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" style="display:none" class="b_icon id_avatar fftheme_42  xmoztheme " id="id_p" /> </a> 
+     <a h="ID=SERP,5042.1" title="Preferences" class="sw_pref fftheme_43 " href="/account/general?ru=https%3a%2f%2fwww.bing.com%3a443%2fsearch%3fq%3dsite%253Aamazon.com%2b9780634060793%26qs%3dn%26form%3dQBLH%26pq%3dsite%253Aamazon.com%2b9780634060793%26sc%3d0-0%26sp%3d-1%26sk%3d%26cvid%3ddf4529346f7f4f2f8e012e0c0df2a72e&amp;FORM=SEFD"> </a> 
+     <div id="bepfo" class="b_hide fftheme_44  xmoztheme "> 
+     </div> 
+     <span _iid="SERP.5051" id="id_d" class=" fftheme_45  xmoztheme "> </span> 
+    </div> 
+    <div id="sw_tfbb" class=" fftheme_46  xmoztheme "> 
+    </div> 
+   </div> 
+  </div> 
+  <form id="sb_form" action="/search" class=" fftheme_47 "> 
+   <a h="ID=SERP,5039.1" class="b_logoArea fftheme_48 " href="/?FORM=Z9FD1"> <h1 class="b_logo fftheme_49 "> Bing </h1> </a> 
+   <div class="b_searchboxForm fftheme_50 "> 
+    <input type="search" onfocus="_ge('b_header').className='b_focus';" maxlength="1000" value="site:amazon.com 9780634060793" title="Enter your search term" name="q" id="sb_form_q" class="b_searchbox fftheme_51 " autocomplete="off" /> 
+    <input type="submit" name="go" tabindex="0" title="Search" id="sb_form_go" class="b_searchboxSubmit fftheme_52 " /> 
+    <input type="hidden" value="bs" name="qs" id="sa_qs" class=" fftheme_53  xmoztheme " /> 
+    <input type="hidden" name="form" value="QBRE" class=" fftheme_54  xmoztheme " /> 
+    <div id="sw_as" class=" fftheme_55  xmoztheme "> 
+    </div> 
+   </div> 
+  </form> 
+ </header> 
+ <script type="text/javascript" class=" fftheme_56  xmoztheme ">
+//<![CDATA[
+//&lt;![CDATA[
+var wlc_d = 1500,wlc_t = 63543395422;;_G.AppVer="8_01_1_3165997";
+//]]&gt;
+//]]>
+    </script> 
+ <!--snr2--> 
+ <!--wm--> 
+ <script type="text/javascript" class=" fftheme_57  xmoztheme ">
+//<![CDATA[
+//&lt;![CDATA[
+_G.FCT=new Date;
+//]]&gt;
+//]]>
+    </script> 
+ <script type="text/javascript" class=" fftheme_58  xmoztheme ">
+//<![CDATA[
+//&lt;![CDATA[
+_G.BCT=new Date;
+//]]&gt;
+//]]>
+    </script> 
+ <style type="text/css" class=" fftheme_59  xmoztheme ">
+      .ftrB{position:relative}.ftrH,.ftrHd,.ftrD&amp;gt;a,.ftrD&amp;gt;div{white-space:nowrap;height:36px;line-height:36px;padding:0 15px}.ftrD{max-height:216px;overflow:hidden;min-width:125px}.ftrD&amp;gt;a,.ftrD&amp;gt;div{display:block}.ftrS .ftrD{margin-right:10px}.ftrSbR{position:absolute;top:0;right:0;height:100%;margin:5px 0;padding-right:3px}.ftrB .sw_ddbk{margin:2px 0 2px 7px}.ftrB .sw_tpcg,.ftrB .sw_tpcbl{margin:0 0 0 14px}.ftrH,.ftrHd,.ftrB .sw_ddbk,.ftrB .sw_tpcg,.ftrB .sw_tpcbl{display:inline-block;*display:inline;zoom:1}z{a:1}.b_imagePair .inner img,.b_hList img{display:block}.b_imagePair&amp;gt;.inner,.b_hList .cico{padding-bottom:10px}.b_title .b_imagePair&amp;gt;.inner,.b_vList&amp;gt;li&amp;gt;.b_imagePair&amp;gt;.inner,.b_hList .b_imagePair&amp;gt;.inner,.b_vPanel&amp;gt;div&amp;gt;.b_imagePair&amp;gt;.inner,.b_gridList .b_imagePair&amp;gt;.inner,.b_caption .b_imagePair&amp;gt;.inner,.b_attribution .b_imagePair&amp;gt;.inner,.b_imagePair&amp;gt;.inner&amp;gt;.b_footnote,.b_poleContent .b_imagePair&amp;gt;.inner{padding-bottom:0}.b_imagePair&amp;gt;.inner{float:left}.b_imagePair.reverse&amp;gt;.inner{float:right}.b_imagePair .b_imagePair:last-child:after{clear:none}.b_algo .b_title .b_imagePair{display:block}.b_imagePair.square_mp&amp;gt;.inner,li.square_mp{width:80px}.b_imagePair.square_mp{padding-left:90px}.b_imagePair.square_mp&amp;gt;.inner{margin:2px 0 0 -90px}.b_imagePair.square_mp.reverse{padding-left:0;padding-right:90px}.b_imagePair.square_mp.reverse&amp;gt;.inner{margin:2px -90px 0 0}.b_imagePair.square_s&amp;gt;.inner,li.square_s{width:50px}li.square_s{word-wrap:break-word}.b_imagePair.square_s{padding-left:60px}.b_imagePair.square_s&amp;gt;.inner{margin:2px 0 0 -60px}.b_imagePair.square_s.reverse{padding-left:0;padding-right:60px}.b_imagePair.square_s.reverse&amp;gt;.inner{margin:2px -60px 0 0}z{a:1}
+    </style> 
+ <script type="text/javascript" class=" fftheme_60  xmoztheme ">
+//<![CDATA[
+//&lt;![CDATA[
+_w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return function(){_w.sched.schedule(n)}}function f(n){t.push(n)}function e(n,t){i[n]=t}var n=[],t=[],i={};return{register:r,wrapSchedule:u,schedule:f,reportCustomMetric:e,_ns:n,_reg:t,_cm:i}}();
+//]]&gt;
+//]]>
+    </script> 
+ <div id="b_content" class=" fftheme_61 "> 
+  <div id="b_tween" class=" fftheme_62 "> 
+   <span class="sb_count fftheme_63 "> 1 results </span> 
+   <span class="ftrB fftheme_64 "> <a h="ID=SERP,5110.1" id="h5115" class="ftrH fftheme_65 " href="javascript:"> Any time <span class="sw_ddbk fftheme_66 "> </span> </a> 
+    <div class="b_hide b_dropdown  fftheme_67  xmoztheme " id="d5115"> 
+     <div class="ftrD fftheme_68  xmoztheme "> 
+      <a h="ID=SERP,5111.1" class="b_toggle fftheme_69  xmoztheme " href="/search?q=site%3aamazon.com+9780634060793&amp;qs=n&amp;pq=site%3aamazon.com+9780634060793&amp;sc=0-0&amp;sp=-1&amp;cvid=df4529346f7f4f2f8e012e0c0df2a72e&amp;qpvt=site%3aamazon.com+9780634060793"> All </a> 
+      <a h="ID=SERP,5112.1" class="b_toggle fftheme_70  xmoztheme " href="/search?q=site%3aamazon.com+9780634060793&amp;filters=ex1%3a%22ez1%22&amp;qs=n&amp;pq=site%3aamazon.com+9780634060793&amp;sc=0-0&amp;sp=-1&amp;cvid=df4529346f7f4f2f8e012e0c0df2a72e&amp;qpvt=site%3aamazon.com+9780634060793"> Past 24 hours </a> 
+      <a h="ID=SERP,5113.1" class="b_toggle fftheme_71  xmoztheme " href="/search?q=site%3aamazon.com+9780634060793&amp;filters=ex1%3a%22ez2%22&amp;qs=n&amp;pq=site%3aamazon.com+9780634060793&amp;sc=0-0&amp;sp=-1&amp;cvid=df4529346f7f4f2f8e012e0c0df2a72e&amp;qpvt=site%3aamazon.com+9780634060793"> Past week </a> 
+      <a h="ID=SERP,5114.1" class="b_toggle fftheme_72  xmoztheme " href="/search?q=site%3aamazon.com+9780634060793&amp;filters=ex1%3a%22ez3%22&amp;qs=n&amp;pq=site%3aamazon.com+9780634060793&amp;sc=0-0&amp;sp=-1&amp;cvid=df4529346f7f4f2f8e012e0c0df2a72e&amp;qpvt=site%3aamazon.com+9780634060793"> Past month </a> 
+     </div> 
+    </div> </span> 
+  </div> 
+  <ol id="b_results" class=" fftheme_73 "> 
+   <li class="b_algo fftheme_74 "> <h2 class=" fftheme_75 "> <a h="ID=SERP,5090.1" href="http://www.amazon.com/The-Real-Book-Volume-Edition/dp/0634060791" class=" fftheme_76 "> The <strong class=" fftheme_77 "> Real Book </strong> - Volume II: Bass Clef Edition: Hal Leonard ... </a> </h2> 
+    <div class="b_caption b_rich fftheme_78 "> 
+     <div class="b_imagePair square_mp fftheme_79 "> 
+      <div class="inner fftheme_80 "> 
+       <div class=" fftheme_81 "> 
+        <a h="ID=SERP,5079.1" href="http://www.amazon.com/The-Real-Book-Volume-Edition/dp/0634060791" class=" fftheme_82 "> <img width="80" height="80" src="/th?id=CiUNTIteN4U%2bNGg&amp;w=80&amp;c=1&amp;pid=5.1" id="emb1" class="rms_img fftheme_83 " /> </a> 
+       </div> 
+      </div> 
+      <div u="0|5054|4784573435085204|AgmdQzieWVR_xYfvduSz3nWaEsABwDcm" class="b_attribution fftheme_84 "> 
+       <cite class=" fftheme_85 "> www. <strong class=" fftheme_86 "> amazon.com </strong> /The- <strong class=" fftheme_87 "> Real-Book </strong> -Volume-Edition/dp/0634060791 </cite> 
+       <a href="#" aria-label="Actions for this site" aria-haspopup="1" class=" fftheme_88 "> <span class="c_tlbxTrg fftheme_89 "> <span class="c_tlbxTrgIcn sw_ddgn fftheme_90 "> </span> <span k="SERP,5091.1" h="BASE:CACHEDPAGEDEFAULT" class="c_tlbxH fftheme_91  xmoztheme "> </span> </span> </a> 
+      </div> 
+      <div class="b_snippet fftheme_92 "> 
+       <p class=" fftheme_93 "> The <strong class=" fftheme_94 "> Real Book </strong> - Volume II: Bass Clef Edition [Hal Leonard Corp.] on <strong class=" fftheme_95 "> Amazon.com </strong> . *FREE* shipping on qualifying offers. (Fake Book). </p> 
+      </div> 
+      <ul class="b_factrow fftheme_96 "> 
+       <li class=" fftheme_97 "> <span title="Rating: 4.5/5" class="csrc sc_rc1 fftheme_98 "> <span class="sw_st fftheme_99 "> </span> <span class="sw_st fftheme_100 "> </span> <span class="sw_st fftheme_101 "> </span> <span class="sw_st fftheme_102 "> </span> <span class="sw_sth fftheme_103 "> </span> </span> Rating: 4.5/5&nbsp;&middot; </li> 
+       <li class=" fftheme_104 "> <a h="ID=SERP,5085.1" href="http://www.amazon.com/The-Real-Book-Volume-Edition/product-reviews/0634060791" class=" fftheme_105 "> 8 reviews </a> &nbsp;&middot; </li> 
+       <li class=" fftheme_106 "> Plastic Comb </li> 
+      </ul> 
+     </div> 
+    </div> </li> 
+  </ol> 
+  <ol id="b_context" class=" fftheme_107  xmoztheme "> 
+  </ol> 
+ </div> 
+ <footer class="b_footer fftheme_108 "> 
+  <table class=" fftheme_109 "> 
+   <tbody class=" fftheme_110 "> 
+    <tr class=" fftheme_111 "> 
+     <th class=" fftheme_112 "> Learn more </th> 
+     <th class=" fftheme_113 "> Info for </th> 
+     <th class=" fftheme_114 "> Support </th> 
+    </tr> 
+    <tr class=" fftheme_115 "> 
+     <td class=" fftheme_116 "> <a h="ID=SERP,5138.1" href="http://go.microsoft.com/fwlink/?LinkId=248686&amp;CLCID=0409" class=" fftheme_117 "> Privacy and Cookies </a> </td> 
+     <td class=" fftheme_118 "> <a h="ID=SERP,5140.1" href="http://go.microsoft.com/?linkid=9844325" class=" fftheme_119 "> Advertise </a> </td> 
+     <td class=" fftheme_120 "> <a h="ID=SERP,5142.1" target="_blank" id="sb_help" href="http://onlinehelp.microsoft.com/en-US/bing/ff808535.aspx" class=" fftheme_121 "> Help </a> </td> 
+    </tr> 
+    <tr class=" fftheme_122 "> 
+     <td class=" fftheme_123 "> <a h="ID=SERP,5139.1" href="http://go.microsoft.com/fwlink/?LinkID=246338&amp;CLCID=0409" class=" fftheme_124 "> New Legal </a> </td> 
+     <td class=" fftheme_125 "> <a h="ID=SERP,5141.1" target="_blank" href="http://go.microsoft.com/fwlink/?LinkID=286759&amp;CLCID=409" class=" fftheme_126 "> About our ads </a> </td> 
+     <td class=" fftheme_127 "> <a h="ID=SERP,5143.1" id="sb_feedback" href="#" class=" fftheme_128 "> Feedback </a> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <span class="b_footerRight fftheme_129 "> 
+   <div title="&copy; 2014 Microsoft" class="b_fLogo fftheme_130 "> 
+   </div> <span class=" fftheme_131 "> &copy; 2014 Microsoft </span> </span> 
+ </footer> 
+ <div class="sb_hbop fftheme_132  xmoztheme "> 
+  <span _iid="SERP.5121" id="nc_iid" class=" fftheme_133  xmoztheme "> </span> 
+ </div> 
+ <script type="text/javascript" class=" fftheme_134  xmoztheme ">
+//<![CDATA[
+//&lt;![CDATA[
+(function(n,t){onload=function(){_G.BPT=new Date,n&amp;&amp;n(),!_w.sb_ppCPL&amp;&amp;t&amp;&amp;sb_st(function(){t(new Date)},0)}})(_w.onload,_w.si_PP);sa_loader=function(){_w.rms.js({'rms:answers:AutoSuggest:AutoSugPreviewBlue':'\/s\/as\/0710042014\/AutoSuggest\/AutoSugSnRBluePP.js',d:1});};;_w.rms.js({'A:0':0},{'A:Shared.Bundle':'\/sa\/1110210645\/shrBuFE2_c.js'},{'A:Validation.Bundle':'\/sa\/0908050953\/vb_c.js'},{'A:1':1},{'A:rms:answers:SegmentFilters:DropDown':'\/s\/as\/1126025738\/SegmentFilters\/Blue\/DropDown_c.js'},{'A:WebResultToolbox':'\/sa\/0928184849\/blue\/WebResultToolbox.js'},{'A:rms:answers:Rewards:RewardsNcHeaderBootstrap':'\/s\/as\/1220220912\/Rewards\/RewardsNcHeaderBootstrap_c.js'});;
+//]]&gt;
+//]]>
+    </script> 
+ <div id="aRmsDefer" class=" fftheme_135  xmoztheme "> 
+  <div style="display:none" class=" fftheme_136  xmoztheme "> 
+   <!--//<![CDATA[
+var Identity=Identity||{};(function(n,t,i,r,u,f,e,o,s){s.fbProfile=function(){var e="FBS",f=n(e,"N"),i=n(e,"FN"),r=n(e,"I"),u=n(e,"IB"),o;return f?(f=t(f),i&&(i=t(i)),r&&(r=t(r)),u&&(u=t(u)),o="/fd/s/a/anon.png",r||(r=o),u||(u=o),i||(i=f),{displayName:f,name:i,img:r,imgL:u,idp:"FB"}):null},s.wlProfile=function(){var u="WLS",i=n(u,"N"),r=n(u,"C");return i&&r&&s.wlImgSm&&s.wlImgLg?{displayName:t(i),name:t(i),img:s.wlImgSm.replace(/\{0\}/g,o(r)),imgL:s.wlImgLg.replace(/\{0\}/g,o(r)),idp:"WL"}:null},s.headerLoginMode=0,s.popupAuthenticate=function(n,t,r){var u,f,e,h;return(u=s.popupLoginUrls)&&(f=u[n]+(t?"&perms="+o(t):"")+(r?"&src="+o(r):""))&&(e=s.pop(f))&&(h=setInterval(function(){e.closed&&(i.fire("id:popup:close"),clearInterval(h))},100))},s.pop=function(n){return f.open(n,"idl","location=no,menubar=no,resizable=no,scrollbars=yes,status=no,titlebar=no,toolbar=no,width=1000,height=620")};var v=0,c=e("id_h"),l=e("id_l"),a="click";i.bind("onP1",function(){setTimeout(function(){c&&l&&(u("Blue/BlueIdentityDropdown_c",0,c,"mouseover",l,a,l,"focus"),r(l,a,function(n){s.hdrClk=n})),c&&(c.style.display="block")},50)},1)})(sj_cook.get,decodeURIComponent,sj_evt,sj_be,sj_jb,_w,_ge,encodeURIComponent,Identity,_G.RTL);(function(){function n(n){n.style.display="none"}function t(n){n.style.display="inline-block"}if(sj_evt&&Identity){var i=function(){var u=_ge("id_n"),i=_ge("id_p"),e=_ge("id_s"),o=_ge("id_a"),f=Identity.fbProfile()||Identity.wlProfile(),r=f?f.displayName:wln,s=f?f.img:null,h=f?f.idp:null;u&&e&&o&&r?(i&&s&&(i.title=r,i.src=s,t(i)),r.length>10&&(r=r.substring(0,10).replace(/\s+$/,"")+"…"),u.textContent=r,u.innerText=r,t(u),n(e),n(o),h=="WL"&&i&&(i.style.className+=" sw_spd")):u&&e&&o&&(n(u),i&&n(i),t(e),t(o))};sj_evt.bind("fb:connected",i,1),sj_evt.bind("wl:auth",i,1),sj_evt.bind("fb:auth",i,1)}})();var Identity = Identity || {};(function(i){i.wlImgSm = "https://cid-{0}.users.storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileStatic/p?ck=1\u0026ex=720\u0026fofoff=1\u0026sid=CCBDE48CA08549A585EE6C7D52D429FC";i.wlImgLg = "https://cid-{0}.users.storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileMedium/p?ck=1\u0026ex=720\u0026fofoff=1\u0026sid=CCBDE48CA08549A585EE6C7D52D429FC";i.popupLoginUrls ={"WindowsLiveId":"https://login.live.com/login.srf?wa=wsignin1.0\u0026rpsnv=11\u0026ct=1407798623\u0026rver=6.0.5286.0\u0026wp=MBI\u0026wreply=https:%2F%2fwww.bing.com%2Fsecure%2FPassport.aspx%3Fpopup%3D1%26ssl%3D1\u0026lc=1033\u0026id=264960","Facebook":"/fd/auth/signin?action=interactive\u0026provider=facebook\u0026return_url=https%3a%2f%2fwww.bing.com%2fIdentity%2fFBPopup%3fsuccess%3d1\u0026cancel_url=https%3a%2f%2fwww.bing.com%2fIdentity%2fFBPopup%3fsuccess%3d0\u0026input=popup\u0026sig=CCBDE48CA08549A585EE6C7D52D429FC\u0026perms=read_stream,user_photos,friends_photos"};})(Identity);;(function(){function n(){var n="SRCHHPGUSR",i=sj_cook.get(n,"CW"),t;i&&i==sj_b.clientWidth||sj_cook.set(n,"CW",sb_de.clientWidth||sj_b.clientWidth,1,"/"),t=sj_cook.get(n,"CH"),t&&t==sb_de.clientHeight||sj_cook.set(n,"CH",sb_de.clientHeight,1,"/")}sj_be(_w,"load",n),sj_be(_w,"resize",n)})();(function(){sb_ie&&sj_evt.bind("onP1",function(){sj_jb("UpdateDefaults",0)},1,50)})();sa_CTBConfig={"TRGT":"Actions for this site","CU":"http://cc.bingj.com/cache.aspx?q=site%3aamazon.com+9780634060793\u0026d={0}\u0026mkt=en-US\u0026setlang=en-US\u0026w={1}","CT":"Cached page"};(function(n,t,i){function f(){!u.end&&s===h&&s>0&&i(b,0)}function o(n){if(n&&n.length)return r[n]||(r[n]={start:0,end:0,actual:0,done:0},s++),r[n]}function y(){var t=[],n;for(n in r)r.hasOwnProperty(n)&&(t.push(n),u.actual+=r[n].actual);return t.sort(function(n,t){return r[t].actual-r[n].actual}),t}function p(){var f=[],e=0,t=y(),i,n,u;if(t.length>0)do if(i=t.shift(),n=r[i],!(n.start<_G.ST)){if(u='"'+i+'":{"S":'+(n.start-_G.ST)+',"E":'+(n.end-_G.ST)+',"T":'+n.actual+"}",e+=u.length+1,e>=v)break;f.push(u)}while(t.length>0);return f.join(",")}function w(){function r(n){return n=n.toString().replace(/\"/g,"'"),'"'+n+'"'}var i=[],t,n;for(t in e)e.hasOwnProperty(t)&&(n=e[t],typeof n!="number"&&(n=r(n)),i.push(r(t)+":"+n));return i.join(",")}function b(){u.end||(u.end=new Date,(new Image).src=_G.lsUrl+'&Type=Event.PPT&DATA={"S":'+(u.start-_G.ST)+',"E":'+(u.end-_G.ST)+',"T":'+u.actual+',"I":'+u.numInvalid+',"N":{'+p()+'},"M":{'+w()+"}}"+(_G.P?"&P="+_G.P:"")+(_G.DA?"&DA="+_G.DA:""))}function k(n){var t=r[n];t&&!t.done&&(t.done=1,h++,f())}function l(n){var r=n.task;if(r){var u=r,t=n.ns,f=n.delay||0;if(t&&t.length>0){c(t);function e(){var i=new Date,n;r(),n=new Date,a(t,i,n)}u=e}f>0?i(u,f):u()}}function a(n,t,i){var r,e;(f(),r=o(n),r)&&(e=i-t,(e<0||i<r.end||r.start&&t<r.start)&&++u.numInvalid,r.actual+=e,r.start||(r.start=t),r.end=i)}function c(n){f(),o(n)}function d(n,t){f(),e[n]=t}var u={start:new Date,end:0,actual:0,numInvalid:0},r={},s=0,h=0,e=t._cm||{},v=600;n("onP1",function(){var r,i,n;for(t.register=c,t.schedule=l,t.complete=k,t.recordTimings=a,t.reportCustomMetric=d,i=t._ns||[];r=i.shift();)o(r);for(n=t._reg||[];n.length>0;)l(n.shift());f()},1)})(sj_evt.bind,sched,sb_st);function wpc_Inst(n,t,i){var r=sj_evt.bind,u=0,f=0;r&&n&&t&&i&&(r("RMS.ImgAOLInit",function(){n.register(i)},1),r("RMS.ImgAOLCompleted",function(){n.schedule({task:function(){n.recordTimings(i,u,f),n.complete(i)}})},1),r("RMS.ImgAOLLoaded",function(n){var i,e,r;n.length<2||(i=n[1],i&&i.state==="success")&&(e=i.image,e&&sj_we(e,t))&&(r=i.timeStamp,u===0&&(u=r),r>f&&(f=r))},1))};new wpc_Inst(sched,_ge("b_context"),"TP");var fbpkgiid = fbpkgiid || {};fbpkgiid.page = 'SERP.5144';;var Feedback;(function(n){(function(){var t=_ge("sb_feedback");t!==null&&sj_be(t,"click",function(n){sj_jb("Feedback/Core",!0),sj_sp(n),function t(){var n={page:!0};if(typeof feedback=="undefined"||typeof jQuery=="undefined"){sb_st(t,50);return}feedback.core.load(n)}()})})(n.Footer||(n.Footer={}));var t=n.Footer})(Feedback||(Feedback={}));sf_fbCfg={sId:"6",wt:100};sj_evt.bind("xd:fba:checkbar",function(n){var t,i;n&&n.length>=2&&(t=sj_ce("iframe"),t.id="sw_tfbbi",i=_ge("sw_tfbb"),i&&(t.height="0",t.scrolling=t.frameBorder="no",t.src="/fd/fb/b?fv="+_G.Ver+"#"+n[1],i.appendChild(t)))});sj_evt.bind("onP1",function(){var n=sj_ce("iframe");n.height=n.width=0,n.frameBorder=n.scrolling="no",sj_b.appendChild(n),n.src="/fd/fb/r?v="+_G.Ver+"&sId="+sf_fbCfg.sId+(/&testhooks=1/.test(location.search)?"&testhooks=1":""),_w.logfb&&logfb("rr",+new Date)},1,_w.sf_fbCfg&&sf_fbCfg.wt?sf_fbCfg.wt:100);sa_config={"u":"%2fAS%2fSuggestions%3fpt%3dpage.serp%26bq%3dsite%253aamazon.com%2b9780634060793%26qry%3d","mkt":"en-US","f":"sb_form","i":"sb_form_q","c":"sw_as","sid":"CCBDE48CA08549A585EE6C7D52D429FC","asf":1,"ePN":1,"gqs":1,"t":1,"eHS":1,"eHC":1,"d":100,"SCT":1500};sa_loc={"PE":"See Bing results for"};;var sa_eL=!1,sj_evas,sj_etas,_iframeWindow;if(function(){function e(t,i,r,f){t&&sj_ue(t,i,e),sa_eL=sa_eL||n.eAI?r&&f.keyCode!==27:r,u||(u=!0,sa_loader())}function r(n,t,i){sj_be(n,t,function(r){e(n,t,i,sj_ev(r))})}var f=_ge("sa_qs"),n,t,i,u;f.value="bs",n=sa_config,t=_ge(n.i),t.setAttribute("autocomplete","off"),i=_ge(n.c),i||(i=sj_ce("div"),i.id=n.c,f.parentNode.appendChild(i)),u=!1,r(t,"click",!0),r(t,"keydown",!0),n.eAI&&r(t,"keyup",!0),n.ol&&r(_w,"load")}(),sj_evas=sj_ev,sj_etas=sj_et,sa_config.ic&&sb_ie){function getIframeWindow(){return _iframeWindow||(_iframeWindow=_ge("sa_con").contentWindow),_iframeWindow}sj_evas=function(){return getIframeWindow().event},sj_etas=function(){var n=getIframeWindow().event;return n?n.srcElement:null}};var bepcfg = bepcfg || {};bepcfg.wb = '1';;sj_evt.bind("onP1", function(){c=sj_cook.set;var t=_ge('id_rc');if(o=_ge('id_r')){o.style.display='block';}if(t)t.innerHTML='1';c('_SS','R','1',0,'/');f=_w.top!==_w.self;f&&c('_SS','F',f,0,'/');sj_evt.bind("bepready",function(args){args[1]('2');},1);}, 1, 0);;
+//]]>--> 
+  </div> 
+  <div style="display:none" class=" fftheme_137  xmoztheme "> 
+   <!--//<![CDATA[
+(function(n,t){if(t){var i=!1,r=function(){if(!i&&(i=!0,_G.AppVer)){var n=sj_ce("script");n.src="/s/as/"+_G.AppVer+"/Identity/WindowsLiveConnect_c.js",sj_b.appendChild(n)}};n.bind("onP1",function(){var i=setTimeout(r,t);n.bind("fb:connecting",function(){clearTimeout(i),n.bind("fb:connected",r,1)},1)},1)}})(sj_evt,wlc_d);var wln;;
+//]]>--> 
+  </div> 
+ </div> 
+ <script type="text/javascript" class=" fftheme_138  xmoztheme ">
+//<![CDATA[
+//&lt;![CDATA[
+_G.HT=new Date;
+//]]&gt;
+//]]>
+    </script> 
+ <script data-rms="1" src="/sa/1110210645/shrBuFE2_c.js" type="text/javascript" class=" fftheme_139  xmoztheme ">
+    </script> 
+ <script type="text/javascript" data-rms="1" class=" fftheme_140  xmoztheme ">
+//<![CDATA[
+//&lt;![CDATA[
+var Identity=Identity||{};(function(n,t,i,r,u,f,e,o,s){s.fbProfile=function(){var e="FBS",f=n(e,"N"),i=n(e,"FN"),r=n(e,"I"),u=n(e,"IB"),o;return f?(f=t(f),i&amp;&amp;(i=t(i)),r&amp;&amp;(r=t(r)),u&amp;&amp;(u=t(u)),o="/fd/s/a/anon.png",r||(r=o),u||(u=o),i||(i=f),{displayName:f,name:i,img:r,imgL:u,idp:"FB"}):null},s.wlProfile=function(){var u="WLS",i=n(u,"N"),r=n(u,"C");return i&amp;&amp;r&amp;&amp;s.wlImgSm&amp;&amp;s.wlImgLg?{displayName:t(i),name:t(i),img:s.wlImgSm.replace(/\{0\}/g,o(r)),imgL:s.wlImgLg.replace(/\{0\}/g,o(r)),idp:"WL"}:null},s.headerLoginMode=0,s.popupAuthenticate=function(n,t,r){var u,f,e,h;return(u=s.popupLoginUrls)&amp;&amp;(f=u[n]+(t?"&amp;perms="+o(t):"")+(r?"&amp;src="+o(r):""))&amp;&amp;(e=s.pop(f))&amp;&amp;(h=setInterval(function(){e.closed&amp;&amp;(i.fire("id:popup:close"),clearInterval(h))},100))},s.pop=function(n){return f.open(n,"idl","location=no,menubar=no,resizable=no,scrollbars=yes,status=no,titlebar=no,toolbar=no,width=1000,height=620")};var v=0,c=e("id_h"),l=e("id_l"),a="click";i.bind("onP1",function(){setTimeout(function(){c&amp;&amp;l&amp;&amp;(u("Blue/BlueIdentityDropdown_c",0,c,"mouseover",l,a,l,"focus"),r(l,a,function(n){s.hdrClk=n})),c&amp;&amp;(c.style.display="block")},50)},1)})(sj_cook.get,decodeURIComponent,sj_evt,sj_be,sj_jb,_w,_ge,encodeURIComponent,Identity,_G.RTL);(function(){function n(n){n.style.display="none"}function t(n){n.style.display="inline-block"}if(sj_evt&amp;&amp;Identity){var i=function(){var u=_ge("id_n"),i=_ge("id_p"),e=_ge("id_s"),o=_ge("id_a"),f=Identity.fbProfile()||Identity.wlProfile(),r=f?f.displayName:wln,s=f?f.img:null,h=f?f.idp:null;u&amp;&amp;e&amp;&amp;o&amp;&amp;r?(i&amp;&amp;s&amp;&amp;(i.title=r,i.src=s,t(i)),r.length&gt;10&amp;&amp;(r=r.substring(0,10).replace(/\s+$/,"")+"…"),u.textContent=r,u.innerText=r,t(u),n(e),n(o),h=="WL"&amp;&amp;i&amp;&amp;(i.style.className+=" sw_spd")):u&amp;&amp;e&amp;&amp;o&amp;&amp;(n(u),i&amp;&amp;n(i),t(e),t(o))};sj_evt.bind("fb:connected",i,1),sj_evt.bind("wl:auth",i,1),sj_evt.bind("fb:auth",i,1)}})();var Identity = Identity || {};(function(i){i.wlImgSm = "https://cid-{0}.users.storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileStatic/p?ck=1\u0026ex=720\u0026fofoff=1\u0026sid=CCBDE48CA08549A585EE6C7D52D429FC";i.wlImgLg = "https://cid-{0}.users.storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileMedium/p?ck=1\u0026ex=720\u0026fofoff=1\u0026sid=CCBDE48CA08549A585EE6C7D52D429FC";i.popupLoginUrls ={"WindowsLiveId":"https://login.live.com/login.srf?wa=wsignin1.0\u0026rpsnv=11\u0026ct=1407798623\u0026rver=6.0.5286.0\u0026wp=MBI\u0026wreply=https:%2F%2fwww.bing.com%2Fsecure%2FPassport.aspx%3Fpopup%3D1%26ssl%3D1\u0026lc=1033\u0026id=264960","Facebook":"/fd/auth/signin?action=interactive\u0026provider=facebook\u0026return_url=https%3a%2f%2fwww.bing.com%2fIdentity%2fFBPopup%3fsuccess%3d1\u0026cancel_url=https%3a%2f%2fwww.bing.com%2fIdentity%2fFBPopup%3fsuccess%3d0\u0026input=popup\u0026sig=CCBDE48CA08549A585EE6C7D52D429FC\u0026perms=read_stream,user_photos,friends_photos"};})(Identity);;(function(){function n(){var n="SRCHHPGUSR",i=sj_cook.get(n,"CW"),t;i&amp;&amp;i==sj_b.clientWidth||sj_cook.set(n,"CW",sb_de.clientWidth||sj_b.clientWidth,1,"/"),t=sj_cook.get(n,"CH"),t&amp;&amp;t==sb_de.clientHeight||sj_cook.set(n,"CH",sb_de.clientHeight,1,"/")}sj_be(_w,"load",n),sj_be(_w,"resize",n)})();(function(){sb_ie&amp;&amp;sj_evt.bind("onP1",function(){sj_jb("UpdateDefaults",0)},1,50)})();sa_CTBConfig={"TRGT":"Actions for this site","CU":"http://cc.bingj.com/cache.aspx?q=site%3aamazon.com+9780634060793\u0026d={0}\u0026mkt=en-US\u0026setlang=en-US\u0026w={1}","CT":"Cached page"};(function(n,t,i){function f(){!u.end&amp;&amp;s===h&amp;&amp;s&gt;0&amp;&amp;i(b,0)}function o(n){if(n&amp;&amp;n.length)return r[n]||(r[n]={start:0,end:0,actual:0,done:0},s++),r[n]}function y(){var t=[],n;for(n in r)r.hasOwnProperty(n)&amp;&amp;(t.push(n),u.actual+=r[n].actual);return t.sort(function(n,t){return r[t].actual-r[n].actual}),t}function p(){var f=[],e=0,t=y(),i,n,u;if(t.length&gt;0)do if(i=t.shift(),n=r[i],!(n.start&lt;_G.ST)){if(u='"'+i+'":{"S":'+(n.start-_G.ST)+',"E":'+(n.end-_G.ST)+',"T":'+n.actual+"}",e+=u.length+1,e&gt;=v)break;f.push(u)}while(t.length&gt;0);return f.join(",")}function w(){function r(n){return n=n.toString().replace(/\"/g,"'"),'"'+n+'"'}var i=[],t,n;for(t in e)e.hasOwnProperty(t)&amp;&amp;(n=e[t],typeof n!="number"&amp;&amp;(n=r(n)),i.push(r(t)+":"+n));return i.join(",")}function b(){u.end||(u.end=new Date,(new Image).src=_G.lsUrl+'&amp;Type=Event.PPT&amp;DATA={"S":'+(u.start-_G.ST)+',"E":'+(u.end-_G.ST)+',"T":'+u.actual+',"I":'+u.numInvalid+',"N":{'+p()+'},"M":{'+w()+"}}"+(_G.P?"&amp;P="+_G.P:"")+(_G.DA?"&amp;DA="+_G.DA:""))}function k(n){var t=r[n];t&amp;&amp;!t.done&amp;&amp;(t.done=1,h++,f())}function l(n){var r=n.task;if(r){var u=r,t=n.ns,f=n.delay||0;if(t&amp;&amp;t.length&gt;0){c(t);function e(){var i=new Date,n;r(),n=new Date,a(t,i,n)}u=e}f&gt;0?i(u,f):u()}}function a(n,t,i){var r,e;(f(),r=o(n),r)&amp;&amp;(e=i-t,(e&lt;0||i&lt;r.end||r.start&amp;&amp;t&lt;r.start)&amp;&amp;++u.numInvalid,r.actual+=e,r.start||(r.start=t),r.end=i)}function c(n){f(),o(n)}function d(n,t){f(),e[n]=t}var u={start:new Date,end:0,actual:0,numInvalid:0},r={},s=0,h=0,e=t._cm||{},v=600;n("onP1",function(){var r,i,n;for(t.register=c,t.schedule=l,t.complete=k,t.recordTimings=a,t.reportCustomMetric=d,i=t._ns||[];r=i.shift();)o(r);for(n=t._reg||[];n.length&gt;0;)l(n.shift());f()},1)})(sj_evt.bind,sched,sb_st);function wpc_Inst(n,t,i){var r=sj_evt.bind,u=0,f=0;r&amp;&amp;n&amp;&amp;t&amp;&amp;i&amp;&amp;(r("RMS.ImgAOLInit",function(){n.register(i)},1),r("RMS.ImgAOLCompleted",function(){n.schedule({task:function(){n.recordTimings(i,u,f),n.complete(i)}})},1),r("RMS.ImgAOLLoaded",function(n){var i,e,r;n.length&lt;2||(i=n[1],i&amp;&amp;i.state==="success")&amp;&amp;(e=i.image,e&amp;&amp;sj_we(e,t))&amp;&amp;(r=i.timeStamp,u===0&amp;&amp;(u=r),r&gt;f&amp;&amp;(f=r))},1))};new wpc_Inst(sched,_ge("b_context"),"TP");var fbpkgiid = fbpkgiid || {};fbpkgiid.page = 'SERP.5144';;var Feedback;(function(n){(function(){var t=_ge("sb_feedback");t!==null&amp;&amp;sj_be(t,"click",function(n){sj_jb("Feedback/Core",!0),sj_sp(n),function t(){var n={page:!0};if(typeof feedback=="undefined"||typeof jQuery=="undefined"){sb_st(t,50);return}feedback.core.load(n)}()})})(n.Footer||(n.Footer={}));var t=n.Footer})(Feedback||(Feedback={}));sf_fbCfg={sId:"6",wt:100};sj_evt.bind("xd:fba:checkbar",function(n){var t,i;n&amp;&amp;n.length&gt;=2&amp;&amp;(t=sj_ce("iframe"),t.id="sw_tfbbi",i=_ge("sw_tfbb"),i&amp;&amp;(t.height="0",t.scrolling=t.frameBorder="no",t.src="/fd/fb/b?fv="+_G.Ver+"#"+n[1],i.appendChild(t)))});sj_evt.bind("onP1",function(){var n=sj_ce("iframe");n.height=n.width=0,n.frameBorder=n.scrolling="no",sj_b.appendChild(n),n.src="/fd/fb/r?v="+_G.Ver+"&amp;sId="+sf_fbCfg.sId+(/&amp;testhooks=1/.test(location.search)?"&amp;testhooks=1":""),_w.logfb&amp;&amp;logfb("rr",+new Date)},1,_w.sf_fbCfg&amp;&amp;sf_fbCfg.wt?sf_fbCfg.wt:100);sa_config={"u":"%2fAS%2fSuggestions%3fpt%3dpage.serp%26bq%3dsite%253aamazon.com%2b9780634060793%26qry%3d","mkt":"en-US","f":"sb_form","i":"sb_form_q","c":"sw_as","sid":"CCBDE48CA08549A585EE6C7D52D429FC","asf":1,"ePN":1,"gqs":1,"t":1,"eHS":1,"eHC":1,"d":100,"SCT":1500};sa_loc={"PE":"See Bing results for"};;var sa_eL=!1,sj_evas,sj_etas,_iframeWindow;if(function(){function e(t,i,r,f){t&amp;&amp;sj_ue(t,i,e),sa_eL=sa_eL||n.eAI?r&amp;&amp;f.keyCode!==27:r,u||(u=!0,sa_loader())}function r(n,t,i){sj_be(n,t,function(r){e(n,t,i,sj_ev(r))})}var f=_ge("sa_qs"),n,t,i,u;f.value="bs",n=sa_config,t=_ge(n.i),t.setAttribute("autocomplete","off"),i=_ge(n.c),i||(i=sj_ce("div"),i.id=n.c,f.parentNode.appendChild(i)),u=!1,r(t,"click",!0),r(t,"keydown",!0),n.eAI&amp;&amp;r(t,"keyup",!0),n.ol&amp;&amp;r(_w,"load")}(),sj_evas=sj_ev,sj_etas=sj_et,sa_config.ic&amp;&amp;sb_ie){function getIframeWindow(){return _iframeWindow||(_iframeWindow=_ge("sa_con").contentWindow),_iframeWindow}sj_evas=function(){return getIframeWindow().event},sj_etas=function(){var n=getIframeWindow().event;return n?n.srcElement:null}};var bepcfg = bepcfg || {};bepcfg.wb = '1';;sj_evt.bind("onP1", function(){c=sj_cook.set;var t=_ge('id_rc');if(o=_ge('id_r')){o.style.display='block';}if(t)t.innerHTML='1';c('_SS','R','1',0,'/');f=_w.top!==_w.self;f&amp;&amp;c('_SS','F',f,0,'/');sj_evt.bind("bepready",function(args){args[1]('2');},1);}, 1, 0);;
+//]]&gt;
+//]]>
+    </script> 
+ <object width="0" height="0" data="/sa/0908050953/vb_c.js" class=" fftheme_141  xmoztheme "></object> 
+ <object width="0" height="0" data="/s/as/1126025738/SegmentFilters/Blue/DropDown_c.js" class=" fftheme_142  xmoztheme "></object> 
+ <object width="0" height="0" data="/sa/0928184849/blue/WebResultToolbox.js" class=" fftheme_143  xmoztheme "></object> 
+ <object width="0" height="0" data="/s/as/1220220912/Rewards/RewardsNcHeaderBootstrap_c.js" class=" fftheme_144  xmoztheme "></object> 
+ <script type="text/javascript" data-rms="1" src="/sa/0908050953/vb_c.js" class=" fftheme_145  xmoztheme ">
+    </script> 
+ <script type="text/javascript" data-rms="1" class=" fftheme_146  xmoztheme ">
+//<![CDATA[
+//&lt;![CDATA[
+(function(n,t){if(t){var i=!1,r=function(){if(!i&amp;&amp;(i=!0,_G.AppVer)){var n=sj_ce("script");n.src="/s/as/"+_G.AppVer+"/Identity/WindowsLiveConnect_c.js",sj_b.appendChild(n)}};n.bind("onP1",function(){var i=setTimeout(r,t);n.bind("fb:connecting",function(){clearTimeout(i),n.bind("fb:connected",r,1)},1)},1)}})(sj_evt,wlc_d);var wln;;
+//]]&gt;
+//]]>
+    </script> 
+ <script type="text/javascript" data-rms="1" src="/s/as/1126025738/SegmentFilters/Blue/DropDown_c.js" class=" fftheme_147  xmoztheme ">
+    </script> 
+ <script type="text/javascript" data-rms="1" src="/sa/0928184849/blue/WebResultToolbox.js" class=" fftheme_148  xmoztheme ">
+    </script> 
+ <script type="text/javascript" data-rms="1" src="/s/as/1220220912/Rewards/RewardsNcHeaderBootstrap_c.js" class=" fftheme_149  xmoztheme ">
+    </script> 
+ <iframe width="0" height="0" frameborder="no" scrolling="no" src="/fd/fb/r?v=9_00_0_3154553&amp;sId=6" class=" fftheme_150  xmoztheme "> </iframe> 
+ <div class=" fftheme_151  xmoztheme "> 
+ </div> 
+ <script src="/s/as/8_01_1_3165997/Identity/WindowsLiveConnect_c.js" class=" fftheme_152  xmoztheme ">
+    </script> 
+ <iframe style="display: none;" src="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=11&amp;ct=1407798623&amp;rver=6.0.5286.0&amp;wp=MBI&amp;wreply=https:%2F%2fwww.bing.com%2Fsecure%2FPassport.aspx%3Fpopup%3D1%26ssl%3D1&amp;lc=1033&amp;id=264960&amp;checkda=1" class=" fftheme_153  xmoztheme "> </iframe>   
+</body>

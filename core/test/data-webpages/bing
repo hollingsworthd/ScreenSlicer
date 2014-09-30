@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:web="http://schemas.live.com/Web/">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+    <script type="text/javascript">
+//<![CDATA[
+si_ST=new Date
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+window.onerror||(window.onerror=function(n,t,i){var r="";r=typeof n=="object"&&n.srcElement&&n.srcElement.src?"\"ScriptSrc = '"+escape(n.srcElement.src.replace(/'/g,""))+"'\"":'"'+escape(n.replace(/"/g,""))+'","Meta":"'+escape(t)+'","Line":'+i,(new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"CI.Error","FID":"CI","Name":"JSError","Text":'+r+"}]",typeof sj_evt!="undefined"&&sj_evt.fire("ErrorInstrumentation",r)});_G={ST:(si_ST?si_ST:new Date),Mkt:"en-US",RTL:false,Ver:"9_00_0_2400694",IG:"2ac17b6bc9b74b32a052bba76bab1583",EventID:"59af45966ba448919ce19941489a7b5e",MN:"SERP",V:"web",P:"SERP",DA:"SJCv2",CID:"0F7A382207A269363B883D9506B16917",SUIH:"b4Ouq3aoHpYYRMPuPCxdHA",PCId:"1",cUrl:"http:\/\/c.bing.com\/c.gif?DI=15074",akamaiSyncUrl:"http:\/\/cms.abmr.net\/pix?cid=1237&amp;uid=",gpUrl:"\/fd\/ls\/GLinkPing.aspx?"};_G.lsUrl="/fd/ls/l?IG="+_G.IG+"&CID="+_G.CID+"&PM=Y";curUrl="http:\/\/www.bing.com\/search";function si_T(a){if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+'IG='+_G.IG+'&CID='+_G.CID+'&PM=Y'+'&'+a;}return true;};
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+function si_sendCReq(){try{for(var t=0,n=_w;n!=n.parent&&t<10;){if(n.parent.location.hostname==_w.location.hostname)return;n=n.parent,t++}}catch(i){}_G.muidI=new Image,_G.muidI.onload=function(){var r=_d.cookie,t,n,i;return/\bTUID\b/i.test(r)?1:(_G.muidI2=new Image,_G.muidI2.src=_G.gpUrl+"CM=TMF&IG="+_G.IG+(_G.CID?"&CID="+_G.CID:""),t="MUID",n=sj_cook.get(t),n&&(i=n.substring(t.length+1),_G.muidI3=new Image,_G.muidI3.src=_G.akamaiSyncUrl.replace(/&amp;/g,"&")+i),1)},_G.muidI.src=_G.cUrl};
+//]]>
+    </script>
+    <title>
+      ibm - Bing
+    </title>
+    <link href="/search?format=rss&amp;q=ibm&amp;qs=ds&amp;form=QBLH" rel="alternate" title="XML" type="text/xml"/>
+    <link href="/search?format=rss&amp;q=ibm&amp;qs=ds&amp;form=QBLH" rel="alternate" title="RSS" type="application/rss+xml"/>
+    <link href="/s/a/bing_p.ico" rel="icon"/>
+    <style type="text/css">
+      .sw_ddbl,.sw_ddbk,.sw_ddw,.sw_ddgy,.sw_ddgn,.sw_poi,.sw_poia,.sw_play,.sw_playh,.sw_playa,.sw_playd,.sw_playp,.sw_st,.sw_sth,.sw_ste,.sw_st2,.sw_sth2,.sw_plus,.sw_minus,.sw_tpcg,.sw_tpcbl,.sw_tpcw,.sw_tpcbk,.sw_arw,.sw_arwh,.sb_pagN,.sb_pagP,.sw_up,.sw_down,.sw_calc,.sw_fbarw,.sw_fbtmb,.sw_twr,.sw_twrt,.sw_twf,.b_fLogo,.b_cm,.sw_rmore,.sw_tpo,.sw_tpoa,.sw_tpoh{background-image:url(/sa/simg/sw_mg_l_4c_lg.png);background-repeat:no-repeat}.sw_play,.sw_playh,.sw_playa,.sw_playd,.sw_playp{background-position:-315px -22px;height:16px;width:16px}.sw_playh,.sw_playa{background-position:-333px -22px}.sw_playd{background-position:-351px -22px}.sw_playp{background-position:-369px -22px}.sw_st,.sw_sth,.sw_ste,.sw_st2,.sw_sth2{background-position:-538px -30px;height:12px;width:12px;display:inline-block}.sw_st2{background-position:-566px -30px}.sw_sth{background-position:-580px -30px}.sw_sth2{background-position:-594px -30px}.sw_ste{background-position:-552px -30px}.sw_arw,.sw_arwh,.ccmc:hover .sw_arwh{background-position:-474px -31px;height:11px;width:14px}.sw_arwh,.ccmc:active .sw_arwh{background-position:-458px -31px}.sw_ddbl,.sw_ddbk,.sw_ddw,.sw_ddgy,.sw_ddgn{background-position:-265px -32px;height:4px;width:7px}.sw_ddgn{background-position:-256px -32px}.sw_tpcg,.sw_tpcbl,.sw_tpcw,.sw_tpcbk{background-position:-176px -32px;height:10px;width:10px}.sw_tpcg:hover,.sw_tpcg:active,.sw_tpcg:focus,.sw_tpcbl{background-position:-188px -32px}.sw_plus{background-position:-276px -32px;height:8px;width:8px}.sw_plus:hover,.sw_plus:active,.sw_plus:focus{background-position:-286px -32px}.sw_minus{background-position:-256px -38px;height:2px;width:8px}.sw_minus:hover,.sw_minus:active,.sw_minus:focus{background-position:-266px -38px}.sb_pagP,.sb_pagN{background-position:-233px 0;height:30px;width:30px}.sb_pagP:hover,.sb_pagP:active,.sb_pagP:focus{background-position:-265px 0}.sb_pagN{background-position:-169px 0}.sb_pagN:hover,.sb_pagN:active,.sb_pagN:focus{background-position:-201px 0}.sw_up,.sw_down{background-position:-200px -32px;height:8px;width:12px}.sw_down{background-position:-228px -32px}*:hover&gt;.sw_up,*:active&gt;.sw_up,*:focus&gt;.sw_up{background-position:-214px -32px}*:hover&gt;.sw_down,*:active&gt;.sw_down,*:focus&gt;.sw_down{background-position:-242px -32px}.b_icon,.sw_poi,.sw_poia{width:20px;height:20px}.sw_poi{background-position:-297px 0}.sw_poia{background-position:-319px 0}.b_fLogo{background-position:-402px 0;height:16px;width:81px}.b_cm{background-position:-444px -32px;height:10px;width:12px}.sw_calc{background-position:-363px 0;height:19px;width:19px}.sw_fbarw,.sw_fbtmb,.sw_twr,.sw_twrt,.sw_twf{background-position:-169px -32px;height:16px;width:16px;display:inline-block}.sw_fbtmb{background-position:-151px -22px}.sw_twr{background-position:-574px -17px;height:11px;width:14px}.sw_twr:hover,.sw_twr:active,.sw_twr:focus{background-position:-590px -17px}.sw_twrt{background-position:-538px -18px;height:10px;width:16px}.sw_twrt:hover,.sw_twrt:active,.sw_twrt:focus{background-position:-556px -18px}.sw_twf,.sw_pipp:hover,.sw_pipp:active,.sw_pipp:focus{background-position:-508px -18px;height:13px;width:13px}.sw_twf:hover,.sw_twf:active,.sw_twf:focus{background-position:-523px -18px}.b_externalSearch&gt;input.b_searchboxSubmit{background-position:-147px 0}.sw_pil{background-position:-405px -18px;height:16px;width:12px}.sw_pil:hover,.sw_pil:active,.sw_pil:focus{background-position:-419px -18px}.sw_pifa{background-position:-433px -18px;height:12px;width:12px}.sw_pifa:hover,.sw_pifa:active,.sw_pifa:focus{background-position:-447px -18px}.sw_pit{background-position:-461px -18px;height:11px;width:14px}.sw_pit:hover,.sw_pit:active,.sw_pit:focus{background-position:-477px -18px}.sw_pipp{background-position:-493px -18px;height:13px;width:13px}.sw_tpo,.sw_tpoh,.sw_tpoa{height:12px;width:8px;background-position:-127px -25px}.exp_th .sw_tpoh{background-position:-137px -25px}.exp_ta .sw_tpoh{background-position:-127px -25px}.sw_rmore{background-position:-117px -25px;height:12px;width:8px}html,body #b_results .b_no{background-color:#fff}.b_footer{background-color:#333}#b_results&gt;li a{color:#1020d0}#b_results&gt;li a:visited{color:#600090}#b_results&gt;li{background-color:#fff}#b_results&gt;.b_ad{color:#303030;background-color:#f9fcf7}#b_results&gt;.b_ad a{color:#1020b0}#b_results&gt;.b_ad a:visited{color:#6010d0}#b_results&gt;.b_pag{background-color:transparent}#b_results&gt;.b_pag a:hover{background-color:#f4f4f4}#b_results&gt;.b_pag a.sb_pagP:hover,#b_results&gt;.b_pag a.sb_pagN:hover{background-color:inherit}#b_context .b_ans,#b_context #wpc_ag{background-color:#f9f9f9}#b_context&gt;li.b_ad{color:#404040;background-color:#f9f9f9}#b_context&gt;li.b_ad a{color:#1020b0}#b_context&gt;li.b_ad a:visited{color:#6010d0}.ccmc{background-color:#ccc}.ccmc:active{background-color:#36b}#b_tween .b_selected,#b_tween a.ftrH.b_selected:hover{background:#e1e0df}#b_tween .b_toggle:hover,#b_tween .ftrH:hover{background:#f2f2f2}.b_scroll{background:#999;border-color:#999}.b_scroll:hover{background:#4d4d4d}.b_dropdown{background-color:#fff;border-color:#e5e5e5}.cbtn,.cbtn input{background:#fff;color:#1020d0;border-color:#ccc}.cbtn:hover,.cbtn input:hover{background-color:#1020d0;color:#fff;border-color:#1020d0}.cbtn:focus,.cbtn:active,.cbtn input:focus,.cbtn input:active{background:#666;color:#fff;border-color:#666}.wr_tc .cbtn{background:#f4f4f4;color:#1020d0;border:0}#b_results .wr_tc .cbtn:hover,#b_results .wr_tc .cbtn:focus,#b_results .wr_tc .cbtn:active{background:#1020d0;color:#fff}.cbtn.b_highlighted,.cbtn.b_highlighted input{background:#1020d0;color:#fff;border:0}.cbtn.b_highlighted:hover,.cbtn.b_highlighted input:hover{background-color:aqua}.cbtn.b_highlighted:focus,.cbtn.b_highlighted:active,.cbtn.b_highlighted input:focus,.cbtn.b_highlighted input:active{background:#666}.ctxt,.ctxtb,.csel,.sic{border:1px solid #bbb}.ccal .ccali{border:1px solid #bbb;background-color:#fff}form.b_externalSearch{border:1px solid #bbb;background-color:#fff}.b_externalSearch&gt;.b_searchboxSubmit{background-color:#fff}.ctxtb,.b_externalSearch input{color:#ccc}.b_externalSearch input:focus,.b_externalSearch input:active{color:#000}a,#b_tween a:visited,#b_results .b_no a{color:#1020d0}a:visited,#b_results&gt;li a:visited,#sb_feedback:visited{color:#600090}#b_context a,.b_expando a{color:#1020d0}#b_context .b_ans a:visited,.b_expando .b_ans a:visited{color:#600090}cite,#b_results cite.sb_crmb a{color:#009030}.b_posText{color:#390}.b_negText{color:#d90026}#b_context cite,#b_context cite a,.b_expando cite,.b_expando cite a{color:#009030}#b_context .b_posText,.b_expando .b_posText{color:#390}#b_context .b_negText,.b_expando .b_negText{color:#d90026}.b_ad .b_attribution,.b_ad cite,#b_results .b_ad cite.sbcrmb a{color:#008030}body,#b_tween a.ftrH,#b_tween a.ftrH:hover,#b_context,#b_context .b_defaultText,.b_expando,.b_expando h2,.b_expando h3,.b_expando h4,.b_expando .b_defaultText,.b_active a,.b_active a:visited,.b_active a:hover,.b_beta,#b_results&gt;.b_pag a,#b_results .b_no{color:#404040}#b_results,#b_results .b_defaultText,#b_results&gt;.b_pag a:hover,#b_tween .b_selected,#b_tween a.ftrH.b_selected,#b_tween a.ftrH.b_selected:hover,#b_tween .b_toggle:hover,#b_tween .b_highlighted,#hlcchcxmn label{color:#404040}.b_alert,.sb_alert,.b_pAlt,#b_results .b_no .b_alert,#b_results .b_no .sb_alert,#b_results .b_no .b_pAlt{color:#d90026}#b_results .b_alert,#b_results .sb_alert,#b_results .b_pAlt{color:#d90026}#b_context .b_alert,#b_context .sb_alert,#b_context .b_pAlt{color:#d90026}.b_secondaryText,.b_attribution,.b_factrow,.b_credit,.b_ad h3,#b_tween .b_dropdown a,.b_expando .b_subModule,.b_expando .b_suppModule{color:#606060}.b_footer{color:#fff}.b_footer a,.b_footer a:visited,.b_footer span{color:#777}#sb_feedback{color:#6cc1e9}#b_context .b_secondaryText,#b_context .b_attribution,#b_context .b_factrow,#b_context .b_credit,#b_context .b_ad h3,.b_expando .b_secondaryText,.b_expando .b_attribution,.b_expando .b_factrow,.b_expando .b_credit,#b_tween .b_nonselectable{color:#606060}#b_context .b_mhdr:hover .b_secondaryText,.b_expando .b_mhdr:hover .b_secondaryText{color:#36b}.b_button:hover,.b_button:visited,.b_hlButton,.b_hlButton:hover,.b_hlButton:visited,.b_foregroundText,.ciot{color:#fff}.ciot{background-color:#000}.b_button:hover,.b_hlButton{background-color:#0072c5}.b_button:active,.b_hlButton:active{background-color:#333}.b_hlButton:hover{background-color:aqua}.b_border,.b_button,.b_hlButton{border-color:#ccc}.b_pag a{border:3px solid transparent}.b_pag .sb_pagS{border-color:#ededed}#b_context .b_subModule,.b_expando .b_subModule{border-bottom:1px solid #bbb}.c_tlbx,.c_tlbxIS{border-color:#999;background:#fff}.sw_poi{color:#fff}.sw_poia{color:#fff}.sc_errorArea&gt;.sc_error,.sc_errorArea&gt;.sc_error h1,.sc_errorArea&gt;.sc_error h3{color:#404040}.sc_errorArea font[color=red]{color:#d90026!important}#sw_footL&gt;li a#sb_feedback{color:#1020d0}html,body,h1,h2,h3,h4,h5,h6,p,img,ol,ul,li,form,table,tr,th,td{border:0;border-collapse:collapse;border-spacing:0;list-style:none;margin:0;padding:0}html{overflow-y:scroll}#b_content{clear:both;min-height:344px;padding:0 0 20px 100px}#b_pole{margin:3px 0 15px -100px;padding-left:120px}#b_results{display:inline-block;width:560px}#b_context{display:inline-block;vertical-align:top;margin:0 0 0 30px;padding:0 20px}#b_context .b_ans,.b_expando .b_ans,#b_context .b_ad,.b_card{margin:0 -20px}#b_context .b_ans,.b_expando .b_ans{padding:10px 20px 0}#b_context .b_ad{padding:10px 20px}.b_card{padding:15px 20px}.b_hPanel .b_xlText,.b_hPanel .cico,.b_moreLink,.cbtn,.lc_bks,.lc_bkl,.fiw,.csrc,.b_credit .cico,.b_algo .b_title H2,.b_algo .b_title div,h3{display:inline-block}.b_credit .cico{vertical-align:middle;padding-left:10px}.b_pointer{cursor:pointer}a.b_sqTextBx,a.b_sqIconBx,.fiw label,.lc_bkl label,.b_ad h3{display:block}#b_tween{padding-left:20px;margin-top:-42px}#b_tween&gt;span{display:inline-block;padding-right:25px}#b_results&gt;li{padding:10px 20px;margin:0 0 2px}#b_results&gt;.b_ans{padding-bottom:0}#b_results&gt;.b_algo{padding-bottom:0}#b_results&gt;.b_ad{padding-bottom:0;padding-right:18px;border-right:2px solid #e5e5e5}#b_results&gt;.b_pag{padding:18px 0 40px 20px}#b_results&gt;.si_pp,.sb_hbop,.b_hide,.ttl,#sw_tfbb,.sw_next,.sw_prev,#id_d,.b_hidden img{display:none}.b_hidden{visibility:hidden}#b_context .b_ans,.b_expando .b_ans{margin-bottom:5px}#b_context .b_ad{margin-bottom:5px}.b_inlineList li,.b_inlineList div,.b_factrow li{display:inline}.b_hList&gt;li{display:inline-block;vertical-align:top}.b_footer{float:left;width:100%}.c_tlbxTrg{display:inline-block;width:15px;height:14px;margin:-1px 6px -3px 2px}.c_tlbxTrgIcn{margin:4px 0 2px 3px;display:block}.c_tlbx{position:absolute;z-index:6;border:1px solid;padding:10px}.c_tlbxIS{border-bottom:1px solid}.b_deep ul{width:230px;padding-bottom:5px}#b_results .b_gridList ul{width:250px}.b_gridList ul:first-child,.b_vlist2col ul:first-child{margin:0 20px 0 0}.b_gridList li,.b_vlist2col li{padding:0 0 10px}.b_vlist2col.b_deep li{padding:0 0 10px}.b_overhangR .b_vlist2col ul:first-child{margin:0 15px 0 0}.b_overhangR .b_vlist2col ul{width:180px}.b_deep p{height:33px;overflow:hidden}.b_hPanel&gt;span{display:inline-block;padding-right:5px}#b_context .b_ad h3,#b_content .b_expanderControl .sw_plus{margin-bottom:10px}.b_ad li,#b_results .b_ad h3{margin-bottom:8px}.b_ad li:last-child{margin-bottom:0}.b_ad li li,.b_ad li li:last-child{margin:0}#b_results .b_ad .b_caption+*{margin-top:-6px}.sx_ci{border:1px solid #e5e5e5;margin-top:3px;width:80px;height:60px}.b_favicon{margin:0 .5em 0 0;vertical-align:middle}.imgpair:after,.b_vlist2col:after,.b_gridList:after{clear:left}.imgpair.reverse:after,.b_overhangR:after{clear:right}.b_clear,#b_results&gt;li:after,.b_clearfix:after{clear:both}#b_results&gt;li:after,.b_clearfix:after,.imgpair:after,.b_vlist2col:after,.b_gridList:after,.b_overhangR:after{content:'.';display:block;height:0;visibility:hidden}.b_vlist2col ul,.b_gridList ul,.b_float,.b_pag li,.b_mhdr h2{float:left}.b_floatR,.wr_tc{float:right}.b_overflow,.b_clearfix,.b_hList li{overflow:hidden}.b_float_img{float:left;padding-right:10px;padding-bottom:10px}.b_vList .b_float_img,.b_float_img .b_credit{padding-bottom:0}.b_floatR_img{float:right;padding-left:10px}.b_ansImage{padding:2px 10px 0 0}.b_creditedImg&gt;img,.b_float_img img,.b_floatR_img img,.b_xsmBottom{padding-bottom:1px}.b_smBottom,#b_context .b_ad h2,.b_attribution,.b_factrow,.b_snippet{padding-bottom:2px}h2,.b_deep h3{padding-bottom:3px}.b_vPanel .b_vPanel&gt;div,.b_vList .b_vPanel&gt;div,.b_dataList li,.b_mBottom{padding-bottom:5px}.b_lBottom,.b_caption,.b_moreLink,.b_credit,.b_vList&gt;li,.b_hList&gt;li,.b_dList,.b_vPanel&gt;div,#b_context h2,#b_results .b_ad .b_factrow,.b_expando h2,.b_no h1,.b_no h4,.b_no li,.ht_module,.b_locStr{padding-bottom:10px}.b_xlBottom{padding-bottom:20px}#sp_requery h2,.b_vList .b_hList&gt;li,.b_vPanel .b_hList&gt;li,.b_caption .b_factrow:last-child,.b_vList .b_factrow,.b_vPanel .b_factrow,#b_content .ht_module h2{padding-bottom:0}.b_vList .b_vPanel,.b_vPanel .b_vPanel{margin-bottom:-5px}.ht_module .sc_rf form.lc_bk,.b_mBMargin{margin-bottom:5px}.sc_rf form,form.sc_rf,.b_lBMargin{margin-bottom:10px}#b_results .b_no{margin-bottom:80px}h2+.b_rich{padding-top:2px}.b_attribution+.b_rich{padding-top:3px}.b_xsmLeft{padding-left:1px}.b_smLeft{padding-left:2px}.b_mLeft{padding-left:5px}.b_lLeft,.b_suffix{padding-left:10px}.wr_tc,.b_xlLeft,.b_dList,.b_deep{padding-left:20px}.b_xsmRight,.b_mes&gt;.b_hList&gt;li{padding-right:1px}.b_smRight{padding-right:2px}.fiw,.lc_bkl,.b_mRight{padding-right:5px}.b_lRight,.b_hList&gt;li,.b_mes .imgData{padding-right:10px}.b_xlRight,.b_hList.b_touchable&gt;li{padding-right:20px}.b_mes&gt;.b_hList&gt;li:last-child,.b_hList&gt;li:last-child,.b_hList.b_touchable&gt;li:last-child{padding-right:0}.b_twoColumn&gt;div:first-child{padding-right:30px}.b_overhangR{margin-right:-30px;padding-right:150px}.wr_tc{margin-right:-150px}.wr_et{margin-right:-120px}.b_tbl{margin-right:-10px}.b_border,.b_button,.b_hlButton,.cbtn{border-width:1px;border-style:solid}.b_button,.b_hlButton,a.cbtn,.cbtn input{line-height:30px;text-decoration:none;text-align:center;cursor:pointer;padding:0 15px;min-width:50px}.wr_tc a.cbtn{line-height:36px}.cbtn input{border:0;height:30px;vertical-align:middle}.wr_tc .cbtn input{height:36px}.cbtn input::-moz-focus-inner{padding:0;border:0}.lc_bks .cbtn{margin-top:15px}#b_context .b_subModule,.b_expando .b_subModule{padding-bottom:0;margin-bottom:10px}.b_dropdown{position:absolute;border-width:1px;border-style:solid;z-index:6}.b_scroll{position:relative;top:0;border-width:1px;border-style:solid;width:5px;height:20px}.b_pag a{display:block;min-width:34px;margin-right:10px;text-align:center;height:34px;line-height:34px}.b_pag a.sb_pagN,.b_pag a.sb_pagP{min-width:0;height:30px;border:0;margin-top:5px}.b_pag .sw_prev,.b_pag .sw_next{margin:2px}.b_mhdr{margin:-15px 0 -5px;padding:15px 0 5px}.b_suppModule .b_mhdr{margin-bottom:0;padding-bottom:0}.b_mhdr .sw_up,.b_mhdr .sw_down{margin-top:5px}.b_mhdr .b_secondaryText{margin-top:3px}.b_suppModule .b_mhdr{margin-bottom:0}.csrc{padding-right:5px}.b_rTxt{text-align:right}table{width:100%;word-wrap:break-word}td,th{padding:0 10px 10px 0;vertical-align:top}td:last-child{padding-right:0}th{text-align:left}.sw_poi,.sw_poia{float:left;margin:-3px 5px 0 0;line-height:20px;text-align:center}.b_dList li{list-style-type:decimal}label{padding-bottom:3px}.ctxt,.ctxtb{padding:5px 15px;margin:0;height:20px}.ctxt.b_lFocusText,.ctxtb.b_lFocusText{height:58px}input.ctxt,.ccal input,.ccal .ccali{vertical-align:middle}.ccal .ctxt{border-right-width:0}.ccal .ccali{display:inline-block;height:30px;border-left:0}.ccal .ccalp{padding:5px 5px 0 5px}form.b_externalSearch{margin-left:20px;margin-bottom:10px;margin-right:20px}.b_externalSearch input{border:0;height:40px;font-size:13px;margin-left:10px;outline:none;padding:0}.b_externalSearch .ctxt,.b_externalSearch .ctxtb{border-right-width:0}.b_externalSearch&gt;.b_searchboxSubmit{height:20px;width:20px;margin-top:10px;margin-right:10px;float:right;background-position:-104px 0}.b_underSearchbox{margin:-35px 20px 40px}.b_underSearchbox .b_label{padding-right:10px}.b_underSearchbox .b_hList&gt;li{padding:0 8px 0 0}.b_compactSearch label{float:left;margin:7px 10px 0 0}.b_compactSearch input{margin-right:0;float:left}.b_compactSearch .cbtn{border-left:none}.b_footer table{width:520px;margin:15px 20px 0 120px;display:inline-block}.b_footer th,.b_footer td{width:173px;padding-bottom:10px}.b_footerRight{display:inline-block;vertical-align:top;margin:13px 0 0 70px}.b_fLogo{margin-bottom:13px}.b_label{padding-right:5px}.b_label+.b_hList{display:inline-block}.b_1linetrunc{text-overflow:ellipsis;overflow:hidden;white-space:nowrap}div.cico.b_capImg{padding-bottom:4px}.b_imageOverlayWrapper{margin:-20px 0 0;height:20px;overflow:hidden}.b_imageOverlay{color:#fff;background-color:#000;padding:5px}.b_sqTextBx,a.b_sqIconBx,div.b_sqIconBx{background-color:#ccc;border:17px solid #ccc;color:#777;overflow:hidden;text-align:center;width:16px;height:16px}.b_sqTextBx{border-width:17px 10px;width:30px;line-height:16px}.b_sqIconBx.square_xs{border-width:7px}.b_sqTextBx.square_xs{width:26px;border-width:7px 2px}.ansP,.ansPF{padding-left:30px}.ansP .wpc_pin,.ansPF .wpc_pin{margin-left:-30px}.csel,.sic{padding:5px 10px 5px 5px;margin:0;height:32px}.wpcbcc{margin-bottom:5px}#b_context .rssmgrp .b_subModule{border-bottom:0}input,textarea,h4,h5{font:inherit;font-size:100%}body,.b_no h4,.b_sqTextBx,h2 span{font:13px/normal Arial,Helvetica,Sans-Serif}h1,h2,h3{font:13px/200 'Segoe UI',Arial,Helvetica,Sans-Serif;line-height:1.2em}h2,h3,.b_no h1{font-size:18px}cite{font-style:normal;word-wrap:break-word}th{font-weight:normal}.sb_alert a,#sp_requery a{font-style:italic}#b_content,#b_context,.b_expando{line-height:1.2em}#b_context,.b_expando,#vidans2{word-wrap:break-word}#sa_ul li,.nowrap{white-space:nowrap}.b_footer{line-height:18px}.b_smText,.b_credit,.b_imageOverlay,.ciot{font:11px/normal Arial,Helvetica,Sans-Serif}.b_ad h3,.b_ad h3 strong{font:12px/normal Arial,Helvetica,Sans-Serif}.b_lText{font:18px/normal 'Segoe UI',Arial,Helvetica,Sans-Serif;line-height:1.2em}.b_xlText{font:24px/normal 'Segoe UI',Arial,Helvetica,Sans-Serif;line-height:1.2em}.b_xxlText{font:32px/normal 'Segoe UI Light',Arial,Helvetica,Sans-Serif;line-height:1.2em}.b_xlFocusText{font:60px/normal 'Segoe UI Light',Arial,Helvetica,Sans-Serif;line-height:1.2em}.b_lFocusText{font:40px/normal 'Segoe UI Light',Arial,Helvetica,Sans-Serif;line-height:1.2em}strong,.b_active a,.b_no h4,.b_strong,.cbtn,.b_ad h3 strong{font-weight:700}h1 strong,h2 strong,h3 strong,.b_xlText strong,.b_xxlText strong{font-family:'Segoe UI Semibold',Arial,Helvetica,Sans-Serif;font-weight:200}#b_tween&gt;span{line-height:42px}#b_tween{font-size:12px}.sb_count{text-transform:uppercase}.b_pag a,.b_pag a:hover,.ftrB a,.ftrB a:hover,.cbtn,.cbtn:hover,.cbtn:focus,.cbtn:active,.cbtn input,.cbtn input:focus,.cbtn input:active,.b_button:hover,.b_hlButton:hover,#sp_requery h2 a{text-decoration:none}#sp_requery h2 a:hover,.b_deep h3 a,#b_results li h5 a{text-decoration:underline}.b_hList{margin-right:-10px}.imgpair .imgpair{overflow:hidden}.imgpair .imgpair .sw_poi,.imgpair .imgpair .sw_poia{margin-top:0}.b_underSearchbox .b_hList{vertical-align:text-top}#b_notificationContainer.crr .image.left,#b_notificationContainer.crr .content.right{margin-bottom:-10px}.sw_meIc,.sw_spd,.sw_spr,.sw_pref,.b_logo,.b_scopebarWindows,.b_searchboxSubmit,.idp_fb,.idp_wlid,.idp_tw{background-image:url(/sa/simg/sw_mg_l_4c_lg.png);background-repeat:no-repeat}.b_scopebarWindows{background-position:-575px 0}.b_scopebarWindows:hover,.b_scopebarWindows:active,.b_scopebarWindows:focus{background-position:-592px 0}.b_searchboxSubmit{background-position:-97px 0}.b_focus .b_searchboxForm .b_searchboxSubmit{background-position:-122px 0;background-color:#ffb900;border-color:#ffb900}.sw_pref,.idp_fb,.idp_wlid,.idp_tw{background-position:-485px 0;height:16px;width:16px}.sw_pref:hover,.sw_pref:active,.sw_pref:focus{background-position:-503px 0}.idp_fb{background-position:-298px -22px}.idp_wlid{background-position:-384px 0}.idp_tw{background-position:-645px 0}.sw_meIc,.sw_spr,.img_rwds_sml{background-position:-521px 0;height:16px;width:16px}#spcv .sw_meIc{background-position:-557px 0}.gleamon .sw_meIc{background-position:-627px 0}.gleamoff .sw_meIc{background-position:-609px 0}.sw_spd{background-position:-341px 0;height:20px;width:20px}.b_logo{width:73px;height:29px;vertical-align:top;text-indent:-999px;float:right;margin-top:6px}.b_logo.b_animate{width:81px;height:60px;background-image:url('/s/a/b_logo_anim.png');background-position:0;margin:-9px 7px -5px 12px}.b_beta{position:absolute;top:98px;left:48px}#b_header .b_searchboxForm{padding:0 0 0 5px}#b_header .b_searchbox{margin-right:11px}.b_scopebar{background-color:#333}.b_searchboxForm .b_searchboxSubmit{background-color:#fff;border-color:#fff}.b_searchboxForm,.sa_as{background-color:#fff}.b_active a:after{border-color:#333;border-bottom-color:#fff}.b_searchboxForm{border-color:#999}.b_scopebar,.b_scopebar a,.b_scopebar a:visited,.id_button,.id_button:visited{color:#ccc}.id_button:hover,.b_idOpen a#id_l,a#bep.openfo{color:#333;background-color:#eee}.b_scopebar .b_active a,.b_scopebar a:hover{color:#fff}#sw_as{color:#999}.sa_tm strong{color:#404040}.sa_as{border-color:#999}.sa_hv{background:#f6f5f5}#bepfo{border-color:#eee;background-color:#fff}.b_idOpen #id_l{background-color:#eee}.wpc_bub a{color:#1020d0}.b_searchbox{background-color:transparent}.b_secondaryScope a,.b_secondaryScope a:visited{color:#ffb900;background-color:#444;text-transform:none;padding:0 30px}.b_secondaryScope a:hover{color:#fff;background-color:#777}#b_header{margin-bottom:42px}.b_scopebar{width:100%;height:40px;margin-bottom:10px}.b_scopebar ul{padding:0 0 0 105px}.b_scopebar li,.b_scopebar a,.b_logo,.b_searchboxForm,#id_h .id_button,.id_avatar,.rwds_bep_head{display:inline-block}.b_scopebar a{padding:0 15px}.b_active a,.b_searchboxForm{position:relative}.b_active a:after{content:" ";border-width:7px;border-style:solid;display:inline-block;position:absolute;left:50%;top:26px;margin:0 0 0 -7px}a.b_scopebarWindows{width:15px;height:15px;display:inline-block;padding:0;margin:0 15px -2px}.b_logoArea{width:90px;margin:-2px 10px 0 0;float:left}.b_searchboxForm{padding:0 5px;border-width:1px;border-style:solid}.b_searchbox{width:490px;margin:2px 0 3px 12px;border:0;padding:0 10px 0 0;max-height:30px;outline:none;-webkit-appearance:none;border-right:1px solid #ccc;box-sizing:content-box;z-index:1;position:relative;height:40px}.b_focus .b_searchbox{border:0}.b_searchboxSubmit{width:40px;height:35px;border-width:6px 8px 6px 9px;border-style:solid;text-indent:-99em;vertical-align:bottom}#b_header .b_searchbox{margin-right:0}.b_focus .b_searchboxForm{border-color:#999}#sw_as{display:none;width:auto;position:relative;z-index:6}.sa_as{border-width:0 1px 1px;border-style:solid;position:absolute;top:1px;display:none;width:100%}.sa_spell{margin-top:0;margin-left:16px}#sa_ul .sa_tm{margin-left:12px}.sa_sg{margin:0 5px}#sa_ul .sa_hd{margin-left:17px}.b_searchboxSubmit,.sa_sg{cursor:pointer}.sa_ghostbox{position:absolute;left:5px;z-index:-1}#id_h{display:none;position:absolute;top:0;width:300px;height:40px;text-align:right;z-index:1}#id_l,.id_button{padding:0 10px}.id_avatar{vertical-align:top;margin:10px 0 0 10px}.sw_meIc{margin-top:12px}.rwds_bep_head{vertical-align:top;margin:12px 0 0 6px}#bepfo{border-width:0 1px 1px 1px;border-style:solid}#bepfo,#bepfo iframe{width:372px;height:449px}#id_d,#bepfo{position:absolute;top:40px;left:35px;z-index:6;text-align:left;color:#333;background-color:#fff;border:1px solid #ccc;border-top-width:0;padding:11px 0 5px}.b_idOpen #id_d{display:block}#sw_tfbb,#id_d{display:none}.sw_pref{display:inline-block;margin:0 0 12px 10px;vertical-align:bottom}#b_tween{margin-top:-28px}#b_tween&gt;span{line-height:30px}#b_tween .ftrH{line-height:30px;height:30px}input{font:inherit;font-size:100%}.b_searchboxForm{font:18px/normal 'Segoe UI',Arial,Helvetica,Sans-Serif}.b_beta{font:11px/normal Arial,Helvetica,Sans-Serif}.b_scopebar,.id_button{line-height:40px}.sa_hd,.b_scopebar{text-transform:uppercase}h2 a,a:hover,.sa_hv{text-decoration:underline}a,#b_header a,#b_header a:hover,#id_h a,#id_h a:hover,.b_toggle,.b_toggle:hover{text-decoration:none}#sw_as strong{font-weight:200}#sa_ul,.pp_err,.pp_title,.pp_sEntInt,.pp_dNavInt{font:16px/normal 'Segoe UI',Arial,Helvetica,Sans-Serif}.sa_tm{line-height:30px}.sa_ec{font:13px Arial,Helvetica,Sans-Serif}#sa_ul .sa_hd{font-size:11px;line-height:16px}#sw_as strong,.pp_err span{font-family:'Segoe UI Semibold',Arial,Helvetica,Sans-Serif}.bepcnt{padding:0 0 1px 0}#b_context,.b_contextWidth{width:415px;}.sa_open .b_searchbox{width: 976px;}.b_poleContent{width:1005px;}#id_h{left: 845px;}body{min-width: 1150px;}.sa_ec{left: 493px;width: 550px;}.sa_se .sa_s,.sa_se .sa_sg{width: 483px;}.sa_se .sa_tm{max-width: 473px;}.sa_se .sa_pp .sa_tm{max-width: 429px;}.pp_1col{width: 545px;}.pp_2col{width: 270px;}.pp_3col{width: 178px;}
+    </style>
+    <script type="text/javascript">
+//<![CDATA[
+var amd,define,require;(function(n){function e(n,i,u){t[n]||(t[n]={dependencies:i,callback:u},r(n))}function r(){if(arguments.length==0){if(!f){for(var n in t)u(n);f=!0}return i}if(arguments.length==1)return u(arguments[0])}function u(n){var s,e;if(i[n])return i[n];if(t.hasOwnProperty(n)){var h=t[n],f=h.dependencies,l=h.callback,a=r,o={},c=[a,o];if(f.length<2)throw error("invalid usage");else if(f.length>2)for(s=f.slice(2,f.length),e=0;e<s.length;e++)c.push(u(s[e]));return l.apply(this,c),i[n]=o,o}}var t={},i={},f=!1;n.define=e,n.require=r})(amd||(amd={})),define=amd.define,require=amd.require;var _w=window,_d=document,_ge=function(n){return _d.getElementById(n)},sj_ce=function(n){return _d.createElement(n)},sb_st=function(n,t){return setTimeout(n,t)},sb_ct=function(n){clearTimeout(n)},sb_gt=function(){return+new Date},sb_ie=!!_w.ActiveXObject,sb_i6=sb_ie&&!_w.XMLHttpRequest,sj_gx=function(){return sb_i6?new ActiveXObject("MSXML2.XMLHTTP"):new XMLHttpRequest};_w.sk_merge||(_w.sk_merge=function(n){_d.cookie=n});define("fallback",["require","exports"],function(n,t){function f(){return function(){for(var t=[],i,n=0;n<arguments.length-0;n++)t[n]=arguments[n+0];i=e(arguments.callee),t=[].slice.call(arguments),t[0]==="onPP"&&o(),i.push(t)}}function e(n){for(var t in i)if(i[t].h===n)return i[t].q}function u(n,t){for(var e=n.split("."),i=_w,u,r=0;r<e.length;r++)u=e[r],typeof i[u]=="undefined"&&t&&(i[u]=r===e.length-1?f():{}),i=i[u];return i}function o(){var e=i["rms.js"].q,o,f,t,n,r,u;if(e.length>0)for(o=!1,f=0;f<e.length;f++){for(t=e[f],n=0;n<t.length;n++)if(r=t[n]["A:Shared.Bundle"],r||(r=t[n]["A:rmsBu0"]),r){u=_d.createElement("script"),u.setAttribute("data-rms","1"),u.src=r,u.type="text/javascript",setTimeout(function(){_d.body.appendChild(u)},0),t.splice(n,1),o=!0;break}if(o)break}}function s(){for(var t,f,n=0;n<r.length;n++)t=r[n],f=u(t,!0),i[t]={h:f,q:[]}}function h(){for(var t,n=0;n<r.length;n++){var f=r[n],e=i[f].q,o=u(f);for(t=0;t<e.length;t++)o.apply(null,e[t])}}function c(n,t,i,r){(n===_w||n===_d||n===_d.body)&&t=="load"?_w.sj_evt.bind("onP1",i,!0):n.addEventListener?n.addEventListener(t,i,r):n.attachEvent?n.attachEvent("on"+t,i):n["on"+t]=i}var r=["rms.js","sj_evt.bind","sj_evt.fire","sj_jb","sj_wf","sj_cook.get","sj_cook.set","sj_pd","sj_sp","sj_be","sj_go","sj_ev","sj_ue","sj_evt.unbind","sj_et","sj_mo"],i={};t.replay=h,s(),_w.sj_be=c});function lb(){_w.si_sendCReq&&sb_st(_w.si_sendCReq,800),_w.lbc&&_w.lbc()};function si_PP(n,t){var r,u,i,e,f;if(!_G.PPS){for(u=["FC","BC","H","BP",null];r=u.shift();)u.push('"'+r+'":'+(_G[r+"T"]?_G[r+"T"]-_G.ST:-1));if(i=[],_w.performance&&performance.timing)for(i=["PL","loadEventEnd","requestStart","C","loadEventEnd","responseStart","U","unloadEventEnd","unloadEventStart","D","domainLookupEnd","domainLookupStart","TL","connectEnd","connectStart",0];r=i.shift();)e=performance.timing[i.shift()],f=performance.timing[i.shift()],i.push('"'+r+'":'+(f>0&&e>=f?e-f:-1));_G.PPImg=new Image,_G.PPImg.src=_G.lsUrl+'&Type=Event.CPT&DATA={"pp":{"S":"'+(t||"L")+'",'+u.join(",")+',"CT":'+(n-_G.ST)+',"IL":'+_d.images.length+"}"+(i.length?',"w3":{'+i.join(",")+"}":"")+"}"+(_G.P?"&P="+_G.P:"")+(_G.DA?"&DA="+_G.DA:"")+(_G.MN?"&MN="+_G.MN:""),_G.PPS=1,sb_st(function(){sj_evt.fire("onPP")},1)}}_w.onbeforeunload=function(){si_PP(new Date,"A")};function si_ct(n,t){var i="getAttribute",r,u,f;try{for(;n!==document.body;n=n.parentNode){if(r=n.tagName=="A"&&n[i]("h")||n[i]("_ct"),r){u=n[i]("_ctf")||"si_T",_w[u]&&_w[u]("&"+r);break}if(t)break}}catch(e){}return!0}(function(){sj_be(document,"mousedown",function(n){si_ct(sb_ie?event.srcElement:n.target)},!1)})();var wlc_d = 1500,wlc_t = 63524324117;;function sj_log(n,t,i){var r=new RegExp('"',"g");(new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"'+n+'","FID":"CI","Name":"'+t+'","Text":"'+escape(i.replace(r,""))+'"}]'};(function(){function f(t,r){var u=t.tagName;return(u==="SCRIPT"&&(n.href=t.src)||u==="OBJECT"&&t.type&&t.type.indexOf("flash")>0&&(n.href=t.data))&&n.href.length>0&&n.hostname.length>0&&n.hostname!==location.hostname&&!e(n.hostname)?(sj_log("CI.AntiMalware",r,u.substr(0,1)+":"+n.href.substr(0,i)),!1):!0}function e(n){for(var i=0;i<t.length;i++)if(n.indexOf(t[i])>=0)return!0;return!1}var t=["live.com","virtualearth.net","windows.net","onenote.com","hexun.com","dict.bing.com.cn","msn.com","variflight.com","bing.net"],i=100,n=document.createElement("A"),r,u;document.write=function(n){n.length>0&&sj_log("CI.AntiMalware","DW",n.substr(0,i))},typeof Element!="undefined"&&Element.prototype&&(r=Element.prototype.appendChild,Element.prototype.appendChild=function(n){return f(n,"AC")?r.apply(this,arguments):null},u=Element.prototype.insertBefore,Element.prototype.insertBefore=function(n){return f(n,"IB")?u.apply(this,arguments):null})})();
+//]]>
+    </script>
+    <!-- FD: 81397736C8D08A77D4AA5B36C348F823 -->  </head>
+  <body class=" " onload="if(_w.lb)lb();">
+    <!--FdBodyAsync-->    <div id="b_header">
+      <div class="b_scopebar">
+        <ul>
+          <li class="b_active">
+            <a href="/?scope=web&amp;FORM=HDRSC1" h="ID=SERP,5060.1">
+              Web
+            </a>
+          </li>
+          <li>
+            <a href="/images/search?q=ibm&amp;FORM=HDRSC2" h="ID=SERP,5052.1">
+              Images
+            </a>
+          </li>
+          <li>
+            <a href="/videos/search?q=ibm&amp;FORM=HDRSC3" h="ID=SERP,5053.1">
+              Videos
+            </a>
+          </li>
+          <li>
+            <a href="/maps/default.aspx?q=ibm&amp;mkt=en&amp;FORM=HDRSC4" h="ID=SERP,5054.1">
+              Maps
+            </a>
+          </li>
+          <li>
+            <a href="/news/search?q=ibm&amp;FORM=HDRSC6" h="ID=SERP,5055.1">
+              News
+            </a>
+          </li>
+          <li>
+            <a href="/explore?q=ibm&amp;FORM=HDRSC5" h="ID=SERP,5057.1">
+              More
+            </a>
+          </li>
+        </ul>
+      </div>
+      <form action="/search" id="sb_form">
+        <a href="/?FORM=Z9FD1" class="b_logoArea" h="ID=SERP,5032.1">
+          <h1 class="b_logo">
+            Bing
+          </h1>
+        </a>
+        <div class="b_searchboxForm">
+          <input class="b_searchbox" id="sb_form_q" name="q" title="Enter your search term" type="search" value="ibm" maxlength="1000" onfocus="_ge('b_header').className='b_focus';"/>
+          <input type="submit" class="b_searchboxSubmit" id="sb_form_go" title="Search" tabindex="0" name="go"/>
+          <input id="sa_qs" name="qs" value="ds" type="hidden"/>
+          <input type="hidden" value="QBRE" name="form"/>
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+_G.AppVer="8_01_0_2434620";var wlc_d = 1500,wlc_t = 63524324117;;
+//]]>
+    </script>
+    <!--snr2-->    <!--wm-->    <div id="id_h">
+      <a href="/rewards/signup/webtou?publ=BING&amp;crea=EXP" class="id_button" h="ID=SERP,5072.1">
+        <span id="id_rc">
+          1 of 5
+        </span>
+        <span class="id_avatar sw_meIc" title="Bing Rewards">
+        </span>
+      </a>
+      <a href="/rewards/dashboard" class="b_hide" id="id_rwl" h="ID=SERP,5071.1">
+      </a>
+      <a href="javascript:void(0);" id="id_l" class="id_button" _ct="SERP,5068.1">
+        <span id="id_s">
+          Sign in
+        </span>
+        <span class="sw_spd id_avatar" id="id_a">
+        </span>
+        <span id="id_n" style="display:none">
+        </span>
+        <img id="id_p" class="b_icon id_avatar" style="display:none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"/>
+      </a>
+      <a href="/account/general?ru=http%3a%2f%2fwww.bing.com%3a80%2fsearch%3fq%3dibm%26qs%3dds%26form%3dQBLH&amp;FORM=SEFD" class="sw_pref" title="Preferences" h="ID=SERP,5069.1">
+      </a>
+      <span id="id_d" _iid="SERP.5076">
+      </span>
+    </div>
+    <div id="sw_tfbb">
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+_G.FCT=new Date
+//]]>
+    </script>
+    <style type="text/css">
+      .ftrB{position:relative}.ftrH,.ftrHd,.ftrD&gt;a,.ftrD&gt;div{white-space:nowrap;height:36px;line-height:36px;padding:0 15px}.ftrD{max-height:216px;overflow:hidden;min-width:125px}.ftrD&gt;a,.ftrD&gt;div{display:block}.ftrS .ftrD{margin-right:10px}.ftrSbR{position:absolute;top:0;right:0;height:100%;margin:5px 0;padding-right:3px}.ftrB .sw_ddbk{margin:2px 0 2px 7px}.ftrB .sw_tpcg,.ftrB .sw_tpcbl{margin:0 0 0 14px}.ftrH,.ftrHd,.ftrB .sw_ddbk,.ftrB .sw_tpcg,.ftrB .sw_tpcbl{display:inline-block;*display:inline;zoom:1}.imgpair img,.b_hList img{display:block}.imgpair&gt;.inner,.b_hList .cico{padding-bottom:10px}.b_title .imgpair&gt;.inner,.b_vList .imgpair&gt;.inner,.b_hList .imgpair&gt;.inner,.b_vPanel .imgpair&gt;.inner,.b_gridList .imgpair&gt;.inner,.b_caption .imgpair&gt;.inner,.b_attribution .imgpair&gt;.inner,.imgpair&gt;.inner&gt;.b_credit{padding-bottom:0}.imgpair&gt;.inner{float:left}.imgpair.reverse&gt;.inner{float:right}.imgpair .imgpair:last-child:after{clear:none}.b_algo .b_title .imgpair{display:block}.imgpair.square_bi&gt;.inner,li.square_bi{width:20px}.imgpair.square_bi{padding-left:30px}.imgpair.square_bi&gt;.inner{margin:2px 0 0 -30px}.imgpair.square_bi.reverse{padding-left:0;padding-right:30px}.imgpair.square_bi.reverse&gt;.inner{margin:2px -30px 0 0}#b_context .b_rs .b_vList&gt;li{padding-bottom:4px}#b_context .b_rs&gt;.b_vList{padding-bottom:6px}#b_results .b_rs a,#b_context .b_rrs a{text-decoration:underline}#mapMod{margin:0 0 10px}
+    </style>
+    <script type="text/javascript">
+//<![CDATA[
+sa_ResubmitForm={Resubmit:function(n,t){for(var a=/(%[0-9a-fA-F][0-9a-fA-F])+/g,f=[],c,u=t,r;(c=a.exec(u))!=null;)f.push(c);for(r=f.length-1;r>=0;r--)u=u.substring(0,f[r].index)+decodeURIComponent(f[r][0])+u.substring(f[r].index+f[r][0].length);var h=_G.lsUrl+"&Type=Event.Click&DATA={",o="",l=n.elements;for(r=0;r<l.length;++r){var i=l[r],s=i.value,e=encodeURIComponent(s);i.name.length>0&&(i.type=="text"||i.type=="hidden")?(i.className=="ctxtb"&&(e=""),u=u.replace("%"+i.name,e),i.getAttribute("qi")&&(o+=',{"N":"'+i.name+'","V":"'+e+'"}')):i.name.length>0&&i.type=="select-one"?(s=i.options[i.options.selectedIndex].value,e=encodeURIComponent(s),u=u.replace("%"+i.name,e),i.getAttribute("qi")&&(o+=',{"N":"'+i.name+'","V":"'+e+'"}')):i.id==n.name+"_si"&&(h+='"AppNS":"'+s.replace(",",'","K":"')+'"')}o.length>0&&(h+=',"Form":['+o.substr(1)+"]"),(new Image).src=h+"}",sb_st(function(){var t=n.target,i;t||(i=_d.getElementsByTagName("base"),i.length&&i[0].target&&(t=i[0].target)),t&&t!="_self"?_w.open(u,t):_w.location.href=u},500)}};_w.sched=_w.sched||function(){function r(t){n.push(t)}function u(n){return function(){_w.sched.schedule(n)}}function f(n){t.push(n)}function e(n,t){i[n]=t}var n=[],t=[],i={};return{register:r,wrapSchedule:u,schedule:f,reportCustomMetric:e,_ns:n,_reg:t,_cm:i}}();
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+_G.BCT=new Date
+//]]>
+    </script>
+    <div id="b_content">
+      <div id="b_tween">
+        <span class="sb_count">
+          47,500,000 results
+        </span>
+        <span class="ftrB">
+          <a class="ftrH" id="h5336" href="javascript:">
+            Any time
+            <span class="sw_ddbk">
+            </span>
+          </a>
+        </span>
+      </div>
+      <ol id="b_results">
+        <li class="b_algo">
+          <h2>
+            <a href="http://www.ibm.com/" h="ID=SERP,5142.1">
+              <strong>
+                IBM
+              </strong>
+               - Official Site
+            </a>
+          </h2>
+          <div class="b_attribution b_nav" u="0N|5119|4681056044646505|D7WpU4vTBMBQsoXID1JuDBV8ny5ChUb3">
+            <cite>
+              www.
+              <strong>
+                ibm
+              </strong>
+              .com
+            </cite>
+            <span class="c_tlbxTrg">
+              <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5144.1">
+              </span>
+            </span>
+            Official site
+          </div>
+          <div class="b_caption">
+            <ul class="b_factrow">
+              <li>
+                Customer service 800-426-4968
+              </li>
+            </ul>
+            <p>
+              The 
+              <strong>
+                IBM
+              </strong>
+               corporate home page, entry point to information about 
+              <strong>
+                IBM
+              </strong>
+               products and services.
+            </p>
+          </div>
+          <div class="b_vlist2col b_deep">
+            <ul>
+              <li>
+                <h3>
+                  <a href="http://www-03.ibm.com/employment/us/" h="ID=SERP,5134.1">
+                    Careers
+                  </a>
+                </h3>
+                <p>
+                  Jobs at IBM. IBM U.S. Job seekers information about worldwide jobs, …
+                </p>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.ibm.com/products/us/en/" h="ID=SERP,5135.1">
+                    Products
+                  </a>
+                </h3>
+                <p>
+                  IBM Products and Services. ... * Link notated by a grey asterisk (*) will …
+                </p>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.ibm.com/support/us/en/" h="ID=SERP,5136.1">
+                    Support &amp; Downloads
+                  </a>
+                </h3>
+                <p>
+                  The IBM Support Portal gives IBM customers worldwide a unified, …
+                </p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <h3>
+                  <a href="http://www.ibm.com/contact/employees/us/en/" h="ID=SERP,5137.1">
+                    Employee Directory
+                  </a>
+                </h3>
+                <p>
+                  Enter the name of an IBM employee to find his or her e-mail address …
+                </p>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.ibm.com/investor/?lnk=fif-inve-usen" h="ID=SERP,5138.1">
+                    Investor Relations
+                  </a>
+                </h3>
+                <p>
+                  The IBM Investor Relations, United States, website contains …
+                </p>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.ibm.com/contact/us/en/" h="ID=SERP,5139.1">
+                    Contact
+                  </a>
+                </h3>
+                <p>
+                  Phone numbers. General inquiries 800-IBM-4YOU (800-426-4968) …
+                </p>
+              </li>
+            </ul>
+          </div>
+          <form class="sc_rf b_externalSearch" name="sc_rf b_externalSearch5129" onsubmit="sa_ResubmitForm.Resubmit(this, 'http:\/\/www.ibm.com\/Search\/?v=17&amp;en=utf&amp;lang=en&amp;cc=us&amp;q=%query');return false;">
+            <input id="sc_rf b_externalSearch5129_si" type="hidden" value="SERP,5129.1"/>
+            <input style="display:none" value="ctxtb" id="h_c0" name="h_c0" type="text"/>
+            <input type="text" id="c0" name="query" maxlength="100" style="width:422px" class="ctxt" qi="1" data-gt="Search within ibm.com"/>
+            <input type="submit" class="b_searchboxSubmit" tabindex="0" value="Search" name="go"/>
+          </form>
+          <div class="sa_uc">
+            <ul class="b_vList">
+              <li>
+                <div class="imgpair square_bi">
+                  <div class="inner">
+                    <div class="wpc_pin sw_poi">
+                      1
+                    </div>
+                  </div>
+                  <div class="b_vPanel">
+                    <div>
+                      <div class="b_factrow">
+                        <span title="250 E 5th St, Cincinnati">
+                          250 E 5th St, Cincinnati
+                        </span>
+                         · 
+                        <span class="nowrap">
+                          (513) 762-5557
+                        </span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="b_factrow">
+                        <a href="/maps/default.aspx?rtp=adr.~pos.39.1017761230469_-84.5089492797852_250+E+5th+St+Cincinnati%2c+OH+45202_IBM_(513)+762-5557&amp;where1=250+E+5th+St+Cincinnati%2c+OH+45202" h="ID=SERP,5358.1">
+                          Directions
+                        </a>
+                         · 
+                        <a href="/local/details.aspx?lid=YN873x133606739&amp;q=IBM+Cincinnati+OH" h="ID=SERP,5353.1">
+                          Details
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="b_algo">
+          <h2>
+            <a href="http://en.wikipedia.org/wiki/IBM" h="ID=SERP,5159.1">
+              <strong>
+                IBM
+              </strong>
+               - Wikipedia, the free encyclopedia
+            </a>
+          </h2>
+          <div class="b_attribution" u="1|5081|4668454580585596|PlutUjMge0FK979igbQJM9WYx0G8evQu">
+            <cite>
+              en.wikipedia.org/wiki/
+              <strong>
+                IBM
+              </strong>
+            </cite>
+            <span class="c_tlbxTrg">
+              <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5161.1">
+              </span>
+            </span>
+          </div>
+          <div class="b_caption">
+            <p>
+              The 
+              <strong>
+                International Business Machines Corporation
+              </strong>
+               (commonly referred to as 
+              <strong>
+                IBM
+              </strong>
+              ) is an American multinational technology and consulting corporation, with ...
+            </p>
+            <ul class="b_factrow">
+              <li>
+                <a href="http://en.wikipedia.org/wiki/IBM#History" h="ID=SERP,5153.1">
+                  History
+                </a>
+                 · 
+              </li>
+              <li>
+                <a href="http://en.wikipedia.org/wiki/IBM#Research_and_inventions" h="ID=SERP,5154.1">
+                  Research and inventions
+                </a>
+                 · 
+              </li>
+              <li>
+                <a href="http://en.wikipedia.org/wiki/IBM#Selected_current_projects" h="ID=SERP,5155.1">
+                  Selected current projects
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="b_algo">
+          <h2>
+            <a href="http://finance.yahoo.com/q?s=ibm" h="ID=SERP,5181.1">
+              <strong>
+                IBM
+              </strong>
+              : Summary for 
+              <strong>
+                International Business Machines
+              </strong>
+              - Yahoo! …
+            </a>
+          </h2>
+          <div class="b_caption">
+            <div class="b_attribution" u="2|5082|4576052666041796|_h71Br2WowYg8sZX-JWgUV3Xmui_AvyS">
+              <cite>
+                finance.yahoo.com/q?s=
+                <strong>
+                  ibm
+                </strong>
+              </cite>
+              <span class="c_tlbxTrg">
+                <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5183.1">
+                </span>
+              </span>
+            </div>
+            <p>
+              <span class="news_dt">
+                Dec 30, 2013
+              </span>
+               · View the basic 
+              <strong>
+                IBM
+              </strong>
+               stock chart on Yahoo! Finance. Change the date range, chart type and compare 
+              <strong>
+                International Business Machines
+              </strong>
+               against other …
+            </p>
+          </div>
+        </li>
+        <li class="b_algo">
+          <h2>
+            <a href="http://www.ibm.com/smarterplanet/us/en/ibm_predictions_for_future/ideas/" h="ID=SERP,5194.1">
+              <strong>
+                IBM
+              </strong>
+               - Smarter Planet - The 
+              <strong>
+                IBM
+              </strong>
+               5 in 5 - United States
+            </a>
+          </h2>
+          <div class="b_caption">
+            <div class="b_attribution" u="3|5083|27022550006967100|igemM_WYCzs3Zw6_GNOIVEl3TI9Islgk">
+              <cite>
+                www.
+                <strong>
+                  ibm
+                </strong>
+                .com/smarterplanet/us/en/
+                <strong>
+                  ibm
+                </strong>
+                _predictions_for_future/ideas
+              </cite>
+              <span class="c_tlbxTrg">
+                <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5196.1">
+                </span>
+              </span>
+            </div>
+            <p>
+              <strong>
+                IBM
+              </strong>
+               presents five predictions of how technology innovations will customize our lives in five years.
+            </p>
+          </div>
+        </li>
+        <li class="b_ans">
+          <div class="b_rs">
+            <h2>
+              Related searches for 
+              <strong>
+                ibm
+              </strong>
+            </h2>
+            <div class="b_rich">
+              <div class="b_vlist2col">
+                <ul>
+                  <li>
+                    <a href="/search?q=Ibm.+January+Wanna&amp;FORM=QSRE1" h="ID=SERP,5384.1">
+                      Ibm. 
+                      <strong>
+                        January
+                      </strong>
+                      <strong>
+                        Wanna
+                      </strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/search?q=Ibm.+January&amp;FORM=QSRE2" h="ID=SERP,5385.1">
+                      Ibm. 
+                      <strong>
+                        January
+                      </strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/search?q=IBM+Wanna&amp;FORM=QSRE3" h="ID=SERP,5386.1">
+                      IBM 
+                      <strong>
+                        Wanna
+                      </strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/search?q=IBM+Stock&amp;FORM=QSRE4" h="ID=SERP,5387.1">
+                      IBM 
+                      <strong>
+                        Stock
+                      </strong>
+                    </a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="/search?q=IBM+Lenovo&amp;FORM=QSRE5" h="ID=SERP,5388.1">
+                      IBM 
+                      <strong>
+                        Lenovo
+                      </strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/search?q=IBM+Laptops&amp;FORM=QSRE6" h="ID=SERP,5389.1">
+                      IBM 
+                      <strong>
+                        Laptops
+                      </strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/search?q=IBM+Layoffs&amp;FORM=QSRE7" h="ID=SERP,5390.1">
+                      IBM 
+                      <strong>
+                        Layoffs
+                      </strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/search?q=IBM+Layoffs+2013&amp;FORM=QSRE8" h="ID=SERP,5391.1">
+                      IBM 
+                      <strong>
+                        Layoffs
+                      </strong>
+                      <strong>
+                        2013
+                      </strong>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="b_msg">
+          <a href="http://onlinehelp.microsoft.com/en-US/bing/ff808447.aspx" h="ID=SERP,5078.1">
+            Some results have been removed
+          </a>
+        </li>
+        <li class="b_msg">
+          Top few results are shown. 
+          <a href="/search?q=ibm&amp;FORM=SEEMOR" h="ID=SERP,5418.1">
+            See more
+          </a>
+          .
+        </li>
+        <li class="b_pag">
+          <div>
+            <h4 class="b_hide">
+              Pagination
+            </h4>
+            <ul class="sb_pagF">
+              <li>
+                <a class="sb_pagS">
+                  1
+                </a>
+              </li>
+              <li>
+                <a href="/search?q=ibm&amp;qs=ds&amp;first=5&amp;FORM=PERE" h="ID=SERP,5339.1">
+                  2
+                </a>
+              </li>
+              <li>
+                <a href="/search?q=ibm&amp;qs=ds&amp;first=19&amp;FORM=PERE1" h="ID=SERP,5340.1">
+                  3
+                </a>
+              </li>
+              <li>
+                <a href="/search?q=ibm&amp;qs=ds&amp;first=33&amp;FORM=PERE2" h="ID=SERP,5341.1">
+                  4
+                </a>
+              </li>
+              <li>
+                <a href="/search?q=ibm&amp;qs=ds&amp;first=47&amp;FORM=PERE3" h="ID=SERP,5342.1">
+                  5
+                </a>
+              </li>
+              <li>
+                <a href="/search?q=ibm&amp;qs=ds&amp;first=5&amp;FORM=PORE" class="sb_pagN" title="Next" h="ID=SERP,5343.1">
+                  <div class="sw_next">
+                    Next
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+      <ol id="b_context">
+        <li class="b_ans">
+          <h2 class="b_entityTitle">
+            IBM
+          </h2>
+          <div class="b_subModule">
+            <a href="/local/details.aspx?lid=YN873x133606739&amp;q=IBM+Cincinnati+OH" h="ID=SERP,5353.2">
+              <img id="mapMod" width="413" height="148" style="visibility:hidden" alt="Cincinnati, Ohio"/>
+            </a>
+            <div class="b_lBottom">
+              250 E 5th St · Cincinnati · 
+              <a href="/maps/default.aspx?rtp=adr.~pos.39.1017761230469_-84.5089492797852_250+E+5th+St+Cincinnati%2c+OH+45202_IBM_(513)+762-5557&amp;where1=250+E+5th+St+Cincinnati%2c+OH+45202" h="ID=SERP,5358.2">
+                Directions
+              </a>
+              <div>
+                (513) 762-5557
+              </div>
+            </div>
+            <ul class="b_vList">
+              <li>
+                <span class="cbl b_lower">
+                  Website:
+                </span>
+                <a href="http://www.ibm.com/" title="ibm.com" h="ID=SERP,5359.1">
+                  ibm.com
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="b_suppModule">
+            <div class="b_credit">
+              <a href="/local/reportproblem?lid=YN873x133606739" class="b_noTarget" id="epf" h="ID=SERP,5394.1">
+                Report a problem
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="b_ans">
+          <h2>
+            Related searches
+          </h2>
+          <ul class="b_vList">
+            <li>
+              <a href="/search?q=Ibm.+January+Wanna&amp;FORM=R5FD" h="ID=SERP,5396.1">
+                Ibm. 
+                <strong>
+                  January
+                </strong>
+                <strong>
+                  Wanna
+                </strong>
+              </a>
+            </li>
+            <li>
+              <a href="/search?q=Ibm.+January&amp;FORM=R5FD1" h="ID=SERP,5397.1">
+                Ibm. 
+                <strong>
+                  January
+                </strong>
+              </a>
+            </li>
+            <li>
+              <a href="/search?q=IBM+Wanna&amp;FORM=R5FD2" h="ID=SERP,5398.1">
+                IBM 
+                <strong>
+                  Wanna
+                </strong>
+              </a>
+            </li>
+            <li>
+              <a href="/search?q=IBM+Stock&amp;FORM=R5FD3" h="ID=SERP,5399.1">
+                IBM 
+                <strong>
+                  Stock
+                </strong>
+              </a>
+            </li>
+            <li>
+              <a href="/search?q=IBM+Lenovo&amp;FORM=R5FD4" h="ID=SERP,5400.1">
+                IBM 
+                <strong>
+                  Lenovo
+                </strong>
+              </a>
+            </li>
+            <li>
+              <a href="/search?q=IBM+Laptops&amp;FORM=R5FD5" h="ID=SERP,5401.1">
+                IBM 
+                <strong>
+                  Laptops
+                </strong>
+              </a>
+            </li>
+            <li>
+              <a href="/search?q=IBM+Layoffs&amp;FORM=R5FD6" h="ID=SERP,5402.1">
+                IBM 
+                <strong>
+                  Layoffs
+                </strong>
+              </a>
+            </li>
+            <li>
+              <a href="/search?q=IBM+Layoffs+2013&amp;FORM=R5FD7" h="ID=SERP,5403.1">
+                IBM 
+                <strong>
+                  Layoffs
+                </strong>
+                <strong>
+                  2013
+                </strong>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+    <div class="b_footer">
+      <table>
+        <tbody>
+          <tr>
+            <th>
+              Learn more
+            </th>
+            <th>
+              Info for
+            </th>
+            <th>
+              Support
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <a href="http://go.microsoft.com/fwlink/?LinkId=248686" h="ID=SERP,5429.1">
+                Privacy and Cookies
+              </a>
+            </td>
+            <td>
+              <a href="http://advertise.bingads.microsoft.com/en-us/advertise-on-bing" h="ID=SERP,5431.1">
+                Advertise
+              </a>
+            </td>
+            <td>
+              <a href="http://onlinehelp.microsoft.com/en-US/bing/ff808535.aspx" id="sb_help" target="_blank" h="ID=SERP,5433.1">
+                Help
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="http://g.msn.com/1ewbingwin8/settingsTOUen-US" h="ID=SERP,5430.1">
+                Legal
+              </a>
+            </td>
+            <td>
+              <a href="http://g.msn.com/AIPRIV/en-us" target="_blank" h="ID=SERP,5432.1">
+                About our ads
+              </a>
+            </td>
+            <td>
+              <a href="#" id="sb_feedback" h="ID=SERP,5434.1">
+                Feedback
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <span class="b_footerRight">
+        <div class="b_fLogo" title="© {0} Microsoft">
+        </div>
+        <span>
+          © 2014 Microsoft
+        </span>
+      </span>
+    </div>
+    <div class="sb_hbop">
+      <div id="d5336" class="b_hide b_dropdown ">
+        <div class="ftrD">
+          <a href="/search?q=ibm&amp;qs=ds&amp;qpvt=ibm" class="b_toggle" h="ID=SERP,5332.1">
+            All
+          </a>
+          <a href="/search?q=ibm&amp;filters=ex1%3a%22ez1%22&amp;qs=ds&amp;qpvt=ibm" class="b_toggle" h="ID=SERP,5333.1">
+            Past 24 hours
+          </a>
+          <a href="/search?q=ibm&amp;filters=ex1%3a%22ez2%22&amp;qs=ds&amp;qpvt=ibm" class="b_toggle" h="ID=SERP,5334.1">
+            Past week
+          </a>
+          <a href="/search?q=ibm&amp;filters=ex1%3a%22ez3%22&amp;qs=ds&amp;qpvt=ibm" class="b_toggle" h="ID=SERP,5335.1">
+            Past month
+          </a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+sf_fbCfg={sId:"6",wt:100};sj_evt.bind("xd:fba:checkbar",function(n){var t,i;n&&n.length>=2&&(t=sj_ce("iframe"),t.id="sw_tfbbi",i=_ge("sw_tfbb"),i&&(t.height="0",t.scrolling=t.frameBorder="no",t.src="/fd/fb/b?fv="+_G.Ver+"#"+n[1],i.appendChild(t)))});sj_evt.bind("onP1",function(){var n=sj_ce("iframe");n.height=n.width=0,n.frameBorder=n.scrolling="no",sj_b.appendChild(n),n.src="/fd/fb/r?v="+_G.Ver+"&sId="+sf_fbCfg.sId+(/&testhooks=1/.test(location.search)?"&testhooks=1":""),_w.logfb&&logfb("rr",+new Date)},1,_w.sf_fbCfg&&sf_fbCfg.wt?sf_fbCfg.wt:100);(function(n,t){if(t){var r=!1,i=function(){!r&&(r=!0)&&sj_jb("WindowsLiveConnect_c",1)};n.bind("onP1",function(){var r=setTimeout(i,t);n.bind("fb:connecting",function(){clearTimeout(r),n.bind("fb:connected",i,1)},1)},1)}})(sj_evt,wlc_d);
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+sa_loader=function(){_w.rms.js({'rms:answers:AutoSuggest:AutoSugPreviewBlue':'\/s\/as\/1114144544\/AutoSuggest\/AutoSugSnRBluePP.js',d:1});};;_w.rms.js({'A:0':0},{'A:Shared.Bundle':'\/sa\/1025010508\/shrBu_c.js'},{'A:ShareWebResults':'\/sa\/0902182700\/shareWebResults_c.js'},{'A:rms:answers:SegmentFilters:DropDown':'\/s\/as\/1126025738\/SegmentFilters\/Blue\/DropDown_c.js'},{'A:WebResultToolbox':'\/sa\/1222121340\/blue\/WebResultToolbox.js'});;
+//]]>
+    </script>
+    <div id="aRmsDefer">
+      <div style="display:none">
+        <!--//<![CDATA[
+var Identity=Identity||{};(function(n,t,i,r,u,f,e,o,s){s.fbProfile=function(){var e="FBS",f=n(e,"N"),i=n(e,"FN"),r=n(e,"I"),u=n(e,"IB"),o;return f?(f=t(f),i&&(i=t(i)),r&&(r=t(r)),u&&(u=t(u)),o="/fd/s/a/anon.png",r||(r=o),u||(u=o),i||(i=f),{displayName:f,name:i,img:r,imgL:u,idp:"FB"}):null},s.wlProfile=function(){var u="WLS",i=n(u,"N"),r=n(u,"C");return i&&r&&s.wlImgSm&&s.wlImgLg?{displayName:t(i),name:t(i),img:s.wlImgSm.replace(/\{0\}/g,o(r)),imgL:s.wlImgLg.replace(/\{0\}/g,o(r)),idp:"WL"}:null},s.headerLoginMode=0,s.popupAuthenticate=function(n,t,r){var u,f,e,h;return(u=s.popupLoginUrls)&&(f=u[n]+(t?"&perms="+o(t):"")+(r?"&src="+o(r):""))&&(e=s.pop(f))&&(h=setInterval(function(){e.closed&&(i.fire("id:popup:close"),clearInterval(h))},100))},s.pop=function(n){return f.open(n,"idl","location=no,menubar=no,resizable=no,scrollbars=yes,status=no,titlebar=no,toolbar=no,width=1000,height=620")};var v=0,l=e("id_h"),c=e("id_l"),a="click";i.bind("onP1",function(){setTimeout(function(){l&&c&&(u("Blue/BlueIdentityDropdown_c",0,l,"mouseover",c,a,c,"focus"),r(c,a,function(n){s.hdrClk=n})),l.style.display="block"},50)})})(sj_cook.get,decodeURIComponent,sj_evt,sj_be,sj_jb,_w,_ge,encodeURIComponent,Identity,_G.RTL);(function(){if(sj_evt&&Identity){var n=function(){var i=_ge("id_n"),n=_ge("id_p"),u=_ge("id_s"),f=_ge("id_a"),r,t,e;i&&u&&f&&((r=Identity.fbProfile())||(r=Identity.wlProfile()))?(t=r.displayName,e=r.img,n&&(n.title=t,n.src=e,n.style.display="inline-block"),t.length>10&&(t=t.substring(0,10).replace(/\s+$/,"")+"…"),i.textContent=t,i.innerText=t,i.style.display="inline-block",u.style.display="none",f.style.display="none",r.idp=="WL"&&n&&(n.style.className+=" sw_spd")):i&&u&&f&&(i.style.display="none",n&&(n.style.display="none"),u.style.display="inline-block",f.style.display="inline-block")};sj_evt.bind("fb:connected",n,1),sj_evt.bind("wl:auth",n,1),sj_evt.bind("fb:auth",n,1)}})();sj_cook.set('_SS', 'C', 21.0, false, '/');;var Identity = Identity || {};(function(i){i.wlImgSm = "https://cid-{0}.users.storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileStatic/p?ck=1\u0026ex=720\u0026fofoff=1\u0026sid=CACC6EBDCBD1442081A55B900B5D26D3";i.wlImgLg = "https://cid-{0}.users.storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileMedium/p?ck=1\u0026ex=720\u0026fofoff=1\u0026sid=CACC6EBDCBD1442081A55B900B5D26D3";i.popupLoginUrls ={"WindowsLiveId":"https://login.live.com/login.srf?wa=wsignin1.0\u0026rpsnv=11\u0026ct=1388727318\u0026rver=6.0.5286.0\u0026wp=MBI\u0026wreply=https:%2F%2Fssl.bing.com%2Fsecure%2FPassport.aspx%3Fpopup%3D1\u0026lc=1033\u0026id=264960","Facebook":"/fd/auth/signin?action=interactive\u0026provider=facebook\u0026return_url=http%3a%2f%2fwww.bing.com%2fIdentity%2fFBPopup%253Fsuccess%3d1\u0026cancel_url=http%3a%2f%2fwww.bing.com%2fIdentity%2fFBPopup%253Fsuccess%3d0\u0026input=popup\u0026sig=CACC6EBDCBD1442081A55B900B5D26D3\u0026perms=read_stream,user_photos,friends_photos"};})(Identity);;(function(){function n(){var n="SRCHHPGUSR",i=sj_cook.get(n,"CW"),t;i&&i==sj_b.clientWidth||sj_cook.set(n,"CW",sb_de.clientWidth||sj_b.clientWidth,1,"/"),t=sj_cook.get(n,"CH"),t&&t==sb_de.clientHeight||sj_cook.set(n,"CH",sb_de.clientHeight,1,"/")}sj_be(_w,"load",n),sj_be(_w,"resize",n)})();(function(){sb_ie&&sj_evt.bind("onP1",function(){sj_jb("UpdateDefaults",0)},1,50)})();_G.SPSA = 1;;(function(){var n="undefined";typeof initComCtrl==n&&(initComCtrl=function(t){for(var r=t.getElementsByTagName("input"),u,f,i=0;i<r.length;i++)typeof ctxt!=n&&(u=r[i].className,f=u.replace("ctxt","ctxtb"),ctxt.init(r[i],u,f)),typeof ccal!=n&&ccal.init(r[i])},sj_be(_w,"load",function(){initComCtrl(sj_b)}),sj_evt.bind("Cap.ExpOn",function(n){n[3]&&!n[2].comCtrl&&(n[2].comCtrl=1,initComCtrl(n[2]))}))})();(function(){var n="undefined";typeof ctxt==n&&(ctxt=new function(){this.init=function(n,t,i){var r;!n.gt&&(r=n.getAttribute("data-gt"))&&r.length&&(n.gt=1,n.className=(n.hf=_ge("h_"+n.id)).value,n.value||(n.value=r),sj_be(n,"focus",function(n){var r=sj_et(n);r.className==i&&(r.className=t,r.value="",r.select())}),sj_be(n,"blur",function(n){var t=sj_et(n);t.value||(t.className=i,t.value=t.getAttribute("data-gt"))}),sj_be(n,"change",function(n){var r=sj_et(n);r.hf.value=r.value?t:i}))}})})();sa_CTBConfig={"TRGT":"Actions for this site","CU":"http://cc.bingj.com/cache.aspx?q=ibm\u0026d={0}\u0026mkt=en-US\u0026setlang=en-US\u0026w={1}","CT":"Cached page"};(function(n,t,i){function f(){!u.end&&s===h&&s>0&&i(b,0)}function o(n){if(n&&n.length)return r[n]||(r[n]={start:0,end:0,actual:0,done:0},s++),r[n]}function y(){var t=[],n;for(n in r)r.hasOwnProperty(n)&&(t.push(n),u.actual+=r[n].actual);return t.sort(function(n,t){return r[t].actual-r[n].actual}),t}function p(){var f=[],e=0,t=y(),i,n,u;if(t.length>0)do if(i=t.shift(),n=r[i],!(n.start<_G.ST)){if(u='"'+i+'":{"S":'+(n.start-_G.ST)+',"E":'+(n.end-_G.ST)+',"T":'+n.actual+"}",e+=u.length+1,e>=v)break;f.push(u)}while(t.length>0);return f.join(",")}function w(){function r(n){return n=n.toString().replace(/\"/g,"'"),'"'+n+'"'}var i=[],t,n;for(t in e)e.hasOwnProperty(t)&&(n=e[t],typeof n!="number"&&(n=r(n)),i.push(r(t)+":"+n));return i.join(",")}function b(){u.end||(u.end=new Date,(new Image).src=_G.lsUrl+'&Type=Event.PPT&DATA={"S":'+(u.start-_G.ST)+',"E":'+(u.end-_G.ST)+',"T":'+u.actual+',"I":'+u.numInvalid+',"N":{'+p()+'},"M":{'+w()+"}}"+(_G.P?"&P="+_G.P:"")+(_G.DA?"&DA="+_G.DA:""))}function k(n){var t=r[n];t&&!t.done&&(t.done=1,h++,f())}function l(n){var r=n.task;if(r){var u=r,t=n.ns,f=n.delay||0;if(t&&t.length>0){c(t);function e(){var i=new Date,n;r(),n=new Date,a(t,i,n)}u=e}f>0?i(u,f):u()}}function a(n,t,i){var r,e;(f(),r=o(n),r)&&(e=i-t,(e<0||i<r.end||r.start&&t<r.start)&&++u.numInvalid,r.actual+=e,r.start||(r.start=t),r.end=i)}function c(n){f(),o(n)}function d(n,t){f(),e[n]=t}var u={start:new Date,end:0,actual:0,numInvalid:0},r={},s=0,h=0,e=t._cm||{},v=600;n("onP1",function(){var r,i,n;for(t.register=c,t.schedule=l,t.complete=k,t.recordTimings=a,t.reportCustomMetric=d,i=t._ns||[];r=i.shift();)o(r);for(n=t._reg||[];n.length>0;)l(n.shift());f()},1)})(sj_evt.bind,sched,sb_st);function wpc_Inst(n,t,i){var r=sj_evt.bind,u=0,f=0;r&&n&&t&&i&&(r("RMS.ImgAOLInit",function(){n.register(i)},1),r("RMS.ImgAOLCompleted",function(){n.schedule({task:function(){n.recordTimings(i,u,f),n.complete(i)}})},1),r("RMS.ImgAOLLoaded",function(n){var i,e,r;n.length<2||(i=n[1],i&&i.state==="success")&&(e=i.image,e&&sj_we(e,t))&&(r=i.timeStamp,u===0&&(u=r),r>f&&(f=r))},1))};new wpc_Inst(sched,_ge("b_context"),"TP");var DelayLoadImage=_w.DelayLoadImage||{};DelayLoadImage.LoadImage=function(n,t){sj_evt.bind("onP1",function(){var i=_ge(t);i&&(i.src=n,i.style.visibility="inherit")},1,80)};DelayLoadImage.LoadImage("http://ecn.api.tiles.virtualearth.net/api/GetMap.ashx?ppl=55%2c1%2c39.101776%2c-84.508949\u0026w=413\u0026h=148\u0026b=r,stl.h\u0026logo=Combined","mapMod");;(function(n,t,i){var r=_ge("epf");r!==null&&t(r,"click",function(){n.fbsrc="epf",i("Feedback/Core",!0),function r(){var n={page:!0};if(typeof feedback=="undefined"||typeof jQuery=="undefined"){sb_st(r,50);return}feedback.core.load(n)}()})})(_w,sj_be,sj_jb);var fbpkgiid = fbpkgiid || {};fbpkgiid.page = 'SERP.5435';;(function(n,t,i){var r=_ge("sb_feedback");r!==null&&n(r,"click",function(n){t("Feedback/Core",!0),i(n),function r(){var n={page:!0};if(typeof feedback=="undefined"||typeof jQuery=="undefined"){sb_st(r,50);return}feedback.core.load(n)}()})})(sj_be,sj_jb,sj_sp);sa_config={"u":"%2fAS%2fSuggestions%3fpt%3dPage.SERP%26qry%3d","as":"a","mkt":"en-US","f":"sb_form","i":"sb_form_q","c":"sw_as","p0":"DN,AN","sid":"CACC6EBDCBD1442081A55B900B5D26D3","EDFC":"QBREM","ESFC":"QBRESE","asf":1,"t":1,"eHS":1,"eAN":1,"eLO":1,"eHC":1,"spr":1,"eEA":1,"eOBD":1,"m":8,"ml":45,"d":100,"SCT":1500};sa_loc={"PE":"See results for"};;var sa_eL=!1;(function(){function e(t,i,r,f){t&&sj_ue(t,i,e),sa_eL=sa_eL||n.eAI?r&&f.keyCode!==27:r,u||(u=!0,sa_loader())}function r(n,t,i){sj_be(n,t,function(r){e(n,t,i,sj_ev(r))})}var f=_ge("sa_qs"),n,t,i,u;f.value="bs",n=sa_config,t=_ge(n.i),t.setAttribute("autocomplete","off"),i=_ge(n.c),i||(i=sj_ce("div"),i.id=n.c,f.parentNode.appendChild(i)),u=!1,r(t,"click",!0),r(t,"keydown",!0),n.eAI&&r(t,"keyup",!0),n.ol&&r(_w,"load")})();
+//]]>-->      </div>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+(function(){function t(){_w.sb_ppCPL||sb_st(function(){si_PP(new Date)},0)}var n=_w.onload||function(){};onload=function(i){_G.BPT=new Date,n(i),t()},_G.HT=new Date})()
+//]]>
+    </script>
+  </body>
+</html>

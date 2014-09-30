@@ -1,0 +1,2239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="http://www.wsws.org/img/open-graph-icon.png" property="og:image"/>
+    <link type="image/ico" href="/img/favicon.ico" rel="icon"/>
+    <link href="/img/apple-touch-icon.png" rel="apple-touch-icon"/>
+    <link media="screen" type="text/css" href="/css/screen.css" rel="stylesheet"/>
+    <link media="print" type="text/css" href="/css/print.css" rel="stylesheet"/>
+    <script type="text/javascript" defer="defer" async="" src="http://piwik.wsws.org/analytics/piwik/piwik.js">
+    </script>
+    <script type="text/javascript" src="/js/jquery.js">
+    </script>
+    <script type="text/javascript" src="/js/jquery.lightbox.js">
+    </script>
+    <script type="text/javascript" src="/js/scriptz.js">
+    </script>
+    <style>
+      
+  #sidebar h3.quote { font-size: 2em; font-weight: normal; color: #333333; background: none; padding: 10px 0 0 0; border-top: 8px solid #3B5998; margin: 20px 0; }
+  #sidebar p { font-family:Arial; font-size:1.2em; color:#000000; }
+  #sidebar ul { padding-left:1.5em; font-size:1.2em; line-height:1.3em; }
+  #sidebar form p { background-color:#F0F0F0; padding:0.5em 1%; color:#000000; }
+  #sidebar p label { float:left; width:30%; font-weight:bold; color:#000000; }
+  #sidebar p input { width:65%; font-family:Arial; font-size:1em; color:#000000; }
+  #sidebar p textarea { width:65%; font-family:Arial; font-size:1em; color:#000000; }
+  #sidebar p button { width:5em; font-family:Arial; font-size:1em; color:#000000; }
+  #sidebar table { font-size:1em; width:100%; margin:0; padding:0; }
+  #sidebar table th { font-size:1.1em; font-wight:bold; text-align:left; background-color:#CECECE; padding:0.5em 1em; }
+  #sidebar table td { font-size:1.1em; font-weight:normal: text-align:left; background-color:#F0F0F0; padding:0.5em 1em; }
+
+    </style>
+    <title>
+      Search Results - World Socialist Web Site
+    </title>
+  </head>
+  <body>
+    <div class="clearfix" id="topbar">
+      <div id="options">
+        <ul class="sitenavi">
+          <li class="noborder">
+            <a href="/" class="active">
+              WSWS
+            </a>
+          </li>
+          <li>
+            <a href="/en/special/icfi.html">
+              ICFI
+            </a>
+          </li>
+          <li>
+            <a href="http://www.mehring.com/">
+              Mehring Books
+            </a>
+          </li>
+        </ul>
+        <ul class="sitetools">
+          <li class="noborder">
+            <a href="/en/special/mobile.html">
+              Mobile
+            </a>
+          </li>
+          <li>
+            <a href="/en/special/rssfeeds.html">
+              RSS Feeds
+            </a>
+          </li>
+          <li>
+            <a href="/en/special/podcast.html">
+              Podcast
+            </a>
+          </li>
+          <li>
+            <a href="/en/special/newsletter.html">
+              Newsletter
+            </a>
+          </li>
+          <li class="language">
+            <select name="language" id="language">
+              <option value="" selected="selected">
+                Select a language
+              </option>
+              <option value="/af/">
+                Afrikaans
+              </option>
+              <option value="/ar/">
+                &gt;العربية
+              </option>
+              <option value="/de/cz/">
+                Čeština
+              </option>
+              <option value="/de/">
+                Deutsch
+              </option>
+              <option value="/el/">
+                Ελληνικά
+              </option>
+              <option value="/en/">
+                English
+              </option>
+              <option value="/es/">
+                Español
+              </option>
+              <option value="/fa/">
+                فارسی
+              </option>
+              <option value="/fr/">
+                Français
+              </option>
+              <option value="/id/">
+                Bahasa Indonesia
+              </option>
+              <option value="/it/">
+                Italiano
+              </option>
+              <option value="/de/pl/">
+                Polski
+              </option>
+              <option value="/pt/">
+                Português
+              </option>
+              <option value="/ro/">
+                Română
+              </option>
+              <option value="/ru/">
+                Русский
+              </option>
+              <option value="/sh/">
+                Srpskohrvatski
+              </option>
+              <option value="/sinhala/">
+                Sinhalese
+              </option>
+              <option value="/tamil/">
+                தமிழ்
+              </option>
+              <option value="/tr/">
+                Türkçe
+              </option>
+              <option value="/zh/index.shtml">
+                中文
+              </option>
+            </select>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="clearfix" id="header">
+      <div id="title">
+        <a href="/">
+          <img width="450" height="35" border="0" style="margin-bottom:5px;" src="/img/title.png"/>
+        </a>
+        <h1>
+          World Socialist Web Site
+        </h1>
+        <a style="padding-left:20px;" href="/">
+          <img width="190" height="40" border="0" src="/img/logo.png"/>
+        </a>
+        <span>
+          wsws.org
+        </span>
+        <h2>
+          Published by the International Committee of the Fourth International (ICFI)
+        </h2>
+      </div>
+      <form method="get" action="/en/search.html" name="search" id="search">
+        <input type="hidden" name="sectionId" value="workspace://SpacesStore/6714b2ba-fee2-4340-b480-533dcd4a391A"/>
+        <input type="hidden" name="maxResults" value="100"/>
+        <input type="text" onblur="blurSearchField(this, 'Search the WSWS');" onfocus="focusSearchField(this, 'Search the WSWS');" maxlength="100" name="phrase" value="us" class="text"/>
+         
+  
+        <input type="submit" value="Search" class="send" name="submit"/>
+        <a href="/en/search.html">
+          Click here for advanced search »
+        </a>
+      </form>
+    </div>
+    <div class="clearfix" id="navigation">
+      <ul>
+        <li>
+          <a accesskey="1" href="/en/">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="/en/topics/site_area/perspectives/index.html">
+            Perspectives
+          </a>
+        </li>
+        <li>
+          <a href="/en/topics/site_area/news/index.html">
+            World News
+          </a>
+          <ul>
+            <li>
+              <a href="/en/topics/region/namerica/index.html">
+                North America
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/region/americas/index.html">
+                South and Central America
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/continent/europe/index.html">
+                Europe
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/region/mideast/index.html">
+                Middle East
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/continent/africa/index.html">
+                Africa
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/continent/asia/index.html">
+                Asia
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/region/aus/index.html">
+                Australia and South Pacific
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/en/topics/site_area/world/index.html">
+            World Economy
+          </a>
+          <ul>
+            <li>
+              <a href="/en/topics/economyCategory/European_Economy/index.html">
+                European Economy
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/economyCategory/econ-us/index.html">
+                US Economy
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/economyCategory/eco-ineq/index.html">
+                Global Inequality
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/en/topics/site_area/arts/index.html">
+            Arts Review
+          </a>
+          <ul>
+            <li>
+              <a href="/en/topics/artsCategory/films/index.html">
+                Film Reviews
+              </a>
+            </li>
+            <li>
+              <a href="/en/special/films/arts-reviews.html">
+                All Film Reviews in Alphabetical Order
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/artsCategory/ffests/index.html">
+                Film Festivals
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/artsCategory/intviews/index.html">
+                 Interviews with Directors and Artists
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/artsCategory/book/index.html">
+                 Book Reviews
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/artsCategory/exhibits/index.html">
+                 Art &amp; Photographic Exhibitions
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/artsCategory/music/index.html">
+                 Music Reviews
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/artsCategory/theatre/index.html">
+                 Theater and Dance
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/artsCategory/essays/index.html">
+                 Art &amp; Socialism – Lectures &amp; Essays
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/en/topics/site_area/history/index.html">
+            History
+          </a>
+          <ul>
+            <li>
+              <a href="/en/topics/historyCategory/twih/index.html">
+                This Week in History
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/historyCategory/h-trotsky/index.html">
+                Leon Trotsky
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/historySubCategory/h-russia/index.html">
+                Russia &amp; the former Soviet Union
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/historyCategory/h-fascm/index.html">
+                Fascism &amp; the Holocaust
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/historyCategory/iss-98/index.html">
+                Marxism and the Fundamental Problems of the 20th Century
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/historySubCategory/h-uslab/index.html">
+                US History
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/en/topics/site_area/science/index.html">
+            Science
+          </a>
+          <ul>
+            <li>
+              <a href="/en/topics/scienceCategory/sc-evol/index.html">
+                Human Genetics &amp; Evolution
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/scienceCategory/sc-net/index.html">
+                The Internet
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/scienceCategory/sc-astro/index.html">
+                Space Research &amp; Astronomy
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/scienceCategory/sc-clim/index.html">
+                Climate Change
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/en/topics/site_area/philos/index.html">
+            Philosophy
+          </a>
+          <ul>
+            <li>
+              <a href="/en/topics/philosophyCategory/enlightment/index.html">
+                The Enlightenment
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/philosophyCategory/exist/index.html">
+                Existentialism and Post-modernism
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/philosophyCategory/eco-reli/index.html">
+                Religion
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/en/topics/site_area/workers/index.html">
+            Workers Struggles
+          </a>
+          <ul>
+            <li>
+              <a href="/en/topics/workersCategory/na-auto/index.html">
+                Auto Workers Issues
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/workersCategory/Nationalism-union_bureaucracy/index.html">
+                Nationalism and the union bureaucracy
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/workersCategory/roundup/index.html">
+                Workers Struggles Around the World
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/workersCategory/wrk-can/index.html">
+                Workers Issues in Canada
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/workersCategory/workers-namerica/index.html">
+                Workers Issues in the US
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/workersCategory/wrk-europe/index.html">
+                European Workers Issues
+              </a>
+            </li>
+            <li>
+              <a href="/en/topics/workersCategory/aust/index.html">
+                Workers Issues in Australia &amp; the Pacific
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/en/IML/archive.html">
+            ICFI/Marxist Library
+          </a>
+        </li>
+        <li>
+          <a href="/en/topics/site_area/correspo/index.html">
+            Letters
+          </a>
+        </li>
+        <li>
+          <a accesskey="1" href="/en/articles/">
+            Full Archive
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="clearfix" id="page">
+      <div class="category" id="content">
+        <h3 class="nomargin">
+           
+        </h3>
+        <div class="clearfix" id="tools">
+          <ul class="tools">
+            <li>
+              <a style="color:#CC0000;" href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=results.query.resultsToSkip?c">
+                1
+              </a>
+            </li>
+            <li>
+              <a href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=100">
+                2
+              </a>
+            </li>
+            <li>
+              <a href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=200">
+                3
+              </a>
+            </li>
+            <li>
+              <a href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=300">
+                4
+              </a>
+            </li>
+            <li>
+              <a href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=400">
+                5
+              </a>
+            </li>
+            <li>
+              <a href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=500">
+                6
+              </a>
+            </li>
+            <li>
+              <a href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=100">
+                Next page
+              </a>
+            </li>
+          </ul>
+        </div>
+        <h2>
+          Search Results
+        </h2>
+        <p>
+          
+      Showing results 1 to 100 from 50,447
+    
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/nsas-j03.html">
+            New Snowden documents detail political and corporate espionage by US, UK
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Thomas Gaist,
+		  3 July 2016
+		
+        </p>
+        <p class="desc">
+          The NSA has carried out systematic surveillance against more than 100 heads of state.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/ukra-m31.html">
+            NATO steps up military pressure on Russia
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Stefan Steinberg and Peter Schwarz,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          NATO continued its military build-up on the Russian border as talks between top US and Russian foreign officials ended without agreement.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/pers-m31.html">
+            White House ally reveals anti-working class agenda behind Obamacare
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Kate Randall,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          Ezekiel Emanuel, former adviser to the White House on health care reform, predicts that few private-sector employers will still be providing health insurance to their workers by 2025.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/wash-m31.html">
+            At least 18 dead in Washington mudslide, dozens still missing
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Christine Schofelt,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          Once again, a natural disaster has been made far worse by a lack of planning and infrastructure.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/tsar-m31.html">
+            New evidence of US intelligence links to Boston Marathon bomber
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Nick Barrickman,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          Lawyers for Dzhokhar Tsarnaev have alleged that FBI agents attempted to force his older brother Tamerlan to inform on the Chechen and Muslim community in the Boston area.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/cour-m31.html">
+            Obama administration urges Supreme Court to dismiss First Amendment suit brought by anti-Bush demonstrators
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Eric London,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          In oral arguments before the Supreme Court, the Obama administration asserted a near-absolute right to arrest and sequester demonstrators on the basis of their political views.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/abor-m31.html">
+            US appeals court upholds reactionary Texas anti-abortion law
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Tom Carter and Jeff Lincoln and Charles Abelard,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          The ruling represents a further attack on the principle of the separation of church and state and on basic democratic rights.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/sril-m31.html">
+            UN body call for international probe into Sri Lankan human rights violations
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Sampath Perera and K. Ratnayake,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          The UN Human Rights Council resolution marks a shift by the US to a more aggressive stance against the Sri Lankan government.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/bene-m31.html">
+            UK benefits claimants victimised and driven into destitution
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Barry Mason,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          Thousands of people have had their benefits withdrawn, as sanctions on the unemployed increase.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/dame-m31.html">
+            Australian government reintroduces imperial honours system
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Patrick O’Connor,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          The government has revived the central elements of the old system of knights and dames as another means of glorifying the army and its commanders.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/spok-m31.html">
+            Spokane, Washington police kill man as he surrenders
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Hector Cordon,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          Police officers in Spokane, Washington shot and killed a man Wednesday as he was walking out of his house in compliance with their orders.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/bost-m31.html">
+            Boston School Committee approves austerity budget
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By John Marion,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          Teaching, paraprofessional and administrative jobs will be cut, while 7th and 8th graders are forced to ride public transportation to school.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/cta-m31.html">
+            Chicago Transit Authority wreck raises questions of safety equipment and operator fatigue
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Jeff Lusanne,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          A CTA derailment injured 32 passengers and could have been far worse.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/cand-m31.html">
+            Socialist Equality Party in Britain joins German Partei für Soziale Gleichheit in European election campaign
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By our reporters,
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          The aim of the SEP and PSG in the elections is to unite working people against the capitalist European Union and its national governments in the fight for the United Socialist States of Europe.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/31/twih-m31.html">
+            This week in history: March 31-April 6
+          </a>
+        </h4>
+        <p class="info">
+          
+		  
+		  31 March 2014
+		
+        </p>
+        <p class="desc">
+          This Week in History provides brief synopses of important historical events whose anniversaries fall this week.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/syri-m29.html">
+            In talks with Saudi monarch, Obama prepares escalation of US-backed war in Syria
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Patrick Martin,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          The US government will reportedly supply anti-aircraft missiles and launchers to the Syrian “rebels.”
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/pers-m29.html">
+            The Detroit water cutoffs and the social counterrevolution in America
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Joseph Kishore,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          The plan to shut off running water to tens of thousands of Detroit households is the latest step in a deliberate policy of mass impoverishment in the United States.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/turk-m29.html">
+            Turkish officials plan false-flag attacks to create pretext for war with Syria
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Alex Lantier,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          Leaked recordings show that top Turkish diplomats and intelligence officials planned covert attacks on Turkish forces to justify starting a war with Syria.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/ukra-m29.html">
+            Obama demands Russia withdraw troops from Ukraine border
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Will Morrow,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          Following his speech in Brussels on Wednesday, Obama appeared in an interview with CBS News yesterday in which he again sought to present the United States as a global upholder of peace and democracy and Russia as an aggressor.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/germ-m29.html">
+            German magazine Die Zeit calls for reintroduction of compulsory military service
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Christoph Dreier,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          In response to the crisis in Ukraine, the weekly magazine Die Zeit and high-ranking generals are calling for the return of compulsory military service.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/cauc-m29.html">
+            Ukraine conflict exacerbates tensions in the Caucasus
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Clara Weiss,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          The Caucasus has been a renewed focal point of imperialist interests since the dissolution of the Soviet Union.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/cana-m29.html">
+            Canada’s Harper stokes imperialism’s drive against Russia
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Keith Jones,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          Canadian Prime Minster Stephen Harper has hectored European leaders to intensify the US-led drive to bully and isolate Russia, blithely stoking a conflict that could easily spin into a global military conflagration.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/huma-m29.html">
+            UN report details US human rights abuses
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Thomas Gaist,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          The UN Human Rights Committee charged the US with violations of international law, including inhumane treatment of migrants, dragnet surveillance, torture and extralegal targeted killings.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/exec-m29.html">
+            Mississippi court delays state killing of mentally incompetent woman
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Matthew MacEgan,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          Mississippi’s Supreme Court denied a motion placed by the state attorney general to execute Michelle Byrom by March 27.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/muni-m29.html">
+            Defeat in French municipal elections staggers ruling Socialist Party
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Antoine Lerougetel,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          The Socialist Party is responding to its defeat and the rise of the neo-fascist vote by appealing to the right-wing UMP party and preparing a further shift to the right.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/labo-m29.html">
+            Workers Struggles: Asia, Australia and the Pacific
+          </a>
+        </h4>
+        <p class="info">
+          
+		  
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          The 
+          <em>
+            World Socialist Web Site
+          </em>
+           invites workers and other readers to contribute to this regular feature.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/icel-m29.html">
+            Iceland’s government seeks to abandon EU membership negotiations
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Jordan Shilton,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          The government’s decision to pull out of talks with the European Union over membership has led to a series of protests.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/mala-m29.html">
+            Malaysian government deepens crackdown on opposition
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By John Roberts,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          Opposition leader Anwar Ibrahim and other leading figures face jail and fines on trumped-up charges.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/rall-m29.html">
+            Australian student union’s “Day of Action” promotes Labor and the Greens
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By our correspondents,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          That broad layers of the student population view the protest politics of the NUS as unserious was reflected in a low turnout.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/mexi-m29.html">
+            Battles between drug cartels and vigilante groups destabilize Mexico
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Don Knowland,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          The highest level of instability in Mexico in over 80 years has resulted from armed clashes between drug cartels and rural self-defense groups and the intervention of federal troops.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/npae-m29.html">
+            French elections: Rising neo-fascist vote exposes bankruptcy of pseudo-left NPA
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Kumaran Ira,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          The New Anti-capitalist Party has responded to the rising neo-fascist vote in the municipal elections by endorsing France’s bourgeois “left” parties.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/meet-m29.html">
+            Detroit meeting called by SEP endorses fight against water shutoffs
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Shannon Jones,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          In a unanimous vote, a group of Detroit workers, students and retirees endorsed a resolution condemning plans by the city to cut off residents who are behind in their water bills
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/teac-m29.html">
+            UK National Union of Teachers stage one-day strike
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Margo Miller,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          The strike forced 3,000 schools—12 percent of the total number of schools—to shut their doors completely.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/29/thai-m29.html">
+            The growing danger of dictatorship in Thailand
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Tom Peters,
+		  29 March 2014
+		
+        </p>
+        <p class="desc">
+          The Constitutional Court’s decision to annul last month’s election is a warning that the ruling classes throughout the region are dispensing with their democratic façade.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/egyp-m25.html">
+            Egyptian coup leader al-Sisi announces presidential candidacy
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Johannes Stern,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          Sisi is a US-backed dictator prepared to use fascistic methods to suppress the working class at the behest of its imperialist patrons and international finance capital.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/pers-m28.html">
+            What way forward for workers in Ukraine?
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Alex Lantier,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          Devastating austerity measures imposed by the unelected pro-US regime in Kiev confirm the perspective for struggle outlined by the ICFI amid the dissolution of the USSR.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/sect-m28.html">
+            The real face of Ukraine’s Maidan “democrats”
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Ulrich Rippert,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          The violent death of Alexander Musytchko and an intercepted telephone conversation with Yulia Timoschenko have exposed the propaganda used by the German government and its allies to justify their actions in Ukraine.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/indi-m28.html">
+            India attempts precarious balancing act in Ukraine crisis
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Deepal Jayasekera and Keith Jones,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          With Russia and the US now pitted against each other in the most serious crisis in Europe since the end of the Second World War, New Delhi is groping for a stance that will enable it to avoid seriously damaging its relations with either Moscow or Washington.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/spyi-m28.html">
+            Obama administration submits formal plan for NSA “reforms”
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Thomas Gaist,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          A White House “fact sheet” includes proposed changes to the bulk phone records program, and is intended as a framework for new legislation to legitimize and further institutionalize mass spying.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/airl-m28.html">
+            Search continues for Malaysia Airlines plane
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Alan Leigh,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          According to experts, images with much higher clarity would be available from military surveillance satellites.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/vene-m28.html">
+            Venezuelan generals arrested in alleged coup plot
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Bill Van Auken,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          After nearly two months of right-wing-led protests, Venezuela’s President Nicolas Maduro announced the arrest of three air force generals on charges of plotting a military coup.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/osow-m28.html">
+            Area of Washington mudslide long known and documented as unstable
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Christine Schofelt,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          A 2010 Natural Hazard report specifically cited the area as susceptible to slides, and a 1999 Army Corps report warned of “large catastrophic failure” for the area, yet logging and building permits continued to be issued.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/manu-m28.html">
+            Australian government instigates moves to quash PNG judge’s refugee inquiry
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Eduardo Ballesteros,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          The Papua New Guinea government, at Canberra’s behest, is blocking a judicial inquiry into abuses against refugees inside Australia’s detention camp on Manus Island.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/dann-m28.html">
+            Britain seeks to make up lost ground with US over Ukraine
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Julie Hyland,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          Former General Lord Dannatt proposes that the UK station 3,000 troops in Germany as part of a new military build-up against Moscow.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/sril-m28.html">
+            Sri Lanka: SEP campaigns among villagers protesting water pollution
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By our correspondents,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          A Socialist Equality Party team wins support in Thunnana village, which is under siege from government security forces.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/mary-m28.html">
+            74-year-old woman, wrongly imprisoned, released after 32 years
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Gabriel Black,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          Mary Virginia Jones spent 32 years behind bars on the charge of first-degree murder, a crime her boyfriend at the time committed.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/maie-m28.html">
+            <em>
+              Finding Vivian Maier
+            </em>
+            : A brief comment …
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By David Walsh,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          The subject of this documentary is American photographer Vivian Maier (1926-2009), who made virtually no efforts to publish her remarkable photos during her lifetime.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/wate-m28.html">
+            No to Detroit water shutoffs!
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Lawrence Porter,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          Larry Porter, SEP assistant national secretary and chairman of the Workers Inquiry into the Bankruptcy of Detroit, denounced the decision by city officials to shut off water service to tens of thousands of poor residents who are late on their water bills.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/teac-m28.html">
+            Nationwide strike by UK teachers
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By our reporters,
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          Teachers held marches and rallies across the UK during their 24-hour strike Wednesday.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/wkrs-m28.html">
+            Workers Struggles: Europe, Middle East &amp; Africa
+          </a>
+        </h4>
+        <p class="info">
+          
+		  
+		  28 March 2014
+		
+        </p>
+        <p class="desc">
+          The 
+          <em>
+            World Socialist Web Site
+          </em>
+           invites workers and other readers to contribute to this regular feature.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/obam-m27.html">
+            Obama’s speech on Ukraine: Propaganda and lies
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Patrick Martin,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          The US president delivered a speech of pure propaganda, aimed at justifying an aggressive and confrontational policy in Ukraine.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/pers-m27.html">
+            The fraud of Obama’s NSA “reform”
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Joseph Kishore,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          Far from curtailing the NSA’s activities, the White House is seeking to expand the amount of data to which the spy agency has access.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/nzcr-m27.html">
+            New Zealand joins Washington’s sanctions against Russia
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By John Braddock,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          The New Zealand government has aligned itself with the escalating US and EU provocations against Moscow.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/stin-m27.html">
+            California police departments capture cellphone data
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Gabriel Black,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          A local news station has revealed that “StingRay” technology is used regularly by the major police departments of California to collect all cellphone communications in a given area.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/toda-m27.html">
+            Florida prosecutor’s report whitewashes FBI killing of Ibragim Todashev
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Ed Hightower,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          State Attorney Jeffrey Ashton’s report cherry picks facts, ignores conflicting evidence, and weaves a tale of “justified self defense” to exonerate a state murder.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/metr-m27.html">
+            Following death of workers, report indicts safety at New York Metro-North rail system
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By A. Woodson and Philip Guelpa,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          Days after the death of a Metro-North worker, the Federal Railroad Administration issued a report on safety deficiencies that led to four major accidents last year.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/whtm-m03.html">
+            One in three people in the US live “hand-to-mouth”
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Nick Barrickman,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          A paper published by the Brookings institution last week shows that economic distress is far more widespread than is shown in official poverty statistics.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/mado-m27.html">
+            Five more convicted in Madoff Ponzi scheme
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Andre Damon,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          A federal jury on Monday convicted five former employees of Bernard Madoff for helping him run the biggest Ponzi scheme in US history.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/jobs-m27.html">
+            UK Labour Party proposes compulsory cheap-labour scheme
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Danny Richardson,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          Under Labour’s scheme, young people will be compelled to work for a six-month period at the minimum wage.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/28/boyd-m27.html">
+            Police shooting of New Mexico homeless man caught on video
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By D. Lencho and Stuart Winter,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          Barely a year after the Albuquerque Police Department’s chief resigned over escalating police violence, the fatal shooting of a mentally ill, homeless man captured on video has sparked outrage in New Mexico’s largest city.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/sril-m27.html">
+            Sri Lankan government revives terror campaign against Tamils
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Subash Somachandran and W. A. Sunil,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          The real target of the anti-Tamil communal campaign is the working class as a whole.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/queb-m27.html">
+            Quebec elections: The issues facing the working class
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Guy Charron,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          Eighteen months ago, the unions, Québec Solidaire, and the student associations welcomed the election of the big business PQ.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/usps-m27.html">
+            Sri Lankan pseudo-lefts justify front with right-wing UNP
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Vilani Peiris,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          The USP is seeking to subordinate the developing struggles of the working class to the UNP, which is notorious for its attacks on workers.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/ucal-m27.html">
+            AFSCME cancels University of California strike
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Evelyn Rios,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          The union accepted a tentative agreement and called off a planned five-day strike.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/shut-m27.html">
+            The Detroit News endorses mass water shutoffs
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Thomas Gaist,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          In an editorial, the 
+          <em>
+            News
+          </em>
+           showered contempt on the more than 100,000 Detroit families who are behind on their water bills, denouncing them as “scofflaws”
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/dive-m27.html">
+            <em>
+              Divergent
+            </em>
+            : A different sort of dystopia
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Christine Schofelt,
+		  27 March 2014
+		
+        </p>
+        <p class="desc">
+          <em>
+            Divergent
+          </em>
+          , billed as the “next 
+          <em>
+            Hunger Games
+          </em>
+          ,” offers greater depth.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/spyi-m26.html">
+            Obama “reform” seeks new framework for illegal NSA spying
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Thomas Gaist and Joseph Kishore,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          The proposed changes to the bulk telephone metadata program would affect only a small portion of the vast and unconstitutional police-state spying apparatus.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/pers-m26.html">
+            Stop Egypt’s Pinochet from murdering 529 Muslim Brotherhood supporters!
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Johannes Stern,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          Monday’s death sentence handed down by a kangaroo court in Egypt to 529 supporters of the Muslim Brotherhood (MB) marks a new stage in the military junta’s brutal efforts to terrorize and intimidate popular opposition.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/cart-m26.html">
+            Former President Jimmy Carter says NSA likely spying on his communications
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Andre Damon,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          Carter told reporters this week that he does not use email or phone calls for sensitive political correspondence.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/ukra-m26.html">
+            US, EU press Russia to recognize Ukraine’s putschist regime
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Alex Lantier,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          Obama spoke in The Hague yesterday to increase military and economic pressure on Moscow to recognize the regime in Kiev.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/muzy-m26.html">
+            Leader of US-backed Ukrainian fascist Right Sector militia killed in police shootout
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Alex Lantier,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          Oleksandr Muzychko was killed in a high-level police operation that underscores the instability of the far-right Western-backed regime in Kiev.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/egyp-m26.html">
+            Egypt on the verge of a social explosion
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Jean Shaoul,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          The Egyptian military junta’s savage repression of the Muslim Brotherhood takes place in the context of growing social tensions and a wave of strikes.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/cour-m26.html">
+            US Supreme Court hears corporate challenge to Obamacare contraception provision
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Barry Grey,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          A ruling in favor of Hobby Lobby and Conestoga would mark an historic and unprecedented attack on the principle of separation of church and state.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/wash-m26.html">
+            Search continues for survivors in massive Washington State mudslide
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Hector Cordon,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          Search and rescue operations continue at a massive Washington State landslide as news emerges of long-standing warnings by geologists of the probability of such an occurrence.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/mint-m26.html">
+            Inner-Sydney tenants denounce government’s privatisation
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By our reporters,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          Following the New South Wales Liberal government’s announcement that it was privatising all public housing in the area, WSWS reporters spoke with residents of Millers Point and The Rocks.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/oils-m26.html">
+            Oil spill threatens Houston-area wildlife
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Tom Hall,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          Twenty-five years after the Exxon Valdez oil spill, oil industry and government practices continue to threaten the environment.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/27/spai-m26.html">
+            Academic experts advise Spanish government to escalate attacks on the working class
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Alejandro López,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          Among the proposals from nine Spanish academics is a nearly 10 percent reduction in income tax on the richest sections of the population.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/sino-m26.html">
+            Australian government minister steps aside: A revealing episode
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Terry Cook,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          A corruption scandal sheds light on growing inequality and the aspirations of an upper middle class layer.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/mill-m26.html">
+            Australia: State government to sell off Sydney Harbour public housing
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Stephen Griffiths,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          The NSW government aims to drive low-paid workers and pensioners out of inner Sydney.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/turk-m26.html">
+            Turkey shoots down Syrian fighter jet
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Halil Celik and Ulrich Rippert,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          Just days before regional elections, Turkey’s government led by Prime Minister Recep Tayyip Erdogan is increasingly unstable.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/immi-m26.html">
+            Thousands of refugees intercepted off the coast of Sicily
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Martin Kreickenbaum,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          The Italian authorities’ boasting about the recent rescue of refugees in the Mediterranean is a cynical cover for their anti-refugee policies.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/wein-m26.html">
+            What was US teachers union president Randi Weingarten doing in Kiev?
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Jerry White,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          The president of the American Federation of Teachers traveled to Kiev to praise the Western-backed regime installed through a fascist-led coup.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/side-m26.html">
+            The US State Department’s “labor man” in Ukraine
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Jerry White,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          The KVPU, whose headquarters served as an organizing center for the right-wing Maidan protests, has long been financed by State Department money funneled through the AFL-CIO’s American Center for International Labor Solidarity.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/SL+USP+election+campaign">
+            SL USP election campaign
+          </a>
+        </h4>
+        <p class="info">
+          
+		  
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          placeholder
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/26/korr-m26.html">
+            Detroit emergency manager at the University of Michigan
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Shannon Jones,
+		  26 March 2014
+		
+        </p>
+        <p class="desc">
+          The appearance of Kevyn Orr Tuesday at the University of Michigan in Ann Arbor was an exercise in cynicism and deceit.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/egyp-m25.html">
+            US-backed military junta in Egypt sentences 529 Brotherhood members to death
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Johannes Stern,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          The biggest mass death sentence in recent history marks another escalation in the ruthless efforts of the US-backed military junta in Egypt to annihilate its political opponents.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/pers-m25.html">
+            What accounts for the electoral victories of France’s neo-fascist National Front?
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Alex Lantier,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          The National Front can appeal to social discontent only because pseudo-left groups such as the New Anti-capitalist Party block all expression of working class opposition to the austerity policies of the Socialist Party government.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/ukra-m25.html">
+            G7 powers exploit Ukraine crisis to isolate Russia
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Mike Head,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          At a summit in The Hague, the major powers excluded Moscow from the Group of Eight and warned of further financial sanctions.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/tymo-m25.html">
+            Leading US-backed Ukrainian politician calls for annihilation of Russia
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Mike Head,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          In a leaked phone conversation, Former Prime Minister Yulia Tymoshenko called for Ukrainians to take up arms against Russians and for Western powers to reduce Russia to a “scorched field.”
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/olig-a25.html">
+            German foreign minister Steinmeier woos Ukrainian oligarchs
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Peter Schwarz,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          German foreign minister Steinmeier spent the weekend courting some of Ukraine’s wealthiest oligarchs.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/mala-m25.html">
+            Malaysian PM: Missing plane crashed in southern Indian Ocean
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Tom Peters,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          Malaysian authorities say analysis of satellite data shows the plane crashed, with no survivors, but no wreckage has been recovered.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/educ-m25.html">
+            Obama’s 2015 budget continues attack on public education
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Isabelle Belanger,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          Obama’s 2015 education budget includes more “competitive grants” to reward school districts that tailor their programs to meet the needs of corporate America.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/wash-m25.html">
+            Fourteen dead, over 100 missing in Washington state landslide
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Christine Schofelt,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          At least 14 people are confirmed dead and over 100 still missing after a landslide in Washington took out a section of highway and buried a neighborhood.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/chin-m25.html">
+            More signs of a weakening Chinese economy
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Nick Beams,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          The fall in a key manufacturing index points to a continuing slowdown in China.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/cana-m25.html">
+            Canada: Truckers and rail workers face antistrike laws
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Carl Bronski,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          British Columbia’s Liberal government has introduced legislation to criminalize a strike by truckers at the Port of Vancouver, Canada’s largest port facility.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/nhs-m25.html">
+            UK parliament approves assault on National Health Service
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Robert Stevens,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          Under Clause 119 of the Care Bill passed in parliament last week, the health secretary will be able to close hospitals and cut services.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/socw-m25.html">
+            The International Socialist Organization’s silence on CIA spying
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Patrick Martin,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          The pseudo-left International Socialist Organization is covering up the far-reaching assault on democratic rights involved in the CIA spying scandal.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/buda-m25.html">
+            <em>
+              The Grand Budapest Hotel
+            </em>
+             from Wes Anderson
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Joanne Laurier,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          <em>
+            The Grand Budapest Hotel
+          </em>
+           is a stylish, fantastical film, sometimes comic and sometimes tragic in its re-imagining of the period between the two world wars and the emergence of fascistic forces in Europe.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/hosp-m25.html">
+            Three Detroit metro hospitals planning mega-merger
+          </a>
+        </h4>
+        <p class="info">
+          
+		  By Thomas Gaist,
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          The merger was unknown to the public until it was reported in the press, indicating that the hospitals’ management preferred to keep the deal under wraps as long as possible.
+        </p>
+        <h4>
+          <a href="/en/articles/2014/03/25/wkrs-m25.html">
+            Workers Struggles: The Americas
+          </a>
+        </h4>
+        <p class="info">
+          
+		  
+		  25 March 2014
+		
+        </p>
+        <p class="desc">
+          The 
+          <em>
+            World Socialist Web Site
+          </em>
+           invites workers and other readers to contribute to this regular feature
+        </p>
+        <p>
+           
+        </p>
+        <div style="position:relative;">
+          <h3>
+             
+          </h3>
+          <div class="clearfix" id="tools">
+            <ul class="tools">
+              <li>
+                <a style="color:#CC0000;" href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=results.query.resultsToSkip?c">
+                  1
+                </a>
+              </li>
+              <li>
+                <a href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=100">
+                  2
+                </a>
+              </li>
+              <li>
+                <a href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=200">
+                  3
+                </a>
+              </li>
+              <li>
+                <a href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=300">
+                  4
+                </a>
+              </li>
+              <li>
+                <a href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=400">
+                  5
+                </a>
+              </li>
+              <li>
+                <a href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=500">
+                  6
+                </a>
+              </li>
+              <li>
+                <a href="search.html?text=us&amp;title=&amp;description=&amp;author=&amp;keywords=&amp;year=&amp;month=&amp;topic=&amp;topictitle=&amp;maxResults=100&amp;resultsToSkip=100">
+                  Next page
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Start of Missing Component Binding -->        <!--
+unbound-region-left2
+-->        <!-- End of Missing Component Binding -->        <!-- Start of Missing Component Binding -->        <!--
+unbound-region-left3
+-->        <!-- End of Missing Component Binding -->      </div>
+      <div id="sidebar">
+        <div style="width:430px;" class="column">
+          <div style="padding:0; border:none;" class="infobox">
+            <h3 style="margin-top:13px;" class="quote">
+              Define your search request
+            </h3>
+            <p>
+              Use this form to define the parameters for your search.
+            </p>
+            <form method="get" action="search.html">
+              <input type="hidden" value="100" name="maxResults"/>
+              <p>
+                <label for="text">
+                  Full Text Search:
+                </label>
+                <input type="text" value="us" name="text" id="text"/>
+              </p>
+              <p>
+                <label for="title">
+                  Headline:
+                </label>
+                <input type="text" value="" name="title" id="title"/>
+              </p>
+              <p>
+                <label for="description">
+                  Description:
+                </label>
+                <input type="text" value="" name="description" id="description"/>
+              </p>
+              <p>
+                <label for="keywords">
+                  Keywords:
+                </label>
+                <input type="keywords" value="" name="keywords" id="keywords"/>
+              </p>
+              <p>
+                <label for="author">
+                  Author:
+                </label>
+                <input type="text" value="" name="author" id="author"/>
+              </p>
+              <p>
+                <label for="year">
+                  Date:
+                </label>
+                <select name="year" id="year">
+                  <option value="" selected="selected">
+                    all years
+                  </option>
+                  <option value="1998">
+                    1998
+                  </option>
+                  <option value="1999">
+                    1999
+                  </option>
+                  <option value="2000">
+                    2000
+                  </option>
+                  <option value="2001">
+                    2001
+                  </option>
+                  <option value="2002">
+                    2002
+                  </option>
+                  <option value="2003">
+                    2003
+                  </option>
+                  <option value="2004">
+                    2004
+                  </option>
+                  <option value="2005">
+                    2005
+                  </option>
+                  <option value="2006">
+                    2006
+                  </option>
+                  <option value="2007">
+                    2007
+                  </option>
+                  
+  	    
+                  <option value="2008">
+                    2008
+                  </option>
+                  <option value="2009">
+                    2009
+                  </option>
+                  <option value="2010">
+                    2010
+                  </option>
+                  <option value="2011">
+                    2011
+                  </option>
+                  <option value="2012">
+                    2012
+                  </option>
+                  <option value="2013">
+                    2013
+                  </option>
+                  <option value="2014">
+                    2014
+                  </option>
+                </select>
+                <select name="month" id="month">
+                  <option value="" selected="selected">
+                    all months
+                  </option>
+                  <option value="01">
+                    January
+                  </option>
+                  <option value="02">
+                    February
+                  </option>
+                  <option value="03">
+                    March
+                  </option>
+                  <option value="04">
+                    April
+                  </option>
+                  <option value="05">
+                    May
+                  </option>
+                  <option value="06">
+                    June
+                  </option>
+                  <option value="07">
+                    July
+                  </option>
+                  <option value="08">
+                    August
+                  </option>
+                  <option value="09">
+                    September
+                  </option>
+                  <option value="10">
+                    October
+                  </option>
+                  <option value="11">
+                    November
+                  </option>
+                  <option value="12">
+                    December
+                  </option>
+                </select>
+              </p>
+              <p style="text-align:right; background-color:#FFFFFF;">
+                <button value="search" name="search" type="submit">
+                  Search
+                </button>
+              </p>
+            </form>
+          </div>
+        </div>
+        <!-- Start of Missing Component Binding -->        <!--
+unbound-region-right2
+-->        <!-- End of Missing Component Binding -->        <!-- Start of Missing Component Binding -->        <!--
+unbound-region-right3
+-->        <!-- End of Missing Component Binding -->      </div>
+    </div>
+    <div id="footer">
+      <p class="right">
+        <a href="/en/special/about.html">
+          About the WSWS
+        </a>
+         |
+    
+        <a href="/en/special/contact.html">
+          Contact Us
+        </a>
+         |
+    
+    
+        <a href="/en/special/privacy.html">
+          Privacy Statement
+        </a>
+         |
+    
+        <a href="#">
+          Top of page
+        </a>
+      </p>
+      <p>
+        Copyright © 1998-2014 
+        <i>
+          World Socialist Web Site
+        </i>
+         - All rights reserved
+      </p>
+    </div>
+    <!-- Piwik -->    <script type="text/javascript">
+//<![CDATA[
+
+  var _paq = _paq || [];
+  _paq.push(["setCookieDomain", "*.wsws.org"]);
+  if (document.title.substr(0,"Page Not Found".length) == "Page Not Found") {
+    _paq.push(["setDocumentTitle", "404/URL = " + String(document.location.pathname+document.location.search).replace(/\//g,"%2f") + "/From = " + String(document.referrer).replace(/\//g,"%2f")]);
+  }
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.wsws.org/analytics/piwik/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+
+//]]>
+    </script>
+    <noscript>
+      &lt;img src="https://piwik.wsws.org/analytics/piwik/piwik.php?idsite=1&amp;amp;rec=1" style="border:0" alt="" /&gt;
+
+    </noscript>
+    <!-- End Piwik Code -->    <div id="overlay" style="display: none;">
+    </div>
+    <div id="lightbox" style="display: none;">
+      <div id="outerImageContainer" style="width: 250px; height: 250px;">
+        <div id="imageContainer">
+          <img id="lightboxImage"/>
+          <div id="hoverNav">
+            <a id="prevLink" title="previous image" href="javascript://">
+            </a>
+            <a title="next image" id="nextLink" href="javascript://">
+            </a>
+          </div>
+          <div id="loading">
+            <a id="loadingLink" href="javascript://">
+              <img src="https://www.wsws.org/img/loading.gif"/>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix" id="imageDataContainer" style="width: 250px;">
+        <div id="imageData">
+          <div id="imageDetails">
+            <span id="caption">
+            </span>
+            <span id="numberDisplay">
+            </span>
+          </div>
+          <div id="bottomNav">
+            <a title="close image gallery" id="bottomNavClose" href="javascript://">
+              <img src="https://www.wsws.org/img/closelabel.gif"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

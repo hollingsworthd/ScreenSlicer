@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" class="js has-svg no-cssom has-hover no-touch has-anim">
+  <head>
+    <title>
+      Search: ibm | Bandcamp
+    </title>
+    <meta name="Description" content="
+"/>
+    <link rel="shortcut icon" href="http://s0.bcbits.com/img/bc_favicon.ico"/>
+    <link rel="apple-touch-icon" href="http://s0.bcbits.com/img/bc_favicon.ico"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--<meta name="apple-mobile-web-app-status-bar-style" content="black translucent">-->    <link type="text/css" rel="stylesheet" href="http://s0.bcbits.com/tmpdata/cache/global_bundle_f84c86d84027429c82d7cbca75325b43.css"/>
+    <link type="text/css" rel="stylesheet" href="http://s0.bcbits.com/tmpdata/cache/search_desktop_bundle_6148cdae57544940322495dbd2b65d1f.css"/>
+    <script type="text/javascript" src="http://edge.quantserve.com/quant.js">
+    </script>
+    <script type="text/javascript" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+        var isDebug = false;
+        var ErrorCollector = {"enabled":true,"sampleRate":null};
+        var CfgShare2 = true; // fixme: remove after Share2 always on
+    
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    
+    var isDebug = false;
+    var siteroot = "http://bandcamp.com";
+    var siteroot_https = "https://bandcamp.com";
+    var siteroot_current = "http://bandcamp.com";
+    var band_url = null;
+    var isProduction = true;
+
+    
+    document.documentElement.className += " js";
+    
+    
+    var Browser = {"platform":"win","version":[17,0],"grade":"A","make":"firefox","type":"gecko","platform_closed":false,"platform_name":"","media_mode":"desktop","mobile_app_compatible":false};    
+
+    
+    var TemplGlobals = {"image_formats":[{"resize_algo":"original","file_format":null,"name":"original","id":0},{"resize_algo":"scrub","file_format":"original","name":"fullsize","id":1},{"resize_algo":"thumb","file_format":"JPEG","name":"art_thumb","id":2,"height":350,"width":350},{"resize_algo":"thumb","file_format":"JPEG","name":"art_thumbthumb","id":3,"height":100,"width":100},{"resize_algo":"thumb","file_format":"JPEG","name":"art_embedded_metadata","id":4,"height":300,"width":300},{"resize_algo":"thumb","file_format":"JPEG","name":"art_embedded_metadata_large","id":5,"height":700,"width":700},{"resize_algo":"thumb","file_format":"JPEG","name":"art_embedded_player","id":6,"height":100,"width":100},{"resize_algo":"thumb","file_format":"JPEG","name":"art_embedded_player_large","id":7,"height":150,"width":150},{"resize_algo":"thumb","file_format":"JPEG","name":"art_tags","id":8,"height":124,"width":124},{"resize_algo":"thumb","file_format":"JPEG","name":"art_tags_large","id":9,"height":210,"width":210},{"resize_algo":"fit","file_format":"JPEG","name":"screen","id":10,"height":1200,"width":1200},{"resize_algo":"thumb","file_format":"JPEG","name":"art_feed_new_release","id":15,"height":135,"width":135},{"resize_algo":"fit","file_format":"JPEG","name":"bio_screen","id":20,"height":1024,"width":1024},{"resize_algo":"fit","file_format":"JPEG","name":"bio_thumb","id":21,"height":180,"width":120},{"resize_algo":"thumb","file_format":"JPEG","name":"bio_navbar","id":22,"height":25,"width":25},{"resize_algo":"fit","file_format":"JPEG","name":"bio_phone","id":23,"height":300,"width":300},{"resize_algo":"thumb","file_format":"JPEG","name":"bio_licensing","id":24,"height":300,"width":300},{"resize_algo":"fit","file_format":"original","name":"package_screen","id":31,"height":1024,"width":1024},{"resize_algo":"thumb","file_format":"JPEG","name":"package_page","id":36,"height":300,"width":400},{"resize_algo":"thumb","file_format":"JPEG","name":"package_thumb","id":37,"height":126,"width":168},{"resize_algo":"thumb","file_format":"JPEG","name":"fan_bio_thumb","id":41,"height":210,"width":210},{"resize_algo":"thumb","file_format":"JPEG","name":"fan_bio_thumb_small","id":42,"width":50,"height":50},{"resize_algo":"fit","file_format":"JPEG","name":"fan_banner","id":43,"width":99999,"height":100},{"resize_algo":"thumb","file_format":"JPEG","name":"results_grid","id":50,"height":140,"width":140},{"max_height":180,"resize_algo":"thumb","file_format":"original","name":"custom_header_desktop","id":100,"width":975},{"resize_algo":"fit","file_format":"JPEG","name":"custom_header_paypal","id":101,"height":90,"width":750},{"max_height":124,"resize_algo":"thumb","file_format":"JPEG","name":"custom_header_phone","id":120,"width":640}],"siteroot_https":"https://bandcamp.com","base_port_str":null,"image_siteroot_https":"https://f0.bcbits.com","image_siteroot":"http://f0.bcbits.com","custom_domains_active":true,"sitedomain":"bandcamp.com","siteroot":"http://bandcamp.com","siteroot_current":"http://bandcamp.com","is_https":false,"static_siteroot":"http://s0.bcbits.com"};
+
+    var JSLoader = {
+        currentset : { foot: [] },
+
+        writeScriptTags: function( section ) {
+            var libs = JSLoader.currentset[ section ];
+            if ( !libs ) 
+                throw "couldn't find js section: " + section;
+            for ( var i=0; i < libs.length; i++ ) {
+                document.write( '<script type="text/javascript" src="' + libs[i] + '"><\/s' + 'cript>' );
+            }
+        },
+        
+        requireJS : function(src) {
+            if(typeof(src) == "string")
+            {
+                JSLoader._addRequire(src);
+            }
+            else
+            {
+                for(var i=0; i<src.length; i++)
+                {
+                    JSLoader._addRequire(src[i]);
+                }
+            }
+        },
+        
+        _addRequire : function(src) {
+            var libs = JSLoader.currentset.foot;
+            for(var i=0; i<libs.length; i++)
+            {
+                if(libs[i] == src) return;
+            }
+            libs.push( src );
+        }
+    };
+
+
+//]]>
+    </script>
+    <script type="text/javascript" src="http://s0.bcbits.com/tmpdata/cache/global_head_bundle_06e9723aa8f19952666d1e60fe565104.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+        (function(){
+            function snickerdoodle(which) {
+                var pairs = document.cookie.split(/;\s*/);
+                for (var i = 0; i < pairs.length; ++i) {
+                    var pair = pairs[i].split("=");
+                    if (pair[0] == which) {
+                        return pair[1];
+                    }
+                }
+                return null;
+            }
+
+
+            // pull id out of the cookies
+            window.ClientID = snickerdoodle("client_id");
+
+        })();
+    
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+            if ( window.MediaView ) {
+             
+                MediaView.initServer("desktop");
+            
+            }
+
+            var gCrumb = null;
+            var _crumbs = {};
+            var UploadInfo = null;
+            
+            Control.registerEvents();
+            Control.registerController( "/no_js", TPController );
+
+        
+//]]>
+    </script>
+    <!--@@PAGEBUCKETS@@-->  </head>
+  <body class="gecko has-menubar ">
+    <div id="pagedata" data-blob="{&quot;is_admin&quot;:null,&quot;identities&quot;:{&quot;is_band_member&quot;:false,&quot;is_fan&quot;:false}}">
+    </div>
+    <div id="menubar-wrapper" class="bc-ui">
+      <div id="menubar-vm" class="" data-initial-values="{&quot;fan_url&quot;:null,&quot;is_tralbum_page&quot;:false,&quot;page_path&quot;:&quot;/search&quot;,&quot;page_band&quot;:null,&quot;is_band_member&quot;:false,&quot;is_fan_page&quot;:false,&quot;walkthrough_version&quot;:2,&quot;is_admin&quot;:null,&quot;identities&quot;:{&quot;bands&quot;:[],&quot;partner&quot;:null,&quot;user2&quot;:null,&quot;user&quot;:null,&quot;fan&quot;:null},&quot;admin_level&quot;:0,&quot;any_pro&quot;:false}">
+        <div id="menubar">
+          <ul id="site-nav" class="menubar-section horizontal">
+            <li class="menubar-item">
+              <a href="http://bandcamp.com">
+                <div class="bc-ui logo">
+                </div>
+              </a>
+            </li>
+            <!-- ko if: show_band_controls -->            <!-- /ko -->            <!-- ko if: show_band_controls -->            <!-- /ko -->            <!-- ko if: show_band_controls -->            <!-- /ko -->            <!-- ko if: show_band_controls -->            <!-- /ko -->          </ul>
+          <ul id="user-nav" class="menubar-section horizontal">
+            <!-- ko if: user -->            <!-- /ko -->            <!-- ko ifnot: user -->            <li class="menubar-item ">
+              <a href="https://bandcamp.com/login">
+                log in
+              </a>
+            </li>
+            <li class="menubar-item ">
+              <a href="https://bandcamp.com/signup">
+                signup
+              </a>
+            </li>
+            <!-- /ko -->          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="centerWrapper">
+      <div id="propOpenWrapper">
+        <div id="pgBd" class="yui-skin-sam">
+          <div class="search">
+            <form class="searchwidget" action="/search" method="GET">
+              <input type="text" class="searchbox housefont" id="q" name="q" value="ibm" placeholder="Search for artist, track or album" tabindex="1" autocomplete="off" maxlength="2048"/>
+              <button type="submit" class="searchbutton round4 housefont">
+                <span class="icon">
+                </span>
+                Search
+              </button>
+            </form>
+            <h1 class="searchinfo">
+              
+        
+            
+                
+                    
+                    Searching for “ibm” returned 204 results.
+                    
+                
+                
+            
+        
+    
+            </h1>
+            <div class="leftcol">
+              <div class="results">
+                <ul class="result-items">
+                  <li class="searchresult">
+                    <a class="artcont" href="http://ibmcs.bandcamp.com">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a2163759634_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ARTIST
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://ibmcs.bandcamp.com">
+                          
+                                IBMCs
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        Devon, UK
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://ibmcs.bandcamp.com">
+                          http://ibmcs.bandcamp.com
+                        </a>
+                      </div>
+                      <div class="genre">
+                        
+                                        genre: Hip-Hop/Rap
+                                    
+                      </div>
+                      <div class="releases">
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    Hip-Hop/Rap,
+                                
+                                    hip-hop
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://ibmcs.bandcamp.com/album/ibmcs-worldwide-remixes-vol-4-3">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a3021203350_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ALBUM
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://ibmcs.bandcamp.com/album/ibmcs-worldwide-remixes-vol-4-3">
+                          
+                                IBMCs: worldwide remixes - vol.4
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        by IBMCs
+                                    
+                      </div>
+                      <div class="length">
+                        
+                                        4 tracks, 13 minutes
+                                    
+                      </div>
+                      <div class="released">
+                        
+                                        released 15 July 2013
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://ibmcs.bandcamp.com/album/ibmcs-worldwide-remixes-vol-4-3">
+                          http://ibmcs.bandcamp.com/album/ibmcs-worldwide-remixes-vol-4-3
+                        </a>
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    Hip-Hop/Rap,
+                                
+                                    hip-hop,
+                                
+                                    Pyworthy,
+                                
+                                    Devon,
+                                
+                                    United Kingdom
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://vibmusic.bandcamp.com">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a0606001370_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ARTIST
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://vibmusic.bandcamp.com">
+                          
+                                Vib
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        London, UK
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://vibmusic.bandcamp.com">
+                          http://vibmusic.bandcamp.com
+                        </a>
+                      </div>
+                      <div class="genre">
+                        
+                                        genre: R&amp;B/Soul
+                                    
+                      </div>
+                      <div class="releases">
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    Neo-Soul,
+                                
+                                    Electronic Soul,
+                                
+                                    Hip-Hop Soul,
+                                
+                                    Soul,
+                                
+                                    R&amp;B/Soul
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://thebritishibm.bandcamp.com">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a0531470302_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ARTIST
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://thebritishibm.bandcamp.com">
+                          
+                                the British IBM
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        Cambridge, UK
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://thebritishibm.bandcamp.com">
+                          http://thebritishibm.bandcamp.com
+                        </a>
+                      </div>
+                      <div class="genre">
+                        
+                                        genre: Rock
+                                    
+                      </div>
+                      <div class="releases">
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    indie rock,
+                                
+                                    Rock,
+                                
+                                    indie,
+                                
+                                    geek rock
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://thebritishibm.bandcamp.com/album/the-british-ibm">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a0531470302_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ALBUM
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://thebritishibm.bandcamp.com/album/the-british-ibm">
+                          
+                                the British IBM
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        by the British IBM
+                                    
+                      </div>
+                      <div class="length">
+                        
+                                        10 tracks, 31 minutes
+                                    
+                      </div>
+                      <div class="released">
+                        
+                                        released 26 July 2012
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://thebritishibm.bandcamp.com/album/the-british-ibm">
+                          http://thebritishibm.bandcamp.com/album/the-british-ibm
+                        </a>
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    Cambridgeshire,
+                                
+                                    indie,
+                                
+                                    Cambridge,
+                                
+                                    indie rock,
+                                
+                                    United Kingdom,
+                                
+                                    geek rock,
+                                
+                                    Rock
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://ibmcs1.bandcamp.com">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a2123725141_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ARTIST
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://ibmcs1.bandcamp.com">
+                          
+                                IBMCs
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        Knoxville, Tennessee
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://ibmcs1.bandcamp.com">
+                          http://ibmcs1.bandcamp.com
+                        </a>
+                      </div>
+                      <div class="genre">
+                        
+                                        genre: Hip-Hop/Rap
+                                    
+                      </div>
+                      <div class="releases">
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    Hip-Hop/Rap,
+                                
+                                    hip hop
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://ibmcs1.bandcamp.com/album/esh-on-the-mic-demos-from-2003-2011">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a0771082294_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ALBUM
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://ibmcs1.bandcamp.com/album/esh-on-the-mic-demos-from-2003-2011">
+                          
+                                Esh on the Mic (Demos from 2003-2011)
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        by IBMCs
+                                    
+                      </div>
+                      <div class="length">
+                        
+                                        4 tracks, 11 minutes
+                                    
+                      </div>
+                      <div class="released">
+                        
+                                        released 28 September 2013
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://ibmcs1.bandcamp.com/album/esh-on-the-mic-demos-from-2003-2011">
+                          http://ibmcs1.bandcamp.com/album/esh-on-the-mic-demos-from-2003-2011
+                        </a>
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    hip hop,
+                                
+                                    United States,
+                                
+                                    Tennessee,
+                                
+                                    Hip-Hop/Rap,
+                                
+                                    Knoxville
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://ibmusic.bandcamp.com">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a1032704955_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ARTIST
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://ibmusic.bandcamp.com">
+                          
+                                IB
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        Windsor, Ontario
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://ibmusic.bandcamp.com">
+                          http://ibmusic.bandcamp.com
+                        </a>
+                      </div>
+                      <div class="releases">
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    r and b,
+                                
+                                    afro hip hop
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://kalpamantra.bandcamp.com/album/emissions">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a2823612520_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ALBUM
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://kalpamantra.bandcamp.com/album/emissions">
+                          
+                                Emissions
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        by Various Artists
+                                    
+                      </div>
+                      <div class="length">
+                        
+                                        55 tracks, 386 minutes
+                                    
+                      </div>
+                      <div class="released">
+                        
+                                        released 20 January 2010
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://kalpamantra.bandcamp.com/album/emissions">
+                          http://kalpamantra.bandcamp.com/album/emissions
+                        </a>
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    electronic,
+                                
+                                    drone ambient,
+                                
+                                    Ambient,
+                                
+                                    United Kingdom,
+                                
+                                    dark ambient
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://newdimensionaleraproductions-indierock.bandcamp.com/album/the-british-ibm">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a2957246667_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ALBUM
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://newdimensionaleraproductions-indierock.bandcamp.com/album/the-british-ibm">
+                          
+                                The British IBM
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        by The British IBM
+                                    
+                      </div>
+                      <div class="length">
+                        
+                                        10 tracks, 31 minutes
+                                    
+                      </div>
+                      <div class="released">
+                        
+                                        released 22 February 2013
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://newdimensionaleraproductions-indierock.bandcamp.com/album/the-british-ibm">
+                          http://newdimensionaleraproductions-indierock.bandcamp.com/album/the-british-ibm
+                        </a>
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    Derbyshire,
+                                
+                                    UK,
+                                
+                                    indie rock,
+                                
+                                    Beeley,
+                                
+                                    Rock,
+                                
+                                    alternative rock
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://ancientrecords.bandcamp.com/album/black-metal-7">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a3562890218_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ALBUM
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://ancientrecords.bandcamp.com/album/black-metal-7">
+                          
+                                Black Metal
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        by Reverorum Ib Malacht
+                                    
+                      </div>
+                      <div class="length">
+                        
+                                        3 tracks, 21 minutes
+                                    
+                      </div>
+                      <div class="released">
+                        
+                                        released 01 January 2010
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://ancientrecords.bandcamp.com/album/black-metal-7">
+                          http://ancientrecords.bandcamp.com/album/black-metal-7
+                        </a>
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    Sweden,
+                                
+                                    Black Metal,
+                                
+                                    Metal,
+                                
+                                    Dark Ambient
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://ibmg.bandcamp.com">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a2222121762_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ARTIST
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://ibmg.bandcamp.com">
+                          
+                                IBMG
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        Florida
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://ibmg.bandcamp.com">
+                          http://ibmg.bandcamp.com
+                        </a>
+                      </div>
+                      <div class="genre">
+                        
+                                        genre: Hip-Hop/Rap
+                                    
+                      </div>
+                      <div class="releases">
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    Hip Hop/Rap,
+                                
+                                    Hip Hop,
+                                
+                                    r&amp;b\rap
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://ibmg.bandcamp.com/album/the-lost-era">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a3337920229_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ALBUM
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://ibmg.bandcamp.com/album/the-lost-era">
+                          
+                                The Lost Era
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        by IBMG
+                                    
+                      </div>
+                      <div class="length">
+                        
+                                        11 tracks, 30 minutes
+                                    
+                      </div>
+                      <div class="released">
+                        
+                                        released 13 June 2011
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://ibmg.bandcamp.com/album/the-lost-era">
+                          http://ibmg.bandcamp.com/album/the-lost-era
+                        </a>
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    Hip Hop/Rap,
+                                
+                                    Hip Hop,
+                                
+                                    United States,
+                                
+                                    Florida,
+                                
+                                    r&amp;b\rap
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://caribmetalhorde.bandcamp.com">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a1868383467_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ARTIST
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://caribmetalhorde.bandcamp.com">
+                          
+                                Carib Metal Horde
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        Barbados
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://caribmetalhorde.bandcamp.com">
+                          http://caribmetalhorde.bandcamp.com
+                        </a>
+                      </div>
+                      <div class="genre">
+                        
+                                        genre: Ambient
+                                    
+                      </div>
+                      <div class="releases">
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    Black Metal,
+                                
+                                    Extreme Metal,
+                                
+                                    Thrash Metal,
+                                
+                                    Ambient
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://kibmusic.bandcamp.com">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/0000206880_23.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ARTIST
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://kibmusic.bandcamp.com">
+                          
+                                KiB
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        Lithuania
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://kibmusic.bandcamp.com">
+                          http://kibmusic.bandcamp.com
+                        </a>
+                      </div>
+                      <div class="genre">
+                        
+                                        genre: Ambient
+                                    
+                      </div>
+                      <div class="releases">
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    IDM,
+                                
+                                    Ambient,
+                                
+                                    Electronic,
+                                
+                                    Minimalist IDM,
+                                
+                                    drone
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://zibmusic.bandcamp.com">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/0000100686_23.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ARTIST
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://zibmusic.bandcamp.com">
+                          
+                                ZIB
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        Fort Lauderdale, Florida
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://zibmusic.bandcamp.com">
+                          http://zibmusic.bandcamp.com
+                        </a>
+                      </div>
+                      <div class="genre">
+                        
+                                        genre: Hip-Hop/Rap
+                                    
+                      </div>
+                      <div class="releases">
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    Hip-Hop,
+                                
+                                    Hip Hop/Rap
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://libmixtape.bandcamp.com">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/0002094561_23.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ARTIST
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://libmixtape.bandcamp.com">
+                          
+                                LIB Mixtape
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        New York
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://libmixtape.bandcamp.com">
+                          http://libmixtape.bandcamp.com
+                        </a>
+                      </div>
+                      <div class="genre">
+                        
+                                        genre: Soundtrack
+                                    
+                      </div>
+                      <div class="releases">
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    Soundtrack,
+                                
+                                    Everything
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                  <li class="searchresult">
+                    <a class="artcont" href="http://libmixtape.bandcamp.com/album/lib-mixtape-vol-1">
+                      <div class="art">
+                        <img src="http://f0.bcbits.com/img/a4283312553_7.jpg"/>
+                      </div>
+                    </a>
+                    <div class="result-info">
+                      <div class="itemtype">
+                        
+                                ALBUM
+                                    
+                            
+                      </div>
+                      <div class="heading">
+                        <a href="http://libmixtape.bandcamp.com/album/lib-mixtape-vol-1">
+                          
+                                LIB Mixtape Vol. 1
+                                    
+                                
+                        </a>
+                      </div>
+                      <div class="subhead">
+                        
+                                        by LIB Mixtape
+                                    
+                      </div>
+                      <div class="length">
+                        
+                                        12 tracks, 39 minutes
+                                    
+                      </div>
+                      <div class="released">
+                        
+                                        released 25 November 2013
+                                    
+                      </div>
+                      <div class="itemurl">
+                        <a href="http://libmixtape.bandcamp.com/album/lib-mixtape-vol-1">
+                          http://libmixtape.bandcamp.com/album/lib-mixtape-vol-1
+                        </a>
+                      </div>
+                      <div class="tags">
+                        
+                                tags:
+                                
+                                    New York,
+                                
+                                    Everything,
+                                
+                                    United States,
+                                
+                                    Soundtrack
+                                
+                                
+                            
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="pager_controls">
+                  <div class="pager">
+                    <ul class="pagelist">
+                      <li>
+                        <span class="pagenum chosen round4">
+                          1
+                        </span>
+                      </li>
+                      <li>
+                        <a class="pagenum round4" href="?from=corphome&amp;page=2&amp;q=ibm" rel="nofollow">
+                          2
+                        </a>
+                      </li>
+                      <li>
+                        <a class="pagenum round4" href="?from=corphome&amp;page=3&amp;q=ibm" rel="nofollow">
+                          3
+                        </a>
+                      </li>
+                      <li>
+                        <a class="pagenum round4" href="?from=corphome&amp;page=4&amp;q=ibm" rel="nofollow">
+                          4
+                        </a>
+                      </li>
+                      <li>
+                        <a class="pagenum round4" href="?from=corphome&amp;page=5&amp;q=ibm" rel="nofollow">
+                          5
+                        </a>
+                      </li>
+                      <li>
+                        <a class="pagenum round4" href="?from=corphome&amp;page=6&amp;q=ibm" rel="nofollow">
+                          6
+                        </a>
+                      </li>
+                      <li>
+                        <a class="pagenum round4" href="?from=corphome&amp;page=7&amp;q=ibm" rel="nofollow">
+                          7
+                        </a>
+                      </li>
+                      <li>
+                        <a class="pagenum round4" href="?from=corphome&amp;page=8&amp;q=ibm" rel="nofollow">
+                          8
+                        </a>
+                      </li>
+                      <li>
+                        <a class="pagenum round4" href="?from=corphome&amp;page=9&amp;q=ibm" rel="nofollow">
+                          9
+                        </a>
+                      </li>
+                      <li class="ellip">
+                        …
+                      </li>
+                      <li>
+                        <a class="pagenum round4" href="?from=corphome&amp;page=12&amp;q=ibm" rel="nofollow">
+                          12
+                        </a>
+                      </li>
+                    </ul>
+                    <a class="nextprev next round4" href="?from=corphome&amp;page=2&amp;q=ibm" rel="nofollow">
+                      
+                        next
+                        
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rightcol">
+              <!-- If the search was for a main genre we're already showing the big Discoverinator promotion at the top, no need to repeat it in the sidebar -->              <div class="block">
+                <p>
+                  
+            Explore more great music using
+                  <br/>
+                  <a href="/discover?from=search">
+                    Bandcamp Discover
+                  </a>
+                  .
+        
+                </p>
+              </div>
+            </div>
+          </div>
+          <script type="text/javascript">
+//<![CDATA[
+
+    $("#q").focus();
+
+//]]>
+          </script>
+          <div style="clear:both">
+          </div>
+        </div>
+        <div id="pgFt">
+          <div id="pgFt-inner" class="pgft-desktop">
+            <div id="footer-logo-wrapper">
+              <a id="footer-logo" href="http://bandcamp.com?from=logo">
+                <span class="hiddenAccess">
+                  Bandcamp
+                </span>
+              </a>
+              <span class="webapp-selector-ui" style="display:none">
+              </span>
+            </div>
+            <ul id="legal" class="horizNav">
+              <li id="login">
+                <a href="https://bandcamp.com/login">
+                  log in
+                </a>
+              </li>
+              <li>
+                <a href="http://bandcamp.com/terms_of_use">
+                  terms of use
+                </a>
+              </li>
+              <li>
+                <a href="http://bandcamp.com/privacy">
+                  privacy
+                </a>
+              </li>
+              <li>
+                <a href="http://bandcamp.com/copyright">
+                  copyright policy
+                </a>
+              </li>
+              <li class="view-switcher desktop">
+                <a>
+                  switch to mobile view
+                </a>
+              </li>
+            </ul>
+            <span class="static-content">
+               
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://s0.bcbits.com/tmpdata/cache/global_foot1_bundle_104a8e5eb9ddfca6b196d845fe1e4e6f.js">
+    </script>
+    <script type="text/javascript" src="http://s0.bcbits.com/tmpdata/cache/global_foot2_bundle_a6e621d3a116be59b93685a5982ba8cb.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    
+    JSLoader.writeScriptTags( "foot" );
+    
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    
+    
+
+    Dom.initActiveElement();
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    (function() {
+
+        Y.util.Event.onDOMReady( function() {
+            Control.handleDomReady();
+            FieldHints.init();
+            Dom.scrollToParamElt();
+        });
+
+    })();
+    
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+if (!isDebug) {
+    var _gaq = _gaq || [];
+    var _qevents = _qevents || [];
+
+    (function() {
+        var doc = document, isHttps = ('https:' == doc.location.protocol);
+        function loadScript(src) {
+            var n = doc.createElement('script'), s = doc.getElementsByTagName('script')[0]; 
+            n.type = 'text/javascript'; n.async = true; n.src = src;
+            s.parentNode.insertBefore(n, s);            
+        }
+
+        
+        _gaq.push(
+            ['_setAccount', 'UA-4189134-2'],
+            ['_setDomainName', 'bandcamp.com'], 
+            ['_setAllowAnchor', true],
+            ['_trackPageview']
+        
+        );
+        loadScript((isHttps ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js');
+
+        
+        _qevents.push({qacct:'p-0207-dhLCDgvg'});
+        loadScript((isHttps ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js');
+    })();
+}
+
+//]]>
+    </script>
+    <noscript>
+      
+    &lt;div style="display:none;"&gt;&lt;img src="//pixel.quantserve.com/pixel/p-0207-dhLCDgvg.gif" border="0" height="1" width="1" alt=""&gt;&lt;/div&gt;
+
+    </noscript>
+    <!-- bender05-3 Wed Jan 15 09:17:10 UTC 2014 -->  </body>
+</html>

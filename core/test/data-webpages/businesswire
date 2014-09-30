@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html class="no-js lt-ie9" lang="en">
+  <!--<![endif]-->  <head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+    <title>
+      Search | Business Wire
+    </title>
+    <meta content="The global leader in press release distribution and regulatory disclosure. Public relations and investor relations professionals rely on Business Wire for broad-based and targeted market reach." name="description"/>
+    <meta content="noodp,noydir" name="robots"/>
+    <meta content="width=device-width,initial-scale=1" name="viewport"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+    <link href="/css/jquery-ui.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/libs/PIE.css"/>
+    <link rel="stylesheet" href="/css/style-ie8.css"/>
+    <script src="/js/libs/html5shiv-printshiv.js">
+    </script>
+    <script type="text/javascript" src="http://cdn.pardot.com/pd.js">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script src="/js/libs/modernizr-respond.js">
+    </script>
+    <script src="/js/functions.js">
+    </script>
+    <script src="/js/popups.js">
+    </script>
+    <script src="/js/jquery.js">
+    </script>
+    <script src="/js/jquery-ui.js">
+    </script>
+    <script src="/js/bwjsapi.js">
+    </script>
+  </head>
+  <body id="bw-container">
+    <header role="banner">
+      <div>
+        <a href="http://www.businesswire.com/">
+          <img alt="Business Wire" title="" src="/images/bwlogo_web.jpg" id="bw-home-link"/>
+        </a>
+      </div>
+    </header>
+    <div role="main" id="bw-main">
+      <div>
+        <div id="bw-group-all" class="bw-group-portlets">
+          <div class="moduleContainer">
+            <script src="/js/jquery.history.js">
+            </script>
+            <div class="bw-content bw-search-content">
+              <h1>
+                Search Results
+              </h1>
+              <div class="bw-search-site" id="bw-search-page">
+                <form action="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=all&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken" method="post" onsubmit="return searchBox();" name="bw-search-page-form" id="bw-search-page-form">
+                  <fieldset>
+                    <label for="bwSearchThisInput" class="hidden">
+                      Search
+                    </label>
+                    <input type="search" value="ibm" name="searchTerm" id="bw-search-page-input"/>
+                    <button title="Search" id="bw-search-page-button" class="bw-button-primary" type="submit">
+                      <span>
+                        <img alt="Search" src="/images/icons/icon_search.gif"/>
+                      </span>
+                    </button>
+                  </fieldset>
+                </form>
+              </div>
+              <div class="bw-search-nav">
+                <ul>
+                  <li>
+                    <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=1&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=all&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;amp;javax.portlet.endCacheTok=com.vignette.cachetoken" class="bw-current" id="bw-all-nav" onclick="return searchAjax('all', 'bw-all-nav');">
+                      All
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=1&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=news&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;amp;javax.portlet.endCacheTok=com.vignette.cachetoken" id="bw-news-nav" onclick="return searchAjax('news', 'bw-news-nav');">
+                      News
+                    </a>
+                    <ul>
+                      <li>
+                        <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=1&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=newsPhotos&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;amp;javax.portlet.endCacheTok=com.vignette.cachetoken" id="bw-news-photos-nav" onclick="return searchAjax('newsPhotos', 'bw-news-photos-nav');">
+                          News with Photos
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=1&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=newsVideos&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;amp;javax.portlet.endCacheTok=com.vignette.cachetoken" id="bw-news-videos-nav" onclick="return searchAjax('newsVideos', 'bw-news-videos-nav');">
+                          News with Videos
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=1&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=site&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;amp;javax.portlet.endCacheTok=com.vignette.cachetoken" id="bw-site-nav" onclick="return searchAjax('site', 'bw-site-nav');">
+                      Site
+                    </a>
+                  </li>
+                </ul>
+                <div class="bw-more">
+                  <a href="/portal/site/home/template.PAGE/search/?javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.pbp_92055fbcbec7e639f1f554100d908a0c_view=advancedSearch&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken">
+                    Advanced News Search
+                  </a>
+                </div>
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--
+
+function searchAjax(ajaxSearchType, activeId) {
+
+	// check if we can expand the search type
+	if (searchType == 'all') {
+		if (ajaxSearchType == 'news') {
+			return showMoreNewsResults();
+		} else if (ajaxSearchType == 'site') {
+			return showMoreSiteResults();
+		}  
+	}
+	var bgColor = '#D5EEF7';
+	$('#bw-all-nav').animate({ backgroundColor: bgColor }, 300).removeClass("bw-current");
+	$('#bw-news-nav').animate({ backgroundColor: bgColor }, 300).removeClass("bw-current");
+	$('#bw-news-photos-nav').animate({ backgroundColor: bgColor }, 300).removeClass("bw-current");
+	$('#bw-news-videos-nav').animate({ backgroundColor: bgColor }, 300).removeClass("bw-current");
+	$('#bw-site-nav').animate({ backgroundColor: bgColor }, 300).removeClass("bw-current");
+
+	searchTerm = $('#bw-search-page-input').val();
+	var searchUrl = '/portal/site/home/template.BINARYPORTLET/search/resource.process/?javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.rst_92055fbcbec7e639f1f554100d908a0c_searchTerm=SEARCH_TERM&amp;javax.portlet.rst_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;javax.portlet.rst_92055fbcbec7e639f1f554100d908a0c_resultsPage=1&amp;javax.portlet.rst_92055fbcbec7e639f1f554100d908a0c_searchType=SEARCH_TYPE&amp;javax.portlet.rid_92055fbcbec7e639f1f554100d908a0c=searchAjax&amp;javax.portlet.rcl_92055fbcbec7e639f1f554100d908a0c=cacheLevelPage&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken'.replace('SEARCH_TERM', searchTerm).replace('SEARCH_TYPE', ajaxSearchType);
+
+	searchType = ajaxSearchType;
+	searchPage = 1;
+	
+	if (!/\S/.test(searchTerm)) { // check for blank
+		$('.bw-search-results').html('&lt;br/&gt;&lt;p&gt;Please enter a search term.&lt;p&gt;');
+		updateNavIndicator(searchType);
+	} else {
+		$(".bw-search-results").animate({'opacity':0.5});
+	
+		$.ajax({
+			  url: searchUrl,
+			  success: function( data ) {
+			    $('.bw-search-results').replaceWith(data);
+			    updateNavIndicator(searchType);
+				$(".bw-search-results").animate({'opacity':1.0});
+			  }
+			});
+
+	}
+	History.pushState({'searchType':searchType, 'searchTerm':searchTerm, 'page':searchPage}, "Search | Business Wire", "?searchType=" + searchType + "&amp;searchTerm=" + searchTerm + "&amp;searchPage=" + searchPage);
+	return false;
+}
+
+function updateNavIndicator(searchType) {
+	var activeId = '';
+	if (searchType == 'all') {
+		activeId = 'bw-all-nav';
+	} else if (searchType == 'site') {
+		activeId = 'bw-site-nav';
+	} else if (searchType == 'news' || searchType == 'headline' || searchType == 'company' || searchType == 'ticker' || searchType == 'isin') {
+		activeId = 'bw-news-nav';
+	} else if (searchType == 'newsPhotos') {
+		activeId = 'bw-news-photos-nav';
+	} else if (searchType == 'newsVideos') {
+		activeId = 'bw-news-videos-nav';
+	}
+
+	var bgColor = '#D5EEF7';
+	$('#bw-all-nav').css({ backgroundColor: bgColor }).removeClass("bw-current");
+	$('#bw-news-nav').css({ backgroundColor: bgColor }).removeClass("bw-current");
+	$('#bw-news-photos-nav').css({ backgroundColor: bgColor }).removeClass("bw-current");
+	$('#bw-news-videos-nav').css({ backgroundColor: bgColor }).removeClass("bw-current");
+	$('#bw-site-nav').css({ backgroundColor: bgColor }).removeClass("bw-current");
+	
+	$('#' + activeId).animate({ backgroundColor: "#499ED6" }, 300, function() {
+		$(this).addClass("bw-current");
+	});
+
+}
+
+//--&gt;
+
+//]]>
+              </script>
+              <div class="bw-search-results">
+                <section class="bw-site-section">
+                  <h2>
+                    <a title="See all results from Site on BusinessWire.com" onclick="return showMoreSiteResults();" href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=1&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=site&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken">
+                      Site
+                    </a>
+                  </h2>
+                  <ul class="ss">
+                    <li>
+                      <h3>
+                        <a href="http://www.businesswire.com/news/dallasnews/20131115005138/en">
+                          MD Buyline Pioneers Improved Healthcare Decision Making with Big Data Solution Powered by IBM Watson
+                        </a>
+                      </h3>
+                      <p>
+                        MD Buyline Pioneers Improved Healthcare Decision Making with Big Data Solution Powered by 
+                        <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                          IBM
+                        </span>
+                        <b>
+                          ... | ...
+                        </b>
+                         Eastern Time  MD Buyline Pioneers Improved Healthcare Decision Making with Big Data Solution Powered by 
+                        <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                          IBM
+                        </span>
+                        <b>
+                          ...
+                        </b>
+                      </p>
+                    </li>
+                    <li>
+                      <h3>
+                        <a href="http://www.businesswire.com/news/dallasnews/20131210005146/en">
+                          Methodist Health System Partners with MD Buyline and IBM Watson to Improve Healthcare Decisions
+                        </a>
+                      </h3>
+                      <p>
+                        Methodist Health System Partners with MD Buyline and 
+                        <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                          IBM
+                        </span>
+                         Watson to Improve Healthcare Decisions
+                        <b>
+                          ... | ...
+                        </b>
+                         Health System Partners with MD Buyline and 
+                        <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                          IBM
+                        </span>
+                         Watson to Improve Healthcare Decisions MD Buyline
+                        <b>
+                          ...
+                        </b>
+                      </p>
+                    </li>
+                    <li>
+                      <h3>
+                        <a href="http://www.businesswire.com/news/njcom/20131211005917/en">
+                          A.M. BestTV: IBM Giving Cities New Way to Prepare for the Worst
+                        </a>
+                      </h3>
+                      <p>
+                        A.M. BestTV: 
+                        <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                          IBM
+                        </span>
+                         Giving Cities New Way to Prepare for the Worst Site Search Search Local Business
+                        <b>
+                          ... | ...
+                        </b>
+                         an ad New Jersey Headlines December 11, 2013 11:00 AM Eastern Time  A.M. BestTV: 
+                        <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                          IBM
+                        </span>
+                         Giving Cities New
+                        <b>
+                          ...
+                        </b>
+                      </p>
+                    </li>
+                  </ul>
+                  <div style="display:none;" class="bw-site-div-hidden">
+                    <ul class="ss">
+                      <li>
+                        <h3>
+                          <a href="http://www.businesswire.com/news/knoxnews/20140212005016/en">
+                            InfoSystems Wins 2014 IBM Choice Award for North American Marketing Excellence
+                          </a>
+                        </h3>
+                        <p>
+                          InfoSystems Wins 2014 
+                          <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                            IBM
+                          </span>
+                           Choice Award for North American Marketing Excellence Member Center
+                          <b>
+                            ...
+                          </b>
+                        </p>
+                      </li>
+                      <li>
+                        <h3>
+                          <a href="http://www.businesswire.com/news/njcom/20140114005201/en">
+                            IBM Audits: Managing and Minimizing the Impact
+                          </a>
+                        </h3>
+                        <p>
+                          <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                            IBM
+                          </span>
+                           Audits: Managing and Minimizing the Impact Site Search Search Local Business Listings Home News
+                          <b>
+                            ...
+                          </b>
+                        </p>
+                      </li>
+                      <li>
+                        <h3>
+                          <a href="http://www.businesswire.com/news/njcom/20140115006505/en">
+                            IEEE Announces Keynote Speakers from IBM, Intel and Samsung at IEEE World Forum on Internet of Thing
+                          </a>
+                        </h3>
+                        <p>
+                          IEEE Announces Keynote Speakers from 
+                          <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                            IBM
+                          </span>
+                          , Intel and Samsung at IEEE World Forum on Internet
+                          <b>
+                            ...
+                          </b>
+                        </p>
+                      </li>
+                      <li>
+                        <h3>
+                          <a href="http://www.businesswire.com/news/dallasnews/20140325005226/en">
+                            GameStop Launches the GameStop Technology Institute
+                          </a>
+                        </h3>
+                        <p>
+                           innovation within the retail space Teams with 
+                          <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                            IBM
+                          </span>
+                           on High Value Cloud with BlueMix and Texas A&amp;M University
+                          <b>
+                            ... | ...
+                          </b>
+                           consumer. “As we begin our partnership with 
+                          <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                            IBM
+                          </span>
+                           and Texas A&amp;M University, GTI’s initial focus
+                          <b>
+                            ...
+                          </b>
+                        </p>
+                      </li>
+                      <li>
+                        <h3>
+                          <a href="http://www.businesswire.com/news/dallasnews/20131118005271/en">
+                            Servergy Supports Global OpenStack Foundation as a Corporate Sponsor
+                          </a>
+                        </h3>
+                        <p>
+                          Linux OpenStack distribution for scale-out applications that complements 
+                          <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                            IBM’s
+                          </span>
+                           scale-up PowerLinux solutions
+                          <b>
+                            ... | ...
+                          </b>
+                           hyper-efficient, high I/O, ‘scale-out’ technology that not only pays for itself, but complements 
+                          <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                            IBM’s
+                          </span>
+                          <b>
+                            ...
+                          </b>
+                        </p>
+                      </li>
+                      <li>
+                        <h3>
+                          <a href="http://www.businesswire.com/news/pecom/20131202005166/en">
+                            Iteris Elects Gerard Mooney to its Board of Directors
+                          </a>
+                        </h3>
+                        <p>
+                           in the Transportation, IT and software industry, and currently serves as the vice president of strategy for 
+                          <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                            IBM’s
+                          </span>
+                           public
+                          <b>
+                            ... | ...
+                          </b>
+                           sector. In addition, he also served as the general manager of Global Smarter Cities for 
+                          <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                            IBM
+                          </span>
+                           from November
+                          <b>
+                            ...
+                          </b>
+                        </p>
+                      </li>
+                      <li>
+                        <h3>
+                          <a href="http://www.businesswire.com/news/dallasnews/20131219006249/en">
+                            International Business Machine Corporation Shareholder Alert: Former SEC Attorney Willie Briscoe and
+                          </a>
+                        </h3>
+                        <p>
+                           class action lawsuit has been filed against International Business Machine Corporation (“
+                          <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                            IBM
+                          </span>
+                          <b>
+                            ... | ...
+                          </b>
+                          ” or “Company”) (NYSE: 
+                          <span class="bw-site-highlight" style="background-color: rgb(255, 255, 204); border: 2px solid yellow;">
+                            IBM
+                          </span>
+                          ). The firms are investigating additional legal claims against the officers and Board
+                          <b>
+                            ...
+                          </b>
+                        </p>
+                      </li>
+                    </ul>
+                    <div class="bw-paging">
+                      <div>
+                        <div class="bw-paging-next">
+                          <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=2&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=site&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken" onclick="return pageResults(2);">
+                            Next
+                          </a>
+                        </div>
+                      </div>
+                      <div class="bw-paging-links">
+                        <span>
+                          1
+                        </span>
+                        <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=2&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=site&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken" onclick="return pageResults(2);">
+                          2
+                        </a>
+                        <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=3&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=site&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken" onclick="return pageResults(3);">
+                          3
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="more-site-results" class="bw-more">
+                    <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=1&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=site&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken" onclick="return showMoreSiteResults();">
+                      More Site Results
+                    </a>
+                  </div>
+                </section>
+                <section class="bw-news-section">
+                  <h2>
+                    <a title="See all results from News on BusinessWire.com" onclick="return showMoreNewsResults();" href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=1&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=news&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken">
+                      News
+                    </a>
+                  </h2>
+                  <ul class="ss">
+                    <li>
+                      <h3>
+                        <a href="http://www.businesswire.com/news/home/20140328005795/en/Fitch-Rates-Digital-Stout-Holding-LLCs-4.75">
+                          Fitch Rates Digital Stout Holding, LLC's 4.75% Sr. Unsecured Guaranteed Notes due 2023 'BBB'
+                        </a>
+                      </h3>
+                      <div class="bw-news-meta">
+                        <time>
+                          March 28, 2014
+                        </time>
+                      </div>
+                      <p>
+                        Fitch Ratings has assigned a credit rating of 'BBB' to Digital Stout Holding, LLC's GBP300 million aggregate principal amount of 4.75% senior unsecured guaranteed notes due 2023. Digital Stout Holding...
+                      </p>
+                    </li>
+                    <li>
+                      <h3>
+                        <a href="http://www.businesswire.com/news/home/20140328005410/en/Research-Markets-Global-Hadoop-Market-2014-2018-Cloudera">
+                          Research and Markets: Global Hadoop Market 2014-2018: with Cloudera Inc, Hortonworks Inc. and Microsoft Corp. Dominating
+                        </a>
+                      </h3>
+                      <div class="bw-news-meta">
+                        <time>
+                          March 28, 2014
+                        </time>
+                      </div>
+                      <div class="bw-news-thumbs">
+                        <a title="Go to the release" rel="nofollow" href="http://www.businesswire.com/news/home/20140328005410/en/Research-Markets-Global-Hadoop-Market-2014-2018-Cloudera">
+                          <img alt="" title="" src="http://mms.businesswire.com/media/20140328005410/en/371054/2/ResearchAndMarkets_800px.jpg"/>
+                        </a>
+                      </div>
+                      <p>
+                        Research and Markets (http://www.researchandmarkets.com/research/jwg6xt/global_hadoop) has announced the addition of the "Global Hadoop Market 2014-2018" report to their offering. The analysts forecas...
+                      </p>
+                    </li>
+                    <li>
+                      <h3>
+                        <a href="http://www.businesswire.com/news/home/20140328005407/en/Maintenance-Analytics-Generate-24.7-Billion-2019-Driven">
+                          Maintenance Analytics to Generate $24.7 Billion in 2019, Driven by Predictive Maintenance and Internet of Things, Says ABI Research
+                        </a>
+                      </h3>
+                      <div class="bw-news-meta">
+                        <time>
+                          March 28, 2014
+                        </time>
+                      </div>
+                      <div class="bw-news-thumbs">
+                        <a title="Go to the release" rel="nofollow" href="http://www.businesswire.com/news/home/20140328005407/en/Maintenance-Analytics-Generate-24.7-Billion-2019-Driven">
+                          <img alt="" title="" src="http://mms.businesswire.com/media/20140328005407/en/384229/2/ABIResearch-Logo-New_Small.jpg"/>
+                        </a>
+                      </div>
+                      <p>
+                        ABI Research forecasts that revenues from maintenance analytics will total $9.1 billion this year. Following a CAGR of 22%, the market’s size will reach $24.7 billion in 2019, driven largely by adopti...
+                      </p>
+                    </li>
+                    <li>
+                      <h3>
+                        <a href="http://www.businesswire.com/news/home/20140328005363/en/Research-Markets-Global-High-performance-Computing-Server-Market">
+                          Research and Markets: Global High-performance Computing Server Market 2014-2018: One of the Main Challenges is the Huge Investment Requirement
+                        </a>
+                      </h3>
+                      <div class="bw-news-meta">
+                        <time>
+                          March 28, 2014
+                        </time>
+                      </div>
+                      <div class="bw-news-thumbs">
+                        <a title="Go to the release" rel="nofollow" href="http://www.businesswire.com/news/home/20140328005363/en/Research-Markets-Global-High-performance-Computing-Server-Market">
+                          <img alt="" title="" src="http://mms.businesswire.com/media/20140328005363/en/371054/21/ResearchAndMarkets_800px.jpg"/>
+                        </a>
+                      </div>
+                      <p>
+                        Research and Markets (http://www.researchandmarkets.com/research/jpm72m/global) has announced the addition of the "Global High-performance Computing Server Market 2014-2018" report to their offering....
+                      </p>
+                    </li>
+                    <li>
+                      <h3>
+                        <a href="http://www.businesswire.com/news/home/20140328005264/en/Research-Markets-Racetrack-Memory-Trends-2014-Report">
+                          Research and Markets: Racetrack Memory Trends 2014 Report
+                        </a>
+                      </h3>
+                      <div class="bw-news-meta">
+                        <time>
+                          March 28, 2014
+                        </time>
+                      </div>
+                      <div class="bw-news-thumbs">
+                        <a title="Go to the release" rel="nofollow" href="http://www.businesswire.com/news/home/20140328005264/en/Research-Markets-Racetrack-Memory-Trends-2014-Report">
+                          <img alt="" title="" src="http://mms.businesswire.com/media/20140328005264/en/371054/21/ResearchAndMarkets_800px.jpg"/>
+                        </a>
+                      </div>
+                      <p>
+                        Research and Markets (http://www.researchandmarkets.com/research/cq5hpk/racetrack_memory) has announced the addition of the "Racetrack Memory Trends" report to their offering. The report anticipates t...
+                      </p>
+                    </li>
+                  </ul>
+                  <div style="display:none;" class="bw-news-div-hidden">
+                    <ul class="ss">
+                      <li>
+                        <h3>
+                          <a href="http://www.businesswire.com/news/home/20140328005252/es/">
+                            Resumen: AT&amp;T, Cisco, GE, IBM e Intel forman el Industrial Internet Consortium para mejorar la integración de los mundos físicos y digitales
+                          </a>
+                        </h3>
+                        <div class="bw-news-meta">
+                          <time>
+                            March 28, 2014
+                          </time>
+                        </div>
+                        <div class="bw-news-thumbs">
+                          <a title="Go to the release" rel="nofollow" href="http://www.businesswire.com/news/home/20140328005252/es/">
+                            <img alt="" title="" src="http://mms.businesswire.com/media/20140327005652/en/409141/2/IIC_Logo.jpg"/>
+                          </a>
+                        </div>
+                        <p>
+                          AT&amp;amp;T, Cisco, GE, IBM e Intel han anunciado la formación del Industrial Internet Consortium (IIC), un grupo de adhesión abierta centrado en romper las barreras de los silos tecnológicos para permit...
+                        </p>
+                      </li>
+                      <li>
+                        <h3>
+                          <a href="http://www.businesswire.com/news/home/20140328005201/en/Research-Markets-Collaboration-Tools-Trends-2014-Report">
+                            Research and Markets: Collaboration Tools Trends 2014 Report
+                          </a>
+                        </h3>
+                        <div class="bw-news-meta">
+                          <time>
+                            March 28, 2014
+                          </time>
+                        </div>
+                        <div class="bw-news-thumbs">
+                          <a title="Go to the release" rel="nofollow" href="http://www.businesswire.com/news/home/20140328005201/en/Research-Markets-Collaboration-Tools-Trends-2014-Report">
+                            <img alt="" title="" src="http://mms.businesswire.com/media/20140328005201/en/371054/21/ResearchAndMarkets_800px.jpg"/>
+                          </a>
+                        </div>
+                        <p>
+                          Research and Markets (http://www.researchandmarkets.com/research/szpcxl/collaboration) has announced the addition of the "Collaboration Tools Trends" report to their offering. The report expounds that...
+                        </p>
+                      </li>
+                      <li>
+                        <h3>
+                          <a href="http://www.businesswire.com/news/home/20140327006482/de/">
+                            AT&amp;T, Cisco, GE, IBM und Intel gründen Industrial Internet Consortium, um Integration der physischen und digitalen Welten zu verbessern
+                          </a>
+                        </h3>
+                        <div class="bw-news-meta">
+                          <time>
+                            March 27, 2014
+                          </time>
+                        </div>
+                        <div class="bw-news-thumbs">
+                          <a title="Go to the release" rel="nofollow" href="http://www.businesswire.com/news/home/20140327006482/de/">
+                            <img alt="" title="" src="http://mms.businesswire.com/media/20140327005652/en/409141/2/IIC_Logo.jpg"/>
+                          </a>
+                        </div>
+                        <p>
+                          AT&amp;amp;T, Cisco, GE, IBM und Intel meldeten heute die Gründung des Industrial Internet Consortium (IIC), eine Gruppe mit offener Mitgliedschaft, die sich zum Ziel gesetzt hat, die durch Technologiesil...
+                        </p>
+                      </li>
+                      <li>
+                        <h3>
+                          <a href="http://www.businesswire.com/news/home/20140327006458/fr/">
+                            AT&amp;T, Cisco, GE, IBM et Intel forment le Consortium de l'Internet industriel afin d'améliorer l'intégration du monde physique et du monde numérique
+                          </a>
+                        </h3>
+                        <div class="bw-news-meta">
+                          <time>
+                            March 27, 2014
+                          </time>
+                        </div>
+                        <div class="bw-news-thumbs">
+                          <a title="Go to the release" rel="nofollow" href="http://www.businesswire.com/news/home/20140327006458/fr/">
+                            <img alt="" title="" src="http://mms.businesswire.com/media/20140327005652/en/409141/2/IIC_Logo.jpg"/>
+                          </a>
+                        </div>
+                        <p>
+                          AT&amp;amp;T, Cisco, GE, IBM et Intel annoncent aujourd'hui la formation du Consortium de l'Internet industriel (CII), un groupe à adhésion ouverte axé sur l'élimination des obstacles posés par les silos...
+                        </p>
+                      </li>
+                      <li>
+                        <h3>
+                          <a href="http://www.businesswire.com/news/home/20140327006418/it/">
+                            Riassunto: AT&amp;T, Cisco, GE, IBM e Intel formano l'Industrial Internet Consortium per migliorare l'integrazione del mondo fisico con quello digitale
+                          </a>
+                        </h3>
+                        <div class="bw-news-meta">
+                          <time>
+                            March 27, 2014
+                          </time>
+                        </div>
+                        <div class="bw-news-thumbs">
+                          <a title="Go to the release" rel="nofollow" href="http://www.businesswire.com/news/home/20140327006418/it/">
+                            <img alt="" title="" src="http://mms.businesswire.com/media/20140327005652/en/409141/2/IIC_Logo.jpg"/>
+                          </a>
+                        </div>
+                        <p>
+                          AT&amp;amp;T, Cisco, GE, IBM e Intel hanno annunciato in data odierna la formazione dell'Industrial Internet Consortium (IIC), un gruppo a libera adesione che si concentra sull'abbattimento delle barriere...
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="bw-more">
+                    <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=1&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=news&amp;amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;amp;javax.portlet.endCacheTok=com.vignette.cachetoken" onclick="return showMoreNewsResults();" id="more-news-results">
+                      More News Results
+                    </a>
+                  </div>
+                  <div style="display: none;" id="more-news-pagination">
+                    <div class="bw-paging">
+                      <div>
+                        <div class="bw-paging-next">
+                          <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=2&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=news&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken" onclick="return pageResults(2);">
+                            Next
+                          </a>
+                        </div>
+                      </div>
+                      <div class="bw-paging-links">
+                        <span>
+                          1
+                        </span>
+                        <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=2&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=news&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken" onclick="return pageResults(2);">
+                          2
+                        </a>
+                        <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=3&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=news&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken" onclick="return pageResults(3);">
+                          3
+                        </a>
+                        <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=4&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=news&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken" onclick="return pageResults(4);">
+                          4
+                        </a>
+                        
+					
+			
+					...
+				
+			
+			
+				
+				
+				
+				
+				
+			
+				
+					
+                        <a href="/portal/site/home/template.PAGE/action.process/search/?javax.portlet.action=true&amp;javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchTerm=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPerPage=10&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_q=ibm&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_resultsPage=4422&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_searchType=news&amp;javax.portlet.prp_92055fbcbec7e639f1f554100d908a0c_javax.portlet.action=search&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken" onclick="return pageResults(4422);">
+                          4422
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <!-- end .bw-search-results -->              <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--
+	$('.bw-site-highlight').css("background-color","#FFFFCC").css("border","2px solid yellow");
+	setTimeout(function () { 
+		$('#bw-search-page-input').focus();
+	}, 100);
+//--&gt;
+
+//]]>
+              </script>
+            </div>
+            <!-- end .bw-content -->            <script type="text/javascript">
+//<![CDATA[
+
+
+searchType = 'all'; 
+searchTerm = 'ibm'; 
+searchPage = 1;
+
+(function(window,undefined){
+
+    var History = window.History; 
+    if (!History.enabled) {
+        return false;
+    }
+    //History.debug.enable = true;
+ 	var state = History.getState(); 
+
+    // Restore Initial State if present
+	History.debug('initial:', state.data, state.title, state.url);
+	
+    if (typeof state.data.searchTerm != 'undefined') {
+    	stateSearchType = state.data.searchType;
+		stateSearchTerm = state.data.searchTerm;
+		statePage = state.data.page;
+	    History.debug("Setting initial state: SearchType: " + stateSearchType + ", searchTerm: " + stateSearchTerm + ", page: " + statePage);
+		setPageState(stateSearchType, stateSearchTerm, statePage);
+    	History.replaceState({'searchType':searchType, 'searchTerm':searchTerm, 'page':searchPage}, "Search | Business Wire", "?searchType=" + searchType + "&amp;searchTerm=" + searchTerm + "&amp;searchPage=" + searchPage);
+    } else {
+    	History.debug("no initial state");
+    	
+    	// check for url params
+		stateSearchType = getParameterByName('searchType');
+		stateSearchTerm = getParameterByName('searchTerm');
+		statePage = getParameterByName('searchPage');
+	    if (stateSearchType != null &amp;&amp; stateSearchTerm != null &amp;&amp; statePage != null) {
+    		// set them here
+		    History.debug("initial params: SearchType: " + stateSearchType + ", searchTerm: " + stateSearchTerm + ", page: " + statePage);
+			setPageState(stateSearchType, stateSearchTerm, statePage);
+	    }  
+	    	
+	    if (searchType != 'all' || searchTerm != '' || searchPage != 1) {
+	    	// replace the state unless default
+	    	History.replaceState({'searchType':searchType, 'searchTerm':searchTerm, 'page':searchPage}, "Search | Business Wire", "?searchType=" + searchType + "&amp;searchTerm=" + searchTerm + "&amp;searchPage=" + searchPage);
+	    }
+		
+    }
+	
+    // Bind to StateChange Event
+    History.Adapter.bind(window,'statechange',function(){
+        var state = History.getState();
+			
+		var stateSearchType = state.data.searchType;
+		var stateSearchTerm = state.data.searchTerm;
+		var statePage = state.data.page;
+
+	    History.debug("statechange: SearchType: " + stateSearchType + ", searchTerm: " + stateSearchTerm + ", page: " + statePage);
+
+        if (typeof state.data.searchType == 'undefined' &amp;&amp; typeof state.data.searchTerm == 'undefined' &amp;&amp; typeof state.data.page == 'undefined') {
+			if (typeof searchType != 'undefined' &amp;&amp; typeof searchTerm != 'undefined' &amp;&amp; typeof searchPage != 'undefined') {
+				return;
+			}
+			setPageState('all', '', 1);
+        } else if (searchType != stateSearchType || searchTerm != stateSearchTerm || searchPage != statePage) {
+			History.debug("page state doesn't match History state, setting page state...");
+
+        	setPageState(stateSearchType, stateSearchTerm, statePage);
+        } else {
+        	History.debug("states match, internal call");
+        }
+
+        History.debug(state.data, state.title, state.url);
+    });
+
+})(window);
+
+function getParameterByName(name) {
+    var match = RegExp('[?&amp;]' + name + '=([^&amp;]*)').exec(window.location.search);
+    return match &amp;&amp; decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+
+function searchBox() {
+	
+	searchTerm = $('#bw-search-page-input').val();
+	searchPage = 1;
+	
+	if (!/\S/.test(searchTerm)) { // check for blank
+		$('.bw-search-results').html('&lt;br/&gt;&lt;p&gt;Please enter a search term.&lt;p&gt;');
+	} else {
+		var searchUrl = '/portal/site/home/template.BINARYPORTLET/search/resource.process/?javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.rst_92055fbcbec7e639f1f554100d908a0c_searchTerm=SEARCH_TERM&amp;javax.portlet.rst_92055fbcbec7e639f1f554100d908a0c_searchType=SEARCH_TYPE&amp;javax.portlet.rid_92055fbcbec7e639f1f554100d908a0c=searchBox&amp;javax.portlet.rcl_92055fbcbec7e639f1f554100d908a0c=cacheLevelPage&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken'.replace('SEARCH_TERM', searchTerm).replace('SEARCH_TYPE', searchType).replace('RESULTS_PAGE', searchPage);
+		
+		$(".bw-search-results").animate({'opacity':0.5});
+		$("#bw-search-page-input").prop('disabled', true);
+		
+		$.ajax({
+			  url: searchUrl,
+			  success: function( data ) {
+			    $('.bw-search-results').replaceWith(data);
+			    $(".bw-search-results").animate({'opacity':1.0});
+				$("#bw-search-page-input").prop('disabled', false);
+			  }
+			});
+	}
+	
+	History.pushState({'searchType':searchType, 'searchTerm':searchTerm, 'page':searchPage}, "Search | Business Wire", "?searchType=" + searchType + "&amp;searchTerm=" + searchTerm + "&amp;searchPage=" + searchPage);
+	return false;
+}
+
+function pageResults(page) {
+		searchPage = page;
+		var searchUrl = '/portal/site/home/template.BINARYPORTLET/search/resource.process/?javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.rst_92055fbcbec7e639f1f554100d908a0c_searchTerm=SEARCH_TERM&amp;javax.portlet.rst_92055fbcbec7e639f1f554100d908a0c_resultsPage=RESULTS_PAGE&amp;javax.portlet.rst_92055fbcbec7e639f1f554100d908a0c_searchType=SEARCH_TYPE&amp;javax.portlet.rid_92055fbcbec7e639f1f554100d908a0c=searchBox&amp;javax.portlet.rcl_92055fbcbec7e639f1f554100d908a0c=cacheLevelPage&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken'.replace('SEARCH_TERM', searchTerm).replace('SEARCH_TYPE', searchType).replace('RESULTS_PAGE', page);
+		
+		$(".bw-search-results").animate({'opacity':0.5});
+		$("#bw-search-page-input").prop('disabled', true);
+		
+		$.ajax({
+			  url: searchUrl,
+			  success: function( data ) {
+			    $('.bw-search-results').replaceWith(data);
+			    $(".bw-search-results").animate({'opacity':1.0});
+				$("#bw-search-page-input").prop('disabled', false);
+				$("html, body").animate({ scrollTop: 0 }, 600);
+			  }
+			});
+
+		History.pushState({'searchType':searchType, 'searchTerm':searchTerm, 'page':page}, "Search | Business Wire", "?searchType=" + searchType + "&amp;searchTerm=" + searchTerm + "&amp;searchPage=" + searchPage);
+		return false;
+}
+
+function showMoreSiteResults() {
+	if (searchType == 'site') {
+		return false;
+	}
+	
+	searchType = 'site';
+	$('#bw-more-site-list').css("margin-top","0px"); 
+	$('.bw-site-div-hidden').show("blind", { direction: "vertical" }, 600);
+	$('.bw-news-section').hide("blind", { direction: "vertical" }, 600);
+	$('#more-site-results').delay(500).fadeOut(200);
+	$('#bw-all-nav').animate({ backgroundColor: "#d5eef7" }, 300).removeClass("bw-current");
+	$('#bw-news-nav').animate({ backgroundColor: "#d5eef7" }, 300).removeClass("bw-current");
+	$('#bw-site-nav').delay(300).animate({ backgroundColor: "#499ED6" }, 300, function() {
+		$(this).addClass("bw-current");
+	});
+	
+	pushState = true;
+	History.pushState({'searchType':searchType, 'searchTerm':searchTerm, 'page':searchPage}, "Search | Business Wire", "?searchType=" + searchType + "&amp;searchTerm=" + searchTerm + "&amp;searchPage=" + searchPage);
+	return false;
+}
+
+function showMoreNewsResults() {
+	if (searchType == 'news') {
+		return false;
+	}
+
+	$('#bw-more-news-list').css("margin-top","0px"); 
+	$('.bw-news-div-hidden').show("blind", { direction: "vertical" }, 600);
+	$('.bw-site-section').hide("blind", { direction: "vertical" }, 600);
+	$('#more-news-results').delay(100).fadeOut(200);
+	$('#more-news-pagination').css("margin-top","0px").delay(300).fadeIn(200);
+
+	$('#bw-all-nav').animate({ backgroundColor: "#d5eef7" }, 300).removeClass("bw-current");
+	$('#bw-site-nav').animate({ backgroundColor: "#d5eef7" }, 300).removeClass("bw-current");
+	$('#bw-news-nav').delay(300).animate({ backgroundColor: "#499ED6" }, 300, function() {
+		$(this).addClass("bw-current");
+	});
+
+	$("html, body").animate({ scrollTop: 0 }, 600);
+	
+	searchType = 'news';
+
+	pushState = true;
+	History.pushState({'searchType':searchType, 'searchTerm':searchTerm, 'page':searchPage}, "Search | Business Wire", "?searchType=" + searchType + "&amp;searchTerm=" + searchTerm + "&amp;searchPage=" + searchPage);
+	return false;
+}
+
+function setPageState(type, term, page) {
+	
+	History.debug("Setting Page State: SearchType: " + type + ", term: " + term + ", page: " + page);
+	
+	// set the page to match
+	searchType = $.trim(type);
+	searchTerm = $.trim(term);
+	searchPage = $.trim(page);
+
+	// set the input box to show searchTerm 
+	$('#bw-search-page-input').val(term);
+	
+	if (!/\S/.test(searchTerm)) { // check for blank
+		$('.bw-search-results').html('&lt;br/&gt;&lt;p&gt;Please enter a search term.&lt;p&gt;');
+		updateNavIndicator(type);
+	} else {
+		var searchUrl = '/portal/site/home/template.BINARYPORTLET/search/resource.process/?javax.portlet.tpst=92055fbcbec7e639f1f554100d908a0c&amp;javax.portlet.rst_92055fbcbec7e639f1f554100d908a0c_searchTerm=SEARCH_TERM&amp;javax.portlet.rst_92055fbcbec7e639f1f554100d908a0c_resultsPage=RESULTS_PAGE&amp;javax.portlet.rst_92055fbcbec7e639f1f554100d908a0c_searchType=SEARCH_TYPE&amp;javax.portlet.rid_92055fbcbec7e639f1f554100d908a0c=searchBox&amp;javax.portlet.rcl_92055fbcbec7e639f1f554100d908a0c=cacheLevelPage&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken'.replace('SEARCH_TERM', term).replace('SEARCH_TYPE', type).replace('RESULTS_PAGE', page);
+	
+		$(".bw-search-results").animate({'opacity':0.5});
+		$("#bw-search-page-input").prop('disabled', true);
+	
+		// remove the current highlight during the search
+		$('#bw-all-nav').animate({ backgroundColor: "##d5eef7" }, 300).removeClass("bw-current");
+		$('#bw-news-nav').animate({ backgroundColor: "##d5eef7" }, 300).removeClass("bw-current");
+		$('#bw-news-photos-nav').animate({ backgroundColor: "##d5eef7" }, 300).removeClass("bw-current");
+		$('#bw-news-videos-nav').animate({ backgroundColor: "##d5eef7" }, 300).removeClass("bw-current");
+		$('#bw-site-nav').animate({ backgroundColor: "##d5eef7" }, 300).removeClass("bw-current");
+		
+		$.ajax({
+		  url: searchUrl,
+		  success: function( data ) {
+		    $('.bw-search-results').replaceWith(data);
+		    $(".bw-search-results").animate({'opacity':1.0});
+			$("#bw-search-page-input").prop('disabled', false);
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			
+			// set the nav indicator
+			updateNavIndicator(type);
+		  }
+		});
+	}
+}
+
+//--&gt;
+
+//]]>
+            </script>
+          </div>
+          <!-- end moduleContainer -->        </div>
+        <!-- end .bw-group-portlets -->      </div>
+    </div>
+    <!-- end #bw-main -->    <div id="bw-meta">
+      <div>
+        <nav role="navigation" id="bw-nav">
+          <h2>
+            <span>
+              Site Navigation
+            </span>
+          </h2>
+          <ul style="display: block;">
+            <li class="bw-has-submenu " id="bw-nav-home">
+              <a href="/portal/site/home/my-business-wire/">
+                <span>
+                  Home
+                </span>
+              </a>
+              <ul>
+                <li>
+                  <a href="/portal/site/home/welcome/">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/submit-a-press-release/">
+                    Submit a Press Release
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="bw-has-submenu ">
+              <a href="/portal/site/home/services/">
+                <span>
+                  Services
+                </span>
+              </a>
+              <ul>
+                <li>
+                  <a href="/portal/site/home/services/">
+                    Overview
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/targeting/">
+                    Targeting
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/distribution/">
+                    Distribution
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/financial-disclosure/">
+                    Financial Disclosure
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/measurement-analytics/">
+                    Measurement &amp; Analytics
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/event-news-services/">
+                    Event News Services
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/media-journalist-tools/">
+                    Media &amp; Journalist Tools
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="bw-has-submenu ">
+              <a href="/portal/site/home/news/">
+                <span>
+                  News
+                </span>
+              </a>
+              <ul>
+                <li>
+                  <a href="/portal/site/home/news/">
+                    All News
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/news/multimedia/">
+                    News with Multimedia
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/news/industries/">
+                    News by Industry
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/news/subjects/">
+                    News by Subject
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/news/languages/">
+                    News by Language
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/events/">
+                    Tradeshows &amp; Events
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/earnings/">
+                    Earnings &amp; Conference Calls
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="bw-has-submenu ">
+              <a href="/portal/site/home/education/">
+                <span>
+                  Education
+                </span>
+              </a>
+              <ul>
+                <li>
+                  <a href="/portal/site/home/education/">
+                    Overview
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/sample-press-release/">
+                    Sample Press Release
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/faq/">
+                    FAQ
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/find-your-news-online/">
+                    Find Your News Online
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/how-to/">
+                    How-to
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/disclosure-resources/">
+                    Disclosure Resources
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/white-papers/">
+                    White Papers
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="bw-has-submenu ">
+              <a href="/portal/site/home/about/">
+                <span>
+                  About Us
+                </span>
+              </a>
+              <ul>
+                <li>
+                  <a href="/portal/site/home/about/">
+                    Overview
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/become-member/">
+                    Become a Member
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/contact/">
+                    Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/follow-us/">
+                    Follow Us
+                  </a>
+                </li>
+                <li>
+                  <a href="/portal/site/home/jobs/">
+                    Jobs
+                  </a>
+                </li>
+                <li>
+                  <a href="http://newsroom.businesswire.com">
+                    Business Wire Newsroom
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <script src="/js/nav.js">
+        </script>
+        <div class="bw-search-site" id="bw-search-js">
+          <div>
+            <h2>
+              <span>
+                Search
+              </span>
+            </h2>
+            <div id="bw-search-container" style="display: block;">
+              <form method="post" action="/portal/site/home/template.SINGLEPORTLET/action.process/search/?javax.portlet.action=true&amp;currentTemplateID=PAGE&amp;javax.portlet.tpst=503a8767054f0df6a9e77a100d908a0c&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken" name="bw-search-form" id="bw-search-form">
+                <fieldset>
+                  <label for="bw-search-input">
+                    Search
+                  </label>
+                  <input type="search" placeholder="Search" title="Search BusinessWire.com" value="" maxlength="256" name="q" id="bw-search-input"/>
+                  <input type="hidden" value="all" name="qSearchType" id="bw-search-type"/>
+                  <button title="Search" id="bw-search-button" class="bw-button-primary" type="submit">
+                    <span>
+                      <img alt="Search" src="/images/icons/icon_search.gif"/>
+                    </span>
+                  </button>
+                  <div id="bw-search-options">
+                    <h3 id="bw-search-options-head" class="toggler hidden">
+                      <span>
+                        Search Options
+                      </span>
+                    </h3>
+                    <div id="bw-search-filter-links" class="togglee">
+                      <ul>
+                        <li>
+                          <a href="#?type=all" id="bw-search-filter-all" title="Search All" class="is-selected">
+                            Search All
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#?type=news" id="bw-search-filter-news" title="Search News">
+                            Search News
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#?type=site" id="bw-search-filter-site" title="Search Site">
+                            Search Site
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/portal/site/home/search?javax.portlet.tpst=503a8767054f0df6a9e77a100d908a0c&amp;javax.portlet.pbp_503a8767054f0df6a9e77a100d908a0c_view=advancedSearch&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken" id="bw-search-filter-adv" title="Advanced News Search">
+                            Advanced News Search
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+        <script>
+//<![CDATA[
+
+	// Add search options toggle
+	
+	// **I18N STRINGS
+	var strAll = 'Search All';
+	var strNews = 'Search News';
+	var strSite = 'Search Site';
+	var strAdv = 'Advanced News Search';
+	var strOptions = 'Search Options';
+
+	// **define search action and advanced-search target
+	var strAdvLocation = '/portal/site/home/search?javax.portlet.tpst=503a8767054f0df6a9e77a100d908a0c&amp;javax.portlet.pbp_503a8767054f0df6a9e77a100d908a0c_view=advancedSearch&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken';
+
+	function searchByUrl() {
+		window.location.href = '/portal/site/home/search/?searchType=' + $('#bw-search-type').val() + '&amp;searchTerm=' + encodeURIComponent($('#bw-search-input').val()) + '&amp;searchPage=1';
+		return false;
+	}
+	
+
+//]]>
+        </script>
+        <script src="/js/search.js">
+        </script>
+        <div class="bw-controls-site" id="bw-controls">
+          <div id="bw-controls-container">
+            <ul>
+              <li>
+                <a href="/portal/site/home/template.LOGIN/">
+                  Log In
+                </a>
+              </li>
+              <li>
+                <a href="/portal/site/home/signup/">
+                  Sign Up
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <script src="/js/controls.js">
+        </script>
+      </div>
+    </div>
+    <!-- end #bw-meta -->    <footer>
+      <div id="bw-footer-container">
+        <div id="footer-follow">
+          <h2>
+            <span>
+              Follow Us
+            </span>
+          </h2>
+          <ul>
+            <li id="footer-follow-twitter">
+              <a class="bw-outbound" href="http://twitter.com/businesswire/">
+                <span>
+                  Twitter
+                </span>
+              </a>
+            </li>
+            <li id="footer-follow-linkedin">
+              <a class="bw-outbound" href="http://www.linkedin.com/companies/business-wire">
+                <span>
+                  LinkedIn
+                </span>
+              </a>
+            </li>
+            <li id="footer-follow-gplus">
+              <a class="bw-outbound" rel="publisher" href="https://plus.google.com/112968269532031325811">
+                <span>
+                  Google+
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="footer-sites">
+          <h2>
+            <span>
+              More from Business Wire
+            </span>
+          </h2>
+          <ul>
+            <li>
+              <a class="bw-outbound" href="http://www.businesswire.com/blog">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a class="bw-outbound" href="/portal/site/home/mobile/">
+                Apps
+              </a>
+            </li>
+            <li>
+              <a class="bw-outbound" href="http://www.businesswire.ca/">
+                Canada
+              </a>
+            </li>
+            <li>
+              <a class="bw-outbound" href="http://www.businesswire.co.uk/">
+                UK/Ireland
+              </a>
+            </li>
+            <li>
+              <a class="bw-outbound" href="http://www.businesswire.de/">
+                Deutschland
+              </a>
+            </li>
+            <li>
+              <a class="bw-outbound" href="http://www.businesswire.fr/">
+                France
+              </a>
+            </li>
+            <li>
+              <a class="bw-outbound" href="http://www.businesswire.hk/">
+                Hong Kong
+              </a>
+            </li>
+            <li>
+              <a class="bw-outbound" href="http://www.businesswire.it/">
+                Italy
+              </a>
+            </li>
+            <li>
+              <a class="bw-outbound" href="http://www.businesswire.jp/">
+                Japan
+              </a>
+            </li>
+            <li>
+              <a class="bw-outbound" href="http://www.enhancedonlinenews.com/">
+                EON: Enhanced Online News
+              </a>
+            </li>
+            <li>
+              <a href="http://www.tradeshownews.com/">
+                Tradeshownews.com
+              </a>
+            </li>
+            <li>
+              <a class="bw-outbound" href="http://www.pymnts.com/">
+                PYMNTS.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div role="contentinfo" id="footer-info">
+          <h2>
+            <span>
+              Business Wire Information
+            </span>
+          </h2>
+          <ul>
+            <li>
+              <a href="/portal/site/home/contact/">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="/portal/site/home/privacy/">
+                Privacy Statement
+              </a>
+            </li>
+            <li>
+              <a href="/portal/site/home/terms-of-use/">
+                Terms of Use
+              </a>
+            </li>
+            <li>
+              <a href="/portal/site/home/copyright/">
+                ©2014 Business Wire
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script>
+//<![CDATA[
+
+		// Cancel hover menus for touch devices, then change menu link to toggle the hover (but not if whole nav is toggled)
+		var hasTouch = ("ontouchstart" in window);
+		if ( hasTouch &amp;&amp; jQuery('#bw-nav h2').css('display')=='none' ) {
+			new BWNav("#bw-nav &gt; ul", "#bw-nav &gt; ul &gt; li &gt; a").toggleMenus();
+		};
+		
+		// Track outbound links
+		var followLinks = jQuery('a.bw-outbound');
+		followLinks.each(function() {
+			jQuery(this).click(function() {
+				var thisTrack = jQuery(this).attr('href');
+				_gaq.push(['_trackEvent', 'Ads', 'Click', thisTrack]);
+			});
+		});
+	
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+	//&lt;![CDATA[
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-1506967-1']);
+	_gaq.push(['_setSessionCookieTimeout', 3600000]);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]&gt;
+	
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+		piAId = '20392';
+		piCId = '4991';
+		(function() {
+			function async_load(){
+				var s = document.createElement('script'); s.type = 'text/javascript';
+				s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+				var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+			}
+			if(window.attachEvent) { window.attachEvent('onload', async_load); }
+			else { window.addEventListener('load', async_load, false); }
+		})();
+	
+//]]>
+    </script>
+  </body>
+</html>

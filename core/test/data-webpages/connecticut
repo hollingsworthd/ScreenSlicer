@@ -1,0 +1,1849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:addthis="http://www.addthis.com/help/api-spec" xmlns:fb="http://www.facebook.com/2008/fbml" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta content="vibNews" name="keywords"/>
+    <title>
+      CBS Connecticut
+    </title>
+    <link href="http://connecticut.cbslocal.com/xmlrpc.php" rel="pingback"/>
+    <script async="" src="http://b.scorecardresearch.com/beacon.js">
+    </script>
+    <script async="" type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script async="" type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script src="//s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4ddd05dc24272928" type="text/javascript">
+    </script>
+  </head>
+  <body style="background:#ffffff url(http://cbshartford.files.wordpress.com/2010/11/hartford-bg.jpg) no-repeat 50% 0%;" class="blog mp6 typekit-enabled no-svg">
+    <div style="visibility: hidden; height: 1px; width: 1px; position: absolute; z-index: 100000;" id="_atssh">
+      <iframe id="_atssh362" title="AddThis utility frame" style="height: 1px; width: 1px; position: absolute; z-index: 100000; border: 0px none; left: 0px; top: 0px;">
+      </iframe>
+    </div>
+    <script type="text/javascript" src="http://ct1.addthis.com/static/r07/core126.js">
+    </script>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <link href="http://s1.wp.com/wp-content/themes/vip/cbs-local/style.css?m=1395348149g" media="all" type="text/css" rel="stylesheet"/>
+    <meta content="News, Sports, Weather, Traffic and the Best of Connecticut" name="description"/>
+    <meta content="falcons, show - uconn play, show - healthy rounds, show - mornings with ray, show - sound off, show - motley fool, cbs test, tatyana, show - greener living, radio.com - sports, benjamin hogan, mayhem live, top spots mobile carousel, chris donovan, oscars, show - sports talk, pump patrol, show – ric edelman, links &amp; numbers, _sidebars" name="keywords"/>
+    <meta content="44caXBf4kjHeKKAT7ZZ89NaCX25utL_yRSa-qGpwIhY" name="google-site-verification"/>
+    <script type="text/javascript" src="//r-login.wordpress.com/remote-login.php?action=js&amp;host=connecticut.cbslocal.com&amp;id=15909867&amp;t=1396254425&amp;back=connecticut.cbslocal.com%2Fsearch%2F%3Fq%3Dus">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+		/* &lt;![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]&gt; */
+		
+//]]>
+    </script>
+    <link href="http://connecticut.cbslocal.com/feed/" title="CBS Connecticut » Feed" type="application/rss+xml" rel="alternate"/>
+    <link href="http://connecticut.cbslocal.com/comments/feed/" title="CBS Connecticut » Comments Feed" type="application/rss+xml" rel="alternate"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <link media="all" type="text/css" href="http://s2.wp.com/_static/??-eJyVUVtOAzEMvBBJtLtSVT4QZ8nDtN7Ni9hp2duTULYCUUH5y2RmbI+tzlnYFBkiKz5CAFInzMoaEj5Z7VX29YCRVEiu+sZSsqi9COBQK0ukzugOwOLzP5cUEmOKsnEPqlXHaH11zdnFTtMRWz+SAW9IZmpDoF1Mers+rqptzFDFNhQF9LC2njNY/o5+s3lcejPgrO0iPtAP+c1l9AgFjfkS70991oUjlGZMrFkbD+KysvtLnNBBon/bwDci8p3Z2u7n1wplVS862rWf4ILlhsUgJzn2as/haZged8M47vfT/A6g/djV" id="all-css-0" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://fonts.googleapis.com/css?family=Questrial%7CArvo%3A400%2C700%7CMerriweather%3A400%2C900%7COswald%3A300%2C400%2C700%7CChanga+One%7CRighteous&amp;ver=1.7.2" id="google-fonts-1-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://fonts.googleapis.com/css?family=Black+Ops+One%7CVollkorn%7COpen+Sans%3A300%2C400%2C700%2C800%7CMontserrat%3A300%2C400%2C700%7CLato%3A400%2C700%7CPT+Sans%3A400%2C700&amp;ver=1.6.3" id="google-fonts-2-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://fonts.googleapis.com/css?family=Squada+One%3A300%2C400%2C700&amp;ver=1.1.0" id="google-fonts-squada-one-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://s1.wp.com/wp-content/themes/vip/cbs-local/css/audio-player.css?m=1356119360g" id="all-css-6" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://wayne.cbslocal.com/Olympics/medals.css?ver=1.0.0" id="cbs-custom-css-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://s0.wp.com/_static/??-eJx9jUEOAiEMRS8kdowOxoXxLEynEZRCMwW9vrAgcTW7l9//fuErBnMqlAoUT0wKnyCAi5qY0UWQWJ8hKXBea2xXJbehB9SBx4YH+JvhaoaEeaOWs7jSG0xrcBTbl1T2NBY7rI7e4Vt7/8H30/lmp8t1svPrB91FRGM=" id="all-css-8" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://ajax.cbslocal.com/jquery/flexslider/2.1/flexslider.css?ver=2.1" id="flex-slider-css" rel="stylesheet"/>
+    <link media="all" type="text/css" href="http://s2.wp.com/_static/??-eJx9jl0KwkAMhC/kGmur4IN4lv0J6Uq2WZpti7d3KRUVwbdMhvlmYMnGy1BwKFB6TKgwxwzeqWHxliHzRHFQSBImrm7upYghy4zjA7x+fyKqWWIgLLqv3g4+8GkyL9iIjoXqSSvhLX9C26a+A2Jxlv9Rt+IVSSJhRBvWGbd0bdrL4XQ+dk17fwIKilpk" id="all-css-10" rel="stylesheet"/>
+    <script src="http://s0.wp.com/_static/??-eJyVj9kOwiAQRX9IINao6YPxW4BO6yCbBery9U6NfbHGJSGZAOceLuIcGXptSwNJGFqnAv31ObhJC/EJYA67XmbgDv0E6+Az+CzyARxFBoxCq8Rs0NKKaEuHPgkXmmLpVjYPKY3XuBkhhRZYSdDLjs6oRxt+emb2ESVZDCkTmUj1ru4sgn5AOH/FDOQo9ZH1kPAGf7ZrpddXFS6TbNqzJV/xio9iMu7dbrmq15vttq4qcwfkcKEW" type="text/javascript">
+    </script>
+    <script src="http://apis.google.com/js/plusone.js?ver=1.0.0" type="text/javascript">
+    </script>
+    <script src="http://ajax.s3.amazonaws.com/bundles/sharing-floater/1.0.0/sharing-floater.js?ver=1.0.0" type="text/javascript">
+    </script>
+    <script src="http://s1.wp.com/_static/??-eJzTLy/QzcxLzilNSS3WzwKiwtLUokr90kwoS680Uy85vyhVLzczTy+rWEefCPXlmSnpqSWk6ChJTCqGqrfPtTU0tjQ1Mze3NDLKAgCLZDmu" type="text/javascript">
+    </script>
+    <script src="http://ajax.cbslocal.com/jquery/modernizr/2.0.6/modernizr.min.js?ver=2.0.6" type="text/javascript">
+    </script>
+    <script src="http://s1.wp.com/_static/??-eJyVjEsSQDAQBS8kGaFKsVDOQgySmiSY+N2ehQNQb9Gb7gfHLHTwEX2EOKFDht3MoDsWFHRLYBnssuF6vZA60Oa8GS6hZPrMGS8tJ/D7aCA8mUyP69d+pNC19NiNq1VeFSrLyjK3N+VQRvg=" type="text/javascript">
+    </script>
+    <script src="http://ajax.cbslocal.com/jquery/jplayer/2.1.0/jquery.jplayer.min.js?ver=2.1.0" type="text/javascript">
+    </script>
+    <script src="http://s1.wp.com/wp-content/themes/vip/cbs-local/js/audio-player.js?m=1364577943g" type="text/javascript">
+    </script>
+    <script src="http://player.radio.com/player/javascript/launchPlayer.js?ver=1.0.2" type="text/javascript">
+    </script>
+    <script src="http://CBSHART.images.worldnow.com/interface/js/WNVideo.js?ver=1.0" type="text/javascript">
+    </script>
+    <link href="http://content.worldnow.com/global/css/_pub/off-platform.min.css?ver=v3-9" type="text/css" rel="stylesheet"/>
+    <script src="http://content.worldnow.com/global/js/_pub/cbshart.config.js?ver=v3-9" type="text/javascript" id="wnSDK">
+    </script>
+    <script src="http://CBSHART.images.worldnow.com/interface/js/wnaffiliateconfig.js?ver=v3-9" type="text/javascript" id="wnAffiliateConfig">
+    </script>
+    <script src="http://content.worldnow.com/global/js/_pub/off-platform.min.js?ver=v3-9" type="text/javascript" id="wnOffPlatform">
+    </script>
+    <script src="http://js.revsci.net/gateway/gw.js?csid=E05511&amp;auto=t" type="text/javascript">
+    </script>
+    <script src="http://s0.wp.com/wp-content/themes/vip/cbs-local/js/refresh.js?m=1354811360g" type="text/javascript">
+    </script>
+    <script src="http://www.google.com/adsense/search/ads.js?ver=3.0" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+var SafeCommentsAjax = {"ajaxurl":"http:\/\/connecticut.cbslocal.com\/wp-admin\/admin-ajax.php"};
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <script src="http://s2.wp.com/_static/??-eJyVzkkOwjAMBdALkRpaiWGBOAoKwbSJnDrECcPtCYUisUF0Z31/PxmuQRnuE/YJUoceBS42gDmIIjaawAm4c8Z4B2d05CxI76D6BJW3feVkBhOwFyGeOXVKTGT6nwmUW9sLeD5mKtvQcWLVaqKB/g4syg90pESfUEUMHFOpeV9q8pS007dJPwXd4j7KcDzOBdj57aJZN8vVvN7U7gETI4w0" type="text/javascript">
+    </script>
+    <meta content="summary" name="twitter:card"/>
+    <meta content="@/wtic1080" name="twitter:site"/>
+    <link href="http://cbshartford.wordpress.com/xmlrpc.php?rsd" title="RSD" type="application/rsd+xml" rel="EditURI"/>
+    <link href="http://cbshartford.wordpress.com/wp-includes/wlwmanifest.xml" type="application/wlwmanifest+xml" rel="wlwmanifest"/>
+    <meta content="WordPress.com" name="generator"/>
+    <link href="http://cbsloc.al/1fFacTU" rel="shortlink"/>
+    <link sizes="16x16" href="http://1.gravatar.com/blavatar/7218037b089f5773e5c8185ac8486d97?s=16" type="image/x-icon" rel="shortcut icon"/>
+    <link sizes="16x16" href="http://1.gravatar.com/blavatar/7218037b089f5773e5c8185ac8486d97?s=16" type="image/x-icon" rel="icon"/>
+    <link href="http://0.gravatar.com/blavatar/22718143cc35715d77e187926ebda93b?s=114" rel="apple-touch-icon-precomposed"/>
+    <link href="http://cbshartford.wordpress.com/?openidserver=1" rel="openid.server"/>
+    <link href="http://cbshartford.wordpress.com/" rel="openid.delegate"/>
+    <link title="CBS Connecticut" href="http://connecticut.cbslocal.com/osd.xml" type="application/opensearchdescription+xml" rel="search"/>
+    <link title="WordPress.com" href="http://wordpress.com/opensearch.xml" type="application/opensearchdescription+xml" rel="search"/>
+    <meta content="News, Sports, Weather, Traffic and the Best of Connecticut" name="description"/>
+    <style type="text/css">
+      
+			#wwWrapper { overflow: hidden; }
+			#wwWidget { background: none; font-family: Arial, Helvetica, sans-serif; margin-bottom: 5px; overflow: hidden; padding: 5px; width: 170px; }
+			#wwWidget a { text-decoration: none; }
+			#wwWidget img { border: 0; float: left; margin: 3px 0 0 0; padding: 0; width: 28px; }
+			#wwWidget span#wwTemp { color: #a6d4f7; font: normal 31px Helvetica, Arial, sans-serif; letter-spacing: 0; }
+		
+    </style>
+    <link media="screen" type="text/css" href="http://disqus.com/stylesheets/cbsconnecticut/disqus.css?v=2.0" rel="stylesheet"/>
+    <style type="text/css">
+      
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none !important;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		
+    </style>
+    <style type="text/css">
+      
+.widget_twitter li {
+	word-wrap: break-word;
+}
+
+    </style>
+    <meta content="CBS Connecticut" name="application-name"/>
+    <meta content="width=device-width;height=device-height" name="msapplication-window"/>
+    <meta content="News, Sports, Weather, Traffic and the Best of Connecticut" name="msapplication-tooltip"/>
+    <meta content="name=Subscribe;action-uri=http://connecticut.cbslocal.com/feed/;icon-uri=http://1.gravatar.com/blavatar/7218037b089f5773e5c8185ac8486d97?s=16" name="msapplication-task"/>
+    <meta content="http://cbshartford.files.wordpress.com/2014/02/ct-state-capitol.jpg?w=625" property="og:image"/>
+    <meta content="Hearing Set for Bill on Conn. Child Guardians - CBS Connecticut" property="og:title"/>
+    <meta content="A state legislative committee has scheduled a public hearing on a bill prompted by complaints from parents involved in contentious child custody cases.  " property="og:description"/>
+    <style id="syntaxhighlighteranchor" type="text/css">
+    </style>
+    <script type="text/javascript">
+//<![CDATA[
+
+			var googletag = googletag || {};
+			googletag.cmd = googletag.cmd || [];
+			(function() {
+				var gads = document.createElement("script");
+				gads.async = true;
+				gads.type = "text/javascript";
+				var useSSL = "https:" == document.location.protocol;
+				gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+				var node =document.getElementsByTagName("script")[0];
+				node.parentNode.insertBefore(gads, node);
+			})();
+		
+//]]>
+    </script>
+    <link href="http://connecticut.cbslocal.com/?custom-css=1&amp;csblog=14KSL&amp;cscache=6&amp;csrev=102" type="text/css" id="custom-css-css" rel="stylesheet"/>
+    <script async="" type="text/javascript" src="http://disqus.com/forums/cbsconnecticut/count.js">
+    </script>
+    <script async="" type="text/javascript" src="http://partner.googleadservices.com/gpt/pubads_impl_35.js">
+    </script>
+    <link href="http://0.gravatar.com/css/hovercard.css?ver=201414x" id="gravatar-card-css" type="text/css" rel="stylesheet"/>
+    <link href="http://0.gravatar.com/css/services.css?ver=201414x" id="gravatar-card-services-css" type="text/css" rel="stylesheet"/>
+    <div class="body-wrapper" id="wrapper">
+      <header style="background: #93c3e7;background: linear-gradient(bottom,#93c3e7 2%,#56a8e3 76%);background: -webkit-gradient(linear,left bottom,left top,color-stop(.02,#93c3e7),color-stop(.76,#56a8e3));background: -webkit-linear-gradient(bottom,#93c3e7 2%,#56a8e3 76%);background: -moz-linear-gradient(bottom,#93c3e7 2%, #56a8e3 76%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56a8e3', endColorstr='#93c3e7',GradientType=0 ); /* IE6-9 */" id="main-header">
+        <div class="subheader short-form newsletters-link-show">
+          <form class="search" action="http://connecticut.cbslocal.com/search/">
+            <fieldset>
+              <input type="submit" value="Search"/>
+              <input type="text" placeholder="Search" size="31" id="s" name="q"/>
+              <input type="reset" value="Reset"/>
+            </fieldset>
+          </form>
+          <div class="weather">
+            <div id="wwWrapper">
+              <div id="wwWidget">
+                <a href="http://weather.hartford.cbslocal.com/">
+                  <img src="http://connecticut.cbslocal.com/wp-content/themes/vip/cbs-local/plugins/wunderground/icons/nt_cloudy.png"/>
+                  <span id="wwTemp">
+                    38°
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div data-max-height="60" data-max-width="120" data-id="21" class="cbs-ad-unit ad_gpt ad_120x60" id="ad_21">
+          </div>
+          <a class="newsletter-signup-link" href="http://connecticut.cbslocal.com/newsletter/signup">
+            <img src="http://s1.wp.com/wp-content/themes/vip/cbs-local/images/global/header/nletter_icon.png?m=1391156180g"/>
+             Sign Up for Newsletters
+				
+          </a>
+          <div class="menu">
+            <div class="menu-links">
+              <a class="ribbon-channel" href="http://hartford.cbslocal.com/yourhome">
+                Your Home
+              </a>
+              <a class="ribbon-channel" href="http://www.awin1.com/cread.php?awinmid=4292&amp;awinaffid=156274&amp;clickref=tophathar&amp;p=http%3A%2F%2Fwww.ticketsnow.com%2FEventCalendar%2FEventsCalendar.aspx%3FMAID%3D327">
+                Buy Tickets
+              </a>
+            </div>
+            <div class="ribbon-channel more-hover">
+              <span>
+                More
+              </span>
+              <div class="ribbon-more-box menu-more">
+                <div class="more-content">
+                  <div class="channels-list">
+                    <strong>
+                      Channels
+                    </strong>
+                    <a href="http://hartford.cbslocal.com/yourhome">
+                      Your Home
+                    </a>
+                    <a href="http://www.awin1.com/cread.php?awinmid=4292&amp;awinaffid=156274&amp;clickref=tophathar&amp;p=http%3A%2F%2Fwww.ticketsnow.com%2FEventCalendar%2FEventsCalendar.aspx%3FMAID%3D327">
+                      Buy Tickets
+                    </a>
+                  </div>
+                  <ul class="deals-list">
+                    <li class="deal">
+                      <strong>
+                        Daily Deals
+                      </strong>
+                      <div class="details">
+                        <a href="http://offers.cbslocal.com/deal/hartford/deal/hartford/52-percent-off-from-MG-Direct">
+                          52% off from MG Direct
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="clear-both">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sso-ribbon-wrapper" id="sso-header-wrapper">
+            <a class="login" href="http://my.cbslocal.com/accounts/login/hartford/">
+              Login
+            </a>
+            <a class="register" href="http://my.cbslocal.com/accounts/register/hartford/">
+              Register
+            </a>
+          </div>
+        </div>
+        <a class="cbs-header-logo" href="http://connecticut.cbslocal.com">
+          <img alt="CBS Conn." src="http://cbsnewyork.files.wordpress.com/2012/02/logourl.png"/>
+        </a>
+        <a href="http://connecticut.cbslocal.com/station/wtic-news-talk-1080/">
+          <img width="106" height="35" alt="WTIC1080" class="attachment-station-logo-header wp-post-image" src="http://cbshartford.files.wordpress.com/2010/12/wtic1080-2.png?w=106"/>
+        </a>
+        <div class="follow-us">
+          <a target="_blank" class="facebook" href="http://www.facebook.com/wtic1080">
+            Facebook
+          </a>
+          <a target="_blank" class="twitter" href="http://twitter.com/wtic1080">
+            Twitter
+          </a>
+          <em>
+            Follow Us
+          </em>
+        </div>
+        <a class="cbs-header-logo-2" href="http://connecticut.cbslocal.com">
+          <img class="big-logo" alt="CBS Conn." src="http://cbshartford.files.wordpress.com/2012/01/connecticut.png"/>
+        </a>
+        <nav class="main-nav">
+          <ul class="menu" id="menu-header-menu">
+            <li class="menu-item menu-item-type-custom menu-item-object-custom" id="menu-item-210">
+              <a href="http://hartford.cbslocal.com/">
+                <strong>
+                  Home
+                </strong>
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children" id="menu-item-211">
+              <a href="http://connecticut.cbslocal.com/category/news/">
+                <strong>
+                  News
+                </strong>
+              </a>
+            </li>
+            <li class="sports-tab menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children" id="menu-item-26533">
+              <a href="http://connecticut.cbslocal.com/category/sports/">
+                <strong>
+                  Sports
+                </strong>
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom" id="menu-item-51076">
+              <a href="http://connecticut.cbslocal.com/healthwatch">
+                <strong>
+                  Health
+                </strong>
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children" id="menu-item-89998">
+              <a href="http://connecticut.cbslocal.com/category/top-spots/">
+                <strong>
+                  Top Spots
+                </strong>
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom" id="menu-item-72336">
+              <a href="http://events.connecticut.cbslocal.com/">
+                <strong>
+                  Events
+                </strong>
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children" id="menu-item-160141">
+              <a href="http://connecticut.cbslocal.com/category/heard-on-wtic/">
+                <strong>
+                  Heard On WTIC
+                </strong>
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom" id="menu-item-213">
+              <a href="http://hartford.cbslocal.com/traffic">
+                <strong>
+                  Traffic
+                </strong>
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id="menu-item-219">
+              <a href="http://weather.hartford.cbslocal.com">
+                <strong>
+                  Weather
+                </strong>
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom" id="menu-item-216">
+              <a href="http://places.cbslocal.com/hartford">
+                <strong>
+                  Places
+                </strong>
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom" id="menu-item-131542">
+              <a href="http://hartford.cbslocal.com/category/travel/">
+                <strong>
+                  Travel
+                </strong>
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom" id="menu-item-214">
+              <a href="http://offers.cbslocal.com/hartford">
+                <strong>
+                  Deals
+                </strong>
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom" id="menu-item-60440">
+              <a href="http://connecticut.cbslocal.com/autos">
+                <strong>
+                  Autos
+                </strong>
+              </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom" id="menu-item-108432">
+              <a href="http://circulars.cbslocal.com/?p=cbsconnecticut" target="_blank">
+                <strong>
+                  Circulars
+                </strong>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="sub-nav"/>
+        <style type="text/css">
+          
+	header nav.main-nav ul,
+	header nav.main-nav a {
+		background: url(http://cbsnetpreprod.files.wordpress.com/2011/12/menutabsbackground.png) repeat-x;
+		color: White;
+	}
+	header nav.sub-nav {
+		background: url(http://cbshartford.files.wordpress.com/2012/01/cityscapebar.png) no-repeat;
+	}
+
+        </style>
+      </header>
+      <div class="main-white">
+        <table width="970" cellspacing="0" cellpadding="0" style="border:0;margin:0 auto;width:970px;">
+          <tbody>
+            <tr>
+              <td align="center">
+                <div data-max-height="90" data-max-width="970" data-id="1" class="cbs-ad-unit ad_gpt full-ad" id="ad_1">
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="background-color:#0e7cff;color:#ffffff;" class="breaking-news breaking-bgcolor-0e7cff breaking-color-ffffff " id="breaking">
+          <div class="wrapper">
+            <span class="title">
+              Flood Advisory:
+            </span>
+            <span class="description">
+              Flood watches and warnings remain in effect for parts of Connecticut
+            </span>
+            <a style="color: ffffff;" href="http://weather.hartford.cbslocal.com/US/CT/Hartford.html">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="expand_contract blue">
+          <span class="arrow blue">
+          </span>
+        </div>
+        <section class="page-columns">
+          <section class="page-column two-column columns-left">
+            <header class="column-header">
+              <h2 class="title">
+                Search results for 
+                <strong>
+                  "us"
+                </strong>
+              </h2>
+            </header>
+            <form action="http://connecticut.cbslocal.com/search/" class="gcs_searchbar">
+              <fieldset>
+                <input type="text" maxlength="95" name="q" value="us" id="s"/>
+                <input type="submit" value="Search"/>
+              </fieldset>
+              <div class="powered-by">
+                <img src="http://s1.wp.com/wp-content/themes/vip/cbs-local/images/google-white.png?m=1391156180g"/>
+              </div>
+            </form>
+            <article id="main-story">
+              <div id="google-search-results">
+                <h1 class="title">
+                  23700 Headlines
+                </h1>
+                <div id="gcs_adcontainer1">
+                </div>
+                <script charset="utf-8" type="text/javascript">
+//<![CDATA[
+
+						var pageOptions = {
+							'pubId': 'cbslocals_cse',
+							'query': 'us',
+							'channel': '2452579929',
+							'hl': 'en'
+						};
+
+						var adblock1 = {
+							'container': 'gcs_adcontainer1',
+							'width': '630px',
+							'lines': '3',
+							'fontSizeTitle': '14px',
+							'colorText': '7f7f7f',
+							'colorTitleLink': '266ec4',
+							'colorDomainLink': '000000',
+							'colorBackground': 'eaeaea',
+							'titleBold': true,
+							'noTitleUnderline': true
+						};
+
+						var adblock2 = {
+							'container': 'gcs_adcontainer2',
+							'number': '4',
+							'width': '300px',
+							'fontSizeTitle': '14px',
+							'colorText': '7f7f7f',
+							'colorTitleLink': '266ec4',
+							'colorDomainLink': '000000',
+							'colorBackground': 'eaeaea',
+							'titleBold': true,
+							'noTitleUnderline': true
+						};
+
+						try {
+							new google.ads.search.Ads(pageOptions, adblock1, adblock2);
+						} catch (err) {
+							// Log error.
+						}
+					
+//]]>
+                </script>
+                <section>
+                  <ul id="ss">
+                    <li>
+                      <a href="http://connecticut.cbslocal.com/about-us/contact-us/">
+                        <img width="100" border="0" alt="Contact &lt;b>Us&lt;/b> « CBS Connecticut" src="http://s1.wp.com/wp-content/themes/vip/cbs-local/images/global/facebook/facebook-share-260x260.png?m=1350628179g"/>
+                      </a>
+                      <h4>
+                        <a href="http://connecticut.cbslocal.com/about-us/contact-us/">
+                          Contact 
+                          <b>
+                            Us
+                          </b>
+                           « CBS Connecticut
+                        </a>
+                      </h4>
+                      <p class="description">
+                        
+											Contact 
+                        <b>
+                          Us
+                        </b>
+                         News, Sports, Weather, Traffic and the Best of Connecticut.										
+                      </p>
+                    </li>
+                    <li>
+                      <a href="http://connecticut.cbslocal.com/about-us/connect-with-us/">
+                        <img width="100" border="0" alt="Connect With &lt;b>Us&lt;/b> « CBS Connecticut" src="http://s1.wp.com/wp-content/themes/vip/cbs-local/images/global/facebook/facebook-share-260x260.png?m=1350628179g"/>
+                      </a>
+                      <h4>
+                        <a href="http://connecticut.cbslocal.com/about-us/connect-with-us/">
+                          Connect With 
+                          <b>
+                            Us
+                          </b>
+                           « CBS Connecticut
+                        </a>
+                      </h4>
+                      <p class="description">
+                        
+											Connect With 
+                        <b>
+                          Us
+                        </b>
+                         News, Sports, Weather, Traffic and the Best of Connecticut.										
+                      </p>
+                    </li>
+                    <li>
+                      <a href="http://connecticut.cbslocal.com/about-us/">
+                        <img width="100" border="0" alt="About &lt;b>Us&lt;/b> « CBS Connecticut" src="http://s1.wp.com/wp-content/themes/vip/cbs-local/images/global/facebook/facebook-share-260x260.png?m=1350628179g"/>
+                      </a>
+                      <h4>
+                        <a href="http://connecticut.cbslocal.com/about-us/">
+                          About 
+                          <b>
+                            Us
+                          </b>
+                           « CBS Connecticut
+                        </a>
+                      </h4>
+                      <p class="description">
+                        
+											About 
+                        <b>
+                          Us
+                        </b>
+                         News, Sports, Weather, Traffic and the Best of Connecticut.										
+                      </p>
+                    </li>
+                    <li>
+                      <a href="http://connecticut.cbslocal.com/2014/01/21/us-education-secretary-duncan-to-visit-hartford/">
+                        <img width="100" border="0" alt="&lt;b>US&lt;/b> Education Secretary Duncan to Visit Hartford « CBS Connecticut" src="http://cbshartford.files.wordpress.com/2014/01/181320573.jpg?w=1500"/>
+                      </a>
+                      <h4>
+                        <a href="http://connecticut.cbslocal.com/2014/01/21/us-education-secretary-duncan-to-visit-hartford/">
+                          <b>
+                            US
+                          </b>
+                           Education Secretary Duncan to Visit Hartford « CBS Connecticut
+                        </a>
+                      </h4>
+                      <p class="description">
+                        
+											Jan 21, 2014 
+                        <b>
+                          ...
+                        </b>
+                        <b>
+                          U.S.
+                        </b>
+                         Secretary of Education Arne Duncan is returning to Hartford.										
+                      </p>
+                    </li>
+                    <li>
+                      <a href="http://connecticut.cbslocal.com/top-lists/best-historic-vacations-in-the-us/">
+                        <img width="100" border="0" alt="Best Historic Vacations In The &lt;b>US&lt;/b> « CBS Connecticut" src="http://cbshartford.files.wordpress.com/2013/12/charleston_-_thinkstock.jpg?w=625"/>
+                      </a>
+                      <h4>
+                        <a href="http://connecticut.cbslocal.com/top-lists/best-historic-vacations-in-the-us/">
+                          Best Historic Vacations In The 
+                          <b>
+                            US
+                          </b>
+                           « CBS Connecticut
+                        </a>
+                      </h4>
+                      <p class="description">
+                        
+											Jan 14, 2014 
+                        <b>
+                          ...
+                        </b>
+                         The following are five of the best historical trips in the 
+                        <b>
+                          United States
+                        </b>
+                        . 
+oldnorthchurch Best Historic Vacations In The 
+                        <b>
+                          US
+                        </b>
+                        . Old North Church in ...										
+                      </p>
+                    </li>
+                    <li>
+                      <a href="http://connecticut.cbslocal.com/2014/01/13/former-us-comptroller-announces-lt-gov-run/">
+                        <img width="100" border="0" alt="Former &lt;b>US&lt;/b> Comptroller Announces Lt. Gov. Run « CBS Connecticut" src="http://cbshartford.files.wordpress.com/2014/01/110686843.jpg?w=1500"/>
+                      </a>
+                      <h4>
+                        <a href="http://connecticut.cbslocal.com/2014/01/13/former-us-comptroller-announces-lt-gov-run/">
+                          Former 
+                          <b>
+                            US
+                          </b>
+                           Comptroller Announces Lt. Gov. Run « CBS Connecticut
+                        </a>
+                      </h4>
+                      <p class="description">
+                        
+											Jan 13, 2014 
+                        <b>
+                          ...
+                        </b>
+                         Former 
+                        <b>
+                          U.S.
+                        </b>
+                         Comptroller General David Walker says he's establishing an 
+exploratory committee as a Republican candidate for Connecticut ...										
+                      </p>
+                    </li>
+                    <li>
+                      <a href="http://connecticut.cbslocal.com/top-lists/best-places-to-visit-off-season-in-the-us/">
+                        <img width="100" border="0" alt="Best Places To Visit Off Season In The &lt;b>US&lt;/b> « CBS Connecticut" src="http://cbshartford.files.wordpress.com/2013/12/phoenix_-_thinkstock.jpg?w=625"/>
+                      </a>
+                      <h4>
+                        <a href="http://connecticut.cbslocal.com/top-lists/best-places-to-visit-off-season-in-the-us/">
+                          Best Places To Visit Off Season In The 
+                          <b>
+                            US
+                          </b>
+                           « CBS Connecticut
+                        </a>
+                      </h4>
+                      <p class="description">
+                        
+											Jan 7, 2014 
+                        <b>
+                          ...
+                        </b>
+                         New Orleans, Orlando, Maui, Phoenix, and San Francisco are among the best 
+places to visit in the 
+                        <b>
+                          U.S.
+                        </b>
+                         in the off season. News, Sports ...										
+                      </p>
+                    </li>
+                    <li>
+                      <a href="http://connecticut.cbslocal.com/photo-galleries/2013/06/18/most-romantic-us-honeymoon-destinations/">
+                        <img width="100" border="0" alt="Most Romantic &lt;b>US&lt;/b> Honeymoon Destinations « CBS Connecticut" src="http://cbshartford.files.wordpress.com/2013/06/carmel.jpg?w=1500"/>
+                      </a>
+                      <h4>
+                        <a href="http://connecticut.cbslocal.com/photo-galleries/2013/06/18/most-romantic-us-honeymoon-destinations/">
+                          Most Romantic 
+                          <b>
+                            US
+                          </b>
+                           Honeymoon Destinations « CBS Connecticut
+                        </a>
+                      </h4>
+                      <p class="description">
+                        
+											Jun 18, 2013 
+                        <b>
+                          ...
+                        </b>
+                         Most Romantic 
+                        <b>
+                          US
+                        </b>
+                         Honeymoon Destinations News, Sports, Weather, Traffic and 
+the Best of Connecticut.										
+                      </p>
+                    </li>
+                    <li>
+                      <a href="http://connecticut.cbslocal.com/about-us/advertising-basics/">
+                        <img width="100" border="0" alt="Advertising Basics « CBS Connecticut" src="http://s1.wp.com/wp-content/themes/vip/cbs-local/images/global/facebook/facebook-share-260x260.png?m=1350628179g"/>
+                      </a>
+                      <h4>
+                        <a href="http://connecticut.cbslocal.com/about-us/advertising-basics/">
+                          Advertising Basics « CBS Connecticut
+                        </a>
+                      </h4>
+                      <p class="description">
+                        
+											Grow your business with local or national custom advertising campaigns, 
+targeted to our large online and streaming audience. CBS: Contact 
+                        <b>
+                          Us
+                        </b>
+                        . Explore 
+Our ...										
+                      </p>
+                    </li>
+                    <li>
+                      <a href="http://connecticut.cbslocal.com/top-lists/must-see-us-technology-conventions-in-2014/">
+                        <img width="100" border="0" alt="Must-See &lt;b>US&lt;/b> Technology Conventions In 2014 « CBS Connecticut" src="http://cbshartford.files.wordpress.com/2014/01/e3_-_photo_by_david_mcnew_getty_images.jpg?w=625"/>
+                      </a>
+                      <h4>
+                        <a href="http://connecticut.cbslocal.com/top-lists/must-see-us-technology-conventions-in-2014/">
+                          Must-See 
+                          <b>
+                            US
+                          </b>
+                           Technology Conventions In 2014 « CBS Connecticut
+                        </a>
+                      </h4>
+                      <p class="description">
+                        
+											Feb 4, 2014 
+                        <b>
+                          ...
+                        </b>
+                         cloud expo Must See 
+                        <b>
+                          US
+                        </b>
+                         Technology Conventions In 2014. Photo Credit: Cloud 
+Expo. Cloud Expo Javits Center 655 W. 34th St. New York, NY ...										
+                      </p>
+                    </li>
+                  </ul>
+                  <div class="powered-by">
+                    powered by 
+                    <img src="http://www.google.com/uds/css/small-logo.png"/>
+                     Custom Search
+                  </div>
+                </section>
+              </div>
+              <nav class="pagination">
+                <div class="wrapper">
+                  <a class="current-page" href="http://connecticut.cbslocal.com/search/?q=us&amp;page=1">
+                    1
+                  </a>
+                  <a href="http://connecticut.cbslocal.com/search/?q=us&amp;page=2">
+                    2
+                  </a>
+                  <a href="http://connecticut.cbslocal.com/search/?q=us&amp;page=3">
+                    3
+                  </a>
+                  <a href="http://connecticut.cbslocal.com/search/?q=us&amp;page=4">
+                    4
+                  </a>
+                  <span class="skip">
+                    ...
+                  </span>
+                  <a href="http://connecticut.cbslocal.com/search/?q=us&amp;page=10">
+                    10
+                  </a>
+                  <a href="http://connecticut.cbslocal.com/search/?q=us&amp;page=2" class="next">
+                    Next »
+                  </a>
+                </div>
+              </nav>
+            </article>
+          </section>
+          <aside class="sidebar right-bar">
+            <div id="gcs_adcontainer2">
+            </div>
+            <div data-max-height="250" data-max-width="300" data-id="2" class="cbs-ad-unit ad_gpt big-right-ad" id="ad_2">
+            </div>
+          </aside>
+        </section>
+      </div>
+      <section class="page-block-container" id="drip-pan">
+        <ul class="list">
+          <li class="list-item list-item-0">
+            <a href="https://www.audioadcenter.com/" target="_blank" class="node">
+              <div class="thumbnail-wrapper">
+                <img width="210" height="158" alt="audio_Ads_Generic_210x158" class="thumbnail wp-post-image" src="http://cbshartford.files.wordpress.com/2013/10/audio_ads_generic_210x158.png?w=210&amp;h=158&amp;crop=1"/>
+              </div>
+              <h4 class="title">
+                Boost Your Business Today
+              </h4>
+            </a>
+          </li>
+          <li class="list-item list-item-1">
+            <a href="http://connecticut.cbslocal.com/category/you-cant-make-this-stuff-up/" class="node">
+              <div class="thumbnail-wrapper">
+                <img width="210" height="158" alt="rowland blog DL rev2" class="thumbnail wp-post-image" src="http://cbshartford.files.wordpress.com/2013/05/rowland-blog-dl-rev2.jpg?w=210&amp;h=158&amp;crop=1"/>
+              </div>
+              <h4 class="title">
+                John Rowland's Blog
+              </h4>
+            </a>
+          </li>
+          <li class="list-item list-item-2">
+            <a href="http://connecticut.cbslocal.com/text-alerts/" class="node">
+              <div class="thumbnail-wrapper">
+                <img width="210" height="158" alt="phonenewsdrippan" class="thumbnail wp-post-image" src="http://cbshartford.files.wordpress.com/2013/04/phonenewsdrippan.jpg?w=210&amp;h=158&amp;crop=1"/>
+              </div>
+              <h4 class="title">
+                Get Text Alerts
+              </h4>
+            </a>
+          </li>
+          <li class="list-item list-item-3">
+            <a href="http://connecticut.cbslocal.com/top-lists/the-e-s-p-spring-fashion-guide-for-guys/" class="node">
+              <div class="thumbnail-wrapper">
+                <img width="210" height="158" alt="Mens.Spring.Fashion.thinkstock.403x403" class="thumbnail wp-post-image" src="http://cbshartford.files.wordpress.com/2014/03/mens-spring-fashion-thinkstock-403x403.jpg?w=210&amp;h=158&amp;crop=1"/>
+              </div>
+              <h4 class="title">
+                Best Men's Fashion For Spring
+              </h4>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="page-ad-container page-pencil-ad-container-bottom">
+        <table cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td align="center">
+                <div data-max-height="90" data-max-width="728" data-id="4" class="cbs-ad-unit ad_gpt full-ad page-pencil-ad" id="ad_4">
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <style type="text/css">
+        
+			ul#menu-footer-menu a {
+			color:#3b4b57;
+		}
+	
+			ul#menu-footer-menu ul li a {
+			color:White;
+		}
+	
+			#menu-final-footer-menu a,
+		#wordpresscom-powered,
+		#wordpresscom-powered a, .footer p {
+			color:#3b4b57;
+		}
+		#menu-final-footer-menu li {
+			border-left: solid #3b4b57 1px;
+		}
+	
+      </style>
+      <footer style="background: #5d9bca;background: linear-gradient(bottom,#5d9bca 2%,#9fcef3 76%);background: -webkit-gradient(linear,left bottom,left top,color-stop(.02,#5d9bca),color-stop(.76,#9fcef3));background: -webkit-linear-gradient(bottom,#5d9bca 2%,#9fcef3 76%);background: -moz-linear-gradient(bottom,#5d9bca 2%, #9fcef3 76%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fcef3', endColorstr='#5d9bca',GradientType=0 ); /* IE6-9 */">
+        <div class="links">
+          <ul class="menu" id="menu-footer-menu">
+            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-329" id="menu-item-329">
+              <a href="http://connecticut.cbslocal.com/category/news/">
+                News
+              </a>
+              <ul class="sub-menu">
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-328" id="menu-item-328">
+                  <a href="http://hartford.cbslocal.com/category/news/">
+                    Local News
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325" id="menu-item-325">
+                  <a href="http://connecticut.cbslocal.com/news/top-headlines/">
+                    Top Headlines
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82906" id="menu-item-82906">
+                  <a href="http://connecticut.cbslocal.com/category/politics/">
+                    Politics
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-319" id="menu-item-319">
+                  <a href="http://connecticut.cbslocal.com/news/business-news/">
+                    Business
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-320" id="menu-item-320">
+                  <a href="http://connecticut.cbslocal.com/news/entertainment-news/">
+                    Entertainment
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-321" id="menu-item-321">
+                  <a href="http://connecticut.cbslocal.com/news/environmental-news/">
+                    Environmental
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323" id="menu-item-323">
+                  <a href="http://connecticut.cbslocal.com/news/national-news/">
+                    National
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327" id="menu-item-327">
+                  <a href="http://connecticut.cbslocal.com/news/world-news/">
+                    World
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-318" id="menu-item-318">
+              <a href="http://connecticut.cbslocal.com/sports-news/">
+                Sports
+              </a>
+              <ul class="sub-menu">
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-117168" id="menu-item-117168">
+                  <a href="http://connecticut.cbslocal.com/category/sports/">
+                    Latest Sports
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-117169" id="menu-item-117169">
+                  <a href="http://connecticut.cbslocal.com/category/sports/uconn-sports/">
+                    UCONN
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27362" id="menu-item-27362">
+                  <a href="http://connecticut.cbslocal.com/category/uconn-insider/">
+                    UConn Insider
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117172" id="menu-item-117172">
+                  <a href="http://stats.connecticut.cbslocal.com/mlb/teamreports.asp?tm=10&amp;report=teamhome">
+                    Yankees
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117173" id="menu-item-117173">
+                  <a href="http://stats.connecticut.cbslocal.com/mlb/teamreports.asp?tm=02&amp;report=teamhome">
+                    Red Sox
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117181" id="menu-item-117181">
+                  <a href="http://stats.connecticut.cbslocal.com/nba/teamstats.asp?teamno=02&amp;type=teamhome">
+                    Celtics
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117174" id="menu-item-117174">
+                  <a href="http://stats.connecticut.cbslocal.com/fb/teamstats.asp?teamno=17&amp;type=teamhome">
+                    Patriots
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117175" id="menu-item-117175">
+                  <a href="http://stats.connecticut.cbslocal.com/fb/teamstats.asp?teamno=19&amp;type=teamhome">
+                    Giants
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117177" id="menu-item-117177">
+                  <a href="http://stats.connecticut.cbslocal.com/fb/teamstats.asp?teamno=20&amp;type=teamhome">
+                    Jets
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117178" id="menu-item-117178">
+                  <a href="http://connecticut.cbslocal.com/category/sports/sports-commentary/">
+                    Audio
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117179" id="menu-item-117179">
+                  <a href="http://stats.connecticut.cbslocal.com/">
+                    STATS
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-117182" id="menu-item-117182">
+              <a href="http://connecticut.cbslocal.com/category/top-spots/">
+                Top Spots
+              </a>
+              <ul class="sub-menu">
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47598" id="menu-item-47598">
+                  <a href="http://connecticut.cbslocal.com/category/top-spots/arts-culture/">
+                    Arts &amp; Culture
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47602" id="menu-item-47602">
+                  <a href="http://connecticut.cbslocal.com/category/top-spots/shopping-style/">
+                    Shopping &amp; Style
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47600" id="menu-item-47600">
+                  <a href="http://connecticut.cbslocal.com/category/top-spots/food-drink/">
+                    Food &amp; Drink
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47601" id="menu-item-47601">
+                  <a href="http://connecticut.cbslocal.com/category/top-spots/nightlife-music/">
+                    Nightlife &amp; Music
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47599" id="menu-item-47599">
+                  <a href="http://connecticut.cbslocal.com/category/top-spots/family-pets/">
+                    Family &amp; Pets
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-142205" id="menu-item-142205">
+                  <a href="http://connecticut.cbslocal.com/category/travel/">
+                    Travel
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-341" id="menu-item-341">
+              <a href="http://hartford.cbslocal.com">
+                Other
+              </a>
+              <ul class="sub-menu">
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-339" id="menu-item-339">
+                  <a href="http://connecticut.cbslocal.com/category/watch-listen/">
+                    Watch + Listen
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27360" id="menu-item-27360">
+                  <a href="http://connecticut.cbslocal.com/program-schedule/">
+                    Program Schedule
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-335" id="menu-item-335">
+                  <a href="http://connecticut.cbslocal.com/category/links-numbers/">
+                    Links &amp; Numbers
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-326" id="menu-item-326">
+                  <a href="http://connecticut.cbslocal.com/traffic/">
+                    Traffic
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-340" id="menu-item-340">
+                  <a href="http://weather.hartford.cbslocal.com">
+                    Weather
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27361" id="menu-item-27361">
+                  <a href="http://connecticut.cbslocal.com/school-closings/">
+                    School Closings
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-169033" id="menu-item-169033">
+                  <a href="http://connecticut.cbslocal.com/contest-rules/">
+                    Official Contest Rules
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31866" id="menu-item-31866">
+              <a>
+                Contact Us
+              </a>
+              <ul class="sub-menu">
+                <li class="menu-item menu-item-type-post_type menu-item-object-station menu-item-31867" id="menu-item-31867">
+                  <a href="http://connecticut.cbslocal.com/station/wtic-news-talk-1080/">
+                    WTIC NewsTalk 1080
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-169034" id="menu-item-169034">
+                  <a href="http://www.cbsradio.com/careers">
+                    Careers
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-72849" id="menu-item-72849">
+              <a href="http://connecticut.cbslocal.com/about-us/">
+                Corporate
+              </a>
+              <ul class="sub-menu">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72854" id="menu-item-72854">
+                  <a href="http://connecticut.cbslocal.com/about-us/">
+                    About Us
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72850" id="menu-item-72850">
+                  <a href="http://connecticut.cbslocal.com/about-us/advertising-basics/">
+                    Advertise
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72853" id="menu-item-72853">
+                  <a href="http://connecticut.cbslocal.com/about-us/contact-us/">
+                    Contact Us
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72851" id="menu-item-72851">
+                  <a href="http://connecticut.cbslocal.com/about-us/business-development/">
+                    Business Development
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72852" id="menu-item-72852">
+                  <a href="http://connecticut.cbslocal.com/about-us/connect-with-us/">
+                    Connect With Us
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="business-listing">
+            <h5>
+              Conn. Business Listings
+            </h5>
+            <p>
+              <a href="http://places.cbslocal.com/hartford/search/?what=restaurants">
+                Restaurants
+              </a>
+              <a href="http://places.cbslocal.com/hartford/search/?what=bars+%26+clubs">
+                Bars &amp; Clubs
+              </a>
+              <a href="http://places.cbslocal.com/hartford/search/?what=shopping">
+                Shopping
+              </a>
+              <a href="http://places.cbslocal.com/hartford/search/?what=professional+services">
+                Professional Services
+              </a>
+              <a class="search-listings" href="http://places.cbslocal.com/hartford/">
+                Search Listings
+              </a>
+            </p>
+          </div>
+          <div class="menu-final-footer-menu-container">
+            <ul class="menu" id="menu-final-footer-menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83831" id="menu-item-83831">
+                <a href="http://policies.cbslocal.com/privacy/current.html">
+                  Privacy Policy
+                </a>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-116053" id="menu-item-116053">
+                <a href="http://policies.cbslocal.com/privacy/current.html#onlinead">
+                  Ad Choices
+                </a>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83832" id="menu-item-83832">
+                <a href="http://policies.cbslocal.com/terms-of-use/">
+                  Terms of Use
+                </a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235" id="menu-item-235">
+                <a href="http://connecticut.cbslocal.com/eeo-reports/">
+                  EEO Reports
+                </a>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78677" id="menu-item-78677">
+                <a href="http://offers.cbslocal.com/hartford">
+                  Deals
+                </a>
+              </li>
+            </ul>
+            <div id="wordpresscom-powered">
+              Powered by 
+              <a class="powered-by-wpcom" rel="generator nofollow" href="http://vip.wordpress.com/">
+                WordPress.com VIP
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="logo">
+          <a href="http://connecticut.cbslocal.com">
+            <img alt="CBS Conn." src="http://cbshartford.files.wordpress.com/2012/01/footer_connecticut.png"/>
+          </a>
+        </div>
+        <div class="social">
+          <a target="_blank" class="facebook" href="http://www.facebook.com/wtic1080">
+            Facebook
+          </a>
+          <a target="_blank" class="twitter" href="http://twitter.com/wtic1080">
+            Twitter
+          </a>
+          <a target="_blank" class="rss" href="http://connecticut.cbslocal.com/feed/rss/">
+            RSS
+          </a>
+        </div>
+        <div class="footer-city">
+          <span>
+            Other CBS Local Cities 
+          </span>
+          <select onchange="location = this.options[this.selectedIndex].value;" name="citydropdown">
+            <option value="http://atlanta.cbslocal.com/">
+              CBS Atlanta
+            </option>
+            <option value="http://baltimore.cbslocal.com/">
+              CBS Baltimore
+            </option>
+            <option value="http://boston.cbslocal.com/">
+              CBS Boston
+            </option>
+            <option value="http://charlotte.cbslocal.com/">
+              CBS Charlotte
+            </option>
+            <option value="http://chicago.cbslocal.com/">
+              CBS Chicago
+            </option>
+            <option value="http://cleveland.cbslocal.com/">
+              CBS Cleveland
+            </option>
+            <option selected="selected" value="http://connecticut.cbslocal.com/">
+              CBS Connecticut
+            </option>
+            <option value="http://dfw.cbslocal.com/">
+              CBS Dallas
+            </option>
+            <option value="http://denver.cbslocal.com/">
+              CBS Denver
+            </option>
+            <option value="http://detroit.cbslocal.com/">
+              CBS Detroit
+            </option>
+            <option value="http://houston.cbslocal.com/">
+              CBS Houston
+            </option>
+            <option value="http://lasvegas.cbslocal.com/">
+              CBS Las Vegas
+            </option>
+            <option value="http://losangeles.cbslocal.com/">
+              CBS Los Angeles
+            </option>
+            <option value="http://miami.cbslocal.com/">
+              CBS Miami
+            </option>
+            <option value="http://minnesota.cbslocal.com/">
+              CBS Minnesota
+            </option>
+            <option value="http://newyork.cbslocal.com/">
+              CBS New York
+            </option>
+            <option value="http://philadelphia.cbslocal.com">
+              CBS Philadelphia
+            </option>
+            <option value="http://pittsburgh.cbslocal.com">
+              CBS Pittsburgh
+            </option>
+            <option value="http://riverside.cbslocal.com/">
+              CBS Riverside
+            </option>
+            <option value="http://sacramento.cbslocal.com/">
+              CBS Sacramento
+            </option>
+            <option value="http://sanfrancisco.cbslocal.com/">
+              CBS San Francisco
+            </option>
+            <option value="http://seattle.cbslocal.com/">
+              CBS Seattle
+            </option>
+            <option value="http://stlouis.cbslocal.com/">
+              CBS St. Louis
+            </option>
+            <option value="http://tampa.cbslocal.com/">
+              CBS Tampa
+            </option>
+            <option value="http://washington.cbslocal.com/">
+              CBS Washington
+            </option>
+          </select>
+        </div>
+        <div class="footer">
+          <a href="http://connecticut.cbslocal.com">
+            <img alt="CBS Conn." src="http://s1.wp.com/wp-content/themes/vip/cbs-local/images/cbs-local-logo.png?m=1391156180g"/>
+          </a>
+          <p>
+            <span>
+              ©2014 CBS Local Media,
+            </span>
+            <span>
+              a division of CBS Radio Inc.
+            </span>
+            <span>
+              All rights reserved.
+            </span>
+          </p>
+        </div>
+      </footer>
+      <div style="display:none;" id="cbs-site-ribbon">
+        <div class="wrap">
+          <a class="cbs-site-ribbon-logo" href="http://connecticut.cbslocal.com">
+            <img height="31" alt="CBS Conn." src="http://cbshartford.files.wordpress.com/2012/02/ribbon_connecticut.png"/>
+          </a>
+          <div class="menu">
+            <div class="menu-links">
+              <a class="ribbon-channel" href="http://hartford.cbslocal.com/yourhome">
+                Your Home
+              </a>
+              <a class="ribbon-channel" href="http://www.awin1.com/cread.php?awinmid=4292&amp;awinaffid=156274&amp;clickref=tophathar&amp;p=http%3A%2F%2Fwww.ticketsnow.com%2FEventCalendar%2FEventsCalendar.aspx%3FMAID%3D327">
+                Buy Tickets
+              </a>
+            </div>
+            <div class="ribbon-channel more-hover">
+              <span>
+                More
+              </span>
+              <div class="ribbon-more-box menu-more">
+                <div class="more-content">
+                  <div class="channels-list">
+                    <strong>
+                      Channels
+                    </strong>
+                    <a href="http://hartford.cbslocal.com/yourhome">
+                      Your Home
+                    </a>
+                    <a href="http://www.awin1.com/cread.php?awinmid=4292&amp;awinaffid=156274&amp;clickref=tophathar&amp;p=http%3A%2F%2Fwww.ticketsnow.com%2FEventCalendar%2FEventsCalendar.aspx%3FMAID%3D327">
+                      Buy Tickets
+                    </a>
+                  </div>
+                  <ul class="deals-list">
+                    <li class="deal">
+                      <strong>
+                        Daily Deals
+                      </strong>
+                      <div class="details">
+                        <a href="http://offers.cbslocal.com/deal/hartford/deal/hartford/52-percent-off-from-MG-Direct">
+                          52% off from MG Direct
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="clear-both">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cbs-ribbon-login-and-search">
+            <form class="search" action="http://connecticut.cbslocal.com/search/">
+              <fieldset>
+                <input type="submit" value="Search"/>
+                <input type="text" placeholder="Search" size="31" id="s" name="q"/>
+                <input type="reset" value="Reset"/>
+              </fieldset>
+            </form>
+            <div class="sso-ribbon-wrapper" id="sso-ribbon-wrapper">
+              <a class="login" href="http://my.cbslocal.com/accounts/login/hartford/">
+                Login
+              </a>
+              <a class="register" href="http://my.cbslocal.com/accounts/register/hartford/">
+                Register
+              </a>
+            </div>
+          </div>
+          <div class="follow-us">
+            <em>
+              Follow Us
+            </em>
+            <a target="_blank" class="facebook" href="http://www.facebook.com/wtic1080">
+              Facebook
+            </a>
+            <a target="_blank" class="twitter" href="http://twitter.com/wtic1080">
+              Twitter
+            </a>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+//<![CDATA[
+
+	if (typeof tb_pathToImage != 'string')
+		var tb_pathToImage = '/wp-includes/js/thickbox/loadingAnimation.gif';
+	else
+		tb_pathToImage = '/wp-includes/js/thickbox/loadingAnimation.gif';
+	if (typeof tb_closeImage != 'string')
+		var tb_closeImage = '/wp-includes/js/thickbox/tb-close.png';
+	else
+		tb_closeImage = '/wp-includes/js/thickbox/tb-close.png';
+
+//]]>
+      </script>
+      <!-- AddThis Button Begin -->      <script type="text/javascript">
+//<![CDATA[
+var addthis_product = 'wpp-261';
+var addthis_config = {"data_track_clickback":true};if (typeof(addthis_share) == "undefined"){ addthis_share = {"url_transforms":{"shorten":{"twitter":"bitly"}},"shorteners":{"bitly":{"login":"cbslocal","apiKey":"R_3d00671689db5c103d7f88a7f8e5a826"}}};}
+//]]>
+      </script>
+      <script src="//s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4ddd05dc24272928" type="text/javascript">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+	// &lt;![CDATA[
+		var disqus_shortname = 'cbsconnecticut';
+		var disqus_domain = 'disqus.com';
+		(function () {
+			var nodes = document.getElementsByTagName('span');
+			for (var i = 0, url; i &lt; nodes.length; i++) {
+				if (nodes[i].className.indexOf('dsq-postid') != -1) {
+					nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+					url = nodes[i].parentNode.href.split('#', 1);
+					if (url.length == 1) url = url[0];
+					else url = url[1]
+					nodes[i].parentNode.href = url + '#disqus_thread';
+				}
+			}
+			var s = document.createElement('script'); s.async = true;
+			s.type = 'text/javascript';
+			s.src = 'http://' + disqus_domain + '/forums/' + disqus_shortname + '/count.js';
+			(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		}());
+	//]]&gt;
+	
+//]]>
+      </script>
+      <script src="//0.gravatar.com/js/gprofiles.js?ver=201414x" type="text/javascript">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]&gt; */
+
+//]]>
+      </script>
+      <script src="http://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g" type="text/javascript">
+      </script>
+      <script>
+//<![CDATA[
+
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	
+//]]>
+      </script>
+      <div style="display:none">
+      </div>
+      <div id="listen-live-wrapper">
+        <div id="listen-live">
+          <div class="header">
+            <h3>
+              Select a Live Stream
+            </h3>
+            <div class="sponsor">
+              <div data-max-height="60" data-max-width="120" data-id="22" class="cbs-ad-unit ad_gpt listen-live-sponsor cbs-ad-auto-center" id="ad_listenlive">
+              </div>
+            </div>
+          </div>
+          <div class="talk">
+            <h4>
+              
+													News, Sports and Talk Radio											
+            </h4>
+            <div class="stations">
+              <ul>
+                <li class="station wtic-news-talk-1080">
+                  <a onclick="javascript:launchPlayerV2('80');return false;" rel="WTIC NewsTalk 1080" class="listen logo" href="#listen">
+                    <img alt="WTIC NewsTalk 1080" src="http://cbshartford.files.wordpress.com/2010/12/good-1080-lllogo.png?w=150"/>
+                  </a>
+                  <a onclick="javascript:launchPlayerV2('80');return false;" rel="WTIC NewsTalk 1080" class="listen name" href="#listen">
+                    Click to listen to WTIC NewsTalk 1080
+                  </a>
+                </li>
+                <li class="station cbs-sports-radio">
+                  <a target="_blank" rel="CBS Sports Radio" class="listen logo" href="http://betaplayer.radio.com/player/cbs-sports-radio">
+                    <img alt="CBS Sports Radio" src="http://cbshartford.files.wordpress.com/2013/01/cbssportsrad_150.png?w=150"/>
+                  </a>
+                  <a target="_blank" rel="CBS Sports Radio" class="listen name" href="http://betaplayer.radio.com/player/cbs-sports-radio">
+                    Click to listen to CBS Sports Radio
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="music">
+            <h4>
+              
+													Music Radio
+											
+            </h4>
+            <div class="stations">
+              <ul>
+                <li class="station wtic-fm">
+                  <a onclick="javascript:launchPlayerV2('103');return false;" rel="WTIC-FM" class="listen logo" href="#listen">
+                    <img alt="WTIC-FM" src="http://cbshartford.files.wordpress.com/2011/06/wtic.png?w=120"/>
+                  </a>
+                  <a onclick="javascript:launchPlayerV2('103');return false;" rel="WTIC-FM" class="listen name" href="#listen">
+                    Click to listen to WTIC-FM
+                  </a>
+                </li>
+                <li class="station wzmx-fm">
+                  <a onclick="javascript:launchPlayerV2('74');return false;" rel="WZMX-FM" class="listen logo" href="#listen">
+                    <img alt="WZMX-FM" src="http://cbshartford.files.wordpress.com/2011/06/wzmx.png?w=120"/>
+                  </a>
+                  <a onclick="javascript:launchPlayerV2('74');return false;" rel="WZMX-FM" class="listen name" href="#listen">
+                    Click to listen to WZMX-FM
+                  </a>
+                </li>
+                <li class="station wrch-fm">
+                  <a onclick="javascript:launchPlayerV2('159');return false;" rel="WRCH-FM" class="listen logo" href="#listen">
+                    <img alt="WRCH-FM" src="http://cbshartford.files.wordpress.com/2011/06/wrch.png?w=120"/>
+                  </a>
+                  <a onclick="javascript:launchPlayerV2('159');return false;" rel="WRCH-FM" class="listen name" href="#listen">
+                    Click to listen to WRCH-FM
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="stations">
+              <ul>
+                <li class="station lastfm">
+                  <a target="_blank" rel="Last.fm" class="listen logo" href="http://www.last.fm">
+                    <img alt="Last.fm" src="http://s1.wp.com/wp-content/themes/vip/cbs-local/plugins/listen-live/img/lastfm.png?m=1391156180g"/>
+                  </a>
+                  <a target="_blank" rel="Last.fm" class="listen name" href="http://www.last.fm">
+                    Click to listen to Last.fm
+                  </a>
+                </li>
+                <li class="station radiocom">
+                  <a target="_blank" rel="radio.com" class="listen logo" href="http://www.radio.com">
+                    <img alt="radio.com" src="http://s1.wp.com/wp-content/themes/vip/cbs-local/plugins/listen-live/img/radiocom.png?m=1391156180g"/>
+                  </a>
+                  <a target="_blank" rel="radio.com" class="listen name" href="http://www.radio.com">
+                    Click to listen to radio.com
+                  </a>
+                </li>
+                <li class="station mp3com">
+                  <a target="_blank" rel="MP3.com" class="listen logo" href="http://www.mp3.com">
+                    <img alt="MP3.com" src="http://s1.wp.com/wp-content/themes/vip/cbs-local/plugins/listen-live/img/mp3com.png?m=1391156180g"/>
+                  </a>
+                  <a target="_blank" rel="MP3.com" class="listen name" href="http://www.mp3.com">
+                    Click to listen to MP3.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a target="_blank" class="advertise-on-our-streams" href="https://www.audioadcenter.com/">
+            Advertise on our streams
+          </a>
+        </div>
+      </div>
+      <script src="//platform.twitter.com/widgets.js?ver=3.9-beta2-27714" type="text/javascript">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+var thickboxL10n = {"next":"Next &gt;","prev":"&lt; Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/cbshartford.wordpress.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+var thickboxL10n = {"next":"Next &gt;","prev":"&lt; Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/cbshartford.wordpress.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]&gt; */
+
+//]]>
+      </script>
+      <script src="http://s2.wp.com/_static/??/wp-includes/js/thickbox/thickbox.js,/wp-content/js/devicepx.js,/wp-content/themes/vip/cbs-local/js/local-dl.js?m=1395677922j" type="text/javascript">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+// &lt;![CDATA[
+(function() {
+try{
+  if ( window.external &amp;&amp;'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]&gt;
+
+//]]>
+      </script>
+      <script type="text/javascript" src="http://s.stats.wordpress.com/w.js?21">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+st_go({'blog':'15909867','v':'wpcom','tz':'-4','user_id':'0','subd':'cbshartford'});
+function st_vt() {var x=document.createElement("img");x.src="http://stats.wordpress.com/g.gif?blog=15909867&amp;v=wpcomvt&amp;tz=-4&amp;user_id=0&amp;subd=cbshartford&amp;rand="+Math.random();}
+ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtXRThKbHcwXTdETWI1alhvb1oseHImN101ZFpEakVpYjlQYVFLYzBaVHRtPz0wXS9bVVNJYSZLQzJJajZxZURndEJINFFnS2dyLWZZTkIrakN3bE9ZeU9DRVNVaUpCMFY3Zld6ZTlpTC9LQkw0SlBxeHdJWVFqay1GeitrVCxEXW5BJl9rY3RrOUp2dSYrZ1VYSGl3M1IwLE90V1BmVEhDX1prTz93VVc4bV9RekwuSi5BS3Z5YkRZc0lXd3E1a25mZTc/V05wS0Z6V0hwRVJESDdrfGQydnVyNmMvKw=='});
+addLoadEvent(function(){linktracker_init('15909867',0);});
+	
+//]]>
+      </script>
+      <noscript>
+        &lt;img src="http://stats.wordpress.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;
+      </noscript>
+      <script>
+//<![CDATA[
+
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&amp;x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&amp;x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&amp;x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//stats.wordpress.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&amp;baba=' + Math.random();
+	}
+	
+}
+
+//]]>
+      </script>
+      <!-- start Vibrant Media IntelliTXT script section -->      <script src="http://hartford.cbslocal.us.intellitxt.com/ast/js/CBSLocal/CBSLocal_Hartford_cs.js" type="text/javascript">
+      </script>
+      <!-- end Vibrant Media IntelliTXT script section -->      <div data-max-height="6" data-max-width="1" data-id="23" class="cbs-ad-unit ad_gpt" id="ad_23">
+      </div>
+      <!-- begin twig ad tag -->      <div data-max-height="7" data-max-width="1" data-id="24" class="cbs-ad-unit ad_gpt" id="ad_24">
+      </div>
+      <!-- end ad tag -->      <!-- Begin eXelate Tag -->      <script src="http://loadus.exelator.com/load/?j=d&amp;p=279&amp;g=009&amp;ctg1=home" type="text/javascript">
+      </script>
+      <!-- End eXelate Tag -->      <script type="text/javascript">
+//<![CDATA[
+
+//&lt;![CDATA[
+    var site_url = 'http://cbshartford.wordpress.com';
+//]]&gt;
+
+//]]>
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+	//&lt;![CDATA[
+		sso_url = 'http://my.cbslocal.com/';
+		sso_slug = 'hartford';
+
+		jQuery.receiveMessage(
+			function(e) {
+				closeOverlay();
+			},
+			'http://my.cbslocal.com'
+		);
+
+			//]]&gt;
+	
+//]]>
+      </script>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+
+		var cbs_market_name = "CBS Connecticut";
+		var cbs_market_root = "http://connecticut.cbslocal.com";
+		var cbs_template_root = "http://s1.wp.com/wp-content/themes/vip/cbs-local";
+
+		
+		jQuery(function($) {
+					});
+
+	
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+			var use_ga = true;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		
+//]]>
+    </script>
+    <script type="text/javascript" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+			try {
+				var is_logged_in = cbs_is_logged_in();
+
+				var rollupTracker = _gat._getTracker("UA-2438645-53"); rollupTracker._setCustomVar(1, "User Type", is_logged_in ? "User" : "Guest", 2); rollupTracker._trackPageview();
+				var pageTracker = _gat._getTracker("UA-20550966-3"); pageTracker._setCustomVar(1, "User Type", is_logged_in ? "User" : "Guest", 2);
+				pageTracker._trackPageview();
+			}
+			catch(err) {}
+		
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "3000023"
+							});
+			(function() {
+				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		
+//]]>
+    </script>
+    <noscript>
+      &lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=3000023&amp;cv=2.0&amp;cj=1" /&gt;
+    </noscript>
+    <script src="http://tags.crwdcntrl.net/c/644/cc_af.js">
+    </script>
+    <iframe width="0" height="0" frameborder="0" src="javascript:void(0)" name="__bkframe">
+    </iframe>
+    <script src="http://tags.bkrtx.com/js/bk-coretag.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+ bk_doJSTag(4111, 6); 
+//]]>
+    </script>
+    <div class="cbs-ad-unit ad_gpt cbs-ad-skin" id="ad_skin_1">
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+//&lt;![CDATA[
+	var ads_cluster = new Array();
+	cbs_ads_zone = "default";
+	cbs_ads_tags = [];
+	cbs_partner_inject();
+	googletag.cmd.push(function() {
+
+		googletag.pubads().enableAsyncRendering();
+		ads_cluster["ad_21"] = googletag.defineSlot("/4128/CBS.HARTFORD/" + cbs_ads_zone + "", [[120,60]], "ad_21").addService(googletag.pubads()).setTargeting("tag", cbs_ads_tags).setTargeting("loc", "top").setTargeting("pos", 21);
+		ads_cluster["ad_1"] = googletag.defineSlot("/4128/CBS.HARTFORD/" + cbs_ads_zone + "", [[970,66],[728,90]], "ad_1").addService(googletag.pubads()).setTargeting("tag", cbs_ads_tags).setTargeting("loc", "top").setTargeting("pos", 1);
+		var ad_skin_1 = googletag.defineOutOfPageSlot("/4128/CBS.HARTFORD/" + cbs_ads_zone + "", "ad_skin_1").addService(googletag.pubads()).setTargeting("tag", cbs_ads_tags)
+		ads_cluster["ad_2"] = googletag.defineSlot("/4128/CBS.HARTFORD/" + cbs_ads_zone + "", [[300,250]], "ad_2").addService(googletag.pubads()).setTargeting("tag", cbs_ads_tags).setTargeting("loc", "top").setTargeting("pos", 2);
+		ads_cluster["ad_4"] = googletag.defineSlot("/4128/CBS.HARTFORD/" + cbs_ads_zone + "", [[728,90]], "ad_4").addService(googletag.pubads()).setTargeting("tag", cbs_ads_tags).setTargeting("loc", "bottom").setTargeting("pos", 4);
+		ads_cluster["ad_23"] = googletag.defineSlot("/4128/CBS.HARTFORD/" + cbs_ads_zone + "", [[1,6]], "ad_23").addService(googletag.pubads()).setTargeting("tag", cbs_ads_tags).setTargeting("pos", 23);
+		ads_cluster["ad_24"] = googletag.defineSlot("/4128/CBS.HARTFORD/" + cbs_ads_zone + "", [[1,7]], "ad_24").addService(googletag.pubads()).setTargeting("tag", cbs_ads_tags).setTargeting("pos", 24);
+		googletag.enableServices();
+
+		googletag.display("ad_21");
+		googletag.display("ad_1");
+		googletag.display("ad_skin_1");
+		googletag.display("ad_2");
+		googletag.display("ad_4");
+		googletag.display("ad_23");
+		googletag.display("ad_24");
+	});
+
+
+	function cbs_run_ad_listenlive() { 
+		var is_refresh = false;
+		if (ads_cluster["ad_listenlive"]) {
+			googletag.cmd.push(function() { (ads_cluster["ad_listenlive"]).clearTargeting(); });
+			is_refresh = true;
+		} else {
+			googletag.cmd.push(function() { ads_cluster["ad_listenlive"] = googletag.defineSlot("/4128/CBS.HARTFORD/listenlive", [[88,31],[120,60]], "ad_listenlive").addService(googletag.pubads())});
+		}
+		googletag.cmd.push(function() { (ads_cluster["ad_listenlive"]).setTargeting("tag", cbs_ads_tags.concat(["listenlive"])).setTargeting("loc", "listenlive").setTargeting("pos", 22); });
+		if (is_refresh) googletag.cmd.push(function() { googletag.pubads().refresh([ads_cluster["ad_listenlive"]]); });
+		else googletag.cmd.push(function() { googletag.display("ad_listenlive"); });
+	}
+//]]&gt;
+//]]>
+    </script>
+    <div id="fancybox-tmp">
+    </div>
+    <div id="fancybox-loading">
+      <div>
+      </div>
+    </div>
+    <div id="fancybox-overlay">
+    </div>
+    <div id="fancybox-wrap">
+      <div id="fancybox-outer">
+        <div id="fancybox-bg-n" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-ne" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-e" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-se" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-s" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-sw" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-w" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-nw" class="fancybox-bg">
+        </div>
+        <div id="fancybox-content">
+        </div>
+        <a id="fancybox-close">
+        </a>
+        <div id="fancybox-title">
+        </div>
+        <a id="fancybox-left" href="javascript:;">
+          <span id="fancybox-left-ico" class="fancy-ico">
+          </span>
+        </a>
+        <a id="fancybox-right" href="javascript:;">
+          <span id="fancybox-right-ico" class="fancy-ico">
+          </span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

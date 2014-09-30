@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" id="facebook" class="">
+  <head>
+    <meta charset="utf-8"/>
+    <script>
+//<![CDATA[
+window._cstart=+new Date();
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requireLazy(['Env'],b);}else{Env=window.Env||{};b(Env);}}envFlush({"svn_rev":1081653,"tier":"v2","push_phase":"V2","pkg_cohort":"EXP1:DEFAULT","vip":"31.13.73.113","www_base":"http:\/\/www.facebook.com\/","lsd":"AVq80epi","ajaxpipe_token":"AXi_tpRggAHN0Ek7","lhsh":"OAQE9GC2A","tracking_domain":"http:\/\/pixel.facebook.com","retry_ajax_on_network_error":"1","fbid_emoticons":"1"});
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+CavalryLogger=false;
+//]]>
+    </script>
+    <title id="pageTitle">
+      ibm Profiles | Facebook
+    </title>
+    <script src="http://static.ak.fbcdn.net/rsrc.php/v2/y6/r/b54VsfLAPrd.js">
+    </script>
+    <script src="http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/jl8Zp4AQrda.js">
+    </script>
+    <script src="http://static.ak.fbcdn.net/rsrc.php/v2/yu/r/fERFV4JTaqu.js">
+    </script>
+    <script src="http://static.ak.fbcdn.net/rsrc.php/v2/yM/r/appcfKJyxjz.js">
+    </script>
+    <script src="http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/EsTL0DaMXdL.js">
+    </script>
+    <script src="http://static.ak.fbcdn.net/rsrc.php/v2/yS/r/-k9bkwUX5WY.js">
+    </script>
+    <script src="http://static.ak.fbcdn.net/rsrc.php/v2/y4/r/4ODPIYU1OOR.js">
+    </script>
+    <script src="http://static.ak.fbcdn.net/rsrc.php/v2/yj/r/d9qpAKKd0lT.js">
+    </script>
+  </head>
+  <body class="UIPage_LoggedOut gecko win Locale_en_US">
+    <noscript>
+      &lt;meta http-equiv="refresh" content="0; URL=/search.php?q=ibm&amp;amp;_fb_noscript=1" /&gt;
+    </noscript>
+    <meta name="robots" content="noodp, noydir"/>
+    <meta name="referrer" content="default" id="meta_referrer"/>
+    <link rel="alternate" media="handheld" href="http://www.facebook.com/search.php?q=ibm"/>
+    <noscript>
+      &lt;meta http-equiv="X-Frame-Options" content="DENY" /&gt;
+    </noscript>
+    <link type="text/css" rel="stylesheet" href="http://static.ak.fbcdn.net/rsrc.php/v2/yf/r/ts5XVDfKCb_.css"/>
+    <link type="text/css" rel="stylesheet" href="http://static.ak.fbcdn.net/rsrc.php/v2/y-/r/G0ORAYPl6FV.css"/>
+    <link type="text/css" rel="stylesheet" href="http://static.ak.fbcdn.net/rsrc.php/v2/yX/r/1wEG1TgeajG.css"/>
+    <link type="text/css" rel="stylesheet" href="http://static.ak.fbcdn.net/rsrc.php/v2/yU/r/Xab-P65mOOc.css"/>
+    <link type="text/css" rel="stylesheet" href="http://static.ak.fbcdn.net/rsrc.php/v2/yk/r/lNk9smo6_9s.css"/>
+    <link type="text/css" rel="stylesheet" href="http://static.ak.fbcdn.net/rsrc.php/v2/yM/r/SG9xm7ZJ7D7.css"/>
+    <script src="http://static.ak.fbcdn.net/rsrc.php/v2/yA/r/8FHqWtHf4X_.js" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+window.Bootloader && Bootloader.done(["AAGvX"]);
+//]]>
+    </script>
+    <link rel="shortcut icon" href="http://static.ak.fbcdn.net/rsrc.php/yl/r/H3nktOa7ZMg.ico"/>
+    <script>
+//<![CDATA[
+new (require("ServerJS"))().handle({"define":[["BanzaiConfig",[],{"EXPIRY":86400000,"MAX_SIZE":10000,"MAX_WAIT":150000,"RESTORE_WAIT":150000,"blacklist":["time_spent"],"gks":{"adapterhooks":true,"boosted_pagelikes":true,"boosted_posts":true,"jslogger":true,"miny_compression":true,"time_spent_bit_array":true,"time_spent_debug":true,"useraction":true,"videos":true,"vitals":true}},7],["CurrentUserInitialData",[],{"id":"0"},270],["DTSGInitialData",[],{},258],["URLFragmentPreludeConfig",[],{"incorporateQuicklingFragment":true,"hashtagRedirect":true},137]],"require":[["removeArrayReduce"],["markJSEnabled"],["lowerDomain"],["URLFragmentPrelude"],["Primer"]]})
+//]]>
+    </script>
+    <div class="_li">
+      <div id="pagelet_bluebar" data-referrer="pagelet_bluebar">
+        <div id="blueBarHolder">
+          <div id="blueBar">
+            <div>
+              <div class="loggedout_menubar_container">
+                <div class="clearfix loggedout_menubar">
+                  <a class="lfloat" href="/" title="Go to Facebook Home">
+                    <i class="fb_logo img sp_ezjerk sx_440431">
+                      <u>
+                        Facebook logo
+                      </u>
+                    </i>
+                  </a>
+                  <div class="menu_login_container rfloat">
+                    <form id="login_form" action="https://www.facebook.com/login.php?login_attempt=1" method="post" onsubmit="return window.Event &amp;&amp; Event.__inlineSubmit &amp;&amp; Event.__inlineSubmit(this,event)">
+                      <input type="hidden" name="lsd" value="AVq80epi" autocomplete="off"/>
+                      <table cellspacing="0">
+                        <tbody align="left">
+                          <tr>
+                            <td class="html7magic">
+                              <label for="email">
+                                Email or Phone
+                              </label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <input type="text" class="inputtext" name="email" id="email" value="" tabindex="1"/>
+                            </td>
+                            <td>
+                              <label class="uiButton uiButtonConfirm" id="loginbutton" for="u_0_m">
+                                <input value="Log In" tabindex="4" type="submit" id="u_0_m"/>
+                              </label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="login_form_label_field">
+                              <div>
+                                <div class="uiInputLabel clearfix uiInputLabelLegacy">
+                                  <input id="persist_box" type="checkbox" name="persistent" value="1" tabindex="3" class="uiInputLabelInput uiInputLabelCheckbox"/>
+                                  <label for="persist_box" class="uiInputLabelLabel">
+                                    Keep me logged in
+                                  </label>
+                                </div>
+                                <input type="hidden" name="default_persistent" value="0"/>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <input type="hidden" autocomplete="off" name="timezone" value="" id="u_0_l"/>
+                      <input type="hidden" name="lgnrnd" value="005630_FgHA"/>
+                      <input type="hidden" id="lgnjs" name="lgnjs" value="1389776189"/>
+                      <input type="hidden" autocomplete="off" id="locale" name="locale" value="en_US"/>
+                      <input type="hidden" autocomplete="off" name="next" value="http://www.facebook.com/search.php?q=ibm"/>
+                      <input type="hidden" autocomplete="off" id="nopw" name="nopw" value="1"/>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="signupBanner">
+                <div class="signup_bar_container">
+                  <div class="signup_box clearfix">
+                    <span class="signup_box_content">
+                      <a class="_42ft _42fu signup_btn selected _42gz _42gy" role="button" href="/r.php?locale=en_US">
+                        Sign Up
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="globalContainer" class="uiContextualLayerParent">
+        <div id="content" class="fb_content clearfix">
+          <div class="uiWashLayout">
+            <div class="uiWashLayoutGrayWash uiWashLayoutEmptyWash uiWashLayoutOffsetWash">
+            </div>
+            <div class="uiWashLayoutContent PublicSearch_Container uiWashLayoutOffsetContent">
+              <form class="mbm" action="/search.php" method="get" onsubmit="return window.Event &amp;&amp; Event.__inlineSubmit &amp;&amp; Event.__inlineSubmit(this,event)" id="u_0_k">
+                <div class="uiHeader uiHeaderWithImage uiHeaderBottomBorder uiHeaderPage">
+                  <div class="clearfix uiHeaderTop">
+                    <div class="rfloat">
+                      <h2 class="accessible_elem">
+                        Search Results for ibm
+                      </h2>
+                      <span class="uiSearchInput uiHeaderActions">
+                        <span>
+                          <input type="text" class="inputtext" maxlength="100" aria-label="Search" value="ibm" autocomplete="off" name="q" placeholder="Search"/>
+                          <button type="submit" title="Search">
+                            <span class="accessible_elem">
+                              Search
+                            </span>
+                          </button>
+                        </span>
+                      </span>
+                    </div>
+                    <div>
+                      <h2 class="uiHeaderTitle" aria-hidden="true">
+                        <i class="uiHeaderImage img sp_dz4zcz sx_3a9b7b"/>
+                        Search Results for ibm
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <div id="pagelet_search_results_0" data-referrer="pagelet_search_results_0">
+                <div id="pagelet_search_results" data-referrer="pagelet_search_results">
+                  <div id="screenslicer">
+                    <div class="mbm detailedsearch_result">
+                      <div class="clearfix">
+                        <a class="_8o _8r lfloat" href="http://www.facebook.com/IBMRecruitment.India" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMRecruitment.India&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:177635348921287,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:0,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMRecruitment.India&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMRecruitment.India&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:177635348921287,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:0,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMRecruitment.India&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" tabindex="-1" aria-hidden="true">
+                          <img class="img" src="http://profile.ak.fbcdn.net/hprofile-ak-prn2/188191_177635348921287_984063456_q.jpg" width="50" height="50" alt=""/>
+                        </a>
+                        <div class="_8u _42ef">
+                          <div class="pls">
+                            <div class="instant_search_title fsl fwb fcb">
+                              <a href="http://www.facebook.com/IBMRecruitment.India" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMRecruitment.India&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:177635348921287,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:0,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMRecruitment.India&quot;,&quot;t&quot;:&quot;c:name&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMRecruitment.India&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:177635348921287,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:0,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMRecruitment.India&quot;,&quot;t&quot;:&quot;c:name&quot;});  }">
+                                IBM India Recruitment
+                              </a>
+                            </div>
+                            <div class="fsm fwn fcg">
+                              <div class="fsm fwn fcg">
+                                Bangalore, India · Computers/Technology · 49,322 likes
+                              </div>
+                            </div>
+                            <div>
+                              <div class="mts detailedsearch_actions">
+                                <div onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMRecruitment.India&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:177635348921287,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:0,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMRecruitment.India&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMRecruitment.India&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:177635348921287,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:0,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMRecruitment.India&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }">
+                                  <span class="hidden_elem" id="u_0_0">
+                                    You like this.
+                                  </span>
+                                  <span id="u_0_1">
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mbm detailedsearch_result">
+                      <div class="clearfix">
+                        <a class="_8o _8r lfloat" href="http://www.facebook.com/IBM" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBM&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:168597536563870,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:1,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBM&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBM&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:168597536563870,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:1,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBM&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" tabindex="-1" aria-hidden="true">
+                          <img class="img" src="http://profile.ak.fbcdn.net/hprofile-ak-ash1/t5/373495_168597536563870_615230986_q.jpg" width="50" height="50" alt=""/>
+                        </a>
+                        <div class="_8u _42ef">
+                          <div class="pls">
+                            <div class="instant_search_title fsl fwb fcb">
+                              <a href="http://www.facebook.com/IBM" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBM&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:168597536563870,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:1,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBM&quot;,&quot;t&quot;:&quot;c:name&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBM&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:168597536563870,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:1,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBM&quot;,&quot;t&quot;:&quot;c:name&quot;});  }">
+                                IBM
+                              </a>
+                            </div>
+                            <div class="fsm fwn fcg">
+                              <div class="fsm fwn fcg">
+                                Armonk, New York · Company · 286,989 likes
+                              </div>
+                            </div>
+                            <div>
+                              <div class="mts detailedsearch_actions">
+                                <div onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBM&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:168597536563870,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:1,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBM&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBM&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:168597536563870,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:1,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBM&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }">
+                                  <span class="hidden_elem" id="u_0_c">
+                                    You like this.
+                                  </span>
+                                  <span id="u_0_d">
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mbm detailedsearch_result">
+                      <div class="clearfix">
+                        <a class="_8o _8r lfloat" href="http://www.facebook.com/pages/IBM-Global-Services/103165046389748" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-Global-Services\/103165046389748&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:103165046389748,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:2,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-Global-Services\/103165046389748&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-Global-Services\/103165046389748&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:103165046389748,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:2,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-Global-Services\/103165046389748&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" tabindex="-1" aria-hidden="true">
+                          <img class="img" src="http://external.ak.fbcdn.net/safe_image.php?d=AQBSvu84Ns3yBEZE&amp;w=50&amp;h=50&amp;url=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F51%2FIBM_logo.svg%2F720px-IBM_logo.svg.png&amp;crop&amp;fallback=hub_likes&amp;prefix=q" width="50" height="50" alt=""/>
+                        </a>
+                        <div class="_8u _42ef">
+                          <div class="pls">
+                            <div class="instant_search_title fsl fwb fcb">
+                              <a href="http://www.facebook.com/pages/IBM-Global-Services/103165046389748" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-Global-Services\/103165046389748&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:103165046389748,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:2,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-Global-Services\/103165046389748&quot;,&quot;t&quot;:&quot;c:name&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-Global-Services\/103165046389748&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:103165046389748,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:2,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-Global-Services\/103165046389748&quot;,&quot;t&quot;:&quot;c:name&quot;});  }">
+                                IBM Global Services
+                              </a>
+                            </div>
+                            <div class="fsm fwn fcg">
+                              <div class="fsm fwn fcg">
+                                Organization · Community Page · 15,773 likes
+                              </div>
+                            </div>
+                            <div>
+                              <div class="mts detailedsearch_actions">
+                                <div onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-Global-Services\/103165046389748&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:103165046389748,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:2,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-Global-Services\/103165046389748&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-Global-Services\/103165046389748&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:103165046389748,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:2,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-Global-Services\/103165046389748&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }">
+                                  <span class="hidden_elem" id="u_0_i">
+                                    You like this.
+                                  </span>
+                                  <span id="u_0_j">
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mbm detailedsearch_result">
+                      <div class="clearfix">
+                        <a class="_8o _8r lfloat" href="http://www.facebook.com/IBMThailand" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMThailand&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:192454361986,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:3,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMThailand&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMThailand&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:192454361986,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:3,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMThailand&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" tabindex="-1" aria-hidden="true">
+                          <img class="img" src="http://profile.ak.fbcdn.net/hprofile-ak-ash1/373050_192454361986_977735912_q.jpg" width="50" height="50" alt=""/>
+                        </a>
+                        <div class="_8u _42ef">
+                          <div class="pls">
+                            <div class="instant_search_title fsl fwb fcb">
+                              <a href="http://www.facebook.com/IBMThailand" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMThailand&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:192454361986,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:3,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMThailand&quot;,&quot;t&quot;:&quot;c:name&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMThailand&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:192454361986,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:3,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMThailand&quot;,&quot;t&quot;:&quot;c:name&quot;});  }">
+                                IBM Thailand
+                              </a>
+                            </div>
+                            <div class="fsm fwn fcg">
+                              <div class="fsm fwn fcg">
+                                Product/Service · 5,811 likes
+                              </div>
+                            </div>
+                            <div>
+                              <div class="mts detailedsearch_actions">
+                                <div onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMThailand&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:192454361986,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:3,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMThailand&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMThailand&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:192454361986,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:3,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMThailand&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }">
+                                  <span class="hidden_elem" id="u_0_2">
+                                    You like this.
+                                  </span>
+                                  <span id="u_0_3">
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mbm detailedsearch_result">
+                      <div class="clearfix">
+                        <a class="_8o _8r lfloat" href="http://www.facebook.com/ibmwatson" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/ibmwatson&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:187446750783,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:4,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/ibmwatson&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/ibmwatson&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:187446750783,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:4,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/ibmwatson&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" tabindex="-1" aria-hidden="true">
+                          <img class="img" src="http://profile.ak.fbcdn.net/hprofile-ak-prn2/t5/188165_187446750783_1843687289_q.jpg" width="50" height="50" alt=""/>
+                        </a>
+                        <div class="_8u _42ef">
+                          <div class="pls">
+                            <div class="instant_search_title fsl fwb fcb">
+                              <a href="http://www.facebook.com/ibmwatson" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/ibmwatson&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:187446750783,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:4,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/ibmwatson&quot;,&quot;t&quot;:&quot;c:name&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/ibmwatson&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:187446750783,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:4,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/ibmwatson&quot;,&quot;t&quot;:&quot;c:name&quot;});  }">
+                                IBM Watson
+                              </a>
+                            </div>
+                            <div class="fsm fwn fcg">
+                              <div class="fsm fwn fcg">
+                                Computers · 43,017 likes
+                              </div>
+                            </div>
+                            <div>
+                              <div class="mts detailedsearch_actions">
+                                <div onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/ibmwatson&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:187446750783,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:4,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/ibmwatson&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/ibmwatson&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:187446750783,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:4,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/ibmwatson&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }">
+                                  <span class="hidden_elem" id="u_0_4">
+                                    You like this.
+                                  </span>
+                                  <span id="u_0_5">
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mbm detailedsearch_result">
+                      <div class="clearfix">
+                        <a class="_8o _8r lfloat" href="http://www.facebook.com/pages/IBM-WebSphere/108035689217374" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-WebSphere\/108035689217374&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:108035689217374,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:5,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-WebSphere\/108035689217374&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-WebSphere\/108035689217374&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:108035689217374,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:5,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-WebSphere\/108035689217374&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" tabindex="-1" aria-hidden="true">
+                          <img class="img" src="http://external.ak.fbcdn.net/safe_image.php?d=AQDbXKcvHCRX-ftx&amp;w=50&amp;h=50&amp;url=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fc%2Fc1%2FWebsphere_logo.png&amp;crop&amp;fallback=hub_likes&amp;prefix=q" width="50" height="50" alt=""/>
+                        </a>
+                        <div class="_8u _42ef">
+                          <div class="pls">
+                            <div class="instant_search_title fsl fwb fcb">
+                              <a href="http://www.facebook.com/pages/IBM-WebSphere/108035689217374" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-WebSphere\/108035689217374&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:108035689217374,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:5,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-WebSphere\/108035689217374&quot;,&quot;t&quot;:&quot;c:name&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-WebSphere\/108035689217374&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:108035689217374,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:5,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-WebSphere\/108035689217374&quot;,&quot;t&quot;:&quot;c:name&quot;});  }">
+                                IBM WebSphere
+                              </a>
+                            </div>
+                            <div class="fsm fwn fcg">
+                              <div class="fsm fwn fcg">
+                                Software · Community Page · 2,981 likes
+                              </div>
+                            </div>
+                            <div>
+                              <div class="mts detailedsearch_actions">
+                                <div onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-WebSphere\/108035689217374&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:108035689217374,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:5,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-WebSphere\/108035689217374&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-WebSphere\/108035689217374&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:108035689217374,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:5,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-WebSphere\/108035689217374&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }">
+                                  <span class="hidden_elem" id="u_0_g">
+                                    You like this.
+                                  </span>
+                                  <span id="u_0_h">
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mbm detailedsearch_result">
+                      <div class="clearfix">
+                        <a class="_8o _8r lfloat" href="http://www.facebook.com/pages/IBM-DB2/109497145736189" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-DB2\/109497145736189&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:109497145736189,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:6,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-DB2\/109497145736189&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-DB2\/109497145736189&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:109497145736189,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:6,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-DB2\/109497145736189&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" tabindex="-1" aria-hidden="true">
+                          <img class="img" src="http://external.ak.fbcdn.net/safe_image.php?d=AQBSvu84Ns3yBEZE&amp;w=50&amp;h=50&amp;url=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F51%2FIBM_logo.svg%2F720px-IBM_logo.svg.png&amp;crop&amp;fallback=hub_likes&amp;prefix=q" width="50" height="50" alt=""/>
+                        </a>
+                        <div class="_8u _42ef">
+                          <div class="pls">
+                            <div class="instant_search_title fsl fwb fcb">
+                              <a href="http://www.facebook.com/pages/IBM-DB2/109497145736189" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-DB2\/109497145736189&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:109497145736189,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:6,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-DB2\/109497145736189&quot;,&quot;t&quot;:&quot;c:name&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-DB2\/109497145736189&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:109497145736189,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:6,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-DB2\/109497145736189&quot;,&quot;t&quot;:&quot;c:name&quot;});  }">
+                                IBM DB2
+                              </a>
+                            </div>
+                            <div class="fsm fwn fcg">
+                              <div class="fsm fwn fcg">
+                                Interest · Community Page · 1,878 likes
+                              </div>
+                            </div>
+                            <div>
+                              <div class="mts detailedsearch_actions">
+                                <div onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-DB2\/109497145736189&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:109497145736189,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:6,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-DB2\/109497145736189&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-DB2\/109497145736189&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:109497145736189,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:6,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/pages\/IBM-DB2\/109497145736189&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }">
+                                  <span class="hidden_elem" id="u_0_e">
+                                    You like this.
+                                  </span>
+                                  <span id="u_0_f">
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mbm detailedsearch_result">
+                      <div class="clearfix">
+                        <a class="_8o _8r lfloat" href="http://www.facebook.com/IBMResearch" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMResearch&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:106878175272,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:7,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMResearch&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMResearch&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:106878175272,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:7,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMResearch&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" tabindex="-1" aria-hidden="true">
+                          <img class="img" src="http://profile.ak.fbcdn.net/hprofile-ak-ash1/372867_106878175272_320817828_q.jpg" width="50" height="50" alt=""/>
+                        </a>
+                        <div class="_8u _42ef">
+                          <div class="pls">
+                            <div class="instant_search_title fsl fwb fcb">
+                              <a href="http://www.facebook.com/IBMResearch" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMResearch&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:106878175272,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:7,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMResearch&quot;,&quot;t&quot;:&quot;c:name&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMResearch&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:106878175272,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:7,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMResearch&quot;,&quot;t&quot;:&quot;c:name&quot;});  }">
+                                IBM Research
+                              </a>
+                            </div>
+                            <div class="fsm fwn fcg">
+                              <div class="fsm fwn fcg">
+                                Product/Service · 45,589 likes
+                              </div>
+                            </div>
+                            <div>
+                              <div class="mts detailedsearch_actions">
+                                <div onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMResearch&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:106878175272,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:7,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMResearch&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMResearch&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:106878175272,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:7,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMResearch&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }">
+                                  <span class="hidden_elem" id="u_0_6">
+                                    You like this.
+                                  </span>
+                                  <span id="u_0_7">
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mbm detailedsearch_result">
+                      <div class="clearfix">
+                        <a class="_8o _8r lfloat" href="http://www.facebook.com/IBMBrasil" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMBrasil&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:151683671537173,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:8,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMBrasil&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMBrasil&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:151683671537173,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:8,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMBrasil&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" tabindex="-1" aria-hidden="true">
+                          <img class="img" src="http://scontent-a.xx.fbcdn.net/hprofile-frc3/373308_151683671537173_8941062_q.jpg" width="50" height="50" alt=""/>
+                        </a>
+                        <div class="_8u _42ef">
+                          <div class="pls">
+                            <div class="instant_search_title fsl fwb fcb">
+                              <a href="http://www.facebook.com/IBMBrasil" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMBrasil&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:151683671537173,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:8,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMBrasil&quot;,&quot;t&quot;:&quot;c:name&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMBrasil&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:151683671537173,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:8,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMBrasil&quot;,&quot;t&quot;:&quot;c:name&quot;});  }">
+                                IBM Brasil
+                              </a>
+                            </div>
+                            <div class="fsm fwn fcg">
+                              <div class="fsm fwn fcg">
+                                Company · 28,932 likes
+                              </div>
+                            </div>
+                            <div>
+                              <div class="mts detailedsearch_actions">
+                                <div onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMBrasil&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:151683671537173,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:8,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMBrasil&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/IBMBrasil&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:151683671537173,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:8,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/IBMBrasil&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }">
+                                  <span class="hidden_elem" id="u_0_a">
+                                    You like this.
+                                  </span>
+                                  <span id="u_0_b">
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mbm detailedsearch_result detailedsearch_last_result">
+                      <div class="clearfix">
+                        <a class="_8o _8r lfloat" href="http://www.facebook.com/developerworks" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/developerworks&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:295984527332,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:9,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/developerworks&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/developerworks&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:295984527332,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:9,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/developerworks&quot;,&quot;t&quot;:&quot;c:image&quot;});  }" tabindex="-1" aria-hidden="true">
+                          <img class="img" src="http://profile.ak.fbcdn.net/hprofile-ak-ash1/373019_295984527332_363146831_q.jpg" width="50" height="50" alt=""/>
+                        </a>
+                        <div class="_8u _42ef">
+                          <div class="pls">
+                            <div class="instant_search_title fsl fwb fcb">
+                              <a href="http://www.facebook.com/developerworks" onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/developerworks&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:295984527332,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:9,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/developerworks&quot;,&quot;t&quot;:&quot;c:name&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/developerworks&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:295984527332,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:9,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/developerworks&quot;,&quot;t&quot;:&quot;c:name&quot;});  }">
+                                IBM developerWorks
+                              </a>
+                            </div>
+                            <div class="fsm fwn fcg">
+                              <div class="fsm fwn fcg">
+                                Computers/Internet Website · 5,418 likes
+                              </div>
+                            </div>
+                            <div>
+                              <div class="mts detailedsearch_actions">
+                                <div onclick="if (event.button == 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/developerworks&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:295984527332,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:9,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/developerworks&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }" onmouseup="if (event.button != 0) { search_logged_ajax({&quot;ab&quot;:&quot;T_TA_DISABLE_VISIBILITY_PRUNING&quot;,&quot;cururl&quot;:&quot;http:\/\/www.facebook.com\/developerworks&quot;,&quot;fc&quot;:0,&quot;gc&quot;:0,&quot;id&quot;:295984527332,&quot;init&quot;:&quot;s:unknown&quot;,&quot;is_friend&quot;:false,&quot;is_new_user&quot;:0,&quot;locale&quot;:&quot;en_US&quot;,&quot;o_type&quot;:102,&quot;original_q&quot;:&quot;ibm&quot;,&quot;q&quot;:&quot;ibm&quot;,&quot;rank&quot;:9,&quot;rc&quot;:0,&quot;sid&quot;:&quot;0.3700374909..1&quot;,&quot;start&quot;:0,&quot;typeahead_sid&quot;:null,&quot;u&quot;:&quot;http:\/\/www.facebook.com\/developerworks&quot;,&quot;t&quot;:&quot;c:fans&quot;});  }">
+                                  <span class="hidden_elem" id="u_0_8">
+                                    You like this.
+                                  </span>
+                                  <span id="u_0_9">
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mvs pam clearfix uiBoxGray">
+                    <a class="mrm signup_btn lfloat uiButton uiButtonSpecial" href="/r.php?r=101" role="button">
+                      <span class="uiButtonText">
+                        Sign Up
+                      </span>
+                    </a>
+                    <div class="pts lfloat">
+                      You must 
+                      <a href="/r.php?r=101">
+                        <strong>
+                          sign up for Facebook
+                        </strong>
+                      </a>
+                       to see the full results. Already a member? 
+                      <a href="/login.php">
+                        <strong>
+                          Log In
+                        </strong>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="pageFooter" data-referrer="page_footer">
+          <div id="contentCurve">
+          </div>
+          <div role="contentinfo" aria-label="Facebook site links">
+            <table class="uiGrid _51mz navigationGrid" cellspacing="0" cellpadding="0">
+              <tbody align="left">
+                <tr class="_51mx">
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/mobile/?ref=pf" title="Check out Facebook Mobile.">
+                      Mobile
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/find-friends?ref=pf" title="Find anyone on the web.">
+                      Find Friends
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/badges/?ref=pf" title="Embed a Facebook badge on your website.">
+                      Badges
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/directory/people/" title="Browse our people directory.">
+                      People
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/directory/pages/" title="Browse our pages directory.">
+                      Pages
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/directory/places/" title="Browse our places directory.">
+                      Places
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/appcenter/?ref=pf" title="Check out Facebook App Center.">
+                      Apps
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/appcenter/category/games/?ref=pf" title="Check out Facebook games.">
+                      Games
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm _51mw">
+                    <a href="http://www.facebook.com/appcenter/category/music/?ref=pf" title="Check out Facebook music apps.">
+                      Music
+                    </a>
+                  </td>
+                </tr>
+                <tr class="_51mx">
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/facebook" accesskey="8" title="Read our blog, discover the resource center, and find job opportunities.">
+                      About
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;extra_1=auto" title="Advertise on Facebook.">
+                      Create Ad
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/pages/create/?ref_type=sitefooter" title="Create a Page">
+                      Create Page
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://developers.facebook.com/?ref=pf" title="Develop on our platform.">
+                      Developers
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/careers/?ref=pf" title="Make your next career move to our awesome company.">
+                      Careers
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/privacy/explanation" title="Learn about your privacy and Facebook.">
+                      Privacy
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/help/cookies/?ref=sitefooter" title="Learn about cookies and Facebook.">
+                      Cookies
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm">
+                    <a href="http://www.facebook.com/policies/?ref=pf" accesskey="9" title="Review our terms and policies.">
+                      Terms
+                    </a>
+                  </td>
+                  <td class="_51m- hLeft plm _51mw">
+                    <a href="http://www.facebook.com/help/?ref=pf" accesskey="0" title="Visit our Help Center.">
+                      Help
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="mvl copyright">
+            <div class="fsm fwn fcg">
+              <span>
+                 Facebook © 2014
+              </span>
+               · 
+              <a rel="dialog" ajaxify="/settings/language/language/?uri=http%3A%2F%2Fwww.facebook.com%2Fsearch.php%3Fq%3Dibm&amp;source=TOP_LOCALES_DIALOG" title="Use Facebook in another language." href="#" role="button">
+                English (US)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" data-signature="1">
+//<![CDATA[
+/*<![CDATA[*/function si_cj(m){setTimeout(function(){new Image().src="http:\/\/error.facebook.com\/common\/scribe_endpoint.php?c=si_clickjacking&t=3249"+"&m="+m;},5000);}if(top!=self && !false){try{if(parent!=top){throw 1;}var si_cj_d=["apps.facebook.com","\/pages\/","apps.beta.facebook.com"];var href=top.location.href.toLowerCase();for(var i=0;i<si_cj_d.length;i++){if (href.indexOf(si_cj_d[i])>=0){throw 1;}}si_cj("3 http:\/\/www.facebook.com\/srch.php");}catch(e){si_cj("1 \thttp:\/\/www.facebook.com\/srch.php");window.document.write("\u003Cstyle>body * {display:none !important;}\u003C\/style>\u003Ca href=\"#\" onclick=\"top.location.href=window.location.href\" style=\"display:block !important;padding:10px\">\u003Ci class=\"img sp_5adgbx sx_81f541\" style=\"display:block !important\">\u003C\/i>Go to Facebook.com\u003C\/a>");/*U09mcJjz*/}}/*]]>*/
+//]]>
+    </script>
+    <script>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+Bootloader.setResourceMap({"KqC8F":{"type":"css","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yf\/r\/ts5XVDfKCb_.css"},"waMsN":{"type":"css","permanent":1,"crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/y-\/r\/G0ORAYPl6FV.css"},"hEENh":{"type":"css","permanent":1,"crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yX\/r\/1wEG1TgeajG.css"},"HPOkK":{"type":"css","permanent":1,"crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yU\/r\/Xab-P65mOOc.css"},"GGax\/":{"type":"css","permanent":1,"crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yk\/r\/lNk9smo6_9s.css"},"imdtS":{"type":"css","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yM\/r\/SG9xm7ZJ7D7.css"},"VDymv":{"type":"css","permanent":1,"crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yt\/r\/3rv00Nx8Wsw.css"},"qJ7bF":{"type":"css","permanent":1,"crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yy\/r\/boBFjntxlEj.css"}});Bootloader.setResourceMap({"0qDBG":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/y6\/r\/b54VsfLAPrd.js"},"GJWrX":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/ye\/r\/jl8Zp4AQrda.js"},"yN38Y":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yu\/r\/fERFV4JTaqu.js"},"3giiy":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yM\/r\/appcfKJyxjz.js"},"bDsvl":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/ye\/r\/EsTL0DaMXdL.js"},"4vv8\/":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yS\/r\/-k9bkwUX5WY.js"},"giws8":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/y4\/r\/4ODPIYU1OOR.js"},"xzGx4":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yj\/r\/d9qpAKKd0lT.js"},"xbe4S":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/y4\/r\/qLaezAno1bS.js"},"\/k2dk":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yL\/r\/cgXMWS4Up6v.js"},"87ZZC":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yn\/r\/co1qC7kVf6l.js"},"1dBr4":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yQ\/r\/PEzdFulkumn.js"},"20549":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yW\/r\/WPBW7w7N3vE.js"},"oE4Do":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yM\/r\/bYmP3yfBJQk.js"},"MqSmz":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/y4\/r\/O9vnAcaWDSB.js"},"cNca2":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/y8\/r\/-PhFtz5iHtg.js"},"nSolN":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yC\/r\/9nfBbIi4VvD.js"},"bwsMw":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/y_\/r\/hwOyT9fmfZV.js"},"2lp+F":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/ys\/r\/-px7t9bdJsf.js"},"z3S2v":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/y8\/r\/ZXgq9_WrDDB.js"},"g7vY\/":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/y1\/r\/zevyunPmAbQ.js"},"hHq5K":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yA\/r\/y2w4mrl4phP.js"},"k\/xD1":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yT\/r\/YI3lv9uc6Mr.js"},"ioIU8":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yA\/r\/T0WabUkyOLu.js"},"wxq+C":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/ym\/r\/-RpEF0COL6_.js"},"Rs18G":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yI\/r\/uO3qawLm1cS.js"},"6AU0l":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yF\/r\/RUbACgllsvU.js"},"AtxWD":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yY\/r\/y5ZBemqsu_7.js"},"zyFOp":{"type":"js","crossOrigin":1,"src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/yW\/r\/HUvB_EaiSlz.js"}});
+Bootloader.enableBootload({"ExceptionDialog":{"resources":["GJWrX","xbe4S","\/k2dk","0qDBG","waMsN","87ZZC","1dBr4","20549"],"module":true},"React":{"resources":["\/k2dk","GJWrX"],"module":true},"AsyncDOM":{"resources":["GJWrX","xzGx4"],"module":true},"ConfirmationDialog":{"resources":["GJWrX","waMsN","0qDBG","oE4Do"],"module":true},"Dialog":{"resources":["GJWrX","xbe4S","waMsN","0qDBG"],"module":true},"IframeShim":{"resources":["GJWrX","87ZZC","MqSmz"],"module":true},"ErrorSignal":{"resources":["GJWrX","cNca2"],"module":true},"Event":{"resources":["GJWrX"],"module":true},"AsyncDialog":{"resources":["GJWrX","xbe4S","\/k2dk","0qDBG","waMsN","HPOkK"],"module":true},"FbdDialogProvider":{"resources":["nSolN","GJWrX","bwsMw"],"module":true},"AsyncRequest":{"resources":["GJWrX"],"module":true},"PhotoSnowlift":{"resources":["xbe4S","0qDBG","GJWrX","waMsN","\/k2dk","HPOkK","87ZZC","2lp+F","z3S2v"],"module":true},"PhotoTagger":{"resources":["GJWrX","xbe4S","waMsN","0qDBG","g7vY\/","hHq5K","87ZZC","\/k2dk","z3S2v"],"module":true},"Live":{"resources":["GJWrX","xzGx4","2lp+F"],"module":true},"PhotoTagApproval":{"resources":["GJWrX","z3S2v","hHq5K"],"module":true},"PhotoTags":{"resources":["GJWrX","z3S2v","waMsN","hHq5K"],"module":true},"TagTokenizer":{"resources":["GJWrX","HPOkK","k\/xD1","hHq5K","waMsN","ioIU8"],"module":true},"css:fb-photos-snowlift-fullscreen-css":{"resources":["VDymv"]},"SnowliftPicCropper":{"resources":["GJWrX","xbe4S","waMsN","0qDBG","hHq5K","z3S2v","87ZZC","qJ7bF","wxq+C"],"module":true},"PhotosButtonTooltips":{"resources":["GJWrX","87ZZC","0qDBG","waMsN","xbe4S","\/k2dk","HPOkK","Rs18G"],"module":true},"VideoRotate":{"resources":["GJWrX","xbe4S","waMsN","0qDBG","2lp+F","6AU0l"],"module":true},"AsyncResponse":{"resources":["GJWrX"],"module":true},"PhotoInlineEditor":{"resources":["GJWrX","xbe4S","0qDBG","\/k2dk","waMsN","z3S2v","87ZZC","g7vY\/","hHq5K","ioIU8","HPOkK","k\/xD1","AtxWD"],"module":true},"Form":{"resources":["GJWrX","waMsN","0qDBG"],"module":true},"SpotlightShareViewer":{"resources":["GJWrX","zyFOp"],"module":true},"Toggler":{"resources":["GJWrX","0qDBG","xbe4S","waMsN"],"module":true},"Tooltip":{"resources":["GJWrX","87ZZC","0qDBG","waMsN","xbe4S","\/k2dk","HPOkK"],"module":true},"DOM":{"resources":["GJWrX"],"module":true},"Input":{"resources":["GJWrX","waMsN"],"module":true},"trackReferrer":{"resources":[],"module":true},"DimensionTracking":{"resources":["GJWrX"],"module":true},"HighContrastMode":{"resources":["GJWrX"],"module":true},"legacy:detect-broken-proxy-cache":{"resources":["GJWrX"]}});
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+require("InitialJSLoader").loadOnDOMContentReady(["0qDBG","GJWrX","yN38Y","3giiy","bDsvl","4vv8\/","giws8","xzGx4"]);
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+Bootloader.configurePage(["KqC8F","waMsN","hEENh","HPOkK","GGax\/","imdtS"]);
+Bootloader.done(["RneUx","jDr+c"]);
+
+
+require("InitialJSLoader").handleServerJS({"elements":[["m_0_g","u_0_f",2],["m_0_i","u_0_h",2],["m_0_0","u_0_k",2],["m_0_f","u_0_e",2],["m_0_l","login_form",2],["m_0_2","u_0_1",2],["m_0_b","u_0_a",2],["m_0_c","u_0_b",2],["m_0_n","login_form",2],["m_0_k","u_0_j",2],["m_0_e","u_0_d",2],["m_0_1","u_0_0",2],["m_0_9","u_0_8",2],["m_0_3","u_0_2",2],["m_0_a","u_0_9",2],["m_0_d","u_0_c",2],["m_0_7","u_0_6",2],["m_0_5","u_0_4",2],["m_0_4","u_0_3",2],["m_0_6","u_0_5",2],["m_0_h","u_0_g",2],["m_0_j","u_0_i",2],["m_0_8","u_0_7",2],["m_0_m","loginbutton",2]],"define":[["EagleEyeConfig",[],{"seed":"064s"},294],["TimeSpentConfig",[],{"0_delay":0,"0_timeout":8,"delay":200000,"timeout":64},142]],"require":[["PlaceholderListener"],["PlaceholderOnsubmitFormListener"],["FlipDirectionOnKeypress"],["enforceMaxLength"],["AsyncRequestNectarLogging"],["MutualLikeLink","init",["m_0_2","m_0_1"],[{"__m":"m_0_1"},{"__m":"m_0_2"},177635348921287]],["MutualLikeLink","init",["m_0_3","m_0_4"],[{"__m":"m_0_3"},{"__m":"m_0_4"},192454361986]],["MutualLikeLink","init",["m_0_6","m_0_5"],[{"__m":"m_0_5"},{"__m":"m_0_6"},187446750783]],["MutualLikeLink","init",["m_0_7","m_0_8"],[{"__m":"m_0_7"},{"__m":"m_0_8"},106878175272]],["MutualLikeLink","init",["m_0_9","m_0_a"],[{"__m":"m_0_9"},{"__m":"m_0_a"},295984527332]],["MutualLikeLink","init",["m_0_b","m_0_c"],[{"__m":"m_0_b"},{"__m":"m_0_c"},151683671537173]],["MutualLikeLink","init",["m_0_d","m_0_e"],[{"__m":"m_0_d"},{"__m":"m_0_e"},168597536563870]],["MutualLikeLink","init",["m_0_g","m_0_f"],[{"__m":"m_0_f"},{"__m":"m_0_g"},109497145736189]],["MutualLikeLink","init",["m_0_h","m_0_i"],[{"__m":"m_0_h"},{"__m":"m_0_i"},108035689217374]],["MutualLikeLink","init",["m_0_k","m_0_j"],[{"__m":"m_0_j"},{"__m":"m_0_k"},103165046389748]],["Intl","setPhonologicalRules",[],[{"meta":{"\/_B\/":"([.,!?\\s]|^)","\/_E\/":"([.,!?\\s]|$)"},"patterns":{"\/\u0001(.*)('|&#039;)s\u0001(?:'|&#039;)s(.*)\/":"\u0001$1$2s\u0001$3","\/_\u0001([^\u0001]*)\u0001\/e":"mb_strtolower(\"\u0001$1\u0001\")","\/\\^\\x01([^\\x01])(?=[^\\x01]*\\x01)\/e":"mb_strtoupper(\"\u0001$1\")","\/_\u0001([^\u0001]*)\u0001\/":"javascript"}}]],["PostLoadJS","loadAndRequire",[],["DimensionTracking"]],["PostLoadJS","loadAndCall",[],["HighContrastMode","init",[{"isHCM":false,"spacerImage":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/y4\/r\/-PAXP-deijE.gif"}]]],["ScriptPath","set",[],["\/search.php","9d5e6a66"]],["ClickRefLogger"],["userAction","setUATypeConfig",[],[{"ua:e":false}]],["ScriptPathState","setUserURISampleRate",[],[0.0002]],["userAction","setCustomSampleConfig",[],[{"ua:n":{"test":{"ua_id":{"test":true}}},"ua:i":{"snowlift":{"action":{"open":true,"close":true}},"canvas":{"action":{"mouseover":true,"mouseout":true}}}}]],["UserActionHistory"],["ScriptPath","startLogging",[],[]],["TimeSpentBitArrayLogger","init",[],[]],["LoginFormController","init",["m_0_l","m_0_m"],[{"__m":"m_0_l"},{"__m":"m_0_m"},null]]]});
+
+onloadRegister_DEPRECATED(function (){window.loading_page_chrome = true;});
+onloadRegister_DEPRECATED(function (){$("u_0_l").value = tz_calculate(1389776190)});
+onloadRegister_DEPRECATED(function (){try { $("email").focus(); } catch (_ignore) { }});
+onloadRegister_DEPRECATED(function (){window.loading_page_chrome = false;});
+onafterloadRegister_DEPRECATED(function (){Bootloader.loadComponents(["legacy:detect-broken-proxy-cache"], function(){ detect_broken_proxy_cache("0", "c_user") });});
+
+//]]>
+    </script>
+  </body>
+</html>

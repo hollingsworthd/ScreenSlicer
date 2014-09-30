@@ -1,0 +1,2329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="//ct1.addthis.com/static/r07/widget118.css"/>
+    <meta content="IE=7" http-equiv="X-UA-Compatible"/>
+    <meta name="robots" content="NOINDEX,NOFOLLOW"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>
+      Search Results: ibm
+    </title>
+    <style>
+      
+      &lt;!--
+
+body,td,div,.p,a,.d,.s{font-family:arial,sans-serif}
+body,td,div,.p,a,.d{font-size: }
+body,div,td,.p,.s{color:#000000}
+body,.d,.p,.s{background-color:}
+.s{font-size: 1em; padding-bottom:15px}
+.g{margin-top: 1em; margin-bottom: 0em}
+.s td{width:34em}
+.l{font-size: 1.2em}
+.l{color: #0000ff}
+.l_topic{font-size: 0.8em; text-transform: uppercase; }
+.l_topic{color: #000}
+a:link,.w,.w a:link{color:#0000cc}
+.f,.f:link,.f a:link{color:#0000ff}
+a:visited,.f a:visited{color:#551a8b}
+a:active,.f a:active{color:#ff0000}
+.t{color:#000000}
+.t{background-color:}
+.z{display:none}
+.i,.i:link{color:#000000}
+.a,.a:link{color:#008000}
+div.n {margin-top: 1ex}
+/* LeoS added for Redesign */
+table#content{background:none;}
+.box_body, .box_body div {background:none !important;}
+#content p {margin-bottom: 0 !important;}
+td.result-top {white-space: pre-wrap; /* css-3 */ white-space: -moz-pre-wrap; /* Mozilla, since 1999 */ white-space: -pre-wrap; /* Opera 4-6 */ white-space: -o-pre-wrap; /* Opera 7 */ word-wrap: break-word; /* Internet Explorer 5.5+ */ vertical-align: top;}
+.custom_link {color:#0000ff !important;}
+
+.n a{font-size: 1em; color:#0000ff !important;}
+.n .i{font-size: 1.4em; font-weight:bold}
+.q a:visited,.q a:link,.q a:active,.q {color:#0000cc;}
+.b,.b a{font-size: 1.2em; color:#0000ff !important; font-weight:bold}
+.d{margin-right:1em; margin-left:1em;}
+div.oneboxResults {max-height:150px;overflow:hidden;}
+--&gt;
+    </style>
+    <script type="text/javascript" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+      <!--
+        function resetForms() {
+          for (var i = 0; i < document.forms.length; i++ ) {
+              document.forms[i].reset();
+          }
+        }
+        // Search query
+	var page_query = "ibm"
+	// Starting page offset, usually 0 for 1st page, 10 for 2nd, 20 for 3rd.
+	var page_start = ""
+	// Front end that served the page.
+	var page_site = "FDAgov"
+      //-->
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+var _gaq = _gaq || [];
+ (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+function trackEvent(link, category, action, label, value) {
+try {
+_gaq.push(['_setAccount', 'UA-22737364-4']); //UA-22737364-14 is tracking code for google-test
+
+
+_gaq.push(['_trackEvent',category,action,label,value]); //_trackEvent(category, action, opt_label, opt_value, opt_noninteraction)
+setTimeout('document.location = "' + link.href + '"', 100);
+}catch(err){}
+}
+
+//]]>
+    </script>
+  </head>
+  <body onload="resetForms();" dir="ltr">
+    <!-- Begin Search Feedback Form Functions -->    <!-- 
+      
+      <script type="text/javascript">
+      	function hideFeedback() {
+      		document.getElementById('morequestions').style.display = "none";
+      	}
+      	
+      	function showFeedbackQuestions() {
+      		document.getElementById('morequestions').style.display = "block";
+      	}
+      	
+      	function checkFeedback() {
+      		if(!document.getElementById('satisfiedyes').checked && !document.getElementById('satisfiedno').checked) {
+      			alert('Please select either "Yes" or "No" before submitting');
+      			return false;
+      		}
+      
+      		return true;
+      	}
+      </script>
+      -->    <!-- End Search Feedback Form Functions -->    <script type="text/javascript">
+//<![CDATA[
+
+      function keyPressEvent(e)
+      {
+      
+      	 if (e.keyCode == 13)
+      {
+      subSearchForm();
+      
+      }
+      		
+      		
+      }
+      function subSearchForm()
+      {
+      	/* Set the variable for the remainder of Q based on the input field. If the variable is empty set the URL string to only
+      use Q, otherwise include the filetype */
+      	var filtypeforQ = document.getElementById('restOfQ2').value;
+      
+      	 if (filtypeforQ != '')
+      	{
+      		concatQ = document.gs.q.value + '%20filetype' + document.getElementById('restOfQ2').value;
+      
+      	}
+      	else
+      	{
+      		concatQ = document.gs.q.value;
+      
+      	}
+      
+      	if (document.gs.partialfields.value != '')
+      	{
+      		partFieldsVar = '&partialfields=' + document.gs.partialfields.value;
+      	}
+      	
+      	else
+      	{
+      		partFieldsVar = '';
+      	}
+      
+      	window.location = '/search?q=' +  concatQ + '&client=' + document.gs.client.value + '&proxystylesheet=' + document.gs.proxystylesheet.value
+      + '&output=' + document.gs.output.value + '&site=' + document.gs.site.value +'&requiredfields=' + document.gs.requiredfields.value
+      + partFieldsVar + '&sort=' + document.gs.sort.value + '&filter=' + document.gs.filter.value;
+      
+      
+      
+      }
+      
+      function SetRestrict()
+      {	
+      	finalStr="";
+      	
+      	for(i=0; i<15; i++)
+      	{
+      			if (document.f.restrictBox[i].checked)
+      			{
+      				finalStr = finalStr + document.f.restrictBox[i].value + "|";
+      			}
+      	}
+      	if (finalStr == "") 
+      		finalStr = "FDAgov";
+      	else
+      		document.f.filter.value = "0";
+      	
+      	document.f.site.value = finalStr.replace(/\|$/, '');
+      }
+      
+//]]>
+    </script>
+    <script type="text/javascript" src="http://www.accessdata.fda.gov/scripts/includes/js/wcm.toggle.js">
+    </script>
+    <script type="text/javascript" src="http://www.accessdata.fda.gov/scripts/includes/js/ssajax_2012.js">
+    </script>
+    <!-- /**** Begin CSS References ****/-->    <link rel="stylesheet" type="text/css" media="screen" href="http://www.accessdata.fda.gov/scripts/includes/css/css_fda_gov_stylesheet-2013.css"/>
+    <link rel="stylesheet" type="text/css" media="print" href="http://www.accessdata.fda.gov/scripts/includes/css/css_fda_gov_print_stylesheet-2013.css"/>
+    <!--[if lt IE 9]>
+      <link rel="stylesheet" type="text/css" media="screen" href="http://www.accessdata.fda.gov/scripts/includes/css/css_fda_gov_stylesheet_ie-2013.css"
+      />
+      <![endif]-->    <!-- /**** Begin Script Library References ****/-->    <script type="text/javascript" src="http://www.accessdata.fda.gov/scripts/includes/js/js_jquery_142.js" language="JavaScript">
+    </script>
+    <!--[if lt IE 7]>
+      <script defer type="text/javascript" src="http://www.accessdata.fda.gov/scripts/includes/js/js_pngfix_fdagov.js"></script>
+      <![endif]-->    <script type="text/javascript" src="http://www.accessdata.fda.gov/scripts/includes/js/js_fdagov_global.js" language="JavaScript">
+    </script>
+    <!-- ## ADDED qTip reference to support hover tips ## -->    <!-- ## ADDED hoverIntent JavaScript to support the drop-down menus ## -->    <!-- ## ADDED submenus Javascript reference to import code to handle displaying sub-menus when hovered over ## -->    <!-- ## ADDED hovers Javascript reference to handle hovering over images and replacing that image with it's hover effect ##
+      -->    <!-- ## ADDED tips Javascript reference to handle styling the tool tips ## -->    <script type="text/javascript">
+//<![CDATA[
+
+      /*
+      * js_fda_resize.js
+      * Edited 27 September 2011
+      *
+      * Handle resizing the font using the buttons on the page.  This code 
+      * essentially uses the existing FDA code to change font sizes, but has been
+      * separated into this file in order to show the differences.
+      *
+      * If desired, this code can be merged with the existing code.  The 
+      * only functionality that is not defined in the existing code is the ability
+      * to reset the font size to the original value.
+      */ 
+      
+      // wait until the document has loaded, then provide the click action
+      // this just separates the presentation from the actions performed
+      $(document).ready(function(){
+      		$("#font-size-increase").bind("click", function(){resizeText(1);});
+      		$("#font-size-standard").bind("click", function(){resizeText(0);});
+      		$("#font-size-decrease").bind("click", function(){resizeText(-1);});
+      });
+      
+      
+      /*
+      * ResizeText
+      * Resize the text in the #content section.  Makes use of existing FDA resize
+      * code.
+      * params: multiplier The effect to have on the text:
+      *						-1: decrease the font size
+      *						 0: return the font size to normal
+      *						 1: increase the font size
+      * return: none
+      * pre: none
+      * post: The font size has been increased one level according to the FDA code
+      */
+      function resizeText(multiplier) {	
+      	// handle the reset action (not supported in the FDA code)
+      	if(multiplier == 0){
+      		currentSize = defaultSize;
+      	}
+      	
+      	// call the FDA code (passing the 0 multiplier will have no effect)
+      	changeTextSize(multiplier);
+      }
+      
+      
+      // Adapted from cdc.gov
+      
+      // The different text sizes we support.
+      // var sizes = new Array("60%", "70%", "80%", "90%", "100%", "110%", "120%", "130%", "140%");
+      var sizes = new Array( "70%", "80%", "90%", "100%", "110%", "120%", "126%");
+      
+      var defaultSize = 3; // default to 100%
+      // Holds the index of the current size.
+      var currentSize = defaultSize;
+      // Special variable for Mozilla because of how it handles CSS rules.
+      var ruleCount;
+      // Domain of the session cookie.
+      var sessionCookieDomain = ".fda.gov";
+      // Set the div string.
+      var divStr = "#content";
+      
+      // Here, get the current value of the cookie, if it exists, and style the page accordingly.
+      if (getCookie("textSize") != "") {
+      currentSize = Number(getCookie("textSize"));
+      	/*if (document.styleSheets[0].cssRules) { // Mozilla
+      		setStyleMozilla(divStr);
+      	}
+      	else { // IE
+      		setStyleIE(divStr);
+      	}*/
+      }
+      $(document).ready(function() {
+      setPageTextSize();
+      });
+      
+      // Parses through the current cookie, if it exists, and pulls out the relevant value.
+      function getCookie(name) {
+      if (document.cookie.length > 0) {
+      	   var start = document.cookie.indexOf(name + "=");
+      		if (start != -1) {
+      		   start += (name.length + 1);
+      			var end = document.cookie.indexOf(";", start);
+      			if (end == -1) {
+      			   end = document.cookie.length;
+      			}
+      			return unescape(document.cookie.substring(start, end));
+      		}
+      	}
+      	return "";
+      }
+      
+      // Make the text size either bigger or smaller.
+      function changeTextSize(offset) {
+      	currentSize = currentSize + offset;
+      	if (currentSize >= sizes.length) { // don't overflow the sizes array
+      	   currentSize = sizes.length - 1;
+      	}
+      	if (currentSize < 0) { // don't underflow the sizes array
+      		currentSize = 0;
+      }
+      //alert("current size "+currentSize);
+      	setPageTextSize();
+      	
+      	// Set the cookie
+      	document.cookie = 'textSize='+ currentSize + '; path=/; domain=' + sessionCookieDomain;
+      }
+      
+      function setPageTextSize() {
+      	document.getElementById('content').style.fontSize = sizes[currentSize];
+      }
+      
+      function setStyleMozilla(divStr) {
+      ruleCount = document.styleSheets[0].cssRules.length;
+      	document.styleSheets[0].insertRule(divStr + " { font-size: " + sizes[currentSize] + "; }", ruleCount);
+      }
+      
+      function setStyleIE(divStr) {
+      	//alert("setting style "+sizes[currentSize]);
+      	document.styleSheets[0].addRule(divStr, "{ font-size: " + sizes[currentSize] + "; }");
+      }
+      
+      
+      // Function to fix the right/bottom margins on rounded corner spans post-load, for IE
+      // This is necessary because IE is dumb and sometimes renders an extra pixel on the right/bottom
+      function fixMargin(obj) {
+      if (document.styleSheets[0].rules) { // only want to do this for IE
+      var bottomMarginSize = ((obj.offsetHeight % 2) == 1) ? "-1px" : "0px";
+      var rightMarginSize = ((obj.offsetWidth % 2) == 1) ? "-1px" : "0px";
+      var spans = obj.getElementsByTagName('span');
+      for (var i=0; i<spans.length; i++) {
+      if (spans[i].className.match(/b[l|r]_/)) {
+      	    spans[i].style.marginBottom = bottomMarginSize;
+      }
+      if (spans[i].className.match(/[t|b]r_/)) {
+      spans[i].style.marginRight = rightMarginSize;
+      }
+      }
+      }
+      }
+      
+      
+//]]>
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js" type="text/javascript">
+    </script>
+    <div class="quicklinks">
+      <a href="#main" accesskey="2" class="quicklinks" tabindex="1" title="Skip to content">
+        Quick Links: Skip to main page content
+      </a>
+      <a href="#search" class="quicklinks" tabindex="1" title="Skip to search">
+        Skip to Search
+      </a>
+      <a href="#fda-topmenu" class="quicklinks" tabindex="1" title="Skip to FDA top menu">
+        Skip to Topics Menu
+      </a>
+      <a href="#footer" class="quicklinks" tabindex="1" title="Skip to site options">
+        Skip to Common Links
+      </a>
+    </div>
+    <!--SS_END_SNIPPET(fragment26,1)-->    <div id="outerwrapper">
+      <!--==== BEGIN PAGE OUTER WRAPPER ==== -->      <!-- #** VALIDATION not sure what this tag is, but it will fail XHTML validation **# -->      <maxamineignore xmlns="FDA">
+        <div id="hhs-masthead">
+          <!-- ==== BEGIN RIGHT HHS MASTHEAD ==== -->          <div id="hhs-rightmast">
+            <!-- ## ADD page-tools ## -->            <div id="page-tools">
+              <ul class="list-horizontal">
+                <li>
+                  <a id="font-size-decrease" href="#" title="Decrease font size">
+                    <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_font_adj_small.png" alt="Decrease font size" title="Decrease font size"/>
+                  </a>
+                </li>
+                <li>
+                  <a id="font-size-standard" href="#" title="Return font size to normal">
+                    <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_font_adj_medium.png" alt="Return font size to normal" title="Return font size to normal"/>
+                  </a>
+                </li>
+                <li>
+                  <a id="font-size-increase" href="#" title="Increase font size">
+                    <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_font_adj_large.png" alt="Increase font size" title="Increase font size"/>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- ## END page-tools ## -->          </div>
+          <!-- ==== END RIGHT HHS MASTHEAD ==== -->          <!-- ==== BEGIN LEFT HHS MASTHEAD ==== -->          <div id="hhs-leftmast">
+            <a href="http://www.hhs.gov/" title="U.S. Department of Health and Human Services">
+              <img id="rrimg1" border="0" src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_hhs_masthead_logo_r.png" alt="U.S. Department of Health and Human Services" title="U.S. Department of Health and Human Services"/>
+            </a>
+          </div>
+          <!-- ==== END LEFT HHS MASTHEAD ==== -->        </div>
+        <div id="wrapper">
+          <!-- ==== BEGIN PAGE HEADER ==== -->          <div id="header">
+            <!-- ==== BEGIN MASTHEAD ==== -->            <div id="fda-masthead">
+              <!-- ==== BEGIN LEFT MASTHEAD ==== -->              <div id="fda-leftmast">
+                <div id="FDAlogo">
+                  <a href="http://www.fda.gov/default.htm" title="FDA, U.S. Food and Drug Administration">
+                    <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_fda_masthead_logo.png" alt="FDA, U.S. Food and Drug Administration" border="0" title="FDA, U.S. Food and Drug Administration"/>
+                  </a>
+                </div>
+                <!-- ## ADDED print-pagetitle This is what is displayed when the page is printed, rather than the logo ## -->                <div class="print-pagetitle">
+                  
+      U.S. Food &amp; Drug Administration
+      
+                </div>
+                <!-- ## END print-pagetitle ## -->                <div class="clearfloat">
+                </div>
+              </div>
+              <!-- ==== END LEFT FDA MASTHEAD ==== -->              <!-- ==== BEGIN RIGHT MASTHEAD ==== -->              <div id="fda-rightmast">
+                <!-- ## ADDED masthead-links ## -->                <div id="masthead-links">
+                  <ul class="list-horizontal">
+                    <li class="first">
+                      <a href="http://www.fda.gov/SiteIndex/default.htm" title="A to Z Index">
+                        A to Z Index
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://www.fda.gov/NewsEvents/InteractiveMedia/default.htm" title="Follow FDA">
+                        Follow FDA
+                      </a>
+                    </li>
+                    <li class="last">
+                      <a href="https://blogs.fda.gov/fdavoice/" title="FDA Voice">
+                        FDA Voice Blog
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- ## END masthead-links ## -->                <div id="search-form">
+                  <form action="search" method="get" name="searchForm" id="searchbox">
+                    <label class="searchlable" for="search">
+                      Enter Search terms
+                    </label>
+                    <input accesskey="4" id="search" type="text" name="q"/>
+                    <!-- ## ADDED go_button ## -->                    <div id="go_button">
+                      <a href="javascript:document.getElementById('searchbox').submit();" title="Search this site">
+                        <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_mast_search_button.png" alt="Search" title="Search this site"/>
+                      </a>
+                    </div>
+                    <!-- ## END go_button -->                    <!-- ==== BEGIN HIDDEN SEARCH FIELDS ==== -->                    <input type="hidden" name="client" value="FDAgov"/>
+                    <input type="hidden" name="site" value="FDAgov"/>
+                    <input type="hidden" name="lr" value=""/>
+                    <input type="hidden" name="proxystylesheet" value="FDAgov"/>
+                    <input type="hidden" name="output" value="xml_no_dtd"/>
+                    <input type="hidden" name="getfields" value="*"/>
+                    <!-- ==== END HIDDEN SEARCH FIELDS ==== -->                  </form>
+                  <div class="clearfloat">
+                  </div>
+                </div>
+                <div id="masthead-links" style="margin-top:8px;">
+                  <!--a href="http://www.fda.gov/AboutFDA/AboutThisWebsite/ucm296631.htm" title="Most Popular Searches" >Most Popular
+      Searches</a-->                </div>
+              </div>
+              <div class="clearfloat">
+              </div>
+              <!-- ==== END RIGHT MASTHEAD ==== -->            </div>
+          </div>
+        </div>
+      </maxamineignore>
+      <div id="fda-topmenu">
+        <ul class="menu-tabbed">
+          <li>
+            <a title="Home" href="http://www.fda.gov/default.htm" accesskey="1">
+              <span>
+                Home
+              </span>
+            </a>
+          </li>
+          <li>
+            <a title="Food" href="http://www.fda.gov/Food/default.htm">
+              <span>
+                Food
+              </span>
+            </a>
+          </li>
+          <li>
+            <a title="Drugs" href="http://www.fda.gov/Drugs/default.htm">
+              <span>
+                Drugs
+              </span>
+            </a>
+          </li>
+          <li>
+            <a title="Medical Devices" href="http://www.fda.gov/MedicalDevices/default.htm">
+              <span>
+                Medical Devices
+              </span>
+            </a>
+          </li>
+          <li>
+            <a title="Radiation-Emitting Products" href="http://www.fda.gov/Radiation-EmittingProducts/default.htm">
+              <span>
+                Radiation-Emitting
+      Products
+              </span>
+            </a>
+          </li>
+          <li>
+            <a title="Vaccines, Blood and Biologics" href="http://www.fda.gov/BiologicsBloodVaccines/default.htm">
+              <span>
+                Vaccines,
+      Blood &amp; Biologics
+              </span>
+            </a>
+          </li>
+          <li class="">
+            <a title="Animal and Veterinary" href="http://www.fda.gov/AnimalVeterinary/default.htm">
+              <span>
+                Animal &amp; Veterinary
+              </span>
+            </a>
+          </li>
+          <li>
+            <a title="Cosmetics" href="http://www.fda.gov/Cosmetics/default.htm">
+              <span>
+                Cosmetics
+              </span>
+            </a>
+          </li>
+          <li>
+            <a title="Tobacco Products" href="http://www.fda.gov/TobaccoProducts/default.htm">
+              <span>
+                Tobacco Products
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfloat">
+      </div>
+    </div>
+    <div id="content" style="font-size: 100%;">
+      <div class="clearfloat">
+      </div>
+      <div id="fda-breadcrumbs" style="width:85%; float: left">
+        <div class="hmenu">
+          <ul class="list-horizontal">
+            <li>
+              <a href="http://www.fda.gov/default.htm">
+                FDA Home
+              </a>
+              <span class="footnote_number">
+                <sup>
+                  1
+                </sup>
+              </span>
+              <span class="footnote_number">
+                <sup>
+                  3
+                </sup>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ## ADD page-options ## -->      <div id="page-options" class="hover-fade" style="margin: 0 0 15px 0;">
+        <ul class="list-horizontal">
+          <li>
+            <a href="javascript:window.print();" title="Print this page">
+              <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_utility_icon_print.png" alt="Print" title="Print this page"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.addthis.com/bookmark.php?u508=true&amp;v=152&amp;username=fdamain" class="addthis_button_compact at300m" title="Share this page">
+              <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_utility_icon_share.png" alt="Share" title="Share this page"/>
+            </a>
+            <span class="footnote_number">
+              <sup>
+                2
+              </sup>
+            </span>
+          </li>
+          <li>
+            <a href="#" class="addthis_button_email at300b" title="E-mail this page" target="_blank">
+              <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_utility_icon_email.png" alt="E-mail" title="E-mail this page"/>
+            </a>
+          </li>
+        </ul>
+        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pub=fdamain">
+        </script>
+        <div style="visibility: hidden; height: 1px; width: 1px; position: absolute; z-index: 100000;" id="_atssh">
+          <iframe id="_atssh853" title="AddThis utility frame" style="height: 1px; width: 1px; position: absolute; z-index: 100000; border: 0; left: 0px; top: 0px;" src="//ct1.addthis.com/static/r07/sh143.html#iit=1389777963371&amp;tmr=load%3D1389777962220%26core%3D1389777962693%26main%3D1389777963367%26ifr%3D1389777963375&amp;cb=0&amp;cdn=1&amp;chr=UTF-8&amp;kw=&amp;ab=-&amp;dh=google2.fda.gov&amp;dr=http%3A%2F%2Fwww.fda.gov%2F&amp;du=http%3A%2F%2Fgoogle2.fda.gov%2Fsearch%3Fq%3Dibm%26client%3DFDAgov%26site%3DFDAgov%26lr%3D%26proxystylesheet%3DFDAgov%26requiredfields%3D-archive%253AYes%26output%3Dxml_no_dtd%26getfields%3D*&amp;dt=Search%20Results%3A%20ibm&amp;dbg=0&amp;md=0&amp;cap=tc%3D0%26ab%3D0&amp;inst=2&amp;vcl=0&amp;jsl=33&amp;prod=undefined&amp;lng=en-us&amp;ogt=&amp;pc=men&amp;pub=fdamain&amp;ssl=0&amp;sid=52d6542aa2d25e1d&amp;srpl=1&amp;srcs=1&amp;srd=1&amp;srf=1&amp;srx=1&amp;ver=300&amp;xck=1&amp;xtr=0&amp;og=&amp;aa=0&amp;rev=125823&amp;ct=1&amp;xld=1">
+          </iframe>
+        </div>
+        <script type="text/javascript" src="http://ct1.addthis.com/static/r07/core116.js">
+        </script>
+      </div>
+      <!-- ## END page-options ## -->      <!--==== BEGIN Topic Page Title ==== -->      <a id="main" name="main">
+      </a>
+      <div class="clearfloat">
+        -
+      </div>
+      <hr/>
+      <!--==== END Topic Page Title ==== -->      <style type="text/css">
+        
+		#sidebar_categories { float: left; border: none; padding: 0 10px 50px 0; margin-right: 15px; width:150px; border-right: 2px solid #ccc;  }
+		#sidebar_categories a, #sidebar_categories a:visited { border: none; display: block; padding: 4px; margin-right: 6px; clear: both; text-decoration: none; font-weight:bold; color:#3284b3  } 
+        #sidebar_categories .select, #sidebar_categories .selectFormat, #sidebar_categories .selectType, #sidebar_categories .selectSort  { background-color: #254B91; color: #fff !important; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px;}
+        #sidebar_categories h2 { margin: 20px 0 4px 0}
+		#pagetools_bottom { margin-left: 170px }
+		.filterSelected, .formatSelected, .sortSelected, .TypeSelected { display:none; font-size:0px; color:#254B91 }		
+
+      </style>
+      <div id="sidebar_categories">
+        <h2>
+          Filter by Topic:
+        </h2>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;site=FDAgov" id="clear_btn" class="select">
+          All Topics 
+          <span class="filterSelected" style="display:inline">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;partialfields=search_topic%3AFood&amp;site=FDAgov" id="food_btn">
+          Food 
+          <span class="filterSelected" id="foodSelected">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;partialfields=search_topic%3ADrugs&amp;site=FDAgov" id="drugs_btn">
+          Drugs 
+          <span class="filterSelected" id="drugsSelected">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;partialfields=search_topic%3AMedical%20Devices&amp;site=FDAgov" id="med_dev_btn">
+          Medical Devices 
+          <span class="filterSelected" id="med_devSelected">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;partialfields=search_topic%3AVaccines&amp;site=FDAgov" id="vacs_btn">
+          Vaccines, Blood &amp; Biologics 
+          <span class="filterSelected" id="vacsSelected">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;partialfields=search_topic%3AAnimal&amp;site=FDAgov" id="vet_btn">
+          Animal &amp; Veterinary 
+          <span class="filterSelected" id="vetSelected">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;partialfields=search_topic%3ACosmetics&amp;site=FDAgov" id="cosmetics_btn">
+          Cosmetics 
+          <span class="filterSelected" id="cosmeticsSelected">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;partialfields=search_topic%3ARadiation-Emitting%20Products&amp;site=FDAgov" id="radiation_btn">
+          Radiation-Emitting Products 
+          <span class="filterSelected" id="radiationSelected">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;partialfields=search_topic%3ATobacco%20Products&amp;site=FDAgov" id="tobacco_btn">
+          Tobacco Products 
+          <span class="filterSelected" id="tobaccoSelected">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;partialfields=search_topic%3APublic%20Information&amp;site=FDAgov" id="education_btn">
+          Public Information &amp; Education 
+          <span class="filterSelected" id="educationSelected">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;partialfields=search_topic%3AFDA%20Operations&amp;site=FDAgov" id="fda_ops_btn">
+          FDA Operations 
+          <span class="filterSelected" id="fda_opsSelected">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;site=FDAgov-Section-AdvisoryCommittees" id="fda_advisorycommittees_btn">
+          Advisory Committees 
+          <span class="filterSelected" id="fda_advisorycommitteesSelected">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;getfields=*&amp;filter=1&amp;requiredfields=-archive%3AYes&amp;site=FDAgov-Category-WarningLetters" id="fda_warningletters_btn">
+          Warning Letters 
+          <span class="filterSelected" id="fda_warninglettersSelected">
+            Selected
+          </span>
+        </a>
+        <h2>
+          Filter by Format:
+        </h2>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;site=FDAgov&amp;getfields=*&amp;requiredfields=-archive:Yes&amp;partialfields=&amp;filter=1" id="clearFormat_btn" class="selectFormat">
+          All Formats 
+          <span class="formatSelected" style="display:inline" id="Selected">
+            Selected
+          </span>
+        </a>
+        <a id="web_btn" href="search?q=ibm%20filetype%3Ahtm%20OR%20filetype%3Ahtml%20OR%20filetype%3Acfm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;site=FDAgov&amp;getfields=*&amp;requiredfields=-archive:Yes&amp;partialfields=&amp;filter=1">
+          Web pages 
+          <span class="formatSelected" id="webSelected">
+            Selected
+          </span>
+        </a>
+        <a id="pdf_btn" href="search?q=ibm%20filetype%3Apdf&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;site=FDAgov&amp;getfields=*&amp;requiredfields=-archive:Yes&amp;partialfields=&amp;filter=1">
+          PDF 
+          <span class="filterSelected" id="pdfSelected">
+            Selected
+          </span>
+        </a>
+        <a id="doc_btn" href="search?q=ibm%20filetype%3Adoc%20OR%20filetype%3Adocx&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;site=FDAgov&amp;getfields=*&amp;requiredfields=-archive:Yes&amp;partialfields=&amp;filter=1">
+          DOC 
+          <span class="formatSelected" id="docSelected">
+            Selected
+          </span>
+        </a>
+        <a id="xls_btn" href="search?q=ibm%20filetype%3Axls%20OR%20filetype%3Axlsx&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;site=FDAgov&amp;getfields=*&amp;requiredfields=-archive:Yes&amp;partialfields=&amp;filter=1">
+          XLS 
+          <span class="formatSelected" id="xlsSelected">
+            Selected
+          </span>
+        </a>
+        <a id="ppt_btn" href="search?q=ibm%20filetype%3Appt%20OR%20filetype%3Apptx&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;site=FDAgov&amp;getfields=*&amp;requiredfields=-archive:Yes&amp;partialfields=&amp;filter=1">
+          PPT 
+          <span class="formatSelected" id="pptSelected">
+            Selected
+          </span>
+        </a>
+        <h2>
+          Filter by Type:
+        </h2>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;sort=date:D:L:d1&amp;site=FDAgov&amp;getfields=*&amp;requiredfields=-archive:Yes&amp;partialfields=&amp;filter=1" id="current_btn" class="selectType">
+          Current Content 
+          <span class="TypeSelected">
+            Selected
+          </span>
+        </a>
+        <a href="http://www.accessdata.fda.gov/scripts/search/index.cfm?action=main.default&amp;client=FDAgov-archive&amp;site=FDAgov-archive&amp;proxystylesheet=FDAgov-archive&amp;requiredfields=archive%3AYes&amp;partialfields=&amp;sort=date:D:L:d1&amp;filter=&amp;filetype=&amp;q=%20ibm" id="archived_btn">
+          Archived Content
+        </a>
+        <span class="footnote_number">
+          <sup>
+            3
+          </sup>
+        </span>
+        <h2>
+          Sort by:
+        </h2>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;site=FDAgov&amp;getfields=*&amp;requiredfields=-archive:Yes&amp;partialfields=&amp;filter=1&amp;sort=date%3AD%3AL%3Ad1" id="relevance_btn" class="selectSort">
+          Relevance 
+          <span class="sortSelected" style="display:inline" id="relevanceSelected">
+            Selected
+          </span>
+        </a>
+        <a href="search?q=ibm&amp;client=FDAgov&amp;output=xml_no_dtd&amp;proxystylesheet=FDAgov&amp;site=FDAgov&amp;getfields=*&amp;requiredfields=-archive:Yes&amp;partialfields=&amp;filter=1&amp;sort=date%3AD%3AS%3Ad1" id="rdate_btn">
+          Date 
+          <span class="sortSelected" id="rdateSelected">
+            Selected
+          </span>
+        </a>
+        <br/>
+        <br/>
+        <form action="search" method="get">
+          <input type="hidden" name="q" value="ibm"/>
+          <input type="hidden" name="client" value="FDAgov"/>
+          <input type="hidden" name="output" value="xml_no_dtd"/>
+          <input type="hidden" name="proxystylesheet" value="FDAgov"/>
+          <input type="hidden" name="getfields" value="*"/>
+          <input type="hidden" name="filter" value="1"/>
+          <input type="hidden" name="requiredfields" value="-archive:Yes"/>
+          <input type="hidden" name="site" value="FDAgov"/>
+          <input type="hidden" name="sort" value="date%3AD%3AL%3Ad1"/>
+          <input type="submit" name="resetSideBar" value="Clear Filters" style="background-color:#FFFFFF; border: 1px solid #254B91; font-weight: bold; color: #0000ff; margin-left: 20px;"/>
+        </form>
+      </div>
+      <script type="text/javascript">
+//<![CDATA[
+
+$(document).ready(function () {
+   if(window.location.href.indexOf("search_topic%3AFood") > -1) 
+	{
+	   $('#clear_btn').removeClass('select');
+	   $('#food_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#foodSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic:Food") > -1) 
+	{
+	   $('#clear_btn').removeClass('select');
+	   $('#food_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#foodSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic%3ADrugs") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#drugs_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#drugsSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic:Drugs") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#drugs_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#drugsSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic%3AMedical%20Devices") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#med_dev_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#med_devSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic%3AMedical Devices") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#med_dev_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#med_devSelected').css('display','inline');
+    }
+	if(window.location.href.indexOf("search_topic%3AMedical+Devices") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#med_dev_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#med_devSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic:Medical%20Devices") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#med_dev_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#med_devSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic:Medical Devices") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#med_dev_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#med_devSelected').css('display','inline');
+    }
+	if(window.location.href.indexOf("search_topic:Medical+Devices") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#med_dev_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#med_devSelected').css('display','inline');
+    }
+   if(window.location.href.indexOf("search_topic%3AVaccines") > -1) {
+	   $('#vacs_btn').addClass('select');
+ 	   $('#clear_btn').removeClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#vacsSelected').css('display','inline');
+   }
+   if(window.location.href.indexOf("search_topic:Vaccines") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#vacs_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#vacsSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic%3AAnimal") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#vet_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#vetSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic:Animal") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#vet_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#vetSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic%3ACosmetics") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#cosmetics_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#cosmeticsSelected').css('display','inline');
+    }
+     if(window.location.href.indexOf("search_topic:Cosmetics") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#cosmetics_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#cosmeticsSelected').css('display','inline');
+    }
+   if(window.location.href.indexOf("search_topic%3ARadiation-Emitting%20Products") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#radiation_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#radiationSelected').css('display','inline');
+    }
+   if(window.location.href.indexOf("search_topic%3ARadiation-Emitting Products") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#radiation_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#radiationSelected').css('display','inline');
+    }	
+   if(window.location.href.indexOf("search_topic%3ARadiation-Emitting+Products") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#radiation_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#radiationSelected').css('display','inline');
+    }	
+   if(window.location.href.indexOf("search_topic:Radiation-Emitting%20Products") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#radiation_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#radiationSelected').css('display','inline');
+    }
+   if(window.location.href.indexOf("search_topic:Radiation-Emitting Products") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#radiation_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#radiationSelected').css('display','inline');
+    }	
+   if(window.location.href.indexOf("search_topic:Radiation-Emitting+Products") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#radiation_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#radiationSelected').css('display','inline');
+    }	
+    if(window.location.href.indexOf("search_topic%3ATobacco%20Products") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#tobacco_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#tobaccoSelected').css('display','inline');
+    }
+   if(window.location.href.indexOf("search_topic%3ATobacco Products") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#tobacco_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#tobaccoSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic%3ATobacco+Products") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#tobacco_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#tobaccoSelected').css('display','inline');
+    }	
+    if(window.location.href.indexOf("search_topic:Tobacco%20Products") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#tobacco_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#tobaccoSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic:Tobacco Products") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#tobacco_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#tobaccoSelected').css('display','inline');
+    }	
+    if(window.location.href.indexOf("search_topic:Tobacco+Products") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#tobacco_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#tobaccoSelected').css('display','inline');
+    }	
+    if(window.location.href.indexOf("search_topic%3APublic%20Information") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#education_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#educationSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic%3APublic Information") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#education_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#educationSelected').css('display','inline');
+    }	
+    if(window.location.href.indexOf("search_topic%3APublic+Information") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#education_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#educationSelected').css('display','inline');
+    }	
+    if(window.location.href.indexOf("search_topic:Public%20Information") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#education_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#educationSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic:Public Information") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#education_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#educationSelected').css('display','inline');
+    }	
+    if(window.location.href.indexOf("search_topic:Public+Information") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#education_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#educationSelected').css('display','inline');
+    }	
+    if(window.location.href.indexOf("search_topic%3AFDA%20Operations") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#fda_ops_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#fda_opsSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic%3AFDA Operations") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#fda_ops_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#fda_opsSelected').css('display','inline');
+    }	
+    if(window.location.href.indexOf("search_topic%3AFDA+Operations") > -1) {
+	   $('#clear_btn').removeClass('select');
+	   $('#fda_ops_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#fda_opsSelected').css('display','inline');
+    }	
+    if(window.location.href.indexOf("search_topic:FDA%20Operations") > -1) {
+	   $('#clear_btn').removeClass('select');
+ 	   $('#fda_ops_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#fda_opsSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("search_topic:FDA Operations") > -1) {
+	   $('#clear_btn').removeClass('select');
+ 	   $('#fda_ops_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#fda_opsSelected').css('display','inline');
+    }	
+    if(window.location.href.indexOf("search_topic:FDA+Operations") > -1) {
+	   $('#clear_btn').removeClass('select');
+ 	   $('#fda_ops_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#fda_opsSelected').css('display','inline');
+    }	
+    if(window.location.href.indexOf("site=FDAgov-Category-WarningLetters") > -1) {
+	   $('#clear_btn').removeClass('select');
+ 	   $('#fda_warningletters_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#fda_warninglettersSelected').css('display','inline');
+    }
+    if(window.location.href.indexOf("site=FDAgov-Section-AdvisoryCommittees") > -1) {
+	   $('#clear_btn').removeClass('select');
+ 	   $('#fda_advisorycommittees_btn').addClass('select');
+	   $('.filterSelected').css('display','none');
+	   $('#fda_advisorycommitteesSelected').css('display','inline');
+   }
+
+/* Filter by Format */
+    if(window.location.href.indexOf("filetype%3Ahtm") > -1) {
+	   $('#clearFormat_btn').removeClass('selectFormat');
+	   $('#web_btn').addClass('selectFormat');
+	   $('.formatSelected').css('display','none');
+	   $('#webSelected').css('display','inline');
+	}
+    if(window.location.href.indexOf("filetype:htm") > -1) {
+	   $('#clearFormat_btn').removeClass('selectFormat');
+	   $('#web_btn').addClass('selectFormat');
+	   $('.formatSelected').css('display','none');
+	   $('#webSelected').css('display','inline');
+	}	
+    if(window.location.href.indexOf("filetype%3Apdf") > -1) {
+	   $('#clearFormat_btn').removeClass('selectFormat');
+	   $('#pdf_btn').addClass('selectFormat');
+	   $('.formatSelected').css('display','none');
+	   $('#pdfSelected').css('display','inline');
+	}
+    if(window.location.href.indexOf("filetype:pdf") > -1) {
+	   $('#clearFormat_btn').removeClass('selectFormat');
+	   $('#pdf_btn').addClass('selectFormat');
+	   $('.formatSelected').css('display','none');
+	   $('#pdfSelected').css('display','inline');
+	}	
+    if(window.location.href.indexOf("filetype%3Adoc") > -1) {
+	   $('#clearFormat_btn').removeClass('selectFormat');
+	   $('#doc_btn').addClass('selectFormat');
+	   $('.formatSelected').css('display','none');
+	   $('#docSelected').css('display','inline');
+	}
+    if(window.location.href.indexOf("filetype:doc") > -1) {
+	   $('#clearFormat_btn').removeClass('selectFormat');
+	   $('#doc_btn').addClass('selectFormat');
+	   $('.formatSelected').css('display','none');
+	   $('#docSelected').css('display','inline');
+	}	
+    if(window.location.href.indexOf("filetype%3Axls") > -1) {
+	   $('#clearFormat_btn').removeClass('selectFormat');
+	   $('#xls_btn').addClass('selectFormat');
+	   $('.formatSelected').css('display','none');
+	   $('#xlsSelected').css('display','inline');
+	}
+    if(window.location.href.indexOf("filetype:xls") > -1) {
+	   $('#clearFormat_btn').removeClass('selectFormat');
+	   $('#xls_btn').addClass('selectFormat');
+	   $('.formatSelected').css('display','none');
+	   $('#xlsSelected').css('display','inline');
+	}	
+   if(window.location.href.indexOf("filetype%3Appt") > -1) {
+	   $('#clearFormat_btn').removeClass('selectFormat');
+	   $('#ppt_btn').addClass('selectFormat');
+	   $('.formatSelected').css('display','none');
+	   $('#pptSelected').css('display','inline');
+	}
+   if(window.location.href.indexOf("filetype:ppt") > -1) {
+	   $('#clearFormat_btn').removeClass('selectFormat');
+	   $('#ppt_btn').addClass('selectFormat');
+	   $('.formatSelected').css('display','none');
+	   $('#pptSelected').css('display','inline');
+	}	
+	
+/* Sort by */
+    if(window.location.href.indexOf("sort=date%3AD%3AL%3Ad1") > -1) {
+	   $('#rdate_btn').removeClass('selectSort');
+	   $('#relevance_btn').addClass('selectSort');
+	   $('.sortSelected').css('display','none');
+	   $('#relevanceSelected').css('display','inline');
+	}
+    if(window.location.href.indexOf("sort=date:D:L:Ad1") > -1) {
+	   $('#rdate_btn').removeClass('selectSort');
+	   $('#relevance_btn').addClass('selectSort');
+	   $('.sortSelected').css('display','none');
+	   $('#relevanceSelected').css('display','inline');
+	}	
+	if(window.location.href.indexOf("sort=date%3AD%3AS%3Ad1") > -1) {
+	   $('#relevance_btn').removeClass('selectSort');
+	   $('#rdate_btn').addClass('selectSort');
+	   $('.sortSelected').css('display','none');
+	   $('#rdateSelected').css('display','inline');
+	}
+	if(window.location.href.indexOf("sort=date:D:S:d1") > -1) {
+	   $('#relevance_btn').removeClass('selectSort');
+	   $('#rdate_btn').addClass('selectSort');
+	   $('.sortSelected').css('display','none');
+	   $('#rdateSelected').css('display','inline');
+	}	
+
+
+});
+
+
+//address the filetype being removed from the Q value in URL
+function stopRKey(evt) {
+  var evt = (evt) ? evt : ((event) ? event : null);
+  var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+  if ((evt.keyCode == 13) && (node.id=="q_field") ) {return false;}
+}
+
+document.onkeypress = stopRKey; 
+
+//]]>
+      </script>
+      <div class="box_body" style="float:left; width: 775px; padding: 0 0 10px 5px; clear:none">
+        <div id="upper_search" style="clear: both; margin: 5px 0 15px 0; padding: 0">
+          <form name="gs" action="search" method="get">
+            <label for="q_field" style="display:none;">
+              Enter Search terms
+            </label>
+            <input type="text" name="q" id="q_field" size="80" maxlength="256" value="ibm" onkeypress="keyPressEvent(event);"/>
+            <input type="hidden" name="client" value="FDAgov"/>
+            <input type="hidden" name="output" value="xml_no_dtd"/>
+            <input type="hidden" name="proxystylesheet" value="FDAgov"/>
+            <input type="hidden" name="sort" value="date:D:L:d1"/>
+            <input type="hidden" name="site" value="FDAgov"/>
+            <input type="hidden" name="getfields" value="*"/>
+            <input type="hidden" name="requiredfields" value="-archive:Yes"/>
+            <input type="hidden" name="partialfields" value=""/>
+            <input type="hidden" name="filter" value="1"/>
+            <script>
+//<![CDATA[
+document.write('<input type="button" onclick="subSearchForm();" name="btnG" id="btnGJS" value="Search" style="background-color:#254B91; color: #fff">');
+//]]>
+            </script>
+            <input type="button" onclick="subSearchForm();" name="btnG" id="btnGJS" value="Search" style="background-color:#254B91; color: #fff"/>
+            <noscript>
+              &lt;input type="submit" name="btnG" id="btnG" value="Search" style="background-color:#254B91; color: #fff"&gt;
+            </noscript>
+          </form>
+          <input type="hidden" value="" id="restOfQ2" name="restOfQ2"/>
+        </div>
+        <hr class="z"/>
+        <hr size="1" color="gray"/>
+        <div class="resultSummary" style="float: left; width: 100%; padding: 6px  0 6px 0;">
+          <h1 style="margin:0 0 4px 0">
+            Search Results
+          </h1>
+          <span style="float:left; width: 56%">
+            Showing 1 - 10 of about 350 for 
+            <b>
+              ibm
+            </b>
+             in 
+            <b>
+              All of FDA
+            </b>
+            .
+          </span>
+        </div>
+        <div class="clearfloat" style="padding: 0 !important; height: 12px">
+        </div>
+        <div>
+          <!--tro2-->          <div id="screenslicer">
+            <p class="g">
+              <font size="-2">
+                <b/>
+              </font>
+              <a href="http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?id=4463" onclick="trackEvent(this,'Google-Two','http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?id=4463','ibm',1);return false;">
+                <span class="l">
+                  Product Classification
+                </span>
+              </a>
+              <span class="footnote_number">
+                <sup>
+                  4
+                </sup>
+              </span>
+              <span class="l_topic">
+              </span>
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tbody align="left">
+                  <tr>
+                    <td class="s">
+                      <font color="#008000" size="2">
+                        www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?id=4463
+                      </font>
+                      <font color="#008000" size="2">
+                         - 33k
+                      </font>
+                      <font color="#008000" size="2">
+                         - 2014-01-06
+                      </font>
+                      <font color="#008000" size="2">
+                         - 
+                      </font>
+                      <a ctype="cache" class="f" href="search?q=cache:oFOwROVPYfAJ:www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm%3Fid%3D4463+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=ISO-8859-1">
+                        cached
+                      </a>
+                      <span class="footnote_number">
+                        <sup>
+                          5
+                        </sup>
+                      </span>
+                      <br/>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+            <blockquote class="g">
+              <p class="g">
+                <font size="-2">
+                  <b/>
+                </font>
+                <a href="http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?id=4464" onclick="trackEvent(this,'Google-Two','http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?id=4464','ibm',2);return false;">
+                  <span class="l">
+                    Product Classification
+                  </span>
+                </a>
+                <span class="footnote_number">
+                  <sup>
+                    6
+                  </sup>
+                </span>
+                <span class="l_topic">
+                </span>
+                <table cellpadding="0" cellspacing="0" border="0">
+                  <tbody align="left">
+                    <tr>
+                      <td class="s">
+                        <font color="#008000" size="2">
+                          www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?id=4464
+                        </font>
+                        <font color="#008000" size="2">
+                           - 33k
+                        </font>
+                        <font color="#008000" size="2">
+                           - 2014-01-06
+                        </font>
+                        <font color="#008000" size="2">
+                           - 
+                        </font>
+                        <a ctype="cache" class="f" href="search?q=cache:JSptDFTH_d4J:www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm%3Fid%3D4464+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=ISO-8859-1">
+                          cached
+                        </a>
+                        <span class="footnote_number">
+                          <sup>
+                            7
+                          </sup>
+                        </span>
+                        <br/>
+                        <b>
+                          ...
+                        </b>
+                         Review Panel, Pathology. Product Code, 
+                        <b>
+                          IBM
+                        </b>
+                        . Premarket Review, Office
+                        <br/>
+                         of In Vitro Diagnostics and Radiological
+                        Health (OIR). 
+                        <b>
+                          ...
+                        </b>
+                        <br/>
+                        <div style="margin-top:8px; display:block; vertical-align:middle;">
+                          <img style="margin-right:5px" src="http://www.accessdata.fda.gov/scripts/search/frontends/images/arrow.png" alt="more info arrow"/>
+                          <a style="font-size:1.2em" ctype="sitesearch" class="f" href="search?as_sitesearch=www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm&amp;q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1">
+                            More results from www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm
+                          </a>
+                          <span class="footnote_number">
+                            <sup>
+                              8
+                            </sup>
+                          </span>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </p>
+            </blockquote>
+            <p class="g">
+              <font size="-2">
+                <b>
+                  [PDF]
+                </b>
+              </font>
+              <a href="http://www.fda.gov/downloads/medicaldevices/newsevents/workshopsconferences/ucm256375.pdf" onclick="trackEvent(this,'Google-Two','http://www.fda.gov/downloads/medicaldevices/newsevents/workshopsconferences/ucm256375.pdf','ibm',3);return false;">
+                <span class="l">
+                  GBS Proposal template
+                </span>
+              </a>
+              <span class="footnote_number">
+                <sup>
+                  9
+                </sup>
+              </span>
+              <span class="l_topic">
+                 [Medical Devices]
+              </span>
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tbody align="left">
+                  <tr>
+                    <td class="s">
+                      <font color="#008000" size="2">
+                        www.fda.gov/downloads/medicaldevices/newsevents/workshopsconferences/ucm256375.pdf
+                      </font>
+                      <font color="#008000" size="2">
+                         - 53k
+                      </font>
+                      <font color="#008000" size="2">
+                         - 
+                      </font>
+                      <a ctype="cache" class="f" href="search?q=cache:GtxoWqb7oDcJ:www.fda.gov/downloads/medicaldevices/newsevents/workshopsconferences/ucm256375.pdf+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=UTF-8">
+                        Text Version
+                      </a>
+                      <span class="footnote_number">
+                        <sup>
+                          10
+                        </sup>
+                      </span>
+                      <br/>
+                      Page 1. © 2011 
+                      <b>
+                        IBM
+                      </b>
+                       Corporation Exploration and Visualization of 
+                      <b>
+                        ...
+                      </b>
+                       Market Setting
+                      <br/>
+                       May 12, 2011 Jianying
+                        Hu, Ph.D., 
+                      <b>
+                        IBM
+                      </b>
+                       TJ Watson Research Center 
+                      <b>
+                        ...
+                      </b>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+            <p class="g">
+              <font size="-2">
+                <b>
+                  [PDF]
+                </b>
+              </font>
+              <a href="http://www.fda.gov/downloads/iceci/enforcementactions/warningletters/1998/ucm066638.pdf" onclick="trackEvent(this,'Google-Two','http://www.fda.gov/downloads/iceci/enforcementactions/warningletters/1998/ucm066638.pdf','ibm',4);return false;">
+                <span class="l">
+                  <b>
+                    IBM
+                  </b>
+                  !lEm
+                </span>
+              </a>
+              <span class="footnote_number">
+                <sup>
+                  11
+                </sup>
+              </span>
+              <span class="l_topic">
+                 [Inspections and Compliance]
+              </span>
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tbody align="left">
+                  <tr>
+                    <td class="s">
+                      <font color="#008000" size="2">
+                        www.fda.gov/downloads/iceci/enforcementactions/warningletters/1998/ucm066638.pdf
+                      </font>
+                      <font color="#008000" size="2">
+                         - 11k
+                      </font>
+                      <font color="#008000" size="2">
+                         - 
+                      </font>
+                      <a ctype="cache" class="f" href="search?q=cache:8hvJRqDKYKUJ:www.fda.gov/downloads/iceci/enforcementactions/warningletters/1998/ucm066638.pdf+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=UTF-8">
+                        Text Version
+                      </a>
+                      <span class="footnote_number">
+                        <sup>
+                          12
+                        </sup>
+                      </span>
+                      <br/>
+                      <b>
+                        ...
+                      </b>
+                       Failure to promptly correct these deviations may result in regulatory action,
+                      <br/>
+                       such as a seizure, without further
+                        notice. 
+                      <b>
+                        IBM
+                      </b>
+                      !lEm REwWEDBY@ Co. 
+                      <b>
+                        ...
+                      </b>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+            <p class="g">
+              <font size="-2">
+                <b/>
+              </font>
+              <a href="http://www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm311831.htm" onclick="trackEvent(this,'Google-Two','http://www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm311831.htm','ibm',5);return false;">
+                <span class="l">
+                  BK120028 Summary
+                </span>
+              </a>
+              <span class="footnote_number">
+                <sup>
+                  13
+                </sup>
+              </span>
+              <span class="l_topic">
+                 [Vaccines, Blood &amp; Biologics]
+              </span>
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tbody align="left">
+                  <tr>
+                    <td class="s">
+                      <font color="#008000" size="2">
+                        www.fda.gov/.../approvedproducts/substantiallyequivalent510kdeviceinformation/ucm311831.htm
+                      </font>
+                      <font color="#008000" size="2">
+                         - 45k
+                      </font>
+                      <font color="#008000" size="2">
+                         - 2012-07-27
+                      </font>
+                      <font color="#008000" size="2">
+                         - 
+                      </font>
+                      <a ctype="cache" class="f" href="search?q=cache:TaW8m8hN_gYJ:www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm311831.htm+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=ISO-8859-1">
+                        cached
+                      </a>
+                      <span class="footnote_number">
+                        <sup>
+                          14
+                        </sup>
+                      </span>
+                      <br/>
+                      <b>
+                        ...
+                      </b>
+                       Technological Characteristics, Hardware, 
+                      <b>
+                        IBM
+                      </b>
+                       iSeries (AS/400), Intel compatible
+                      <br/>
+                       PC/Server, 
+                      <b>
+                        IBM
+                      </b>
+                      
+                        iSeries (AS/400), 
+                      <b>
+                        IBM
+                      </b>
+                       iSeries (AS/400). 
+                      <b>
+                        ...
+                      </b>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+            <blockquote class="g">
+              <p class="g">
+                <font size="-2">
+                  <b/>
+                </font>
+                <a href="http://www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm300032.htm" onclick="trackEvent(this,'Google-Two','http://www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm300032.htm','ibm',6);return false;">
+                  <span class="l">
+                    BK110070 Summary
+                  </span>
+                </a>
+                <span class="footnote_number">
+                  <sup>
+                    15
+                  </sup>
+                </span>
+                <span class="l_topic">
+                   [Vaccines, Blood &amp; Biologics]
+                </span>
+                <table cellpadding="0" cellspacing="0" border="0">
+                  <tbody align="left">
+                    <tr>
+                      <td class="s">
+                        <font color="#008000" size="2">
+                          www.fda.gov/.../approvedproducts/substantiallyequivalent510kdeviceinformation/ucm300032.htm
+                        </font>
+                        <font color="#008000" size="2">
+                           - 48k
+                        </font>
+                        <font color="#008000" size="2">
+                           - 2012-05-02
+                        </font>
+                        <font color="#008000" size="2">
+                           - 
+                        </font>
+                        <a ctype="cache" class="f" href="search?q=cache:4HCJ7edLWb8J:www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm300032.htm+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=ISO-8859-1">
+                          cached
+                        </a>
+                        <span class="footnote_number">
+                          <sup>
+                            16
+                          </sup>
+                        </span>
+                        <br/>
+                        <b>
+                          ...
+                        </b>
+                        <b>
+                          IBM
+                        </b>
+                         iSeries Hardware and Operating System V5R3. 
+                        <b>
+                          ...
+                        </b>
+                         Programming languages,
+                        <br/>
+                         Microsoft ASP.NET,
+                        
+                        <b>
+                          IBM
+                        </b>
+                         RPG III and Java 2 SE 1.4. 
+                        <b>
+                          ...
+                        </b>
+                        <br/>
+                        <div style="margin-top:8px; display:block; vertical-align:middle;">
+                          <img style="margin-right:5px" src="http://www.accessdata.fda.gov/scripts/search/frontends/images/arrow.png" alt="more info arrow"/>
+                          <a style="font-size:1.2em" ctype="sitesearch" class="f" href="search?as_sitesearch=www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts&amp;q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1">
+                            More results from www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts
+                          </a>
+                          <span class="footnote_number">
+                            <sup>
+                              17
+                            </sup>
+                          </span>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </p>
+            </blockquote>
+            <p class="g">
+              <font size="-2">
+                <b>
+                  [PDF]
+                </b>
+              </font>
+              <a href="http://www.fda.gov/downloads/food/guidanceregulation/guidancedocumentsregulatoryinformation/ingredientsadditivesgraspackaging/ucm078724.pdf" onclick="trackEvent(this,'Google-Two','http://www.fda.gov/downloads/food/guidanceregulation/guidancedocumentsregulatoryinformation/ingredientsadditivesgraspackaging/ucm078724.pdf','ibm',7);return false;">
+                <span class="l">
+                  Chapter II
+                </span>
+              </a>
+              <span class="footnote_number">
+                <sup>
+                  18
+                </sup>
+              </span>
+              <span class="l_topic">
+                 [Food]
+              </span>
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tbody align="left">
+                  <tr>
+                    <td class="s">
+                      <font color="#008000" size="2">
+                        www.fda.gov/.../guidancedocumentsregulatoryinformation/ingredientsadditivesgraspackaging/ucm078724.pdf
+                      </font>
+                      <font color="#008000" size="2">
+                         - 52k
+                      </font>
+                      <font color="#008000" size="2">
+                         - 
+                      </font>
+                      <a ctype="cache" class="f" href="search?q=cache:gPDC5n2zOfYJ:www.fda.gov/downloads/food/guidanceregulation/guidancedocumentsregulatoryinformation/ingredientsadditivesgraspackaging/ucm078724.pdf+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=ISO-8859-1">
+                        Text Version
+                      </a>
+                      <span class="footnote_number">
+                        <sup>
+                          19
+                        </sup>
+                      </span>
+                      <br/>
+                      <b>
+                        ...
+                      </b>
+                       Therefore, much time would be saved if data are submitted in a machine-
+                      <br/>
+                       readable form (magnetic tape for the
+                        
+                      <b>
+                        IBM
+                      </b>
+                       mainframe standard or floppy 
+                      <b>
+                        ...
+                      </b>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+            <p class="g">
+              <font size="-2">
+                <b>
+                  [PDF]
+                </b>
+              </font>
+              <a href="http://www.accessdata.fda.gov/cdrh_docs/pdf10/k102127.pdf" onclick="trackEvent(this,'Google-Two','http://www.accessdata.fda.gov/cdrh_docs/pdf10/k102127.pdf','ibm',8);return false;">
+                <span class="l">
+                  AUG 2 7 2010
+                </span>
+              </a>
+              <span class="footnote_number">
+                <sup>
+                  20
+                </sup>
+              </span>
+              <span class="l_topic">
+              </span>
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tbody align="left">
+                  <tr>
+                    <td class="s">
+                      <font color="#008000" size="2">
+                        www.accessdata.fda.gov/cdrh_docs/pdf10/k102127.pdf
+                      </font>
+                      <font color="#008000" size="2">
+                         - 26k
+                      </font>
+                      <font color="#008000" size="2">
+                         - 2010-09-07
+                      </font>
+                      <font color="#008000" size="2">
+                         - 
+                      </font>
+                      <a ctype="cache" class="f" href="search?q=cache:WeFb9mpGxRwJ:www.accessdata.fda.gov/cdrh_docs/pdf10/k102127.pdf+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=ISO-8859-1">
+                        Text Version
+                      </a>
+                      <span class="footnote_number">
+                        <sup>
+                          21
+                        </sup>
+                      </span>
+                      <br/>
+                      <b>
+                        ...
+                      </b>
+                       Trade Name JEM 325, JEM 330, 
+                      <b>
+                        IBM
+                      </b>
+                       340, 
+                      <b>
+                        IBM
+                      </b>
+                       350, JEM 355, JEM 360, JEM
+                      <br/>
+                       365, JBM 370, 
+                      <b>
+                        IBM
+                      </b>
+                      
+                        400 Common Changer, Tube, Endotracheal Name 
+                      <b>
+                        ...
+                      </b>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+            <p class="g">
+              <font size="-2">
+                <b>
+                  [PDF]
+                </b>
+              </font>
+              <a href="http://www.accessdata.fda.gov/cdrh_docs/pdf6/k062088.pdf" onclick="trackEvent(this,'Google-Two','http://www.accessdata.fda.gov/cdrh_docs/pdf6/k062088.pdf','ibm',9);return false;">
+                <span class="l">
+                  'AUG25 2006
+                </span>
+              </a>
+              <span class="footnote_number">
+                <sup>
+                  22
+                </sup>
+              </span>
+              <span class="l_topic">
+              </span>
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tbody align="left">
+                  <tr>
+                    <td class="s">
+                      <font color="#008000" size="2">
+                        www.accessdata.fda.gov/cdrh_docs/pdf6/k062088.pdf
+                      </font>
+                      <font color="#008000" size="2">
+                         - 35k
+                      </font>
+                      <font color="#008000" size="2">
+                         - 2006-09-08
+                      </font>
+                      <font color="#008000" size="2">
+                         - 
+                      </font>
+                      <a ctype="cache" class="f" href="search?q=cache:QKCE-y9QcPIJ:www.accessdata.fda.gov/cdrh_docs/pdf6/k062088.pdf+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=UTF-8">
+                        Text Version
+                      </a>
+                      <span class="footnote_number">
+                        <sup>
+                          23
+                        </sup>
+                      </span>
+                      <br/>
+                      <b>
+                        ...
+                      </b>
+                       Owner DMS DMS Brentwood 510(k) Number K911615B K031466 Type 
+                      <b>
+                        IBM
+                      </b>
+                      <br/>
+                       PC AT Compatible 
+                      <b>
+                        IBM
+                      </b>
+                       PC AT Compatible
+                        
+                      <b>
+                        IBM
+                      </b>
+                       PC AT Compatible 
+                      <b>
+                        ...
+                      </b>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+            <p class="g">
+              <font size="-2">
+                <b>
+                  [PDF]
+                </b>
+              </font>
+              <a href="http://www.fda.gov/downloads/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm235911.pdf" onclick="trackEvent(this,'Google-Two','http://www.fda.gov/downloads/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm235911.pdf','ibm',10);return false;">
+                <span class="l">
+                  BK100045 - SoftBank II Version 25.1
+                </span>
+              </a>
+              <span class="footnote_number">
+                <sup>
+                  24
+                </sup>
+              </span>
+              <span class="l_topic">
+                 [Vaccines, Blood &amp; Biologics]
+              </span>
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tbody align="left">
+                  <tr>
+                    <td class="s">
+                      <font color="#008000" size="2">
+                        www.fda.gov/.../approvedproducts/substantiallyequivalent510kdeviceinformation/ucm235911.pdf
+                      </font>
+                      <font color="#008000" size="2">
+                         - 64k
+                      </font>
+                      <font color="#008000" size="2">
+                         - 
+                      </font>
+                      <a ctype="cache" class="f" href="search?q=cache:iHZWKhYOFtkJ:www.fda.gov/downloads/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm235911.pdf+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=UTF-8">
+                        Text Version
+                      </a>
+                      <span class="footnote_number">
+                        <sup>
+                          25
+                        </sup>
+                      </span>
+                      <br/>
+                      <b>
+                        ...
+                      </b>
+                       25.1 CPU 
+                      <b>
+                        IBM
+                      </b>
+                       RS/6000 Model 150 
+                      <b>
+                        IBM
+                      </b>
+                       RS/6000 Model 150 
+                      <b>
+                        ...
+                      </b>
+                       data. Operating
+                      <br/>
+                       System 
+                      <b>
+                        IBM
+                      </b>
+                      
+                        AIX Version 5.1 
+                      <b>
+                        IBM
+                      </b>
+                       AIX Version 5.1 
+                      <b>
+                        ...
+                      </b>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+          </div>
+          <center>
+            <div class="n">
+              <table border="0" cellpadding="3" style="width: 1%" cellspacing="0">
+                <tbody align="left">
+                  <tr align="center" valign="middle">
+                    <td valign="bottom" nowrap="1">
+                      <font size="-1">
+                         
+                      </font>
+                    </td>
+                    <td nowrap="1"/>
+                    <td>
+                       
+                      <span class="i">
+                        1
+                      </span>
+                       
+               
+                    </td>
+                    <td>
+                       
+                      <a ctype="nav.page" href="search?q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1&amp;start=10">
+                        2
+                      </a>
+                       
+               
+                    </td>
+                    <td>
+                       
+                      <a ctype="nav.page" href="search?q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1&amp;start=20">
+                        3
+                      </a>
+                       
+               
+                    </td>
+                    <td>
+                       
+                      <a ctype="nav.page" href="search?q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1&amp;start=30">
+                        4
+                      </a>
+                       
+               
+                    </td>
+                    <td>
+                       
+                      <a ctype="nav.page" href="search?q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1&amp;start=40">
+                        5
+                      </a>
+                       
+               
+                    </td>
+                    <td>
+                       
+                      <a ctype="nav.page" href="search?q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1&amp;start=50">
+                        6
+                      </a>
+                       
+               
+                    </td>
+                    <td>
+                       
+                      <a ctype="nav.page" href="search?q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1&amp;start=60">
+                        7
+                      </a>
+                       
+               
+                    </td>
+                    <td>
+                       
+                      <a ctype="nav.page" href="search?q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1&amp;start=70">
+                        8
+                      </a>
+                       
+               
+                    </td>
+                    <td>
+                       
+                      <a ctype="nav.page" href="search?q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1&amp;start=80">
+                        9
+                      </a>
+                       
+               
+                    </td>
+                    <td>
+                       
+                      <a ctype="nav.page" href="search?q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1&amp;start=90">
+                        10
+                      </a>
+                       
+               
+                    </td>
+                    <td nowrap="1">
+                       
+                      <span class="b">
+                        <a ctype="nav.next" href="search?q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1&amp;start=10">
+                          Next
+                        </a>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </center>
+        </div>
+        <br/>
+      </div>
+      <div class="clearfloat">
+        -
+      </div>
+    </div>
+    <div id="footer">
+      <div id="pagetools_bottom">
+        <div id="pagetools_right">
+          <p>
+            
+      Note: If you need help accessing information in different file formats, see
+      
+            <a href="http://www.fda.gov/AboutFDA/AboutThisWebsite/WebsitePolicies/ViewingFiles/default.htm">
+              Instructions for Downloading
+      Viewers and Players
+            </a>
+          </p>
+        </div>
+      </div>
+      <!-- ## ADDED footer-heading ## -->      <div id="footer-heading">
+        <div id="footer-fdalinks">
+          <ul class="list-horizontal">
+            <li class="first">
+              <a href="http://www.fda.gov/AboutFDA/AboutThisWebsite/Accessibility/default.htm" title="Accessibility">
+                Accessibility
+              </a>
+            </li>
+            <li>
+              <a href="http://www.fda.gov/AboutFDA/ContactFDA/default.htm" title="Contact FDA">
+                Contact FDA
+              </a>
+            </li>
+            <li>
+              <a href="http://www.fda.gov/AboutFDA/WorkingatFDA/default.htm" title="Careers">
+                Careers
+              </a>
+            </li>
+            <li>
+              <a href="http://www.fda.gov/AboutFDA/Transparency/Basics/default.htm" title="FDA Basics">
+                FDA Basics
+              </a>
+            </li>
+            <li>
+              <a href="http://www.fda.gov/RegulatoryInformation/FOI/default.htm" title="Freedom of Information Act">
+                FOIA
+              </a>
+            </li>
+            <li>
+              <a href="http://www.fda.gov/AboutFDA/WorkingatFDA/NoFearAct/default.htm" title="No Fear Act">
+                No Fear Act
+              </a>
+            </li>
+            <li>
+              <a href="http://www.fda.gov/SiteMap/default.htm" title="Site Map">
+                Site Map
+              </a>
+            </li>
+            <li>
+              <a href="http://www.fda.gov/AboutFDA/Transparency/default.htm" title="Transparency">
+                Transparency
+              </a>
+            </li>
+            <li class="last">
+              <a href="http://www.fda.gov/AboutFDA/AboutThisWebsite/WebsitePolicies/default.htm" title="Website
+      Policies">
+                Website Policies
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="footer-fdalogo">
+          <a href="http://www.fda.gov/" title="FDA Homepage">
+            <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_footer_logo_fda.png" alt="FDA" title="FDA Homepage"/>
+          </a>
+        </div>
+      </div>
+      <!-- ## END footer-heading ## -->      <!-- ## ADDED footer-content ## -->      <div id="footer-content" class="three-column">
+        <div id="footer-fda" class="first">
+          <div class="footer-header">
+            U.S. Food and Drug Administration
+          </div>
+          <div class="address">
+            
+      							10903 New Hampshire Avenue 
+            <br/>
+            
+      							Silver Spring, MD 20993 
+            <br/>
+            
+      							Ph. 1-888-INFO-FDA (1-888-463-6332) 
+      
+            <br/>
+            <a title="Email FDA" href="http://www.fda.gov/AboutFDA/ContactFDA/default.htm">
+              Email FDA
+            </a>
+          </div>
+          <div id="social-links" class="hover-fade">
+            <ul class="list-horizontal">
+              <li>
+                <a href="http://www.usa.gov/" title="USA.gov">
+                  <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_footer_logo_usagov.png" alt="USA.gov" title="USA.gov"/>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/AboutFDA/ContactFDA/StayInformed/GetEmailUpdates/default.htm" title="Subscribe to E-mails">
+                  <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_footer_icon_email.png" alt="E-mail" title="Subscribe to E-mails"/>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/AboutFDA/ContactFDA/StayInformed/RSSFeeds/default.htm" title="Subscribe to RSS Feeds">
+                  <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_footer_icon_rss.png" alt="RSS" title="Subscribe to RSS Feeds"/>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/NewsEvents/InteractiveMedia/default.htm#micro" title="Follow FDA on Twitter">
+                  <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_footer_icon_twitter.png" alt="Twitter" title="Follow FDA on Twitter"/>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/NewsEvents/InteractiveMedia/default.htm#Facebook" title="Follow FDA on Facebook">
+                  <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_ftr_icon_facebook.png" alt="Facebook" title="Follow FDA on Facebook"/>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/NewsEvents/InteractiveMedia/ucm200145.htm" title="View FDA Videos">
+                  <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_footer_icon_youtube.png" alt="YouTube" title="View FDA Videos"/>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/NewsEvents/InteractiveMedia/default.htm#flickr" title="View FDA Photostream on Flickr">
+                  <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_footer_icon_flickr.png" alt="Flickr" title="View FDA Photostream on Flickr"/>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div id="footer-audience">
+            <ul class="list-horizontal">
+              <li class="first">
+                <a href="http://www.fda.gov/ForFederalStateandLocalOfficials/default.htm" title="For Government">
+                  For
+      Government
+                </a>
+              </li>
+              <li class="last">
+                <a href="http://www.fda.gov/NewsEvents/default.htm" title="For Press">
+                  For Press
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footer-links" class="second">
+          <div>
+            <ul class="list-no-bullets">
+              <li>
+                <a href="http://www.fda.gov/CombinationProducts/default.htm" title="Combination Products">
+                  Combination Products
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/AdvisoryCommittees/default.htm" title="Advisory Committees">
+                  Advisory Committees
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/ScienceResearch/default.htm" title="Science &amp; Research">
+                  Science &amp; Research
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/RegulatoryInformation/default.htm" title="Regulatory Information">
+                  Regulatory Information
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/Safety/default.htm" title="Safety">
+                  Safety
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/EmergencyPreparedness/default.htm" title="Emergency Preparedness">
+                  Emergency Preparedness
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/InternationalPrograms/default.htm" title="International Programs">
+                  International Programs
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/NewsEvents/default.htm" title="News &amp; Events">
+                  News &amp; Events
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/Training/default.htm" title="Training and Continuing Education">
+                  Training and Continuing
+      Education
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/ICECI/default.htm" title="Inspections/Compliance">
+                  Inspections/Compliance
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/ForFederalStateandLocalOfficials/default.htm" title="State &amp; Local Officials">
+                  State
+      &amp; Local Officials
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/ForConsumers/default.htm" title="Consumers">
+                  Consumers
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/ForIndustry/default.htm" title="Industry">
+                  Industry
+                </a>
+              </li>
+              <li>
+                <a href="http://www.fda.gov/ForHealthProfessionals/default.htm" title="Health Professionals">
+                  Health Professionals
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footer-hhs" class="third">
+          <div class="footer-header">
+            <a href="http://www.hhs.gov/" title="U.S. Department of Health &amp; Human Services">
+              <img src="http://www.accessdata.fda.gov/scripts/includes/images/img_fdagov_footer_hhslogo.png" alt="U.S. Department of Health &amp; Human Services" title="U.S. Department of Health &amp; Human Services"/>
+            </a>
+          </div>
+        </div>
+        <div class="clearfloat">
+        </div>
+      </div>
+      <!-- ## END footer-content ## -->      <!-- ==== BEGIN Footnote(s) ==== -->      <div id="footnote">
+        <h4>
+          Links on this page:
+        </h4>
+        <div>
+          <ol>
+            <li>
+              http://www.accessdata.fda.gov/scripts/warningletters/wlFilterByCompany.cfm
+            </li>
+            <li>
+              http://www.accessdata.fda.gov/scripts/warningletters/wlFilterByOffice.cfm
+            </li>
+            <li>
+              http://www.accessdata.fda.gov/scripts/warningletters/wlFilterBySubject.cfm
+            </li>
+            <li>
+              http://www.accessdata.fda.gov/scripts/warningletters/wlAdvancedSearch.cfm
+            </li>
+            <li>
+              http://www.accessdata.fda.gov/scripts/warningletters/wlSearchExcel.cfm
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              /FDAgov/RegulatoryInformation/FOI/HowtoMakeaFOIARequest/default.htm
+            </li>
+          </ol>
+          <ol>
+            <li>
+              http://www.fda.gov/default.htm
+            </li>
+            <li>
+              http://www.addthis.com/bookmark.php?u508=true&amp;v=152&amp;username=fdamain
+            </li>
+            <li>
+              http://www.accessdata.fda.gov/scripts/search/index.cfm?action=main.default&amp;client=FDAgov-archive&amp;site=FDAgov-archive&amp;proxystylesheet=FDAgov-archive&amp;requiredfields=archive%3AYes&amp;partialfields=&amp;sort=date:D:L:d1&amp;filter=&amp;filetype=&amp;q=%20ibm
+            </li>
+            <li>
+              http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?id=4463
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              search?q=cache:oFOwROVPYfAJ:www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm%3Fid%3D4463+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=ISO-8859-1
+            </li>
+            <li>
+              http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?id=4464
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              search?q=cache:JSptDFTH_d4J:www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm%3Fid%3D4464+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=ISO-8859-1
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              search?as_sitesearch=www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm&amp;q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1
+            </li>
+            <li>
+              http://www.fda.gov/downloads/medicaldevices/newsevents/workshopsconferences/ucm256375.pdf
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              search?q=cache:GtxoWqb7oDcJ:www.fda.gov/downloads/medicaldevices/newsevents/workshopsconferences/ucm256375.pdf+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=UTF-8
+            </li>
+            <li>
+              http://www.fda.gov/downloads/iceci/enforcementactions/warningletters/1998/ucm066638.pdf
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              search?q=cache:8hvJRqDKYKUJ:www.fda.gov/downloads/iceci/enforcementactions/warningletters/1998/ucm066638.pdf+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=UTF-8
+            </li>
+            <li>
+              http://www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm311831.htm
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              search?q=cache:TaW8m8hN_gYJ:www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm311831.htm+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=ISO-8859-1
+            </li>
+            <li>
+              http://www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm300032.htm
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              search?q=cache:4HCJ7edLWb8J:www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm300032.htm+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=ISO-8859-1
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              search?as_sitesearch=www.fda.gov/biologicsbloodvaccines/bloodbloodproducts/approvedproducts&amp;q=ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;requiredfields=-archive:Yes&amp;output=xml_no_dtd&amp;getfields=*&amp;ie=UTF-8&amp;ulang=en&amp;ip=74.136.97.147&amp;access=p&amp;sort=date:D:L:d1&amp;entqr=3&amp;entqrm=0&amp;oe=UTF-8&amp;ud=1
+            </li>
+            <li>
+              http://www.fda.gov/downloads/food/guidanceregulation/guidancedocumentsregulatoryinformation/ingredientsadditivesgraspackaging/ucm078724.pdf
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              search?q=cache:gPDC5n2zOfYJ:www.fda.gov/downloads/food/guidanceregulation/guidancedocumentsregulatoryinformation/ingredientsadditivesgraspackaging/ucm078724.pdf+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=ISO-8859-1
+            </li>
+            <li>
+              http://www.accessdata.fda.gov/cdrh_docs/pdf10/k102127.pdf
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              search?q=cache:WeFb9mpGxRwJ:www.accessdata.fda.gov/cdrh_docs/pdf10/k102127.pdf+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=ISO-8859-1
+            </li>
+            <li>
+              http://www.accessdata.fda.gov/cdrh_docs/pdf6/k062088.pdf
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              search?q=cache:QKCE-y9QcPIJ:www.accessdata.fda.gov/cdrh_docs/pdf6/k062088.pdf+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=UTF-8
+            </li>
+            <li>
+              http://www.fda.gov/downloads/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm235911.pdf
+            </li>
+            <li>
+              <!--$FDAGovSiteHeader-->              search?q=cache:iHZWKhYOFtkJ:www.fda.gov/downloads/biologicsbloodvaccines/bloodbloodproducts/approvedproducts/substantiallyequivalent510kdeviceinformation/ucm235911.pdf+ibm&amp;client=FDAgov&amp;site=FDAgov&amp;lr=&amp;proxystylesheet=FDAgov&amp;output=xml_no_dtd&amp;ie=UTF-8&amp;access=p&amp;oe=UTF-8
+            </li>
+          </ol>
+        </div>
+      </div>
+      <!-- ==== END Footnote(s) ==== -->      <!-- ==== BEGIN Page Tools Bottom ==== -->      <!-- ## REMOVED pagetools_bottom ## -->      <!-- ==== END Page Tools Bottom ==== -->      <!-- ## REMOVED footer-menu ## -->    </div>
+    <div class="clearfloat">
+    </div>
+    <div id="bottom_corner" class="box_bottom">
+    </div>
+    <div class="clearfloat">
+    </div>
+    <div class="clearfloat">
+      -
+    </div>
+    <script language="javascript" src="clicklog.js">
+    </script>
+    <div id="ui-datepicker-div" style="display: none;">
+    </div>
+  </body>
+</html>

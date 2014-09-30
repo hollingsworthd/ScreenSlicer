@@ -1,0 +1,2408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <title>
+      Search - New York News
+    </title>
+    <meta content="WNYW, New York news, New York weather, New York sports
+" name="KEYWORDS"/>
+    <meta content="WNYW, New York news, New York weather, New York sports
+" name="news_keywords"/>
+    <meta content="index,follow,noarchive" name="ROBOTS"/>
+    <meta content="" name="date"/>
+    <meta content="WNYW" name="owner"/>
+    <meta content="ContainerE-Category" name="wn-version"/>
+    <meta content="XSLT-v3-9-60" name="wn-build"/>
+    <meta content="IIS29" name="wn-base"/>
+    <meta content="search" name="wnreadableurl"/>
+    <meta content="Search" property="og:title"/>
+    <meta content="article" property="og:type"/>
+    <meta content="http://www.myfoxny.com/search" property="og:url"/>
+    <meta content="" property="og:description"/>
+    <link href="http://www.myfoxny.com/search" rel="canonical"/>
+    <!--
+                Page Include: META-->    <meta content="gzsJ8DjdDfdh5YPmzkFF7JlcC3MSlYmKfqfPnwLLqZc" name="google-site-verification"/>
+    <meta content="9A63185DB5CA6C82BDB0365B7191726B" name="msvalidate.01"/>
+    <meta content="252497958109297" property="fb:app_id"/>
+    <meta content="summary" name="twitter:card"/>
+    <meta content="@myfoxny" name="twitter:site"/>
+    <meta content="id334141111" name="twitter:app:id:iphone"/>
+    <meta content="id334141111" name="twitter:app:id:ipad"/>
+    <meta content="com.mylocaltv.wnyw" name="twitter:app:id:googleplay"/>
+    <!--
+                END Page Include: META-->    <link href="http://content.worldnow.com/global/css/_pub/platform.min.css?ver=XSLT-v3-9-60_v3-9" media="all" rel="stylesheet" type="text/css"/>
+    <link href="http://WNYW.images.worldnow.com/interface/css/container-e.css?ver=2014-03-22%2009%3A53%3A29_v3-9" media="all" rel="stylesheet" type="text/css"/>
+    <!--
+            [if lt IE 6]><link type="text/css" rel="stylesheet" media="screen" href="http://content.worldnow.com/global/css/_pub/quirks/iequirks.css?ver=v3-9"><![endif]
+        -->    <!--
+            [if lt IE 7]><link type="text/css" rel="stylesheet" media="screen" href="http://content.worldnow.com/global/css/_pub/quirks/ie6quirks.css?ver=v3-9"><![endif]
+        -->    <!--MENU INCLUDES-->    <style type="text/css">
+      #menu2160 UL
+                    , #menu2160 .wnHorizontal { background-color: #000c43; font-family: Arial; font-size: 12px; font-weight: 700; color: #ffffff; }
+                #menu2160 A,
+                    #menu2160 LI.wnOn .wnSublevel A,
+                    #menu2160 LI.wnOn .wnSublevel LI.wnOn .wnLevel3 A { font-family: Arial; font-size: 12px; font-weight: 700; color: #ffffff; }
+                #menu2160
+                        .wnLevel1, #menu2160
+                        .wnLevel1 LI { height: 37px; }
+                            #menu2160 .wnHorizontal .wnStatic .wnMenuTypeImage .wnSublevel LI { height: auto; }
+                    #menu2160 UL LI.wnOn { background-color: #e7e7e7; color: #000c43; }
+                    #menu2160 LI.wnOn A,
+                        #menu2160 LI.wnOn .wnSublevel LI.wnOn A,
+                        #menu2160 LI.wnOn .wnSublevel LI.wnOn .wnLevel3 LI.wnOn A { color: #000c43; }
+                    #menu2160 .wnSublevel { background-color: #e7e7e7; color: #000c43; }
+                #menu2160 LI.wnOn .wnSublevel A,
+                    #menu2160 LI.wnOn .wnSublevel LI.wnOn .wnLevel3 A { color: #000c43; }
+                #menu2160 .wnSublevel { border : 1px #e9e9e9 solid; }
+                        #menu2160 &amp;gt; .wnHorizontal .wnStatic .wnMenuTypeImage .wnSublevel { width: 978px; }
+                    #menu2160 .wnSublevel LI.wnOn { background-color: #e7e7e7;  }
+                    #menu2160 .wnLeft { background: url('http://WNYW.images.worldnow.com/images/static/gfx/nav_left_off.gif') no-repeat left top; padding-left: 1px; }
+                    #menu2160 LI.wnOn .wnLeft { background-image: url('http://WNYW.images.worldnow.com/images/static/gfx/nav_left_on.gif'); }
+                #menu2160 .wnRight { background: url('http://WNYW.images.worldnow.com/images/static/gfx/nav_rt_off.gif') no-repeat right top; padding-right: 1px; }
+                    #menu2160 LI.wnOn .wnRight { background-image: url('http://WNYW.images.worldnow.com/images/static/gfx/nav_rt_on.gif'); }
+                #menu2160 .wnRight .wnMiddle { background: url('http://WNYW.images.worldnow.com/images/static/gfx/nav_bg_off.gif') repeat-x; }
+                    #menu2160 LI.wnOn .wnMiddle { background-image: url('http://WNYW.images.worldnow.com/images/static/gfx/nav_bg_on.gif'); }
+                #menu2160 .wnHorizontal .wnStatic .wnSublevel LI { background: url('http://WNYW.images.worldnow.com/images/static/gfx/nav_delimiter.gif') no-repeat left center; padding-left: 13px; }
+                        #menu2160 .wnHorizontal .wnStatic .wnSublevel LI.wnFirstNode { background: none; padding-left: 0; }
+                    
+
+    </style>
+    <!--END MENU INCLUDES-->    <script async="" type="text/javascript" src="http://tcr.tynt.com/ti.js">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script async="" type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+            var wng_pageInfo = {
+            affiliateName : 'WNYW',
+            affiliateId : '1123',
+            baseUrl : 'www.myfoxny.com',
+            includesDomain : 'http://content.worldnow.com',
+            includesVersion : 'v3-9',
+            videoHelpPage : '/global/story.asp?s=1343812&amp;displayHelp=true',
+            videoHelpPageMac : '/global/Story.asp?s=2918340&amp;displayHelp=true',
+            social : {mdPartnerID : '6',mdPartnerDomain : 'http://dub.worldnow.com'},
+            registrationId : '104054',
+            registrationURL:'registration',
+            readableURLenabled: 'True',
+            imageDomain : 'http://WNYW.images.worldnow.com'
+            };
+            
+wng_pageInfo.body = {};
+wng_pageInfo.taxonomy = {};
+wng_pageInfo.build='XSLT-v3-9-60';
+wng_pageInfo.isPreviewSite=false;
+wng_pageInfo.containerType='C';
+wng_pageInfo.ownerAffiliateName='WNYW';
+wng_pageInfo.ownerAffiliateId=parseInt('1123',10);
+wng_pageInfo.containerId=parseInt('230821',10);
+wng_pageInfo.containerType='C';
+wng_pageInfo.containerClass='searchresults';
+wng_pageInfo.contentClassification='Search Results';
+wng_pageInfo.userId=parseInt('',10);
+wng_pageInfo.permaLink='/search';
+wng_pageInfo.content_authors='';
+wng_pageInfo.headline='Search';
+wng_pageInfo.pageTitle='Search - New York News';
+wng_pageInfo.pageTitleTag='New York News';
+wng_pageInfo.pageTitleTagAs='Suffix';
+wng_pageInfo.body._id='WNAffWNYW';
+wng_pageInfo.body._class='wnContainerType-category wnCenterAlignment';
+wng_pageInfo.isMobile=false;
+wng_pageInfo.taxonomy.level1='';
+wng_pageInfo.taxonomy.level2='';
+wng_pageInfo.taxonomy.level3='';
+
+
+//]]>
+    </script>
+    <script src="http://WNYW.images.worldnow.com/interface/js/wnaffiliateconfig.js?ver=2014-03-22%2009%3A53%3A29_v3-9" type="text/javascript">
+    </script>
+    <script src="http://content.worldnow.com/global/js/_pub/WNYW.config.js?ver=XSLT-v3-9-60_v3-9" type="text/javascript">
+    </script>
+    <script src="http://content.worldnow.com/global/js/_pub/platform.search.min.js?ver=XSLT-v3-9-60_v3-9" type="text/javascript">
+    </script>
+    <script src="http://js.revsci.net/gateway/gw.js?csid=E05511&amp;auto=t" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+            if(Worldnow.EventMan){Worldnow.EventMan.event('head-javascript-done');}
+        
+//]]>
+    </script>
+    <!--
+                Page Include: HEAD-->    <script src="http://ftpcontent.worldnow.com/wncustom/custom/fox/2012/custom-master.js" type="text/javascript">
+    </script>
+    <script src="http://content.worldnow.com/global/interface/httprequest/httprequest.js" type="text/javascript">
+    </script>
+    <script src="http://ftpcontent.worldnow.com/wncustom/js/helpers.js" type="text/javascript">
+    </script>
+    <script src="http://ftpcontent.worldnow.com/wncustom/js/jquery.csutils.js" type="text/javascript">
+    </script>
+    <script src="http://ftpcontent.worldnow.com/wncustom/js/wxmanager.js" type="text/javascript">
+    </script>
+    <link href="http://ftpcontent.worldnow.com/wncustom/custom/fox/2012/custom-master.css" type="text/css" rel="stylesheet"/>
+    <script src="http://ftpcontent.worldnow.com/wncustom/custom/wnyw/2012/custom.js" type="text/javascript">
+    </script>
+    <link href="http://ftpcontent.worldnow.com/wncustom/custom/wnyw/2012/custom.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript">
+//<![CDATA[
+  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-15416484-8']);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+if(document.location.protocol=='http:'){var Tynt=Tynt||[];Tynt.push('cZMCOSXper4jM_adbi-bpO');Tynt.i={"ap":"Read more:"};(function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();}
+//]]>
+    </script>
+    <!--
+                END Page Include: HEAD-->    <script async="" type="text/javascript" src="http://partner.googleadservices.com/gpt/pubads_impl_35.js">
+    </script>
+  </head>
+  <body class="wnContainerType-category wnCenterAlignment searchresults" id="WNAffWNYW">
+    <div id="fb-root">
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+
+                    if(Worldnow.EventMan){Worldnow.EventMan.event('bodystart');}
+                
+//]]>
+    </script>
+    <div id="WNHeaderScripts">
+    </div>
+    <div id="WNHeader">
+      <!--AD SIZE: Leaderboard B-->      <div class="wnad wnad46  " id="WNAd46">
+      </div>
+      <!--END wnAdSize-->      <h1>
+        Search - New York News
+      </h1>
+      <div id="WNContainerMemberSearch-headertop" class="wnContainerMemberSearch">
+        <!--END wnMemberCenter-->        <div id="WNSearchBox-headertop" class="wnSearchBox wnSearchBox-right">
+          <form action="/search" onsubmit="return wnValidateSearchTerm(this,0)" method="get">
+            <input type="radio" checked="checked" class="wnVendorChoice" id="WNSearchBox-headertop-ez" value="ez" name="vendor"/>
+            <label for="WNSearchBox-headertop-ez">
+              SITE SEARCH
+            </label>
+            <input type="radio" class="wnVendorChoice" id="WNSearchBox-headertop-google_cs" value="google_cs" name="vendor"/>
+            <label for="WNSearchBox-headertop-google_cs">
+              WEB SEARCH BY 
+              <img class="wnSearchBoxLabelImg-google" alt="Google" src="http://WNYW.images.worldnow.com/global/images/google/google_logo.png"/>
+            </label>
+            <input type="text" value="" size="20" name="qu" class="wnQueryText"/>
+            <input type="submit" value="Go" class="wnSubmit"/>
+          </form>
+        </div>
+        <!--END wnSearchBox-->      </div>
+      <!--END wnContainerMemberSearch-->      <div id="WNBranding">
+        <div refresh="1" id="WNMemberCenter-headertop" class="wnMemberCenter wnMemberCenter-left wnMemberCenter-loggedOut">
+          <strong>
+            Member Center:
+          </strong>
+          <ul>
+            <li class="wnMemberOption-accountCreate wnMemberType-nonuser">
+              <a href="javascript: WNMemberCenterManager.gotoLoginLink('create')">
+                Create Account
+              </a>
+              <span class="wnSeparator">
+                |
+              </span>
+            </li>
+            <li class="wnMemberOption-logIn wnMemberType-nonuser">
+              <a href="javascript: WNMemberCenterManager.gotoLoginLink('login')">
+                Log In
+              </a>
+              <span class="wnSeparator">
+              </span>
+            </li>
+            <li class="wnMemberOption-accountManage wnMemberType-user">
+              <a href="javascript: WNMemberCenterManager.gotoLoginLink()">
+                Manage Account
+              </a>
+              <span class="wnSeparator">
+                |
+              </span>
+            </li>
+            <li class="wnMemberOption-logOut wnMemberType-user">
+              <a href="javascript:WNMemberCenterManager.gotoLoginLink('logout')">
+                Log Out
+              </a>
+              <span class="wnSeparator">
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div id="csBrandingSearchBox">
+          <form action="/search" method="get" onsubmit="return wnValidateSearchTerm(this,0)">
+            <div class="csSelect">
+              <input type="radio" name="vendor" value="ez" id="WNSearchBox-headertop-ez" class="wnVendorChoice" checked="checked"/>
+              <label for="WNSearchBox-headertop-ez">
+                Site
+              </label>
+              <br/>
+              <input type="radio" name="vendor" value="google_cs" id="WNSearchBox-headertop-google_cs" class="wnVendorChoice"/>
+              <label for="WNSearchBox-headertop-google_cs">
+                Web
+              </label>
+            </div>
+            <div class="csSearchBox">
+              <input type="text" class="wnQueryText" name="qu" size="20" value="Search..."/>
+              <input type="submit" class="wnSubmit" value="Go"/>
+            </div>
+            <div class="wnClear">
+            </div>
+          </form>
+        </div>
+        <div id="csBrandAdPromo">
+          <a target="_blank" href="/link/552164/promo">
+            <img src="http://WNYW.images.worldnow.com/images/691300_G.png"/>
+          </a>
+        </div>
+        <div id="csWxBranding">
+          <div class="temp">
+            39°
+          </div>
+          <div class="info">
+            <div class="loc">
+              New York City
+            </div>
+            <div class="condition">
+              Cloudy
+            </div>
+          </div>
+        </div>
+        <div id="csFollowUs">
+          <span class="header">
+            Connect
+          </span>
+          <a style="background-position:0px -0px;" target="_blank" href="http://www.facebook.com/FOX5NY" title="Facebook">
+          </a>
+          <a style="background-position:0px -20px;" target="_blank" href="http://www.twitter.com/myfoxny" title="Twitter">
+          </a>
+          <a style="background-position:0px -40px;" target="_self" href="/story/17321979/rss-feeds" title="RSS">
+          </a>
+          <a style="background-position:0px -60px;" target="_self" href="/link/545367/myfoxny-mobile-and-apps" title="Mobile">
+          </a>
+          <a style="background-position:0px -80px;" target="_self" href="/category/235904/contact-us" title="Email">
+          </a>
+        </div>
+        <img border="0" src="http://WNYW.images.worldnow.com/images/static/hdr/hdr_branding.jpg" alt="" usemap="#wnBrandingMap" id="WNBrandingImage"/>
+        <map name="wnBrandingMap">
+          <area href="/" target="_top" coords="0,0,980,1000" shape="rect"/>
+        </map>
+        <img width="607" height="37" border="0" src="http://WNYW.images.worldnow.com/images/static/hdr/hdr_607x37.gif" style="display:none;" id="WNPrintBrandingImage"/>
+      </div>
+      <!--END WNBranding-->    </div>
+    <!--END WNHeader-->    <div class="columnsall wnColConfig" id="WNColsAll">
+      <div id="WNMenuCol1">
+        <!--MENU START-->        <div class="wnMainMenu wnAlignJustify" id="menu2160" style="display: block;">
+          <div class="wnHorizontal" style="position:relative">
+            <div class="wnStatic">
+              <div class="wnMenuTypeImage">
+                <ul id="submenu2160" class="wnLevel1">
+                  <li id="menu2160_1-C230815" class="wnFirstNode wnHasSublevel csDynNav">
+                    <span class="wnLeft">
+                      <span class="wnRight">
+                        <span class="wnMiddle" style="padding-left: 11px; padding-right: 11px;">
+                          <span>
+                            <a href="/">
+                              <img width="41" height="37" border="0" onsrc="http://WNYW.images.worldnow.com/images/660496_G.gif" title="Home" alt="Home" src="http://WNYW.images.worldnow.com/images/660497_G.gif" id="imagemenu2160_1-C230815"/>
+                            </a>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <ul id="submenu2160_1-C230815" class="wnLevel2 wnSublevel" style="height: 24px;">
+                      <li id="menu2160_1_1-C274661" class="wnFirstNode">
+                        <span>
+                          <a href="/category/274661/contests">
+                            Contests
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_1_2-C279602" class="">
+                        <span>
+                          <a href="/category/279602/special-olympics-2014-usa-games">
+                            Special Olympics
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_1_3-C237707" class="">
+                        <span>
+                          <a href="/category/237707/contact-fox-5">
+                            Contact Fox 5
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_1_4-L668206" class="">
+                        <span>
+                          <a href="javascript:OpenWin('http://www.my9nj.com/||height=768,width=800,location=yes,resizable=yes,scrollbars=yes,toolbar=yes');">
+                            My9NJ.com
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_1_5-C234677" class="">
+                        <span>
+                          <a href="/category/234677/fox-5-tv-schedule">
+                            Fox 5 TV Schedule
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_1_6-C233383" class="">
+                        <span>
+                          <a href="/category/233383/seen-on-tv">
+                            Seen On TV
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_1_7-C233277" class="">
+                        <span>
+                          <a href="/category/233277/job-shop">
+                            Job Shop
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_1_8-L558214" class="">
+                        <span>
+                          <a href="http://mojo.myfoxny.com/">
+                            Yellow Pages
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_1_9-L545367" class="">
+                        <span>
+                          <a href="/link/545367/myfoxny-mobile-and-apps">
+                            Mobile And Apps
+                          </a>
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menu2160_2-C230818" class="wnHasSublevel csDynNav">
+                    <span class="wnLeft">
+                      <span class="wnRight">
+                        <span class="wnMiddle" style="padding-left: 11px; padding-right: 11px;">
+                          <span>
+                            <a href="/category/230818/news">
+                              <img width="41" height="37" border="0" onsrc="http://WNYW.images.worldnow.com/images/660562_G.gif" title="News" alt="News" src="http://WNYW.images.worldnow.com/images/660563_G.gif" id="imagemenu2160_2-C230818"/>
+                            </a>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <ul id="submenu2160_2-C230818" class="wnLevel2 wnSublevel" style="height: 24px;">
+                      <li id="menu2160_2_2-C233104" class="wnFirstNode">
+                        <span>
+                          <a href="/category/233104/local-news">
+                            Local News
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_2_1-C237033" class="">
+                        <span>
+                          <a href="/category/237033/live-video-on-myfoxny">
+                            Fox 5 News Live
+                          </a>
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menu2160_3-C230816" class="wnHasSublevel csDynNav">
+                    <span class="wnLeft">
+                      <span class="wnRight">
+                        <span class="wnMiddle" style="padding-left: 11px; padding-right: 11px;">
+                          <span>
+                            <a href="/weather">
+                              <img width="71" height="37" border="0" onsrc="http://WNYW.images.worldnow.com/images/665256_G.gif" title="New York Weather" alt="New York Weather" src="http://WNYW.images.worldnow.com/images/665255_G.gif" id="imagemenu2160_3-C230816"/>
+                            </a>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <ul id="submenu2160_3-C230816" class="wnLevel2 wnSublevel" style="height: 24px;">
+                      <li id="menu2160_3_1-C232771" class="wnFirstNode">
+                        <span>
+                          <a href="/category/232771/school-closings">
+                            School Closings
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_3_2-C234460" class="">
+                        <span>
+                          <a href="/category/234460/7-day-forecast">
+                            7 Day Forecast
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_3_3-C234726" class="">
+                        <span>
+                          <a href="/category/234726/airport-delays">
+                            Airport Delays
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_3_4-C236253" class="">
+                        <span>
+                          <a href="/category/236253/national-weather">
+                            National Weather
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_3_5-C279650" class="">
+                        <span>
+                          <a href="/category/279650/72-hour-futurecast">
+                            72 Hour Futurecast
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_3_6-L555401" class="">
+                        <span>
+                          <a href="http://pix.myfoxny.com/ChannelGallery.aspx?c=6896">
+                            Weather Photos
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_3_7-C234484" class="">
+                        <span>
+                          <a href="/category/234484/radar-views">
+                            Radar Views
+                          </a>
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menu2160_4-C232991" class="wnHasSublevel csDynNav">
+                    <span class="wnLeft">
+                      <span class="wnRight">
+                        <span class="wnMiddle" style="padding-left: 11px; padding-right: 11px;">
+                          <span>
+                            <a href="/category/232991/good-day">
+                              <img width="99" height="37" border="0" onsrc="http://WNYW.images.worldnow.com/images/665258_G.gif" title="Good Day NY" alt="Good Day NY" src="http://WNYW.images.worldnow.com/images/665257_G.gif" id="imagemenu2160_4-C232991"/>
+                            </a>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <ul id="submenu2160_4-C232991" class="wnLevel2 wnSublevel" style="height: 24px;">
+                      <li id="menu2160_4_1-C233218" class="wnFirstNode">
+                        <span>
+                          <a href="/category/233218/good-day-cafe">
+                            Good Day Cafe
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_4_2-C233393" class="">
+                        <span>
+                          <a href="/category/233393/watch-good-day-live">
+                            Watch Good Day NY Live
+                          </a>
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menu2160_5-C232992" class="wnHasSublevel csDynNav">
+                    <span class="wnLeft">
+                      <span class="wnRight">
+                        <span class="wnMiddle" style="padding-left: 11px; padding-right: 11px;">
+                          <span>
+                            <a href="/category/232992/traffic">
+                              <img width="60" height="37" border="0" onsrc="http://WNYW.images.worldnow.com/images/665260_G.gif" title="Traffic" alt="Traffic" src="http://WNYW.images.worldnow.com/images/665259_G.gif" id="imagemenu2160_5-C232992"/>
+                            </a>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <ul id="submenu2160_5-C232992" class="wnLevel2 wnSublevel" style="height: 24px;">
+                      <li id="menu2160_5_1-C23748" class="wnFirstNode">
+                        <span>
+                          <a href="/category/23748/travel">
+                            Travel
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_5_2-C233004" class="">
+                        <span>
+                          <a href="/category/233004/gas-prices">
+                            Gas Prices
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_5_3-C234726" class="">
+                        <span>
+                          <a href="/category/234726/airport-delays">
+                            Airport Delays
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_5_4-C237002" class="">
+                        <span>
+                          <a href="/category/237002/skyfoxhd">
+                            SkyFoxHD
+                          </a>
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menu2160_6-C230819" class="">
+                    <span class="wnLeft">
+                      <span class="wnRight">
+                        <span class="wnMiddle" style="padding-left: 11px; padding-right: 11px;">
+                          <span>
+                            <a href="/category/230819/sports">
+                              <img width="57" height="37" border="0" onsrc="http://WNYW.images.worldnow.com/images/665262_G.gif" title="Sports News" alt="Sports News" src="http://WNYW.images.worldnow.com/images/665261_G.gif" id="imagemenu2160_6-C230819"/>
+                            </a>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </li>
+                  <li id="menu2160_7-C232993" class="wnHasSublevel csDynNav">
+                    <span class="wnLeft">
+                      <span class="wnRight">
+                        <span class="wnMiddle" style="padding-left: 10px; padding-right: 11px;">
+                          <span>
+                            <a href="/category/232993/your-money">
+                              <img width="98" height="37" border="0" onsrc="http://WNYW.images.worldnow.com/images/665264_G.gif" title="Your Money" alt="Your Money" src="http://WNYW.images.worldnow.com/images/665263_G.gif" id="imagemenu2160_7-C232993"/>
+                            </a>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <ul id="submenu2160_7-C232993" class="wnLevel2 wnSublevel" style="height: 24px;">
+                      <li id="menu2160_7_1-C258697" class="wnFirstNode">
+                        <span>
+                          <a href="/category/258697/tax-center">
+                            Tax Center
+                          </a>
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menu2160_8-C232996" class="">
+                    <span class="wnLeft">
+                      <span class="wnRight">
+                        <span class="wnMiddle" style="padding-left: 10px; padding-right: 11px;">
+                          <span>
+                            <a href="/category/232996/health">
+                              <img width="55" height="37" border="0" onsrc="http://WNYW.images.worldnow.com/images/665266_G.gif" title="Health" alt="Health" src="http://WNYW.images.worldnow.com/images/665265_G.gif" id="imagemenu2160_8-C232996"/>
+                            </a>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </li>
+                  <li id="menu2160_9-C232997" class="wnHasSublevel csDynNav">
+                    <span class="wnLeft">
+                      <span class="wnRight">
+                        <span class="wnMiddle" style="padding-left: 10px; padding-right: 11px;">
+                          <span>
+                            <a href="/category/232997/entertainment">
+                              <img width="119" height="37" border="0" onsrc="http://WNYW.images.worldnow.com/images/665268_G.gif" title="Entertainment" alt="Entertainment" src="http://WNYW.images.worldnow.com/images/665267_G.gif" id="imagemenu2160_9-C232997"/>
+                            </a>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <ul id="submenu2160_9-C232997" class="wnLevel2 wnSublevel" style="height: 24px;">
+                      <li id="menu2160_9_1-C44263" class="wnFirstNode">
+                        <span>
+                          <a href="/category/44263/weddings">
+                            Weddings
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_9_2-C120651" class="">
+                        <span>
+                          <a href="/category/120651/home-family">
+                            Home/Family
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_9_3-L578541" class="">
+                        <span>
+                          <a href="/link/578541/girl-world">
+                            Girl World
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_9_4-L578546" class="">
+                        <span>
+                          <a href="/link/578546/style-glossy">
+                            Style Glossy
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_9_5-L578547" class="">
+                        <span>
+                          <a href="/link/578547/your-family">
+                            Your Family
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_9_6-C234765" class="">
+                        <span>
+                          <a href="/category/234765/tmz">
+                            TMZ
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_9_7-C268877" class="">
+                        <span>
+                          <a href="/category/268877/modern-family">
+                            Modern Family
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_9_8-L640597" class="">
+                        <span>
+                          <a href="javascript:OpenWin('http://moviestvnetwork.com/||height=768,width=768,location=yes,resizable=yes,scrollbars=yes,toolbar=yes');">
+                            Movies! Listings
+                          </a>
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menu2160_10-C230824" class="wnHasSublevel csDynNav">
+                    <span class="wnLeft">
+                      <span class="wnRight">
+                        <span class="wnMiddle" style="padding-left: 10px; padding-right: 11px;">
+                          <span>
+                            <a href="/video">
+                              <img width="44" height="37" border="0" onsrc="http://WNYW.images.worldnow.com/images/665270_G.gif" title="Video Landing Page" alt="Video Landing Page" src="http://WNYW.images.worldnow.com/images/665269_G.gif" id="imagemenu2160_10-C230824"/>
+                            </a>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <ul id="submenu2160_10-C230824" class="wnLevel2 wnSublevel" style="height: 24px;">
+                      <li id="menu2160_10_1-C237002" class="wnFirstNode">
+                        <span>
+                          <a href="/category/237002/skyfoxhd">
+                            SkyFoxHD
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_10_2-C237033" class="">
+                        <span>
+                          <a href="/category/237033/live-video-on-myfoxny">
+                            Fox 5 News Live
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_10_3-L578549" class="">
+                        <span>
+                          <a href="javascript:OpenWin('http://www.fox.com/full-episodes/?affiliate=myfoxny||height=768,width=1024,location=yes,resizable=yes,scrollbars=yes,toolbar=yes');">
+                            Fox On Demand
+                          </a>
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menu2160_11-C232999" class="wnHasSublevel csDynNav">
+                    <span class="wnLeft">
+                      <span class="wnRight">
+                        <span class="wnMiddle" style="padding-left: 10px; padding-right: 11px;">
+                          <span>
+                            <a href="/category/232999/inside-fox-5">
+                              <img width="93" height="37" border="0" onsrc="http://WNYW.images.worldnow.com/images/665254_G.gif" title="Inside Fox 5" alt="Inside Fox 5" src="http://WNYW.images.worldnow.com/images/665271_G.gif" id="imagemenu2160_11-C232999"/>
+                            </a>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <ul id="submenu2160_11-C232999" class="wnLevel2 wnSublevel" style="height: 24px;">
+                      <li id="menu2160_11_1-S17103277" class="wnFirstNode">
+                        <span>
+                          <a href="/story/17103277/2012/03/07/closed-captioning">
+                            Closed or IP Captioning
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_11_4-S24265851" class="">
+                        <span>
+                          <a href="/story/24265851/mcdonalds-gospelfest-2014-women-who-worship">
+                            McDonald's Gospelfest 2014
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_11_5-C234677" class="">
+                        <span>
+                          <a href="/category/234677/fox-5-tv-schedule">
+                            Fox 5 TV Schedule
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_11_6-C234727" class="">
+                        <span>
+                          <a href="/category/234727/good-day-street-talk">
+                            Good Day Street Talk
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_11_2-S17210550" class="">
+                        <span>
+                          <a href="/story/17210550/public-affairspublic-file">
+                            Public Affairs/Public File
+                          </a>
+                        </span>
+                      </li>
+                      <li id="menu2160_11_3-C232823" class="">
+                        <span>
+                          <a href="/category/232823/fox-5-personalities">
+                            Fox 5 Personalities
+                          </a>
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <div id="clearmenu2160" class="wnClearMenu">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wnMenuSpacer" id="spacermenu2160" style="height: 24px;">
+          </div>
+        </div>
+        <script type="text/javascript">
+//<![CDATA[
+
+            if (window.wnMenuSetup) {
+            wnMenuSetup('menu2160', 
+            { alignment : '', timeoutDuration : '', highlightActiveNodes : true, level1Height : '37', levelBorderWidths : { level1 : { top : '0' , right : '0' , bottom : '0' , left : '0' } , level2 : { top : '1' , right : '1' , bottom : '1' , left : '1' } }, cornerGraphics : { left : ['http://WNYW.images.worldnow.com/images/static/gfx/nav_left_off.gif', 'http://WNYW.images.worldnow.com/images/static/gfx/nav_left_on.gif'] , right: ['http://WNYW.images.worldnow.com/images/static/gfx/nav_rt_off.gif', 'http://WNYW.images.worldnow.com/images/static/gfx/nav_rt_on.gif'] } }
+        );
+            }
+        
+//]]>
+        </script>
+        <!--MENU END-->      </div>
+      <script type="text/javascript">
+//<![CDATA[
+if (Worldnow.EventMan) Worldnow.EventMan.event('WNMenuCol1done');
+//]]>
+      </script>
+      <!--END WNMenuCol1-->      <div class="columns wnColConfig" id="WNCols234-5">
+        <div class="wnColConfig4" id="WNCols23-4">
+          <!--AD SIZE: Pencil-->          <div class="wnad wnad85  " id="WNAd85">
+          </div>
+          <!--END wnAdSize-->          <div class="wnColConfig columns col2 col3" id="WNCol23" style="min-height: 1099px;">
+            <div id="WNCol23Top">
+              <!--DISPLAY SIZE 21: Page Feature - Col 2/3-->              <div class="wnDS21 wnDSContainer-feature wnDS" id="WNDS21">
+                <div class="wnDSItems-feature">
+                  <script type="text/javascript" src="http://www.google.com/adsense/search/ads.js">
+                  </script>
+                  <script charset="utf-8" type="text/javascript">
+//<![CDATA[
+
+			var pageOptions = {
+			  'pubId' : 'pub-2613565434640259',
+			  'query' : 'us',
+			  'channel' : '7818595491',
+			  'linkTarget' : '_blank'
+			};
+			var adblock1 = {
+			  'container' : 'adcontainer1',
+			  'number' : '3'
+			};
+			var adblock2 = {
+			  'container' : 'adcontainer2',
+			  'number' : '3'
+      };
+      if (wng_pageInfo) {
+        if (wng_pageInfo.hasOwnProperty('extraPageLabels')) {
+          wng_pageInfo.extraPageLabels['intsearchterm'] = 'us';
+          wng_pageInfo.extraPageLabels['intsearchcategory'] = '';
+          wng_pageInfo.extraPageLabels['intsearchresults'] = '9184';
+        } else {
+          wng_pageInfo['extraPageLabels'] = {
+            'intsearchterm': 'us',
+            'intsearchcategory': '',
+            'intsearchresults': '9184'
+          };
+        }
+      };
+      new google.ads.search.Ads(pageOptions, adblock1, adblock2);
+      
+
+//]]>
+                  </script>
+                  <div class="wnSearchVendor-ez wnDVSearch">
+                    <div class="wnSearchVendor-google wnDVSearch">
+                      <!--GOOGLE SPONSORED RESULTS-->                      <div id="adcontainer1" class="wnSponsoredResults wnDSContainer-standard">
+                        <span style="text-align:left" class="ad_header">
+                          <a target="_blank" href="https://www.google.com/adsense/support/bin/request.py?contact=afs_violation" style="text-decoration:none">
+                            Ads by Google
+                          </a>
+                        </span>
+                        <br/>
+                        <div id="wnGoogleSponsoredResultsTop" class="wnGoogleSponsoredResults">
+                          <div class="wnDSItems-standard">
+                            <div class="wnSearchResult">
+                              <h4>
+                                <a id="urlLine1Top" onmouseout="window.status='';" target="_blank">
+                                </a>
+                              </h4>
+                              <p id="urlLine2Top">
+                              </p>
+                              <span>
+                                <a id="adURLTop" onmouseout="window.status='';" target="_blank">
+                                </a>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <!--END wnDSItems-->                      </div>
+                      <!--END GOOGLE CLIENT SEARCH SPONSORED RESULTS-->                      <!--Site SEARCH RESULTS-->                      <div class="wnSearchResults wnDSContainer-standard">
+                        <div class="wnDSHeader">
+                          <h3>
+                            <span>
+                               Search Results
+                            </span>
+                            <div style="clear:both">
+                            </div>
+                          </h3>
+                        </div>
+                        <!--END wnDSHeader-->                        <!--Faceted Navigation - START-->                        <link media="screen" type="text/css" href="http://content.worldnow.com/global/interface/container-e/search/faceted/faceted.css?ver=20110628400" rel="stylesheet"/>
+                        <div class="meganavbar">
+                          <span class="mn-item-text">
+                            Search "us"
+                          </span>
+                        </div>
+                        <ul class="megatabs" style="display: block;">
+                          <li class="mt-item" style="float: left;">
+                            <a title="All Result Types" href="javascript:void(0);" class="mt-item-link-active" id="tab_0">
+                              All Result Types
+                            </a>
+                          </li>
+                          <li class="mt-item" style="float: left;">
+                            <a title="Articles" href="javascript:void(0);" class="mt-item-link" id="tab_1">
+                              Articles
+                            </a>
+                          </li>
+                          <li class="mt-item" style="float: left;">
+                            <a title="Videos" href="javascript:void(0);" class="mt-item-link" id="tab_2">
+                              Videos
+                            </a>
+                          </li>
+                          <li class="clear-fix"/>
+                        </ul>
+                        <div class="mt-content-wrapper">
+                        </div>
+                        <!--Faceted Menu START-->                        <ul class="megamenu" style="display: block;">
+                          <li class="mm-item" style="float: left;">
+                            <div class="mm-item-none">
+                              <div class="mm-none-item-content">
+                                <span>
+                                  Refine Your Search: 
+                                </span>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mm-item" style="float: left;">
+                            <a title="Topic" href="javascript:void(0);" class="first mm-item-link">
+                              Topic
+                            </a>
+                            <div style="width: 308px; display: none;" class="mm-item-content">
+                              <div class="mm-content-base">
+                                <a rel="news" title="news" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Topic',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_1_1">
+                                  news
+                                  <span class="mm-list-item-count">
+                                    (8)
+                                  </span>
+                                </a>
+                                <a rel="running" title="running" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Topic',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_1_2">
+                                  running
+                                  <span class="mm-list-item-count">
+                                    (1)
+                                  </span>
+                                </a>
+                              </div>
+                              <div class="mm-js-shadow">
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mm-item" style="float: left;">
+                            <a title="Author" href="javascript:void(0);" class="mm-item-link">
+                              Author
+                            </a>
+                            <div style="width: 308px; display: none;" class="mm-item-content">
+                              <div class="mm-content-base">
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td width="50%" valign="top" style="padding-right:10px;">
+                                        <a rel="d2d3d7f23a2d7d1cdb26cabf92f686013aecf899" title="MYFOX NEW YORK STAFF" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_2_1">
+                                          MYFOX NEW YORK STAFF
+                                          <span class="mm-list-item-count">
+                                            (118)
+                                          </span>
+                                        </a>
+                                        <a rel="ea8aa901d4feec1f75d523d473d520a7fc0895c8" title="KATHY CARVAJAL" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_2_2">
+                                          KATHY CARVAJAL
+                                          <span class="mm-list-item-count">
+                                            (73)
+                                          </span>
+                                        </a>
+                                        <a rel="1c95f4123f4a2c240080a87cb9ce09e1275454bc" title="ARUN KRISTIAN DAS" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_2_3">
+                                          ARUN KRISTIAN DAS
+                                          <span class="mm-list-item-count">
+                                            (58)
+                                          </span>
+                                        </a>
+                                        <a rel="e39f412a43528263b6bd1f44632a423a141f7ee1" title="STACEY DELIKAT" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_2_4">
+                                          STACEY DELIKAT
+                                          <span class="mm-list-item-count">
+                                            (38)
+                                          </span>
+                                        </a>
+                                        <a rel="3fb84b9e7de7b41b91087bcbea23224a5bf99300" title="DAN BOWENS" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_2_5">
+                                          DAN BOWENS
+                                          <span class="mm-list-item-count">
+                                            (25)
+                                          </span>
+                                        </a>
+                                        <a rel="f5e07c95c24b11dd028449f11ba55ef03d5f4b38" title="GLENN WILBURN" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_6">
+                                          GLENN WILBURN
+                                          <span class="mm-list-item-count">
+                                            (20)
+                                          </span>
+                                        </a>
+                                        <a rel="3d9d78c424536a217eb4909628c9209518f28adb" title="LIDIA CURANAJ" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_7">
+                                          LIDIA CURANAJ
+                                          <span class="mm-list-item-count">
+                                            (18)
+                                          </span>
+                                        </a>
+                                        <a rel="ca9a8b707c5a899887cedcd12d153c20723ede29" title="JOHN HUDDY" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_8">
+                                          JOHN HUDDY
+                                          <span class="mm-list-item-count">
+                                            (14)
+                                          </span>
+                                        </a>
+                                        <a rel="2822718b3e04c98379f838c23c09c36fb4f8c84b" title="KERRY DREW" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_9">
+                                          KERRY DREW
+                                          <span class="mm-list-item-count">
+                                            (10)
+                                          </span>
+                                        </a>
+                                        <a rel="977451ecf163d23c4ab4d11a712d300b1c41441c" title="FRANCISCO BERNARD" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_10">
+                                          FRANCISCO BERNARD
+                                          <span class="mm-list-item-count">
+                                            (9)
+                                          </span>
+                                        </a>
+                                        <a rel="85f16eebe9d48941cf6a4df7f0b57f7170363612" title="TI-HUA CHANG" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_11">
+                                          TI-HUA CHANG
+                                          <span class="mm-list-item-count">
+                                            (6)
+                                          </span>
+                                        </a>
+                                        <a rel="7f6006f1e679af538bde6b0692e17393dbddcb48" title="LINDA SCHMIDT" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_12">
+                                          LINDA SCHMIDT
+                                          <span class="mm-list-item-count">
+                                            (5)
+                                          </span>
+                                        </a>
+                                        <a rel="4000d6f7d923c30c14f87ecac7af5257ca721cd8" title="TERESA PRIOLO" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_13">
+                                          TERESA PRIOLO
+                                          <span class="mm-list-item-count">
+                                            (5)
+                                          </span>
+                                        </a>
+                                        <a rel="76d4ed3b476fe37b30634a60acd7655124f32876" title="HEATHER BROWN" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_14">
+                                          HEATHER BROWN
+                                          <span class="mm-list-item-count">
+                                            (4)
+                                          </span>
+                                        </a>
+                                        <a rel="064acb67c5adfbc422115c45d733192c6bb59f2b" title="KERRY DREW" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_15">
+                                          KERRY DREW
+                                          <span class="mm-list-item-count">
+                                            (3)
+                                          </span>
+                                        </a>
+                                        <a rel="1afa624502a5eb1f2342958a656c25940f511562" title="SIMONE BOYCE" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_16">
+                                          SIMONE BOYCE
+                                          <span class="mm-list-item-count">
+                                            (3)
+                                          </span>
+                                        </a>
+                                        <a rel="3d1229e2461ab435b3eac05cb383c8547556f0c9" title="MATT ALVAREZ" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_17">
+                                          MATT ALVAREZ
+                                          <span class="mm-list-item-count">
+                                            (3)
+                                          </span>
+                                        </a>
+                                        <a rel="99256070b8a53917f7b4729d0f228de4ded0202f" title="Israel Joffe" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_18">
+                                          Israel Joffe
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a rel="b09620c78238be3aabedac05c6b66b9be5206010" title="DARI ALEXANDER" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_19">
+                                          DARI ALEXANDER
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a rel="d671262a59cb8a79affe32dfff603887c96913bb" title="JAISON MANNS" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_20">
+                                          JAISON MANNS
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a rel="3ee25020232a7c828d2342aa74b603a2ba606a76" title="ROBERT MOSES" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_21">
+                                          ROBERT MOSES
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="58f6e38e629643d338e1b499520a792aca1a8519" title="BEN SIMMONEAU" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_22">
+                                          BEN SIMMONEAU
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="6cde186b4995e36f6401cdba3788ad745d1d05ca" title="ANNA GILLIGAN" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_23">
+                                          ANNA GILLIGAN
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="d29a7b7ade33051cd616f0ac67ed9f649f9cca71" title="JOEL WALDMAN" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_24">
+                                          JOEL WALDMAN
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="f0c681a8dcd71b77b9feee3c4451e01a91eab36e" title="ERNIE ANASTOS" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_25">
+                                          ERNIE ANASTOS
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="f7604710ad4b21512b6ad19dcf51aa05a49cc71b" title="ROSHINI RAJAPAKSA, MD" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_26">
+                                          ROSHINI RAJAPAKSA, MD
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                      </td>
+                                      <td width="1" style="background-color:#D6D6D6;">
+                                        <img width="1" src="paxel.gif"/>
+                                      </td>
+                                      <td width="50%" valign="top" style="padding-left:10px;">
+                                        <a rel="9c67f2e51de21e109dec8be73f3315e6157e2857" title="LUKE FUNK" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_2_1">
+                                          LUKE FUNK
+                                          <span class="mm-list-item-count">
+                                            (85)
+                                          </span>
+                                        </a>
+                                        <a rel="4fc87decd5cb5aa23fe12d5efa7358984d8ed7fc" title="NEWSCORE " onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_2_2">
+                                          NEWSCORE 
+                                          <span class="mm-list-item-count">
+                                            (71)
+                                          </span>
+                                        </a>
+                                        <a rel="96e916740c21731a1ff6399ecd544a93592208c8" title="MAC KING" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_2_3">
+                                          MAC KING
+                                          <span class="mm-list-item-count">
+                                            (48)
+                                          </span>
+                                        </a>
+                                        <a rel="708cff1116b912d9a5c67ee69e199092cf7af54e" title="JOEL WALDMAN" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_2_4">
+                                          JOEL WALDMAN
+                                          <span class="mm-list-item-count">
+                                            (32)
+                                          </span>
+                                        </a>
+                                        <a rel="aa09d34919d05cdd7e837dd429ee7b81e46fc9e3" title="LISA EVERS" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_2_5">
+                                          LISA EVERS
+                                          <span class="mm-list-item-count">
+                                            (25)
+                                          </span>
+                                        </a>
+                                        <a onclick="WNFacetedNavigationManager.displayExtraTopics(2,this,true); return false;" href="javascript:void(0);" class="mm-list-item more" id="more_item_2">
+                                          More..
+                                        </a>
+                                        <a rel="27af89e0a9f76534e7b2c2e9ed90d97c65ad4da3" title="SHARON CROWLEY" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_6">
+                                          SHARON CROWLEY
+                                          <span class="mm-list-item-count">
+                                            (19)
+                                          </span>
+                                        </a>
+                                        <a rel="0840351042add84c945ef62edc103a7ff28c4aa0" title="ASHLEY MASTRONARDI" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_7">
+                                          ASHLEY MASTRONARDI
+                                          <span class="mm-list-item-count">
+                                            (16)
+                                          </span>
+                                        </a>
+                                        <a rel="f6a3761bdbda213f714e5a165fd63cb1978c1078" title="ADRIENNE SUPINO" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_8">
+                                          ADRIENNE SUPINO
+                                          <span class="mm-list-item-count">
+                                            (14)
+                                          </span>
+                                        </a>
+                                        <a rel="036edfbdf67fe6b301a6bbcf2c915947b224ba74" title="ANDREA GRYMES" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_9">
+                                          ANDREA GRYMES
+                                          <span class="mm-list-item-count">
+                                            (9)
+                                          </span>
+                                        </a>
+                                        <a rel="95d3ff3cf081406c31b5ce6a64becb41efc357d1" title="ANTWAN LEWIS" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_10">
+                                          ANTWAN LEWIS
+                                          <span class="mm-list-item-count">
+                                            (7)
+                                          </span>
+                                        </a>
+                                        <a rel="1db0a7fc683d582f2e4eef2bd4c2a623698e0d43" title="Jacki Murray" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_11">
+                                          Jacki Murray
+                                          <span class="mm-list-item-count">
+                                            (6)
+                                          </span>
+                                        </a>
+                                        <a rel="4a13104e436fd1e4927fce74d55ecc08907a057d" title="CHRISTINE PERSICHETTE" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_12">
+                                          CHRISTINE PERSICHETTE
+                                          <span class="mm-list-item-count">
+                                            (5)
+                                          </span>
+                                        </a>
+                                        <a rel="e885a4d724e4516da40d8ccf823770d4d28a1342" title="LIZ DAHLEM" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_13">
+                                          LIZ DAHLEM
+                                          <span class="mm-list-item-count">
+                                            (5)
+                                          </span>
+                                        </a>
+                                        <a rel="07fde1a56c12dca10b8625d67f8265fbfa19dcf5" title="Mr. LEW LEONE" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_14">
+                                          Mr. LEW LEONE
+                                          <span class="mm-list-item-count">
+                                            (4)
+                                          </span>
+                                        </a>
+                                        <a rel="cfe31b1344d62aefcb3a2c0d2d4d742be3d77279" title="JILL NICOLINI" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_15">
+                                          JILL NICOLINI
+                                          <span class="mm-list-item-count">
+                                            (3)
+                                          </span>
+                                        </a>
+                                        <a rel="30380019816e23784dc454f4c9561a76d1680ae3" title="AUDREY PUENTE" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_16">
+                                          AUDREY PUENTE
+                                          <span class="mm-list-item-count">
+                                            (3)
+                                          </span>
+                                        </a>
+                                        <a rel="2dc8b51d0afd5f61f288d01721fd83c7ec02018e" title="CHRISTINA PARK" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_17">
+                                          CHRISTINA PARK
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a rel="ad54dce20eeecdf885fe1fdf71db6e50b9c16c93" title="DAN BOWENS" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_18">
+                                          DAN BOWENS
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a rel="b771a7dc9f3d72da9a3b7f0932ae8d217ab4c0c0" title="ALICE GAINER" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_19">
+                                          ALICE GAINER
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a rel="0b672e21bcce200d4dfe4c2dc870bb276e9d012e" title="ERNIE ANASTOS" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_20">
+                                          ERNIE ANASTOS
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="51da4c4f987739c92499ee9fb7c0e210d2780e3c" title="LIDIA CURANAJ" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_21">
+                                          LIDIA CURANAJ
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="61d55411a1d0db7447748f94019ef32bafe82734" title="JOHN HUDDY" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_22">
+                                          JOHN HUDDY
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="ad2b227a381549cb66a368264c622829603a0e66" title="HEATHER BROWN" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_23">
+                                          HEATHER BROWN
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="d9716d2d51b7d11e310ae99f179119039e998e6d" title="DARI ALEXANDER" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_24">
+                                          DARI ALEXANDER
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="f2d614e72c161d18995af861dfb4b620a244d2ea" title="LINDA SCHMIDT" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_25">
+                                          LINDA SCHMIDT
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="fb9e15298cff1f2ba3aa70f89c456ffa9938e386" title="JAISON MANNS" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Author',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_2_26">
+                                          JAISON MANNS
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a onclick="WNFacetedNavigationManager.displayExtraTopics(2,this,false); return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item more" id="less_item_2">
+                                          Less..
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <div class="mm-js-shadow">
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mm-item" style="float: left;">
+                            <a title="Location" href="javascript:void(0);" class="mm-item-link">
+                              Location
+                            </a>
+                            <div style="width: 308px; display: none;" class="mm-item-content">
+                              <div class="mm-content-base">
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td width="50%" valign="top" style="padding-right:10px;">
+                                        <a rel="MYFOXNY.COM" title="MYFOXNY.COM" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_3_1">
+                                          MYFOXNY.COM
+                                          <span class="mm-list-item-count">
+                                            (334)
+                                          </span>
+                                        </a>
+                                        <a rel="NEW JERSEY (MYFOXNY.COM)" title="NEW JERSEY ()" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_3_2">
+                                          NEW JERSEY ()
+                                          <span class="mm-list-item-count">
+                                            (38)
+                                          </span>
+                                        </a>
+                                        <a rel="NEW YORK (AP)" title="NEW YORK (AP)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_3_3">
+                                          NEW YORK (AP)
+                                          <span class="mm-list-item-count">
+                                            (17)
+                                          </span>
+                                        </a>
+                                        <a rel="By NY Post" title="By NY Post" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_3_4">
+                                          By NY Post
+                                          <span class="mm-list-item-count">
+                                            (4)
+                                          </span>
+                                        </a>
+                                        <a rel="LONDON" title="LONDON" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_3_5">
+                                          LONDON
+                                          <span class="mm-list-item-count">
+                                            (3)
+                                          </span>
+                                        </a>
+                                        <a rel="KABUL" title="KABUL" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_6">
+                                          KABUL
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a rel="FORT LAUDERDALE, Fla." title="FORT LAUDERDALE, Fla." onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_7">
+                                          FORT LAUDERDALE, Fla.
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a rel="By The Associated Press" title="By The Associated Press" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_8">
+                                          By The Associated Press
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a rel="YONKERS, N.Y. (AP)" title="YONKERS, . (AP)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_9">
+                                          YONKERS, . (AP)
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="PARIS" title="PARIS" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_10">
+                                          PARIS
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="MENLO PARK, Calif." title="MENLO PARK, Calif." onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_11">
+                                          MENLO PARK, Calif.
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="MADISON, Wis." title="MADISON, Wis." onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_12">
+                                          MADISON, Wis.
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="UNION, Conn. (AP)" title="UNION, Conn. (AP)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_13">
+                                          UNION, Conn. (AP)
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="BRIDGEWATER, N.J." title="BRIDGEWATER, ." onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_14">
+                                          BRIDGEWATER , .
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="ELMIRA, N.Y. (AP)" title="ELMIRA, . (AP)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_15">
+                                          ELMIRA, . (AP)
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="FLORHAM PARK, N.J." title="FLORHAM PARK, ." onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_16">
+                                          FLORHAM PARK, .
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="HARTFORD, Conn." title="HARTFORD, Conn." onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_17">
+                                          HARTFORD, Conn.
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="KABUL, Afghanistan" title="KABUL, Afghanistan" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_18">
+                                          KABUL, Afghanistan
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="LAS VEGAS" title="LAS VEGAS" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_19">
+                                          LAS VEGAS
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                      </td>
+                                      <td width="1" style="background-color:#D6D6D6;">
+                                        <img width="1" src="paxel.gif"/>
+                                      </td>
+                                      <td width="50%" valign="top" style="padding-left:10px;">
+                                        <a rel="NEW YORK (MYFOXNY)" title="NEW YORK (MYFOXNY)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_3_1">
+                                          NEW YORK (MYFOXNY)
+                                          <span class="mm-list-item-count">
+                                            (320)
+                                          </span>
+                                        </a>
+                                        <a rel="By FOX NEWS" title="By FOX NEWS" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_3_2">
+                                          By FOX NEWS
+                                          <span class="mm-list-item-count">
+                                            (33)
+                                          </span>
+                                        </a>
+                                        <a rel="MYFOXNY.COM/AP" title="MYFOXNY.COM/AP" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_3_3">
+                                          MYFOXNY.COM /AP
+                                          <span class="mm-list-item-count">
+                                            (7)
+                                          </span>
+                                        </a>
+                                        <a rel="LOS ANGELES (AP)" title="LOS ANGELES (AP)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_3_4">
+                                          LOS ANGELES (AP)
+                                          <span class="mm-list-item-count">
+                                            (3)
+                                          </span>
+                                        </a>
+                                        <a rel="LOS ANGELES" title="LOS ANGELES" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" class="mm-list-item" id="item_3_5">
+                                          LOS ANGELES
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a onclick="WNFacetedNavigationManager.displayExtraTopics(3,this,true); return false;" href="javascript:void(0);" class="mm-list-item more" id="more_item_3">
+                                          More..
+                                        </a>
+                                        <a rel="GUANTANAMO BAY NAVAL BASE, Cuba (AP)" title="GUANTANAMO BAY NAVAL BASE, Cuba (AP)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_6">
+                                          GUANTANAMO BAY NAVAL BASE, Cuba (AP)
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a rel="MIAMI (AP)" title="MIAMI (AP)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_7">
+                                          MIAMI (AP)
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a rel="NEWARK, N.J. (AP)" title="NEWARK, . (AP)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_8">
+                                          NEWARK, . (AP)
+                                          <span class="mm-list-item-count">
+                                            (2)
+                                          </span>
+                                        </a>
+                                        <a rel="MODENA, ITALY" title="MODENA, ITALY" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_9">
+                                          MODENA, ITALY
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="PATUXENT RIVER, Md." title="PATUXENT RIVER, Md." onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_10">
+                                          PATUXENT RIVER, Md.
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="MANCHESTER, Conn. (AP)" title="MANCHESTER, Conn. (AP)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_11">
+                                          MANCHESTER, Conn. (AP)
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="UPTON, N.Y. (AP)" title="UPTON, . (AP)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_12">
+                                          UPTON, . (AP)
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="ALBANY, N.Y. (AP)" title="ALBANY, . (AP)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_13">
+                                          ALBANY, . (AP)
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="EAST RUTHERFORD, N.J. (AP)" title="EAST RUTHERFORD, . (AP)" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_14">
+                                          EAST RUTHERFORD, . (AP)
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="ELMONT, N.Y." title="ELMONT, ." onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_15">
+                                          ELMONT, .
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="GUANTANAMO BAY, Cuba" title="GUANTANAMO BAY, Cuba" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_16">
+                                          GUANTANAMO BAY, Cuba
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="HOUSTON" title="HOUSTON" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_17">
+                                          HOUSTON
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a rel="KHOST, Afghanistan" title="KHOST, Afghanistan" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Location',this.rel);return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item" id="extra_item_3_18">
+                                          KHOST, Afghanistan
+                                          <span class="mm-list-item-count">
+                                            (1)
+                                          </span>
+                                        </a>
+                                        <a onclick="WNFacetedNavigationManager.displayExtraTopics(3,this,false); return false;" href="javascript:void(0);" style="display:none;" class="mm-list-item more" id="less_item_3">
+                                          Less..
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <div class="mm-js-shadow">
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mm-item" style="float: left;">
+                            <a title="Date" href="javascript:void(0);" class="mm-item-link">
+                              Date
+                            </a>
+                            <div style="width: 308px; display: none;" class="mm-item-content">
+                              <div class="mm-content-base">
+                                <a title="Past 24 hours" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Date','');return false;" href="javascript:void(0);" class="mm-list-item" id="date_range_4">
+                                  Past 24 hours
+                                </a>
+                                <a title="Past week" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Date','');return false;" href="javascript:void(0);" class="mm-list-item" id="date_range_3">
+                                  Past week
+                                </a>
+                                <a title="Past month" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Date','');return false;" href="javascript:void(0);" class="mm-list-item" id="date_range_2">
+                                  Past month
+                                </a>
+                                <a title="Past year" onclick="WNFacetedNavigationManager.filterTopicClicked(this.title,'Date','');return false;" href="javascript:void(0);" class="mm-list-item" id="date_range_1">
+                                  Past year
+                                </a>
+                                <a title="All" href="javascript:void(0);" class="mm-list-item-disabled" id="date_range_0">
+                                  All
+                                </a>
+                              </div>
+                              <div class="mm-js-shadow">
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mm-item" style="float: right;">
+                            <div class="mm-item-none">
+                              <div id="search-sort-options">
+                                <span style="display:none;">
+                                  Sort by: 
+                                </span>
+                                <select onchange="WNFacetedNavigationManager.filterSortByChanged(this);return false;" id="sortBySelector" style="display:none;">
+                                  <option selected="selected">
+                                    Select...
+                                  </option>
+                                  <option value="lastediteddate|desc">
+                                    Newest to Oldest
+                                  </option>
+                                  <option value="lastediteddate|asc">
+                                    Oldest to Newest
+                                  </option>
+                                </select>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="clear-fix"/>
+                        </ul>
+                        <!--Faceted Menu END-->                        <!--Faceted Navigation - END-->                        <div class="wnDSItems-standard">
+                          <div class="wnSearchStats">
+                            <p>
+                              Your search has returned more than 50 results.
+                            </p>
+                          </div>
+                          <!--END wnSearchStats-->                          <ol class="wnGroup" start="1">
+                            <li class="wnSearchResult wnItem">
+                              <h4 class="wnContent headline">
+                                <a href="/story/25109623/opposition-grows-while-us-gives-up-control-of-internet-oversight">
+                                  <span class="text">
+                                    Opposition grows as US gives up control of internet oversight
+                                  </span>
+                                </a>
+                                <span class="wn-icon wn-icon-paywall wn-icon-paywall-unsecured">
+                                </span>
+                              </h4>
+                              <p>
+                                …Administration plans to relinquish unilateral  
+                                <b>
+                                  US
+                                </b>
+                                  oversight of allocating names and addresses ……to the administration's plan to eliminate  
+                                <b>
+                                  US
+                                </b>
+                                  oversight of the internet. The debate is on the  
+                                <b>
+                                  US
+                                </b>
+                                  continuing it's role as the internet's …
+                              </p>
+                              <span class="lastModified">
+                                Last Modified:
+                                <em class="wnDate">
+                                  <script type="text/javascript">
+//<![CDATA[
+
+                wnRenderDate('March 30, 2014 3:18 AM EDT', '', false);
+
+//]]>
+                                  </script>
+                                  Mar 30, 2014 3:18 AM EDT
+
+
+                                </em>
+                                <noscript>
+                                  &lt;em class="wnDate"&gt;March 30, 2014 3:18 AM EDT&lt;/em&gt;
+                                </noscript>
+                                <!--END wnDate-->                              </span>
+                            </li>
+                            <li class="wnSearchResult wnItem">
+                              <h4 class="wnContent headline">
+                                <a href="/story/24985503/us-to-give-up-control-of-internet-domain-oversight">
+                                  <span class="text">
+                                    US to give up control of internet domain oversight
+                                  </span>
+                                </a>
+                                <span class="wn-icon wn-icon-paywall wn-icon-paywall-unsecured">
+                                </span>
+                              </h4>
+                              <p>
+                                 The  
+                                <b>
+                                  US
+                                </b>
+                                  is giving up its leading role in managing certain ……expire next year. And it appears the  
+                                <b>
+                                  US
+                                </b>
+                                  will give up its oversight role and let the ……praised the decision. "Since 1998, the  
+                                <b>
+                                  US
+                                </b>
+                                  has been committed to transitioning management …
+                              </p>
+                              <span class="lastModified">
+                                Last Modified:
+                                <em class="wnDate">
+                                  <script type="text/javascript">
+//<![CDATA[
+
+                wnRenderDate('March 29, 2014 5:36 PM EDT', '', false);
+
+//]]>
+                                  </script>
+                                  Mar 29, 2014 5:36 PM EDT
+
+
+                                </em>
+                                <noscript>
+                                  &lt;em class="wnDate"&gt;March 29, 2014 5:36 PM EDT&lt;/em&gt;
+                                </noscript>
+                                <!--END wnDate-->                              </span>
+                            </li>
+                            <li class="wnSearchResult wnItem">
+                              <h4 class="wnContent headline">
+                                <a href="/story/24989052/us-lags-as-commercial-drones-take-off-around-globe">
+                                  <span class="text">
+                                    US lags as commercial drones take off around globe
+                                  </span>
+                                </a>
+                                <span class="wn-icon wn-icon-paywall wn-icon-paywall-unsecured">
+                                </span>
+                              </h4>
+                              <p>
+                                The U.S. government bars commercial use of drones, no matter how seemingly benign. But already, photographers, real estate agents, moviemakers and others are hurrying to embrace the technology. The use of commercial drones is starting to spread to countries where authorities have decided the aircraft presents little threat if operators follow a few safety rules.
+                                <br/>
+                                <br/>
+                              </p>
+                              <span class="lastModified">
+                                Last Modified:
+                                <em class="wnDate">
+                                  <script type="text/javascript">
+//<![CDATA[
+
+                wnRenderDate('March 30, 2014 3:40 PM EDT', '', false);
+
+//]]>
+                                  </script>
+                                  Mar 30, 2014 3:40 PM EDT
+
+
+                                </em>
+                                <noscript>
+                                  &lt;em class="wnDate"&gt;March 30, 2014 3:40 PM EDT&lt;/em&gt;
+                                </noscript>
+                                <!--END wnDate-->                              </span>
+                            </li>
+                            <li class="wnSearchResult wnItem">
+                              <h4 class="wnContent headline">
+                                <a href="/story/24989883/crimea-votes-to-secede-from-ukraine">
+                                  <span class="text">
+                                    US announces sanctions against Russian officials
+                                  </span>
+                                </a>
+                                <span class="wn-icon wn-icon-paywall wn-icon-paywall-unsecured">
+                                </span>
+                              </h4>
+                              <p>
+                                President Barack Obama on Monday imposed sanctions against Russian officials, including advisers to President Vladimir Putin, for their support of Crimea's vote to secede from Ukraine. The White House also announced that it is working to identify and target the assets of other individuals who aren't government officials but are supporting them.
+                                <br/>
+                              </p>
+                              <span class="lastModified">
+                                Last Modified:
+                                <em class="wnDate">
+                                  <script type="text/javascript">
+//<![CDATA[
+
+                wnRenderDate('March 30, 2014 6:54 PM EDT', '', false);
+
+//]]>
+                                  </script>
+                                  Mar 30, 2014 6:54 PM EDT
+
+
+                                </em>
+                                <noscript>
+                                  &lt;em class="wnDate"&gt;March 30, 2014 6:54 PM EDT&lt;/em&gt;
+                                </noscript>
+                                <!--END wnDate-->                              </span>
+                            </li>
+                            <li class="wnSearchResult wnItem">
+                              <h4 class="wnContent headline">
+                                <a href="/story/24985481/honda-recalls-almost-1-million-vehicles">
+                                  <span class="text">
+                                    Honda recalls almost 1 million vehicles
+                                  </span>
+                                </a>
+                                <span class="wn-icon wn-icon-paywall wn-icon-paywall-unsecured">
+                                </span>
+                              </h4>
+                              <p>
+                                …Honda is recalling more than 886,000 Odyssey minivans in the  
+                                <b>
+                                  US
+                                </b>
+                                  The company says a fuel pump cover can deteriorate and cause ……Honda Motor co. is recalling 886,815 odyssey minivans in the  
+                                <b>
+                                  US
+                                </b>
+                                  because a fuel pump cover can deteriorate and cause a fuel leak …
+                              </p>
+                              <span class="lastModified">
+                                Last Modified:
+                                <em class="wnDate">
+                                  <script type="text/javascript">
+//<![CDATA[
+
+                wnRenderDate('March 29, 2014 6:16 PM EDT', '', false);
+
+//]]>
+                                  </script>
+                                  Mar 29, 2014 6:16 PM EDT
+
+
+                                </em>
+                                <noscript>
+                                  &lt;em class="wnDate"&gt;March 29, 2014 6:16 PM EDT&lt;/em&gt;
+                                </noscript>
+                                <!--END wnDate-->                              </span>
+                            </li>
+                            <li class="wnSearchResult wnItem">
+                              <h4 class="wnContent headline">
+                                <a href="/story/25094817/video-3-men-steal-puppy-from-brooklyn-pet-store">
+                                  <span class="text">
+                                    Stolen puppy returned to Brooklyn pet store
+                                  </span>
+                                </a>
+                                <span class="wn-icon wn-icon-paywall wn-icon-paywall-unsecured">
+                                </span>
+                              </h4>
+                              <p>
+                                …camera. Well, here is some good news to report... a couple of days after our report aired, the store called and told  
+                                <b>
+                                  us
+                                </b>
+                                  Pal was dropped off! The store owners had contacted police... But in the end, they just wanted the puppy back …
+                              </p>
+                              <span class="lastModified">
+                                Last Modified:
+                                <em class="wnDate">
+                                  <script type="text/javascript">
+//<![CDATA[
+
+                wnRenderDate('March 30, 2014 6:28 PM EDT', '', false);
+
+//]]>
+                                  </script>
+                                  Mar 30, 2014 6:28 PM EDT
+
+
+                                </em>
+                                <noscript>
+                                  &lt;em class="wnDate"&gt;March 30, 2014 6:28 PM EDT&lt;/em&gt;
+                                </noscript>
+                                <!--END wnDate-->                              </span>
+                            </li>
+                            <li class="wnSearchResult wnItem">
+                              <h4 class="wnContent headline">
+                                <a href="http://www.myfoxny.com/video?clipId=10000467&amp;autostart=true">
+                                  <span class="text">
+                                    Sunday March 30, 2014 Weather Forecast
+                                  </span>
+                                </a>
+                                <span class="wn-icon wn-icon-clip" title="Play Video">
+                                </span>
+                                <span class="wn-icon wn-icon-paywall wn-icon-paywall-unsecured">
+                                </span>
+                              </h4>
+                              <p>
+                                Audrey brings us the weather
+                              </p>
+                              <span class="lastModified">
+                                Last Modified:
+                                <em class="wnDate">
+                                  <script type="text/javascript">
+//<![CDATA[
+
+                wnRenderDate('March 30, 2014 10:22 PM EDT', '', false);
+
+//]]>
+                                  </script>
+                                  Mar 30, 2014 10:22 PM EDT
+
+
+                                </em>
+                                <noscript>
+                                  &lt;em class="wnDate"&gt;March 30, 2014 10:22 PM EDT&lt;/em&gt;
+                                </noscript>
+                                <!--END wnDate-->                              </span>
+                            </li>
+                            <li class="wnSearchResult wnItem">
+                              <h4 class="wnContent headline">
+                                <a href="http://www.myfoxny.com/video?clipId=9999154&amp;autostart=true">
+                                  <span class="text">
+                                    Saturday, March 29, 2014 Weather Forecast
+                                  </span>
+                                </a>
+                                <span class="wn-icon wn-icon-clip" title="Play Video">
+                                </span>
+                                <span class="wn-icon wn-icon-paywall wn-icon-paywall-unsecured">
+                                </span>
+                              </h4>
+                              <p>
+                                Audrey brings us the weather
+                              </p>
+                              <span class="lastModified">
+                                Last Modified:
+                                <em class="wnDate">
+                                  <script type="text/javascript">
+//<![CDATA[
+
+                wnRenderDate('March 29, 2014 10:52 PM EDT', '', false);
+
+//]]>
+                                  </script>
+                                  Mar 29, 2014 10:52 PM EDT
+
+
+                                </em>
+                                <noscript>
+                                  &lt;em class="wnDate"&gt;March 29, 2014 10:52 PM EDT&lt;/em&gt;
+                                </noscript>
+                                <!--END wnDate-->                              </span>
+                            </li>
+                            <li class="wnSearchResult wnItem">
+                              <h4 class="wnContent headline">
+                                <a href="/story/25104422/a-man-invented-a-motor-for-citi-bike-but-its-probably-illegal">
+                                  <span class="text">
+                                    A man invented a motor for Citi Bike but it's probably illegal
+                                  </span>
+                                </a>
+                                <span class="wn-icon wn-icon-paywall wn-icon-paywall-unsecured">
+                                </span>
+                              </h4>
+                              <p>
+                                …attachments -- like ShareRoller -- and it directed  
+                                <b>
+                                  us
+                                </b>
+                                  to its website, which informed  
+                                <b>
+                                  us
+                                </b>
+                                 : "The New York State Dept. of Motor Vehicles ……Bike, which faces its own problems, also called  
+                                <b>
+                                  us
+                                </b>
+                                  back, saying while it applauded Guida's inventiveness …
+                              </p>
+                              <span class="lastModified">
+                                Last Modified:
+                                <em class="wnDate">
+                                  <script type="text/javascript">
+//<![CDATA[
+
+                wnRenderDate('March 29, 2014 7:38 AM EDT', '', false);
+
+//]]>
+                                  </script>
+                                  Mar 29, 2014 7:38 AM EDT
+
+
+                                </em>
+                                <noscript>
+                                  &lt;em class="wnDate"&gt;March 29, 2014 7:38 AM EDT&lt;/em&gt;
+                                </noscript>
+                                <!--END wnDate-->                              </span>
+                            </li>
+                            <li class="wnSearchResult wnItem">
+                              <h4 class="wnContent headline">
+                                <a href="/story/25108977/aftershocks-shake-up-southern-california">
+                                  <span class="text">
+                                    Aftershocks shake up Southern California
+                                  </span>
+                                </a>
+                                <span class="wn-icon wn-icon-paywall wn-icon-paywall-unsecured">
+                                </span>
+                              </h4>
+                              <p>
+                                …the one that struck two weeks ago, on March 17th. The  
+                                <b>
+                                  US
+                                </b>
+                                  Geological Survey says the quake struck at 9PM Pacific time on ……building, the floor separated from the wall" one resident told  
+                                <b>
+                                  us
+                                </b>
+                                 . The quake managed to produce a rock slide that closed …
+                              </p>
+                              <span class="lastModified">
+                                Last Modified:
+                                <em class="wnDate">
+                                  <script type="text/javascript">
+//<![CDATA[
+
+                wnRenderDate('March 29, 2014 9:23 PM EDT', '', false);
+
+//]]>
+                                  </script>
+                                  Mar 29, 2014 9:23 PM EDT
+
+
+                                </em>
+                                <noscript>
+                                  &lt;em class="wnDate"&gt;March 29, 2014 9:23 PM EDT&lt;/em&gt;
+                                </noscript>
+                                <!--END wnDate-->                              </span>
+                            </li>
+                          </ol>
+                          <div class="wnSearchFooter">
+                            <div class="wnSearchPagination">
+                              <h3>
+                                Pages:
+                              </h3>
+                              <ul>
+                                <li>
+                                  1
+                                </li>
+                                <li>
+                                  <a href="http://www.myfoxny.com/search?RecordNum=11&amp;vendor=ez&amp;qu=us" pagenum="2">
+                                    2
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="http://www.myfoxny.com/search?RecordNum=21&amp;vendor=ez&amp;qu=us" pagenum="3">
+                                    3
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="http://www.myfoxny.com/search?RecordNum=31&amp;vendor=ez&amp;qu=us" pagenum="4">
+                                    4
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="http://www.myfoxny.com/search?RecordNum=41&amp;vendor=ez&amp;qu=us" pagenum="5">
+                                    5
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <!--END wnSearchPagination-->                            <div id="WNSearchBox-results" class="wnSearchBox wnSearchBox-right">
+                              <form action="/search" onsubmit="return wnValidateSearchTerm(this,0)" method="get">
+                                <input type="radio" checked="checked" class="wnVendorChoice" id="WNSearchBox-results-ez" value="ez" name="vendor"/>
+                                <label for="WNSearchBox-results-ez">
+                                  SITE SEARCH
+                                </label>
+                                <input type="radio" class="wnVendorChoice" id="WNSearchBox-results-google_cs" value="google_cs" name="vendor"/>
+                                <label for="WNSearchBox-results-google_cs">
+                                  
+                    WEB SEARCH BY 
+                                  <img class="wnSearchBoxLabelImg-google" alt="Google" src="http://content.worldnow.com/global/images/google/google-logo_gray.gif"/>
+                                </label>
+                                <input type="text" value="us" size="20" name="qu" class="wnQueryText"/>
+                                <input type="submit" value="Go" class="wnSubmit"/>
+                              </form>
+                            </div>
+                            <!--END wnSearchBox-->                          </div>
+                          <!--END wnSearchFooter-->                        </div>
+                        <!--END wnDSItems-->                      </div>
+                      <!--END Site SEARCH RESULTS-->                      <!--GOOGLE SPONSORED RESULTS-->                      <div id="adcontainer2" class="wnSponsoredResults wnDSContainer-standard">
+                        <span style="text-align:left" class="ad_header">
+                          <a target="_blank" href="https://www.google.com/adsense/support/bin/request.py?contact=afs_violation" style="text-decoration:none">
+                            Ads by Google
+                          </a>
+                        </span>
+                        <br/>
+                        <div id="wnGoogleSponsoredResultsBottom" class="wnGoogleSponsoredResults">
+                          <div class="wnDSItems-standard">
+                            <div class="wnSearchResult">
+                              <h4>
+                                <a id="urlLine1Bottom" onmouseout="window.status='';" target="_blank">
+                                </a>
+                              </h4>
+                              <p id="urlLine2Bottom">
+                              </p>
+                              <span>
+                                <a id="adURLBottom" onmouseout="window.status='';" target="_blank">
+                                </a>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <!--END wnDSItems-->                      </div>
+                      <!--END GOOGLE CLIENT SEARCH SPONSORED RESULTS-->                    </div>
+                  </div>
+                  <!--
+				END wnSearchVendor-ez wnDVSearch
+			-->                </div>
+                <!--END wnDSItems-->              </div>
+              <!--
+                END wnDS21-->              <div class="wnClear">
+              </div>
+            </div>
+            <!--END WNCol23Top-->            <div id="WNCol23Bottom">
+              <div class="wnClear">
+              </div>
+            </div>
+            <!--END WNCol23Bottom-->            <div id="taboola-twocolumnsmaincolumn">
+            </div>
+          </div>
+          <script type="text/javascript">
+//<![CDATA[
+if (Worldnow.EventMan) Worldnow.EventMan.event('WNCol23done');
+//]]>
+          </script>
+          <!--END WNCol23-->          <div class="column col4" id="WNCol4" style="min-height: 1099px;">
+            <!--
+                        Column 4 Layout Configuration: 7-->            <!--AD SIZE: Medium Rectangle - A-->            <div class="wnad wnad43  " id="WNAd43">
+            </div>
+            <div id="taboola-TextRightRailPaid">
+            </div>
+            <div id="taboola-textrightrailorganic">
+            </div>
+            <!--END wnAdSize-->          </div>
+          <script type="text/javascript">
+//<![CDATA[
+if (Worldnow.EventMan) Worldnow.EventMan.event('WNCol4done');
+//]]>
+          </script>
+          <script src="http://js.adsonar.com/js/adsonar.js" type="text/javascript">
+          </script>
+          <!--END WNCol4-->          <div class="wnClearLeft">
+          </div>
+          <div class="wnad wnad146" id="WNAd146">
+          </div>
+        </div>
+        <!--END WNCols23-4-->      </div>
+      <!--END WNCols234-5-->    </div>
+    <!--END WNColsAll-->    <div id="WNFooter">
+      <div id="WNCopyrightAlignment">
+        <div id="WNCopyright">
+          <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+              <tr>
+                <td style="vertical-align:top;">
+                  <a target="_blank" href="http://www.worldnow.com">
+                    <img border="0" alt="Powered by WorldNow" src="http://WNYW.images.worldnow.com/images/static/container-e/wn_powerby.gif" class="wnFooter"/>
+                    <img border="0" alt="Powered by WorldNow" src="http://images.worldnow.com/global/images/static/container-e/wn_powerby_printable.gif" class="wnFooter printable" style="display:none;"/>
+                  </a>
+                </td>
+                <td style="vertical-align:middle;">
+                  <div class="wnCopyrightText">
+                    <div class="wnBlock displaySize displaySizeId-footerAPI" id="DisplaySizeId-FooterAPI">
+                      <ul class="wnGroup contentGroup">
+                        <li class="wnItem header">
+                          <h3>
+                            <span class="text">
+                              In-Depth
+                            </span>
+                          </h3>
+                          <div class="wnClear">
+                          </div>
+                        </li>
+                        <li class="wnItem feature story priority-1">
+                          <h4 class="wnContent headline">
+                            <a href="/story/25104422/a-man-invented-a-motor-for-citi-bike-but-its-probably-illegal">
+                              <span class="text">
+                                A man invented a motor for Citi Bike but it's probably illegal
+                              </span>
+                            </a>
+                          </h4>
+                          <div class="wnContent summaryImage left">
+                            <a href="/story/25104422/a-man-invented-a-motor-for-citi-bike-but-its-probably-illegal">
+                              <img width="90" border="0" src="http://WNYW.images.worldnow.com/images/3438044_G.jpg" title="A man invented a motor for Citi Bike but it" illegal'="" probably="" s="" alt="A man invented a motor for Citi Bike but it"/>
+                            </a>
+                          </div>
+                          <div class="wnContent summary">
+                            One Citi Bike cruising around the Financial District, Friday, sounded a little whinier than others. And for that we could blame more than just its rubber tires rolling over wet pavement. Jeff Guida invented ShareRoller, a laptop-sized, seven-pound electric assistant intended for the Citi Bike. But the NYPD says if you use it you could get a summons.
+                            <br/>
+                          </div>
+                          <div class="wnClear">
+                          </div>
+                        </li>
+                        <li class="wnItem feature story priority-2 displaySizeId-18">
+                          <h4 class="wnContent headline">
+                            <a href="/story/25096152/can-we-protect-earth-from-a-devastating-asteroid">
+                              <span class="text">
+                                Can we protect Earth from a devastating asteroid?
+                              </span>
+                            </a>
+                          </h4>
+                          <div class="wnClear">
+                          </div>
+                        </li>
+                        <li class="wnItem feature story priority-3 displaySizeId-18">
+                          <h4 class="wnContent headline">
+                            <a href="/story/25095481/newfound-pink-dwarf-planet-lurks-at-fringes-of-solar-system">
+                              <span class="text">
+                                Newfound likely dwarf planet lurks at fringes of solar system
+                              </span>
+                            </a>
+                          </h4>
+                          <div class="wnClear">
+                          </div>
+                        </li>
+                      </ul>
+                      <ul class="wnGroup contentGroup">
+                        <li class="wnItem header">
+                          <h3>
+                            <span class="text">
+                              Something Different
+                            </span>
+                          </h3>
+                          <div class="wnClear">
+                          </div>
+                        </li>
+                        <li class="wnItem feature story priority-1">
+                          <h4 class="wnContent headline">
+                            <a href="/story/25074305/burger-king-baby-finds-birth-mom-feels-pure-joy">
+                              <span class="text">
+                                Burger King Baby finds birth mom, feels 'pure joy'
+                              </span>
+                            </a>
+                          </h4>
+                          <div class="wnContent summaryImage left">
+                            <a href="/story/25074305/burger-king-baby-finds-birth-mom-feels-pure-joy">
+                              <img width="90" border="0" src="http://images.worldnow.com/AP/images/3425720_G.jpg" title="Burger King Baby finds birth mom, feels " joy''="" pure="" alt="Burger King Baby finds birth mom, feels "/>
+                            </a>
+                          </div>
+                          <div class="wnContent summary">
+                            By MICHAEL RUBINKAM Associated Press                   A woman who, as a newborn, was abandoned in the bathroom of a Pennsylvania fast-food restaurant said she has found her birth mother just three weeks after launching a...
+                          </div>
+                          <div class="wnClear">
+                          </div>
+                        </li>
+                        <li class="wnItem feature story priority-2 displaySizeId-18">
+                          <h4 class="wnContent headline">
+                            <a href="/story/25108419/man-does-c-section-on-dead-porcupine-saves-baby">
+                              <span class="text">
+                                Man does C-section on dead porcupine, saves baby
+                              </span>
+                            </a>
+                          </h4>
+                          <div class="wnClear">
+                          </div>
+                        </li>
+                        <li class="wnItem feature story priority-3 displaySizeId-18">
+                          <h4 class="wnContent headline">
+                            <a href="/story/25101804/woolly-creatures-join-tourists-in-louvre-museum">
+                              <span class="text">
+                                Woolly creatures join tourists in Louvre Museum
+                              </span>
+                            </a>
+                          </h4>
+                          <div class="wnClear">
+                          </div>
+                        </li>
+                      </ul>
+                      <ul class="wnGroup contentGroup last">
+                        <li class="wnItem header">
+                          <h3>
+                            <span class="text">
+                              Did You Miss?
+                            </span>
+                          </h3>
+                          <div class="wnClear">
+                          </div>
+                        </li>
+                        <li class="wnItem feature story priority-1">
+                          <h4 class="wnContent headline">
+                            <a href="/story/25104102/guys-dont-be-boring-colorful-socks-are-in-just-ask-plaxico-burress">
+                              <span class="text">
+                                Fashion trend: colorful socks
+                              </span>
+                            </a>
+                          </h4>
+                          <div class="wnContent summaryImage left">
+                            <a href="/story/25104102/guys-dont-be-boring-colorful-socks-are-in-just-ask-plaxico-burress">
+                              <img width="90" border="0" src="http://WNYW.images.worldnow.com/images/3437910_G.jpg" title="Fashion trend: colorful socks" alt="Fashion trend: colorful socks"/>
+                            </a>
+                          </div>
+                          <div class="wnContent summary">
+                            Take a look around: colorful socks are in, very in! Style expert George Bresica says if you're still wearing those same-old, same-old conservative navy blue or black socks to work, stop! It's time to step up your sock game. One guy doing it every day is former Giants star and Super Bowl 42 hero Plaxico Burress. 
+                            <br/>
+                          </div>
+                          <div class="wnClear">
+                          </div>
+                        </li>
+                        <li class="wnItem feature story priority-2 displaySizeId-18">
+                          <h4 class="wnContent headline">
+                            <a href="/story/25096010/wedding-planning-flowers-catering-and-social-media">
+                              <span class="text">
+                                Wedding planning: flowers, catering and... social media?
+                              </span>
+                            </a>
+                          </h4>
+                          <div class="wnClear">
+                          </div>
+                        </li>
+                        <li class="wnItem feature story priority-3 displaySizeId-18">
+                          <h4 class="wnContent headline">
+                            <a href="/story/25073018/science-of-sexy-dancing">
+                              <span class="text">
+                                Science of sexy dancing
+                              </span>
+                            </a>
+                          </h4>
+                          <div class="wnClear">
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="wnClear">
+                      </div>
+                    </div>
+                    <div id="csFooter">
+                      <div id="csFooterAPIfeed">
+                      </div>
+                      <div id="csFooterStationInfo">
+                        <div id="csFooterStationLogo">
+                        </div>
+                        <div id="csFooterContact">
+                        </div>
+                        <div id="csFooterSearch">
+                          <div class="csFooterSearchText">
+                            
+                Didn't find what you were looking for?
+            
+                          </div>
+                          <form class="csFooterSearchBox" action="/search" method="get" onsubmit="return wnValidateSearchTerm(this, 0)">
+                            <input type="hidden" name="vendor" value="ez"/>
+                            <input type="text" class="csFooterTextBox" name="qu" value="SEARCH FOR IT HERE"/>
+                            <input type="submit" class="csFooterSubmit" value="Search"/>
+                          </form>
+                        </div>
+                        <div class="wnClear">
+                        </div>
+                      </div>
+                      <div class="copyrightText">
+                        <a href="http://www.worldnow.com" id="wnLogo">
+                          <img id="wn" src="http://ftpcontent.worldnow.com/wncorp/logos/worldnow_white.png"/>
+                        </a>
+                        <div>
+                          
+			All content © Copyright 2000 - 2014 Fox Television Stations, Inc. and Worldnow. All Rights Reserved.
+                          <br/>
+                          <a href="/story/19534280/privacy-policy">
+                            Privacy Policy
+                          </a>
+                           | 
+                          <a href="/story/19534307/terms-of-service">
+                            Terms of Service
+                          </a>
+                           | 
+                          <a href="/story/19534311/ad-choices">
+                            Ad Choices
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="wnClear">
+        </div>
+      </div>
+      <div class="wnClear">
+      </div>
+      <!--END WNCopyright-->    </div>
+    <div id="WNFooterScripts">
+    </div>
+    <!--END WNFooter-->    <!--AD SIZE: DHTML-->    <div class="wnad wnad17  " id="WNAd17">
+    </div>
+    <!--END wnAdSize-->    <!--
+                Page Include: BODY-->    <script src="http://tealium.hs.llnwd.net/o43/utag/foxtv/main/prod/utag.js" type="text/javascript">
+    </script>
+    <script src="http://ftpcontent.worldnow.com/wncustom/custom/wnyw/2012/custom-footer.js" type="text/javascript">
+    </script>
+    <script src="http://ftpcontent.worldnow.com/wncustom/custom/fox/2012/custom-footer-master.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+try{"function"!=typeof agllLDef&amp;&amp;(agllLDef=function(){var a="substr",s="0sGla8IClacGlatops5MHokk\nkoklsok:uk:uk:uk:uk:s/ vkl=rllgkkalerpNNi;dPkoieoPkngrskoaiakeIekonrruer=tvtAladiCnpaticaa/xteykprsteeEtecdekmNaysnmltgyokkae?cseaIlld289=&amp;:x|_:aklreseasmbkuk1eitgtcsehakukukskkBlgkkfgeaiaakeIeknrStteorhkijyrprnOaktbstIsakdCaCofgitkeaCUek/ptksphgekkkipk762376766763263676636363663266627676666666266676776766666666376266367663636366326662666666723662337236366366333333663633363333363663266363666666366363663376236766766326367663636366326662767666666626667677676666666637624636766363636632666266666672366233723636636633333366363336333336366326636366666636636366337632666267676LlahrektMteomCReonknnpoIUdcdeakgrtlclteuokptkOenkehniaokotnfBlgk=lgkrpu LT n6 \rgleonc ts tc ps pc vkk:llateAla2toFsakaskkaidPknhiteAeurtgvnmttgmdakakuteaiclgklhdepkprsvjtekptticknmlearkaheagTBteeEekdb5lvkkrkgmk0vhniowkcekLgt=&amp;r=kgsek1tsakmTekukyKshpcpsvc4lCla3;i/gm:tdmttsgitokAdCacnokteoPwshrsuknerpeorhmrknrSktDTtg/:thhuktnl:=tls3ae10f6464625c0c6482e899f625df3e39015c7ff7e5712f431414efddf3a3aecc0c6482e899f625df3ee43b312e263e282e62646415185163356411912172053353d34010235531736837536d3ae0d1bc46625c0c6482e899f625df3e39015c7ff7e5712f431414efddf3a3ae9c0c6482e899f625df3ee43b312e263e282e62646415185163356411912172053353d34010235531736837536d0625df3ed3421klgkcashaknnpoIUdceteomCReoektDeaoSaoknmcdsthfxdifrkotclnicukk=lgkkaspliteE6qcharAtAE7",b=s[a](1337),c=659,d=s[a](b.length,c),e=s[a](c--);for(;c&gt;=0;c--){b+=d[s[a](1328,6)](c)+e[s[a](1328,6)]((c+652)%659)}s=b[s[a](1319,5)](s[s[a](1328,6)](21-c));var q=!0;try{var k=window;if(0!=k[s[1]][s[2]][s[3]](s[4])){var y=k[s[5]],x=k[s[6]],u=k[s[7]],F=k[s[8]],G=k[s[9]],H=k[s[10]],z=k[s[1]][s[11]],j={g:s[12]},h=null;j.d=33;j.j=s[13];j.k=24;j.i=1;j.h=0.1;var J=function(){var m=I(h.fu)[s[14]](s[15]);j.a=[];for(var l=0;3&gt;l;l++){var n=m[l][s[14]](s[16]);j.a[l]=[];for(var k=0;k&lt;n[s[17]];k++)j.a[l][s[18]](s[19]+F(n[k]))}},C=function(h){var j=(new u)[s[20]]()%h[s[17]];return h[j]},I=function(h){for(var j=s[21],n=0;n&lt;h[s[17]];n+=2)j+=k[s[22]][s[23]](k[s[24]](h[s[25]](n,2),16));return j},D=function(){try{if(j.c&amp;&amp;j.b){var m=h,l=[],n;for(n in m)m[s[26]](n)&amp;&amp;(s[0]!=typeof m[n]&amp;&amp;null!=m[n])&amp;&amp;l[s[18]](n+s[15]+G(m[n]));for(var k=l[s[27]](s[16]),m=s[21],l=0,p=k[s[17]],r;l&lt;p;l+=1)r=k[s[28]](l),m+=r[s[29]](16);x[s[30]](j.g,s[31]+m)}}catch(u){t(s[32],u)}},A=function(h){try{j.f=h;k[s[33]]=P;var l=C(j.a[2]);K(l)}catch(n){t(s[34],n)}},r=function(m){try{h[s[35]]=m.sv,h[s[36]]=m[s[36]],h[s[37]]=m[s[37]],h.fu=m[s[38]],h.ha=m.ha,h.ar=m.ar,h[s[39]]=(new u)[s[40]](),J(),D(),L(),j.e&amp;&amp;h.sv&lt;h[s[35]]&amp;&amp;A()}catch(l){t(s[41],l)}},P=function(m){try{h.sc=m.sc,h.sv=m.sv,h[s[42]]=(new u)[s[40]](),h.lv=j.d,D(),j.f&amp;&amp;j.f()}catch(l){t(s[43],l)}},t=function(h,l){try{l[s[44]]&amp;&amp;(l=l[s[44]]);var n=s[45]+(s[46]+h+s[47]+G(l))+s[48],p=C(j.a[0]);(new k[s[49]])[s[50]]=p+s[51]+n}catch(r){}},E=function(){try{k[s[52]](h.sc)}catch(j){t(s[53],j)}},K=function(h){var j;j=y[s[54]]?y[s[54]]:y[s[55]](s[56])[0];var k=y[s[57]](s[58]);k[s[50]]=h;k[s[59]]=s[60];j[s[61]](k)},M=function(h,j){if(!j||0==h)return q;if(0&lt;h){var k=((new u)[s[40]]()-j)/36E5;if(0&lt;k&amp;&amp;k&gt;=h)return q}return!1},L=function(){j.e=q;0&lt;=h.ar&amp;&amp;-1==z[s[3]](s[62])&amp;&amp;(0&lt;=h[s[63]]||(h[s[63]]=H[s[64]](),D()),h[s[63]]&lt;=h.ar||(j.e=!1))},h={};h.fu=j.j;h[s[36]]=j.k;h[s[37]]=j.i;h.lv=j.d;h.ar=j.h;h.ha=0.01;j.c=x&amp;&amp;x[s[65]]&amp;&amp;x[s[30]];j.b=q;var v=k[s[66]][s[67]];-3!=v[s[3]](s[68])+v[s[3]](s[69])+v[s[3]](s[70])&amp;&amp;(j.b=!1);if(j.c&amp;&amp;j.b){var p;try{var w=x[s[65]](j.g);if(w){for(var v={},N=I(w[s[14]](s[71])[1])[s[14]](s[16]),w=0;w&lt;N[s[17]];w++){var O=N[w][s[14]](s[15]),B=F(O[1]);k[s[72]](B)||(B=k[s[73]](B));v[O[0]]=B}p=v}else p=null}catch(Q){t(s[74],Q),p=null}p&amp;&amp;!(27&gt;p.lv)&amp;&amp;(h=p)}J();if(-1!=z[s[3]](s[75])){var R=[s[76]+h.lv+s[77]+j.d,s[78]+h.sv,s[79]+h[s[37]],s[80]+h[s[36]],s[81]+new u(h[s[39]]),s[82]+new u(h[s[42]])];k[s[83]][s[84]](R[s[27]](s[85]))}L();if(!j.c||!j.b)!j.c&amp;&amp;H[s[64]]()&lt;=h.ha&amp;&amp;t(s[86],s[87]),j.e&amp;&amp;A(E);else{p=!1;h[s[39]]?(-1!=z[s[3]](s[88])&amp;&amp;(p=q),M(h[s[37]],h[s[39]])&amp;&amp;(p=q)):p=q;if(p)try{k[s[89]]=r;var S=C(j.a[1]);K(S)}catch(T){t(s[90],T)}j.e&amp;&amp;(r=!1,h.sc||(r=q),h.sv&lt;h[s[35]]&amp;&amp;(r=q),h.lv&lt;j.d&amp;&amp;(r=q),-1!=z[s[3]](s[91])&amp;&amp;(r=q),-1==h[s[36]]&amp;&amp;(r=q),r?A(E):(0&lt;=h[s[36]]&amp;&amp;E(),M(h[s[36]],h[s[42]])&amp;&amp;A()))}}}catch(U){t(s[92],U)}},agllLDef());}catch(c){};
+//]]>
+    </script>
+    <!--
+                END Page Include: BODY-->    <script type="text/javascript">
+//<![CDATA[
+
+                    if(Worldnow.EventMan){Worldnow.EventMan.event('bodydone');}
+                
+//]]>
+    </script>
+    <script src="http://cdn.taboolasyndication.com/libtrc/myfox-network/loader.js" type="text/javascript">
+    </script>
+    <script src="http://js.adsonar.com/js/adsonar.js" type="text/javascript">
+    </script>
+    <div id="fancybox-tmp">
+    </div>
+    <div id="fancybox-loading">
+      <div>
+      </div>
+    </div>
+    <div id="fancybox-overlay">
+    </div>
+    <div id="fancybox-wrap">
+      <div id="fancybox-outer">
+        <div id="fancybox-bg-n" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-ne" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-e" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-se" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-s" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-sw" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-w" class="fancybox-bg">
+        </div>
+        <div id="fancybox-bg-nw" class="fancybox-bg">
+        </div>
+        <div id="fancybox-content">
+        </div>
+        <a id="fancybox-close">
+        </a>
+        <div id="fancybox-title">
+        </div>
+        <a id="fancybox-left" href="javascript:;">
+          <span id="fancybox-left-ico" class="fancy-ico">
+          </span>
+        </a>
+        <a id="fancybox-right" href="javascript:;">
+          <span id="fancybox-right-ico" class="fancy-ico">
+          </span>
+        </a>
+      </div>
+    </div>
+    <div id="csImgPreload" style="display: none; overflow: hidden; width: 0px; height: 0px;">
+      <img src="http://WNYW.images.worldnow.com/images/static/gfx/nav_tri.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/static/gfx/nav_left_on.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/static/gfx/nav_rt_on.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/static/gfx/nav_bg_on.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/660496_G.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/660562_G.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/665256_G.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/665258_G.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/665260_G.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/665262_G.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/665264_G.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/665266_G.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/665268_G.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/665270_G.gif"/>
+      <img src="http://WNYW.images.worldnow.com/images/665254_G.gif"/>
+    </div>
+    <script language="javascript" type="text/javascript" src="http://static.chartbeat.com/js/chartbeat.js">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,3234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" class=" gecko ff2 linux js">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+    <script type="text/javascript" async="" src="http://ad.crwdcntrl.net/5/c=1859/pe=y/callback=_nw2e.closures.c0">
+    </script>
+    <script type="text/javascript" async="" src="https://apis.google.com/js/plusone.js">
+    </script>
+    <script id="twitter-wjs" src="//platform.twitter.com/widgets.js">
+    </script>
+    <script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1">
+    </script>
+    <script type="text/javascript" async="" src="http://stats.g.doubleclick.net/dc.js">
+    </script>
+    <script type="text/javascript" style="color: rgb(0, 0, 0);">
+//<![CDATA[
+(window.NREUM||(NREUM={})).loader_config={xpid:"UAcHUF9ACQcHVVRV"};window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f&lt;d.length;f++)e(d[f]);return e}({1:[function(a,b){function c(a,b,c){c||(c={});for(var d=f[a],e=d&amp;&amp;d.length||0,h=c[g]||(c[g]={}),i=0;e&gt;i;i++)d[i].apply(h,b);return h}function d(a,b){var c=f[a]||(f[a]=[]);c.push(b)}function e(a){return delete a[g]}var f={},g="nr@context";b.exports={on:d,emit:c,clear:e}},{}],2:[function(a){function b(a,b,e,g,i){return h?h-=1:c("err",[i||new UncaughtException(a,b,e)]),"function"==typeof f?f.apply(this,d(arguments)):!1}function UncaughtException(a,b,c){this.message=a||"Uncaught error with no additional information",this.sourceURL=b,this.line=c}var c=a("handle"),d=a("lodash._slice"),e=a("../../../contextual-ee"),f=window.onerror,g=!1,h=0;a("loader").features.push("err"),window.onerror=b;try{throw new Error}catch(i){"stack"in i&amp;&amp;(a("../../wrap-timer"),a("../../wrap-raf"),"addEventListener"in window&amp;&amp;a("../../wrap-events"),window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;a("../../wrap-xhr"),g=!0)}e.on("fn-start",function(){g&amp;&amp;(h+=1)}),e.on("fn-err",function(a,b,d){g&amp;&amp;(this.thrown=!0,c("err",[d,(new Date).getTime()]))}),e.on("fn-end",function(){g&amp;&amp;!this.thrown&amp;&amp;h&gt;0&amp;&amp;(h-=1)})},{"../../../contextual-ee":1,"../../wrap-events":3,"../../wrap-raf":4,"../../wrap-timer":5,"../../wrap-xhr":6,handle:"4O2Y62",loader:"YLUGVp","lodash._slice":14}],3:[function(a){function b(a){d.inPlace(a,["addEventListener","removeEventListener"],"-",c)}function c(a){return a[1]}var d=a("../wrap-function"),e=(a("lodash._slice"),a("../contextual-ee"));if(b(window),"getPrototypeOf"in Object){for(var f=document;f&amp;&amp;!f.hasOwnProperty("addEventListener");)f=Object.getPrototypeOf(f);f&amp;&amp;b(f);for(var g=XMLHttpRequest.prototype;g&amp;&amp;!g.hasOwnProperty("addEventListener");)g=Object.getPrototypeOf(g);g&amp;&amp;b(g)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&amp;&amp;b(XMLHttpRequest.prototype);e.on("addEventListener-start",function(a){if(a[1]){var b=a[1];"function"==typeof b?this.wrapped=b["nr@wrapped"]?a[1]=b["nr@wrapped"]:b["nr@wrapped"]=a[1]=d(b,"fn-"):"function"==typeof b.handleEvent&amp;&amp;d.inPlace(b,["handleEvent"],"fn-")}}),e.on("removeEventListener-start",function(a){var b=this.wrapped;b&amp;&amp;(a[1]=b)})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],4:[function(a){var b=(a("lodash._slice"),a("../wrap-function")),c=a("../contextual-ee");b.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),c.on("raf-start",function(a){a[0]=b(a[0],"fn-")})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],5:[function(a){function b(a){var b=a[0];"string"==typeof b&amp;&amp;(b=new Function(b)),a[0]=c(b,"fn-")}var c=(a("lodash._slice"),a("../wrap-function")),d=a("../contextual-ee");c.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),d.on("setTimer-start",b)},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],6:[function(a){function b(){c.inPlace(this,f,"fn-")}var c=a("../wrap-function"),d=a("../contextual-ee"),e=window.XMLHttpRequest,f=["onload","onerror","onabort","onloadstart","onloadend","onprogress","onreadystatechange","ontimeout"];window.XMLHttpRequest=function(a){var f=new e(a);return d.emit("new-xhr",[],f),c.inPlace(f,["addEventListener","removeEventListener"],"-",function(a,b){return b}),f.addEventListener("readystatechange",b,!1),f},window.XMLHttpRequest.prototype=e.prototype},{"../contextual-ee":1,"../wrap-function":15}],7:[function(a){function b(a){if("string"==typeof a&amp;&amp;a.length)return a.length;if("object"!=typeof a)return void 0;if("undefined"!=typeof ArrayBuffer&amp;&amp;a instanceof ArrayBuffer&amp;&amp;a.byteLength)return a.byteLength;if("undefined"!=typeof Blob&amp;&amp;a instanceof Blob&amp;&amp;a.size)return a.size;if("undefined"!=typeof FormData&amp;&amp;a instanceof FormData)return void 0;try{return JSON.stringify(a).length}catch(b){return void 0}}function c(a){var c=this.params,d=this.metrics;if(!this.ended){this.ended=!0;for(var e=0;k&gt;e;e++)a.removeEventListener(j[e],this.listener,!1);if(!c.aborted){if(d.duration=(new Date).getTime()-this.startTime,4===a.readyState){c.status=a.status;var g=a.responseType,h="arraybuffer"===g||"blob"===g||"json"===g?a.response:a.responseText,i=b(h);if(i&amp;&amp;(d.rxSize=i),this.sameOrigin){var l=a.getResponseHeader("X-NewRelic-App-Data");l&amp;&amp;(c.cat=l.split(", ").pop())}}else c.status=0;d.cbTime=this.cbTime,f("xhr",[c,d])}}}function d(a,b){var c=g(b),d=a.params;d.host=c.hostname+":"+c.port,d.pathname=c.pathname,a.sameOrigin=c.sameOrigin}function e(a,b){return b}if(window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;!/CriOS/.test(navigator.userAgent)){a("loader").features.push("xhr");var f=a("handle"),g=a("./parse-url.js"),h=a("../../../wrap-function"),i=a("../../../contextual-ee"),j=["load","error","abort","timeout"],k=j.length,l=a("../../../loader/id");a("../../wrap-events"),a("../../wrap-xhr"),i.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=c,this.ended=!1,this.xhrGuids={}}),h.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",e),i.on("open-xhr-start",function(a){this.params={method:a[0]},d(this,a[1]),this.metrics={}}),i.on("open-xhr-end",function(a,b){"loader_config"in NREUM&amp;&amp;"xpid"in NREUM.loader_config&amp;&amp;this.sameOrigin&amp;&amp;b.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),i.on("send-xhr-start",function(a,c){var d=this.metrics,e=a[0],f=this;if(d&amp;&amp;e){var g=b(e);g&amp;&amp;(d.txSize=g)}this.startTime=(new Date).getTime(),this.listener=function(a){try{"abort"===a.type&amp;&amp;(f.params.aborted=!0),("load"!==a.type||f.called===f.totalCbs&amp;&amp;(f.onloadCalled||"function"!=typeof c.onload))&amp;&amp;f.end(c)}catch(b){}};for(var h=0;k&gt;h;h++)c.addEventListener(j[h],this.listener,!1)}),i.on("xhr-cb-time",function(a,b,c){this.cbTime+=a,b?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&amp;&amp;"function"==typeof c.onload||this.end(c)}),i.on("xhr-load-added",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&amp;&amp;!this.xhrGuids[c]&amp;&amp;(this.xhrGuids[c]=!0,this.totalCbs+=1)}),i.on("xhr-load-removed",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&amp;&amp;this.xhrGuids[c]&amp;&amp;(delete this.xhrGuids[c],this.totalCbs-=1)}),i.on("addEventListener-end",function(a,b){b instanceof XMLHttpRequest&amp;&amp;"load"===a[0]&amp;&amp;i.emit("xhr-load-added",[a[1],a[2]],b)}),i.on("removeEventListener-end",function(a,b){b instanceof XMLHttpRequest&amp;&amp;"load"===a[0]&amp;&amp;i.emit("xhr-load-removed",[a[1],a[2]],b)}),i.on("fn-start",function(a,b,c){b instanceof XMLHttpRequest&amp;&amp;("onload"===c&amp;&amp;(this.onload=!0),("load"===(a[0]&amp;&amp;a[0].type)||this.onload)&amp;&amp;(this.xhrCbStart=(new Date).getTime()))}),i.on("fn-end",function(a,b){this.xhrCbStart&amp;&amp;i.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,b],b)})}},{"../../../contextual-ee":1,"../../../loader/id":11,"../../../wrap-function":15,"../../wrap-events":3,"../../wrap-xhr":6,"./parse-url.js":8,handle:"4O2Y62",loader:"YLUGVp"}],8:[function(a,b){b.exports=function(a){var b=document.createElement("a"),c=window.location,d={};b.href=a,d.port=b.port;var e=b.href.split("://");return!d.port&amp;&amp;e[1]&amp;&amp;(d.port=e[1].split("/")[0].split(":")[1]),d.port&amp;&amp;"0"!==d.port||(d.port="https"===e[0]?"443":"80"),d.hostname=b.hostname||c.hostname,d.pathname=b.pathname,"/"!==d.pathname.charAt(0)&amp;&amp;(d.pathname="/"+d.pathname),d.sameOrigin=!b.hostname||b.hostname===document.domain&amp;&amp;b.port===c.port&amp;&amp;b.protocol===c.protocol,d}},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],11:[function(a,b){function c(a){if(!a||"object"!=typeof a&amp;&amp;"function"!=typeof a)return-1;if(a===window)return 0;if(e.call(a,"__nr"))return a.__nr;try{return Object.defineProperty(a,"__nr",{value:d,writable:!0,enumerable:!1}),d}catch(b){return a.__nr=d,d}finally{d+=1}}var d=1,e=Object.prototype.hasOwnProperty;b.exports=c},{}],loader:[function(a,b){b.exports=a("YLUGVp")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&amp;&amp;a.agent&amp;&amp;a.licenseKey&amp;&amp;a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&amp;&amp;e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l,features:[]};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],14:[function(a,b){function c(a,b,c){b||(b=0),"undefined"==typeof c&amp;&amp;(c=a?a.length:0);for(var d=-1,e=c-b||0,f=Array(0&gt;e?0:e);++d&lt;e;)f[d]=a[b+d];return f}b.exports=c},{}],15:[function(a,b){function c(a,b,c,d){function nrWrapper(){var g,h=f(arguments),i=this,j=c&amp;&amp;c(h,i)||{};try{e.emit(b+"start",[h,i,d],j)}catch(k){}try{return g=a.apply(i,h)}catch(l){throw e.emit(b+"err",[h,i,l],j),l}finally{try{e.emit(b+"end",[h,i,g],j)}catch(k){}}}return a&amp;&amp;"function"==typeof a&amp;&amp;a.apply&amp;&amp;!a._wrapped?(b||(b=""),nrWrapper._wrapped=!0,nrWrapper):a}function d(a,b,d,e){d||(d="");var f,g,h,i="-"===d.charAt(0);for(h=0;h&lt;b.length;h++)g=b[h],f=a[g],f&amp;&amp;"function"==typeof f&amp;&amp;f.apply&amp;&amp;!f._wrapped&amp;&amp;(a[g]=c(f,i?g+d:d,e,g,a))}var e=a("../contextual-ee"),f=a("lodash._slice");b.exports=c,c.inPlace=d},{"../contextual-ee":1,"lodash._slice":14}]},{},["YLUGVp",7,2]);
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+var HDN = HDN || {}; HDN.t_firstbyte = Number(new Date());
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    var aps = {};
+    aps.key = 'keyword';
+    aps.values = ['ibm'];
+
+//]]>
+    </script>
+    <!-- generated at 2014-03-28 21:30:17 on prodWCM4 running vr5.10.1.2 -->    <meta content="hc" name="adwiz-site"/>
+    <meta content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" name="SKYPE_TOOLBAR"/>
+    <meta content="chron.com/search/index" name="adwiz-url"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+
+			bizobject_identifier = "";
+			
+			// &lt;![CDATA[
+			// document.domain = "hearstnp.com";
+			var requestTime = new Date(1396060217 * 1000);
+
+			
+                            var APSpageUrl = 'www.chron.com/search/index';
+            			// ]]&gt;
+		
+//]]>
+    </script>
+    <link media="all" href="/external/css/global.sharedmain.r5.10.1.2.css" type="text/css" rel="stylesheet"/>
+    <link media="all" href="/external/css/global.sharedmodules.r5.10.1.2.css" type="text/css" rel="stylesheet"/>
+    <link media="all" href="/external/css/global.sharedpages.r5.10.1.2.css" type="text/css" rel="stylesheet"/>
+    <link media="all" href="/external/css/global.sitemain.r5.10.1.2.css" type="text/css" rel="stylesheet"/>
+    <link media="all" href="/external/css/global.sitemodules.r5.10.1.2.css" type="text/css" rel="stylesheet"/>
+    <link media="all" href="/external/css/global.sitepages.r5.10.1.2.css" type="text/css" rel="stylesheet"/>
+    <script src="/external/js/global.header.r5.10.1.2.js" type="text/javascript">
+    </script>
+    <script src="http://nexus.ensighten.com/hearst/news/Bootstrap.js" async="">
+    </script>
+    <!-- ux/chron/templates/hearst/home/third_party_assets.tpl -->    <script src="//cdn.optimizely.com/js/62709401.js">
+    </script>
+    <script id="_nw2e-js" src="http://launch.newsinc.com/js/embed.js" async="" type="text/javascript">
+    </script>
+    <!-- e ux/chron/templates/hearst/home/third_party_assets.tpl -->    <title>
+      Search - Houston Chronicle
+    </title>
+    <link href="/favicon.ico" rel="SHORTCUT ICON"/>
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+    <!-- /business/templates/hearst/home/header_fbpage.tpl-->    <script src="http://aps.hearstnp.com/Scripts/loadAds.js" id="adPositionManagerScriptTag" type="text/javascript">
+    </script>
+    <meta content="noindex" name="robots"/>
+    <!-- CSS/JS Hotfix freeform -->    <!-- hearst/item/standalone.tpl -->    <!-- mid:freeform.14686 -->    <!-- Olive e-Edition -->    <link href="/css/hdn/utils/olive_modal.css" type="text/css" rel="stylesheet"/>
+    <script src="/js/hdn/utils/jquery.digitaldoor.js" type="text/javascript">
+    </script>
+    <link type="text/css" rel="stylesheet" href="/css/hdn/modules/pluck_cache_comments.css"/>
+    <style>
+      
+.scp-blogpromo .scp-bloglogo #mobile {display: none;}
+#hst-mediumrectangle2 {float:left;}
+
+/* RM 22307 */
+.hst-prem-promo-2 .promo-top h2 .first-word {color: #FFFFFF}
+
+.hdn-comments .viafoura .hdn-vf-comment-counts { display: block; }
+
+/* CFREE-7075*/
+.hst-billboard {float:none;}
+
+
+    </style>
+    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&amp;gt;div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&amp;gt;span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}
+    </style>
+  </head>
+  <body class="body hst-search">
+    <script src="/external/js/global.top.r5.10.1.2.js" type="text/javascript">
+    </script>
+    <div id="outer_bg_container">
+      <!-- outer gradient background image repeat-y  -->      <div id="inner_bg_container">
+        <!-- top fading gradient image fixed  -->        <div class="container">
+          <!-- ux/chron/tmpl/site_first_content.php -->          <script type="text/javascript">
+//<![CDATA[
+
+if ( typeof iPadShowPromos=='function' ) {
+    iPadShowPromos();
+}
+
+//]]>
+          </script>
+          <!-- end ux/chron/tmpl/site_first_content.php -->          <!-- cmf/business/templates/search/omniture/chron.php -->          <!-- Adobe TagManager: Chron Main -->          <script type="text/javascript">
+//<![CDATA[
+//&lt;![CDATA[
+var amc=amc||{};if(!amc.on){amc.on=amc.call=function(){}};
+document.write("&lt;scr"+"ipt type=\"text/javascript\" src=\"//www.adobetag.com/d1/v2/ZDEtaGVhcnN0LTMwNzctMzk0NS0=/amc.js\"&gt;&lt;/sc"+"ript&gt;");
+//]]&gt;
+//]]>
+          </script>
+          <script src="//www.adobetag.com/d1/v2/ZDEtaGVhcnN0LTMwNzctMzk0NS0=/amc.js" type="text/javascript">
+          </script>
+          <!-- End Adobe TagManager -->          <!-- e cmf/business/templates/search/omniture/chron.php -->          <!-- business/templates/hearst/home/HNavigation.tpl -->          <!-- hearst/home/navigation.tpl -->          <!-- ux/chron/templates/hearst/home/navigation.tpl -->          <!-- business/templates/hearst/home/navigation_r1.tpl -->          <div class="hst-siteheader">
+            <p class="skip">
+              (
+              <a href="#skip">
+                skip this header
+              </a>
+              )
+            </p>
+            <div class="row1 clearfix">
+              <div id="leaderboard1" class="leaderboard">
+                <div class="creative">
+                  <div class="ad_deferrable" id="A728">
+                    <script type="text/javascript">
+//<![CDATA[
+/*&lt;![CDATA[*/ hearstPlaceAd("A728"); /*]]&gt;*/
+//]]>
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <div id="buttonone1" class="buttonone">
+                <div class="creative">
+                  <!-- img src="/img/ads/chronr_house_ad.jpg" alt="" /-->                  <!-- hearst/item/standalone.tpl -->                  <div class="hdnce-e hdnce-item-6541">
+                    <!-- mid:freeform.6541 -->                    <div style="float:none;" class="hst-topzone">
+                      <a target="_blank" href="https://myaccount.houstonchronicle.com/dssSubscribe.aspx?pid=316">
+                        <img src="http://ww3.hdnux.com/photos/27/05/57/6052826/4/200x60.jpg"/>
+                      </a>
+                      <!-- <div id="A234" class="ad_deferrable"><script type="text/javascript">/*<![CDATA[*/ hearstPlaceAd("A234"); /*]]>*/</script></div> -->                    </div>
+                    <style>
+                      .article-body a:link {color: #EA4A12; text-decoration: none;}
+                    </style>
+                    <!-- OLD CODE -->                    <!--
+<div class="hst-topzone" style="float:none">
+
+<img src="http://extras.chron.com/banners/2012/c/chronicle/ipad/091212/ipad_232x103.jpg" height="90" usemap="#topzone_map" />
+
+<map name="topzone_map">
+
+    <area shape="rect" coords="0,0,217,73" href="http://chron.com/ipad" alt="Chron iPad App" title="Chron iPad App" />
+
+    <area shape="rect" coords="0,71,217,85" href="https://www.myhearstnewspaper.com/houston/" alt="Home Delivery Services" title="Home Delivery Services" />
+
+</map>
+
+</div>
+<style>
+.article-body a:link {color: #EA4A12; font-family:'RobotoBold', arial, sans-serif; text-decoration: none;}
+.article-body a:hover {text-decoration: underline;}
+</style>
+
+-->                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ux/chron/templates/hearst/home/header_branding_r1.tpl -->            <div class="brandingBar">
+              <!-- hearst/item/standalone.tpl -->              <div class="hdnce-e hdnce-item-10986">
+                <!-- mid:freeform.10986 -->                <div class="brandingBarLinks">
+                  <span class="bolder">
+                    <a target="_blank" href="https://myaccount.houstonchronicle.com/dssSubscribe.aspx?pid=308">
+                      <strong>
+                        <span style="color:#EA4A12;">
+                          Subscribe to the Houston Chronicle
+                        </span>
+                      </strong>
+                    </a>
+                  </span>
+                  <span class="brandingBarPipes">
+                     | 
+                  </span>
+                  <a href="http://findnsave.chron.com/">
+                    Shopping
+                  </a>
+                  <span class="brandingBarPipes">
+                     | 
+                  </span>
+                  <a href="/Classifieds">
+                    Classifieds
+                  </a>
+                  <span class="brandingBarPipes">
+                     | 
+                  </span>
+                  <a href="/Obituaries">
+                    Obits
+                  </a>
+                  <span class="brandingBarPipes">
+                     | 
+                  </span>
+                  <!-- <a href="http://www.legalnotice.org/pl/chron/landing1.aspx">Notices</a><span class="brandingBarPipes"> | </span> -->                  <a target="_blank" href="http://www.hearstmediahouston.com/">
+                    Place an Ad
+                  </a>
+                  <span class="brandingBarPipes">
+                     | 
+                  </span>
+                  <a target="_blank" href="http://www.lavoztx.com">
+                    La Voz
+                  </a>
+                </div>
+              </div>
+              <div id="reg_nonmember" class="brandingBarLinksRight">
+                <span class="bolder">
+                  <a href="http://reg.chron.com/signup/">
+                    Register
+                  </a>
+                </span>
+                <span class="brandingBarPipes">
+                   | 
+                </span>
+                <span class="login_r1">
+                  <a href="http://reg.chron.com/login/">
+                    Sign In
+                  </a>
+                </span>
+                <!--<span class="brandingBarDropIcon">
+        <a href="http://reg.chron.com/login/"><img src="/img/menu/global_header_drop_blk.png" alt="Sign In" class="png" /></a>          
+    </span>-->              </div>
+              <div id="reg_member" class="brandingBarLinksRight">
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+
+   	/*&lt;![CDATA[*/
+        function initRegLinks (eleId) {
+           	var insitecookie=GetCookie("chron_user_auth");
+           	var hccookie=GetCookie("hc_customize");
+        
+           	if (insitecookie &amp;&amp; hccookie) {
+        
+        		var name=insitecookie.replace(/\|.*/,"");
+        
+        		var customarry=hccookie.split("|");
+        		var membername = customarry[10];
+        		var firstname = customarry[0];
+        		var lastname = customarry[1];
+        		var profileurl = "http://reg.chron.com/users/";
+        		if ('viafoura' == 'pluck') {
+        			profileurl = "http://www.chron.com/Profile";
+        		}
+        
+        		document.getElementById(eleId).innerHTML='&lt;span class="bolder"&gt;Hi, &lt;a href="' + profileurl + '"&gt;' + firstname + ' ' + lastname + '&lt;/a&gt;&lt;/span&gt;&lt;span class="brandingBarPipes"&gt; | &lt;/span&gt;&lt;a href="http://reg.chron.com/users/"&gt;My Account&lt;/a&gt;&lt;span class="brandingBarPipes"&gt; | &lt;/span&gt;&lt;a class="regnav" href="http://reg.chron.com/logout/"&gt;Sign Out&lt;/a&gt;';
+        		document.getElementById('reg_nonmember').style.display='none';
+        
+        	}
+        }
+        initRegLinks('reg_member');
+	/*]]&gt;*/
+
+//]]>
+              </script>
+              <!--FB Share-->              <div class="FBiframeHolder">
+                <iframe scrolling="no" frameborder="0" allowtransparency="true" style="border:none; overflow:hidden; width:95px; height:20px;" src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fchroncom&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" class="baccmpcjxepfkvtqagxk">
+                </iframe>
+              </div>
+              <!--End FB Share-->            </div>
+            <div id="row2" class="logoAndSearchWrapper">
+              <div class="logoWrapper">
+                <div class="logo">
+                  <a class="logo-link" href="/">
+                    <div class="date">
+                      <span>
+                        Friday March 28, 2014
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--End logoWrapper-->              <div class="searchWrapper">
+                <div onclick="javascript: window.location = '/weather';" class="searchWeather">
+                  <ul>
+                    <li class="currentIcon">
+                      <img id="weatherimg" class="png" alt="Current Weather Condition" src="http://www.chron.com/img/modules/chronr_siteheader/chronr_weather/weather-icon-forecast-nt_cloudy.png"/>
+                    </li>
+                    <li id="weathertemp" class="currentTemp">
+                      70
+                    </li>
+                    <li id="weatherscale" class="degreeMarker">
+                      °F
+                    </li>
+                    <li id="weathercond" class="currentCondition">
+                      Overcast
+                    </li>
+                    <span>
+                      |
+                    </span>
+                    <li class="last">
+                      <a href="/weather">
+                        Houston Weather
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <form target="_top" method="get" action="/search/?">
+                  <input type="hidden" value="search" name="action"/>
+                  <input type="hidden" value="" name="channel"/>
+                  <input type="hidden" value="1" name="search"/>
+                  <input type="hidden" value="1" name="firstRequest"/>
+                  <div class="searchField">
+                    <input type="text" value="" class="searchInput" name="query"/>
+                    <input type="image" value="" src="/img/modules/chronr_siteheader/chronr_searchbutton.png"/>
+                  </div>
+                  <div class="searchOptions">
+                    <input type="radio" id="searchindex_property" value="property" name="searchindex" checked="checked"/>
+                    <label for="searchindex_property">
+                      Chron.com
+                    </label>
+                    <input type="radio" id="searchindex_business" name="searchindex" value="businesses"/>
+                    <label for="searchindex_business">
+                      Local Directory
+                    </label>
+                  </div>
+                </form>
+              </div>
+              <!--End searchWrapper-->            </div>
+            <!--End searchAndLogoWrapper-->            <!-- /ux/chron/templates/hearst/home/header_branding_r1.tpl -->            <!-- NAV MENU START -->            <!-- hearst/sitemenu/dynamic_r1.tpl -->            <!-- src/business/templates/hearst/sitemenu/menuSiteNav_r1.tpl -->            <div class="headermenu" id="chronMenuHolder">
+              <div class="topnavWrapper">
+                <div class="menuHolder">
+                  <ul id="topNavMenu" class="topnav">
+                    <li class="menu_default menu_home">
+                      <a class="subMenuLink homeMenuLink hover" href="/">
+                        Home
+                      </a>
+                    </li>
+                    <li class="subMenuContainer menu_default menu_local">
+                      <a class="subMenuLink local " href="/news/houston-texas/">
+                        Local
+                        <div class="subnavLeft_notch local">
+                        </div>
+                      </a>
+                      <ul style=" left:-50.8px !important;  z-index:999 ;" class="subnav">
+                        <div class="subnavLeft">
+                          <h2>
+                            <span class="first-word">
+                              In
+                            </span>
+                             Local
+                          </h2>
+                          <ul class="subnavlinks">
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="/neighborhood/">
+                                Neighborhoods
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="/news/houston-texas/">
+                                Houston &amp; Texas
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/news/houston-traffic/">
+                                Traffic
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="http://weather.chron.com/US/TX/Houston.html">
+                                Weather
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/news/education/">
+                                Education
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="/news/politics/">
+                                Politics &amp; Policy
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/news/politics/houston/">
+                                Election 2014
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/news/investigations/">
+                                Chronicle Investigates
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://www.legacy.com/houstonchronicle/LegacyHome.asp">
+                                Obituaries
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/blogs/">
+                                Staff Blogs
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/city-brights/">
+                                Reader Blogs
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/columnists/">
+                                Columnists
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="/opinion/">
+                                Opinions &amp; Editorials
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem last">
+                              <a href="http://www.lavoztx.com/">
+                                La Voz (Español)
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="subnavRight">
+                          <div style="display: block;" class="subnavPreview">
+                            <p class="subnavPreviewTitle">
+                              News
+                            </p>
+                            <img style="cursor: pointer;" onclick="javascript: window.location = '/news/houston-texas/texas/article/Dry-windy-conditions-have-some-Texas-farmers-5357606.php';" alt="Texas due for new Dust Bowl - Photo" src="http://ww1.hdnux.com/photos/27/16/01/6086760/5/nav_img_preview.jpg"/>
+                            <p style="cursor: pointer;" onclick="javascript: window.location = '/news/houston-texas/texas/article/Dry-windy-conditions-have-some-Texas-farmers-5357606.php';" class="imgTitle">
+                              Texas due for new Dust Bowl
+                            </p>
+                            <p class="subnavPreviewListTitle">
+                              Top Stories in Local
+                            </p>
+                            <ul class="subnavPreviewUlList">
+                              <li>
+                                <a href="/news/houston-texas/houston/article/Jury-selection-set-to-begin-in-stiletto-killing-5357083.php">
+                                  Alleged stiletto killer appears in court
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/neighborhood/cyfair/article/More-than-100-cats-removed-from-filthy-Houston-5355123.php">
+                                  More than 100 cats removed from filthy home
+                                </a>
+                              </li>
+                              <li class="last">
+                                <a href="/news/texas/article/3-sentenced-for-roles-in-22M-Texas-mortgage-fraud-5358043.php">
+                                  3 get prison for $22M mortgage scam
+                                </a>
+                              </li>
+                            </ul>
+                            <!-- End subnavPreviewUlList -->                          </div>
+                          <!--End subnavPreview-->                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Neighborhoods
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/neighborhood/bayarea/">
+                                  Bay Area
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/neighborhood/bellaire/">
+                                  Bellaire
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/neighborhood/cyfair/">
+                                  Cy-Fair
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/neighborhood/fortbend/">
+                                  Fort Bend
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/neighborhood/heights/">
+                                  Heights
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/neighborhood/katy/">
+                                  Katy
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/neighborhood/kingwood/">
+                                  Kingwood
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/neighborhood/memorial/">
+                                  Memorial
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/neighborhood/pearland/">
+                                  Pearland
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/neighborhood/springtx/">
+                                  Spring
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/neighborhood/woodlands/">
+                                  The Woodlands
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Houston &amp; Texas
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/news/houston-texas/houston/">
+                                  Houston
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/news/houston-texas/texas/">
+                                  Texas
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Weather
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="http://blog.chron.com/weather/">
+                                  SciGuy's Weather Blog
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/news/houston-weather/">
+                                  Houston Weather
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/news/houston-weather/hurricanes/">
+                                  Severe Weather News
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/news/houston-weather/hurricanes/guide/">
+                                  Hurricane Guide
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Politics &amp; Policy
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/news/politics/houston/">
+                                  Texas Politics
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/news/politics/houston/">
+                                  Houston Politics
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/opinion/recommendations/">
+                                  Recommendations
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Opinions &amp; Editorials
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/opinion/editorials/">
+                                  Editorials
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/opinion/letters/">
+                                  Letters to the Editor
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/opinion/outlook/">
+                                  Outlook
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://blog.chron.com/nickanderson/">
+                                  Nick Anderson Cartoons
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/opinion/king/">
+                                  Bill King Columns
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/opinion/recommendations/">
+                                  2014 Primary Recommendations
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <!-- End subnavRight -->                        <div class="flyout_bottom_rule">
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="subMenuContainer menu_default menu_usworld">
+                      <a class="subMenuLink usworld " href="/news/nation-world/">
+                        US &amp; World
+                        <div class="subnavLeft_notch usworld">
+                        </div>
+                      </a>
+                      <ul style=" left:-76.2px !important;  z-index:999 ;" class="subnav">
+                        <div class="subnavLeft">
+                          <h2>
+                            <span class="first-word">
+                              In
+                            </span>
+                             US &amp; World
+                          </h2>
+                          <ul class="subnavlinks">
+                            <li class="subMenuItem">
+                              <a href="/news/nation-world/nation/">
+                                US News
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/news/nation-world/world/">
+                                World News
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/news/nation-world/mexico-latin/">
+                                The Americas
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/news/politics/">
+                                Politics
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://blog.chron.com/sciguy/category/space/">
+                                Space
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/news/strange-weird/">
+                                Strange &amp; Weird News
+                              </a>
+                            </li>
+                            <li class="subMenuItem last">
+                              <a href="http://video.chron.com/">
+                                Videos
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="subnavRight">
+                          <div style="display: block;" class="subnavPreview">
+                            <p class="subnavPreviewTitle">
+                              News
+                            </p>
+                            <img style="cursor: pointer;" onclick="javascript: window.location = '/news/politics/article/Obama-to-Putin-Pull-back-from-Ukraine-border-5358103.php';" alt="Putin, Obama talk about Ukraine - Photo" src="http://ww3.hdnux.com/photos/27/16/03/6086854/7/nav_img_preview.jpg"/>
+                            <p style="cursor: pointer;" onclick="javascript: window.location = '/news/politics/article/Obama-to-Putin-Pull-back-from-Ukraine-border-5358103.php';" class="imgTitle">
+                              Putin, Obama talk about Ukraine
+                            </p>
+                            <p class="subnavPreviewListTitle">
+                              Top Stories in US &amp; World
+                            </p>
+                            <ul class="subnavPreviewUlList">
+                              <li>
+                                <a href="/news/world/article/Australians-say-latest-objects-need-to-be-checked-5356245.php">
+                                  New search area for Malaysia jet turns up objects
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/news/us/article/Girl-talks-to-pope-on-immigration-then-dad-freed-5358482.php">
+                                  Girl talks to pope on immigration, then dad freed
+                                </a>
+                              </li>
+                              <li class="last">
+                                <a href="/news/crime/article/Marathon-bombing-suspect-seeks-records-on-brother-5358113.php">
+                                  Marathon bombing suspect seeks records on brother
+                                </a>
+                              </li>
+                            </ul>
+                            <!-- End subnavPreviewUlList -->                          </div>
+                          <!--End subnavPreview-->                        </div>
+                        <!-- End subnavRight -->                        <div class="flyout_bottom_rule">
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="subMenuContainer menu_default menu_sports">
+                      <a class="subMenuLink sports " href="/sports/">
+                        Sports
+                        <div class="subnavLeft_notch sports">
+                        </div>
+                      </a>
+                      <ul style=" left:-101.6px !important;  z-index:999 ;" class="subnav">
+                        <div class="subnavLeft">
+                          <h2>
+                            <span class="first-word">
+                              In
+                            </span>
+                             Sports
+                          </h2>
+                          <ul class="subnavlinks">
+                            <li class="subMenuItem">
+                              <a href="http://blog.chron.com/ultimatetexans/">
+                                Texans
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://blog.chron.com/ultimaterockets/">
+                                Rockets
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://blog.chron.com/ultimateastros/">
+                                Astros
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/sports/dynamo/">
+                                Dynamo
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/sports/highschool/">
+                                High school
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/sports/college/">
+                                Colleges
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/sports/cougars/">
+                                UH
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/sports/rice/">
+                                Rice
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/sports/longhorns/">
+                                UT
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/sports/aggies/">
+                                A&amp;M
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="/sports/outdoors/">
+                                Outdoors
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/sports/video/">
+                                Videos
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="/sports/more/">
+                                More Sports
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem last">
+                              <a href="http://seatgeek.com/houston-texas-sports-tickets">
+                                Buy Tickets
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="subnavRight">
+                          <div style="display: block;" class="subnavPreview">
+                            <p class="subnavPreviewTitle">
+                              Sports
+                            </p>
+                            <img style="cursor: pointer;" onclick="javascript: window.location = 'http://blog.chron.com/ultimatetexans/2014/03/mike-mayock-jerry-rice-say-johnny-manziel-is-best-draft-qb/';" alt="Analysts say Manziel is best draft QB - Photo" src="http://ww3.hdnux.com/photos/27/15/55/6085498/3/nav_img_preview.jpg"/>
+                            <p style="cursor: pointer;" onclick="javascript: window.location = 'http://blog.chron.com/ultimatetexans/2014/03/mike-mayock-jerry-rice-say-johnny-manziel-is-best-draft-qb/';" class="imgTitle">
+                              Analysts say Manziel is best draft QB
+                            </p>
+                            <p class="subnavPreviewListTitle">
+                              Top Stories in Sports
+                            </p>
+                            <ul class="subnavPreviewUlList">
+                              <li>
+                                <a href="http://blog.chron.com/ultimateastros/2014/03/28/world-series-odds-for-all-30-mlb-teams/">
+                                  What are the odds of an Astros World Series?
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://blog.chron.com/ultimaterockets/2014/03/pat-beverley-has-a-torn-meniscus/">
+                                  Key Rockets player could miss rest of the season
+                                </a>
+                              </li>
+                              <li class="last">
+                                <a href="http://blog.chron.com/ultimatetexans/2014/03/texans-sign-free-safety-clemons-to-two-year-deal/">
+                                  Texans get more depth at safety position
+                                </a>
+                              </li>
+                            </ul>
+                            <!-- End subnavPreviewUlList -->                          </div>
+                          <!--End subnavPreview-->                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Outdoors
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/hunting-fishing/">
+                                  Hunting &amp; Fishing
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              More Sports
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/sports/golf/">
+                                  Golf
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <!-- End subnavRight -->                        <div class="flyout_bottom_rule">
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="subMenuContainer menu_default menu_business">
+                      <a class="subMenuLink business " href="/business/">
+                        Business
+                        <div class="subnavLeft_notch business">
+                        </div>
+                      </a>
+                      <ul style=" left:-127px !important;  z-index:999 ;" class="subnav">
+                        <div class="subnavLeft">
+                          <h2>
+                            <span class="first-word">
+                              In
+                            </span>
+                             Business
+                          </h2>
+                          <ul class="subnavlinks">
+                            <li class="subMenuItem">
+                              <a href="http://www.fuelfix.com">
+                                Energy
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/business/technology/">
+                                Technology
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/homes/commercial/">
+                                Real Estate
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://newsreleases.chron.com/">
+                                Houston Business News
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/technology/businessinsider/">
+                                Business Insider
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://markets.chron.com/">
+                                Markets
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://www.chron.com/business/press-releases/">
+                                Press Releases
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://smallbusiness.chron.com/">
+                                Small Business Mgmt
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://www.chron.com/business/chron-100">
+                                Chron 100
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/business/top-workplaces/">
+                                Top Workplaces
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/sponsored/legalnews/">
+                                Legal News
+                              </a>
+                            </li>
+                            <li class="subMenuItem last">
+                              <a href="/sponsoredarticles/business/">
+                                Sponsored Content
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="subnavRight">
+                          <div style="display: block;" class="subnavPreview">
+                            <p class="subnavPreviewTitle">
+                              Business
+                            </p>
+                            <img style="cursor: pointer;" onclick="javascript: window.location = 'http://blog.chron.com/primeproperty/2014/03/remnants-of-montrose-apartment-fire-demolished/';" alt="What's left of complex is demolished - Photo" src="http://ww2.hdnux.com/photos/27/12/22/6071477/4/nav_img_preview.jpg"/>
+                            <p style="cursor: pointer;" onclick="javascript: window.location = 'http://blog.chron.com/primeproperty/2014/03/remnants-of-montrose-apartment-fire-demolished/';" class="imgTitle">
+                              What's left of complex is demolished
+                            </p>
+                            <p class="subnavPreviewListTitle">
+                              Top Stories in Business
+                            </p>
+                            <ul class="subnavPreviewUlList">
+                              <li>
+                                <a href="http://blog.chron.com/primeproperty/2014/03/average-wage-needed-to-afford-2-bedroom-in-houston-area-17-81-per-hour/">
+                                  Average wage needed to afford 2-bedroom apartment
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://blog.chron.com/primeproperty/2014/03/methodist-retirement-communities-to-break-ground-on-league-city-senior-living-campus/">
+                                  Methodist Retirement Communities to break ground on senior living campus
+                                </a>
+                              </li>
+                              <li class="last">
+                                <a href="/news/texas/article/Sebelius-Texas-opposition-hasn-t-helped-sign-ups-5357533.php">
+                                  Texas health sign-ups are anemic
+                                </a>
+                              </li>
+                            </ul>
+                            <!-- End subnavPreviewUlList -->                          </div>
+                          <!--End subnavPreview-->                        </div>
+                        <!-- End subnavRight -->                        <div class="flyout_bottom_rule">
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="subMenuContainer menu_default menu_entertainment">
+                      <a class="subMenuLink entertainment " href="/entertainment/">
+                        Entertainment
+                        <div class="subnavLeft_notch entertainment">
+                        </div>
+                      </a>
+                      <ul style=" left:-152.4px !important;  z-index:999 ;" class="subnav">
+                        <div class="subnavLeft">
+                          <h2>
+                            <span class="first-word">
+                              In
+                            </span>
+                             Entertainment
+                          </h2>
+                          <ul class="subnavlinks">
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="/entertainment/preview/">
+                                Preview
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://www.chron.com/entertainment/restaurants-bars/">
+                                Restaurants &amp; Bars
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://events.chron.com/houston_tx/restaurants">
+                                Restaurant Search
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="http://www.chron.com/entertainment/music/">
+                                Music
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://www.chron.com/entertainment/movies/">
+                                Movies
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://events.chron.com/houston_tx/movies">
+                                Movie Times
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://www.chron.com/entertainment/arts-theater/">
+                                Arts &amp; Theater
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/life/horoscopes/">
+                                Horoscopes
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/entertainment/comics-games/">
+                                Comics &amp; Games
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://events.chron.com/">
+                                Things To Do
+                              </a>
+                            </li>
+                            <li class="subMenuItem last">
+                              <a href="/contests/">
+                                Contests
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="subnavRight">
+                          <div style="display: block;" class="subnavPreview">
+                            <p class="subnavPreviewTitle">
+                              Entertainment
+                            </p>
+                            <img style="cursor: pointer;" onclick="javascript: window.location = '/entertainment/article/Houston-Chronicle-critics-offer-entertainment-5351686.php';" alt="Houston Chronicle critics offer entertainment suggestions - Photo" src="http://ww4.hdnux.com/photos/27/13/42/6076603/3/nav_img_preview.jpg"/>
+                            <p style="cursor: pointer;" onclick="javascript: window.location = '/entertainment/article/Houston-Chronicle-critics-offer-entertainment-5351686.php';" class="imgTitle">
+                              Houston Chronicle critics offer entertainment suggestions
+                            </p>
+                            <p class="subnavPreviewListTitle">
+                              Top Stories in Entertainment
+                            </p>
+                            <ul class="subnavPreviewUlList">
+                              <li>
+                                <a href="/entertainment/article/Celebrate-spring-with-kites-kids-and-old-time-fun-5351638.php">
+                                  Celebrate spring with kites, kids and old-time fun
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/entertainment/article/Family-friendly-Food-Truck-Fandango-5351602.php">
+                                  Family friendly: Food Truck Fandango
+                                </a>
+                              </li>
+                              <li class="last">
+                                <a href="/entertainment/article/On-the-go-Arts-fest-and-Aussie-showcase-5351599.php">
+                                  On the go: Arts fest and Aussie showcase
+                                </a>
+                              </li>
+                            </ul>
+                            <!-- End subnavPreviewUlList -->                          </div>
+                          <!--End subnavPreview-->                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Preview
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/entertainment/alison-cook/">
+                                  Alison Cook
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/entertainment/restaurants-bars/reviews/">
+                                  Restaurant Reviews
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/entertainment/restaurants-bars/whine-dine/">
+                                  Whine &amp; Dine
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/entertainment/top-100-restaurants/">
+                                  Top 100 Restaurants
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Music
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/entertainment/rollingstone/">
+                                  Rolling Stone
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/entertainment/heavy/">
+                                  Heavy.com
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <!-- End subnavRight -->                        <div class="flyout_bottom_rule">
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="subMenuContainer menu_default menu_lifestyle">
+                      <a class="subMenuLink lifestyle " href="/life/">
+                        Lifestyle
+                        <div class="subnavLeft_notch lifestyle">
+                        </div>
+                      </a>
+                      <ul style=" left:-177.8px !important;  z-index:999 ;" class="subnav">
+                        <div class="subnavLeft">
+                          <h2>
+                            <span class="first-word">
+                              In
+                            </span>
+                             Lifestyle
+                          </h2>
+                          <ul class="subnavlinks">
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="/life/healthzone/">
+                                Health Zone
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="/life/escapes/">
+                                Escapes
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="http://www.chron.com/life/style/">
+                                Style
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/life/mom-houston/">
+                                Mom Houston
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/life/houston-belief/">
+                                Houston Belief
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="http://www.chron.com/life/food/">
+                                Food &amp; Cooking
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/life/society/">
+                                Society
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="/life/travel/">
+                                Travel
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/life/pets/">
+                                Pets
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/about/houston-gives/">
+                                Houston Gives
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a class="hasSubMenu" href="/discoverhouston/">
+                                Discover Houston
+                                <span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/life/weddings-and-celebrations/">
+                                Weddings &amp; Celebrations
+                              </a>
+                            </li>
+                            <li class="subMenuItem last">
+                              <a href="/sponsoredarticles/lifestyle/">
+                                Sponsored Content
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="subnavRight">
+                          <div style="display: block;" class="subnavPreview">
+                            <p class="subnavPreviewTitle">
+                              Lifestyle
+                            </p>
+                            <img style="cursor: pointer;" onclick="javascript: window.location = '/life/article/Dinner-features-gin-cocktails-5357927.php';" alt="Dinner features gin cocktails - Photo" src="http://ww2.hdnux.com/photos/27/13/16/6075293/5/nav_img_preview.jpg"/>
+                            <p style="cursor: pointer;" onclick="javascript: window.location = '/life/article/Dinner-features-gin-cocktails-5357927.php';" class="imgTitle">
+                              Dinner features gin cocktails
+                            </p>
+                            <p class="subnavPreviewListTitle">
+                              Top Stories in Lifestyle
+                            </p>
+                            <ul class="subnavPreviewUlList">
+                              <li>
+                                <a href="/life/article/The-Boondocks-returns-to-TV-but-without-5347742.php">
+                                  'The Boondocks' returns to TV, but without creator Aaron McGruder
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/life/article/Channeling-the-red-carpet-for-prom-5338686.php">
+                                  Channeling the red-carpet for prom
+                                </a>
+                              </li>
+                              <li class="last">
+                                <a href="/life/article/Wedding-venue-s-bridal-event-was-a-lavish-5338670.php">
+                                  Wedding venue's bridal event was a lavish, informative affair
+                                </a>
+                              </li>
+                            </ul>
+                            <!-- End subnavPreviewUlList -->                          </div>
+                          <!--End subnavPreview-->                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Health Zone
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/life/healthzone/mdfinder/">
+                                  M.D. Finder
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/life/healthzone/thedoctors/">
+                                  The Doctors
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://livehealthy.chron.com/">
+                                  Live Healthy
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/life/healthzone/video/">
+                                  Health Videos
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/sponsored/better-sleep/">
+                                  Better Sleep
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Escapes
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/life/style/home-design/">
+                                  Home &amp; Design
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/life/style/travel/">
+                                  Travel
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Style
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/beauty/">
+                                  Beauty
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/life/style/fashion/">
+                                  Fashion
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/home-elegance/">
+                                  Home Elegance
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Food &amp; Cooking
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/entertainment/alison-cook/">
+                                  Alison Cook
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/entertainment/restaurants-bars/reviews/">
+                                  Restaurant Reviews
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/entertainment/restaurants-bars/whine-dine/">
+                                  Whine &amp; Dine
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/entertainment/top-100-restaurants/">
+                                  Top 100 Restaurants
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Travel
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/news/houston-traffic/flight-tracker/">
+                                  Flight Tracker
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/texas-road-trips/">
+                                  Texas Road Trips
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/ski-snow/">
+                                  Ski &amp; Snow
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="submenu" style="display: none;">
+                            <p class="submenuTitle">
+                              Discover Houston
+                            </p>
+                            <ul class="submenuUlList">
+                              <li>
+                                <a href="/discoverhouston/about-houston/">
+                                  About Houston
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/discoverhouston/arts-entertainment/">
+                                  Arts &amp; Entertainment
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/discoverhouston/employment-economy/">
+                                  Employment &amp; Economy
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/discoverhouston/food-drink/">
+                                  Food &amp; Drink
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/discoverhouston/health-care/">
+                                  Health Care
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/discoverhouston/real-estate/">
+                                  Real Estate
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/discoverhouston/retirement/">
+                                  Retirement
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/discoverhouston/sports-outdoors/">
+                                  Sports &amp; Outdoors
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/discoverhouston/suburbs/">
+                                  Suburbs
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/discoverhouston/weekends/">
+                                  Weekends
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <!-- End subnavRight -->                        <div class="flyout_bottom_rule">
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="subMenuContainer menu_default menu_jobs">
+                      <a class="subMenuLink jobs " href="/jobs/">
+                        Jobs
+                        <div class="subnavLeft_notch jobs">
+                        </div>
+                      </a>
+                      <ul style=" left:-203.2px !important;  z-index:999 ;" class="subnav">
+                        <div class="subnavLeft">
+                          <h2>
+                            <span class="first-word">
+                              In
+                            </span>
+                             Jobs
+                          </h2>
+                          <ul class="subnavlinks">
+                            <li class="subMenuItem">
+                              <a href="http://jobsearch.local-jobs.monster.com/?ch=houstonchronicle/StandardAdvancedSearch.aspx">
+                                Advanced search
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://jobsearch.local-jobs.monster.com/Category/default.aspx?wt.mc_n=hjnpbrowsejobs&amp;ch=houstonchronicle&amp;where=Houston">
+                                Browse job categories
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://houston.salary.com/SalaryWizard/LayoutScripts/Swzl_NewSearch.aspx">
+                                Salary Wizard
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://blog.chron.com/careerrescue">
+                                Career Rescue
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/jobs/engineering/">
+                                Careers in Engineering
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/jobs/salute-to-nurses/">
+                                Salute to Nurses
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://work.chron.com">
+                                Work &amp; Career Advice
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://blog.chron.com/jobfairs/">
+                                Job Fairs &amp; Career Expo
+                              </a>
+                            </li>
+                            <li class="subMenuItem last">
+                              <a href="/jobs/placeanad/">
+                                Post a Job
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="subnavRight">
+                          <div style="display: block;" class="subnavPreview">
+                            <p class="subnavPreviewTitle">
+                              Jobs
+                            </p>
+                            <img style="cursor: pointer;" onclick="javascript: window.location = '/jobs/article/Plastics-related-jobs-abound-in-modern-society-5357990.php';" alt="Plastics, related jobs abound in modern society - Photo" src="http://ww3.hdnux.com/photos/27/16/16/6087574/3/nav_img_preview.jpg"/>
+                            <p style="cursor: pointer;" onclick="javascript: window.location = '/jobs/article/Plastics-related-jobs-abound-in-modern-society-5357990.php';" class="imgTitle">
+                              Plastics, related jobs abound in modern society
+                            </p>
+                            <p class="subnavPreviewListTitle">
+                              Top Stories in Jobs
+                            </p>
+                            <ul class="subnavPreviewUlList">
+                              <li>
+                                <a href="/jobs/article/Career-Rescue-Manage-stress-prior-to-interview-5357985.php">
+                                  Career Rescue: Manage stress prior to interview for best results
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/jobs/article/Freestanding-emergency-centers-fill-crucial-niche-5357983.php">
+                                  Freestanding emergency centers fill crucial niche
+                                </a>
+                              </li>
+                              <li class="last">
+                                <a href="/jobs/article/Houston-Chronicle-will-host-Job-Fair-and-Career-5357982.php">
+                                  Houston Chronicle will host Job Fair and Career Expo April 15
+                                </a>
+                              </li>
+                            </ul>
+                            <!-- End subnavPreviewUlList -->                          </div>
+                          <!--End subnavPreview-->                        </div>
+                        <!-- End subnavRight -->                        <div class="flyout_bottom_rule">
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="subMenuContainer menu_default menu_cars">
+                      <a class="subMenuLink cars " href="http://cars.chron.com/">
+                        Cars
+                        <div class="subnavLeft_notch cars">
+                        </div>
+                      </a>
+                      <ul style=" left:-228.6px !important;  z-index:999 ;" class="subnav">
+                        <div class="subnavLeft">
+                          <h2>
+                            <span class="first-word">
+                              In
+                            </span>
+                             Cars
+                          </h2>
+                          <ul class="subnavlinks">
+                            <li class="subMenuItem">
+                              <a href="/cars/news/">
+                                Cars &amp; Auto News
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://blog.chron.com/heidispics/">
+                                Heidi's Cars Blog
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://cars.chron.com/new">
+                                New Car Search
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://cars.chron.com/used">
+                                Used Car Search
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://cars.chron.com/used?VehicleType=3">
+                                Certified Car Search
+                              </a>
+                            </li>
+                            <li class="subMenuItem last">
+                              <a href="http://cars.chron.com/Dealers">
+                                Houston Auto Dealers
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="subnavRight">
+                          <div style="display: block;" class="subnavPreview">
+                            <p class="subnavPreviewTitle">
+                              Cars
+                            </p>
+                            <img style="cursor: pointer;" onclick="javascript: window.location = '/cars/article/Tomball-dealerships-donate-to-military-5358257.php';" alt="Tomball dealerships donate to military organizations - Photo" src="http://ww2.hdnux.com/photos/27/16/27/6088169/3/nav_img_preview.jpg"/>
+                            <p style="cursor: pointer;" onclick="javascript: window.location = '/cars/article/Tomball-dealerships-donate-to-military-5358257.php';" class="imgTitle">
+                              Tomball dealerships donate to military organizations
+                            </p>
+                            <p class="subnavPreviewListTitle">
+                              Top Stories in Cars
+                            </p>
+                            <ul class="subnavPreviewUlList">
+                              <li>
+                                <a href="/cars/article/DeLorean-with-309-miles-on-it-turns-up-covered-in-5357859.php">
+                                  DeLorean with 309 miles on it turns up covered in 25 years of dust
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/cars/article/Miss-V-puts-the-varoom-in-inaugural-vintage-5351770.php">
+                                  Miss V puts the 'varoom' in inaugural vintage chopper show
+                                </a>
+                              </li>
+                              <li class="last">
+                                <a href="/cars/article/West-Point-s-makeover-points-to-new-face-of-5338581.php">
+                                  West Point's makeover points to new face of Lincoln brand
+                                </a>
+                              </li>
+                            </ul>
+                            <!-- End subnavPreviewUlList -->                          </div>
+                          <!--End subnavPreview-->                        </div>
+                        <!-- End subnavRight -->                        <div class="flyout_bottom_rule">
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="subMenuContainer menu_default menu_realestate">
+                      <a class="subMenuLink realestate  last-link" href="/homes/">
+                        Real Estate
+                        <div class="subnavLeft_notch realestate">
+                        </div>
+                      </a>
+                      <ul style=" left:-254px !important;  z-index:999 ;" class="subnav">
+                        <div class="subnavLeft">
+                          <h2>
+                            <span class="first-word">
+                              In
+                            </span>
+                             Real Estate
+                          </h2>
+                          <ul class="subnavlinks">
+                            <li class="subMenuItem">
+                              <a href="http://www.newhomesource.com/chroniclehomes">
+                                New Homes
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://www.landsofamerica.com/landsconnector/houston-chronicle-second-homes/index.cfm">
+                                Second Homes
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/homes/rentals/">
+                                Rentals
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/homes/neighborhood-survey-2013/">
+                                Home Price Survey
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://homeresearch.chron.com/">
+                                Research
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://www.chron.com/mortgage-rates/">
+                                Mortgages
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/homes/commercial/">
+                                Commercial Real Estate
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://www.landsofamerica.com/landsconnector/houston-chronicle/index.cfm">
+                                Farms &amp; Ranches
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="/homes/senior_living/">
+                                Senior Living
+                              </a>
+                            </li>
+                            <li class="subMenuItem">
+                              <a href="http://extras.chron.com/banners/2012/c/chronicle/S1212415-chronHomes/S1212086.html">
+                                Chron Homes App
+                              </a>
+                            </li>
+                            <li class="subMenuItem last">
+                              <a href="http://chron.kaango.com/browse/real-estate-rental-sale/775/">
+                                Private Party Ads
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="subnavRight">
+                          <div style="display: block;" class="subnavPreview">
+                            <p class="subnavPreviewTitle">
+                              Homes
+                            </p>
+                            <img style="cursor: pointer;" onclick="javascript: window.location = '/homes/article/Oscar-winning-actress-Rita-Moreno-s-custom-made-5344272.php';" alt="Oscar-winning actress Rita Moreno's custom-made mansion for sale - Photo" src="http://ww3.hdnux.com/photos/27/10/65/6065498/6/nav_img_preview.jpg"/>
+                            <p style="cursor: pointer;" onclick="javascript: window.location = '/homes/article/Oscar-winning-actress-Rita-Moreno-s-custom-made-5344272.php';" class="imgTitle">
+                              Oscar-winning actress Rita Moreno's custom-made mansion for sale
+                            </p>
+                            <p class="subnavPreviewListTitle">
+                              Top Stories in Real Estate
+                            </p>
+                            <ul class="subnavPreviewUlList">
+                              <li>
+                                <a href="/homes/article/Exclusive-Photos-Facebook-s-new-Frank-5331413.php">
+                                  Exclusive Photos: Facebook's new Frank Gehry-designed HQ plan
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/homes/article/Master-planned-community-tour-in-April-billed-as-5256255.php">
+                                  Master-planned community tour in April billed as Houston's biggest
+                                </a>
+                              </li>
+                              <li class="last">
+                                <a href="/homes/article/Rockets-owner-s-real-estate-deal-was-New-York-s-5093947.php">
+                                  Rockets owner's real estate deal was New York's 2nd biggest of 2013
+                                </a>
+                              </li>
+                            </ul>
+                            <!-- End subnavPreviewUlList -->                          </div>
+                          <!--End subnavPreview-->                        </div>
+                        <!-- End subnavRight -->                        <div class="flyout_bottom_rule">
+                        </div>
+                      </ul>
+                    </li>
+                  </ul>
+                  <!-- hearst/item/standalone.tpl -->                  <div class="hdnce-e hdnce-item-15828">
+                    <!-- mid:freeform.15828 -->                    <style>
+                      
+ul.topnav li a { padding: 13px 13px 0 13px;  }
+ul.topnav { width: 810px; }
+
+                    </style>
+                    <div>
+                      <a target="_blank" href="http://findnsave.chron.com/?cmpid=nbl?ac=AFFHEARchronFSNAVFLS">
+                        <img width="150" height="40" title="Find&amp;Save in Houston" alt="Find&amp;Save in Houston" src="http://ww1.hdnux.com/photos/22/72/75/4960092/4/rawImage.png"/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- e menuHolder -->              </div>
+              <!-- e topnavWrapper -->            </div>
+            <!-- e headermenu -->            <script type="text/javascript">
+//<![CDATA[
+
+    $('#topNavMenu').mouseleave(function() {
+        makeMenuItemActive();
+    });
+
+    makeMenuItemActive();
+
+//]]>
+            </script>
+            <!-- e src/business/templates/hearst/sitemenu/menuSiteNav_r1.tpl -->            <!-- e hearst/sitemenu/dynamic_r1.tpl -->            <!-- NAV MENU END -->          </div>
+          <!--/.siteheader -->          <div class="hst-billboard">
+            <div class="ad_deferrable" id="RM">
+              <script type="text/javascript">
+//<![CDATA[
+/*&lt;![CDATA[*/ hearstPlaceAd("RM"); /*]]&gt;*/
+//]]>
+              </script>
+            </div>
+            <div class="ad_deferrable" id="PAGEWIDE">
+              <script type="text/javascript">
+//<![CDATA[
+/*&lt;![CDATA[*/ hearstPlaceAd("PAGEWIDE"); /*]]&gt;*/
+//]]>
+              </script>
+            </div>
+          </div>
+          <!-- e business/templates/hearst/home/navigation_r1.tpl -->          <!-- e ux/chron/templates/hearst/home/navigation.tpl -->          <!-- e hearst/home/navigation.tpl -->          <!-- e business/templates/hearst/home/HNavigation.tpl -->          <div class="pagecontent faux-21 hst-search">
+            <div class="faux-21 clearfix">
+              <!-- cmf/business/templates/search/propertySearchResults.php -->              <div class="faux-6 clearfix">
+                <div class="span-21b clearfix">
+                  <!-- rss-->                  <div class="topmask">
+                    <div class="hst-searchreport clearfix">
+                      <div class="report">
+                        <h2>
+                          <span class="first-word">
+                            Search
+                          </span>
+                           Results
+                        </h2>
+                        <p>
+                          Results 1 to 10 of 3784 for your search for 
+                          <strong>
+                            ibm
+                          </strong>
+                        </p>
+                      </div>
+                      <p class="rss">
+                        <a href="/search/?action=search&amp;channel=home&amp;search=1&amp;firstRequest=1&amp;query=ibm&amp;x=0&amp;y=0&amp;searchindex=property&amp;output=rss&amp;nbItem=20">
+                          <img alt="" src="/img/utils/rss_icon.png" class="baccmpcjxepfkvtqagxk"/>
+                           RSS Feed for this search
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /rss -->                  <div class="hst-searchResults">
+                    <div class="span-6">
+                      <div class="hst-searchrefine">
+                        <h2>
+                          Refine Your Search
+                        </h2>
+                        <h3>
+                          Date
+                        </h3>
+                        <ul>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=0">
+                              Today Only
+                            </a>
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=7">
+                              This Week
+                            </a>
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=30">
+                              This Month
+                            </a>
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=90">
+                              Last 90 Days
+                            </a>
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=365">
+                              Last Year
+                            </a>
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A">
+                              Full Archive
+                            </a>
+                          </li>
+                        </ul>
+                        <h3>
+                          Topics
+                        </h3>
+                        <ul>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=topics&amp;value=computing+and+information+technology&amp;caption=computing-and-information-technology">
+                              Computing-and-information-technology
+                            </a>
+                             (1487)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=topics&amp;value=company+information&amp;caption=company-information">
+                              Company-information
+                            </a>
+                             (1463)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=topics&amp;value=market+and+exchange&amp;caption=market-and-exchange">
+                              Market-and-exchange
+                            </a>
+                             (754)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=topics&amp;value=stocks&amp;caption=stocks">
+                              Stocks
+                            </a>
+                             (610)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=topics&amp;value=software&amp;caption=software">
+                              Software
+                            </a>
+                             (575)
+                          </li>
+                        </ul>
+                        <h3>
+                          People
+                        </h3>
+                        <ul>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=people&amp;value=Warren+Buffett&amp;caption=Warren+Buffett">
+                              Warren Buffett
+                            </a>
+                             (141)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=people&amp;value=Meg+Whitman&amp;caption=Meg+Whitman">
+                              Meg Whitman
+                            </a>
+                             (82)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=people&amp;value=Steve+Jobs&amp;caption=Steve+Jobs">
+                              Steve Jobs
+                            </a>
+                             (80)
+                          </li>
+                          <li class="last">
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=people&amp;value=Dan+Caplinger&amp;caption=Dan+Caplinger">
+                              Dan Caplinger
+                            </a>
+                             (77)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=people&amp;value=Bill+Gates&amp;caption=Bill+Gates">
+                              Bill Gates
+                            </a>
+                             (75)
+                          </li>
+                        </ul>
+                        <h3>
+                          Organizations
+                        </h3>
+                        <ul>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=organizations&amp;value=International+Business+Machines+Corporation&amp;caption=International+Business+Machines+Corporation">
+                              International Business Machines Corporation
+                            </a>
+                             (2728)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=organizations&amp;value=The+Motley+Fool+Inc.&amp;caption=The+Motley+Fool+Inc.">
+                              The Motley Fool Inc.
+                            </a>
+                             (1054)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=organizations&amp;value=Microsoft+Corporation&amp;caption=Microsoft+Corporation">
+                              Microsoft Corporation
+                            </a>
+                             (722)
+                          </li>
+                          <li class="last">
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=organizations&amp;value=The+Motley+Fool&amp;caption=The+Motley+Fool">
+                              The Motley Fool
+                            </a>
+                             (709)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=organizations&amp;value=Hewlett+Packard+Company&amp;caption=Hewlett+Packard+Company">
+                              Hewlett Packard Company
+                            </a>
+                             (678)
+                          </li>
+                        </ul>
+                        <h3>
+                          Places
+                        </h3>
+                        <ul>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=places&amp;value=United+States+of+America&amp;caption=United+States+of+America">
+                              United States Of America
+                            </a>
+                             (1334)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=places&amp;value=New+York%2C+New+York&amp;caption=New+York%2C+New+York">
+                              New York, New York
+                            </a>
+                             (396)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=places&amp;value=Houston%2C+Texas&amp;caption=Houston%2C+Texas">
+                              Houston, Texas
+                            </a>
+                             (384)
+                          </li>
+                          <li class="last">
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=places&amp;value=China&amp;caption=China">
+                              China
+                            </a>
+                             (283)
+                          </li>
+                          <li>
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=places&amp;value=Austin%2C+Texas&amp;caption=Austin%2C+Texas">
+                              Austin, Texas
+                            </a>
+                             (281)
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="span-15c last">
+                      <div class="hst-searchtablist">
+                        <div id="hst_searchtablist_ctrl" class="tabs clearfix">
+                          <ul>
+                            <li id="hst_searchtablist_tab1" class="first selected">
+                              <span class="selected">
+                                All
+                              </span>
+                            </li>
+                            <li id="hst_searchtablist_tab2" class="">
+                              <a onclick="this.blur();" href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=itemtype&amp;value=articles&amp;caption=Articles&amp;keepFacet=1">
+                                Articles
+                              </a>
+                            </li>
+                            <li id="hst_searchtablist_tab3" class="">
+                              <a onclick="this.blur();" href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=itemtype&amp;value=blogs&amp;caption=Blogs&amp;keepFacet=1">
+                                Blogs
+                              </a>
+                            </li>
+                            <li id="hst_searchtablist_tab4" class="">
+                              <a onclick="this.blur();" href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=itemtype&amp;value=pictures&amp;caption=Pictures&amp;keepFacet=1">
+                                Pictures
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div id="hst_searchtablist1" class="tabcontent">
+                          <p class="sort">
+                            Sort by: 
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;channel=home&amp;period=%2A&amp;sort=date&amp;keepFacet=1" class="selected">
+                              Date
+                            </a>
+                             | 
+                            <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;channel=home&amp;period=%2A&amp;sort=relevance&amp;keepFacet=1">
+                              Relevance
+                            </a>
+                          </p>
+                          <ul class="ss">
+                            <li class="item clearfix">
+                              <div class="itembox">
+                                <!--a href="javascript:dontKnow();">Comments</a>
+		<a href="javascript:dontKnow();">Save This</a-->                              </div>
+                              <h4>
+                                <a href="http://www.chron.com/default/article/Digging-Into-This-New-Intel-Rumor-5358722.php">
+                                  Digging Into This New Intel Rumor
+                                </a>
+                              </h4>
+                              <div class="detail">
+                                <p>
+                                  At this particular R&amp;D center, there was a team responsible for the development of the company's Xeon Phi (which is a high performance computing oriented processor), so naturally, many folks started asking some pretty serious questions about Xeon... 
+                                  <a href="http://www.chron.com/default/article/Digging-Into-This-New-Intel-Rumor-5358722.php">
+                                    more »
+                                  </a>
+                                </p>
+                              </div>
+                              <h5 class="timestamp">
+                                <span class="credit">
+                                  Ashraf Eassa, The Motley Fool
+                                </span>
+                                <span class="brand">
+                                  The Motley Fool
+                                </span>
+                                <span class="time">
+                                  1 hour ago
+                                </span>
+                              </h5>
+                              <p class="tags">
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22architecture%22">
+                                  architecture
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22design+and+engineering%22">
+                                  design and engineering
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22stocks%22">
+                                  stocks
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22investments%22">
+                                  investments
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22IT%2Fcomputer+sciences%22">
+                                  IT/computer sciences
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22restructuring+and+recapitalisation%22">
+                                  restructuring and recapitalisation
+                                </a>
+                              </p>
+                            </li>
+                            <li class="item clearfix search_message">
+                              <span class="search_question">
+                                Can't find what you're looking for?
+                              </span>
+                               You can now find all Houston Chronicle print stories at 
+                              <a href="http://www.houstonchronicle.com">
+                                HoustonChronicle.com
+                              </a>
+                              .
+                            </li>
+                            <li class="item clearfix">
+                              <div class="itembox">
+                                <!--a href="javascript:dontKnow();">Comments</a>
+		<a href="javascript:dontKnow();">Save This</a-->                              </div>
+                              <h4>
+                                <a href="http://www.chron.com/default/article/20-Years-of-Expertise-and-Innovation-GBS-5357852.php">
+                                  20 Years of Expertise and Innovation: GBS celebrates a Milestone
+                                </a>
+                              </h4>
+                              <div class="detail">
+                                <p>
+                                  Founded on March 29, 1994, the company has grown significantly into a global player in delivering business critical Collaboration and Messaging solutions for large enterprises.
+
+Today, GBS’ current product portfolio spans cutting edge solutions... 
+                                  <a href="http://www.chron.com/default/article/20-Years-of-Expertise-and-Innovation-GBS-5357852.php">
+                                    more »
+                                  </a>
+                                </p>
+                              </div>
+                              <h5 class="timestamp">
+                                <span class="credit">
+                                </span>
+                                <span class="brand">
+                                  PRWeb
+                                </span>
+                                <span class="time">
+                                  3 hours ago
+                                </span>
+                              </h5>
+                              <p class="tags">
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22company+information%22">
+                                  company information
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22software%22">
+                                  software
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22investments%22">
+                                  investments
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22litigation+and+regulation%22">
+                                  litigation and regulation
+                                </a>
+                              </p>
+                            </li>
+                            <li class="item clearfix">
+                              <div class="itembox">
+                                <!--a href="javascript:dontKnow();">Comments</a>
+		<a href="javascript:dontKnow();">Save This</a-->                              </div>
+                              <h4>
+                                <a href="http://www.chron.com/default/article/Why-Accenture-s-Slow-Growth-Isn-t-as-Bad-as-It-5357981.php">
+                                  Why Accenture's Slow Growth Isn't as Bad as It Seems
+                                </a>
+                              </h4>
+                              <div class="detail">
+                                <p>
+                                  The market didn't like Accenture's  second-quarter earnings, sending shares down 5% after the company's seventh straight quarter of weak sales growth.
+
+[...] according to nearly every other metric that matters, Accenture actually posted solid... 
+                                  <a href="http://www.chron.com/default/article/Why-Accenture-s-Slow-Growth-Isn-t-as-Bad-as-It-5357981.php">
+                                    more »
+                                  </a>
+                                </p>
+                              </div>
+                              <h5 class="timestamp">
+                                <span class="credit">
+                                  Brendan Mathews, The Motley Fool
+                                </span>
+                                <span class="brand">
+                                  The Motley Fool
+                                </span>
+                                <span class="time">
+                                  6 hours ago
+                                </span>
+                              </h5>
+                              <p class="tags">
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22company+information%22">
+                                  company information
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22corporate+performance%22">
+                                  corporate performance
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22stocks%22">
+                                  stocks
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22investments%22">
+                                  investments
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22prices%22">
+                                  prices
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22shareholders%22">
+                                  shareholders
+                                </a>
+                              </p>
+                            </li>
+                          </ul>
+                          <div class="hst-picturemosaic hst-picturemosaic10">
+                            <h2>
+                              Pictures
+                            </h2>
+                            <p class="entry">
+                              <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;subaction=put&amp;facet=itemtype&amp;value=pictures&amp;caption=Pictures&amp;keepFacet=1">
+                                See all »
+                              </a>
+                            </p>
+                            <div class="gallery clearfix">
+                              <a href="http://www.chron.com/default/photo/IMAGE-DISTRIBUTED-FOR-NEW-YORK-GENOME-CENTER-6042467.php">
+                                <img title="IMAGE DISTRIBUTED FOR NEW YORK GENOME CENTER - Dr. John E. Kelly III, Senior Vice President and Director of IBM Research and Dr. Robert Darnell, President, CEO and Scientific Director of the New York Genome Center announce collaboration with IBM Watson to advance genomic medicine. (Amy Sussman/AP Images for New York Genome Center)" alt="IMAGE DISTRIBUTED FOR NEW YORK GENOME CENTER - Dr. John E. Kelly III, Senior Vice President and Director of IBM Research and Dr. Robert Darnell, President, CEO and Scientific Director of the New York Genome Center announce collaboration with IBM Watson to advance genomic medicine. (Amy Sussman/AP Images for New York Genome Center)" src="http://ww4.hdnux.com/photos/27/03/15/6042467/3/mosaic_1.jpg" class="mosaictile1"/>
+                              </a>
+                              <a href="http://www.chron.com/default/photo/-6015720.php">
+                                <img title="" alt="" src="http://ww1.hdnux.com/photos/26/74/53/6015720/5/mosaic_1.jpg" class="mosaictile2"/>
+                              </a>
+                              <a href="http://www.chron.com/default/photo/b-16-IBM-b-p-b-Location-b-New-York-5949106.php">
+                                <img title="&lt;b>16. IBM&lt;/b>&lt;p>&lt;b>Location:&lt;/b> New York &lt;b>Score:&lt;/b> 7.24" alt="&lt;b>16. IBM&lt;/b>&lt;p>&lt;b>Location:&lt;/b> New York &lt;b>Score:&lt;/b> 7.24" src="http://ww3.hdnux.com/photos/26/54/32/5949106/3/mosaic_1.jpg" class="mosaictile3"/>
+                              </a>
+                              <a href="http://www.chron.com/default/photo/b-16-IBM-b-p-b-Location-b-New-York-5949339.php">
+                                <img title="&lt;b>16. IBM&lt;/b>&lt;p>&lt;b>Location:&lt;/b> New York &lt;b>Score:&lt;/b> 7.24" alt="&lt;b>16. IBM&lt;/b>&lt;p>&lt;b>Location:&lt;/b> New York &lt;b>Score:&lt;/b> 7.24" src="http://ww4.hdnux.com/photos/26/54/36/5949339/3/mosaic_2.jpg" class="mosaictile4"/>
+                              </a>
+                              <a href="http://www.chron.com/default/photo/b-16-IBM-b-p-b-Location-b-New-York-5949655.php">
+                                <img title="&lt;b>16. IBM&lt;/b>&lt;p>&lt;b>Location:&lt;/b> New York &lt;b>Score:&lt;/b> 7.24" alt="&lt;b>16. IBM&lt;/b>&lt;p>&lt;b>Location:&lt;/b> New York &lt;b>Score:&lt;/b> 7.24" src="http://ww4.hdnux.com/photos/26/54/43/5949655/3/mosaic_2.jpg" class="mosaictile5"/>
+                              </a>
+                              <a href="http://www.chron.com/default/photo/NanoFab-X-building-at-Albany-NanoTech-where-a-new-5890832.php">
+                                <img title="NanoFab X building at Albany NanoTech where a new $200 million lithography tool purchased by IBM from ASML is housed Friday, Feb. 14, 2014, in Albany N.Y. (Will Waldron/Times Union)" alt="NanoFab X building at Albany NanoTech where a new $200 million lithography tool purchased by IBM from ASML is housed Friday, Feb. 14, 2014, in Albany N.Y. (Will Waldron/Times Union)" src="http://ww1.hdnux.com/photos/26/36/14/5890832/3/mosaic_2.jpg" class="mosaictile6"/>
+                              </a>
+                              <a href="http://www.chron.com/default/photo/-5797354.php">
+                                <img title="" alt="" src="http://ww3.hdnux.com/photos/26/07/27/5797354/5/mosaic_2.jpg" class="mosaictile7"/>
+                              </a>
+                              <a href="http://www.chron.com/default/photo/COMMERCIAL-IMAGE-In-this-photo-taken-by-5756792.php">
+                                <img title="**COMMERCIAL IMAGE** In this photo taken by Feature Photo Service for IBM: IBM Chairman and CEO Ginni Rometty delivers an address on how changing customer expectations and major technology shifts such as Big Data and cloud computing are reshaping commerce at the National Retail Federation's 103rd Annual Convention &amp; Expo at the Jacob K. Javits Convention Center in New York City on Monday, January 13, 2014. (Jon Simon/Feature Photo Service for IBM)" alt="**COMMERCIAL IMAGE** In this photo taken by Feature Photo Service for IBM: IBM Chairman and CEO Ginni Rometty delivers an address on how changing customer expectations and major technology shifts such as Big Data and cloud computing are reshaping commerce at the National Retail Federation's 103rd Annual Convention &amp; Expo at the Jacob K. Javits Convention Center in New York City on Monday, January 13, 2014. (Jon Simon/Feature Photo Service for IBM)" src="http://ww1.hdnux.com/photos/25/75/35/5756792/3/mosaic_1.jpg" class="mosaictile8"/>
+                              </a>
+                              <a href="http://www.chron.com/default/photo/A-cloud-rack-containing-servers-and-hard-drives-5749345.php">
+                                <img title="A cloud rack containing servers and hard drives stands inside pod one of International Business Machines Corp.'s (IBM) Softlayer data center in Dallas, Texas, U.S., on Thursday, Jan. 16, 2014. IBM is scheduled to release earnings figures on Jan. 21. Photographer: Ben Torres/Bloomberg" alt="A cloud rack containing servers and hard drives stands inside pod one of International Business Machines Corp.'s (IBM) Softlayer data center in Dallas, Texas, U.S., on Thursday, Jan. 16, 2014. IBM is scheduled to release earnings figures on Jan. 21. Photographer: Ben Torres/Bloomberg" src="http://ww2.hdnux.com/photos/25/73/51/5749345/3/mosaic_1.jpg" class="mosaictile9"/>
+                              </a>
+                              <a href="http://www.chron.com/default/photo/IBM-Electric-Typewriter-Model-01-introduced-in-5723914.php">
+                                <img title="IBM Electric Typewriter, Model 01, introduced in 1935" alt="IBM Electric Typewriter, Model 01, introduced in 1935" src="http://ww3.hdnux.com/photos/25/65/34/5723914/3/mosaic_1.jpg" class="mosaictile10"/>
+                              </a>
+                            </div>
+                          </div>
+                          <ul class="ss">
+                            <li class="item clearfix">
+                              <div class="itembox">
+                                <!--a href="javascript:dontKnow();">Comments</a>
+		<a href="javascript:dontKnow();">Save This</a-->                              </div>
+                              <h4>
+                                <a href="http://www.chron.com/default/article/The-2014-Lime-Connect-Fellowship-Program-for-5357309.php">
+                                  The 2014 Lime Connect Fellowship Program for Students with Disabilities
+                                </a>
+                              </h4>
+                              <div class="detail">
+                                <p>
+                                  The 2014 Lime Connect Fellowship Program for Students with Disabilities
+
+An Exciting Opportunity for Current University Sophomores to Connect With PepsiCo, IBM, Google, Target, Goldman Sachs and Bloomberg LP - Deadline is April 21, 2014
+
+Lime... 
+                                  <a href="http://www.chron.com/default/article/The-2014-Lime-Connect-Fellowship-Program-for-5357309.php">
+                                    more »
+                                  </a>
+                                </p>
+                              </div>
+                              <h5 class="timestamp">
+                                <span class="credit">
+                                </span>
+                                <span class="brand">
+                                  PRWeb
+                                </span>
+                                <span class="time">
+                                  6 hours ago
+                                </span>
+                              </h5>
+                              <p class="tags">
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22university%22">
+                                  university
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22school%22">
+                                  school
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22students%22">
+                                  students
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22accomplishment%22">
+                                  accomplishment
+                                </a>
+                              </p>
+                            </li>
+                            <li class="item clearfix">
+                              <div class="itembox">
+                                <!--a href="javascript:dontKnow();">Comments</a>
+		<a href="javascript:dontKnow();">Save This</a-->                              </div>
+                              <h4>
+                                <a href="http://www.chron.com/default/article/Consumers-Send-the-Dow-Higher-But-Tech-Stocks-5357031.php">
+                                  Consumers Send the Dow Higher, But Tech Stocks Are Leading the Charge
+                                </a>
+                              </h4>
+                              <div class="detail">
+                                <p>
+                                  On Friday morning, the Dow Jones Industrials  climbed higher from the start, as signs that a frosty winter didn't completely freeze the U.S. economy made investors more optimistic about the potential for growth during the rest of 2014.
+
+The... 
+                                  <a href="http://www.chron.com/default/article/Consumers-Send-the-Dow-Higher-But-Tech-Stocks-5357031.php">
+                                    more »
+                                  </a>
+                                </p>
+                              </div>
+                              <h5 class="timestamp">
+                                <span class="credit">
+                                  Dan Caplinger, The Motley Fool
+                                </span>
+                                <span class="brand">
+                                  The Motley Fool
+                                </span>
+                                <span class="time">
+                                  11 hours ago
+                                </span>
+                              </h5>
+                              <p class="tags">
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22consumers%22">
+                                  consumers
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22market+and+exchange%22">
+                                  market and exchange
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22personal+income%22">
+                                  personal income
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22computing+and+information+technology%22">
+                                  computing and information technology
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22stocks%22">
+                                  stocks
+                                </a>
+                              </p>
+                            </li>
+                            <li class="item clearfix">
+                              <div class="itembox">
+                                <!--a href="javascript:dontKnow();">Comments</a>
+		<a href="javascript:dontKnow();">Save This</a-->                              </div>
+                              <h4>
+                                <a href="http://www.chron.com/default/article/IBM-Fellow-Ted-Selker-Joins-Servicely-s-Board-of-5356358.php">
+                                  IBM Fellow Ted Selker Joins Servicely's Board of Advisors
+                                </a>
+                              </h4>
+                              <div class="detail">
+                                <p>
+                                  Working within the financial services industry, known historically for being traditional in the way marketers gain customer insights, Servicely is faced with the ever-daunting task of big data visualization.
+
+Big data visualization involves... 
+                                  <a href="http://www.chron.com/default/article/IBM-Fellow-Ted-Selker-Joins-Servicely-s-Board-of-5356358.php">
+                                    more »
+                                  </a>
+                                </p>
+                              </div>
+                              <h5 class="timestamp">
+                                <span class="credit">
+                                </span>
+                                <span class="brand">
+                                  PRWeb
+                                </span>
+                                <span class="time">
+                                  12 hours ago
+                                </span>
+                              </h5>
+                              <p class="tags">
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22computing+and+information+technology%22">
+                                  computing and information technology
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22accomplishment%22">
+                                  accomplishment
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22IT%2Fcomputer+sciences%22">
+                                  IT/computer sciences
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22natural+science%22">
+                                  natural science
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22university%22">
+                                  university
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22consumers%22">
+                                  consumers
+                                </a>
+                              </p>
+                            </li>
+                            <li class="item clearfix">
+                              <div class="itembox">
+                                <!--a href="javascript:dontKnow();">Comments</a>
+		<a href="javascript:dontKnow();">Save This</a-->                              </div>
+                              <h4>
+                                <a href="http://www.chron.com/default/article/Outsourcing-Solutions-Provider-MicroSourcing-5355872.php">
+                                  Outsourcing Solutions Provider MicroSourcing Named Best Non-voice Excellence Company of the Year in the International ICT Awards Philippines 2014
+                                </a>
+                              </h4>
+                              <div class="detail">
+                                <p>
+                                  Outsourcing Solutions Provider MicroSourcing Named Best Non-voice Excellence Company of the Year in the International ICT Awards Philippines 2014
+
+MicroSourcing, a Philippines-based company that enables foreign clients to set up their own... 
+                                  <a href="http://www.chron.com/default/article/Outsourcing-Solutions-Provider-MicroSourcing-5355872.php">
+                                    more »
+                                  </a>
+                                </p>
+                              </div>
+                              <h5 class="timestamp">
+                                <span class="credit">
+                                </span>
+                                <span class="brand">
+                                  PRWeb
+                                </span>
+                                <span class="time">
+                                  20 hours ago
+                                </span>
+                              </h5>
+                              <p class="tags">
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22award+and+prize%22">
+                                  award and prize
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22financial+and+business+service%22">
+                                  financial and business service
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22IT%2Fcomputer+sciences%22">
+                                  IT/computer sciences
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22healthcare+provider%22">
+                                  healthcare provider
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22accomplishment%22">
+                                  accomplishment
+                                </a>
+                              </p>
+                            </li>
+                            <li class="item clearfix">
+                              <div class="itembox">
+                                <!--a href="javascript:dontKnow();">Comments</a>
+		<a href="javascript:dontKnow();">Save This</a-->                              </div>
+                              <h4>
+                                <a href="http://www.chron.com/default/article/Tasktop-Executives-to-Speak-On-Hot-Topics-at-ALM-5355330.php">
+                                  Tasktop Executives to Speak On Hot Topics at ALM Forum Seattle--Lean ALM, Agile at Scale, SAFe
+                                </a>
+                              </h4>
+                              <div class="detail">
+                                <p>
+                                  Tasktop is a Platinum Sponsor of this year’s ALM Forum and Tasktop executives will moderate panels and speak on software delivery technology and methodologies as well as deliver the closing plenary.
+
+Dave West, Tasktop’s Chief Product... 
+                                  <a href="http://www.chron.com/default/article/Tasktop-Executives-to-Speak-On-Hot-Topics-at-ALM-5355330.php">
+                                    more »
+                                  </a>
+                                </p>
+                              </div>
+                              <h5 class="timestamp">
+                                <span class="credit">
+                                </span>
+                                <span class="brand">
+                                  PRWeb
+                                </span>
+                                <span class="time">
+                                  23 hours ago
+                                </span>
+                              </h5>
+                              <p class="tags">
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22corporate+officer%22">
+                                  corporate officer
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22software%22">
+                                  software
+                                </a>
+                              </p>
+                            </li>
+                            <li class="item clearfix">
+                              <div class="itembox">
+                                <!--a href="javascript:dontKnow();">Comments</a>
+		<a href="javascript:dontKnow();">Save This</a-->                              </div>
+                              <h4>
+                                <a href="http://www.chron.com/default/article/Growth-vs-Value-Is-Microsoft-Stealing-5355761.php">
+                                  Growth vs. Value: Is Microsoft Stealing Google’s Investors?
+                                </a>
+                              </h4>
+                              <div class="detail">
+                                <p>
+                                  Is Microsoft Stealing Google’s Investors?
+
+Microsoft  had long been blasted as being a stale technology company that "missed mobile" and couldn't innovate.
+
+While long-suffering shareholders for the past 10 years dealt with a frustratingly... 
+                                  <a href="http://www.chron.com/default/article/Growth-vs-Value-Is-Microsoft-Stealing-5355761.php">
+                                    more »
+                                  </a>
+                                </p>
+                              </div>
+                              <h5 class="timestamp">
+                                <span class="credit">
+                                  Ashraf Eassa, The Motley Fool
+                                </span>
+                                <span class="brand">
+                                  The Motley Fool
+                                </span>
+                                <span class="time">
+                                  1 day ago
+                                </span>
+                              </h5>
+                              <p class="tags">
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22computing+and+information+technology%22">
+                                  computing and information technology
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22stocks%22">
+                                  stocks
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22investments%22">
+                                  investments
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22shareholders%22">
+                                  shareholders
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22theft%22">
+                                  theft
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22shopping%22">
+                                  shopping
+                                </a>
+                              </p>
+                            </li>
+                            <li class="item clearfix last">
+                              <div class="itembox">
+                                <!--a href="javascript:dontKnow();">Comments</a>
+		<a href="javascript:dontKnow();">Save This</a-->                              </div>
+                              <h4>
+                                <a href="http://www.chron.com/default/article/Cisco-IBM-Hold-the-Dow-Back-Is-the-Tech-Rally-5354997.php">
+                                  Cisco, IBM Hold the Dow Back; Is the Tech Rally Over?
+                                </a>
+                              </h4>
+                              <div class="detail">
+                                <p>
+                                  Throughout the technology sector, companies have repeatedly embraced the potential of cloud computing to change the prevailing paradigm of the desktop computer.
+
+Traditionally, technology users relied on extensive local setups that were largely... 
+                                  <a href="http://www.chron.com/default/article/Cisco-IBM-Hold-the-Dow-Back-Is-the-Tech-Rally-5354997.php">
+                                    more »
+                                  </a>
+                                </p>
+                              </div>
+                              <h5 class="timestamp">
+                                <span class="credit">
+                                  Dan Caplinger, The Motley Fool
+                                </span>
+                                <span class="brand">
+                                  The Motley Fool
+                                </span>
+                                <span class="time">
+                                  1 day ago
+                                </span>
+                              </h5>
+                              <p class="tags">
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22computing+and+information+technology%22">
+                                  computing and information technology
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22market+and+exchange%22">
+                                  market and exchange
+                                </a>
+                                 | 
+                                <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;sort=date&amp;channel=home&amp;category=%22stocks%22">
+                                  stocks
+                                </a>
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="hst-articlepager">
+                        <span class="selected">
+                          1
+                        </span>
+                         | 
+                        <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;keepFacet=1&amp;page=2">
+                          2
+                        </a>
+                         | 
+                        <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;keepFacet=1&amp;page=3">
+                          3
+                        </a>
+                         | 
+                        <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;keepFacet=1&amp;page=4">
+                          4
+                        </a>
+                         | 
+                        <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;keepFacet=1&amp;page=5">
+                          5
+                        </a>
+                         | 
+                        <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;keepFacet=1&amp;page=6">
+                          6
+                        </a>
+                         | 
+                        <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;keepFacet=1&amp;page=7">
+                          7
+                        </a>
+                         | 
+                        <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;keepFacet=1&amp;page=8">
+                          8
+                        </a>
+                         | 
+                        <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;keepFacet=1&amp;page=9">
+                          9
+                        </a>
+                        <a href="?controllerName=search&amp;action=search&amp;searchindex=property&amp;query=ibm&amp;sort=date&amp;channel=home&amp;period=%2A&amp;keepFacet=1&amp;page=2">
+                          Next »
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="span-10 last">
+                  <!-- /ux/chron/tmpl/subscribe_promo.tpl  -->                  <!-- e /ux/chron/tmpl/subscribe_promo.tpl  -->                  <!-- hearst/ads/medium_rectangle_ad_first.tpl -->                  <div class="hst-mediumrectangle clearfix" id="hst-mediumrectangle1">
+                    <div class="ad_deferrable" id="A300" style="">
+                      <script type="text/javascript">
+//<![CDATA[
+ /*&lt;![CDATA[*/ hearstPlaceAd("A300"); /*]]&gt;*/ 
+//]]>
+                      </script>
+                    </div>
+                  </div>
+                  <!-- e medium_rectangle_ad_first.tpl -->                  <!-- hearst/ads/medium_rectangle_ad_second.tpl -->                  <div class="hst-mediumrectangle clearfix" id="hst-mediumrectangle2">
+                    <div class="ad_deferrable" id="B300">
+                      <script type="text/javascript">
+//<![CDATA[
+ /*&lt;![CDATA[*/ hearstPlaceAd("B300"); /*]]&gt;*/ 
+//]]>
+                      </script>
+                    </div>
+                  </div>
+                  <!-- e medium_rectangle_ad_second.tpl -->                  <!-- hearst/ads/medium_rectangle_ad_third.tpl -->                  <div class="hst-mediumrectangle clearfix" id="hst-mediumrectangle3">
+                    <div class="ad_deferrable" id="S300">
+                      <script type="text/javascript">
+//<![CDATA[
+ /*&lt;![CDATA[*/ hearstPlaceAd("S300"); /*]]&gt;*/ 
+//]]>
+                      </script>
+                    </div>
+                  </div>
+                  <!-- e medium_rectangle_ad_third.tpl -->                  <!-- adding  -->                </div>
+                <!--/.span-10-->              </div>
+              <!--e cmf/business/templates/search/propertySearchResults.php -->            </div>
+          </div>
+          <!-- src/business/templates/hearst/common/footer.tpl -->          <!-- hearst/sitemenu/site_footer.tpl -->          <div class="hst-sitefooter">
+            <!-- hearst/sitemenu/footer_r1.tpl -->            <!-- ux/chron/templates/hearst/sitemenu/footer_local.tpl -->            <ul class="sf-link-list">
+              <li>
+                <a href="/">
+                  <img alt="The Houston Chronicle" src="/img/modules/chronr_sitefooter/footer-logo.png"/>
+                </a>
+              </li>
+              <li>
+                <a href="/news/houston-texas/">
+                  Local
+                </a>
+              </li>
+              <li>
+                <a href="/news/nation-world/">
+                  US &amp; World
+                </a>
+              </li>
+              <li>
+                <a href="/sports/">
+                  Sports
+                </a>
+              </li>
+              <li>
+                <a href="/business/">
+                  Business
+                </a>
+              </li>
+              <li>
+                <a href="/entertainment/">
+                  Entertainment
+                </a>
+              </li>
+              <li>
+                <a href="/life/">
+                  Lifestyle
+                </a>
+              </li>
+              <li>
+                <a href="/jobs/">
+                  Jobs
+                </a>
+              </li>
+              <li>
+                <a href="http://cars.chron.com/">
+                  Cars
+                </a>
+              </li>
+              <li class="last">
+                <a href="/homes/">
+                  Real Estate
+                </a>
+              </li>
+            </ul>
+            <!-- e ux/chron/templates/hearst/sitemenu/footer_local.tpl -->            <!-- e hearst/sitemenu/footer_r1.tpl -->            <!-- hearst/item/standalone.tpl -->            <div class="hdnce-e hdnce-item-4251">
+              <!-- mid:freeform.4251 -->              <!-- Begin Hearst Ad -->              <div style="float: left;margin: 10px 125px;" id="B728">
+                <script type="text/javascript">
+//<![CDATA[
+/*&lt;![CDATA[*/hearstPlaceAd("B728");/*]]&gt;*/
+//]]>
+                </script>
+              </div>
+              <!-- End Hearst Ad -->              <!-- <div class="sf-text">
+    <h3>The Houston Chronicle is the premier local news provider for the country's 4th largest city.</h3>
+    <h4>Currently the nation's sixth-largest newspaper, the Houston Chronicle is a multimedia company publishing print and online products in English and Spanish that reach millions of people each month. The Houston Chronicle is published by a unit of The Hearst Corporation.</h4>
+</div> -->              <div class="sf-col-1">
+                <br/>
+                <h3>
+                  Advertise With Us
+                </h3>
+                <ul>
+                  <li>
+                    <a href="http://hearstmediahouston.com/">
+                      Purchase ads for web, social media, and print via Hearst Media Services
+                      <img src="/img/modules/chronr_sitefooter/footer-link-arrow.png"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://chron.kaango.com/ads/choosepostad">
+                      Place a classified ad in the paper or online
+                      <img src="/img/modules/chronr_sitefooter/footer-link-arrow.png"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://instaad.net/houston-adportal/retail/index.html">
+                      Place a targeted ad in a specialty section such as a weekly or neighborhood publication 
+                      <img src="/img/modules/chronr_sitefooter/footer-link-arrow.png"/>
+                    </a>
+                  </li>
+                </ul>
+                <h3>
+                  Subscriber Services
+                </h3>
+                <ul>
+                  <li>
+                    <a href="https://www.myhearstnewspaper.com/houston/">
+                      Get home delivery, manage your subscription, pay your bill with EZ Pay, and set a vacation hold for the paper
+                      <img src="/img/modules/chronr_sitefooter/footer-link-arrow.png"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://local.chron.com/">
+                      Local Business Directory
+                      <img src="/img/modules/chronr_sitefooter/footer-link-arrow.png"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="sf-col-2">
+                <br/>
+                <h3>
+                  About Us
+                </h3>
+                <ul class="sf-top-list">
+                  <li>
+                    <a href="http://www.chron.com/about/newsroom/">
+                      About the Houston Chronicle
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.chron.com/about/mediagroup/executives/">
+                      Executive Team
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://hearstnewspaperscareerlinks.silkroad.com/">
+                      Careers
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.chron.com/commentpolicy/">
+                      Community
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.legalnotice.org/pl/chron/landing1.aspx">
+                      Legal Notices
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.chron.com/contests/">
+                      Contests
+                    </a>
+                  </li>
+                  <li class="quadOne">
+                    <a href="http://www.aboutads.info/choices/">
+                      Ad Choices 
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.hearst.com/newspapers/houston-chronicle.php">
+                      Corporate Home
+                    </a>
+                  </li>
+                </ul>
+                <h3>
+                  Contact Us
+                </h3>
+                <ul class="sf-bottom-list">
+                  <li>
+                    <a href="https://www.myhearstnewspaper.com/houston/FAQ.aspx">
+                      Customer Service 
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.chron.com/about/newsroom/">
+                      Newsroom Contacts
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="sf-col-3">
+                <br/>
+                <h3>
+                  Editions &amp; Apps
+                </h3>
+                <ul class="sf-top-list">
+                  <li>
+                    <a href="http://www.chron.com/ipad/">
+                      iPad
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.chron.com/mobile/">
+                      iPhone
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.chron.com/mobile/">
+                      Android
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.chron.com/mobile/">
+                      Blackberry
+                    </a>
+                  </li>
+                  <!-- <li><a href="http://www.chron.com/mobile/">Mobile Website</a></li>-->                  <li>
+                    <a onclick="hdnToggleMobile(); return false;" href="">
+                      Mobile Site
+                    </a>
+                  </li>
+                  <li/>
+                  <li>
+                    <a href="http://www.houstonchronicle.com">
+                      HoustonChronicle.com
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://digital.olivesoftware.com/Olive/ODE/HoustonChronicleDemo/">
+                      eEdition Demo
+                    </a>
+                     | 
+                    <a href="https://www.myhearstnewspaper.com/Houston/login.aspx?ReturnUrl=%2fhouston%2fsecurepage%2feedition.aspx%3fshow%3dY&amp;show=Y#">
+                      Today's eEdition
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.chron.com/cie/">
+                      Chronicle in Education
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.chron.com/index/">
+                      Chron.com Site Index
+                    </a>
+                  </li>
+                </ul>
+                <h3>
+                  Follow Chron
+                </h3>
+                <ul class="sf-bottom-list">
+                  <li>
+                    <a href="http://www.facebook.com/chroncom">
+                      <img src="/img/modules/chronr_sitefooter/footer-link-fb.png"/>
+                      Facebook
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/houstonchron">
+                      <img src="/img/modules/chronr_sitefooter/footer-link-twtr.png"/>
+                      Twitter
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.linkedin.com/company/9779">
+                      <img src="/img/modules/chronr_sitefooter/footer-link-ln.png"/>
+                      LinkedIn
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.chron.com/newsletters/">
+                      <img src="/img/modules/chronr_sitefooter/footer-link-mail.png"/>
+                      Newsletters
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.chron.com/rss/">
+                      <img src="/img/modules/chronr_sitefooter/footer-link-rss.png" class="baccmpcjxepfkvtqagxk"/>
+                      RSS
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.chron.com/about/social-media/">
+                      Social Media
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="sf-third-party">
+                <span id="hst-feed-yahoo">
+                  <!-- src/business/templates/hearst/common/feed.tpl -->                  <span class="hst-feed">
+                    <a href="/rss" class="hst-rss-share">
+                      <img src="/img/icons/share/rss.gif" class="baccmpcjxepfkvtqagxk"/>
+                    </a>
+                       
+
+        
+
+                  </span>
+                  <!-- e src/business/templates/hearst/common/feed.tpl -->                </span>
+              </div>
+              <div class="sf-bottom">
+                <div class="sf-bottom-links">
+                  <a href="/terms_of_use/">
+                    Terms of Use
+                  </a>
+                    |  
+                  <a href="http://www.chron.com/privacy_policy/">
+                    Privacy Policy
+                  </a>
+                    | 
+                  <a href="http://www.chron.com/privacy_policy/#caprivacyrights">
+                    Your California Privacy Rights
+                  </a>
+                    | 
+                  <a href="http://www.aboutads.info/choices/">
+                     Ad Choices
+                  </a>
+                  <br/>
+                  
+        Houston Chronicle  |  P.O. Box 4260  Houston, Texas 77210–4260
+    
+                </div>
+                <div class="sf-branding">
+                  <img src="/img/modules/chronr_sitefooter/footer-hst-logo-white.png"/>
+                  <br/>
+                  <p>
+                    © Copyright 
+                    <script type="text/javascript">
+//<![CDATA[
+document.write(new Date().getFullYear());
+//]]>
+                    </script>
+                    2014 Hearst Newspapers, LLC
+                  </p>
+                </div>
+              </div>
+              <style type="text/css">
+                
+ .hst-sitefooter .sf-third-party{
+     width: 202px !important;
+ }
+#hst-feed-yahoo .hst-feed .quadOne {
+display:none;
+}
+
+              </style>
+              <!-- Subscriber Re-Targeting Script
+<script type="text/javascript">
+adroll_adv_id = "GKELSTQCA5GLFEDAZUD7AM";
+adroll_pix_id = "OXXRIODU5ZC3VBPQ5RWUV3";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script> -->            </div>
+            <script type="text/javascript">
+//<![CDATA[
+
+	// &lt;![CDATA[
+	jQuery(function($) {
+		$('.sf-third-party').append($('#hst-feed-yahoo'));
+	});
+	// ]]&gt;
+	
+//]]>
+            </script>
+          </div>
+          <!-- /src/business/templates/hearst/common/opengraph_load.tpl -->          <!-- /src/business/templates/hearst/common/outbrain_silent_tag.tpl -->          <script type="text/JavaScript">
+//<![CDATA[
+
+    var link = window.location.href;
+    var OB_permalink= link;
+    var OB_Template="chron";
+    var OB_widgetId= 'TR_1';
+    var OB_langJS ='http://widgets.outbrain.com/lang_en.js';
+
+    if ( typeof(OB_Script)!='undefined' )
+        OutbrainStart();
+    else
+    {
+        var OB_Script = true;
+        var str = "&lt;script src='http://widgets.outbrain.com/outbrainWidget.js'; type='text/javascript'&gt;&lt;/"+"script&gt;";
+        document.write(str);
+    }
+
+//]]>
+          </script>
+          <script type="text/javascript" ;="" src="http://widgets.outbrain.com/outbrainWidget.js">
+          </script>
+          <!-- src/business/templates/hearst/common/footer_bottom.tpl -->          <div style="display:none;" id="BF_WIDGET_1">
+             
+            <script type="text/javascript" src="http://ct.buzzfeed.com/wd/UserWidget?u=chron.com&amp;to=1&amp;or=vb&amp;wid=1&amp;cb=1396060424405">
+            </script>
+          </div>
+          <script type="text/javascript">
+//<![CDATA[
+
+(function( ){
+BF_WIDGET_JS=document.createElement("script"); BF_WIDGET_JS.type="text/javascript";
+BF_WIDGET_SRC="http://ct.buzzfeed.com/wd/UserWidget?u=chron.com&amp;to=1&amp;or=vb&amp;wid=1&amp;cb=" + (new Date()).getTime();
+setTimeout(function() {document.getElementById("BF_WIDGET_1").appendChild(BF_WIDGET_JS);BF_WIDGET_JS.src=BF_WIDGET_SRC},1);
+})();
+
+//]]>
+          </script>
+          <!-- e src/business/templates/hearst/common/footer_bottom.tpl -->          <script src="/external/js/global.bottom.r5.10.1.2.js" type="text/javascript">
+          </script>
+          <!-- e hearst/sitemenu/site_footer.tpl -->          <script type="text/javascript">
+//<![CDATA[
+window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-3.newrelic.com","licenseKey":"3fd06eaac1","applicationID":"147157","transactionName":"MwQBZ0RXV0NTVhBdDgpOJUZYVU1ZXVtLVwwCMgZSRFVRc11bEEYOCA0GQQwMS1VcUQFGNw0EFA==","queueTime":0,"applicationTime":592,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"jserror.newrelic.com","agent":"js-agent.newrelic.com\/nr-361.min.js"}
+//]]>
+          </script>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" id="sitecatalyst_stub">
+//<![CDATA[
+var s=new SC_Stub();
+s.tagContainerName="ChronMain_s";
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+function SC_Stub(){var t=this,w=t.w=window;t.d=w.document;t._c='s_l';if(!w.s_c_il){w.s_c_il=[];w.s_c_in=0}t._il=w.s_c_il;t._in=w.s_c_in;t._il[t._in]=t;w.s_c_in++;t.fs=function(x,y){if(x&amp;&amp;y){var a=
+x.split(','),b=y.split(','),i,j;for(i=0;i&lt;a.length;i++){for(j=0;j&lt;b.length;j++)if(a[i]==b[j])return 1}}return 0};t.aa=function(a){var b=0,i;if(a){b=[];for(i=0;i&lt;a.length;i++)b[i]=a[i]}return b};t.wl=[
+];t.wq=[];t.createAsynchronousCustomTagHandler=function(o,f){var t=this,x,i;if(!f){f=o;o=0;x=t.w}else{if(!t.w[o])t.w[o]={};x=t.wl[o]=t.w[o]}if(typeof(f)!='object')f=[f];for(i=0;i&lt;f.length;i++)if(!x[f[
+i]])x[f[i]]=new Function('var t=s_c_il['+t._in+'];t.wq[t.wq.length]={'+(o?'o:"'+o+'",':'')+'f:"'+f[i]+'",a:t.aa(arguments)}')};t.as=function(x){var y=[],i;for(i=1;i&lt;x.length;i++)y[y.length]=x[i]
+return y};t.s=0;t.contextData={};t.retrieveLightData={};if(!w.s_giq)w.s_giq=[];t._gi=w.s_gi;w.s_gi=new Function('u','var t=s_c_il['+t._in+
+'],w=t.w,l=t._il,i,j,x,s;u=u.toLowerCase();if(l)for(j=0;j&lt;2;j++)for(i=0;i&lt;l.length;i++){s=l[i];x=s._c;if((!x||x=="s_c"||(j&gt;0&amp;&amp;x=="s_l"))&amp;&amp;s.oun&amp;&amp;(s.oun==u||(s.fs&amp;&amp;s.sa&amp;&amp;s.fs(s.oun,u)))){'+
+'if(s.sa)s.sa(u);return s}}if(!t.oun){t.sa(u);return t}if(t._gi)return t._gi(u);s=new SC_Stub();s.tagContainerName="s_tca_"+w.s_giq.length;s.sa(u);w.s_giq[w.s_giq.length]=s;return s');t.sa=function(u)
+{var t=this;if(t.s)t.s.sa(u);t.un=u;if(!t.oun)t.oun=u;else if(!t.fs(t.oun,u))t.oun+=','+u};t.tq=[];t.track=t.t=function(vo){var t=this,m;if(t.s)return t.s.t(vo);if(!vo)vo={};for(m in t){if(m!='un'
+||t.u!=t.un)vo[m]=t[m]}t.tq[t.tq.length]=vo;t.lnk=t.linkName=t.linkType='';return '';};t.trackLink=t.tl=function(o,u,n,vo){var t=this;if(t.s)return t.s.tl(o,u,v,vo);t.lnk=o;t.linkType=u;t.linkName=n
+return t.t(vo)};t.trackLight=function(p,ss,i,vo){var t=this;if(t.s)return t.s.trackLight(p,ss,i,vo);t.lightProfileID=p;t.lightStoreForSeconds=ss;t.lightIncrementBy=i;return t.t(vo)};t.lmq=[]
+t.loadModule=function(n,u,d){var t=this;if(t.s)return t.s.loadModule(n,u,d);t.lmq[t.lmq.length]={n:n,u:u,d:d};return 0};t.ml=[];t.mmq=[];t.mo=function(m,f){var t=this,i;t.ml[m]=t[m]={};if(f)
+for(i=0;i&lt;f.length;i++)t[m][f[i]]=new Function('var t=s_c_il['+t._in+'];t.mmq[t.mmq.length]={m:"'+m+'",f:"'+f[i]+'",a:t.aa(arguments)}')};t.mo('Media',['open','play','stop','close','track']);t.mo(
+'Survey',['launch']);}; amc.call('getLoaderById', 0).publish('ontagload.sitecatalyst_stub', {id: 'sitecatalyst_stub',tag: amc.call('getById', 'sitecatalyst_stub')})
+//]]>
+    </script>
+    <script type="text/javascript" id="sitecatalyst" async="" defer="defer" src="//www.adobetag.com/d1/v2/ZDEtaGVhcnN0LTMwNzctMzk0NS0=/live/sitecatalyst.js">
+    </script>
+    <script type="text/javascript" id="ga">
+//<![CDATA[
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1616916-20']);
+  _gaq.push(['_trackPageview']);
+ _gaq.push(['adSenseTracker._setAccount', 'UA-1616916-28']);
+ _gaq.push(['adSenseTracker._trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+; amc.call('getLoaderById', 0).publish('ontagload.ga', {id: 'ga',tag: amc.call('getById', 'ga')})
+//]]>
+    </script>
+    <script type="text/javascript" id="nielsen">
+//<![CDATA[
+function nielsenEvent(){
+var d = new Image(1, 1);
+d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-202808h&amp;cg=0&amp;cc=1&amp;si=",escape(window.location.href), "&amp;rp=", escape(document.referrer),"&amp;c0=usergen,1&amp;rnd=", (new Date()).getTime()].join('');
+} 
+nielsenEvent();
+; amc.call('getLoaderById', 0).publish('ontagload.nielsen', {id: 'nielsen',tag: amc.call('getById', 'nielsen')})
+//]]>
+    </script>
+    <script type="text/javascript" id="jt">
+//<![CDATA[
+// START Jump Time Beacon Code
+var jt_account="chron";
+var awJumpTimeAddlVars;
+var awBoolAddRef=false;
+
+function getCanonicalURL() {
+	var strCanonical = "";
+	var arrayLinks = document.getElementsByTagName("link");
+        
+	for (var intWhichLink = 0; intWhichLink &lt; arrayLinks.length; intWhichLink++) {
+		if (arrayLinks[intWhichLink].getAttribute("rel") == "canonical") {
+			strCanonical = arrayLinks[intWhichLink].getAttribute("href");
+
+            // If the domain we're on is different than the one in the canonical URI, update the URI we pass to jump-time:
+            if (strCanonical.indexOf(document.domain) &lt; 0) {
+                var arTmpCanonical = strCanonical.split('/');
+                var arTmpCurrentURI = window.location.href.split('/');
+                arTmpCanonical[2] = arTmpCurrentURI[2];
+                strCanonical = arTmpCanonical.join('/');
+            }
+			break;
+		}
+	}
+
+	if (strCanonical.length == 0){strCanonical=awStrPageURL;}
+
+	return strCanonical;
+}
+
+function sendJumpTimeBeacon() {
+	if (typeof jt_account != "undefined" &amp;&amp; typeof jt == 'function') {
+		var strAddlVars = awJumpTimeAddlVars;
+
+// if we are using the new gallery, add the aURL
+        if (typeof HDN.gallery == 'function') {
+            // add aURL
+            strAddlVars += '&amp;aURL=' + escape(getCanonicalURL());
+        }
+
+//		if (awBoolAddRef) {strAddlVars += '&amp;aref='+escape(getCanonicalURL());}
+		if (awBoolAddRef) {strAddlVars = strAddlVars.replace('&amp;ct=article&amp;','&amp;ct='+escape('article slideshow')+'&amp;') + '&amp;aref='+escape(getCanonicalURL());}
+		jt("http://hearst.jump-time.net/"+jt_account, strAddlVars, true);
+		awBoolAddRef=true;
+	}
+}
+
+function createJumpTimeBeacon() {
+    if (typeof jt_account != "undefined") {
+		awJumpTimeAddlVars = jt_account;
+		awJumpTimeAddlVars += '&amp;sec='+escape(awOmniSSL1);
+		if (awOmniSSL1 != awOmniSSL2) {awJumpTimeAddlVars += '&amp;ss='+escape(awOmniSSL2);}
+		if (awOmniSSL2 != awOmniSSL3) {awJumpTimeAddlVars += '&amp;sss='+escape(awOmniSSL3);}
+		awJumpTimeAddlVars += '&amp;ct='+escape(awOmniContentType);
+		if (awOmniAuthor) {awJumpTimeAddlVars += '&amp;tag='+escape(awOmniAuthor);}
+		awJumpTimeAddlVars += '&amp;caid='+escape(awOmniPagename);
+		
+        // Add advertising information
+        if (typeof definedTags != "undefined") {
+            if (typeof definedTags.adUnit != "undefined") {
+                var adUnits = definedTags.adUnit.split('/');
+                if (typeof adUnits[0] != "undefined") {
+                    awJumpTimeAddlVars += '&amp;akv1='+escape( adUnits[0] );
+                }
+                if (typeof adUnits[1] != "undefined") {
+                    awJumpTimeAddlVars += '&amp;akv2='+escape( adUnits[1] );
+                }
+            }
+		}
+        
+		jQuery(function($) {
+			$.ajax({
+				type: "GET",
+				url: "http://beacon.jump-time.net/jt.js",
+				dataType: "script",
+				cache: true,
+				success: function() {sendJumpTimeBeacon();}
+			});
+		});
+	}
+}
+
+// Create JumpTime beacon after SiteCatalyst tag loads
+amc.on('tagload.sitecatalyst', function () {
+     createJumpTimeBeacon();
+});
+// END Jump Time Beacon Code; amc.call('getLoaderById', 0).publish('ontagload.jt', {id: 'jt',tag: amc.call('getById', 'jt')})
+//]]>
+    </script>
+    <div id="fb-root" class=" fb_reset">
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_http" allowtransparency="true" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="http://static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f17254a3c255fd&amp;origin=http%3A%2F%2Fwww.chron.com">
+          </iframe>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_https" allowtransparency="true" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f17254a3c255fd&amp;origin=http%3A%2F%2Fwww.chron.com">
+          </iframe>
+        </div>
+      </div>
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+        </div>
+      </div>
+    </div>
+    <script src="http://js-agent.newrelic.com/nr-361.min.js">
+    </script>
+    <!-- e src/business/templates/hearst/common/footer.tpl -->  </body>
+</html>

@@ -1,0 +1,247 @@
+<body class="firefox gecko windows v14_0 fftheme_13 " id="ysch"> 
+ <div class="uh3-p  fftheme_14 " id="doc"> 
+  <h1 class="off-left fftheme_15  xmoztheme "> Yahoo France Recherche Web </h1> 
+  <div id="sticky-hd" class="fftheme_16  active" style="top: -62.19px;"> 
+   <style class=" fftheme_17  xmoztheme ">
+          #yucs{padding:0}#yucs .yucs-avatar{width:22px;height:22px}#yucs a#yucs-mail_link_id{_width:30px;_text-indent:0;_background-position:0 -4352px}#yucs-profile{_margin-right:-10px;_width:75px}#yucs #yucs-profile_text .yuhead-name-greeting{display:none}#yucs #yucs-profile_text .yuhead-name{top:0;max-width:65px;_width:40px}#yucs-profile_text{max-width:65px}#yucs #yucs-nav .yucs-menu ul li a:hover,#yucs #yucs-help .yucs-menu ul li a:hover,#yucs .yucs-profile-items-panel a:hover{background-color:transparent;text-decoration:underline}#yucs-top-inner{margin-left:0}#doc.uh3-p #yucsHead #yucs-top-home{margin-top:2px !important}#yucs .yucs-noscript .yucs-no_menu .yucs-signout:link{left:30px;top:10px;position:absolute;*left:0}#yucsHead{background-color:#fafafc}#yucs #yucs-profile_inner.yucs-nv3 .yucs-profile-items-panel li a{white-space:normal}
+        </style> 
+   <div class="yucs-srp yucs-fr-fr ua-ff yucs-standard fftheme_18 " id="yucsHead"> 
+    <!-- meta --> 
+    <div data-userid="" data-test_id="" data-spaceid="2114716003" data-status="active" data-shortuserid="" data-shortfirstname="" data-protocol="https" data-property="srp" data-languagetag="fr-fr" data-https="1" data-host="fr.search.yahoo.com" data-guid="" data-forcecobrand="standard" data-flight="1407949098" data-firstname="" data-experience="uh3" data-device="desktop" data-gta="CzkvkKTBWa3" data-crumb="hYflcA1w/Ug" data-cobrand="standard" data-authstate="signedout" id="yucs-meta" class=" fftheme_19  xmoztheme "> 
+    </div> 
+    <!-- /meta --> 
+    <div data-close-txt="Fermer cette fen&ecirc;tre" data-device="Desktop" data-property="srp" data-lang="fr-fr" data-linktarget="_top" data-ylt-disclaimerbaropen="/;_ylt=A9mSs3cqmetTtDYA.pRjAQx." data-ylt-disclaimerbarclose="/;_ylt=A9mSs3cqmetTtDYA.ZRjAQx." data-ylt-link="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYA.JRjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2finfo.yahoo.com%2fprivacy%2ffr%2fyahoo%2feu%2f/RK=0/RS=_gogwVUDkAoQBofxxHpfb9c5V_I-" data-disclaimertext="L'option 'Do Not Track' n'est plus activ&eacute;e sur Yahoo. Votre experience est d&eacute;sormais personnalis&eacute;e. {disclaimerLink}Plus d'infos{linkEnd}" class="yucs-disclaimer yucs-activate yucs-hide yucs-property-srp yucs-fcb-  fftheme_20  xmoztheme " id="yucs-disclaimer"> 
+    </div> 
+    <!--topbar--> 
+    <style class=" fftheme_21  xmoztheme ">
+            #doc.uh3lite, .uh3lite #yucsHead, #yucsHead, #doc.uh3lite #hd {
+    margin-top: 0!important;
+}
+          </style> 
+    <div class="yucs-ps fftheme_22 " id="yucs-top-bar"> 
+     <div id="yucs-top-inner" class=" fftheme_23 "> 
+      <ul id="yucs-top-list" class=" fftheme_24 "> 
+       <li class="yucs-top-first fftheme_25 " id="yucs-top-home"> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYA.5RjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.yahoo.com%2f/RK=0/RS=v3wnJ9uxeLPSw5ErO_4SONcCGVs-" class=" fftheme_26 "> <span class="sp yucs-top-ico fftheme_27 "> </span> Accueil </a> </li> 
+       <li id="yucs-top-mail" class=" fftheme_28 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYA_JRjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.mail.yahoo.com%2f/RK=0/RS=RwN52gUod.mrnfn5cZXSSsf2g00-" class=" fftheme_29 "> Mail </a> </li> 
+       <li id="yucs-top-news" class=" fftheme_30 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYA_ZRjAQx./RV=2/RE=1407977898/RO=10/RU=http%3a%2f%2ffr.news.yahoo.com%2f/RK=0/RS=1ZGAuvHBJDo7fKlAt.2JKsmGS4c-" class=" fftheme_31 "> Actualit&eacute;s </a> </li> 
+       <li id="yucs-top-sports" class=" fftheme_32 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYA_pRjAQx./RV=2/RE=1407977898/RO=10/RU=http%3a%2f%2ffr.sports.yahoo.com%2f/RK=0/RS=VNFtj6VMep9sB67IwGx0NnjlbzA-" class=" fftheme_33 "> Sport </a> </li> 
+       <li id="yucs-top-finance" class=" fftheme_34 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYA_5RjAQx./RV=2/RE=1407977898/RO=10/RU=http%3a%2f%2ffr.finance.yahoo.com%2f/RK=0/RS=KJK1C2lSwjCJrApTftXhNp47pSI-" class=" fftheme_35 "> Finance </a> </li> 
+       <li id="yucs-top-weather" class=" fftheme_36 "> <a href="https://fr.meteo.yahoo.com/;_ylt=A9mSs3cqmetTtDYAAJVjAQx." class=" fftheme_37 "> M&eacute;t&eacute;o </a> </li> 
+       <li id="yucs-top-games" class=" fftheme_38 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAAZVjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.jeux.yahoo.com%2f/RK=0/RS=X9Zxq.vqOP2L8kF0lHV4rWjhUCU-" class=" fftheme_39 "> Jeux </a> </li> 
+       <li id="yucs-top-groups" class=" fftheme_40 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAApVjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.groups.yahoo.com%2f/RK=0/RS=D9f5octhCAHduPPnU7y0sWla0GA-" class=" fftheme_41 "> Groupes </a> </li> 
+       <li id="yucs-top-answers" class=" fftheme_42 "> <a href="https://fr.answers.yahoo.com/;_ylt=A9mSs3cqmetTtDYAA5VjAQx." class=" fftheme_43 "> Questions/R&eacute;ponses </a> </li> 
+       <li id="yucs-top-screen" class=" fftheme_44 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYABJVjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.screen.yahoo.com%2f/RK=0/RS=zcRKmoRZPWMTbGOmkTyTRhdi3GI-" class=" fftheme_45 "> Screen </a> </li> 
+       <li id="yucs-top-flickr" class=" fftheme_46 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYABZVjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2fwww.flickr.com%2f/RK=0/RS=2Oj.AOCUXbA7zaNGhD.aWl3n0O0-" class=" fftheme_47 "> Flickr </a> </li> 
+       <li id="yucs-top-mobile" class=" fftheme_48 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYABpVjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.mobile.yahoo.com%2f/RK=0/RS=juCgIauWTzXLr9YI.HMsJQFcskY-" class=" fftheme_49 "> Mobile </a> </li> 
+       <li data-ylt="/;_ylt=A9mSs3cqmetTtDYAB5VjAQx." class="yucs-menu yucs-more-activate fftheme_50 " id="yucs-more"> <a class="yucs-leavable fftheme_51 " id="yucs-more-link" href="#"> Plus <span class="sp yucs-top-ico fftheme_52 "> </span> </a> 
+        <div id="yucs-top-menu" class=" fftheme_53  xmoztheme "> 
+         <div class="yui3-menu-content fftheme_54  xmoztheme "> 
+          <ul class="yucs-hide yucs-leavable fftheme_55  xmoztheme "> 
+           <li id="yucs-top-shine" class=" fftheme_56  xmoztheme "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYACJVjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.pourelles.yahoo.com%2f/RK=0/RS=PpZrfQWbaE4.TFBRSpH0.mIj4O4-" class=" fftheme_57  xmoztheme "> Pour Elles </a> </li> 
+           <li id="yucs-top-movies" class=" fftheme_58  xmoztheme "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYACZVjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.cinema.yahoo.com%2f/RK=0/RS=KE5zYcY6mfoinLmQS_BY9YpNGrA-" class=" fftheme_59  xmoztheme "> Cin&eacute;ma </a> </li> 
+           <li id="yucs-top-music" class=" fftheme_60  xmoztheme "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYACpVjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.musique.yahoo.com%2f/RK=0/RS=M_JIicGenqnVi.YJYwplQs.M9zg-" class=" fftheme_61  xmoztheme "> Musique </a> </li> 
+           <li id="yucs-top-tv" class=" fftheme_62  xmoztheme "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAC5VjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.tv.yahoo.com%2f/RK=0/RS=fojHGGTO3mhrD3dE4jwCBD9NmIw-" class=" fftheme_63  xmoztheme "> TV </a> </li> 
+           <li id="yucs-top-shopping" class=" fftheme_64  xmoztheme "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYADJVjAQx./RV=2/RE=1407977898/RO=10/RU=http%3a%2f%2ffr.shopping.yahoo.net%2f/RK=0/RS=debemiBSWo2cPcakGjQpjueS6vE-" class=" fftheme_65  xmoztheme "> Shopping </a> </li> 
+           <li id="yucs-top-travel" class=" fftheme_66  xmoztheme "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYADZVjAQx./RV=2/RE=1407977898/RO=10/RU=http%3a%2f%2ffr.travel.yahoo.com%2f/RK=0/RS=74eSqwps.U7kQ8TPILCinA7HEjs-" class=" fftheme_67  xmoztheme "> Voyage </a> </li> 
+           <li id="yucs-top-autos" class=" fftheme_68  xmoztheme "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYADpVjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.cars.yahoo.com%2f/RK=0/RS=fjFG_4V3AhJwWbvcFqX07jn_QFU-" class=" fftheme_69  xmoztheme "> Auto </a> </li> 
+          </ul> 
+          <!-- /yucs-hide --> 
+         </div> 
+         <!-- /yui3-menu-content --> 
+        </div> 
+        <!-- yucs-top-menu --> </li> 
+      </ul> 
+      <!-- /yucs-top-list --> 
+     </div> 
+     <!-- /yucs-top-inner --> 
+    </div> 
+    <!-- /yucs-top-bar --> 
+    <!--/topbar--> 
+    <div data-uhvc="/;_ylt=A9mSs3cqmetTtDYAD5VjAQx." data-linktarget="_top" data-flight="1407949098" data-property="srp" data-lang="fr-fr" class="yucs yucs-mc  yog-grid fftheme_70   " id="yucs"> 
+     <div class="yucs-fl-left yog-cp fftheme_71  xmoztheme "> 
+     </div> 
+     <div class="yucs-fl-right fftheme_72 "> 
+      <div class="yucs-profile yucs-signedout fftheme_73 " id="yucs-profile"> 
+       <a aria-label="Profil" class="sp yucs-fc fftheme_74 " rel="nofollow" target="_top" href="https://login.yahoo.com/config/login;_ylt=A9mSs3cqmetTtDYAEJVjAQx.?.src=&amp;.intl=fr&amp;.lang=fr-FR&amp;.done=https://fr.search.yahoo.com/search%3fp=site%253Aamazon.com%2b9781851684526%26toggle=1%26cop=mss%26ei=UTF-8%26fr=yfp-t-401%26fp=1" id="yucs-menu_link_profile_signed_out"> </a> 
+       <div class="yucs-fc fftheme_75 " id="yucs-profile_text"> 
+        <a class="yucs-fc fftheme_76 " rel="nofollow" target="_top" href="https://login.yahoo.com/config/login;_ylt=A9mSs3cqmetTtDYAEZVjAQx.?.src=&amp;.intl=fr&amp;.lang=fr-FR&amp;.done=https://fr.search.yahoo.com/search%3fp=site%253Aamazon.com%2b9781851684526%26toggle=1%26cop=mss%26ei=UTF-8%26fr=yfp-t-401%26fp=1" id="yucs-login_signIn"> Connexion </a> 
+       </div> 
+      </div> 
+      <div class="yucs-mail_link yucs-mailpreview-ancestor fftheme_77 "> 
+       <a target="_top" rel="nofollow" href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAEpVjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.mail.yahoo.com%2f%3f.intl%3dfr%26.lang%3dfr-FR/RK=0/RS=RJshCuDiKpaTuxQscAZuGnMoJgg-" class="sp yltasis yucs-fc fftheme_78 " id="yucs-mail_link_id"> Mail </a> 
+       <div data-timestamp="short" data-nosubject="[Sans objet]" data-generic-error="Impossible de cr&eacute;er un aper&ccedil;u pour votre mail.&lt;br&gt;Acc&eacute;dez &agrave; Mail." data-ylttimeout="/;_ylt=A9mSs3cqmetTtDYAF5VjAQx." data-ylterror="/;_ylt=A9mSs3cqmetTtDYAFpVjAQx." data-yltpanelshown="/;_ylt=A9mSs3cqmetTtDYAFZVjAQx." data-yltviewall-link="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAFJVjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2ffr.mail.yahoo.com%2f/RK=0/RS=RwN52gUod.mrnfn5cZXSSsf2g00-" data-yltmessage-link="http://mrd.mail.yahoo.com/msg;_ylt=A9mSs3cqmetTtDYAE5VjAQx.?mid={msgID}&amp;fid=Inbox&amp;src=uh&amp;.crumb=fgJiQqkZpPX" data-middleauthtext="Vous avez {count} nouveaux mails." data-popup-login-url="https://login.yahoo.com/config/login_verify2?.pd=c%3DOIVaOGq62e5hAP8Tv..nr5E3&amp;.src=sc" data-middleauth-signin-text="Cliquez ici pour consulter le mail." data-authstate="signedout" data-mrd-crumb="fgJiQqkZpPX" data-languagetag="fr-fr" data-mail-loading-txt="Chargement..." data-mail-help-url="http://help.yahoo.com/l/fr/yahoo/mail/ymail/" data-mail-help-txt="Aide" data-mail-view="Voir tous les mails Yahoo Mail" data-uri-path="ucs.query.yahoo.com/v1/console/yql" data-uri-scheme="http" data-mail-txt="Mail" class="yucs-mail-preview-panel yucs-menu yucs-hide fftheme_79  xmoztheme "> 
+       </div> 
+      </div> 
+      <div class="yucs-activate yucs-help yucs-menu_nav fftheme_80 " id="yucs-help"> 
+       <a rel="nofollow" aria-label="Aide" href="javascript:void(0);" class="sp yltasis fftheme_81 " id="yucs-help_button"> <em class="yucs-hide yucs-menu_anchor fftheme_82  xmoztheme "> Aide </em> </a> 
+       <div data-yltmenushown="/;_ylt=A9mSs3cqmetTtDYAGJVjAQx." class="yucs-hide yucs-menu yucs-hm-activate fftheme_83  xmoztheme " id="yucs-help_inner"> 
+        <span class="sp yucs-dock fftheme_84  xmoztheme "> </span> 
+        <div class="yucs-yql_loading fftheme_85  xmoztheme "> 
+         <ul id="yuhead-help-panel" class=" fftheme_86  xmoztheme "> 
+          <li class=" fftheme_87  xmoztheme "> <a target="_top" href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAGZVjAQx./RV=2/RE=1407977898/RO=10/RU=https%3a%2f%2fedit.yahoo.com%2fmc2.0%2feval_profile%3f.intl%3dfr%26.lang%3dfr-FR%26.done%3dhttps%3a%2f%2ffr.search.yahoo.com%2fsearch%253fp%3dsite%25253Aamazon.com%252b9781851684526%2526toggle%3d1%2526cop%3dmss%2526ei%3dUTF-8%2526fr%3dyfp-t-401%2526fp%3d1%26amp%3b.src%3d%26amp%3b.intl%3dfr%26amp%3b.lang%3dfr-FR/RK=0/RS=a0Yn_okE3vEviFHFZzZmIHVBlB0-" class="yucs-acct-link fftheme_88  xmoztheme "> Param&egrave;tres du compte </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- contextual_shortcuts --> 
+    <!-- /contextual_shortcuts --> 
+    <!-- property: srp | languagetag: fr-fr | status: active | spaceid: 2114716003 | cobrand: standard | markup: empty --> 
+    <div class="yucs-hide fftheme_89  xmoztheme " id="yUnivHead"> 
+     <!-- empty --> 
+    </div> 
+   </div> 
+   <!-- section hd --> 
+   <div data-bk="3.1" data-bns="Yahoo" class="clr fftheme_90 " id="hd"> 
+    <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAGpVjAQx./RV=2/RE=1407977898/RO=10/RU=http%3a%2f%2ffr.yahoo.com%2f/RK=0/RS=MrtG11huLvENoh_s93Gbp7w6dkE-" target="_top" id="logo" class=" fftheme_91 "> Yahoo </a> 
+    <div class="sbx fftheme_92 "> 
+     <div class="search-assist-form-wrapper fftheme_93 "> 
+      <form accept-charset="utf-8" action="https://fr.search.yahoo.com/search;_ylt=A9mSs3cqmetTtDYAG5VjAQx." role="search" id="sf" name="s" method="get" class=" fftheme_94 "> 
+       <label class="off-left fftheme_95  xmoztheme " for="yschsp"> Mot-cl&eacute; </label> 
+       <div class="sbq-w fftheme_96 " id="sbq-wrap"> 
+        <input type="text" tabindex="1" autocomplete="off" value="site:amazon.com 9781851684526" name="p" id="yschsp" class="sbq fftheme_97 " autocorrect="off" autocapitalize="off" aria-haspopup="true" /> 
+        <div id="yui_3_10_0_1_1407949100591_82" class="sa-sbx-container fftheme_98 "> 
+         <div id="yui_3_10_0_1_1407949100591_85" class="sa lowlight fftheme_99  xmoztheme "> 
+         </div> 
+        </div> 
+       </div> 
+       <button class="sbq-x fftheme_100 " type="button" id="sbq-clear"> <span class="sprite fftheme_101  xmoztheme "> </span> </button> 
+       <input type="submit" tabindex="2" value="Rechercher" class="sbb fftheme_102 " /> 
+       <input type="hidden" value="sb-top" name="fr2" class=" fftheme_103  xmoztheme " /> 
+       <input type="hidden" value="yfp-t-401" name="fr" class=" fftheme_104  xmoztheme " /> 
+       <a href="/search;_ylc=X1MDMjExNDcxNjAwMwRfcgMyBGl0A2xhbmdmaWx0ZXIEcG9zAzEEc2NsYWJlbANsYW5nMQRzZWMDbGFuZwRzbGsDbGFuZzE-" class=" fftheme_105  xmoztheme "> </a> 
+       <a href="/search;_ylc=X1MDMjExNDcxNjAwMwRfcgMyBGl0A2xhbmdmaWx0ZXIEcG9zAzIEc2NsYWJlbANsYW5nMgRzZWMDbGFuZwRzbGsDbGFuZzI-" class=" fftheme_106  xmoztheme "> </a> 
+       <a href="/search;_ylc=X1MDMjExNDcxNjAwMwRfcgMyBGl0A2xhbmdmaWx0ZXIEcG9zAzMEc2NsYWJlbANsYW5nMwRzZWMDbGFuZwRzbGsDbGFuZzM-" class=" fftheme_107  xmoztheme "> </a> 
+       <input type="hidden" value="r1" name="rd" class=" fftheme_108  xmoztheme " /> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- end section hd --> 
+  </div> 
+  <div role="document" class="sticky-bd fftheme_109 " id="bd"> 
+   <!-- section sidebar --> 
+   <div data-bk="6.1" data-bns="Yahoo" id="sidebar" class=" fftheme_110 "> 
+    <div class="bd fftheme_111 "> 
+     <div id="vert-piv-tabs" class="sb-module first fftheme_112 "> 
+      <ul class=" fftheme_113 "> 
+       <li class="piv-000 active fftheme_114 " role="tab"> Web </li> 
+       <li class="piv-001 fftheme_115 " role="tab"> <a href="https://fr.images.search.yahoo.com/search/images;_ylt=A9mSs3cqmetTtDYAHpVjAQx.?p=site%3Aamazon.com+9781851684526&amp;fr=yfp-t-401&amp;fr2=piv-web" class=" fftheme_116 "> Images </a> </li> 
+       <li class="piv-002 fftheme_117 " role="tab"> <a href="https://fr.video.search.yahoo.com/search/video;_ylt=A9mSs3cqmetTtDYAH5VjAQx.?p=site%3Aamazon.com+9781851684526&amp;fr=yfp-t-401&amp;fr2=piv-web" class=" fftheme_118 "> Vid&eacute;o </a> </li> 
+       <li class="piv-003 fftheme_119 " role="tab"> <a href="https://fr.news.search.yahoo.com/search;_ylt=A9mSs3cqmetTtDYAIJVjAQx.?p=site%3Aamazon.com+9781851684526&amp;fr=yfp-t-401&amp;fr2=piv-web" class=" fftheme_120 "> Actualit&eacute;s </a> </li> 
+       <li class="piv-007 fftheme_121 " role="tab"> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAIZVjAQx./RV=2/RE=1407977899/RO=10/RU=http%3a%2f%2ffr.shopping.yahoo.net%2fgoto.jsp%3fp%3d60763%26search%3dsite%253Aamazon.com%2b9781851684526%26aff%3dy%3fp%3dsite%253Aamazon.com%2b9781851684526%26fr%3dyfp-t-401%26fr2%3dpiv-web/RK=0/RS=fXVM783L.ooS_lezHc3WLqmNyCU-" class=" fftheme_122 "> Shopping </a> </li> 
+      </ul> 
+     </div> 
+     <div id="refiners-piv-tabs" class="sb-module fftheme_123 "> 
+      <ul class=" fftheme_124 "> 
+       <li class=" fftheme_125 "> <a class="btf  active fftheme_126 " href="https://fr.search.yahoo.com/search;_ylt=A9mSs3cqmetTtDYAHZVjAQx.?fr2=showall&amp;p=site%3Aamazon.com+9781851684526&amp;ei=UTF-8&amp;fr=yfp-t-401&amp;fp=1"> &Agrave; tout moment </a> </li> 
+       <li class="flt fftheme_127 "> <a class=" fftheme_128 " href="https://fr.search.yahoo.com/search;_ylt=A9mSs3cqmetTtDYAIpVjAQx.?fr2=time&amp;ei=UTF-8&amp;fr=yfp-t-401&amp;fp=1&amp;p=site%3Aamazon.com+9781851684526&amp;btf=d"> Hier </a> </li> 
+       <li class="flt fftheme_129 "> <a class=" fftheme_130 " href="https://fr.search.yahoo.com/search;_ylt=A9mSs3cqmetTtDYAI5VjAQx.?fr2=time&amp;ei=UTF-8&amp;fr=yfp-t-401&amp;fp=1&amp;p=site%3Aamazon.com+9781851684526&amp;btf=w"> Semaine derni&egrave;re </a> </li> 
+       <li class="flt last fftheme_131 "> <a class=" fftheme_132 " href="https://fr.search.yahoo.com/search;_ylt=A9mSs3cqmetTtDYAJJVjAQx.?fr2=time&amp;ei=UTF-8&amp;fr=yfp-t-401&amp;fp=1&amp;p=site%3Aamazon.com+9781851684526&amp;btf=m"> Mois dernier </a> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- end section sidebar --> 
+   <div id="advance" class=" fftheme_133 "> 
+    <ul id="ss" class=" fftheme_134 "> 
+     <li class=" fftheme_135 "> <a href="https://fr.search.yahoo.com/web/advanced?ei=UTF-8&amp;p=site%3Aamazon.com+9781851684526&amp;fp=1&amp;fr=yfp-t-401" class="ss-link fftheme_136 "> Recherche : </a> <input type="radio" autocomplete="off" checked="checked" value="r1" id="srd1" name="rd" class=" fftheme_137 " /> <label for="srd1" class=" fftheme_138 "> sur tout le Web </label> <input type="radio" autocomplete="off" value="r2" id="srd2" name="rd" class=" fftheme_139 " /> <label for="srd2" class=" fftheme_140 "> en fran&ccedil;ais </label> <input type="radio" autocomplete="off" value="r3" id="srd3" name="rd" class=" fftheme_141 " /> <label for="srd3" class=" fftheme_142 "> en France </label> </li> 
+    </ul> 
+   </div> 
+   <!-- section results --> 
+   <div id="results" class=" fftheme_143 "> 
+    <style type="text/css" class=" fftheme_144  xmoztheme ">
+            .ads.horiz.bot h2{margin-right:5px}#main .ads.horiz.bot ul.spns{padding-top:12px}
+          </style> 
+    <div id="cols" class=" fftheme_145 "> 
+     <!-- section left --> 
+     <div id="left" class=" fftheme_146 "> 
+      <!-- section main --> 
+      <div id="main" class=" fftheme_147 "> 
+       <div role="main" id="web" class=" fftheme_148 "> 
+        <h2 class=" fftheme_149  xmoztheme "> R&eacute;sultats de recherche </h2> 
+        <ol data-bns="API" start="1" class=" fftheme_150 "> 
+         <li class=" last fftheme_151 "> 
+          <div class="res fftheme_152 "> 
+           <div class=" fftheme_153 "> 
+            <h3 class=" fftheme_154 "> <a lang="en" data-bk="5028.1" target="_blank" href="http://www.amazon.com/Energy-Beginners-Guide-Guides/dp/1851684522" class="yschttl spt fftheme_155 " id="link-1" dirtyhref="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAJZVjAQx.;_ylu=X3oDMTE0djVhNWhzBHNlYwNzcgRwb3MDMQRjb2xvA2lyMgR2dGlkA1ZJUEZSMDVfMQ--/RV=2/RE=1407977899/RO=10/RU=http%3a%2f%2fwww.amazon.com%2fEnergy-Beginners-Guide-Guides%2fdp%2f1851684522/RK=0/RS=cD5fi.U.3pie5oO5ox_2CeUJrg4-"> Energy: A Beginner's Guide <wbr class=" fftheme_156  xmoztheme " /> (Beginner's Guides): Vaclav Smil <wbr class=" fftheme_157  xmoztheme " /> ... </a> </h3> 
+           </div> 
+           <span dir="ltr" class="url fftheme_158 "> www. <b class=" fftheme_159 "> amazon.com </b> /Energy-Beginners-Guide- <wbr class=" fftheme_160  xmoztheme " /> Guides/dp/1851684522 </span> &nbsp;&nbsp;&nbsp; 
+           <a class="sub fftheme_161 " target="_blank" aria-describedby="link-1" data-bk="5029.1" href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAJpVjAQx./RV=2/RE=1407977899/RO=10/RU=http%3a%2f%2f212.82.99.176%2fsearch%2fsrpcache%3fei%3dUTF-8%26p%3dsite%253Aamazon.com%2b9781851684526%26fr%3dyfp-t-401%26fp%3d1%26u%3dhttp%3a%2f%2fcc.bingj.com%2fcache.aspx%3fq%3d%2b9781851684526%2b%28site%253aamazon.com%29%26d%3d4996315287388695%26mkt%3dfr-FR%26setlang%3dfr-FR%26w%3dM8VhXidLDJPgD45ZoyWo7IJYIXsS7tjp%26icp%3d1%26.intl%3dfr%26sig%3d3ZO0UVv4V7UnEfFR2ULI7g--/RK=0/RS=0pqMO.sCBoyQRjsKMqgLFLHS3dA-"> En cache </a> 
+           <div lang="en" class="abstr fftheme_162 ">
+             Energy: A Beginner's Guide (Beginner's Guides) [Vaclav Smil] on 
+            <b class=" fftheme_163 "> Amazon.com </b> . *FREE* shipping on qualifying offers. In this user-friendly and informative book ... 
+           </div> 
+          </div> </li> 
+        </ol> 
+       </div> 
+      </div> 
+      <!-- end section main --> 
+      <h2 class="off-left fftheme_164  xmoztheme "> Plus de r&eacute;sultats </h2> 
+      <div data-bk="104.1" data-bns="Yahoo" id="pg" class=" fftheme_165 "> 
+       <span class=" fftheme_166 "> 1 r&eacute;sultat </span> 
+      </div> 
+     </div> 
+     <!-- end section left --> 
+     <!-- section right--> 
+     <div id="right" class=" fftheme_167  xmoztheme "> 
+     </div> 
+     <!-- end section right --> 
+    </div> 
+   </div> 
+   <!-- end section results --> 
+   <div data-bk="105.1" data-bns="Yahoo" class="bdc fftheme_168 "> 
+    <div class="sbx fftheme_169 "> 
+     <form accept-charset="utf-8" action="https://fr.search.yahoo.com/search;_ylt=A9mSs3cqmetTtDYAJ5VjAQx." role="search" id="sB" name="sB" method="get" class=" fftheme_170 "> 
+      <label class="off-left fftheme_171  xmoztheme " for="yschsp-bot"> Mot-cl&eacute; </label> 
+      <div class="sbq-w fftheme_172 " id="sbq-wrap-bot"> 
+       <input type="text" autocomplete="off" value="site:amazon.com 9781851684526" name="p" id="yschsp-bot" class="sbq fftheme_173 " /> 
+      </div> 
+      <button class="sbq-x fftheme_174 " type="button" id="sbq-clear-bot"> <span class="sprite fftheme_175  xmoztheme "> </span> </button> 
+      <input type="submit" value="Rechercher" class="sbb fftheme_176 " /> 
+      <input type="hidden" value="sb-bot" name="fr2" class=" fftheme_177  xmoztheme " /> 
+      <input type="hidden" value="yfp-t-401" name="fr" class=" fftheme_178  xmoztheme " /> 
+     </form> 
+    </div> 
+    <div data-bk="9.1" data-bns="Yahoo" role="contentinfo" id="ft" class=" fftheme_179 "> 
+     <ul class=" fftheme_180 "> 
+      <li class="copyright fftheme_181 "> Yahoo </li> 
+      <li class=" fftheme_182 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAKJVjAQx./RV=2/RE=1407977899/RO=10/RU=http%3a%2f%2feur.help.yahoo.com%2fhelp%2ffr%2fysearch%2f/RK=0/RS=fQm8b8fjTUNSuKpEXTg6eMwAK9U-" class=" fftheme_183 "> Aide </a> </li> 
+      <li class=" fftheme_184 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAKZVjAQx./RV=2/RE=1407977899/RO=10/RU=http%3a%2f%2finfo.yahoo.com%2fprivacy%2ffr%2fyahoo%2fsearch%2fdetails.html/RK=0/RS=x1A4PXhyfjrQUPJBJ08O8ESozfY-" class=" fftheme_185 "> Confidentialit&eacute; </a> </li> 
+      <li class=" fftheme_186 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAKpVjAQx./RV=2/RE=1407977899/RO=10/RU=http%3a%2f%2finfo.yahoo.com%2flegal%2ffr%2fyahoo%2ftos.html/RK=0/RS=yW1QyvzqVkDmukLH4f114.MPDbU-" class=" fftheme_187 "> CGU </a> </li> 
+      <li class=" fftheme_188 "> <a href="http://r.search.yahoo.com/_ylt=A9mSs3cqmetTtDYAK5VjAQx./RV=2/RE=1407977899/RO=10/RU=http%3a%2f%2ffr.advertising.yahoo.com%2f/RK=0/RS=5QZvChxWSmQo0_IHg9eQlDC6fdg-" class=" fftheme_189 "> Publicit&eacute; </a> </li> 
+      <li class="pbb fftheme_190 "> Powered by Bing™ </li> 
+     </ul> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <script src="https://s.yimg.com/qb/js/rto1_79.js" type="text/javascript" class=" fftheme_191  xmoztheme ">
+    </script> 
+ <script class=" fftheme_192  xmoztheme ">
+//<![CDATA[
+var rt_page="2114716003:P050";if ("function" == typeof(rt_AddVar)){rt_AddVar("ys",escape("98.139.126.20"));}
+//]]>
+    </script> 
+ <noscript class=" fftheme_193  xmoztheme ">
+   &lt;img src=&quot;http://rtb.pclick.yahoo.com/images/nojs.gif?p=2114716003:P050&quot;&gt; 
+ </noscript> 
+ <!-- 5% RTB http://clicks.beap.bc.yahoo.com/yc/YnY9MS4wLjAmYnM9KDE3N3Q0NXA0YihnaWQkbDRhWmJ6SXhNaTZJWVFfdVUudVpIQXJUT1RRdU1sUHJtU3JfODhEbyxzdCQxNDA3OTQ5MDk4OTkwODU0LHNpJDMyMDQwMzIsc3AkMjExNDcxNjAwMyxjciQyMzI2NTI3NTMyLHYkMi4wLGFpZCR6QkNZSUFySUV1VS0sY3QkMjUseWJ4JFoyNnNWZTFjV18uYTJMMFRVU0NCLmcsYmkkMTIzNDMzMDMyLG1tZSQyMjY5NzIwNzAyNTcxMTMzMDkxLHIkMCx5b28kMSxhZ3AkMTM2NDE2MDMyLGFwJEZPT1Q5KSk/1/* --> 
+ <!--QYZ 123433032,2326527532,10.200.18.116;;FOOT9;2114716003;1;--> 
+ <script class=" fftheme_194  xmoztheme ">
+//<![CDATA[
+if(typeof rt_AddVar==="function"){rt_AddVar("ks2", "yfp-t-401");}
+//]]>
+    </script> 
+ <script class=" fftheme_195  xmoztheme ">
+//<![CDATA[
+YUI_config={"spaceid":"2114716003","pvid":"l4aZbzIxMi6IYQ_uU.uZHArTOTQuMlPrmSr_88Do","beacon":"https:\/\/geo.yahoo.com\/t","testid":"VIPFR05","geo":{"lat":50.688438415527,"lon":3.1812500953674,"woeid":620090},"mtestid":"ASST=QIFR004\u0026UI01=VIPFR05","fetchCSS":true};(function(){var e=window.location,d,b;function c(f){return decodeURIComponent(f.replace(/\+/g," "))}function a(j){var h=j.match(/([^\?#&amp;]+)=([^#&amp;]*)/g)||[],l={},g,f,k;for(g=0,f=h.length;g&lt;f;++g){k=h[g].split("=");l[c(k[0])]=c(k[1])}return l}if(window.navigator&amp;&amp;window.navigator.userAgent.match(/Gecko\//)){d=/#.*$/.exec(e.href);d=d&amp;&amp;d[0]?d[0]:""}else{d=e.hash}b=a(d);if(b.sd){document.getElementById("yschsp").value=b.sd}else{if(b._sd){document.getElementById("yschsp").value=""}}})();(function(){YUI={Env:{mods:{},add:function(n,m,l,d){if(n&amp;&amp;n.addEventListener){n.addEventListener(m,l,d)}else{if(n&amp;&amp;n.attachEvent){n.attachEvent("on"+m,l)}}},remove:function(o,n,m,d){if(o&amp;&amp;o.removeEventListener){try{o.removeEventListener(n,m,d)}catch(l){}}else{if(o&amp;&amp;o.detachEvent){o.detachEvent("on"+n,m)}}}},add:function(l,n,d,m){YUI.Env.mods[l]={name:l,fn:n,version:d,details:m||{}}}};Y={_pending:[],use:function(){Y._pending.push(arguments)},Search:{}};var i=window,g=document,k=YUI.Env.add,f=YUI.Env.remove,b=(function(){var d=[];function l(){setTimeout(function(){var n=0,m=d.length;for(;n&lt;m;n++){d[n]()}f(i,"load",l)},0)}k(i,"load",l);return{add:function(m){d.push(m)}}}()),a=(function(){var d=navigator.userAgent.match(/MSIE\s([^;]*)/);if(d){return parseFloat(d[1])}return 0}());function c(d){return d.replace(/^\s+|\s+$/g,"")}function e(m,d){var l=new RegExp("(\\s|^)"+d+"(\\s|$)");return m.className.match(l)}function j(m,d){var l=new RegExp("(\\s|^)"+d+"(\\s|$)");m.className=c(m.className.replace(l," "))}function h(l){var d=g.getElementById(l);if(d){d.reset()}}Y.Search.Loader=(function(){var l=[],m=false;function o(q,p){var s=g.createElement(q),r,t;for(r in p){if(p.hasOwnProperty(r)){t=p[r];s.setAttribute(r,t)}}return s}function d(){var r=0,p=l.length,s,t,q=g.getElementsByTagName("head")[0];for(;r&lt;p;r++){s=l[r];if(s.type==="css"){t=o("link",{href:s.url,rel:"stylesheet",type:"text/css"})}else{if(s.type==="js"){t=o("script",{src:s.url})}else{continue}}q.appendChild(t)}m=true;l=[]}function n(){var r=arguments[0],s=Array.prototype.slice.call(arguments,1),q=0,p=s.length;for(;q&lt;p;q++){l.push({type:r,url:s[q]})}if(m){d()}}b.add(d);return{js:function(){var p=Array.prototype.slice.call(arguments);n.apply(null,["js"].concat(p))},css:function(){var p=Array.prototype.slice.call(arguments);n.apply(null,["css"].concat(p))}}}());(function(){var o=0;function n(){if(--o===0&amp;&amp;typeof rt_AddTime==="function"){rt_AddTime("t2")}if(o===0&amp;&amp;typeof T!=="undefined"){T.stamp("img")}}function l(){var v=this,u=v.parentNode.parentNode,q,s,r,t,p;n();if(v.getAttribute("allowResize")==="true"||e(v,"sm-thumb")){j(u,"sm-hide");if(a&amp;&amp;e(u,"sm-media")){q=u.offsetWidth;s=u.offsetHeight;r=v.width;t=v.height;p=Math.max(r/q,t/s);if(p&amp;&amp;r&amp;&amp;t){v.style.width=(r/p)+"px";v.style.height=(t/p)+"px"}}}}function m(){n();this.style.display="none"}function d(){var p=g.images,q=p.length,r,s;while(q--){r=p[q];if(window.devicePixelRatio&gt;1&amp;&amp;r.hasAttribute("data-src2")){s=r.getAttribute("data-src2")}else{s=r.getAttribute("data-src")||r.getAttribute("__src")||r.getAttribute("_src")}if(s){o++;r.onload=l;r.onerror=m;r.setAttribute("src",s);r.removeAttribute("data-src2");r.removeAttribute("data-src");r.removeAttribute("__src");r.removeAttribute("_src");j(r,"hidden")}}}b.add(d)}());b.add(function(){var l=g.getElementById("yschsp"),d=/(^|\s)sd(\s|$)/;if(l&amp;&amp;d.test(l.parentNode.className)){return}if(a&amp;&amp;(!l||!l.getAttribute("dirty"))){h("sf");h("sB")}});(function(){var q=g.getElementById("web"),l=g.getElementById("srp"),m=(q)?q.getElementsByTagName("a"):[],m=(l)?l.getElementsByTagName("a"):m,s=/(?:^|\s+)yschttl(?:\s+|$)/,o=m.length,n,r=(function(){if(a&amp;&amp;a&lt;7){return function(w,u){var v=new RegExp("^&lt;a.*\\s"+u+'="([^"]*)"',"i"),t=v.exec(w.outerHTML);return t?t[1]:null}}else{return function(u,t){return u.getAttribute(t)}}}());function p(u){var x=u||i.event,v=x.target||x.srcElement,w;while(v){if(v.tagName&amp;&amp;v.tagName.toLowerCase()==="a"&amp;&amp;v.getAttribute("dirtyhref")){w=r(v,"dirtyhref");if(w){v.setAttribute("href",w)}break}v=v.parentNode}}k(g,"mousedown",p);k(g,"click",p);function d(w){var t,y,x,v,u;t=r(w,"href");if(!t){return}y=r(w,"ourl");if(!y){x=t.match(/\/RU=([^\/]+)\//);if(!x||!x[1]){return}y=decodeURIComponent(x[1])}v=w.cloneNode(true);v.setAttribute("href",y);v.setAttribute("dirtyhref",t);if(a){u=v.innerHTML;t=r(v,"dirtyhref");v.setAttribute("href",t);if(v.innerHTML!==u){return}v.setAttribute("href",y)}w.parentNode.replaceChild(v,w)}while(o--){n=m[o];if(s.test(n.className)){d(n)}}}())}());Y.use("srp",function(){Y.Search.SRP.init({"enable_sidebar_collapse":"","pvid":"l4aZbzIxMi6IYQ_uU.uZHArTOTQuMlPrmSr_88Do","url_img_progress":"https:\/\/s.yimg.com\/pv\/i\/us\/sch\/gr4\/sp-progress2.gif","tts":null},{"aria_loading_results":"Merci de bien vouloir patienter.","aria_results_loaded":"Les r\u00e9sultats de votre recherche sont disponibles. Appuyez sur les touches control, shift et d\u00e9placement vers le bas pour consulter le premier r\u00e9sultat. Appuyez sur les touches control, shift et d\u00e9placement vers le haut pour retourner \u00e0 la bo\u00eete de recherche.","common.expando.playvideo":"Voir vid\u00e9o","common.expando.closevideo":"Fermer","common.results.error":"D\u00e9sol\u00e9, les r\u00e9sultats de recherche ont eu un petit emp\u00eachement... Pouvez-vous r\u00e9essayer ?","common.results.loading":"Chargement des r\u00e9sultats...","srp.title":"%q - R\u00e9sultats de recherche Yahoo France","common.more_dots":"plus...","common.less":"Moins"});});Y.use("srp-bing-beacon",function(){Y.Search.SRP.initBTrack({"cUrl":"https:\/\/ec.yimg.com\/search\/eu\/0\/ec\/fd\/ls\/GlinkPing.aspx?IG=d992b3779786496f9353eb992a83c0e9\u0026CID=9bf19b2cdbd6519880ff711f86da65f3","pUrl":"https:\/\/ec.yimg.com\/search\/eu\/0\/ec\/fd\/ls\/l?IG=d992b3779786496f9353eb992a83c0e9\u0026CID=9bf19b2cdbd6519880ff711f86da65f3\u0026Type=Event.CPT","Attr":["data-bns","data-bk"]});});Y.use("srp-session-tracking", function(){Y.Search.SRP.SessionTracking.init({"beaconUrl":"\/ra\/click","bcrumb":"dAE5zChFcZl","skey":"eQXASoqCWWJsRpXcE91o.g--"});});Y.use('loader','srp-lazy',function(){Y.config=Y.mix(Y.config,{bootstrap:true,combine:true,comboBase:'https://s.yimg.com/zz/combo?',ignore:['skin-sam-tabview'],root:'yui:3.10.0/build/',groups:{a:{combine:true,comboBase:'https://s.yimg.com/zz/combo?',ext:false,root:'pv/',modules:{"srp-universal-header-uh3":{"path":"static\/lib\/srp-universal-header-uh3_201311011448.js","requires":[]}}}}},true,null,0,true);Y.Search.use('srp-universal-header-uh3','node-focusmanager','event','substitute','cookie','event-resize','base','event-hover','event-mouseenter','event-delegate','oop','event-custom','classnamemanager','querystring-stringify','lang/datatype-date','intl',function(){(function(){Y.Search.UniversalHeader.init({"js":"https:\/\/s.yimg.com\/zz\/combo?kx\/yucs\/uh3\/uh\/1067\/js\/uh-min.js\u0026kx\/yucs\/uh3\/uh\/js\/102\/gallery-jsonp-min.js\u0026kx\/yucs\/uh3\/uh\/js\/1021\/menu_utils_v3-min.js\u0026kx\/yucs\/uh3\/uh\/js\/834\/localeDateFormat-min.js\u0026kx\/yucs\/uh3\/uh\/js\/872\/timestamp_library_v2-min.js\u0026kx\/yucs\/uh3\/uh\/js\/829\/logo_debug-min.js\u0026kx\/yucs\/uh_3_0_2\/switch_theme\/4\/js\/switch_theme-min.js\u0026kx\/yucs\/uhc\/meta\/16\/js\/meta-min.js\u0026kx\/yucs\/uh3\/disclaimer\/191\/js\/disclaimer_seed-min.js\u0026kx\/yucs\/uh3\/uh3_top_bar\/js\/274\/top_bar_v3-min.js\u0026kx\/yucs\/uh3\/help\/js\/55\/help_menu_v3-min.js","sprite":"https:\/\/s.yimg.com\/dh\/ap\/ap\/default\/120503\/uh_sprite_2_16.png","menu":[{"link":"https:\/\/fr.search.yahoo.com\/preferences\/preferences?pref_done=https%3A%2F%2Ffr.search.yahoo.com%2Fsearch%3Fei%3DUTF-8%26p%3Dsite%253Aamazon.com%2B9781851684526%26fp%3D1%26fr%3Dyfp-t-401\u0026.bcrumb=dAE5zChFcZl\u0026tmpl=\u0026fr=yfp-t-401","title":"Pr\u00e9f\u00e9rences"},{"link":"https:\/\/fr.search.yahoo.com\/web\/advanced?ei=UTF-8\u0026p=site%3Aamazon.com+9781851684526\u0026fp=1\u0026fr=yfp-t-401","title":"Recherche avanc\u00e9e"},{"link":"https:\/\/fr.search.yahoo.com\/history?pref_done=https%3A%2F%2Ffr.search.yahoo.com%2Fsearch%3Fei%3DUTF-8%26p%3Dsite%253Aamazon.com%2B9781851684526%26fp%3D1\u0026.bcrumb=dAE5zChFcZl","title":"Rechercher l\u00b4historique"}]});}());});});Y.use("vertical-pivots",function(){Y.Search.VerticalPivots.init({"more":"Plus","less":"Moins"});});Y.use("search-assist-client",function(){new Y.SEARCHASSIST.CLIENT({"property":"web","searchBox":"#yschsp","hostNodeToAttach":"#sbq-wrap","maxSuggests":10,"anyKeySearch":false,"enableTrending":true,"autoAlign":false,"cancelButton":true,"tcpPreConnect":false,"quietMode":false,"ariaPlug":true,"stream":false,"webHistory":{"bcrumb":"dAE5zChFcZl","crumb":"T\/vcs4MxObK","highlightHistory":false},"smw":false,"reverseHighlight":true,"subAssist":true,"device":{"tablet":{"skin":"desktop"}},"dataSrc":{"url":"https:\/\/fr.search.yahoo.com\/sugg\/gossip\/gossip-fr-ura\/","supportsEmptyQuery":true},"translation":{"RELATED_TITLE":"Recherches Associ\u00e9es"},"lang":"fr-FR","ult":{"spaceId":"2114716003","csrcpvid":"l4aZbzIxMi6IYQ_uU.uZHArTOTQuMlPrmSr_88Do","vtestid":"VIPFR05","mtestid":"ASST=QIFR004\u0026UI01=VIPFR05"},"extraUltParams":{"fr":"yfp-t-401","n_rslt":1},"yltCustom":"_ylt=A9mSs3cqmetTtDYA95RjAQx.","geo":{"lat":50.688438415527,"lon":3.1812500953674,"woeid":620090},"gossipParams":{"f":1},"https":true});});Y.Search.Loader.js('https://s.yimg.com/pv/static/lib/srp-core-js-purple-1_201406121705.js','https://s.yimg.com/pv/static/lib/srp-core-js-purple-2_201407311331.js');
+//]]>
+    </script> 
+ <div style="position: absolute !important; visibility: hidden !important" id="yui3-css-stamp" class=" fftheme_196  xmoztheme "> 
+ </div> 
+ <div aria-live="polite" class="sa-aria-live-region fftheme_197  xmoztheme " role="status" style="position: absolute; left: -9999px;"> 
+ </div> 
+ <!-- fe24.intl.search.ir2.yahoo.com uncompressed/chunked Wed Aug 13 16:58:18 UTC 2014 -->   
+</body>
