@@ -1,0 +1,757 @@
+<body class="body-jobsearchspa-index Main au fftheme_19 ">
+ <div id="bodyContainer" class=" fftheme_40 ">
+  <div id="Header" class=" fftheme_41 ">
+   <div class="mod-navigation state-horizontal state-sites-nav fftheme_44 ">
+    <div class="l-row fftheme_45 ">
+     <div class="mod-switch pull-right fftheme_46 ">
+      <span class="is-selected fftheme_47 "> AU </span>
+      <a href="http://www.seek.co.nz?cid=sk:main:au:nav:nz" title="SEEK NZ" class=" fftheme_48 "> NZ </a>
+     </div>
+     <div class="grid_6 l-h-centered fftheme_49 ">
+      <ul class="state-subsites-nav fftheme_50 ">
+       <li class="state-jobs active fftheme_51 "><a class="is-active fftheme_52 "> Jobs </a></li>
+       <li class="state-learning fftheme_53 "><a title="SEEK Learning" href="http://www.seeklearning.com.au/?CampaignCode=SEEK_BANNER_29&amp;sc_trk=skj-courses-link" class=" fftheme_54 "> Courses </a></li>
+       <li class="divider fftheme_55 "></li>
+       <li class="state-commercial fftheme_56 "><a title="SEEK Commercial" href="http://www.seekcommercial.com.au/?tracking=sk:main:au:nav:bus" class=" fftheme_57 "> Businesses for sale </a></li>
+       <li class="divider fftheme_58 "></li>
+       <li class="state-volunteer fftheme_59 "><a title="SEEK Volunteer" href="http://volunteer.com.au/?tracking=SKMAU:main+header" class=" fftheme_60 "> Volunteering </a></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   <div class="mod-nav-login l-row fftheme_61   ">
+    <form data-bind="attr: { 'action': 'https://www.seek.com.au/Login/Options' + '?returnUrl=' + escape(getReturnUrl()) }" action="https://www.seek.com.au/Login/Options?returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000" method="POST" id="LoginHeaderForm" class=" fftheme_62   ">
+     <div class="mod-caption fftheme_64 " id="loggedInName">
+      <ul class="mod-login fftheme_65 ">
+       <li class=" fftheme_66 ">
+        <ul class="l-clearfix fftheme_67 ">
+         <li class="l-column grid_2 state-ie-fix-grid fftheme_68 "><input type="text" tooltip="Email" title="Email" placeholder="Email" class="state-inp-sign-in hasPlaceholder fftheme_69 " name="email" id="username" /></li>
+         <li class="l-column grid_2 state-ie-fix-grid fftheme_70 "><input type="password" tooltip="Password" title="Password" placeholder="Password" class="state-inp-sign-in hasPlaceholder fftheme_71 " name="password" id="password" /></li>
+         <li class="l-column mod-multi-button fftheme_72 "><button class="mod-button state-button-alternate state-button-exception fftheme_73 " value="SignIn" data-automation="nav-btn-signin" id="logInButton" type="submit"> Sign in </button></li>
+        </ul></li>
+       <li class=" fftheme_74 ">
+        <ul class="l-clearfix fftheme_75 ">
+         <li class="l-column grid_2 fftheme_76 "><input type="checkbox" value="true" name="RememberMe" id="RememberMe" checked="checked" class=" fftheme_77 " /><label for="RememberMe" class=" fftheme_79 "> Remember me </label></li>
+         <li class="l-column grid_2 fftheme_80 "><a data-lightbox-required="true" data-lightbox-url="https://www.seek.com.au/Login/RestorePassword" href="/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" class=" fftheme_81 "> Trouble signing in? </a></li>
+         <li class="l-column mod-multi-button fftheme_82 "><button data-automation="nav-btn-regSubmit" class="mod-like-a-link fftheme_83 " value="Register" id="RegisterLinkStandalone" type="submit"> or register </button></li>
+        </ul></li>
+      </ul>
+     </div>
+    </form>
+   </div>
+   <div class="mod-banner l-clearfix fftheme_85 ">
+    <div class="l-row fftheme_86   ">
+     <a class="AU-Main mod-logo state-hide-text fftheme_87 " href="http://www.seek.com.au"> SEEK homepage </a>
+    </div>
+   </div>
+   <div class="l-row l-outer-row mod-navigation state-horizontal state-main-nav l-clearfix fftheme_88 ">
+    <div class="l-column grid_10 fftheme_89 ">
+     <ul class=" fftheme_90 ">
+      <li class="active fftheme_91 "><a href="http://www.seek.com.au/?cid=sk:main:au:tab:jobs" data-automation="banner-lnk-jobsearch" class=" fftheme_92 "> Job Search </a></li>
+      <li class=" fftheme_93 "><a href="http://www.seek.com.au/150kjobs?cid=sk:main:au:tab:150k" data-automation="banner-lnk-150kjobs" class=" fftheme_94 "> $150k+ Jobs </a></li>
+      <li class=" fftheme_95 "><a href="https://www.seek.com.au/MyActivity/Profile?cid=sk:main:au:tab:myacct" data-automation="banner-lnk-profile" class=" fftheme_96 "> Profile </a></li>
+      <li class=" fftheme_97 "><a href="https://www.seek.com.au/MyActivity?cid=sk:main:au:tab:myacct" data-automation="banner-lnk-myactivity" class=" fftheme_98 "> My Activity </a></li>
+      <li class=" fftheme_99 "><a href="http://www.seek.com.au/jobs-resources/?cid=sk:main:au:tab:tools" data-automation="banner-lnk-advice" class=" fftheme_100 "> Advice &amp; Tips </a></li>
+     </ul>
+    </div>
+    <div class="l-column grid_2 fftheme_101 ">
+     <div class="mod-tab-advertiser pull-right fftheme_102 ">
+      <a href="http://advertiser.seek.com.au/?cid=sk:main:au:tab:adv" title="Employers sign in or post ads here" class=" fftheme_103 "><i data-icon="" aria-hidden="true" class=" fftheme_104 "></i> Employers <i data-icon="" aria-hidden="true" class=" fftheme_105 "></i></a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="bindingRoot" class=" fftheme_118 ">
+   <div data-bind="visible: true, attr: { 'class': onsiteSearch() ? 'onsite-search grid_7 l-clearfix' : 'grid_12 l-clearfix l-row' }" style="" class="grid_12 l-clearfix l-row fftheme_119 ">
+    <div class="search-results-header fftheme_120 ">
+     <div data-bind="pinkResults: totalNumberOfJobs" class="search-results-count fftheme_121 ">
+      <span data-bind="numericText: totalNumberOfJobs" class="animation fftheme_122 "> 181 </span>
+     </div>
+     <div class="search-results-header-label fftheme_123 ">
+       job  s  matching your search criteria 
+     </div>
+     <div class="mod-callout search-results-header-tools fftheme_124 ">
+      <a data-automation="srp-lnk-favourite" data-lightbox-required="true" data-bind="attr: { href: saveSearchUrl }" id="SaveSearchLink" href="https://www.seek.com.au/SavedSearch/Create?keywords=&amp;page=1&amp;industry=6008&amp;occupation=&amp;location=1002&amp;nation=&amp;areaid=&amp;worktype=242&amp;SearchFrom=advanced&amp;daterange=7&amp;seosuburb=&amp;sortmode=ListedDate&amp;salary=0-150000" class=" fftheme_125 "><i class="serp-icon serp-icon-small-favourite-search fftheme_126 "></i> Favourite this search </a>
+      <a data-automation="srp-lnk-jobmail" data-lightbox-required="true" data-bind="attr: { href: createJobMailUrl }" id="SaveJobMailLink" href="https://www.seek.com.au/JobMail/Create?keywords=&amp;page=1&amp;industry=6008&amp;occupation=&amp;location=1002&amp;nation=&amp;areaid=&amp;worktype=242&amp;SearchFrom=advanced&amp;daterange=7&amp;seosuburb=&amp;sortmode=ListedDate&amp;salary=0-150000" class=" fftheme_127 "><i class="serp-icon serp-icon-email fftheme_128 "></i> Email me jobs like these </a>
+     </div>
+    </div>
+    <section id="active-filters-area" class="active-filters-area fftheme_129 " data-bind="with: activeFiltersArea">
+     <header class=" fftheme_130 ">
+       Active filters: 
+     </header>
+     <ul data-bind="activeFiltersAreaList: activeFilters, foreach: activeFilters" class=" fftheme_131 ">
+      <li data-bind="visible: values(), attr:{title: title}" class=" fftheme_132 " title="All Marketing &amp; Communications" style="width: auto;"><span data-bind="text: $data, attr: { 'class': 'active-filter-' + $parent.name }" class="active-filter-classification fftheme_133 "> All Marketing &amp; Communications </span><button data-bind="click: function () { $parent.clearFilter(name); }" class="active-filters-area-delete serp-icon serp-icon-small-close fftheme_135 "></button></li>
+      <li data-bind="visible: values(), attr:{title: title}" class=" fftheme_136 " title="All Melbourne" style="width: auto;"><span data-bind="text: $data, attr: { 'class': 'active-filter-' + $parent.name }" class="active-filter-location fftheme_137 "> All Melbourne </span><button data-bind="click: function () { $parent.clearFilter(name); }" class="active-filters-area-delete serp-icon serp-icon-small-close fftheme_139 "></button></li>
+      <li data-bind="visible: values(), attr:{title: title}" class=" fftheme_140 " title="Up to $150k per year" style="width: auto;"><span data-bind="text: $data, attr: { 'class': 'active-filter-' + $parent.name }" class="active-filter-salary fftheme_141 "> Up to $150k per year </span><button data-bind="click: function () { $parent.clearFilter(name); }" class="active-filters-area-delete serp-icon serp-icon-small-close fftheme_143 "></button></li>
+      <li data-bind="visible: values(), attr:{title: title}" class=" fftheme_144 " title="Full Time" style="width: auto;"><span data-bind="text: $data, attr: { 'class': 'active-filter-' + $parent.name }" class="active-filter-workTypes fftheme_145 "> Full Time </span><button data-bind="click: function () { $parent.clearFilter(name); }" class="active-filters-area-delete serp-icon serp-icon-small-close fftheme_147 "></button></li>
+      <li data-bind="visible: values(), attr:{title: title}" class=" fftheme_148 " title="Last 7 Days" style="width: auto;"><span data-bind="text: $data, attr: { 'class': 'active-filter-' + $parent.name }" class="active-filter-dateRange fftheme_149 "> Last 7 Days </span><button data-bind="click: function () { $parent.clearFilter(name); }" class="active-filters-area-delete serp-icon serp-icon-small-close fftheme_151 "></button></li>
+     </ul>
+     <a data-bind="click: clearAllFilters" class="clear-all-button fftheme_152 "> Clear all </a>
+    </section>
+    <div class="filter-panel-wrapper fftheme_153 ">
+     <ul data-bind="with: filterPanel, filterPanel: $data, fixedOnScroll: { enabled: false, fixedAfter: '#active-filters-area', topOffset: 15}" class="mod-iconmenu fftheme_154 ">
+      <li data-bind="filterPanelItem: $data" class="mod-iconmenu-item fftheme_155 ">
+       <div class="mod-iconmenu-item-button mod-iconmenu-item-icon fftheme_156 ">
+        <i data-bind="css: 'serp-icon-' + icon" class="mod-iconmenu-item-icon-icon serp-icon serp-icon-small-date fftheme_157 "></i>
+        <span data-bind="text: title" class="mod-iconmenu-item-icon-label fftheme_158 "> Date Listed </span>
+       </div></li>
+      <li data-bind="filterPanelItem: $data" class="mod-iconmenu-item fftheme_185 ">
+       <div class="mod-iconmenu-item-button mod-iconmenu-item-icon fftheme_186 ">
+        <i data-bind="css: 'serp-icon-' + icon" class="mod-iconmenu-item-icon-icon serp-icon serp-icon-small-search-alt fftheme_187 "></i>
+        <span data-bind="text: title" class="mod-iconmenu-item-icon-label fftheme_188 "> Keywords </span>
+       </div></li>
+      <li data-bind="filterPanelItem: $data" class="mod-iconmenu-item fftheme_196 ">
+       <div class="mod-iconmenu-item-button mod-iconmenu-item-icon fftheme_197 ">
+        <i data-bind="css: 'serp-icon-' + icon" class="mod-iconmenu-item-icon-icon serp-icon serp-icon-small-location fftheme_198 "></i>
+        <span data-bind="text: title" class="mod-iconmenu-item-icon-label fftheme_199 "> Location </span>
+       </div></li>
+      <li data-bind="filterPanelItem: $data" class="mod-iconmenu-item fftheme_360 ">
+       <div class="mod-iconmenu-item-button mod-iconmenu-item-icon fftheme_361 ">
+        <i data-bind="css: 'serp-icon-' + icon" class="mod-iconmenu-item-icon-icon serp-icon serp-icon-small-classification fftheme_362 "></i>
+        <span data-bind="text: title" class="mod-iconmenu-item-icon-label fftheme_363 "> Classification </span>
+       </div></li>
+      <li data-bind="filterPanelItem: $data" class="mod-iconmenu-item fftheme_597 ">
+       <div class="mod-iconmenu-item-button mod-iconmenu-item-icon fftheme_598 ">
+        <i data-bind="css: 'serp-icon-' + icon" class="mod-iconmenu-item-icon-icon serp-icon serp-icon-small-salary fftheme_599 "></i>
+        <span data-bind="text: title" class="mod-iconmenu-item-icon-label fftheme_600 "> Salary </span>
+       </div></li>
+      <li data-bind="filterPanelItem: $data" class="mod-iconmenu-item fftheme_653 ">
+       <div class="mod-iconmenu-item-button mod-iconmenu-item-icon fftheme_654 ">
+        <i data-bind="css: 'serp-icon-' + icon" class="mod-iconmenu-item-icon-icon serp-icon serp-icon-small-worktype fftheme_655 "></i>
+        <span data-bind="text: title" class="mod-iconmenu-item-icon-label fftheme_656 "> Work Type </span>
+       </div></li>
+      <li class="mod-iconmenu-item fftheme_687 "><button data-bind="click: clearAll" class="mod-iconmenu-item-button mod-iconmenu-item-text fftheme_688 "> Clear all </button></li>
+     </ul>
+    </div>
+    <div data-bind="css: { 'job-listing-wrapper': !onsiteSearch() }" id="job-listing-wrapper" class="job-listing-wrapper fftheme_690 ">
+     <section class="joblisting-sort-options fftheme_691 " data-bind="with: sortOption, visible: jobs.jobsFound()">
+      <select data-bind="foreach: sortOptions, value: selectedSortOption" id="SortMode" class=" fftheme_692 "><option data-bind="text: description, value: sortMode" value="ListedDate" class=" fftheme_693   " selected="selected"> Sort by date </option><option data-bind="text: description, value: sortMode" value="Location" class=" fftheme_694   "> Sort by location </option><option data-bind="text: description, value: sortMode" value="Alphabetical" class=" fftheme_695   "> Sort by job title </option><option data-bind="text: description, value: sortMode" value="Advertiser" class=" fftheme_696   "> Sort by advertiser name </option></select>
+     </section>
+     <section data-automation="search-jobs-listing" data-bind="visible: jobsFound(), style: {display: 'block'}" class="binding-visible fftheme_698 " id="jobsListing" style="display: block;">
+      <div data-bind="template: { 'if': showPremiumJobsAbovePrimary, 'name': templateSelector, 'foreach': premiumJobs }" class="jobs-list jobs-list-premium fftheme_699 ">
+       <article data-bind="attr: {'data-job-id': id}" class="premium experimental-fade experimental-fade-completed fftheme_700 " data-job-id="27163911">
+        <dl class=" fftheme_701 ">
+         <dd class=" fftheme_702 ">
+          <h2 class=" fftheme_703 "><a data-bind="html: name, attr: { href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id }" class="job-title fftheme_704 " href="/job/27163911"> MARKETING MANAGER </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_705 "> Yarra Valley Dairy </em></h2>
+          <ul data-bind="foreach: bulletPoints" class="bullet-points fftheme_706 ">
+           <li data-bind="html: $data" class=" fftheme_707 "> Join a small, professional </li>
+           <li data-bind="html: $data" class=" fftheme_708 "> Be part of an exciting and successful business </li>
+           <li data-bind="html: $data" class=" fftheme_709 "> Work in the beautiful Yarra Valley </li>
+          </ul>
+          <p data-bind="html: shortDescription" class="job-description fftheme_710 "> Our Marketing Manager will be responsible for creating and implementing a strategic marketing plan for both our established brand and our new brand. </p>
+          <div data-bind="text: classificationName" class="classification fftheme_711 ">
+            Marketing &amp; Communications &gt; Management 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_712 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27163911" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_713 "></i> Add to shortlist </a>
+         </dd>
+         <dd data-bind="css: { 'has-logo': logoUrl }" class="has-logo fftheme_714 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_715 "> Featured Job </span>
+          <span data-bind="text: locationName" class="location fftheme_717 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_718 "><i class="ico ico-14 ico-subarrow fftheme_719 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_720 "> Eastern Suburbs </span></span>
+         </dd>
+        </dl>
+        <div data-bind="style: { backgroundImage: 'url(/logos/Jobseeker/Thumbnail/' + logoUrl + ')' }" class="standout-logo fftheme_721 " style="background-image: url(&quot;/logos/Jobseeker/Thumbnail/348949.jpg&quot;);"></div>
+       </article>
+       <article data-bind="attr: {'data-job-id': id}" class="premium experimental-fade experimental-fade-completed fftheme_722 " data-job-id="27163654">
+        <dl class=" fftheme_723 ">
+         <dd class=" fftheme_724 ">
+          <h2 class=" fftheme_725 "><a data-bind="html: name, attr: { href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id }" class="job-title fftheme_726 " href="/job/27163654"> Data Analyst | Brand and Consumer Research </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_727 "> Latitude Insights </em></h2>
+          <ul data-bind="foreach: bulletPoints" class="bullet-points fftheme_728 ">
+           <li data-bind="html: $data" class=" fftheme_729 "> Join a small team of creative, innovative &amp; talented researchers! </li>
+           <li data-bind="html: $data" class=" fftheme_730 "> Enjoy problem solving, being challenged and looking for an opportunity to grow? </li>
+           <li data-bind="html: $data" class=" fftheme_731 "> Excited about number crunching and data analysis? </li>
+          </ul>
+          <p data-bind="html: shortDescription" class="job-description fftheme_732 "> Data analyst supporting day-to-day delivery of data requirements, including running tables, statistical analysis and charting. Would suit a graduate. </p>
+          <div data-bind="text: classificationName" class="classification fftheme_733 ">
+            Marketing &amp; Communications &gt; Market Research &amp; Analysis 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_734 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27163654" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_735 "></i> Add to shortlist </a>
+         </dd>
+         <dd data-bind="css: { 'has-logo': logoUrl }" class="has-logo fftheme_736 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_737 "> Featured Job </span>
+          <span data-bind="text: locationName" class="location fftheme_739 "> Melbourne </span>
+         </dd>
+        </dl>
+        <div data-bind="style: { backgroundImage: 'url(/logos/Jobseeker/Thumbnail/' + logoUrl + ')' }" class="standout-logo fftheme_741 " style="background-image: url(&quot;/logos/Jobseeker/Thumbnail/482176.jpg&quot;);"></div>
+       </article>
+      </div>
+      <div data-bind="template: { name: templateSelector, foreach: primaryJobs }" class="jobs-list jobs-list-primary fftheme_742 ">
+       <article data-bind="attr: {'data-job-id': id}" class="standout experimental-fade experimental-fade-completed fftheme_743 " data-job-id="27188422">
+        <dl class=" fftheme_744 ">
+         <dd class=" fftheme_745 ">
+          <h2 class=" fftheme_746 "><a data-bind="html: name, attr: { href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id }" class="job-title fftheme_747 " href="/job/27188422"> Business Development Manager </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_748 "> Quinn Allan </em></h2>
+          <ul data-bind="foreach: bulletPoints" class="bullet-points fftheme_749 ">
+           <li data-bind="html: $data" class=" fftheme_750 "> Leading Progressive Professional Services Firm </li>
+           <li data-bind="html: $data" class=" fftheme_751 "> Melbourne Based Position with National Mandate </li>
+           <li data-bind="html: $data" class=" fftheme_752 "> Strong Marketing Communications and Business Development Focus </li>
+          </ul>
+          <p data-bind="html: shortDescription" class="job-description fftheme_753 "> Leading organisation seeks an experienced marketing professional to drive development initiatives </p>
+          <div data-bind="text: classificationName" class="classification fftheme_754 ">
+            Marketing &amp; Communications &gt; Marketing Communications 
+          </div>
+          <a data-lightbox-ignore-event="true" data-complete-text="&lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_755 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27188422" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_756 "></i> Add to shortlist </a>
+         </dd>
+         <dd data-bind="css: { 'has-logo': logoUrl }" class="has-logo fftheme_757 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_758 "> 6:25 AM </span>
+          <span data-bind="html: salaryRangeText" class="salary-range fftheme_759 "> circa $140,000 to $150,000 </span>
+          <span data-bind="text: locationName" class="location fftheme_760 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_761 "><i class="ico ico-14 ico-subarrow fftheme_762 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_763 "> CBD &amp; Inner Suburbs </span></span>
+         </dd>
+        </dl>
+        <div data-bind="style: { backgroundImage: 'url(/logos/Jobseeker/Thumbnail/' + logoUrl + ')' }" class="standout-logo fftheme_765 " style="background-image: url(&quot;/logos/Jobseeker/Thumbnail/350296.jpg&quot;);"></div>
+       </article>
+       <article data-bind="attr: {'data-job-id': id}" class="standout experimental-fade experimental-fade-completed fftheme_766 " data-job-id="27188087">
+        <dl class=" fftheme_767 ">
+         <dd class=" fftheme_768 ">
+          <h2 class=" fftheme_769 "><a data-bind="html: name, attr: { href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id }" class="job-title fftheme_770 " href="/job/27188087"> Digital Communications Lead </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_771 "> Chandler Macleod Group </em></h2>
+          <ul data-bind="foreach: bulletPoints" class="bullet-points fftheme_772 ">
+           <li data-bind="html: $data" class=" fftheme_773 "> - Permanent opportunity - Melbourne CBD location </li>
+           <li data-bind="html: $data" class=" fftheme_774 "> - Work with a vibrant, fun and innovative team </li>
+           <li data-bind="html: $data" class=" fftheme_775 "> - Genuine ongoing training and development </li>
+          </ul>
+          <p data-bind="html: shortDescription" class="job-description fftheme_776 "> A fantastic opportunity now exists for an experienced Digital Communications Lead to join this well known organisation based in Melbourne CBD. </p>
+          <div data-bind="text: classificationName" class="classification fftheme_777 ">
+            Marketing &amp; Communications &gt; Digital &amp; Search Marketing 
+          </div>
+          <a data-lightbox-ignore-event="true" data-complete-text="&lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_778 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27188087" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_779 "></i> Add to shortlist </a>
+         </dd>
+         <dd data-bind="css: { 'has-logo': logoUrl }" class="has-logo fftheme_780 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_781 "> 5:05 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_783 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_784 "><i class="ico ico-14 ico-subarrow fftheme_785 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_786 "> CBD &amp; Inner Suburbs </span></span>
+         </dd>
+        </dl>
+        <div data-bind="style: { backgroundImage: 'url(/logos/Jobseeker/Thumbnail/' + logoUrl + ')' }" class="standout-logo fftheme_788 " style="background-image: url(&quot;/logos/Jobseeker/Thumbnail/393081.gif&quot;);"></div>
+       </article>
+       <article class="experimental-fade experimental-fade-completed fftheme_789 " data-bind="attr: {'data-job-id': id}" data-job-id="27187880">
+        <dl class=" fftheme_790 ">
+         <dd class=" fftheme_791 ">
+          <h2 class=" fftheme_792 "><a data-bind="html: name, attr: {href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id}" class="job-title fftheme_793 " href="/job/27187880"> Website Coordinator I In-House Role I Leading Retailer </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_794 "> Sinclair Recruitment Pty Ltd </em></h2>
+          <p data-bind="html: shortDescription" class="job-description fftheme_795 "> Opp for a highly motivated Website Coordinator to take this iconic national brand to the next level! Perfect for recent grad. INTERVIEWING IMMEDIATELY </p>
+          <div data-bind="text: classificationName" class="classification fftheme_796 ">
+            Marketing &amp; Communications &gt; Digital &amp; Search Marketing 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_797 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27187880" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_798 "></i> Add to shortlist </a>
+         </dd>
+         <dd class=" fftheme_799 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_800 "> 4:37 AM </span>
+          <span data-bind="html: salaryRangeText" class="salary-range fftheme_801 "> $60-65K Base + Super </span>
+          <span data-bind="text: locationName" class="location fftheme_802 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_803 "><i class="ico ico-14 ico-subarrow fftheme_804 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_805 "> Western Suburbs </span></span>
+         </dd>
+        </dl>
+       </article>
+       <article class="experimental-fade experimental-fade-completed fftheme_807 " data-bind="attr: {'data-job-id': id}" data-job-id="27187796">
+        <dl class=" fftheme_808 ">
+         <dd class=" fftheme_809 ">
+          <h2 class=" fftheme_810 "><a data-bind="html: name, attr: {href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id}" class="job-title fftheme_811 " href="/job/27187796"> E-Commerce Coordinator - Beauty/haircare/FMCG </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_812 "> Mondo Search Pty Ltd </em></h2>
+          <p data-bind="html: shortDescription" class="job-description fftheme_813 "> **Dream Job** Our client a large &amp; very successful beauty &amp; haircare company is seeking an E-Commerce Coord to manage their online store &amp; socialmedia </p>
+          <div data-bind="text: classificationName" class="classification fftheme_814 ">
+            Marketing &amp; Communications &gt; Digital &amp; Search Marketing 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_815 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27187796" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_816 "></i> Add to shortlist </a>
+         </dd>
+         <dd class=" fftheme_817 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_818 "> 4:24 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_820 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_821 "><i class="ico ico-14 ico-subarrow fftheme_822 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_823 "> CBD &amp; Inner Suburbs </span></span>
+         </dd>
+        </dl>
+       </article>
+       <article data-bind="attr: {'data-job-id': id}" class="standout experimental-fade experimental-fade-completed fftheme_825 " data-job-id="27187323">
+        <dl class=" fftheme_826 ">
+         <dd class=" fftheme_827 ">
+          <h2 class=" fftheme_828 "><a data-bind="html: name, attr: { href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id }" class="job-title fftheme_829 " href="/job/27187323"> Tender Coordinator </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_830 "> Wilson </em></h2>
+          <ul data-bind="foreach: bulletPoints" class="bullet-points fftheme_831 ">
+           <li data-bind="html: $data" class=" fftheme_832 "> Dynamic and reputable organisation </li>
+           <li data-bind="html: $data" class=" fftheme_833 "> Potential for growth and development </li>
+           <li data-bind="html: $data" class=" fftheme_834 "> Melbourne CBD based office </li>
+          </ul>
+          <p data-bind="html: shortDescription" class="job-description fftheme_835 "> Our people are crucial to our success and reputation which is why we successfully recruit passionate and dedicated professionals. </p>
+          <div data-bind="text: classificationName" class="classification fftheme_836 ">
+            Marketing &amp; Communications &gt; Other 
+          </div>
+          <a data-lightbox-ignore-event="true" data-complete-text="&lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_837 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27187323" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_838 "></i> Add to shortlist </a>
+         </dd>
+         <dd data-bind="css: { 'has-logo': logoUrl }" class="has-logo fftheme_839 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_840 "> 4:20 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_842 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_843 "><i class="ico ico-14 ico-subarrow fftheme_844 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_845 "> CBD &amp; Inner Suburbs </span></span>
+         </dd>
+        </dl>
+        <div data-bind="style: { backgroundImage: 'url(/logos/Jobseeker/Thumbnail/' + logoUrl + ')' }" class="standout-logo fftheme_847 " style="background-image: url(&quot;/logos/Jobseeker/Thumbnail/63140.jpg&quot;);"></div>
+       </article>
+       <article class="experimental-fade experimental-fade-completed fftheme_848 " data-bind="attr: {'data-job-id': id}" data-job-id="27187445">
+        <dl class=" fftheme_849 ">
+         <dd class=" fftheme_850 ">
+          <h2 class=" fftheme_851 "><a data-bind="html: name, attr: {href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id}" class="job-title fftheme_852 " href="/job/27187445"> Marketing Administrator </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_853 "> Ramvek Pty Ltd </em></h2>
+          <p data-bind="html: shortDescription" class="job-description fftheme_854 "> We are looking for a Marketing administrator to join our dynamic team </p>
+          <div data-bind="text: classificationName" class="classification fftheme_855 ">
+            Marketing &amp; Communications &gt; Marketing Assistants/Coordinators 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_856 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27187445" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_857 "></i> Add to shortlist </a>
+         </dd>
+         <dd class=" fftheme_858 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_859 "> 3:57 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_861 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_862 "><i class="ico ico-14 ico-subarrow fftheme_863 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_864 "> Bayside &amp; South Eastern Suburbs </span></span>
+         </dd>
+        </dl>
+       </article>
+       <article data-bind="attr: {'data-job-id': id}" class="standout experimental-fade experimental-fade-completed fftheme_866 " data-job-id="27187393">
+        <dl class=" fftheme_867 ">
+         <dd class=" fftheme_868 ">
+          <h2 class=" fftheme_869 "><a data-bind="html: name, attr: { href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id }" class="job-title fftheme_870 " href="/job/27187393"> Management Consulting - Distribution &amp; Marketing - Consultant - Senior Manager </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_871 "> Accenture </em></h2>
+          <ul data-bind="foreach: bulletPoints" class="bullet-points fftheme_872 ">
+           <li data-bind="html: $data" class=" fftheme_873 "> Work on industry-defining projects. Develop your career with a global team </li>
+           <li data-bind="html: $data" class=" fftheme_874 "> Make an impact on the future. Join our global Strategy team </li>
+           <li data-bind="html: $data" class=" fftheme_875 "> Excel yourself on our global stage. Exceed your career aspirations. </li>
+          </ul>
+          <p data-bind="html: shortDescription" class="job-description fftheme_876 "> Work on large-scale, industry-defining projects across the globe </p>
+          <div data-bind="text: classificationName" class="classification fftheme_877 ">
+            Marketing &amp; Communications &gt; Digital &amp; Search Marketing 
+          </div>
+          <a data-lightbox-ignore-event="true" data-complete-text="&lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_878 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27187393" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_879 "></i> Add to shortlist </a>
+         </dd>
+         <dd data-bind="css: { 'has-logo': logoUrl }" class="has-logo fftheme_880 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_881 "> 3:50 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_883 "> Melbourne </span>
+         </dd>
+        </dl>
+        <div data-bind="style: { backgroundImage: 'url(/logos/Jobseeker/Thumbnail/' + logoUrl + ')' }" class="standout-logo fftheme_886 " style="background-image: url(&quot;/logos/Jobseeker/Thumbnail/202670.JPG&quot;);"></div>
+       </article>
+       <article data-bind="attr: {'data-job-id': id}" class="standout experimental-fade experimental-fade-completed fftheme_887 " data-job-id="27185638">
+        <dl class=" fftheme_888 ">
+         <dd class=" fftheme_889 ">
+          <h2 class=" fftheme_890 "><a data-bind="html: name, attr: { href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id }" class="job-title fftheme_891 " href="/job/27185638"> Data Quality Manager, Experian Consumer Insights </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_892 "> Experian Asia Pacific Pty </em></h2>
+          <ul data-bind="foreach: bulletPoints" class="bullet-points fftheme_893 ">
+           <li data-bind="html: $data" class=" fftheme_894 "> Global leading organisation, friendly and professional team </li>
+           <li data-bind="html: $data" class=" fftheme_895 "> Consumer Insights “Big Data” software and platform </li>
+           <li data-bind="html: $data" class=" fftheme_896 "> St Kilda road location - work close to home! </li>
+          </ul>
+          <p data-bind="html: shortDescription" class="job-description fftheme_897 "> Manage the team that oversees the quality of data across all Hitwise products. Contribute to both project and operational functions. </p>
+          <div data-bind="text: classificationName" class="classification fftheme_898 ">
+            Marketing &amp; Communications &gt; Market Research &amp; Analysis 
+          </div>
+          <a data-lightbox-ignore-event="true" data-complete-text="&lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_899 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27185638" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_900 "></i> Add to shortlist </a>
+         </dd>
+         <dd data-bind="css: { 'has-logo': logoUrl }" class="has-logo fftheme_901 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_902 "> 3:43 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_904 "> Melbourne </span>
+         </dd>
+        </dl>
+        <div data-bind="style: { backgroundImage: 'url(/logos/Jobseeker/Thumbnail/' + logoUrl + ')' }" class="standout-logo fftheme_907 " style="background-image: url(&quot;/logos/Jobseeker/Thumbnail/77255.gif&quot;);"></div>
+       </article>
+       <article data-bind="attr: {'data-job-id': id}" class="standout experimental-fade experimental-fade-completed fftheme_908 " data-job-id="27186735">
+        <dl class=" fftheme_909 ">
+         <dd class=" fftheme_910 ">
+          <h2 class=" fftheme_911 "><a data-bind="html: name, attr: { href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id }" class="job-title fftheme_912 " href="/job/27186735"> Online Engagement Producer </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_913 "> Xpand Group Pty Ltd </em></h2>
+          <ul data-bind="foreach: bulletPoints" class="bullet-points fftheme_914 ">
+           <li data-bind="html: $data" class=" fftheme_915 "> Career beginning opportunity </li>
+           <li data-bind="html: $data" class=" fftheme_916 "> Put your social media skills to work </li>
+           <li data-bind="html: $data" class=" fftheme_917 "> Sports related content </li>
+          </ul>
+          <p data-bind="html: shortDescription" class="job-description fftheme_918 "> Attention all Social Media Geeks, Gurus and Genies. This is a once in a life time opportunity to combine all your passions into one job. </p>
+          <div data-bind="text: classificationName" class="classification fftheme_919 ">
+            Marketing &amp; Communications &gt; Digital &amp; Search Marketing 
+          </div>
+          <a data-lightbox-ignore-event="true" data-complete-text="&lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_920 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27186735" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_921 "></i> Add to shortlist </a>
+         </dd>
+         <dd data-bind="css: { 'has-logo': logoUrl }" class="has-logo fftheme_922 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_923 "> 3:01 AM </span>
+          <span data-bind="html: salaryRangeText" class="salary-range fftheme_924 "> 70.000 Package </span>
+          <span data-bind="text: locationName" class="location fftheme_925 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_926 "><i class="ico ico-14 ico-subarrow fftheme_927 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_928 "> CBD &amp; Inner Suburbs </span></span>
+         </dd>
+        </dl>
+        <div data-bind="style: { backgroundImage: 'url(/logos/Jobseeker/Thumbnail/' + logoUrl + ')' }" class="standout-logo fftheme_930 " style="background-image: url(&quot;/logos/Jobseeker/Thumbnail/289082.jpg&quot;);"></div>
+       </article>
+       <article class="experimental-fade experimental-fade-completed fftheme_931 " data-bind="attr: {'data-job-id': id}" data-job-id="27186606">
+        <dl class=" fftheme_932 ">
+         <dd class=" fftheme_933 ">
+          <h2 class=" fftheme_934 "><a data-bind="html: name, attr: {href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id}" class="job-title fftheme_935 " href="/job/27186606"> Website Coordinator I In-House Role I Leading Retailer </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_936 "> Sinclair Recruitment Pty Ltd </em></h2>
+          <p data-bind="html: shortDescription" class="job-description fftheme_937 "> Opp for a highly motivated Website Coordinator to take this iconic national brand to the next level! Perfect for recent grad. INTERVIEWING IMMEDIATELY </p>
+          <div data-bind="text: classificationName" class="classification fftheme_938 ">
+            Marketing &amp; Communications &gt; Digital &amp; Search Marketing 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_939 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27186606" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_940 "></i> Add to shortlist </a>
+         </dd>
+         <dd class=" fftheme_941 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_942 "> 2:56 AM </span>
+          <span data-bind="html: salaryRangeText" class="salary-range fftheme_943 "> $60-65K Base + Super </span>
+          <span data-bind="text: locationName" class="location fftheme_944 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_945 "><i class="ico ico-14 ico-subarrow fftheme_946 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_947 "> Western Suburbs </span></span>
+         </dd>
+        </dl>
+       </article>
+       <article class="experimental-fade experimental-fade-completed fftheme_949 " data-bind="attr: {'data-job-id': id}" data-job-id="27186241">
+        <dl class=" fftheme_950 ">
+         <dd class=" fftheme_951 ">
+          <h2 class=" fftheme_952 "><a data-bind="html: name, attr: {href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id}" class="job-title fftheme_953 " href="/job/27186241"> Social Media Manager </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_954 "> Firebrand Talent </em></h2>
+          <p data-bind="html: shortDescription" class="job-description fftheme_955 "> Senior level, strategic social media manager required to join leading business with a digital focused growth phase </p>
+          <div data-bind="text: classificationName" class="classification fftheme_956 ">
+            Marketing &amp; Communications &gt; Digital &amp; Search Marketing 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_957 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27186241" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_958 "></i> Add to shortlist </a>
+         </dd>
+         <dd class=" fftheme_959 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_960 "> 2:27 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_962 "> Melbourne </span>
+         </dd>
+        </dl>
+       </article>
+       <article class="experimental-fade experimental-fade-completed fftheme_965 " data-bind="attr: {'data-job-id': id}" data-job-id="27185858">
+        <dl class=" fftheme_966 ">
+         <dd class=" fftheme_967 ">
+          <h2 class=" fftheme_968 "><a data-bind="html: name, attr: {href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id}" class="job-title fftheme_969 " href="/job/27185858"> Senior Data Analyst -Marketing </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_970 "> Real Time Australia P/L </em></h2>
+          <p data-bind="html: shortDescription" class="job-description fftheme_971 "> Great opportunity to join a leader in the financial service sector. You will manage a small team of 2, focus on marketing analytics on big clients </p>
+          <div data-bind="text: classificationName" class="classification fftheme_972 ">
+            Marketing &amp; Communications &gt; Market Research &amp; Analysis 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_973 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27185858" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_974 "></i> Add to shortlist </a>
+         </dd>
+         <dd class=" fftheme_975 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_976 "> 2:07 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_978 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_979 "><i class="ico ico-14 ico-subarrow fftheme_980 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_981 "> CBD &amp; Inner Suburbs </span></span>
+         </dd>
+        </dl>
+       </article>
+       <article class="experimental-fade experimental-fade-completed fftheme_983 " data-bind="attr: {'data-job-id': id}" data-job-id="27185835">
+        <dl class=" fftheme_984 ">
+         <dd class=" fftheme_985 ">
+          <h2 class=" fftheme_986 "><a data-bind="html: name, attr: {href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id}" class="job-title fftheme_987 " href="/job/27185835"> Marketing Assistant - Internship </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_988 "> Dome Garden Supplies Pty Ltd </em></h2>
+          <p data-bind="html: shortDescription" class="job-description fftheme_989 "> Scouring the nation for a bright, intelligent marketing &amp; brand enthusiast! </p>
+          <div data-bind="text: classificationName" class="classification fftheme_990 ">
+            Marketing &amp; Communications &gt; Marketing Assistants/Coordinators 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_991 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27185835" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_992 "></i> Add to shortlist </a>
+         </dd>
+         <dd class=" fftheme_993 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_994 "> 2:06 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_996 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_997 "><i class="ico ico-14 ico-subarrow fftheme_998 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_999 "> Western Suburbs </span></span>
+         </dd>
+        </dl>
+       </article>
+       <article class="experimental-fade experimental-fade-completed fftheme_1001 " data-bind="attr: {'data-job-id': id}" data-job-id="27185795">
+        <dl class=" fftheme_1002 ">
+         <dd class=" fftheme_1003 ">
+          <h2 class=" fftheme_1004 "><a data-bind="html: name, attr: {href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id}" class="job-title fftheme_1005 " href="/job/27185795"> SEO Manager, Snr Lead Account Manager </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_1006 "> S2M </em></h2>
+          <p data-bind="html: shortDescription" class="job-description fftheme_1007 "> Manage a select portfolio of high spend SEO campaigns, iconic global brands, apply now for Immediate Start </p>
+          <div data-bind="text: classificationName" class="classification fftheme_1008 ">
+            Marketing &amp; Communications &gt; Digital &amp; Search Marketing 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_1009 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27185795" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_1010 "></i> Add to shortlist </a>
+         </dd>
+         <dd class=" fftheme_1011 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_1012 "> 2:03 AM </span>
+          <span data-bind="html: salaryRangeText" class="salary-range fftheme_1013 "> ci $75-85k p+ super </span>
+          <span data-bind="text: locationName" class="location fftheme_1014 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_1015 "><i class="ico ico-14 ico-subarrow fftheme_1016 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_1017 "> CBD &amp; Inner Suburbs </span></span>
+         </dd>
+        </dl>
+       </article>
+       <article data-bind="attr: {'data-job-id': id}" class="standout experimental-fade experimental-fade-completed fftheme_1019 " data-job-id="27185699">
+        <dl class=" fftheme_1020 ">
+         <dd class=" fftheme_1021 ">
+          <h2 class=" fftheme_1022 "><a data-bind="html: name, attr: { href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id }" class="job-title fftheme_1023 " href="/job/27185699"> eCommerce/Digital Manager </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_1024 "> Six Degrees Executive Pty Ltd </em></h2>
+          <ul data-bind="foreach: bulletPoints" class="bullet-points fftheme_1025 ">
+           <li data-bind="html: $data" class=" fftheme_1026 "> Port Melbourne location </li>
+           <li data-bind="html: $data" class=" fftheme_1027 "> Generous salary on offer </li>
+           <li data-bind="html: $data" class=" fftheme_1028 "> Own the ecommerce and digital strategy </li>
+          </ul>
+          <p data-bind="html: shortDescription" class="job-description fftheme_1029 "> Local retail business in a period of extreme growth is looking for a Digital/eCommerce Manager to oversee the strategy and implementation </p>
+          <div data-bind="text: classificationName" class="classification fftheme_1030 ">
+            Marketing &amp; Communications &gt; Digital &amp; Search Marketing 
+          </div>
+          <a data-lightbox-ignore-event="true" data-complete-text="&lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_1031 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27185699" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_1032 "></i> Add to shortlist </a>
+         </dd>
+         <dd data-bind="css: { 'has-logo': logoUrl }" class="has-logo fftheme_1033 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_1034 "> 2:01 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_1036 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_1037 "><i class="ico ico-14 ico-subarrow fftheme_1038 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_1039 "> CBD &amp; Inner Suburbs </span></span>
+         </dd>
+        </dl>
+        <div data-bind="style: { backgroundImage: 'url(/logos/Jobseeker/Thumbnail/' + logoUrl + ')' }" class="standout-logo fftheme_1041 " style="background-image: url(&quot;/logos/Jobseeker/Thumbnail/360027.bmp&quot;);"></div>
+       </article>
+       <article class="experimental-fade experimental-fade-completed fftheme_1042 " data-bind="attr: {'data-job-id': id}" data-job-id="27185632">
+        <dl class=" fftheme_1043 ">
+         <dd class=" fftheme_1044 ">
+          <h2 class=" fftheme_1045 "><a data-bind="html: name, attr: {href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id}" class="job-title fftheme_1046 " href="/job/27185632"> Digital Analytics Specialist </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_1047 "> Firebrand Talent </em></h2>
+          <p data-bind="html: shortDescription" class="job-description fftheme_1048 "> This is a fantastic opportunity for an insights driven Web Analyst who enjoys building customer behaviour profiles </p>
+          <div data-bind="text: classificationName" class="classification fftheme_1049 ">
+            Marketing &amp; Communications &gt; Market Research &amp; Analysis 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_1050 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27185632" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_1051 "></i> Add to shortlist </a>
+         </dd>
+         <dd class=" fftheme_1052 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_1053 "> 1:58 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_1055 "> Melbourne </span>
+         </dd>
+        </dl>
+       </article>
+       <article class="experimental-fade experimental-fade-completed fftheme_1058 " data-bind="attr: {'data-job-id': id}" data-job-id="27185579">
+        <dl class=" fftheme_1059 ">
+         <dd class=" fftheme_1060 ">
+          <h2 class=" fftheme_1061 "><a data-bind="html: name, attr: {href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id}" class="job-title fftheme_1062 " href="/job/27185579"> Junior Marketing Coordinator </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_1063 "> CPM Australia </em></h2>
+          <p data-bind="html: shortDescription" class="job-description fftheme_1064 "> An opportunity to gain world-class experience with a leading name... Allowing new opportunities to follow... </p>
+          <div data-bind="text: classificationName" class="classification fftheme_1065 ">
+            Marketing &amp; Communications &gt; Marketing Assistants/Coordinators 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_1066 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27185579" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_1067 "></i> Add to shortlist </a>
+         </dd>
+         <dd class=" fftheme_1068 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_1069 "> 1:53 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_1071 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_1072 "><i class="ico ico-14 ico-subarrow fftheme_1073 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_1074 "> CBD &amp; Inner Suburbs </span></span>
+         </dd>
+        </dl>
+       </article>
+       <article data-bind="attr: {'data-job-id': id}" class="standout experimental-fade experimental-fade-completed fftheme_1076 " data-job-id="27185284">
+        <dl class=" fftheme_1077 ">
+         <dd class=" fftheme_1078 ">
+          <h2 class=" fftheme_1079 "><a data-bind="html: name, attr: { href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id }" class="job-title fftheme_1080 " href="/job/27185284"> Business Development Executive, career with a global leading consultancy firm </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_1081 "> Michael Page Marketing </em></h2>
+          <ul data-bind="foreach: bulletPoints" class="bullet-points fftheme_1082 ">
+           <li data-bind="html: $data" class=" fftheme_1083 "> Lucrative earning potential </li>
+           <li data-bind="html: $data" class=" fftheme_1084 "> Accelerated career progression for ambitious individuals </li>
+          </ul>
+          <p data-bind="html: shortDescription" class="job-description fftheme_1085 "> As a leading global recruitment consultancy, we are looking for a professional interested in a fast-paced role with lucrative earning potential. </p>
+          <div data-bind="text: classificationName" class="classification fftheme_1086 ">
+            Marketing &amp; Communications &gt; Management 
+          </div>
+          <a data-lightbox-ignore-event="true" data-complete-text="&lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_1087 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27185284" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_1088 "></i> Add to shortlist </a>
+         </dd>
+         <dd data-bind="css: { 'has-logo': logoUrl }" class="has-logo fftheme_1089 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_1090 "> 1:27 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_1092 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_1093 "><i class="ico ico-14 ico-subarrow fftheme_1094 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_1095 "> CBD &amp; Inner Suburbs </span></span>
+         </dd>
+        </dl>
+        <div data-bind="style: { backgroundImage: 'url(/logos/Jobseeker/Thumbnail/' + logoUrl + ')' }" class="standout-logo fftheme_1097 " style="background-image: url(&quot;/logos/Jobseeker/Thumbnail/385498.jpg&quot;);"></div>
+       </article>
+       <article class="experimental-fade experimental-fade-completed fftheme_1098 " data-bind="attr: {'data-job-id': id}" data-job-id="27185016">
+        <dl class=" fftheme_1099 ">
+         <dd class=" fftheme_1100 ">
+          <h2 class=" fftheme_1101 "><a data-bind="html: name, attr: {href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id}" class="job-title fftheme_1102 " href="/job/27185016"> Project Manager </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_1103 "> The Social Research Centre </em></h2>
+          <p data-bind="html: shortDescription" class="job-description fftheme_1104 "> Growing social research organisation looking for a talented project manager to join our friendly team. Must have market or social research experience </p>
+          <div data-bind="text: classificationName" class="classification fftheme_1105 ">
+            Marketing &amp; Communications &gt; Market Research &amp; Analysis 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_1106 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27185016" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_1107 "></i> Add to shortlist </a>
+         </dd>
+         <dd class=" fftheme_1108 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_1109 "> 1:12 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_1111 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_1112 "><i class="ico ico-14 ico-subarrow fftheme_1113 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_1114 "> CBD &amp; Inner Suburbs </span></span>
+         </dd>
+        </dl>
+       </article>
+       <article class="experimental-fade experimental-fade-completed fftheme_1116 " data-bind="attr: {'data-job-id': id}" data-job-id="27185001">
+        <dl class=" fftheme_1117 ">
+         <dd class=" fftheme_1118 ">
+          <h2 class=" fftheme_1119 "><a data-bind="html: name, attr: {href: SEEK.searchResultsPage.jobDetailsActionUrl + '/' + id}" class="job-title fftheme_1120 " href="/job/27185001"> Statistician Predictive Modeler Consultant Opportunity </a><em data-bind="text: advertiserName" class="advertiser-name fftheme_1121 "> Lloyd Harrington Australia </em></h2>
+          <p data-bind="html: shortDescription" class="job-description fftheme_1122 "> Statistician Predictive Modelers This is career making role for the career minded professional find out more read on </p>
+          <div data-bind="text: classificationName" class="classification fftheme_1123 ">
+            Marketing &amp; Communications &gt; Market Research &amp; Analysis 
+          </div>
+          <a data-complete-text="
+                &lt;i class='ico ico-18 ico-shortlisted'&gt;&lt;/i&gt;&nbsp;Shortlisted" data-lightbox-ignore-event="true" data-auth-required="true" data-bind="attr: { 'data-jobid': id, 'data-auth-url': 'https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults' + '&amp;returnUrl=' + escape($parent.navUtil.getReturnUrl()), 'href': $parent.navUtil.getReturnUrl()  }, click: $parent.toggleShortlistedJob" class="shortlist is-shortlist-button fftheme_1124 " href="http://www.seek.com.au/JobSearch?DateRange=7&amp;SearchFrom=advanced&amp;Keywords=&amp;location=1002&amp;industry=6008&amp;worktype=242&amp;salary=-150000" data-jobid="27185001" data-auth-url="https://www.seek.com.au/Login/SignIn?feature=SaveJobs&amp;trigger=SearchResults&amp;returnUrl=http%3A//www.seek.com.au/JobSearch%3FDateRange%3D7%26SearchFrom%3Dadvanced%26Keywords%3D%26location%3D1002%26industry%3D6008%26worktype%3D242%26salary%3D-150000"><i class="ico ico-18 ico-shortlist fftheme_1125 "></i> Add to shortlist </a>
+         </dd>
+         <dd class=" fftheme_1126 ">
+          <span data-bind="text: publishedText()" class="listing-date fftheme_1127 "> 1:11 AM </span>
+          <span data-bind="text: locationName" class="location fftheme_1129 "> Melbourne </span>
+          <span data-bind="if: sublocationName" class=" fftheme_1130 "><i class="ico ico-14 ico-subarrow fftheme_1131 "></i><span data-bind="text: sublocationName" class="sublocation fftheme_1132 "> CBD &amp; Inner Suburbs </span></span>
+         </dd>
+        </dl>
+       </article>
+      </div>
+     </section>
+     <section data-bind="css: { hide: !jobs.jobsFound() }" class=" fftheme_1153 ">
+      <div class="jors-search-results fftheme_1154 ">
+       <div class="survey-relevancy firstQuestions fftheme_1155 " style="display: block;">
+        <h2 class=" fftheme_1156 "> We were just wondering... </h2>
+        <p class=" fftheme_1157 "> Are you confident you can find all the relevant jobs that are on SEEK? </p>
+        <a data-omniture="SS:Range=Yes" class="answer-yes fftheme_1158 " title="yes"><span class="ico ico-26 ico-answer-yes fftheme_1159 "></span> Yes </a>
+        <a data-omniture="SS:Range=KindOf" class="answer-kind-of fftheme_1160 " title="kind of"><span class="ico ico-26 ico-answer-kind-of fftheme_1161 "></span> Kind of </a>
+        <a data-omniture="SS:Range=NotReally" class="answer-not-really fftheme_1162 " title="not really"><span class="ico ico-26 ico-answer-not-really fftheme_1163 "></span> Not really </a>
+        <a data-omniture="SS:Range=No" class="answer-no fftheme_1164 " title="no"><span class="ico ico-26 ico-answer-no fftheme_1165 "></span> No </a>
+       </div>
+      </div>
+     </section>
+     <div data-bind="with: learning, style: {display: 'block'}" class="mod-lmis l-clearfix state-jobsearch-lmis binding-visible fftheme_1197 " style="display: block;">
+      <div class="mod-lmis-header fftheme_1198 ">
+       <em class=" fftheme_1199 "> Courses from SEEK Learning </em>
+      </div>
+      <div class="l-clearfix fftheme_1200 ">
+       <ul class="state-lmis-options fftheme_1201 ">
+        <li data-bind="with: courseOne()" class=" fftheme_1202 "><i class="ico state-lmis-arrow fftheme_1203 "></i><a target="_blank" title="View course on SEEK Learning" data-bind="html: description, attr: {href: link + $parent.campaignTrackingCode}" href="http://www.seeklearning.com.au/marketing-communications-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1204 "> Marketing &amp; Communication courses </a></li>
+        <li data-bind="with: courseTwo()" class=" fftheme_1205 "><i class="ico state-lmis-arrow fftheme_1206 "></i><a target="_blank" title="View course on SEEK Learning" data-bind="html: description, attr: { href: link + $parent.campaignTrackingCode }" href="http://www.seeklearning.com.au/swinburne-online-courses/bachelor-business-marketing?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1207 "> Bachelor of Business (Marketing) </a></li>
+       </ul>
+       <ul class="state-lmis-options fftheme_1208 ">
+        <li data-bind="with: courseThree()" class=" fftheme_1209 "><i class="ico state-lmis-arrow fftheme_1210 "></i><a target="_blank" title="View course on SEEK Learning" data-bind="html: description, attr: { href: link + $parent.campaignTrackingCode }" href="http://www.seeklearning.com.au/marketing-courses/marketing-degree?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1211 "> Bachelor of Business (Marketing) </a></li>
+        <li data-bind="with: courseFour()" class=" fftheme_1212 "><i class="ico state-lmis-arrow fftheme_1213 "></i><a target="_blank" title="View course on SEEK Learning" data-bind="html: description, attr: { href: link + $parent.campaignTrackingCode }" href="http://www.seeklearning.com.au/swinburne-online-courses/bachelor-business-pr?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1214 "> Bachelor of Business (Public Relations) </a></li>
+       </ul>
+       <ul data-bind="attr: { 'class': coursesFound() ? 'state-lmis-generic-options top-border' : 'state-lmis-generic-options' }" class="state-lmis-generic-options top-border fftheme_1215 ">
+        <li class=" fftheme_1216 "> Choose <strong class=" fftheme_1217 "><a target="_blank" href="http://www.seeklearning.com.au/tafe-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1218 "> TAFE </a></strong> , <strong class=" fftheme_1219 "><a target="_blank" href="http://www.seeklearning.com.au/university-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1220 "> university </a></strong> or <strong class=" fftheme_1221 "><a target="_blank" href="http://www.seeklearning.com.au/online-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1222 "> online </a></strong> courses </li>
+        <li class=" fftheme_1223 "><select data-bind="value: selectedCourseUrl" id="SelectedCourse" class=" fftheme_1224 "><option selected="selected" value="#" class=" fftheme_1225   "> Choose an industry </option><option value="http://www.seeklearning.com.au/administration-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1226   "> Administration </option><option value="http://www.seeklearning.com.au/arts-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1227   "> Arts </option><option value="http://www.seeklearning.com.au/beauty-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1228   "> Beauty </option><option value="http://www.seeklearning.com.au/building-and-construction-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1229   "> Building &amp; Construction </option><option value="http://www.seeklearning.com.au/business-and-accounting-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1230   "> Business &amp; Accounting </option><option value="http://www.seeklearning.com.au/child-care-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1231   "> Child Care </option><option value="http://www.seeklearning.com.au/design-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1232   "> Design </option><option value="http://www.seeklearning.com.au/education-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1233   "> Education </option><option value="http://www.seeklearning.com.au/engineering-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1234   "> Engineering </option><option value="http://www.seeklearning.com.au/health-nutrition-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1235   "> Health &amp; Nutrition </option><option value="http://www.seeklearning.com.au/hospitality-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1236   "> Hospitality </option><option value="http://www.seeklearning.com.au/human-resources-hr-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1237   "> Human Resources (HR) </option><option value="http://www.seeklearning.com.au/it-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1238   "> Information Technology </option><option value="http://www.seeklearning.com.au/legal-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1239   "> Legal </option><option value="http://www.seeklearning.com.au/marketing-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1240   "> Marketing </option><option value="http://www.seeklearning.com.au/music-film-television-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1241   "> Music, Film &amp; Television </option><option value="http://www.seeklearning.com.au/occupational-health-and-safety-ohs-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1242   "> OH&amp;S </option><option value="http://www.seeklearning.com.au/project-management-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1243   "> Project Management </option><option value="http://www.seeklearning.com.au/psychology-and-counselling-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1244   "> Psychology &amp; Counselling </option><option value="http://www.seeklearning.com.au/real-estate-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1245   "> Real Estate </option><option value="http://www.seeklearning.com.au/social-services-courses?CampaignCode=lrn:skj:sklm:jbs:btm" class=" fftheme_1246   "> Social Services </option><option value="http://www.seeklearning.com.au/travel-courses?CampaignCode=lrn:skj:sklm:jbs:btm&lt;%= campaignCode %&gt;" class=" fftheme_1247   "> Travel </option></select><a class="mod-button state-button-lmis fftheme_1248 " data-bind="click: function () { navigateToCourse(); return false; }" id="sklGo" href="#"> GO </a></li>
+       </ul>
+      </div>
+     </div>
+     <div data-bind="with: pagination, style: {display: 'block'}" class="mod-pagination binding-visible fftheme_1249 " style="display: block;">
+      <dl data-bind="if: currentPage() &amp;&amp; visible(), paging: currentPage" class="mod-pagination l-clearfix fftheme_1250 ">
+       <dd class="previous-page fftheme_1251 ">
+        <a data-bind="attr: { 'href': enablePrevious() ? constructPaginationLink(previousPage()) : null, 'data-page': enablePrevious() ? '' + previousPage() : null }" class=" fftheme_1252 "><span class="mod-arrow state-arrow-left fftheme_1253 "></span> Previous </a>
+       </dd>
+       <dd data-bind="css: {'current-page': $parent.currentPage() == $data }" class="current-page fftheme_1254 ">
+        <span data-bind="text: $data" class=" fftheme_1255 "> 1 </span>
+       </dd>
+       <dd data-bind="css: {'current-page': $parent.currentPage() == $data }" class=" fftheme_1256 ">
+        <a data-bind="attr: { 'href': $root.pagination.constructPaginationLink($data), 'data-page': ''+$data }, text: $data" href="#dateRange=7&amp;workType=242&amp;industry=6008&amp;occupation=&amp;graduateSearch=false&amp;salaryFrom=0&amp;salaryTo=150000&amp;salaryType=annual&amp;advertiserID=&amp;advertiserGroup=&amp;keywords=&amp;page=2&amp;displaySuburb=&amp;seoSuburb=&amp;isAreaUnspecified=false&amp;location=1002&amp;area=&amp;nation=&amp;sortMode=ListedDate&amp;searchFrom=advanced&amp;searchType=" data-page="2" class=" fftheme_1257 "> 2 </a>
+       </dd>
+       <dd data-bind="css: {'current-page': $parent.currentPage() == $data }" class=" fftheme_1258 ">
+        <a data-bind="attr: { 'href': $root.pagination.constructPaginationLink($data), 'data-page': ''+$data }, text: $data" href="#dateRange=7&amp;workType=242&amp;industry=6008&amp;occupation=&amp;graduateSearch=false&amp;salaryFrom=0&amp;salaryTo=150000&amp;salaryType=annual&amp;advertiserID=&amp;advertiserGroup=&amp;keywords=&amp;page=3&amp;displaySuburb=&amp;seoSuburb=&amp;isAreaUnspecified=false&amp;location=1002&amp;area=&amp;nation=&amp;sortMode=ListedDate&amp;searchFrom=advanced&amp;searchType=" data-page="3" class=" fftheme_1259 "> 3 </a>
+       </dd>
+       <dd data-bind="css: {'current-page': $parent.currentPage() == $data }" class=" fftheme_1260 ">
+        <a data-bind="attr: { 'href': $root.pagination.constructPaginationLink($data), 'data-page': ''+$data }, text: $data" href="#dateRange=7&amp;workType=242&amp;industry=6008&amp;occupation=&amp;graduateSearch=false&amp;salaryFrom=0&amp;salaryTo=150000&amp;salaryType=annual&amp;advertiserID=&amp;advertiserGroup=&amp;keywords=&amp;page=4&amp;displaySuburb=&amp;seoSuburb=&amp;isAreaUnspecified=false&amp;location=1002&amp;area=&amp;nation=&amp;sortMode=ListedDate&amp;searchFrom=advanced&amp;searchType=" data-page="4" class=" fftheme_1261 "> 4 </a>
+       </dd>
+       <dd data-bind="css: {'current-page': $parent.currentPage() == $data }" class=" fftheme_1262 ">
+        <a data-bind="attr: { 'href': $root.pagination.constructPaginationLink($data), 'data-page': ''+$data }, text: $data" href="#dateRange=7&amp;workType=242&amp;industry=6008&amp;occupation=&amp;graduateSearch=false&amp;salaryFrom=0&amp;salaryTo=150000&amp;salaryType=annual&amp;advertiserID=&amp;advertiserGroup=&amp;keywords=&amp;page=5&amp;displaySuburb=&amp;seoSuburb=&amp;isAreaUnspecified=false&amp;location=1002&amp;area=&amp;nation=&amp;sortMode=ListedDate&amp;searchFrom=advanced&amp;searchType=" data-page="5" class=" fftheme_1263 "> 5 </a>
+       </dd>
+       <dd data-bind="css: {'current-page': $parent.currentPage() == $data }" class=" fftheme_1264 ">
+        <a data-bind="attr: { 'href': $root.pagination.constructPaginationLink($data), 'data-page': ''+$data }, text: $data" href="#dateRange=7&amp;workType=242&amp;industry=6008&amp;occupation=&amp;graduateSearch=false&amp;salaryFrom=0&amp;salaryTo=150000&amp;salaryType=annual&amp;advertiserID=&amp;advertiserGroup=&amp;keywords=&amp;page=6&amp;displaySuburb=&amp;seoSuburb=&amp;isAreaUnspecified=false&amp;location=1002&amp;area=&amp;nation=&amp;sortMode=ListedDate&amp;searchFrom=advanced&amp;searchType=" data-page="6" class=" fftheme_1265 "> 6 </a>
+       </dd>
+       <dd data-bind="css: {'current-page': $parent.currentPage() == $data }" class=" fftheme_1266 ">
+        <a data-bind="attr: { 'href': $root.pagination.constructPaginationLink($data), 'data-page': ''+$data }, text: $data" href="#dateRange=7&amp;workType=242&amp;industry=6008&amp;occupation=&amp;graduateSearch=false&amp;salaryFrom=0&amp;salaryTo=150000&amp;salaryType=annual&amp;advertiserID=&amp;advertiserGroup=&amp;keywords=&amp;page=7&amp;displaySuburb=&amp;seoSuburb=&amp;isAreaUnspecified=false&amp;location=1002&amp;area=&amp;nation=&amp;sortMode=ListedDate&amp;searchFrom=advanced&amp;searchType=" data-page="7" class=" fftheme_1267 "> 7 </a>
+       </dd>
+       <dd data-bind="css: {'current-page': $parent.currentPage() == $data }" class=" fftheme_1268 ">
+        <a data-bind="attr: { 'href': $root.pagination.constructPaginationLink($data), 'data-page': ''+$data }, text: $data" href="#dateRange=7&amp;workType=242&amp;industry=6008&amp;occupation=&amp;graduateSearch=false&amp;salaryFrom=0&amp;salaryTo=150000&amp;salaryType=annual&amp;advertiserID=&amp;advertiserGroup=&amp;keywords=&amp;page=8&amp;displaySuburb=&amp;seoSuburb=&amp;isAreaUnspecified=false&amp;location=1002&amp;area=&amp;nation=&amp;sortMode=ListedDate&amp;searchFrom=advanced&amp;searchType=" data-page="8" class=" fftheme_1269 "> 8 </a>
+       </dd>
+       <dd data-bind="css: {'current-page': $parent.currentPage() == $data }" class=" fftheme_1270 ">
+        <a data-bind="attr: { 'href': $root.pagination.constructPaginationLink($data), 'data-page': ''+$data }, text: $data" href="#dateRange=7&amp;workType=242&amp;industry=6008&amp;occupation=&amp;graduateSearch=false&amp;salaryFrom=0&amp;salaryTo=150000&amp;salaryType=annual&amp;advertiserID=&amp;advertiserGroup=&amp;keywords=&amp;page=9&amp;displaySuburb=&amp;seoSuburb=&amp;isAreaUnspecified=false&amp;location=1002&amp;area=&amp;nation=&amp;sortMode=ListedDate&amp;searchFrom=advanced&amp;searchType=" data-page="9" class=" fftheme_1271 "> 9 </a>
+       </dd>
+       <dd data-bind="css: {'current-page': $parent.currentPage() == $data }" class=" fftheme_1272 ">
+        <a data-bind="attr: { 'href': $root.pagination.constructPaginationLink($data), 'data-page': ''+$data }, text: $data" href="#dateRange=7&amp;workType=242&amp;industry=6008&amp;occupation=&amp;graduateSearch=false&amp;salaryFrom=0&amp;salaryTo=150000&amp;salaryType=annual&amp;advertiserID=&amp;advertiserGroup=&amp;keywords=&amp;page=10&amp;displaySuburb=&amp;seoSuburb=&amp;isAreaUnspecified=false&amp;location=1002&amp;area=&amp;nation=&amp;sortMode=ListedDate&amp;searchFrom=advanced&amp;searchType=" data-page="10" class=" fftheme_1273 "> 10 </a>
+       </dd>
+       <dd class="next-page fftheme_1274 ">
+        <a data-bind="attr: { 'href': enableNext() ? constructPaginationLink(nextPage()) : null, 'data-page': enableNext() ? '' + nextPage() : null }" href="#dateRange=7&amp;workType=242&amp;industry=6008&amp;occupation=&amp;graduateSearch=false&amp;salaryFrom=0&amp;salaryTo=150000&amp;salaryType=annual&amp;advertiserID=&amp;advertiserGroup=&amp;keywords=&amp;page=2&amp;displaySuburb=&amp;seoSuburb=&amp;isAreaUnspecified=false&amp;location=1002&amp;area=&amp;nation=&amp;sortMode=ListedDate&amp;searchFrom=advanced&amp;searchType=" data-page="2" class=" fftheme_1275 "> Next <span class="state-arrow-right mod-arrow fftheme_1276 "></span></a>
+       </dd>
+      </dl>
+     </div>
+    </div>
+    <div class="mod-section l-row mod-leaderboard-banner require-results-inline fftheme_1282 "></div>
+   </div>
+  </div>
+ </div>
+ <div class="state-footer-nav fftheme_1315 ">
+  <div class="l-row fftheme_1316 ">
+   <dl class="l-column grid_3 fftheme_1317 ">
+    <dt class=" fftheme_1318 ">
+      Tools 
+    </dt>
+    <dd class=" fftheme_1319 ">
+     <a data-automation="footer-lnk-editprofile" href="http://www.seek.com.au/MyActivity/Profile" class=" fftheme_1320 "> Profile </a>
+    </dd>
+    <dd class=" fftheme_1321 ">
+     <a data-automation="footer-lnk-myactivity" href="http://www.seek.com.au/myactivity" class=" fftheme_1322 "> My activity </a>
+    </dd>
+    <dd class=" fftheme_1323 ">
+     <i class="ico-indent fftheme_1324 " data-icon="" aria-hidden="true"></i>
+     <a data-automation="footer-lnk-favoritesearches" href="http://www.seek.com.au/myactivity?cid=sk:main:au:toolbar:favourite#favourite" class=" fftheme_1325 "> Favourite searches </a>
+    </dd>
+    <dd class=" fftheme_1326 ">
+     <i class="ico-indent fftheme_1327 " data-icon="" aria-hidden="true"></i>
+     <a data-automation="footer-lnk-shortlistedjobs" href="http://www.seek.com.au/myactivity?cid=sk:main:au:toolbar:shortlist&amp;from=footertoolbar" class=" fftheme_1328 "> Shortlisted jobs </a>
+    </dd>
+    <dd class=" fftheme_1329 ">
+     <i class="ico-indent fftheme_1330 " data-icon="" aria-hidden="true"></i>
+     <a data-automation="footer-lnk-appliedjobs" href="http://www.seek.com.au/myactivity?cid=sk:main:au:toolbar:applied&amp;from=footertoolbar" class=" fftheme_1331 "> Applied jobs </a>
+    </dd>
+    <dd class=" fftheme_1332 ">
+     <i class="ico-indent fftheme_1333 " data-icon="" aria-hidden="true"></i>
+     <a data-automation="footer-lnk-searchjob" href="http://www.seek.com.au" class=" fftheme_1334 "> Search for a job </a>
+    </dd>
+    <dd class=" fftheme_1335 ">
+     <a data-automation="footer-lnk-advicentips" href="http://www.seek.com.au/jobs-resources" class=" fftheme_1336 "> Advice &amp; tips </a>
+    </dd>
+   </dl>
+   <dl class="l-column grid_3 fftheme_1337 ">
+    <dt class=" fftheme_1338 ">
+      Company 
+    </dt>
+    <dd class=" fftheme_1339 ">
+     <a data-automation="footer-lnk-aboutus" href="http://www.seek.com.au/about-us/investor" class=" fftheme_1340 "> About SEEK </a>
+    </dd>
+    <dd class=" fftheme_1341 ">
+     <a data-automation="footer-lnk-workfor" id="workForSeek" href="http://www.seek.com.au/JobSearch?Keywords=&amp;AdvertiserID=1630%2c27372708%2c27373065%2c27356574%2c27681746%2c28900820" class=" fftheme_1342 "> Work for SEEK </a>
+    </dd>
+    <dd class=" fftheme_1343 ">
+     <a href="http://ir.seek.com.au" class=" fftheme_1344 "> Investor centre </a>
+    </dd>
+    <dd data-automation="footer-lnk-international" class="mod-parent-menu fftheme_1345 ">
+     <a href="#_" class=" fftheme_1346 "> International partners </a>
+    </dd>
+   </dl>
+   <dl class="l-column grid_3 fftheme_1391 ">
+    <dt class=" fftheme_1392 ">
+      Connect 
+    </dt>
+    <dd class=" fftheme_1393 ">
+     <a href="http://www.seek.com.au/contact-us" class=" fftheme_1394 "> Contact us / FAQs </a>
+    </dd>
+    <dd class="mod-parent-menu fftheme_1396 ">
+     <a href="#_" class=" fftheme_1397 "> Blogs by SEEK </a>
+    </dd>
+    <dd class=" fftheme_1408 ">
+     <a target="_blank" href="http://facebook.com/seek" class=" fftheme_1409 "> Facebook </a>
+    </dd>
+    <dd class=" fftheme_1411 ">
+     <a target="_blank" href="http://twitter.com/seekjobs" class=" fftheme_1412 "> Twitter </a>
+    </dd>
+    <dd class=" fftheme_1414 ">
+     <a target="_blank" href="http://plus.google.com/+seekau" class=" fftheme_1415 "> Google+ </a>
+    </dd>
+    <dd class=" fftheme_1417 ">
+     <a target="_blank" href="http://youtube.com/seekjobs" class=" fftheme_1418 "> YouTube </a>
+    </dd>
+   </dl>
+   <dl class="l-column grid_2 fftheme_1421 ">
+    <dt class=" fftheme_1422 ">
+      Employers 
+    </dt>
+    <dd class=" fftheme_1423 ">
+     <a href="http://advertiser.seek.com.au" class=" fftheme_1424 "> Register for free </a>
+    </dd>
+    <dd class=" fftheme_1425 ">
+     <a href="http://talent.seek.com.au" class=" fftheme_1426 "> Post a job ad </a>
+    </dd>
+    <dd class=" fftheme_1427 ">
+     <a href="http://talent.seek.com.au/Support/OurProducts" class=" fftheme_1428 "> Products &amp; prices </a>
+    </dd>
+    <dd class=" fftheme_1429 ">
+     <a href="http://www.seeklearning.com.au/corporate-training/?CampaignCode=LRN:SKJ:FTR" class=" fftheme_1430 "> Corporate training </a>
+    </dd>
+    <dd class=" fftheme_1431 ">
+     <a href="http://talent.seek.com.au/ContactUs" class=" fftheme_1432 "> Customer service </a>
+    </dd>
+    <dd class=" fftheme_1433 ">
+     <a target="_blank" href="http://insight.seek.com.au" class=" fftheme_1434 "> Insight Blog </a>
+    </dd>
+   </dl>
+   <p class="l-row fftheme_1435 "><a data-automation="footer-lnk-privacy" href="http://www.seek.com.au/privacy" class=" fftheme_1436 "> Privacy </a><a data-automation="footer-lnk-terms" href="http://www.seek.com.au/terms" class=" fftheme_1437 "> Terms &amp; Conditions </a><a data-automation="footer-lnk-safety" href="http://www.seek.com.au/safe-job-searching" class=" fftheme_1438 "> SEEK safely </a><a href="http://www.seek.com.au/sitemap" class=" fftheme_1439 "> Site Map </a><a href="http://www.seek.com.au/go-mobile" class=" fftheme_1440 "> Go Mobile </a><span class=" fftheme_1441 "> &copy; SEEK 2014. All rights reserved. </span></p>
+  </div>
+ </div>
+</body>

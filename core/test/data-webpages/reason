@@ -1,0 +1,3635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="responsive">
+  <head profile="og: http://ogp.me/ns# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset="utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="initial-scale=1" name="viewport"/>
+    <script src="http://edge.quantserve.com/quant.js" async="" type="text/javascript">
+    </script>
+    <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-ML7ZB5">
+    </script>
+    <script async="" src="http://cdn.taboola.com/libtrc/reason-reason/loader.js">
+    </script>
+    <script async="" type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script type="text/javascript" async="" src="http://stats.g.doubleclick.net/dc.js">
+    </script>
+    <script>
+//<![CDATA[
+
+		var _sf_startpt=(new Date()).getTime();
+		var _sf_async_config = {
+			 uid: 24260,
+			 domain: "reason.com",
+			 useCanonical: true
+		};
+	
+//]]>
+    </script>
+    <meta content="-AmMiilAN-pnjWt369CUWae-VQ-b9wmH4fSGyhbkQxw" name="google-site-verification"/>
+    <meta content="212A68A07785B3080038A845C4EE8905" name="msvalidate.01"/>
+    <link type="image/x-icon" href="http://cloudfront-assets.reason.com/favicon.ico" rel="shortcut icon"/>
+    <title>
+      Search Reason: us
+    </title>
+    <meta content="website" property="og:type"/>
+    <meta content="Search Reason: us" property="og:title" name="title"/>
+    <meta content="Reason.com" property="og:site_name"/>
+    <meta content="http://reason.com/search" property="og:url"/>
+    <meta content="Why are liberals and conservatives freaking out over Rand Paul's popularity? Because he's not one of them." property="og:description" name="description"/>
+    <meta content="http://cloudfront-assets.reason.com/assets/db/13961877436287.jpg" property="og:image"/>
+    <meta content="http://cloudfront-assets.reason.com/media/images/logo-s.png?r=4700" property="og:image"/>
+    <link href="http://cloudfront-assets.reason.com/media/css/reset-2.css?r=3340" rel="stylesheet"/>
+    <link href="http://cloudfront-assets.reason.com/media/css/960_24_col.css?r=5526" rel="stylesheet"/>
+    <link href="http://cloudfront-assets.reason.com/media/css/screen-2.css?r=6558" rel="stylesheet"/>
+    <style type="text/css">
+      
+		@-moz-document url-prefix() {
+		  #content-col .post .postcontent{
+			letter-spacing:0;	
+		  }
+		}
+	
+    </style>
+    <script src="http://cloudfront-assets.reason.com/media/js/html5shiv.js?r=3234">
+    </script>
+    <script>
+//<![CDATA[
+
+(function(){
+	var s = document.createElement('style');s.type='text/css';
+	s.appendChild(document.createTextNode('.js_hidden {display:none !important;} .nojs_hidden {display:block;}'));
+	document.getElementsByTagName('head')[0].appendChild(s);
+})();
+
+//]]>
+    </script>
+    <style type="text/css">
+      .js_hidden {display:none !important;} .nojs_hidden {display:block;}
+    </style>
+    <script>
+//<![CDATA[
+
+var mastheadUrl = "http://reason.com/megatopics/getMastheads";
+var cloudfront = "CLOUDFRONT";
+var liveserver = "1";
+
+//]]>
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+    </script>
+    <script src="http://cloudfront-assets.reason.com/media/js/jquery.touchSwipe.min.js?r=6124">
+    </script>
+    <script src="http://cloudfront-assets.reason.com/media/js/underscore/underscore-min.js?r=4709">
+    </script>
+    <script src="http://cloudfront-assets.reason.com/media/js/jquery.cookie.js?r=4969">
+    </script>
+    <script src="http://cloudfront-assets.reason.com/media/js/jquery.hoverIntent.js?r=3540">
+    </script>
+    <script src="http://cloudfront-assets.reason.com/media/js/socialite/socialite.min.js?r=4482">
+    </script>
+    <script src="http://cloudfront-assets.reason.com/media/js/navigation.js?r=5750">
+    </script>
+    <script src="http://cloudfront-assets.reason.com/media/js/sharing.js?r=4482">
+    </script>
+    <script src="http://cloudfront-assets.reason.com/media/js/socialite.js?r=6173">
+    </script>
+    <script src="http://cloudfront-assets.reason.com/media/js/jquery.fitvids.js?r=4799">
+    </script>
+    <script src="http://cloudfront-assets.reason.com/media/js/advsearch.js?r=6266">
+    </script>
+    <script src="http://cloudfront-assets.reason.com/media/js/mobileview.js?r=5626">
+    </script>
+    <script type="text/template" id="masthead_template">
+//<![CDATA[
+
+&lt;div class="container_24 megatopic" style="display:none;"&gt;
+	&lt;div class="grid_14 post"&gt;
+&lt;% if(featured_article != null){ %&gt;
+		&lt;h1&gt;&lt;span&gt;&lt;a href="&lt;%= slug %&gt;"&gt;&lt;%= name %&gt;&lt;/a&gt;&lt;/span&gt; Featured Content&lt;/h1&gt;
+&lt;%	 if(featured_article.image != null){ %&gt;
+		&lt;a href="&lt;%= featured_article.url %&gt;"&gt;
+			&lt;img alt="" src="&lt;%=featured_article.image %&gt;"&gt;
+		&lt;/a&gt;
+&lt;%	 } %&gt;
+		&lt;h2&gt;&lt;a href="&lt;%= featured_article.url %&gt;"&gt;&lt;%= featured_article.title %&gt;&lt;/a&gt;&lt;/h2&gt;
+		&lt;p class="byline"&gt;
+&lt;%	 if(featured_article.author != null){ %&gt;
+			&lt;a href="&lt;%= featured_article.author.url %&gt;" rel="author"&gt;&lt;%= featured_article.author.name %&gt;&lt;/a&gt;
+			&lt;span class="pipe"&gt;|&lt;/span&gt;
+&lt;%	 } %&gt;
+			&lt;time datetime="&lt;%= featured_article.time %&gt;"&gt;&lt;%= featured_article.published_at %&gt;&lt;/time&gt;
+		&lt;/p&gt;
+&lt;%	 if(featured_article.summary != null) { %&gt;
+		&lt;p&gt;&lt;%= featured_article.summary %&gt;&lt;/p&gt;
+&lt;%	 } %&gt;
+		&lt;a href="&lt;%= featured_article.url %&gt;" class="readmore"&gt;READ MORE&lt;/a&gt;
+&lt;% } %&gt;
+	&lt;/div&gt;
+	&lt;div class="grid_10 subtopics"&gt;
+		&lt;h2&gt;More on &lt;span&gt;&lt;%= name %&gt;&lt;/span&gt;&lt;/h2&gt;
+		&lt;ul&gt;
+&lt;% _.each(subtopics, function(topic){ %&gt;
+			&lt;li&gt;&lt;a href="&lt;%= topic.url %&gt;"&gt;&lt;%= topic.name %&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;% }); %&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class="clear"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+$(function(){
+	var searchresultview = new SearchResultView($('#content-col &gt; .resultdetail'), $('#content-col &gt; .resultlist'));
+	var searchform = new SearchForm($('#searchform'), searchresultview);
+});
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+
+$(document).ready(function(){
+	$.ajax({
+		url: "http://reason.com/ajax/commenthandle",
+		dataType: 'json',
+		success: function(data) {
+			$(document).trigger('loginStatus', [data]);
+			$(document).trigger('adminview',[data]);
+		},
+		error: function(xhr, textStatus){
+			var data = { logged_in:null, error:textStatus };
+			$(document).trigger('loginStatus', [data]);
+		}
+	});
+
+	$('.commentsheading &gt; span &gt; a').click(function(){
+		document.location.hash = 'comment';
+	});
+
+	if (!window.location.hash.match(/^#comment/)) {
+		var cctrl = $('.commentcontrol'), cctnr = $('#commentcontainer');
+		cctnr.hide();
+		cctrl.removeClass('open');
+		cctrl.one('click', function(e) {
+			cctrl.addClass('open');
+			cctnr.show();
+			$('#commentform.cancomment').show();
+		});
+	}
+	 
+	if($.cookie('fontSize')) {
+		var fontSize = $.cookie('fontSize');
+ 		$('article.post').css({'font-size':fontSize});
+ 	}
+	$("a#fontbigger").click(function() {
+ 		var fontSize = parseInt($("article.post").css("font-size"));
+		fontSize = fontSize + 1 + "px";
+ 		$.cookie('fontSize',fontSize, { path: '/', expires: 7 });
+		$('article.post').css({'font-size':fontSize});
+	});
+	$("a#fontsmaller").click(function() {
+		var fontSize = parseInt($("article.post").css("font-size"));
+		fontSize = fontSize - 1 + "px";
+		$.cookie('fontSize',fontSize, { path: '/', expires: 7 });
+ 		$('article.post').css({'font-size':fontSize});
+	});
+	
+	// SIDR PANELS
+
+	
+
+	if($.cookie('fontSize')) {
+		var fontSize = $.cookie('fontSize');
+		$('article.post').css({'font-size':fontSize});
+	}
+	$("a#fontbigger").click(function() {
+		var fontSize = parseInt($("article.post").css("font-size"));
+		fontSize = fontSize + 1 + "px";
+		$.cookie('fontSize',fontSize, { path: '/', expires: 7 });
+		$('article.post').css({'font-size':fontSize});
+	});
+	$("a#fontsmaller").click(function() {
+		var fontSize = parseInt($("article.post").css("font-size"));
+		fontSize = fontSize - 1 + "px";
+		$.cookie('fontSize',fontSize, { path: '/', expires: 7 });
+		$('article.post').css({'font-size':fontSize});
+	});
+
+});
+
+window.USERSTATE = {logged_in:null};
+$(document).bind('loginStatus', function(e, d) {
+	$.extend(window.USERSTATE, d);
+});
+
+	$(document).bind('adminview', function(e, d) {
+		if(d.isadmin){
+			$("body").addClass("adminlogin");
+			window.ADMININFO = JSONObject= {
+				"baseurl":"http://reason.com/",
+				"showeditbutton":1,
+				"showadminbar":1,
+				"showcommentcontrols":1,
+				"usersettingsurl":"http://reason.com/admin/users//modify",
+				"commentactions" : 0};
+			$.getScript("/media/js/navtools.js");
+		}
+	});
+
+$(document).bind('loginStatus', function(e,d){
+	if (d.logged_in) {
+		var handle = $("#user_login_control")
+		.html('&lt;p&gt;You are currently logged in as: &lt;strong&gt;&lt;a href="http://reason.com/users/manage" class="handle"&gt;&lt;/a&gt;&lt;/strong&gt;. &lt;a href="http://reason.com/users/logout"&gt;&lt;span&gt;Sign Out&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;')
+		.find('.handle')
+		handle.text(d.handle)
+		handle.attr('href', handle.attr('href')+'/'+d.user_id);
+	} else {
+		$("#user_login_control").html('&lt;a href="http://reason.com/users/login"&gt;Click &lt;span&gt;here&lt;/span&gt; to login.&lt;/a&gt;');
+	}
+});
+
+(function(){
+	var threadedCommentRepliesActive=null;
+	var cb = $('#commentcontainer');
+	
+	function cmtLoginStatusHandler(e,d) {
+
+		var lc = $('.leave-comment'), clr = $('.comment_login_require');
+		if (d.logged_in) {
+			clr.hide();
+			lc.addClass('cancomment');
+			lc.find('.logged_in_as').remove();
+			var handle = lc.children('form')
+			.prepend('&lt;div class="logged_in_as"&gt;&lt;p&gt;You are currently logged in as &lt;a href="http://reason.com/users/manage/'+d.user_id+'" class="handle"&gt;&lt;/a&gt;. Not you? &lt;a href="http://reason.com/users/logout"&gt;Sign out&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;')
+			.find('.handle');
+			handle.text(d.handle);
+			handle.attr('a', handle.attr('a')+'/'+d.user_id);
+			lc.show();
+			threadedCommentReplies(true);
+		} else if (d.logged_in===false) {
+			clr.show();
+			lc.removeClass('cancomment');
+			threadedCommentReplies(false);
+		} else {
+			clr.html('&lt;p&gt;Oops, something went wrong and we can\'t tell if you\'re logged in. Please referesh and try again.&lt;/p&gt;');
+		}
+	}
+	
+	function threadedCommentReplies(activate){
+		var cb = $('#commentcontainer');
+		if (activate) {
+			cb.find('.comment_reply').show();
+			cb.find('.comment_reply_msg').hide();
+			if (!threadedCommentRepliesActive &amp;&amp; (typeof(CommentReplyForm) !== "undefined")) {
+				var template = CommentReplyForm.preparetemplate('commentform');
+				var crf = new CommentReplyForm(template);
+				crf.bindHandlers('li.com-block button.comment_reply');
+				var previewurl = $('#commentform form').attr('action').replace(/\/post$/, '/preview');
+				CommentPreview.bindHandlers(template, template.find(':button.preview'), previewurl);
+				CommentPreview.bindHandlers($('#commentform'), $('#commentform :button.preview'), previewurl);
+			}
+		} else {
+			cb.find('.comment_reply').hide();
+			cb.find('.comment_reply_msg').show();
+			cb.find('.leave-comment').hide();
+		}
+	}
+	$(document).bind('loginStatus', cmtLoginStatusHandler);
+	
+
+})();
+
+
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+		//&lt;![CDATA[
+		var _gaq = _gaq || [];
+		var	gaqinfo = [["_setAccount","UA-283675-2"],["_trackPageview"]];	
+				if(typeof(author) != "undefined" &amp;&amp; author !== null){
+			gaqinfo.splice(1,0,author); 
+		}			
+		_gaq.push.apply(_gaq, gaqinfo);
+		(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();					//]]&gt;
+	
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+		window.onorientationchange = function()
+		{
+		   window.location.reload();
+		};
+	
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function(){
+var pubid = "1006247";
+var slots = [["Mega_Leaderboard",[728,90]],["Mega_Mini-Leaderboard",[232,90]],["Search_Rectangle",[300,250]],["Search_Skyscraper",[160,600]],["Search_Mini-Skyscraper",[120,600]]];
+var pubservice = googletag.pubads();
+function addslot(slotname, slotdim) {
+	googletag.defineSlot('/'+pubid+'/'+slotname, slotdim, 'google_ads_div_'+slotname).addService(pubservice);
+}
+for (var i=0;i&lt;slots.length;i++) {
+	addslot.apply(this, slots[i]);
+}
+// pubservice.enableSyncRendering();
+pubservice.collapseEmptyDivs();
+pubservice.enableSingleRequest();
+googletag.enableServices();
+});
+
+//]]>
+    </script>
+    <link type="text/css" href="http://cloudfront-assets.reason.com/media/css/themeroller/reason.custom.css" rel="stylesheet"/>
+    <script defer="defer" src="http://cdnjs.cloudflare.com/ajax/libs/history.js/1.7.1/bundled/html4+html5/jquery.history.js" type="text/javascript">
+    </script>
+    <script defer="defer" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js" type="text/javascript">
+    </script>
+    <script defer="defer" src="http://cloudfront-assets.reason.com/media/js/search.js?r=5125" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+ window._taboola = window._taboola || [];
+_taboola.push({article:'auto'}); 
+!function (e, f, u) {
+    e.async = 1;
+    e.src = u;
+    f.parentNode.insertBefore(e, f);
+}(document.createElement('script'), document.getElementsByTagName('script')[0], 'http://cdn.taboola.com/libtrc/reason-reason/loader.js');
+
+//]]>
+    </script>
+    <script async="" type="text/javascript" src="http://partner.googleadservices.com/gpt/pubads_impl_35.js">
+    </script>
+    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&amp;gt;div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&amp;gt;span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}
+    </style>
+  </head>
+  <body class="archive ">
+    <!-- Google Tag Manager -->    <noscript>
+      &lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-ML7ZB5"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
+    </noscript>
+    <script>
+//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-ML7ZB5');
+//]]>
+    </script>
+    <!-- End Google Tag Manager -->    <div class="navtools">
+    </div>
+    <div id="bg1">
+      <div id="bg2">
+        <div class="container_24">
+          <div id="leaderboard" class="grid_24">
+            <aside id="ad1">
+              <div id="google_ads_div_Mega_Leaderboard">
+                <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function(){googletag.display("google_ads_div_Mega_Leaderboard");});
+
+//]]>
+                </script>
+              </div>
+            </aside>
+            <aside id="ad2">
+              <div id="google_ads_div_Mega_Mini-Leaderboard">
+                <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function(){googletag.display("google_ads_div_Mega_Mini-Leaderboard");});
+
+//]]>
+                </script>
+              </div>
+            </aside>
+          </div>
+          <div id="masthead" class="grid_24">
+            <div class="toggle-container">
+              <a id="togglerwd">
+              </a>
+            </div>
+            <hgroup>
+              <h3>
+                <a href="http://reason.com/">
+                  Reason.com
+                </a>
+              </h3>
+              <h4>
+                 Free Minds &amp; Free Markets 
+              </h4>
+            </hgroup>
+            <div id="user_login_control">
+              <a href="http://reason.com/users/login">
+                Click 
+                <span>
+                  here
+                </span>
+                 to login.
+              </a>
+            </div>
+            <div id="mobile_view_control">
+            </div>
+            <ul id="social2">
+              <li class="instagram">
+                <a href="http://instagram.com/reasontv">
+                  instagram
+                </a>
+              </li>
+              <li class="facebook">
+                <a href="http://www.facebook.com/Reason.Magazine">
+                  facebook
+                </a>
+              </li>
+              <li class="twitter">
+                <a href="http://twitter.com/reason">
+                  twitter
+                </a>
+              </li>
+              <li class="youtube">
+                <a href="http://www.youtube.com/user/ReasonTV">
+                  youtube
+                </a>
+              </li>
+              <li class="podcast">
+                <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=322850582">
+                  apple
+                </a>
+              </li>
+              <li class="rss">
+                <a href="http://reason.com/rss">
+                  rss
+                </a>
+              </li>
+            </ul>
+            <section id="social1">
+              <ul>
+                <li class="twitter_follow share_item">
+                  <div class="socialite twitter-follow socialite-instance" data-lang="en" data-show-screen-name="false" data-show-count="false" data-default-href="https://twitter.com/reason" data-socialite="0">
+                    <a class="twitter-follow-button" data-lang="en" data-show-screen-name="false" data-show-count="false" data-default-href="https://twitter.com/reason" data-socialite="0" href="https://twitter.com/reason">
+                    </a>
+                  </div>
+                </li>
+                <li class="google share_item">
+                  <div class="socialite googleplus-one socialite-instance" data-href="http://reason.com/" data-annotation="none" data-size="medium" data-default-href="null" data-socialite="1">
+                    <div class="g-plusone" data-href="http://reason.com/" data-annotation="none" data-size="medium" data-default-href="null" data-socialite="1">
+                    </div>
+                  </div>
+                </li>
+                <li class="facebook share_item">
+                  <div class="socialite facebook-like socialite-instance socialite-loaded" data-show-faces="false" data-width="90" data-send="false" data-layout="button_count" data-href="https://www.facebook.com/Reason.Magazine" data-default-href="https://www.facebook.com/Reason.Magazine" data-socialite="2">
+                    <div class="fb-like fb_iframe_widget" data-show-faces="false" data-width="90" data-send="false" data-layout="button_count" data-href="https://www.facebook.com/Reason.Magazine" data-default-href="https://www.facebook.com/Reason.Magazine" data-socialite="2" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;href=https%3A%2F%2Fwww.facebook.com%2FReason.Magazine&amp;layout=button_count&amp;locale=en_GB&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=90">
+                      <span style="vertical-align: top; width: 0px; height: 0px;">
+                        <iframe width="90px" scrolling="no" height="1000px" frameborder="0" name="fb55a426f9352" allowtransparency="true" title="fb:like Facebook Social Plugin" style="border: medium none; visibility: visible;" src="http://www.facebook.com/plugins/like.php?app_id=&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FwTH8U0osOYl.js%3Fversion%3D40%23cb%3Df180217f28268f%26domain%3Dreason.com%26origin%3Dhttp%253A%252F%252Freason.com%252Ff88fa0430e86dc%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fwww.facebook.com%2FReason.Magazine&amp;layout=button_count&amp;locale=en_GB&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=90" class="aipewpddfdevopyqmojj">
+                        </iframe>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <div class="clear">
+            </div>
+            <nav id="nav1">
+              <div class="inner">
+                <div class="mobile-tablet" id="trending">
+                  <h2>
+                    <a href="#sidr-trending" id="mobile-trending-toggle">
+                      IN THE NEWS
+                    </a>
+                  </h2>
+                  <div id="trending-navigation">
+                    <nav class="nav">
+                      <ul>
+                        <li>
+                          <a href="http://reason.com/topics/ukraine">
+                            
+												Ukraine											
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://reason.com/topics/nsa">
+                            
+												NSA											
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://reason.com/topics/police-brutality">
+                            
+												Police abuse											
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://reason.com/topics/marijuana">
+                            
+												Marijuana											
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://reason.com/topics/obamacare">
+                            
+												Obamacare											
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://reason.com/topics/e-cigarettes">
+                            
+												e-cigarettes											
+                          </a>
+                        </li>
+                        <li class="closemenu">
+                          <a href="#">
+                            CLOSE
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <h2 id="menu" class="mobile-tablet">
+                  <a href="#sidr-main" id="mobile-nav-toggle">
+                    MENU
+                  </a>
+                </h2>
+                <a href="#sidr-main" id="mobile-nav-toggle">
+                </a>
+                <div id="site-navigation">
+                  <a href="#sidr-main" id="mobile-nav-toggle">
+                  </a>
+                  <nav class="nav">
+                    <a href="#sidr-main" id="mobile-nav-toggle">
+                    </a>
+                    <ul>
+                      <a href="#sidr-main" id="mobile-nav-toggle">
+                      </a>
+                      <li>
+                        <a href="#sidr-main" id="mobile-nav-toggle">
+                        </a>
+                        <a href="http://reason.com/">
+                          Home
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://reason.com/24-7">
+                          Reason
+                          <strong>
+                            24/7
+                          </strong>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://reason.com/reasontv">
+                          Reason
+                          <strong>
+                            TV
+                          </strong>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://reason.com/blog">
+                          Hit &amp; Run
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://reason.com/covers/all">
+                          Magazine
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://reason.com/poll">
+                          Poll
+                        </a>
+                      </li>
+                      <li class="color2">
+                        <a href="https://reason.com/subscribe">
+                          Subscribe
+                        </a>
+                      </li>
+                      <li class="color2">
+                        <a href="https://www.reason.com/donatenow/donate.php">
+                          Donate
+                        </a>
+                      </li>
+                      <li class="color2 no-border">
+                        <a href="http://reason.com/shop">
+                          Shop
+                        </a>
+                      </li>
+                      <li class="no-border">
+                        <form accept-charset="utf-8" method="GET" action="http://reason.com/search">
+                          <input type="text" name="q" onfocus="if
+														(this.value==this.defaultValue) this.value='';" value="SEARCH"/>
+                        </form>
+                      </li>
+                      <li class="mobile-only">
+                        <a id="fontbigger">
+                          Font Size +
+                        </a>
+                      </li>
+                      <li class="mobile-only">
+                        <a id="fontsmaller">
+                          Font Size -
+                        </a>
+                      </li>
+                      <li class="mobile-only closemenu">
+                        <a id="fontsmaller">
+                          CLOSE
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <!-- end .grid_24 -->          <div class="clear">
+          </div>
+        </div>
+        <!-- end .container_24 -->        <div class="hidden" id="bg3">
+          <div id="bg4">
+            <div class="container_24 navcontainer">
+              <nav>
+                <ul id="nav2">
+                  <li class="">
+                    <a href="http://reason.com/topics/ukraine" data-slug="ukraine">
+                      <span>
+                        Ukraine
+                      </span>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="http://reason.com/topics/nsa" data-slug="nsa">
+                      <span>
+                        NSA
+                      </span>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="http://reason.com/topics/police-brutality" data-slug="police-brutality">
+                      <span>
+                        Police abuse
+                      </span>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="http://reason.com/topics/marijuana" data-slug="marijuana">
+                      <span>
+                        Marijuana
+                      </span>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="http://reason.com/topics/obamacare" data-slug="obamacare">
+                      <span>
+                        Obamacare
+                      </span>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="http://reason.com/topics/e-cigarettes" data-slug="e-cigarettes">
+                      <span>
+                        e-cigarettes
+                      </span>
+                    </a>
+                  </li>
+                  <li class="more">
+                    <a class="more_dropdown dropdown_trigger" href="http://reason.com/tags">
+                      <span>
+                        More
+                      </span>
+                    </a>
+                    <ul id="more_links">
+                      <li>
+                        <a href="http://reason.com/topics/minimum-wage">
+                          Minimum Wage
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://reason.com/topics/immigration">
+                          Immigration
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://reason.com/topics/budget">
+                          Budget
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://reason.com/tags">
+                          More
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <!-- end #bg4 -->        </div>
+        <!-- end #bg3 -->        <div class="container_24 main-content">
+          <form accept-charset="utf-8" method="GET" data-xhr-action="http://reason.com/search/query" action="http://reason.com/search" id="searchform">
+            <div class="grid_5 archivesearch" id="left-col">
+              <input type="text" class="searchbar" value="us" name="q"/>
+              <button class="js_hidden" type="submit">
+                Search
+              </button>
+              <h1>
+                Customize Your Search
+              </h1>
+              <aside>
+                <section>
+                  <header>
+                    <h2>
+                      <a class="expanded">
+                        Content Type
+                      </a>
+                    </h2>
+                    <a class="selectall nojs_hidden">
+                      clear filters
+                    </a>
+                  </header>
+                  <ul>
+                    <li>
+                      <label>
+                        <input type="checkbox" checked="checked" value="web-articles" name="f[pagetype][]"/>
+                         Web Articles
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" checked="checked" value="hit-and-run-posts" name="f[pagetype][]"/>
+                         Hit &amp; Run Posts
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="24-seven" name="f[pagetype][]"/>
+                         24/7 Posts
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" checked="checked" value="reason-rupe-poll-posts" name="f[pagetype][]"/>
+                         Reason/Rupe Poll Posts
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" checked="checked" value="brickbats" name="f[pagetype][]"/>
+                         Brickbats
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" checked="checked" value="all-reasontv-videos" name="f[pagetype][]"/>
+                         All ReasonTV Videos
+                      </label>
+                      <ul>
+                        <li>
+                          <label>
+                            <input type="checkbox" value="documentaries" name="f[pagetype][]"/>
+                             Documentaries
+                          </label>
+                        </li>
+                        <li>
+                          <label>
+                            <input type="checkbox" value="viral-videos" name="f[pagetype][]"/>
+                             Viral Videos
+                          </label>
+                        </li>
+                        <li>
+                          <label>
+                            <input type="checkbox" value="interviews" name="f[pagetype][]"/>
+                             Interviews
+                          </label>
+                        </li>
+                        <li>
+                          <label>
+                            <input type="checkbox" value="staff-media-appearances" name="f[pagetype][]"/>
+                             Staff Media Appearances
+                          </label>
+                        </li>
+                        <li>
+                          <label>
+                            <input type="checkbox" value="event-videos" name="f[pagetype][]"/>
+                             Event Videos
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" checked="checked" value="all-magazine-articles" name="f[pagetype][]"/>
+                         All Magazine Articles
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" checked="checked" value="customer-support-and-general-pages" name="f[pagetype][]"/>
+                         Customer Support &amp; General Pages
+                      </label>
+                    </li>
+                  </ul>
+                </section>
+                <section>
+                  <header>
+                    <h2>
+                      <a class="expanded">
+                        Topics
+                      </a>
+                    </h2>
+                    <a class="selectall nojs_hidden">
+                      clear filters
+                    </a>
+                  </header>
+                  <ul>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="politics" name="f[topics][]"/>
+                         Politics
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="policy" name="f[topics][]"/>
+                         Policy
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="economics" name="f[topics][]"/>
+                         Economics
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="civil-liberties" name="f[topics][]"/>
+                         Civil Liberties
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="culture" name="f[topics][]"/>
+                         Culture
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="science" name="f[topics][]"/>
+                         Science/Tech
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="drug-war" name="f[topics][]"/>
+                         War on Drugs
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="nanny-state" name="f[topics][]"/>
+                         Nanny State
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="world" name="f[topics][]"/>
+                         World
+                      </label>
+                    </li>
+                  </ul>
+                </section>
+                <section>
+                  <header>
+                    <h2>
+                      <a class="expanded">
+                        Date Range
+                      </a>
+                    </h2>
+                  </header>
+                  <div>
+                    <label>
+                      <input type="radio" value="c" name="f[pubdate]"/>
+                      
+		Custom
+                    </label>
+                    <div class="daterange">
+                      <label for="pubdate_custom_from">
+                        From:
+                      </label>
+                      <input type="text" value="" name="_[pubdate_from]" class="pubdate_field hasDatepicker" id="pubdate_custom_from"/>
+                      <img class="ui-datepicker-trigger" src="/media/images/cal-icon1.gif" alt="..." title="..."/>
+                      <label for="pubdate_custom_to">
+                        To:
+                      </label>
+                      <input type="text" value="" name="_[pubdate_to]" class="pubdate_field hasDatepicker" id="pubdate_custom_to"/>
+                      <img class="ui-datepicker-trigger" src="/media/images/cal-icon1.gif" alt="..." title="..."/>
+                    </div>
+                    <label>
+                      <input type="radio" value="3m" name="f[pubdate]"/>
+                      
+		Past 3 Months
+                    </label>
+                    <label>
+                      <input type="radio" value="6m" name="f[pubdate]"/>
+                      
+		Past 6 Months
+                    </label>
+                    <label>
+                      <input type="radio" value="12m" name="f[pubdate]"/>
+                      
+		Past 12 Months
+                    </label>
+                    <label>
+                      <input type="radio" value="*" name="f[pubdate]"/>
+                      
+		All Time
+                    </label>
+                  </div>
+                </section>
+                <section>
+                  <header>
+                    <h2>
+                      <a class="expanded">
+                        Authors
+                      </a>
+                    </h2>
+                    <a class="selectall nojs_hidden">
+                      clear filters
+                    </a>
+                  </header>
+                  <ul>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="nick-gillespie" name="f[author][]"/>
+                         Nick Gillespie
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="matt-welch" name="f[author][]"/>
+                         Matt Welch
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="katherine-mangu-ward" name="f[author][]"/>
+                         Katherine Mangu-Ward
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="brian-doherty" name="f[author][]"/>
+                         Brian Doherty
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="damon-w-root" name="f[author][]"/>
+                         Damon Root
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="peter-suderman" name="f[author][]"/>
+                         Peter Suderman
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="jacob-sullum" name="f[author][]"/>
+                         Jacob Sullum
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="jesse-walker" name="f[author][]"/>
+                         Jesse Walker
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="ronald-bailey" name="f[author][]"/>
+                         Ronald Bailey
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="jd-tuccille" name="f[author][]"/>
+                         J.D. Tuccille
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="ed-krayewski" name="f[author][]"/>
+                         Ed Krayewski
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="scott-shackford" name="f[author][]"/>
+                         Scott Shackford
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="matthew-feeney" name="f[author][]"/>
+                         Matthew Feeney
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="elizabeth-nolan-brown" name="f[author][]"/>
+                         Elizabeth Nolan Brown
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="zenon-evans" name="f[author][]"/>
+                         Zenon Evans
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="meredith-bragg" name="f[author][]"/>
+                         Meredith  Bragg
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="paul-feine" name="f[author][]"/>
+                         Paul Feine
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="todd-krainin" name="f[author][]"/>
+                         Todd Krainin
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="paul-detrick" name="f[author][]"/>
+                         Paul Detrick
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="jim-epstein" name="f[author][]"/>
+                         Jim Epstein
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="anthony-l-fisher" name="f[author][]"/>
+                         Anthony  L. Fisher
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="alexis-garcia" name="f[author][]"/>
+                         Alexis Garcia
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="alex-manning" name="f[author][]"/>
+                         Alex Manning
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="sharif-matar" name="f[author][]"/>
+                         Sharif Matar
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="tracy-oppenheimer" name="f[author][]"/>
+                         Tracy Oppenheimer
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="joshua-swain" name="f[author][]"/>
+                         Joshua Swain
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="zach-weissmueller" name="f[author][]"/>
+                         Zach Weissmueller
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="amanda-winkler" name="f[author][]"/>
+                         Amanda Winkler
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="peter-bagge" name="f[author][]"/>
+                         Peter Bagge
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="emily-ekins" name="f[author][]"/>
+                         Emily Ekins
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="katie-hooks" name="f[author][]"/>
+                         Katie Hooks
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="charlotte-bowen-gauthier" name="f[author][]"/>
+                         Charlotte Bowen-Gauthier
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="chris-mitchell" name="f[author][]"/>
+                         Chris Mitchell
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="mike-alissi" name="f[author][]"/>
+                         Mike Alissi
+                      </label>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" value="alyssa-hertig" name="f[author][]"/>
+                         Alyssa Hertig 
+                      </label>
+                    </li>
+                    <li>
+                      <div class="contrib nojs_hidden">
+                        <header>
+                          <h2>
+                            <a class="expanded">
+                              Other Contributors
+                            </a>
+                          </h2>
+                        </header>
+                        <div>
+                          <input type="text" data-src="http://reason.com/ajax/autocompletepeople" id="contributorsearch" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"/>
+                          <div class="inner">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+              </aside>
+              <button class="js_hidden" type="submit">
+                Filter
+              </button>
+              <p class="clearall nojs_hidden">
+                <a class="clearall">
+                  Clear All Search Filters
+                </a>
+              </p>
+            </div>
+            <div class="grid_11" id="content-col">
+              <h1>
+                Search Archives
+              </h1>
+              <section class="resultdetail">
+                <div style="display:none" class="patience">
+                  <img alt="" src="/media/images/ajax-loader.gif"/>
+                </div>
+                <hgroup>
+                  <h2>
+                    Displaying Results for:
+                  </h2>
+                  <h3>
+                    us
+                  </h3>
+                </hgroup>
+                <div class="inner">
+                  <h3>
+                    Filtered by:
+                  </h3>
+                  <ul>
+                    <li>
+                      Content Type: 
+                      <span>
+                        Web Articles, Hit &amp; Run Posts, Reason/Rupe Poll Posts, Brickbats, All ReasonTV Videos, All Magazine Articles, Customer Support &amp; General Pages
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              <div class="mobile-only archivesearch" id="left-col">
+                <input type="text" class="searchbar" value="us" name="q"/>
+                <button class="js_hidden" type="submit">
+                  Search
+                </button>
+                <h1>
+                  Customize Your Search
+                </h1>
+                <aside style="display: none;">
+                  <section>
+                    <header>
+                      <h2>
+                        <a class="expanded">
+                          Content Type
+                        </a>
+                      </h2>
+                      <a class="selectall nojs_hidden">
+                        clear filters
+                      </a>
+                    </header>
+                    <ul>
+                      <li>
+                        <label>
+                          <input type="checkbox" checked="checked" value="web-articles" name="f[pagetype][]"/>
+                           Web Articles
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" checked="checked" value="hit-and-run-posts" name="f[pagetype][]"/>
+                           Hit &amp; Run Posts
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="24-seven" name="f[pagetype][]"/>
+                           24/7 Posts
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" checked="checked" value="reason-rupe-poll-posts" name="f[pagetype][]"/>
+                           Reason/Rupe Poll Posts
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" checked="checked" value="brickbats" name="f[pagetype][]"/>
+                           Brickbats
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" checked="checked" value="all-reasontv-videos" name="f[pagetype][]"/>
+                           All ReasonTV Videos
+                        </label>
+                        <ul>
+                          <li>
+                            <label>
+                              <input type="checkbox" value="documentaries" name="f[pagetype][]"/>
+                               Documentaries
+                            </label>
+                          </li>
+                          <li>
+                            <label>
+                              <input type="checkbox" value="viral-videos" name="f[pagetype][]"/>
+                               Viral Videos
+                            </label>
+                          </li>
+                          <li>
+                            <label>
+                              <input type="checkbox" value="interviews" name="f[pagetype][]"/>
+                               Interviews
+                            </label>
+                          </li>
+                          <li>
+                            <label>
+                              <input type="checkbox" value="staff-media-appearances" name="f[pagetype][]"/>
+                               Staff Media Appearances
+                            </label>
+                          </li>
+                          <li>
+                            <label>
+                              <input type="checkbox" value="event-videos" name="f[pagetype][]"/>
+                               Event Videos
+                            </label>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" checked="checked" value="all-magazine-articles" name="f[pagetype][]"/>
+                           All Magazine Articles
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" checked="checked" value="customer-support-and-general-pages" name="f[pagetype][]"/>
+                           Customer Support &amp; General Pages
+                        </label>
+                      </li>
+                    </ul>
+                  </section>
+                  <section>
+                    <header>
+                      <h2>
+                        <a class="expanded">
+                          Topics
+                        </a>
+                      </h2>
+                      <a class="selectall nojs_hidden">
+                        clear filters
+                      </a>
+                    </header>
+                    <ul>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="politics" name="f[topics][]"/>
+                           Politics
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="policy" name="f[topics][]"/>
+                           Policy
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="economics" name="f[topics][]"/>
+                           Economics
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="civil-liberties" name="f[topics][]"/>
+                           Civil Liberties
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="culture" name="f[topics][]"/>
+                           Culture
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="science" name="f[topics][]"/>
+                           Science/Tech
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="drug-war" name="f[topics][]"/>
+                           War on Drugs
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="nanny-state" name="f[topics][]"/>
+                           Nanny State
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="world" name="f[topics][]"/>
+                           World
+                        </label>
+                      </li>
+                    </ul>
+                  </section>
+                  <section>
+                    <header>
+                      <h2>
+                        <a class="expanded">
+                          Date Range
+                        </a>
+                      </h2>
+                    </header>
+                    <div>
+                      <label>
+                        <input type="radio" value="c" name="f[pubdate]"/>
+                        
+		Custom
+                      </label>
+                      <div class="daterange">
+                        <label for="pubdate_custom_from">
+                          From:
+                        </label>
+                        <input type="text" value="" name="_[pubdate_from]" class="pubdate_field hasDatepicker" id="pubdate_custom_from"/>
+                        <img class="ui-datepicker-trigger" src="/media/images/cal-icon1.gif" alt="..." title="..."/>
+                        <label for="pubdate_custom_to">
+                          To:
+                        </label>
+                        <input type="text" value="" name="_[pubdate_to]" class="pubdate_field hasDatepicker" id="pubdate_custom_to"/>
+                        <img class="ui-datepicker-trigger" src="/media/images/cal-icon1.gif" alt="..." title="..."/>
+                      </div>
+                      <label>
+                        <input type="radio" value="3m" name="f[pubdate]"/>
+                        
+		Past 3 Months
+                      </label>
+                      <label>
+                        <input type="radio" value="6m" name="f[pubdate]"/>
+                        
+		Past 6 Months
+                      </label>
+                      <label>
+                        <input type="radio" value="12m" name="f[pubdate]"/>
+                        
+		Past 12 Months
+                      </label>
+                      <label>
+                        <input type="radio" checked="checked" value="*" name="f[pubdate]"/>
+                        
+		All Time
+                      </label>
+                    </div>
+                  </section>
+                  <section>
+                    <header>
+                      <h2>
+                        <a class="expanded">
+                          Authors
+                        </a>
+                      </h2>
+                      <a class="selectall nojs_hidden">
+                        clear filters
+                      </a>
+                    </header>
+                    <ul>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="nick-gillespie" name="f[author][]"/>
+                           Nick Gillespie
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="matt-welch" name="f[author][]"/>
+                           Matt Welch
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="katherine-mangu-ward" name="f[author][]"/>
+                           Katherine Mangu-Ward
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="brian-doherty" name="f[author][]"/>
+                           Brian Doherty
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="damon-w-root" name="f[author][]"/>
+                           Damon Root
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="peter-suderman" name="f[author][]"/>
+                           Peter Suderman
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="jacob-sullum" name="f[author][]"/>
+                           Jacob Sullum
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="jesse-walker" name="f[author][]"/>
+                           Jesse Walker
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="ronald-bailey" name="f[author][]"/>
+                           Ronald Bailey
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="jd-tuccille" name="f[author][]"/>
+                           J.D. Tuccille
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="ed-krayewski" name="f[author][]"/>
+                           Ed Krayewski
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="scott-shackford" name="f[author][]"/>
+                           Scott Shackford
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="matthew-feeney" name="f[author][]"/>
+                           Matthew Feeney
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="elizabeth-nolan-brown" name="f[author][]"/>
+                           Elizabeth Nolan Brown
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="zenon-evans" name="f[author][]"/>
+                           Zenon Evans
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="meredith-bragg" name="f[author][]"/>
+                           Meredith  Bragg
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="paul-feine" name="f[author][]"/>
+                           Paul Feine
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="todd-krainin" name="f[author][]"/>
+                           Todd Krainin
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="paul-detrick" name="f[author][]"/>
+                           Paul Detrick
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="jim-epstein" name="f[author][]"/>
+                           Jim Epstein
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="anthony-l-fisher" name="f[author][]"/>
+                           Anthony  L. Fisher
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="alexis-garcia" name="f[author][]"/>
+                           Alexis Garcia
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="alex-manning" name="f[author][]"/>
+                           Alex Manning
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="sharif-matar" name="f[author][]"/>
+                           Sharif Matar
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="tracy-oppenheimer" name="f[author][]"/>
+                           Tracy Oppenheimer
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="joshua-swain" name="f[author][]"/>
+                           Joshua Swain
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="zach-weissmueller" name="f[author][]"/>
+                           Zach Weissmueller
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="amanda-winkler" name="f[author][]"/>
+                           Amanda Winkler
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="peter-bagge" name="f[author][]"/>
+                           Peter Bagge
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="emily-ekins" name="f[author][]"/>
+                           Emily Ekins
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="katie-hooks" name="f[author][]"/>
+                           Katie Hooks
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="charlotte-bowen-gauthier" name="f[author][]"/>
+                           Charlotte Bowen-Gauthier
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="chris-mitchell" name="f[author][]"/>
+                           Chris Mitchell
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="mike-alissi" name="f[author][]"/>
+                           Mike Alissi
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" value="alyssa-hertig" name="f[author][]"/>
+                           Alyssa Hertig 
+                        </label>
+                      </li>
+                      <li>
+                        <div class="contrib nojs_hidden">
+                          <header>
+                            <h2>
+                              <a class="expanded">
+                                Other Contributors
+                              </a>
+                            </h2>
+                          </header>
+                          <div>
+                            <input type="text" data-src="http://reason.com/ajax/autocompletepeople" id="contributorsearch" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"/>
+                            <div class="inner">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </section>
+                </aside>
+                <button class="js_hidden" type="submit">
+                  Filter
+                </button>
+                <p class="clearall nojs_hidden" style="display: none;">
+                  <a class="clearall" style="display: none;">
+                    Clear All Search Filters
+                  </a>
+                </p>
+              </div>
+              <section class="resultlist">
+                <header class="sort">
+                  <a class="expanded" id="toggle_sortby">
+                    Sort Results By
+                  </a>
+                </header>
+                <div style="height:35px" id="sortby_container">
+                  <div>
+                    <label>
+                      <input type="radio" checked="checked" value="-pubdate" name="s"/>
+                      Newest First
+                    </label>
+                    <label>
+                      <input type="radio" value="pubdate" name="s"/>
+                      Oldest First
+                    </label>
+                    <label>
+                      <input type="radio" value="-text_relevance" name="s"/>
+                      Relevance
+                    </label>
+                  </div>
+                </div>
+                <article class="post pic90" data-csid="rcm234711">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13961881873076954_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/archives/2014/03/30/rand-paul-is-divergent-and-so-must-be-st">
+                        Rand Paul is "Divergent" and So Must be Stopped!
+                      </a>
+                      <span pid="234711" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/nick-gillespie/all">
+                        Nick Gillespie
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-30T14:30:00+00:00">
+                        March 30, 2014
+                      </time>
+                    </p>
+                  </header>
+                  <div class="postcontent">
+                    <p>
+                      Why are liberals and conservatives freaking out over Rand Paul's popularity? Because he's not one of them.
+                    </p>
+                  </div>
+                </article>
+                <article class="post pic90" data-csid="rcm234710">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13961858993076904_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/30/would-obama-kiss-justin-beiber-to-promot">
+                        Would Obama Kiss Justin Bieber to Promote Healthcare.gov?
+                      </a>
+                      <span pid="234710" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/nick-gillespie/all">
+                        Nick Gillespie
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-30T13:24:00+00:00">
+                        March 30, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234674">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960157623075064_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/archives/2014/03/30/obamas-iraqi-fairy-tale">
+                        Obama's Iraqi Fairy Tale
+                      </a>
+                      <span pid="234674" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/sheldon-richman/all">
+                        Sheldon Richman
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-30T12:00:00+00:00">
+                        March 30, 2014
+                      </time>
+                    </p>
+                  </header>
+                  <div class="postcontent">
+                    <p>
+                      America's worst foreign policy decision, whitewashed.
+                    </p>
+                  </div>
+                </article>
+                <article class="post pic90" data-csid="rcm234702">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960423603076504_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/29/ex-cop-everyone-behaves-better-when-they">
+                        Ex Cop: Everyone Behaves Better When They're on Video
+                      </a>
+                      <span pid="234702" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/paul-detrick/all">
+                        Paul Detrick
+                      </a>
+                       &amp; 
+                      <a rel="author" href="http://reason.com/people/will-neff/all">
+                        Will Neff
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-29T19:00:00+00:00">
+                        March 29, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234668">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960132983074784_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/archives/2014/03/29/cheap-thrills">
+                        <em>
+                          Cheap Thrills
+                        </em>
+                      </a>
+                      <span pid="234668" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/kurt-loder/all">
+                        Kurt Loder
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-29T16:00:00+00:00">
+                        March 29, 2014
+                      </time>
+                    </p>
+                  </header>
+                  <div class="postcontent">
+                    <p>
+                      David Koechner playing for keeps.
+                    </p>
+                  </div>
+                </article>
+                <article class="post pic90" data-csid="rcm234705">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960664083076654_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/29/would-cesar-chavez-have-wanted-forced-un">
+                        Would Cesar Chavez Have Wanted Forced Unionization? UFW Says "Yes!"
+                      </a>
+                      <span pid="234705" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/zach-weissmueller/all">
+                        Zach Weissmueller
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-29T14:30:00+00:00">
+                        March 29, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234693">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960418503076404_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/archives/2014/03/29/house-raw-milk-bills-give-hope-to-farmer">
+                        House Raw Milk Bills Give Hope to Farmers, Consumers
+                      </a>
+                      <span pid="234693" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/baylen-linnekin/all">
+                        Baylen Linnekin
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-29T12:00:00+00:00">
+                        March 29, 2014
+                      </time>
+                    </p>
+                  </header>
+                  <div class="postcontent">
+                    <p>
+                      Rep. Thomas Massie introduced two raw milk bills this week, with bi-partisan sponsorship and support. "It's a great issue because it's about freedom," says Massie.
+                    </p>
+                  </div>
+                </article>
+                <article class="post" data-csid="rcm234700">
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/29/baylen-linnekin-on-hope-for-raw-milk-fan">
+                        Baylen Linnekin on Hope for Raw Milk Fans and Food Freedom
+                      </a>
+                      <span pid="234700" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <time datetime="2014-03-29T12:00:00+00:00">
+                        March 29, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234691">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960326193076054_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/28/tonight-on-the-independents-rise-of-the">
+                        Tonight on 
+                        <em>
+                          The Independents
+                        </em>
+                        : Rise of the Machines! (Bumped)
+                      </a>
+                      <span pid="234691" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/matt-welch/all">
+                        Matt Welch
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-29T00:07:00+00:00">
+                        March 28, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234689">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960315063075954_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/28/nypd-get-more-oversight-house-of-cards-t">
+                        NYPD Gets More Oversight, 
+                        <em>
+                          House of Cards
+                        </em>
+                         Tax Credit Fight in Maryland Gets Nasty, Walmart Sues Visa: P.M. Links
+                      </a>
+                      <span pid="234689" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/scott-shackford/all">
+                        Scott Shackford
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-28T20:30:00+00:00">
+                        March 28, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234671">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960146433074964_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/archives/2014/03/28/the-creationism-in-schools-distraction">
+                        The Creationism in Schools Distraction
+                      </a>
+                      <span pid="234671" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/david-harsanyi/all">
+                        David Harsanyi
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-28T20:30:00+00:00">
+                        March 28, 2014
+                      </time>
+                    </p>
+                  </header>
+                  <div class="postcontent">
+                    <p>
+                      Nothing turns voters against vouchers more than the idea of funding a religious education with public money.
+                    </p>
+                  </div>
+                </article>
+                <article class="post pic90" data-csid="rcm234618">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13959496133073834_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/archives/2014/03/28/policing-language-gives-ammunition-to-th">
+                        Policing Language Gives Ammunition to the Trolls
+                      </a>
+                      <span pid="234618" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/scott-shackford/all">
+                        Scott Shackford
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-28T17:30:00+00:00">
+                        March 28, 2014
+                      </time>
+                    </p>
+                  </header>
+                  <div class="postcontent">
+                    <p>
+                      Don’t make the world responsible for your emotional well-being unless you enjoy getting hurt.
+                    </p>
+                  </div>
+                </article>
+                <article class="post pic90" data-csid="rcm234683">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960248013075654_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/28/6-unanswered-questions-about-obamacare">
+                        6 Big Unanswered Questions About Obamacare
+                      </a>
+                      <span pid="234683" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/peter-suderman/all">
+                        Peter Suderman
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-28T17:20:00+00:00">
+                        March 28, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234685">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960261793075754_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/28/should-libertarians-support-religious-ex">
+                        Should Libertarians Support Religious Exceptions to Generally Applicable Laws?
+                      </a>
+                      <span pid="234685" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/jacob-sullum/all">
+                        Jacob Sullum
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-28T17:02:00+00:00">
+                        March 28, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234680">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960219733075454_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/28/new-york-city-sick-leave-mandate">
+                        New York City's Sick Leave Mandate May Make Small Businesses Ill
+                      </a>
+                      <span pid="234680" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/jd-tuccille/all">
+                        J.D. Tuccille
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-28T16:10:00+00:00">
+                        March 28, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234621">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13959549023074534_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/archives/2014/03/28/noah">
+                        <em>
+                          Noah
+                        </em>
+                      </a>
+                      <span pid="234621" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/kurt-loder/all">
+                        Kurt Loder
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-28T13:00:00+00:00">
+                        March 28, 2014
+                      </time>
+                    </p>
+                  </header>
+                  <div class="postcontent">
+                    <p>
+                      Russell Crowe at the end of the world.
+                    </p>
+                  </div>
+                </article>
+                <article class="post pic90" data-csid="rcm234666">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960102903074684_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/28/am-links-obamacare-enrollment-passes-6-m">
+                        A.M. Links: Obamacare Enrollment Passes 6 Million, Russia Condemns U.N. Crimea Resolution, Possible MH370 Debris Spotted
+                      </a>
+                      <span pid="234666" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/matthew-feeney/all">
+                        Matthew Feeney
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-28T13:00:00+00:00">
+                        March 28, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234667">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960108773074734_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/28/pentagon-wars-come-and-go-but-war-fundin">
+                        Pentagon: Wars Come and Go but War FUNDING Should Be Forever!
+                      </a>
+                      <span pid="234667" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/nick-gillespie/all">
+                        Nick Gillespie
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-28T12:47:00+00:00">
+                        March 28, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234620">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13959534983074384_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/27/finally-a-border-solution-that-satisfies">
+                        Finally, a Border Solution That Satisfies Everybody
+                      </a>
+                      <span pid="234620" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/jd-tuccille/all">
+                        J.D. Tuccille
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-27T21:07:00+00:00">
+                        March 27, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234615">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13960161833073684_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/27/rand-paul-sets-up-nationwide-network-for">
+                        Rand Paul Sets Up Nationwide Network for 2016, Law Firm Say Christie Wasn't Involved in Bridge Scandal, IMF To Give Ukraine $14-18 Billion: P.M. Links
+                      </a>
+                      <span pid="234615" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/zenon-evans/all">
+                        Zenon Evans
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-27T20:30:00+00:00">
+                        March 27, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post" data-csid="rcm234617">
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/27/gmu-prof-tyler-cowen-attacker-identified">
+                        Economist Tyler Cowen's Attacker Identified as John Pendleton
+                      </a>
+                      <span pid="234617" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/elizabeth-nolan-brown/all">
+                        Elizabeth Nolan Brown
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-27T20:19:00+00:00">
+                        March 27, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234604">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13959412283073394_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/27/domestic-violence-defined-supreme-court">
+                        Supreme Court Tackles Definition of Domestic Violence
+                      </a>
+                      <span pid="234604" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/elizabeth-nolan-brown/all">
+                        Elizabeth Nolan Brown
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-27T17:50:00+00:00">
+                        March 27, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234611">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13959417763073444_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/27/give-someone-a-ride-get-arrested-san-ant">
+                        Give Someone a Ride, Get Arrested: San Antonio Threatens Lyft
+                      </a>
+                      <span pid="234611" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/brian-doherty/all">
+                        Brian Doherty
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-27T17:35:00+00:00">
+                        March 27, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234585">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13958712013071964_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/archives/2014/03/27/the-iranian-threat-that-never-was">
+                        The Iranian Nuclear Threat That Never Was
+                      </a>
+                      <span pid="234585" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/sheldon-richman/all">
+                        Sheldon Richman
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-27T17:30:00+00:00">
+                        March 27, 2014
+                      </time>
+                    </p>
+                  </header>
+                  <div class="postcontent">
+                    <p>
+                      Does Iran really want nuclear weapons?
+                    </p>
+                  </div>
+                </article>
+                <article class="post pic90" data-csid="rcm234601">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13959346113072944_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/27/how-many-people-will-end-up-enrolled-und">
+                        How Many People Will End Up Enrolled Under Obamacare? We Don’t Know—and It May Be a While Before We Do
+                      </a>
+                      <span pid="234601" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/peter-suderman/all">
+                        Peter Suderman
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-27T16:48:00+00:00">
+                        March 27, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234606">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13959371183073144_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/27/ron-paul-vs-students-for-liberty-preside">
+                        Ron Paul vs. Students For Liberty President: Crimea's Real Crisis?
+                      </a>
+                      <span pid="234606" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/zenon-evans/all">
+                        Zenon Evans
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-27T16:45:00+00:00">
+                        March 27, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234578">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13958794193071624_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/reasontv/2014/03/27/why-texas-is-booming">
+                        Why Texas is Booming: How Low Taxes &amp; Small Government Are Transforming the Lone Star State
+                      </a>
+                      <span pid="234578" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/alexis-garcia/all">
+                        Alexis Garcia
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-27T15:30:00+00:00">
+                        March 27, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234600">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13959330753072754_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/27/old-man-harry-reid-mimics-your-it-guy-de">
+                        Old Man Harry Reid Mimics Your IT Guy Defending Obamacare Site
+                      </a>
+                      <span pid="234600" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/scott-shackford/all">
+                        Scott Shackford
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-27T15:12:00+00:00">
+                        March 27, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+                <article class="post pic90" data-csid="rcm234598">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13959308493072804_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/archives/2014/03/27/ban-bossy-a-bad-remedy">
+                        'Ban Bossy': A Bad Remedy for a Fictional Problem
+                      </a>
+                      <span pid="234598" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/cathy-young/all">
+                        Cathy Young
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-27T15:00:00+00:00">
+                        March 27, 2014
+                      </time>
+                    </p>
+                  </header>
+                  <div class="postcontent">
+                    <p>
+                      Using girls as props for activism that schools them in invented victimhood is not feminist advocacy, it’s feminist malpractice.
+                    </p>
+                  </div>
+                </article>
+                <article class="post pic90" data-csid="rcm234596">
+                  <img width="92" height="69" src="http://cloudfront-assets.reason.com/assets/db/13959294253072654_tm.jpg" alt="" class="left"/>
+                  <header class="mainheading">
+                    <h2 class="title">
+                      <a href="http://reason.com/blog/2014/03/27/minnesota-governor-to-parents-of-sick-ch">
+                        Minnesota Governor to Parents of Sick Children: Go Buy Some Marijuana on the Street
+                      </a>
+                      <span pid="234596" class="editor">
+                      </span>
+                    </h2>
+                    <p class="byline">
+                      <a rel="author" href="http://reason.com/people/ed-krayewski/all">
+                        Ed Krayewski
+                      </a>
+                      <span class="pipe">
+                        |
+                      </span>
+                      <time datetime="2014-03-27T14:46:00+00:00">
+                        March 27, 2014
+                      </time>
+                    </p>
+                  </header>
+                </article>
+              </section>
+              <p class="archiveslink ">
+                <a href="http://reason.com/search?f%5Bpagetype%5D%5B0%5D=all-magazine-articles&amp;f%5Bpagetype%5D%5B1%5D=all-reasontv-videos&amp;f%5Bpagetype%5D%5B2%5D=brickbats&amp;f%5Bpagetype%5D%5B3%5D=customer-support-and-general-pages&amp;f%5Bpagetype%5D%5B4%5D=hit-and-run-posts&amp;f%5Bpagetype%5D%5B5%5D=reason-rupe-poll-posts&amp;f%5Bpagetype%5D%5B6%5D=web-articles&amp;p=1&amp;q=us&amp;s=-pubdate">
+                  VIEW MORE SEARCH RESULTS
+                </a>
+              </p>
+            </div>
+          </form>
+          <div class="grid_8" id="right-col">
+            <aside id="topstoriessidebar">
+              <h2>
+                TOP STORIES
+              </h2>
+              <ul class="selector">
+                <li class="active">
+                  <a data-category="featured">
+                    Featured
+                  </a>
+                </li>
+                <li>
+                  <a data-category="viewed">
+                    Most Visited
+                  </a>
+                </li>
+                <li>
+                  <a data-category="commented">
+                    Most Commented
+                  </a>
+                </li>
+              </ul>
+              <div class="inner">
+                <ul data-category="featured" class="stories">
+                  <li>
+                    <a href="http://reason.com/archives/2014/03/30/college-football-unionization-decision-o">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307560" src="http://cloudfront-assets.reason.com/assets/db/13960246613075604_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/30/college-football-unionization-decision-o">
+                        College Football Unionization Decision Opens a Can of Worms
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <time datetime="2014-03-30T16:00:00+00:00">
+                        3.30.14 12:00 pm
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="http://reason.com/archives/2014/03/30/rand-paul-is-divergent-and-so-must-be-st">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307695" src="http://cloudfront-assets.reason.com/assets/db/13961881873076954_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/30/rand-paul-is-divergent-and-so-must-be-st">
+                        Rand Paul is "Divergent" and So Must be Stopped!
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <time datetime="2014-03-30T14:30:00+00:00">
+                        3.30.14 10:30 am
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="http://reason.com/archives/2014/03/30/obamas-iraqi-fairy-tale">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307506" src="http://cloudfront-assets.reason.com/assets/db/13960157623075064_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/30/obamas-iraqi-fairy-tale">
+                        Obama's Iraqi Fairy Tale
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <time datetime="2014-03-30T12:00:00+00:00">
+                        3.30.14 8:00 am
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="http://reason.com/blog/2014/03/28/6-unanswered-questions-about-obamacare">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307565" src="http://cloudfront-assets.reason.com/assets/db/13960248013075654_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/28/6-unanswered-questions-about-obamacare">
+                        6 Big Unanswered Questions About Obamacare
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <time datetime="2014-03-28T17:20:00+00:00">
+                        3.28.14 1:20 pm
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="http://reason.com/blog/2014/03/29/ex-cop-everyone-behaves-better-when-they">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307650" src="http://cloudfront-assets.reason.com/assets/db/13960423603076504_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/29/ex-cop-everyone-behaves-better-when-they">
+                        Ex Cop: Everyone Behaves Better When They're on Video
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <time datetime="2014-03-29T19:00:00+00:00">
+                        3.29.14 3:00 pm
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                </ul>
+                <ul style="display:none" data-category="viewed" class="stories">
+                  <li>
+                    <a href="http://reason.com/blog/2014/03/28/fda-new-rules-on-spent-grains-for-farms">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307620" src="http://cloudfront-assets.reason.com/assets/db/13960381053076204_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/28/fda-new-rules-on-spent-grains-for-farms">
+                        FDA Moves to Stop Sharing Between Beer Makers and Farmers
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <a href="http://reason.com/people/elizabeth-nolan-brown/all">
+                        Elizabeth Brown
+                      </a>
+                      <span class="pipe">
+                         | 
+                      </span>
+                      <time datetime="2014-03-28T20:39:00+00:00">
+                        3.28.14 4:39 pm
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="http://reason.com/blog/2014/03/28/sixth-grade-whiz-figures-out-how-to-save">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307585" src="http://cloudfront-assets.reason.com/assets/db/13960271813075854_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/28/sixth-grade-whiz-figures-out-how-to-save">
+                        Sixth Grade Whiz Figures Out How to Save the Government Almost $400 Million by Changing Fonts
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <a href="http://reason.com/people/peter-suderman/all">
+                        Peter Suderman
+                      </a>
+                      <span class="pipe">
+                         | 
+                      </span>
+                      <time datetime="2014-03-28T17:43:00+00:00">
+                        3.28.14 1:43 pm
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="http://reason.com/blog/2014/03/28/6-unanswered-questions-about-obamacare">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307565" src="http://cloudfront-assets.reason.com/assets/db/13960248013075654_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/28/6-unanswered-questions-about-obamacare">
+                        6 Big Unanswered Questions About Obamacare
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <a href="http://reason.com/people/peter-suderman/all">
+                        Peter Suderman
+                      </a>
+                      <span class="pipe">
+                         | 
+                      </span>
+                      <time datetime="2014-03-28T17:20:00+00:00">
+                        3.28.14 1:20 pm
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="http://reason.com/archives/2014/03/24/the-3d-economy">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 306350" src="http://cloudfront-assets.reason.com/assets/db/13954245933063504_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/24/the-3d-economy">
+                        The 3D Economy
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <a href="http://reason.com/people/greg-beato/all">
+                        Greg Beato
+                      </a>
+                      <span class="pipe">
+                         | 
+                      </span>
+                      <time datetime="2014-03-24T13:30:00+00:00">
+                        3.24.14 9:30 am
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="http://reason.com/archives/2014/03/30/rand-paul-is-divergent-and-so-must-be-st">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307695" src="http://cloudfront-assets.reason.com/assets/db/13961881873076954_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/30/rand-paul-is-divergent-and-so-must-be-st">
+                        Rand Paul is "Divergent" and So Must be Stopped!
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <a href="http://reason.com/people/nick-gillespie/all">
+                        Nick Gillespie
+                      </a>
+                      <span class="pipe">
+                         | 
+                      </span>
+                      <time datetime="2014-03-30T14:30:00+00:00">
+                        3.30.14 10:30 am
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                </ul>
+                <ul style="display:none" data-category="commented" class="stories">
+                  <li>
+                    <a href="http://reason.com/blog/2014/03/30/obamacares-legal-and-practical-tribulati">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307675" src="http://cloudfront-assets.reason.com/assets/db/13961009483076754_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/30/obamacares-legal-and-practical-tribulati">
+                        Obamacare’s Legal and Practical Tribulations Last Week, Plus 
+                        <em>
+                          Independents
+                        </em>
+                         Re-Re-Run Open Thread for “Rise of the Machines”
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <a href="http://reason.com/people/matt-welch/all">
+                        Matt Welch
+                      </a>
+                      <span class="pipe">
+                         | 
+                      </span>
+                      <time datetime="2014-03-30T22:01:00+00:00">
+                        3.30.14 6:01 pm
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="http://reason.com/archives/2014/03/30/college-football-unionization-decision-o">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307560" src="http://cloudfront-assets.reason.com/assets/db/13960246613075604_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/30/college-football-unionization-decision-o">
+                        College Football Unionization Decision Opens a Can of Worms
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <a href="http://reason.com/people/sm-oliva/all">
+                        S.M. Oliva
+                      </a>
+                      <span class="pipe">
+                         | 
+                      </span>
+                      <time datetime="2014-03-30T16:00:00+00:00">
+                        3.30.14 12:00 pm
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="http://reason.com/blog/2014/03/29/rep-beto-orourke-on-constitution-free-zo">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307670" src="http://cloudfront-assets.reason.com/assets/db/13960986753076704_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/29/rep-beto-orourke-on-constitution-free-zo">
+                        Rep. Beto O’Rourke on “Constitution-free zones” at the Border; Plus 
+                        <em>
+                          Independents
+                        </em>
+                         Re-Run Open Thread for “Rise of the Machines”!
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <a href="http://reason.com/people/matt-welch/all">
+                        Matt Welch
+                      </a>
+                      <span class="pipe">
+                         | 
+                      </span>
+                      <time datetime="2014-03-29T22:01:00+00:00">
+                        3.29.14 6:01 pm
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="http://reason.com/archives/2014/01/08/baltimores-edifice-complex">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 286041" src="http://cloudfront-assets.reason.com/assets/db/13891985482860414_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/01/08/baltimores-edifice-complex">
+                        Harbor Point and Baltimore's Taxpayer-Funded Edifice Complex
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <a href="http://reason.com/people/todd-krainin/all">
+                        Todd Krainin
+                      </a>
+                      <span class="pipe">
+                         | 
+                      </span>
+                      <time datetime="2014-01-09T04:32:00+00:00">
+                        1.08.14 11:32 pm
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="http://reason.com/archives/2014/03/29/house-raw-milk-bills-give-hope-to-farmer">
+                      <img width="90" height="70" alt="Automatically created thumbnail for Asset # 307640" src="http://cloudfront-assets.reason.com/assets/db/13960418503076404_tm.jpg"/>
+                    </a>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/29/house-raw-milk-bills-give-hope-to-farmer">
+                        House Raw Milk Bills Give Hope to Farmers, Consumers
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      <a href="http://reason.com/people/baylen-linnekin/all">
+                        Baylen Linnekin
+                      </a>
+                      <span class="pipe">
+                         | 
+                      </span>
+                      <time datetime="2014-03-29T12:00:00+00:00">
+                        3.29.14 8:00 am
+                      </time>
+                    </p>
+                    <div class="clear">
+                    </div>
+                  </li>
+                </ul>
+                <script>
+//<![CDATA[
+
+$(function(){
+	$("#topstoriessidebar .selector a").click(function(e){
+		var $this=$(this), catref = $this.attr("data-category"),
+			$sidebar = $this.parent().parent().parent();
+		e.preventDefault();
+		$sidebar.find('&gt; .selector &gt; li').removeClass('active');
+		$this.parent().addClass('active');
+		$sidebar.find('&gt; .inner &gt; .stories').hide().filter('[data-category='+catref+']').show();
+	});
+});
+
+//]]>
+                </script>
+              </div>
+            </aside>
+            <aside class="ad">
+              <div id="google_ads_div_Search_Rectangle">
+                <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function(){googletag.display("google_ads_div_Search_Rectangle");});
+
+//]]>
+                </script>
+              </div>
+            </aside>
+            <div data-client="214" id="nmWidgetContainer">
+            </div>
+            <script src="http://cdn.nmcdn.us/js/connect.js">
+            </script>
+            <script type="text/javascript">
+//<![CDATA[
+
+NM.init({ClientID: 214});
+
+//]]>
+            </script>
+            <p class="adtitle">
+              advertisement
+            </p>
+            <aside class="ad left">
+              <div id="google_ads_div_Search_Skyscraper">
+                <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function(){googletag.display("google_ads_div_Search_Skyscraper");});
+
+//]]>
+                </script>
+              </div>
+            </aside>
+            <aside class="ad right">
+              <div id="google_ads_div_Search_Mini-Skyscraper">
+                <script type="text/javascript">
+//<![CDATA[
+
+googletag.cmd.push(function(){googletag.display("google_ads_div_Search_Mini-Skyscraper");});
+
+//]]>
+                </script>
+              </div>
+            </aside>
+          </div>
+          <div class="clear">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="topics1">
+        <div class="inner">
+          <div class="container_24">
+            <div class="dividers">
+              <!--Breaking up results for proper formatting-->              <section class="grid_6">
+                <!--For rupe poll and staff reviews -->                <h2>
+                  <a href="http://reason.com/tags/chris-christie">
+                    Chris Christie
+                  </a>
+                </h2>
+                <ul>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/24-7/2014/03/28/nj-port-authority-chair-resigns-but-chri">
+                        NJ Port Authority Chair Resigns, But Christie Says Everything’s Just Fine, at Least for Him
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Scott Shackford
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/28/anthony-weiner-when-it-comes-to-regulati">
+                        Anthony Weiner: When It Comes to Regulations, Tesla and Other Tech Companies Should Shut Up and Take It
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Ed Krayewski
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/19/chris-christie-not-willing-to-legalize">
+                        Chris Christie Worried About “Profit Motive” of Medical Marijuana Dispensaries
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Ed Krayewski
+                    </p>
+                  </li>
+                </ul>
+              </section>
+              <!--Breaking up results for proper formatting-->              <section class="grid_6">
+                <!--For rupe poll and staff reviews -->                <h2>
+                  <a href="http://reason.com/tags/barack-obama">
+                    Barack Obama
+                  </a>
+                </h2>
+                <ul>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/30/would-obama-kiss-justin-beiber-to-promot">
+                        Would Obama Kiss Justin Bieber to Promote Healthcare.gov?
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Nick Gillespie
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/30/obamas-iraqi-fairy-tale">
+                        Obama's Iraqi Fairy Tale
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Sheldon Richman
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/28/mark-kleiman-says-i-show-my-red-team-loy">
+                        Mark Kleiman Says I Show My Red Team Loyalties by Criticizing Republicans
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Jacob Sullum
+                    </p>
+                  </li>
+                </ul>
+              </section>
+              <!--Breaking up results for proper formatting-->              <section class="grid_6">
+                <!--For rupe poll and staff reviews -->                <h2>
+                  <a href="http://reason.com/tags/marijuana">
+                    Marijuana
+                  </a>
+                </h2>
+                <ul>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/27/more-pot-less-crime-medical-marijuana-st">
+                        More Pot, Less Crime: Medical Marijuana States See Drops in Assaults and Homicides
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Jacob Sullum
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/27/minnesota-governor-to-parents-of-sick-ch">
+                        Minnesota Governor to Parents of Sick Children: Go Buy Some Marijuana on the Street
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Ed Krayewski
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/26/if-you-dont-want-a-swat-team-at-your-doo">
+                        If You Don't Want a SWAT Team at Your Door, You Shouldn't Be Drinking Tea
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Jacob Sullum
+                    </p>
+                  </li>
+                </ul>
+              </section>
+              <!--Breaking up results for proper formatting-->              <section class="grid_6">
+                <!--For rupe poll and staff reviews -->                <h2>
+                  <a href="http://reason.com/tags/nsa">
+                    NSA
+                  </a>
+                </h2>
+                <ul>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/29/tap-it-the-nsa-slow-jam-featuring-goremy">
+                        Tap It: The NSA Slow Jam (featuring @goremy)
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Meredith  Bragg &amp; Remy
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/28/goodbye-to-rep-mike-rogers">
+                        Wave Goodbye to Horrible, Surveillance-Defending, Snowden-Slamming Rep. Mike Rogers
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Scott Shackford
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/03/28/justin-amash-unimpressed-with-obamas-nsa">
+                        Justin Amash Unimpressed With Obama’s NSA Reforms
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Matt Welch
+                    </p>
+                  </li>
+                </ul>
+              </section>
+              <!--Breaking up results for proper formatting-->              <div class="clear">
+              </div>
+            </div>
+            <div class="dividers">
+              <section class="grid_6">
+                <!--For rupe poll and staff reviews -->                <h2>
+                  <a href="http://reason.com/tags/state-of-the-union">
+                    State of the Union
+                  </a>
+                </h2>
+                <ul>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/02/06/give-america-a-raise">
+                        Give America a Raise?
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Sheldon Richman
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/01/31/obamas-opportunity-richer-or-more-equal">
+                        Obama's 'Opportunity' Makes Everybody Less Well Off
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Ronald Bailey
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/blog/2014/01/31/ronald-bailey-suggests-that-obama-opport">
+                        Ronald Bailey Says Obama's 'Opportunity' Makes Everybody Less Well Off
+                      </a>
+                    </h3>
+                  </li>
+                </ul>
+              </section>
+              <!--Breaking up results for proper formatting-->              <section class="grid_6">
+                <!--For rupe poll and staff reviews -->                <h2>
+                  <a href="http://reason.com/tags/minimum-wage">
+                    Minimum Wage
+                  </a>
+                </h2>
+                <ul>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/24/obamas-overtime-gambit">
+                        Obama's Overtime Gambit
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Steve Chapman
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/17/obamas-corporate-bully-pulpit">
+                        Obama’s Corporate Bully Pulpit
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Ira Stoll
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/24-7/2014/03/13/obama-wants-more-americans-to-qualify-fo">
+                        Obama Wants More Americans to Qualify for Overtime – Would His Plan Actually Work?
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Scott Shackford
+                    </p>
+                  </li>
+                </ul>
+              </section>
+              <!--Breaking up results for proper formatting-->              <section class="grid_6">
+                <!--For rupe poll and staff reviews -->                <h2>
+                  <a href="http://reason.com/poll">
+                    Reason-Rupe Poll
+                  </a>
+                </h2>
+                <ul>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/poll/2014/03/11/hispanics-dont-hate-republicans2">
+                        Hispanics Don’t Hate Republicans
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Emily Ekins
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/poll/2014/02/11/top-nfl-prospect-michael-sam-says-hes-g2">
+                        Top NFL Prospect Michael Sam Says He’s Gay
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Emily Ekins
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/poll/2014/01/28/72-percent-favor-raising-minimum-wage-bu">
+                        Americans Will Only Support Obama’s Minimum Wage Increase If It Doesn’t Harm Jobs
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Emily Ekins
+                    </p>
+                  </li>
+                </ul>
+              </section>
+              <!--Breaking up results for proper formatting-->              <section class="grid_6">
+                <!--For rupe poll and staff reviews -->                <h2>
+                  <a href="http://reason.com/tags/staff-reviews">
+                    Staff Reviews
+                  </a>
+                </h2>
+                <ul>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/28/noah">
+                        <em>
+                          Noah
+                        </em>
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Kurt Loder
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/26/the-war-on-fun">
+                        The War on Fun
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Abby Wisse  Schachter
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://reason.com/archives/2014/03/23/how-people-behave-in-virtual-worlds">
+                        How People Behave in Virtual Worlds: A Review of 
+                        <em>
+                          The Proteus Paradox
+                        </em>
+                      </a>
+                    </h3>
+                    <p class="meta">
+                      Bryan Alexander
+                    </p>
+                  </li>
+                </ul>
+              </section>
+              <div class="clear">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container_24" id="footer1">
+        <nav class="grid_6">
+          <h2>
+            Donate:
+          </h2>
+          <ul>
+            <li>
+              <a href="https://www.reason.com/donatenow/donate.php">
+                Donate Online
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/donate-via-fax-or-mail">
+                Donate via Fax or Mail
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/why-support-reason">
+                Why Support Reason?
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/donation-faq">
+                Donation FAQ
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/securities-donations">
+                Stock Donations
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/planned-giving">
+                Planned Giving
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/shop">
+                Shop to Support Reason
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="grid_6">
+          <h2>
+            Links:
+          </h2>
+          <ul>
+            <li>
+              <a href="http://reason.com/">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/about">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.org">
+                Reason Foundation
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/covers">
+                Cover Gallery
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/reasontv">
+                Reason TV
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.org/events">
+                Events
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/advertise">
+                Advertise
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/staff">
+                Staff
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/contributors">
+                Contributors
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/widgets">
+                Widgets
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="grid_6">
+          <h2>
+            Subscribe:
+          </h2>
+          <ul>
+            <li>
+              <a href="https://reason.com/subscribe">
+                Subscribe to the Print Magazine
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/reason-mobile-apps">
+                Reason Mobile Apps
+              </a>
+            </li>
+            <li>
+              <a href="http://itunes.apple.com/us/app/reason-magazine/id494303675?mt=8">
+                Apple Newsstand
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/reason-magazine-on-ereader">
+                E-Reader Subscriptions
+              </a>
+            </li>
+            <li>
+              <a href="https://reason.com/subscribe">
+                Give Reason as a Gift
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/covers">
+                Back Issues
+              </a>
+            </li>
+            <li>
+              <a href="https://reason.com/subserve">
+                Subscription Services
+              </a>
+            </li>
+            <li>
+              <a href="mailto:malissi@reason.com?subject=SUBSCRIPTION">
+                Subscription Questions
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/reason-email-lists">
+                Email Newsletters
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <section class="grid_6">
+          <h2>
+            Contact:
+          </h2>
+          <ul>
+            <li>
+              <a href="mailto:hitandrun@reason.com">
+                News Tips
+              </a>
+            </li>
+            <li>
+              <a href="mailto:webmaster@reason.com">
+                Site Technology Questions
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com//flatpage/item/media-contact">
+                Media Inquiries
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com//flatpage/item/reprint-requests">
+                Reprint Permissions
+              </a>
+            </li>
+            <li>
+              <a href="http://reason.com/submissions">
+                Submissions
+              </a>
+            </li>
+          </ul>
+          <h3>
+            Editorial &amp; Production Offices
+          </h3>
+          <address>
+            
+	  5737 Mesmer Ave.
+            <br/>
+            
+	  Los Angeles, CA 90230
+            <br/>
+            
+	  (310) 391-2245
+	
+          </address>
+          <h3>
+            Washington Office
+          </h3>
+          <address>
+            
+	  1747 Connecticut Ave., NW
+            <br/>
+            
+	  Washington, DC 20009
+            <br/>
+            
+	  (202) 986-0916
+	
+          </address>
+        </section>
+        <div class="clear">
+        </div>
+      </div>
+      <div class="container_24" id="footer2">
+        <div class="grid_24">
+          <nav>
+            <ul>
+              <li>
+                <a href="http://reason.com/">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="http://reason.com/24-7">
+                  Reason 24/7
+                </a>
+              </li>
+              <li>
+                <a href="http://reason.com/reasontv">
+                  ReasonTV
+                </a>
+              </li>
+              <li>
+                <a href="http://reason.com/blog">
+                  Hit &amp; Run
+                </a>
+              </li>
+              <li>
+                <a href="http://reason.com/issues">
+                  Magazine
+                </a>
+              </li>
+              <li>
+                <a href="https://reason.com/subscribe">
+                  Subscribe
+                </a>
+              </li>
+              <li>
+                <a href="https://www.reason.com/donatenow/donate.php">
+                  Donate
+                </a>
+              </li>
+              <li>
+                <a href="http://reason.com/search">
+                  Advanced Search
+                </a>
+              </li>
+              <li>
+                <a href="http://reason.com/advertise">
+                  Advertise
+                </a>
+              </li>
+              <li>
+                <a href="http://reason.com/contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <p>
+            
+	  ©2012 Reason Foundation.
+            <span class="pipe">
+              |
+            </span>
+            <a href="http://reason.org">
+              reason.org
+            </a>
+            <span class="pipe">
+              |
+            </span>
+            <a href="/privacy">
+              privacy policy
+            </a>
+          </p>
+        </div>
+      </div>
+      <script>
+//<![CDATA[
+
+(function(){
+ function loadChartbeat() {
+   window._sf_endpt=(new Date()).getTime();
+   var e = document.createElement('script');
+   e.setAttribute('language', 'javascript');
+   e.setAttribute('type', 'text/javascript');
+   e.setAttribute('src',
+      (("https:" == document.location.protocol) ?
+"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" :
+"http://static.chartbeat.com/") +
+      "js/chartbeat.js");
+   document.body.appendChild(e);
+ }
+ var oldonload = window.onload;
+ window.onload = (typeof window.onload != 'function') ?
+    loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+
+//]]>
+      </script>
+      <script>
+//<![CDATA[
+
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-07wG_vRzPBWKE"
+});
+
+//]]>
+      </script>
+      <noscript>
+        &lt;div style="display:none;"&gt;
+&lt;img src="//pixel.quantserve.com/pixel/p-07wG_vRzPBWKE.gif" border="0" height="1" width="1" alt=""/&gt;
+&lt;/div&gt;
+
+      </noscript>
+    </footer>
+    <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" charset="utf-8" async="">
+    </script>
+    <script src="//apis.google.com/js/plusone.js" async="">
+    </script>
+    <div id="fb-root" class=" fb_reset">
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_http" allowtransparency="true" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="http://static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f88fa0430e86dc&amp;origin=http%3A%2F%2Freason.com">
+          </iframe>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_https" allowtransparency="true" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f88fa0430e86dc&amp;origin=http%3A%2F%2Freason.com">
+          </iframe>
+        </div>
+      </div>
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+        </div>
+      </div>
+    </div>
+    <script src="//connect.facebook.net/en_GB/all.js" id="facebook-jssdk" async="">
+    </script>
+    <ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 1; top: 0px; left: 0px; display: none;">
+    </ul>
+    <ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 1; top: 0px; left: 0px; display: none;">
+    </ul>
+    <div class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" id="ui-datepicker-div">
+    </div>
+    <script language="javascript" type="text/javascript" src="http://static.chartbeat.com/js/chartbeat.js">
+    </script>
+  </body>
+</html>

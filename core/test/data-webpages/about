@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html>
+  <head>
+    <title>
+      About.com Search - Find it now!
+    </title>
+    <link rel="stylesheet" href="http://0.tqn.com/f/f/a32/a.css" media="all"/>
+    <meta charset="ISO-8859-1"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="ROBOTS" content="NOODP"/>
+    <meta name="pd" content="Monday, 06-Jan-2014 14:00:32 UTC"/>
+    <link rel="canonical" href="http://search.about.com/"/>
+    <link rel="icon" href="http://0.tqn.com/f/a08.ico"/>
+    <link rel="search" type="application/opensearchdescription+xml" href="http://0.tqn.com/4g/o/os.xml" title="About.com"/>
+    <div class="kxhead" data-id="Itttdt64" style="display:none;">
+      <span class="kxtag kxinvisible" data-id="27344" data-alias="Krux Load Segments v2">
+        <script type="text/javascript" src="http://apiservices.krxd.net/user_data/segments/3?pubid=0f61e6a9-fba5-4842-9307-d0770a82362b&amp;technographics=1&amp;callback=Krux.ns._default.kxjsonp_userData">
+        </script>
+        <script type="text/javascript" src="http://www.google-analytics.com/plugins/ua/linkid.js" id="undefined">
+        </script>
+        <script type="text/javascript" src="//www.google-analytics.com/analytics.js">
+        </script>
+        <script src="//www.googletagmanager.com/gtm.js?id=GTM-W82XPQ">
+        </script>
+        <script type="text/javascript" src="//www.google.com/ads/search/module/ads/3.0/3d81dc54500f4c78bbd6344f71211248904658b9/n/search.js">
+        </script>
+        <script src="//www.google.com/adsense/search/async-ads.js">
+        </script>
+        <script type="text/javascript">
+//<![CDATA[
+
+// DFP premium
+(function(require) {
+  var store = require('store');
+  var _ = require('util');  
+  var segments;
+  
+  function handleUserDataResponse(r) {
+    // Handle the response as usual.
+    segments.handleUserDataResponse(r);
+    
+    // Override localStorage.kxuser with a case-insensitive value for DFP premium.
+    // This will get read by the interchange direct snippet for Krux.user
+    // and Krux.dfpKeyValues
+    if(r.kuid_long) {
+      store.set('user', r.kuid_long, store.DAYS*30);
+    }
+  }
+  
+  // Our own fetch uses our own handleResponse
+  function fetch() {
+    var options = {
+      url: _.get('url_userData'),
+      data: {pubid: _.get('pubid')},
+      callback: 'kxjsonp_userData',
+      done: handleUserDataResponse
+    };
+    if(!segments.readTechFromStore()) {
+      options.data.technographics = 1;
+    }
+    require('http').jsonp(options);  
+  }
+  
+  
+  if(!store.get('segWait')) {
+    // disable segments.fetch and use our own
+    _.set('segWait', 1, store.MINUTES*5);
+    _.onOnce('dom:load', fetch);
+    _.fire('user_data_fetch_scheduled');
+  }
+  
+  // Finally, require segments as usual.
+  segments = require('segments');
+}(Krux.require));
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="27829" data-alias="Krux Data Transfer Code - About">
+        <script>
+//<![CDATA[
+
+// Using Meta keywords to produce page attribute keywords
+Krux('scrape', { "page_attr_keywords": {meta_name: "keywords"}});
+// Using Globals ch to produce page attribute ch
+Krux('scrape', { "page_attr_ch": {js_global: "ch"}});
+// Using Globals gs to produce page attribute gs
+Krux('scrape', { "page_attr_gs": {js_global: "gs"}});
+// Using Globals cat0 to produce page attribute cat0
+Krux('scrape', { "page_attr_cat0": {js_global: "cat0"}});
+// Using Globals zGH to produce page attribute zgh
+Krux('scrape', { "page_attr_zgh": {js_global: "zGH"}});
+// Using Globals zWl to produce page attribute zwl
+Krux('scrape', { "page_attr_zwl": {js_global: "zWl"}});
+//Setsection/subsection
+  Krux('set',{
+    section:Krux('get','page_attr_ch'),
+    subsection:Krux('get','page_attr_gs') 
+  });
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="27410" data-alias="Acxiom S2S provider tag">
+        <script>
+//<![CDATA[
+
+(function(){
+  var kuid = Krux('get', 'user');
+  if (kuid) {
+    Krux('require:http').pixel({
+      url: "//p.acxiom-online.com/pixel/sci",
+      data: {
+          uid: kuid,
+          _kdpid: 'f19b7626-3732-4dcc-bac5-8d2c937dae9a',
+          pid: 3021
+      }});
+  }
+  })();
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="27411" data-alias="DataLogix provider tag">
+        <script>
+//<![CDATA[
+
+(function(){
+  var kuid = Krux('get', 'user');
+  if (kuid) {
+    Krux('require:http').pixel({
+      url: "//krxd.nexac.com/dlx.gif",
+      data: {
+          _kdpid: '2dd640a6-6ebd-4d4f-af30-af8baa441a0d',
+          kuid: kuid
+      }});
+  }
+  })();
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="27412" data-alias="Bizo provider tag">
+        <script>
+//<![CDATA[
+
+(function(){
+  if (window.KRUX) {
+    var pubid = KRUXSetup.pubid;
+  } else if (window.Krux) {
+    var pubid = Krux('get', 'pubid');
+  } else { 
+    return;
+  }
+  var prefix = location.protocol == 'https:' ? "https:" : "http:";
+  var kurl = prefix + '//beacon.krxd.net/data.gif?_kdpid=890a6228-04af-4630-85b6-0b49dee6157f&pid=' + pubid;
+  var u = prefix + '//api.bizographics.com/v1/profile.redirect?api_key=595bae8dbc0c4c42b4544e688b10c002' + 
+        '&callback_url=' + escape(kurl);
+  var i = new Image();
+  i.src = u;
+})();
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="27413" data-alias="eXelate Media provider tag">
+        <script>
+//<![CDATA[
+
+(function(){
+  var kuid = Krux('get', 'user');
+  if (kuid) {
+    Krux('require:http').pixel({
+      url: "//loadm.exelator.com/load",
+      data: {
+          _kdpid: 'e4942ff0-4070-4896-a7ef-e6a5a30ce9f9',
+          buid: kuid,
+          p: '204',
+          g: '270',
+          j: '0'
+      }});
+  }
+  })();
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="27342" data-alias="Technographic Data provider tag">
+        <script>
+//<![CDATA[
+
+// this tag is intentionally blank
+
+//]]>
+        </script>
+      </span>
+      <span class="kxtag kxinvisible" data-id="27343" data-alias="Krux Geographic Data provider tag">
+      </span>
+    </div>
+    <script src="//cdn.krxd.net/ctjs/controltag.js.71720528ed400e824115e431824ce5ed">
+    </script>
+    <script type="text/javascript" src="http://cdn.krxd.net/controltag?confid=Itttdt64">
+    </script>
+    <script>
+//<![CDATA[
+var ziRfw=0;zobt="More Search Results Ads";zOBT=" Ads";function zIpSS(u){zpu(0,u,280,375,"ssWin")}function zIlb(l,t,f){zT(l,'18/1Pp/wX')}function rsi(i,h,w){if(gEI(i)){if(h)gEI(i).height=h;if(w)gEI(i).width=w}}
+//]]>
+    </script>
+    <style>
+      #ad1,#ad2{margin-top:17px;margin-left:-4px}
+    </style>
+    <script>
+//<![CDATA[
+zGCID=this.zGCID?zGCID+" test27":" test27"
+//]]>
+    </script>
+    <link rel="stylesheet" href="http://0.tqn.com/0g/dc/s.css?v=2&amp;t=21" media="all"/>
+    <!--[if lt IE 8]><link rel="stylesheet" href="http://0.tqn.com/8g/dc/rdie.css" type="text/css" media="all"><![endif]-->    <meta http-equiv="pics-Label" content="(pics-1.1 &quot;http://www.icra.org/pics/vocabularyv03/&quot; l gen true for &quot;http://search.about.com&quot; r (n 0 s 0 v 0 l 0 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 0) gen true for &quot;http://search.about.com&quot; r (n 0 s 0 v 0 l 0 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 0))"/>
+    <meta property="fb:app_id" content="121030274606741"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:site_name" content="About.com Search Results"/>
+    <meta property="og:url" content="http://search.about.com/?q=ibm"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@aboutdotcom"/>
+    <meta property="og:image" content="http://0.tqn.com/f/ga/1/about-default-share-large.jpg"/>
+    <meta name="twitter:image" content="http://0.tqn.com/f/ga/1/about-default-share-small.jpg"/>
+    <script>
+//<![CDATA[
+zWASL=1;zGRH=1;var zSBT='Ads'
+//]]>
+    </script>
+    <style>
+      .gB{line-height:1.5}.tr #oF{margin:0;color:#666}#abc #sidebar,#abc .sb{margin-top:.5em}#tt26 .entry .gB p{margin:0}@media screen and (-webkit-min-device-pixel-ratio:0){#abc #sidebar,#abc #sb1.sb,#abc #sb2.sb{margin-top:1.5em}#tt0 #abc #sidebar{margin-top:.5em}}#abw .gB .u,#abw .gB .u:hover{display:block}#tt56 #index{margin-top: 2em}.vdNotice{color:#666;font-style: italic;}
+    </style>
+    <script class="kxct" data-id="Itttdt64" data-timing="async" data-version="1.9" type="text/javascript">
+//<![CDATA[
+window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);(function(){var k=document.createElement('script');k.type='text/javascript';k.async=true;var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);k.src=/^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :(location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=Itttdt64";var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);}());
+//]]>
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="description" content="Search the power of About's network of topics"/>
+    <meta name="keywords" content="search directory search engine About About.com ibm"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+function ss(w){window.status=w;return true;}
+function cs(){window.status='';}
+zGPU='http://www.about.com/'
+
+//]]>
+    </script>
+    <style>
+      #spg{text-align:right;float:right}#tt21 h3{color:#666;font:bold 20px/1.2 Verdana;margin:0 0 .2em}
+#gB5.gB{width:80%}#gB5 div.p{margin:8px 0 0 0}#gB5 .d .u{ display:inline;padding:0 25px 0 0}.slk{margin-top:4px;margin-bottom:0px}#abf{margin:1.5em 0}pre,.nd .ma .h2{display:none}#abf .gs,#abh .gs{width:600px;margin-right:180px;float:right}.nd .ma {display:block;width:157px;float:left}.nd .gs input{font-size:16px;font-weight:bold;width:495px;float:left}#tt21 h3{display:none}.ds{position:absolute;top:-25px;right:-10px;font-size:10px}.ds b{font-weight:normal}#gB5.gB{background-color:#F7FAFC;margin-top:10px;margin-left:-10px;padding-left:10px}#tt21 #abc #spg{position:absolute;bottom:68px;right:0;font-size:10px}.pg{padding:10px 0;}.gsearch{display:none}.ct{clear:both}.nd #abf{padding:0 15px 15px}#gB5.gB h5{float:right;padding:5px;font-size:11px;font-weight:normal}#tt21 #ntwk{padding-bottom:0}
+#abw .gB .t,.res a,#abw .gB .t:hover,.res a:hover{font-size:16px;font-weight:normal}
+
+
+    </style>
+    <style>
+      #ntwk{visibility:hidden}#ad1{margin-top:12px}
+    </style>
+    <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+
+  (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+   arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+   O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+  e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+
+//]]>
+    </script>
+  </head>
+  <body id="tt21" class="gts  specials nd">
+    <noscript>
+      &lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-W82XPQ" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
+    </noscript>
+    <script>
+//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W82XPQ');
+//]]>
+    </script>
+    <script language="JavaScript">
+//<![CDATA[
+
+<!--
+zSt='';zGz='g'
+ch='specials';gs='search';xg="Search Results";zcs='';
+zFDT='0'
+zFST='0'
+zKwR=''
+zOr='E1F93o2J20kAR2kN';zTbO=zRQO=1;zp0=zp1=zp2=zp3=zfs=0;zDc=1;
+zSm=zSu=zhc=zpb=zgs=zdn='';zD336=11;zFS='E1F10E10110E00101';zFD='E1F20E10210E00201'
+zDO=zis=1;zpid=zi=zRf=ztp=zpo=0;zdx=20;zfx=100;zJs=0;
+zi=1;zz=';72890=2-1-1299;272890=2-1-1299;93048=2-1-12-1;';zx='3-1-1399';zde=10;zdp=1440;zds=1440;zfp=0;zfs=100;zfd=100;zdd=20;zDc=1;;zDO=1;;;zhc='';zGTH=1;zGOW=0;xd=0;zap="p=1;";zAth='';zAthG='';zTt='21';zir=''
+zBT=2
+zBTS=4
+zBsT=5
+zBTds='74'
+zBTr='45'
+zCT=0
+zGo=1;zG=1;zTac=0;zDot=0;
+zGR='aj-about-'+(zG&16?'premium':'basic');if(!this.uy)uy='about.com';if(typeof document.domain!="undefined")document.domain=uy;//-->
+
+//]]>
+    </script>
+    <script language="JavaScript" src="http://0.tqn.com/0g/js/cj018x1t6e15.js?rdv=j25">
+    </script>
+    <script>
+//<![CDATA[
+function zob(p){if(!this.zOfs)return;var a=zOfs,t,i=0,l=a.length;if(l){w('<div id="oF"><b>'+(this.zobt?zobt:xg+' Ads')+'</b><ul>');while((i<l)&&i<zRad){t=a[i++].line1;w('<li><a href="/z/js/o'+(p?p:'')+'.htm?k='+zUriS(t.toLowerCase())+(this.zobr?zobr:'')+'&d='+zUriS(t)+'&r='+zUriS(zWl)+'" target="_'+(this.zOBNW?'new'+zr(9999):'top')+'">'+t+'</a></li>');}w('</ul></div>')}}
+//]]>
+    </script>
+    <script class="kxint" type="text/javascript">
+//<![CDATA[
+window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);(function(){function retrieve(n){var m,k='kx'+n;if(window.localStorage){return window.localStorage[k]||"";}else if(navigator.cookieEnabled){m=document.cookie.match(k+'=([^;]*)');return(m && unescape(m[1]))||"";}else{return '';}}Krux.user=retrieve('user');Krux.segments=retrieve('segs')?retrieve('segs').split(','):[];var dfpp=[];if(Krux.user){dfpp.push('khost='+encodeURIComponent(location.hostname));dfpp.push('kuid='+Krux.user);}for(var i=0;i<Krux.segments.length;i++){dfpp.push('ksg='+Krux.segments[i]);}Krux.dfppKeyValues=dfpp.length?dfpp.join(';')+';':'';})();zap+=Krux.dfppKeyValues;
+//]]>
+    </script>
+    <script language="JavaScript">
+//<![CDATA[
+zJs=10
+//]]>
+    </script>
+    <script language="JavaScript1.1">
+//<![CDATA[
+zJs=11
+//]]>
+    </script>
+    <script language="JavaScript1.2">
+//<![CDATA[
+zJs=12
+//]]>
+    </script>
+    <script language="JavaScript1.3">
+//<![CDATA[
+zJs=13
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+zc(5,'jsc',zJs,9999999,'')
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+z160=zpreC(160,600);z336=zpreC(336,280);z728=zpreC(728,90);z155=zpreC(336,155);zItw=160
+//]]>
+    </script>
+    <div id="abw">
+      <div id="abh">
+        <div id="adL">
+          <script>
+//<![CDATA[
+if(z728>0){adunit('ibm','',uy,ch,gs,728,90,'1','lb',1)}
+//]]>
+          </script>
+          <iframe id="lb" name="lb" src="http://ad.doubleclick.net/N479/adi/abt.specials/specials_search;p=1;svc=;site=search;t=21;bt=2;bts=45;pc=2;oe=iso-8859-1;auc=1;fd=0;fs=0;sp2=0;a=;kw=ibm;chan=specials;syn=about;tile=1;r=-2;dcopt=ist;sz=728x90;u=E1F93o2J20kAR2kN56539;dc_ref=http%3A//search.about.com/;ord=1E1F93o2J20kAR2kN56539" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" height="90" width="728" border="0">
+          </iframe>
+          <noscript>
+            &lt;a href="http://ad.doubleclick.net/jump/abt.specials/specials_search;kw=ibm;site=search;chan=specials;pos=lb;sz=728x90;ord=1E1F93o2J20kAR2kN" target="_new"&gt;&lt;img src="http://ad.doubleclick.net/ad/abt.specials/specials_search;kw=ibm;site=search;chan=specials;pos=lb;sz=728x90;ord=1E1F93o2J20kAR2kN"&gt;&lt;/a&gt;
+          </noscript>
+        </div>
+        <div>
+        </div>
+        <div class="ma mar">
+          <div class="lg">
+            <a href="http://www.about.com/" zt="18/1Yb/Zv">
+              <img src="http://0.tqn.com/f/lg/a154.png" alt="About.com"/>
+            </a>
+          </div>
+        </div>
+        <form class="gs" method="get" action="http://search.about.com/" target="_top">
+          <fieldset>
+            <input id="sv" name="q" value="ibm" validate="required" alert="Please enter something to search for!" type="text"/>
+            <input type="hidden" name="SUName" value="search"/>
+            <button class="btn" type="submit">
+              Search
+            </button>
+          </fieldset>
+        </form>
+      </div>
+      <div id="abb">
+        <div id="abm" class="clear">
+          <div id="abc" class="clear">
+            <!--gc-->            <div id="ad1" style="font-weight: normal; text-align: center;">
+              <iframe allowtransparency="true" style="visibility: hidden; height: 0px;" width="100%" name="{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-1-1&quot;:{&quot;verticalSpacing&quot;:2,&quot;lines&quot;:3,&quot;colorText&quot;:&quot;#333&quot;,&quot;colorTitleLink&quot;:&quot;#36C&quot;,&quot;colorDomainLink&quot;:&quot;#7D7D7D&quot;,&quot;colorAttribution&quot;:&quot;#000&quot;,&quot;fontFamily&quot;:&quot;verdana&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;16px&quot;,&quot;fontSizeAttribution&quot;:&quot;12px&quot;,&quot;clickableBackgrounds&quot;:true,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;lineHeightTitle&quot;:24,&quot;lineHeightDescription&quot;:18,&quot;lineHeightDomainLink&quot;:18,&quot;domainLinkAboveDescription&quot;:true,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;detailedAttribution&quot;:true,&quot;attributionSpacingBelow&quot;:5,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;ad2&quot;},&quot;master-1&quot;:{&quot;verticalSpacing&quot;:2,&quot;lines&quot;:3,&quot;colorText&quot;:&quot;#333&quot;,&quot;colorTitleLink&quot;:&quot;#36C&quot;,&quot;colorDomainLink&quot;:&quot;#7D7D7D&quot;,&quot;colorAttribution&quot;:&quot;#000&quot;,&quot;fontFamily&quot;:&quot;verdana&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;16px&quot;,&quot;fontSizeAttribution&quot;:&quot;12px&quot;,&quot;clickableBackgrounds&quot;:true,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;lineHeightTitle&quot;:24,&quot;lineHeightDescription&quot;:18,&quot;lineHeightDomainLink&quot;:18,&quot;domainLinkAboveDescription&quot;:true,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;detailedAttribution&quot;:true,&quot;attributionSpacingBelow&quot;:5,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;ad1&quot;}}" id="master-1" src="//www.google.com/uds/afs?q=ibm&amp;client=aj-about-cse-kw&amp;channel=test27%2B%2Btt21%2Btest45%2Bcsa2_pef&amp;hl=en&amp;r=m&amp;lo=true&amp;adrep=5&amp;po=true&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404&amp;format=p5%7Cn5&amp;ad=n5p5a5&amp;nocache=7971389776632827&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;adlh=on&amp;adext=as1%2Cl1%2Csr1&amp;u_his=2&amp;u_tz=-300&amp;dt=1389776632833&amp;u_w=1024&amp;u_h=768&amp;biw=1256&amp;bih=605&amp;psw=1256&amp;psh=609&amp;frm=0&amp;ui=uv3vAsLsRlOpO-lHff1st16sa12lt24ld18lv18dA-ff1st16sa12lt24ld18lv18dA&amp;rurl=http%3A%2F%2Fsearch.about.com%2F%3Fq%3Dibm&amp;referer=http%3A%2F%2Fwww.about.com%2F#master-1">
+              </iframe>
+            </div>
+            <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+
+
+zGCID='test27%20%20tt21%20test45%20csa2_pef';
+zGR='aj-about-cse-kw';
+function setAdsShown(containerId,shown){document.getElementById('ntwk').style.visibility='visible'}
+var pageOptions={'pubId':zGR,'query':'ibm','channel':zGCID.replace(/%20/g,'+'),'hl':'en','domainLinkAboveDescription':true,'siteLinks':true,'clickableBackgrounds':true,'sellerRatings':true,'numRepeated':'5','offerExtension':true,'location':true,'plusOnes':true,'instantPreviews':true};
+var a1={'container':'ad1','minTop':5,'maxTop':5,'fontFamily':'verdana','fontSizeTitle':16,'colorTitleLink':'#36C','colorText':'#333','colorDomainLink':'#7D7D7D','colorAttribution':'#000','verticalSpacing':2,'longerHeadlines':true,'fontSizeAttribution':12,'detailedAttribution':true,'attributionSpacingBelow':5,'linkTarget':'_blank','adLoadedCallback':setAdsShown,'lineHeightTitle':24,'lineHeightDescription':18,'lineHeightDomainLink':18};
+var a2={'container':'ad2','number':5,'fontFamily':'verdana','fontSizeTitle':16,'colorTitleLink':'#36C','colorText':'#333','colorDomainLink':'#7D7D7D','colorAttribution':'#000','verticalSpacing':2,'fontSizeAttribution':12,'detailedAttribution':true,'attributionSpacingBelow':5,'linkTarget':'_blank','adLoadedCallback':setAdsShown,'lineHeightTitle':24,'lineHeightDescription':18,'lineHeightDomainLink':18};
+function showSearchResults(){document.getElementById('ntwk').style.visibility='visible'}
+var timer=setTimeout('showSearchResults()',2000);
+_googCsa('ads', pageOptions, a1, a2);
+
+//]]>
+            </script>
+            <style>
+              #tt21 #abc #spg {margin:-1em 0 0}#related{margin-top:20px}#related h5{display:inline;font-weight:bold}#related a{padding:7px}#tt21 #abc .gsearch{background:url(http://0.tqn.com/f/t1/sbx2.png) left no-repeat;margin:1.5em auto 0;padding: 7px 0 7px 18px;width:403px}#tt21 #abc .gsearch input{width: 288px}#tt21 #abc .gsearch .search{background:url(http://0.tqn.com/f/t1/spb.2.png) no-repeat;background-position: -328px 0;height: 31px;width: 77px}.pg {margin:0.5em 0}#gB5.gB h5{border-bottom:0px solid #FFF}.res .u{word-wrap:break-word}.ti{display:inline}.ti{display:inline-table}#abw .gB p,#abw .gB .p{padding:0;line-height:1.5;margin:.75em 0}.res{margin:.75em 0}#ntwk{margin:0}.lg a{padding-top:9px}.gs .btn,.gs input{height:30px}#abh .gs, #abf .gs{background:url("http://0.tqn.com/f/hp/sprite.png") no-repeat scroll 5px -1005px white}.nd .gs input{font-size:21px}#gB5.gB h5{float:none;padding:0px;font-size:12px;font-weight:normal;color:#000}#gB5.gB{background-color:#FFF}#tt21 h3{display:inline;color:#E78717;font-size:14px}#tt21 #ntwk{padding-top:8px;border-top:1px solid #d7d7d7;border-bottom:1px solid #d7d7d7}
+            </style>
+            <!-- Texis RDBMS Copyright (c) 1992 - 2006 Thunderstone - EPI, Inc. -->            <!-- Texis Web Script Copyright (c) 1996 - 2006 Thunderstone - EPI, Inc. -->            <!-- gcid=test27++tt21+test45+csa2_pef+ny server=nysearch4 dfullsearch_at8 q=ibm&TopNode=/&ip=74.136.97.147&ua=Mozilla%2f5%2e0%20%28Windows%20NT%206%2e1%3b%20rv%3a17%2e0%29%20Gecko%2f20100101%20Firefox%2f17%2e0&gcid=test27%20%20tt21%20test45%20csa2_pef&id=E1F93o2J20kAR2kN&sdpn=About%2ecom&userid=E1F93l0H20SAH3MN&bt=4&aat=0&aab=0&aat=0&aab=0&csa=1 d -->            <div class="gBt">
+            </div>
+            <div id="ntwk" style="visibility: visible;">
+              <span class="ds">
+                Displaying 
+                <b>
+                  1
+                </b>
+                 - 
+                <b>
+                  10
+                </b>
+                 of 
+                <b>
+                  1,610
+                </b>
+              </span>
+              <h3>
+                Articles related to ibm
+              </h3>
+              <div class="res">
+                <a href="http://inventors.about.com/od/computersandinternet/a/Ibm-History.htm" onclick="gs='ibm';ch='term1';zT(this,'3/1bc')">
+                  <b>
+                    IBM
+                  </b>
+                   History - Profile of a Computer Manufacturing Giant - Inventors
+                </a>
+                <div class="txt">
+                  The history of the largest computer company in the world, 
+                  <b>
+                    IBM
+                  </b>
+                   history from 
+incorporation in 1911 until today.
+                </div>
+                <div class="u">
+                  http://inventors.about.com/od/computersandinternet/a/Ibm-History.htm
+                </div>
+              </div>
+              <div class="res">
+                <a href="http://inventors.about.com/od/computersandinternet/a/IBM701.htm" onclick="gs='ibm';ch='term2';zT(this,'3/1bc')">
+                  The Role of 
+                  <b>
+                    IBM
+                  </b>
+                   in the History of Computers - Inventors - About.com
+                </a>
+                <div class="txt">
+                  <b>
+                    IBM
+                  </b>
+                   or International Business Machines and the history of computers.
+                </div>
+                <div class="u">
+                  http://inventors.about.com/od/computersandinternet/a/IBM701.htm
+                </div>
+              </div>
+              <div class="res">
+                <a href="http://inventors.about.com/od/computersandinternet/a/Ibm-Pc.htm" onclick="gs='ibm';ch='term3';zT(this,'3/1bc')">
+                  History of Computers - The 
+                  <b>
+                    IBM
+                  </b>
+                   PC - Inventors - About.com
+                </a>
+                <div class="txt">
+                  The year is 1980 and 
+                  <b>
+                    IBM
+                  </b>
+                   representatives meet in secret with Bill Gates to talk 
+about an operating system for a hush-hush new personal computer, the 
+                  <b>
+                    IBM
+                  </b>
+                   PC.
+                </div>
+                <div class="u">
+                  http://inventors.about.com/od/computersandinternet/a/Ibm-Pc.htm
+                </div>
+              </div>
+              <div class="res">
+                <a href="http://inventors.about.com/od/timelines/tp/Timeline-IBM-History.htm" onclick="gs='ibm';ch='term4';zT(this,'3/1bc')">
+                  Timeline of 
+                  <b>
+                    IBM
+                  </b>
+                   History - Inventors - About.com
+                </a>
+                <div class="txt">
+                  <b>
+                    IBM
+                  </b>
+                   or big blue as the company has been affectionately called has been a major 
+innovator of computer and computer related products during this century and 
+                  <b>
+                    ...
+                  </b>
+                </div>
+                <div class="u">
+                  http://inventors.about.com/od/timelines/tp/Timeline-IBM-History.htm
+                </div>
+              </div>
+              <div class="res">
+                <a href="http://inventors.about.com/library/weekly/aa120198.htm" onclick="gs='ibm';ch='term5';zT(this,'3/1bc')">
+                  Altair - 
+                  <b>
+                    IBM
+                  </b>
+                   5100 - Inventors - About.com
+                </a>
+                <div class="txt">
+                  The origins of the personal computer - SCELBI - Mark-8 - Altair - 
+                  <b>
+                    IBM
+                  </b>
+                   5100.
+                </div>
+                <div class="u">
+                  http://inventors.about.com/library/weekly/aa120198.htm
+                </div>
+              </div>
+              <div class="res">
+                <a href="http://inventors.about.com/library/blcoindex.htm" onclick="gs='ibm';ch='term6';zT(this,'3/1bc')">
+                  The History of Computers - Computer History Timeline - Inventors
+                </a>
+                <div class="txt">
+                  A history of computers and the inventors involved with each 
+                  <b>
+                    ...
+                  </b>
+                </div>
+                <div class="u">
+                  http://inventors.about.com/library/blcoindex.htm
+                </div>
+              </div>
+              <div class="res">
+                <a href="http://retailindustry.about.com/od/retailbestpractices/ig/Company-Mission-Statements/IBM-Corporation-Mission-Statement.htm" onclick="gs='ibm';ch='term7';zT(this,'3/1bc')">
+                  <b>
+                    IBM
+                  </b>
+                   Corporation Mission Statement - Retail Industry - About.com
+                </a>
+                <div class="txt">
+                  Find the mission statement and values oif the 
+                  <b>
+                    IBM
+                  </b>
+                   corporation here along with 
+facts and trivia about the 
+                  <b>
+                    IBM
+                  </b>
+                   international history, headquarters, and its business
+ 
+                  <b>
+                    ...
+                  </b>
+                </div>
+                <div class="u">
+                  http://retailindustry.about.com/od/retailbestpractices/ig/Company-Mission-Statements/IBM-Corporation-Mission-Statement.htm
+                </div>
+              </div>
+              <div class="res">
+                <a href="http://inventors.about.com/od/computersoftware/a/Fortran.htm" onclick="gs='ibm';ch='term8';zT(this,'3/1bc')">
+                  Fortran - History of a Programming Language - Inventors - About.com
+                </a>
+                <div class="txt">
+                  The first high level programming language fortran was invented by John Backus 
+and 
+                  <b>
+                    IBM
+                  </b>
+                  .
+                </div>
+                <div class="u">
+                  http://inventors.about.com/od/computersoftware/a/Fortran.htm
+                </div>
+              </div>
+              <div class="res">
+                <a href="http://inventors.about.com/od/computersoftware/a/Putting-Microsoft-On-The-Map.htm" onclick="gs='ibm';ch='term9';zT(this,'3/1bc')">
+                  History of Computers - Microsoft's First Operating System MS-DOS
+                </a>
+                <div class="txt">
+                  In 1980 
+                  <b>
+                    IBM
+                  </b>
+                   first approached Bill Gates and Microsoft to discuss an operating 
+system for a secret new home computer.
+                </div>
+                <div class="u">
+                  http://inventors.about.com/od/computersoftware/a/Putting-Microsoft-On-The-Map.htm
+                </div>
+              </div>
+              <div class="res">
+                <a href="http://inventors.about.com/b/2013/07/12/the-legend-of-ibm.htm" onclick="gs='ibm';ch='term10';zT(this,'3/1bc')">
+                  The Legend of 
+                  <b>
+                    IBM
+                  </b>
+                   - Inventors - About.com
+                </a>
+                <div class="txt">
+                  Jul 12, 2013 
+                  <b>
+                    ...
+                  </b>
+                   1953 saw 
+                  <b>
+                    IBM's
+                  </b>
+                   first commercially successful general-purpose computer.
+                </div>
+                <div class="u">
+                  http://inventors.about.com/b/2013/07/12/the-legend-of-ibm.htm
+                </div>
+              </div>
+            </div>
+            <script>
+//<![CDATA[
+zSB(5)
+//]]>
+            </script>
+            <div id="ad2" style="font-weight: normal; text-align: center;">
+              <iframe allowtransparency="true" style="visibility: hidden; height: 0px;" width="100%" name="slave-1-1|{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-1-1&quot;:{&quot;verticalSpacing&quot;:2,&quot;lines&quot;:3,&quot;colorText&quot;:&quot;#333&quot;,&quot;colorTitleLink&quot;:&quot;#36C&quot;,&quot;colorDomainLink&quot;:&quot;#7D7D7D&quot;,&quot;colorAttribution&quot;:&quot;#000&quot;,&quot;fontFamily&quot;:&quot;verdana&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;16px&quot;,&quot;fontSizeAttribution&quot;:&quot;12px&quot;,&quot;clickableBackgrounds&quot;:true,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;lineHeightTitle&quot;:24,&quot;lineHeightDescription&quot;:18,&quot;lineHeightDomainLink&quot;:18,&quot;domainLinkAboveDescription&quot;:true,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;detailedAttribution&quot;:true,&quot;attributionSpacingBelow&quot;:5,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;ad2&quot;},&quot;master-1&quot;:{&quot;verticalSpacing&quot;:2,&quot;lines&quot;:3,&quot;colorText&quot;:&quot;#333&quot;,&quot;colorTitleLink&quot;:&quot;#36C&quot;,&quot;colorDomainLink&quot;:&quot;#7D7D7D&quot;,&quot;colorAttribution&quot;:&quot;#000&quot;,&quot;fontFamily&quot;:&quot;verdana&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;16px&quot;,&quot;fontSizeAttribution&quot;:&quot;12px&quot;,&quot;clickableBackgrounds&quot;:true,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;lineHeightTitle&quot;:24,&quot;lineHeightDescription&quot;:18,&quot;lineHeightDomainLink&quot;:18,&quot;domainLinkAboveDescription&quot;:true,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;detailedAttribution&quot;:true,&quot;attributionSpacingBelow&quot;:5,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;ad1&quot;}}" id="slave-1-1" src="//www.google.com/uds/afs?q=ibm&amp;client=aj-about-cse-kw&amp;channel=test27%2B%2Btt21%2Btest45%2Bcsa2_pef&amp;hl=en&amp;r=s&amp;lo=true&amp;adrep=5&amp;po=true&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404&amp;format=n5&amp;ad=n0&amp;nocache=8051389776632818&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;adext=as1%2Cl1%2Csr1&amp;rurl=http%3A%2F%2Fsearch.about.com%2F%3Fq%3Dibm&amp;referer=http%3A%2F%2Fwww.about.com%2F#slave-1-1">
+              </iframe>
+            </div>
+            <div class="pg">
+              <span class="cp">
+                1
+              </span>
+                |  
+              <a f="1" href="?q=ibm&amp;pg=2&amp;SUName=www&amp;ac=&amp;cs=&amp;TopNode=/">
+                2
+              </a>
+                |  
+              <a f="1" href="?q=ibm&amp;pg=3&amp;SUName=www&amp;ac=&amp;cs=&amp;TopNode=/">
+                3
+              </a>
+                |  
+              <a f="1" href="?q=ibm&amp;pg=4&amp;SUName=www&amp;ac=&amp;cs=&amp;TopNode=/">
+                4
+              </a>
+                |  
+              <a f="1" href="?q=ibm&amp;pg=5&amp;SUName=www&amp;ac=&amp;cs=&amp;TopNode=/">
+                5
+              </a>
+                |  
+              <a f="1" href="?q=ibm&amp;pg=6&amp;SUName=www&amp;ac=&amp;cs=&amp;TopNode=/">
+                6
+              </a>
+                |  
+              <a f="1" href="?q=ibm&amp;pg=7&amp;SUName=www&amp;ac=&amp;cs=&amp;TopNode=/">
+                7
+              </a>
+                |  
+              <a f="1" href="?q=ibm&amp;pg=8&amp;SUName=www&amp;ac=&amp;cs=&amp;TopNode=/">
+                8
+              </a>
+                |  
+              <a f="1" href="?q=ibm&amp;pg=9&amp;SUName=www&amp;ac=&amp;cs=&amp;TopNode=/">
+                9
+              </a>
+                |  
+              <a f="1" href="?q=ibm&amp;pg=10&amp;SUName=www&amp;ac=&amp;cs=&amp;TopNode=/">
+                10
+              </a>
+                    
+              <a f="1" href="?q=ibm&amp;pg=2&amp;SUName=www&amp;ac=&amp;cs=&amp;TopNode=/">
+                <b>
+                  Next &gt;
+                </b>
+              </a>
+            </div>
+            <div id="related">
+              <h5 style="display:inline;">
+                Related Searches
+              </h5>
+              <a href="http://search.about.com/r.htm?q=IBM+Server">
+                IBM Server
+              </a>
+              <a href="http://search.about.com/r.htm?q=IBM+Thinkpad">
+                IBM Thinkpad
+              </a>
+              <a href="http://search.about.com/r.htm?q=IBM+T60">
+                IBM T60
+              </a>
+              <a href="http://search.about.com/r.htm?q=IBM+Notebook">
+                IBM Notebook
+              </a>
+              <a href="http://search.about.com/r.htm?q=IBM+Mainframe">
+                IBM Mainframe
+              </a>
+              <a href="http://search.about.com/r.htm?q=IBM+Laptop">
+                IBM Laptop
+              </a>
+              <a href="http://search.about.com/r.htm?q=IBM+Aix">
+                IBM Aix
+              </a>
+              <a href="http://search.about.com/r.htm?q=Lenovo+IBM">
+                Lenovo IBM
+              </a>
+              <a href="http://search.about.com/r.htm?q=IBM+Drivers">
+                IBM Drivers
+              </a>
+              <a href="http://search.about.com/r.htm?q=IBM+T30+Battery">
+                IBM T30 Battery
+              </a>
+            </div>
+            <!-- end Texis -->            <script>
+//<![CDATA[
+var pg=document.getElementsByClassName("pg")[0]||null;if(pg && gEI('ad2')){pg.parentNode.insertBefore(gEI('ad2'),pg)}
+//]]>
+            </script>
+            <!--/gc-->          </div>
+        </div>
+        <div id="abf">
+          <div>
+          </div>
+          <div class="ma mar">
+            <div class="lg">
+              <a href="http://www.about.com/" zt="18/1Yb/Zv">
+                <img src="http://0.tqn.com/f/lg/a154.png" alt="About.com"/>
+              </a>
+            </div>
+          </div>
+          <form class="gs" method="get" action="http://search.about.com/" target="_top">
+            <fieldset>
+              <input id="sv" name="q" value="ibm" validate="required" alert="Please enter something to search for!" type="text"/>
+              <input type="hidden" name="SUName" value="search"/>
+              <button class="btn" type="submit">
+                Search
+              </button>
+            </fieldset>
+          </form>
+          <ol class="ct">
+            <li class="h">
+              <a href="http://www.about.com/" zt="18/1Yd/Zz">
+                About.com
+              </a>
+            </li>
+            <li>
+              <a href="/" zt="18/1Yd/Zz">
+                Search Results
+              </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div id="abi" class="hl">
+        <div id="lftr">
+          <ul id="si">
+            <li class="f">
+              <a href="http://www.advertiseonabout.com/" zt="18/1YX/Zr" rel="nofollow">
+                Advertise on About.com
+              </a>
+            </li>
+            <li>
+              <a href="http://press.about.com/our-story/" zt="18/1YX/Zr" rel="nofollow">
+                Our Story
+              </a>
+            </li>
+            <li>
+              <a href="http://press.about.com/" zt="18/1YX/Zr" rel="nofollow">
+                News
+              </a>
+            </li>
+            <li>
+              <a href="http://spiderbites.about.com/sitemap.htm" zt="18/1YX/Zr">
+                SiteMap
+              </a>
+            </li>
+            <li>
+              <a href="http://azlist.about.com/a.htm" zt="18/1]]">
+                All Topics
+              </a>
+            </li>
+            <li>
+              <a href="http://www.about.com/gi/pages/printrequests.html" zt="18/1YX/Zr" rel="nofollow">
+                Reprints
+              </a>
+            </li>
+            <li>
+              <a href="http://www.about.com/gi/pages/hc.htm" zt="18/1YX/Zr" rel="nofollow">
+                Help
+              </a>
+            </li>
+          </ul>
+          <ul id="li">
+            <li class="f">
+              <a href="http://experts.about.com/" zt="18/1YX/Zr" rel="nofollow">
+                Write for About
+              </a>
+            </li>
+            <li>
+              <a href="http://jobs.about.com/" zt="18/1YX/Zr" rel="nofollow">
+                Careers at About
+              </a>
+            </li>
+            <li>
+              <a href="http://www.about.com/gi/pages/uagree.htm" zt="18/1YX/Zr" rel="nofollow">
+                User Agreement
+              </a>
+            </li>
+            <li>
+              <a href="http://www.about.com/gi/pages/ethics.htm" zt="18/1YX/Zr" rel="nofollow">
+                Ethics Policy
+              </a>
+            </li>
+            <li>
+              <a href="http://www.about.com/gi/pages/patent.htm" zt="18/1YX/Zr" rel="nofollow">
+                Patent Info.
+              </a>
+            </li>
+            <li>
+              <a href="http://www.about.com/gi/pages/mprivacy.htm" zt="18/1YX/Zr" rel="nofollow">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="http://www.about.com/gi/pages/mprivacy.htm#adchoices" zt="18/1YX/Zr" rel="nofollow">
+                Your Ad Choices
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="di">
+          <p>
+            ©2014 About.com. All rights reserved.
+          </p>
+        </div>
+      </div>
+      <script>
+//<![CDATA[
+check_modal();zCi();validateForms();splitLists();
+//]]>
+      </script>
+    </div>
+    <script>
+//<![CDATA[
+if(this.zKW&&gEI('sv'))gEI('sv').value=zE(zE(zKW,1),1).replace(new RegExp('\\+','g'),' ');
+if(!this.zOfs&&gEI('oF')){if(document.getElementsByClassName('tr')[0]){clone=gEI('oF').cloneNode(true);clone.id="labels";document.getElementsByClassName('tr')[0].appendChild(clone)}};
+zPxA[zPxC]=new Image();zPxA[zPxC++].src="http://b.scorecardresearch.com/p?c1=2&c2=6036459&c7=http%3a%2f%2fsearch%2eabout%2ecom%2f&c9=http%3a%2f%2fwww%2eabout%2ecom%2f&cv=2.0&cj=1";adclose()
+//]]>
+    </script>
+    <noscript>
+      &lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6036459&amp;c7=http%3a%2f%2fsearch%2eabout%2ecom%2f&amp;c9=http%3a%2f%2fwww%2eabout%2ecom%2f&amp;cv=2.0&amp;cj=1" class="hide"/&gt;
+    </noscript>
+  </body>
+</html>

@@ -1,0 +1,2524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html class="ie8 no-js">
+  <!--<![endif]-->  <head data-network="verge">
+    <script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.k-WCPY8zpsw.O/m=client,plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AItRSTNIu5ve3Xq4ciwaeu_mbnjsphpZbg/cb=gapi.loaded_0" async="">
+    </script>
+    <script type="text/javascript" async="" src="https://plus.google.com/js/client:plusone.js?onload=chorusAuthGPlusRender" gapi_processed="true">
+    </script>
+    <script async="" src="http://b.scorecardresearch.com/beacon.js">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript" async="" src="http://tags.api.umbel.com/lrjhazrpqbgtnrij/w.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+window.NREUM||(NREUM={});NREUM.info={"agentToken":null,"applicationID":"754272","licenseKey":"e425f33c7f","beacon":"beacon-5.newrelic.com","queueTime":9,"transactionName":"IVtWTBAMDVlXQh9HABBTXWcKFgNqQlFXVBZNR11ZEAAJ","applicationTime":3667,"ttGuid":"","agent":"js-agent.newrelic.com/nr-397.min.js","errorBeacon":"jserror.newrelic.com"}
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+window.NREUM||(NREUM={}),__nr_require=function t(n,e,r){function o(a){if(!e[a]){var i=e[a]={exports:{}};n[a][0].call(i.exports,function(t){var e=n[a][1][t];return o(e?e:t)},i,i.exports,t,n,e,r)}return e[a].exports}if("function"==typeof __nr_require)return __nr_require;for(var a=0;a&lt;r.length;a++)o(r[a]);return o}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&amp;&amp;t.agent&amp;&amp;t.licenseKey&amp;&amp;t.applicationID){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&amp;&amp;o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);
+//]]>
+    </script>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+    <meta content="width=1060" name="viewport"/>
+    <meta value="notranslate" name="google"/>
+    <meta content="TYyhlycNMOtUSht2aoB7heWTK8m-H45_YJizKavkO8s" name="google-site-verification"/>
+    <meta content="IucFf_TKtbFFH8_YeFyEteQIwYPdANM1R46_U9DpAr4" name="google-site-verification"/>
+    <meta content="1465737598" property="twitter:account_id"/>
+    <meta content="The Verge" name="application-name"/>
+    <meta content="#000000" name="msapplication-TileColor"/>
+    <meta content="http://cdn3.vox-cdn.com/images/verge/livetile/small.v5254d9f.png" name="msapplication-square70x70logo"/>
+    <meta content="http://cdn3.vox-cdn.com/images/verge/livetile/medium.v146326d.png" name="msapplication-square150x150logo"/>
+    <meta content="http://cdn2.vox-cdn.com/images/verge/livetile/wide.v7a20b39.png" name="msapplication-wide310x150logo"/>
+    <meta content="http://cdn2.vox-cdn.com/images/verge/livetile/large.vf4ff639.png" name="msapplication-square310x310logo"/>
+    <meta content="frequency=30; polling-uri=http://www.theverge.com/livetile/0.xml; polling-uri2=http://www.theverge.com/livetile/1.xml; polling-uri3=http://www.theverge.com/livetile/2.xml; polling-uri4=http://www.theverge.com/livetile/3.xml; polling-uri5=http://www.theverge.com/livetile/4.xml" name="msapplication-notification"/>
+    <title>
+      The Verge
+    </title>
+    <link href="/rss/index.xml" title="The Verge - All Posts" type="application/rss+xml" rel="alternate"/>
+    <link href="http://cdn2.vox-cdn.com/images/verge/favicon.vc44a54f.ico" rel="shortcut icon"/>
+    <link href="/images/verge/apple-touch-icon.png" rel="apple-touch-icon"/>
+    <script type="text/javascript">
+//<![CDATA[
+var _sf_startpt=(new Date()).getTime()
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+  window.Chorus = window.Chorus || {};
+  window.Chorus.Context = {
+      logged_in   : false
+    , user_id     : 0
+    , network_slug : "verge"
+    , community_id : 372
+    , emc_admin : false
+  };
+  if (!window.Vox &amp;&amp; window.Chorus) {
+    Vox = {
+      Video: Chorus.Video
+    }
+  }
+
+//]]>
+    </script>
+    <link type="text/css" rel="stylesheet" media="all" href="http://cdn0.vox-cdn.com/stylesheets/vox_universal.v8e5c9085698970b5.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="http://cdn0.vox-cdn.com/stylesheets/verge_a.v772419f41c597e9e.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="http://cdn3.vox-cdn.com/stylesheets/verge_b.vbaf36b65d72972c4.css"/>
+    <link type="text/css" rel="stylesheet" media="print" href="http://cdn3.vox-cdn.com/stylesheets/verge_print.va745c4edf22e7458.css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+window.jQuery || document.write('&lt;script src="http://cdn1.vox-cdn.com/javascripts/vendor/jquery-1.10.2.min.vda41706.js"&gt;&lt;\/script&gt;');
+//]]>
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+window._ || document.write('&lt;script src="http://cdn1.vox-cdn.com/javascripts/vendor/underscore-1.5.2.min.vd22f881.js"&gt;&lt;\/script&gt;');
+//]]>
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+window.Backbone || document.write('&lt;script src="http://cdn0.vox-cdn.com/javascripts/vendor/backbone-1.0.0.min.v3541019.js"&gt;&lt;\/script&gt;');
+//]]>
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    var $j = jQuery.noConflict();
+  
+//]]>
+    </script>
+    <script type="text/javascript" src="http://cdn0.vox-cdn.com/javascripts/verge_head.v8cf55294c26fb3cb.js">
+    </script>
+    <script src="http://ox-d.sbnation.com/w/1.0/jstag" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+//&lt;![CDATA[
+
+        var SBN = SBN || {};
+        if (typeof(OX) != "undefined") {
+          // we have successfully loaded via the external OpenX JS
+          SBN.OpenX = new OXH(); // OpenX helper/wrapper
+          
+          
+        SBN.OpenX.setAdUnitScopes(null);
+        SBN.OpenX.setAdUnitGroups({"9986":[96673,96674]});
+        if (typeof Util === 'object' &amp;&amp; Util.UserAgentProfiler) {
+          SBN.OpenX.setPageScope({
+            browser_width: Util.UserAgentProfiler.browserWidthForOpenX(),
+            device_type:   Util.UserAgentProfiler.deviceTypeForOpenX()
+          });
+        }
+      
+          SBN.OpenX.addContentTopic(16, 'Front Page');
+SBN.OpenX.addVariable('network', 'verge');
+          
+              SBN.Campaigns.Components.logActivation(
+                'The Verge General Audience',
+                5345, 
+                56, 
+                'tracking-pixel'
+              );
+            
+
+              SBN.Campaigns.Components.setCustomVarsFromActiveComponents();
+            
+// no Criteo on this network
+
+            SBN.OpenX.setAdUnitsOnPage([96673,252368,252368,96674,252370,252370,321091,364262,364262,0,299737,299737]);
+            SBN.OpenX.fetchAds();
+          
+        } else {
+          if (console &amp;&amp; console.log) {
+            console.log("Warning: OpenX did not load! Trying to fail gracefully.");
+          }
+          SBN.OpenX = {};
+          SBN.OpenX.showAd = function(id) {
+            if (console &amp;&amp; console.log) {
+              console.log("OpenX did not load so we cannot render ad " + id + ".");
+            }
+          };
+        }
+      
+//]]&gt;
+
+//]]>
+    </script>
+    <script src="http://ox-d.sbnation.com/w/1.0/acj?ai=afa42d96-506a-4d24-9e70-c85bab52c363&amp;o=8540515474&amp;callback=OX_8540515474&amp;ju=http%3A//www.theverge.com/search%3Fq%3Dfamily&amp;jr=http%3A//www.theverge.com/&amp;tid=16&amp;pgid=9986&amp;auid=252368%2C252368%2C252370%2C252370%2C321091%2C364262%2C364262%2C0%2C299737%2C299737&amp;c.browser_width=xlarge&amp;c.device_type=desktop&amp;c.network=verge&amp;c.campaign_id=56&amp;c.component_name=The%20Verge%20General%20Audience&amp;c.component_id=5345&amp;c.component_type=tracking-pixel&amp;res=1366x768x24&amp;plg=pm&amp;ch=UTF-8&amp;tz=240&amp;sd=2" id="ox_acj_8540515474" type="text/javascript">
+    </script>
+    <script type="text/javascript" src="http://cdn2.vox-cdn.com/javascripts/lib/sbn_text_editor.v80239e5.js">
+    </script>
+    <link href="http://cdn3.vox-cdn.com/stylesheets/v/verge/styles/legacy/hacks/ie9-and-under.v9f102dd.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="http://cdn3.vox-cdn.com/stylesheets/v/verge/styles/legacy/hacks/ie8-and-under.vdf85d1a.css" media="screen" rel="stylesheet" type="text/css"/>
+    <script src="http://fonts.sbnation.com/wvq7oai.js" type="text/javascript">
+    </script>
+    <style type="text/css">
+      .headline,.title,.tk-adelle{font-family:"adelle",serif;}.din-condensed{font-family:"ff-din-web-condensed",sans-serif;}
+    </style>
+    <link rel="stylesheet" href="http://use.typekit.net/c/6fd6e3/adelle:i4:n1:n4:n6,ff-din-web-condensed:i6:n6:n7.XKB:N:2,XJq:N:2,XK9:N:2,XKC:N:2,TnF:N:2,TnG:N:2,ThR:N:2/d?3bb2a6e53c9684ffdc9a98f2125b2a6261538209a3995387582a703ce922f7670ad5162da44ccb4cf6dabfb1c41cac78fa8f02a6abc36423cf4317209547728601fd64f320f0fd65a9cd95addc05ea65f3263f58084a627550e34f986d2ee0c61c335af228a0efd0bf6354576b76a163ed081716a83224ade087b23d5176289d37d17a77184d5ae42eb85b0588521ea5634fa5c864cbe1296c9d614cd2ebac160f3f5df4ebee2ad0c9dd1292fbd2052828b5216b29abc0aa09e986d390fa5ced96d894cd1a79fa208ba8df52ac42e8719c1eb38969469e9eceafde55e6f6916eec7ed9aed89326f204ee7269d89fdc151c498d37a9932591"/>
+    <script type="text/javascript">
+//<![CDATA[
+try{Typekit.load();}catch(e){}
+//]]>
+    </script>
+    <!-- helios -->    <meta content="TYyhlycNMOtUSht2aoB7heWTK8m-H45_YJizKavkO8s" name="google-site-verification"/>
+    <meta content="D385D0326A3AE144205C298DB34B4E94" name="msvalidate.01"/>
+    <meta content="0184e2558f89b639" name="y_key"/>
+    <meta content="tDoQLOfV4VmPZrTuSNDQnSyTfhgDRlOMaXgYQ0Bb9Bc" name="google-site-verification"/>
+    <style>
+      
+
+article quote em:before {
+content: none;
+}
+
+
+    </style>
+    <meta content="The Verge was founded in 2011 in partnership with Vox Media, and covers the intersection of technology, science, art, and culture. Its mission is to offer in-depth reporting and long-form feature stories, breaking news coverage, product information, and community content in a unified and cohesive manner. The site is powered by Vox Media's Chorus platform, a modern media stack built for web-native news in the 21st century." name="description"/>
+    <link data-height="266" data-width="300" type="image/jpeg" href="http://cdn1.vox-cdn.com/community_logos/35025/verge-logo-lg.jpg" rel="image_src"/>
+    <link href="http://www.theverge.com/" rel="canonical"/>
+    <meta content="The Verge was founded in 2011 in partnership with Vox Media, and covers the intersection of technology, science, art, and culture. Its mission is to offer in-depth reporting and long-form feature stories, breaking news coverage, product information, and community content in a unified and cohesive manner. The site is powered by Vox Media's Chorus platform, a modern media stack built for web-native news in the 21st century." property="og:description"/>
+    <meta content="179668695452017" property="fb:app_id"/>
+    <meta content="http://cdn1.vox-cdn.com/community_logos/35024/verge-logo-xl.jpg" property="og:image"/>
+    <meta content="The Verge" property="og:site_name"/>
+    <meta content="The Verge" property="og:title"/>
+    <meta content="website" property="og:type"/>
+    <meta content="http://www.theverge.com/" property="og:url"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+window._umbel = window._umbel || [];
+(function() {
+var u = document.createElement('script'); u.type = 'text/javascript'; u.async = true;
+u.src = document.location.protocol + '//tags.api.umbel.com/lrjhazrpqbgtnrij/w.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(u, s);
+var d = new Date();
+d.setDate(d.getDate() + 365);
+document.cookie = "umbel_api_key=lrjhazrpqbgtnrij; expires=" + d.toUTCString();
+if (document.location.href.indexOf('utm_source=umbel') !== -1) {
+if (typeof Chorus !== 'undefined' &amp;&amp; typeof Chorus.Video !== 'undefined') {
+Chorus.Video.autoplay = true;
+jQuery(document).ready(function(){
+document.location.hash = jQuery('.chorus-video-embed').first().attr('id');
+});
+}
+}
+})();
+
+//]]>
+    </script>
+  </head>
+  <body id="verge" class="ie8 desktop-layout hub-frontpage">
+    <!--<![endif]-->    <script type="text/javascript">
+//<![CDATA[
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26533115-1']);
+  _gaq.push(['_setCustomVar', 1, 'Login Status', 'Logged Out', 2]);
+  _gaq.push(['_trackPageview']);
+  
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "7976662" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+
+//]]>
+    </script>
+    <noscript>
+      &lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;amp;c2=7976662&amp;amp;cv=2.0&amp;amp;cj=1" alt=''/&gt;
+
+    </noscript>
+    <script type="text/javascript">
+//<![CDATA[
+
+if (Math.random() &lt;= 0.0005 ){
+  jQuery(function($) {
+    $.scrollDepth &amp;&amp; $.scrollDepth({ elements: ["#review-body","#review-wrapup","#comments","#article-body","#feature-body"] });
+  });
+}
+
+//]]>
+    </script>
+    <div id="super">
+      <div class="m-ad m-ad__leaderboard" id="leaderboard_ad">
+        <div class="open_x_ad open_x_leaderboard" id="open_x_ad_unit_96673">
+          <script type="text/javascript">
+//<![CDATA[
+
+              if (Util.UserAgentProfiler.isMobile()) {
+                SBN.OpenX.showAd(252368);
+              } else if (Util.UserAgentProfiler.isTablet()) {
+                SBN.OpenX.showAd(252368);
+              } else if (Util.UserAgentProfiler.isDesktop()) {
+                SBN.OpenX.showAd(96673);
+              }
+            
+//]]>
+          </script>
+        </div>
+      </div>
+      <header class="m-header " id="header">
+        <div class="m-header__top-row">
+          <div class="m-header__logo">
+            <a data-track="main logo" class="m-header__verge-logo" href="/">
+              <h1>
+                The Verge
+              </h1>
+            </a>
+          </div>
+          <div data-emc-slug="VergeNavBigStoriesCell" class="chorus-emc__content">
+            <div class="m-big-stories">
+              <div class="m-big-stories__main">
+                <a data-track="main big story" href="http://www.theverge.com/2014/4/21/5636218/apple-tim-cook-narrates-environmental-sustainibility-ad-earth-day">
+                  <div style="height:59px; width:89px;" class="image-window shadowbox">
+                    <img width="89" style="position: absolute; top: -1px; left: 0px; height: 60px;" src="http://cdn3.vox-cdn.com/images/sbn/components/lazy-load-image-gray.vc5f04cd.gif" data-ratio="1.5" data-original="http://cdn3.vox-cdn.com/uploads/chorus_image/image/31935617/climate_facilities.0_standard_90.0.jpg" data-imgkey="31933911:standard:17" class="vox-lazy-load lazy-loading" alt="" data-dim="89x59"/>
+                    <noscript>
+                      &lt;img src="http://cdn1.vox-cdn.com/uploads/chorus_image/image/31935617/climate_facilities.0_standard_90.0.jpg" alt=""/&gt;
+                    </noscript>
+                  </div>
+                  <div class="m-big-stories__main-text">
+                    <p>
+                      Trending now
+                    </p>
+                    <h3>
+                      Apple releases ad 'Better' promoting green power, not products
+                    </h3>
+                  </div>
+                </a>
+              </div>
+              <ul class="m-big-stories__dropdown">
+                <li class="m-big-stories__story">
+                  <a data-track="big story" href="http://www.theverge.com/2014/4/19/5629264/features-cannabis-cup">
+                    <div class="m-big-stories__story-text">
+                      <h3>
+                        High as balls: live from the Cannabis Cup
+                      </h3>
+                    </div>
+                  </a>
+                </li>
+                <li class="m-big-stories__story">
+                  <a data-track="big story" href="http://www.theverge.com/2014/4/21/5635468/joss-whedon-releases-in-your-eyes-as-5-dollar-rental-on-vimeo">
+                    <div class="m-big-stories__story-text">
+                      <h3>
+                        Joss Whedon releases short film as $5 digital download
+                      </h3>
+                    </div>
+                  </a>
+                </li>
+                <li class="m-big-stories__story">
+                  <a data-track="big story" href="http://www.theverge.com/2014/4/20/5634132/us-regulators-approve-powdered-alcohol">
+                    <div class="m-big-stories__story-text">
+                      <h3>
+                        Powdered alcohol may soon be coming to US stores
+                      </h3>
+                    </div>
+                  </a>
+                </li>
+                <li class="m-big-stories__story">
+                  <a data-track="big story" href="http://www.theverge.com/2014/4/21/5634980/samsungs-innovation-museum-opens-its-doors">
+                    <div class="m-big-stories__story-text">
+                      <h3>
+                        Samsung opens museum to own the history of 'innovation'
+                      </h3>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a class="m-big-stories__toggle" href="#">
+            </a>
+          </div>
+          <div class="m-header__social">
+            <div class="m-header__social-button facebook">
+              <a target="blank" data-track="social" href="http://www.facebook.com/verge">
+                Facebook
+              </a>
+            </div>
+            <div class="m-header__social-button twitter">
+              <a data-track="social" href="https://twitter.com/verge">
+                Twitter
+              </a>
+            </div>
+            <div class="m-header__social-button google">
+              <a target="blank" data-track="social" href="https://plus.google.com/+TheVerge/posts">
+                Google+
+              </a>
+            </div>
+            <div class="m-header__social-button youtube">
+              <a target="blank" data-track="social" href="http://www.youtube.com/subscription_center?add_user=theverge">
+                YouTube
+              </a>
+            </div>
+            <div class="m-header__social-button rss">
+              <a title="Subscribe to The Verge via RSS" data-track="social" href="http://www.theverge.com/rss/frontpage">
+                Subscribe to The Verge via RSS
+              </a>
+            </div>
+          </div>
+          <a href="#" class="m-new-articles__toggle">
+            <strong>
+              4
+            </strong>
+            <em>
+              New articles
+            </em>
+          </a>
+          <div data-scrollpanize="{ &quot;sectionsPerPage&quot;: 3 }" class="clearfix row m-new-articles" id="latest-posts-hero">
+            <a class="m-new-articles__controls prev disabled" href="">
+              <em>
+                back
+              </em>
+            </a>
+            <a class="m-new-articles__controls next enabled" href="">
+              <em>
+                next
+              </em>
+            </a>
+            <div class="m-new-articles__pane pane">
+              <div class="m-new-articles__slider slider clearfix" style="width: 2280px;">
+                <div class="m-new-articles__section section clearfix">
+                  <h3>
+                    April 22, 2014
+                  </h3>
+                  <ul>
+                    <li>
+                      <a title="Study confirms monkeys can do math" data-track="new article" href="http://www.theverge.com/2014/4/22/5638320/harvard-medical-school-study-rhesus-monkeys-math-human-brains">
+                        Study confirms monkeys can do math
+                      </a>
+                    </li>
+                    <li>
+                      <a title="LG's G Watch is always-on and water resistant" data-track="new article" href="http://www.theverge.com/2014/4/22/5638908/smart-watch-lg-champagne-gold">
+                        LG's G Watch is always-on and water resistant
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-new-articles__section section clearfix">
+                  <h3>
+                    April 21, 2014
+                  </h3>
+                  <ul>
+                    <li>
+                      <a title="Mailbox 2.0 is out for iOS with 'Auto-swipe' predictive archiving" data-track="new article" href="http://www.theverge.com/2014/4/21/5638080/mailbox-2-0-ios-available-now">
+                        Mailbox 2.0 is out for iOS with 'Auto-swipe' predictive...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Leonardo DiCaprio might play Steve Jobs in upcoming biopic" data-track="new article" href="http://www.theverge.com/2014/4/21/5637732/steve-jobs-film-danny-boyle-leonardo-dicaprio-in-talks">
+                        Leonardo DiCaprio might play Steve Jobs in upcoming biopic
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Samsung's damages expert calls Apple's patents ‘negligible' in value" data-track="new article" href="http://www.theverge.com/2014/4/21/5636372/samsungs-damages-expert-says-apples-patents-are-nearly-worthless">
+                        Samsung's damages expert calls Apple's patents ‘negligible'...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Netflix opposes Comcast–TWC merger over 'anticompetitive' concerns" data-track="new article" href="http://www.theverge.com/2014/4/21/5637420/netflix-opposes-comcast-purchase-of-time-warner-cable">
+                        Netflix opposes Comcast–TWC merger over 'anticompetitive'...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Amazon's Fire TV voice search will support Netflix later this year" data-track="new article" href="http://www.theverge.com/2014/4/21/5637348/amazon-fire-tv-voice-search-will-support-netflix-later-this-year">
+                        Amazon's Fire TV voice search will support Netflix later...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="GitHub co-founder resigns after investigation into harassment claims" data-track="new article" href="http://www.theverge.com/2014/4/21/5637282/co-founder-is-out-at-github-after-investigation-into-harassment-claims-horvath-tom-preston-warner">
+                        GitHub co-founder resigns after investigation into...
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-new-articles__section section clearfix">
+                  <ul>
+                    <li>
+                      <a title="Despite increased profits, Netflix says it will raise prices to improve speed and selection" data-track="new article" href="http://www.theverge.com/2014/4/21/5636474/netflix-q1-2014-earnings">
+                        Despite increased profits, Netflix says it will raise...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Netflix is raising prices for new members" data-track="new article" href="http://www.theverge.com/2014/4/21/5637248/netflix-will-raise-subscription-prices-new-members">
+                        Netflix is raising prices for new members
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Google finally combines text and chat conversations in Hangouts" data-track="new article" href="http://www.theverge.com/2014/4/21/5637122/google-hangouts-adding-merged-conversation-view">
+                        Google finally combines text and chat conversations in...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="HBO renews 'Silicon Valley' for second season" data-track="new article" href="http://www.theverge.com/2014/4/21/5637032/hbo-renews-silicon-valley-for-second-season">
+                        HBO renews 'Silicon Valley' for second season
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Ford executive Mark Fields will reportedly succeed Alan Mullaly as CEO" data-track="new article" href="http://www.theverge.com/2014/4/21/5636946/ford-reportedly-preparing-to-name-coo-mark-fields-as-its-next-ceo">
+                        Ford executive Mark Fields will reportedly succeed Alan...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Twitter blocks three whistleblower accounts in Turkey" data-track="new article" href="http://www.theverge.com/2014/4/21/5636606/twitter-blocks-three-whistleblower-accounts-in-turkey">
+                        Twitter blocks three whistleblower accounts in Turkey
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-new-articles__section section clearfix">
+                  <ul>
+                    <li>
+                      <a title="AT&amp;T considers creating real competition to Google Fiber" data-track="new article" href="http://www.theverge.com/2014/4/21/5636588/att-gigapower-gigabit-internet-service-exploring-100-cities-municipalities">
+                        AT&amp;T considers creating real competition to Google Fiber
+                      </a>
+                    </li>
+                    <li>
+                      <a title="The first commercial drone test site is now operational" data-track="new article" href="http://www.theverge.com/2014/4/21/5636668/faa-certifies-first-test-site-in-north-dakota">
+                        The first commercial drone test site is now operational
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Beats Music said to be struggling with subscriber count in 'the low six figures'" data-track="new article" href="http://www.theverge.com/2014/4/21/5636704/beats-music-is-struggling">
+                        Beats Music said to be struggling with subscriber count in...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Sunset on the domes: how Silicon Valley is losing its futuristic past" data-track="new article" href="http://www.theverge.com/2014/4/21/5628202/sunset-on-the-domes">
+                        Sunset on the domes: how Silicon Valley is losing its...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Court orders release of secret US drone killing documents" data-track="new article" href="http://www.theverge.com/2014/4/21/5636504/court-orders-release-of-secret-us-drone-killing-documents">
+                        Court orders release of secret US drone killing documents
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Silence of the Domes: 1964-2014" data-track="new article" href="http://www.theverge.com/2014/4/21/5635454/silence-of-the-domes-1964-2014">
+                        Silence of the Domes: 1964-2014
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-new-articles__section section clearfix">
+                  <ul>
+                    <li>
+                      <a title="Mastermind of Comcast scam that lowered customer bills by $2.4 million pleads guilty" data-track="new article" href="http://www.theverge.com/2014/4/21/5636408/mastermind-of-comcast-scam-that-lowered-bills-pleads-guilty">
+                        Mastermind of Comcast scam that lowered customer bills by...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Apple video narrated by Tim Cook advertises green power, not products" data-track="new article" href="http://www.theverge.com/2014/4/21/5636218/apple-tim-cook-narrates-environmental-sustainibility-ad-earth-day">
+                        Apple video narrated by Tim Cook advertises green power,...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Google is working on end-to-end encryption for Gmail" data-track="new article" href="http://www.theverge.com/2014/4/21/5636384/google-is-working-on-end-to-end-encryption-for-gmail">
+                        Google is working on end-to-end encryption for Gmail
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Did lead in gasoline cause a decades-long crime wave?" data-track="new article" href="http://www.theverge.com/2014/4/21/5636256/lead-in-gasoline-cause-decades-long-crime-wave">
+                        Did lead in gasoline cause a decades-long crime wave?
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Xperia Z2 and Z2 Tablet review: One Sony, two devices" data-track="new article" href="http://www.theverge.com/2014/4/21/5630502/sony-xperia-z2-and-z2-tablet-review">
+                        Xperia Z2 and Z2 Tablet review: One Sony, two devices
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Apple TV adds new apps for Lifetime, The History Channel, and A&amp;E" data-track="new article" href="http://www.theverge.com/2014/4/21/5636094/apple-tv-adds-new-apps-for-lifetime-the-history-channel-and-a-e">
+                        Apple TV adds new apps for Lifetime, The History Channel,...
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-new-articles__section section clearfix">
+                  <ul>
+                    <li>
+                      <a title="The US is funding local networks in Tunisia and Cuba" data-track="new article" href="http://www.theverge.com/2014/4/21/5635838/the-state-department-is-funding-mesh-networks-in-tunisia-and-cuba">
+                        The US is funding local networks in Tunisia and Cuba
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Nokia says its sale to Microsoft will close on April 25th" data-track="new article" href="http://www.theverge.com/2014/4/21/5636002/nokia-microsoft-sale-will-close-april-25">
+                        Nokia says its sale to Microsoft will close on April 25th
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Apple and Google escalate their battle for exclusive mobile games" data-track="new article" href="http://www.theverge.com/2014/4/21/5635772/apple-google-escalate-battle-for-exclusive-games">
+                        Apple and Google escalate their battle for exclusive mobile...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Aereo fights for its life at the Supreme Court this week" data-track="new article" href="http://www.theverge.com/2014/4/21/5635768/aereo-fights-for-its-life-at-the-supreme-court-this-week">
+                        Aereo fights for its life at the Supreme Court this week
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Explore the bridge of 'Star Trek: Voyager' through Oculus Rift" data-track="new article" href="http://www.theverge.com/2014/4/21/5635688/star-trek-voyager-bridge-oculus-rift-demo">
+                        Explore the bridge of 'Star Trek: Voyager' through Oculus...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="'A Mechanical Mind' is a beautiful thing" data-track="new article" href="http://www.theverge.com/2014/4/21/5634770/gershenson-gates-steampunk-insects-clockwork-sculptures">
+                        'A Mechanical Mind' is a beautiful thing
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-new-articles__section section clearfix">
+                  <ul>
+                    <li>
+                      <a title="Inside Microsoft's '90s chat war with AOL" data-track="new article" href="http://www.theverge.com/2014/4/21/5635488/msn-messenger-vs-aol-aim-chat-wars">
+                        Inside Microsoft's '90s chat war with AOL
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Joss Whedon releases new movie as $5 rental on Vimeo" data-track="new article" href="http://www.theverge.com/2014/4/21/5635468/joss-whedon-releases-in-your-eyes-as-5-dollar-rental-on-vimeo">
+                        Joss Whedon releases new movie as $5 rental on Vimeo
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Samsung opens museum to own the history of 'innovation'" data-track="new article" href="http://www.theverge.com/2014/4/21/5634980/samsungs-innovation-museum-opens-its-doors">
+                        Samsung opens museum to own the history of 'innovation'
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-new-articles__section section clearfix">
+                  <h3>
+                    April 20, 2014
+                  </h3>
+                  <ul>
+                    <li>
+                      <a title="Powdered alcohol may be coming to a liquor store near you" data-track="new article" href="http://www.theverge.com/2014/4/20/5634132/us-regulators-approve-powdered-alcohol">
+                        Powdered alcohol may be coming to a liquor store near you
+                      </a>
+                    </li>
+                    <li>
+                      <a title="US government to argue against Aereo at Supreme Court hearing this week" data-track="new article" href="http://www.theverge.com/2014/4/20/5633816/us-government-will-argue-against-aereo-at-supreme-court">
+                        US government to argue against Aereo at Supreme Court...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Quentin Tarantino is modifying script for 'The Hateful Eight' after leak" data-track="new article" href="http://www.theverge.com/2014/4/20/5633500/quentin-tarantino-is-modifying-script-for-the-hateful-eight-after-leak">
+                        Quentin Tarantino is modifying script for 'The Hateful...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Jamaica sees green in ganja" data-track="new article" href="http://www.theverge.com/2014/4/20/5630942/jamaica-sees-green-in-ganja-marijuana-legalization">
+                        Jamaica sees green in ganja
+                      </a>
+                    </li>
+                    <li>
+                      <a title="Disney unveils first clip from 'Star Wars: Rebels' animated series" data-track="new article" href="http://www.theverge.com/2014/4/20/5633356/disney-unveils-first-clip-from-star-wars-rebels-animated-series">
+                        Disney unveils first clip from 'Star Wars: Rebels' animated...
+                      </a>
+                    </li>
+                    <li>
+                      <a title="The best writing of the week, April 20th" data-track="new article" href="http://www.theverge.com/2014/4/20/5629196/the-best-writing-of-the-week-april-20">
+                        The best writing of the week, April 20th
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="m-nav">
+          <ul class="m-nav__tabs">
+            <li class="m-nav__user">
+              <a class="m-nav__user-toggle" data-chorus-auth="login" href="#">
+                <img src="http://cdn3.vox-cdn.com/images/verge/default-avatar.v9899025.gif" class="m-nav__avatar" alt="Default-avatar"/>
+              </a>
+              <div class="m-nav__user-dropdown">
+                <ul>
+                  <li>
+                    <a data-chorus-auth="login" href="#">
+                      Log in or join
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="m-nav__hub">
+              <a data-track="tab" data-section="longform" href="/longform">
+                Longform
+              </a>
+            </li>
+            <li class="m-nav__hub">
+              <a data-track="tab" data-section="video" href="/video">
+                Video
+              </a>
+            </li>
+            <li id="tab-reviews" class="m-nav__hub">
+              <a data-track="tab" data-section="review" href="/reviews">
+                Reviews 
+                <span class="m-nav__compare-badge">
+                </span>
+              </a>
+            </li>
+            <li class="m-nav__hub">
+              <a data-track="tab" data-section="tech" href="/tech">
+                Tech
+              </a>
+            </li>
+            <li class="m-nav__hub">
+              <a data-track="tab" data-section="science" href="/science">
+                Science
+              </a>
+            </li>
+            <li class="m-nav__hub">
+              <a data-track="tab" data-section="culture" href="/culture">
+                Culture
+              </a>
+            </li>
+            <li class="m-nav__hub">
+              <a data-track="tab" data-section="design" href="/design">
+                Design
+              </a>
+            </li>
+            <li class="m-nav__hub">
+              <a data-track="tab" data-section="business" href="/business">
+                Business
+              </a>
+            </li>
+            <li class="m-nav__hub">
+              <a data-track="tab" data-section="us-world" href="/us-world">
+                US &amp; World
+              </a>
+            </li>
+            <li class="m-nav__hub">
+              <a data-track="tab" data-section="forums" href="/forums">
+                Forums
+              </a>
+            </li>
+            <li class="m-nav__back-to-top">
+              <a data-track="tab" title="Back to top" href="#">
+                Back to top
+              </a>
+            </li>
+            <li class="m-nav__search">
+              <a class="m-nav__search-toggle" href="/search">
+                Search
+              </a>
+              <div class="m-nav__search-dropdown">
+                <form method="get" action="/search">
+                  <input type="text" value="Search articles &amp; products" onfocus="resetField(this)" onblur="resetField(this,true)" name="q" id="basic_search_query" class="textfield search"/>
+                  <button>
+                    Go
+                  </button>
+                </form>
+              </div>
+            </li>
+          </ul>
+          <div class="m-nav__hub-dropdown">
+            <div class="m-nav__hub-dropdown-pane">
+              <img src="http://cdn0.vox-cdn.com/images/verge/loading.v92f34fc.gif" class="m-nav__loading" alt="Loading"/>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="m-ad m-ad__billboard">
+      </div>
+      <div class="m-user-msg__root">
+      </div>
+      <div id="container">
+        <div id="campaigns_top_hat">
+          <script>
+//<![CDATA[
+
+                SBN.Campaigns.renderBelowNavAdMarkupIfApplicable();
+              
+//]]>
+          </script>
+        </div>
+        <div id="container-content">
+          <script type="text/javascript" src="http://cdn0.vox-cdn.com/javascripts/app/search.v96c408b.js">
+          </script>
+          <div class="row clearfix search filter">
+            <script type="text/javascript" src="http://cdn2.vox-cdn.com/javascripts/vendor/date.v23a9f5a.js">
+            </script>
+            <ul class="nav nav-scope nav-scope-search clearfix">
+              <li>
+                <a href="/search?order=date&amp;q=family&amp;scope=network">
+                  &lt;span&gt;Search The Verge &lt;/span&gt;
+                </a>
+              </li>
+            </ul>
+            <div class="search-pane">
+              <div style="" id="basic_search">
+                <p class="mode-switch">
+                  <a onclick="SBN.Search.switchToAdvanced(); return false;" href="#">
+                    Power Search »
+                  </a>
+                  <span class="sub">
+                    Filter by user and date.
+                  </span>
+                </p>
+                <form method="get" action="">
+                  <input type="hidden" value="community" name="scope" id="scope"/>
+                  <input type="hidden" value="" name="type" id="type"/>
+                  <input type="hidden" value="date" name="order" id="order"/>
+                  <p class="results-search">
+                    <input type="text" value="family" name="q" id="q" class="textfield"/>
+                    <input type="submit" value="Search" name="btn" class="button"/>
+                  </p>
+                </form>
+              </div>
+              <div class="clearfix" style="display:none" id="advanced_search">
+                <p class="mode-switch">
+                  <a onclick="SBN.Search.switchToBasic(); return false;" href="#">
+                    Simple Search »
+                  </a>
+                  <span class="sub">
+                    One big fat search field.
+                  </span>
+                </p>
+                <form method="get" action="">
+                  <input type="hidden" value="true" name="advanced_search" id="advanced_search"/>
+                  <input type="hidden" value="community" name="scope" id="scope"/>
+                  <input type="hidden" value="" name="type" id="type"/>
+                  <input type="hidden" value="date" name="order" id="order"/>
+                  <div class="search-row search-row1 clearfix">
+                    <div class="set">
+                      <label>
+                        contains all these words:
+                      </label>
+                      <input type="text" value="" name="all_these_words" id="all_these_words"/>
+                    </div>
+                    <div class="set">
+                      <label>
+                        this exact phrase:
+                      </label>
+                      <input type="text" value="" name="this_exact_phrase" id="this_exact_phrase"/>
+                    </div>
+                    <div class="set">
+                      <label>
+                        any of these words:
+                      </label>
+                      <input type="text" value="" name="any_of_these_words" id="any_of_these_words"/>
+                    </div>
+                    <div class="set">
+                      <label>
+                        results per page:
+                      </label>
+                      <select name="results_per_page">
+                        <option value="10" selected="selected">
+                          10
+                        </option>
+                        <option value="25">
+                          25
+                        </option>
+                        <option value="50">
+                          50
+                        </option>
+                        <option value="100">
+                          100
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="search-row search-row2 clearfix">
+                    <div class="set">
+                      <label>
+                        created between: 
+                        <span class="english-label" id="created_after_english">
+                        </span>
+                      </label>
+                      <input type="text" value="" name="created_after_freeform" id="created_after_freeform"/>
+                      <label class="examples">
+                        try: 
+                        <em>
+                          3 weeks ago, Jan 5, last Monday
+                        </em>
+                      </label>
+                      <input type="hidden" name="created_after" id="created_after"/>
+                    </div>
+                    <div class="set">
+                      <label>
+                        and: 
+                        <span class="english-label" id="created_before_english">
+                        </span>
+                      </label>
+                      <input type="text" value="" name="created_before_freeform" id="created_before_freeform"/>
+                      <label class="examples">
+                        try: 
+                        <em>
+                          4/15/2005, yesterday, -3 years
+                        </em>
+                      </label>
+                      <input type="hidden" name="created_before" id="created_before"/>
+                    </div>
+                    <div class="set">
+                      <label>
+                        by user:
+                      </label>
+                      <input type="text" value="" name="search_user" id="search_user"/>
+                    </div>
+                    <div class="set">
+                      <input type="submit" value="Search" name="btn_advanced" class="button"/>
+                    </div>
+                  </div>
+                  <script type="text/javascript">
+//<![CDATA[
+
+//&lt;![CDATA[
+new Form.Element.Observer('created_after_freeform', 0.5, function(element, value) {SBN.Dates.updateDate('created_after')})
+//]]&gt;
+
+//]]>
+                  </script>
+                  <script type="text/javascript">
+//<![CDATA[
+
+//&lt;![CDATA[
+new Form.Element.Observer('created_before_freeform', 0.5, function(element, value) {SBN.Dates.updateDate('created_before')})
+//]]&gt;
+
+//]]>
+                  </script>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="row clearfix search results">
+            <div class="column grid_8">
+              <div class="results-bar clearfix">
+                <span class="tally">
+                  
+        Results 
+                  <strong>
+                    1 - 10
+                  </strong>
+                   of 
+                  <strong>
+                    1,715
+                  </strong>
+                   for "
+                  <a href="/search?order=date&amp;q=family">
+                    family
+                  </a>
+                  " in 
+                  <a href="http://www.theverge.com/">
+                    The Verge
+                  </a>
+                </span>
+                <ul class="nav nav-results clearfix">
+                  <li id="posts-search-nav-type" class="&quot;active&quot;">
+                    <a href="/search?order=date&amp;q=family&amp;type=Post">
+                      Posts (1,715)
+                    </a>
+                  </li>
+                  <li id="comments-search-nav-type">
+                    <a href="/search?order=date&amp;q=family&amp;type=Comment">
+                      Comments (16,497)
+                    </a>
+                  </li>
+                  <li id="forum-posts-search-nav-type">
+                    <a href="/search?order=date&amp;q=family&amp;type=FanPost">
+                      forum posts (910)
+                    </a>
+                  </li>
+                  <li id="user-reviews-search-nav-type">
+                    <a href="/search?order=date&amp;q=family&amp;type=UserReview">
+                      user reviews (18)
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="search-results clearfix">
+                <div class="search-sidebar">
+                  <div id="product-search-results" class="pane-results pane-results-blog">
+                    <ul class="product-grid clearfix">
+                      <li class="item item1">
+                        <div data-product-id="3055" class="product-grid-item">
+                          <a title="Xoom Family Edition" class="thumb" href="http://www.theverge.com/products/xoom-family-edition/3055">
+                            <span>
+                            </span>
+                            <img src="http://cdn2.sbnation.com/products/small/3055/done-motorola-xoom-family-edition_1000.jpg?1319482305" alt="Done-motorola-xoom-family-edition_1000"/>
+                          </a>
+                          <a data-compare-template="6" data-compare="{&quot;image&quot;:&quot;http://cdn2.sbnation.com/products/small/3055/done-motorola-xoom-family-edition_1000.jpg?1319482305&quot;,&quot;url&quot;:&quot;http://www.theverge.com/products/xoom-family-edition/3055&quot;,&quot;template&quot;:6,&quot;name&quot;:&quot;Motorola Xoom Family Edition&quot;,&quot;id&quot;:3055}" class="compare-bug ribbongle" href="/products/compare/3055">
+                            Compare
+                          </a>
+                          <div class="label">
+                            <h3>
+                              <a title="Xoom Family Edition" href="http://www.theverge.com/products/xoom-family-edition/3055">
+                                Xoom Family Edition
+                              </a>
+                            </h3>
+                            <p class="by">
+                              By 
+                              <a href="http://www.theverge.com/products/brands/motorola/53">
+                                Motorola
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="item item2">
+                        <div data-product-id="1700" class="product-grid-item">
+                          <a title="Family Computer" class="thumb" href="http://www.theverge.com/products/family-computer/1700">
+                            <span>
+                            </span>
+                            <img src="http://cdn1.sbnation.com/products/small/1700/Nintendo%20Famicom.png?1316112974" alt="Nintendo%20famicom"/>
+                          </a>
+                          <a data-compare-template="38" data-compare="{&quot;image&quot;:&quot;http://cdn1.sbnation.com/products/small/1700/Nintendo%20Famicom.png?1316112974&quot;,&quot;url&quot;:&quot;http://www.theverge.com/products/family-computer/1700&quot;,&quot;template&quot;:38,&quot;name&quot;:&quot;Nintendo Family Computer&quot;,&quot;id&quot;:1700}" class="compare-bug ribbongle" href="/products/compare/1700">
+                            Compare
+                          </a>
+                          <div class="label">
+                            <h3>
+                              <a title="Family Computer" href="http://www.theverge.com/products/family-computer/1700">
+                                Family Computer
+                              </a>
+                            </h3>
+                            <p class="by">
+                              By 
+                              <a href="http://www.theverge.com/products/brands/nintendo/100">
+                                Nintendo
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="item item3">
+                        <div data-product-id="3546" class="product-grid-item">
+                          <a title="Wii Family Edition" class="thumb" href="http://www.theverge.com/products/wii-family-edition/3546">
+                            <span>
+                            </span>
+                            <img src="http://cdn3.sbnation.com/products/small/3546/Wii%20family%20white%20bkgd%20best.jpg?1319214266" alt="Wii%20family%20white%20bkgd%20best"/>
+                          </a>
+                          <a data-compare-template="38" data-compare="{&quot;image&quot;:&quot;http://cdn3.sbnation.com/products/small/3546/Wii%20family%20white%20bkgd%20best.jpg?1319214266&quot;,&quot;url&quot;:&quot;http://www.theverge.com/products/wii-family-edition/3546&quot;,&quot;template&quot;:38,&quot;name&quot;:&quot;Nintendo Wii Family Edition&quot;,&quot;id&quot;:3546}" class="compare-bug ribbongle" href="/products/compare/3546">
+                            Compare
+                          </a>
+                          <div class="label">
+                            <h3>
+                              <a title="Wii Family Edition" href="http://www.theverge.com/products/wii-family-edition/3546">
+                                Wii Family Edition
+                              </a>
+                            </h3>
+                            <p class="by">
+                              By 
+                              <a href="http://www.theverge.com/products/brands/nintendo/100">
+                                Nintendo
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div id="hub-page-search-results">
+                    <ul>
+                      <li>
+                        <h3>
+                          <a href="http://www.theverge.com/gaming">
+                            Gaming
+                          </a>
+                        </h3>
+                      </li>
+                      <li>
+                        <h3>
+                          <a href="http://www.theverge.com/mobile">
+                            Mobile
+                          </a>
+                        </h3>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <ul class="sort-by">
+                  <li>
+                    Sort by date
+                  </li>
+                  <li>
+                    <a href="/search?order=score&amp;q=family">
+                      Sort by relevancy
+                    </a>
+                  </li>
+                </ul>
+                <div class="result">
+                  <p class="categories">
+                    <strong>
+                      Feature
+                    </strong>
+                  </p>
+                  <h3>
+                    <a href="http://www.theverge.com/2014/4/21/5635454/silence-of-the-domes-1964-2014">
+                      Silence of the Domes: 1964-2014
+                    </a>
+                  </h3>
+                  <p class="search-byline">
+                    
+        by 
+                    <a href="http://www.theverge.com/users/Sean%20Hollister">
+                      Sean Hollister
+                    </a>
+                     on Apr 21, 2014 12:40 PM EDT
+      
+                  </p>
+                  <p>
+                    In 1963, a prominent local architect named Vincent G. Raney agreed to build a theater on his 
+                    <strong class="highlight">
+                      family
+                    </strong>
+                    's land in San Jose, California, right next to their world-famous Winchester Mystery House. He'd built theaters before, but this would be the first of...
+                  </p>
+                </div>
+                <div class="result">
+                  <p class="categories">
+                    <strong>
+                      Feature
+                    </strong>
+                  </p>
+                  <h3>
+                    <a href="http://www.theverge.com/2014/4/21/5628202/sunset-on-the-domes">
+                      Sunset on the domes: how Silicon Valley is losing its futuristic past
+                    </a>
+                  </h3>
+                  <p class="search-byline">
+                    
+        by 
+                    <a href="http://www.theverge.com/users/Sean%20Hollister">
+                      Sean Hollister
+                    </a>
+                     on Apr 21, 2014 1:17 PM EDT
+      
+                  </p>
+                  <p>
+                    ...to keep the theaters around at the expense of progress.
+But the issue isn’t as clear-cut as it initially seems. Vincent Raney built the domes on his family’s own land, and that granddaughter stands to profit from the transaction. Faced with the closure of a beloved institution, some San Jose residents ar...
+                  </p>
+                </div>
+                <div class="result">
+                  <p class="categories">
+                    <strong>
+                      Article
+                    </strong>
+                  </p>
+                  <h3>
+                    <a href="http://www.theverge.com/2014/4/17/5624142/dream-sushi-james-ferraro-and-the-art-of-the-ringtone">
+                      'Dream Sushi' and the art of the ringtone
+                    </a>
+                  </h3>
+                  <p class="search-byline">
+                    
+        by 
+                    <a href="http://www.theverge.com/users/Lessley">
+                      Lessley Anderson
+                    </a>
+                     on Apr 17, 2014 11:32 AM EDT
+      
+                  </p>
+                  <p>
+                    It’s been years since ringtones were a multimillion-dollar industry, but the medium still has value for James Ferraro. As part of his exhibit for New York’s MoMA PS1 in Queens, 100%, the 25-year-old Los Angeles-based experimental musician composed a suite of 18 ringtones that he says are meant to...
+                  </p>
+                </div>
+                <div class="result">
+                  <p class="categories">
+                    <strong>
+                      Article
+                    </strong>
+                  </p>
+                  <h3>
+                    <a href="http://www.theverge.com/2014/4/17/5622674/cool-dads-in-90s-media">
+                      How the '90s idolized unheroic dads
+                    </a>
+                  </h3>
+                  <p class="search-byline">
+                    
+        by 
+                    <a href="http://www.theverge.com/users/casskhaw">
+                      Cassandra Khaw
+                    </a>
+                     on Apr 17, 2014 3:44 AM EDT
+      
+                  </p>
+                  <p>
+                    The sixties had hippies. The nineties had fathers: Homer Simpson, Dick Solomon, Major John MacGillis and more. Over at The Paris Review, Willie Osterweil writes about how unheroic dads, often defined by their initial ineptitude, took center stage in both television and film during this time period....
+                  </p>
+                </div>
+                <div class="result">
+                  <p class="categories">
+                    <strong>
+                      Article
+                    </strong>
+                  </p>
+                  <h3>
+                    <a href="http://www.theverge.com/2014/4/16/5621450/google-q1-2014-earnings">
+                      Google Q1 2014 earnings deliver $15.4 billion in revenue
+                    </a>
+                  </h3>
+                  <p class="search-byline">
+                    
+        by 
+                    <a href="http://www.theverge.com/users/Ben%20Popper">
+                      Ben Popper
+                    </a>
+                     on Apr 16, 2014 4:11 PM EDT
+      
+                  </p>
+                  <p>
+                    Google reported its results for the first quarter of the year today, posting revenue of $15.42 billion and earnings per share of $6.27. That missed analysts' estimates of $15.52 billion in revenue and earnings of $6.42 a share. That's a miss on the top and bottom line, and the stock is trending...
+                  </p>
+                </div>
+                <div class="result">
+                  <p class="categories">
+                    <strong>
+                      Article
+                    </strong>
+                  </p>
+                  <h3>
+                    <a href="http://www.theverge.com/2014/4/16/5620300/facebooks-friend-problem">
+                      Facebook's friend problem
+                    </a>
+                  </h3>
+                  <p class="search-byline">
+                    
+        by 
+                    <a href="http://www.theverge.com/users/ellishamburger">
+                      Ellis Hamburger
+                    </a>
+                     on Apr 16, 2014 12:13 PM EDT
+      
+                  </p>
+                  <p>
+                    ...rcher who interviewed over 150 teens for her recent book on social media. If Facebook wants its News Feed to remain the source of news about friends, 
+                    <strong class="highlight">
+                      family
+                    </strong>
+                    , and other people we care about it, it needs to change its definition of friendship.
+The Facebook News Feed includes content from everyone you know...
+                  </p>
+                </div>
+                <div class="result">
+                  <p class="categories">
+                    <strong>
+                      Article
+                    </strong>
+                  </p>
+                  <h3>
+                    <a href="http://www.theverge.com/2014/4/16/5619884/lg-golden-g3-launch">
+                      LG will launch golden G3 smartphone with crazy resolution this summer
+                    </a>
+                  </h3>
+                  <p class="search-byline">
+                    
+        by 
+                    <a href="http://www.theverge.com/users/vladislav">
+                      Vlad Savov
+                    </a>
+                     on Apr 16, 2014 1:05 PM EDT
+      
+                  </p>
+                  <p>
+                    A third of the way into 2014, we already have new flagship phones from almost all the big Android handset makers: the Galaxy S5, the Xperia Z2, and the new One are all now on sale. The one company that's kept relatively quiet throughout the period has been LG, manufacturer of the much-loved G2 and...
+                  </p>
+                </div>
+                <div class="result">
+                  <p class="categories">
+                    <strong>
+                      Article
+                    </strong>
+                  </p>
+                  <h3>
+                    <a href="http://www.theverge.com/entertainment/2014/4/15/5617666/fast-7-is-using-paul-walkers-brothers-to-finish-filming-his-role">
+                      'Fast 7' is using Paul Walker's brothers to finish filming his role
+                    </a>
+                  </h3>
+                  <p class="search-byline">
+                    
+        by 
+                    <a href="http://www.theverge.com/users/bcbishop">
+                      Bryan Bishop
+                    </a>
+                     on Apr 15, 2014 3:05 PM EDT
+      
+                  </p>
+                  <p>
+                    ...ated imagery would be used to help complete any remaining scenes. Given today's announcement, it's clear that those body doubles will be Walker's own 
+                    <strong class="highlight">
+                      family
+                    </strong>
+                     members.
+While the prospect may sound morbid, it's not unprecedented. A similar approach was used for the 1994 film The Crow when star Brandon Lee w...
+                  </p>
+                </div>
+                <div class="result">
+                  <p class="categories">
+                    <strong>
+                      Article
+                    </strong>
+                  </p>
+                  <h3>
+                    <a href="http://www.theverge.com/2014/4/15/5614652/deny-the-machine">
+                      This anarchist collective is demanding $3 billion from Google
+                    </a>
+                  </h3>
+                  <p class="search-byline">
+                    
+        by 
+                    <a href="http://www.theverge.com/users/adrianne">
+                      Adrianne Jeffries
+                    </a>
+                     on Apr 15, 2014 11:30 AM EDT
+      
+                  </p>
+                  <p>
+                    Around 7AM on January 21st, 2014, a small group of protesters gathered in the driveway of an understated $1 million four bedroom 
+                    <strong class="highlight">
+                      family
+                    </strong>
+                     home in Berkeley and unfurled a hand-painted banner that read "GOOGLE’S FUTURE STOPS HERE."
+The house belonged to Anthony Levandowski, a Google engi...
+                  </p>
+                </div>
+                <div class="result">
+                  <p class="categories">
+                    <strong>
+                      Article
+                    </strong>
+                  </p>
+                  <h3>
+                    <a href="http://www.theverge.com/2014/4/13/5605190/the-best-writing-of-the-week-april-13">
+                      The best writing of the week, April 13
+                    </a>
+                  </h3>
+                  <p class="search-byline">
+                    
+        by 
+                    <a href="http://www.theverge.com/users/t.houston">
+                      Thomas Houston
+                    </a>
+                     on Apr 13, 2014 11:30 AM EDT
+      
+                  </p>
+                  <p>
+                    ...dition vehicle? No, more than that, what if he made the ultimate adventure truck, the very platonic ideal of such a thing—which he could outfit for a 
+                    <strong class="highlight">
+                      family
+                    </strong>
+                     of three? He started to envision a vehicle that could take Kira nearly anywhere on earth without limitation—a mix of high-powered machinery, bomb-she...
+                  </p>
+                </div>
+                <div class="pagination clearfix">
+                  <p>
+                    <span>
+                      
+          Showing 
+                      <strong>
+                        1 - 10
+                      </strong>
+                       of 1,715
+        
+                    </span>
+                    <a class="page-next" href="/search?order=date&amp;page=2&amp;q=family">
+                      Next
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="column grid_4">
+              <div class="m-ad m-ad__medrec vert vert300">
+                <div class="liner">
+                  <div class="open_x_ad open_x_medium_rectangle" id="open_x_ad_unit_96674">
+                    <script type="text/javascript">
+//<![CDATA[
+
+              if (Util.UserAgentProfiler.isMobile()) {
+                SBN.OpenX.showAd(252370);
+              } else if (Util.UserAgentProfiler.isTablet()) {
+                SBN.OpenX.showAd(252370);
+              } else if (Util.UserAgentProfiler.isDesktop()) {
+                SBN.OpenX.showAd(96674);
+              }
+            
+//]]>
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <section class="widget-itemlist widget-related widget-related-hubs" id="hub-page-search-sidebar" style="display: block;">
+                <h1>
+                  Hubs related to 
+                  <em>
+                    family
+                  </em>
+                </h1>
+                <ul>
+                  <li>
+                    <h3>
+                      <a href="http://www.theverge.com/gaming">
+                        Gaming
+                      </a>
+                    </h3>
+                  </li>
+                  <li>
+                    <h3>
+                      <a href="http://www.theverge.com/mobile">
+                        Mobile
+                      </a>
+                    </h3>
+                  </li>
+                </ul>
+              </section>
+              <section id="product-search-sidebar" style="display: block;">
+                <h1>
+                  Product results for 
+                  <em>
+                    family
+                  </em>
+                </h1>
+                <ul class="product-grid clearfix">
+                  <li class="item item1">
+                    <div data-product-id="3055" class="product-grid-item">
+                      <a title="Xoom Family Edition" class="thumb" href="http://www.theverge.com/products/xoom-family-edition/3055">
+                        <span>
+                        </span>
+                        <img src="http://cdn2.sbnation.com/products/small/3055/done-motorola-xoom-family-edition_1000.jpg?1319482305" alt="Done-motorola-xoom-family-edition_1000"/>
+                      </a>
+                      <a data-compare-template="6" data-compare="{&quot;image&quot;:&quot;http://cdn2.sbnation.com/products/small/3055/done-motorola-xoom-family-edition_1000.jpg?1319482305&quot;,&quot;url&quot;:&quot;http://www.theverge.com/products/xoom-family-edition/3055&quot;,&quot;template&quot;:6,&quot;name&quot;:&quot;Motorola Xoom Family Edition&quot;,&quot;id&quot;:3055}" class="compare-bug ribbongle" href="/products/compare/3055">
+                        Compare
+                      </a>
+                      <div class="label">
+                        <h3>
+                          <a title="Xoom Family Edition" href="http://www.theverge.com/products/xoom-family-edition/3055">
+                            Xoom Family Edition
+                          </a>
+                        </h3>
+                        <p class="by">
+                          By 
+                          <a href="http://www.theverge.com/products/brands/motorola/53">
+                            Motorola
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item item2">
+                    <div data-product-id="1700" class="product-grid-item">
+                      <a title="Family Computer" class="thumb" href="http://www.theverge.com/products/family-computer/1700">
+                        <span>
+                        </span>
+                        <img src="http://cdn1.sbnation.com/products/small/1700/Nintendo%20Famicom.png?1316112974" alt="Nintendo%20famicom"/>
+                      </a>
+                      <a data-compare-template="38" data-compare="{&quot;image&quot;:&quot;http://cdn1.sbnation.com/products/small/1700/Nintendo%20Famicom.png?1316112974&quot;,&quot;url&quot;:&quot;http://www.theverge.com/products/family-computer/1700&quot;,&quot;template&quot;:38,&quot;name&quot;:&quot;Nintendo Family Computer&quot;,&quot;id&quot;:1700}" class="compare-bug ribbongle" href="/products/compare/1700">
+                        Compare
+                      </a>
+                      <div class="label">
+                        <h3>
+                          <a title="Family Computer" href="http://www.theverge.com/products/family-computer/1700">
+                            Family Computer
+                          </a>
+                        </h3>
+                        <p class="by">
+                          By 
+                          <a href="http://www.theverge.com/products/brands/nintendo/100">
+                            Nintendo
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item item3">
+                    <div data-product-id="3546" class="product-grid-item">
+                      <a title="Wii Family Edition" class="thumb" href="http://www.theverge.com/products/wii-family-edition/3546">
+                        <span>
+                        </span>
+                        <img src="http://cdn3.sbnation.com/products/small/3546/Wii%20family%20white%20bkgd%20best.jpg?1319214266" alt="Wii%20family%20white%20bkgd%20best"/>
+                      </a>
+                      <a data-compare-template="38" data-compare="{&quot;image&quot;:&quot;http://cdn3.sbnation.com/products/small/3546/Wii%20family%20white%20bkgd%20best.jpg?1319214266&quot;,&quot;url&quot;:&quot;http://www.theverge.com/products/wii-family-edition/3546&quot;,&quot;template&quot;:38,&quot;name&quot;:&quot;Nintendo Wii Family Edition&quot;,&quot;id&quot;:3546}" class="compare-bug ribbongle" href="/products/compare/3546">
+                        Compare
+                      </a>
+                      <div class="label">
+                        <h3>
+                          <a title="Wii Family Edition" href="http://www.theverge.com/products/wii-family-edition/3546">
+                            Wii Family Edition
+                          </a>
+                        </h3>
+                        <p class="by">
+                          By 
+                          <a href="http://www.theverge.com/products/brands/nintendo/100">
+                            Nintendo
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </section>
+              <section class="widget-itemlist widget-related widget-latest-headlines">
+                <div class="widget-head clearfix">
+                  <h2 class="title1 badged">
+                    Headlines
+                  </h2>
+                </div>
+                <ul>
+                  <li class="clearfix">
+                    <a href="http://www.theverge.com/2014/4/22/5638320/harvard-medical-school-study-rhesus-monkeys-math-human-brains">
+                      <div style="height:55px; width:85px;" class="image-window shadowbox">
+                        <img width="85" style="position: absolute; top: -1px; left: 0px; height: 57px;" src="http://cdn0.vox-cdn.com/images/sbn/components/lazy-load-image-gray.vc5f04cd.gif" data-ratio="1.5" data-original="http://cdn2.vox-cdn.com/uploads/chorus_image/image/31971187/macaque.0_standard_90.0.jpg" data-imgkey="31964395:standard:8" class="vox-lazy-load lazy-loading" alt="" data-dim="85x55"/>
+                        <noscript>
+                          &lt;img src="http://cdn0.vox-cdn.com/uploads/chorus_image/image/31971187/macaque.0_standard_90.0.jpg" alt=""/&gt;
+                        </noscript>
+                      </div>
+                      <h3>
+                        Study confirms monkeys can do math
+                      </h3>
+                    </a>
+                  </li>
+                  <li class="clearfix">
+                    <a href="http://www.theverge.com/2014/4/22/5638908/smart-watch-lg-champagne-gold">
+                      <div style="height:55px; width:85px;" class="image-window shadowbox">
+                        <img width="85" style="position: absolute; top: -1px; left: 0px; height: 57px;" src="http://cdn0.vox-cdn.com/images/sbn/components/lazy-load-image-gray.vc5f04cd.gif" data-ratio="1.5" data-original="http://cdn0.vox-cdn.com/uploads/chorus_image/image/31969215/alwaysonlg.0_standard_90.0.jpg" data-imgkey="31969113:standard:13" class="vox-lazy-load lazy-loading" alt="" data-dim="85x55"/>
+                        <noscript>
+                          &lt;img src="http://cdn2.vox-cdn.com/uploads/chorus_image/image/31969215/alwaysonlg.0_standard_90.0.jpg" alt=""/&gt;
+                        </noscript>
+                      </div>
+                      <h3>
+                        LG's G Watch is always-on and water resistant
+                      </h3>
+                    </a>
+                  </li>
+                  <li class="clearfix">
+                    <a href="http://www.theverge.com/2014/4/21/5638080/mailbox-2-0-ios-available-now">
+                      <div style="height:55px; width:85px;" class="image-window shadowbox">
+                        <img width="85" style="position: absolute; top: -1px; left: 0px; height: 57px;" src="http://cdn0.vox-cdn.com/images/sbn/components/lazy-load-image-gray.vc5f04cd.gif" data-ratio="1.5" data-original="http://cdn1.vox-cdn.com/uploads/chorus_image/image/31959549/mailbox_autoswipe_for_iphone.0_standard_90.0.png" data-imgkey="31959013:standard:12" class="vox-lazy-load lazy-loading" alt="" data-dim="85x55"/>
+                        <noscript>
+                          &lt;img src="http://cdn1.vox-cdn.com/uploads/chorus_image/image/31959549/mailbox_autoswipe_for_iphone.0_standard_90.0.png" alt=""/&gt;
+                        </noscript>
+                      </div>
+                      <h3>
+                        Mailbox 2.0 is out for iOS with 'Auto-swipe' predictive archiving
+                      </h3>
+                    </a>
+                  </li>
+                  <li class="clearfix">
+                    <a href="http://www.theverge.com/2014/4/21/5637732/steve-jobs-film-danny-boyle-leonardo-dicaprio-in-talks">
+                      <div style="height:55px; width:85px;" class="image-window shadowbox">
+                        <img width="85" style="position: absolute; top: -1px; left: 0px; height: 57px;" src="http://cdn0.vox-cdn.com/images/sbn/components/lazy-load-image-gray.vc5f04cd.gif" data-ratio="1.5" data-original="http://cdn1.vox-cdn.com/uploads/chorus_image/image/31954495/shutterstock_123079459.0_standard_90.0.jpg" data-imgkey="31954189:standard:17" class="vox-lazy-load lazy-loading" alt="" data-dim="85x55"/>
+                        <noscript>
+                          &lt;img src="http://cdn0.vox-cdn.com/uploads/chorus_image/image/31954495/shutterstock_123079459.0_standard_90.0.jpg" alt=""/&gt;
+                        </noscript>
+                      </div>
+                      <h3>
+                        Leonardo DiCaprio might play Steve Jobs in upcoming biopic
+                      </h3>
+                    </a>
+                  </li>
+                  <li class="clearfix">
+                    <a href="http://www.theverge.com/2014/4/21/5636372/samsungs-damages-expert-says-apples-patents-are-nearly-worthless">
+                      <div style="height:55px; width:85px;" class="image-window shadowbox">
+                        <img width="85" style="position: absolute; top: -1px; left: 0px; height: 57px;" src="http://cdn0.vox-cdn.com/images/sbn/components/lazy-load-image-gray.vc5f04cd.gif" data-ratio="1.5" data-original="http://cdn2.vox-cdn.com/uploads/chorus_image/image/31951763/dscf2991-2.0_standard_90.0.jpg" data-imgkey="31933405:standard:14" class="vox-lazy-load lazy-loading" alt="" data-dim="85x55"/>
+                        <noscript>
+                          &lt;img src="http://cdn0.vox-cdn.com/uploads/chorus_image/image/31951763/dscf2991-2.0_standard_90.0.jpg" alt=""/&gt;
+                        </noscript>
+                      </div>
+                      <h3>
+                        Samsung's damages expert calls Apple's patents ‘negligible' in value
+                      </h3>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+              <section class="widget-itemlist widget-recent widget-recent-discussions forum-posts">
+                <div class="widget-head clearfix">
+                  <h2 class="title1 badged">
+                    Discussions
+                  </h2>
+                </div>
+                <ul>
+                  <li>
+                    <p class="categories">
+                      <a class="googleplex" href="http://www.theverge.com/forums/googleplex">
+                        Googleplex
+                      </a>
+                    </p>
+                    <h3>
+                      <a href="http://www.theverge.com/2014/4/22/5611152/i-present-to-you-my-new-icon-pack-project-one">
+                        I Present To You My New Icon Pack: Project One_
+                      </a>
+                    </h3>
+                    <p class="byline">
+                      <strong>
+                        27 minutes ago
+                      </strong>
+                       by 
+                      <a href="http://www.theverge.com/users/Wylify">
+                        Wylify
+                      </a>
+                      <span>
+                        1 comment
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="categories">
+                      <a class="microsoft-tribe" href="http://www.theverge.com/forums/microsoft-tribe">
+                        Microsoft Tribe
+                      </a>
+                    </p>
+                    <h3>
+                      <a href="http://www.theverge.com/2014/4/22/5638962/who-has-the-best-ecosystem-now-apple-google-or-microsoft">
+                        Who has the best ecosystem now: Apple, Google or Microsoft?
+                      </a>
+                    </h3>
+                    <p class="byline">
+                      <strong>
+                        about 2 hours ago
+                      </strong>
+                       by 
+                      <a href="http://www.theverge.com/users/DrJimmyRustle44">
+                        DrJimmyRustle44
+                      </a>
+                      <span>
+                        7 comments
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="categories">
+                      <a class="apple-core" href="http://www.theverge.com/forums/apple-core">
+                        Apple Core
+                      </a>
+                    </p>
+                    <h3>
+                      <a href="http://www.theverge.com/2014/4/22/5638724/does-apple-need-more-employees">
+                        Does Apple need more employees?
+                      </a>
+                    </h3>
+                    <p class="byline">
+                      <strong>
+                        about 5 hours ago
+                      </strong>
+                       by 
+                      <a href="http://www.theverge.com/users/rogifan">
+                        rogifan
+                      </a>
+                      <span>
+                        4 comments
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="categories">
+                      <a class="googleplex" href="http://www.theverge.com/forums/googleplex">
+                        Googleplex
+                      </a>
+                    </p>
+                    <h3>
+                      <a href="http://www.theverge.com/2014/4/21/5638656/xperia-z2-display-sunlight-visibility">
+                        Xperia Z2 display: Sunlight visibility
+                      </a>
+                    </h3>
+                    <p class="byline">
+                      <strong>
+                        about 6 hours ago
+                      </strong>
+                       by 
+                      <a href="http://www.theverge.com/users/Ben49">
+                        Ben49
+                      </a>
+                      <span>
+                        8 comments
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="categories">
+                      <a class="microsoft-tribe" href="http://www.theverge.com/forums/microsoft-tribe">
+                        Microsoft Tribe
+                      </a>
+                    </p>
+                    <h3>
+                      <a href="http://www.theverge.com/2014/4/21/5638506/is-anyone-else-getting-fed-up-with-the-xbox-one">
+                        Is anyone else getting fed up with the Xbox One?
+                      </a>
+                    </h3>
+                    <p class="byline">
+                      <strong>
+                        about 7 hours ago
+                      </strong>
+                       by 
+                      <a href="http://www.theverge.com/users/MikehMike01">
+                        MikehMike01
+                      </a>
+                      <span>
+                        8 comments
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="categories">
+                      <a class="microsoft-tribe" href="http://www.theverge.com/forums/microsoft-tribe">
+                        Microsoft Tribe
+                      </a>
+                    </p>
+                    <h3>
+                      <a href="http://www.theverge.com/2014/4/21/5638458/question-on-migrating-from-google-services-to-microsoft-services">
+                        Question on migrating from Google Services to Microsoft Services
+                      </a>
+                    </h3>
+                    <p class="byline">
+                      <strong>
+                        about 7 hours ago
+                      </strong>
+                       by 
+                      <a href="http://www.theverge.com/users/Ishmael47">
+                        Ishmael47
+                      </a>
+                      <span>
+                        6 comments
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="categories">
+                      <a class="apple-core" href="http://www.theverge.com/forums/apple-core">
+                        Apple Core
+                      </a>
+                    </p>
+                    <h3>
+                      <a href="http://www.theverge.com/2014/4/21/5638440/which-design-is-was-your-favourite">
+                         Which Design is/was your favourite 
+                      </a>
+                    </h3>
+                    <p class="byline">
+                      <strong>
+                        about 7 hours ago
+                      </strong>
+                       by 
+                      <a href="http://www.theverge.com/users/OreoMuncher">
+                        OreoMuncher
+                      </a>
+                      <span>
+                        11 comments
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="categories">
+                      <a class="googleplex" href="http://www.theverge.com/forums/googleplex">
+                        Googleplex
+                      </a>
+                    </p>
+                    <h3>
+                      <a href="http://www.theverge.com/2014/4/21/5638436/2-years-of-google-glass-wtf-happened">
+                        2 years of Google Glass.....WTF happened?
+                      </a>
+                    </h3>
+                    <p class="byline">
+                      <strong>
+                        about 7 hours ago
+                      </strong>
+                       by 
+                      <a href="http://www.theverge.com/users/Leroysboy">
+                        Leroysboy
+                      </a>
+                      <span>
+                        13 comments
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="categories">
+                      <a class="apple-core" href="http://www.theverge.com/forums/apple-core">
+                        Apple Core
+                      </a>
+                    </p>
+                    <h3>
+                      <a href="http://www.theverge.com/2014/4/21/5637796/apple-lost-their-cool-your-thought-please">
+                        Apple lost their cool? Your thought please...
+                      </a>
+                    </h3>
+                    <p class="byline">
+                      <strong>
+                        about 11 hours ago
+                      </strong>
+                       by 
+                      <a href="http://www.theverge.com/users/OreoMuncher">
+                        OreoMuncher
+                      </a>
+                      <span>
+                        28 comments
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="categories">
+                      <a class="gaming" href="http://www.theverge.com/forums/gaming">
+                        Gaming
+                      </a>
+                    </p>
+                    <h3>
+                      <a href="http://www.theverge.com/2014/4/21/5637840/hey-i-just-started-youtubing-with-my-friends-any-advice">
+                        Hey I just started youtubing with my friends. Any advice?
+                      </a>
+                    </h3>
+                    <p class="byline">
+                      <strong>
+                        about 11 hours ago
+                      </strong>
+                       by 
+                      <a href="http://www.theverge.com/users/TrinityCrew">
+                        TrinityCrew
+                      </a>
+                      <span>
+                        5 comments
+                      </span>
+                    </p>
+                  </li>
+                </ul>
+                <p class="alignC">
+                  <a class="button" href="/forums/all">
+                    All
+                  </a>
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="m-ad m-ad__btf_leaderboard grid_12 clearfix border-l2">
+          <div class="open_x_ad open_x_btf_leaderboard" id="open_x_ad_unit_321091">
+            <script type="text/javascript">
+//<![CDATA[
+
+              if (Util.UserAgentProfiler.isMobile()) {
+                SBN.OpenX.showAd(364262);
+              } else if (Util.UserAgentProfiler.isTablet()) {
+                SBN.OpenX.showAd(364262);
+              } else if (Util.UserAgentProfiler.isDesktop()) {
+                SBN.OpenX.showAd(321091);
+              }
+            
+//]]>
+            </script>
+          </div>
+        </div>
+        <div class="sticky-banner clearfix">
+          <div class="open_x_ad open_x_sticky_banner" id="open_x_ad_unit_0">
+            <script type="text/javascript">
+//<![CDATA[
+
+              if (Util.UserAgentProfiler.isMobile()) {
+                SBN.OpenX.showAd(299737);
+              } else if (Util.UserAgentProfiler.isTablet()) {
+                SBN.OpenX.showAd(299737);
+              } else if (Util.UserAgentProfiler.isDesktop()) {
+                SBN.OpenX.showAd(0);
+              }
+            
+//]]>
+            </script>
+          </div>
+        </div>
+        <footer class="row clearfix">
+          <div class="column grid_4">
+            <a class="sprite verge-footer-logo" href="/">
+            </a>
+            <form method="get" action="/search">
+              <input type="text" value="Search articles &amp; products" onfocus="resetField(this)" onblur="resetField(this,true)" name="q" id="basic_search_query" class="textfield search"/>
+              <button>
+                Go
+              </button>
+            </form>
+            <p class="copyright">
+              <a href="http://www.theverge.com/ethics-statement">
+                Ethics Statement
+              </a>
+               -
+      
+              <a href="http://www.theverge.com/community-guidelines">
+                Community Guidelines
+              </a>
+              <br/>
+              <a href="http://www.voxmedia.com/terms-of-use">
+                Terms of Use
+              </a>
+               -
+      
+              <a href="http://www.voxmedia.com/privacy-policy">
+                Privacy Policy
+              </a>
+              <br/>
+              <span id="version-history">
+                <a href="http://www.theverge.com/version-history">
+                  v1.9.1, September 30, 2013
+                </a>
+              </span>
+              <br/>
+              <span class="m-footer__bottom__status" id="status_io">
+                
+  All Systems Operational
+  
+                <a target="_blank" href="http://status.voxmedia.com">
+                  Check out our status page for more details.
+                </a>
+              </span>
+            </p>
+          </div>
+          <div class="column grid_2">
+            <h3>
+              The 
+              <em>
+                Sections
+              </em>
+            </h3>
+            <ul class="basics simplelist">
+              <li>
+                <a href="/longform">
+                  Longform
+                </a>
+              </li>
+              <li>
+                <a href="/video">
+                  Video
+                </a>
+              </li>
+              <li>
+                <a href="/reviews">
+                  Reviews
+                </a>
+              </li>
+              <li>
+                <a href="/tech">
+                  Tech
+                </a>
+              </li>
+              <li>
+                <a href="/science">
+                  Science
+                </a>
+              </li>
+              <li>
+                <a href="/culture">
+                  Culture
+                </a>
+              </li>
+              <li>
+                <a href="/design">
+                  Design
+                </a>
+              </li>
+              <li>
+                <a href="/business">
+                  Business
+                </a>
+              </li>
+              <li>
+                <a href="/us-world">
+                  US &amp; World
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="column grid_2">
+            <h3>
+              The 
+              <em>
+                Basics
+              </em>
+            </h3>
+            <ul class="basics simplelist">
+              <li>
+                <a href="http://status.voxmedia.com">
+                  Site Status
+                </a>
+              </li>
+              <li>
+                <a href="http://www.theverge.com/about-the-verge">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="http://www.theverge.com/contact-the-verge">
+                  Contact
+                </a>
+              </li>
+              <li>
+                <a href="http://www.theverge.com/tip-us">
+                  Tip Us
+                </a>
+              </li>
+              <li>
+                <a href="http://www.theverge.com/forums">
+                  Forums
+                </a>
+              </li>
+              <li>
+                <a href="http://www.theverge.com/jobs">
+                  Jobs
+                </a>
+              </li>
+              <li>
+                <a href="http://mobile.theverge.com">
+                  Mobile Site
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="column grid_2">
+            <h3>
+              The 
+              <em>
+                Elsewhere
+              </em>
+            </h3>
+            <ul class="elsewhere simplelist">
+              <li>
+                <a class="facebook" title="Like us on Facebook" href="http://www.facebook.com/verge">
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a class="twitter" title="Follow us on Twitter" href="http://twitter.com/#%21/verge">
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a class="google" title="Follow us on Google+" href="https://plus.google.com/100601380617286837373/posts">
+                  Google+
+                </a>
+              </li>
+              <li>
+                <a title="Follow us on Tumblr" class="tumblr" href="http://thisistheverge.tumblr.com/">
+                  Tumblr
+                </a>
+              </li>
+              <li>
+                <a title="Follow us on YouTube" class="youtube" href="http://youtube.com/theverge">
+                  YouTube
+                </a>
+              </li>
+              <li>
+                <a title="Follow us on Instagram" class="instagram" href="http://instagram.com/verge">
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a title="Subscribe to The Verge via RSS" class="rss" href="/rss/index.xml">
+                  Subscribe
+                </a>
+              </li>
+            </ul>
+            <div class="site-by">
+              <a class="vox-logo" href="http://www.voxmedia.com">
+                <span>
+                  Vox Media
+                </span>
+              </a>
+              <p>
+                © 2014 
+                <a href="http://www.voxmedia.com">
+                  Vox Media
+                </a>
+                , Inc. All rights reserved.
+                <br/>
+                
+      Designed in collaboration with 
+                <a href="http://www.codeandtheory.com">
+                  Code and Theory
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div class="analytics clearfix" id="community_analytics">
+    </div>
+    <script type="text/javascript" src="http://cdn2.vox-cdn.com/javascripts/verge.vb390092866bd3dba.js">
+    </script>
+    <script>
+//<![CDATA[
+
+    window.ooyala_player_id = 'dcc84e41db014454b08662a766057e2b';
+    Chorus.VideoContext.addVideos([]);
+
+//]]>
+    </script>
+    <div class="m-auth-modal__wrapper">
+      <div data-chorus-auth-network-url="https://www.theverge.com" class="m-auth-modal theverge">
+        <div class="m-auth-modal__header">
+          <a data-chorus-modal-action="cancel" class="m-auth-modal__close" href="">
+            X
+          </a>
+          <div class="m-auth-modal__logo">
+            <img src="http://cdn0.vox-cdn.com/images/auth/verge.vf8f1c8e.png" alt="The Verge"/>
+            <img src="http://cdn1.vox-cdn.com/images/auth/polygon.vdaf8146.png" alt="Polygon"/>
+            <img src="http://cdn3.vox-cdn.com/images/auth/sbn.v50c5f70.png" alt="SB Nation"/>
+          </div>
+        </div>
+        <div data-chorus-auth-modal="login" class="m-auth-modal__body">
+          <div class="m-auth-modal__tabs">
+            <span>
+              Log In
+            </span>
+            <a data-chorus-auth-goto="register" href="">
+              Sign Up
+            </a>
+          </div>
+          <table class="m-auth-modal__login-table">
+            <tbody>
+              <tr>
+                <td class="twitter">
+                  <a href="" data-chorus-auth-login="twitter">
+                    T
+                  </a>
+                </td>
+                <td class="facebook">
+                  <a href="" data-chorus-auth-login="facebook">
+                    F
+                  </a>
+                </td>
+                <td class="gplus">
+                  <span style="cursor: pointer;" data-chorus-auth-login="gplus" id="chorus-auth-gplus-login">
+                    <a>
+                      G
+                    </a>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="yahoo">
+                  <a data-chorus-auth-login="yahoo" href="">
+                    Y
+                  </a>
+                </td>
+                <td class="openid">
+                  <a data-chorus-auth-login="openid" href="">
+                    O
+                  </a>
+                </td>
+                <td/>
+              </tr>
+            </tbody>
+          </table>
+          <form class="m-auth-modal__form openid">
+            <input type="text" placeholder="OpenID" name="openid"/>
+            <div class="m-auth-modal__form-controls">
+              <input type="submit" value="Open ID Log in"/>
+            </div>
+          </form>
+          <form method="POST" class="m-auth-modal__form" id="chorus-auth-password">
+            <p class="error">
+            </p>
+            <input type="text" placeholder="Username" name="username"/>
+            <fieldset>
+              <input type="password" placeholder="Password" name="password"/>
+              <a data-chorus-auth-goto="forgot" href="">
+                forgot?
+              </a>
+            </fieldset>
+            <div class="m-auth-modal__captcha-container" id="chorus-auth-login-recaptcha">
+            </div>
+            <div class="m-auth-modal__form-controls">
+              <span>
+                <input type="checkbox" id="remember_me" name="remember_me" value="on"/>
+                <label for="remember_me">
+                  Remember me?
+                </label>
+              </span>
+              <input type="submit" value="Log in"/>
+            </div>
+          </form>
+        </div>
+        <div data-chorus-auth-modal="register" class="m-auth-modal__body">
+          <div class="m-auth-modal__tabs">
+            <a data-chorus-auth-goto="login" href="">
+              Log In
+            </a>
+            <span>
+              Sign Up
+            </span>
+          </div>
+          <table class="m-auth-modal__login-table">
+            <tbody>
+              <tr>
+                <td class="twitter">
+                  <a href="" data-chorus-auth-login="twitter">
+                    T
+                  </a>
+                </td>
+                <td class="facebook">
+                  <a href="" data-chorus-auth-login="facebook">
+                    F
+                  </a>
+                </td>
+                <td class="gplus">
+                  <span style="cursor: pointer;" data-chorus-auth-login="gplus" id="chorus-auth-gplus-register">
+                    <a>
+                      G
+                    </a>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="yahoo">
+                  <a data-chorus-auth-login="yahoo" href="">
+                    Y
+                  </a>
+                </td>
+                <td class="openid">
+                  <a data-chorus-auth-login="openid" href="">
+                    O
+                  </a>
+                </td>
+                <td/>
+              </tr>
+            </tbody>
+          </table>
+          <form class="m-auth-modal__form openid">
+            <input type="text" placeholder="OpenID" name="openid"/>
+            <div class="m-auth-modal__form-controls">
+              <input type="submit" value="Open ID Log in"/>
+            </div>
+          </form>
+          <form method="POST" class="m-auth-modal__form m-auth-modal__register-form">
+            <p class="error">
+            </p>
+            <input type="hidden" value="372" name="community_id" id="community_id"/>
+            <fieldset data-chorus-auth-validate="true">
+              <input type="text" data-error-msg="The username you provided has already been taken." placeholder="Username" name="user[username]" class="register-username"/>
+              <span class="status">
+              </span>
+            </fieldset>
+            <fieldset data-chorus-auth-validate="true">
+              <input type="password" data-error-msg="Passwords must be a minimum of six characters long and contain at least one letter and one number." placeholder="Password" name="user[password]"/>
+              <span class="status">
+              </span>
+            </fieldset>
+            <fieldset data-chorus-auth-validate="true">
+              <input type="text" placeholder="Email" name="user[email]" class="register-email"/>
+              <span class="status">
+              </span>
+            </fieldset>
+            <div class="m-auth-modal__form-controls">
+              <input type="submit" value="Continue"/>
+            </div>
+          </form>
+        </div>
+        <div data-chorus-auth-modal="forgot" class="m-auth-modal__body">
+          <h3>
+            Forgot password?
+          </h3>
+          <p>
+            We'll email you a reset link.
+          </p>
+          <p>
+            If you signed up using a 3rd party account like Facebook or Twitter, please 
+            <a data-chorus-auth-goto="login" href="">
+              login
+            </a>
+             with it instead.
+          </p>
+          <form class="m-auth-modal__form" action="">
+            <input type="text" placeholder="Email address" name="email"/>
+            <div class="m-auth-modal__form-controls">
+              <input type="submit" value="Submit"/>
+            </div>
+          </form>
+        </div>
+        <div data-chorus-auth-modal="forgot-result" class="m-auth-modal__body">
+          <h3>
+            Forgot password?
+          </h3>
+          <p class="error">
+          </p>
+          <p class="success">
+          </p>
+          <a data-chorus-auth-goto="forgot" href="">
+            Try another email?
+          </a>
+        </div>
+        <div data-chorus-auth-modal="captcha" class="m-auth-modal__body">
+          <h3>
+            Almost done, 
+            <span class="username">
+            </span>
+          </h3>
+          <p class="error">
+          </p>
+          <form class="m-auth-modal__form">
+            <div class="m-auth-modal__captcha-container" id="chorus-auth-register-recaptcha">
+            </div>
+            <div class="m-auth-modal__form-controls">
+              <input type="submit" value="Register"/>
+            </div>
+          </form>
+        </div>
+        <div data-chorus-auth-modal="spinner" class="m-auth-modal__body">
+          <img src="http://cdn0.vox-cdn.com/images/auth/spinner.vc97ec6e.gif" class="m-auth-modal__spinner" alt="Spinner"/>
+          <h3 id="chorus-auth-loading-message">
+            Authenticating
+          </h3>
+        </div>
+        <div data-chorus-auth-modal="third-party-register" class="m-auth-modal__body">
+          <img class="m-auth-modal__avatar" alt="" src=""/>
+          <h3>
+            Great!
+          </h3>
+          <p>
+            Choose an available username to complete sign up.
+          </p>
+          <form class="m-auth-modal__form m-auth-modal__third-party-register-form">
+            <input type="hidden" value="372" name="community_id" id="community_id"/>
+            <fieldset data-chorus-auth-validate="true">
+              <input type="text" placeholder="Username" name="user[username]" id="user_username"/>
+              <span class="status">
+              </span>
+            </fieldset>
+            <div class="m-auth-modal__form-controls">
+              <input type="submit" value="Sign Up"/>
+            </div>
+          </form>
+        </div>
+        <div data-chorus-auth-modal="umbel-permissions" class="m-auth-modal__body">
+          <div class="m-auth-modal__facebook-icon">
+          </div>
+          <p>
+            In order to provide our users with a better overall experience, we ask for more information from Facebook when using it to login so that we can learn more about our audience and provide you with the best possible experience. We do not store specific user data and the sharing of it is not required to login with Facebook.
+          </p>
+          <form class="m-auth-modal__form">
+            <span>
+              <input type="radio" value="yes" name="umbel_accept" id="umbel_accept_yes" checked="checked"/>
+              <label for="umbel_accept_yes">
+                Yes, share my data
+              </label>
+            </span>
+            <span>
+              <input type="radio" value="no" name="umbel_accept" id="umbel_accept_no"/>
+              <label for="umbel_accept_no">
+                Please don't share my data
+              </label>
+            </span>
+            <div class="m-auth-modal__form-controls">
+              <input type="submit" value="Submit"/>
+            </div>
+          </form>
+        </div>
+      </div>
+      <script type="text/javascript">
+//<![CDATA[
+
+//&lt;![CDATA[
+
+  (function () {
+    var po = document.createElement('script');
+    po.type = 'text/javascript';
+    po.async = true;
+    po.src = 'https://plus.google.com/js/client:plusone.js?onload=chorusAuthGPlusRender';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(po, s);
+  })();
+
+  function chorusAuthGPlusRender() {
+    var types = ['chorus-auth-gplus-register', 'chorus-auth-gplus-login'];
+    var length = types.length;
+    for (var i = 0; i &lt; length; i++){
+      gapi.signin.render(types[i], {
+        'callback': 'initiateGPlusLogin',
+        'clientid': '698386534119.apps.googleusercontent.com',
+        'cookiepolicy': 'single_host_origin',
+        'accesstype': 'offline',
+        'apppackagename': 'com.verge.android',
+        'requestvisibleactions': 'http://schemas.google.com/AddActivity',
+        'scope': 'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email'
+      });
+    }
+  };
+
+  function initiateGPlusLogin(authResult){
+    Chorus.Auth.actions.login.gplus(authResult);
+  }
+
+//]]&gt;
+
+//]]>
+      </script>
+    </div>
+    <script class="template" id="chorus-modal-wrapper-template" type="script/template">
+//<![CDATA[
+
+  &lt;div class="m-chorus-modal__wrapper m-chorus-modal__root"&gt;&lt;/div&gt;
+
+//]]>
+    </script>
+    <script class="template" id="chorus-modal-window-template" type="script/template">
+//<![CDATA[
+
+  &lt;div class="m-chorus-modal__window"&gt;
+    [% if (data.title != "" &amp;&amp; false) { %]
+      &lt;div class="m-chorus-modal__head"&gt;
+        &lt;div class="m-chorus-modal__title"&gt;[%= data.title %]&lt;/div&gt;
+        &lt;div class="m-chorus-modal__close-button" data-chorus-modal-action="[% if (data.cancel_confirm === true) { %]cancel_confirm[% } else { %]cancel[% } %]"&gt;&amp;#215;&lt;/div&gt;
+      &lt;/div&gt;
+    [% } %]
+    &lt;div class="m-chorus-modal__body m-chorus-modal__window-root"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+//]]>
+    </script>
+    <!-- Start Quantcast tag -->    <script src="http://edge.quantserve.com/quant.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+_qacct="p-d9vfr8QTWnv1E"; if (typeof(quantserve) != "undefined") { quantserve(); }
+//]]>
+    </script>
+    <noscript>
+      &lt;a href="http://www.quantcast.com/p-d9vfr8QTWnv1E"
+target="_blank"&gt;&lt;img
+src="http://pixel.quantserve.com/pixel/p-d9vfr8QTWnv1E.gif"
+style="display: none;" border="0" height="1" width="1"
+alt="Quantcast"/&gt;&lt;/a&gt;
+
+    </noscript>
+    <!-- End Quantcast tag -->    <script type="text/javascript">
+//<![CDATA[
+
+  var _sf_async_config={uid:2724,domain:"theverge.com"};
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+         "js/chartbeat_pub.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+  
+//]]>
+    </script>
+    <img style="width:1px; height: 1px; visibility:hidden" src="http://aperture.displaymarketplace.com/audmeasure.gif?liveconclientID=5497559777280&amp;PageID=650423876&amp;EventType=view" class="dlcftissvgczarscwcum"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+//&lt;![CDATA[
+Providence=(function(){var c={};var b=function(e){var g=document.cookie,d=0,f={};if(document.cookie.match(/^\s*\$Version=(?:"1"|1);\s*(.*)/)){g=RegExp.$1;d=1}if(d===0){g.split(/[,;]/).map(function(i){var k=i.split(/=/,2),h=decodeURIComponent(k[0].replace(/^\s+|\s+$/g,"")),j=k.length&gt;1?decodeURIComponent(k[1].replace(/^\s+|\s+$/g,"")):null;f[h]=j})}else{g.match(/(?:^|\s+)([!#$%&amp;'*+\-.0-9A-Z^`a-z|~]+)=([!#$%&amp;'*+\-.0-9A-Z^`a-z|~]*|"(?:[\x20-\x7E\x80\xFF]|\\[\x00-\x7F])*")(?=\s*[,;]|$)/g).map(function(i,h){var j=i,k=h.charAt(0)==='"'?h.substr(1,-1).replace(/\\(.)/g,"$1"):h;f[j]=k})}return f[e]};var a=function(d,e,f){jQuery.get(d,e,f)};c.init=function(d){d=typeof d!=="undefined"?d:[];a("http://providence.voxmedia.com/page_load",{gac:b("__utma"),title:document.title,host:window.location.host,contexts:d,path:window.location.pathname})};return c})();if(typeof jQuery!=="undefined"){jQuery(document).ready(function(a){Providence.init()})};
+//]]&gt;
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+      jQuery(function(){
+          jQuery('#hero a.big-link').click({params:['Ad Products','Hero Link Click']}, Util.gaTrackEvent);
+      });
+    
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+(function(w, d, s) {
+  function go(){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    var load = function(url, id) {
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.src = url; js.id = id;
+      fjs.parentNode.insertBefore(js, fjs);
+    };
+    if (!Util.UserAgentProfiler.isAndroidLt3()){
+      load("//connect.facebook.net/en_US/all.js#xfbml=1", 'fbjs');
+      load('https://apis.google.com/js/plusone.js', 'gplus1js');
+      load('//platform.twitter.com/widgets.js', 'tweetjs');
+    }
+  }
+  if (w.addEventListener) {
+    w.addEventListener("load", go, false);
+  }
+  else if (w.attachEvent) {
+    w.attachEvent("onload",go);
+  }
+}(window, document, 'script'));
+
+//]]>
+    </script>
+    <img width="1" height="1" style="position:absolute; top:-1px; left:-1px;" alt="tracking_pixel_5345_tracker" src="http://ox-d.sbnation.com/w/1.0/rs?as=2879&amp;cb=%7Brandom%7D" class="dlcftissvgczarscwcum"/>
+    <script src="//s.skimresources.com/js/66960X1514734.skimlinks.js" type="text/javascript">
+    </script>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: adelle,serif; font-style: italic; font-weight: 400;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: adelle,sans-serif; font-style: italic; font-weight: 400;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: adelle,serif; font-style: normal; font-weight: 100;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: adelle,sans-serif; font-style: normal; font-weight: 100;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: adelle,serif; font-style: normal; font-weight: 400;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: adelle,sans-serif; font-style: normal; font-weight: 400;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: adelle,serif; font-style: normal; font-weight: 600;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: adelle,sans-serif; font-style: normal; font-weight: 600;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: ff-din-web-condensed,serif; font-style: italic; font-weight: 600;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: ff-din-web-condensed,sans-serif; font-style: italic; font-weight: 600;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: ff-din-web-condensed,serif; font-style: normal; font-weight: 600;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: ff-din-web-condensed,sans-serif; font-style: normal; font-weight: 600;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: ff-din-web-condensed,serif; font-style: normal; font-weight: 700;">
+      BESbswy
+    </span>
+    <span aria-hidden="true" style="position: absolute; top: -999px; left: -999px; font-size: 300px; width: auto; height: auto; line-height: normal; margin: 0px; padding: 0px; font-variant: normal; white-space: nowrap; font-family: ff-din-web-condensed,sans-serif; font-style: normal; font-weight: 700;">
+      BESbswy
+    </span>
+  </body>
+</html>

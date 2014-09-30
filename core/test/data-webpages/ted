@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="http://www.google-analytics.com/plugins/ga/inpage_linkid.js" id="undefined">
+    </script>
+    <script type="text/javascript" src="http://www.google-analytics.com/u/ga.js">
+    </script>
+    <script src="http://b.scorecardresearch.com/beacon.js">
+    </script>
+    <script src="//www.google-analytics.com/analytics.js">
+    </script>
+    <script>
+//<![CDATA[
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-40781755-2', 'ted.com');
+ga('send', 'pageview');
+
+//]]>
+    </script>
+    <link rel="shortcut icon" href="http://assets.tedcdn.com/favicon.ico"/>
+    <meta name="title" content="TED | Search"/>
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta name="description" content="Search TED.com"/>
+    <meta name="apple-itunes-app" content="app-id=376183339"/>
+    <meta name="keywords" content="TED, Search"/>
+    <title>
+      TED | Search
+    </title>
+    <link rel="stylesheet" type="text/css" media="screen" href="//assets.tedcdn.com/css/reboot/reboot_global.css?01289b0a-prod"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="//assets.tedcdn.com/css/reboot/search.css?2d5de1f8-prod"/>
+    <!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" media="screen" href="//assets.tedcdn.com/css/ie.css?9a486566-prod" />
+<![endif]-->    <script type="text/javascript">
+//<![CDATA[
+
+
+ted = window.ted = window.ted || {};
+ted.baseUrl   = (window.location.protocol === "https:" ? "" : "//assets.tedcdn.com");
+ted.loggedIn  = false;
+
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+var djConfig = {
+	isDebug: false,
+	baseRelativePath: '/js/dojo/'
+};
+//]]>
+    </script>
+    <script type="text/javascript" src="//assets.tedcdn.com/js/core.min.js?c0cec9b7-prod">
+    </script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js">
+    </script>
+    <script type="text/javascript" src="//assets.tedcdn.com/js/library.min.js?7d0152f9-prod">
+    </script>
+    <link rel="image_src" href="http://assets.tedcdn.com/images/ted_amp_network.gif"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+var _gaq = _gaq || [];
+var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+_gaq.push(['_setAccount', 'UA-170299-1']);
+_gaq.push(['_setDomainName', '.ted.com']);
+
+
+_gaq.push(['_trackPageview']);
+
+chain.wait(function () {
+	_gaq.push(['_setCustomVar', 2, 'views_per_session', viewCounter.getViews(), 2]);
+});
+//]]>
+    </script>
+    <!-- Bing Site Verify key -->    <meta name="msvalidate.01" content="F1F8CFF85FF82D607911A8BAB418B939"/>
+  </head>
+  <body class="">
+    <div id="wrapper" class=" clearfix">
+      <div id="wrapper-inner">
+        <div id="header" class="clearfix">
+          <div id="utilityNav" class="clearfix">
+            <div id="auth_nav" class="message_layer clearfix">
+              <div class="notices clearfix">
+                <ul class="account">
+                  <li>
+                    <a target="_self" id="sign-in-top" href="https://auth.ted.com/session/new">
+                      Sign In
+                    </a>
+                  </li>
+                  <li class="last">
+                    <a target="_self" id="register-top" href="https://auth.ted.com/users/new?referer=http://www.ted.com/profiles/edit">
+                      Register
+                    </a>
+                  </li>
+                </ul>
+                <script>
+//<![CDATA[
+
+		chain.wait(function () {
+			jQuery('#sign-in-top').GA_trackEvent(
+				'click', 'session', 'sign-in', 'top_nav'
+			);
+			jQuery('#register-top').GA_trackEvent(
+				'click', 'session', 'register', 'top_nav'
+			);
+		});
+		
+//]]>
+                </script>
+              </div>
+            </div>
+          </div>
+          <a id="logo" href="/">
+            TED: Ideas worth spreading
+          </a>
+          <div id="nav" class="clearfix">
+            <div class="main-nav" role="navigation">
+              <ul>
+                <li>
+                  <a href="/talks">
+                    Talks
+                  </a>
+                </li>
+                <li>
+                  <a href="/registration">
+                    TED Conferences
+                  </a>
+                </li>
+                <li>
+                  <a href="/conversations">
+                    TED Conversations
+                  </a>
+                </li>
+                <li>
+                  <a href="/pages/about">
+                    About TED
+                  </a>
+                </li>
+                <li>
+                  <a href="/speakers">
+                    Speakers
+                  </a>
+                </li>
+                <li>
+                  <a href="/tedx">
+                    TEDx Events
+                  </a>
+                </li>
+                <li>
+                  <a href="/profiles">
+                    TED Community
+                  </a>
+                </li>
+                <li>
+                  <a href="http://blog.ted.com/">
+                    TED Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="/playlists">
+                    Playlists 
+                    <img class="new" alt="(New feature)" src="http://assets.tedcdn.com/images/new.gif"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="/prize">
+                    TED Prize
+                  </a>
+                </li>
+                <li>
+                  <a href="http://ed.ted.com/" target="_blank">
+                    TED-Ed
+				
+                    <img class="ext" alt="(Opens in new window)" src="http://assets.tedcdn.com/images/icon_external_link_sm.gif"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="/initiatives">
+                    TED Initiatives
+                  </a>
+                </li>
+                <li>
+                  <a href="/OpenTranslationProject">
+                    Translations
+                  </a>
+                </li>
+                <li>
+                  <a href="/fellows">
+                    TED Fellows
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div id="search">
+              <form action="/search" method="get" role="search">
+                <input type="hidden" name="cat" value="ss_all"/>
+                <div class="clear_container">
+                  <input id="search_field" class="text translate" type="text" data-default-value="Search" value="ibm" name="q"/>
+                  <div style="padding-left: 5px; padding-right: 5px; padding-top: 2px; padding-bottom: 2px; margin-left: 21px; margin-right: 0px; margin-top: 2px; margin-bottom: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; font-size: 11px; font-family: helvetica, arial, sans-serif; font-weight: bold; font-style: normal; height: 20px; width: 220px; lineheight: 1.25; text-transform: none; text-align: start; display: none;" class="clear_overlay">
+                    Search
+                  </div>
+                </div>
+                <input type="submit" class="submit" src="http://assets.tedcdn.com/images/blank.gif" value="Search"/>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="" role="main">
+          <div class="search-title clearfix">
+            <h1>
+              Search results for "ibm"
+            </h1>
+            <span>
+              1-10 of 1,604 results
+            </span>
+          </div>
+          <div id="container" class="clearfix">
+            <div id="content">
+              <div class="results">
+                <div class="result ">
+                  <h5 class="title">
+                    <a href="/pages/ibm_watson_sponsor">
+                      About TED | TED Talks Partners | Partner archive | IBM Watson
+                    </a>
+                  </h5>
+                  <div class="meta">
+                    <p class="desc">
+                      Final Jeopardy! and the Future of Watson
+  The 
+                      <b>
+                        IBM
+                      </b>
+                       team who designed Watson has achieved another  ...  the conversation to find out how the 
+                      <b>
+                        IBM
+                      </b>
+                       team achieved this historic feat and chat  ...  Principal Investigator Dr. David Ferrucci, 
+                      <b>
+                        IBM
+                      </b>
+                       Fellow and CTO of 
+                      <b>
+                        IBM
+                      </b>
+                      ’s SOA Center for ... 
+                    </p>
+                    <p class="url">
+                      <a href="/pages/ibm_watson_sponsor">
+                        http://www.ted.com/pages/ibm_watson_sponsor
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="result ">
+                  <h5 class="title">
+                    <a href="/pages/sponsor_ibm_watson">
+                      About TED | TED Talks Partners | Partner archive | IBM Watson
+                    </a>
+                  </h5>
+                  <div class="meta">
+                    <p class="desc">
+                      Final Jeopardy! and the Future of Watson
+  The 
+                      <b>
+                        IBM
+                      </b>
+                       team who designed Watson has achieved another  ...  the conversation to find out how the 
+                      <b>
+                        IBM
+                      </b>
+                       team achieved this historic feat and chat  ...  Principal Investigator Dr. David Ferrucci, 
+                      <b>
+                        IBM
+                      </b>
+                       Fellow and CTO of 
+                      <b>
+                        IBM
+                      </b>
+                      ’s SOA Center for ... 
+                    </p>
+                    <p class="url">
+                      <a href="/pages/sponsor_ibm_watson">
+                        http://www.ted.com/pages/sponsor_ibm_watson
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="result ">
+                  <h5 class="title">
+                    <a href="/pages/sponsors_ibm_watson">
+                      About TED | TED Talks Partners | Partner archive | IBM Watson
+                    </a>
+                  </h5>
+                  <div class="meta">
+                    <p class="desc">
+                      Final Jeopardy! and the Future of Watson
+  The 
+                      <b>
+                        IBM
+                      </b>
+                       team who designed Watson has achieved another  ...  the conversation to find out how the 
+                      <b>
+                        IBM
+                      </b>
+                       team achieved this historic feat and chat  ...  Principal Investigator Dr. David Ferrucci, 
+                      <b>
+                        IBM
+                      </b>
+                       Fellow and CTO of 
+                      <b>
+                        IBM
+                      </b>
+                      ’s SOA Center for ... 
+                    </p>
+                    <p class="url">
+                      <a href="/pages/sponsors_ibm_watson">
+                        http://www.ted.com/pages/sponsors_ibm_watson
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="result ">
+                  <h5 class="title">
+                    <a href="http://blog.ted.com/2011/02/18/experts-and-ibm-insiders-break-down-watsons-jeopardy-win/">
+                      Video: IBM insiders break down Watson's Jeopardy! win
+                    </a>
+                  </h5>
+                  <div class="meta">
+                    <p class="desc">
+                       ...  16, 2011, TED.com hosted a live webstream of 
+                      <b>
+                        IBM
+                      </b>
+                       experts and insiders discussing supercomputer Watson's victory against Jeopardy!'s  ... Man vs. Machine and Watson's principal investigator Dr. David Ferrucci, 
+                      <b>
+                        IBM
+                      </b>
+                       Fellow Kerrie Holley and Columbia professor Herbert Chase.
+                    </p>
+                    <p class="unique-info blog">
+                      <span>
+                        9 Comments  •  Posted February 18, 2011
+                      </span>
+                    </p>
+                    <p class="url">
+                      <a href="http://blog.ted.com/2011/02/18/experts-and-ibm-insiders-break-down-watsons-jeopardy-win/">
+                        http://blog.ted.com/2011/02/18/experts-and-ibm-insiders-break-down-watsons-jeopardy-win/
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="result ">
+                  <h5 class="title">
+                    <a href="http://blog.ted.com/2011/02/16/live-on-ted-com-tomorrow-ask-an-ibm-insider-about-watson/">
+                      Live on TED.com tomorrow: Ask IBM insiders about Watson, the Jeopardy computer
+                    </a>
+                  </h5>
+                  <div class="meta">
+                    <p class="desc">
+                       ... final appearance this evening. And tomorrow, live on TED.com, 
+                      <b>
+                        IBM
+                      </b>
+                       is hosting an insider's conversation about Watson with Watson's principal investigator Dr. David Ferrucci, 
+                      <b>
+                        IBM
+                      </b>
+                       Fellow Kerrie Holley, and Columbia professor of clinical medicine ... 
+                    </p>
+                    <p class="unique-info blog">
+                      <span>
+                         Posted February 16, 2011
+                      </span>
+                    </p>
+                    <p class="url">
+                      <a href="http://blog.ted.com/2011/02/16/live-on-ted-com-tomorrow-ask-an-ibm-insider-about-watson/">
+                        http://blog.ted.com/2011/02/16/live-on-ted-com-tomorrow-ask-an-ibm-insider-about-watson/
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="result ">
+                  <h5 class="title">
+                    <a href="/conversations/16277/mr_cronin_s_idea_paired_with.html">
+                      Mr Cronin's idea- paired with an in-home/ensuite testing/Health evaluation area linked to an IBM/Watson style medical diagnostic tool
+                    </a>
+                  </h5>
+                  <div class="meta">
+                    <p class="desc">
+                       ...  device/area. Something that evaluates fluids/BP/respiration/Heart rate etc then transmits to your doc or evaluates against an 
+                      <b>
+                        IBM
+                      </b>
+                      /Watson style medical database.
+
+Drugs that would be relatively safe could be created/distributed on the spot (with controls designed  ... 
+                    </p>
+                    <p class="unique-info conversation idea">
+                      <span>
+                        0				comments				 • 
+				Conversation closed			
+                      </span>
+                    </p>
+                    <p class="url">
+                      <a href="/conversations/16277/mr_cronin_s_idea_paired_with.html">
+                        http://www.ted.com/conversations/16277/mr_cronin_s_idea_paired_with.html
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="result ">
+                  <h5 class="title">
+                    <a href="/conversations/262/how_can_ibm_watson_be_applied.html">
+                      How can IBM Watson be applied to stuff outside of a game?
+                    </a>
+                  </h5>
+                  <div class="meta">
+                    <p class="desc">
+                      Jeopardy! is just a game show.  What real world uses will we see coming from 
+                      <b>
+                        IBM
+                      </b>
+                       Watson?
+                    </p>
+                    <p class="unique-info conversation question">
+                      <span>
+                        0				comments				 • 
+				Conversation closed			
+                      </span>
+                    </p>
+                    <p class="url">
+                      <a href="/conversations/262/how_can_ibm_watson_be_applied.html">
+                        http://www.ted.com/conversations/262/how_can_ibm_watson_be_applied.html
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="result ">
+                  <h5 class="title">
+                    <a href="/conversations/264/why_did_ibm_watson_get_questio.html">
+                      Why did IBM Watson get questions wrong?  Shouldn't it have been right 100% of the time?  Or nearly?
+                    </a>
+                  </h5>
+                  <div class="meta">
+                    <p class="desc">
+                      In game 2 especially, Watson seemed to answer incorrectly quite a bit.  Why?
+                    </p>
+                    <p class="unique-info conversation question">
+                      <span>
+                        2				comments				 • 
+				Conversation closed			
+                      </span>
+                    </p>
+                    <p class="url">
+                      <a href="/conversations/264/why_did_ibm_watson_get_questio.html">
+                        http://www.ted.com/conversations/264/why_did_ibm_watson_get_questio.html
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="result ">
+                  <h5 class="title">
+                    <a href="/conversations/261/how_does_ibm_watson_figure_out.html">
+                      How does IBM Watson figure out what to wager?
+                    </a>
+                  </h5>
+                  <div class="meta">
+                    <p class="desc">
+                      Watson's wagers seemed odd at times.  What is going on there?
+                    </p>
+                    <p class="unique-info conversation question">
+                      <span>
+                        0				comments				 • 
+				Conversation closed			
+                      </span>
+                    </p>
+                    <p class="url">
+                      <a href="/conversations/261/how_does_ibm_watson_figure_out.html">
+                        http://www.ted.com/conversations/261/how_does_ibm_watson_figure_out.html
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="result video theme">
+                  <h5 class="title">
+                    <a href="/speakers/ken_jennings.html">
+                      Ken Jennings - TED Speaker Profile
+                    </a>
+                  </h5>
+                  <div class="thumb">
+                    <a href="/speakers/ken_jennings.html">
+                      <img alt="Ken Jennings" src="http://images.ted.com/images/ted/7a1ddb76234ae334b5db20e1aa538a7db08d4637_50x50.jpg"/>
+                    </a>
+                  </div>
+                  <div class="meta">
+                    <p class="desc">
+                      Ken Jennings holds the record for most consecutive wins on the classic American trivia game show, Jeopardy.
+                    </p>
+                    <p class="unique-info">
+                      <span>
+                        Know-it-all
+                      </span>
+                    </p>
+                    <p class="url">
+                      <a href="/speakers/ken_jennings.html">
+                        http://www.ted.com/speakers/ken_jennings.html
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="pagination clearfix">
+                <ul>
+                  <li class="first notranslate">
+                    <a class="selected">
+                      1
+                    </a>
+                  </li>
+                  <li class="notranslate">
+                    <a href="/search?cat=ss_all&amp;q=ibm&amp;page=2">
+                      2
+                    </a>
+                  </li>
+                  <li class="notranslate">
+                    <a href="/search?cat=ss_all&amp;q=ibm&amp;page=3">
+                      3
+                    </a>
+                  </li>
+                  <li class="notranslate">
+                    <a href="/search?cat=ss_all&amp;q=ibm&amp;page=4">
+                      4
+                    </a>
+                  </li>
+                  <li class="notranslate">
+                    <a href="/search?cat=ss_all&amp;q=ibm&amp;page=5">
+                      5
+                    </a>
+                  </li>
+                  <li class="next">
+                    <a href="/search?cat=ss_all&amp;q=ibm&amp;page=2">
+                      Next »
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- sidebar -->            <div id="sidebar">
+              <form id="search_filter" action="" method="GET">
+                <div class="item">
+                  <label>
+                    Filter results by:
+                  </label>
+                  <ul class="radio list">
+                    <li>
+                      <input type="radio" class="radio" name="cat" id="filter_search_" value="ss_all" checked="checked"/>
+                      <label for="filter_search_">
+                        All
+                      </label>
+                    </li>
+                    <li>
+                      <input type="radio" class="radio" name="cat" id="filter_search_ss_talks" value="ss_talks"/>
+                      <label for="filter_search_ss_talks">
+                        Talks
+                      </label>
+                    </li>
+                    <li>
+                      <input type="radio" class="radio" name="cat" id="filter_search_ss_people" value="ss_people"/>
+                      <label for="filter_search_ss_people">
+                        People
+                      </label>
+                    </li>
+                    <li>
+                      <input type="radio" class="radio" name="cat" id="filter_search_ss_playlists" value="ss_playlists"/>
+                      <label for="filter_search_ss_playlists">
+                        Playlists
+                      </label>
+                    </li>
+                    <li>
+                      <input type="radio" class="radio" name="cat" id="filter_search_ss_themes" value="ss_themes"/>
+                      <label for="filter_search_ss_themes">
+                        Themes
+                      </label>
+                    </li>
+                    <li>
+                      <input type="radio" class="radio" name="cat" id="filter_search_ss_quotes" value="ss_quotes"/>
+                      <label for="filter_search_ss_quotes">
+                        Quotes
+                      </label>
+                    </li>
+                    <li>
+                      <input type="radio" class="radio" name="cat" id="filter_search_ss_conversations" value="ss_conversations"/>
+                      <label for="filter_search_ss_conversations">
+                        Conversations
+                      </label>
+                    </li>
+                    <li>
+                      <input type="radio" class="radio" name="cat" id="filter_search_ss_blog_posts" value="ss_blog_posts"/>
+                      <label for="filter_search_ss_blog_posts">
+                        Blog posts
+                      </label>
+                    </li>
+                    <li>
+                      <input type="radio" class="radio" name="cat" id="filter_search_ss_pages" value="ss_pages"/>
+                      <label for="filter_search_ss_pages">
+                        Pages
+                      </label>
+                    </li>
+                    <li>
+                      <input type="radio" class="radio" name="cat" id="filter_search_ss_tedx_events" value="ss_tedx_events"/>
+                      <label for="filter_search_ss_tedx_events">
+                        TEDx events
+                      </label>
+                    </li>
+                  </ul>
+                  <input name="q" type="hidden" value="ibm"/>
+                </div>
+                <div class="buttons" style="display: none;">
+                  <span class="button primary">
+                    <span>
+                      <strong>
+                        <input type="submit" name="go" value="Go"/>
+                      </strong>
+                    </span>
+                  </span>
+                </div>
+              </form>
+            </div>
+            <!-- /sidebar -->          </div>
+        </div>
+        <span id="sidebarBottom">
+        </span>
+      </div>
+      <!-- /#wrapper-inner -->    </div>
+    <!-- /#wrapper -->    <div id="footer">
+      <div id="footer-inner">
+        <div id="footer-copy">
+          <a title="TED.com" id="footer-logo" href="/">
+            TED
+          </a>
+          <p role="contentinfo">
+            © TED Conferences, LLC
+          </p>
+        </div>
+        <ul id="footer-links" role="navigation">
+          <li>
+            <a href="http://support.ted.com">
+              Help
+            </a>
+          </li>
+          <li>
+            <a href="http://partners.ted.com">
+              Advertising/partnership
+            </a>
+          </li>
+          <li>
+            <a href="/pages/jobs">
+              Jobs
+            </a>
+          </li>
+          <li>
+            <a href="/termsofuse">
+              Terms of Use
+            </a>
+          </li>
+          <li>
+            <a href="/privacy">
+              Privacy Policy
+            </a>
+          </li>
+          <li>
+            <a href="http://support.ted.com/customer/portal/emails/new">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <div id="subscribe">
+          <form action="/newsletter/signup" method="post" name="form_newsletter_signup" id="form_newsletter_signup">
+            <p>
+              <div class="clear_container">
+                <input type="text" name="newsletterSignup[email_address]" value="" data-default-value="Sign up for TED email updates" id="newsletterSignup_email_address"/>
+                <div style="padding-left: 4px; padding-right: 4px; padding-top: 2px; padding-bottom: 1px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; font-size: 10px; font-family: helvetica, arial, sans-serif; font-weight: 400; font-style: normal; height: 15px; width: 162px; lineheight: 15px; text-transform: none; text-align: left; display: block;" class="clear_overlay">
+                  Sign up for TED email updates
+                </div>
+              </div>
+              <input id="newsletterSignup_submit" type="submit" value="Subscribe" class="translate" onclick="$.GA_trackEvent('subscribe', 'newsletter', 'search');"/>
+              <script>
+//<![CDATA[
+chain.wait(function () {
+						$('#newsletterSignup_email_address').clear_field();					})
+//]]>
+              </script>
+            </p>
+            <p>
+            </p>
+            <ul class="checkbox_list">
+              <li>
+                <input name="newsletterSignup[subscription_list][]" type="checkbox" value="daily" id="newsletterSignup_subscription_list_daily" checked="checked"/>
+                 
+                <label for="newsletterSignup_subscription_list_daily">
+                  Daily
+                </label>
+              </li>
+              <li>
+                <input name="newsletterSignup[subscription_list][]" type="checkbox" value="weekly" id="newsletterSignup_subscription_list_weekly"/>
+                 
+                <label for="newsletterSignup_subscription_list_weekly">
+                  Weekly
+                </label>
+              </li>
+            </ul>
+            <p>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- /#footer -->    <script type="text/javascript">
+//<![CDATA[
+var _sf_async_config={uid:11161,domain:"ted.com"};
+
+(function(){
+	function loadChartbeat() {
+		window._sf_endpt=(new Date()).getTime();
+		var e = document.createElement('script');
+		e.setAttribute('language', 'javascript');
+		e.setAttribute('type', 'text/javascript');
+		e.setAttribute('src',
+		(("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+		"static.chartbeat.com/js/chartbeat.js");
+		document.body.appendChild(e);
+	}
+	var oldonload = window.onload;
+	window.onload = (typeof window.onload != 'function') ?
+	loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+//]]>
+    </script>
+    <!-- START Nielsen Online SiteCensus V6.0 -->    <!-- COPYRIGHT 2010 Nielsen Online -->    <script type="text/javascript">
+//<![CDATA[
+	(function () {
+		var d = new Image(1, 1);
+		d.onerror = d.onload = function () {
+			d.onerror = d.onload = null;
+		};
+		d.src = [
+			"//secure-us.imrworldwide.com/cgi-bin/m?ci=us-703652h&amp;cg=0&amp;cc=1&amp;si=",
+			escape(window.location.href),
+			"&rp=", escape(document.referrer), "&amp;ts=compact&amp;rnd=",
+			(new Date()).getTime()
+		].join('');
+	})();
+//]]>
+    </script>
+    <noscript>
+      
+	&lt;div&gt;&lt;img src="https://secure-us.imrworldwide.com/cgi-bin/m?ci=us-703652h&amp;amp;cg=0&amp;amp;cc=1&amp;amp;ts=noscript"
+	width="1" height="1" alt="" /&gt;&lt;/div&gt;
+
+    </noscript>
+    <!-- END Nielsen Online SiteCensus V6.0 -->    <!-- Begin comScore Tag -->    <script type="text/javascript">
+//<![CDATA[
+
+	var _comscore = _comscore || [];
+	_comscore.push({ c1: "2", c2: "7341760" });
+	(function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	})();
+	function comscoreVideoView(id) {
+		COMSCORE.beacon({ c1: "1", c2: "7341760", c5:"02", c6:id });
+	}
+	function comscorePostrollView() {
+		COMSCORE.beacon({ c1: "1", c2: "7341760", c5:"10" });
+	}
+
+//]]>
+    </script>
+    <noscript>
+      &lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;amp;c2=7341760&amp;amp;cv=2.0&amp;amp;cj=1" /&gt;
+    </noscript>
+    <!-- End comScore Tag -->    <script type="text/javascript">
+//<![CDATA[
+(function() {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript';
+	ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/u/ga.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+})();
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+			jQuery(function($) {
+				var form = $('#search_filter');
+				form.find('input[type="radio"], select').bind('change', function(e){
+					if (! $(this).val()) {
+						$(this).prop('disabled', true);
+					}
+					form.trigger('submit');
+				});
+				form.find('div.buttons').hide();
+			});
+		//]]>
+    </script>
+    <div id="tooltip" style="display: none;">
+      <h3/>
+      <div class="body">
+      </div>
+      <div class="url">
+      </div>
+    </div>
+    <script language="javascript" type="text/javascript" src="http://static.chartbeat.com/js/chartbeat.js">
+    </script>
+  </body>
+</html>

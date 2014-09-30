@@ -1,0 +1,2808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:addthis="http://www.addthis.com/help/api-spec" xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:og="http://ogp.me/ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/terms/" xmlns:content="http://purl.org/rss/1.0/modules/content/" dir="ltr" version="XHTML+RDFa 1.0" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" class="js">
+  <head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="article" property="og:type"/>
+    <meta content="http://electronicintifada.net/search/site/family" property="og:url"/>
+    <meta content="The Electronic Intifada" property="og:site_name"/>
+    <script type="text/javascript" async="" id="gauges-tracker" data-site-id="4deeb1f6613f5d584d000001" src="//secure.gaug.es/track.js">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script async="" src="//www.google-analytics.com/analytics.js">
+    </script>
+    <script async="" src="//ajax.cloudflare.com/cdn-cgi/nexp/dok9v=b064e16429/cloudflare.min.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+//&lt;![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok9v=02fcfa4f56/"},atok:"08ed31c1d85a086133bf138e827b25f5",petok:"126412657ffc2b520e20663dd3e7fdd2ad4aa6c9-1398068508-1800",zone:"electronicintifada.net",rocket:"0",apps:{"ga_key":{"ua":"UA-2030798-1","ga_bs":"2"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok9v=b064e16429/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]&gt;
+
+//]]>
+    </script>
+    <link type="image/vnd.microsoft.icon" href="http://electronicintifada.net/profiles/electronicintifada/themes/intifada_wide/favicon.ico" rel="shortcut icon"/>
+    <meta content="Search" property="og:title"/>
+    <meta content="bangpound" name="generator"/>
+    <meta content="initial-scale=1.0, user-scalable=no, width=device-width" name="viewport"/>
+    <link href="/profiles/electronicintifada/themes/intifada/images/touch-icon-iphone.png" rel="apple-touch-icon"/>
+    <link sizes="72x72" href="/profiles/electronicintifada/themes/intifada/images/touch-icon-ipad.png" rel="apple-touch-icon"/>
+    <link sizes="114x114" href="/profiles/electronicintifada/themes/intifada/images/touch-icon-iphone4.png" rel="apple-touch-icon"/>
+    <title>
+      Search | The Electronic Intifada
+    </title>
+    <link media="all" href="http://electronicintifada.net/sites/electronicintifada.net/files/css/css_en57gHyedA-3mUcBrtE_-rGXm8EYlZQrTkfKwzMbNdA.css" rel="stylesheet" type="text/css"/>
+    <link media="all" href="http://electronicintifada.net/sites/electronicintifada.net/files/css/css_VDykngiP5dYCnCIZd9dvkIZkG6qMTSE87_9oQdLlN2Y.css" rel="stylesheet" type="text/css"/>
+    <link media="screen" href="http://electronicintifada.net/sites/electronicintifada.net/files/css/css_bJpfCjSvdIIaTbB9unMO8Nj3wgnEHPr4CSryDymiEs4.css" rel="stylesheet" type="text/css"/>
+    <link media="print" href="http://electronicintifada.net/sites/electronicintifada.net/files/css/css_O4uEm43aL1ZaK0HCsuBZTsrRdbfXs0jPl1fEfPoOscA.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+window.googleanalytics_search_results = 5059;
+//--&gt;&lt;!]]&gt;
+
+//]]>
+    </script>
+    <script src="http://electronicintifada.net/sites/electronicintifada.net/files/js/js_7Udc-iR61GiWH-GwkOfEK9AIJ8nctC5Aew76RrdXDJc.js" type="text/javascript">
+    </script>
+    <script src="http://electronicintifada.net/sites/electronicintifada.net/files/js/js_C8F1Qe7rL8-JeaONCc1bAYUhEBmuuJmYkQHIVh08vvg.js" type="text/javascript">
+    </script>
+    <script src="http://electronicintifada.net/sites/electronicintifada.net/files/js/js_QGRjbmCRIAHecocsw-RyrrWbvPLX8BqWVHvzTWyTBOM.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-2030798-1");ga("set", "page", (window.googleanalytics_search_results) ? "\/search\/site?search=family" : "\/search\/site?search=no-results%3Afamily\u0026cat=no-results");ga("send", "pageview");
+//--&gt;&lt;!]]&gt;
+
+//]]>
+    </script>
+    <script src="http://electronicintifada.net/sites/electronicintifada.net/files/js/js_xtI7wK_D3wTBNlv_lE4RVMwDQ4WFOWO81Hdpa5QFkrA.js" type="text/javascript">
+    </script>
+    <script src="http://electronicintifada.net/sites/electronicintifada.net/files/js/js_AjQsoOj4tOC0CcvqSPDsQi_jftc0_1s8kxF-e9idbLI.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"intifada_wide","theme_token":"nvJ0RSHTil2cOSwBX4SeI9g1jUuC2YT2BWEfxSvwiRo","js":{"0":1,"1":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/electronicintifada\/modules\/contrib\/comment_notify\/comment_notify.js":1,"profiles\/electronicintifada\/modules\/contrib\/google_analytics_reports\/google_analytics_reports\/google_analytics_reports.js":1,"profiles\/electronicintifada\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"2":1,"profiles\/electronicintifada\/modules\/contrib\/facetapi\/facetapi.js":1,"profiles\/electronicintifada\/themes\/intifada\/js\/typogrify.js":1},"css":{"profiles\/electronicintifada\/modules\/contrib\/comment_notify\/comment_notify.css":1,"profiles\/electronicintifada\/modules\/bangpound\/bangpoundefq\/bangpoundefq.css":1,"profiles\/electronicintifada\/modules\/bangpound\/bangpoundmedia\/bangpoundmedia.css":1,"profiles\/electronicintifada\/modules\/bangpound\/bangpoundpanels\/css\/bangpoundpanels.css":1,"modules\/comment\/comment.css":1,"profiles\/electronicintifada\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"profiles\/electronicintifada\/modules\/contrib\/google_analytics_reports\/google_analytics_reports\/google_analytics_reports.css":1,"profiles\/electronicintifada\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"profiles\/electronicintifada\/modules\/contrib\/views\/css\/views.css":1,"profiles\/electronicintifada\/modules\/contrib\/amazon\/amazon.css":1,"profiles\/electronicintifada\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/electronicintifada\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"profiles\/electronicintifada\/themes\/intifada_wide\/stylesheets\/screen.css":1,"profiles\/electronicintifada\/themes\/intifada_wide\/stylesheets\/print.css":1}},"googleAnalyticsReportsAjaxUrl":"\/google-analytics-reports\/ajax","facetapi":{"facets":[{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-im-field-location","searcher":"apachesolr@solr","realmName":"block","facetName":"im_field_location","queryType":"term","widget":"facetapi_links"},{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-im-field-publisher","searcher":"apachesolr@solr","realmName":"block","facetName":"im_field_publisher","queryType":"term","widget":"facetapi_links"},{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-im-field-tag","searcher":"apachesolr@solr","realmName":"block","facetName":"im_field_tag","queryType":"term","widget":"facetapi_links"},{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-im-field-blog","searcher":"apachesolr@solr","realmName":"block","facetName":"im_field_blog","queryType":"term","widget":"facetapi_links"},{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-im-field-topic","searcher":"apachesolr@solr","realmName":"block","facetName":"im_field_topic","queryType":"term","widget":"facetapi_links"},{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-sm-field-genre","searcher":"apachesolr@solr","realmName":"block","facetName":"sm_field_genre","queryType":null,"widget":"facetapi_links"},{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-im-field-author","searcher":"apachesolr@solr","realmName":"block","facetName":"im_field_author","queryType":"term","widget":"facetapi_links"},{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-author","searcher":"apachesolr@solr","realmName":"block","facetName":"author","queryType":null,"widget":"facetapi_links"},{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-created","searcher":"apachesolr@solr","realmName":"block","facetName":"created","queryType":null,"widget":"facetapi_links"},{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-bundle","searcher":"apachesolr@solr","realmName":"block","facetName":"bundle","queryType":null,"widget":"facetapi_links"}]},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--&gt;&lt;!]]&gt;
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+/* &lt;![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2030798-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&amp;&amp;"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&amp;&amp;"Event"in FB&amp;&amp;"subscribe"in FB.Event&amp;&amp;(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&amp;&amp;"events"in twttr&amp;&amp;"bind"in twttr.events&amp;&amp;twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&amp;&amp;a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&amp;]+=([^&amp;]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]&gt; */
+
+//]]>
+    </script>
+    <style type="text/css">
+      .cf-hidden { display: none; } .cf-invisible { visibility: hidden; }
+    </style>
+  </head>
+  <body class="html not-front not-logged-in one-sidebar sidebar-second page-search page-search-site page-search-site-family section-search">
+    <script type="text/javascript">
+//<![CDATA[
+//&lt;![CDATA[try{(function(a){var b="http://",c="electronicintifada.net",d="/cdn-cgi/cl/",e="img.gif",f=new a;f.src=[b,c,d,e].join("")})(Image)}catch(e){}//]]&gt;
+//]]>
+    </script>
+    <div id="skip-link">
+      <a class="element-invisible element-focusable" href="#main-content">
+        Skip to main content
+      </a>
+    </div>
+    <div class="container">
+      <div id="header">
+        <a id="logo" rel="home" title="Home" href="/">
+          <img alt="Home" src="http://electronicintifada.net/profiles/electronicintifada/themes/intifada_wide/logo.png"/>
+        </a>
+        <div id="name-and-slogan">
+          <div id="site-name">
+            <strong>
+              <a rel="home" title="Home" href="/">
+                <span>
+                  The Electronic Intifada
+                </span>
+              </a>
+            </strong>
+          </div>
+        </div>
+        <div id="navigation">
+          <h2>
+            Main menu
+          </h2>
+          <ul class="links" id="main-menu">
+            <li class="menu-5488 first">
+              <a href="/news">
+                News &amp; Analysis
+              </a>
+            </li>
+            <li class="menu-5490">
+              <a href="/activism">
+                Action &amp; Activism
+              </a>
+            </li>
+            <li class="menu-5491">
+              <a href="/the-media">
+                The Media
+              </a>
+            </li>
+            <li class="menu-5489">
+              <a href="/extra">
+                EI Extra
+              </a>
+            </li>
+            <li class="menu-375 last">
+              <a title="" href="/blog">
+                Blogs
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="region region-header">
+          <div class="block block-panels-mini region-odd region-count-1" id="block-panels-mini-site-name-ar">
+            <div class="content">
+              <p>
+                الانتفاضة الإلكترونية
+              </p>
+            </div>
+          </div>
+          <div class="block block-search region-even region-count-2" id="block-search-form">
+            <div class="content">
+              <form accept-charset="UTF-8" id="search-block-form" method="post" action="/search/site/family?page=1">
+                <div>
+                  <div class="container-inline">
+                    <h2 class="element-invisible">
+                      Search form
+                    </h2>
+                    <div class="form-item form-type-textfield form-item-search-block-form">
+                      <label for="edit-search-block-form--2" class="element-invisible">
+                        Search 
+                      </label>
+                      <input type="text" class="form-text" maxlength="128" size="15" value="" name="search_block_form" id="edit-search-block-form--2" title="Enter the terms you wish to search for."/>
+                    </div>
+                    <div id="edit-actions" class="form-actions form-wrapper">
+                      <input type="submit" class="form-submit" value="Search" name="op" id="edit-submit--2"/>
+                    </div>
+                    <input type="hidden" value="form-XXHB7uHv44EWfLZx3y2ElgxrPumW26hosBYxwm_navc" name="form_build_id"/>
+                    <input type="hidden" value="search_block_form" name="form_id"/>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="breadcrumb">
+        <h2 class="element-invisible">
+          You are here
+        </h2>
+        <div class="breadcrumb">
+          <a href="/search">
+            Search
+          </a>
+           » 
+          <a href="/search/site">
+            Site
+          </a>
+           » family
+        </div>
+      </div>
+      <div class="column" id="content">
+        <a id="main-content">
+        </a>
+        <h1 id="page-title" class="title">
+          Search
+        </h1>
+        <div class="region region-help">
+          <div class="block block-current-search region-odd region-count-1" id="block-current-search-standard">
+            <h2 class="block-title">
+              Current search
+            </h2>
+            <div class="content">
+              <div class="current-search-item current-search-item-text">
+                <h3 class="">
+                  Search found 5059 items
+                </h3>
+              </div>
+              <div class="current-search-item current-search-item-active">
+                <div class="item-list">
+                  <ul class="">
+                    <li class="first last">
+                      family
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="region region-content">
+          <div class="block block-system region-odd region-count-1" id="block-system-main">
+            <div class="content">
+              <form accept-charset="UTF-8" id="search-form" method="post" action="/search/site/family?page=1" class="search-form">
+                <div>
+                  <div id="edit-basic" class="container-inline form-wrapper">
+                    <div class="form-item form-type-textfield form-item-keys">
+                      <label for="edit-keys">
+                        Enter terms 
+                      </label>
+                      <input type="text" class="form-text" maxlength="255" size="20" value="family" name="keys" id="edit-keys"/>
+                    </div>
+                    <input type="submit" class="form-submit" value="Search" name="op" id="edit-submit"/>
+                    <input type="hidden" value="[]" name="get"/>
+                  </div>
+                  <input type="hidden" value="form-DT5BNwSqjYtiDmsru9vKXG4nvC0ALi5SFfAf_3-iPPw" name="form_build_id"/>
+                  <input type="hidden" value="apachesolr_search_custom_page_search_form" name="form_id"/>
+                </div>
+              </form>
+              <h2>
+                Search results
+              </h2>
+              <ol class="search-results apachesolr_search-results">
+                <li class="search-result">
+                  <h3 class="title">
+                    <a href="http://electronicintifada.net/content/jerusalem-family-facing-forced-eviction-and-home-demolition/516">
+                      Jerusalem family facing forced eviction and home demolition
+                    </a>
+                  </h3>
+                  <div class="search-snippet-info">
+                    <p class="search-snippet">
+                       Amnesty International 11 May 2006 herbawi-
+                      <strong>
+                        family
+                      </strong>
+                      .jpg Mansur Herbawi with his parents. ... demolish the building. The 
+                      <strong>
+                        family
+                      </strong>
+                       have almost no income, and would be left destitute. The impact on the ... 
+                      <strong>
+                        family
+                      </strong>
+                      ’s health, in particular that of the disabled son, is likely to be very severe. The Municipality can ...
+                    </p>
+                    <p class="search-info">
+                      <span datatype="" property="foaf:name" typeof="sioc:UserAccount" about="/users/charlotte" xml:lang="" class="username">
+                        charlotte
+                      </span>
+                       - 12/01/2012 - 06:07
+                    </p>
+                  </div>
+                </li>
+                <li class="search-result">
+                  <h3 class="title">
+                    <a href="http://electronicintifada.net/content/some-dual-nationality-families-holiday-hell/2603">
+                      For some dual nationality families, a holiday from hell
+                    </a>
+                  </h3>
+                  <div class="search-snippet-info">
+                    <p class="search-snippet">
+                       IRIN 27 July 2006 borj-
+                      <strong>
+                        family
+                      </strong>
+                      483_001.jpg Over 700,000 Lebanese have been displaced by Israel’s ... bombing, like this 
+                      <strong>
+                        family
+                      </strong>
+                       in Bourj Hammoud High School in Beirut. Not all 
+                      <strong>
+                        families
+                      </strong>
+                       have made it to shelter, ... Israeli air strikes on the runway closed the airport. The 
+                      <strong>
+                        family
+                      </strong>
+                      , who hold German passports, drove south ...
+                    </p>
+                    <p class="search-info">
+                      <span datatype="" property="foaf:name" typeof="sioc:UserAccount" about="/users/arjan" xml:lang="" class="username">
+                        arjan
+                      </span>
+                       - 12/01/2012 - 06:26
+                    </p>
+                  </div>
+                </li>
+                <li class="search-result">
+                  <h3 class="title">
+                    <a href="http://electronicintifada.net/content/five-years-family-keep-open-gaza-clinic-doctor-killed-israel/13036">
+                      Five years on, family keep open Gaza clinic of doctor killed by Israel
+                    </a>
+                  </h3>
+                  <div class="search-snippet-info">
+                    <p class="search-snippet">
+                       his 
+                      <strong>
+                        family
+                      </strong>
+                       have made sure that the clinic continues to function. Al-Shaer’s father, Jasir, takes care ... a 
+                      <strong>
+                        family
+                      </strong>
+                       problem in cooperation with the police. After hearing that the building had been hit in an ... the three people killed — including my son — in the morgue.” “Backbone of 
+                      <strong>
+                        family
+                      </strong>
+                      ” Ehab al-Shaer left ...
+                    </p>
+                    <p class="search-info">
+                      <span datatype="" property="foaf:name" typeof="sioc:UserAccount" about="/users/ali-abunimah" xml:lang="" class="username">
+                        Ali Abunimah
+                      </span>
+                       - 12/27/2013 - 07:15
+                    </p>
+                  </div>
+                </li>
+                <li class="search-result">
+                  <h3 class="title">
+                    <a href="http://electronicintifada.net/content/why-did-young-man-gaza-set-himself-fire-ehab-abu-nadas-family-speaks/11695">
+                      Why did a young man in Gaza set himself on fire? Ehab Abu Nada's family speaks
+                    </a>
+                  </h3>
+                  <div class="search-snippet-info">
+                    <p class="search-snippet">
+                       faced by former political prisoners. “Sadness in his eyes” Abu Nada’s 
+                      <strong>
+                        family
+                      </strong>
+                       do not appear to be in ... been very hard,” Ehab’s mother, Um Muhammad, explained in the Abu Nada 
+                      <strong>
+                        family
+                      </strong>
+                       home in al-Shati refugee ... camp, western Gaza City. Ehab lived in this small home with nine other members of the Abu Nada 
+                      <strong>
+                        family
+                      </strong>
+                       ...
+                    </p>
+                    <p class="search-info">
+                      <span datatype="" property="foaf:name" typeof="sioc:UserAccount" about="/users/maureen-clare-murphy" xml:lang="" class="username">
+                        Maureen Clare Murphy
+                      </span>
+                       - 12/01/2012 - 09:19
+                    </p>
+                  </div>
+                </li>
+                <li class="search-result">
+                  <h3 class="title">
+                    <a href="http://electronicintifada.net/content/did-gaza-family-burn-death-because-unpaid-bill/12241">
+                      Did a Gaza family burn to death because of an unpaid bill?
+                    </a>
+                  </h3>
+                  <div class="search-snippet-info">
+                    <p class="search-snippet">
+                       Rami Almeghari The Electronic Intifada Gaza Strip 28 February 2013 130228-gaza-
+                      <strong>
+                        family
+                      </strong>
+                       ... -fire.jpg A grieving woman displays a photo of three of the Dheir 
+                      <strong>
+                        family
+                      </strong>
+                       children who were killed when a fire swept ... through their Gaza home. (Ashraf Amra / APA images) With their electricity cut off, the Dheir 
+                      <strong>
+                        family
+                      </strong>
+                       had ...
+                    </p>
+                    <p class="search-info">
+                      <span datatype="" property="foaf:name" typeof="sioc:UserAccount" about="/users/maureen-clare-murphy" xml:lang="" class="username">
+                        Maureen Clare Murphy
+                      </span>
+                       - 02/28/2013 - 21:36
+                    </p>
+                  </div>
+                </li>
+                <li class="search-result">
+                  <h3 class="title">
+                    <a href="http://electronicintifada.net/blogs/shahd-abusalama/are-they-waiting-him-return-coffin-akram-rikhawis-family-urges-action-gaza">
+                      “Are they waiting for him to return in a coffin?”: Akram Rikhawi's family urges action from Gaza
+                    </a>
+                  </h3>
+                  <div class="search-snippet-info">
+                    <p class="search-snippet">
+                       Rafah to see Akram’s 
+                      <strong>
+                        family
+                      </strong>
+                       As I read that tweet, I felt anger at the world’s silence. I called Mahmoud ... “Is it too late already to visit Akram’s 
+                      <strong>
+                        family
+                      </strong>
+                      ?” I asked him. He shook his head and said, “Their part ... of Rafah camp is filled with refugees from Yibna. They stay up very late, especially Akram’s 
+                      <strong>
+                        family
+                      </strong>
+                       ...
+                    </p>
+                    <p class="search-info">
+                      <span datatype="" property="foaf:name" typeof="sioc:UserAccount" about="/users/shahd-abusalama" xml:lang="" class="username">
+                        Shahd Abusalama
+                      </span>
+                       - 12/01/2012 - 09:14 - 1 comment
+                    </p>
+                  </div>
+                </li>
+                <li class="search-result">
+                  <h3 class="title">
+                    <a href="http://electronicintifada.net/content/israel-breaks-pledge-allow-imprisoned-gaza-engineer-family-visits/12562">
+                      Israel breaks pledge to allow imprisoned Gaza engineer family visits 
+                    </a>
+                  </h3>
+                  <div class="search-snippet-info">
+                    <p class="search-snippet">
+                       Rami Almeghari The Electronic Intifada Gaza Strip 24 June 2013 130621-abu-sisi-
+                      <strong>
+                        family
+                      </strong>
+                      .jpg Dirar ... Abu Sisi’s continued imprisonment has exacted a heavy toll on his 
+                      <strong>
+                        family
+                      </strong>
+                       in Gaza. (Rami Almeghari) One ... year after Israel promised to allow Palestinian prisoners to receive visits from their 
+                      <strong>
+                        families
+                      </strong>
+                      , it is ...
+                    </p>
+                    <p class="search-info">
+                      <span datatype="" property="foaf:name" typeof="sioc:UserAccount" about="/users/nora-barrows-friedman" xml:lang="" class="username">
+                        Nora Barrows-Fr...
+                      </span>
+                       - 06/24/2013 - 17:48
+                    </p>
+                  </div>
+                </li>
+                <li class="search-result">
+                  <h3 class="title">
+                    <a href="http://electronicintifada.net/blogs/benjamin-doherty/palestinians-sense-he-writing-history-write-letter-khader-adnan-and-his">
+                      Palestinians sense he is writing history: write a letter to Khader Adnan and his family
+                    </a>
+                  </h3>
+                  <div class="search-snippet-info">
+                    <p class="search-snippet">
+                       khader-adnan-
+                      <strong>
+                        family
+                      </strong>
+                      .jpg The wife, daughters and father of Khader Adnan walk out from Ziv Hospital ... Khader Adnan and his 
+                      <strong>
+                        family
+                      </strong>
+                      . All of these letters are published at http://khaderadnan.posterous.com/. ... After his ordeal is finished, these letters will be translated and presented to the 
+                      <strong>
+                        family
+                      </strong>
+                      . We hope ...
+                    </p>
+                    <p class="search-info">
+                      <span datatype="" property="foaf:name" typeof="sioc:UserAccount" about="/users/benjamin-doherty" xml:lang="" class="username">
+                        Benjamin Doherty
+                      </span>
+                       - 12/01/2012 - 08:50 - 2 comments
+                    </p>
+                  </div>
+                </li>
+                <li class="search-result">
+                  <h3 class="title">
+                    <a href="http://electronicintifada.net/content/gaza-families-recall-horror-two-years-after-israels-assault/9158">
+                      Gaza families recall horror two years after Israel's assault
+                    </a>
+                  </h3>
+                  <div class="search-snippet-info">
+                    <p class="search-snippet">
+                       Rami Almeghari The Electronic Intifada Gaza Strip 27 December 2010 101227-gaza-
+                      <strong>
+                        family
+                      </strong>
+                      .jpg A mother ... witnessed in my life. All me and my 
+                      <strong>
+                        family
+                      </strong>
+                       could do during the Israeli invasion of the Tal al-Hawa ... daughter Rawan had vivid memories of sitting in the 
+                      <strong>
+                        family
+                      </strong>
+                      ’s kitchen during a lull in the attack. “We lit ...
+                    </p>
+                    <p class="search-info">
+                      <span datatype="" property="foaf:name" typeof="sioc:UserAccount" about="/users/matthew" xml:lang="" class="username">
+                        matthew
+                      </span>
+                       - 12/01/2012 - 08:02
+                    </p>
+                  </div>
+                </li>
+                <li class="search-result">
+                  <h3 class="title">
+                    <a href="http://electronicintifada.net/blogs/maureen-clare-murphy/chicago-murder-rate-jumps-family-mourns-former-ei-editor-matthew-cassel">
+                      As Chicago murder rate jumps, a family mourns: former EI editor Matthew Cassel reports for Al Jazeera
+                    </a>
+                  </h3>
+                  <div class="search-snippet-info">
+                    <p class="search-snippet">
+                      <strong>
+                        Families
+                      </strong>
+                       grieve as Chicago killings increase Al Jazeera English  broadcast a report today that ...
+                    </p>
+                    <p class="search-info">
+                      <span datatype="" property="foaf:name" typeof="sioc:UserAccount" about="/users/maureen-clare-murphy" xml:lang="" class="username">
+                        Maureen Clare Murphy
+                      </span>
+                       - 02/17/2013 - 03:53
+                    </p>
+                  </div>
+                </li>
+              </ol>
+              <h2 class="element-invisible">
+                Pages
+              </h2>
+              <div class="item-list">
+                <ul class="pager">
+                  <li class="pager-first first">
+                    <a href="/search/site/family" title="Go to first page">
+                      « first
+                    </a>
+                  </li>
+                  <li class="pager-previous">
+                    <a href="/search/site/family" title="Go to previous page">
+                      ‹ previous
+                    </a>
+                  </li>
+                  <li class="pager-item">
+                    <a href="/search/site/family" title="Go to page 1">
+                      1
+                    </a>
+                  </li>
+                  <li class="pager-current">
+                    2
+                  </li>
+                  <li class="pager-item">
+                    <a href="/search/site/family?page=2" title="Go to page 3">
+                      3
+                    </a>
+                  </li>
+                  <li class="pager-item">
+                    <a href="/search/site/family?page=3" title="Go to page 4">
+                      4
+                    </a>
+                  </li>
+                  <li class="pager-item">
+                    <a href="/search/site/family?page=4" title="Go to page 5">
+                      5
+                    </a>
+                  </li>
+                  <li class="pager-item">
+                    <a href="/search/site/family?page=5" title="Go to page 6">
+                      6
+                    </a>
+                  </li>
+                  <li class="pager-item">
+                    <a href="/search/site/family?page=6" title="Go to page 7">
+                      7
+                    </a>
+                  </li>
+                  <li class="pager-item">
+                    <a href="/search/site/family?page=7" title="Go to page 8">
+                      8
+                    </a>
+                  </li>
+                  <li class="pager-item">
+                    <a href="/search/site/family?page=8" title="Go to page 9">
+                      9
+                    </a>
+                  </li>
+                  <li class="pager-ellipsis">
+                    …
+                  </li>
+                  <li class="pager-next">
+                    <a href="/search/site/family?page=2" title="Go to next page">
+                      next ›
+                    </a>
+                  </li>
+                  <li class="pager-last last">
+                    <a href="/search/site/family?page=505" title="Go to last page">
+                      last »
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column sidebar" id="sidebar-second">
+        <div class="section">
+          <div class="region region-sidebar-second">
+            <div class="block block-apachesolr-search region-odd region-count-1" id="block-apachesolr-search-sort">
+              <h2 class="block-title">
+                Sort by
+              </h2>
+              <div class="content">
+                <div class="item-list">
+                  <ul>
+                    <li class="first">
+                      <a class="active" href="/search/site/family">
+                        Relevancy
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/search/site/family?solrsort=sort_label%20asc">
+                        Title
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/search/site/family?solrsort=bundle%20asc">
+                        Type
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/search/site/family?solrsort=sort_name%20asc">
+                        Author
+                      </a>
+                    </li>
+                    <li class="last">
+                      <a href="/search/site/family?solrsort=ds_created%20desc">
+                        Date
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="block block-facetapi region-even region-count-2" id="block-facetapi-n18e4x0qrraip7nv6i0sdyicjsq77hcb">
+              <h2 class="block-title">
+                Filter by post date:
+              </h2>
+              <div class="content">
+                <div class="item-list">
+                  <ul id="facetapi-facet-apachesolrsolr-block-created" class="facetapi-facetapi-links facetapi-facet-created facetapi-processed">
+                    <li class="leaf first">
+                      <a id="facetapi-link--226" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2002-01-01T00%3A00%3A00Z%20TO%202003-01-01T00%3A00%3A00Z%5D">
+                        2002 (348)
+                        <span class="element-invisible">
+                           Apply 2002 filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--227" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2003-01-01T00%3A00%3A00Z%20TO%202004-01-01T00%3A00%3A00Z%5D">
+                        2003 (497)
+                        <span class="element-invisible">
+                           Apply 2003 filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--228" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2004-01-01T00%3A00%3A00Z%20TO%202005-01-01T00%3A00%3A00Z%5D">
+                        2004 (429)
+                        <span class="element-invisible">
+                           Apply 2004 filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--229" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2005-01-01T00%3A00%3A00Z%20TO%202006-01-01T00%3A00%3A00Z%5D">
+                        2005 (285)
+                        <span class="element-invisible">
+                           Apply 2005 filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--230" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2006-01-01T00%3A00%3A00Z%20TO%202007-01-01T00%3A00%3A00Z%5D">
+                        2006 (773)
+                        <span class="element-invisible">
+                           Apply 2006 filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--231" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2007-01-01T00%3A00%3A00Z%20TO%202008-01-01T00%3A00%3A00Z%5D">
+                        2007 (421)
+                        <span class="element-invisible">
+                           Apply 2007 filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--232" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2008-01-01T00%3A00%3A00Z%20TO%202009-01-01T00%3A00%3A00Z%5D">
+                        2008 (331)
+                        <span class="element-invisible">
+                           Apply 2008 filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--233" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2009-01-01T00%3A00%3A00Z%20TO%202010-01-01T00%3A00%3A00Z%5D">
+                        2009 (372)
+                        <span class="element-invisible">
+                           Apply 2009 filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--234" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2010-01-01T00%3A00%3A00Z%20TO%202011-01-01T00%3A00%3A00Z%5D">
+                        2010 (298)
+                        <span class="element-invisible">
+                           Apply 2010 filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--235" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2011-01-01T00%3A00%3A00Z%20TO%202012-01-01T00%3A00%3A00Z%5D">
+                        2011 (349)
+                        <span class="element-invisible">
+                           Apply 2011 filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--236" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2012-01-01T00%3A00%3A00Z%20TO%202013-01-01T00%3A00%3A00Z%5D">
+                        2012 (514)
+                        <span class="element-invisible">
+                           Apply 2012 filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--237" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2013-01-01T00%3A00%3A00Z%20TO%202014-01-01T00%3A00%3A00Z%5D">
+                        2013 (357)
+                        <span class="element-invisible">
+                           Apply 2013 filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf last">
+                      <a id="facetapi-link--238" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=ds_created%3A%5B2014-01-01T00%3A00%3A00Z%20TO%202015-01-01T00%3A00%3A00Z%5D">
+                        2014 (85)
+                        <span class="element-invisible">
+                           Apply 2014 filter 
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="block block-facetapi region-odd region-count-3" id="block-facetapi-giiy4zr9gu0zsa0bumw1y9qiipidf1wu">
+              <h2 class="block-title">
+                Filter by content type:
+              </h2>
+              <div class="content">
+                <div class="item-list">
+                  <ul id="facetapi-facet-apachesolrsolr-block-bundle" class="facetapi-facetapi-links facetapi-facet-bundle facetapi-processed">
+                    <li class="leaf first">
+                      <a id="facetapi-link--239" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=bundle%3Astory">
+                        Story (2962)
+                        <span class="element-invisible">
+                           Apply Story filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--240" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=bundle%3Areport">
+                        Report (947)
+                        <span class="element-invisible">
+                           Apply Report filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--241" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=bundle%3Ablog">
+                        Blog entry (625)
+                        <span class="element-invisible">
+                           Apply Blog entry filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--242" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=bundle%3Arelease">
+                        Release (305)
+                        <span class="element-invisible">
+                           Apply Release filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--243" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=bundle%3Areview">
+                        Review (150)
+                        <span class="element-invisible">
+                           Apply Review filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf last">
+                      <a id="facetapi-link--244" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=bundle%3Aarticle">
+                        Article (70)
+                        <span class="element-invisible">
+                           Apply Article filter 
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="block block-facetapi region-even region-count-4" id="block-facetapi-uxriueekpftarqph71n07m2ovemk5vqb">
+              <h2 class="block-title">
+                Filter by genre:
+              </h2>
+              <div class="content">
+                <div class="item-list">
+                  <ul id="facetapi-facet-apachesolrsolr-block-sm-field-genre" class="facetapi-facetapi-links facetapi-facet-sm-field-genre facetapi-processed">
+                    <li class="leaf first">
+                      <a id="facetapi-link--134" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=sm_field_genre%3AReportage">
+                        Reportage (1078)
+                        <span class="element-invisible">
+                           Apply Reportage filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--135" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=sm_field_genre%3AHuman%20Interest">
+                        Human Interest (1054)
+                        <span class="element-invisible">
+                           Apply Human Interest filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--136" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=sm_field_genre%3AOpinion">
+                        Opinion (459)
+                        <span class="element-invisible">
+                           Apply Opinion filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--137" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=sm_field_genre%3A_empty_">
+                        Missing 
+                        <em class="placeholder">
+                          Genre
+                        </em>
+                         (324)
+                        <span class="element-invisible">
+                           Apply Missing &lt;em class="placeholder"&gt;Genre&lt;/em&gt; filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf last">
+                      <a id="facetapi-link--138" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=sm_field_genre%3AAnalysis">
+                        Analysis (47)
+                        <span class="element-invisible">
+                           Apply Analysis filter 
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="block block-facetapi region-odd region-count-5" id="block-facetapi-hizsyvw0nvlj4caxt5cf1dkvpuk0c017">
+              <h2 class="block-title">
+                Filter by author:
+              </h2>
+              <div class="content">
+                <div class="item-list">
+                  <ul id="facetapi-facet-apachesolrsolr-block-im-field-author" class="facetapi-facetapi-links facetapi-facet-im-field-author facetapi-processed">
+                    <li class="leaf first">
+                      <a id="facetapi-link--139" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1855">
+                        Rami Almeghari (161)
+                        <span class="element-invisible">
+                           Apply Rami Almeghari filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--140" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1143">
+                        Jonathan Cook (111)
+                        <span class="element-invisible">
+                           Apply Jonathan Cook filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--141" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1703">
+                        Palestinian Center for Human Rights (84)
+                        <span class="element-invisible">
+                           Apply Palestinian Center for Human Rights filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--142" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A151">
+                        Ali Abunimah (77)
+                        <span class="element-invisible">
+                           Apply Ali Abunimah filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--143" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A270">
+                        Arjan El Fassed (74)
+                        <span class="element-invisible">
+                           Apply Arjan El Fassed filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--144" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A705">
+                        Eva Bartlett (73)
+                        <span class="element-invisible">
+                           Apply Eva Bartlett filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--145" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1104">
+                        Jillian Kestler-D'Amours (63)
+                        <span class="element-invisible">
+                           Apply Jillian Kestler-D'Amours filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--146" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1389">
+                        Maureen Clare Murphy (62)
+                        <span class="element-invisible">
+                           Apply Maureen Clare Murphy filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--147" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1412">
+                        Mel Frykberg (53)
+                        <span class="element-invisible">
+                           Apply Mel Frykberg filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--148" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A89">
+                        Adri Nieuwhof (46)
+                        <span class="element-invisible">
+                           Apply Adri Nieuwhof filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--149" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A2000">
+                        Sarah Irving (39)
+                        <span class="element-invisible">
+                           Apply Sarah Irving filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--150" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A2274">
+                        Toine van Teeffelen (38)
+                        <span class="element-invisible">
+                           Apply Toine van Teeffelen filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--151" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1251">
+                        Laurie King (32)
+                        <span class="element-invisible">
+                           Apply Laurie King filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--152" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A370">
+                        Bill Dienst (29)
+                        <span class="element-invisible">
+                           Apply Bill Dienst filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--153" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1502">
+                        Mohammed Omer (29)
+                        <span class="element-invisible">
+                           Apply Mohammed Omer filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--154" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1613">
+                        Nigel Parry (29)
+                        <span class="element-invisible">
+                           Apply Nigel Parry filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--155" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1238">
+                        Laila El-Haddad (27)
+                        <span class="element-invisible">
+                           Apply Laila El-Haddad filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--156" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1621">
+                        Nora Barrows-Friedman (27)
+                        <span class="element-invisible">
+                           Apply Nora Barrows-Friedman filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--157" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A9753">
+                        Patrick O. Strickland (27)
+                        <span class="element-invisible">
+                           Apply Patrick O. Strickland filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--158" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A6434">
+                        Joe Catron (25)
+                        <span class="element-invisible">
+                           Apply Joe Catron filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--159" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1117">
+                        Jody McIntyre (24)
+                        <span class="element-invisible">
+                           Apply Jody McIntyre filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--160" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1972">
+                        Sam Bahour (24)
+                        <span class="element-invisible">
+                           Apply Sam Bahour filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--161" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A285">
+                        Asa Winstanley (23)
+                        <span class="element-invisible">
+                           Apply Asa Winstanley filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--162" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1913">
+                        Rima Merriman (23)
+                        <span class="element-invisible">
+                           Apply Rima Merriman filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--163" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1980">
+                        Sami Abu Salem (21)
+                        <span class="element-invisible">
+                           Apply Sami Abu Salem filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--164" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1346">
+                        Marcy Newman (20)
+                        <span class="element-invisible">
+                           Apply Marcy Newman filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--165" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1292">
+                        Lora Gordon (19)
+                        <span class="element-invisible">
+                           Apply Lora Gordon filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--166" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1231">
+                        Kristen Ess (16)
+                        <span class="element-invisible">
+                           Apply Kristen Ess filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--167" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1876">
+                        Ray Smith (16)
+                        <span class="element-invisible">
+                           Apply Ray Smith filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--168" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A458">
+                        Charlotte Silver (15)
+                        <span class="element-invisible">
+                           Apply Charlotte Silver filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--169" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A875">
+                        Hasan Abu Nimah (15)
+                        <span class="element-invisible">
+                           Apply Hasan Abu Nimah filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--170" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1065">
+                        Jeff Handmaker (15)
+                        <span class="element-invisible">
+                           Apply Jeff Handmaker filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--171" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1075">
+                        Jennifer Loewenstein (15)
+                        <span class="element-invisible">
+                           Apply Jennifer Loewenstein filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--172" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A243">
+                        Annie Higgins (14)
+                        <span class="element-invisible">
+                           Apply Annie Higgins filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--173" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A930">
+                        Ida Audeh (14)
+                        <span class="element-invisible">
+                           Apply Ida Audeh filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--174" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A232">
+                        Anna Baltzer (13)
+                        <span class="element-invisible">
+                           Apply Anna Baltzer filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--175" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1252">
+                        LAW (13)
+                        <span class="element-invisible">
+                           Apply LAW filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--176" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1386">
+                        Matthew Cassel (12)
+                        <span class="element-invisible">
+                           Apply Matthew Cassel filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--177" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1985">
+                        Samia A. Halaby (12)
+                        <span class="element-invisible">
+                           Apply Samia A. Halaby filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--178" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A4030">
+                        Linah Alsaafin (11)
+                        <span class="element-invisible">
+                           Apply Linah Alsaafin filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--179" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1395">
+                        Maymanah Farhat (11)
+                        <span class="element-invisible">
+                           Apply Maymanah Farhat filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--180" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A2086">
+                        Stefan Christoff (11)
+                        <span class="element-invisible">
+                           Apply Stefan Christoff filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--181" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A177">
+                        Ameer Makhoul (10)
+                        <span class="element-invisible">
+                           Apply Ameer Makhoul filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--182" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A2982">
+                        Budour Youssef Hassan (10)
+                        <span class="element-invisible">
+                           Apply Budour Youssef Hassan filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--183" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A835">
+                        Greg Moses (10)
+                        <span class="element-invisible">
+                           Apply Greg Moses filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--184" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1082">
+                        Jerrold Kessel (10)
+                        <span class="element-invisible">
+                           Apply Jerrold Kessel filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--185" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1397">
+                        Mayssoun Sukarieh (10)
+                        <span class="element-invisible">
+                           Apply Mayssoun Sukarieh filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--186" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1428">
+                        Michael F. Brown (10)
+                        <span class="element-invisible">
+                           Apply Michael F. Brown filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--187" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A1787">
+                        Pierre Klochendler (10)
+                        <span class="element-invisible">
+                           Apply Pierre Klochendler filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf last" style="display: none;">
+                      <a id="facetapi-link--188" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_author%3A179">
+                        Amer Abdelhadi (9)
+                        <span class="element-invisible">
+                           Apply Amer Abdelhadi filter 
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                  <a class="facetapi-limit-link" href="#">
+                    Show more
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="block block-facetapi region-even region-count-6" id="block-facetapi-p3fubrie0j3kxs8j2aewwxks2gqtkmih">
+              <h2 class="block-title">
+                Filter by topic:
+              </h2>
+              <div class="content">
+                <div class="item-list">
+                  <ul id="facetapi-facet-apachesolrsolr-block-im-field-topic" class="facetapi-facetapi-links facetapi-facet-im-field-topic facetapi-processed">
+                    <li class="collapsed first">
+                      <a id="facetapi-link--112" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2777">
+                        Activism (387)
+                        <span class="element-invisible">
+                           Apply Activism filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="collapsed">
+                      <a id="facetapi-link--113" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2788">
+                        Arts and culture (327)
+                        <span class="element-invisible">
+                           Apply Arts and culture filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="collapsed">
+                      <a id="facetapi-link--114" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2826">
+                        Human rights (319)
+                        <span class="element-invisible">
+                           Apply Human rights filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="collapsed">
+                      <a id="facetapi-link--115" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2809">
+                        Economy (115)
+                        <span class="element-invisible">
+                           Apply Economy filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--116" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2871">
+                        Media (101)
+                        <span class="element-invisible">
+                           Apply Media filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--117" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2853">
+                        Israeli occupation of West Bank and Gaza Strip (74)
+                        <span class="element-invisible">
+                           Apply Israeli occupation of West Bank and Gaza Strip filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="collapsed">
+                      <a id="facetapi-link--118" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2814">
+                        Foreign policy and the conflict (72)
+                        <span class="element-invisible">
+                           Apply Foreign policy and the conflict filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--119" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2893">
+                        Refugees (55)
+                        <span class="element-invisible">
+                           Apply Refugees filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--120" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2851">
+                        Israel lobby (53)
+                        <span class="element-invisible">
+                           Apply Israel lobby filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="collapsed">
+                      <a id="facetapi-link--121" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2878">
+                        Palestinian politics (41)
+                        <span class="element-invisible">
+                           Apply Palestinian politics filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--122" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2805">
+                        Children (40)
+                        <span class="element-invisible">
+                           Apply Children filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--123" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2892">
+                        Racism (39)
+                        <span class="element-invisible">
+                           Apply Racism filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="collapsed">
+                      <a id="facetapi-link--124" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2894">
+                        Settlements and settlers (38)
+                        <span class="element-invisible">
+                           Apply Settlements and settlers filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--125" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2825">
+                        Health (33)
+                        <span class="element-invisible">
+                           Apply Health filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--126" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2889">
+                        Palestinians in Israel (33)
+                        <span class="element-invisible">
+                           Apply Palestinians in Israel filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--127" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2865">
+                        Law (19)
+                        <span class="element-invisible">
+                           Apply Law filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--128" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2872">
+                        Natural resources and environment (17)
+                        <span class="element-invisible">
+                           Apply Natural resources and environment filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--129" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2891">
+                        Political negotiations (17)
+                        <span class="element-invisible">
+                           Apply Political negotiations filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--130" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2897">
+                        Weaponry (17)
+                        <span class="element-invisible">
+                           Apply Weaponry filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--131" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2813">
+                        Education (16)
+                        <span class="element-invisible">
+                           Apply Education filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--132" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2850">
+                        Humanitarian aid (12)
+                        <span class="element-invisible">
+                           Apply Humanitarian aid filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf last" style="display: none;">
+                      <a id="facetapi-link--133" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_topic%3A2852">
+                        Israel's wall in the West Bank (12)
+                        <span class="element-invisible">
+                           Apply Israel's wall in the West Bank filter 
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                  <a class="facetapi-limit-link" href="#">
+                    Show more
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="block block-facetapi region-odd region-count-7" id="block-facetapi-fbbxcn2s9gklxh73mdrfwyer0drexfe9">
+              <h2 class="block-title">
+                Filter by tags:
+              </h2>
+              <div class="content">
+                <div class="item-list">
+                  <ul id="facetapi-facet-apachesolrsolr-block-im-field-tag" class="facetapi-facetapi-links facetapi-facet-im-field-tag facetapi-processed">
+                    <li class="leaf first">
+                      <a id="facetapi-link--54" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A5124">
+                        hunger strike (142)
+                        <span class="element-invisible">
+                           Apply hunger strike filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--55" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3020">
+                        BDS (138)
+                        <span class="element-invisible">
+                           Apply BDS filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--56" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A2989">
+                        Gaza (128)
+                        <span class="element-invisible">
+                           Apply Gaza filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--57" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3002">
+                        political prisoners (120)
+                        <span class="element-invisible">
+                           Apply political prisoners filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--58" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3006">
+                        administrative detention (93)
+                        <span class="element-invisible">
+                           Apply administrative detention filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--59" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3238">
+                        Gaza siege (92)
+                        <span class="element-invisible">
+                           Apply Gaza siege filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--60" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3003">
+                        Addameer (80)
+                        <span class="element-invisible">
+                           Apply Addameer filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--61" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3105">
+                        Palestinian Authority (75)
+                        <span class="element-invisible">
+                           Apply Palestinian Authority filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--62" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3154">
+                        Jerusalem (64)
+                        <span class="element-invisible">
+                           Apply Jerusalem filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--63" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3036">
+                        Hamas (63)
+                        <span class="element-invisible">
+                           Apply Hamas filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--64" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A4577">
+                        Israeli settlements (63)
+                        <span class="element-invisible">
+                           Apply Israeli settlements filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--65" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3061">
+                        Nakba (60)
+                        <span class="element-invisible">
+                           Apply Nakba filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--66" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A4375">
+                        Palestinian prisoners (59)
+                        <span class="element-invisible">
+                           Apply Palestinian prisoners filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--67" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A6330">
+                        Khader Adnan (54)
+                        <span class="element-invisible">
+                           Apply Khader Adnan filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--68" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A4468">
+                        Palestinian political prisoners (54)
+                        <span class="element-invisible">
+                           Apply Palestinian political prisoners filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--69" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A8880">
+                        #GazaUnderAttack (52)
+                        <span class="element-invisible">
+                           Apply #GazaUnderAttack filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--70" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3578">
+                        racism (52)
+                        <span class="element-invisible">
+                           Apply racism filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--71" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A2990">
+                        Egypt (50)
+                        <span class="element-invisible">
+                           Apply Egypt filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--72" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3132">
+                        refugees (45)
+                        <span class="element-invisible">
+                           Apply refugees filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--73" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3382">
+                        settlements (44)
+                        <span class="element-invisible">
+                           Apply settlements filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--74" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A4296">
+                        Gaza Strip (43)
+                        <span class="element-invisible">
+                           Apply Gaza Strip filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--75" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3037">
+                        Operation Cast Lead (43)
+                        <span class="element-invisible">
+                           Apply Operation Cast Lead filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--76" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3024">
+                        arrest and detention (42)
+                        <span class="element-invisible">
+                           Apply arrest and detention filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--77" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3103">
+                        East Jerusalem (42)
+                        <span class="element-invisible">
+                           Apply East Jerusalem filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--78" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3081">
+                        Palestinians in Israel (42)
+                        <span class="element-invisible">
+                           Apply Palestinians in Israel filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--79" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3320">
+                        Rachel Corrie (42)
+                        <span class="element-invisible">
+                           Apply Rachel Corrie filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--80" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3500">
+                        UNRWA (42)
+                        <span class="element-invisible">
+                           Apply UNRWA filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--81" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3165">
+                        Israel's wall in the West Bank (41)
+                        <span class="element-invisible">
+                           Apply Israel's wall in the West Bank filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--82" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A7256">
+                        Podcast (41)
+                        <span class="element-invisible">
+                           Apply Podcast filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--83" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A2995">
+                        home demolitions (40)
+                        <span class="element-invisible">
+                           Apply home demolitions filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--84" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3363">
+                        children (39)
+                        <span class="element-invisible">
+                           Apply children filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--85" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3258">
+                        Hebron (38)
+                        <span class="element-invisible">
+                           Apply Hebron filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--86" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3161">
+                        Syria (38)
+                        <span class="element-invisible">
+                           Apply Syria filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--87" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3351">
+                        Israeli Prison Service (37)
+                        <span class="element-invisible">
+                           Apply Israeli Prison Service filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--88" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A6709">
+                        Hana al-Shalabi (35)
+                        <span class="element-invisible">
+                           Apply Hana al-Shalabi filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--89" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A7212">
+                        Mahmoud Sarsak (33)
+                        <span class="element-invisible">
+                           Apply Mahmoud Sarsak filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--90" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3082">
+                        Amnesty International (32)
+                        <span class="element-invisible">
+                           Apply Amnesty International filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--91" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A4408">
+                        apartheid (31)
+                        <span class="element-invisible">
+                           Apply apartheid filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--92" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A8957">
+                        photostory (30)
+                        <span class="element-invisible">
+                           Apply photostory filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--93" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3327">
+                        Rafah crossing (30)
+                        <span class="element-invisible">
+                           Apply Rafah crossing filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--94" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3059">
+                        right of return (30)
+                        <span class="element-invisible">
+                           Apply right of return filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--95" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3080">
+                        torture (30)
+                        <span class="element-invisible">
+                           Apply torture filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--96" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A4928">
+                        settler violence (29)
+                        <span class="element-invisible">
+                           Apply settler violence filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--97" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3013">
+                        film (27)
+                        <span class="element-invisible">
+                           Apply film filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--98" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A8022">
+                        Palestinian refugees in Syria (27)
+                        <span class="element-invisible">
+                           Apply Palestinian refugees in Syria filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--99" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3170">
+                        Ramallah (27)
+                        <span class="element-invisible">
+                           Apply Ramallah filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--100" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3108">
+                        BBC (26)
+                        <span class="element-invisible">
+                           Apply BBC filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--101" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3540">
+                        Islamophobia (26)
+                        <span class="element-invisible">
+                           Apply Islamophobia filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--102" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A6278">
+                        Israeli settlers (26)
+                        <span class="element-invisible">
+                           Apply Israeli settlers filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf last" style="display: none;">
+                      <a id="facetapi-link--103" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_tag%3A3101">
+                        West Bank (26)
+                        <span class="element-invisible">
+                           Apply West Bank filter 
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                  <a class="facetapi-limit-link" href="#">
+                    Show more
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="block block-facetapi region-even region-count-8" id="block-facetapi-o0rbtbdrpoe71ojir5qz3jmuuvxwjkvb">
+              <h2 class="block-title">
+                Filter by location:
+              </h2>
+              <div class="content">
+                <div class="item-list">
+                  <ul id="facetapi-facet-apachesolrsolr-block-im-field-location" class="facetapi-facetapi-links facetapi-facet-im-field-location facetapi-processed">
+                    <li class="collapsed first">
+                      <a id="facetapi-link" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_location%3A2543">
+                        Middle East and North Africa (1199)
+                        <span class="element-invisible">
+                           Apply Middle East and North Africa filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="collapsed">
+                      <a id="facetapi-link--2" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_location%3A2718">
+                        North America (111)
+                        <span class="element-invisible">
+                           Apply North America filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="collapsed last">
+                      <a id="facetapi-link--3" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_location%3A2513">
+                        Europe (55)
+                        <span class="element-invisible">
+                           Apply Europe filter 
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="block block-facetapi region-odd region-count-9" id="block-facetapi-1ggfnh88a3fgdv0hf3v90krglwh7a7ga">
+              <h2 class="block-title">
+                Filter by blog:
+              </h2>
+              <div class="content">
+                <div class="item-list">
+                  <ul id="facetapi-facet-apachesolrsolr-block-im-field-blog" class="facetapi-facetapi-links facetapi-facet-im-field-blog facetapi-processed">
+                    <li class="leaf first">
+                      <a id="facetapi-link--104" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_blog%3A36">
+                        Rights and Accountability (203)
+                        <span class="element-invisible">
+                           Apply Rights and Accountability filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="collapsed">
+                      <a id="facetapi-link--105" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_blog%3A37">
+                        From the Editors (82)
+                        <span class="element-invisible">
+                           Apply From the Editors filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--106" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_blog%3A27">
+                        Activism and BDS Beat (81)
+                        <span class="element-invisible">
+                           Apply Activism and BDS Beat filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--107" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_blog%3A5010">
+                        Arts and Culture (27)
+                        <span class="element-invisible">
+                           Apply Arts and Culture filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--108" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_blog%3A34">
+                        Media Watch (27)
+                        <span class="element-invisible">
+                           Apply Media Watch filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--109" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_blog%3A33">
+                        Lobby Watch (21)
+                        <span class="element-invisible">
+                           Apply Lobby Watch filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--110" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_blog%3A29">
+                        al Bassaleh (8)
+                        <span class="element-invisible">
+                           Apply al Bassaleh filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf last">
+                      <a id="facetapi-link--111" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_blog%3A35">
+                        Power Suits (6)
+                        <span class="element-invisible">
+                           Apply Power Suits filter 
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="block block-facetapi region-even region-count-10" id="block-facetapi-obh1gk1zqcpa2f0tkwjltxtzuozrw0u3">
+              <h2 class="block-title">
+                Filter by publisher:
+              </h2>
+              <div class="content">
+                <div class="item-list">
+                  <ul id="facetapi-facet-apachesolrsolr-block-im-field-publisher" class="facetapi-facetapi-links facetapi-facet-im-field-publisher facetapi-processed">
+                    <li class="leaf first">
+                      <a id="facetapi-link--4" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2185">
+                        The Electronic Intifada (1920)
+                        <span class="element-invisible">
+                           Apply The Electronic Intifada filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--5" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A1703">
+                        Palestinian Center for Human Rights (250)
+                        <span class="element-invisible">
+                           Apply Palestinian Center for Human Rights filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--6" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A660">
+                        Electronic Lebanon (98)
+                        <span class="element-invisible">
+                           Apply Electronic Lebanon filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--7" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A992">
+                        IRIN (92)
+                        <span class="element-invisible">
+                           Apply IRIN filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--8" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A122">
+                        Al Mezan Center For Human Rights (72)
+                        <span class="element-invisible">
+                           Apply Al Mezan Center For Human Rights filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--9" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A322">
+                        B'Tselem (57)
+                        <span class="element-invisible">
+                           Apply B'Tselem filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--10" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2346">
+                        United Nations Relief and Works Agency for Palestine Refugees in the Near East (37)
+                        <span class="element-invisible">
+                           Apply United Nations Relief and Works Agency for Palestine Refugees in the Near East filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--11" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2313">
+                        UN Office for the Coordination of Humanitarian Affairs (34)
+                        <span class="element-invisible">
+                           Apply UN Office for the Coordination of Humanitarian Affairs filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--12" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2344">
+                        United Nations News Service (30)
+                        <span class="element-invisible">
+                           Apply United Nations News Service filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--13" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A73">
+                        Adalah (29)
+                        <span class="element-invisible">
+                           Apply Adalah filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--14" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A194">
+                        Amnesty International (20)
+                        <span class="element-invisible">
+                           Apply Amnesty International filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--15" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A604">
+                        Defence for Children International-Palestine Section (20)
+                        <span class="element-invisible">
+                           Apply Defence for Children International-Palestine Section filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--16" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A1691">
+                        Palestine Report (20)
+                        <span class="element-invisible">
+                           Apply Palestine Report filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--17" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2338">
+                        United Nations High Commissioner for Refugees (20)
+                        <span class="element-invisible">
+                           Apply United Nations High Commissioner for Refugees filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--18" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A913">
+                        Human Rights Watch (18)
+                        <span class="element-invisible">
+                           Apply Human Rights Watch filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--19" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A977">
+                        International Solidarity Movement (18)
+                        <span class="element-invisible">
+                           Apply International Solidarity Movement filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--20" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2330">
+                        United Nations Department of Public Information (17)
+                        <span class="element-invisible">
+                           Apply United Nations Department of Public Information filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--21" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A116">
+                        Al Jazeera (14)
+                        <span class="element-invisible">
+                           Apply Al Jazeera filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--22" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2327">
+                        United Nations Children's Fund (14)
+                        <span class="element-invisible">
+                           Apply United Nations Children's Fund filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--23" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A963">
+                        International Committee of the Red Cross (13)
+                        <span class="element-invisible">
+                           Apply International Committee of the Red Cross filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--24" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2325">
+                        United Nations (13)
+                        <span class="element-invisible">
+                           Apply United Nations filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--25" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A130">
+                        Al-Haq (12)
+                        <span class="element-invisible">
+                           Apply Al-Haq filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--26" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A921">
+                        I'lam - Media Center for Palestinians in Israel (12)
+                        <span class="element-invisible">
+                           Apply I'lam - Media Center for Palestinians in Israel filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--27" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2179">
+                        The Daily Star (12)
+                        <span class="element-invisible">
+                           Apply The Daily Star filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--28" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A415">
+                        Campaign for the Right of Entry/Re-Entry to the Occupied Palestinian Territory (11)
+                        <span class="element-invisible">
+                           Apply Campaign for the Right of Entry/Re-Entry to the Occupied Palestinian Territory filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--29" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A475">
+                        Christian Aid (11)
+                        <span class="element-invisible">
+                           Apply Christian Aid filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--30" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2192">
+                        The Guardian (11)
+                        <span class="element-invisible">
+                           Apply The Guardian filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--31" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A521">
+                        Committee to Protect Journalists (9)
+                        <span class="element-invisible">
+                           Apply Committee to Protect Journalists filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--32" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2337">
+                        United Nations General Assembly (9)
+                        <span class="element-invisible">
+                           Apply United Nations General Assembly filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--33" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2373">
+                        Various undersigned (9)
+                        <span class="element-invisible">
+                           Apply Various undersigned filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--34" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A74">
+                        Adalah-NY (8)
+                        <span class="element-invisible">
+                           Apply Adalah-NY filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--35" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A258">
+                        Arab Association for Human Rights (HRA) (8)
+                        <span class="element-invisible">
+                           Apply Arab Association for Human Rights (HRA) filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--36" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2162">
+                        The Association for Civil Rights in Israel (8)
+                        <span class="element-invisible">
+                           Apply The Association for Civil Rights in Israel filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--37" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A2199">
+                        The Independent (8)
+                        <span class="element-invisible">
+                           Apply The Independent filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--38" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A1006">
+                        Israeli Committee Against House Demolitions (7)
+                        <span class="element-invisible">
+                           Apply Israeli Committee Against House Demolitions filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--39" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A1638">
+                        Office of the High Commissioner for Human Rights (OHCHR) (7)
+                        <span class="element-invisible">
+                           Apply Office of the High Commissioner for Human Rights (OHCHR) filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--40" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A1705">
+                        Palestinian Centre for Human Rights (7)
+                        <span class="element-invisible">
+                           Apply Palestinian Centre for Human Rights filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--41" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A1812">
+                        Public Committee Against Torture in Israel (7)
+                        <span class="element-invisible">
+                           Apply Public Committee Against Torture in Israel filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--42" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A126">
+                        Al-Ahram Weekly (6)
+                        <span class="element-invisible">
+                           Apply Al-Ahram Weekly filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--43" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A606">
+                        Democracy Now! (6)
+                        <span class="element-invisible">
+                           Apply Democracy Now! filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--44" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A860">
+                        HaMoked (6)
+                        <span class="element-invisible">
+                           Apply HaMoked filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--45" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A1308">
+                        Ma'an News Agency (6)
+                        <span class="element-invisible">
+                           Apply Ma'an News Agency filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--46" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A82">
+                        Addameer (5)
+                        <span class="element-invisible">
+                           Apply Addameer filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--47" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A324">
+                        Badil (5)
+                        <span class="element-invisible">
+                           Apply Badil filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--48" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A478">
+                        Christian Peacemaker Teams (5)
+                        <span class="element-invisible">
+                           Apply Christian Peacemaker Teams filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--49" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A847">
+                        Ha'aretz (5)
+                        <span class="element-invisible">
+                           Apply Ha'aretz filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--50" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A1086">
+                        Jerusalem Center for Social and Economic Rights (5)
+                        <span class="element-invisible">
+                           Apply Jerusalem Center for Social and Economic Rights filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--51" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A1667">
+                        Oxfam International (5)
+                        <span class="element-invisible">
+                           Apply Oxfam International filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--52" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A1675">
+                        Palestine Center (5)
+                        <span class="element-invisible">
+                           Apply Palestine Center filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf last" style="display: none;">
+                      <a id="facetapi-link--53" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=im_field_publisher%3A1886">
+                        Refugees International (5)
+                        <span class="element-invisible">
+                           Apply Refugees International filter 
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                  <a class="facetapi-limit-link" href="#">
+                    Show more
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="block block-facetapi region-odd region-count-11" id="block-facetapi-wwwinj0eoefotambjo2yl86mnf1ro12j">
+              <h2 class="block-title">
+                Filter by author:
+              </h2>
+              <div class="content">
+                <div class="item-list">
+                  <ul id="facetapi-facet-apachesolrsolr-block-author" class="facetapi-facetapi-links facetapi-facet-author facetapi-processed">
+                    <li class="leaf first">
+                      <a id="facetapi-link--189" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A15">
+                        Maureen Clare Murphy (1767)
+                        <span class="element-invisible">
+                           Apply Maureen Clare Murphy filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--190" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A23">
+                        arjan (1067)
+                        <span class="element-invisible">
+                           Apply arjan filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--191" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A5">
+                        matthew (483)
+                        <span class="element-invisible">
+                           Apply matthew filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--192" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A1">
+                        admin (462)
+                        <span class="element-invisible">
+                           Apply admin filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--193" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A24">
+                        Ali Abunimah (306)
+                        <span class="element-invisible">
+                           Apply Ali Abunimah filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--194" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A32">
+                        Nora Barrows-Friedman (293)
+                        <span class="element-invisible">
+                           Apply Nora Barrows-Friedman filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--195" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A8">
+                        charlotte (240)
+                        <span class="element-invisible">
+                           Apply charlotte filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--196" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A22">
+                        Laurie King-Irani (83)
+                        <span class="element-invisible">
+                           Apply Laurie King-Irani filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--197" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A1057">
+                        Asa Winstanley (71)
+                        <span class="element-invisible">
+                           Apply Asa Winstanley filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--198" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A430">
+                        Adri Nieuwhof (53)
+                        <span class="element-invisible">
+                           Apply Adri Nieuwhof filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--199" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A1620">
+                        Shahd Abusalama (38)
+                        <span class="element-invisible">
+                           Apply Shahd Abusalama filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--200" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A446">
+                        Linah Alsaafin (23)
+                        <span class="element-invisible">
+                           Apply Linah Alsaafin filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--201" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A44">
+                        David Cronin (21)
+                        <span class="element-invisible">
+                           Apply David Cronin filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--202" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A20">
+                        Benjamin Doherty (20)
+                        <span class="element-invisible">
+                           Apply Benjamin Doherty filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--203" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A1222">
+                        Ben White (16)
+                        <span class="element-invisible">
+                           Apply Ben White filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--204" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A959">
+                        Rana Baker (15)
+                        <span class="element-invisible">
+                           Apply Rana Baker filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--205" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A19">
+                        Sam Bahour (15)
+                        <span class="element-invisible">
+                           Apply Sam Bahour filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--206" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A339">
+                        Jalal Abukhater (14)
+                        <span class="element-invisible">
+                           Apply Jalal Abukhater filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--207" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A10">
+                        Stefan Christoff (13)
+                        <span class="element-invisible">
+                           Apply Stefan Christoff filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf">
+                      <a id="facetapi-link--208" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A7875">
+                        Amena Saleem (9)
+                        <span class="element-invisible">
+                           Apply Amena Saleem filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--209" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A6">
+                        Zach Wales (8)
+                        <span class="element-invisible">
+                           Apply Zach Wales filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--210" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A4298">
+                        Alice Bach (7)
+                        <span class="element-invisible">
+                           Apply Alice Bach filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--211" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A3194">
+                        Charlotte Silver (6)
+                        <span class="element-invisible">
+                           Apply Charlotte Silver filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--212" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A10748">
+                        Sarah Irving (5)
+                        <span class="element-invisible">
+                           Apply Sarah Irving filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--213" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A1069">
+                        Jaime Omar Yassin (3)
+                        <span class="element-invisible">
+                           Apply Jaime Omar Yassin filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--214" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A3358">
+                        Nidal El-Khairy (3)
+                        <span class="element-invisible">
+                           Apply Nidal El-Khairy filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--215" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A5455">
+                        Nour Joudah (3)
+                        <span class="element-invisible">
+                           Apply Nour Joudah filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--216" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A1593">
+                        Abraham Greenhouse (2)
+                        <span class="element-invisible">
+                           Apply Abraham Greenhouse filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--217" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A21">
+                        diaries (2)
+                        <span class="element-invisible">
+                           Apply diaries filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--218" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A4">
+                        jeff (2)
+                        <span class="element-invisible">
+                           Apply jeff filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--219" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A14124">
+                        Patrick Strickland (2)
+                        <span class="element-invisible">
+                           Apply Patrick Strickland filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--220" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A458">
+                        Yasmeen El-Khoudary (2)
+                        <span class="element-invisible">
+                           Apply Yasmeen El-Khoudary filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--221" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A4398">
+                        Alexander Billet (1)
+                        <span class="element-invisible">
+                           Apply Alexander Billet filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--222" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A4396">
+                        Gabriel Schivone (1)
+                        <span class="element-invisible">
+                           Apply Gabriel Schivone filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--223" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A17">
+                        Lucy Mair (1)
+                        <span class="element-invisible">
+                           Apply Lucy Mair filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf" style="display: none;">
+                      <a id="facetapi-link--224" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A2767">
+                        Michael Deas (1)
+                        <span class="element-invisible">
+                           Apply Michael Deas filter 
+                        </span>
+                      </a>
+                    </li>
+                    <li class="leaf last" style="display: none;">
+                      <a id="facetapi-link--225" class="facetapi-inactive" rel="nofollow" href="/search/site/family?f[0]=is_uid%3A492">
+                        Mohammed Suliman (1)
+                        <span class="element-invisible">
+                           Apply Mohammed Suliman filter 
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                  <a class="facetapi-limit-link" href="#">
+                    Show more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="footer-nav">
+          <h2>
+            Secondary menu
+          </h2>
+          <ul class="links" id="secondary-menu">
+            <li class="menu-351 first">
+              <a title="" href="/about-ei">
+                About EI
+              </a>
+            </li>
+            <li class="menu-136">
+              <a title="" href="/contact">
+                Contact
+              </a>
+            </li>
+            <li class="menu-5520 last">
+              <a href="/content/submit-content-electronic-intifada/3">
+                Submit to EI
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="region region-footer">
+          <div class="block block-panels-mini region-odd region-count-1" id="block-panels-mini-copyright">
+            <div class="content">
+              <p>
+                © 2000-2014 electronicIntifada.net
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+(function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '4deeb1f6613f5d584d000001');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+    })();
+//--&gt;&lt;!]]&gt;
+
+//]]>
+    </script>
+  </body>
+</html>

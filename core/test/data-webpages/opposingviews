@@ -1,0 +1,2267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" dir="ltr" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" class="js">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+    <script type="text/javascript" async="" src="http://ad.crwdcntrl.net/5/c=1859/pe=y/callback=_nw2e.closures.c0">
+    </script>
+    <script async="" src="http://b%20%3Chttp://b/%3E%20.scorecardresearch.com/beacon.js%20%3Chttp://scorecardresearch.com/beacon.js%3E%20">
+    </script>
+    <script src="http://edge.quantserve.com/quant.js" async="" type="text/javascript">
+    </script>
+    <script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+(window.NREUM||(NREUM={})).loader_config={xpid:"UQcBWVJUGwEIVFNbAgA="};window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f&lt;d.length;f++)e(d[f]);return e}({1:[function(a,b){function c(a,b,c){c||(c={});for(var d=f[a],e=d&amp;&amp;d.length||0,h=c[g]||(c[g]={}),i=0;e&gt;i;i++)d[i].apply(h,b);return h}function d(a,b){var c=f[a]||(f[a]=[]);c.push(b)}function e(a){return delete a[g]}var f={},g="nr@context";b.exports={on:d,emit:c,clear:e}},{}],2:[function(a){function b(a,b,e,g,i){return h?h-=1:c("err",[i||new UncaughtException(a,b,e)]),"function"==typeof f?f.apply(this,d(arguments)):!1}function UncaughtException(a,b,c){this.message=a||"Uncaught error with no additional information",this.sourceURL=b,this.line=c}var c=a("handle"),d=a("lodash._slice"),e=a("../../../contextual-ee"),f=window.onerror,g=!1,h=0;a("loader").features.push("err"),window.onerror=b;try{throw new Error}catch(i){"stack"in i&amp;&amp;(a("../../wrap-timer"),a("../../wrap-raf"),"addEventListener"in window&amp;&amp;a("../../wrap-events"),window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;a("../../wrap-xhr"),g=!0)}e.on("fn-start",function(){g&amp;&amp;(h+=1)}),e.on("fn-err",function(a,b,d){g&amp;&amp;(this.thrown=!0,c("err",[d,(new Date).getTime()]))}),e.on("fn-end",function(){g&amp;&amp;!this.thrown&amp;&amp;h&gt;0&amp;&amp;(h-=1)})},{"../../../contextual-ee":1,"../../wrap-events":3,"../../wrap-raf":4,"../../wrap-timer":5,"../../wrap-xhr":6,handle:"4O2Y62",loader:"YLUGVp","lodash._slice":14}],3:[function(a){function b(a){d.inPlace(a,["addEventListener","removeEventListener"],"-",c)}function c(a){return a[1]}var d=a("../wrap-function"),e=(a("lodash._slice"),a("../contextual-ee"));if(b(window),"getPrototypeOf"in Object){for(var f=document;f&amp;&amp;!f.hasOwnProperty("addEventListener");)f=Object.getPrototypeOf(f);f&amp;&amp;b(f);for(var g=XMLHttpRequest.prototype;g&amp;&amp;!g.hasOwnProperty("addEventListener");)g=Object.getPrototypeOf(g);g&amp;&amp;b(g)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&amp;&amp;b(XMLHttpRequest.prototype);e.on("addEventListener-start",function(a){if(a[1]){var b=a[1];"function"==typeof b?this.wrapped=b["nr@wrapped"]?a[1]=b["nr@wrapped"]:b["nr@wrapped"]=a[1]=d(b,"fn-"):"function"==typeof b.handleEvent&amp;&amp;d.inPlace(b,["handleEvent"],"fn-")}}),e.on("removeEventListener-start",function(a){var b=this.wrapped;b&amp;&amp;(a[1]=b)})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],4:[function(a){var b=(a("lodash._slice"),a("../wrap-function")),c=a("../contextual-ee");b.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),c.on("raf-start",function(a){a[0]=b(a[0],"fn-")})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],5:[function(a){function b(a){var b=a[0];"string"==typeof b&amp;&amp;(b=new Function(b)),a[0]=c(b,"fn-")}var c=(a("lodash._slice"),a("../wrap-function")),d=a("../contextual-ee");c.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),d.on("setTimer-start",b)},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],6:[function(a){function b(){c.inPlace(this,f,"fn-")}var c=a("../wrap-function"),d=a("../contextual-ee"),e=window.XMLHttpRequest,f=["onload","onerror","onabort","onloadstart","onloadend","onprogress","onreadystatechange","ontimeout"];window.XMLHttpRequest=function(a){var f=new e(a);return d.emit("new-xhr",[],f),c.inPlace(f,["addEventListener","removeEventListener"],"-",function(a,b){return b}),f.addEventListener("readystatechange",b,!1),f},window.XMLHttpRequest.prototype=e.prototype},{"../contextual-ee":1,"../wrap-function":15}],7:[function(a){function b(a){if("string"==typeof a&amp;&amp;a.length)return a.length;if("object"!=typeof a)return void 0;if("undefined"!=typeof ArrayBuffer&amp;&amp;a instanceof ArrayBuffer&amp;&amp;a.byteLength)return a.byteLength;if("undefined"!=typeof Blob&amp;&amp;a instanceof Blob&amp;&amp;a.size)return a.size;if("undefined"!=typeof FormData&amp;&amp;a instanceof FormData)return void 0;try{return JSON.stringify(a).length}catch(b){return void 0}}function c(a){var c=this.params,d=this.metrics;if(!this.ended){this.ended=!0;for(var e=0;k&gt;e;e++)a.removeEventListener(j[e],this.listener,!1);if(!c.aborted){if(d.duration=(new Date).getTime()-this.startTime,4===a.readyState){c.status=a.status;var g=a.responseType,h="arraybuffer"===g||"blob"===g||"json"===g?a.response:a.responseText,i=b(h);if(i&amp;&amp;(d.rxSize=i),this.sameOrigin){var l=a.getResponseHeader("X-NewRelic-App-Data");l&amp;&amp;(c.cat=l.split(", ").pop())}}else c.status=0;d.cbTime=this.cbTime,f("xhr",[c,d])}}}function d(a,b){var c=g(b),d=a.params;d.host=c.hostname+":"+c.port,d.pathname=c.pathname,a.sameOrigin=c.sameOrigin}function e(a,b){return b}if(window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;!/CriOS/.test(navigator.userAgent)){a("loader").features.push("xhr");var f=a("handle"),g=a("./parse-url.js"),h=a("../../../wrap-function"),i=a("../../../contextual-ee"),j=["load","error","abort","timeout"],k=j.length,l=a("../../../loader/id");a("../../wrap-events"),a("../../wrap-xhr"),i.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=c,this.ended=!1,this.xhrGuids={}}),h.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",e),i.on("open-xhr-start",function(a){this.params={method:a[0]},d(this,a[1]),this.metrics={}}),i.on("open-xhr-end",function(a,b){"loader_config"in NREUM&amp;&amp;"xpid"in NREUM.loader_config&amp;&amp;this.sameOrigin&amp;&amp;b.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),i.on("send-xhr-start",function(a,c){var d=this.metrics,e=a[0],f=this;if(d&amp;&amp;e){var g=b(e);g&amp;&amp;(d.txSize=g)}this.startTime=(new Date).getTime(),this.listener=function(a){try{"abort"===a.type&amp;&amp;(f.params.aborted=!0),("load"!==a.type||f.called===f.totalCbs&amp;&amp;(f.onloadCalled||"function"!=typeof c.onload))&amp;&amp;f.end(c)}catch(b){}};for(var h=0;k&gt;h;h++)c.addEventListener(j[h],this.listener,!1)}),i.on("xhr-cb-time",function(a,b,c){this.cbTime+=a,b?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&amp;&amp;"function"==typeof c.onload||this.end(c)}),i.on("xhr-load-added",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&amp;&amp;!this.xhrGuids[c]&amp;&amp;(this.xhrGuids[c]=!0,this.totalCbs+=1)}),i.on("xhr-load-removed",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&amp;&amp;this.xhrGuids[c]&amp;&amp;(delete this.xhrGuids[c],this.totalCbs-=1)}),i.on("addEventListener-end",function(a,b){b instanceof XMLHttpRequest&amp;&amp;"load"===a[0]&amp;&amp;i.emit("xhr-load-added",[a[1],a[2]],b)}),i.on("removeEventListener-end",function(a,b){b instanceof XMLHttpRequest&amp;&amp;"load"===a[0]&amp;&amp;i.emit("xhr-load-removed",[a[1],a[2]],b)}),i.on("fn-start",function(a,b,c){b instanceof XMLHttpRequest&amp;&amp;("onload"===c&amp;&amp;(this.onload=!0),("load"===(a[0]&amp;&amp;a[0].type)||this.onload)&amp;&amp;(this.xhrCbStart=(new Date).getTime()))}),i.on("fn-end",function(a,b){this.xhrCbStart&amp;&amp;i.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,b],b)})}},{"../../../contextual-ee":1,"../../../loader/id":11,"../../../wrap-function":15,"../../wrap-events":3,"../../wrap-xhr":6,"./parse-url.js":8,handle:"4O2Y62",loader:"YLUGVp"}],8:[function(a,b){b.exports=function(a){var b=document.createElement("a"),c=window.location,d={};b.href=a,d.port=b.port;var e=b.href.split("://");return!d.port&amp;&amp;e[1]&amp;&amp;(d.port=e[1].split("/")[0].split(":")[1]),d.port&amp;&amp;"0"!==d.port||(d.port="https"===e[0]?"443":"80"),d.hostname=b.hostname||c.hostname,d.pathname=b.pathname,"/"!==d.pathname.charAt(0)&amp;&amp;(d.pathname="/"+d.pathname),d.sameOrigin=!b.hostname||b.hostname===document.domain&amp;&amp;b.port===c.port&amp;&amp;b.protocol===c.protocol,d}},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],11:[function(a,b){function c(a){if(!a||"object"!=typeof a&amp;&amp;"function"!=typeof a)return-1;if(a===window)return 0;if(e.call(a,"__nr"))return a.__nr;try{return Object.defineProperty(a,"__nr",{value:d,writable:!0,enumerable:!1}),d}catch(b){return a.__nr=d,d}finally{d+=1}}var d=1,e=Object.prototype.hasOwnProperty;b.exports=c},{}],loader:[function(a,b){b.exports=a("YLUGVp")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&amp;&amp;a.agent&amp;&amp;a.licenseKey&amp;&amp;a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&amp;&amp;e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l,features:[]};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],14:[function(a,b){function c(a,b,c){b||(b=0),"undefined"==typeof c&amp;&amp;(c=a?a.length:0);for(var d=-1,e=c-b||0,f=Array(0&gt;e?0:e);++d&lt;e;)f[d]=a[b+d];return f}b.exports=c},{}],15:[function(a,b){function c(a,b,c,d){function nrWrapper(){var g,h=f(arguments),i=this,j=c&amp;&amp;c(h,i)||{};try{e.emit(b+"start",[h,i,d],j)}catch(k){}try{return g=a.apply(i,h)}catch(l){throw e.emit(b+"err",[h,i,l],j),l}finally{try{e.emit(b+"end",[h,i,g],j)}catch(k){}}}return a&amp;&amp;"function"==typeof a&amp;&amp;a.apply&amp;&amp;!a._wrapped?(b||(b=""),nrWrapper._wrapped=!0,nrWrapper):a}function d(a,b,d,e){d||(d="");var f,g,h,i="-"===d.charAt(0);for(h=0;h&lt;b.length;h++)g=b[h],f=a[g],f&amp;&amp;"function"==typeof f&amp;&amp;f.apply&amp;&amp;!f._wrapped&amp;&amp;(a[g]=c(f,i?g+d:d,e,g,a))}var e=a("../contextual-ee"),f=a("lodash._slice");b.exports=c,c.inPlace=d},{"../contextual-ee":1,"lodash._slice":14}]},{},["YLUGVp",7,2]);
+//]]>
+    </script>
+    <!-- Optimized mobile viewport -->    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <!-- For the meta publish date tag -->    <meta content="Tue, 8 May 2012 12:54:59 PDT" name="publish_date"/>
+    <!-- facebook open graph -->    <meta content="article" property="og:type"/>
+    <meta content="Search Results" property="og:title"/>
+    <meta content="" property="og:description"/>
+    <meta content="http://www.opposingviews.com/sponsored/search-results2?searchKey=us+" property="og:url"/>
+    <meta content="OpposingViews.com" property="og:site_name"/>
+    <meta content="http://www.opposingviews.com/sites/default/files/imagefield_default_images/default_image_275x200.png" property="og:image"/>
+    <!-- news keywords meta tags -->    <meta content="" name="news_keywords"/>
+    <!-- create variable for canonical url and put in template.php -->    <link href="http://www.opposingviews.com/sponsored/search-results2?searchKey=us+" rel="canonical"/>
+    <!-- Place favicon.ico and apple-touch-icon.png in root directory -->    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="on" http-equiv="x-dns-prefetch-control"/>
+    <link href="//js.opposingviews.com" rel="dns-prefetch"/>
+    <link href="//css.opposingviews.com" rel="dns-prefetch"/>
+    <link href="//img.opposingviews.com" rel="dns-prefetch"/>
+    <link type="image/x-icon" href="http://img.opposingviews.com/sites/default/files/fbg_sub_favicon.png" rel="shortcut icon"/>
+    <meta content="Site Results" name="description"/>
+    <link href="http://www.opposingviews.com/sponsored/search-results2" rel="canonical"/>
+    <meta content="1 day" name="revisit-after"/>
+    <title>
+      Search Results
+    </title>
+    <link href="http://css.opposingviews.com/sites/default/files/css/css_1d5c702cc4ac580002210fa449285945.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="http://css.opposingviews.com/sites/default/files/css/css_3d8cbd59f0c2b3ad858984092568a056.css" media="print" rel="stylesheet" type="text/css"/>
+    <script src="http://js.opposingviews.com/sites/default/files/js/js_940d6807916f17687daac75e804fdd61.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","AjaxLoad":{"css":["\/modules\/node\/node.css","\/modules\/poll\/poll.css","\/modules\/system\/defaults.css","\/modules\/system\/system.css","\/modules\/system\/system-menus.css","\/modules\/user\/user.css","\/sites\/all\/modules\/contrib\/cck\/theme\/content-module.css","\/sites\/all\/modules\/contrib\/ctools\/css\/ctools.css","\/sites\/all\/modules\/contrib\/date\/date.css","\/sites\/all\/modules\/contrib\/filefield\/filefield.css","\/sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css","\/sites\/all\/modules\/contrib\/node_gallery\/node_gallery.css","\/sites\/all\/modules\/contrib\/panels\/css\/panels.css","\/sites\/all\/modules\/contrib\/report\/modules\/report_user\/report_user.css","\/sites\/all\/modules\/contrib\/report\/report.css","\/sites\/all\/libraries\/superfish\/css\/superfish.css","\/sites\/all\/libraries\/superfish\/css\/superfish-vertical.css","\/sites\/all\/libraries\/superfish\/css\/superfish-navbar.css","\/sites\/all\/modules\/contrib\/cck\/modules\/fieldgroup\/fieldgroup.css","\/sites\/all\/modules\/contrib\/views\/css\/views.css","\/sites\/all\/themes\/fbg_sub\/css\/style.css","\/sites\/all\/themes\/fbg_sub\/print.css"],"scripts":["\/sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery.min.js","\/misc\/drupal.js","\/sites\/all\/modules\/contrib\/ajax_load\/ajax_load.js","\/sites\/all\/modules\/contrib\/panels\/js\/panels.js","\/sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js","\/sites\/all\/libraries\/superfish\/jquery.bgiframe.min.js","\/sites\/all\/libraries\/superfish\/superfish.js","\/sites\/all\/libraries\/superfish\/supersubs.js","\/sites\/all\/libraries\/superfish\/supposition.js","\/sites\/all\/libraries\/superfish\/sftouchscreen.js","\/sites\/all\/libraries\/superfish\/sfsmallscreen.js","\/sites\/all\/modules\/contrib\/superfish\/superfish.js","\/sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js"]},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":false,"dropShadows":false,"disableHI":false},"plugins":{"smallscreen":{"mode":"window_width","title":"Primary links"},"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}}});
+//--&gt;&lt;!]]&gt;
+
+//]]>
+    </script>
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700"/>
+    <!-- Google analytics -->    <script type="text/javascript">
+//<![CDATA[
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-4637075-1']);
+_gaq.push(['_setDomainName', '.opposingviews.com']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+//]]>
+    </script>
+    <!-- facebook javascript SDK - associated div added to pg template -->    <script>
+//<![CDATA[
+(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+//]]>
+    </script>
+    <script id="_nw2e-js" src="http://launch.newsinc.com/js/embed.js" async="" type="text/javascript">
+    </script>
+    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&amp;gt;div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&amp;gt;span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}
+    </style>
+  </head>
+  <body class="sidebar-right">
+    <!-- for fbook js sdk that is in scripts_top.tpl.php -->    <div id="fb-root" class=" fb_reset">
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_http" allowtransparency="true" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="http://static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f1088115b1037d6&amp;origin=http%3A%2F%2Fwww.opposingviews.com">
+          </iframe>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_https" allowtransparency="true" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f1088115b1037d6&amp;origin=http%3A%2F%2Fwww.opposingviews.com">
+          </iframe>
+        </div>
+      </div>
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <a href="/">
+        <div class="logo">
+        </div>
+      </a>
+      <div id="top-elements">
+        <span class="date">
+          Mar 31, 2014
+        </span>
+        <span class="follow">
+          FOLLOW
+        </span>
+        <span class="header-icons">
+          <a href="http://www.facebook.com/opposingviews">
+            <img width="26" height="26" alt="fbook icon" src="/sites/all/themes/smokers/images/icon-circular-fbook.png"/>
+          </a>
+          <a href="http://twitter.com/opposingviews">
+            <img width="26" height="26" alt="twitter icon" src="/sites/all/themes/smokers/images/icon-circular-twitter.png" class="aipewpddfdevopyqmojj"/>
+          </a>
+          <a href="http://feeds.feedburner.com/opposingviews/main">
+            <img width="26" height="26" alt="rss icon" src="/sites/all/themes/smokers/images/icon-circular-rss.png"/>
+          </a>
+        </span>
+        <span class="search-box">
+          <div class="search" id="search">
+            <form method="post" action="http://www.opposingviews.com/searchredirect.php">
+              <input type="text" class="form-text" name="searchkeys"/>
+              <input type="submit" class="form-submit" value="Search"/>
+            </form>
+          </div>
+        </span>
+      </div>
+      <!-- /top-elements -->      <div id="header-top">
+        <!-- block -->        <div class="block-wrapper odd">
+          <div class="block block-block " id="block-block-112">
+            <div class="content">
+              <div class="leaderboard">
+                <script src="http://partner.googleadservices.com/gampad/google_service.js" type="text/javascript">
+                </script>
+                <script type="text/javascript">
+//<![CDATA[
+
+GS_googleAddAdSenseService("ca-pub-0641889738199065");
+GS_googleEnableAllServices();
+
+//]]>
+                </script>
+                <script type="text/javascript">
+//<![CDATA[
+
+GA_googleAddSlot("ca-pub-0641889738199065", "OV_728x90");
+
+//]]>
+                </script>
+                <script type="text/javascript">
+//<![CDATA[
+
+GA_googleFetchAds();
+
+//]]>
+                </script>
+                <script type="text/javascript">
+//<![CDATA[
+
+GA_googleFillSlot("OV_728x90");
+
+//]]>
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /block -->        <!-- block -->        <div class="block-wrapper even">
+          <div class="block block-superfish " id="block-superfish-1">
+            <div class="content">
+              <ul class="sf-menu sf-primary-links sf-horizontal sf-style-white sf-total-items-11 sf-parent-items-10 sf-single-items-1 sf-js-enabled" id="superfish-1">
+                <li class="first odd sf-item-1 sf-depth-1 sf-total-children-11 sf-parent-children-2 sf-single-children-9 menuparent" id="menu-1285-1">
+                  <a class="sf-depth-1 menuparent" title="Politics" href="/topics/politics">
+                    Politics
+                  </a>
+                  <ul style="float: none; width: 12em;" class="sf-hidden">
+                    <li class="first odd sf-item-1 sf-depth-2 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent" id="menu-1314-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Abortion" href="/topics/abortion" style="float: none; width: auto;">
+                        Abortion
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="firstandlast odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1315-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Roe v Wade" href="/topics/roe-v-wade" style="float: none; width: auto;">
+                            Roe v Wade
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle even sf-item-2 sf-depth-2 sf-no-children" id="menu-1319-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Death Penalty" href="/topics/death-penalty" style="float: none; width: auto;">
+                        Death Penalty
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-3 sf-depth-2 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent" id="menu-1311-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Foreign Policy" href="/topics/foreign-policy" style="float: none; width: auto;">
+                        Foreign Policy
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="first odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1313-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Crisis in Gaza" href="/topics/crisis-gaza" style="float: none; width: auto;">
+                            Crisis in Gaza
+                          </a>
+                        </li>
+                        <li class="last even sf-item-2 sf-depth-3 sf-no-children" id="menu-1312-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="War on Terror" href="/topics/war-terror" style="float: none; width: auto;">
+                            War on Terror
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle even sf-item-4 sf-depth-2 sf-no-children" id="menu-1324-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Glenn Beck" href="/topics/glenn-beck" style="float: none; width: auto;">
+                        Glenn Beck
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-5 sf-depth-2 sf-no-children" id="menu-1320-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Hate Crimes" href="/topics/hate-crimes" style="float: none; width: auto;">
+                        Hate Crimes
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-6 sf-depth-2 sf-no-children" id="menu-1316-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Immigration" href="/topics/immigration" style="float: none; width: auto;">
+                        Immigration
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-7 sf-depth-2 sf-no-children" id="menu-15756-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="" href="/topics/mitt-romney" style="float: none; width: auto;">
+                        Mitt Romney
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-8 sf-depth-2 sf-no-children" id="menu-1317-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Obama Presidency" href="/topics/obama-presidency" style="float: none; width: auto;">
+                        Obama Presidency
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-9 sf-depth-2 sf-no-children" id="menu-3145-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Ron Paul" href="/topics/ron-paul" style="float: none; width: auto;">
+                        Ron Paul
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-10 sf-depth-2 sf-no-children" id="menu-1318-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Supreme Court" href="/topics/supreme-court" style="float: none; width: auto;">
+                        Supreme Court
+                      </a>
+                    </li>
+                    <li class="last odd sf-item-11 sf-depth-2 sf-no-children" id="menu-1321-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Taxes" href="/topics/taxes" style="float: none; width: auto;">
+                        Taxes
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="middle even sf-item-2 sf-depth-1 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent" id="menu-1288-1">
+                  <a class="sf-depth-1 menuparent" title="Entertainment" href="/topics/entertainment">
+                    Entertainment
+                  </a>
+                  <ul style="float: none; width: 12em;" class="sf-hidden">
+                    <li class="first odd sf-item-1 sf-depth-2 sf-no-children" id="menu-1484-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Movies" href="/topics/movies" style="float: none; width: auto;">
+                        Movies
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-2 sf-depth-2 sf-no-children" id="menu-1485-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Music" href="/topics/music" style="float: none; width: auto;">
+                        Music
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-3 sf-depth-2 sf-no-children" id="menu-1486-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="TV" href="/topics/tv" style="float: none; width: auto;">
+                        TV
+                      </a>
+                    </li>
+                    <li class="last even sf-item-4 sf-depth-2 sf-no-children" id="menu-1494-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Video Games" href="/topics/video-games" style="float: none; width: auto;">
+                        Video Games
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="middle odd sf-item-3 sf-depth-1 sf-total-children-14 sf-parent-children-8 sf-single-children-6 menuparent" id="menu-1129-1">
+                  <a class="sf-depth-1 menuparent" title="Sports" href="/topics/sports">
+                    Sports
+                  </a>
+                  <ul style="float: none; width: 12em;" class="sf-hidden">
+                    <li class="first odd sf-item-1 sf-depth-2 sf-total-children-32 sf-parent-children-0 sf-single-children-32 menuparent" id="menu-1192-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="NFL" href="/topics/nfl" style="float: none; width: auto;">
+                        NFL
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="first odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1400-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="49ers" href="/topics/49ers" style="float: none; width: auto;">
+                            49ers
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-2 sf-depth-3 sf-no-children" id="menu-1376-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Bears" href="/topics/bears" style="float: none; width: auto;">
+                            Bears
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-3 sf-depth-3 sf-no-children" id="menu-1406-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Bengals" href="/topics/bengals" style="float: none; width: auto;">
+                            Bengals
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-4 sf-depth-3 sf-no-children" id="menu-1401-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Bills" href="/topics/bills" style="float: none; width: auto;">
+                            Bills
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-5 sf-depth-3 sf-no-children" id="menu-1379-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Broncos" href="/topics/broncos" style="float: none; width: auto;">
+                            Broncos
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-6 sf-depth-3 sf-no-children" id="menu-1394-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Browns" href="/topics/browns" style="float: none; width: auto;">
+                            Browns
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-7 sf-depth-3 sf-no-children" id="menu-1391-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Buccaneers" href="/topics/buccaneers" style="float: none; width: auto;">
+                            Buccaneers
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-8 sf-depth-3 sf-no-children" id="menu-1398-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Cardinals" href="/topics/cardinals" style="float: none; width: auto;">
+                            Cardinals
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-9 sf-depth-3 sf-no-children" id="menu-1389-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Chargers" href="/topics/chargers" style="float: none; width: auto;">
+                            Chargers
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-10 sf-depth-3 sf-no-children" id="menu-1384-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Chiefs" href="/topics/chiefs" style="float: none; width: auto;">
+                            Chiefs
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-11 sf-depth-3 sf-no-children" id="menu-1390-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Colts" href="/topics/colts" style="float: none; width: auto;">
+                            Colts
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-12 sf-depth-3 sf-no-children" id="menu-1380-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Cowboys" href="/topics/cowboys" style="float: none; width: auto;">
+                            Cowboys
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-13 sf-depth-3 sf-no-children" id="menu-1404-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Dolphins" href="/topics/dolphins" style="float: none; width: auto;">
+                            Dolphins
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-14 sf-depth-3 sf-no-children" id="menu-1393-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Eagles" href="/topics/eagles" style="float: none; width: auto;">
+                            Eagles
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-15 sf-depth-3 sf-no-children" id="menu-1387-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Falcons" href="/topics/falcons" style="float: none; width: auto;">
+                            Falcons
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-16 sf-depth-3 sf-no-children" id="menu-1403-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Jaguars" href="/topics/jaguars" style="float: none; width: auto;">
+                            Jaguars
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-17 sf-depth-3 sf-no-children" id="menu-1385-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Jets" href="/topics/jets" style="float: none; width: auto;">
+                            Jets
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-18 sf-depth-3 sf-no-children" id="menu-1395-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Lions" href="/topics/lions" style="float: none; width: auto;">
+                            Lions
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-19 sf-depth-3 sf-no-children" id="menu-1392-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="New York Giants" href="/topics/new-york-giants" style="float: none; width: auto;">
+                            New York Giants
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-20 sf-depth-3 sf-no-children" id="menu-1381-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Packers" href="/topics/packers" style="float: none; width: auto;">
+                            Packers
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-21 sf-depth-3 sf-no-children" id="menu-1388-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Panthers" href="/topics/panthers" style="float: none; width: auto;">
+                            Panthers
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-22 sf-depth-3 sf-no-children" id="menu-1397-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Patriots" href="/topics/patriots" style="float: none; width: auto;">
+                            Patriots
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-23 sf-depth-3 sf-no-children" id="menu-1399-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Raiders" href="/topics/raiders" style="float: none; width: auto;">
+                            Raiders
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-24 sf-depth-3 sf-no-children" id="menu-1402-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Rams" href="/topics/rams" style="float: none; width: auto;">
+                            Rams
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-25 sf-depth-3 sf-no-children" id="menu-1405-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Ravens" href="/topics/ravens" style="float: none; width: auto;">
+                            Ravens
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-26 sf-depth-3 sf-no-children" id="menu-1378-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Redskins" href="/topics/redskins" style="float: none; width: auto;">
+                            Redskins
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-27 sf-depth-3 sf-no-children" id="menu-1383-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Saints" href="/topics/saints" style="float: none; width: auto;">
+                            Saints
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-28 sf-depth-3 sf-no-children" id="menu-1386-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Seahawks" href="/topics/seahawks" style="float: none; width: auto;">
+                            Seahawks
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-29 sf-depth-3 sf-no-children" id="menu-1377-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Steelers" href="/topics/steelers" style="float: none; width: auto;">
+                            Steelers
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-30 sf-depth-3 sf-no-children" id="menu-1382-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Texans" href="/topics/texans" style="float: none; width: auto;">
+                            Texans
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-31 sf-depth-3 sf-no-children" id="menu-1407-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Titans" href="/topics/titans" style="float: none; width: auto;">
+                            Titans
+                          </a>
+                        </li>
+                        <li class="last even sf-item-32 sf-depth-3 sf-no-children" id="menu-1396-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Vikings" href="/topics/vikings" style="float: none; width: auto;">
+                            Vikings
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle even sf-item-2 sf-depth-2 sf-total-children-30 sf-parent-children-0 sf-single-children-30 menuparent" id="menu-1184-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="NBA Basketball" href="/topics/nba" style="float: none; width: auto;">
+                        NBA
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="first odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1425-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="76ers" href="/topics/76ers" style="float: none; width: auto;">
+                            76ers
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-2 sf-depth-3 sf-no-children" id="menu-1421-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Blazers" href="/topics/blazers" style="float: none; width: auto;">
+                            Blazers
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-3 sf-depth-3 sf-no-children" id="menu-1434-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Bobcats" href="/topics/bobcats" style="float: none; width: auto;">
+                            Bobcats
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-4 sf-depth-3 sf-no-children" id="menu-1433-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Bucks" href="/topics/bucks" style="float: none; width: auto;">
+                            Bucks
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-5 sf-depth-3 sf-no-children" id="menu-1419-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Bulls" href="/topics/bulls" style="float: none; width: auto;">
+                            Bulls
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-6 sf-depth-3 sf-no-children" id="menu-1414-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Cavaliers" href="/topics/cavaliers" style="float: none; width: auto;">
+                            Cavaliers
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-7 sf-depth-3 sf-no-children" id="menu-1415-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Celtics" href="/topics/celtics" style="float: none; width: auto;">
+                            Celtics
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-8 sf-depth-3 sf-no-children" id="menu-1438-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Clippers" href="/topics/clippers" style="float: none; width: auto;">
+                            Clippers
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-9 sf-depth-3 sf-no-children" id="menu-1426-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Grizzlies" href="/topics/grizzlies" style="float: none; width: auto;">
+                            Grizzlies
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-10 sf-depth-3 sf-no-children" id="menu-1417-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Hawks" href="/topics/hawks" style="float: none; width: auto;">
+                            Hawks
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-11 sf-depth-3 sf-no-children" id="menu-1418-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Heat" href="/topics/heat" style="float: none; width: auto;">
+                            Heat
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-12 sf-depth-3 sf-no-children" id="menu-1435-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Hornets" href="/topics/hornets" style="float: none; width: auto;">
+                            Hornets
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-13 sf-depth-3 sf-no-children" id="menu-1409-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Jazz" href="/topics/jazz" style="float: none; width: auto;">
+                            Jazz
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-14 sf-depth-3 sf-no-children" id="menu-1430-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Kings" href="/topics/kings" style="float: none; width: auto;">
+                            Kings
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-15 sf-depth-3 sf-no-children" id="menu-1187-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Knicks" href="/topics/knicks" style="float: none; width: auto;">
+                            Knicks
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-16 sf-depth-3 sf-no-children" id="menu-1186-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Lakers" href="/topics/lakers" style="float: none; width: auto;">
+                            Lakers
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-17 sf-depth-3 sf-no-children" id="menu-1416-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Magic" href="/topics/magic" style="float: none; width: auto;">
+                            Magic
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-18 sf-depth-3 sf-no-children" id="menu-1427-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Mavericks" href="/topics/mavericks" style="float: none; width: auto;">
+                            Mavericks
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-19 sf-depth-3 sf-no-children" id="menu-1422-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Nets" href="/topics/nets" style="float: none; width: auto;">
+                            Nets
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-20 sf-depth-3 sf-no-children" id="menu-1428-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Nuggets" href="/topics/nuggets" style="float: none; width: auto;">
+                            Nuggets
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-21 sf-depth-3 sf-no-children" id="menu-1431-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Pacers" href="/topics/pacers" style="float: none; width: auto;">
+                            Pacers
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-22 sf-depth-3 sf-no-children" id="menu-1437-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Pistons" href="/topics/pistons" style="float: none; width: auto;">
+                            Pistons
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-23 sf-depth-3 sf-no-children" id="menu-1420-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Raptors" href="/topics/raptors" style="float: none; width: auto;">
+                            Raptors
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-24 sf-depth-3 sf-no-children" id="menu-1429-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Rockets" href="/topics/rockets" style="float: none; width: auto;">
+                            Rockets
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-25 sf-depth-3 sf-no-children" id="menu-1411-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Spurs" href="/topics/spurs" style="float: none; width: auto;">
+                            Spurs
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-26 sf-depth-3 sf-no-children" id="menu-1410-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Suns" href="/topics/suns" style="float: none; width: auto;">
+                            Suns
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-27 sf-depth-3 sf-no-children" id="menu-1432-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Thunder" href="/topics/thunder" style="float: none; width: auto;">
+                            Thunder
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-28 sf-depth-3 sf-no-children" id="menu-1424-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Timberwolves" href="/topics/timberwolves" style="float: none; width: auto;">
+                            Timberwolves
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-29 sf-depth-3 sf-no-children" id="menu-1436-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Warriors" href="/topics/warriors" style="float: none; width: auto;">
+                            Warriors
+                          </a>
+                        </li>
+                        <li class="last even sf-item-30 sf-depth-3 sf-no-children" id="menu-1423-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Wizards" href="/topics/wizards" style="float: none; width: auto;">
+                            Wizards
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle odd sf-item-3 sf-depth-2 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent" id="menu-1456-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Boxing/MMA" href="/topics/boxingmma" style="float: none; width: auto;">
+                        Boxing/MMA
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="first odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1458-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Floyd Mayweather Jr." href="/topics/floyd-mayweather-jr" style="float: none; width: auto;">
+                            Floyd Mayweather Jr.
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-2 sf-depth-3 sf-no-children" id="menu-1459-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Manny Pacquiao" href="/topics/manny-pacquiao" style="float: none; width: auto;">
+                            Manny Pacquiao
+                          </a>
+                        </li>
+                        <li class="last odd sf-item-3 sf-depth-3 sf-no-children" id="menu-1460-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Mike Tyson" href="/topics/mike-tyson" style="float: none; width: auto;">
+                            Mike Tyson
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle even sf-item-4 sf-depth-2 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent" id="menu-1467-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Golf" href="/topics/golf" style="float: none; width: auto;">
+                        Golf
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="firstandlast odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1468-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Tiger Woods" href="/topics/tiger-woods" style="float: none; width: auto;">
+                            Tiger Woods
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle odd sf-item-5 sf-depth-2 sf-total-children-14 sf-parent-children-0 sf-single-children-14 menuparent" id="menu-1439-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="MLB" href="/topics/mlb" style="float: none; width: auto;">
+                        MLB
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="first odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1451-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Astros" href="/topics/astros" style="float: none; width: auto;">
+                            Astros
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-2 sf-depth-3 sf-no-children" id="menu-1447-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Athletics" href="/topics/athletics" style="float: none; width: auto;">
+                            Athletics
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-3 sf-depth-3 sf-no-children" id="menu-1453-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Cardinals" href="/topics/cardinals-0" style="float: none; width: auto;">
+                            Cardinals
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-4 sf-depth-3 sf-no-children" id="menu-1452-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Cubs" href="/topics/cubs" style="float: none; width: auto;">
+                            Cubs
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-5 sf-depth-3 sf-no-children" id="menu-1444-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Dbacks" href="/topics/dbacks-0" style="float: none; width: auto;">
+                            Dbacks
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-6 sf-depth-3 sf-no-children" id="menu-1443-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Dodgers" href="/topics/dodgers" style="float: none; width: auto;">
+                            Dodgers
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-7 sf-depth-3 sf-no-children" id="menu-1450-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Mets" href="/topics/mets" style="float: none; width: auto;">
+                            Mets
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-8 sf-depth-3 sf-no-children" id="menu-1454-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Nationals" href="/topics/nationals" style="float: none; width: auto;">
+                            Nationals
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-9 sf-depth-3 sf-no-children" id="menu-1449-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Phillies" href="/topics/phillies" style="float: none; width: auto;">
+                            Phillies
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-10 sf-depth-3 sf-no-children" id="menu-1446-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Rangers" href="/topics/rangers" style="float: none; width: auto;">
+                            Rangers
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-11 sf-depth-3 sf-no-children" id="menu-1442-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Rays" href="/topics/rays" style="float: none; width: auto;">
+                            Rays
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-12 sf-depth-3 sf-no-children" id="menu-1448-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Reds" href="/topics/reds" style="float: none; width: auto;">
+                            Reds
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-13 sf-depth-3 sf-no-children" id="menu-1441-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Tigers" href="/topics/tigers" style="float: none; width: auto;">
+                            Tigers
+                          </a>
+                        </li>
+                        <li class="last even sf-item-14 sf-depth-3 sf-no-children" id="menu-1440-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Yankees" href="/topics/yankees" style="float: none; width: auto;">
+                            Yankees
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle even sf-item-6 sf-depth-2 sf-no-children" id="menu-1466-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="NASCAR/Racing" href="/topics/nascarracing-0" style="float: none; width: auto;">
+                        NASCAR/Racing
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-7 sf-depth-2 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent" id="menu-1477-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="NCAA Basketball" href="/topics/ncaa-basketball" style="float: none; width: auto;">
+                        NCAA Basketball
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="first odd sf-item-1 sf-depth-3 sf-no-children" id="menu-4704-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Duke Blue Devils" href="/topics/duke-blue-devils-1" style="float: none; width: auto;">
+                            Duke Blue Devils
+                          </a>
+                        </li>
+                        <li class="last even sf-item-2 sf-depth-3 sf-no-children" id="menu-4707-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Kentucky Wildcats" href="/topics/kentucky-wildcats-0" style="float: none; width: auto;">
+                            Kentucky Wildcats
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle even sf-item-8 sf-depth-2 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent" id="menu-1469-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="NCAA Football" href="/topics/ncaa-football" style="float: none; width: auto;">
+                        NCAA Football
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="first odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1470-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="ACC" href="/topics/acc" style="float: none; width: auto;">
+                            ACC
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-2 sf-depth-3 sf-no-children" id="menu-1474-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Big 12" href="/topics/big-12" style="float: none; width: auto;">
+                            Big 12
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-3 sf-depth-3 sf-no-children" id="menu-1473-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Big Ten" href="/topics/big-ten-0" style="float: none; width: auto;">
+                            Big Ten
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-4 sf-depth-3 sf-no-children" id="menu-1471-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Big East" href="/topics/big-east" style="float: none; width: auto;">
+                            Big East
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-5 sf-depth-3 sf-no-children" id="menu-1475-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Pac 12" href="/topics/pac-12" style="float: none; width: auto;">
+                            Pac 12
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-6 sf-depth-3 sf-no-children" id="menu-1476-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="SEC" href="/topics/sec" style="float: none; width: auto;">
+                            SEC
+                          </a>
+                        </li>
+                        <li class="last odd sf-item-7 sf-depth-3 sf-no-children" id="menu-4609-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Nebraska Cornhuskers" href="/i/sports/ncaa-football/nebraska-cornhuskers" style="float: none; width: auto;">
+                            Nebraska Cornhuskers
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle odd sf-item-9 sf-depth-2 sf-no-children" id="menu-1455-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="NHL" href="/topics/nhl" style="float: none; width: auto;">
+                        NHL
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-10 sf-depth-2 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent" id="menu-1375-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Soccer" href="/topics/soccer" style="float: none; width: auto;">
+                        Soccer
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="firstandlast odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1479-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="World Cup" href="/topics/world-cup" style="float: none; width: auto;">
+                            World Cup
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle odd sf-item-11 sf-depth-2 sf-no-children" id="menu-1482-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Fantasy MLB" href="/topics/fantasy-mlb" style="float: none; width: auto;">
+                        Fantasy MLB
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-12 sf-depth-2 sf-no-children" id="menu-1481-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Fantasy NBA" href="/topics/fantasy-nba" style="float: none; width: auto;">
+                        Fantasy NBA
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-13 sf-depth-2 sf-no-children" id="menu-1480-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Fantasy NFL" href="/topics/fantasy-nfl" style="float: none; width: auto;">
+                        Fantasy NFL
+                      </a>
+                    </li>
+                    <li class="last even sf-item-14 sf-depth-2 sf-no-children" id="menu-1478-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Other Sports" href="/topics/other-sports" style="float: none; width: auto;">
+                        Other Sports
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="middle even sf-item-4 sf-depth-1 sf-total-children-17 sf-parent-children-4 sf-single-children-13 menuparent" id="menu-498-1">
+                  <a class="sf-depth-1 menuparent" title="Health" href="/topics/health">
+                    Health
+                  </a>
+                  <ul style="float: none; width: 12em;" class="sf-hidden">
+                    <li class="first odd sf-item-1 sf-depth-2 sf-no-children" id="menu-1303-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Addiction" href="/topics/addiction-0" style="float: none; width: auto;">
+                        Addiction
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-2 sf-depth-2 sf-no-children" id="menu-1310-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Alternative Medicine" href="/topics/alternative-medicine" style="float: none; width: auto;">
+                        Alternative Medicine
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-3 sf-depth-2 sf-no-children" id="menu-1300-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Autism" href="/topics/autism" style="float: none; width: auto;">
+                        Autism
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-4 sf-depth-2 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent" id="menu-1294-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Conditions" href="/topics/conditions" style="float: none; width: auto;">
+                        Conditions
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="first odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1360-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Cancer" href="/topics/cancer-0" style="float: none; width: auto;">
+                            Cancer
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-2 sf-depth-3 sf-no-children" id="menu-1190-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Breast Cancer" href="/topics/breast-cancer" style="float: none; width: auto;">
+                            Breast Cancer
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-3 sf-depth-3 sf-no-children" id="menu-1191-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Lymphoma" href="/topics/lymphoma" style="float: none; width: auto;">
+                            Lymphoma
+                          </a>
+                        </li>
+                        <li class="last even sf-item-4 sf-depth-3 sf-no-children" id="menu-1361-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="HIV/AIDS" href="/topics/hivaids-0" style="float: none; width: auto;">
+                            HIV/AIDS
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle odd sf-item-5 sf-depth-2 sf-no-children" id="menu-1301-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Diabetes" href="/topics/diabetes" style="float: none; width: auto;">
+                        Diabetes
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-6 sf-depth-2 sf-no-children" id="menu-1305-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Fitness" href="/topics/fitness" style="float: none; width: auto;">
+                        Fitness
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-7 sf-depth-2 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent" id="menu-1292-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Food and Nutrition" href="/topics/food-and-nutrition" style="float: none; width: auto;">
+                        Food and Nutrition
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="first odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1357-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Dieting" href="/topics/dieting" style="float: none; width: auto;">
+                            Dieting
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-2 sf-depth-3 sf-no-children" id="menu-1358-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Food Allergies" href="/topics/food-allergies" style="float: none; width: auto;">
+                            Food Allergies
+                          </a>
+                        </li>
+                        <li class="last odd sf-item-3 sf-depth-3 sf-no-children" id="menu-1356-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Vegetarian" href="/topics/vegetarian" style="float: none; width: auto;">
+                            Vegetarian
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle even sf-item-8 sf-depth-2 sf-no-children" id="menu-1295-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Health Care" href="/topics/health-care" style="float: none; width: auto;">
+                        Health Care
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-9 sf-depth-2 sf-no-children" id="menu-1309-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Homeopathy" href="/topics/homeopathy" style="float: none; width: auto;">
+                        Homeopathy
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-10 sf-depth-2 sf-no-children" id="menu-1306-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Medical Treatments" href="/topics/medical-treatments" style="float: none; width: auto;">
+                        Medical Treatments
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-11 sf-depth-2 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent" id="menu-1308-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Mental Health" href="/topics/mental-health" style="float: none; width: auto;">
+                        Mental Health
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="first odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1352-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Anxiety" href="/topics/anxiety" style="float: none; width: auto;">
+                            Anxiety
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-2 sf-depth-3 sf-no-children" id="menu-1355-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Eating Disorders" href="/topics/eating-disorders" style="float: none; width: auto;">
+                            Eating Disorders
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-3 sf-depth-3 sf-no-children" id="menu-1354-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="OCD" href="/topics/ocd" style="float: none; width: auto;">
+                            OCD
+                          </a>
+                        </li>
+                        <li class="last even sf-item-4 sf-depth-3 sf-no-children" id="menu-1353-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Schizophrenia" href="/topics/schizophrenia" style="float: none; width: auto;">
+                            Schizophrenia
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle even sf-item-12 sf-depth-2 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent" id="menu-1293-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Parenting" href="/topics/parenting" style="float: none; width: auto;">
+                        Parenting
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="first odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1359-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Breastfeeding" href="/topics/breastfeeding-0" style="float: none; width: auto;">
+                            Breastfeeding
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-2 sf-depth-3 sf-no-children" id="menu-1297-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Discipline" href="/topics/discipline" style="float: none; width: auto;">
+                            Discipline
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-3 sf-depth-3 sf-no-children" id="menu-1299-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="New Moms" href="/topics/new-moms" style="float: none; width: auto;">
+                            New Moms
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-4 sf-depth-3 sf-no-children" id="menu-1296-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Special Needs" href="/topics/special-needs" style="float: none; width: auto;">
+                            Special Needs
+                          </a>
+                        </li>
+                        <li class="last odd sf-item-5 sf-depth-3 sf-no-children" id="menu-1298-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Teens" href="/topics/teens" style="float: none; width: auto;">
+                            Teens
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle odd sf-item-13 sf-depth-2 sf-no-children" id="menu-1302-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Weight Loss" href="/topics/weight-loss" style="float: none; width: auto;">
+                        Weight Loss
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-14 sf-depth-2 sf-no-children" id="menu-1291-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Women's Health" href="/topics/womens-health-0" style="float: none; width: auto;">
+                        Women's Health
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-15 sf-depth-2 sf-no-children" id="menu-1304-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Yoga" href="/topics/yoga" style="float: none; width: auto;">
+                        Yoga
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-16 sf-depth-2 sf-no-children" id="menu-1189-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Alcohol Addiction" href="/topics/alcohol-addiction" style="float: none; width: auto;">
+                        Alcohol Addiction
+                      </a>
+                    </li>
+                    <li class="last odd sf-item-17 sf-depth-2 sf-no-children" id="menu-1188-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Drug Addiction" href="/topics/drug-addiction" style="float: none; width: auto;">
+                        Drug Addiction
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="middle odd sf-item-5 sf-depth-1 sf-total-children-3 sf-parent-children-1 sf-single-children-2 menuparent" id="menu-1286-1">
+                  <a class="sf-depth-1 menuparent" title="Religion" href="/topics/religion">
+                    Religion
+                  </a>
+                  <ul style="float: none; width: 12em;" class="sf-hidden">
+                    <li class="first odd sf-item-1 sf-depth-2 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent" id="menu-1362-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Christianity" href="/topics/christianity" style="float: none; width: auto;">
+                        Christianity
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="firstandlast odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1363-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Catholicism" href="/topics/catholicism" style="float: none; width: auto;">
+                            Catholicism
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle even sf-item-2 sf-depth-2 sf-no-children" id="menu-1364-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Islam" href="/topics/islam" style="float: none; width: auto;">
+                        Islam
+                      </a>
+                    </li>
+                    <li class="last odd sf-item-3 sf-depth-2 sf-no-children" id="menu-1365-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Religion in Society" href="/topics/religion-society" style="float: none; width: auto;">
+                        Religion in Society
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="middle even sf-item-6 sf-depth-1 sf-total-children-12 sf-parent-children-3 sf-single-children-9 menuparent" id="menu-1326-1">
+                  <a class="sf-depth-1 menuparent" title="Society" href="/topics/society">
+                    Society
+                  </a>
+                  <ul style="float: none; width: 12em;" class="sf-hidden">
+                    <li class="first odd sf-item-1 sf-depth-2 sf-no-children" id="menu-1337-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Animal Rights" href="/topics/animal-rights" style="float: none; width: auto;">
+                        Animal Rights
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-2 sf-depth-2 sf-no-children" id="menu-1343-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Crime" href="/topics/crime" style="float: none; width: auto;">
+                        Crime
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-3 sf-depth-2 sf-no-children" id="menu-1339-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Drug Law" href="/topics/drug-law" style="float: none; width: auto;">
+                        Drug Law
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-4 sf-depth-2 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent" id="menu-1327-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Education" href="/topics/education" style="float: none; width: auto;">
+                        Education
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="firstandlast odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1328-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Home Schooling" href="/topics/home-schooling" style="float: none; width: auto;">
+                            Home Schooling
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle odd sf-item-5 sf-depth-2 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent" id="menu-1329-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Environment" href="/topics/environment" style="float: none; width: auto;">
+                        Environment
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="first odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1331-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Coal" href="/topics/coal" style="float: none; width: auto;">
+                            Coal
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-2 sf-depth-3 sf-no-children" id="menu-1332-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Energy" href="/topics/energy" style="float: none; width: auto;">
+                            Energy
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-3 sf-depth-3 sf-no-children" id="menu-1330-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Global Warming" href="/topics/global-warming" style="float: none; width: auto;">
+                            Global Warming
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-4 sf-depth-3 sf-no-children" id="menu-1336-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Green Business" href="/topics/green-business" style="float: none; width: auto;">
+                            Green Business
+                          </a>
+                        </li>
+                        <li class="middle odd sf-item-5 sf-depth-3 sf-no-children" id="menu-1333-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Living Green" href="/topics/living-green" style="float: none; width: auto;">
+                            Living Green
+                          </a>
+                        </li>
+                        <li class="middle even sf-item-6 sf-depth-3 sf-no-children" id="menu-1334-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Nuclear Power" href="/topics/nuclear-power" style="float: none; width: auto;">
+                            Nuclear Power
+                          </a>
+                        </li>
+                        <li class="last odd sf-item-7 sf-depth-3 sf-no-children" id="menu-1335-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Oil" href="/topics/oil" style="float: none; width: auto;">
+                            Oil
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="middle even sf-item-6 sf-depth-2 sf-no-children" id="menu-1340-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Gay Issues" href="/topics/gay-issues" style="float: none; width: auto;">
+                        Gay Issues
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-7 sf-depth-2 sf-no-children" id="menu-1338-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Guns" href="/topics/guns" style="float: none; width: auto;">
+                        Guns
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-8 sf-depth-2 sf-no-children" id="menu-1341-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Media" href="/topics/media" style="float: none; width: auto;">
+                        Media
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-9 sf-depth-2 sf-no-children" id="menu-1346-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Race" href="/topics/race" style="float: none; width: auto;">
+                        Race
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-10 sf-depth-2 sf-no-children" id="menu-1349-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Relationships" href="/topics/relationships" style="float: none; width: auto;">
+                        Relationships
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-11 sf-depth-2 sf-no-children" id="menu-1350-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Science" href="/topics/science" style="float: none; width: auto;">
+                        Science
+                      </a>
+                    </li>
+                    <li class="last even sf-item-12 sf-depth-2 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent" id="menu-1347-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2 menuparent" title="Transportation" href="/topics/transportation" style="float: none; width: auto;">
+                        Transportation
+                      </a>
+                      <ul style="left: 12em; float: none; width: 12em;" class="sf-hidden">
+                        <li class="firstandlast odd sf-item-1 sf-depth-3 sf-no-children" id="menu-1348-1" style="white-space: normal; float: left; width: 100%;">
+                          <a class="sf-depth-3" title="Cars" href="/topics/cars" style="float: none; width: auto;">
+                            Cars
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="middle odd sf-item-7 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent" id="menu-1289-1">
+                  <a class="sf-depth-1 menuparent" title="Tech" href="/topics/tech">
+                    Tech
+                  </a>
+                  <ul style="float: none; width: 12em;" class="sf-hidden">
+                    <li class="first odd sf-item-1 sf-depth-2 sf-no-children" id="menu-1493-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Gadgets" href="/topics/gadgets" style="float: none; width: auto;">
+                        Gadgets
+                      </a>
+                    </li>
+                    <li class="last even sf-item-2 sf-depth-2 sf-no-children" id="menu-1492-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Internet" href="/topics/internet" style="float: none; width: auto;">
+                        Internet
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="middle even sf-item-8 sf-depth-1 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent" id="menu-1287-1">
+                  <a class="sf-depth-1 menuparent" title="Money" href="/topics/money">
+                    Money
+                  </a>
+                  <ul style="float: none; width: 12em;" class="sf-hidden">
+                    <li class="first odd sf-item-1 sf-depth-2 sf-no-children" id="menu-1370-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Bankruptcy" href="/topics/bankruptcy" style="float: none; width: auto;">
+                        Bankruptcy
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-2 sf-depth-2 sf-no-children" id="menu-1368-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Investing" href="/topics/investing" style="float: none; width: auto;">
+                        Investing
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-3 sf-depth-2 sf-no-children" id="menu-1374-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Jobs and Careers" href="/topics/jobs-and-careers" style="float: none; width: auto;">
+                        Jobs and Careers
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-4 sf-depth-2 sf-no-children" id="menu-1367-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Personal Finance" href="/topics/personal-finance" style="float: none; width: auto;">
+                        Personal Finance
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-5 sf-depth-2 sf-no-children" id="menu-1373-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Real Estate" href="/topics/real-estate-0" style="float: none; width: auto;">
+                        Real Estate
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-6 sf-depth-2 sf-no-children" id="menu-1369-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="Retirement" href="/topics/retirement" style="float: none; width: auto;">
+                        Retirement
+                      </a>
+                    </li>
+                    <li class="last odd sf-item-7 sf-depth-2 sf-no-children" id="menu-1371-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="The Recession" href="/topics/recession" style="float: none; width: auto;">
+                        The Recession
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="middle odd sf-item-9 sf-depth-1 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent" id="menu-15982-1">
+                  <a class="sf-depth-1 menuparent" href="http://people.opposingviews.com">
+                    People
+                  </a>
+                  <ul style="float: none; width: 12em;" class="sf-hidden">
+                    <li class="first odd sf-item-1 sf-depth-2 sf-no-children" id="menu-15983-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="" href="http://people.opposingviews.com/charities-organizations/" style="float: none; width: auto;">
+                        Charities &amp; Organizations
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-2 sf-depth-2 sf-no-children" id="menu-15984-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="" href="http://people.opposingviews.com/money/" style="float: none; width: auto;">
+                        Money
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-3 sf-depth-2 sf-no-children" id="menu-15986-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="" href="http://people.opposingviews.com/religions/" style="float: none; width: auto;">
+                        Religions
+                      </a>
+                    </li>
+                    <li class="last even sf-item-4 sf-depth-2 sf-no-children" id="menu-15987-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="" href="http://people.opposingviews.com/rights-customs/" style="float: none; width: auto;">
+                        Rights &amp; Customs
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="middle even sf-item-10 sf-depth-1 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent" id="menu-16187-1">
+                  <a class="sf-depth-1 menuparent" href="http://science.opposingviews.com">
+                    Science
+                  </a>
+                  <ul style="float: none; width: 12em;" class="sf-hidden">
+                    <li class="first odd sf-item-1 sf-depth-2 sf-no-children" id="menu-16188-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="" href="http://science.opposingviews.com/astronomy-earth-science/" style="float: none; width: auto;">
+                        Astronomy &amp; Earth Science
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-2 sf-depth-2 sf-no-children" id="menu-32584-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="" href="http://science.opposingviews.com/climate-weather" style="float: none; width: auto;">
+                        Climate &amp; Weather
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-3 sf-depth-2 sf-no-children" id="menu-16189-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="" href="http://science.opposingviews.com/computers/" style="float: none; width: auto;">
+                        Computers
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-4 sf-depth-2 sf-no-children" id="menu-16190-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="" href="http://science.opposingviews.com/environment-green-living/" style="float: none; width: auto;">
+                        Environment &amp; Green Living
+                      </a>
+                    </li>
+                    <li class="middle odd sf-item-5 sf-depth-2 sf-no-children" id="menu-16521-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="" href="http://science.opposingviews.com/genetics-biotechnology/" style="float: none; width: auto;">
+                        Genetics &amp; Biotechnology
+                      </a>
+                    </li>
+                    <li class="middle even sf-item-6 sf-depth-2 sf-no-children" id="menu-16191-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="" href="http://science.opposingviews.com/internet/" style="float: none; width: auto;">
+                        Internet
+                      </a>
+                    </li>
+                    <li class="last odd sf-item-7 sf-depth-2 sf-no-children" id="menu-16192-1" style="white-space: normal; float: left; width: 100%;">
+                      <a class="sf-depth-2" title="" href="http://science.opposingviews.com/phones-gadgets/" style="float: none; width: auto;">
+                        Phones &amp; Gadgets
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="last odd sf-item-11 sf-depth-1 sf-no-children" id="menu-15719-1">
+                  <a class="sf-depth-1" href="/gallery">
+                    Galleries
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /block -->      </div>
+      <div id="header">
+        <div class="g3">
+          <!-- block -->          <div class="block-wrapper odd">
+            <div class="block block-block " id="block-block-277">
+              <div class="content">
+                <!--/* OpenX JavaScript tag */-->                <!-- /*
+ * The tag in this template has been generated for use on a
+ * non-SSL page. If this tag is to be placed on an SSL page, change the
+ * 'http://ox-d.cloud9-media.net/...'
+ * to
+ * 'https://ox-d.cloud9-media.net/...'
+ */ -->                <script type="text/javascript">
+//<![CDATA[
+
+if (!window.OX_ads) { OX_ads = []; }
+OX_ads.push({ "auid" : "537077055" });
+
+//]]>
+                </script>
+                <script type="text/javascript">
+//<![CDATA[
+
+document.write('&lt;scr'+'ipt src="http://ox-d.cloud9-media.net/mw/1.0/jstag"&gt;&lt;\/scr'+'ipt&gt;');
+
+//]]>
+                </script>
+                <script src="http://ox-d.cloud9-media.net/mw/1.0/jstag">
+                </script>
+                <noscript>
+                  &lt;iframe id="a9bf3e06f9" name="a9bf3e06f9" src="http://ox-d.cloud9-media.net/mw/1.0/afr?auid=537077055&amp;cb=INSERT_RANDOM_NUMBER_HERE" frameborder="0" scrolling="no" width="728" height="90"&gt;&lt;a href="http://ox-d.cloud9-media.net/mw/1.0/rc?cs=a9bf3e06f9&amp;cb=INSERT_RANDOM_NUMBER_HERE" &gt;&lt;img src="http://ox-d.cloud9-media.net/mw/1.0/ai?auid=537077055&amp;cs=a9bf3e06f9&amp;cb=INSERT_RANDOM_NUMBER_HERE" border="0" alt=""&gt;&lt;/a&gt;&lt;/iframe&gt;
+                </noscript>
+              </div>
+            </div>
+          </div>
+          <!-- /block -->        </div>
+        <div class="cf">
+        </div>
+        <div class="g3">
+        </div>
+        <!-- /#header -->        <div class="cf">
+        </div>
+      </div>
+    </header>
+    <div class="cf">
+    </div>
+    <section class="section section-content" id="section-content">
+      <div id="page">
+        <div class="cf">
+        </div>
+        <div class="cf">
+        </div>
+        <div class="g2" id="main">
+          <div id="breadcrumb">
+            <div class="breadcrumb">
+              <a href="/">
+                Home
+              </a>
+               » 
+              <a href="/sponsored/landing-page">
+                Landing Page
+              </a>
+               » us
+            </div>
+          </div>
+          <h1 id="page-title" class="title">
+            Search Results
+          </h1>
+          <div class="g3">
+            <!-- block -->            <div class="block-wrapper odd">
+              <div class="block block-block " id="block-block-272">
+                <div class="content">
+                  <script src="http://w.sharethis.com/button/buttons.js" type="text/javascript">
+                  </script>
+                  <script type="text/javascript">
+//<![CDATA[
+
+stLight.options({publisher: "d02685b0-fdf6-4ba8-a7c2-6920e2fff990", doNotHash: false, nativeCount: true, doNotCopy: false, hashAddressBar: false});
+
+//]]>
+                  </script>
+                  <div id="facebook-twitter-block">
+                    <div class="recommend">
+                      <span displaytext="Facebook Recommend" class="st_fbrec_hcount">
+                      </span>
+                    </div>
+                    <div class="sharebutton">
+                      <span displaytext="Facebook" class="st_facebook_hcount">
+                      </span>
+                    </div>
+                    <div style="width:110px" class="tweet">
+                      <span displaytext="Tweet" class="st_twitter_hcount">
+                      </span>
+                    </div>
+                    <div class="like">
+                      <div data-show-faces="false" data-width="100" data-layout="button_count" data-send="false" data-href="https://www.facebook.com/opposingviews" class="fb-like fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;href=https%3A%2F%2Fwww.facebook.com%2Fopposingviews&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=100">
+                        <span style="vertical-align: top; width: 0px; height: 0px;">
+                          <iframe width="100px" scrolling="no" height="1000px" frameborder="0" name="f25672f89c07722" allowtransparency="true" title="fb:like Facebook Social Plugin" style="border: medium none; visibility: visible;" src="http://www.facebook.com/plugins/like.php?app_id=&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FwTH8U0osOYl.js%3Fversion%3D40%23cb%3Df19e2d60cc534a2%26domain%3Dwww.opposingviews.com%26origin%3Dhttp%253A%252F%252Fwww.opposingviews.com%252Ff1088115b1037d6%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fwww.facebook.com%2Fopposingviews&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=100" class="aipewpddfdevopyqmojj">
+                          </iframe>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /block -->          </div>
+          <div class="g3">
+            <div id="content">
+              <div class="clear-block" id="content-content">
+                <div class="opteama-results">
+                </div>
+                <div class="news-results">
+                  <h4>
+                    Related News
+                  </h4>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/society/crime/international-students-face-criminal-charges-possible-deportation-toy-pellet-guns">
+                      International Students Face Criminal Charges, Possible Deportation for Toy Pellet Guns (Video)
+                    </a>
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/entertainment/movies/4d-movie-theater-coming-us-video">
+                      4D Movie Theater Coming to U.S. (Video)
+                    </a>
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/society/crime/anti-government-freeman-shot-killed-deputies">
+                      Anti-Government ‘Freeman’ Shot, Killed by Deputies
+                    </a>
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/health/cops-escort-diabetic-man-out-movie-theater-bringing-strawberries">
+                      Cops Escort Diabetic Man out of Movie Theater for Bringing in Strawberries
+                    </a>
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/religion/christianity/michelle-obama-evil-human-being-say-christian-radio-hosts-audio">
+                      Michelle Obama 'Is An Evil Human Being' Say Christian Radio Hosts (Audio)
+                    </a>
+                  </div>
+                </div>
+                <div class="site-results">
+                  <h4>
+                    Site Results
+                  </h4>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/health/health-care/dental-care-crisis-america-video">
+                      Dental Care Crisis in America (Video)
+                    </a>
+                  </div>
+                  <div class="description">
+                                  
+          
+  
+  
+      
+              
+                    Has Been Optimized          
+          
+  
+  While health care in the 
+                    <strong>
+                      U.S
+                    </strong>
+                    . makes the news daily, millions of Americans are going without dental care.  
+  Remote Area Medical (RAM) is an international aid group that was created to help people in third-world countries, but RAM makes numerous visits to the 
+                    <strong>
+                      US
+                    </strong>
+                     to provide medical and dental care for Americans (video below).  
+  According to   PBS  , more than 100 million Americans cannot afford dental care, many suffer in pain, some even die.  
+  While poor children ...           
+          
+  
+  
+      
+              
+                                
+          
+  
+  
+      
+              
+                    0          
+          
+  
+
+
+  (Health Care, Medical Treatments, Health, tophealth, Dental Care Crisis in America, health care)     article image            While health care in the 
+                    <strong>
+                      U.S
+                    </strong>
+                    . makes the news daily, millions of Americans are going without dental ...
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/sports/michigan-high-school-forced-tear-down-boys-baseball-bleachers-due-inequality-girls-video">
+                      Michigan High School Forced To Tear Down Boys' Baseball Bleachers Due To Inequality With Girls' (Video)
+                    </a>
+                  </div>
+                  <div class="description">
+                                  
+          
+  
+  
+      
+              
+                    Has Been Optimized          
+          
+  
+  A high school in Michigan is being forced to   tear down bleachers   funded by parents for their boys’ varsity baseball team after the 
+                    <strong>
+                      U.S
+                    </strong>
+                    . Education Department for Civil Rights said that they are nicer than ...  baseball team after the 
+                    <strong>
+                      U.S
+                    </strong>
+                    .   ...
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/society/crime/florida-road-rage-driver-arrested-after-instant-karma-crash-video-goes-viral-video">
+                      Florida Road Rage Driver Arrested After Instant Karma Crash Video Goes Viral (Video)
+                    </a>
+                  </div>
+                  <div class="description">
+                     to YouTube just for her friends at work to watch. She had no idea what a reaction it would garner.    “None of 
+                    <strong>
+                      us
+                    </strong>
+                     are good drivers,” she said. “We all have our problems. Maybe this is his opportunity for growth. Maybe he can use this as a learning tool and not go ...
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/health/teacher-allegedly-forced-resign-after-taking-student-er-and-paying-bill">
+                      Teacher Allegedly Forced To Resign After Taking Student to ER And Paying The Bill
+                    </a>
+                  </div>
+                  <div class="description">
+                     be somebody that would do that for 
+                    <strong>
+                      us
+                    </strong>
+                    ," said parent Ashley Gonzales.  
+  This was not the first time Mitts had covered medical treatment for a student. She had been asked by the school board to not do it again.  
+  Mitts also had multiple infractions on her ...
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/health/womens-health/15000-aborted-and-miscarried-fetuses-incinerated-heat-uk-hospitals">
+                      15,000 Aborted And Miscarried Fetuses Incinerated To Heat UK Hospitals
+                    </a>
+                  </div>
+                  <div class="description">
+                     and their families,” said Chief Inspector of Hospitals Sir Mike Richards. “This breaches our standard on respecting and involving people who use services and I’m keen for 'Dispatches' to share their evidence with 
+                    <strong>
+                      us
+                    </strong>
+                    . We scrutinize information of concern and can ...
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/religion/purity-balls-young-girls-give-their-virginity-their-fathers">
+                      At Purity Balls, Young Girls Give Their Virginity to Their Fathers
+                    </a>
+                  </div>
+                  <div class="description">
+                      
+      
+              
+                    At Purity Balls, Young Girls Give Their Virginity to Their Fathers          
+          
+  
+  
+      
+              
+                    At Purity Balls, Young Girls Give Their Virginity to Their Fathers          
+          
+  
+  
+      
+              
+                        Purity_featured.jpg              
+          
+  
+  
+      
+              
+                    Has Been Optimized          
+          
+  
+  At first glance they look like weddings: girls in white dresses, the exchanging of a ring, even the traditional father-daughter dance. But closer examination reveals that the girls are all around the age of 12, and the man giving the girl the ring is actually her father.  
+  Welcome to the world of purity balls, a phenomenon that is how held in 48 states.  
+  The purity movement began in the 
+                    <strong>
+                      U.S
+                    </strong>
+                     ...
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/society/animal-rights/cesar-millans-dog-whisperer-books-withdrawn-pets-home">
+                      Cesar Millan's 'The Dog Whisperer' Books Withdrawn by Pets At Home
+                    </a>
+                  </div>
+                  <div class="description">
+                     have been inquiries from as far away as Europe, where Cesar will be on tour after his 
+                    <strong>
+                      US
+                    </strong>
+                     tour ends.”  
+  Pets Advisor contends that, putting aside the controversy over his training techniques, Cesar has “done a lot of good for animal welfare… and in support ...
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/politics/us-security-guards-now-outnumber-high-school-teachers-report-says">
+                      U.S. Security Guards Now Outnumber High School Teachers, Report Says
+                    </a>
+                  </div>
+                  <div class="description">
+                    <strong>
+                      U.S
+                    </strong>
+                    . Security Guards Now Outnumber High School Teachers, Report Says          
+          
+  
+  
+      
+              
+                    
+                    <strong>
+                      U.S
+                    </strong>
+                    . Security Guards Now Outnumber High School Teachers, Report Says          
+          
+  
+  
+      
+              
+                    Politics          
+          
+  
+  
+      
+              
+                        security_featured.png              
+          
+  
+  
+      
+              
+                    Has Been Optimized          
+          
+  
+  The 
+                    <strong>
+                      U.S
+                    </strong>
+                    . now employs more private ...  in security, including guards for residential building and gated communities, since 1979.  
+  There are more than one million security guards in the 
+                    <strong>
+                      U.S
+                    </strong>
+                    ., that’s double the number in 1980.  
+  The total number of guard labor employment, including police officers, ...
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/society/viral-video-shows-two-women-being-brutally-stripped-and-beaten-broad-daylight-video">
+                      Viral Video Shows Two Women Being Brutally Stripped And Beaten In Broad Daylight (Video)
+                    </a>
+                  </div>
+                  <div class="description">
+                     They didn't care if they killed 
+                    <strong>
+                      us
+                    </strong>
+                    , the way they were stomping my sister in the head. They didn't care what happened after that."        Authorities say that the group of women stole the sisters’ purses, wallets, and cellphones. The value of those items ...
+                  </div>
+                  <div class="title">
+                    <a href="http://www.opposingviews.com/i/health/health-care/fox-news-andrew-napolitano-claims-obamacare-includes-euthanasia-video">
+                      Fox News' Andrew Napolitano Claims Obamacare Includes Euthanasia (Video)
+                    </a>
+                  </div>
+                  <div class="description">
+                     analyst Judge Andrew Napolitano claimed last night on "The Kelly File" that “abortion and euthanasia” are part of the contraception mandate under the Affordable Care Act.  
+  Napolitano was speaking about a case before the 
+                    <strong>
+                      U.S
+                    </strong>
+                    . Supreme court today ...  and euthanasia” are part of the contraception mandate under the Affordable Care Act. Napolitano was speaking about a case before the 
+                    <strong>
+                      U.S
+                    </strong>
+                    .   ...
+                  </div>
+                </div>
+              </div>
+              <!-- /content-content -->            </div>
+            <!--#content -->          </div>
+        </div>
+        <!-- /#main -->        <aside class="region region-sidebar-second" id="region-sidebar-second">
+          <div class="g1" id="sidebar2">
+            <!-- block -->            <div class="block-wrapper odd">
+              <div class="block block-block " id="block-block-133">
+                <div class="content">
+                  <script src="http://partner.googleadservices.com/gampad/google_service.js" type="text/javascript">
+                  </script>
+                  <script type="text/javascript">
+//<![CDATA[
+
+GS_googleAddAdSenseService("ca-pub-0641889738199065");
+GS_googleEnableAllServices();
+
+//]]>
+                  </script>
+                  <script type="text/javascript">
+//<![CDATA[
+
+GA_googleAddSlot("ca-pub-0641889738199065", "OV_300x250");
+
+//]]>
+                  </script>
+                  <script type="text/javascript">
+//<![CDATA[
+
+GA_googleFetchAds();
+
+//]]>
+                  </script>
+                  <!-- OV_300x250 -->                  <script type="text/javascript">
+//<![CDATA[
+
+GA_googleFillSlot("OV_300x250");
+
+//]]>
+                  </script>
+                </div>
+              </div>
+            </div>
+            <!-- /block -->            <!-- block -->            <div class="block-wrapper even">
+              <div class="block block-views " id="block-views-most_liked-block_1">
+                <h2 class="title">
+                  Most
+                  <span class="orange">
+                    Popular
+                  </span>
+                </h2>
+                <div class="content">
+                  <div class="view view-most-liked view-id-most_liked view-display-id-block_1">
+                    <div class="view-content">
+                      <div class="views-row views-row-1 views-row-odd views-row-first">
+                        <div class="views-field views-field-field-featured-image-fid">
+                          <span class="field-content">
+                            <a class="imagecache imagecache-125x100 imagecache-linked imagecache-125x100_linked" href="/i/religion/christian-school-kicks-out-8-year-old-girl-not-being-feminine-enough">
+                              <img width="125" height="100" class="imagecache imagecache-125x100" title="" alt="" src="http://img.opposingviews.com/sites/default/files/imagecache/125x100/featured_image/032514/sunnie_featured.jpg"/>
+                            </a>
+                          </span>
+                        </div>
+                        <div class="views-field views-field-field-customtitle-value">
+                          <span class="field-content">
+                            <a href="/i/religion/christian-school-kicks-out-8-year-old-girl-not-being-feminine-enough">
+                              Christian School Kicks Out 8-Year-Old Girl For Not Being Feminine Enough
+                            </a>
+                          </span>
+                        </div>
+                        <div class="views-field views-field-nid">
+                          <span class="field-content">
+                            <iframe width="150" scrolling="no" height="20" frameborder="0" src="http://www.facebook.com/widgets/like.php?href=http://www.opposingviews.com/i/religion/christian-school-kicks-out-8-year-old-girl-not-being-feminine-enough&amp;send=false&amp;layout=button_count&amp;action=recommend&amp;" class="aipewpddfdevopyqmojj">
+                            </iframe>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="views-row views-row-2 views-row-even">
+                        <div class="views-field views-field-field-featured-image-fid">
+                          <span class="field-content">
+                            <a class="imagecache imagecache-125x100 imagecache-linked imagecache-125x100_linked" href="/i/religion/purity-balls-young-girls-give-their-virginity-their-fathers">
+                              <img width="125" height="100" class="imagecache imagecache-125x100" title="" alt="" src="http://img.opposingviews.com/sites/default/files/imagecache/125x100/featured_image/032114/Purity_featured.jpg"/>
+                            </a>
+                          </span>
+                        </div>
+                        <div class="views-field views-field-field-customtitle-value">
+                          <span class="field-content">
+                            <a href="/i/religion/purity-balls-young-girls-give-their-virginity-their-fathers">
+                              At Purity Balls, Young Girls Give Their Virginity to Their Fathers
+                            </a>
+                          </span>
+                        </div>
+                        <div class="views-field views-field-nid">
+                          <span class="field-content">
+                            <iframe width="150" scrolling="no" height="20" frameborder="0" src="http://www.facebook.com/widgets/like.php?href=http://www.opposingviews.com/i/religion/purity-balls-young-girls-give-their-virginity-their-fathers&amp;send=false&amp;layout=button_count&amp;action=recommend&amp;" class="aipewpddfdevopyqmojj">
+                            </iframe>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="views-row views-row-3 views-row-odd">
+                        <div class="views-field views-field-field-featured-image-fid">
+                          <span class="field-content">
+                            <a class="imagecache imagecache-125x100 imagecache-linked imagecache-125x100_linked" href="/i/society/school-district-apologizes-after-only-black-students-invited-trip">
+                              <img width="125" height="100" class="imagecache imagecache-125x100" title="" alt="article image" src="http://img.opposingviews.com/sites/default/files/imagecache/125x100/featured_image/032914/bus.jpg"/>
+                            </a>
+                          </span>
+                        </div>
+                        <div class="views-field views-field-field-customtitle-value">
+                          <span class="field-content">
+                            <a href="/i/society/school-district-apologizes-after-only-black-students-invited-trip">
+                              District Apologizes After Only Black Students Invited On Trip
+                            </a>
+                          </span>
+                        </div>
+                        <div class="views-field views-field-nid">
+                          <span class="field-content">
+                            <iframe width="150" scrolling="no" height="20" frameborder="0" src="http://www.facebook.com/widgets/like.php?href=http://www.opposingviews.com/i/society/school-district-apologizes-after-only-black-students-invited-trip&amp;send=false&amp;layout=button_count&amp;action=recommend&amp;" class="aipewpddfdevopyqmojj">
+                            </iframe>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="views-row views-row-4 views-row-even">
+                        <div class="views-field views-field-field-featured-image-fid">
+                          <span class="field-content">
+                            <a class="imagecache imagecache-125x100 imagecache-linked imagecache-125x100_linked" href="/i/society/crime/florida-road-rage-driver-arrested-after-instant-karma-crash-video-goes-viral-video">
+                              <img width="125" height="100" class="imagecache imagecache-125x100" title="" alt="" src="http://img.opposingviews.com/sites/default/files/imagecache/125x100/featured_image/033014/roadrage_featured.jpg"/>
+                            </a>
+                          </span>
+                        </div>
+                        <div class="views-field views-field-field-customtitle-value">
+                          <span class="field-content">
+                            <a href="/i/society/crime/florida-road-rage-driver-arrested-after-instant-karma-crash-video-goes-viral-video">
+                              Florida Road Rage Driver Arrested After Instant Karma Crash Video Goes Viral (Video)
+                            </a>
+                          </span>
+                        </div>
+                        <div class="views-field views-field-nid">
+                          <span class="field-content">
+                            <iframe width="150" scrolling="no" height="20" frameborder="0" src="http://www.facebook.com/widgets/like.php?href=http://www.opposingviews.com/i/society/crime/florida-road-rage-driver-arrested-after-instant-karma-crash-video-goes-viral-video&amp;send=false&amp;layout=button_count&amp;action=recommend&amp;" class="aipewpddfdevopyqmojj">
+                            </iframe>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="views-row views-row-5 views-row-odd views-row-last">
+                        <div class="views-field views-field-field-featured-image-fid">
+                          <span class="field-content">
+                            <a class="imagecache imagecache-125x100 imagecache-linked imagecache-125x100_linked" href="/i/society/crime/uva-student-files-40-million-suit-against-abc-agents-and-state-traumatic-sparkling">
+                              <img width="125" height="100" class="imagecache imagecache-125x100" title="" alt="article image" src="http://img.opposingviews.com/sites/default/files/imagecache/125x100/featured_image/032914/water.jpg"/>
+                            </a>
+                          </span>
+                        </div>
+                        <div class="views-field views-field-field-customtitle-value">
+                          <span class="field-content">
+                            <a href="/i/society/crime/uva-student-files-40-million-suit-against-abc-agents-and-state-traumatic-sparkling">
+                              UVA Student Files $40 Million Suit Against ABC Agents and State For Traumatic Sparkling Water Episode
+                            </a>
+                          </span>
+                        </div>
+                        <div class="views-field views-field-nid">
+                          <span class="field-content">
+                            <iframe width="150" scrolling="no" height="20" frameborder="0" src="http://www.facebook.com/widgets/like.php?href=http://www.opposingviews.com/i/society/crime/uva-student-files-40-million-suit-against-abc-agents-and-state-traumatic-sparkling&amp;send=false&amp;layout=button_count&amp;action=recommend&amp;" class="aipewpddfdevopyqmojj">
+                            </iframe>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /block -->            <!-- block -->            <div class="block-wrapper odd">
+              <div class="block block-block " id="block-block-192">
+                <div class="content">
+                  <script language="javascript" id="mNCC">
+//<![CDATA[
+  medianet_width='300';  medianet_height= '250';  medianet_crid='286761630';  
+//]]>
+                  </script>
+                  <script language="javascript" src="http://contextual.media.net/nmedianet.js?cid=8CUMIGDVW" id="mNSC">
+                  </script>
+                </div>
+              </div>
+            </div>
+            <!-- /block -->            <!-- block -->            <div class="block-wrapper even">
+              <div class="block block-block " id="block-block-12">
+                <h2 class="title">
+                  OV Social
+                </h2>
+                <div class="content">
+                  <div id="social-right">
+                    <div class="social-icon">
+                      <div class="social-text">
+                        like
+                        <span class="orange">
+                          us
+                        </span>
+                      </div>
+                      <a href="http://www.facebook.com/opposingviews">
+                        <img width="37" height="36" alt="fbook icon" src="http://img.opposingviews.com/sites/all/themes/smokers/images/icon-fbook-right.png"/>
+                      </a>
+                    </div>
+                    <div class="social-icon">
+                      <div class="social-text">
+                        follow
+                        <span class="orange">
+                          us
+                        </span>
+                      </div>
+                      <a href="http://twitter.com/opposingviews">
+                        <img width="37" height="36" alt="twitter icon" src="http://img.opposingviews.com/sites/all/themes/smokers/images/icon-twitter-right.png" class="aipewpddfdevopyqmojj"/>
+                      </a>
+                    </div>
+                    <div class="social-icon">
+                      <div class="social-text">
+                        read
+                        <span class="orange">
+                          us
+                        </span>
+                      </div>
+                      <a href="http://feeds.feedburner.com/opposingviews/main">
+                        <img width="37" height="36" alt="rss icon" src="http://img.opposingviews.com/sites/all/themes/smokers/images/icon-rss-right.png" class="aipewpddfdevopyqmojj"/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /block -->            <!-- block -->            <div class="block-wrapper odd">
+              <div class="block block-block " id="block-block-125">
+                <div class="content">
+                  <div data-client="65" id="nmWidgetContainer">
+                    <script src="http://cdn.nmcdn.us/js/connectV2.js" async="">
+                    </script>
+                  </div>
+                  <script type="text/javascript">
+//<![CDATA[
+(function () {var e = document.createElement('script'); e.src = 'http://cdn.nmcdn.us/js/connectV2.js';e.async = true;document.getElementById('nmWidgetContainer').appendChild(e);}());window.NMClientInit = function() { NM.init({ClientID: 65});}
+//]]>
+                  </script>
+                </div>
+              </div>
+            </div>
+            <!-- /block -->            <!-- block -->            <div class="block-wrapper even">
+              <div class="block block-block " id="block-block-199">
+                <div class="content">
+                  <!--/* OpenX JavaScript tag */-->                  <!-- /*
+ * The tag in this template has been generated for use on a
+ * non-SSL page. If this tag is to be placed on an SSL page, change the
+ * 'http://ox-d.cloud9-media.net/...'
+ * to
+ * 'https://ox-d.cloud9-media.net/...'
+ */ -->                  <script type="text/javascript">
+//<![CDATA[
+
+if (!window.OX_ads) { OX_ads = []; }
+OX_ads.push({ "auid" : "433946" });
+
+//]]>
+                  </script>
+                  <script type="text/javascript">
+//<![CDATA[
+
+document.write('&lt;scr'+'ipt src="http://ox-d.cloud9-media.net/w/1.0/jstag"&gt;&lt;\/scr'+'ipt&gt;');
+
+//]]>
+                  </script>
+                  <script src="http://ox-d.cloud9-media.net/w/1.0/jstag">
+                  </script>
+                  <noscript>
+                    &lt;iframe id="d4e55b5643" name="d4e55b5643" src="http://ox-d.cloud9-media.net/w/1.0/afr?auid=433946&amp;cb=INSERT_RANDOM_NUMBER_HERE" frameborder="0" scrolling="no" width="300" height="250"&gt;&lt;a href="http://ox-d.cloud9-media.net/w/1.0/rc?cs=d4e55b5643&amp;cb=INSERT_RANDOM_NUMBER_HERE" &gt;&lt;img src="http://ox-d.cloud9-media.net/w/1.0/ai?auid=433946&amp;cs=d4e55b5643&amp;cb=INSERT_RANDOM_NUMBER_HERE" border="0" alt=""&gt;&lt;/a&gt;&lt;/iframe&gt;
+                  </noscript>
+                </div>
+              </div>
+            </div>
+            <!-- /block -->            <!-- block -->            <div class="block-wrapper odd">
+              <div class="block block-views " id="block-views-top_galleries_view-block_1">
+                <h2 class="title">
+                  Top
+                  <span class="orange">
+                    Galleries
+                  </span>
+                </h2>
+                <div class="content">
+                  <div class="view view-top-galleries-view view-id-top_galleries_view view-display-id-block_1">
+                    <div class="view-content">
+                      <table class="views-view-grid col-2">
+                        <tbody>
+                          <tr class="row-1 row-first">
+                            <td class="col-1 col-first">
+                              <div class="views-field views-field-field-node-gallery-image-fid">
+                                <span class="field-content">
+                                  <a title="View [title]" href="/i/gallery/society/you-won-t-believe-where-trail-leads?=rt">
+                                    <img width="140" height="90" class="imagecache imagecache-140x90 imagecache-default imagecache-140x90_default" title="" alt="" src="http://img.opposingviews.com/sites/default/files/imagecache/140x90/gallery/032914/1.jpg"/>
+                                  </a>
+                                </span>
+                              </div>
+                              <div class="views-field views-field-title">
+                                <span class="field-content">
+                                  <a title="View You Won’t Believe Where This Trail Leads " href="/i/gallery/society/you-won-t-believe-where-trail-leads?=rt">
+                                    You Won’t Believe Where This Trail Leads 
+                                  </a>
+                                </span>
+                              </div>
+                            </td>
+                            <td class="col-2 col-last">
+                              <div class="views-field views-field-field-node-gallery-image-fid">
+                                <span class="field-content">
+                                  <a title="View [title]" href="/i/gallery/entertainment/25-creative-ways-transport?=rt">
+                                    <img width="140" height="90" class="imagecache imagecache-140x90 imagecache-default imagecache-140x90_default" title="" alt="" src="http://img.opposingviews.com/sites/default/files/imagecache/140x90/gallery/032814/1_3.jpg"/>
+                                  </a>
+                                </span>
+                              </div>
+                              <div class="views-field views-field-title">
+                                <span class="field-content">
+                                  <a title="View 25 Creative Ways To Transport" href="/i/gallery/entertainment/25-creative-ways-transport?=rt">
+                                    25 Creative Ways To Transport
+                                  </a>
+                                </span>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr class="row-2 row-last">
+                            <td class="col-1 col-first">
+                              <div class="views-field views-field-field-node-gallery-image-fid">
+                                <span class="field-content">
+                                  <a title="View [title]" href="/i/gallery/entertainment/25-hilarious-dog-faces?=rt">
+                                    <img width="140" height="90" class="imagecache imagecache-140x90 imagecache-default imagecache-140x90_default" title="" alt="" src="http://img.opposingviews.com/sites/default/files/imagecache/140x90/gallery/032814/1_2.jpg"/>
+                                  </a>
+                                </span>
+                              </div>
+                              <div class="views-field views-field-title">
+                                <span class="field-content">
+                                  <a title="View 25 Hilarious Dog Faces" href="/i/gallery/entertainment/25-hilarious-dog-faces?=rt">
+                                    25 Hilarious Dog Faces
+                                  </a>
+                                </span>
+                              </div>
+                            </td>
+                            <td class="col-2 col-last">
+                              <div class="views-field views-field-field-node-gallery-image-fid">
+                                <span class="field-content">
+                                  <a title="View [title]" href="/i/gallery/entertainment/20-work-safety-fails?=rt">
+                                    <img width="140" height="90" class="imagecache imagecache-140x90 imagecache-default imagecache-140x90_default" title="" alt="" src="http://img.opposingviews.com/sites/default/files/imagecache/140x90/gallery/032814/1_1.jpg"/>
+                                  </a>
+                                </span>
+                              </div>
+                              <div class="views-field views-field-title">
+                                <span class="field-content">
+                                  <a title="View 20 Work Safety Fails" href="/i/gallery/entertainment/20-work-safety-fails?=rt">
+                                    20 Work Safety Fails
+                                  </a>
+                                </span>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /block -->          </div>
+        </aside>
+        <!-- /#region-sidebar-second -->        <div class="cf">
+        </div>
+      </div>
+      <!-- /#page -->    </section>
+    <!-- /section -->    <footer>
+      <div class="g3" id="footer">
+        <!-- block -->        <div class="block-wrapper odd">
+          <div class="block block-block " id="block-block-198">
+            <div class="content">
+              <div class="leaderboard bottom">
+                <!--/* OpenX JavaScript tag */-->                <!-- /*
+ * The tag in this template has been generated for use on a
+ * non-SSL page. If this tag is to be placed on an SSL page, change the
+ * 'http://ox-d.cloud9-media.net/...'
+ * to
+ * 'https://ox-d.cloud9-media.net/...'
+ */ -->                <script type="text/javascript">
+//<![CDATA[
+
+if (!window.OX_ads) { OX_ads = []; }
+OX_ads.push({ "auid" : "433944" });
+
+//]]>
+                </script>
+                <script type="text/javascript">
+//<![CDATA[
+
+document.write('&lt;scr'+'ipt src="http://ox-d.cloud9-media.net/w/1.0/jstag"&gt;&lt;\/scr'+'ipt&gt;');
+
+//]]>
+                </script>
+                <script src="http://ox-d.cloud9-media.net/w/1.0/jstag">
+                </script>
+                <noscript>
+                  &lt;iframe id="02a56a7635" name="02a56a7635" src="http://ox-d.cloud9-media.net/w/1.0/afr?auid=433944&amp;cb=INSERT_RANDOM_NUMBER_HERE" frameborder="0" scrolling="no" width="728" height="90"&gt;&lt;a href="http://ox-d.cloud9-media.net/w/1.0/rc?cs=02a56a7635&amp;cb=INSERT_RANDOM_NUMBER_HERE" &gt;&lt;img src="http://ox-d.cloud9-media.net/w/1.0/ai?auid=433944&amp;cs=02a56a7635&amp;cb=INSERT_RANDOM_NUMBER_HERE" border="0" alt=""&gt;&lt;/a&gt;&lt;/iframe&gt;
+                </noscript>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /block -->        <div id="footer-message">
+          <ul class="links">
+            <li>
+              <a href="http://www.opposingviews.com/civility">
+                Civility 101
+              </a>
+            </li>
+            <li>
+              <a href="http://www.opposingviews.com/faq">
+                FAQ
+              </a>
+            </li>
+            <li>
+              <a href="http://www.opposingviews.com/terms">
+                Terms of use
+              </a>
+            </li>
+            <li>
+              <a href="http://www.opposingviews.com/privacy">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="http://www.opposingviews.com/about">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="http://www.opposingviews.com/contact">
+                Contact
+              </a>
+            </li>
+            <li class="last">
+              <a href="http://deepdive.co/apply.html">
+                Careers
+              </a>
+            </li>
+          </ul>
+          <ul class="links">
+            <li>
+              <strong>
+                News Partners
+              </strong>
+            </li>
+            <li>
+              <a href="http://www.inquisitr.com/">
+                Inquisitr
+              </a>
+            </li>
+            <li>
+              <a href="http://theweek.com">
+                TheWeek.com
+              </a>
+            </li>
+          </ul>
+          <div class="summary">
+            <h2>
+              About
+            </h2>
+            <span class="header-icons">
+              <a href="http://www.facebook.com/opposingviews">
+                <img width="26" height="26" alt="fbook icon" src="http://img.opposingviews.com/sites/all/themes/smokers/images/icon-circular-fbook.png"/>
+              </a>
+              <a href="http://twitter.com/opposingviews">
+                <img width="26" height="26" alt="twitter icon" src="http://img.opposingviews.com/sites/all/themes/smokers/images/icon-circular-twitter.png" class="aipewpddfdevopyqmojj"/>
+              </a>
+              <a href="http://feeds.feedburner.com/opposingviews/main">
+                <img width="26" height="26" alt="rss icon" src="http://img.opposingviews.com/sites/all/themes/smokers/images/icon-circular-rss.png"/>
+              </a>
+            </span>
+            <p>
+              Founded in 2007, OpposingViews.com is an independent media site that publishes original journalism on politics, social issues, religion, sports and entertainment. Our editorial staff presents breaking news, in-depth analysis and cutting-edge content around the clock. Based in Los Angeles, we currently reach 4 million users every month. 
+            </p>
+            <p class="copyright">
+              Entire site copyright 2008-2014, OpposingViews.com
+            </p>
+            <img width="200" alt="ov logo" src="http://img.opposingviews.com/sites/all/themes/smokers/images/logo-footer.png" class="footerlogo"/>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- HTML5 IE Enabling Script -->    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <!-- CSS3 Media Queries -->    <script src="/sites/all/themes/fbg_sub/js/respond.min.js">
+    </script>
+    <!-- Quantcast Tag -->    <script type="text/javascript">
+//<![CDATA[
+
+  var _qevents = _qevents || [];
+
+  (function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+  })();
+
+  _qevents.push({
+    qacct:"p-15e4OSeaAUAF6"
+  });
+
+//]]>
+    </script>
+    <noscript>
+      &lt;div style="display:none;"&gt;
+    &lt;img src="//pixel.quantserve.com/pixel/p-15e4OSeaAUAF6.gif" border="0" height="1" width="1" alt="Quantcast"/&gt;
+  &lt;/div&gt;
+
+    </noscript>
+    <!-- /Quantcast -->    <!-- comscore -->    <script>
+//<![CDATA[
+
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "8097945" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb &lt;https://sb/&gt; " : "http://b &lt;http://b/&gt; ") + ".scorecardresearch.com/beacon.js &lt;http://scorecardresearch.com/beacon.js&gt; ";
+    el.parentNode.insertBefore(s, el);
+  })();
+
+//]]>
+    </script>
+    <noscript>
+      &lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=8097945&amp;cv=2.0&amp;cj=1" /&gt;
+
+    </noscript>
+    <!-- Post Release -->    <script src="http://a.postrelease.com/serve/load.js?async=true" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+    </script>
+    <!-- /post release -->    <!-- ShareThis -->    <script type="text/javascript">
+//<![CDATA[
+var switchTo5x=true;
+//]]>
+    </script>
+    <script src="http://w.sharethis.com/button/buttons.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+	stLight.options({publisher: "bf854cbc-ea2f-4b1e-9424-dba44c7dddd4"});	
+
+//]]>
+    </script>
+    <!-- /ShareThis -->    <script type="text/javascript">
+//<![CDATA[
+
+	if('object' == typeof(OVTitleOptimize)) {
+		console.log("OVTitleOptimize is an object. Subscribe FB Recommend");
+		FB.Event.subscribe('edge.create', OVTitleOptimize.click);
+	}
+
+//]]>
+    </script>
+    <!-- BuzzFeed -->    <script type="text/javascript">
+//<![CDATA[
+
+(function( ){
+BF_WIDGET_JS=document.createElement("script"); BF_WIDGET_JS.type="text/javascript";
+BF_WIDGET_SRC="http://ct.buzzfeed.com/wd/UserWidget?u=opposingviews.com&amp;to=1&amp;or=vb&amp;wid=1&amp;cb=" + (new Date()).getTime();
+setTimeout(function() {document.getElementById("BF_WIDGET_1").appendChild(BF_WIDGET_JS);BF_WIDGET_JS.src=BF_WIDGET_SRC},1);
+})();
+
+//]]>
+    </script>
+    <div id="BF_WIDGET_1">
+       
+      <script type="text/javascript" src="http://ct.buzzfeed.com/wd/UserWidget?u=opposingviews.com&amp;to=1&amp;or=vb&amp;wid=1&amp;cb=1396256336460">
+      </script>
+    </div>
+  </body>
+</html>

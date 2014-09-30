@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="fr" dir="ltr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link href="http://www.voltairenet.org/rubrique0.html" rel="canonical"/>
+    <base href="http://www.voltairenet.org"/>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <title>
+      Chercher [Réseau Voltaire]
+    </title>
+    <meta content="Réseau Voltaire" name="author"/>
+    <meta content="Réseau Voltaire" name="owner"/>
+    <link href="http://www.voltairenet.org" rel="home"/>
+    <link href="http://www.voltairenet.org/spip.php?page=recherche" rel="find"/>
+    <link href="squelettes/elements/images/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script src="local/cache-js/1013ef93c0e5672f7ad5d1f57ffbfefc.js" type="text/javascript">
+    </script>
+    <!-- insert_head -->    <link type="text/css" href="local/cache-css/ba05132a398f04a7aa4c7e51865c08da.css" media="all" rel="stylesheet"/>
+    <link type="text/css" href="local/cache-css/351f457ba9a5c8b44d2216a19997bc82.css" media="screen" rel="stylesheet"/>
+    <link media="print" href="squelettes/voltaire_print.css" type="text/css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Bitter"/>
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=fr" title="Réseau Voltaire (français)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=en" title="Voltaire Network (English)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=es" title="Red Voltaire  (Español)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=it" title="Rete Voltaire (italiano)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=pt" title="Rede Voltaire (Português)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=ar" title="شبكة فولتير  (عربي)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=ru" title="Сеть Вольтер (русский)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=de" title="Voltaire Netzwerk (Deutsch)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=fa" title="شبکه ولتر (فارسى)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=el" title="Δίκτυο Βολταίρος (ελληνικά)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=tr" title="Voltaire Sitesine  (Türkçe)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=hy" title="Ցանց Վոլտեր (Armenian)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=pl" title="Sieć Voltaire (polski)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=ja" title="Japanese (日本語)" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=pl" title="Tchéque (polski)" type="application/rss+xml" rel="alternate"/>
+    <script type="text/javascript">
+//<![CDATA[
+  
+$(document).ready(function(){ 
+$("ul.sf-menu").superfish(); 
+});  
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-23914763-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+//]]>
+    </script>
+  </head>
+  <body>
+    <div id="carte">
+      <div id="page">
+        <header>
+          <div class="noprint" id="header">
+            <div id="logo">
+              <a accesskey="1" href="http://www.voltairenet.org/fr">
+                <img width="250" height="56" border="0" alt="Réseau Voltaire" src="squelettes/elements/images/logo-voltairenet-org.png"/>
+              </a>
+            </div>
+            <div id="baseline">
+              <img width="237" height="42" alt="Réseau Voltaire" style="width:237px;height:42px;" src="local/cache-texte/c73b7240cf6a752579b66cbcb46f3f89.png"/>
+            </div>
+            <div id="langues">
+              <a href="http://www.voltairenet.org/fr">
+                français
+              </a>
+              <a href="http://www.voltairenet.org/en">
+                English
+              </a>
+              <a href="http://www.voltairenet.org/es">
+                Español
+              </a>
+              <a href="http://www.voltairenet.org/it">
+                italiano
+              </a>
+              <a href="http://www.voltairenet.org/pt">
+                Português
+              </a>
+              <a href="http://www.voltairenet.org/ar">
+                عربي
+              </a>
+              <a href="http://www.voltairenet.org/ru">
+                русский
+              </a>
+              <a href="http://www.voltairenet.org/de">
+                Deutsch
+              </a>
+              <a href="http://www.voltairenet.org/fa">
+                فارسى
+              </a>
+              <a href="http://www.voltairenet.org/el">
+                ελληνικά
+              </a>
+              <a href="http://www.voltairenet.org/tr">
+                Türkçe
+              </a>
+              <a href="http://www.voltairenet.org/hy">
+                Armenian
+              </a>
+            </div>
+            <div id="infos_legales">
+              <a href="article1.html">
+                À propos du Réseau
+              </a>
+              <a href="article161046.html">
+                Comment participer ?
+              </a>
+              <a href="http://www.voltairenet.org/spip.php?page=backend&amp;id_secteur=1110&amp;lang=fr">
+                RSS
+              </a>
+            </div>
+            <div id="bloc_recherche_newsletters">
+              <table width="220" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr valign="middle">
+                    <form action="spip.php?page=newsletters" method="get" name="form"/>
+                    <input type="hidden" value="newsletters" name="page"/>
+                    <input type="hidden" value="fr" name="lang"/>
+                    <td width="90">
+                      <input type="text" class="voltaire_formulaire" value=" Courriel
+" onfocus="this.value=''" id="email" name="email" size="20"/>
+                    </td>
+                    <td width="20">
+                      <input type="image" style="padding-top: 2px;" alt="Rechercher" src="squelettes/elements/images/go-ltr.gif"/>
+                    </td>
+                    <form method="get" action="spip.php?page=recherche"/>
+                    <input type="hidden" value="recherche" name="page"/>
+                    <input type="hidden" value="fr" name="lang"/>
+                    <td width="90">
+                      <input type="text" accesskey="4" class="voltaire_formulaire" value=" Chercher" onfocus="this.value=''" id="recherche" name="recherche" size="20"/>
+                    </td>
+                    <td width="20">
+                      <input type="image" style="padding-top: 2px;" alt="S'abonner" src="squelettes/elements/images/go-ltr.gif"/>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <nav>
+              <div id="navigation">
+                <ul class="sf-menu sf-js-enabled sf-shadow">
+                  <li class="current">
+                    <a href="http://www.voltairenet.org/fr">
+                      La Une
+
+                    </a>
+                  </li>
+                  <li class="current">
+                    <a href="javascript:;" class="sf-with-ul">
+                      Rubriques
+                      <span class="sf-sub-indicator">
+                         »
+                      </span>
+                    </a>
+                    <ul style="display: none; visibility: hidden;">
+                      <li>
+                        <a href="rubrique346.html?lang=fr">
+                          Focus
+                        </a>
+                      </li>
+                      <li>
+                        <a href="rubrique1125.html?lang=fr">
+                          En bref
+                        </a>
+                      </li>
+                      <li>
+                        <a href="rubrique579.html?lang=fr">
+                          Controverses
+                        </a>
+                      </li>
+                      <li>
+                        <a href="rubrique445.html?lang=fr">
+                          Fil diplomatique
+                        </a>
+                      </li>
+                      <li>
+                        <a href="rubrique348.html?lang=fr">
+                          Veille documentaire
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="current">
+                    <a href="javascript:;" class="sf-with-ul">
+                      Dossiers
+
+                      <span class="sf-sub-indicator">
+                         »
+                      </span>
+                    </a>
+                    <ul style="display: none; visibility: hidden;">
+                      <li>
+                        <a href="spip.php?page=mot-groupe&amp;id_groupe=13&amp;lang=fr">
+                          Thèmes
+                        </a>
+                      </li>
+                      <li>
+                        <a href="spip.php?page=mot-groupe&amp;id_groupe=19&amp;lang=fr">
+                          Pays
+                        </a>
+                      </li>
+                      <li>
+                        <a href="spip.php?page=mot-groupe&amp;id_groupe=28&amp;lang=fr">
+                          Personnalités
+                        </a>
+                      </li>
+                      <li>
+                        <a href="spip.php?page=mot-groupe&amp;id_groupe=31&amp;lang=fr">
+                          Transnationales
+                        </a>
+                      </li>
+                      <li>
+                        <a href="spip.php?page=mot-groupe&amp;id_groupe=32&amp;lang=fr">
+                          ONG
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="current">
+                    <a href="javascript:;" class="sf-with-ul">
+                      Partenaires
+                      <span class="sf-sub-indicator">
+                         »
+                      </span>
+                    </a>
+                    <ul style="display: none; visibility: hidden;">
+                      <li>
+                        <a href="spip.php?page=auteurs-liste&amp;lang=fr">
+                          Auteurs
+                        </a>
+                      </li>
+                      <li>
+                        <a href="rubrique120648.html?lang=fr">
+                          Horizons et débats
+                        </a>
+                      </li>
+                      <li>
+                        <a href="rubrique120641.html?lang=fr">
+                          New Orient News
+                        </a>
+                      </li>
+                      <li>
+                        <a href="rubrique90009.html?lang=ar">
+                          Syria Alghad
+                        </a>
+                      </li>
+                      <li>
+                        <a href="rubrique121158.html?lang=fr">
+                          Revue de presse Syrie
+                        </a>
+                      </li>
+                      <li>
+                        <a href="rubrique121166.html?lang=en">
+                          Syrian Center for Documentation
+                        </a>
+                      </li>
+                      <li>
+                        <a href="rubrique120587.html?lang=es">
+                          Contralínea
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="current">
+                    <a href="rubrique1.html?lang=fr">
+                      Archives
+                    </a>
+                  </li>
+                  <li class="current">
+                    <a target="_blank" href="http://www.librairie-voltairenet.org/">
+                      Librairie
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div id="logo_lien">
+              <a href="http://www.voltairenet.org/fr">
+                <img width="250" height="35" border="0" alt=" " src="squelettes/elements/images/transpix.gif"/>
+              </a>
+            </div>
+          </div>
+          <div class="print" id="header_print">
+            <div id="logo">
+              <a accesskey="1" href="http://www.voltairenet.org/fr">
+                <img width="250" height="56" border="0" alt="Réseau Voltaire" src="squelettes/elements/images/logo-voltairenet-org.png"/>
+              </a>
+            </div>
+            <div id="baseline">
+              <img width="237" height="42" alt="Réseau Voltaire" style="width:237px;height:42px;" src="local/cache-texte/c73b7240cf6a752579b66cbcb46f3f89.png"/>
+            </div>
+          </div>
+        </header>
+        <div id="content">
+          <!-- CONTENU DE LA PAGE -->          <div class="marge25 fond10">
+            <div style="margin-top: 30px;" class="ligne">
+              <!------------------------------------ COLONNE PRINCIPALE ------------------------------------>              <div class="grille_300_1">
+                <!------------------- BLOC TITRAILLE ------------------>                <div style="text-align: center; margin-top: -3px;">
+                  <div class="titre_serif_1">
+                    Chercher
+                    <div style="color: #ac1111; font-size: 0.8em;">
+                      family
+                    </div>
+                  </div>
+                  <br/>
+                </div>
+                <!------------------- FORMULAIRE ------------------>                <div style="text-align: center;" class="chapo">
+                  <form method="get" action="spip.php?page=recherche">
+                    <input type="hidden" value="recherche" name="page"/>
+                    <input type="hidden" value="fr" name="lang"/>
+                    <input type="text" class="voltaire_formulaire_recherche" value="family" id="recherche" name="recherche" size="20"/>
+                    <input type="submit" value="Chercher" class="submit"/>
+                  </form>
+                </div>
+                <!------------------- COMPTEUR ------------------>                <div style="padding-top: 10px; text-align: center; padding-bottom: 40px; line-height: 130%;">
+                  <!-- tous les articles -->                  <span class="titre_sans_1">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+497 articles
+                  </span>
+                  <img width="625" height="1" border="0" alt=" " src="squelettes/elements/images/ligne-rouge.gif"/>
+                  <!-- articles par langues -->                  <div style="padding-top: 7px;">
+                    <a style="letter-spacing: 0; " class="titre_sans_1" href="spip.php?page=recherche&amp;recherche=family&amp;lang=en">
+                      English 458
+                    </a>
+                     
+                    <a style="letter-spacing: 0; " class="titre_sans_1" href="spip.php?page=recherche&amp;recherche=family&amp;lang=es">
+                      Español 17
+                    </a>
+                     
+                    <a style="letter-spacing: 0;  color: #ac1111;" class="titre_sans_1" href="spip.php?page=recherche&amp;recherche=family&amp;lang=fr">
+                      français 16
+                    </a>
+                     
+                    <a style="letter-spacing: 0; " class="titre_sans_1" href="spip.php?page=recherche&amp;recherche=family&amp;lang=ru">
+                      русский 5
+                    </a>
+                     
+                    <a style="letter-spacing: 0; " class="titre_sans_1" href="spip.php?page=recherche&amp;recherche=family&amp;lang=de">
+                      Deutsch 1
+                    </a>
+                     
+                    <a style="letter-spacing: 0; " class="titre_sans_1" href="spip.php?page=recherche&amp;recherche=family&amp;lang=it">
+                      italiano 1
+                    </a>
+                     
+                    <a style="letter-spacing: 0; " class="titre_sans_1" href="spip.php?page=recherche&amp;recherche=family&amp;lang=fa">
+                      فارسى 1
+                    </a>
+                     
+                    <a style="letter-spacing: 0; " class="titre_sans_1" href="spip.php?page=recherche&amp;recherche=family&amp;lang=ar">
+                      عربي 1
+                    </a>
+                     
+
+                  </div>
+                </div>
+                <!------------------- LISTE DES ARTICLES ------------------>                <a id="pagination_article" name="pagination_article">
+                </a>
+                <div>
+                  <div>
+                    <a class="titre_sans_4" href="article11797.html">
+                      Selon Dieu, Bush gagnera l’élection en 2004
+                    </a>
+                    <br/>
+                  </div>
+                  <div style="min-height: 72;">
+                    <a href="article11797.html">
+                      <img width="120" height="72" align="left" title="Selon Dieu, Bush gagnera l'élection en 2004" style="margin-top: 6px; margin-right: 10px;" src="local/cache-vignettes/L120xH72/arton11797-c92c1.jpg" alt="Selon Dieu, Bush gagnera l'élection en 2004" class="spip_logos"/>
+                    </a>
+                    <span class="titre_sans_1">
+                      7 janvier 2004
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article11797.html">
+                      Depuis plusieurs mois, le révérend Pat Robertson, priait durant de longues journées pour les États-Unis. Cette semaine, l’évangéliste propriétaire de The Family Channel et ancien président de la Christian Coalition faisait connaître au monde ses prophéties sur George W. Bush. « J’entends Dieu me dire que l’élection en 2004 sera une explosion ». « George Bush gagnera facilement ». « Dieu l’a béni. Je veux dire qu’il peut commettre de terribles erreurs et s’en sortir. Peu importe ce qu’il fait, bien ou mal, Dieu (...)
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <div>
+                  <div>
+                    <a class="titre_sans_4" href="article140862.html">
+                      « The Guardian » : la contre-enquête sur le massacre de Gaza Beach met en doute le rapport qui exonère l’armée israélienne
+                    </a>
+                    <br/>
+                    <div style="margin-top:5px; margin-bottom:8px;" class="titre_serif_3">
+                      par    
+Grégoire Seither
+
+                    </div>
+                  </div>
+                  <div style="min-height: ;">
+                    <span class="titre_sans_1">
+                      19 juin 2006
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article140862.html">
+                      Une contre-enquête menée par la quotidien de gauche britannique The Guardian à propos de l’explosion ayant causé la mort des sept membres de la famille Ghalia sur une plage de Gaza, soulève de nombreuses nouvelles questions sans réponse. Il pointe des lacunes et omissions dans le rapport militaire israélien publié la semaine dernière et qui exonère l’armée israélienne de toute responsabilité.
+
+                      <br/>
+                      L’analyse des dossiers médicaux réalisés à l’hopital, les témoignages des médecins et les récits des autres (...)
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <div>
+                  <div>
+                    <a class="titre_sans_4" href="article11356.html">
+                      « S’attaquer au SIDA et son allié, la faim »
+                    </a>
+                    <br/>
+                    <div style="margin-top:5px; margin-bottom:8px;" class="titre_serif_3">
+                      par    
+James Morris, Lee Jong-wook
+
+                    </div>
+                  </div>
+                  <div style="min-height: ;">
+                    <span class="titre_sans_1">
+                      1er décembre 2003
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article11356.html">
+                      La pandémie de sida reste un désastre global mais la bonne nouvelle c’est qu’on lui fait désormais face.
+
+                      <br/>
+                      L’OMS a commencé lundi une campagne pour fournir des antirétroviraux à trois millions de personnes dans les pays en voie de développement et l’OMC a annoncé un accord permettant aux pays pauvres d’importer des médicaments génériques. Les organisations humanitaires aident les victimes et le public n’a jamais été aussi bien informé sur le sujet. Le président George W. Bush a demandé au Congrès d’accorder (...)
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <div>
+                  <div>
+                    <a class="titre_sans_4" href="article6780.html">
+                      Demandez le programme 
+                    </a>
+                    <br/>
+                    <div style="margin-top:5px; margin-bottom:8px;" class="titre_serif_3">
+                      par    
+Thierry Meyssan, Maintenant
+
+                    </div>
+                  </div>
+                  <div style="min-height: ;">
+                    <span class="titre_sans_1">
+                      8 février 1995
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article6780.html">
+                      L’Opus Dei inspire la plupart des mouvements antiavortement comme Laissez les vivre, dont feu le professeur Jérôme Lejeune était le président, la Trève de Dieu de Claire Gobry-Fontana, Provie, de la comtesse Angela de Malherbe, ou l’Union pour la vie de Christine Boutin, qui a organisé la manifestation du 22 janvier 95. L’ensemble est dirigé depuis Rome par l’Académie pontificale Pro Vita, par l’intermédiaire américain de la Christian coalition.brL’Oeuvre soutien aussi le mode de vie familial contre les (...)
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <div>
+                  <div>
+                    <a class="titre_sans_4" href="article7331.html">
+                      Rapport de la Commission d’enquête parlementaire belge sur les pratiques illégales des sectes - Les associations de défense des victimes en Europe 
+                    </a>
+                    <br/>
+                  </div>
+                  <div style="min-height: ;">
+                    <span class="titre_sans_1">
+                      28 mars 1997
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article7331.html">
+                      Des associations similaires existent dans d’autres pays européens. En voici quelques exemples :
+
+                      <br/>
+                      EN FRANCE
+
+                      <br/>
+                      UNADFI * (Union nationale des associations pour la défense des familles et de l’individu), qui regroupe un certain nombre d’associations réparties sur le territoire français. Cette association est présidée par Mme Tavernier, également présidente de l’ADFI Paris. Les buts poursuivis par cette associations sont assez similaires à ceux des associations belges. Adresse : Rue du Père Julien Dhuit 10 (...)
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <div>
+                  <div>
+                    <a class="titre_sans_4" href="article7313.html">
+                      Rapport de la Commission d’enquête parlementaire belge sur les pratiques illégales des sectes - Vers une ébauche de définition - L’approche sociologique 
+                    </a>
+                    <br/>
+                  </div>
+                  <div style="min-height: ;">
+                    <span class="titre_sans_1">
+                      28 mars 1997
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article7313.html">
+                      Depuis de longues années, professeurs, chercheurs, théologiens, sociologues, ..., tentent d’affiner la définition du mot " secte ", et de permettre, par la même occasion, au grand public d’identifier plus facilement ce phénomène.
+
+                      <br/>
+                      L’" American Family Foundation " (AFF), une association sans but lucratif consacrée à la recherche et à l’éducation, a produit la définition suivante, adoptée en 1985 lors d’une conférence réunissant des intellectuels et des responsables politiques, et qui semble être utilisée (...)
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <div>
+                  <div>
+                    <div class="titre_sans_5">
+                      Une sélection du Réseau Voltaire
+                    </div>
+                    <a class="titre_sans_4" href="article161458.html">
+                      Le Moniteur des relations internationales # 2009-09
+                    </a>
+                    <br/>
+                  </div>
+                  <div style="min-height: ;">
+                    <span class="titre_sans_1">
+                      2 août 2009
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article161458.html">
+                      ABKHAZIE
+
+                      <br/>
+                       Abkhazia (Caucasus Analytical Digest)
+
+                      <br/>
+                      AFGHANISTAN
+
+                      <br/>
+                       Afghanistan : Un chemin pour la paix (France, Assemblée nationale)
+
+                      <br/>
+                       Afghanistan : Government Formation and Performance (US Congressional Research Service)
+
+                      <br/>
+                       Global Security : Afghanistan and Pakistan (UK House of Commons)
+
+                      <br/>
+                      AFRIQUE DU SUD
+
+                      <br/>
+                       New Partnerships for a New Era : Enhancing the South African Army’s Stabilization Role in Africa (SSI)
+
+                      <br/>
+                      ASIE DU SUD
+
+                      <br/>
+                       U.S. Alliances and Emerging Partnerships in Southeast Asia (Center for (...)
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <div>
+                  <div>
+                    <a class="titre_sans_4" href="article180703.html">
+                      Projet de résolution de l’Onu contre l’espionnage US
+                    </a>
+                    <br/>
+                  </div>
+                  <div style="min-height: 75;">
+                    <a href="article180703.html">
+                      <img width="120" height="75" align="left" title="Projet de résolution de l'Onu contre l'espionnage US" style="margin-top: 6px; margin-right: 10px;" src="local/cache-vignettes/L120xH75/arton180703-b9fe6.jpg" alt="Projet de résolution de l'Onu contre l'espionnage US" class="spip_logos"/>
+                    </a>
+                    <span class="titre_sans_1">
+                      26 octobre 2013
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article180703.html">
+                      À l’initiative du Brésil, une vingtaine d’États préparent une proposition de résolution de l’Assemblée générale des Nations Unies pour garantir la confidentialité des communications par Internet (voir brouillon ci-dessous).
+
+                      <br/>
+                      Bien que la NSA n’y soit pas citée, cette initiative est dirigée contre les États-Unis dont l’espionnage de masse viole le Pacte des droits civils et politiques et la Déclaration universelle des Droits de l’homme. Elle fait obligation aux États-membres de prendre les mesures nécessaires (...)
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <div>
+                  <div>
+                    <a class="titre_sans_4" href="article16935.html">
+                      Vladimir Poutine très courtisé
+                    </a>
+                    <br/>
+                    <div style="margin-top:5px; margin-bottom:8px;" class="titre_serif_3">
+                      par    
+Réseau Voltaire
+
+                    </div>
+                  </div>
+                  <div style="min-height: ;">
+                    <span class="titre_sans_1">
+                      29 avril 2005
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article16935.html">
+                      La politique de re-nationalisation des ressources naturelles russes, la hausse des cours du pétrole et la politique états-unienne au Proche-Orient ont fait de la Russie une alternative pour les pays qui s’inquiètent des vues de Washington dans la région. La visite de Vladimir V. Poutine en Égypte, en Israël et dans les territoires palestiniens est l’occasion pour ces États de séduire le président russe afin de diminuer leur dépendance vis-à-vis de Washington.
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <div>
+                  <div>
+                    <div class="titre_sans_5">
+                      Le patron de la répression intérieure
+                    </div>
+                    <a class="titre_sans_4" href="article12318.html">
+                      John Ashcroft, dans le secret des dieux
+                    </a>
+                    <br/>
+                  </div>
+                  <div style="min-height: 140;">
+                    <a href="article12318.html">
+                      <img width="120" height="140" align="left" title="John Ashcroft, dans le secret des dieux" style="margin-top: 6px; margin-right: 10px;" src="local/cache-vignettes/L120xH140/arton12318-a9926.jpg" alt="John Ashcroft, dans le secret des dieux" class="spip_logos"/>
+                    </a>
+                    <span class="titre_sans_1">
+                      Paris (France) | 2 février 2004
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article12318.html">
+                      John Ashcorft est l’un des éléments centraux du régime Bush. Leader reconnu des fondamentalistes chrétiens, il est désormais en charge de l’ensemble de l’appareil répressif à l’intérieur des États-Unis. Partisan du port d’armes, de l’interdiction de l’avortement, de la pénalisation de l’homosexualité, il a introduit le concept de « justice préventive ». Il a longuement préparé l’USA Patriot Act, véritable Code de l’antiterrorisme, qu’il a présenté tout ficelé au Congrès au lendemain du 11 septembre. Il supervise le fichage des musulmans pratiquants et la construction de camps d’internement. Vides pour le moment.
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <div>
+                  <div>
+                    <div class="titre_sans_5">
+                      Leur fortune vient en partie des camps de la mort
+                    </div>
+                    <a class="titre_sans_4" href="article9723.html">
+                      Les Bush et Auschwitz, une longue histoire
+                    </a>
+                    <br/>
+                    <div style="margin-top:5px; margin-bottom:8px;" class="titre_serif_3">
+                      par    
+Thierry Meyssan
+
+                    </div>
+                  </div>
+                  <div style="min-height: 150;">
+                    <a href="article9723.html">
+                      <img width="120" height="150" align="left" title="Les Bush et Auschwitz, une longue histoire" style="margin-top: 6px; margin-right: 10px;" src="local/cache-vignettes/L120xH150/arton9723-e1065.jpg" alt="Les Bush et Auschwitz, une longue histoire" class="spip_logos"/>
+                    </a>
+                    <span class="titre_sans_1">
+                      Paris (France) | 3 juin 2003
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article9723.html">
+                      George et Laura Bush se sont recueillis, le 31 mai 2003, à Auschwitz II-Birkenau. Le camp, construit en 1940,  est devenu, en 1942, le principal centre d’extermination du IIIème Reich. Entre 1 100 000 et 1 500 000 personnes y furent assassinées. Des détenus furent aussi exploités comme main d’œuvre  gratuite par les compagnies liées au régime nazi. C’est ainsi que prospéra à Oswiecim une usine appartenant à Prescott Bush, le grand-père de l’actuel président des États-Unis. Ce dernier a accepté sans états d’âme d’hériter du sinistre patrimoine.
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <div>
+                  <div>
+                    <div class="titre_sans_5">
+                      Numéro 126
+                    </div>
+                    <a class="titre_sans_4" href="article9680.html">
+                      L’Alaska et Hawaii refusent l’USA Patriot Act
+                    </a>
+                    <br/>
+                  </div>
+                  <div style="min-height: 80;">
+                    <a href="article9680.html">
+                      <img width="62" height="80" align="left" title="126. L'Alaska et Hawaii refusent l'USA Patriot Act" style="margin-top: 6px; margin-right: 10px;" src="local/cache-vignettes/L62xH80/arton9680-c83af.gif" alt="126. L'Alaska et Hawaii refusent l'USA Patriot Act" class="spip_logos"/>
+                    </a>
+                    <span class="titre_sans_1">
+                      26 mai 2003
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article9680.html">
+                      Depuis l’instauration du Patriot Act, en 2001, les associations de défense des libertés civiles se sont massivement mobilisées aux État-Unis pour dénoncer cette attaque sans précédent contre les libertés individuelles. Après Hawaii, c’est l’État fédéré d’Alaska qui s’oppose à son application.
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <div>
+                  <div>
+                    <a class="titre_sans_4" href="article8095.html">
+                      Une forte pression démographique et foncière
+                    </a>
+                    <br/>
+                  </div>
+                  <div style="min-height: ;">
+                    <span class="titre_sans_1">
+                      15 décembre 1998
+                    </span>
+                    <br/>
+                    <a class="texte_sans_3b" href="article8095.html">
+                      Le Rwanda est confronté à une croissance démographique très rapide et à des difficultés économiques structurelles, qui ont atteint ces dernières années des proportions extrêmes.
+
+                      <br/>
+                      " Un monde plein au coeur de l’Afrique "(
+
+                      <br/>
+                      Lapidaire, cette formule pose d’entrée de jeu le double problème de la surpopulation et de l’enclavement du Rwanda. Sans qu’il soit question de désigner la surpopulation comme cause directe des difficultés et des crises politiques qui secouent le Rwanda de manière récurrente, " il serait (...)
+
+                    </a>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;" class="clear">
+                   
+                </div>
+                <br/>
+                <br/>
+                <br/>
+              </div>
+              <!------------------------------------ COLONNE DE DROITE ------------------------------------>              <div class="grille_300_2">
+                <div style="padding: 0px; margin-bottom: 25px; background-color: #f5f3da;">
+                  <div class="titre_sans_4b" style="padding: 5px; padding-bottom: 20px;">
+                    Articles les plus populaires
+
+                  </div>
+                  <div onclick="window.location='article9723.html';" onmouseout="$(&quot;#logo_9723&quot;).addClass(&quot;transparence&quot;); $(&quot;#art9723&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_9723&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art9723&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art9723" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_9723">
+                      <img width="40px" height="50px" class="spip_logos" alt="Les Bush et Auschwitz, une longue histoire" style="width: 40px; height: 50px; background: url(local/cache-sprites/logos_articles_populaires___family_fr_.png?m=1396384038) 0px -0px;" src="rien.gif"/>
+                    </div>
+                    <a class="titre_sans_8bold" href="article9723.html">
+                      Les Bush et Auschwitz, une longue histoire
+                    </a>
+                    <br/>
+                    <span class="titre_sans_8">
+                      Leur fortune vient en partie des camps de la mort
+                    </span>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                  <div onclick="window.location='article12318.html';" onmouseout="$(&quot;#logo_12318&quot;).addClass(&quot;transparence&quot;); $(&quot;#art12318&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_12318&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art12318&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art12318" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_12318">
+                      <img width="40px" height="47px" class="spip_logos" alt="John Ashcroft, dans le secret des dieux" style="width: 40px; height: 47px; background: url(local/cache-sprites/logos_articles_populaires___family_fr_.png?m=1396384038) 0px -50px;" src="rien.gif"/>
+                    </div>
+                    <a class="titre_sans_8bold" href="article12318.html">
+                      John Ashcroft, dans le secret des dieux
+                    </a>
+                    <br/>
+                    <span class="titre_sans_8">
+                      Le patron de la répression intérieure
+                    </span>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                  <div onclick="window.location='article9680.html';" onmouseout="$(&quot;#logo_9680&quot;).addClass(&quot;transparence&quot;); $(&quot;#art9680&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_9680&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art9680&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art9680" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_9680">
+                      <img width="40px" height="52px" class="spip_logos" act'="" patriot="" l'usa="" refusent="" hawaii="" et="" alaska="" alt="126. L" style="width: 40px; height: 52px; background: url(local/cache-sprites/logos_articles_populaires___family_fr_.png?m=1396384038) 0px -97px;" src="rien.gif"/>
+                    </div>
+                    <a class="titre_sans_8bold" href="article9680.html">
+                      L’Alaska et Hawaii refusent l’USA Patriot Act
+                    </a>
+                    <br/>
+                    <span class="titre_sans_8">
+                      Numéro 126
+                    </span>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                  <div onclick="window.location='article11797.html';" onmouseout="$(&quot;#logo_11797&quot;).addClass(&quot;transparence&quot;); $(&quot;#art11797&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_11797&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art11797&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art11797" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_11797">
+                      <img width="40px" height="24px" class="spip_logos" 2004'="" en="" élection="" alt="Selon Dieu, Bush gagnera l" style="width: 40px; height: 24px; background: url(local/cache-sprites/logos_articles_populaires___family_fr_.png?m=1396384038) 0px -149px;" src="rien.gif"/>
+                    </div>
+                    <a class="titre_sans_8bold" href="article11797.html">
+                      Selon Dieu, Bush gagnera l’élection en 2004
+                    </a>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                  <div onclick="window.location='article6780.html';" onmouseout="$(&quot;#logo_6780&quot;).addClass(&quot;transparence&quot;); $(&quot;#art6780&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_6780&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art6780&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art6780" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_6780">
+                    </div>
+                    <a class="titre_sans_8bold" href="article6780.html">
+                      Demandez le programme 
+                    </a>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                  <div onclick="window.location='article161458.html';" onmouseout="$(&quot;#logo_161458&quot;).addClass(&quot;transparence&quot;); $(&quot;#art161458&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_161458&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art161458&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art161458" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_161458">
+                    </div>
+                    <a class="titre_sans_8bold" href="article161458.html">
+                      Le Moniteur des relations internationales # 2009-09
+                    </a>
+                    <br/>
+                    <span class="titre_sans_8">
+                      Une sélection du Réseau Voltaire
+                    </span>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                  <div onclick="window.location='article180703.html';" onmouseout="$(&quot;#logo_180703&quot;).addClass(&quot;transparence&quot;); $(&quot;#art180703&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_180703&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art180703&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art180703" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_180703">
+                      <img width="40px" height="25px" class="spip_logos" us'="" l'espionnage="" contre="" onu="" alt="Projet de résolution de l" style="width: 40px; height: 25px; background: url(local/cache-sprites/logos_articles_populaires___family_fr_.png?m=1396384038) 0px -173px;" src="rien.gif"/>
+                    </div>
+                    <a class="titre_sans_8bold" href="article180703.html">
+                      Projet de résolution de l’Onu contre l’espionnage US
+                    </a>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                  <div onclick="window.location='article8095.html';" onmouseout="$(&quot;#logo_8095&quot;).addClass(&quot;transparence&quot;); $(&quot;#art8095&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_8095&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art8095&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art8095" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_8095">
+                    </div>
+                    <a class="titre_sans_8bold" href="article8095.html">
+                      Une forte pression démographique et foncière
+                    </a>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                  <div onclick="window.location='article7331.html';" onmouseout="$(&quot;#logo_7331&quot;).addClass(&quot;transparence&quot;); $(&quot;#art7331&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_7331&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art7331&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art7331" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_7331">
+                    </div>
+                    <a class="titre_sans_8bold" href="article7331.html">
+                      Rapport de la Commission d’enquête parlementaire belge sur les pratiques illégales des sectes - Les associations de défense des victimes en Europe 
+                    </a>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                  <div onclick="window.location='article7313.html';" onmouseout="$(&quot;#logo_7313&quot;).addClass(&quot;transparence&quot;); $(&quot;#art7313&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_7313&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art7313&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art7313" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_7313">
+                    </div>
+                    <a class="titre_sans_8bold" href="article7313.html">
+                      Rapport de la Commission d’enquête parlementaire belge sur les pratiques illégales des sectes - Vers une ébauche de définition - L’approche sociologique 
+                    </a>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                  <div onclick="window.location='article11356.html';" onmouseout="$(&quot;#logo_11356&quot;).addClass(&quot;transparence&quot;); $(&quot;#art11356&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_11356&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art11356&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art11356" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_11356">
+                    </div>
+                    <a class="titre_sans_8bold" href="article11356.html">
+                      « S’attaquer au SIDA et son allié, la faim »
+                    </a>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                  <div onclick="window.location='article16935.html';" onmouseout="$(&quot;#logo_16935&quot;).addClass(&quot;transparence&quot;); $(&quot;#art16935&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_16935&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art16935&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art16935" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_16935">
+                    </div>
+                    <a class="titre_sans_8bold" href="article16935.html">
+                      Vladimir Poutine très courtisé
+                    </a>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                  <div onclick="window.location='article140862.html';" onmouseout="$(&quot;#logo_140862&quot;).addClass(&quot;transparence&quot;); $(&quot;#art140862&quot;).toggleClass(&quot;over6&quot;);" onmouseover="$(&quot;#logo_140862&quot;).removeClass(&quot;transparence&quot;); $(&quot;#art140862&quot;).toggleClass(&quot;over6&quot;);" style="padding: 5px;" id="art140862" class="main">
+                    <div style="float: left;" class="transparence image_mot" id="logo_140862">
+                    </div>
+                    <a class="titre_sans_8bold" href="article140862.html">
+                      « The Guardian » : la contre-enquête sur le massacre de Gaza Beach met en doute le rapport qui exonère l’armée israélienne
+                    </a>
+                    <br/>
+                    <div class="clear">
+                       
+                    </div>
+                  </div>
+                </div>
+                <div style="margin-bottom: 25px; background-color: #f5f3da; padding: 5px;">
+                  <a class="pub" href="article170321.html">
+                    <img width="135" height="217" align="left" title="Les Espions de l'or noir" style="margin-right: 10px;" src="local/cache-vignettes/L135xH217/arton170321-502f5.jpg" alt="Les Espions de l'or noir" class="spip_logos"/>
+                    <span class="pub1">
+                      Les Espions de l’or noir
+                    </span>
+                    <br/>
+                    <span class="pub2">
+                      Par Gilles MUNIER
+                    </span>
+                    <br/>
+                    <span class="pub3">
+                      À commander dans la librairie du Réseau Voltaire
+
+                    </span>
+                  </a>
+                  <div class="clear">
+                     
+                  </div>
+                </div>
+                <script type="text/javascript">
+//<![CDATA[
+&lt;!--
+google_ad_client = "ca-pub-4330638927119661";
+/* Image 300 new */
+google_ad_slot = "5623649222";
+google_ad_width = 300;
+google_ad_height = 250;
+//--&gt;
+
+//]]>
+                </script>
+                <script src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
+                </script>
+              </div>
+            </div>
+          </div>
+          <!-- /CONTENU DE LA PAGE -->        </div>
+        <div id="footer entry-unrelated">
+          <div class="surlignable">
+          </div>
+        </div>
+        <style type="text/css">
+          &amp;lt;!-- .spip-admin-float { right: 10px; font-size:0.8em; } --&amp;gt;
+        </style>
+      </div>
+    </div>
+    <!-- MOUCHARD STATS SPIP -->    <script type="text/javascript">
+//<![CDATA[
+
+$(function(){setTimeout(function(){
+  $.ajax({url: 'http://www.voltairenet.org/spip.php?page=stats.js', dataType: 'script', cache: true,
+    success: function() {
+      var obj = ($('meta[name="SPIP.identifier"]').attr('content')||'');
+      try {
+        var piwikTracker = Piwik.getTracker('http://www.voltairenet.org/spip.php?action=stats\x26obj='+obj);
+        piwikTracker.setDocumentTitle(document.title);
+        piwikTracker.trackPageView();
+      } catch( err ) {}
+    }
+  });
+}, 100);});
+
+//]]>
+    </script>
+    <noscript>
+      &lt;p&gt;&lt;img src='http://www.voltairenet.org/spip.php?action=stats' style='border:0' alt='' /&gt;&lt;/p&gt;
+    </noscript>
+    <!-- / MOUCHARD -->  </body>
+</html>

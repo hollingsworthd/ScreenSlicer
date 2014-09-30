@@ -1,0 +1,2768 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <script src="http://static.parsely.com/code/slim_v04.js">
+    </script>
+    <script src="http://c.parsely.com/config/newyorker.com">
+    </script>
+    <script src="http://b.scorecardresearch.com/beacon.js">
+    </script>
+    <script type="text/javascript" async="async">
+//<![CDATA[
+s_c_il[1].cdw=s_c_il[1].d.write;s_c_il[1].cdwb="";s_c_il[1].d.write=function(m){s_c_il[1].cdwb+=m};
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6035094" });
+(function() {
+var s = document.createElement("script"), el = 
+document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + 
+".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+s_c_il[1].d.write=s_c_il[1].cdw;s_c_il[1].crl(2,1)
+//]]>
+    </script>
+    <script type="text/javascript" async="async" src="//js.revsci.net/gateway/gw.js?csid=F09828&amp;auto=t&amp;bpid=condenast">
+    </script>
+    <script type="text/javascript" src="http://condenast.demdex.net/event?d_nsid=0&amp;d_ld=_ts%3D1389778754597&amp;c_pageName=http%3A%2F%2Fwww.newyorker.com%2Fsearch%2Fquery&amp;c_events=event2%2Cevent82%3D11&amp;c_eVar2=http%3A%2F%2Fwww.newyorker.com%2Fsearch%2Fquery&amp;c_prop3=ibm%7C%20Search%20%3A%20The%20New%20Yorker&amp;c_eVar3=ibm%7C%20Search%20%3A%20The%20New%20Yorker&amp;c_prop6=search&amp;c_eVar6=search&amp;c_prop11=4%3A00AM&amp;c_eVar11=4%3A00AM&amp;c_prop12=Wednesday&amp;c_eVar12=Wednesday&amp;c_prop13=Weekday&amp;c_eVar13=Weekday&amp;c_prop16=Not%20Logged%20in&amp;c_eVar16=Not%20Logged%20in&amp;c_prop17=1&amp;c_eVar17=1&amp;c_prop23=New&amp;c_eVar23=New&amp;d_rtbd=json&amp;d_jsonv=1&amp;d_dst=1&amp;d_cts=1&amp;d_cb=demdexRequestCallback1389778754597">
+    </script>
+    <script type="text/javascript" async="async">
+//<![CDATA[
+s_c_il[1].cdw=s_c_il[1].d.write;s_c_il[1].cdwb="";s_c_il[1].d.write=function(m){s_c_il[1].cdwb+=m};
+CN.stats.omniture.setStatus(CN.site['httpStatusCode']?CN.site['httpStatusCode']:200);
+CN.stats.omniture.initPlugins();
+
+if(CN.stats.omniture.thirdParty) {
+	CN.stats.omniture.setThirdParty();
+}
+
+if (typeof CN.stats.omniture.setReady === "function") {
+	CN.stats.omniture.setReady();
+}
+
+if(CN.stats.omniture.trackPage || (document.body.getAttribute('className') != 'listC' || document.body.getAttribute('class') != 'listC')) {
+	
+	if(CN.stats.omniture.doPageTracking2 == undefined) {
+		CN.stats.omniture.doPageTracking();
+	} else {
+		CN.stats.omniture.doPageTracking2();
+	}
+	
+	if(s.pdvalue < 3 && CN.stats.insight) {
+		setTimeout(CN.stats.insight.doTracking, 1000);
+	}
+}
+s_c_il[1].d.write=s_c_il[1].cdw;s_c_il[1].crl(0,1)
+//]]>
+    </script>
+    <script type="text/javascript" async="async" src="http://www.adobetag.com/d1/condenast/live/MPPFramework.js">
+    </script>
+    <script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script src="http://subscribe.newyorker.com/ams/page-ads.js?ad_category_prefix=search&amp;browser_path=%2Fsearch&amp;cat_prefixes=%2Csearch&amp;keywords=TheNewYorker%2Cmagazine%2Csubscription&amp;position_list=AMS_NYR_POPUP_FLOATINGAD%2CAMS_NYR_GLOBAL_NAVBAR_ROLLOVER%2CAMS_NYR_GLOBAL_RIGHTRAIL_A%2CAMS_NYR_GLOBAL_EMBEDDEDFORM%2CAMS_NYR_GLOBAL_RIGHTRAIL_C%2CAMS_NYR_GLOBAL_RIGHTRAIL_B%2CAMS_NYR_GLOBAL_HEADER%2CAMS_NYR_GLOBAL_NAVBAR%2CAMS_NYR_GLOBAL_HEADERCALLOUT&amp;site_prefix=newyorker&amp;subdomain=www&amp;url_name=search">
+    </script>
+    <meta charset="ISO-8859-1"/>
+    <script src="//cdn.optimizely.com/js/224033986.js">
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <script type="text/javascript">
+//<![CDATA[
+var _sf_startpt=(new Date()).getTime()
+//]]>
+    </script>
+    <title>
+      ibm| Search : The New Yorker
+    </title>
+    <meta name="application-name" content="The New Yorker"/>
+    <meta name="msapplication-TileImage" content="http://www.newyorker.com/images/global/CN_NewYorker_background.png "/>
+    <meta name="msapplication-TileColor" content="#ffffff"/>
+    <meta name="ROBOTS" content="NOARCHIVE"/>
+    <meta name="bitly-verification" content="cb15089a1208"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/lib-min.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/features.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/lightreg.css"/>
+    <script type="text/javascript" src="/js/newyorker_global.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    // <!--
+        // If reg confirmation is enabled, let the javascript know
+        CN.reg.confirmedReg = {
+            confirmedRegistrationEnabled: false,
+            emailUpdateConfirmationEnabled: false,
+            profileUpdateConfirmationEnabled: false,
+            allowFirstSessionAccess: false
+        };
+    // -->
+    
+//]]>
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Language" content="en-us"/>
+    <meta name="distribution" content="Global"/>
+    <meta name="MSSmartTagsPreventParsing" content="true"/>
+    <meta http-equiv="imagetoolbar" content="false"/>
+    <meta name="Copyright" content="Copyright (c) CondéNet 2014"/>
+    <meta name="description" content="Online version of the weekly magazine, with current articles, cartoons, blogs, audio, video, slide shows, an archive of articles and abstracts back to 1925"/>
+    <meta name="keywords" content="The New Yorker, magazine, subscription"/>
+    <meta name="Author" content="The New Yorker"/>
+    <meta property="og:description" content="Online version of the weekly magazine, with current articles, cartoons, blogs, audio, video, slide shows, an archive of articles and abstracts back to 1925"/>
+    <meta property="fb:admins" content="648235154,789168297,688620285"/>
+    <meta property="og:image" content="http://subscribe.condenet.com/images_covers/cover_newyorker_80.jpg?fbrefresh=20140115"/>
+    <meta property="og:site_name" content="The New Yorker"/>
+    <meta property="og:title" content="ibm| Search"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:type" content="article"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+CN.config.set({
+    title        : document.title,
+    url          : '',
+    description  : "Online version of the weekly magazine, with current articles, cartoons, blogs, audio, video, slide shows, an archive of articles and abstracts back to 1925",
+    keywords     : "The New Yorker, magazine, subscription",
+    facebook     : {pageid: "9258148868", appId: "179662042076731", apiKey: "8ecec5f3726e0601443e17e88c1558d4" },
+    isiFrame     : true
+});
+
+//]]>
+    </script>
+    <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="alternate" type="application/rss+xml" title="The New Yorker" href="http://www.newyorker.com/services/rss/feeds/everything.xml"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+        CN.site.init({
+            env             : 'PROD',
+            code            : 'NYR',
+            title           : 'The New Yorker',
+            name            : 'newyorker',
+            tld             : 'newyorker.com',
+            eventServer     : 'http://event.newyorker.com/',
+            eventTrackingUrl: 'http://result.newyorker.com',
+            eventTrackingEnv: 'PROD',
+            mobilecompatible: true,
+            httpStatusCode: 200
+        });
+        CN.config.set({
+            adTopic         : false,
+            topicOverride   : ''
+        });
+        
+    
+//]]>
+    </script>
+    <script type="text/javascript" src="/js/ecomfw.min.js">
+    </script>
+    <script type="text/javascript" src="/js/newyorker_ecom.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+         window._ghearst_vars = (function() {
+        var
+            metaKeyWords = (function(){
+                var
+                    i                  = 0,
+                    metaKeywordContent = '',
+                    nameAttribute      = null,
+                    metaCollection     = document.getElementsByTagName('meta');
+
+                for (i = 0; i < metaCollection.length; i++) {
+                    nameAttribute = metaCollection[i].name.search(/keywords/);
+                    if (nameAttribute!= -1) {
+                        metaKeywordContent = metaCollection[i].content;
+                        metaKeywordContent = metaKeywordContent.replace(/ /g,''); // to replace space
+                    }
+                }
+                return encodeURIComponent(metaKeywordContent);
+            })();
+
+        if( (navigator.userAgent.match(/iPad/i) !== null) && (CN.cookie.get('ipadTakeover') !== 'true') ){
+            return {
+                'ams_ads_script_src': 'http://subscribe.newyorker.com/ams/page-ads.js?ad_category_prefix=search&browser_path=%2Fsearch&cat_prefixes=%2Csearch&keywords='+metaKeyWords+'&position_list=AMS_NYR_POPUP_FLOATINGAD%2CAMS_NYR_GLOBAL_NAVBAR_ROLLOVER%2CAMS_NYR_GLOBAL_RIGHTRAIL_A%2CAMS_NYR_GLOBAL_EMBEDDEDFORM%2CAMS_NYR_GLOBAL_RIGHTRAIL_C%2CAMS_NYR_GLOBAL_RIGHTRAIL_B%2CAMS_NYR_GLOBAL_HEADER%2CAMS_NYR_GLOBAL_NAVBAR%2CAMS_NYR_GLOBAL_HEADERCALLOUT%2CAMS_NYR_MOBILE_GLOBAL_FOOTER%2CAMS_NYR_GLOBAL_IPAD_TAKEOVER&site_prefix=newyorker&subdomain=www&url_name=search'
+            }
+        } else {
+            return {
+                'ams_ads_script_src': 'http://subscribe.newyorker.com/ams/page-ads.js?ad_category_prefix=search&browser_path=%2Fsearch&cat_prefixes=%2Csearch&keywords='+metaKeyWords+'&position_list=AMS_NYR_POPUP_FLOATINGAD%2CAMS_NYR_GLOBAL_NAVBAR_ROLLOVER%2CAMS_NYR_GLOBAL_RIGHTRAIL_A%2CAMS_NYR_GLOBAL_EMBEDDEDFORM%2CAMS_NYR_GLOBAL_RIGHTRAIL_C%2CAMS_NYR_GLOBAL_RIGHTRAIL_B%2CAMS_NYR_GLOBAL_HEADER%2CAMS_NYR_GLOBAL_NAVBAR%2CAMS_NYR_GLOBAL_HEADERCALLOUT&site_prefix=newyorker&subdomain=www&url_name=search'
+            }
+        };
+    })();
+
+    jQuery(document).ready(function(){
+        CN.hearstQue.register(function(pageAds){
+            var div;
+            if ((typeof pageAds !== 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_IPAD_TAKEOVER !== 'undefined') && (CN.url.params('nojoy') != 1) ) {
+                div = jQuery('<div id="ipad-takeover-wrapper"></div>');
+                jQuery('body').append(div);
+                div.html(pageAds.AMS_NYR_GLOBAL_IPAD_TAKEOVER.replace(/document.write\(.*\)/gi,"/*filtered by amg-magnet:document.write(...)*/"));
+            }
+        });
+    });
+         (function($) {
+             var show = function() {
+                 $('.ecom-placement').each(function() {
+                     $(this).css('visibility', 'visible');
+                 });
+             };
+             
+             $LAB.script(_ghearst_vars.ams_ads_script_src)
+                 .wait(function() {
+                     
+                     CN.hearstQue.run(window.pageAds);
+                 });
+             
+             setTimeout(show, 10 * 1000);
+         }(jQuery));
+    
+//]]>
+    </script>
+    <script type="text/javascript" src="http://event.newyorker.com/js/eventTracker.js">
+    </script>
+    <script type="text/javascript" src="/dwr/interface/feedparser.js">
+    </script>
+    <script type="text/javascript" src="/dwr/interface/NewsletterAjaxHandler.js">
+    </script>
+    <script type="text/javascript" src="/dwr/engine.js">
+    </script>
+    <script type="text/javascript" src="/dwr/util.js">
+    </script>
+    <script type="text/javascript" src="/js/newyorker_top.js">
+    </script>
+    <style>
+      .mboxDefault { visibility:hidden; }
+    </style>
+    <!-- All other query params -->    <style type="text/css" media="screen">
+      @import "/css/results.css";
+    </style>
+    <style type="text/css" media="screen">
+      @import "/css/pagination.css";
+    </style>
+    <link rel="stylesheet" type="text/css" media="Print" href="/css/print.css"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+jQuery(document).ready(function() {
+  if(document.getElementById('video-gallery')) {
+    jQuery('#video-gallery').find('ol').on('click', function(e){
+      var target = e.target || e.srcElement;
+      if(target.tagName !== 'LI' && target.tagName !== 'OL') {
+      	CN.dart.refresh();
+      }
+    });
+  }
+});
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+MAGNET.popups.setLayer(true).setExiting(false).init();
+jQuery(window).bind('load',function(){
+    if(!CN.dart.calls(0).frame){
+        CN.dart.ready()
+    }
+});
+
+
+//]]>
+    </script>
+    <style type="text/css">
+      
+
+/* @section Festival */
+.c_festival #xrail {
+overflow:hidden;
+}
+
+.c_festival #xrail .xrcomponent.first #date {
+position:absolute;
+top:16px;
+}
+
+.c_festival #xrail .photo-contest-nav {
+margin-top:25px!important;
+margin-top:35px;
+}
+
+.c_festival #xrail .photo-contest-nav h2 {
+position:relative;
+margin-top:-13px;
+margin-left:-13px;
+}
+
+.c_festival #xrail .photo-contest-nav ul.treeview li.open,.c_festival #xrail .photo-contest-nav ul.treeview li.active {
+background-color:#09f;
+position:relative;
+margin-left:-25px;
+padding-left:37px;
+width:118px;
+}
+
+.c_festival #xrail .photo-contest-nav ul.treeview li.open a {
+color:#fff;
+}
+
+.c_festival #xrail .photo-contest-nav ul.treeview li.open li a,.c_festival #xrail .photo-contest-nav ul.treeview li.open.collapsable a {
+color:#000;
+}
+
+.c_festival #xrail .photo-contest-nav ul.treeview li li.active a,.c_festival #xrail .photo-contest-nav ul.treeview li.open.collapsable li.active a {
+color:#fff;
+}
+
+.c_festival #xrail .photo-contest-nav ul.treeview li.open {
+margin-left:-14px;
+padding-left:25px;
+width:131px;
+}
+
+.c_festival #xrail .photo-contest-nav ul.treeview li.open.collapsable {
+background-color:#edefee;
+margin-left:12px;
+padding-left:0;
+position:relative;
+width:118px;
+}
+
+.c_festival #xrail #nav-section li {
+font-size:10px;
+line-height:1.5em;
+font-family:Arial,Verdana,sans-serif;
+text-transform:uppercase;
+}
+
+.c_festival #xrail #nav-section li li {
+font-size:9px;
+line-height:1em;
+}
+
+.c_festival #xrail .photo-contest-nav ul#nav-section.treeview li ul {
+display:block;
+}
+
+.s_festival #content h4.rubric, .s_festival #content h4.rubric a:link, .s_festival #content h4.rubric a:visited, .s_festival h4.rubric a:hover, .s_festival #content #archive dt, .s_festival #content #relatedlinks dl dt, .c_festival #content h4.rubric, .c_festival #content h4.rubric a:link, .c_festival #content h4.rubric a:visited, .c_festival h4.rubric a:hover, .c_festival #content #archive dt, .c_festival #content #relatedlinks dl dt  {
+    color:#039;
+}
+
+#footer .displayAd, #topBannerAd .displayAd {
+ width: 728px !important;
+}
+
+div.displayAd {
+ width: auto; 
+}
+
+/* NEWYORKER-942 */
+.set2 .media {
+clear:left;
+float:left;
+margin:0 20px 0 0;
+}
+
+/* NEWYORKER-943 */
+.pc {
+padding-left:0;
+}
+
+h2#indhed img{
+padding:20px;
+}
+
+h3.subhed_below img {
+padding:0 0 20px 20px;
+}
+
+/* NEWYORKER-944 */
+.imagetop .media {
+margin:0 20px 0 0;
+}
+
+.topicFeature .topicHeading {
+font-size:28px;
+font-weight:bold;
+margin:10px 0 20px;
+text-transform:uppercase;
+}
+
+.results_numbers {
+clear:both;
+font-size:13px;
+font-weight:bold;
+margin-bottom:0;
+text-transform:uppercase;
+}
+
+.dfwdb_outer{
+clear:both;padding-top:20px;margin-left:-5px
+}
+.dfwdb_inner{
+background: url('http://www.newyorker.com/images/2011/04/18/g120/facebook_20.jpg') no-repeat scroll 0px 1px transparent;font-weight:normal; padding-left: 25px; padding-top: 7px; font-size:14px;
+}
+.dfwdb_inner a {
+text-decoration:underline;
+}
+
+div#main div#position1 div.features.numberedtoggle div.tab {
+margin-bottom:10px;
+}
+
+.c_newsdesk .entry-content .twtr-widget, .c_newsdesk .entry-content .twtr-widget-1, .c_newsdesk .entry-content .twtr-doc {
+left:0px;
+}
+
+
+    </style>
+    <script type="text/javascript">
+//<![CDATA[
+
+    //<!--
+        
+        CN.dart.init({site:'newyorker.dart', zone: 'search;', kws:[ "search"], charmap : {' ' : '+', '-' : '_'}});
+    //-->
+    
+//]]>
+    </script>
+    <!-- Typekit -->    <script type="text/javascript" src="//use.typekit.net/kvn1hvo.js">
+    </script>
+    <style type="text/css">
+      .tk-ny-irvin{font-family:"ny-irvin-1","ny-irvin-2",sans-serif;}.tk-neutra-2-display{font-family:"neutra-2-display-1","neutra-2-display-2",sans-serif;}.tk-neutra-2-text{font-family:"neutra-2-text-1","neutra-2-text-2",sans-serif;}
+    </style>
+    <script type="text/javascript">
+//<![CDATA[
+
+    // Initialize CN.foundry with Typekit loader.
+    CN.foundry.init(Typekit || {});
+    
+//]]>
+    </script>
+    <meta name="parsely-page" content="{&quot;title&quot;: &quot;ibm| Search : The New Yorker&quot;,&quot;link&quot;: &quot;&quot;,&quot;image_url&quot;: &quot;http://subscribe.condenet.com/images_covers/cover_newyorker_80.jpg?fbrefresh=20140115&quot;,&quot;type&quot;: &quot;post&quot;,&quot;post_id&quot;: &quot;&quot;,&quot;pub_date&quot;: &quot;&quot;,&quot;section&quot;: &quot;&quot;,&quot;author&quot;: &quot;&quot;,&quot;tags&quot;: [&quot;The New Yorker&quot;,&quot;magazine&quot;,&quot;subscription&quot;]}"/>
+  </head>
+  <body class="s_search ss_query s_search">
+    <script type="text/javascript" src="http://pix04.revsci.net/F09828/b3/0/3/120814/371651920.js?D=DM_LOC%3Dhttp%253A%252F%252Fwww.newyorker.com%252Fsearch%253Fqt%253Ddismax%2526sort%253Dscore%252Bdesc%2526query%253Dibm%2526bpid%253Dcondenast%2526_rsiL%253D0%26DM_REF%3Dhttp%253A%252F%252Fwww.newyorker.com%252F%26DM_EOM%3D1&amp;C=F09828">
+    </script>
+    <script type="text/javascript" src="http://r.nexac.com/e/getdata.xgi?dt=br&amp;pkey=kdii33k3nlxia&amp;ru=http%3A%2F%2Fpix04.revsci.net%2FD08734%2Fa1%2F0%2F3%2F0.js%3FD%3DDM_LOC%253Dhttp%25253A%25252F%25252Fna.com%25253Fnada%25253D%3Cna_da%3E%252526naid%25253D%3Cna_id%3E%252526namp%25253D%3Cna_mp%3E">
+    </script>
+    <!-- Floating Ad Template -->    <div id="floatingAd" style="display:none;">
+      <div id="floatingAd_header">
+        <a href="#" onclick="s_objectID=&quot;http://www.newyorker.com/search?qt=dismax&amp;sort=score+desc&amp;query=ibm#_1&quot;;return this.s_oc?this.s_oc(e):true">
+          Close
+        </a>
+      </div>
+      <div id="floatingAd_content">
+        <div id="AMS_NYR_POPUP_FLOATINGAD" class="ecom-placement">
+        </div>
+      </div>
+    </div>
+    <!-- Rollover Ad Template for instance rolloverAd-->    <div id="rolloverAd" class="rolloverAd" style="display:none;">
+      <div id="rolloverAd_header" class="rolloverAd_header">
+        <a href="#" onclick="s_objectID=&quot;http://www.newyorker.com/search?qt=dismax&amp;sort=score+desc&amp;query=ibm#_2&quot;;return this.s_oc?this.s_oc(e):true">
+          Close
+        </a>
+      </div>
+      <div id="rolloverAd_content" class="rolloverAd_content">
+        <div id="AMS_NYR_GLOBAL_NAVBAR_ROLLOVER" class="ecom-placement">
+          <a href="https://w1.buysub.com/loc/NYR/ATGFailsafe" target="_blank" onclick="s_objectID=&quot;https://w1.buysub.com/loc/NYR/ATGFailsafe_1&quot;;return this.s_oc?this.s_oc(e):true">
+            <img border="0" src="/images/ecom/failsafe/NYR_OW_CONTROL_navBarRollover_v3.jpg" alt="Subscribe to The New Yorker"/>
+          </a>
+          <form name="layerForm" style="visibility:hidden;">
+            <span id="layerForm_submit" class="submitButton">
+               
+            </span>
+          </form>
+          <script type="text/javascript">
+//<![CDATA[
+
+CN.hearstQue.register(function(pageAds){
+    var div = null;
+
+    if ((typeof pageAds !== 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_NAVBAR_ROLLOVER !== 'undefined') && (CN.url.params('nojoy') != 1) ) {
+
+        div = document.getElementById("AMS_NYR_GLOBAL_NAVBAR_ROLLOVER");
+        div.innerHTML = "";
+
+        
+        jQuery("#AMS_NYR_GLOBAL_NAVBAR_ROLLOVER").html(pageAds.AMS_NYR_GLOBAL_NAVBAR_ROLLOVER.replace(/document.write\(.*\)/gi,"/*filtered by amg-magnet:document.write(...)*/"));
+        jQuery(div).css({
+            visibility: 'visible'
+        });
+    }
+
+    
+        var callback = { func: MAGNET.ecom.rolloverAd.init,params: ['rolloverAd'] };
+        callback.func.call(CNP.ecom, callback.params);
+    
+});
+
+
+//]]>
+          </script>
+        </div>
+      </div>
+      <div id="rolloverAd_footer" class="rolloverAd_footer">
+      </div>
+    </div>
+    <div id="wrapper">
+      <div id="topBannerAd">
+        <div id="header728x90_frame" class="displayAd displayAd728x90Js" data-cb-ad-id="header728x90_frame">
+        </div>
+        <script type="text/javascript">
+//<![CDATA[
+
+    //<!--
+        
+        CN.dart.call('header', {sz:'728x90', kws:["top"]});
+    //-->
+    
+//]]>
+        </script>
+      </div>
+      <div id="header">
+        <div id="logo">
+          <a href="/" title="Go to The New Yorker homepage" onclick="s_objectID=&quot;http://www.newyorker.com/_1&quot;;return this.s_oc?this.s_oc(e):true">
+            <img src="/images/elements/print/newyorker_printlogo.gif" alt="The New Yorker"/>
+          </a>
+        </div>
+        <h5 class="alt">
+          <a href="#content" title="Skip to content" onclick="s_objectID=&quot;http://www.newyorker.com/search?qt=dismax&amp;sort=score+desc&amp;query=ibm#content_1&quot;;return this.s_oc?this.s_oc(e):true">
+            Skip to content
+          </a>
+        </h5>
+        <div id="header-subs" class="">
+          <div id="AMS_NYR_GLOBAL_HEADERCALLOUT" class="headerCallout ecom-placement">
+            <a href="https://w1.buysub.com/loc/NYR/ATGFailsafe" target="_blank" onclick="s_objectID=&quot;https://w1.buysub.com/loc/NYR/ATGFailsafe_2&quot;;return this.s_oc?this.s_oc(e):true">
+              <img src="/images/ecom/failsafe/NYR_header_callout.png" alt="Subscribe to New Yorker"/>
+            </a>
+            <script type="text/javascript">
+//<![CDATA[
+
+CN.hearstQue.register(function(pageAds){
+    var div = null;
+
+    if ((typeof pageAds !== 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_HEADERCALLOUT !== 'undefined') && (CN.url.params('nojoy') != 1) ) {
+
+        div = document.getElementById("AMS_NYR_GLOBAL_HEADERCALLOUT");
+        div.innerHTML = "";
+
+        
+        jQuery("#AMS_NYR_GLOBAL_HEADERCALLOUT").html(pageAds.AMS_NYR_GLOBAL_HEADERCALLOUT.replace(/document.write\(.*\)/gi,"/*filtered by amg-magnet:document.write(...)*/"));
+        jQuery(div).css({
+            visibility: 'visible'
+        });
+    }
+
+    
+});
+
+
+//]]>
+            </script>
+          </div>
+          <div id="AMS_NYR_GLOBAL_HEADER" class="ecom-placement">
+            <h3 id="hdrsubs">
+              <a href="https://w1.buysub.com/loc/NYR/ATGFailsafe" target="_blank" rel="nofollow" title="Subscribe to The New Yorker" onclick="s_objectID=&quot;https://w1.buysub.com/loc/NYR/ATGFailsafe_3&quot;;return this.s_oc?this.s_oc(e):true">
+                Subscribe to The New Yorker
+              </a>
+            </h3>
+            <img src="/images/ecom/failsafe/NYR_global_header.gif" width="110" height="90" border="0" usemap="#global-header-map"/>
+            <map name="global-header-map" id="global-header-map">
+              <area shape="rect" coords="0,1,109,15" alt="Subscribe to The New Yorker" rel="nofollow" target="_blank" href="https://w1.buysub.com/loc/NYR/ATGFailsafe" onclick="s_objectID=&quot;https://w1.buysub.com/loc/NYR/ATGFailsafe_4&quot;;return this.s_oc?this.s_oc(e):true"/>
+              <area shape="rect" coords="0,16,109,30" alt="Renew your Subscription to The New Yorker magazine" rel="nofollow" target="_blank" href="https://w1.buysub.com/servlet/CSGateway?cds_mag_code=NYR" onclick="s_objectID=&quot;https://w1.buysub.com/servlet/CSGateway?cds_mag_code=NYR_1&quot;;return this.s_oc?this.s_oc(e):true"/>
+              <area shape="rect" coords="0,31,109,45" alt="Give a Subscription to The New Yorker as a Gift" rel="nofollow" target="_blank" href="https://w1.buysub.com/loc/NYR/ATGFailsafeGift" onclick="s_objectID=&quot;https://w1.buysub.com/loc/NYR/ATGFailsafeGift_1&quot;;return this.s_oc?this.s_oc(e):true"/>
+              <area shape="rect" coords="0,46,109,71" alt="Subscribe to The New Yorker outside the USA" rel="nofollow" target="_blank" href="https://w1.buysub.com/loc/NYR/ATGFailsafeInt" onclick="s_objectID=&quot;https://w1.buysub.com/loc/NYR/ATGFailsafeInt_1&quot;;return this.s_oc?this.s_oc(e):true"/>
+              <area shape="rect" coords="0,72,109,86" alt="The New Yorker Digital Edition" target="_blank" rel="nofollow" href="http://newyorker.com/go/digitaledition" onclick="s_objectID=&quot;http://newyorker.com/go/digitaledition_1&quot;;return this.s_oc?this.s_oc(e):true"/>
+            </map>
+            <script type="text/javascript">
+//<![CDATA[
+
+CN.hearstQue.register(function(pageAds){
+    var div = null;
+
+    if ((typeof pageAds !== 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_HEADER !== 'undefined') && (CN.url.params('nojoy') != 1) ) {
+
+        div = document.getElementById("AMS_NYR_GLOBAL_HEADER");
+        div.innerHTML = "";
+
+        
+        jQuery("#AMS_NYR_GLOBAL_HEADER").html(pageAds.AMS_NYR_GLOBAL_HEADER.replace(/document.write\(.*\)/gi,"/*filtered by amg-magnet:document.write(...)*/"));
+        jQuery(div).css({
+            visibility: 'visible'
+        });
+    }
+
+    
+});
+
+
+//]]>
+            </script>
+          </div>
+        </div>
+      </div>
+      <!-- added condition so that subnav under every section is same as of first section, which is assumed to be HOME -->      <!-- added condition so that subnav under every section is same as of first section, which is assumed to be HOME -->      <!-- added condition so that subnav under every section is same as of first section, which is assumed to be HOME -->      <!-- added condition so that subnav under every section is same as of first section, which is assumed to be HOME -->      <!-- added condition so that subnav under every section is same as of first section, which is assumed to be HOME -->      <!-- added condition so that subnav under every section is same as of first section, which is assumed to be HOME -->      <!-- added condition so that subnav under every section is same as of first section, which is assumed to be HOME -->      <!-- added condition so that subnav under every section is same as of first section, which is assumed to be HOME -->      <!-- added condition so that subnav under every section is same as of first section, which is assumed to be HOME -->      <!-- added condition so that subnav under every section is same as of first section, which is assumed to be HOME -->      <div id="global-nav">
+        <ul id="global-nav-menu">
+          <li id="nav-subscribe">
+            <div id="global_navBar">
+              <div id="AMS_NYR_GLOBAL_NAVBAR" class="ecom-placement" title="Subscribe to The New Yorker magazine">
+                <a href="https://w1.buysub.com/loc/NYR/ATGFailsafe" id="header-subs-a" target="_blank" rel="nofollow" title="Subscribe to The New Yorker" onclick="s_objectID=&quot;https://w1.buysub.com/loc/NYR/ATGFailsafe_5&quot;;return this.s_oc?this.s_oc(e):true">
+                  <span>
+                    Subscribe
+                  </span>
+                </a>
+                <script type="text/javascript">
+//<![CDATA[
+
+CN.hearstQue.register(function(pageAds){
+    var div = null;
+
+    if ((typeof pageAds !== 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_NAVBAR !== 'undefined') && (CN.url.params('nojoy') != 1) ) {
+
+        div = document.getElementById("AMS_NYR_GLOBAL_NAVBAR");
+        div.innerHTML = "";
+
+        
+        jQuery("#AMS_NYR_GLOBAL_NAVBAR").html(pageAds.AMS_NYR_GLOBAL_NAVBAR.replace(/document.write\(.*\)/gi,"/*filtered by amg-magnet:document.write(...)*/"));
+        jQuery(div).css({
+            visibility: 'visible'
+        });
+    }
+
+    
+});
+
+
+//]]>
+                </script>
+              </div>
+            </div>
+            <script type="text/javascript">
+//<![CDATA[
+
+            CN.ecom.rolloverAd.init("rolloverAd")
+        
+//]]>
+            </script>
+          </li>
+          <li value="0" id="nav-home">
+            <a title="home" href="/" onclick="s_objectID=&quot;http://www.newyorker.com/_2&quot;;return this.s_oc?this.s_oc(e):true">
+              home
+            </a>
+          </li>
+          <li value="1" id="nav-magazine">
+            <a title="Magazine" href="/magazine" onclick="s_objectID=&quot;http://www.newyorker.com/magazine_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Magazine
+            </a>
+          </li>
+          <li value="2" id="nav-news">
+            <a title="News" href="/online/blogs/newsdesk" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/newsdesk_1&quot;;return this.s_oc?this.s_oc(e):true">
+              News
+            </a>
+          </li>
+          <li value="3" id="nav-culture">
+            <a title="Culture" href="/online/blogs/culture" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/culture_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Culture
+            </a>
+          </li>
+          <li value="4" id="nav-politics">
+            <a title="Politics" href="/politics" onclick="s_objectID=&quot;http://www.newyorker.com/politics_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Politics
+            </a>
+          </li>
+          <li value="5" id="nav-books">
+            <a title="Books" href="/books" onclick="s_objectID=&quot;http://www.newyorker.com/books_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Books
+            </a>
+          </li>
+          <li value="6" id="nav-science">
+            <a title="Science &amp; Tech" href="/tech" onclick="s_objectID=&quot;http://www.newyorker.com/tech_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Science &amp; Tech
+            </a>
+          </li>
+          <li value="7" id="nav-business">
+            <a title="Business" href="/business" onclick="s_objectID=&quot;http://www.newyorker.com/business_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Business
+            </a>
+          </li>
+          <li value="8" id="nav-cartoons">
+            <a title="Cartoons" href="/cartoons" onclick="s_objectID=&quot;http://www.newyorker.com/cartoons_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Cartoons
+            </a>
+          </li>
+          <li value="9" id="nav-humor">
+            <a title="Video" href="/video" onclick="s_objectID=&quot;http://www.newyorker.com/video_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Video
+            </a>
+          </li>
+        </ul>
+        <hr/>
+        <ul class="item-0 global-sub-menu">
+          <li class="first">
+            <a href="/archive" onclick="s_objectID=&quot;http://www.newyorker.com/archive_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Archive
+            </a>
+          </li>
+          <li>
+            <a href="/online/blogs/photobooth/" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/photobooth/_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Photo Booth
+            </a>
+          </li>
+          <li>
+            <a href="/online/blogs/shouts/" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/shouts/_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Daily Shouts
+            </a>
+          </li>
+          <li>
+            <a href="/online/blogs/currency" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/currency_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Currency
+            </a>
+          </li>
+          <li>
+            <a href="/online/blogs/comment/" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/comment/_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Daily Comment
+            </a>
+          </li>
+          <li>
+            <a href="/online/blogs/closeread/" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/closeread/_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Amy Davidson
+            </a>
+          </li>
+          <li>
+            <a href="/online/blogs/johncassidy/" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/johncassidy/_1&quot;;return this.s_oc?this.s_oc(e):true">
+              John Cassidy
+            </a>
+          </li>
+          <li>
+            <a href="/online/blogs/borowitzreport" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/borowitzreport_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Andy Borowitz
+            </a>
+          </li>
+          <li class="last">
+            <a href="http://www.condenaststore.com/~/new-yorker-store?utm_medium=referral&amp;utm_source=NewYorker&amp;utm_content=SHOP&amp;AID=1247905545" onclick="s_objectID=&quot;http://www.condenaststore.com/~/new-yorker-store?utm_medium=referral&amp;utm_source=NewYorker&amp;utm_con_1&quot;;return this.s_oc?this.s_oc(e):true">
+              <strong>
+                Shop
+              </strong>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="page" class="p">
+        <div id="content" class="pc">
+          <div id="main">
+            <!-- Standard Search Result Page Setting-->            <!--BEGIN: DEBUG ONLY END:DEBUG ONLY-->            <link rel="stylesheet" type="text/css" media="All" href="/css/results.css"/>
+            <script type="text/javascript" src="/js/form/jquery-ui-1.10.0.custom.min.js">
+            </script>
+            <script type="text/javascript" src="/js/form/formutils.js">
+            </script>
+            <div class="search_form">
+              <h2 id="onlinesearchresults">
+                Search Results
+              </h2>
+              <form id="search_form_1" name="search_form_1" method="get" action="/search">
+                <input type="hidden" name="qt" value="dismax"/>
+                <input type="hidden" name="rows" value="10"/>
+                <input type="hidden" name="sort" value="score desc"/>
+                <input type="hidden" name="fixedDate" id="fixedDate_input" value=""/>
+                <!-- End Hidden -->                <div class="row search-row">
+                  <input type="text" name="query" id="searchinput" value=""/>
+                  <!-- reset page and sort for new search (when search button is clicked) -->                  <input name="submit" class="submit" id="submit_1" value="Search" title="Submit" type="submit"/>
+                </div>
+                <div class="row date-filters group">
+                  <label>
+                    Date Range
+                  </label>
+                  <div class="date-filters-buttons">
+                    <input id="search-alldates" type="button" value="All Dates" class="activeFilter"/>
+                    <input id="search-week" type="button" value="Past Week"/>
+                    <input id="search-month" type="button" value="Past Month"/>
+                    <input id="search-year" type="button" value="Past Year"/>
+                    <input id="search-specificdates" type="button" value="Specific Dates"/>
+                  </div>
+                </div>
+                <div class="row date-selection">
+                  <fieldset>
+                    <div class="from-date">
+                      <label>
+                        From
+                      </label>
+                      <select id="month1" name="month1">
+                        <option selected="selected" value="-1"/>
+                        <option value="01">
+                          January
+                        </option>
+                        <option value="02">
+                          February
+                        </option>
+                        <option value="03">
+                          March
+                        </option>
+                        <option value="04">
+                          April
+                        </option>
+                        <option value="05">
+                          May
+                        </option>
+                        <option value="06">
+                          June
+                        </option>
+                        <option value="07">
+                          July
+                        </option>
+                        <option value="08">
+                          August
+                        </option>
+                        <option value="09">
+                          September
+                        </option>
+                        <option value="10">
+                          October
+                        </option>
+                        <option value="11">
+                          November
+                        </option>
+                        <option value="12">
+                          December
+                        </option>
+                      </select>
+                      <select id="day1" name="day1">
+                        <option selected="selected" value="-1"/>
+                        <option value="01">
+                          01
+                        </option>
+                        <option value="02">
+                          02
+                        </option>
+                        <option value="03">
+                          03
+                        </option>
+                        <option value="04">
+                          04
+                        </option>
+                        <option value="05">
+                          05
+                        </option>
+                        <option value="06">
+                          06
+                        </option>
+                        <option value="07">
+                          07
+                        </option>
+                        <option value="08">
+                          08
+                        </option>
+                        <option value="09">
+                          09
+                        </option>
+                        <option value="10">
+                          10
+                        </option>
+                        <option value="11">
+                          11
+                        </option>
+                        <option value="12">
+                          12
+                        </option>
+                        <option value="13">
+                          13
+                        </option>
+                        <option value="14">
+                          14
+                        </option>
+                        <option value="15">
+                          15
+                        </option>
+                        <option value="16">
+                          16
+                        </option>
+                        <option value="17">
+                          17
+                        </option>
+                        <option value="18">
+                          18
+                        </option>
+                        <option value="19">
+                          19
+                        </option>
+                        <option value="20">
+                          20
+                        </option>
+                        <option value="21">
+                          21
+                        </option>
+                        <option value="22">
+                          22
+                        </option>
+                        <option value="23">
+                          23
+                        </option>
+                        <option value="24">
+                          24
+                        </option>
+                        <option value="25">
+                          25
+                        </option>
+                        <option value="26">
+                          26
+                        </option>
+                        <option value="27">
+                          27
+                        </option>
+                        <option value="28">
+                          28
+                        </option>
+                        <option value="29">
+                          29
+                        </option>
+                        <option value="30">
+                          30
+                        </option>
+                        <option value="31">
+                          31
+                        </option>
+                      </select>
+                      <select id="year1" name="year1"/>
+                    </div>
+                    <div class="to-date">
+                      <label>
+                        To
+                      </label>
+                      <select id="month2" name="month2">
+                        <option selected="selected" value="-1"/>
+                        <option value="01">
+                          January
+                        </option>
+                        <option value="02">
+                          February
+                        </option>
+                        <option value="03">
+                          March
+                        </option>
+                        <option value="04">
+                          April
+                        </option>
+                        <option value="05">
+                          May
+                        </option>
+                        <option value="06">
+                          June
+                        </option>
+                        <option value="07">
+                          July
+                        </option>
+                        <option value="08">
+                          August
+                        </option>
+                        <option value="09">
+                          September
+                        </option>
+                        <option value="10">
+                          October
+                        </option>
+                        <option value="11">
+                          November
+                        </option>
+                        <option value="12">
+                          December
+                        </option>
+                      </select>
+                      <select id="day2" name="day2">
+                        <option selected="selected" value="-1"/>
+                        <option value="01">
+                          01
+                        </option>
+                        <option value="02">
+                          02
+                        </option>
+                        <option value="03">
+                          03
+                        </option>
+                        <option value="04">
+                          04
+                        </option>
+                        <option value="05">
+                          05
+                        </option>
+                        <option value="06">
+                          06
+                        </option>
+                        <option value="07">
+                          07
+                        </option>
+                        <option value="08">
+                          08
+                        </option>
+                        <option value="09">
+                          09
+                        </option>
+                        <option value="10">
+                          10
+                        </option>
+                        <option value="11">
+                          11
+                        </option>
+                        <option value="12">
+                          12
+                        </option>
+                        <option value="13">
+                          13
+                        </option>
+                        <option value="14">
+                          14
+                        </option>
+                        <option value="15">
+                          15
+                        </option>
+                        <option value="16">
+                          16
+                        </option>
+                        <option value="17">
+                          17
+                        </option>
+                        <option value="18">
+                          18
+                        </option>
+                        <option value="19">
+                          19
+                        </option>
+                        <option value="20">
+                          20
+                        </option>
+                        <option value="21">
+                          21
+                        </option>
+                        <option value="22">
+                          22
+                        </option>
+                        <option value="23">
+                          23
+                        </option>
+                        <option value="24">
+                          24
+                        </option>
+                        <option value="25">
+                          25
+                        </option>
+                        <option value="26">
+                          26
+                        </option>
+                        <option value="27">
+                          27
+                        </option>
+                        <option value="28">
+                          28
+                        </option>
+                        <option value="29">
+                          29
+                        </option>
+                        <option value="30">
+                          30
+                        </option>
+                        <option value="31">
+                          31
+                        </option>
+                      </select>
+                      <select id="year2" name="year2"/>
+                    </div>
+                  </fieldset>
+                </div>
+                <div id="searchOptions_1" class="row searchOptions">
+                  <div class="magOnly specific-author">
+                    <span>
+                      Result Type
+                    </span>
+                    <input type="radio" id="allContent" name="magOnly" checked="checked" value="on"/>
+                    <label for="allContent">
+                      All
+                    </label>
+                    <input type="radio" id="magOnly_1" name="magOnly" value="true"/>
+                    <label for="magOnly_1">
+                      Magazine Only
+                    </label>
+                  </div>
+                  <div class="specAuthor specific-author">
+                    <label for="searchonlyby_1">
+                      Specific Author:
+                    </label>
+                    <input type="text" name="bylquery" id="searchonlyby_1" value=""/>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- start search results -->            <div class="searchSortOptions">
+              <ul>
+                <li class="first ">
+                  <a href="?sort=publishdate+desc%2c+score+desc&amp;qt=dismax&amp;query=ibm&amp;rows=10&amp;" onclick="s_objectID=&quot;http://www.newyorker.com/search?sort=publishdate+desc%2c+score+desc&amp;qt=dismax&amp;query=ibm&amp;rows=10&amp;_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Newest
+                  </a>
+                </li>
+                <li class="selected">
+                  <a href="?sort=score+desc&amp;qt=dismax&amp;query=ibm&amp;rows=10&amp;" onclick="s_objectID=&quot;http://www.newyorker.com/search?sort=score+desc&amp;qt=dismax&amp;query=ibm&amp;rows=10&amp;_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Relevance
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="results_numbers">
+              
+            Results 1 - 10 of 157
+        
+            </div>
+            <div class="pagination">
+              <div class="align">
+                <form action="/search" class="paginatorForm" method="get">
+                  <input type="hidden" name="rows" value="10"/>
+                  <input type="hidden" name="query" value="ibm"/>
+                  <span class="paginationFirst_off">
+                    <!-- First_off -->                  </span>
+                  <span class="paginationPrevious_off">
+                    <!-- Previous_off -->                  </span>
+                  <input type="hidden" name="qt" value="dismax"/>
+                  <input type="hidden" name="sort" value="score desc"/>
+                  <span class="pageField">
+                    Page
+                    <input type="text" name="page" class="forumPaginator" value="1"/>
+                     of 16
+                  </span>
+                  <span class="paginationNext">
+                    <a href="/search?page=2&amp;sort=score+desc&amp;qt=dismax&amp;rows=10&amp;query=ibm" title="Next" class="paginationNext" onclick="s_objectID=&quot;http://www.newyorker.com/search?page=2&amp;sort=score+desc&amp;qt=dismax&amp;rows=10&amp;query=ibm_1&quot;;return this.s_oc?this.s_oc(e):true">
+                      Next &gt;
+                    </a>
+                  </span>
+                  <span class="paginationLast">
+                    <a href="/search?page=16&amp;sort=score+desc&amp;qt=dismax&amp;rows=10&amp;query=ibm" title="Last" class="paginationLast" onclick="s_objectID=&quot;http://www.newyorker.com/search?page=16&amp;sort=score+desc&amp;qt=dismax&amp;rows=10&amp;query=ibm_1&quot;;return this.s_oc?this.s_oc(e):true">
+                      &gt;|
+                    </a>
+                  </span>
+                </form>
+              </div>
+            </div>
+            <div class="results">
+              <div class="result">
+                <div class="captioned-photo">
+                  <div class="w">
+                    <a href="/online/blogs/books/2011/07/in-the-news-forgiven-fines-the-perils-of-critique.html" class="type-blogs" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/books/2011/07/in-the-news-forgiven-fines-the-perils-of-crit_1&quot;;return this.s_oc?this.s_oc(e):true">
+                      <img class="featureimg" alt="" src="http://blog.newyorker.com/online/blogs/books/thumbnail/books.jpg"/>
+                    </a>
+                  </div>
+                </div>
+                <div class="info">
+                  <div class="display-date">
+                    
+
+        July 26, 2011
+    
+
+                  </div>
+                  <h5 class="rubric">
+                    
+          Blog: Page-Turner
+        
+                  </h5>
+                  <h3 class="header">
+                    <a href="/online/blogs/books/2011/07/in-the-news-forgiven-fines-the-perils-of-critique.html" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/books/2011/07/in-the-news-forgiven-fines-the-perils-of-crit_2&quot;;return this.s_oc?this.s_oc(e):true">
+                       In the News: Forgiven Fines, Faster Fingers
+                    </a>
+                  </h3>
+                  <div class="text">
+                    Nick Davies, the Guardian reporter who pursued the Murdoch hacking scandal, has a book deal with Faber and Faber. When literary festivals are making money, shouldn’t writers see a bit of the cash? New...
+                  </div>
+                  <div class="byline">
+                    <div class="contributors">
+                      <span class="contributor">
+                        <strong>
+                          by 
+                        </strong>
+                        <a rel="author" href="/magazine/bios/stacey_mickelbart/search?contributorName=Stacey+Mickelbart" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/bios/stacey_mickelbart/search?contributorName=Stacey+Mickelbart_1&quot;;return this.s_oc?this.s_oc(e):true">
+                          Stacey Mickelbart
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- info -->              </div>
+              <!-- result -->              <div class="result odd">
+                <div class="captioned-photo">
+                  <div class="w">
+                    <a href="/reporting/2011/05/02/110502fa_fact_galchen" class="type-article" onclick="s_objectID=&quot;http://www.newyorker.com/reporting/2011/05/02/110502fa_fact_galchen_1&quot;;return this.s_oc?this.s_oc(e):true">
+                      <img class="featureimg" alt="" src="/images/2011/05/02/g120/110502_r20327_g120_cropth.jpg"/>
+                    </a>
+                  </div>
+                </div>
+                <div class="info">
+                  <div class="display-date">
+                    
+
+        May 02, 2011
+    
+
+                  </div>
+                  <h5 class="rubric">
+                    
+          Annals of Science
+        
+                  </h5>
+                  <h3 class="header">
+                    <a href="/reporting/2011/05/02/110502fa_fact_galchen" onclick="s_objectID=&quot;http://www.newyorker.com/reporting/2011/05/02/110502fa_fact_galchen_2&quot;;return this.s_oc?this.s_oc(e):true">
+                      <em class="de"/>
+                       Dream Machine
+                    </a>
+                  </h3>
+                  <div class="text">
+                    ANNALS OF SCIENCE about David Deutsch and quantum computing. On the outskirts of Oxford lives a brilliant and distressingly thin physicist named David Deutsch, who believes in multiple universes and has conceived of an as yet unbuildable computer to test their existence. Deutsch, who has never held a job, is…
+                  </div>
+                  <div class="byline">
+                    <div class="contributors">
+                      <span class="contributor">
+                        <strong>
+                          by 
+                        </strong>
+                        <a rel="author" href="/magazine/bios/rivka_galchen/search?contributorName=Rivka+Galchen" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/bios/rivka_galchen/search?contributorName=Rivka+Galchen_1&quot;;return this.s_oc?this.s_oc(e):true">
+                          Rivka Galchen
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- info -->              </div>
+              <!-- result -->              <div class="result">
+                <div class="captioned-photo">
+                  <div class="w">
+                    <a href="/reporting/2011/03/21/110321fa_fact_max" class="type-article" onclick="s_objectID=&quot;http://www.newyorker.com/reporting/2011/03/21/110321fa_fact_max_1&quot;;return this.s_oc?this.s_oc(e):true">
+                      <img class="featureimg" alt="" src="/images/2011/03/21/g120/110321_r20467_g120_cropth.jpg"/>
+                    </a>
+                  </div>
+                </div>
+                <div class="info">
+                  <div class="display-date">
+                    
+
+        Mar 21, 2011
+    
+
+                  </div>
+                  <h5 class="rubric">
+                    
+          Profiles
+        
+                  </h5>
+                  <h3 class="header">
+                    <a href="/reporting/2011/03/21/110321fa_fact_max" onclick="s_objectID=&quot;http://www.newyorker.com/reporting/2011/03/21/110321fa_fact_max_2&quot;;return this.s_oc?this.s_oc(e):true">
+                      <em class="de"/>
+                       The Prince’s Gambit
+                    </a>
+                  </h3>
+                  <div class="text">
+                    PROFILE of Norwegian chess star Magnus Carlsen. Writer describes a match between Carlsen and Vladimir Kramnik at the London Chess Classic in December. In the match, Carlsen had recovered from a situation that the Russian champion Garry Kasparov called “impossible” to force a draw. Carlsen, who had just turned twenty…
+                  </div>
+                  <div class="byline">
+                    <div class="contributors">
+                      <span class="contributor">
+                        <strong>
+                          by 
+                        </strong>
+                        <a rel="author" href="/magazine/bios/d_t_max/search?contributorName=D.+T.+Max" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/bios/d_t_max/search?contributorName=D.+T.+Max_1&quot;;return this.s_oc?this.s_oc(e):true">
+                          D. T. Max
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- info -->              </div>
+              <!-- result -->              <div class="result odd">
+                <div class="info">
+                  <div class="display-date">
+                    
+
+        February 14, 2011
+    
+
+                  </div>
+                  <h5 class="rubric">
+                    
+          Blog: Comment
+        
+                  </h5>
+                  <h3 class="header">
+                    <a href="/online/blogs/comment/2011/02/seabrook-jeopardy-watson.html" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/comment/2011/02/seabrook-jeopardy-watson.html_1&quot;;return this.s_oc?this.s_oc(e):true">
+                       A Date with Watson
+                    </a>
+                  </h3>
+                  <div class="text">
+                    Today is Valentine’s Day and, unlike previous February the fourteenths, this year guys who spend too much time on the computer to get dates will have an excellent excuse for staying home. For tonight,...
+                  </div>
+                  <div class="byline">
+                    <div class="contributors">
+                      <span class="contributor">
+                        <strong>
+                          by 
+                        </strong>
+                        <a rel="author" href="/magazine/bios/john_seabrook/search?contributorName=John+Seabrook" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/bios/john_seabrook/search?contributorName=John+Seabrook_1&quot;;return this.s_oc?this.s_oc(e):true">
+                          John Seabrook
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- info -->              </div>
+              <!-- result -->              <div class="result">
+                <div class="info">
+                  <div class="display-date">
+                    
+
+        February 14, 2011
+    
+
+                  </div>
+                  <h5 class="rubric">
+                    
+          Blog: Culture Desk
+        
+                  </h5>
+                  <h3 class="header">
+                    <a href="/online/blogs/culture/2011/02/seabrook-jeopardy-watson.html" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/culture/2011/02/seabrook-jeopardy-watson.html_1&quot;;return this.s_oc?this.s_oc(e):true">
+                       A Date with Watson
+                    </a>
+                  </h3>
+                  <div class="text">
+                    Today is Valentine’s Day and, unlike previous February the fourteenths, this year guys who spend too much time on the computer to get dates will have an excellent excuse for staying home. For tonight,...
+                  </div>
+                  <div class="byline">
+                    <div class="contributors">
+                      <span class="contributor">
+                        <strong>
+                          by 
+                        </strong>
+                        <a rel="author" href="/magazine/bios/john_seabrook/search?contributorName=John+Seabrook" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/bios/john_seabrook/search?contributorName=John+Seabrook_2&quot;;return this.s_oc?this.s_oc(e):true">
+                          John Seabrook
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- info -->              </div>
+              <!-- result -->              <div class="result odd">
+                <div class="info">
+                  <div class="display-date">
+                    
+
+        February 14, 2011
+    
+
+                  </div>
+                  <h5 class="rubric">
+                    
+          Blog: News Desk
+        
+                  </h5>
+                  <h3 class="header">
+                    <a href="/online/blogs/newsdesk/2011/02/seabrook-jeopardy-watson.html" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/newsdesk/2011/02/seabrook-jeopardy-watson.html_1&quot;;return this.s_oc?this.s_oc(e):true">
+                       A Date with Watson
+                    </a>
+                  </h3>
+                  <div class="text">
+                    Today is Valentine’s Day and, unlike previous February the fourteenths, this year guys who spend too much time on the computer to get dates will have an excellent excuse for staying home. For tonight,...
+                  </div>
+                  <div class="byline">
+                    <div class="contributors">
+                      <span class="contributor">
+                        <strong>
+                          by 
+                        </strong>
+                        <a rel="author" href="/magazine/bios/john_seabrook/search?contributorName=John+Seabrook" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/bios/john_seabrook/search?contributorName=John+Seabrook_3&quot;;return this.s_oc?this.s_oc(e):true">
+                          John Seabrook
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- info -->              </div>
+              <!-- result -->              <div class="result">
+                <div class="info">
+                  <div class="display-date">
+                    
+
+        February 15, 2011
+    
+
+                  </div>
+                  <h5 class="rubric">
+                    
+          Blog: Comment
+        
+                  </h5>
+                  <h3 class="header">
+                    <a href="/online/blogs/comment/2011/02/what-would-watsons-victory-mean.html" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/comment/2011/02/what-would-watsons-victory-mean.html_1&quot;;return this.s_oc?this.s_oc(e):true">
+                       What Would Watson’s Victory Mean?
+                    </a>
+                  </h3>
+                  <div class="text">
+                    Barring a miracle, it looks like Watson will defeat the two human “Jeopardy!” champions tomorrow night and claim the crown of world’s biggest nerd. Going into the contest, I had been telling myself that...
+                  </div>
+                  <div class="byline">
+                    <div class="contributors">
+                      <span class="contributor">
+                        <strong>
+                          by 
+                        </strong>
+                        <a rel="author" href="/magazine/bios/john_seabrook/search?contributorName=John+Seabrook" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/bios/john_seabrook/search?contributorName=John+Seabrook_4&quot;;return this.s_oc?this.s_oc(e):true">
+                          John Seabrook
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- info -->              </div>
+              <!-- result -->              <div class="result odd">
+                <div class="info">
+                  <div class="display-date">
+                    
+
+        February 15, 2011
+    
+
+                  </div>
+                  <h5 class="rubric">
+                    
+          Blog: Culture Desk
+        
+                  </h5>
+                  <h3 class="header">
+                    <a href="/online/blogs/culture/2011/02/what-would-watsons-victory-mean.html" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/culture/2011/02/what-would-watsons-victory-mean.html_1&quot;;return this.s_oc?this.s_oc(e):true">
+                       What Would Watson’s Victory Mean?
+                    </a>
+                  </h3>
+                  <div class="text">
+                    Barring a miracle, it looks like Watson will defeat the two human “Jeopardy!” champions tomorrow night and claim the crown of world’s biggest nerd. Going into the contest, I had been telling myself that...
+                  </div>
+                  <div class="byline">
+                    <div class="contributors">
+                      <span class="contributor">
+                        <strong>
+                          by 
+                        </strong>
+                        <a rel="author" href="/magazine/bios/john_seabrook/search?contributorName=John+Seabrook" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/bios/john_seabrook/search?contributorName=John+Seabrook_5&quot;;return this.s_oc?this.s_oc(e):true">
+                          John Seabrook
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- info -->              </div>
+              <!-- result -->              <div class="result">
+                <div class="info">
+                  <div class="display-date">
+                    
+
+        February 15, 2011
+    
+
+                  </div>
+                  <h5 class="rubric">
+                    
+          Blog: News Desk
+        
+                  </h5>
+                  <h3 class="header">
+                    <a href="/online/blogs/newsdesk/2011/02/what-would-watsons-victory-mean.html" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/newsdesk/2011/02/what-would-watsons-victory-mean.html_1&quot;;return this.s_oc?this.s_oc(e):true">
+                       What Would Watson’s Victory Mean?
+                    </a>
+                  </h3>
+                  <div class="text">
+                    Barring a miracle, it looks like Watson will defeat the two human “Jeopardy!” champions tomorrow night and claim the crown of world’s biggest nerd. Going into the contest, I had been telling myself that...
+                  </div>
+                  <div class="byline">
+                    <div class="contributors">
+                      <span class="contributor">
+                        <strong>
+                          by 
+                        </strong>
+                        <a rel="author" href="/magazine/bios/john_seabrook/search?contributorName=John+Seabrook" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/bios/john_seabrook/search?contributorName=John+Seabrook_6&quot;;return this.s_oc?this.s_oc(e):true">
+                          John Seabrook
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- info -->              </div>
+              <!-- result -->              <div class="result odd">
+                <div class="info">
+                  <div class="display-date">
+                    
+
+        February 14, 2011
+    
+
+                  </div>
+                  <h5 class="rubric">
+                    
+          Blog: Ask the Author
+        
+                  </h5>
+                  <h3 class="header">
+                    <a href="/online/blogs/ask/2011/02/live-chat-watson-on-jeopardy.html" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/ask/2011/02/live-chat-watson-on-jeopardy.html_1&quot;;return this.s_oc?this.s_oc(e):true">
+                       Live Chat: Watson on “Jeopardy!”
+                    </a>
+                  </h3>
+                  <div class="text">
+                    Sorry, game-show supercomputer enthusiasts: this chat has been cancelled. Read our blog posts on the man/machine matchup, by John Seabrook and Blake Eskin....
+                  </div>
+                  <div class="byline">
+                    <div class="contributors">
+                      <span class="contributor">
+                        <strong>
+                          by 
+                        </strong>
+                        <a rel="author" href="/magazine/bios/the_new_yorker/search?contributorName=The+New+Yorker" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/bios/the_new_yorker/search?contributorName=The+New+Yorker_1&quot;;return this.s_oc?this.s_oc(e):true">
+                          The New Yorker
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- info -->              </div>
+              <!-- result -->            </div>
+            <div class="results-numbers bottom">
+              <strong>
+                Results:
+              </strong>
+              <span>
+                1 - 10
+              </span>
+               of 
+              <span>
+                157
+              </span>
+            </div>
+            <div class="pagination">
+              <div class="align">
+                <form action="/search" class="paginatorForm" method="get">
+                  <input type="hidden" name="rows" value="10"/>
+                  <input type="hidden" name="query" value="ibm"/>
+                  <span class="paginationFirst_off">
+                    <!-- First_off -->                  </span>
+                  <span class="paginationPrevious_off">
+                    <!-- Previous_off -->                  </span>
+                  <input type="hidden" name="qt" value="dismax"/>
+                  <input type="hidden" name="sort" value="score desc"/>
+                  <input type="hidden" name="qt" value="dismax"/>
+                  <input type="hidden" name="sort" value="score desc"/>
+                  <span class="pageField">
+                    Page
+                    <input type="text" name="page" class="forumPaginator" value="1"/>
+                     of 16
+                  </span>
+                  <span class="paginationNext">
+                    <a href="/search?page=2&amp;sort=score+desc&amp;qt=dismax&amp;rows=10&amp;query=ibm" title="Next" class="paginationNext" onclick="s_objectID=&quot;http://www.newyorker.com/search?page=2&amp;sort=score+desc&amp;qt=dismax&amp;rows=10&amp;query=ibm_2&quot;;return this.s_oc?this.s_oc(e):true">
+                      Next &gt;
+                    </a>
+                  </span>
+                  <span class="paginationLast">
+                    <a href="/search?page=16&amp;sort=score+desc&amp;qt=dismax&amp;rows=10&amp;query=ibm" title="Last" class="paginationLast" onclick="s_objectID=&quot;http://www.newyorker.com/search?page=16&amp;sort=score+desc&amp;qt=dismax&amp;rows=10&amp;query=ibm_2&quot;;return this.s_oc?this.s_oc(e):true">
+                      &gt;|
+                    </a>
+                  </span>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- start yrail -->        <div id="yrail" class="py">
+          <script type="text/javascript">
+//<![CDATA[
+
+    //<!--
+    function isLoggedIn() {
+        var cookie_name="amg_user";
+        var nameEQ = cookie_name + "=";
+        var ca = document.cookie.split(';');
+        for (var i=0; i<ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return true;
+        }
+        return false;
+    }
+
+    function getCookie(cname){
+        var C = document.cookie.split(';'), c;
+        while(c = C.pop()) {
+            c = c.replace(/^\s*/, '');
+            if (c.indexOf(cname+'=') == 0){
+                return c.substring(cname.length + 1, c.length);
+            }
+        }
+        return false;
+    }
+
+    function username(charLimit){
+        var aur = getCookie('amg_user_record');
+        var username = aur ? aur.replace(/.*username=([^|]+).*/,"$1") : false;
+
+        // check length.
+        var nameLen = username.length;
+        if (nameLen > charLimit) {
+          return username.substring(0, length+22) + "&#8230;";
+        }
+
+        return username;
+    }
+
+    function contestname(){
+        var pathObj = window.location.pathname.toString().split("/");
+        for (var i = 0; i < pathObj.length; i++){
+          if ( pathObj[i] == 'photocontests'){
+              var contestname = pathObj[i+1];
+          }
+        }
+        return contestname;
+    }
+    //-->
+
+//]]>
+          </script>
+          <div id="loginbx">
+            <div id="login">
+              <script type="text/javascript">
+//<![CDATA[
+
+            //<!--
+            var splitreg = "";
+            if (window.location.pathname.match(/\/photocontests/) != null){
+                splitreg="/photocontests/"+contestname();
+            }
+            if (isLoggedIn()) {
+
+            document.write('<span id="ui"class="welcome">Welcome <span id="opts"><span>'+ username(23) + '</span> &#124; <a href="/user'+ splitreg +'/logout" class="first">Logout<\/a> &#124; <a href="/magazine'+ splitreg +'/registration?intcid=registration_help">Help<\/a> &#124; <a href="/user'+ splitreg +'/update">Profile<\/a><\/span><\/span>');
+
+            } else {
+                if(window.location.pathname.match(/\/magazine\/registration/) == null){
+                    document.write('<span id="ui" class="welcome">Welcome <span id="opts"><a href="/user'+ splitreg +'/login" class="first">Sign in<\/a> &#124; <a href="/magazine'+ splitreg +'/registration?intcid=registration_help">Help<\/a> &#124; <a href="/user'+ splitreg +'/registration">Register<\/a><\/span><\/span>');
+                } else {
+                    document.write('<span id="ui" class="welcome">Welcome <span id="opts"><a href="/user'+ splitreg +'/login" class="first">Sign in<\/a> &#124; <a href="/user'+ splitreg +'/registration">Register<\/a><\/span><\/span>');
+                }
+            }
+            //-->
+        
+//]]>
+              </script>
+              <span id="ui" class="welcome">
+                Welcome 
+                <span id="opts">
+                  <a href="/user/login" class="first" onclick="s_objectID=&quot;http://www.newyorker.com/user/login_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Sign in
+                  </a>
+                   | 
+                  <a href="/magazine/registration?intcid=registration_help" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/registration?intcid=registration_help_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Help
+                  </a>
+                   | 
+                  <a href="/user/registration" onclick="s_objectID=&quot;http://www.newyorker.com/user/registration_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Register
+                  </a>
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="yrcomponent yrail-search">
+            <form name="search_form_rail" id="search_form_rail" action="/search" class="paginatorForm" method="get">
+              <div class="row">
+                <input type="hidden" name="qt" value="dismax"/>
+                <input type="hidden" name="sort" value="score desc"/>
+                <input type="text" name="query" id="results-search-rail" value="Search Web site"/>
+                <button name="submit" class="submit" id="submit_rail" title="Search" type="submit">
+                  Go
+                </button>
+              </div>
+            </form>
+          </div>
+          <!-- FEATURES POSTION 1 -->          <div id="position1_yrail">
+            <div id="ps1_fs1_yrail" class="features tabs">
+              <div class="feature-tabs">
+                <h5 class="feature-label most-viewed"/>
+                <h2 class="tab" id="tab-most-viewed">
+                  Most Popular
+                </h2>
+                <div id="most-viewed" class="tab-content">
+                </div>
+                <h2 class="tab" id="tab-most-emailed">
+                  MOST E-MAILED
+                </h2>
+                <div id="most-emailed" class="tab-content">
+                </div>
+                <h2 class="tab" id="ps1_fs1_features-tab-3">
+                  This Issue
+                </h2>
+                <div class="tab-content">
+                  <div class="feature manual last">
+                    <h3 class="header">
+                      
+            
+                This Issue
+            
+        
+                    </h3>
+                    <div class="blurb">
+                      <ul class="links">
+                        <li class=" first">
+                          <a href="/magazine" onclick="s_objectID=&quot;http://www.newyorker.com/magazine_2&quot;;return this.s_oc?this.s_oc(e):true">
+                            Table of Contents
+                          </a>
+                        </li>
+                        <li class="blurb-links-even">
+                          <a href="/talk/comment/2014/01/20/140120taco_talk_talbot" onclick="s_objectID=&quot;http://www.newyorker.com/talk/comment/2014/01/20/140120taco_talk_talbot_1&quot;;return this.s_oc?this.s_oc(e):true">
+                            Margaret Talbot: The 
+                            <small>
+                              COINTELPRO
+                            </small>
+                             burglars.
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/reporting/2014/01/20/140120fa_fact_goodyear" onclick="s_objectID=&quot;http://www.newyorker.com/reporting/2014/01/20/140120fa_fact_goodyear_1&quot;;return this.s_oc?this.s_oc(e):true">
+                            Dana Goodyear: The valley-fever menace.
+                          </a>
+                        </li>
+                        <li class="blurb-links-even">
+                          <a href="/talk/2014/01/20/140120ta_talk_mcgrath" onclick="s_objectID=&quot;http://www.newyorker.com/talk/2014/01/20/140120ta_talk_mcgrath_1&quot;;return this.s_oc?this.s_oc(e):true">
+                            Ben McGrath: New Jersey’s Bridgegate.
+                          </a>
+                        </li>
+                        <li class=" last">
+                          <a href="/arts/critics/television/2014/01/20/140120crte_television_nussbaum" onclick="s_objectID=&quot;http://www.newyorker.com/arts/critics/television/2014/01/20/140120crte_television_nussbaum_1&quot;;return this.s_oc?this.s_oc(e):true">
+                            Emily Nussbaum: “Looking,” “Episodes.”
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="yrail_ads">
+            <div class="yrail_ad_wrap">
+              <div id="yrailTop300x250_frame" class="displayAd displayAd300x250Js" data-cb-ad-id="yrailTop300x250_frame">
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+
+    //<!--
+        
+        CN.dart.call('yrailTop', {sz:'300x250', kws:["top"]});
+    //-->
+    
+//]]>
+              </script>
+            </div>
+          </div>
+          <div class="yrcomponent">
+            <div class="yrpromo">
+              <div id="AMS_NYR_GLOBAL_RIGHTRAIL_A" class="ecom-placement">
+                <a href="https://w1.buysub.com/loc/NYR/ATGFailsafe" target="_blank" rel="nofollow" title="Subscribe to The New Yorker" onclick="s_objectID=&quot;https://w1.buysub.com/loc/NYR/ATGFailsafe_6&quot;;return this.s_oc?this.s_oc(e):true">
+                  <img src="/images/ecom/failsafe/right_rail_A.gif" alt="Subscribe to The New Yorker" border="0"/>
+                </a>
+                <script type="text/javascript">
+//<![CDATA[
+
+CN.hearstQue.register(function(pageAds){
+    var div = null;
+
+    if ((typeof pageAds !== 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_RIGHTRAIL_A !== 'undefined') && (CN.url.params('nojoy') != 1) ) {
+
+        div = document.getElementById("AMS_NYR_GLOBAL_RIGHTRAIL_A");
+        div.innerHTML = "";
+
+        
+        jQuery("#AMS_NYR_GLOBAL_RIGHTRAIL_A").html(pageAds.AMS_NYR_GLOBAL_RIGHTRAIL_A.replace(/document.write\(.*\)/gi,"/*filtered by amg-magnet:document.write(...)*/"));
+        jQuery(div).css({
+            visibility: 'visible'
+        });
+    }
+
+    
+});
+
+
+//]]>
+                </script>
+              </div>
+            </div>
+          </div>
+          <div class="yrail_textads">
+            <div class="yrail_ad_wrap">
+              <div id="yrailText4x1_frame" class="displayAd displayAd4x1Js" data-cb-ad-id="yrailText4x1_frame">
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+
+    //<!--
+        
+        CN.dart.call('yrailText', {sz:'4x1', kws:["top"]});
+    //-->
+    
+//]]>
+              </script>
+            </div>
+          </div>
+          <div id="sponsorship-ad" class="sponsor-ad">
+            <div class="yrail_sponsor_wrap">
+              <div id="sponsor120x60_frame" class="displayAd displayAd120x60Js" data-cb-ad-id="sponsor120x60_frame">
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+
+    //<!--
+        
+        CN.dart.call('sponsor', {sz:'120x60', kws:[], collapse: true});
+    //-->
+    
+//]]>
+              </script>
+            </div>
+          </div>
+          <!-- FEATURES POSTION 2 -->          <div id="position2_yrail">
+            <div id="ps2_fs1_yrail" class="features">
+              <div class="feature manual imagebottom first">
+                <h3 class="header">
+                  <img src="/images/NY-digital.gif" alt="Newyorker Digital" class="featurehed"/>
+                </h3>
+                <div class="blurb">
+                  <div class="text">
+                    <ul id="social">
+                      <li id="fb">
+                        <a target="_blank" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;https://www.facebook.com/newyorker_1&quot;;return this.s_oc?this.s_oc(e):true" href="https://www.facebook.com/newyorker">
+                          Newyorker on Facebook
+                        </a>
+                      </li>
+                      <li id="twitter">
+                        <a target="_blank" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://twitter.com/#!/newyorker_1&quot;;return this.s_oc?this.s_oc(e):true" href="http://twitter.com/#!/newyorker">
+                          Newyorker on Twitter
+                        </a>
+                      </li>
+                      <li id="tumblr">
+                        <a target="_blank" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://newyorker.tumblr.com/_1&quot;;return this.s_oc?this.s_oc(e):true" href="http://newyorker.tumblr.com/">
+                          Newyorker on Tumblr
+                        </a>
+                      </li>
+                      <li id="google">
+                        <a target="_blank" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;https://plus.google.com/107786469140133631773/posts_1&quot;;return this.s_oc?this.s_oc(e):true" href="https://plus.google.com/107786469140133631773/posts">
+                          Newyorker on google+
+                        </a>
+                      </li>
+                      <li id="pinterest">
+                        <a target="_blank" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://pinterest.com/source/newyorker.com/_1&quot;;return this.s_oc?this.s_oc(e):true" href="http://pinterest.com/source/newyorker.com/">
+                          Newyorker on Pinterest
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="social-tablet">
+                      <a href="http://www.newyorker.com/magazine/apps" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/apps_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Tablet, mobile and more
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="feature" id="newsletter-form">
+                <h5 class="feature-label newsletters">
+                  Sign up for email newsletters
+                </h5>
+                <form name="newslettersForm" action="https://secure.newyorker.com/services/newsletters" method="post">
+                  <fieldset>
+                    <input type="hidden" name="toolkit.application" value="newsletter"/>
+                    <input type="hidden" name="toolkit.applicationId" value=""/>
+                    <input type="hidden" name="formName" value="shortForm"/>
+                    <input type="hidden" name="partnerCode" value=""/>
+                    <input type="hidden" name="sourceCode" value=""/>
+                    <!--start newsletter input -->                    <fieldset>
+                      <label for="newsletter-email" class="replace"/>
+                      <div>
+                        <input name="email" id="newsletter-email" type="text"/>
+                        <button type="submit" name="submit-newsletter" id="submit-newsletter"/>
+                      </div>
+                    </fieldset>
+                    <ul class="collapse">
+                      <li>
+                        <input id="newsletter.217" name="newsletterAndVersions" value="newsletter.217" type="checkbox"/>
+                        <label for="newsletter.217"/>
+                        <div>
+                          This Week: Links to articles and Web-only features in your inbox every Monday.
+                        </div>
+                        <input type="hidden" name="handler.newsletter" value="handler.newsletter.217."/>
+                        <input type="hidden" name="handler.newsletter.217.newsletterId" value="217"/>
+                        <input type="hidden" name="handler.newsletter.217.isRequired" value="true"/>
+                      </li>
+                      <li>
+                        <input id="newsletter.442" name="newsletterAndVersions" value="newsletter.442" type="checkbox"/>
+                        <label for="newsletter.442"/>
+                        <div>
+                          Cartoons: A weekly note from the New Yorker's cartoon editor.
+                        </div>
+                        <input type="hidden" name="handler.newsletter" value="handler.newsletter.442."/>
+                        <input type="hidden" name="handler.newsletter.442.newsletterId" value="442"/>
+                        <input type="hidden" name="handler.newsletter.442.isRequired" value="true"/>
+                      </li>
+                      <li>
+                        <input id="newsletter.5122" name="newsletterAndVersions" value="newsletter.5122" type="checkbox"/>
+                        <label for="newsletter.5122"/>
+                        <div>
+                          Daily: What's new today on newyorker.com.
+                        </div>
+                        <input type="hidden" name="handler.newsletter" value="handler.newsletter.5122."/>
+                        <input type="hidden" name="handler.newsletter.5122.newsletterId" value="5122"/>
+                        <input type="hidden" name="handler.newsletter.5122.isRequired" value="true"/>
+                      </li>
+                      <li>
+                        <input id="newsletter.5129" name="newsletterAndVersions" value="newsletter.5129" type="checkbox"/>
+                        <label for="newsletter.5129"/>
+                        <div>
+                          Receive all the latest fake news from The Borowitz Report.
+                        </div>
+                        <input type="hidden" name="handler.newsletter" value="handler.newsletter.5129."/>
+                        <input type="hidden" name="handler.newsletter.5129.newsletterId" value="5129"/>
+                        <input type="hidden" name="handler.newsletter.5129.isRequired" value="true"/>
+                      </li>
+                    </ul>
+                    <!--end  newsletter input -->                  </fieldset>
+                </form>
+                <div id="newsletter-disclaimer">
+                  
+      I understand and agree that registration on or use of this site constitutes agreement to its 
+                  <a href="http://www.condenast.com/services/privacy/" target="_blank" onclick="s_objectID=&quot;http://www.condenast.com/services/privacy/_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    User Agreement
+                  </a>
+                  , and 
+                  <a href="http://www.condenast.com/services/privacy/" target="_blank" onclick="s_objectID=&quot;http://www.condenast.com/services/privacy/_2&quot;;return this.s_oc?this.s_oc(e):true">
+                    Privacy Policy
+                  </a>
+                  .
+    
+                </div>
+              </div>
+            </div>
+            <div id="ps2_fs2_yrail" class="features set7">
+              <div class="feature manual imagebottom first">
+                <h3 class="header">
+                  <a href="/magazine/apps" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/apps_2&quot;;return this.s_oc?this.s_oc(e):true">
+                    Tablet &amp; Mobile
+                    <br/>
+                    Editions
+                  </a>
+                </h3>
+                <div class="blurb">
+                </div>
+                <div id="media-count-1-container" class="media">
+                  <div class="photo" id="media-count-1">
+                    <div class="w">
+                      <a href="/magazine/apps" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/apps_3&quot;;return this.s_oc?this.s_oc(e):true">
+                        <img src="/images/permanent/p290/perm_tablet-and-mobile_p290.jpg" alt="" title=""/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features-footer footer">
+                <a href="/magazine/apps" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/apps_4&quot;;return this.s_oc?this.s_oc(e):true">
+                </a>
+                <center>
+                  <a href="/magazine/apps" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/apps_5&quot;;return this.s_oc?this.s_oc(e):true">
+                    <big>
+                      Every story, every cartoon, 
+                      <br/>
+                      every Monday.
+                    </big>
+                  </a>
+                </center>
+              </div>
+            </div>
+          </div>
+          <!-- FEATURES POSTION 3 -->          <div id="position3_yrail">
+            <div id="ps3_fs1_yrail" class="features set6">
+              <div class="feature manual imagetop first">
+                <div class="blurb">
+                  <div class="text">
+                    <em class="de"/>
+                    <small>
+                      <a href="http://archives.newyorker.com/" onclick="s_objectID=&quot;http://archives.newyorker.com/_1&quot;;return this.s_oc?this.s_oc(e):true">
+                        Available to subscribers via the complete archive
+                      </a>
+                      .
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="ps3_fs2_yrail" class="features set17">
+              <h2 class="features-header header">
+                
+            
+                    
+                        
+                                More From The New Yorker
+                            
+                    
+                
+        
+              </h2>
+              <div class="feature first goings on">
+                <h3 class="header">
+                  <a href="/online/blogs/goingson/2011/08/goings-on-about-town-app.html" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/goingson/2011/08/goings-on-about-town-app.html_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    The “Goings On” App
+                  </a>
+                </h3>
+                <div class="blurb">
+                  <div class="sub-header">
+                    <a href="/online/blogs/goingson/2011/08/goings-on-about-town-app.html" onclick="s_objectID=&quot;http://www.newyorker.com/online/blogs/goingson/2011/08/goings-on-about-town-app.html_2&quot;;return this.s_oc?this.s_oc(e):true">
+                      What to do in New York City, now with movie times/theaters, save-to-calendar, and bar reviews.
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feature even bank1">
+                <h3 class="header">
+                  <a href="https://cartoonbank.licensestream.com?utm_medium=referral&amp;utm_source=NewYorker&amp;utm_content=TNYRightRailB&amp;AID=644589833" onclick="s_objectID=&quot;https://cartoonbank.licensestream.com?utm_medium=referral&amp;utm_source=NewYorker&amp;utm_content=TNYRig_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    The Cartoon Bank
+                  </a>
+                </h3>
+                <div class="blurb">
+                  <div class="sub-header">
+                    <a href="https://cartoonbank.licensestream.com?utm_medium=referral&amp;utm_source=NewYorker&amp;utm_content=TNYRightRailB&amp;AID=644589833" onclick="s_objectID=&quot;https://cartoonbank.licensestream.com?utm_medium=referral&amp;utm_source=NewYorker&amp;utm_content=TNYRig_2&quot;;return this.s_oc?this.s_oc(e):true">
+                      License 
+                      <em>
+                        New Yorker
+                      </em>
+                       cartoons for professional use: Add humor to ad campaigns, books, newsletters, and more.
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feature The New Yorker store">
+                <h3 class="header">
+                  <a href="http://www.condenaststore.com/-st/New-Yorker-Current-Issue-Prints_c148582_.htm?utm_medium=referral&amp;utm_source=NewYorker&amp;utm_content=TNYURAIL&amp;AID=1247905545" onclick="s_objectID=&quot;http://www.condenaststore.com/-st/New-Yorker-Current-Issue-Prints_c148582_.htm?utm_medium=referra_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    The New Yorker Store
+                  </a>
+                </h3>
+                <div class="blurb">
+                  <div class="sub-header">
+                    <a href="http://www.condenaststore.com/-st/New-Yorker-Current-Issue-Prints_c148582_.htm?utm_medium=referral&amp;utm_source=NewYorker&amp;utm_content=TNYURAIL&amp;AID=1247905545" onclick="s_objectID=&quot;http://www.condenaststore.com/-st/New-Yorker-Current-Issue-Prints_c148582_.htm?utm_medium=referra_2&quot;;return this.s_oc?this.s_oc(e):true">
+                      Shop this week’s issue.
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feature even the next new thing">
+                <h3 class="header">
+                  <a href="http://itunes.apple.com/us/app/id370614765?mt=8" onclick="s_objectID=&quot;http://itunes.apple.com/us/app/id370614765?mt=8_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    “The Next New Thing”
+                  </a>
+                </h3>
+                <div class="blurb">
+                  <div class="sub-header">
+                    <a href="http://itunes.apple.com/us/app/id370614765?mt=8" onclick="s_objectID=&quot;http://itunes.apple.com/us/app/id370614765?mt=8_2&quot;;return this.s_oc?this.s_oc(e):true">
+                      Stories on innovation, in 
+                      <em>
+                        The New Yorker Reader
+                      </em>
+                       series for tablets and smartphones.
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feature archive">
+                <h3 class="header">
+                  <a href="http://archives.newyorker.com/" onclick="s_objectID=&quot;http://archives.newyorker.com/_2&quot;;return this.s_oc?this.s_oc(e):true">
+                    The Complete Archive, 1925-2013
+                  </a>
+                </h3>
+                <div class="blurb">
+                  <div class="sub-header">
+                    <a href="http://archives.newyorker.com/" onclick="s_objectID=&quot;http://archives.newyorker.com/_3&quot;;return this.s_oc?this.s_oc(e):true">
+                      A Web-based archive of issues from our first to this week’s.
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feature even audio">
+                <h3 class="header">
+                  <a href="http://www.audible.com/newyorker" onclick="s_objectID=&quot;http://www.audible.com/newyorker_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Audio Edition
+                  </a>
+                </h3>
+                <div class="blurb">
+                  <div class="sub-header">
+                    <a href="http://www.audible.com/newyorker" onclick="s_objectID=&quot;http://www.audible.com/newyorker_2&quot;;return this.s_oc?this.s_oc(e):true">
+                      Subscribe to a weekly download of selected articles from the magazine, at Audible.
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feature last on the town">
+                <h3 class="header">
+                  <a href="http://www.newyorkeronthetown.com/" onclick="s_objectID=&quot;http://www.newyorkeronthetown.com/_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    On the Town
+                  </a>
+                </h3>
+                <div class="blurb">
+                  <div class="sub-header">
+                    <a href="http://www.newyorkeronthetown.com/" onclick="s_objectID=&quot;http://www.newyorkeronthetown.com/_2&quot;;return this.s_oc?this.s_oc(e):true">
+                      Exclusive events and offers from 
+                      <em>
+                        The New Yorker
+                      </em>
+                      ’
+                      <em>
+                        s
+                      </em>
+                       advertising and promotion department.
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="yrail_ads">
+            <div class="yrail_ad_wrap">
+              <div id="yrailBottom300x250_frame" class="displayAd displayAd300x250Js" data-cb-ad-id="yrailBottom300x250_frame">
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+
+    //<!--
+        
+        CN.dart.call('yrailBottom', {sz:'300x250', kws:["bottom"]});
+    //-->
+    
+//]]>
+              </script>
+            </div>
+          </div>
+          <div class="yrcomponent">
+            <div id="AMS_NYR_GLOBAL_EMBEDDEDFORM" class="ecom-placement">
+              <script type="text/javascript">
+//<![CDATA[
+
+CN.hearstQue.register(function(pageAds){
+    var div = null;
+
+    if ((typeof pageAds !== 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_EMBEDDEDFORM !== 'undefined') && (CN.url.params('nojoy') != 1) ) {
+
+        div = document.getElementById("AMS_NYR_GLOBAL_EMBEDDEDFORM");
+        div.innerHTML = "";
+
+        
+        jQuery("#AMS_NYR_GLOBAL_EMBEDDEDFORM").html(pageAds.AMS_NYR_GLOBAL_EMBEDDEDFORM.replace(/document.write\(.*\)/gi,"/*filtered by amg-magnet:document.write(...)*/"));
+        jQuery(div).css({
+            visibility: 'visible'
+        });
+    }
+
+    
+});
+
+
+//]]>
+              </script>
+            </div>
+          </div>
+          <div class="yrcomponent">
+            <div class="yrpromo">
+              <div id="AMS_NYR_GLOBAL_RIGHTRAIL_B" class="ecom-placement">
+                <script type="text/javascript">
+//<![CDATA[
+
+CN.hearstQue.register(function(pageAds){
+    var div = null;
+
+    if ((typeof pageAds !== 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_RIGHTRAIL_B !== 'undefined') && (CN.url.params('nojoy') != 1) ) {
+
+        div = document.getElementById("AMS_NYR_GLOBAL_RIGHTRAIL_B");
+        div.innerHTML = "";
+
+        
+        jQuery("#AMS_NYR_GLOBAL_RIGHTRAIL_B").html(pageAds.AMS_NYR_GLOBAL_RIGHTRAIL_B.replace(/document.write\(.*\)/gi,"/*filtered by amg-magnet:document.write(...)*/"));
+        jQuery(div).css({
+            visibility: 'visible'
+        });
+    }
+
+    
+});
+
+
+//]]>
+                </script>
+              </div>
+            </div>
+          </div>
+          <div class="yrail_ecomm">
+            <div class="yrail_ecomm_wrap">
+              <div id="AMS_NYR_GLOBAL_RIGHTRAIL_C" class="ecom-placement">
+                <script type="text/javascript">
+//<![CDATA[
+
+CN.hearstQue.register(function(pageAds){
+    var div = null;
+
+    if ((typeof pageAds !== 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_RIGHTRAIL_C !== 'undefined') && (CN.url.params('nojoy') != 1) ) {
+
+        div = document.getElementById("AMS_NYR_GLOBAL_RIGHTRAIL_C");
+        div.innerHTML = "";
+
+        
+        jQuery("#AMS_NYR_GLOBAL_RIGHTRAIL_C").html(pageAds.AMS_NYR_GLOBAL_RIGHTRAIL_C.replace(/document.write\(.*\)/gi,"/*filtered by amg-magnet:document.write(...)*/"));
+        jQuery(div).css({
+            visibility: 'visible'
+        });
+    }
+
+    
+});
+
+
+//]]>
+                </script>
+              </div>
+            </div>
+          </div>
+          <!-- FEATURES POSTION 5 -->          <div id="position5_yrail">
+            <div id="ps5_fs1_yrail" class="features set17">
+              <div class="feature manual first">
+                <div class="blurb">
+                  <div class="text">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end yrail -->      </div>
+      <div id="footer">
+        <ul id="ft_1">
+          <li>
+            <a href="/magazine/aboutus/" onclick="s_objectID=&quot;http://www.newyorker.com/magazine/aboutus/_1&quot;;return this.s_oc?this.s_oc(e):true">
+              About Us
+            </a>
+          </li>
+          <li>
+            <a href="/contact/contactus" onclick="s_objectID=&quot;http://www.newyorker.com/contact/contactus_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Contact Us
+            </a>
+          </li>
+          <li>
+            <a href="/services/newsletters/demographics" onclick="s_objectID=&quot;http://www.newyorker.com/services/newsletters/demographics_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Newsletters
+            </a>
+          </li>
+          <li>
+            <a href="/go/blogs" onclick="s_objectID=&quot;http://www.newyorker.com/go/blogs_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Blogs
+            </a>
+          </li>
+          <li>
+            <a href="/archive" onclick="s_objectID=&quot;http://www.newyorker.com/archive_2&quot;;return this.s_oc?this.s_oc(e):true">
+              Archive
+            </a>
+          </li>
+          <li>
+            <a href="/services/presscenter" onclick="s_objectID=&quot;http://www.newyorker.com/services/presscenter_1&quot;;return this.s_oc?this.s_oc(e):true">
+              Press Center
+            </a>
+          </li>
+          <li class="rss">
+            <a href="/services/rss/summary" title="RSS Feeds" onclick="s_objectID=&quot;http://www.newyorker.com/services/rss/summary_1&quot;;return this.s_oc?this.s_oc(e):true">
+              RSS Feeds
+            </a>
+          </li>
+        </ul>
+        <div id="global-footer">
+          <div class="global-footer-nav">
+            <ul>
+              <li class="first" id="global-footer-nav-subservices">
+                <a href="http://w1.buysub.com/servlet/CSGateway?cds_mag_code=NYR" onclick="s_objectID=&quot;http://w1.buysub.com/servlet/CSGateway?cds_mag_code=NYR_1&quot;;return this.s_oc?this.s_oc(e):true">
+                  Subscription Services
+                </a>
+              </li>
+              <li id="global-footer-nav-careers">
+                <a href="http://www.condenast.com/careers" onclick="s_objectID=&quot;http://www.condenast.com/careers_1&quot;;return this.s_oc?this.s_oc(e):true">
+                  Careers
+                </a>
+              </li>
+              <li id="global-footer-nav-store">
+                <a href="http://www.condenaststore.com/-se/newyorkerstore.htm?utm_medium=referral&amp;utm_source=NewYorker&amp;utm_content=TNYFooter&amp;AID=1247905545" onclick="s_objectID=&quot;http://www.condenaststore.com/-se/newyorkerstore.htm?utm_medium=referral&amp;utm_source=NewYorker&amp;utm_1&quot;;return this.s_oc?this.s_oc(e):true">
+                  New Yorker Store
+                </a>
+              </li>
+              <li id="global-footer-nav-reprints">
+                <a href="http://www.condenast.com/reprints-permissions" onclick="s_objectID=&quot;http://www.condenast.com/reprints-permissions_1&quot;;return this.s_oc?this.s_oc(e):true">
+                  Reprints/Permissions
+                </a>
+              </li>
+              <li class="last" id="global-footer-nav-mediakit">
+                <a href="http://www.condenast.com/brands/new-yorker/media-kit/" onclick="s_objectID=&quot;http://www.condenast.com/brands/new-yorker/media-kit/_1&quot;;return this.s_oc?this.s_oc(e):true">
+                  The New Yorker Media Kit
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="global-footer-columns-container">
+            <div class="global-footer-logo">
+              <a href="http://www.condenast.com" onclick="s_objectID=&quot;http://www.condenast.com_1&quot;;return this.s_oc?this.s_oc(e):true">
+                <h3>
+                  Condé Nast Digital
+                </h3>
+              </a>
+            </div>
+            <div class="global-footer-more-about-links">
+              <p>
+                More news, politics, culture, business, and technology:
+              </p>
+              <ul>
+                <li>
+                  <a href="http://www.architecturaldigest.com" onclick="s_objectID=&quot;http://www.architecturaldigest.com_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Architectural Digest
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.golfdigest.com" onclick="s_objectID=&quot;http://www.golfdigest.com_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Golf Digest
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.gq.com" onclick="s_objectID=&quot;http://www.gq.com_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    GQ
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.vanityfair.com" onclick="s_objectID=&quot;http://www.vanityfair.com_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Vanity Fair
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.wired.com" onclick="s_objectID=&quot;http://www.wired.com_1&quot;;return this.s_oc?this.s_oc(e):true">
+                    Wired
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="global-footer-subscriptions">
+              <form action="" name="sub_dropmenus" id="sub_dropmenus">
+                <h3>
+                  Subscribe to a magazine:
+                </h3>
+                <select onchange="(this.options[this.selectedIndex].value) ? window.open(this.options[this.selectedIndex].value) : null" name="sub_list" id="sub_list" size="1">
+                  <option selected="selected" value="">
+                    Subscribe to a magazine
+                  </option>
+                  <option value="">
+                  </option>
+                  <option value="http://www.magazinestoresubscriptions.com?source=univdropdown">
+                    View All Titles
+                  </option>
+                  <option value="">
+                    - - - - - - - - - - - - - -
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Allure?source=SITEFOOTER">
+                    Allure
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_ArchitecturalDigest?source=SITEFOOTER">
+                    Architectural Digest
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_BonAppetite?source=SITEFOOTER">
+                    Bon Appétit
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Brides?source=SITEFOOTER">
+                    Brides
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_CondeNastTraveler?source=SITEFOOTER">
+                    Condé Nast Traveler
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Details?source=SITEFOOTER">
+                    Details
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Glamour?source=SITEFOOTER">
+                    Glamour
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GolfDigest?source=SITEFOOTER">
+                    Golf Digest
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GolfWorld?source=SITEFOOTER">
+                    Golf World
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GQ?source=SITEFOOTER">
+                    GQ
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Lucky?source=SITEFOOTER">
+                    Lucky
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Self?source=SITEFOOTER">
+                    Self
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_TeenVogue?source=SITEFOOTER">
+                    Teen Vogue
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_NewYorker?source=SITEFOOTER">
+                    The New Yorker
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_VanityFair?source=SITEFOOTER">
+                    Vanity Fair
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Vogue?source=SITEFOOTER">
+                    Vogue
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_W?source=SITEFOOTER">
+                    W
+                  </option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Wired?source=SITEFOOTER">
+                    Wired
+                  </option>
+                </select>
+              </form>
+            </div>
+            <div class="global-footer-sister-sites">
+              <form action="" name="mag_dropmenus" id="mag_dropmenus">
+                <h3>
+                  Visit our sister sites:
+                </h3>
+                <select onchange="(this.options[this.selectedIndex].value) ? window.open(this.options[this.selectedIndex].value) : null" name="mag_list" id="mag_list">
+                  <option selected="selected" value="">
+                    Visit our sister sites
+                  </option>
+                  <option value="">
+                    - - - - - - - - - - - - - -
+                  </option>
+                  <option value="http://www.allure.com">
+                    Allure
+                  </option>
+                  <option value="http://www.architecturaldigest.com">
+                    Architectural Digest
+                  </option>
+                  <option value="http://www.arstechnica.com">
+                    Ars Technica
+                  </option>
+                  <option value="http://www.bonappetit.com">
+                    Bon Appétit
+                  </option>
+                  <option value="http://www.brides.com">
+                    Brides.com
+                  </option>
+                  <option value="http://www.concierge.com/cntraveler">
+                    Condé Nast Traveler
+                  </option>
+                  <option value="http://www.concierge.com">
+                    Concierge
+                  </option>
+                  <option value="http://www.details.com">
+                    Details
+                  </option>
+                  <option value="http://www.epicurious.com">
+                    Epicurious
+                  </option>
+                  <option value="http://www.glamour.com">
+                    Glamour
+                  </option>
+                  <option value="http://www.golfdigest.com">
+                    Golf Digest
+                  </option>
+                  <option value="http://www.golfworld.com">
+                    Golf World
+                  </option>
+                  <option value="http://www.gq.com">
+                    GQ
+                  </option>
+                  <option value="http://www.hotelchatter.com">
+                    Hotel Chatter
+                  </option>
+                  <option value="http://www.jaunted.com">
+                    Jaunted
+                  </option>
+                  <option value="http://www.luckymag.com">
+                    Lucky
+                  </option>
+                  <option value="http://www.nutritiondata.com">
+                    NutritionData
+                  </option>
+                  <option value="http://www.reddit.com">
+                    Reddit
+                  </option>
+                  <option value="http://www.self.com">
+                    Self
+                  </option>
+                  <option value="http://www.style.com">
+                    Style
+                  </option>
+                  <option value="http://www.teenvogue.com">
+                    Teen Vogue
+                  </option>
+                  <option value="http://www.newyorker.com">
+                    The New Yorker
+                  </option>
+                  <option value="http://www.vanityfair.com">
+                    Vanity Fair
+                  </option>
+                  <option value="http://www.vegaschatter.com">
+                    Vegas Chatter
+                  </option>
+                  <option value="http://www.vogue.com">
+                    Vogue
+                  </option>
+                  <option value="http://www.wmagazine.com">
+                    W
+                  </option>
+                  <option value="http://www.wired.com">
+                    Wired
+                  </option>
+                </select>
+              </form>
+            </div>
+          </div>
+          <div class="global-footer-copyright">
+            <p>
+              
+                   © 2013 Condé Nast. All rights reserved
+              <br/>
+              
+
+                   Use of this site constitutes acceptance of our 
+              <a href="http://www.condenast.com/privacy-policy" onclick="s_objectID=&quot;http://www.condenast.com/privacy-policy_1&quot;;return this.s_oc?this.s_oc(e):true">
+                User Agreement
+              </a>
+               (effective August 1, 2011) and 
+              <a href="http://www.condenast.com/privacy-policy#privacypolicy" onclick="s_objectID=&quot;http://www.condenast.com/privacy-policy#privacypolicy_1&quot;;return this.s_oc?this.s_oc(e):true">
+                Privacy Policy
+              </a>
+               (effective August 1, 2011).
+                  
+              <br/>
+              <a href="http://www.condenast.com/privacy-policy#privacypolicy-california" onclick="s_objectID=&quot;http://www.condenast.com/privacy-policy#privacypolicy-california_1&quot;;return this.s_oc?this.s_oc(e):true">
+                Your California Privacy Rights
+              </a>
+              <br/>
+              
+                  The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast.
+             
+            </p>
+            <div class="add-choice">
+              <div class="add-choice-text">
+                <a href="http://www.condenast.com/privacy-policy#privacypolicy-optout" onclick="s_objectID=&quot;http://www.condenast.com/privacy-policy#privacypolicy-optout_1&quot;;return this.s_oc?this.s_oc(e):true">
+                  Ad Choices
+                </a>
+              </div>
+              <div class="add-choice-img">
+                <a href="http://www.condenast.com/privacy-policy#privacypolicy-optout" onclick="s_objectID=&quot;http://www.condenast.com/privacy-policy#privacypolicy-optout_2&quot;;return this.s_oc?this.s_oc(e):true">
+                  <img width="10" height="10" border="0" src="/css/i/global/ad_choices_arrow.png"/>
+                </a>
+              </div>
+            </div>
+            <img src="//view.atdmt.com/action/MSFT_CondeNet_AE_ExtData/v3/atc1.newyorker/atc2.search/" width="1" height="1" border="0" alt="msext"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer728x90_frame" class="displayAd displayAd728x90Js" data-cb-ad-id="footer728x90_frame">
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+
+    //<!--
+        
+        CN.dart.call('footer', {sz:'728x90', kws:["bottom"]});
+    //-->
+    
+//]]>
+    </script>
+    <script type="text/javascript" src="/appjs/stats/omniture.js">
+    </script>
+    <script type="text/javascript" src="/js/cn-fe-stats/zig.js">
+    </script>
+    <!-- START: TNY 3inch stats - SocialSharing - NEWYORKER-1555 -->    <script type="text/javascript">
+//<![CDATA[
+
+        /**
+         * Prevent Omniture from firing until SocialShare has a chance to load
+         * which is located in scripts bottom.
+         */
+         (function() {
+            var oldTracking = CN.stats.omniture.doPageTracking;
+            CN.stats.omniture.doPageTracking = function(s) {
+                if (s == 'track') {
+                    CN.stats.omniture.doPageTracking = oldTracking;
+                    CN.stats.omniture.doPageTracking();
+                }
+            };
+        }());
+    
+//]]>
+    </script>
+    <!-- END: TNY 3inch stats - SocialSharing - NEWYORKER-1555 -->    <script type="text/javascript">
+//<![CDATA[
+
+    //Omniture call to set page content type
+    CN.stats.omniture.setContentType("Search");
+
+//]]>
+    </script>
+    <div id="statsHolder">
+      <script type="text/javascript">
+//<![CDATA[
+
+        CN.stats.omniture.setSearchProps('ibm',157);
+    
+//]]>
+      </script>
+      <script language="JavaScript" type="text/javascript">
+//<![CDATA[
+
+        <!--
+            if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+        //-->
+    
+//]]>
+      </script>
+      <noscript>
+        
+        &lt;a href="http://www.omniture.com" title="Web Analytics"&gt;
+            &lt;img src="//condenast.112.2o7.net/b/ss/conde-newyorker/1/H.15.1--NS/0" height="1" width="1" border="0" alt="" /&gt;
+        &lt;/a&gt;
+    
+      </noscript>
+      <!--/DO NOT REMOVE/-->    </div>
+    <script type="text/javascript">
+//<![CDATA[
+
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+//]]>
+    </script>
+    <script src="http://www.google-analytics.com/ga.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    try {
+        var pageTracker = _gat._getTracker("UA-8293713-14");
+        pageTracker._trackPageview();
+    } catch(err) {}
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+            (function(){
+            var ns= window.CN || window.CNP;
+            ns.page = ns.page || {};
+            ns.page.config = ns.page.config || {};
+            ns.page.config.defaultTab = 0;
+            }())
+            
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+            CN.page = CN.page || {};
+            CN.page.feature = ['manual_imagebottom','newsletters','set7','tabs','mostviewed','mostemailed','manual','set6','manual_imagetop','set17'];
+        
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+       if (typeof CN.livefyre === "undefined") {
+           CN.livefyre = {};
+       }
+
+       CN.livefyre.configOptions = {
+               network             :   'newyorker.fyre.co',
+               moderatorFlagText   :   'moderator',
+               lfCookieName        :   'lt',
+               mostpopularEntries  :   5,
+               mostpopularAge      :   15,
+               trendingServer      :   'http://bootstrap.newyorker.fyre.co/api/v3.0/hottest/?site='
+       };
+
+       CN.livefyre.trendingUrl = "http://bootstrap.newyorker.fyre.co/api/v3.0/hottest/?site=320165";
+       CN.livefyre.mostCommentedEntries = 5;
+    
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    CN.livefyre.configOptions.pageConfig = {"siteId":"320165","el":"livefyre","collectionMeta":"eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6ImlibXwgU2VhcmNoIiwiY2hlY2tzdW0iOiIyMjVmN2U2OTA5NmZlN2ZjOGVjNzIwYjhhNDMwYTA4MCIsImFydGljbGVJZCI6Im55cl8iLCJ1cmwiOiJodHRwOi8vd3d3Lm5ld3lvcmtlci5jb20vc2VhcmNoIn0.uX9bEt3s2kAMlw7QsOS0ZxT6Mo_ZWX8-YWfvivcOF3k","checksum":"225f7e69096fe7fc8ec720b8a430a080","articleId":"nyr_"};
+
+//]]>
+    </script>
+    <script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js">
+    </script>
+    <script type="text/javascript" src="http://zor.livefyre.com/wjs/v1.0/javascripts/CommentCount.js">
+    </script>
+    <script type="text/javascript" src="/js/newyorker_bottom.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+        jQuery(function() {
+            if(s.pdvalue < 3){
+                CN.stats.insight.doTracking(); //fires insight tag
+            }
+        });
+    
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+        var _sf_async_config={};
+        _sf_async_config.uid = 50079;
+        _sf_async_config.domain = 'www.newyorker.com';
+        _sf_async_config.sections = 'search';
+        _sf_async_config.useCanonical = true;
+        
+        (function(){
+          function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src',
+               (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+               'js/chartbeat.js');
+            document.body.appendChild(e);
+          }
+          var oldonload = window.onload;
+          window.onload = (typeof window.onload != 'function') ?
+             loadChartbeat : function() { oldonload(); loadChartbeat(); };
+        })();
+    
+//]]>
+    </script>
+    <!-- START Parse.ly Include: Standard -->    <div id="parsely-root" style="display: none">
+      <div id="parsely-cfg" data-parsely-site="newyorker.com">
+      </div>
+      <script src="http://static.parsely.com/p.js">
+      </script>
+    </div>
+    <script>
+//<![CDATA[
+
+        (function(s, p, d) {
+          var h=d.location.protocol, i=p+"-"+s,
+              e=d.getElementById(i), r=d.getElementById(p+"-root"),
+              u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+              :"static."+p+".com";
+          if (e) return;
+          e = d.createElement(s); e.id = i; e.async = true;
+          e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+        })("script", "parsely", document);
+        
+//]]>
+    </script>
+    <!-- END Parse.ly Include -->    <script language="javascript" type="text/javascript" src="http://static.chartbeat.com/js/chartbeat.js">
+    </script>
+    <iframe style="display: none; width: 0; height: 0;" src="http://fast.condenast.demdex.net/dest3.html?d_nsid=0#http%3A%2F%2Fwww.newyorker.com%2Fsearch%3Fqt%3Ddismax%26sort%3Dscore%2Bdesc%26query%3Dibm">
+    </iframe>
+  </body>
+</html>

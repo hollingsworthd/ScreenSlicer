@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui"/>
+    <title>
+      HN Search powered by Algolia
+    </title>
+    <meta name="description" content="Hacker News Search, millions articles and comments at your fingertips."/>
+    <link rel="shortcut icon" href="/assets/favicon-5424ae3ecc5ecae8a9c0e0ff964bdc73.ico"/>
+    <link rel="stylesheet" media="all" href="/assets/application-fa055d3ea87499a74eb16dda0b91590b.css"/>
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js">
+    </script>
+    <script src="/assets/application-60b910ca709d8c69d510447ad1a13d9b.js">
+    </script>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="hWMKV5qaqRk4vJOpAUkQLIMAdLyM/sSgeBHOuT83+J0="/>
+    <link type="application/rss+xml" title="HN Front page" rel="alternate" href="https://hn.algolia.com/rss"/>
+    <link type="application/atom+xml" title="Latest HN items" rel="alternate" href="https://hn.algolia.com/latest.atom"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@algolia"/>
+    <meta name="twitter:title" content="HN Search powered by Algolia"/>
+    <meta name="twitter:description" content="Hacker News Search, millions articles and comments at your fingertips."/>
+    <meta name="twitter:image:src" content="https://hn.algolia.com/assets/yc-logo-653b752056fffe8d82090e4031455900.png"/>
+    <meta name="twitter:domain" content="hn.algolia.com"/>
+    <meta property="st:title" content="HN Search powered by Algolia"/>
+    <meta property="og:url" content="https://hn.algolia.com/?q=kimono"/>
+    <meta property="og:site_name" content="HN Search"/>
+    <meta property="og:title" content="HN Search powered by Algolia"/>
+    <meta property="og:description" content="Hacker News Search, millions articles and comments at your fingertips."/>
+    <meta property="og:image" content="https://hn.algolia.com/assets/yc-logo-653b752056fffe8d82090e4031455900.png"/>
+    <meta property="og:image:width" content="400"/>
+    <meta property="og:image:height" content="400"/>
+    <link rel="stylesheet" media="screen" href="/assets/home-6cd628e63a9d8701235557f07a703f62.css"/>
+    <script src="/assets/hnsearch-19de1c70132f533377c0affb1a7b0ae1.js">
+    </script>
+  </head>
+  <body>
+    <div role="main" id="main">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="span12">
+              <div id="modal-advanced-syntax" class="modal fade">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" data-dismiss="modal" class="close" aria-hidden="">
+                        ×
+                      </button>
+                      <h4 class="modal-title">
+                        Advanced search syntax
+                      </h4>
+                    </div>
+                    <div class="modal-body">
+                      <ul class="list-unstyled">
+                        <li>
+                          Use 
+                          <code>
+                            "
+                          </code>
+                           to match a particular sequence of terms 
+                          <code>
+                            "search engine"
+                          </code>
+                          ,
+                        </li>
+                        <li>
+                          Use 
+                          <code>
+                            -
+                          </code>
+                           to ensure a word won't appear in the result set 
+                          <code>
+                            search -optimization
+                          </code>
+                          ,
+                        </li>
+                        <li>
+                          Use 
+                          <code>
+                            author:USERNAME
+                          </code>
+                           or 
+                          <code>
+                            by:USERNAME
+                          </code>
+                           to filter by author,
+                        </li>
+                        <li>
+                          Use 
+                          <code>
+                            story:ID
+                          </code>
+                           to filter by story,
+                        </li>
+                        <li>
+                          Use 
+                          <code>
+                            points&gt;NUMBER
+                          </code>
+                           or 
+                          <code>
+                            points&lt;NUMBER
+                          </code>
+                           to filter by points,
+                        </li>
+                        <li>
+                          Use 
+                          <code>
+                            date&gt;TIMESTAMP
+                          </code>
+                           or 
+                          <code>
+                            date&lt;TIMESTAMP
+                          </code>
+                           to filter by date.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="search-panel">
+                <div id="style-toggler" class="hidden-xs">
+                  <a onclick="hnsearch.toggleStyle();; return false;" href="#">
+                    Change style 
+                    <span>
+                    </span>
+                  </a>
+                </div>
+                <h1 class="text-center">
+                  
+Search Hacker News
+
+                  <span class="by">
+                    
+ by
+
+                    <a title="Hosted full-text, numerical, faceted search" onclick="_gaq.push(['_link', 'http://www.algolia.com']); return false;" href="http://www.algolia.com/?utm_source=hn_search&amp;utm_medium=link&amp;utm_term=header&amp;utm_campaign=hn_algolia">
+                      <img style="height: 38px; margin-bottom: 12px;" src="//d3ibatyzauff7b.cloudfront.net/assets/algolia256x80.png" alt="Algolia"/>
+                    </a>
+                  </span>
+                </h1>
+                <form onsubmit="return false;" method="get" id="search-form" action="#">
+                  <div id="advanced-search" class="pull-right hidden-xs">
+                    <a href="#modal-advanced-syntax" data-toggle="modal">
+                      Advanced search syntax
+                    </a>
+                  </div>
+                  <ul id="item_type" class="list-unstyled list-inline">
+                    <li>
+                      <input type="radio" value="all" name="item_type" id="item_type_all"/>
+                      <label for="item_type_all">
+                        All
+                      </label>
+                    </li>
+                    <li>
+                      <input type="radio" value="story" name="item_type" id="item_type_story" checked="checked"/>
+                      <label for="item_type_story">
+                        Story
+                      </label>
+                    </li>
+                    <li>
+                      <input type="radio" value="comment" name="item_type" id="item_type_comment"/>
+                      <label for="item_type_comment">
+                        Comment
+                      </label>
+                    </li>
+                    <li>
+                      <input type="radio" value="poll" name="item_type" id="item_type_poll"/>
+                      <label for="item_type_poll">
+                        Poll
+                      </label>
+                    </li>
+                  </ul>
+                  <div class="search_box-wrapper">
+                    <div class="search_box">
+                      <div id="inputfield">
+                        <input type="text" value="kimono" spellcheck="false" placeholder="HN Stories, Comments, Source, Author ..." name="address" autocorrect="off" autocomplete="off"/>
+                      </div>
+                      <div class="searchbutton">
+                        <i class="icon-search icon-large"/>
+                      </div>
+                      <div class="branding visible-lg">
+                        
+Discover the
+
+                        <a href="http://www.algolia.com/?utm_source=hn_search&amp;utm_medium=link&amp;utm_term=discover&amp;utm_campaign=hn_algolia">
+                          realtime search engine
+                        </a>
+                        
+behind HN Search.
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-right">
+                    <div id="time" class="visible-xs">
+                      <a onclick="$(&quot;#created_at&quot;).toggleClass(&quot;opened&quot;); return false;" href="#">
+                        <small>
+                          Time 
+                          <span class="caret">
+                          </span>
+                        </small>
+                      </a>
+                    </div>
+                    <ul id="created_at" class="list-unstyled list-inline">
+                      <li>
+                        <input type="radio" value="last_24h" name="created_at" id="created_at_last_24h"/>
+                        <label for="created_at_last_24h">
+                          Last 24h
+                        </label>
+                      </li>
+                      <li>
+                        <input type="radio" value="past_week" name="created_at" id="created_at_past_week"/>
+                        <label for="created_at_past_week">
+                          Past week
+                        </label>
+                      </li>
+                      <li>
+                        <input type="radio" value="past_month" name="created_at" id="created_at_past_month"/>
+                        <label for="created_at_past_month">
+                          Past month
+                        </label>
+                      </li>
+                      <li>
+                        <input type="radio" value="forever" name="created_at" id="created_at_forever" checked="checked"/>
+                        <label for="created_at_forever">
+                          Forever
+                        </label>
+                      </li>
+                      <li>
+                        <input type="radio" value="sort_by_date" name="created_at" id="created_at_sort_by_date"/>
+                        <label for="created_at_sort_by_date">
+                          Sort by date
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </form>
+                <div id="stats">
+                  Page 
+                  <b>
+                    1 of 2
+                  </b>
+                  , got 
+                  <b>
+                    44 results
+                  </b>
+                   in 
+                  <b>
+                    <a href="http://www.algolia.com/?utm_source=hn_search&amp;utm_medium=link&amp;utm_term=results&amp;utm_campaign=hn_algolia">
+                      7 ms
+                    </a>
+                  </b>
+                </div>
+                <div id="hits">
+                  <div data-id="7066479" class="hit story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/7066479.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://kimonify.kimonolabs.com/kimload?url=http%3A%2F%2Fwww.kimonolabs.com%2Fwelcome.html">
+                          Show HN: 
+                          <em>
+                            Kimono
+                          </em>
+                           – Never write a web scraper again
+                        </a>
+                        
+            (http://kimonify.kimonolabs.com/kimload?url=http%3A%2F%2Fwww.kimonolabs.com%2Fwelcome.html)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          682
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=pranade">
+                          pranade
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2014-01-15T21:59:50.000Z" class="timeago">
+                          4 months ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=7066479">
+                          232 comments
+                        </a>
+                        <a href="/follow/7066479">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="2125428" class="hit odd story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/2125428.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://3weekstolive.wordpress.com">
+                          Lean Voyeurism: 8 guys hacking a Startup in 3 Weeks leave 
+                          <em>
+                            Kimono
+                          </em>
+                           wide open
+                        </a>
+                        
+            (http://3weekstolive.wordpress.com)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          41
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=justinwi">
+                          justinwi
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2011-01-20T21:42:57.000Z" class="timeago">
+                          3 years ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=2125428">
+                          14 comments
+                        </a>
+                        <a href="/follow/2125428">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="7068444" class="hit story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/7068444.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://www.kimonolabs.com/">
+                          <em>
+                            Kimono
+                          </em>
+                           - Turns websites into structured APIs
+                        </a>
+                        
+            (http://www.kimonolabs.com/)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          6
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=stangeek">
+                          stangeek
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2014-01-16T07:14:32.000Z" class="timeago">
+                          3 months ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=7068444">
+                          1 comment
+                        </a>
+                        <a href="/follow/7068444">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="2992583" class="hit odd story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/2992583.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://techcrunch.com/2011/09/13/twitter-analytics/">
+                          Twitter Opens The 
+                          <em>
+                            Kimono
+                          </em>
+                           On Web Publisher Analytics
+                        </a>
+                        
+            (http://techcrunch.com/2011/09/13/twitter-analytics/)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          4
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=taylorbuley">
+                          taylorbuley
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2011-09-13T17:59:24.000Z" class="timeago">
+                          3 years ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=2992583">
+                          0 comment
+                        </a>
+                        <a href="/follow/2992583">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="2439836" class="hit story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/2439836.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://www.fourhourworkweek.com/blog/2011/04/12/opening-the-kimono/">
+                          Opening the 
+                          <em>
+                            Kimono
+                          </em>
+                           to 200 People and Baring It All
+                        </a>
+                        
+            (http://www.fourhourworkweek.com/blog/2011/04/12/opening-the-
+                        <em>
+                          kimono
+                        </em>
+                        /)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          3
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=thankuz">
+                          thankuz
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2011-04-12T23:16:06.000Z" class="timeago">
+                          3 years ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=2439836">
+                          2 comments
+                        </a>
+                        <a href="/follow/2439836">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="7273479" class="hit odd story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/7273479.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="https://printshop.io/create/the-sochi-13">
+                          An Olympics Poster using the 
+                          <em>
+                            Kimono
+                          </em>
+                           Labs Sochi API
+                        </a>
+                        
+            (https://printshop.io/create/the-sochi-13)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          3
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=aarondf">
+                          aarondf
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2014-02-20T20:52:08.000Z" class="timeago">
+                          2 months ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=7273479">
+                          0 comment
+                        </a>
+                        <a href="/follow/7273479">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="6988287" class="hit story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/6988287.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://www.bitsofcents.com/post/71693310926/new-york-city-dominates-my-dealflow-and-other-semi">
+                          A VC's Open 
+                          <em>
+                            Kimono
+                          </em>
+                        </a>
+                        
+            (http://www.bitsofcents.com/post/71693310926/new-york-city-dominates-my-dealflow-and-other-semi)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          3
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=cheatar">
+                          cheatar
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2013-12-31T01:06:06.000Z" class="timeago">
+                          4 months ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=6988287">
+                          0 comment
+                        </a>
+                        <a href="/follow/6988287">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="7113628" class="hit odd story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/7113628.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://www.fastcolabs.com/3025295/kimono-could-be-the-gateway-drug-to-finally-get-you-coding">
+                          <em>
+                            Kimono
+                          </em>
+                           Could Be The Gateway Drug To Finally Get You Coding
+                        </a>
+                        
+            (http://www.fastcolabs.com/3025295/
+                        <em>
+                          kimono
+                        </em>
+                        -could-be-the-gateway-drug-to-finally-get-you-coding)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          2
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=maximesalomon">
+                          maximesalomon
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2014-01-24T06:24:01.000Z" class="timeago">
+                          3 months ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=7113628">
+                          0 comment
+                        </a>
+                        <a href="/follow/7113628">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="7493189" class="hit story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/7493189.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://www.kimonolabs.com/">
+                          <em>
+                            Kimono
+                          </em>
+                          : Turn websites into structured APIs from your browser in seconds
+                        </a>
+                        
+            (http://www.kimonolabs.com/)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          1
+                        </b>
+                         point
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=c2prods">
+                          c2prods
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2014-03-29T18:07:32.000Z" class="timeago">
+                          about a month ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=7493189">
+                          0 comment
+                        </a>
+                        <a href="/follow/7493189">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="7293909" class="hit odd story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/7293909.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://www.kimonolabs.com/sochi/showcase">
+                          <em>
+                            Kimono
+                          </em>
+                          : Sochi API Showcase
+                        </a>
+                        
+            (http://www.kimonolabs.com/sochi/showcase)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          1
+                        </b>
+                         point
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=heidijavi">
+                          heidijavi
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2014-02-24T22:41:20.000Z" class="timeago">
+                          2 months ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=7293909">
+                          0 comment
+                        </a>
+                        <a href="/follow/7293909">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="6488906" class="hit story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/6488906.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://on3dprinting.com/2013/10/03/3d-hubs-trends-3d-printer-usage/">
+                          3D Hubs Opens the 
+                          <em>
+                            Kimono
+                          </em>
+                           on 3D Printer Usage, MakerBot and Ultimaker on Top
+                        </a>
+                        
+            (http://on3dprinting.com/2013/10/03/3d-hubs-trends-3d-printer-usage/)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          1
+                        </b>
+                         point
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=on3dprinting">
+                          on3dprinting
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2013-10-03T13:59:30.000Z" class="timeago">
+                          7 months ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=6488906">
+                          0 comment
+                        </a>
+                        <a href="/follow/6488906">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="6375283" class="hit odd story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/6375283.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://www.inspiredinsider.com/andy-drish-dane-maxwell-thefoundation-interview">
+                           Founders open their 
+                          <em>
+                            kimono
+                          </em>
+                        </a>
+                        
+            (http://www.inspiredinsider.com/andy-drish-dane-maxwell-thefoundation-interview)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          1
+                        </b>
+                         point
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=jfw5dc">
+                          jfw5dc
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2013-09-12T16:52:53.000Z" class="timeago">
+                          8 months ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=6375283">
+                          0 comment
+                        </a>
+                        <a href="/follow/6375283">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="3746743" class="hit story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/3746743.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://untether.tv/2012/rim-making-the-right-move-opening-the-kimono-with-a-blackberry-10-dev-alpha-device//">
+                          RIM making the right move opening 
+                          <em>
+                            kimono
+                          </em>
+                           with a BlackBerry 10 Dev Alpha device
+                        </a>
+                        
+            (http://untether.tv/2012/rim-making-the-right-move-opening-the-
+                        <em>
+                          kimono
+                        </em>
+                        -with-a-blackberry-10-dev-alpha-device//)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          1
+                        </b>
+                         point
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=tr0ndizzle">
+                          tr0ndizzle
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2012-03-23T19:23:22.000Z" class="timeago">
+                          2 years ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=3746743">
+                          0 comment
+                        </a>
+                        <a href="/follow/3746743">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="3128061" class="hit odd story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/3128061.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://www.newyorker.com/reporting/2011/05/16/110516fa_fact_gladwell#til?currentPage=all&amp;til=1">
+                          Steve Jobs sold pre-IPO stock to get Xerox PARC "open its 
+                          <em>
+                            kimono
+                          </em>
+                          ."
+                        </a>
+                        
+            (http://www.newyorker.com/reporting/2011/05/16/110516fa_fact_gladwell#til?currentPage=all&amp;til=1)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          1
+                        </b>
+                         point
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=staunch">
+                          staunch
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2011-10-19T00:52:41.000Z" class="timeago">
+                          3 years ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=3128061">
+                          0 comment
+                        </a>
+                        <a href="/follow/3128061">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="1073397" class="hit story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/1073397.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://onlinedatingpost.com/archives/2010/01/okcupid-continues-to-open-the-kimono/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+corante%2FcLDg+%28Online+Dating+Insider%29">
+                          OKCupid Continues To Open The 
+                          <em>
+                            Kimono
+                          </em>
+                        </a>
+                        
+            (http://onlinedatingpost.com/archives/2010/01/okcupid-continues-to-open-the-
+                        <em>
+                          kimono
+                        </em>
+                        /?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+corante%2FcLDg+%28Online+Dating+Insider%29)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          1
+                        </b>
+                         point
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=tortilla">
+                          tortilla
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2010-01-24T16:07:23.000Z" class="timeago">
+                          4 years ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=1073397">
+                          0 comment
+                        </a>
+                        <a href="/follow/1073397">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="1366862" class="hit odd story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/1366862.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=1366862">
+                          Ask HN: % of Free to Paid?
+                        </a>
+                      </div>
+                      <div class="points">
+                        <b>
+                          83
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=ahoyhere">
+                          ahoyhere
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2010-05-21T09:41:50.000Z" class="timeago">
+                          4 years ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=1366862">
+                          39 comments
+                        </a>
+                        <a href="/follow/1366862">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                      <div class="story_text">
+                        <p>
+                          Who wants to "open the 
+                          <em>
+                            kimono
+                          </em>
+                          " a little on their SaaS experience? :) For the good of all, naturally.
+                        </p>
+                        <p>
+                          I'm looking for info on people's experiences of free:paid account ratios. Not just traffic:signup of paid accounts rates, but over time (after signups).
+                        </p>
+                        <p>
+                          Give to get: Freckle (http://letsfreckle.com) has a fairly typical conversion rate for signup - between 1 and 4%, on any given day, heavily dependent on the source/type of traffic. Overall, 7.8% of all our accounts are paid accounts.
+                        </p>
+                        <p>
+                          I'd also love any posts, essays, etc., that you know that discuss this rate. I haven't had much luck googling.
+                        </p>
+                        <p>
+                          EDIT: Made my intro more compelling ;)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="2012763" class="hit story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/2012763.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://www.youtube.com/watch?feature=player_detailpage&amp;v=pSYdwNHCmJA#t=1021s">
+                          Evernote honestly explains their absurd freemium conversion rate
+                        </a>
+                        
+            (http://www.youtube.com/watch?feature=player_detailpage&amp;v=pSYdwNHCmJA#t=1021s)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          2
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=jasonmcalacanis">
+                          jasonmcalacanis
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2010-12-16T17:19:08.000Z" class="timeago">
+                          3 years ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=2012763">
+                          12 comments
+                        </a>
+                        <a href="/follow/2012763">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                      <div class="story_text">
+                        <p>
+                          In this video the founder of @evernote goes open 
+                          <em>
+                            kimono
+                          </em>
+                           on conversion rates.
+                        </p>
+                        <p>
+                          3% overall
+only .5% in the first month
+2.5 years in over 20% pay
+                        </p>
+                        <p>
+                          Amazingly honest discussion from a $10M freemium business.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="7344008" class="hit odd story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/7344008.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://www.wired.com/design/2014/03/kimono/">
+                          Simple Data-Scraping Tool Could Change How Apps Are Made
+                        </a>
+                        
+            (http://www.wired.com/design/2014/03/
+                        <em>
+                          kimono
+                        </em>
+                        /)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          3
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=hua">
+                          hua
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2014-03-04T23:28:00.000Z" class="timeago">
+                          2 months ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=7344008">
+                          0 comment
+                        </a>
+                        <a href="/follow/7344008">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="7470413" class="hit story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/7470413.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://techcrunch.com/2014/03/25/y-combinator-winter-2014-batches-3-and-4-meet-kimono-labs-twotap-abacus-and-more/">
+                          Y Combinator Winter 2014, Batches 3 And 4
+                        </a>
+                        
+            (http://techcrunch.com/2014/03/25/y-combinator-winter-2014-batches-3-and-4-meet-
+                        <em>
+                          kimono
+                        </em>
+                        -labs-twotap-abacus-and-more/)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          2
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=maximesalomon">
+                          maximesalomon
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2014-03-26T00:13:30.000Z" class="timeago">
+                          about a month ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=7470413">
+                          0 comment
+                        </a>
+                        <a href="/follow/7470413">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="6257111" class="hit odd story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/6257111.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://venturefizz.com/blog/new-product-nanigans-opens-its-kimono-partners-ad-agencies-first-time#.UhYXz3M21xY.hackernews">
+                          Nanigans at the Tipping Point of Explosive Success, New Deals and Product
+                        </a>
+                        
+            (http://venturefizz.com/blog/new-product-nanigans-opens-its-
+                        <em>
+                          kimono
+                        </em>
+                        -partners-ad-agencies-first-time#.UhYXz3M21xY.hackernews)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          1
+                        </b>
+                         point
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=dbkeohane">
+                          dbkeohane
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2013-08-22T13:53:49.000Z" class="timeago">
+                          8 months ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=6257111">
+                          0 comment
+                        </a>
+                        <a href="/follow/6257111">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="3859096" class="hit story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/3859096.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://bits.blogs.nytimes.com/2012/04/18/google-opens-the-network-kimono/">
+                          Google Opens Up About Its Network
+                        </a>
+                        
+            (http://bits.blogs.nytimes.com/2012/04/18/google-opens-the-network-
+                        <em>
+                          kimono
+                        </em>
+                        /)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          1
+                        </b>
+                         point
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=iProject">
+                          iProject
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2012-04-18T17:24:54.000Z" class="timeago">
+                          2 years ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=3859096">
+                          0 comment
+                        </a>
+                        <a href="/follow/3859096">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="302387" class="hit odd story notypo">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/302387.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://www.thestandard.com/news/2008/09/11/yahoo-opens-kimono-press-market-yawns">
+                          Yahoo's desperate strategy blitz
+                        </a>
+                        
+            (http://www.thestandard.com/news/2008/09/11/yahoo-opens-
+                        <em>
+                          kimono
+                        </em>
+                        -press-market-yawns)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          1
+                        </b>
+                         point
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=ilamont">
+                          ilamont
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2008-09-12T14:00:13.000Z" class="timeago">
+                          6 years ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=302387">
+                          0 comment
+                        </a>
+                        <a href="/follow/302387">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="2794730" class="hit story">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/2794730.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://www.kimonosshizen.com.br/">
+                          <em>
+                            Kimonos
+                          </em>
+                           Shizen
+                        </a>
+                        
+            (http://www.kimonosshizen.com.br/)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          1
+                        </b>
+                         point
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=shizen">
+                          shizen
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2011-07-22T18:58:59.000Z" class="timeago">
+                          3 years ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=2794730">
+                          0 comment
+                        </a>
+                        <a href="/follow/2794730">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="4759821" class="hit odd story">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/4759821.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="http://kimondo.co.uk/elite-making-a-game-that-looks-as-good-as-the-box-art/">
+                          Elite running on a Raspberry Pi
+                        </a>
+                        
+            (http://
+                        <em>
+                          kimondo
+                        </em>
+                        .co.uk/elite-making-a-game-that-looks-as-good-as-the-box-art/)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          3
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=anigbrowl">
+                          anigbrowl
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2012-11-08T21:03:54.000Z" class="timeago">
+                          about a year ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=4759821">
+                          0 comment
+                        </a>
+                        <a href="/follow/4759821">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                  <div data-id="7298917" class="hit story">
+                    <div class="thumb pull-left hidden-xs">
+                      <img src="//drcs9k8uelb9s.cloudfront.net/7298917.png"/>
+                    </div>
+                    <div class="title_url">
+                      <div class="title">
+                        <a target="_blank" href="https://github.com/facebook/KVOController">
+                          Facebook open-sources KVOController – simpler key-value observing for iOS
+                        </a>
+                        
+            (https://github.com/facebook/KVOController)
+      
+                      </div>
+                      <div class="points">
+                        <b>
+                          23
+                        </b>
+                         points
+                      </div>
+                      <div class="author">
+                         by 
+                        <a target="_blank" href="https://news.ycombinator.com/user?id=kimon">
+                          <em>
+                            kimon
+                          </em>
+                        </a>
+                      </div>
+                      <div class="created_at">
+                        <abbr title="2014-02-25T17:21:00.000Z" class="timeago">
+                          2 months ago
+                        </abbr>
+                      </div>
+                      <div class="comments">
+                        <a target="_blank" href="https://news.ycombinator.com/item?id=7298917">
+                          14 comments
+                        </a>
+                        <a href="/follow/7298917">
+                          Follow
+                        </a>
+                      </div>
+                      <br/>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                  </div>
+                </div>
+                <div id="noresults" class="text-center" style="display: none;">
+                </div>
+                <div id="pagination" class="text-center">
+                  <ul class="pagination">
+                    <li class="disabled">
+                      <a href="javascript:void">
+                        «
+                      </a>
+                    </li>
+                    <li class="active">
+                      <a href="javascript:window.hnsearch.gotoPage(0)">
+                        1
+                      </a>
+                    </li>
+                    <li class="">
+                      <a href="javascript:window.hnsearch.gotoPage(1)">
+                        2
+                      </a>
+                    </li>
+                    <li class="">
+                      <a href="javascript:window.hnsearch.nextPage()">
+                        »
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div id="history" class="text-center">
+                  <small>
+                    <strong>
+                      1,320,790
+                    </strong>
+                     stories and 
+                    <strong>
+                      5,742,007
+                    </strong>
+                     comments indexed
+                  </small>
+                </div>
+              </div>
+              <script>
+//<![CDATA[
+
+  $(document).ready(function() {
+    window.hnsearch = new HNSearch('UJ5WYC0L7X', '8ece23f8eb07cd25d40262a1764599b1', 'Item_production', 'User_production');
+  });
+
+//]]>
+              </script>
+              <script id="hitTemplate" type="text/template">
+//<![CDATA[
+
+  &lt;div class="{{ classes }}" data-id="{{ item_id }}"&gt;
+    &lt;div class="thumb pull-left hidden-xs"&gt;
+      &lt;img src="//drcs9k8uelb9s.cloudfront.net/{{ thumb_item_id }}.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="title_url"&gt;
+      &lt;div class="title"&gt;
+        {{#highlighted_title}}
+          &lt;a href="{{ url }}" target="_blank"&gt;{{{ highlighted_title }}}&lt;/a&gt;
+          {{#highlighted_url}}
+            ({{{ highlighted_url }}})
+          {{/highlighted_url}}
+        {{/highlighted_title}}
+        {{#highlighted_story_title}}
+          {{#highlighted_story_url}}
+            &lt;a href="{{ story_url }}" target="_blank"&gt;{{{ highlighted_story_title }}}&lt;/a&gt; ({{{ highlighted_story_url }}})
+          {{/highlighted_story_url}}
+          {{^highlighted_story_url}}
+            {{{ highlighted_story_title }}}
+          {{/highlighted_story_url}}
+        {{/highlighted_story_title}}
+      &lt;/div&gt;
+      {{#comment_text}}
+      &lt;div class="url"&gt;
+        &lt;a href="{{ item_url }}{{#item_url_anchor}}{{ item_url_anchor }}{{/item_url_anchor}}" target="_blank"&gt;{{ item_url }}&lt;/a&gt;
+      &lt;/div&gt;
+      {{/comment_text}}
+      &lt;div class="points"&gt;&lt;b&gt;{{ points }}&lt;/b&gt; point{{#points_plural}}s{{/points_plural}}&lt;/div&gt;
+      &lt;div class="author"&gt; by &lt;a href="https://news.ycombinator.com/user?id={{ author }}" target="_blank"&gt;{{{ highlighted_author }}}&lt;/a&gt;&lt;/div&gt;
+      &lt;div class="created_at"&gt;&lt;abbr class="timeago" title="{{ created_at }}"&gt;&lt;/abbr&gt;&lt;/div&gt;
+      {{#has_comments}}
+        &lt;div class="comments"&gt;
+          &lt;a href="https://news.ycombinator.com/item?id={{ item_id }}" target="_blank"&gt;{{ comments }} comment{{#comments_plural}}s{{/comments_plural}}&lt;/a&gt;
+          &lt;a href="/follow/{{ item_id }}"&gt;Follow&lt;/a&gt;
+        &lt;/div&gt;
+      {{/has_comments}}
+      &lt;br /&gt;
+      {{#story_text}}
+        &lt;div class="story_text"&gt;{{{ story_text }}}&lt;/div&gt;
+      {{/story_text}}
+      {{#comment_text}}
+        &lt;div class="comment_text"&gt;{{{ comment_text }}}&lt;/div&gt;
+      {{/comment_text}}
+    &lt;/div&gt;
+    &lt;div class="clearfix"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+//]]>
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <hr/>
+      <ul class="list-inline">
+        <li>
+          <a href="/about">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/algolia/hn-search">
+            Github
+          </a>
+        </li>
+        <li>
+          <a href="/status">
+            Status
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            Search
+          </a>
+        </li>
+        <!-- %li= link_to 'Stats', stats_path -->        <li>
+          <a href="/api">
+            API
+          </a>
+        </li>
+        <li>
+          <a href="/cool_apps">
+            Cool Apps
+          </a>
+        </li>
+        <li>
+          <a title="Hosted full-text, numerical, faceted search" onclick="_gaq.push(['_link', 'http://www.algolia.com']); return false;" href="http://www.algolia.com/?utm_source=hn_search&amp;utm_medium=link&amp;utm_term=footer&amp;utm_campaign=hn_algolia">
+            <img style="height: 1em;" src="//d3ibatyzauff7b.cloudfront.net/assets/algolia128x40.png" alt="Algolia"/>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script>
+//<![CDATA[
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32446386-1']);
+  _gaq.push(['_setDomainName', 'hn.algolia.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview', '/hnsearch']);
+  
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+//]]>
+    </script>
+  </body>
+</html>

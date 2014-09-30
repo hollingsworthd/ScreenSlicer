@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html class="no-js ie8" lang="en-US" xml:lang="en-US" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml">
+  <!--<![endif]-->  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="description" content="Change.org is the web's leading platform for social change, empowering anyone, anywhere to start petitions that make a difference."/>
+    <meta name="keywords" content="petition,petitions,online petition,online petitions,change,social change,activism"/>
+    <meta http-equiv="Content-Language" content="en-US"/>
+    <meta http-equiv="X-UA-Compatible" value="IE=8"/>
+    <title>
+      Change.org
+    </title>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="6de0d298ee9b586c039875068bbf6ac2"/>
+    <link type="image/png" rel="icon" href="/favicon-32x32.png"/>
+    <link rel="apple-touch-icon" href="/favicon-57x57.png"/>
+    <link sizes="72x72" rel="apple-touch-icon" href="/favicon-72x72.png"/>
+    <link sizes="114x114" rel="apple-touch-icon" href="/favicon-114x114.png"/>
+    <link type="text/css" rel="stylesheet" media="screen, projection" href="//d22r54gnmuhwmk.cloudfront.net/app-assets/desktop-515c6c1cccaa1cf08893f289975a3d17.css"/>
+    <link type="text/css" rel="stylesheet" media="screen" href="//d22r54gnmuhwmk.cloudfront.net/app-assets/fonts/din-webfont.css"/>
+  </head>
+  <body id="body" data-view_name="site_search/index" class="controller-site_search action-index controller-site_search--action-index white-color-scheme en-US">
+    <object width="0" height="0" data="https://platform.twitter.com/widgets.js" class="aipewpddfdevopyqmojj"/>
+    <object width="0" height="0" data="//s3.amazonaws.com/ki.js/39483/7BD.js" class="aipewpddfdevopyqmojj"/>
+    <script src="//www.google-analytics.com/ga.js">
+    </script>
+    <script src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js">
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+    </script>
+    <script src="//d22r54gnmuhwmk.cloudfront.net/app-assets/xregexp-all-min-5ab2d40c10ebd07ca0ea2267261fb646.js">
+    </script>
+    <script src="//d22r54gnmuhwmk.cloudfront.net/app-assets/desktop-87f1913760ac15f80f1ca18ede378a64.js">
+    </script>
+    <script src="//connect.facebook.net/en_US/all.js">
+    </script>
+    <script src="https://platform.twitter.com/widgets.js">
+    </script>
+    <script>
+//<![CDATA[
+
+  //&lt;![CDATA[
+    ;(function(e){window.mixpanel=e;var i,n;e._i=[],e.init=function(t,r,a){function o(e,i){var n=i.split(".");2==n.length&amp;&amp;(e=e[n[0]],i=n[1]),e[i]=function(){e.push([i].concat(Array.prototype.slice.call(arguments,0)))}}var p=e;for(a!==void 0?p=e[a]=[]:a="mixpanel",p.people=p.people||[],i=["disable","track","track_pageview","track_links","track_forms","register","register_once","unregister","identify","name_tag","set_config","people.set","people.increment"],n=0;i.length&gt;n;n++)o(p,i[n]);e._i.push([t,r,a])},e.__SV=1.1})(window.mixpanel||[]);
+  //]]&gt;
+
+//]]>
+    </script>
+    <script type="text/javascript" src="//d22r54gnmuhwmk.cloudfront.net/app-assets/head-1dc0bbf42fe77ab7f863f07ddfb505e0.js">
+    </script>
+    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&amp;gt;div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&amp;gt;span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}
+    </style>
+    <div id="shroud">
+    </div>
+    <div id="page">
+      <div id="nav">
+        <div class="header bg-basic">
+          <div class="container">
+            <div class="row pvxs">
+              <div class="col-span-9 no-overflow">
+                <ul class="list-inline header-height">
+                  <li class="mrm">
+                    <a class="header-wordmark" href="http://www.change.org/">
+                      <span class="hide-visually">
+                        Change.org
+                      </span>
+                    </a>
+                  </li>
+                  <li class="mrm">
+                    <nav>
+                      <ul class="list-inline">
+                        <li class="mrxs">
+                          <a href="http://www.change.org/start-a-petition">
+                            <span class="symbol symbol-start-petition symbol-xl">
+                            </span>
+                            <span class="header-height">
+                              Start a petition
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://www.change.org/petitions">
+                            <span class="symbol symbol-browse-petition symbol-xl">
+                            </span>
+                            <span class="header-height">
+                              Browse
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </li>
+                  <li>
+                    <div class="site-search-form small">
+                      <span class="search">
+                        <form method="get" action="http://www.change.org/search" accept-charset="UTF-8">
+                          <div style="margin:0;padding:0;display:inline">
+                            <input type="hidden" value="✓" name="utf8"/>
+                          </div>
+                          <input type="text" placeholder="Search" name="q" id="q"/>
+                        </form>
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-span-3 no-overflow user-link">
+                <div class="txt-r header-height">
+                  <ol class="inline">
+                    <li>
+                      <a href="http://www.change.org/login_or_join" class="login-link">
+                        <span class="symbol symbol-avatar">
+                        </span>
+                        
+Log in
+
+                      </a>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mvn"/>
+      </div>
+      <div id="flash">
+      </div>
+      <div id="content">
+        <div class="columns polarized-content">
+          <div class="column-9 first-column column-suffix-1">
+            <div class="site-search">
+              <form method="get" class="vertical-padding-1" action="" accept-charset="UTF-8">
+                <div style="margin:0;padding:0;display:inline">
+                  <input type="hidden" value="✓" name="utf8"/>
+                </div>
+                <div class="media-box aligned-normally">
+                  <div class="right">
+                    <input type="submit" class="hidden"/>
+                    <button class="submit">
+                      Search
+                    </button>
+                  </div>
+                  <div class="content">
+                    <input type="text" value="" placeholder="Search Change.org" name="q" id="q"/>
+                  </div>
+                </div>
+              </form>
+              <hr/>
+              <div class="results">
+                <div class="search-result">
+                  <a href="http://www.change.org/petitions/toys-r-us-stop-marketing-gender-stereotypes-to-children">
+                    Toys "R" 
+                    <b>
+                      Us
+                    </b>
+                    : Stop Marketing Gender Stereotypes to Children
+                  </a>
+                  <div class="small">
+                    www.change.org/.../toys-r-
+                    <b>
+                      us
+                    </b>
+                    -stop-marketing-gender-stereotypes-to-children
+                  </div>
+                  <div>
+                    Now is the time for Toys "R" 
+                    <b>
+                      Us
+                    </b>
+                     in the USA to join its counterparts in the UK and 
+Sweden and end the rampant gender stereotyping in its marketing of...
+                  </div>
+                  <hr/>
+                </div>
+                <div class="search-result">
+                  <a href="https://www.change.org/petitions/congress-extend-lifesaving-legislation-for-interpreters-who-helped-us-troops-in-iraq">
+                    Petition | Congress: Extend lifesaving legislation for interpreters who 
+                    <b>
+                      ...
+                    </b>
+                  </a>
+                  <div class="small">
+                    https://www.change.org/.../congress-extend-lifesaving-legislation-for- interpreters-who-helped-
+                    <b>
+                      us
+                    </b>
+                    -troops-in-iraq
+                  </div>
+                  <div>
+                    Having served in Iraq, I know how many Iraqis have given back to assist 
+                    <b>
+                      US
+                    </b>
+                     
+troops -- now it's time for 
+                    <b>
+                      us
+                    </b>
+                     to help them and we need Congress to help....
+                  </div>
+                  <hr/>
+                </div>
+                <div class="search-result">
+                  <a href="http://www.change.org/petitions/u-s-soccer-federation-keep-the-centennial-us-soccer-crest-as-the-permanent-crest-for-us-soccer-2">
+                    Petition | Keep the "Centennial" 
+                    <b>
+                      US
+                    </b>
+                     Soccer crest as the permanent 
+                    <b>
+                      ...
+                    </b>
+                  </a>
+                  <div class="small">
+                    www.change.org/.../u-s-soccer-federation-keep-the-centennial-
+                    <b>
+                      us
+                    </b>
+                    -soccer-crest -as-the-permanent-crest-for-
+                    <b>
+                      us
+                    </b>
+                    -soccer-2
+                  </div>
+                  <div>
+                    UPDATE - Sunil Gulati, President of the 
+                    <b>
+                      US
+                    </b>
+                     Soccer Federation, has been in 
+contact with the following: "Thanks--we are reviewing the crest and will...
+                  </div>
+                  <hr/>
+                </div>
+                <div class="search-result">
+                  <a href="https://www.change.org/petitions/us-army-lt-sentenced-to-20-years-charged-with-murder-for-protecting-his-men-from-taliban">
+                    Petition | 
+                    <b>
+                      US
+                    </b>
+                     Army LT sentenced to 20 years; charged with murder 
+                    <b>
+                      ...
+                    </b>
+                  </a>
+                  <div class="small">
+                    https://www.change.org/.../
+                    <b>
+                      us
+                    </b>
+                    -army-lt-sentenced-to-20-years-charged-with- murder-for-protecting-his-men-from-taliban
+                  </div>
+                  <div>
+                    When an accidental civilian death occurs as a result of the asymmetric nature of 
+modern warfare, the 
+                    <b>
+                      US
+                    </b>
+                     Government looks for someone to hold accountable.
+                  </div>
+                  <hr/>
+                </div>
+                <div class="search-result">
+                  <a href="http://www.change.org/petitions/dreamer-fights-to-stay-in-the-us-ricardo-needs-your-help">
+                    DREAMer Fights to Stay in the 
+                    <b>
+                      US
+                    </b>
+                     - Ricardo Needs Your Help!
+                  </a>
+                  <div class="small">
+                    www.change.org/.../dreamer-fights-to-stay-in-the-
+                    <b>
+                      us
+                    </b>
+                    -ricardo-needs-your-help
+                  </div>
+                  <div>
+                    He continues: “The evening Attorney [Jessica] Dominguez showed 
+                    <b>
+                      us
+                    </b>
+                     ICE's 
+original letter granting Ricardo a stay, I noticed an immediate sense of relief and
+ ...
+                  </div>
+                  <hr/>
+                </div>
+                <div class="search-result">
+                  <a href="https://www.change.org/petitions/please-stop-killing-us-president-obama-sec-sally-jewell-sec-tom-vilsack-dir-dan-ashe-stop-the-killing-of-the-wolves-canis-lupus-in-the-u-s-a">
+                    Petition | PLEASE STOP KILLING 
+                    <b>
+                      US
+                    </b>
+                    ! President Obama,Sec Sally 
+                    <b>
+                      ...
+                    </b>
+                  </a>
+                  <div class="small">
+                    https://www.change.org/.../please-stop-killing-
+                    <b>
+                      us
+                    </b>
+                    -president-obama-sec-sally- jewell-sec-tom-vilsack-dir-dan-ashe-stop-the-killing-of-the-wolves-c...
+                  </div>
+                  <div>
+                    PLEASE STOP KILLING 
+                    <b>
+                      US
+                    </b>
+                    ! President Obama,Sec Sally Jewell, Sec Tom Vilsack
+,Dir Dan Ashe:Stop the killing of the wolves, canis lupus in the U.S.A..
+                  </div>
+                  <hr/>
+                </div>
+                <div class="search-result">
+                  <a href="http://www.change.org/petitions/microsoft-give-us-back-the-xbox-one-we-were-promised-at-e3-2">
+                    Petition | Give 
+                    <b>
+                      us
+                    </b>
+                     back the Xbox One we were promised at E3 
+                    <b>
+                      ...
+                    </b>
+                  </a>
+                  <div class="small">
+                    www.change.org/.../microsoft-give-
+                    <b>
+                      us
+                    </b>
+                    -back-the-xbox-one-we-were-promised -at-e3-2
+                  </div>
+                  <div>
+                    This was to be the future of entertainment. A new wave of gaming where you 
+could buy games digitally, then trade, share or sell those digital...
+                  </div>
+                  <hr/>
+                </div>
+                <div class="search-result">
+                  <a href="http://www.change.org/petitions/tell-toys-r-us-to-stop-forced-child-labor-in-cotton">
+                    Petition | Tell Toys R 
+                    <b>
+                      Us
+                    </b>
+                     to Stop Forced Child Labor in Cotton 
+                    <b>
+                      ...
+                    </b>
+                  </a>
+                  <div class="small">
+                    www.change.org/.../tell-toys-r-
+                    <b>
+                      us
+                    </b>
+                    -to-stop-forced-child-labor-in-cotton
+                  </div>
+                  <div>
+                    While over 70 of the world's largest apparel brands and retailers have developed 
+policies related to Uzbek cotton, Toys R 
+                    <b>
+                      Us
+                    </b>
+                    , one of the biggest children's toy ...
+                  </div>
+                  <hr/>
+                </div>
+                <div class="search-result">
+                  <a href="https://www.change.org/petitions/us-federal-government-increase-the-availability-of-mental-health-services-now">
+                    Petition | 
+                    <b>
+                      US
+                    </b>
+                     Federal Government: Increase the availability of mental 
+                    <b>
+                      ...
+                    </b>
+                  </a>
+                  <div class="small">
+                    https://www.change.org/.../
+                    <b>
+                      us
+                    </b>
+                    -federal-government-increase-the-availability-of -mental-health-services-now
+                  </div>
+                  <div>
+                    It is evident from the recent increase in gun-related tragedies, like the school 
+shooting in Connecticut, that something needs to change. Focusing on...
+                  </div>
+                  <hr/>
+                </div>
+                <div class="search-result">
+                  <a href="http://www.change.org/petitions/jpmorgan-chase-and-us-bank-allow-the-gearing-family-to-purchase-their-own-home-back-from-foreclosure">
+                    Petition | JPMorgan Chase and 
+                    <b>
+                      US
+                    </b>
+                     Bank: Allow the Gearing family to 
+                    <b>
+                      ...
+                    </b>
+                  </a>
+                  <div class="small">
+                    www.change.org/.../jpmorgan-chase-and-
+                    <b>
+                      us
+                    </b>
+                    -bank-allow-the-gearing-family- to-purchase-their-own-home-back-from-foreclosure
+                  </div>
+                  <div>
+                    My family wants to buy our family farm of many years -- but because we are in 
+foreclosure, JP Morgan Chase (the servicer) and 
+                    <b>
+                      US
+                    </b>
+                     Bank (the trustee), two of the
+ ...
+                  </div>
+                  <hr/>
+                </div>
+              </div>
+              <div class="no-results hidden">
+                <div class="h2">
+                  No results containing all your search terms were found
+                </div>
+                <p>
+                  Your search - 
+                  <strong>
+                    us
+                  </strong>
+                   - did not match any documents.
+                </p>
+                <p>
+                  Suggestions:
+                </p>
+                <ul>
+                  <li>
+                    Make sure all words are spelled correctly.
+                  </li>
+                  <li>
+                    Try different keywords.
+                  </li>
+                  <li>
+                    Try more general keywords.
+                  </li>
+                  <li>
+                    Try fewer keywords.
+                  </li>
+                </ul>
+              </div>
+              <div class="paginator hidden lightgrey-color-scheme padded-1 polarized-content" style="display: block;">
+                <div class="right">
+                  <a href="http://www.change.org/search?_csrf=6de0d298ee9b586c039875068bbf6ac2&amp;authenticity_token=6de0d298ee9b586c039875068bbf6ac2&amp;q=us&amp;page=2" class="button next">
+                    Next »
+                  </a>
+                </div>
+                <div class="left">
+                  <a href="" disabled="disabled" class="button prev">
+                    « Prev
+                  </a>
+                </div>
+                <div class="center center-content">
+                  
+Page 
+                  <strong>
+                    <span class="current-page">
+                      1
+                    </span>
+                  </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column-5 last-column">
+            <ul class="spaced">
+              <li>
+                <a class="big action button full bottom-margin-1" href="http://www.change.org/start-a-petition">
+                  Start a petition
+                </a>
+              </li>
+              <li>
+                <div class="bottom-margin-2 popular-topics">
+                  <h4 class="h4">
+                    Popular Topics
+                  </h4>
+                  <div class="stealth two-column-list">
+                    <div class="grid">
+                      <div class="grid-unit left size1of2">
+                        <ul>
+                          <li>
+                            <a href="http://www.change.org/topics/animals">
+                              Animals
+                            </a>
+                          </li>
+                          <li>
+                            <a href="http://www.change.org/topics/criminaljustice">
+                              Criminal Justice
+                            </a>
+                          </li>
+                          <li>
+                            <a href="http://www.change.org/topics/economicjustice">
+                              Economic Justice
+                            </a>
+                          </li>
+                          <li>
+                            <a href="http://www.change.org/topics/education">
+                              Education
+                            </a>
+                          </li>
+                          <li>
+                            <a href="http://www.change.org/topics/environment">
+                              Environment
+                            </a>
+                          </li>
+                          <li>
+                            <a href="http://www.change.org/topics/gayrights">
+                              Gay Rights
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="grid-unit right size1of2">
+                        <ul>
+                          <li>
+                            <a href="http://www.change.org/topics/health">
+                              Health
+                            </a>
+                          </li>
+                          <li>
+                            <a href="http://www.change.org/topics/humanrights">
+                              Human Rights
+                            </a>
+                          </li>
+                          <li>
+                            <a href="http://www.change.org/topics/humantrafficking">
+                              Human Trafficking
+                            </a>
+                          </li>
+                          <li>
+                            <a href="http://www.change.org/topics/immigration">
+                              Immigrant Rights
+                            </a>
+                          </li>
+                          <li>
+                            <a href="http://www.change.org/topics/food">
+                              Sustainable Food
+                            </a>
+                          </li>
+                          <li>
+                            <a href="http://www.change.org/topics/womensrights">
+                              Women's Rights
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <section class="bottom-margin-3 compact-petition-list recent-victories-list">
+                  <h4 class="h4">
+                    Victories
+                  </h4>
+                  <ol class="separated">
+                    <li>
+                      <div class="compact-petition media-box">
+                        <a href="http://www.change.org/petitions/chimerix-release-brincidofovir-for-compassionate-use-to-treat-the-adenovirus-plaguing-7-year-old-josh-hardy-right-now">
+                          <img width="64" height="36" title="7-year-old gets access to medication" src="//d22r54gnmuhwmk.cloudfront.net/photos/5/hm/uj/PKhmUjqILeXBDAY-64x36-cropped.jpg" alt="7-year-old gets access to medication"/>
+                        </a>
+                        <div class="content">
+                          <p class="stealth bottom-margin-0">
+                            <a href="http://www.change.org/petitions/chimerix-release-brincidofovir-for-compassionate-use-to-treat-the-adenovirus-plaguing-7-year-old-josh-hardy-right-now">
+                              7-year-old gets access to medication
+                            </a>
+                          </p>
+                          <div class="bottom-margin-0 petition-started-by small weak">
+                            
+by 
+                            <span class="petition-owner-name">
+                              <a class="stealth" href="/users/29560169">
+                                Regina Breedlove 
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="compact-petition media-box">
+                        <a href="http://www.change.org/petitions/matthew-gould-build-chris-lane-memorial-field-in-essendon-victoria-australia">
+                          <img width="64" height="36" title="Major League Baseball to fund memorial field for slain athlete" src="//d22r54gnmuhwmk.cloudfront.net/photos/8/rg/fo/jfrGfOwCgbrZfBk-64x36-cropped.jpg" alt="Major League Baseball to fund memorial field for slain athlete"/>
+                        </a>
+                        <div class="content">
+                          <p class="stealth bottom-margin-0">
+                            <a href="http://www.change.org/petitions/matthew-gould-build-chris-lane-memorial-field-in-essendon-victoria-australia">
+                              Major League Baseball to fund memorial field for slain athlete
+                            </a>
+                          </p>
+                          <div class="bottom-margin-0 petition-started-by small weak">
+                            
+by 
+                            <span class="petition-owner-name">
+                              <a class="stealth" href="/users/60194320">
+                                John Edwards
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="compact-petition media-box">
+                        <a href="http://www.change.org/petitions/linkedin-protect-your-users-from-stalkers-and-help-keep-victims-safe">
+                          <img width="64" height="36" title="LinkedIn adds a blocking feature to prevent stalking" src="//d22r54gnmuhwmk.cloudfront.net/photos/7/uj/ye/NcuJYeZgNQDMsRA-64x36-cropped.jpg" alt="LinkedIn adds a blocking feature to prevent stalking"/>
+                        </a>
+                        <div class="content">
+                          <p class="stealth bottom-margin-0">
+                            <a href="http://www.change.org/petitions/linkedin-protect-your-users-from-stalkers-and-help-keep-victims-safe">
+                              LinkedIn adds a blocking feature to prevent stalking
+                            </a>
+                          </p>
+                          <div class="bottom-margin-0 petition-started-by small weak">
+                            
+by 
+                            <span class="petition-owner-name">
+                              <a class="stealth" href="/users/45829569">
+                                Anna R.
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="compact-petition media-box">
+                        <a href="http://www.change.org/petitions/total-health-care-karen-oberg-has-terminal-cancer-don-t-turn-your-back-on-her">
+                          <img width="64" height="36" title="Son wins insurance battle for mom fighting terminal cancer" src="//d22r54gnmuhwmk.cloudfront.net/photos/3/ab/zm/mJAbzMYhCvCaziE-64x36-cropped.jpg" alt="Son wins insurance battle for mom fighting terminal cancer"/>
+                        </a>
+                        <div class="content">
+                          <p class="stealth bottom-margin-0">
+                            <a href="http://www.change.org/petitions/total-health-care-karen-oberg-has-terminal-cancer-don-t-turn-your-back-on-her">
+                              Son wins insurance battle for mom fighting terminal cancer
+                            </a>
+                          </p>
+                          <div class="bottom-margin-0 petition-started-by small weak">
+                            
+by 
+                            <span class="petition-owner-name">
+                              <a class="stealth" href="/users/johnoberg">
+                                John Oberg
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="compact-petition media-box">
+                        <a href="http://www.change.org/petitions/boy-scouts-vote-to-end-your-anti-gay-policy-so-my-brother-can-earn-his-eagle-award">
+                          <img width="64" height="36" title="Boy Scouts vote to accept openly gay youth as members" src="//d22r54gnmuhwmk.cloudfront.net/photos/8/dk/nr/dldKNRLsYuhcCGQ-64x36-cropped.jpg" alt="Boy Scouts vote to accept openly gay youth as members"/>
+                        </a>
+                        <div class="content">
+                          <p class="stealth bottom-margin-0">
+                            <a href="http://www.change.org/petitions/boy-scouts-vote-to-end-your-anti-gay-policy-so-my-brother-can-earn-his-eagle-award">
+                              Boy Scouts vote to accept openly gay youth as members
+                            </a>
+                          </p>
+                          <div class="bottom-margin-0 petition-started-by small weak">
+                            
+by 
+                            <span class="petition-owner-name">
+                              <a class="stealth" href="/users/ltessier">
+                                Lucien Tessier
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ol>
+                  <div class="hr-with-content media-box">
+                    <div class="media right">
+                      <a href="http://www.change.org/victories" class="small">
+                        
+More Victories
+
+                        <span class="symbol symbol-bracket-down">
+                        </span>
+                      </a>
+                    </div>
+                    <div class="content">
+                      <hr/>
+                    </div>
+                  </div>
+                </section>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="page-footer">
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-span-12">
+            <hr/>
+            <div class="media mts">
+              <div class="media-img">
+                <a class="footer-wordmark" href="/about/business-model">
+                </a>
+              </div>
+              <div class="media-body">
+                <div class="row">
+                  <div class="col-span-9">
+                    <ul class="list-inline-separator type-small media-img mbxxxs">
+                      <li>
+                        <a href="http://www.change.org/about">
+                          About Change.org
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://blog.change.org">
+                          Blog
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://www.change.org/careers?lang=en-US">
+                          Careers
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://www.change.org/guides">
+                          Guides
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://help.change.org">
+                          Help
+                        </a>
+                      </li>
+                      <li>
+                        <a href="mailto:media@change.org">
+                          Press
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://www.change.org/organizations">
+                          Organizations
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/organizations/promote">
+                          Advertise
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/developers">
+                          Developers
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="clearfix">
+                    </div>
+                    <ul class="list-inline-separator type-tiny mbn">
+                      <li>
+                        <a class="link-subtle" href="/about/privacy">
+                          Privacy
+                        </a>
+                      </li>
+                      <li>
+                        <a class="link-subtle" href="/about/terms-of-service">
+                          Terms
+                        </a>
+                      </li>
+                      <li>
+                        <a class="link-subtle" href="http://help.change.org/entries/20701861-How-do-I-get-in-touch-with-the-Change-org-Legal-Department-">
+                          Legal
+                        </a>
+                      </li>
+                      <li>
+                        <a class="link-subtle" href="/about/advertising-guidelines">
+                          Ad Guidelines
+                        </a>
+                      </li>
+                      <li class="weak">
+                        © 2014, Change.org Inc.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-span-3">
+                    <div class="locale-dropdown">
+                      <select name="locale">
+                        <option value="de">
+                          Deutsch
+                        </option>
+                        <option value="en-AU">
+                          English (Australia)
+                        </option>
+                        <option value="en-CA">
+                          English (Canada)
+                        </option>
+                        <option value="en-IN">
+                          English (India)
+                        </option>
+                        <option value="en-GB">
+                          English (United Kingdom)
+                        </option>
+                        <option selected="selected" value="en-US">
+                          English (United States)
+                        </option>
+                        <option value="es-AR">
+                          Español (Argentina)
+                        </option>
+                        <option value="es">
+                          Español (España)
+                        </option>
+                        <option value="es-419">
+                          Español (Latinoamérica)
+                        </option>
+                        <option value="fr">
+                          Français
+                        </option>
+                        <option value="id">
+                          Bahasa Indonesia
+                        </option>
+                        <option value="it">
+                          Italiano
+                        </option>
+                        <option value="ja">
+                          日本語
+                        </option>
+                        <option value="pt-BR">
+                          Português (Brasil)
+                        </option>
+                        <option value="ru">
+                          Русский
+                        </option>
+                        <option value="tl">
+                          Tagalog
+                        </option>
+                        <option value="th">
+                          ภาษาไทย
+                        </option>
+                        <option value="tr">
+                          Türkçe
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="fb-root" class=" fb_reset">
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_http" allowtransparency="true" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="http://static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f27af21274f7fb6&amp;origin=http%3A%2F%2Fwww.change.org">
+          </iframe>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_https" allowtransparency="true" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f27af21274f7fb6&amp;origin=http%3A%2F%2Fwww.change.org">
+          </iframe>
+        </div>
+      </div>
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+        </div>
+      </div>
+    </div>
+    <script id="yepnope">
+//<![CDATA[
+
+  !function () {
+    var
+      assets,
+      safeCallback,
+      onloadCallback;
+
+    Change.ENV = {"RAILS_ENV":"production","domain":"change.org","support_ssl":true,"subdomain":"www","controller":"site_search","action":"index","page_name":null,"logged_in":false,"user_ip":"74.136.97.147","mixpanel":{"tracker_uuid":"22f52bc0-b8ae-11e3-8bb2-0f2ad3cd4651","token":"30aa26a1d6e93ae158dfbdc16b493312","user_data":{},"registered_for_request_data":{"~welcome_email_experiment":"control","~petition_manage_pane_experiment":"control","~dm_response_prompt_victory_experiment":"control","~confirm_victory_experiment":"control","~promoted_petitions_over_upsells_experiment":"promoted_priority","mobile":false,"locale":"en-US"},"tracks":[],"registers":[]},"embedly":"5c079241a1be4ecca8a6fe57387c4985","mobile":false,"i18n":{"default_locale":"en-US","current_locale":"en-US","locales":{"en-US":{"Choose who to invite:":"Choose who to invite:","INVITE YOUR FRIENDS":"INVITE YOUR FRIENDS","Share this petition and mobilize your social network":"Share this petition and mobilize your social network","petition_signature_map":{"with_cause":"&lt;strong class='name'&gt;%{name}&lt;/strong&gt; &lt;span class='weak'&gt;from&lt;/span&gt; &lt;span class='location'&gt;%{location}&lt;/span&gt; &lt;span class='weak'&gt;signed a petition in&lt;/span&gt; &lt;span class='cause'&gt;%{cause}&lt;/span&gt;","without_cause":"&lt;strong class='name'&gt;%{name}&lt;/strong&gt; &lt;span class='weak'&gt;from&lt;/span&gt; &lt;span class='location'&gt;%{location}&lt;/span&gt; &lt;span class='weak'&gt;signed a petition&lt;/span&gt;","with_cause_html":"&lt;strong class='name'&gt;%{name}&lt;/strong&gt; &lt;span class='weak'&gt;from&lt;/span&gt; &lt;span class='location'&gt;%{location}&lt;/span&gt; &lt;span class='weak'&gt;signed a petition in&lt;/span&gt; &lt;span class='cause'&gt;%{cause}&lt;/span&gt;","without_cause_html":"&lt;strong class='name'&gt;%{name}&lt;/strong&gt; &lt;span class='weak'&gt;from&lt;/span&gt; &lt;span class='location'&gt;%{location}&lt;/span&gt; &lt;span class='weak'&gt;signed a petition&lt;/span&gt;"},"Invite your friends to join this campaign":"Invite your friends to join this campaign","error_loading_content":"Something went wrong loading that content. We're looking into it \u2014 please try again later.","You will no longer recieve invites from this person":"You will no longer recieve invites from this person","No Matches Found_":"No Matches Found.","%{number} SIGNATURES":"%{number} SIGNATURES","Invite friends to join this campaign:":"Invite friends to join this campaign:","Get more signatures on this petition:":"Get more signatures on this petition:","shares remaining today":"%{sharesRemaining} shares remaining today","share_with_friends_today":{"one":"You can share with up to %{count} friend today \u2014 when they sign, you get recruit credit.","other":"You can share with up to %{count} friends today \u2014 when they sign, you get recruit credit."},"Please enter a valid phone number":"Please enter a valid phone number","Please enter a valid phone number to join":"Please enter a valid phone number to join","Are you sure you want to remove this target?":"Are you sure you want to remove this target?","Remove Elected Officals":"Remove Elected Officals","Add Elected Officals":"Add Elected Officals","You will no longer receive invites from this person":"You will no longer receive invites from this person","Hide List":"Hide List","Edit List":"Edit List","Edit text":"Edit text","Cancel edit":"Cancel edit","male":"male","female":"female","error_deleting_your_update":"There was an error deleting your update. Please try again later.","error_submitting_your_form":"There was an error submitting your form. Please try again later.","error_generating_your_sharing_url":"There was an error generating your sharing URL. Please try again later.","no_search_results":"No search results. (Friends who have already signed are hidden.)","failed_to_sign_petition":"Ooops! We failed to sign that petition. Please try again later.","voting_score_html":{"one":"&lt;span class=\"lighter count\"&gt;%{count}&lt;/span&gt; &lt;span class=\"lighter countee\"&gt;person likes&lt;/span&gt; &lt;span class=\"lighter extra-text\"&gt;this reason&lt;/span&gt;","other":"&lt;span class=\"lighter count\"&gt;%{count}&lt;/span&gt; &lt;span class=\"lighter countee\"&gt;people like&lt;/span&gt; &lt;span class=\"lighter extra-text\"&gt;this reason&lt;/span&gt;"},"share on Facebook":"share on Facebook","share with my email contacts":"share with my email contacts","Invite friends to join this campaign":"Invite friends to join this campaign","SHARE THIS PETITION":"SHARE THIS PETITION","Get more signatures on this petition":"Get more signatures on this petition","Your invitations have been sent! Get more signatures on this petition:":"&lt;strong&gt;Your invitations have been sent!&lt;/strong&gt; Get more signatures on this petition:","You have been confirmed_ Get more signatures on this petition:":"&lt;strong&gt;You have been confirmed.&lt;/strong&gt; Get more signatures on this petition:","Thanks for signing!":"Thanks for signing!","Permission required to share with friends_":"Permission required to share with friends.","Unable to get permission from Facebook_ Try again_":"Unable to get permission from Facebook. Try again.","is invalid":"is invalid","can't be blank":"can't be blank","Create Vanity URL":"Create Vanity URL","Creating Vanity URL":"Creating Vanity URL","date is invalid":"date is invalid","number is invalid":"number is invalid","Please select an amount":"Please select an amount","Other amount is invalid":"Other amount is invalid","Your card will be charged $%{amount} US dollars_":"Your card will be charged $%{amount} US dollars.","Shows petition to &lt;strong&gt;%{amount}&lt;/strong&gt; potential supporters":"Shows petition to &lt;strong&gt;%{amount}&lt;/strong&gt; potential supporters","An unexpected error occurred_":"An unexpected error occurred.","Thanks for letting us know_":"Thanks for letting us know.","%{count} friends selected":{"one":"1 friend selected","other":"%{count} friends selected"},"You may only select %{count} friends_":{"one":"You may only select 1 friend.","other":"You may only select %{count} friends."},"There was a problem submitting your changes_":"There was a problem submitting your changes.","Couldn't load contacts_ Please check your email and password and try again_":"Couldn't load contacts. Please check your email and password and try again.","%{number} NEEDED":"%{number} NEEDED","%{number} signatures":{"one":"%{number} signature","other":"%{number} signatures"},"Won with %{num_sigs} supporters":{"one":"Won with %{num_sigs} supporter","other":"Won with %{num_sigs} supporters"},"with %{num_sigs} supporters":{"one":"with %{num_sigs} supporter","other":"with %{num_sigs} supporters"},"%{number} Still Needed":"%{number} Still Needed","%{num_sigs} supporters":"%{num_sigs} supporters","&lt;span class='%{span_class}'&gt;Signed&lt;/span&gt; with %{num_sigs} supporters":{"one":"&lt;span class='%{span_class}'&gt;Signed&lt;/span&gt; with %{num_sigs} supporter","other":"&lt;span class='%{span_class}'&gt;Signed&lt;/span&gt; with %{num_sigs} supporters"},"&lt;span class='%{span_class}'&gt;Sign Now&lt;/span&gt; with %{num_sigs} supporters":{"one":"&lt;span class='%{span_class}'&gt;Sign Now&lt;/span&gt; with %{num_sigs} supporter","other":"&lt;span class='%{span_class}'&gt;Sign Now&lt;/span&gt; with %{num_sigs} supporters"},"Flag":"Flag","Flagged":"Flagged","%{country}":"%{country}","%{state}, %{country}":"%{state}, %{country}","%{city}, %{state_code}, %{country}":"%{city}, %{state_code}, %{country}","%{city}, %{state_code} %{postal_code}, %{country}":"%{city}, %{state_code} %{postal_code}, %{country}","%{street_address}, %{city}, %{state_code} %{postal_code}, %{country}":"%{street_address}, %{city}, %{state_code} %{postal_code}, %{country}","Keep typing and select when match is found_":"Keep typing and select when match is found.","Invite Friends":"Invite Friends","%{num_sigs} Supporters":"%{num_sigs} Supporters","Your city was not found_ Enter it below_":"Your city was not found. Enter it below.","Your city and state were not found_ Enter them below_":"Your city and state were not found. Enter them below.","Unable to search Change_org_ Try again later_":"Unable to search Change.org. Try again later.","&lt;strong&gt;Thanks for signing&lt;/strong&gt; \"%{title}\"":"&lt;strong&gt;Thanks for signing&lt;/strong&gt; \"%{title}\"","There was a problem sending a message to your friend_ Please try again later_":"There was a problem sending a message to your friend. Please try again later.","petition_targets_autocomplete":{"delete_alert":"You must have at least one petition recipient","not_found_create":"Not found? Create \u201c%{targetName}\u201d as your new petition recipient"},"petition_signature_count":{"num_supporters_victory":{"one":"This petition made change with %{num_sigs} supporter!","other":"This petition made change with %{num_sigs} supporters!"}},"number":{"format":{"delimiter":",","precision":3,"separator":".","significant":false,"strip_insignificant_zeros":false}}}},"force_default_language":null,"current_locale_local_version":"5db7a3b62845b549c20c78646f909ddd","default_locale_local_version":"5db7a3b62845b549c20c78646f909ddd"},"urls":{"login":"http://www.change.org/login_or_join","users":"http://www.change.org/users","facebook_oauth":"http://www.change.org/facebook_oauth","remember_where_to_return":"http://www.change.org/remember_where_to_return","petitions_path":"/petitions","oauth_callback":"http://www.change.org/oauth_callback","yahoo_authorize":"/yahoo_authorize","yahoo_fetch_contacts":"/yahoo_fetch_contacts"},"facebook":{"app_id":48409868550},"oauth":{"google_client_id":"447546052607-4no8v20ml5lei1egj3jm01ipeun85s1k.apps.googleusercontent.com"},"do_search_query":true};
+
+    _opz  = [];
+    _gaq  = [["_setAccount","UA-5889778-1"],["_setDomainName",".change.org"],["_setAllowHash",false],["_gat._anonymizeIp"],["_setCustomVar","5","Sessions_Campaigns","1.1","2"],["_setCustomVar","2","Source","(direct)","1"],["_setCustomVar","2","Campaign","(direct)","1"],["_setCustomVar","2","Medium","(none)","1"],["_trackPageview","/search?_csrf=6de0d298ee9b586c039875068bbf6ac2&amp;authenticity_token=6de0d298ee9b586c039875068bbf6ac2&amp;q=us"]];
+    _gafv = {"Source":"(direct)","Campaign":"(direct)","Medium":"(none)"};
+
+    safeCallback = function (loaded, callback) {
+      return function (url, result, key) {
+        if (!loaded()) {
+          try {
+            Airbrake.notify({
+              message: "ConditionalAssets: " + key + " failed to load"
+            });
+          } catch (error) { }
+
+          return;
+        }
+
+        callback(url, result, key);
+      }
+    };
+
+    assets = {
+      load: {"google_analytics":"//www.google-analytics.com/ga.js","mixpanel":"//cdn.mxpnl.com/libs/mixpanel-2.2.min.js","jquery":"//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js","xregexp":"//d22r54gnmuhwmk.cloudfront.net/app-assets/xregexp-all-min-5ab2d40c10ebd07ca0ea2267261fb646.js","application":"//d22r54gnmuhwmk.cloudfront.net/app-assets/desktop-87f1913760ac15f80f1ca18ede378a64.js","facebook":"//connect.facebook.net/en_US/all.js","twitter":"https://platform.twitter.com/widgets.js","google_maps":"//maps.google.com/maps/api/js?sensor=false&amp;libraries=places&amp;callback=Change.ready.google_maps.resolve","qualaroo":"//s3.amazonaws.com/ki.js/39483/7BD.js"}
+    };
+
+    assets.callback = {
+      google_analytics: safeCallback(function () {
+        return typeof _gat !== "undefined";
+      }, function () {
+        Change.googleAnalyticsTracker =
+          _gat._createTracker("UA-5889778-1");
+
+        Change.ready.application.done(function () {
+          if (typeof _gafv.Campaign !== "undefined") {
+            $.cookie('ga_first_visit', JSON.stringify(_gafv), {
+              expires: 10000,
+              path: '/',
+              domain: '.' + location.host.match(/([^.]+\.\w+)(:\d+)?$/)[1]
+            });
+          }
+        });
+      }),
+
+      jquery: safeCallback(function () {
+        return typeof jQuery !== "undefined";
+      }, function () {
+        var key;
+
+        jQuery.curCSS = jQuery.css; // Backwards compat for jQuery UI
+
+        // Convert shim Deferreds into real jQuery Deferreds
+        for (key in Change.ready) {
+          if (Change.ready.hasOwnProperty(key)) {
+            Change.ready[key] = Change.ready[key].tojQueryDeferred();
+          }
+        }
+
+        Change.ready.jquery.resolve();
+      }),
+
+      post_stubs: safeCallback(function () {
+        return typeof FBWorld !== "undefined";
+      }, function () {
+        FBWorld.setSecret("4486154b7edf188b730f31a4bc1ebc06");
+        Change.ready.post_stubs.resolve();
+      }),
+
+      application: safeCallback(function () {
+        return Change.loaded;
+      }, function (url, result, key) {
+        Change.ready.application.resolve();
+      }),
+
+      legislator_data: safeCallback(function () {
+        return typeof PetitionTargets !== "undefined";
+      }, function () {
+        Change.ready.legislator_data.resolve();
+      }),
+
+      stripe: safeCallback(function () {
+        return typeof Stripe !== "undefined";
+      }, function () {
+        Stripe.setPublishableKey('pk_3gTDVBJ8eNY6CmJLR7LPYnrg51Kxa');
+      }),
+
+      qualaroo: safeCallback(function () {
+        return typeof $KI !== "undefined";
+      }, function () {
+        Change.ready.qualaroo.resolve();
+      }),
+
+      mocha: safeCallback(function () {
+        return typeof mocha !== "undefined";
+      }, function () {
+        mocha.run();
+      })
+    };
+
+    // Special case: Cedexis runs after the document load event
+    if (assets.load.cedexis) {
+      onload = assets.load.cedexis;
+      delete assets.load.cedexis;
+
+      onloadCallback = function () {
+        yepnope(onload);
+      };
+
+      if (window.addEventListener) {
+        window.addEventListener("load", onloadCallback, false);
+      } else if (window.attachEvent) {
+        window.attachEvent("onload", onloadCallback);
+      }
+    }
+
+    // Queue up inline JS.
+
+    // Allow up to 30 seconds for scripts to load instead of the default 10.
+    // For some users, scripts downloads were timing out and causing various
+    // functionality to fail.
+    yepnope.errorTimeout = 30000;
+
+      yepnope(assets);
+  }();
+
+//]]>
+    </script>
+    <!--
+1080fa7932e6be3e428ef57fa95d74d384578d2d
+app-metal-05.change.org
+-->  </body>
+</html>

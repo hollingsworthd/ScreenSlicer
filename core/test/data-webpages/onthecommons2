@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" class="js">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <link href="http://purl.org/dc/elements/1.1/" rel="schema.dc"/>
+    <meta content="2012-01-07T00:00:00Z" name="dcterms.date"/>
+    <meta content="[author-name]" name="dcterms.creator"/>
+    <link href="http://onthecommons.org/search/node/family" rel="canonical"/>
+    <meta content="1 day" name="revisit-after"/>
+    <title>
+      Search | On the Commons
+    </title>
+    <link href="/modules/search/search.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/modules/node/node.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/modules/system/defaults.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/modules/system/system.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/modules/system/system-menus.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/modules/user/user.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/modules/cck/theme/content-module.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/modules/date/date.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/modules/filefield/filefield.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/modules/mollom/mollom.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/modules/nice_menus/nice_menus.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/modules/nice_menus/nice_menus_default.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/modules/swftools/swftools.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/modules/typogrify/typogrify.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/modules/views/css/views.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/modules/custom_search/custom_search.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <link href="/sites/all/themes/allmende/style.css?X" media="all" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script src="/sites/default/files/js/js_1f01da0b3261d40320e1fc340b23a0da.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "nice_menus_options": { "delay": 800, "speed": 1 }, "custom_search": { "form_target": "_self", "solr": 0 }, "AjaxLoad": { "scripts": [ "/misc/jquery.js", "/misc/drupal.js", "/sites/all/modules/ajax_load/ajax_load.js", "/sites/all/modules/google_analytics/googleanalytics.js", "/sites/all/modules/mollom/mollom.js", "/sites/all/modules/nice_menus/superfish/js/superfish.js", "/sites/all/modules/nice_menus/superfish/js/jquery.bgiframe.min.js", "/sites/all/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js", "/sites/all/modules/nice_menus/nice_menus.js", "/sites/all/modules/swftools/swftools.js", "/sites/all/modules/views_slideshow/js/jquery.cycle.all.min.js", "/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.js", "/sites/all/modules/custom_search/custom_search.js", "/sites/all/themes/allmende/js/quiz.js", "/sites/all/themes/allmende/js/jquery.validate.min.js" ] }, "viewsSlideshowSingleFrame": { "#views_slideshow_singleframe_main_carousel_home-block": { "num_divs": 4, "id_prefix": "#views_slideshow_singleframe_main_", "div_prefix": "#views_slideshow_singleframe_div_", "vss_id": "carousel_home-block", "timeout": 5000, "sort": 1, "effect": "fade", "speed": 700, "start_paused": 0, "delay": 0, "fixed_height": 1, "random": 0, "pause": 1, "pause_on_click": 0, "pause_when_hidden": 0, "pause_when_hidden_type": "full", "amount_allowed_visible": "", "remember_slide": 0, "remember_slide_days": 1, "controls": 0, "items_per_slide": 1, "pager": 2, "pager_type": "Numbered", "pager_hover": 2, "pager_click_to_page": 1, "image_count": 0, "nowrap": 0, "sync": 1, "advanced": "", "ie": { "cleartype": "true", "cleartypenobg": "false" } } } });
+//--&gt;&lt;!]]&gt;
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+window.googleanalytics_search_results = 239;
+//--&gt;&lt;!]]&gt;
+
+//]]>
+    </script>
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nova+Round%7CAsap:400,700,400italic,700italic%7CNoticia+Text:400,400italic,700,700italic"/>
+    <script src="http://w.sharethis.com/button/buttons.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+stLight.options({publisher: "89845c5b-53c6-455b-8f70-d973338cca29"}); 
+//]]>
+    </script>
+    <link href="http://onthecommons.org/magazine/rss.xml" title="On the Commons magazine" type="application/rss+xml" rel="alternate"/>
+  </head>
+  <body>
+    <div id="header1i">
+      <div class="wrapper">
+        <a href="/">
+          <img width="386" height="45" id="logoint" alt="On the Commons" src="/sites/all/themes/allmende/img/logo.interior.png"/>
+        </a>
+        <h4>
+          Commons Magazine
+        </h4>
+        <img width="307" height="115" id="logopeople" alt="On the Commons" src="/sites/all/themes/allmende/img/logo.int.blue.png"/>
+      </div>
+    </div>
+    <div id="header2">
+      <div class="wrapper">
+        <div class="block" id="block-menu-menu-rail">
+          <ul class="menu">
+            <li id=" menu-item-custom-id-1" class="leaf first AboutUs">
+              <a title="" href="/about">
+                About Us
+              </a>
+            </li>
+            <li id=" menu-item-custom-id-2" class="leaf Commonsmagazine">
+              <a title="" href="/magazine">
+                Commons magazine
+              </a>
+            </li>
+            <li id=" menu-item-custom-id-3" class="leaf CommonsWork">
+              <a title="" href="/work/commons-network">
+                Commons Work
+              </a>
+            </li>
+            <li id=" menu-item-custom-id-4" class="leaf last Contact">
+              <a title="" href="/contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="block" id="block-search-0">
+          <form class="search-form" id="search-block-form" method="post" accept-charset="UTF-8" action="/search/node/family" target="_self">
+            <div>
+              <div class="container-inline">
+                <div id="edit-search-block-form-1-wrapper" class="form-item">
+                  <input type="text" class="form-text  custom-search-default-value custom-search-box" title="Enter the terms you wish to search for." value="Search the site" size="15" id="edit-search-block-form-1" name="search_block_form" maxlength="128"/>
+                </div>
+                <fieldset class="custom_search-popup custom_search-processed">
+                  <a href="#" class="custom_search-popup-close">
+                    Close
+                  </a>
+                </fieldset>
+                <input type="submit" class="form-submit" value="Search" id="edit-submit-1" name="op"/>
+                <input type="hidden" value="form-5a941ae35ead2e1867cdd6d3cbd206e5" id="form-5a941ae35ead2e1867cdd6d3cbd206e5" name="form_build_id"/>
+                <input type="hidden" value="search_block_form" id="edit-search-block-form" name="form_id"/>
+                <input type="hidden" class="default-text" value="Search the site" id="edit-default-text" name="default_text"/>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="block" id="block-block-14">
+          <div id="social">
+            <ul>
+              <li>
+                <a target="_target" href="https://twitter.com/#%21/onthecommons">
+                  <img width="32" height="32" alt="Follow On the Commons on Twitter" src="/sites/all/themes/allmende/img/btn.twitter.png" class="dlcftissvgczarscwcum"/>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://www.facebook.com/OntheCommons">
+                  <img width="32" height="32" alt="Fan On the Commons on Facebook" src="/sites/all/themes/allmende/img/btn.facebook.png" class="dlcftissvgczarscwcum"/>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://org2.salsalabs.com/o/5475/p/salsa/donation/common/public/?donate_page_KEY=9540">
+                  <img height="32" alt="Donate to On the Commons" src="/sites/all/themes/allmende/img/btn.donate.png"/>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="block" id="block-block-15">
+          <div id="railnewsletter">
+            <p>
+              Stay connected: sign up
+            </p>
+            <form action="http://hq-org2.democracyinaction.org/dia/processEditValues.jsp" method="POST">
+              <input type="hidden" value="5475" name="organization_KEY"/>
+              <input type="hidden" value="supporter" name="table"/>
+              <input type="hidden" value="http://onthecommons.org/about/thank-you" name="redirect"/>
+              <input type="text" class="form-text" value="Your email address" onblur="this.value=!this.value?'Your email address':this.value;" onfocus="this.select()" onclick="this.value='';" name="Email"/>
+              <input type="submit" class="form-submit" value="Sign up"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper" id="intmain">
+      <div id="intmain1">
+        <div class="breadcrumb">
+          <a href="/">
+            Home
+          </a>
+           › 
+          <a href="/search">
+            Search
+          </a>
+        </div>
+        <div class="clear-block" id="tabs-wrapper">
+          <ul class="tabs primary">
+            <li>
+              <a href="/search/location/family">
+                Locations
+              </a>
+            </li>
+            <li>
+              <a href="/search/user/family">
+                Users
+              </a>
+            </li>
+            <li class="active">
+              <a class="active" href="/search/node/family">
+                Content
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form class="search-form" id="search-form" method="post" accept-charset="UTF-8" action="/search/node" target="_self">
+          <div>
+            <div id="edit-keys-wrapper" class="form-item">
+              <label for="edit-keys">
+                Enter your keywords: 
+              </label>
+              <div class="container-inline">
+                <div id="edit-keys-wrapper" class="form-item">
+                  <input type="text" class="form-text" value="family" size="40" id="edit-keys" name="keys" maxlength="255"/>
+                </div>
+                <input type="submit" class="form-submit" value="Search" id="edit-submit" name="op"/>
+              </div>
+            </div>
+            <input type="hidden" value="form-33dbe2d701748e02caf34035bd511b71" id="form-33dbe2d701748e02caf34035bd511b71" name="form_build_id"/>
+            <input type="hidden" value="search_form" id="edit-search-form" name="form_id"/>
+          </div>
+        </form>
+        <div class="box">
+          <h2>
+            Search results
+          </h2>
+          <div class="content">
+            <dl class="search-results node-results">
+              <dt class="title">
+                <a href="http://onthecommons.org/magazine/indigenous-people-honduras-block-dam-sacred-river">
+                  Indigenous People In Honduras Block Dam on Sacred River
+                </a>
+              </dt>
+              <dd>
+                <p class="search-snippet">
+                  ...  The first, on June 29, by several members of a powerful 
+                  <strong>
+                    family
+                  </strong>
+                   allied with the dam company, left his eye, face, and hand mutilated. ...
+                </p>
+                <p class="search-info">
+                  Story - 
+                  <a title="View user profile." href="/users/jay-walljasper">
+                    Jay Walljasper
+                  </a>
+                   - 2014-04-21 16:00 - 0 comments - 0 attachments
+                </p>
+              </dd>
+              <dt class="title">
+                <a href="http://onthecommons.org/magazine/stop-thief">
+                  Stop, Thief!
+                </a>
+              </dt>
+              <dd>
+                <p class="search-snippet">
+                  ...  Internet.  Common sense arises from the web of 
+                  <strong>
+                    family
+                  </strong>
+                   and neighborhood relationships.  But we need a place to meet!  How ...  water fountain that has gone dry, the land that once your 
+                  <strong>
+                    family
+                  </strong>
+                   could use, the fresh air that used to renew your spirit – ...  world are yours:  each heart    Self-governed, the vast 
+                  <strong>
+                    Family
+                  </strong>
+                   of Love    Rais’d from the common earth by common toil,    Enjoy the ...
+                </p>
+                <p class="search-info">
+                  Story - 
+                  <a title="View user profile." href="/users/jay-walljasper">
+                    Jay Walljasper
+                  </a>
+                   - 2014-04-14 20:59 - 0 comments - 0 attachments
+                </p>
+              </dd>
+              <dt class="title">
+                <a href="http://onthecommons.org/family-planning-bush-style">
+                  Family Planning Bush Style
+                </a>
+              </dt>
+              <dd>
+                <p class="search-snippet">
+                  ...    
+                    Bush Administration condemnation of 
+                  <strong>
+                    family
+                  </strong>
+                   planning programs is more market than morals.          
+          
+  
+	  ...  the impression that the Bush Administration was opposed to 
+                  <strong>
+                    family
+                  </strong>
+                   planning in the Third World because of moral scruples regarding ...
+                </p>
+                <p class="search-info">
+                  Story - 
+                  <a title="View user profile." href="/users/jonathan-rowe">
+                    Jonathan Rowe
+                  </a>
+                   - 2008-03-13 16:59 - 0 comments - 0 attachments
+                </p>
+              </dd>
+              <dt class="title">
+                <a href="http://onthecommons.org/magazine/why-are-we-0">
+                  "Why Are We?"
+                </a>
+              </dt>
+              <dd>
+                <p class="search-snippet">
+                  ...  almost never people who are young and have their nuclear 
+                  <strong>
+                    family
+                  </strong>
+                   intact. And I don’t know if that’s a limitation of the poem I wrote ...
+                </p>
+                <p class="search-info">
+                  Story - 
+                  <a title="View user profile." href="/users/jay-walljasper">
+                    Jay Walljasper
+                  </a>
+                   - 2014-04-10 11:15 - 0 comments - 0 attachments
+                </p>
+              </dd>
+              <dt class="title">
+                <a href="http://onthecommons.org/magazine/xxx-rio-blanco">
+                  xxx rio blanco
+                </a>
+              </dt>
+              <dd>
+                <p class="search-snippet">
+                  ...  The first, on June 29, by several members of a powerful 
+                  <strong>
+                    family
+                  </strong>
+                   allied with the dam company, left his eye, face, and hand mutilated. ...
+                </p>
+                <p class="search-info">
+                  Story - 
+                  <a title="View user profile." href="/users/jay-walljasper">
+                    Jay Walljasper
+                  </a>
+                   - 2014-04-04 18:38 - 0 comments - 0 attachments
+                </p>
+              </dd>
+              <dt class="title">
+                <a href="http://onthecommons.org/magazine/xxrio-blanco">
+                  xxRio blanco
+                </a>
+              </dt>
+              <dd>
+                <p class="search-snippet">
+                  ...  The first, on June 29, by several members of a powerful 
+                  <strong>
+                    family
+                  </strong>
+                   allied with the dam company, left his eye, face, and hand mutilated. ...
+                </p>
+                <p class="search-info">
+                  Story - 
+                  <a title="View user profile." href="/users/jay-walljasper">
+                    Jay Walljasper
+                  </a>
+                   - 2014-04-04 18:36 - 0 comments - 0 attachments
+                </p>
+              </dd>
+              <dt class="title">
+                <a href="http://onthecommons.org/magazine/how-sharing-can-shift-spirit-times">
+                  How Sharing Can Shift the Spirit of the Times
+                </a>
+              </dt>
+              <dd>
+                <p class="search-snippet">
+                  ...  I grew up in an American, middle class suburban 
+                  <strong>
+                    family
+                  </strong>
+                   during a historic, never-seen-before orgy of consumption. This lifestyle destroyed my 
+                  <strong>
+                    family
+                  </strong>
+                   and many others around us. It was completely alienating. We never wanted ...
+                </p>
+                <p class="search-info">
+                  Story - 
+                  <a title="View user profile." href="/users/jay-walljasper">
+                    Jay Walljasper
+                  </a>
+                   - 2014-03-28 17:56 - 0 comments - 0 attachments
+                </p>
+              </dd>
+              <dt class="title">
+                <a href="http://onthecommons.org/neal-gorenflo-shows-sharing-way-life">
+                  Neal Gorenflo Shows Sharing As a Way of Life
+                </a>
+              </dt>
+              <dd>
+                <p class="search-snippet">
+                  ...  I grew up in an American, middle class suburban 
+                  <strong>
+                    family
+                  </strong>
+                   during a historic, never-seen-before orgy of consumption. This lifestyle destroyed my 
+                  <strong>
+                    family
+                  </strong>
+                   and many others around us. It was completely alienating. We never wanted ...
+                </p>
+                <p class="search-info">
+                  Uncommon Commoner - 
+                  <a title="View user profile." href="/users/jessica-conrad">
+                    Jessica Conrad
+                  </a>
+                   - 2014-03-27 09:47 - 0 comments - 0 attachments
+                </p>
+              </dd>
+              <dt class="title">
+                <a href="http://onthecommons.org/magazine/our-new-ebook-sharing-revolution">
+                  Our New eBook: Sharing Revolution
+                </a>
+              </dt>
+              <dd>
+                <p class="search-snippet">
+                  ...    to donate now.        Forward this e-book to friends and 
+                  <strong>
+                    family
+                  </strong>
+                  , and share it on   Facebook   and   Twitter   to help others become ...
+                </p>
+                <p class="search-info">
+                  Story - 
+                  <a title="View user profile." href="/users/jessica-conrad">
+                    Jessica Conrad
+                  </a>
+                   - 2014-03-21 09:50 - 0 comments - 0 attachments
+                </p>
+              </dd>
+              <dt class="title">
+                <a href="http://onthecommons.org/magazine/ebook-how-design-our-world-happiness">
+                  eBook: How to Design Our World for Happiness
+                </a>
+              </dt>
+              <dd>
+                <p class="search-snippet">
+                  ...   
+    
+  Forward this e-book to friends and 
+                  <strong>
+                    family
+                  </strong>
+                  , and share it on   Facebook   and   Twitter   to help others become ...
+                </p>
+                <p class="search-info">
+                  Story - 
+                  <a title="View user profile." href="/users/jay-walljasper">
+                    Jay Walljasper
+                  </a>
+                   - 2014-03-14 10:20 - 0 comments - 0 attachments
+                </p>
+              </dd>
+            </dl>
+            <div class="item-list">
+              <ul class="pager">
+                <li class="pager-current first">
+                  1
+                </li>
+                <li class="pager-item">
+                  <a class="active" title="Go to page 2" href="/search/node/family?page=1">
+                    2
+                  </a>
+                </li>
+                <li class="pager-item">
+                  <a class="active" title="Go to page 3" href="/search/node/family?page=2">
+                    3
+                  </a>
+                </li>
+                <li class="pager-item">
+                  <a class="active" title="Go to page 4" href="/search/node/family?page=3">
+                    4
+                  </a>
+                </li>
+                <li class="pager-item">
+                  <a class="active" title="Go to page 5" href="/search/node/family?page=4">
+                    5
+                  </a>
+                </li>
+                <li class="pager-item">
+                  <a class="active" title="Go to page 6" href="/search/node/family?page=5">
+                    6
+                  </a>
+                </li>
+                <li class="pager-item">
+                  <a class="active" title="Go to page 7" href="/search/node/family?page=6">
+                    7
+                  </a>
+                </li>
+                <li class="pager-item">
+                  <a class="active" title="Go to page 8" href="/search/node/family?page=7">
+                    8
+                  </a>
+                </li>
+                <li class="pager-item">
+                  <a class="active" title="Go to page 9" href="/search/node/family?page=8">
+                    9
+                  </a>
+                </li>
+                <li class="pager-ellipsis">
+                  …
+                </li>
+                <li class="pager-next">
+                  <a class="active" title="Go to next page" href="/search/node/family?page=1">
+                    next ›
+                  </a>
+                </li>
+                <li class="pager-last last">
+                  <a class="active" title="Go to last page" href="/search/node/family?page=23">
+                    last »
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar" id="intmain2">
+        <div id="ribbondonate">
+          <div class="block" id="block-block-19">
+            <p>
+              Grow the
+              <br/>
+              commons movement.
+            </p>
+            <p>
+              <a target="_blank" href="https://org2.democracyinaction.org/o/5475/donate_page/harriet2012">
+                Become a
+                <br/>
+                commons sustainer today.
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="block" id="block-views-commons_topics-block_2">
+          <div class="view view-commons-topics view-id-commons_topics view-display-id-block_2 view-dom-id-1">
+            <div class="view-content">
+              <div class="item-list">
+                <ul>
+                  <li class="views-row views-row-1 views-row-odd views-row-first">
+                    <div class="views-field-name">
+                      <span class="field-content">
+                        <a href="/magazine/commons-strategies">
+                          Commons Strategies
+                        </a>
+                      </span>
+                    </div>
+                  </li>
+                  <li class="views-row views-row-2 views-row-even">
+                    <div class="views-field-name">
+                      <span class="field-content">
+                        <a href="/magazine/information">
+                          Information
+                        </a>
+                      </span>
+                    </div>
+                  </li>
+                  <li class="views-row views-row-3 views-row-odd">
+                    <div class="views-field-name">
+                      <span class="field-content">
+                        <a href="/magazine/community-life">
+                          Community Life
+                        </a>
+                      </span>
+                    </div>
+                  </li>
+                  <li class="views-row views-row-4 views-row-even">
+                    <div class="views-field-name">
+                      <span class="field-content">
+                        <a href="/magazine/arts-and-culture">
+                          Arts and Culture
+                        </a>
+                      </span>
+                    </div>
+                  </li>
+                  <li class="views-row views-row-5 views-row-odd">
+                    <div class="views-field-name">
+                      <span class="field-content">
+                        <a href="/magazine/economy-and-markets">
+                          Economy and Markets
+                        </a>
+                      </span>
+                    </div>
+                  </li>
+                  <li class="views-row views-row-6 views-row-even">
+                    <div class="views-field-name">
+                      <span class="field-content">
+                        <a href="/magazine/environment">
+                          Environment
+                        </a>
+                      </span>
+                    </div>
+                  </li>
+                  <li class="views-row views-row-7 views-row-odd">
+                    <div class="views-field-name">
+                      <span class="field-content">
+                        <a href="/magazine/food-and-agriculture">
+                          Food and Agriculture
+                        </a>
+                      </span>
+                    </div>
+                  </li>
+                  <li class="views-row views-row-8 views-row-even">
+                    <div class="views-field-name">
+                      <span class="field-content">
+                        <a href="/magazine/international">
+                          International
+                        </a>
+                      </span>
+                    </div>
+                  </li>
+                  <li class="views-row views-row-9 views-row-odd">
+                    <div class="views-field-name">
+                      <span class="field-content">
+                        <a href="/magazine/media-and-internet">
+                          Media and Internet
+                        </a>
+                      </span>
+                    </div>
+                  </li>
+                  <li class="views-row views-row-10 views-row-even">
+                    <div class="views-field-name">
+                      <span class="field-content">
+                        <a href="/magazine/politics-and-government">
+                          Politics and Government
+                        </a>
+                      </span>
+                    </div>
+                  </li>
+                  <li class="views-row views-row-11 views-row-odd">
+                    <div class="views-field-name">
+                      <span class="field-content">
+                        <a href="/magazine/science-and-health">
+                          Science and Health
+                        </a>
+                      </span>
+                    </div>
+                  </li>
+                  <li class="views-row views-row-12 views-row-even views-row-last">
+                    <div class="views-field-name">
+                      <span class="field-content">
+                        <a href="/magazine/water">
+                          Water
+                        </a>
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block" id="block-views-uncommon_commoner-block_3">
+          <h3>
+            Commoners
+          </h3>
+          <div class="view view-uncommon-commoner view-id-uncommon_commoner view-display-id-block_3 view-dom-id-2">
+            <div class="view-content">
+              <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+                <div class="views-field-field-image-fid">
+                  <span class="field-content">
+                    <a class="imagecache imagecache-165w imagecache-linked imagecache-165w_linked" href="/passion-great-lakes-runs-deep">
+                      <img width="165" height="202" class="imagecache imagecache-165w" title="" alt="" src="http://onthecommons.org/sites/default/files/imagecache/165w/headshot2011.jpeg"/>
+                    </a>
+                  </span>
+                </div>
+                <div class="views-field-field-commoner-name-value">
+                  <span class="field-content">
+                    <h2>
+                      <a href="/passion-great-lakes-runs-deep">
+                        Alexa Bradley
+                      </a>
+                    </h2>
+                  </span>
+                </div>
+                <div class="views-field-title">
+                  <span class="field-content">
+                    Passion for the Great Lakes Runs Deep
+                  </span>
+                </div>
+                <div class="views-field-field-home-page-blurb-value">
+                  <div class="field-content">
+                    Organizer reveals the Great Lakes Commons Initiative's key to success: community leadership
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="view-footer">
+              <p class="dek">
+                <a href="/magazine/commoners">
+                  More commoners profiles
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pageclear">
+         
+      </div>
+    </div>
+    <div id="footer">
+      <div class="wrapper">
+        <div class="block" id="block-block-20">
+          <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+              <tr>
+                <td rowspan="2" id="footer1">
+                  <p style="width:30px;float:right;">
+                    <a href="http://onthecommons.org/magazine/rss.xml">
+                      <img width="30" height="30" border="0" src="http://onthecommons.org/sites/all/themes/allmende/img/rss-64x64.png"/>
+                    </a>
+                  </p>
+                  <h5>
+                    <a href="/magazine">
+                      Commons 
+                      <span style="color : #00bce4;">
+                        Magazine
+                      </span>
+                    </a>
+                  </h5>
+                  <ul style="margin-top : 4px;">
+                    <li>
+                      <a href="/magazine/commons-strategies">
+                        Commons Strategies
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/magazine/community-life">
+                        Community Life
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/magazine/culture-arts-and-information">
+                        Culture, Arts and Information
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/magazine/economy-and-markets">
+                        Economy and Markets
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/magazine/environment">
+                        Environment
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/magazine/food-and-agriculture">
+                        Food and Agriculture
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/magazine/international">
+                        International
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/magazine/media-and-internet">
+                        Media and Internet
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/magazine/politics-and-government">
+                        Politics and Government
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/magazine/science-and-health">
+                        Science and Health
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/magazine/water">
+                        Water
+                      </a>
+                    </li>
+                  </ul>
+                  <p>
+                    <a href="/magazine/commoners">
+                      Commoners
+                    </a>
+                  </p>
+                  <!-- <p>Have an idea for a story?</p> -->                  <p>
+                    <a href="/all-that-we-share">
+                      <em>
+                        All That We Share
+                      </em>
+                    </a>
+                  </p>
+                  <h5 style="margin-top : 30px;">
+                    About On the Commons
+                  </h5>
+                  <p>
+                    <a href="/about-commons-0">
+                      About Us
+                    </a>
+                  </p>
+                  <p>
+                    <a href="/contact">
+                      Contact
+                    </a>
+                  </p>
+                  <p>
+                    <a style="color : #e60049;" target="_blank" href="https://org2.salsalabs.com/o/5475/donate_page/allthatweshare">
+                      Donate
+                    </a>
+                  </p>
+                </td>
+                <td rowspan="2" id="footer2">
+                  <h5>
+                    <a href="/work">
+                      Commons 
+                      <span style="color : #ed9a00;">
+                        Work
+                      </span>
+                    </a>
+                  </h5>
+                  <p>
+                    <a href="/work/introduction-commons">
+                      Introduction to the Commons
+                    </a>
+                  </p>
+                  <p>
+                  </p>
+                  <p>
+                    <a href="/work/commons-framework">
+                      Commons Framework
+                    </a>
+                  </p>
+                  <ul>
+                    <li>
+                      <a href="/work/commons-framework/belonging">
+                        Belonging
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/work/commons-framework/co-producing">
+                        Co-Producing
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/work/commons-framework/equity">
+                        Equity
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/work/commons-framework/sustainability">
+                        Sustainability
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/work/commons-framework/governance">
+                        Governance
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/work/commons-framework/interdependence">
+                        Interdependence
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/work/commons-framework/responsibility">
+                        Responsibility
+                      </a>
+                    </li>
+                  </ul>
+                  <p>
+                    <a href="/work/commons-network">
+                      Commons Network
+                    </a>
+                  </p>
+                  <ul>
+                    <li>
+                      <a href="/work/commons-network/great-lakes-commons">
+                        Great Lakes Commons
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/work/commons-network/international-water-commons">
+                        International Water Commons
+                      </a>
+                    </li>
+                    <!--<li><a href="/work/commons-network/local-commons">Local Commons</a></li>-->                    <li>
+                      <a href="/work/commons-network/our-food-commons">
+                        Our Food Commons
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="creativecommons">
+                    <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">
+                      <img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border-width:0" alt="Creative Commons License"/>
+                    </a>
+                    <br/>
+                    <span rel="dct:type" property="dct:title" href="http://purl.org/dc/dcmitype/Text" xmlns:dct="http://purl.org/dc/terms/">
+                      onthecommons.org
+                    </span>
+                     by 
+                    <a rel="cc:attributionURL" property="cc:attributionName" href="http://onthecommons.org" xmlns:cc="http://creativecommons.org/ns#">
+                      On the Commons
+                    </a>
+                     is licensed under a 
+                    <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">
+                      Creative Commons Attribution-ShareAlike 3.0 Unported License
+                    </a>
+                    .
+
+                  </div>
+                </td>
+                <td id="footer3">
+                  <img width="300" height="35" alt="On the Commons" src="/sites/all/themes/allmende/img/logo.footer.png"/>
+                  <p>
+                    2104 Stevens Avenue South
+                    <br/>
+                    
+Minneapolis, Minnesota 55404
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td id="footer4">
+                  <div class="view view-quotes view-id-quotes view-display-id-default view-dom-id-8">
+                    <div class="view-content">
+                      <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+                        <p>
+                          “Taxes are the price we pay for a civilized society. ”
+                        </p>
+                        <p class="attribution">
+                          —	
+                        </p>
+                        <p>
+                          —Oliver Wendell Holmes, U.S. Supreme Court Justice
+                        </p>
+                        <p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-17080191-1"]);_gaq.push(["_setVar", "anonymous user"]);_gaq.push(['_setCustomVar', 1, "User roles", "anonymous user", 1]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--&gt;&lt;!]]&gt;
+
+//]]>
+    </script>
+  </body>
+</html>

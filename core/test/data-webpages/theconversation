@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html class="ie ie8 lt-ie9" lang="en">
+  <!--<![endif]-->  <head>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-1.newrelic.com","errorBeacon":"jserror.newrelic.com","licenseKey":"5b06465c9f","applicationID":"367227","transactionName":"el9cTBRXCl8EFk5AVVhCUVBJUQhXBBw=","queueTime":4,"applicationTime":780,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-361.min.js"}
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+(window.NREUM||(NREUM={})).loader_config={xpid:"VwcEVlFACwUHVlNV"};window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f&lt;d.length;f++)e(d[f]);return e}({1:[function(a,b){function c(a,b,c){c||(c={});for(var d=f[a],e=d&amp;&amp;d.length||0,h=c[g]||(c[g]={}),i=0;e&gt;i;i++)d[i].apply(h,b);return h}function d(a,b){var c=f[a]||(f[a]=[]);c.push(b)}function e(a){return delete a[g]}var f={},g="nr@context";b.exports={on:d,emit:c,clear:e}},{}],2:[function(a){function b(a,b,e,g,i){return h?h-=1:c("err",[i||new UncaughtException(a,b,e)]),"function"==typeof f?f.apply(this,d(arguments)):!1}function UncaughtException(a,b,c){this.message=a||"Uncaught error with no additional information",this.sourceURL=b,this.line=c}var c=a("handle"),d=a("lodash._slice"),e=a("../../../contextual-ee"),f=window.onerror,g=!1,h=0;a("loader").features.push("err"),window.onerror=b;try{throw new Error}catch(i){"stack"in i&amp;&amp;(a("../../wrap-timer"),a("../../wrap-raf"),"addEventListener"in window&amp;&amp;a("../../wrap-events"),window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;a("../../wrap-xhr"),g=!0)}e.on("fn-start",function(){g&amp;&amp;(h+=1)}),e.on("fn-err",function(a,b,d){g&amp;&amp;(this.thrown=!0,c("err",[d,(new Date).getTime()]))}),e.on("fn-end",function(){g&amp;&amp;!this.thrown&amp;&amp;h&gt;0&amp;&amp;(h-=1)})},{"../../../contextual-ee":1,"../../wrap-events":3,"../../wrap-raf":4,"../../wrap-timer":5,"../../wrap-xhr":6,handle:"4O2Y62",loader:"YLUGVp","lodash._slice":14}],3:[function(a){function b(a){d.inPlace(a,["addEventListener","removeEventListener"],"-",c)}function c(a){return a[1]}var d=a("../wrap-function"),e=(a("lodash._slice"),a("../contextual-ee"));if(b(window),"getPrototypeOf"in Object){for(var f=document;f&amp;&amp;!f.hasOwnProperty("addEventListener");)f=Object.getPrototypeOf(f);f&amp;&amp;b(f);for(var g=XMLHttpRequest.prototype;g&amp;&amp;!g.hasOwnProperty("addEventListener");)g=Object.getPrototypeOf(g);g&amp;&amp;b(g)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&amp;&amp;b(XMLHttpRequest.prototype);e.on("addEventListener-start",function(a){if(a[1]){var b=a[1];"function"==typeof b?this.wrapped=b["nr@wrapped"]?a[1]=b["nr@wrapped"]:b["nr@wrapped"]=a[1]=d(b,"fn-"):"function"==typeof b.handleEvent&amp;&amp;d.inPlace(b,["handleEvent"],"fn-")}}),e.on("removeEventListener-start",function(a){var b=this.wrapped;b&amp;&amp;(a[1]=b)})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],4:[function(a){var b=(a("lodash._slice"),a("../wrap-function")),c=a("../contextual-ee");b.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),c.on("raf-start",function(a){a[0]=b(a[0],"fn-")})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],5:[function(a){function b(a){var b=a[0];"string"==typeof b&amp;&amp;(b=new Function(b)),a[0]=c(b,"fn-")}var c=(a("lodash._slice"),a("../wrap-function")),d=a("../contextual-ee");c.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),d.on("setTimer-start",b)},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],6:[function(a){function b(){c.inPlace(this,f,"fn-")}var c=a("../wrap-function"),d=a("../contextual-ee"),e=window.XMLHttpRequest,f=["onload","onerror","onabort","onloadstart","onloadend","onprogress","onreadystatechange","ontimeout"];window.XMLHttpRequest=function(a){var f=new e(a);return d.emit("new-xhr",[],f),c.inPlace(f,["addEventListener","removeEventListener"],"-",function(a,b){return b}),f.addEventListener("readystatechange",b,!1),f},window.XMLHttpRequest.prototype=e.prototype},{"../contextual-ee":1,"../wrap-function":15}],7:[function(a){function b(a){if("string"==typeof a&amp;&amp;a.length)return a.length;if("object"!=typeof a)return void 0;if("undefined"!=typeof ArrayBuffer&amp;&amp;a instanceof ArrayBuffer&amp;&amp;a.byteLength)return a.byteLength;if("undefined"!=typeof Blob&amp;&amp;a instanceof Blob&amp;&amp;a.size)return a.size;if("undefined"!=typeof FormData&amp;&amp;a instanceof FormData)return void 0;try{return JSON.stringify(a).length}catch(b){return void 0}}function c(a){var c=this.params,d=this.metrics;if(!this.ended){this.ended=!0;for(var e=0;k&gt;e;e++)a.removeEventListener(j[e],this.listener,!1);if(!c.aborted){if(d.duration=(new Date).getTime()-this.startTime,4===a.readyState){c.status=a.status;var g=a.responseType,h="arraybuffer"===g||"blob"===g||"json"===g?a.response:a.responseText,i=b(h);if(i&amp;&amp;(d.rxSize=i),this.sameOrigin){var l=a.getResponseHeader("X-NewRelic-App-Data");l&amp;&amp;(c.cat=l.split(", ").pop())}}else c.status=0;d.cbTime=this.cbTime,f("xhr",[c,d])}}}function d(a,b){var c=g(b),d=a.params;d.host=c.hostname+":"+c.port,d.pathname=c.pathname,a.sameOrigin=c.sameOrigin}function e(a,b){return b}if(window.XMLHttpRequest&amp;&amp;XMLHttpRequest.prototype&amp;&amp;XMLHttpRequest.prototype.addEventListener&amp;&amp;!/CriOS/.test(navigator.userAgent)){a("loader").features.push("xhr");var f=a("handle"),g=a("./parse-url.js"),h=a("../../../wrap-function"),i=a("../../../contextual-ee"),j=["load","error","abort","timeout"],k=j.length,l=a("../../../loader/id");a("../../wrap-events"),a("../../wrap-xhr"),i.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=c,this.ended=!1,this.xhrGuids={}}),h.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",e),i.on("open-xhr-start",function(a){this.params={method:a[0]},d(this,a[1]),this.metrics={}}),i.on("open-xhr-end",function(a,b){"loader_config"in NREUM&amp;&amp;"xpid"in NREUM.loader_config&amp;&amp;this.sameOrigin&amp;&amp;b.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),i.on("send-xhr-start",function(a,c){var d=this.metrics,e=a[0],f=this;if(d&amp;&amp;e){var g=b(e);g&amp;&amp;(d.txSize=g)}this.startTime=(new Date).getTime(),this.listener=function(a){try{"abort"===a.type&amp;&amp;(f.params.aborted=!0),("load"!==a.type||f.called===f.totalCbs&amp;&amp;(f.onloadCalled||"function"!=typeof c.onload))&amp;&amp;f.end(c)}catch(b){}};for(var h=0;k&gt;h;h++)c.addEventListener(j[h],this.listener,!1)}),i.on("xhr-cb-time",function(a,b,c){this.cbTime+=a,b?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&amp;&amp;"function"==typeof c.onload||this.end(c)}),i.on("xhr-load-added",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&amp;&amp;!this.xhrGuids[c]&amp;&amp;(this.xhrGuids[c]=!0,this.totalCbs+=1)}),i.on("xhr-load-removed",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&amp;&amp;this.xhrGuids[c]&amp;&amp;(delete this.xhrGuids[c],this.totalCbs-=1)}),i.on("addEventListener-end",function(a,b){b instanceof XMLHttpRequest&amp;&amp;"load"===a[0]&amp;&amp;i.emit("xhr-load-added",[a[1],a[2]],b)}),i.on("removeEventListener-end",function(a,b){b instanceof XMLHttpRequest&amp;&amp;"load"===a[0]&amp;&amp;i.emit("xhr-load-removed",[a[1],a[2]],b)}),i.on("fn-start",function(a,b,c){b instanceof XMLHttpRequest&amp;&amp;("onload"===c&amp;&amp;(this.onload=!0),("load"===(a[0]&amp;&amp;a[0].type)||this.onload)&amp;&amp;(this.xhrCbStart=(new Date).getTime()))}),i.on("fn-end",function(a,b){this.xhrCbStart&amp;&amp;i.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,b],b)})}},{"../../../contextual-ee":1,"../../../loader/id":11,"../../../wrap-function":15,"../../wrap-events":3,"../../wrap-xhr":6,"./parse-url.js":8,handle:"4O2Y62",loader:"YLUGVp"}],8:[function(a,b){b.exports=function(a){var b=document.createElement("a"),c=window.location,d={};b.href=a,d.port=b.port;var e=b.href.split("://");return!d.port&amp;&amp;e[1]&amp;&amp;(d.port=e[1].split("/")[0].split(":")[1]),d.port&amp;&amp;"0"!==d.port||(d.port="https"===e[0]?"443":"80"),d.hostname=b.hostname||c.hostname,d.pathname=b.pathname,"/"!==d.pathname.charAt(0)&amp;&amp;(d.pathname="/"+d.pathname),d.sameOrigin=!b.hostname||b.hostname===document.domain&amp;&amp;b.port===c.port&amp;&amp;b.protocol===c.protocol,d}},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],11:[function(a,b){function c(a){if(!a||"object"!=typeof a&amp;&amp;"function"!=typeof a)return-1;if(a===window)return 0;if(e.call(a,"__nr"))return a.__nr;try{return Object.defineProperty(a,"__nr",{value:d,writable:!0,enumerable:!1}),d}catch(b){return a.__nr=d,d}finally{d+=1}}var d=1,e=Object.prototype.hasOwnProperty;b.exports=c},{}],loader:[function(a,b){b.exports=a("YLUGVp")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&amp;&amp;a.agent&amp;&amp;a.licenseKey&amp;&amp;a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&amp;&amp;e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l,features:[]};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],14:[function(a,b){function c(a,b,c){b||(b=0),"undefined"==typeof c&amp;&amp;(c=a?a.length:0);for(var d=-1,e=c-b||0,f=Array(0&gt;e?0:e);++d&lt;e;)f[d]=a[b+d];return f}b.exports=c},{}],15:[function(a,b){function c(a,b,c,d){function nrWrapper(){var g,h=f(arguments),i=this,j=c&amp;&amp;c(h,i)||{};try{e.emit(b+"start",[h,i,d],j)}catch(k){}try{return g=a.apply(i,h)}catch(l){throw e.emit(b+"err",[h,i,l],j),l}finally{try{e.emit(b+"end",[h,i,g],j)}catch(k){}}}return a&amp;&amp;"function"==typeof a&amp;&amp;a.apply&amp;&amp;!a._wrapped?(b||(b=""),nrWrapper._wrapped=!0,nrWrapper):a}function d(a,b,d,e){d||(d="");var f,g,h,i="-"===d.charAt(0);for(h=0;h&lt;b.length;h++)g=b[h],f=a[g],f&amp;&amp;"function"==typeof f&amp;&amp;f.apply&amp;&amp;!f._wrapped&amp;&amp;(a[g]=c(f,i?g+d:d,e,g,a))}var e=a("../contextual-ee"),f=a("lodash._slice");b.exports=c,c.inPlace=d},{"../contextual-ee":1,"lodash._slice":14}]},{},["YLUGVp",7,2]);
+//]]>
+    </script>
+    <meta content="db824e2" name="refspec"/>
+    <title>
+      The Conversation
+    </title>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="42r3Tq5jEOJ2Jj9QWrk3wO8YEqsIub0MLIichFgCfPo="/>
+    <link rel="stylesheet" media="screen" href="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/assets/application-bf913e41b805b480482b8d7d9100ae0c.css"/>
+    <script src="/javascripts/vendor/shim.js">
+    </script>
+    <link href="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/assets/ie/ie8-ba0130418eb19a1d7386f49e43458b88.css" media="screen" rel="stylesheet"/>
+    <link rel="stylesheet" media="print" href="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/assets/print-fa7957ec975b3b6fc70c096ee6c4bb06.css"/>
+    <link href="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/assets/ios-logo-580aca14f8271f69fdfe86746f35f463.png" rel="apple-touch-icon-precomposed"/>
+    <link href="/favicon.ico" rel="shortcut icon"/>
+    <meta content="127105130696839" property="fb:app_id"/>
+    <script charset="utf-8">
+//<![CDATA[
+
+  if (/iPad/.test(navigator.userAgent)) {
+    // 972px layout + 20px gutter on left &amp; right.
+    document.write('&lt;meta name="viewport" content="width=1012"&gt;');
+  } else {
+    document.write('&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;');
+  }
+
+//]]>
+    </script>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <script type="text/javascript">
+//<![CDATA[
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', "UA-21436757-1"]);
+
+  _gaq.push(['_setCustomVar', 5, 'RegionCode', 'uk', 3]);
+_gaq.push(['_setCustomVar', 1, 'UserType', 'Reader', 2]);
+
+
+  _gaq.push(['_deleteCustomVar', 4]);
+
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+//]]>
+    </script>
+  </head>
+  <body class="application region_uk search search-index search-index search">
+    <div id="sm-sidebar">
+      <div id="sm-sidebar-content">
+        <h3>
+          Sections 
+          <span class="icon-delete" id="sm-sidebar-close-button">
+          </span>
+        </h3>
+        <ul>
+          <li class="home-page ">
+            <a href="/uk" class="">
+              Home
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li class="arts ">
+            <a href="/uk/arts" class="">
+              Arts 
+              <span>
+                <span title="and">
+                  +
+                </span>
+                 Culture
+              </span>
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li class="business ">
+            <a href="/uk/business" class="">
+              Business 
+              <span>
+                <span title="and">
+                  +
+                </span>
+                 Economy
+              </span>
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li class="education ">
+            <a href="/uk/education" class="">
+              Education
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li class="environment ">
+            <a href="/uk/environment" class="">
+              Environment 
+              <span>
+                <span title="and">
+                  +
+                </span>
+                 Energy
+              </span>
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li class="health ">
+            <a href="/uk/health" class="">
+              Health 
+              <span>
+                <span title="and">
+                  +
+                </span>
+                 Medicine
+              </span>
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li class="politics ">
+            <a href="/uk/politics" class="">
+              Politics 
+              <span>
+                <span title="and">
+                  +
+                </span>
+                 Society
+              </span>
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li class="technology last">
+            <a href="/uk/technology" class="">
+              Science 
+              <span>
+                <span title="and">
+                  +
+                </span>
+                 Technology
+              </span>
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+        </ul>
+        <h3>
+          Services
+        </h3>
+        <ul>
+          <li>
+            <a href="/uk/newsletter">
+              
+          Newsletter 
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li id="google-currents-link">
+            <a href="http://www.google.com/producer/editions/CAowro6aAg/the_conversation">
+              Read on Google Play
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+        </ul>
+        <h3>
+          Information
+        </h3>
+        <ul>
+          <li>
+            <a href="/uk/who_we_are" class="">
+              Who we are 
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/uk/our_charter" class="">
+              Our charter 
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/uk/our_team" class="">
+              Our team 
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/uk/partners" class="">
+              Partners and funders 
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/institutions" class="">
+              Contributing institutions 
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/uk/contact_us" class="">
+              Contact us 
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/uk/privacy_policy" class="">
+              Privacy policy 
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/uk/terms_and_conditions" class="">
+              Terms and conditions 
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/uk/corrections" class="">
+              Corrections 
+              <span class="icon-chevron-right">
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="page-wrapper">
+      <div id="sm-topbar">
+        <div>
+          <span class="icon-menu" id="sm-topbar-menu-button">
+          </span>
+        </div>
+        <div id="sm-region-select">
+          <div>
+            <span id="sm-region-current">
+              <span class="code">
+                UK
+              </span>
+              <span class="name">
+                United Kingdom
+              </span>
+            </span>
+            <span class="icon-caret-down">
+            </span>
+          </div>
+          <select id="sm-region-select-dropdown">
+            <option value="/au" data-code="AU">
+              
+        Australia
+      
+            </option>
+            <option selected="selected" value="/uk" data-code="UK">
+              
+        United Kingdom
+      
+            </option>
+          </select>
+        </div>
+        <div>
+          <span class="icon-search" id="sm-topbar-search-button">
+          </span>
+        </div>
+        <div id="sm-search">
+          <form action="/search">
+            <input type="text" placeholder="Search analysis, academics…" name="q"/>
+            <button class="button active" type="submit">
+              <span class="icon-search">
+              </span>
+            </button>
+          </form>
+        </div>
+        <div id="sm-overlay">
+        </div>
+      </div>
+      <section id="topbar">
+        <div class="wrapper clearfix">
+          <div id="edition-selector">
+            <ul>
+              <li>
+                <span>
+                  Edition:
+                </span>
+              </li>
+              <li class="region au">
+                <a title="Australia" href="/au">
+                  
+            AU
+
+                </a>
+              </li>
+              <li class="region uk active">
+                <a title="United Kingdom" href="/uk">
+                  
+            UK
+
+                </a>
+              </li>
+            </ul>
+          </div>
+          <nav id="site-nav">
+            <ul>
+              <li class="newsletter">
+                <a title="Sign up to receive our daily email newsletter" href="/uk/newsletter">
+                  Newsletter
+                </a>
+              </li>
+              <li class="social-media elsewhere">
+                <a title="The Conversation on Facebook" href="http://www.facebook.com/ConversationUK">
+                  <i class="icon-facebook"/>
+                </a>
+                <a title="The Conversation on Twitter" href="http://twitter.com/ConversationUK">
+                  <i class="icon-twitter"/>
+                </a>
+                <a title="The Conversation's Feeds" href="/uk/our_feeds" class="rss">
+                  <i class="icon-rss"/>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="account-nav">
+            <ul class="auth">
+              <li>
+                <a href="/become-an-author">
+                  Become an author
+                </a>
+              </li>
+              <li>
+                <a href="https://theconversation.com/sign_up?return_to=%2Fsearch%3Fq%3Dus">
+                  Sign up as a reader
+                </a>
+              </li>
+              <li>
+                <a href="/sign_in?return_to=%2Fsearch%3Fq%3Dus">
+                  Sign in
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <div id="outer" style="min-height: 29px;">
+        <div class="wrapper nocontent">
+          <header class="clearfix" id="masthead">
+            <a id="home-link" href="/uk">
+              <img src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/assets/masthead-e8efd9bd813a096284493fe5214060e1.svg" alt="The Conversation"/>
+            </a>
+            <form id="search" class="search-form" method="get" action="/search">
+              <fieldset>
+                <legend>
+                  Search
+                </legend>
+                <div class="row">
+                  <div class="input-wrapper">
+                    <label for="q">
+                      <i class="icon-search"/>
+                    </label>
+                    <input type="text" value="" placeholder="Search analysis, research, academics…" name="q" id="q"/>
+                  </div>
+                  <button value="Search" class="button" type="submit"/>
+                </div>
+              </fieldset>
+            </form>
+            <div class="left clear-left" id="tagline">
+              <ul>
+                <li class="active">
+                  <span>
+                    Academic rigour, journalistic flair
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Latest ideas and research
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    From the curious to the serious
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </header>
+          <nav class=" nocontent" id="primary">
+            <ol>
+              <li class="arts ">
+                <a title="Arts + Culture" href="/uk/arts" class="">
+                  Arts 
+                  <span>
+                    <span title="and">
+                      +
+                    </span>
+                     Culture
+                  </span>
+                </a>
+              </li>
+              <li class="business ">
+                <a title="Business + Economy" href="/uk/business" class="">
+                  Business 
+                  <span>
+                    <span title="and">
+                      +
+                    </span>
+                     Economy
+                  </span>
+                </a>
+              </li>
+              <li class="education ">
+                <a title="Education" href="/uk/education" class="">
+                  Education
+                </a>
+              </li>
+              <li class="environment ">
+                <a title="Environment + Energy" href="/uk/environment" class="">
+                  Environment 
+                  <span>
+                    <span title="and">
+                      +
+                    </span>
+                     Energy
+                  </span>
+                </a>
+              </li>
+              <li class="health ">
+                <a title="Health + Medicine" href="/uk/health" class="">
+                  Health 
+                  <span>
+                    <span title="and">
+                      +
+                    </span>
+                     Medicine
+                  </span>
+                </a>
+              </li>
+              <li class="politics ">
+                <a title="Politics + Society" href="/uk/politics" class="">
+                  Politics 
+                  <span>
+                    <span title="and">
+                      +
+                    </span>
+                     Society
+                  </span>
+                </a>
+              </li>
+              <li class="technology last">
+                <a title="Science + Technology" href="/uk/technology" class="">
+                  Science 
+                  <span>
+                    <span title="and">
+                      +
+                    </span>
+                     Technology
+                  </span>
+                </a>
+              </li>
+            </ol>
+          </nav>
+          <section class=" clearfix nocontent" id="hot-topics">
+            <h3>
+              <a href="/topics">
+                Follow Topics
+              </a>
+            </h3>
+            <ol>
+              <li>
+                <a href="/topics/ipcc" data-slug="ipcc" class="nocontent">
+                  IPCC
+                </a>
+              </li>
+              <li>
+                <a href="/topics/uk-budget-2014" data-slug="uk-budget-2014" class="nocontent">
+                  UK budget 2014
+                </a>
+              </li>
+              <li>
+                <a href="/topics/ukraine" data-slug="ukraine" class="nocontent">
+                  Ukraine
+                </a>
+              </li>
+              <li>
+                <a href="/topics/flight-mh370" data-slug="flight-mh370" class="nocontent">
+                  Flight MH370
+                </a>
+              </li>
+              <li>
+                <a href="/topics/hard-evidence" data-slug="hard-evidence" class="nocontent">
+                  Hard Evidence
+                </a>
+              </li>
+              <li>
+                <a href="/topics/digital-economy" data-slug="digital-economy" class="nocontent">
+                  Digital economy
+                </a>
+              </li>
+              <li>
+                <a href="/topics/explainer" data-slug="explainer" class="nocontent">
+                  Explainer
+                </a>
+              </li>
+              <li>
+                <a href="/topics/data-stories" data-slug="data-stories" class="nocontent">
+                  Data stories
+                </a>
+              </li>
+              <li>
+                <a href="/topics/scotland" data-slug="scotland" class="nocontent">
+                  Scotland
+                </a>
+              </li>
+            </ol>
+          </section>
+        </div>
+        <div class="wrapper" id="page">
+          <div class="clearfix" id="body">
+            <form accept-charset="UTF-8" name="search_form" id="search_form" method="GET" action="/search">
+              <header class="clearfix" id="search-header">
+                <div class="search-form">
+                  <fieldset>
+                    <div class="input-wrapper grid-prepend-four grid-nine">
+                      <label for="q">
+                        <i class="icon-search"/>
+                      </label>
+                      <input type="text" id="q" name="q" placeholder="Search analysis, research, academics…" value="us"/>
+                    </div>
+                    <input type="submit" value="Search"/>
+                  </fieldset>
+                  <nav class="grid-prepend-four grid-nine">
+                    <span class="follow-topics">
+                      Or, 
+                      <a href="/topics">
+                        follow topics
+                      </a>
+                       instead.
+                    </span>
+                    <p class="search-suggestions">
+                      
+          Not sure what to search? Try 
+                      <a href="/search?q=IPCC" class="suggestion">
+                        IPCC
+                      </a>
+                      , 
+                      <a href="/search?q=Hard+Evidence" class="suggestion">
+                        Hard Evidence
+                      </a>
+                       or 
+                      <a href="/search?q=Explainer" class="suggestion">
+                        Explainer
+                      </a>
+                      .
+        
+                    </p>
+                  </nav>
+                </div>
+              </header>
+              <aside class="grid-prepend-one grid-two" id="search-sidebar">
+                <ul class="sort-results filter-group">
+                  <li class="checked" style="display: list-item;">
+                    <input type="radio" value="relevancy" name="sort" id="filter-sort-relevancy" checked="checked"/>
+                    <label for="filter-sort-relevancy">
+                      Relevance
+                    </label>
+                  </li>
+                  <li style="display: list-item;">
+                    <input type="radio" value="recency" name="sort" id="filter-sort-recency"/>
+                    <label for="filter-sort-recency">
+                      Newest
+                    </label>
+                  </li>
+                </ul>
+                <ul class="filter-date filter-group">
+                  <li class="checked" style="display: list-item;">
+                    <input type="radio" value="all" name="date" id="filter-date-all" checked="checked"/>
+                    <label for="filter-date-all">
+                      All time
+                    </label>
+                  </li>
+                  <li style="display: list-item;">
+                    <input type="radio" value="week" name="date" id="filter-date-week"/>
+                    <label for="filter-date-week">
+                      Past week
+                    </label>
+                  </li>
+                  <li style="display: list-item;">
+                    <input type="radio" value="month" name="date" id="filter-date-month"/>
+                    <label for="filter-date-month">
+                      Past month
+                    </label>
+                  </li>
+                  <li style="display: list-item;">
+                    <input type="radio" value="year" name="date" id="filter-date-year"/>
+                    <label for="filter-date-year">
+                      Past year
+                    </label>
+                  </li>
+                  <li style="display: list-item;">
+                    <input type="radio" value="custom" name="date" id="filter-date-custom"/>
+                    <label for="filter-date-custom">
+                      Custom range
+                    </label>
+                    <ul class="clearfix" id="custom_date">
+                      <li>
+                        <label for="filter-date-custom-from">
+                          from
+                        </label>
+                        <input value="" placeholder="YYYYMMDD" class="grid-two grid-last" name="date_from" id="filter-date-custom-from" type="text"/>
+                      </li>
+                      <li>
+                        <label for="filter-date-custom-to">
+                          to
+                        </label>
+                        <input value="" placeholder="YYYYMMDD" class="grid-two grid-last" name="date_to" id="filter-date-custom-to" type="text"/>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="filter-content filter-group">
+                  <li class="checked" style="display: list-item;">
+                    <input type="radio" value="all" name="type" id="filter-type-all" checked="checked"/>
+                    <label for="filter-type-all">
+                      All results
+                    </label>
+                  </li>
+                  <li style="display: list-item;">
+                    <input type="radio" value="analysis" name="type" id="filter-type-analysis"/>
+                    <label for="filter-type-analysis">
+                      Analysis
+                    </label>
+                  </li>
+                  <li style="display: list-item;">
+                    <input type="radio" value="research" name="type" id="filter-type-research"/>
+                    <label for="filter-type-research">
+                      Research
+                    </label>
+                  </li>
+                  <li style="display: list-item;">
+                    <input type="radio" value="author" name="type" id="filter-type-author"/>
+                    <label for="filter-type-author">
+                      Authors
+                    </label>
+                  </li>
+                  <li style="display: list-item;">
+                    <input type="radio" value="institution" name="type" id="filter-type-institution"/>
+                    <label for="filter-type-institution">
+                      Institutions
+                    </label>
+                  </li>
+                </ul>
+              </aside>
+              <section class="grid-prepend-one grid-twelve grid-last" id="search-results">
+                <div class="content-list grid-nine clearfix" id="other-results">
+                  <article class="search-result published content">
+                    <figure class="grid-two">
+                      <a title="Explainer: What US Fed tapering means for markets" href="/explainer-what-us-fed-tapering-means-for-markets-21639">
+                        <img src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/38238/width496/yjbp65b6-1387413755.jpg"/>
+                      </a>
+                    </figure>
+                    <div class="grid-six grid-last">
+                      <header>
+                        <time pubdate="pubdate" itemprop="datePublished" datetime="2013-12-19T04:36+0000" content="2013-12-19T04:36Z">
+                          19 December 2013
+                        </time>
+                        <h1>
+                          <a title="Explainer: What US Fed tapering means for markets" href="/explainer-what-us-fed-tapering-means-for-markets-21639">
+                            
+          Explainer: What US Fed tapering means for markets
+        
+                          </a>
+                        </h1>
+                        <p class="byline">
+                          <span>
+                            By 
+                            <a href="http://theconversation.com/profiles/harry-scheule-3573">
+                              Harry Scheule
+                            </a>
+                            <em>
+                              , University of Technology, Sydney
+                            </em>
+                          </span>
+                        </p>
+                      </header>
+                      <div class="content">
+                        <p>
+                          The 
+                          <b>
+                            US
+                          </b>
+                           Federal Reserve has announced that after more than five years of support, the “tapering” of its quantitative easing program is to begin. So what will the consequences of the gradual withdrawal of…
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="search-result published content">
+                    <figure class="grid-two">
+                      <a title="US cold wave implies nothing about global warming" href="/us-cold-wave-implies-nothing-about-global-warming-21911">
+                        <img src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/38793/width496/2q2qrwhm-1389315291.jpg"/>
+                      </a>
+                    </figure>
+                    <div class="grid-six grid-last">
+                      <header>
+                        <time pubdate="pubdate" itemprop="datePublished" datetime="2014-01-10T01:02+0000" content="2014-01-10T01:02Z">
+                          10 January 2014
+                        </time>
+                        <h1>
+                          <a title="US cold wave implies nothing about global warming" href="/us-cold-wave-implies-nothing-about-global-warming-21911">
+                            
+          US cold wave implies nothing about global warming
+        
+                          </a>
+                        </h1>
+                        <p class="byline">
+                          <span>
+                            By 
+                            <a href="http://theconversation.com/profiles/cliff-mass-113210">
+                              Cliff Mass
+                            </a>
+                            <em>
+                              , University of Washington
+                            </em>
+                          </span>
+                        </p>
+                      </header>
+                      <div class="content">
+                        <p>
+                          The central and eastern 
+                          <b>
+                            US
+                          </b>
+                           has j
+                          <b>
+                            us
+                          </b>
+                          t been in the midst of a major cold wave, with large regions dropping below zero F (-17.7C) and wind chills reaching below -30F (-34C). That is fact. The problem is that…
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="search-result published content">
+                    <figure class="grid-two">
+                      <a title="Review: Never Tear Us Apart, the tabloid version of the INXS story" href="/review-never-tear-us-apart-the-tabloid-version-of-the-inxs-story-22886">
+                        <img src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/41076/width496/2jnd2rmt-1391988284.jpg"/>
+                      </a>
+                    </figure>
+                    <div class="grid-six grid-last">
+                      <header>
+                        <time pubdate="pubdate" itemprop="datePublished" datetime="2014-02-10T00:15+0000" content="2014-02-10T00:15Z">
+                          10 February 2014
+                        </time>
+                        <h1>
+                          <a title="Review: Never Tear Us Apart, the tabloid version of the INXS story" href="/review-never-tear-us-apart-the-tabloid-version-of-the-inxs-story-22886">
+                            
+          Review: Never Tear Us Apart, the tabloid version of the INXS story
+        
+                          </a>
+                        </h1>
+                        <p class="byline">
+                          <span>
+                            By 
+                            <a href="http://theconversation.com/profiles/john-willsteed-107411">
+                              John Willsteed
+                            </a>
+                            <em>
+                              , Queensland University of Technology
+                            </em>
+                          </span>
+                        </p>
+                      </header>
+                      <div class="content">
+                        <p>
+                          Maybe the ads ruined it for me. Certainly, INXS: Never Tear 
+                          <b>
+                            Us
+                          </b>
+                           Apart was thoroughly cross-promoted on Channel Seven. I think Kochie may have even mentioned it once or twice. The ads, though, pointed to…
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="search-result published content">
+                    <figure class="grid-two">
+                      <a title="US military-led humanitarian intervention in the Philippines: a message to China" href="/us-military-led-humanitarian-intervention-in-the-philippines-a-message-to-china-20070">
+                        <img src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/35278/width496/xj9r7y2v-1384403650.jpg"/>
+                      </a>
+                    </figure>
+                    <div class="grid-six grid-last">
+                      <header>
+                        <time pubdate="pubdate" itemprop="datePublished" datetime="2013-11-15T00:41+0000" content="2013-11-15T00:41Z">
+                          15 November 2013
+                        </time>
+                        <h1>
+                          <a title="US military-led humanitarian intervention in the Philippines: a message to China" href="/us-military-led-humanitarian-intervention-in-the-philippines-a-message-to-china-20070">
+                            
+          US 
+                            <span class="nobr">
+                              military-led
+                            </span>
+                             humanitarian intervention in the Philippines: a message to China
+        
+                          </a>
+                        </h1>
+                        <p class="byline">
+                          <span>
+                            By 
+                            <a href="http://theconversation.com/profiles/jonathan-bogais-104399">
+                              Jonathan Bogais
+                            </a>
+                            <em>
+                              , University of Sydney
+                            </em>
+                          </span>
+                        </p>
+                      </header>
+                      <div class="content">
+                        <p>
+                          Typhoon Haiyan, or Yolanda as it’s known in the Philippines, completely devastated parts of eastern Visayas in the central Philippines in a matter of hours. More than 4.2 million people have been affected…
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="search-result published content">
+                    <figure class="grid-two">
+                      <a title="Despite rhetoric, Russia and US can't afford another Cold War" href="/despite-rhetoric-russia-and-us-cant-afford-another-cold-war-24551">
+                        <img src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/44396/width496/yr6wrvzq-1395317312.jpg"/>
+                      </a>
+                    </figure>
+                    <div class="grid-six grid-last">
+                      <header>
+                        <time pubdate="pubdate" itemprop="datePublished" datetime="2014-03-21T14:35+0000" content="2014-03-21T14:35Z">
+                          21 March 2014
+                        </time>
+                        <h1>
+                          <a title="Despite rhetoric, Russia and US can't afford another Cold War" href="/despite-rhetoric-russia-and-us-cant-afford-another-cold-war-24551">
+                            
+          Despite rhetoric, Russia and US can’t afford another Cold War
+        
+                          </a>
+                        </h1>
+                        <p class="byline">
+                          <span>
+                            By 
+                            <a href="http://theconversation.com/profiles/ashok-sharma-118035">
+                              Ashok Sharma
+                            </a>
+                            <em>
+                              , University of Auckland
+                            </em>
+                          </span>
+                        </p>
+                      </header>
+                      <div class="content">
+                        <p>
+                          The United States has denounced the R
+                          <b>
+                            us
+                          </b>
+                          sian involvement in Crimea as “a brazen military incursion“ and its annexation of the territory as "nothing more than a land grab” by Moscow. In the pre-referendum…
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="search-result published content">
+                    <figure class="grid-two">
+                      <a title="Explainer: why the US government is facing (another) shutdown" href="/explainer-why-the-us-government-is-facing-another-shutdown-18587">
+                        <img src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/32046/width496/h5gr2kxr-1380242662.jpg"/>
+                      </a>
+                    </figure>
+                    <div class="grid-six grid-last">
+                      <header>
+                        <time pubdate="pubdate" itemprop="datePublished" datetime="2013-09-27T03:13+0100" content="2013-09-27T03:13Z">
+                          27 September 2013
+                        </time>
+                        <h1>
+                          <a title="Explainer: why the US government is facing (another) shutdown" href="/explainer-why-the-us-government-is-facing-another-shutdown-18587">
+                            
+          Explainer: why the US government is facing (another) shutdown
+        
+                          </a>
+                        </h1>
+                        <p class="byline">
+                          <span>
+                            By 
+                            <a href="http://theconversation.com/profiles/nicole-hemmer-8367">
+                              Nicole Hemmer
+                            </a>
+                            <em>
+                              , University of Sydney
+                            </em>
+                          </span>
+                        </p>
+                      </header>
+                      <div class="content">
+                        <p>
+                          The dysfunctions of America’s federal government, primarily ca
+                          <b>
+                            us
+                          </b>
+                          ed by Republican intransigence, have created a menagerie of strange new political beasts: fiscal cliffs, sequestrations, nuclear options…
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="search-result published content">
+                    <figure class="grid-two">
+                      <a title="US default could lead to a new world order - firms must prepare" href="/us-default-could-lead-to-a-new-world-order-firms-must-prepare-19082">
+                        <img src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/32827/width496/2wyxdcqt-1381411733.jpg"/>
+                      </a>
+                    </figure>
+                    <div class="grid-six grid-last">
+                      <header>
+                        <time pubdate="pubdate" itemprop="datePublished" datetime="2013-10-11T06:25+0100" content="2013-10-11T06:25Z">
+                          11 October 2013
+                        </time>
+                        <h1>
+                          <a title="US default could lead to a new world order - firms must prepare" href="/us-default-could-lead-to-a-new-world-order-firms-must-prepare-19082">
+                            
+          US default could lead to a new world order - firms must prepare
+        
+                          </a>
+                        </h1>
+                        <p class="byline">
+                          <span>
+                            By 
+                            <a href="http://theconversation.com/profiles/robert-davies-95465">
+                              Robert Davies
+                            </a>
+                            <em>
+                              , City University London
+                            </em>
+                          </span>
+                        </p>
+                      </header>
+                      <div class="content">
+                        <p>
+                          As autumn dawns, so does the b
+                          <b>
+                            us
+                          </b>
+                          iness planning season, that time when we consider 2014 and beyond. We are 
+                          <b>
+                            us
+                          </b>
+                          ed to going through this process surrounded by uncertainty, especially following the meltdown…
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="search-result published content">
+                    <figure class="grid-two">
+                      <a title="Will Hillary Clinton be the next US president?" href="/will-hillary-clinton-be-the-next-us-president-16996">
+                        <img src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/29194/width496/6yk8rhyp-1376441857.jpg"/>
+                      </a>
+                    </figure>
+                    <div class="grid-six grid-last">
+                      <header>
+                        <time pubdate="pubdate" itemprop="datePublished" datetime="2013-08-14T21:14+0100" content="2013-08-14T21:14Z">
+                          14 August 2013
+                        </time>
+                        <h1>
+                          <a title="Will Hillary Clinton be the next US president?" href="/will-hillary-clinton-be-the-next-us-president-16996">
+                            
+          Will Hillary Clinton be the next US president?
+        
+                          </a>
+                        </h1>
+                        <p class="byline">
+                          <span>
+                            By 
+                            <a href="http://theconversation.com/profiles/nicole-hemmer-8367">
+                              Nicole Hemmer
+                            </a>
+                            <em>
+                              , University of Sydney
+                            </em>
+                          </span>
+                        </p>
+                      </header>
+                      <div class="content">
+                        <p>
+                          Hillary Clinton is about to take over Americans’ television lineup. CNN plans to produce a documentary on her. NBC wants to do a miniseries about her political career. In response, Reince Prieb
+                          <b>
+                            us
+                          </b>
+                          , the…
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="search-result published content">
+                    <figure class="grid-two">
+                      <a title="What makes us human: genetics, culture or both?" href="/what-makes-us-human-genetics-culture-or-both-14505">
+                        <img src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/24350/width496/49ppj87r-1369306106.jpg"/>
+                      </a>
+                    </figure>
+                    <div class="grid-six grid-last">
+                      <header>
+                        <time pubdate="pubdate" itemprop="datePublished" datetime="2013-05-23T19:00+0100" content="2013-05-23T19:00Z">
+                          23 May 2013
+                        </time>
+                        <h1>
+                          <a title="What makes us human: genetics, culture or both?" href="/what-makes-us-human-genetics-culture-or-both-14505">
+                            
+          What makes us human: genetics, culture or both?
+        
+                          </a>
+                        </h1>
+                        <p class="byline">
+                          <span>
+                            By 
+                            <a href="http://theconversation.com/profiles/daniel-zadik-93308">
+                              Daniel Zadik
+                            </a>
+                            <em>
+                              , Leicester University
+                            </em>
+                          </span>
+                        </p>
+                      </header>
+                      <div class="content">
+                        <p>
+                          In Kubrick’s masterpiece, 2001: A Space Odyssey, a group of our ape-like ancestors encounter a towering black rectangle somewhere in an African desert. Something in them changes. A seed is sown. Everything…
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="search-result published content">
+                    <figure class="grid-two">
+                      <a title="US government shutdown: worse may yet be to come" href="/us-government-shutdown-worse-may-yet-be-to-come-18820">
+                        <img src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/32277/width496/d7wkhbzd-1380676869.jpg"/>
+                      </a>
+                    </figure>
+                    <div class="grid-six grid-last">
+                      <header>
+                        <time pubdate="pubdate" itemprop="datePublished" datetime="2013-10-02T04:12+0100" content="2013-10-02T04:12Z">
+                          2 October 2013
+                        </time>
+                        <h1>
+                          <a title="US government shutdown: worse may yet be to come" href="/us-government-shutdown-worse-may-yet-be-to-come-18820">
+                            
+          US government shutdown: worse may yet be to come
+        
+                          </a>
+                        </h1>
+                        <p class="byline">
+                          <span>
+                            By 
+                            <a href="http://theconversation.com/profiles/david-smith-9948">
+                              David Smith
+                            </a>
+                            <em>
+                              , University of Sydney
+                            </em>
+                          </span>
+                        </p>
+                      </header>
+                      <div class="content">
+                        <p>
+                          At midnight, the United States government was shut down after Congress could not agree to a deal on changes to president Barack Obama’s signature health-care legislation, Obamacare. Around 800,000 non-essential…
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <footer class="grid-nine">
+                  <nav class="pagination">
+                    <span class="page current">
+                      
+  1
+
+                    </span>
+                    <span class="page">
+                      <a rel="next" href="/search?date=all&amp;page=2&amp;q=us&amp;sort=relevancy&amp;type=all">
+                        2
+                      </a>
+                    </span>
+                    <span class="page">
+                      <a href="/search?date=all&amp;page=3&amp;q=us&amp;sort=relevancy&amp;type=all">
+                        3
+                      </a>
+                    </span>
+                    <span class="page">
+                      <a href="/search?date=all&amp;page=4&amp;q=us&amp;sort=relevancy&amp;type=all">
+                        4
+                      </a>
+                    </span>
+                    <span class="page">
+                      <a href="/search?date=all&amp;page=5&amp;q=us&amp;sort=relevancy&amp;type=all">
+                        5
+                      </a>
+                    </span>
+                    <span class="page gap">
+                      ...
+                    </span>
+                    <span class="next">
+                      <a rel="next" href="/search?date=all&amp;page=2&amp;q=us&amp;sort=relevancy&amp;type=all">
+                        <i title="Next" class="icon-caret-right"/>
+                      </a>
+                    </span>
+                    <span class="last">
+                      <a href="/search?date=all&amp;page=10&amp;q=us&amp;sort=relevancy&amp;type=all">
+                        Last
+                      </a>
+                    </span>
+                  </nav>
+                </footer>
+              </section>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="footers">
+        <section id="sub-footer">
+          <header>
+            <div class="wrapper nocontent">
+              <h2>
+                The Conversation
+              </h2>
+            </div>
+          </header>
+          <div class="wrapper nocontent">
+            <section class="community grid-five">
+              <h6>
+                Community
+              </h6>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="/uk/community_standards">
+                      Community standards
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/uk/republishing_guidelines">
+                      Republishing guidelines
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/uk/our_feeds">
+                      <i class="icon icon-rss-non-coloured"/>
+                       Our feeds
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <section class="company grid-five">
+              <h6>
+                Company
+              </h6>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="/uk/who_we_are">
+                      Who we are
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/uk/our_charter">
+                      Our charter
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/uk/our_team">
+                      Our team
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/uk/partners">
+                      Partners and funders
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/institutions">
+                      Contributing institutions
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/uk/contact_us">
+                      Contact us
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <section class="contact grid-five">
+              <h6>
+                Contact
+              </h6>
+              <nav>
+                <ul>
+                  <li>
+                    <span>
+                      Editorial
+                    </span>
+                    <a href="mailto:uk-editorial@theconversation.com">
+                      uk-editorial@theconversation.com
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      Support
+                    </span>
+                    <a href="mailto:support@theconversation.com">
+                      support@theconversation.com
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="newsletter-signup-form">
+                <h6>
+                  Subscribe to our Newsletters
+                </h6>
+                <form class="subscribe" method="post" action="/subscriptions">
+                  <fieldset>
+                    <label for="subscribe_email">
+                      
+      Email address
+    
+                    </label>
+                    <input type="submit" value="Subscribe" name="subscribe" class="button subtle"/>
+                    <div class="field-wrapper">
+                      <input type="email" value="" spellcheck="false" placeholder="Your email address" name="subscribe[email]" id="subscribe_email" class="email"/>
+                      <i class="success">
+                        ✔
+                      </i>
+                      <i class="icon-delete failure"/>
+                      <img src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/assets/spinner-3bc54a73b55ce0c11a726f2b9a84ef21.gif" class="spinner" alt="Spinner"/>
+                    </div>
+                    <input type="hidden" value="footer" name="subscribe[location]" id="subscribe_location"/>
+                    <fieldset class="regions">
+                      <label for="subscribe_au">
+                        <input type="checkbox" value="au" name="subscribe[regions][]" id="subscribe_regions_" class="checkbox_au"/>
+                        <span class="full_name">
+                          Australia
+                        </span>
+                        <span class="short_code">
+                          au
+                        </span>
+                      </label>
+                      <label for="subscribe_uk">
+                        <input type="checkbox" value="uk" name="subscribe[regions][]" id="subscribe_regions_" class="checkbox_uk" checked="checked"/>
+                        <span class="full_name">
+                          United Kingdom
+                        </span>
+                        <span class="short_code">
+                          uk
+                        </span>
+                      </label>
+                    </fieldset>
+                  </fieldset>
+                </form>
+              </div>
+            </section>
+          </div>
+        </section>
+        <footer id="footer">
+          <div class="wrapper nocontent">
+            <nav>
+              <a href="/uk/privacy_policy">
+                Privacy policy
+              </a>
+              <a href="/uk/terms_and_conditions">
+                Terms and conditions
+              </a>
+              <a href="/uk/corrections">
+                Corrections
+              </a>
+              <script>
+//<![CDATA[
+
+    (function () {
+      var d = new Image(1, 1);
+      d.onerror = d.onload = function () {
+        d.onerror = d.onload = null;
+      };
+      d.src = ["//secure-au.imrworldwide.com/cgi-bin/m?ci=theconversation&amp;cg=o&amp;cc=1&amp;si=", escape(window.location.href), "&amp;rp=", escape(document.referrer), "&amp;ts=compact&amp;rnd=", (new Date()).getTime()].join('');
+    })();
+  
+//]]>
+              </script>
+              <noscript>
+                &lt;div&gt;
+      &lt;img src="//secure-au.imrworldwide.com/cgi-bin/m?ci=theconversation&amp;amp;cg=o&amp;amp;cc=1&amp;amp;ts=noscript" width="1" height="1" alt=""&gt;
+    &lt;/div&gt;
+  
+              </noscript>
+            </nav>
+            <p class="copyright">
+              <span>
+                Copyright © 2010–2014
+              </span>
+              <span class="comma">
+                , 
+              </span>
+              <span>
+                <a href="/uk/who_we_are">
+                  The Conversation Trust (UK)
+                </a>
+              </span>
+            </p>
+          </div>
+        </footer>
+      </div>
+      <nav id="admin-menu"/>
+    </div>
+    <script src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/assets/vendored-b329889627f739a8350ec5d2310e428b.js">
+    </script>
+    <script src="https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/assets/application-7da5274b4310d4f2b16f9001876ec0c8.js">
+    </script>
+    <script>
+//<![CDATA[
+
+//&lt;![CDATA[
+
+    TC.page = new TC.SearchPage()
+    
+
+//]]&gt;
+
+//]]>
+    </script>
+    <script src="http://js-agent.newrelic.com/nr-361.min.js">
+    </script>
+  </body>
+</html>

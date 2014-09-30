@@ -1,0 +1,1179 @@
+<body id="pagekey-JOB:/consumer/search/search" class="guest v2  chrome-v5 chrome-v5-responsive sticky-bg guest js  fftheme_49 " dir="ltr"> 
+ <input type="hidden" value="false" id="inSlowConfig" class=" fftheme_50  xmoztheme " /> 
+ <script type="text/javascript" class=" fftheme_51  xmoztheme ">
+//<![CDATA[
+document.body.className += " js ";
+//]]>
+    </script> 
+ <script type="text/javascript" class=" fftheme_52  xmoztheme ">
+//<![CDATA[
+fs._server.fire("1c901923d2868813a065a7a8e52a0000-2",{event:"before",type:"html"});
+//]]>
+    </script> 
+ <div class="a11y-skip-nav-container fftheme_53  xmoztheme " id="a11y-menu"> 
+  <div class="a11y-skip-nav a11y-hidden fftheme_54  xmoztheme " id="control_gen_1"> 
+   <a id="a11y-skip-nav-link" href="#a11y-content" class=" fftheme_55  xmoztheme "> Skip to main content </a> 
+  </div> 
+  <script class="li-control fftheme_56  xmoztheme " type="text/javascript+initialized" id="controlinit-http-12274-exec-1227112-1">
+//<![CDATA[
+
+ 
+ /* extlib: _a11ymenu */
+ 
+ 
+ 
+ LI.Controls.addControl('control-http-12274-exec-1227112-1', 'A11yMenu', {
+ jumpToText: 'Jump to: &lt;strong&gt;Summary&lt;\/strong&gt;',
+ skipToText: 'Skip to: &lt;strong&gt;Search&lt;\/strong&gt;',
+ feedbackText: 'Accessibility Feedback',
+ closeText: 'close',
+ anchorText: 'Content Follows:',
+ moreText: 'More in-page navigation options below',
+ smallPageText: 'Not much to look at here. Go directly to content.',
+ searchUrl: '/vsearch/f'
+ });
+ 
+//]]>
+      </script> 
+  <script class="li-control fftheme_57  xmoztheme " type="linkedin/control" id="control-http-12274-exec-1227113-2">
+//<![CDATA[
+
+ 
+ /* extlib: _kb_shortcuts */
+ 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+      
+      
+    
+    
+  
+
+    
+      
+        
+          
+            
+                
+              
+          
+        
+      
+    
+    
+
+
+     
+      
+    
+    
+  
+
+      
+      
+        
+          
+            
+                
+              
+          
+        
+      
+    
+    
+
+LI.KbDialogDependencies = {
+  jsFiles: 
+      
+        
+            
+              
+              
+                ["https://static.licdn.com/scds/concat/common/js?h=37zc8dm8vu14f1neta1ponx0o"]
+              
+            
+          
+        
+      
+    ,
+  cssFiles: 
+      
+        
+            
+              
+              
+                ["https://static.licdn.com/scds/concat/common/css?h=9qwmbyyfabl3upqh3cyzbhd49"]
+              
+            
+          
+        
+      
+    
+};
+
+ 
+ 
+ LI.Controls.addControl('control-http-12274-exec-1227113-2', 'kb.shortcuts', {
+ homepageUrl: 'http:\/\/www.linkedin.com\/nhome\/?trk=global_kb',
+ profileUrl: 'http:\/\/www.linkedin.com\/profile\/view?trk=global_kb',
+ editProfileUrl: 'http:\/\/www.linkedin.com\/profile\/edit?trk=global_kb',
+ inboxUrl: 'http:\/\/www.linkedin.com\/inbox\/#messages?trk=global_kb',
+ jobsUrl: 'http:\/\/www.linkedin.com\/job\/home?trk=global_kb',
+ settingsUrl: 'https:\/\/www.linkedin.com\/secure\/settings?req=&amp;trk=global_kb',
+ influencerUrl: 'http:\/\/www.linkedin.com\/influencers?trk=global_kb'
+ });
+ 
+//]]>
+      </script> 
+ </div> 
+ <div role="banner" class="global-header responsive-header nav-v5-2-header responsive-1 remote-nav fftheme_58 " id="header"> 
+  <div id="top-header" class=" fftheme_59 "> 
+   <div class="wrapper fftheme_60 "> 
+    <h2 class="logo-container fftheme_61   "> <a id="li-logo" class="logo fftheme_62 " href="http://www.linkedin.com/"> LinkedIn Home </a> </h2> 
+    <ul role="navigation" class="nav main-nav guest-nav fftheme_63 "> 
+     <li class="nav-item fftheme_64 "> <a class="nav-link fftheme_65 " href="http://www.linkedin.com/static?key=what_is_linkedin&amp;trk=hb_what"> What is LinkedIn? </a> </li> 
+     <li class="nav-item fftheme_66 "> <a rel="nofollow" class="nav-link fftheme_67 " href="/reg/join?trk=hb_join"> Join Today </a> </li> 
+     <li class="nav-item fftheme_68 "> <a rel="nofollow" class="nav-link fftheme_69 " href="https://www.linkedin.com/uas/login?goback=&amp;trk=hb_signin"> Sign In </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div class="a11y-content fftheme_70  xmoztheme "> 
+   <a id="a11y-content-link" tabindex="0" name="a11y-content" class=" fftheme_71  xmoztheme "> Main content starts below. </a> 
+  </div> 
+ </div> 
+ <script src="https://static.licdn.com/scds/concat/common/js?h=62og8s54488owngg0s7escdit-8gz32kphtrjyfula3jpu9q6wl-aujmp9r1kj9k9x4ezyk8ahfbk-62cjxbtqyt2o85tawwwz12otx-a2blfu8y091887ailkls7jxq3-d25t3jwqpgzv7njh2nak0ihfd-1pa3tpaab6s85oxj5wgz5m0p7-6tyvplvemczf4qdrlxny6lq8d-40i5ns4v1p89j75qcd3seua2y-9es290kzyvaep15qy7w7hhj6w-3i7ubdukif1jevuf29ftmtvjs-ukgkg4rtwlz74z78bt35jocx-5cmfpe4jqrweez449s97ldikg-85irzxzbd5halvkstu9vwbyf6" type="text/javascript" class=" fftheme_72  xmoztheme ">
+    </script> 
+ <script type="text/javascript" class=" fftheme_73  xmoztheme ">
+//<![CDATA[
+fs._server.fire("1c901923d2868813a065a7a8e52a0000-2",{event:"after",type:"html"});
+//]]>
+    </script> 
+ <div role="main" class=" fftheme_74   " id="body"> 
+  <div class="wrapper hp-nus-wrapper fftheme_75   "> 
+   <div id="global-error" class=" fftheme_76  xmoztheme "> 
+   </div> 
+   <script type="text/javascript" class=" fftheme_77  xmoztheme ">
+//<![CDATA[
+
+
+  
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+    
+  
+
+    
+  
+
+LI.i18n.register( 'typeahead2-no-matching-results', 'No matching results' );
+LI.i18n.register( 'typeahead2-search-connections', 'Connections' );
+LI.i18n.register( 'typeahead2-search-people', 'People' );
+LI.i18n.register( 'typeahead2-search-companies', 'Companies' );
+LI.i18n.register( 'typeahead2-search-groups', 'Groups' );
+LI.i18n.register( 'typeahead2-search-features', 'Features' );
+LI.i18n.register( 'typeahead2-search-skills', 'Skills' );
+LI.i18n.register( 'typeahead2-search-skill', 'Skill' );
+LI.i18n.register( 'typeahead2-search-suggestions', 'Suggestions' );
+LI.i18n.register( 'typeahead2-search-schools', 'Universities' );
+LI.i18n.register( 'typeahead2-search-showcases', 'Showcase Pages' );
+LI.i18n.register( 'typeahead2-search-degrees', 'Degrees' );
+LI.i18n.register( 'typeahead2-search-fields-of-study', 'Fields of study' );
+LI.i18n.register( 'typeahead2-cap-prospects', 'Profiles' );
+LI.i18n.register( 'typeahead2-cap-jobs', 'Jobs' );
+LI.i18n.register( 'typeahead2-cap-projects', 'Projects' );
+LI.i18n.register( 'typeahead2-search-discussion-participants', 'Participants' );
+LI.i18n.register( 'typeahead2-search-group-members', 'Group Members' );
+LI.i18n.register( 'typeahead2-connect', 'Connect' );
+LI.i18n.register( 'typeahead2-message', 'Message' );
+LI.i18n.register( 'typeahead2-send-inmail', 'Send InMail' );
+LI.i18n.register( 'typeahead2-post', 'Post' );
+LI.i18n.register( 'typeahead2-follow', 'Follow' );
+LI.i18n.register( 'typeahead2-view', 'View' );
+
+
+LI.TypeaheadDataSourceUrls = {
+  COMPANY: "/ta/company",
+  INDUSTRY: "/ta/industry",
+  REGION: "/ta/region",
+  GEOGRAPHY: "/ta/geo",
+  GROUP: "/ta/group",
+  JOB_TITLE: "/ta/titleV2",
+  JOB_FUNCTION: "/ta/jobfunc",
+  SKILL: "/ta/skill",
+  LANGUAGE: "/ta/language",
+  SCHOOL: "/ta/school",
+  DEGREE: "/ta/degree",
+  FIELD_OF_STUDY: "/ta/fieldofstudy",
+  MY_NETWORK: "/ta/mynetwork",
+  MY_GROUP: "/typeahead/mygroup",
+  FIRST_DEGREE_MY_NETWORK: "/ta/my1stnetwork",
+  SITEFEATURE: "/ta/sitefeature",
+  FEDERATOR: "/ta/federator",
+  AUTOCOMPLETE: "/ta/autocomplete",
+  CAP_PROSPECTS_PROJECTS_JOBS: "/cap/lookup/capTaAjax"
+};
+
+
+      
+      
+    
+    
+  
+  
+  
+  
+
+    
+      
+        
+          
+            
+                
+              
+          
+        
+      
+    
+    
+
+LI.Typeahead2Dependencies = {
+  scripts: 
+      
+        
+            
+              
+              
+                ["https://static.licdn.com/scds/concat/common/js?v=build-2000_8_37789-prod&amp;f=js%2Futil%2Ftypeahead%2FDataSource&amp;f=js%2Futil%2Ftypeahead%2FDataSourceAggregator2&amp;f=js%2Futil%2Ftypeahead%2FTypeaheadRenderAs&amp;f=js%2Futil%2Ftypeahead%2FTypeaheadHandleEventAs"]
+              
+            
+          
+        
+      
+    
+};
+
+
+      
+      
+    
+    
+  
+      
+          
+        
+    
+
+    
+      
+        
+          
+            
+                
+              
+          
+        
+      
+    
+    
+
+LI.TwitterTADependencies = {
+  scripts: 
+      
+        
+            
+              
+              
+                ["https://static.licdn.com/scds/concat/common/js?v=build-2000_8_37789-prod&amp;f=lib%2Ftwitter-typeahead%2F0.9.3%2Ftypeahead.min"]
+              
+            
+          
+        
+      
+    
+};
+
+
+// for IE7/8 in remote nav - eval() does not properly reference LI in the window
+// scope, when this code is executed while the "sandbox" is still open - which
+// happens because remote-nav has to gather the li-control scripts.  While we have
+// a black-list for not initializing the controls via the sandbox, we don't have
+// a good way of preventing this code from being added to the eval() string and t
+// then evaluated later.
+//
+// since this ONLY affects UniversalSearch and Typeahead2 - doing a 'reverse' reference
+// here is ugly, but by far the simplest and least intrusive solution - otherwise
+// remote-nav would have to introspect the script contents and the selectively
+// purge that based on some regEx.  also gross.
+
+if(LI.isSandboxed){
+  window.LI.TypeaheadDataSourceUrls = LI.TypeaheadDataSourceUrls;
+  window.LI.Typeahead2Dependencies  = LI.Typeahead2Dependencies;
+  window.LI.TwitterTADependencies  = LI.TwitterTADependencies;
+}
+
+
+
+
+
+    
+  
+    
+      
+    
+  
+
+
+//]]>
+        </script> 
+   <div class="jobs-search  fftheme_78   "> 
+    <div class="search-bar fftheme_79 "> 
+     <div class="module search-module fftheme_80 "> 
+      <h3 class=" fftheme_81 "> Job Search </h3> 
+      <form name="search" accept-charset="UTF-8" method="GET" novalidate="novalidate" action="/job/consumer/guestSearchClean/searchRedirect/" id="job-search" class=" fftheme_82 "> 
+       <div class="content fftheme_83 "> 
+        <div class="input-row fftheme_84 "> 
+         <input type="text" value="Social Media" placeholder="Job title, keywords, or company name" class="job-search-field fftheme_85 " name="keywords" id="field-keyword-name" /> 
+         <script class="li-control fftheme_86  xmoztheme " type="text/javascript+initialized" id="controlinit-1">
+//<![CDATA[
+LI.Controls.addControl('control-1', 'Typeahead2', {               source: 'TYPE_TITLE',               hiddenField: 'field-keyword-id',               maxResultsDisplayed: 8,               renderAs: ['DEFAULT','AUTOCHOOSE'],               handleEventAs: ['DEFAULT'],               itemSelectEventHandler: function (type, args) {                 return;               }             });
+//]]>
+                    </script> 
+         <input type="hidden" value="" name="keywordId" id="field-keyword-id" class=" fftheme_87  xmoztheme " /> 
+         <input type="text" value="Melbourne" placeholder="Location" class="job-search-field fftheme_88 " name="location" id="field-location-name" /> 
+         <input type="hidden" value="" name="locationId" id="field-location-id" class=" fftheme_89  xmoztheme " /> 
+         <script class="li-control fftheme_90  xmoztheme " type="text/javascript+initialized" id="controlinit-2">
+//<![CDATA[
+LI.Controls.addControl('control-2', 'Placeholder', {               placeholderClass: 'job-search-field'             });
+//]]>
+                    </script> 
+        </div> 
+        <div class="button-row-desktop fftheme_91 "> 
+         <button title="Search" class="search-button fftheme_92 " name="jsearch" type="submit"></button> 
+        </div> 
+        <div class="button-row-mobile fftheme_93  xmoztheme "> 
+         <button title="Search" class="search-button fftheme_94  xmoztheme " name="jsearch" type="submit"> Search </button> 
+        </div> 
+        <div class="advanced-search-fields fftheme_95  xmoztheme " id="advanced-search-fields"> 
+        </div> 
+       </div> 
+       <input type="hidden" value="true" name="keepFacets" class=" fftheme_96  xmoztheme " /> 
+       <input type="hidden" value="JSHP" id="pplSearchOrigin" name="pplSearchOrigin" class=" fftheme_97  xmoztheme " /> 
+       <input type="hidden" value="6" name="sortBy" class=" fftheme_98  xmoztheme " /> 
+      </form> 
+     </div> 
+    </div> 
+    <div class="clear-wrapper fftheme_99   "> 
+     <div id="results-rail" class="main fftheme_100   "> 
+      <div class="results-header fftheme_101 "> 
+       <div class="results-count fftheme_102 "> 
+        <strong class=" fftheme_103 "> 98 </strong> results for 
+        <h1 class=" fftheme_104 "> <strong class=" fftheme_105 "> Social Media </strong> jobs in <strong class=" fftheme_106 "> Melbourne, Australia </strong> </h1> 
+       </div> 
+       <div class="results-sort fftheme_107 ">
+         Sort by 
+        <strong class=" fftheme_108 "> Relevance </strong> | 
+        <a rel="nofollow" href="?sort=date&amp;trk=jserp_sort_date" class=" fftheme_109 "> Date </a> 
+       </div> 
+      </div> 
+      <ul class="jobs fftheme_110   "> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_111 "> <a href="http://www.linkedin.com/company/qubesocial?trk=jserp_company_logo" class=" fftheme_112 "> <img class="logo fftheme_113 " alt="qubeSocial" title="qubeSocial" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/5/005/063/2dc/15f2be8.png" /> </a> 
+        <div class="content fftheme_114 "> 
+         <span class=" fftheme_115 "> <a rel="nofollow" itemprop="title" class="title fftheme_116 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17989676&amp;trk=jserp_job_details_text"> Local Social Media Consultant </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_117 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/qubesocial?trk=jserp_company_name" class="company fftheme_118 "> qubeSocial </a> 
+         </div> 
+         <div class="details fftheme_119 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_120 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_121 "> <span itemprop="addressLocality" class=" fftheme_122 "> Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_123 "> Jul 29, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_124 "> 
+          <dd class=" fftheme_125 "> 
+           <p itemprop="description" class="abstract fftheme_126 "> BE AN AGENT ARE YOU INTERESTED IN BECOMING A LOCAL SOCIAL MEDIA MARKETER? Are you a University qualified marketer, or Masters student with related qualification in sight? Do you have social media skills and understand&nbsp;why&nbsp;Facebook, Twitter, LinkedIn, Google+, YouTube and so on, have changed the... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_127 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17989676&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_128 "> <a href="http://www.linkedin.com/company/southern-cross-austereo?trk=jserp_company_logo" class=" fftheme_129 "> <img class="logo fftheme_130 " alt="Southern Cross Austereo" title="Southern Cross Austereo" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/3/000/0dc/2f9/1500f36.png" /> </a> 
+        <div class="content fftheme_131 "> 
+         <span class=" fftheme_132 "> <a rel="nofollow" itemprop="title" class="title fftheme_133 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17605687&amp;trk=jserp_job_details_text"> Social Media Strategist </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_134 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/southern-cross-austereo?trk=jserp_company_name" class="company fftheme_135 "> Southern Cross Austereo </a> 
+         </div> 
+         <div class="details fftheme_136 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_137 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_138 "> <span itemprop="addressLocality" class=" fftheme_139 "> Melbourne </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_140 "> Jul 16, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_141 "> 
+          <dd class=" fftheme_142 "> 
+           <p itemprop="description" class="abstract fftheme_143 "> Iconic brands, and industry leading digital properties Work in a winning team showcasing your social media expertise Vibrant culture, highly supportive team environment &nbsp; Do you think in 140 characters or less? Know the difference between doge and grumpy cat, and love a good meme? From snapchat ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_144 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17605687&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_145 "> <a href="http://www.linkedin.com/company/myob?trk=jserp_company_logo" class=" fftheme_146 "> <img class="logo fftheme_147 " alt="MYOB Technology" title="MYOB Technology" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/4/000/1aa/2e8/2e3c0d6.png" /> </a> 
+        <div class="content fftheme_148 "> 
+         <span class=" fftheme_149 "> <a rel="nofollow" itemprop="title" class="title fftheme_150 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17917849&amp;trk=jserp_job_details_text"> Social Media Manager </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_151 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/myob?trk=jserp_company_name" class="company fftheme_152 "> MYOB Technology </a> 
+         </div> 
+         <div class="details fftheme_153 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_154 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_155 "> <span itemprop="addressLocality" class=" fftheme_156 "> Melbourne (Glen Waverley) </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_157 "> Jul 25, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_158 "> 
+          <dd class=" fftheme_159 "> 
+           <p itemprop="description" class="abstract fftheme_160 "> • Implement and drive MYOB’s social media strategy• Drive social media engagement• Work for a market leading brand who take their work seriously but not themselves!The companyAt MYOB, we’re in business for business so we listen to our clients to deliver solutions that make their business ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_161 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17917849&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_162 "> <a href="http://www.linkedin.com/company/ampersand-executive?trk=jserp_company_logo" class=" fftheme_163 "> <img class="logo fftheme_164 " alt="Ampersand Executive, Search &amp; Advisory" title="Ampersand Executive, Search &amp; Advisory" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/5/005/074/213/25354ea.png" /> </a> 
+        <div class="content fftheme_165 "> 
+         <span class=" fftheme_166 "> <a rel="nofollow" itemprop="title" class="title fftheme_167 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17771158&amp;trk=jserp_job_details_text"> Social Media Manager </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_168 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/ampersand-executive?trk=jserp_company_name" class="company fftheme_169 "> Ampersand Executive, Search &amp; Advisory </a> 
+         </div> 
+         <div class="details fftheme_170 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_171 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_172 "> <span itemprop="addressLocality" class=" fftheme_173 "> Melbourne </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_174 "> Jul 23, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_175 "> 
+          <dd class=" fftheme_176 "> 
+           <p itemprop="description" class="abstract fftheme_177 "> Prominent financial services provider 12 month fixed term contract High profile consumer centric organisation Your accountabilities will include developing and executing the business's social media strategy and above all enhancing and protecting the organisation's reputation.&nbsp; You will play a ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_178 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17771158&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_179 "> <a href="http://www.linkedin.com/company/hume-city-council?trk=jserp_company_logo" class=" fftheme_180   "> <img class="logo fftheme_181 " alt="Hume City Council" title="Hume City Council" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/1/000/058/153/1d1e6c9.png" /> </a> 
+        <div class="content fftheme_182 "> 
+         <span class=" fftheme_183 "> <a rel="nofollow" itemprop="title" class="title fftheme_184 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=16490807&amp;trk=jserp_job_details_text"> External Communications Advisor (Online) </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_185 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/hume-city-council?trk=jserp_company_name" class="company fftheme_186 "> Hume City Council </a> 
+         </div> 
+         <div class="details fftheme_187 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_188 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_189 "> <span itemprop="addressLocality" class=" fftheme_190 "> Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_191 "> Jun 13, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_192 "> 
+          <dd class=" fftheme_193 "> 
+           <p itemprop="description" class="abstract fftheme_194 "> This position will undertake online communications to positively promote&nbsp;Hume City Council and its services, programs, facilities, events and activities. You will be required to: Source information and develop into appropriate content&nbsp;for Council's website and social media sites that is ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_195 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=16490807&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_196 "> <a href="http://www.linkedin.com/company/rea-group?trk=jserp_company_logo" class=" fftheme_197 "> <img class="logo fftheme_198 " alt="REA Group" title="REA Group" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/6/005/079/2b4/22cdde0.png" /> </a> 
+        <div class="content fftheme_199 "> 
+         <span class=" fftheme_200 "> <a rel="nofollow" itemprop="title" class="title fftheme_201 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18084336&amp;trk=jserp_job_details_text"> Social Media Manager </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_202 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/rea-group?trk=jserp_company_name" class="company fftheme_203 "> REA Group </a> 
+         </div> 
+         <div class="details fftheme_204 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_205 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_206 "> <span itemprop="addressLocality" class=" fftheme_207 "> Melbourne </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_208 "> Aug 1, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_209 "> 
+          <dd class=" fftheme_210 "> 
+           <p itemprop="description" class="abstract fftheme_211 "> Social Media Manager Reporting to – Senior Manager – Social and Content Strategy Attractive salary package and exciting benefits Melbourne Our Company REA Group is a digital advertising business specialising in property. We operate the market-leading websites realestate.com.au and ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_212 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18084336&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_213 "> <a href="http://www.linkedin.com/company/xpand-group?trk=jserp_company_logo" class=" fftheme_214   "> <img class="logo fftheme_215 " alt="Xpand Group" title="Xpand Group" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/8/005/059/083/30060f0.png" /> </a> 
+        <div class="content fftheme_216 "> 
+         <span class=" fftheme_217 "> <a rel="nofollow" itemprop="title" class="title fftheme_218 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18381749&amp;trk=jserp_job_details_text"> Online Engagement Producer </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_219 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/xpand-group?trk=jserp_company_name" class="company fftheme_220 "> Xpand Group </a> 
+         </div> 
+         <div class="details fftheme_221 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_222 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_223 "> <span itemprop="addressLocality" class=" fftheme_224 "> Melbourne </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_225 "> Aug 8, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_226 "> 
+          <dd class=" fftheme_227 "> 
+           <p itemprop="description" class="abstract fftheme_228 "> Attention all Social Media Geeks, Gurus and Genies. This is a once in a life time opportunity to combine all your passions into one job. Career changing opportunity Creative, fun and innovative environment CBD Location Marketing &amp;amp; Communications&nbsp;/&nbsp;Digital &amp;amp; Search Marketing&nbsp;/Australia ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_229 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18381749&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_230 "> <img width="60" height="60" class="logo fftheme_231 " title="Channel T" alt="Channel T" src="https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/company/ghost_company_60x60_v1.png" /> 
+        <div class="content fftheme_232 "> 
+         <span class=" fftheme_233 "> <a rel="nofollow" itemprop="title" class="title fftheme_234 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18246672&amp;trk=jserp_job_details_text"> Community Manager - Social media </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_235 "> 
+          <span class="company fftheme_236 "> Channel T </span> 
+         </div> 
+         <div class="details fftheme_237 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_238 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_239 "> <span itemprop="addressLocality" class=" fftheme_240 "> South Melbourne </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_241 "> Aug 5, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_242 "> 
+          <dd class=" fftheme_243 "> 
+           <p itemprop="description" class="abstract fftheme_244 "> Friendly and vibrant agency Great clients and fantastic team Attractive salary, excellent growth potential This is a perfect opportunity to join a highly successful advertising agency in South Melbourne, providing creative and strategic solutions across digital, social &amp;amp; WOM. &nbsp; We are ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_245 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18246672&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_246 "> <a href="http://www.linkedin.com/company/hays?trk=jserp_company_logo" class=" fftheme_247   "> <img class="logo fftheme_248 " alt="Hays" title="Hays" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/2/000/1cd/331/3a87e14.png" /> </a> 
+        <div class="content fftheme_249 "> 
+         <span class=" fftheme_250 "> <a rel="nofollow" itemprop="title" class="title fftheme_251 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18365995&amp;trk=jserp_job_details_text"> Social Media Manager </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_252 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/hays?trk=jserp_company_name" class="company fftheme_253 "> Hays </a> 
+         </div> 
+         <div class="details fftheme_254 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_255 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_256 "> <span itemprop="addressLocality" class=" fftheme_257 "> Eastern Suburbs Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_258 "> Aug 7, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_259 "> 
+          <dd class=" fftheme_260 "> 
+           <p itemprop="description" class="abstract fftheme_261 "> Bring your creative talents to this growing Australian companyJoin this passionate hard working marketing teamContact Anna Sulit on 9326 2149 for more informationNow in the run up to their busiest period this Australian company has a Victoria wide coverage and is now looking to leverage their ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_262 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18365995&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_263 "> <a href="http://www.linkedin.com/company/hays?trk=jserp_company_logo" class=" fftheme_264 "> <img class="logo fftheme_265 " alt="Hays" title="Hays" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/2/000/1cd/331/3a87e14.png" /> </a> 
+        <div class="content fftheme_266 "> 
+         <span class=" fftheme_267 "> <a rel="nofollow" itemprop="title" class="title fftheme_268 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18082653&amp;trk=jserp_job_details_text"> Creative Social Media Manager </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_269 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/hays?trk=jserp_company_name" class="company fftheme_270 "> Hays </a> 
+         </div> 
+         <div class="details fftheme_271 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_272 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_273 "> <span itemprop="addressLocality" class=" fftheme_274 "> Melbourne CBD, Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_275 "> Jul 31, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_276 "> 
+          <dd class=" fftheme_277 "> 
+           <p itemprop="description" class="abstract fftheme_278 "> Small Financial Services OrganisationAmbitious BusinessGreat Company CultureThis Financial Services Organisation is looking for an experienced Social Media Manager to join their business to drive their online presence. This newly created role will see you develop and implement a Social Media ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_279 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18082653&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_280 "> <a href="http://www.linkedin.com/company/king-content?trk=jserp_company_logo" class=" fftheme_281   "> <img class="logo fftheme_282 " alt="King Content" title="King Content" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/6/000/1fe/353/1a72d2e.png" /> </a> 
+        <div class="content fftheme_283 "> 
+         <span class=" fftheme_284 "> <a rel="nofollow" itemprop="title" class="title fftheme_285 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18059228&amp;trk=jserp_job_details_text"> Content Editor </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_286 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/king-content?trk=jserp_company_name" class="company fftheme_287 "> King Content </a> 
+         </div> 
+         <div class="details fftheme_288 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_289 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_290 "> <span itemprop="addressLocality" class=" fftheme_291 "> Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_292 "> Jul 31, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_293 "> 
+          <dd class=" fftheme_294 "> 
+           <p itemprop="description" class="abstract fftheme_295 "> King Content is looking for an experienced&nbsp;Content Editor&nbsp;to join our Melbourne editorial team. This is an exciting opportunity to work with a leading Asia-Pacific content marketing agency and become one of the thought leaders in a promising digital industry.&nbsp; To be successful in this role, ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_296 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18059228&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_297 "> <a href="http://www.linkedin.com/company/the-signcraft-group?trk=jserp_company_logo" class=" fftheme_298 "> <img width="60" height="60" class="logo fftheme_299 " title="The Signcraft Group" alt="The Signcraft Group" src="https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/company/ghost_company_60x60_v1.png" /> </a> 
+        <div class="content fftheme_300 "> 
+         <span class=" fftheme_301 "> <a rel="nofollow" itemprop="title" class="title fftheme_302 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17911316&amp;trk=jserp_job_details_text"> Marketing Consultant-Altona </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_303 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/the-signcraft-group?trk=jserp_company_name" class="company fftheme_304 "> The Signcraft Group </a> 
+         </div> 
+         <div class="details fftheme_305 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_306 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_307 "> <span itemprop="addressLocality" class=" fftheme_308 "> Melbourne Area, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_309 "> Jul 24, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_310 "> 
+          <dd class=" fftheme_311 "> 
+           <p itemprop="description" class="abstract fftheme_312 "> To build the marketing funnel via the coordination and implementation of a new national marketing and positioning strategy, encompassing digital and physical communications, social media and PR. &nbsp; Marketing Management Signcraft have commissioned a new positioning and marketing strategy which ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_313 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17911316&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_314 "> <img width="60" height="60" class="logo fftheme_315 " title="Wildlife Victoria" alt="Wildlife Victoria" src="https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/company/ghost_company_60x60_v1.png" /> 
+        <div class="content fftheme_316 "> 
+         <span class=" fftheme_317 "> <a rel="nofollow" itemprop="title" class="title fftheme_318 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17709272&amp;trk=jserp_job_details_text"> Community Engagement Coordinator </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_319 "> 
+          <span class="company fftheme_320 "> Wildlife Victoria </span> 
+         </div> 
+         <div class="details fftheme_321 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_322 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_323 "> <span itemprop="addressLocality" class=" fftheme_324 "> Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_325 "> Jul 21, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_326 "> 
+          <dd class=" fftheme_327 "> 
+           <p itemprop="description" class="abstract fftheme_328 "> Fast-paced, exciting and innovative not-for-profit organisation Diverse role in a collaborative and friendly team environment Contribute to the welfare of native wildlife in VIC &nbsp; This role forms part of a small, efficient, fun team and reports directly to the CEO. The role is responsible for ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_329 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17709272&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_330 "> <a href="http://www.linkedin.com/company/jemena?trk=jserp_company_logo" class=" fftheme_331 "> <img class="logo fftheme_332 " alt="Jemena" title="Jemena" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/2/000/02c/13f/2c96351.png" /> </a> 
+        <div class="content fftheme_333 "> 
+         <span class=" fftheme_334 "> <a rel="nofollow" itemprop="title" class="title fftheme_335 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17941309&amp;trk=jserp_job_details_text"> Media and Brand Manager </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_336 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/jemena?trk=jserp_company_name" class="company fftheme_337 "> Jemena </a> 
+         </div> 
+         <div class="details fftheme_338 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_339 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_340 "> <span itemprop="addressLocality" class=" fftheme_341 "> Mt Waverley </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_342 "> Jul 28, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_343 "> 
+          <dd class=" fftheme_344 "> 
+           <p itemprop="description" class="abstract fftheme_345 "> Around one in five Australians rely on Jemena for their gas and electricity needs Work for a company that values safety and well being Take a lead role in the effective management of media and issues affecting Jemena About the opportunity The Media and Brand Manager has responsibility for ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_346 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17941309&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_347 "> <a href="http://www.linkedin.com/company/shk?trk=jserp_company_logo" class=" fftheme_348   "> <img class="logo fftheme_349 " alt="SHK" title="SHK" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/4/000/153/16a/3ef72ae.png" /> </a> 
+        <div class="content fftheme_350 "> 
+         <span class=" fftheme_351 "> <a rel="nofollow" itemprop="title" class="title fftheme_352 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18037408&amp;trk=jserp_job_details_text"> SNR COMMS COORDINATOR </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_353 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/shk?trk=jserp_company_name" class="company fftheme_354 "> SHK </a> 
+         </div> 
+         <div class="details fftheme_355 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_356 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_357 "> <span itemprop="addressLocality" class=" fftheme_358 "> Melbourne </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_359 "> Jul 30, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_360 "> 
+          <dd class=" fftheme_361 "> 
+           <p itemprop="description" class="abstract fftheme_362 "> National professional associationDrive print and online content Build social media presenceThis national peak body is committed to advocacy and professional development to enable its members to best enhance community health and wellbeing and make a difference to people's lives. It is seeking an ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_363 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18037408&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_364 "> <a href="http://www.linkedin.com/company/datalabs-agency?trk=jserp_company_logo" class=" fftheme_365 "> <img class="logo fftheme_366 " alt="Datalabs Agency" title="Datalabs Agency" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/1/000/19a/108/06468f7.png" /> </a> 
+        <div class="content fftheme_367 "> 
+         <span class=" fftheme_368 "> <a rel="nofollow" itemprop="title" class="title fftheme_369 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18256837&amp;trk=jserp_job_details_text"> Digital Marketing Specialist </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_370 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/datalabs-agency?trk=jserp_company_name" class="company fftheme_371 "> Datalabs Agency </a> 
+         </div> 
+         <div class="details fftheme_372 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_373 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_374 "> <span itemprop="addressLocality" class=" fftheme_375 "> Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_376 "> Aug 5, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_377 "> 
+          <dd class=" fftheme_378 "> 
+           <p itemprop="description" class="abstract fftheme_379 "> The Digital&nbsp;Marketing&nbsp;Specialist is the creative marketing position within Datalabs, responsible for driving traffic through search engines and social media, capturing leads through our website and agency&nbsp;events, and creating engaging contenhttp://www.datalabs.com.au/... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_380 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18256837&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_381 "> <a href="http://www.linkedin.com/company/luna-park-melbourne?trk=jserp_company_logo" class=" fftheme_382   "> <img class="logo fftheme_383 " alt="Luna Park Melbourne" title="Luna Park Melbourne" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/1/000/110/0c5/1a6e3f8.png" /> </a> 
+        <div class="content fftheme_384 "> 
+         <span class=" fftheme_385 "> <a rel="nofollow" itemprop="title" class="title fftheme_386 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18059049&amp;trk=jserp_job_details_text"> Digital Marketing Manager </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_387 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/luna-park-melbourne?trk=jserp_company_name" class="company fftheme_388 "> Luna Park Melbourne </a> 
+         </div> 
+         <div class="details fftheme_389 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_390 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_391 "> <span itemprop="addressLocality" class=" fftheme_392 "> Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_393 "> Jul 31, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_394 "> 
+          <dd class=" fftheme_395 "> 
+           <p itemprop="description" class="abstract fftheme_396 "> Melbourne’s giant face of fun is looking for the next big creative force to join our marketing team. This role is responsible for the digital voice of the iconic Luna Park and requires a multi-tasking creative hero to take the reins. Reporting to the Marketing Manager, this role will require you... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_397 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18059049&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_398 "> <a href="http://www.linkedin.com/company/victoria-racing-club?trk=jserp_company_logo" class=" fftheme_399 "> <img class="logo fftheme_400 " alt="Victoria Racing Club" title="Victoria Racing Club" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/3/000/117/002/0b34f23.png" /> </a> 
+        <div class="content fftheme_401 "> 
+         <span class=" fftheme_402 "> <a rel="nofollow" itemprop="title" class="title fftheme_403 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17708529&amp;trk=jserp_job_details_text"> Events and Entertainment Executive </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_404 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/victoria-racing-club?trk=jserp_company_name" class="company fftheme_405 "> Victoria Racing Club </a> 
+         </div> 
+         <div class="details fftheme_406 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_407 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_408 "> <span itemprop="addressLocality" class=" fftheme_409 "> Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_410 "> Jul 21, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_411 "> 
+          <dd class=" fftheme_412 "> 
+           <p itemprop="description" class="abstract fftheme_413 "> The Victoria Racing Club is inviting applications for the position of Events and Entertainment Executive &nbsp;to assist with the preparations leading up to and over the Melbourne Cup Carnival. &nbsp; Some of the key responsibilities of this position include but are not limited: &nbsp; Assist with ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_414 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17708529&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_415 "> <a href="http://www.linkedin.com/company/bankvic?trk=jserp_company_logo" class=" fftheme_416   "> <img class="logo fftheme_417 " alt="BankVic" title="BankVic" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/8/000/273/18c/11e6fd8.png" /> </a> 
+        <div class="content fftheme_418 "> 
+         <span class=" fftheme_419 "> <a rel="nofollow" itemprop="title" class="title fftheme_420 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17990602&amp;trk=jserp_job_details_text"> Marketing Specialist </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_421 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/bankvic?trk=jserp_company_name" class="company fftheme_422 "> BankVic </a> 
+         </div> 
+         <div class="details fftheme_423 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_424 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_425 "> <span itemprop="addressLocality" class=" fftheme_426 "> Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_427 "> Jul 29, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_428 "> 
+          <dd class=" fftheme_429 "> 
+           <p itemprop="description" class="abstract fftheme_430 "> Reporting to the Executive Manager – Marketing &amp;amp; Sales, this role is responsible for the day-to-day execution of marketing communications projects, ensuring the successful and timely completion of projects within tight timelines and budgets. &nbsp; Key responsibilities include: Writing, editing ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_431 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17990602&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_432 "> <a href="http://www.linkedin.com/company/centre-for-eye-research-australia?trk=jserp_company_logo" class=" fftheme_433 "> <img class="logo fftheme_434 " alt="Centre for Eye Research Australia (CERA)" title="Centre for Eye Research Australia (CERA)" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/7/005/04f/1d7/30475d4.png" /> </a> 
+        <div class="content fftheme_435 "> 
+         <span class=" fftheme_436 "> <a rel="nofollow" itemprop="title" class="title fftheme_437 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18055955&amp;trk=jserp_job_details_text"> Communications Advisor </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_438 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/centre-for-eye-research-australia?trk=jserp_company_name" class="company fftheme_439 "> Centre for Eye Research Australia (CERA) </a> 
+         </div> 
+         <div class="details fftheme_440 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_441 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_442 "> <span itemprop="addressLocality" class=" fftheme_443 "> Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_444 "> Jul 30, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_445 "> 
+          <dd class=" fftheme_446 "> 
+           <p itemprop="description" class="abstract fftheme_447 "> Become part of Australia's leading eye research institute as a Communications Advisor. CERA is giving more people living with eye disease a chance to save their sight. We conduct eye research with real-life impact. We are unravelling the causes of diseases, preventing blindness through earlier ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_448 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18055955&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_449 "> <a href="http://www.linkedin.com/company/isentia?trk=jserp_company_logo" class=" fftheme_450   "> <img class="logo fftheme_451 " alt="iSentia" title="iSentia" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/8/000/22a/021/1a7d447.png" /> </a> 
+        <div class="content fftheme_452 "> 
+         <span class=" fftheme_453 "> <a rel="nofollow" itemprop="title" class="title fftheme_454 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18302309&amp;trk=jserp_job_details_text"> Account Manager </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_455 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/isentia?trk=jserp_company_name" class="company fftheme_456 "> iSentia </a> 
+         </div> 
+         <div class="details fftheme_457 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_458 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_459 "> <span itemprop="addressLocality" class=" fftheme_460 "> Melbourne </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_461 "> Aug 6, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_462 "> 
+          <dd class=" fftheme_463 "> 
+           <p itemprop="description" class="abstract fftheme_464 "> Are you interested in social media, news and current affairs?&nbsp; Do you have a passion for selling through providing outstanding client service?&nbsp; Melbourne role with media and communications focus &nbsp; The Account Manager is responsible for achieving the sales, client satisfaction and client ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_465 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18302309&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_466 "> <a href="http://www.linkedin.com/company/meltwater-group?trk=jserp_company_logo" class=" fftheme_467 "> <img class="logo fftheme_468 " alt="Meltwater" title="Meltwater" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/5/000/22d/219/35873c9.png" /> </a> 
+        <div class="content fftheme_469 "> 
+         <span class=" fftheme_470 "> <a rel="nofollow" itemprop="title" class="title fftheme_471 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17665794&amp;trk=jserp_job_details_text"> International Sales &amp; Management Trainee </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_472 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/meltwater-group?trk=jserp_company_name" class="company fftheme_473 "> Meltwater </a> 
+         </div> 
+         <div class="details fftheme_474 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_475 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_476 "> <span itemprop="addressLocality" class=" fftheme_477 "> Melbourne -Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_478 "> Jul 18, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_479 "> 
+          <dd class=" fftheme_480 "> 
+           <p itemprop="description" class="abstract fftheme_481 "> Meltwater Group - Join a Winning TeamMeltwater helps businesses drive growth and build brands.Some of the worlds most reputed organisations use Meltwater’s online intelligence platform to analyze billions of digital documents daily to extract precise, timely business insights.Our 20,000+ ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_482 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17665794&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_483 "> <a href="http://www.linkedin.com/company/inlight-media?trk=jserp_company_logo" class=" fftheme_484   "> <img class="logo fftheme_485 " alt="Inlight Media" title="Inlight Media" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/6/000/1c0/3ac/2ace6f4.png" /> </a> 
+        <div class="content fftheme_486 "> 
+         <span class=" fftheme_487 "> <a rel="nofollow" itemprop="title" class="title fftheme_488 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18070052&amp;trk=jserp_job_details_text"> Digital Account Director </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_489 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/inlight-media?trk=jserp_company_name" class="company fftheme_490 "> Inlight Media </a> 
+         </div> 
+         <div class="details fftheme_491 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_492 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_493 "> <span itemprop="addressLocality" class=" fftheme_494 "> Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_495 "> Jul 31, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_496 "> 
+          <dd class=" fftheme_497 "> 
+           <p itemprop="description" class="abstract fftheme_498 "> We are looking for a driven Digital Account Director to join our team on a full time basis. The selected candidate will be responsible for building and managing relationships across key client accounts, managing end-to-end projects including estimating, resourcing, timelines and budgets, and ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_499 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18070052&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_500 "> <a href="http://www.linkedin.com/company/tidal-wave-marketing-&amp;-design?trk=jserp_company_logo" class=" fftheme_501 "> <img class="logo fftheme_502 " alt="Tidalwave Marketing" title="Tidalwave Marketing" src="https://media.licdn.com/mpr/mpr/shrink_60_60/p/2/005/00d/316/3c03af6.png" /> </a> 
+        <div class="content fftheme_503 "> 
+         <span class=" fftheme_504 "> <a rel="nofollow" itemprop="title" class="title fftheme_505 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18058275&amp;trk=jserp_job_details_text"> Marketing Executive </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_506 "> 
+          <a itemprop="name" href="http://www.linkedin.com/company/tidal-wave-marketing-&amp;-design?trk=jserp_company_name" class="company fftheme_507 "> Tidalwave Marketing </a> 
+         </div> 
+         <div class="details fftheme_508 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_509 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_510 "> <span itemprop="addressLocality" class=" fftheme_511 "> Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_512 "> Jul 31, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_513 "> 
+          <dd class=" fftheme_514 "> 
+           <p itemprop="description" class="abstract fftheme_515 "> This role is perfect for someone looking to take the next step in their marketing career, &nbsp;develop their managerial experience &amp;amp; work with a number of recognised brands. &nbsp; Tidalwave Marketing is a creative &amp;amp; design agency that are looking for a Senior Marketing Executive to lead a team ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_516 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=18058275&amp;trk=jserp_seo_page"> View </a> </li> 
+       <li itemtype="http://schema.org/JobPosting" itemscope="" class="job fftheme_517 "> <img width="60" height="60" class="logo fftheme_518 " title="Globe International" alt="Globe International" src="https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/company/ghost_company_60x60_v1.png" /> 
+        <div class="content fftheme_519 "> 
+         <span class=" fftheme_520 "> <a rel="nofollow" itemprop="title" class="title fftheme_521 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17779310&amp;trk=jserp_job_details_text"> Online Sales Manager </a> </span> 
+         <div itemtype="http://schema.org/Organization" itemscope="" itemprop="hiringOrganization" class=" fftheme_522 "> 
+          <span class="company fftheme_523 "> Globe International </span> 
+         </div> 
+         <div class="details fftheme_524 "> 
+          <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation" class=" fftheme_525 "> <span itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address" class=" fftheme_526 "> <span itemprop="addressLocality" class=" fftheme_527 "> Melbourne, Australia </span> </span> </span> - 
+          <span itemprop="datePosted" class=" fftheme_528 "> Jul 23, 2014 </span> 
+         </div> 
+         <dl class="snippet fftheme_529 "> 
+          <dd class=" fftheme_530 "> 
+           <p itemprop="description" class="abstract fftheme_531 "> Reporting to the President – Australasia, you will be responsible for the growth and profitability of our Online Business. You will grow our e-commerce business by driving traffic to our site through SEO/SEM, online promotions, EDM’s, social media and integrating with our external marketing ... </p> 
+          </dd> 
+         </dl> 
+        </div> <a rel="nofollow" itemprop="url" class="view-btn fftheme_532 " href="https://www.linkedin.com/jobs?viewJob=&amp;jobId=17779310&amp;trk=jserp_seo_page"> View </a> </li> 
+      </ul> 
+      <div class="related-desktop fftheme_533 "> 
+       <div class="related-searches fftheme_534 "> 
+        <div class="related-header fftheme_535 ">
+          Related Searches for 
+         <strong class=" fftheme_536 "> Social Media </strong> 
+        </div> 
+        <ul class="related-list fftheme_537 "> 
+         <li class="related-item fftheme_538 "> <a href="/job/public-relations-jobs/?trk=jserp_related_searches" class=" fftheme_539 "> public relations </a> </li> 
+         <li class="related-item fftheme_540 "> <a href="/job/community-manager-jobs/?trk=jserp_related_searches" class=" fftheme_541 "> community manager </a> </li> 
+         <li class="related-item fftheme_542 "> <a href="/job/online-marketing-jobs/?trk=jserp_related_searches" class=" fftheme_543 "> online marketing </a> </li> 
+         <li class="related-item fftheme_544 "> <a href="/job/digital-marketing-jobs/?trk=jserp_related_searches" class=" fftheme_545 "> digital marketing </a> </li> 
+         <li class="related-item fftheme_546 "> <a href="/job/communications-jobs/?trk=jserp_related_searches" class=" fftheme_547 "> communications </a> </li> 
+         <li class="related-item fftheme_548 "> <a href="/job/social-jobs/?trk=jserp_related_searches" class=" fftheme_549 "> <b class=" fftheme_550 "> social </b> </a> </li> 
+         <li class="related-item fftheme_551 "> <a href="/job/internet-marketing-jobs/?trk=jserp_related_searches" class=" fftheme_552 "> internet marketing </a> </li> 
+         <li class="related-item fftheme_553 "> <a href="/job/public-affairs-jobs/?trk=jserp_related_searches" class=" fftheme_554 "> public affairs </a> </li> 
+        </ul> 
+       </div> 
+      </div> 
+      <div class="pagination fftheme_555 "> 
+       <ul class=" fftheme_556 "> 
+        <li class="active fftheme_557 "> 1 </li> 
+        <li class=" fftheme_558 "> <a rel="nofollow" href="https://www.linkedin.com/job/social-media-jobs-melbourne/?page_num=2&amp;trk=jserp_pagination_2" class=" fftheme_559 "> 2 </a> </li> 
+        <li class=" fftheme_560 "> <a rel="nofollow" href="https://www.linkedin.com/job/social-media-jobs-melbourne/?page_num=3&amp;trk=jserp_pagination_3" class=" fftheme_561 "> 3 </a> </li> 
+        <li class=" fftheme_562 "> <a rel="nofollow" href="https://www.linkedin.com/job/social-media-jobs-melbourne/?page_num=4&amp;trk=jserp_pagination_4" class=" fftheme_563 "> 4 </a> </li> 
+        <li class=" fftheme_564 "> <a rel="nofollow" href="https://www.linkedin.com/job/social-media-jobs-melbourne/?page_num=2&amp;trk=jserp_pagination_next" class=" fftheme_565 "> Next &gt; </a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div id="facet-rail-bumper" class=" fftheme_566  xmoztheme "> 
+     </div> 
+     <div id="facet-rail" class="extra fftheme_567  fixed-extra" style="display: block; top: 2888px;"> 
+      <div class="sub-module fftheme_568 "> 
+       <h2 class=" fftheme_569 "> Popular Searches </h2> 
+       <ul class=" fftheme_570 "> 
+        <li class=" fftheme_571 "> <a class="learn-more fftheme_572 " href="/job/social-media-jobs/"> Social Media Jobs </a> </li> 
+        <li class=" fftheme_573 "> <a class="learn-more fftheme_574 " href="/job/jobs-in-melbourne/"> Melbourne Jobs </a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="mobile-pagination fftheme_575  xmoztheme "> 
+     <a href="https://www.linkedin.com/job/social-media-jobs-melbourne/?page_num=2&amp;trk=jserp_pagination_mobile" class=" fftheme_576  xmoztheme "> View more </a> 
+     <span class="view-more-arrow fftheme_577  xmoztheme "> </span> 
+    </div> 
+    <div id="advanced-search-options" class="advanced-search-options fftheme_578  xmoztheme " style="display: none;"> 
+     <div class="clear-wrapper adv-click-target fftheme_579  xmoztheme "> 
+      <div class="in-label fftheme_580  xmoztheme ">
+        More search options 
+      </div> 
+      <span class="action-arrow fftheme_581  xmoztheme "> </span> 
+     </div> 
+     <div class="facet-holder fftheme_582  xmoztheme "> 
+      <div class="advanced-results-sort fftheme_583  xmoztheme ">
+        Sort by 
+       <strong class=" fftheme_584  xmoztheme "> Relevance </strong> | 
+       <a rel="nofollow" href="?sort=date&amp;trk=jserp_sort_date" class=" fftheme_585  xmoztheme "> Date </a> 
+      </div> 
+      <div class="related-mobile fftheme_586  xmoztheme "> 
+       <div class="facet-module fftheme_587  xmoztheme "> 
+        <h2 class=" fftheme_588  xmoztheme "> Related Searches for <strong class=" fftheme_589  xmoztheme "> Social Media </strong> </h2> 
+        <ul class=" fftheme_590  xmoztheme "> 
+         <li class="related-item fftheme_591  xmoztheme "> <a href="/job/public-relations-jobs/?trk=jserp_related_searches" class=" fftheme_592  xmoztheme "> public relations </a> </li> 
+         <li class="related-item fftheme_593  xmoztheme "> <a href="/job/community-manager-jobs/?trk=jserp_related_searches" class=" fftheme_594  xmoztheme "> community manager </a> </li> 
+         <li class="related-item fftheme_595  xmoztheme "> <a href="/job/online-marketing-jobs/?trk=jserp_related_searches" class=" fftheme_596  xmoztheme "> online marketing </a> </li> 
+         <li class="related-item fftheme_597  xmoztheme "> <a href="/job/digital-marketing-jobs/?trk=jserp_related_searches" class=" fftheme_598  xmoztheme "> digital marketing </a> </li> 
+         <li class="related-item fftheme_599  xmoztheme "> <a href="/job/communications-jobs/?trk=jserp_related_searches" class=" fftheme_600  xmoztheme "> communications </a> </li> 
+         <li class="related-item fftheme_601  xmoztheme "> <a href="/job/social-jobs/?trk=jserp_related_searches" class=" fftheme_602  xmoztheme "> <b class=" fftheme_603  xmoztheme "> social </b> </a> </li> 
+         <li class="related-item fftheme_604  xmoztheme "> <a href="/job/internet-marketing-jobs/?trk=jserp_related_searches" class=" fftheme_605  xmoztheme "> internet marketing </a> </li> 
+         <li class="related-item fftheme_606  xmoztheme "> <a href="/job/public-affairs-jobs/?trk=jserp_related_searches" class=" fftheme_607  xmoztheme "> public affairs </a> </li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="button-upsell fftheme_608 "> 
+     <div class="button-upsell-interior fftheme_609 "> 
+      <a rel="nofollow" href="https://www.linkedin.com/reg/join?trk=jserp_apply_cta_footer_text" class=" fftheme_610 "> Join LinkedIn </a> to apply for jobs 
+      <a rel="nofollow" class="upsell-action fftheme_611 " href="https://www.linkedin.com/reg/join?trk=jserp_apply_cta_footer_button"> Join LinkedIn </a> 
+     </div> 
+    </div> 
+    <div class="top-breadcrumbs fftheme_612 "> 
+     <ol class="sub-module fftheme_613 "> 
+      <li itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" class=" fftheme_614 "> <a title="Jobs" itemprop="url" class="learn-more fftheme_615 " href="/job/?trk=jserp_breadcrumb"> <span itemprop="title" class=" fftheme_616 "> Jobs </span> </a> </li> 
+      <li itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" class=" fftheme_617 "> <a title="Social Media" itemprop="url" class="learn-more fftheme_618 " href="/job/social-media-jobs/?trk=jserp_breadcrumb"> <span itemprop="title" class=" fftheme_619 "> Social Media </span> </a> </li> 
+      <li itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" class=" fftheme_620 "> <span class="final fftheme_621 " itemprop="title"> Melbourne </span> </li> 
+     </ol> 
+    </div> 
+   </div> 
+   <div id="jobs-upsell-fixed" class=" fftheme_622  xmoztheme "> 
+    <a rel="nofollow" href="https://www.linkedin.com/reg/join?trk=jserp_apply_cta_mobile" class=" fftheme_623  xmoztheme "> <span class="label fftheme_624  xmoztheme "> Join LinkedIn to apply for jobs </span> </a> 
+   </div> 
+   <div class="directory fftheme_625 "> 
+    <div class="module fftheme_626 "> 
+     <span class=" fftheme_627 "> <a href="/job/?trk=jserp_footer_jobs_home" class=" fftheme_628 "> Jobs Home </a> </span> 
+     <span class=" fftheme_629 "> <a href="https://www.linkedin.com/directory/jobs/?trk=jserp_footer_jobs_directory" class=" fftheme_630 "> Jobs Directory </a> </span> 
+     <span class=" fftheme_631 "> <a rel="nofollow" href="/job/consumer/commonPost/displayNewJob" class=" fftheme_632 "> Post a Job on LinkedIn </a> </span> 
+    </div> 
+   </div> 
+   <script src="https://static.licdn.com/scds/concat/common/js?v=build-2000_8_37789-prod&amp;f=scripts%2Flib%2Ffiber-1.0.3%2Ffiber&amp;f=scripts%2Fapps%2Fjobs%2Fguest%2FloadAdvancedSearch&amp;f=scripts%2Fapps%2Fjobs%2Fguest%2FGuestSearch&amp;f=js%2Futil%2Ftypeahead%2FTypeahead2&amp;f=scripts%2Fshared%2FPlaceholder&amp;f=scripts%2Fshared%2FCheckboxList" type="text/javascript" class=" fftheme_633  xmoztheme ">
+        </script> 
+   <script type="text/javascript" class=" fftheme_634  xmoztheme ">
+//<![CDATA[
+
+  (function() {
+    var bcookie = escape( LI.readCookie( 'bcookie' ) ),
+        addReferrer = true,
+        newTrkInfo = 'Social Media Jobs in Melbourne, Australia' + (addReferrer ? ',' + document.referrer.substr(0,128) : ''),
+        alias_secure = 'https://www.linkedin.com/analytics/noauthtracker?type=leo%2EpageTracking&amp;pageType=full_page&amp;pageKey=JOB%3A%2Fconsumer%2Fsearch%2Fsearch_jsbeacon&amp;trkInfo=REPLACEME',
+        alias_normal = 'http://www.linkedin.com/analytics/noauthtracker?type=leo%2EpageTracking&amp;pageType=full_page&amp;pageKey=JOB%3A%2Fconsumer%2Fsearch%2Fsearch_jsbeacon&amp;trkInfo=REPLACEME',
+        is_secure = true,
+        url = (is_secure) ? alias_secure : alias_normal;
+
+    url = url.replace("REPLACEME", newTrkInfo);
+
+    if (bcookie) {
+      if(window.$ &amp;&amp; $.ajax){
+        $.ajax(url);
+      } else {
+        YAHOO.util.Connect.asyncRequest( 'get', url, {} );
+      }
+    }
+  })();
+
+//]]>
+        </script> 
+   <script type="text/javascript" class=" fftheme_635  xmoztheme ">
+//<![CDATA[
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3242811-1']);
+  _gaq.push(['_setDomainName', '.linkedin.com']);
+  _gaq.push(['_trackPageview', 'JOB:/consumer/search/search/OLcs']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+//]]>
+        </script> 
+  </div> 
+ </div> 
+ <script type="text/javascript" class=" fftheme_636  xmoztheme ">
+//<![CDATA[
+LI.Controls.processQueue();
+//]]>
+    </script> 
+ <script type="text/javascript" class=" fftheme_637  xmoztheme ">
+//<![CDATA[
+
+ 
+ 
+ 
+ 
+ 
+ LI_WCT([
+ "control-1",
+ "control-2",
+ ]);
+ 
+ 
+ 
+ 
+ 
+ 
+//]]>
+    </script> 
+ <script type="text/javascript" class=" fftheme_638  xmoztheme ">
+//<![CDATA[
+fs._server.fire("1c901923d2868813a065a7a8e52a0000-3",{event:"before",type:"html"});
+//]]>
+    </script> 
+ <div class="remote-nav fftheme_639 " id="footer"> 
+  <div class="wrapper fftheme_640 "> 
+   <p class="guest fftheme_641 " id="copyright"> <span class=" fftheme_642 "> LinkedIn Corporation </span> <em class=" fftheme_643 "> &copy; 2014 </em> </p> 
+   <ul id="nav-legal" class=" fftheme_644   "> 
+    <li class=" fftheme_645 "> <a href="http://www.linkedin.com/legal/user-agreement?trk=hb_ft_userag" class=" fftheme_646 "> User Agreement </a> </li> 
+    <li class=" fftheme_647 "> <a href="http://www.linkedin.com/legal/privacy-policy?trk=hb_ft_priv" class=" fftheme_648 "> Privacy Policy </a> </li> 
+    <li class=" fftheme_649 "> <a rel="nofollow" target="_blank" href="https://help.linkedin.com/app/answers/detail/a_id/34593/loc/na/trk/JOB:/consumer/search/search/" class=" fftheme_650 "> Community Guidelines </a> </li> 
+    <li class=" fftheme_651 "> <a href="http://www.linkedin.com/legal/cookie-policy?trk=hb_ft_cookie" class=" fftheme_652 "> Cookie Policy </a> </li> 
+    <li class="last fftheme_653 "> <a href="http://www.linkedin.com/legal/copyright-policy?trk=hb_ft_copy" class=" fftheme_654 "> Copyright Policy </a> </li> 
+   </ul> 
+  </div> 
+ </div> 
+ <script type="text/javascript" class=" fftheme_655  xmoztheme ">
+//<![CDATA[
+
+
+
+
+ if(LI.showAllDeferredImg){
+ LI.showAllDeferredImg( 'header', false );
+ LI.showAllDeferredImg( 'footer', false );
+ }
+
+
+ if ( typeof( oUISettings ) !== 'undefined' ) {
+ oUISettings.saveSettingsURL = "/lite/secure-ui-settings-save-old?csrfToken=ajax%3A3299648851914721169";
+ }
+
+ if ( typeof( WebTracking ) !== 'undefined' ) {
+ WebTracking.saveWebActionTrackURL = "/lite/secure-web-action-track?csrfToken=ajax%3A3299648851914721169";
+ }
+
+//]]>
+    </script> 
+ <script src="https://static.licdn.com/scds/concat/common/js?h=3i7ubdukif1jevuf29ftmtvjs-ukgkg4rtwlz74z78bt35jocx-dlcimwl96rttjyfr26x4i92ol-1m7sfcez3isjwlg5yrudwy1mz-85irzxzbd5halvkstu9vwbyf6" type="text/javascript" class=" fftheme_656  xmoztheme ">
+    </script> 
+ <script type="text/javascript" class=" fftheme_657  xmoztheme ">
+//<![CDATA[
+fs._server.fire("1c901923d2868813a065a7a8e52a0000-3",{event:"after",type:"html"});
+//]]>
+    </script> 
+ <script src="https://static.licdn.com/scds/concat/common/js?v=build-2000_8_37789-prod&amp;f=js%2Fapps%2FLogin&amp;f=js%2Flanguage_switch" type="text/javascript" class=" fftheme_658  xmoztheme ">
+    </script> 
+ <script type="text/javascript" class=" fftheme_659  xmoztheme ">
+//<![CDATA[
+
+
+      if (!window.LI) { window.LI = {}; }
+      LI.RUM = LI.RUM || {};
+
+      (function(RUM, win) {
+
+        var doc = win.document;
+
+        RUM.flags = RUM.flags || {};
+        RUM.flags['host-flag'] = "control";
+        RUM.flags['pop_beacons_frequency'] = "n50";
+
+        RUM.urls = RUM.urls || {};
+        RUM.urls['rum-track'] = "/lite/rum-track?csrfToken=ajax%3A3299648851914721169";
+        RUM.urls['boomerang-bw-img'] = "https://static.licdn.com/scds/common/u/lib/boomerang/0.9.edge.4ab208445a/img/";
+
+        RUM.base_urls = RUM.base_urls || {};
+        RUM.base_urls['permanent_content'] = "https://static.licdn.com/scds/common/u/";
+        RUM.base_urls['versioned_content'] = "https://static.licdn.com/scds/concat/common/";
+        RUM.base_urls['media_proxy'] = "https://media.licdn.com/media-proxy/";
+
+        
+          
+          
+          RUM.serverStartTime = 1.407523120651E12;
+        
+
+        RUM.enabled = true;
+
+        
+        function getRumScript() {
+          var node = doc.body || doc.head || doc.getElementsByTagName('head')[0],
+              script = doc.createElement('script');
+          script.src = 
+      
+        
+            
+              
+              
+                ["https://static.licdn.com/scds/concat/common/js?v=build-2000_8_37789-prod&amp;f=lib%2Fboomerang%2Flicense&amp;f=lib%2Fboomerang%2F0.9.edge.4ab208445a%2Fmin%2Fboomerang.min&amp;f=lib%2Fboomerang%2F0.9.edge.4ab208445a%2Fmin%2Frt.min&amp;f=lib%2Fboomerang%2F0.9.edge.4ab208445a%2Fmin%2Fnavtiming.min&amp;f=lib%2Frum%2F1.0.1%2Fplugins%2Frs_timing.min&amp;f=lib%2Frum%2F1.0.1%2Fplugins%2Fpop_beacons.min&amp;f=lib%2Fboomerang%2F0.9.edge.4ab208445a%2Fmin%2Fzzz_last_plugin.min&amp;f=lib%2Frum%2F1.0.1%2Frum.min"]
+              
+            
+          
+        
+      
+    [0];
+          node.appendChild(script);
+        }
+
+        
+        if (win.addEventListener) {
+          win.addEventListener('load', getRumScript);
+        }
+        else {
+          win.attachEvent('onload', getRumScript);
+        }
+
+      }(LI.RUM, window));
+
+    
+//]]>
+    </script> 
+ <script id="localChrome" class=" fftheme_660  xmoztheme ">
+    </script> 
+ <script type="text/javascript" class=" fftheme_661  xmoztheme ">
+//<![CDATA[
+LI.Controls.processQueue();
+//]]>
+    </script> 
+ <script type="text/javascript" class=" fftheme_662  xmoztheme ">
+//<![CDATA[
+
+  LI.define('Tracking.Comscore');
+  LI.Tracking.Comscore = function() {
+    YAHOO.util.Get.script( 'https://sb.scorecardresearch.com/beacon.js', {
+      onSuccess: function() {
+        COMSCORE.beacon({ c1:2, c2:6402952, c3:"", c4:"", c5:"", c6:"", c15:"" });
+      }
+    });
+  };
+  YEvent.on( window, 'load', LI.Tracking.Comscore);
+
+//]]>
+    </script> 
+ <noscript class=" fftheme_663  xmoztheme ">
+   &lt;img src=&quot;https://sb.scorecardresearch.com/b?c1=2&amp;amp;c2=6402952&amp;amp;c3=&amp;amp;c4=&amp;amp;c5=&amp;amp;c6=&amp;amp;c15=&amp;amp;cv=1.3&amp;amp;cj=1&quot; style=&quot;display:none&quot; width=&quot;0&quot; height=&quot;0&quot; alt=&quot;&quot;/&gt; 
+ </noscript> 
+ <script type="text/javascript" class=" fftheme_664  xmoztheme ">
+//<![CDATA[
+
+  LI.define('Tracking.Quantcast');
+  LI.Tracking.Quantcast = function() {
+    _qoptions = { qacct:"p-b3sGjMtCFrexE" };
+    YAHOO.util.Get.script( 'https://secure.quantserve.com/quant.js' );
+  };
+  YEvent.on( window, 'load', LI.Tracking.Quantcast);
+
+//]]>
+    </script> 
+ <noscript class=" fftheme_665  xmoztheme ">
+   &lt;a href=&quot;http://www.quantcast.com/p-b3sGjMtCFrexE&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://secure.quantserve.com/pixel/p-b3sGjMtCFrexE.gif&quot; style=&quot;display: none;&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;&lt;/a&gt; 
+ </noscript> 
+ <script type="text/javascript" class=" fftheme_666  xmoztheme ">
+//<![CDATA[
+
+  YEvent.on( window, 'load', function() {
+    (function () {
+      var protocol = 'https:';
+      var d = new Image(1, 1);
+      d.onerror = d.onload = function () { d.onerror = d.onload = null; };
+      d.src = [
+        protocol,
+        "//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603751h&amp;cg=0&amp;cc=1&amp;si=",
+        escape(window.location.href),
+        "&amp;ts=compact&amp;rnd=",
+        (new Date()).getTime()
+      ].join('');
+    })();
+  });
+
+//]]>
+    </script> 
+ <noscript class=" fftheme_667  xmoztheme ">
+   &lt;img src=&quot;https://secure-us.imrworldwide.com/cgi-bin/m?ci=us-603751h&amp;cg=0&amp;cc=1&amp;ts=noscript&quot; width=&quot;1&quot; height=&quot;1&quot; alt=&quot;&quot; style=&quot;display:none&quot;/&gt; 
+ </noscript> 
+ <script src="https://static.licdn.com/scds/concat/common/js?v=build-2000_8_37789-prod&amp;f=lib%2Fboomerang%2Flicense&amp;f=lib%2Fboomerang%2F0.9.edge.4ab208445a%2Fmin%2Fboomerang.min&amp;f=lib%2Fboomerang%2F0.9.edge.4ab208445a%2Fmin%2Frt.min&amp;f=lib%2Fboomerang%2F0.9.edge.4ab208445a%2Fmin%2Fnavtiming.min&amp;f=lib%2Frum%2F1.0.1%2Fplugins%2Frs_timing.min&amp;f=lib%2Frum%2F1.0.1%2Fplugins%2Fpop_beacons.min&amp;f=lib%2Fboomerang%2F0.9.edge.4ab208445a%2Fmin%2Fzzz_last_plugin.min&amp;f=lib%2Frum%2F1.0.1%2Frum.min" class=" fftheme_668  xmoztheme ">
+    </script>   
+</body>

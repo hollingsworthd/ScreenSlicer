@@ -1,0 +1,3496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html class="ie8" xml:lang="en" lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+  <!--<![endif]-->  <head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <title>
+      POLITICO Search - POLITICO.com
+    </title>
+    <link href="http://www.politico.com/rss/politicopicks.xml" title="POLITICO - Top Stories [RSS]" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.politico.com/rss/Politico44box.xml" title="POLITICO - POLITICO 44 [RSS]" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.politico.com/rss/click.xml" title="POLITICO - CLICK [RSS]" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.politico.com/rss/congress.xml" title="POLITICO - Congress [RSS]" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.politico.com/rss/2012-election.xml" title="POLITICO - 2012 LIVE [RSS]" type="application/rss+xml" rel="alternate"/>
+    <link href="http://www.politico.com/rss/arena.xml" title="POLITICO - Arena [RSS]" type="application/rss+xml" rel="alternate"/>
+    <meta content="POLITICO Search" property="og:title"/>
+    <meta content="POLITICO" property="og:site_name"/>
+    <meta content="114037015331397" property="fb:app_id"/>
+    <meta content="Politico.com covers political news with a focus on national politics, Congress, Capitol Hill, the 2008 presidential race, lobbying, advocacy, and more.  Politico.com's in-depth coverage includes video features, regular blogs, photo galleries, cartoons, and political forums." property="og:description"/>
+    <meta content="Politics, Political News, Campaign, Politics, POLITICO, POLITICO.com, Presidential Candidates, Candidate News, The POLITICO, Washington, congress, senator" name="keywords"/>
+    <meta content="Politico.com covers political news with a focus on national politics, Congress, Capitol Hill, the 2008 presidential race, lobbying, advocacy, and more.  Politico.com's in-depth coverage includes video features, regular blogs, photo galleries, cartoons, and political forums." name="description"/>
+    <meta content="POLITICO" name="author"/>
+    <meta content="Mon, 31 Mar 2014 05:02:54 EST" name="publish_date"/>
+    <link href="http://www.politico.com/favicon.ico" type="image/ico" rel="shortcut icon"/>
+    <link href="http://dyn.politico.com/" rel="canonical"/>
+    <script type="text/javascript" async="" src="https://apis.google.com/js/platform.js">
+    </script>
+    <script id="twitter-wjs" src="http://platform.twitter.com/widgets.js">
+    </script>
+    <script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1">
+    </script>
+    <script src="http://www.politico.com/js/v7/modernizr.js" type="text/javascript">
+    </script>
+    <script src="http://www.politico.com/js/jquery1.6.4.min.js" type="text/javascript">
+    </script>
+    <script src="http://www.politico.com/js/jquery-ui.min.js" type="text/javascript">
+    </script>
+    <script src="http://www.politico.com/js/v7/global-plugins.js">
+    </script>
+    <script src="http://www.politico.com/js/v7/common.js">
+    </script>
+    <script src="//cdn.optimizely.com/js/553701075.js">
+    </script>
+    <link href="http://www.politico.com/css/v7/politico/story-list.css" rel="stylesheet"/>
+    <link href="http://www.politico.com/css/v7/politico/search.css" rel="stylesheet"/>
+    <!-- LOTAME -->    <script src="http://ad.crwdcntrl.net/5/c=1851/pe=y/var=ccauds" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+ 
+		// CRITEO
+		var crtg_nid="1688";
+		var crtg_cookiename="ctopo";
+		function crtg_getCookie(c_name){var i,x,y,ARRcookies=document.cookie.split(";");for(i=0;i&lt;ARRcookies.length;i++){x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){return unescape(y);}}return'';}
+		var crtg_content=crtg_getCookie(crtg_cookiename);var crtg_rnd=Math.floor(Math.random()*99999999999);var crtg_url='http://rta.criteo.com/dis/rtt.js?networkId='+escape(crtg_nid);crtg_url+='&amp;cookieName='+escape(crtg_cookiename);crtg_url+='&amp;rnd='+crtg_rnd;crtg_url+='&amp;varName=crtg_content';var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;if(document.getElementsByTagName("head").length&gt;0)document.getElementsByTagName("head")[0].appendChild(crtg_script);else if(document.getElementsByTagName("body").length&gt;0)document.getElementsByTagName("body")[0].appendChild(crtg_script);
+	
+		// QUANTCAST
+		var quantSegs="";
+		function qc_callback(result) {
+			for (var i = 0; i &lt; result.segments.length; i++) {
+				quantSegs += 'qcseg=' + result.segments[i].id + ';';
+			}
+		}
+		
+		// LOWTAME
+		var dartCCKey = "ccaud";
+			var dartCC = "";
+			if (typeof(ccauds) != 'undefined'){
+				for (var cci = 0; cci &lt; ccauds.Profile.Audiences.Audience.length; cci++){
+				if (cci &gt; 0) dartCC += ";";
+				dartCC += dartCCKey + "=" + ccauds.Profile.Audiences.Audience[cci].id;
+			}
+		}
+	
+//]]>
+    </script>
+    <script type="text/javascript" src="http://rta.criteo.com/dis/rtt.js?networkId=1688&amp;cookieName=ctopo&amp;rnd=92303767329&amp;varName=crtg_content" async="">
+    </script>
+    <!-- QUANTCAST -->    <script src="http://pixel.quantserve.com/api/segments.json?a=p-7bhLrd63bC8jI&amp;callback=qc_callback" type="text/javascript">
+    </script>
+    <script>
+//<![CDATA[
+
+	function OAS_AD(adSize){
+		if(adSize == 'x05'){
+			pos=1; tile=1; sz='728x90,900x90'; 
+			ord=Math.random()*10000000000000000;
+		} else if (adSize == 'x01'){
+			pos=1; tile=2; sz='300x250,336x280,300x600,336x850';
+		} else if (adSize == 'x20'){
+			pos=1; tile=2; sz='300x250';
+		} else if (adSize == 'x02'){
+			pos=2; tile=3; sz='300x250,336x280,300x600,336x850,1x1';
+		} else if (adSize == 'x03'){
+			pos=3; tile=4; sz='300x250,336x280,300x600,336x850,1x1';
+		} else if (adSize == 'x04'){
+			pos=4; tile=5; sz='300x250,336x280,300x600,336x850,1x1';
+		} else if (adSize == 'x13'){
+			pos=1; tile=2; sz='206x40,1x1';
+		} else if (adSize == 'x96'){
+			sz='1x1'; pos=10; tile=10;
+		} else if (adSize == 'x88'){
+			sz='88x31'; pos="null"; tile="null";
+		} 
+		else {
+			pos=6; tile=6; sz='300x250,336x280,300x600,336x850,1x1';
+		}
+		if(typeof ord === 'undefined'){ord=Math.random()*10000000000000000;}
+		if(adSize == 'x96'){
+		document.write('&lt;script type="text/javascript" src="http://ad.doubleclick.net/adj/politico/_default;dcopt=ist;pos='+pos+';tile='+tile+';sz='+sz+';ord='+ord+'?"&gt;&lt;\/script&gt;');
+		}
+		else
+		{
+		document.write('&lt;script type="text/javascript" src="http://ad.doubleclick.net/adj/politico/_default;'+quantSegs+';'+crtg_content+';'+dartCC+';pos='+pos+';tile='+tile+';sz='+sz+';ord='+ord+'?"&gt;&lt;\/script&gt;');
+		}
+	}
+
+//]]>
+    </script>
+    <script src="http://www.politico.com/js/v4/load_includes.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+	function previewSlideShow(type,id) {
+		if(isDefined("slideshow") == true) {slideshow.close();}
+			slideshow=window.open("http://www.politico.com/slideshow/slideshow.html?xml=xml/" + id + "#id=" + id, "slideshow", "width=1000,height=775,status=no,resizable=yes,top=20,left=20");
+		}
+	function isDefined(variable) {return (typeof(window[variable]) != "undefined");}
+	
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+				$(document).ready(function(){
+					$("#mainContentFull img").lazyload({ 
+						placeholder : "http://www.politico.com/design/bg/gray.gif",
+						effect : "fadeIn" ,
+						failurelimit : 18
+					});
+					$("#mainContent img").lazyload({ 
+						placeholder : "http://www.politico.com/design/bg/gray.gif",
+						effect : "fadeIn" ,
+						failurelimit : 18
+					});
+					$("#secondaryContent .mod img").lazyload({ 
+						placeholder : "http://www.politico.com/design/bg/gray.gif",
+						effect : "fadeIn" 
+					});
+					$(".featured-content-footer img").lazyload({ 
+						placeholder : "http://www.politico.com/design/bg/gray.gif",
+						effect : "fadeIn" ,
+						failurelimit : 18
+					});
+					
+				});
+			
+//]]>
+    </script>
+    <script>
+//<![CDATA[
+
+	var ldpth = "/includes/";
+	
+//]]>
+    </script>
+    <!-- OMNITURE CODE -->    <!-- SiteCatalyst code version: H.20.3.
+Copyright 1997-2009 Omniture, Inc. More info available at http://www.omniture.com -->    <script src="http://www.politico.com/omtr_code.js?v=8&amp;ver=10" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+&lt;!--
+/* You may give each page an identifying name, server, and channel on the next lines. */
+omtr.pageName="site search";
+omtr.pageType="site search";
+omtr.channel="website search";
+omtr.prop1="index.html";
+
+omtr.prop2="site search";
+
+
+
+
+omtr.prop14="no author";
+
+
+omtr.prop9="no blog";
+
+omtr.prop20="search";
+
+omtr.prop29="no tipsheet";
+
+
+omtr.prop31="20140331";
+
+
+omtr.prop34="";
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var omtr_code=omtr.t();if(omtr_code)document.write(omtr_code)//--&gt;
+//]]>
+    </script>
+    <!--/DO NOT REMOVE/-->    <!-- End SiteCatalyst code version: H.20.3. -->    <!--// OMNITURE CODE-->    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&amp;gt;div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&amp;gt;span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}
+    </style>
+  </head>
+  <body class="search-section" id="searchStandard">
+    <div id="cboxOverlay" style="display: none;">
+    </div>
+    <div style="padding-bottom: 20px; padding-right: 0px; display: none;" id="colorbox" class="">
+      <div id="cboxWrapper" style="">
+        <div style="">
+          <div id="cboxTopLeft" style="float: left;">
+          </div>
+          <div id="cboxTopCenter" style="float: left;">
+          </div>
+          <div id="cboxTopRight" style="float: left;">
+          </div>
+        </div>
+        <div style="clear: left;">
+          <div id="cboxMiddleLeft" style="float: left;">
+          </div>
+          <div id="cboxContent" style="float: left;">
+            <div id="cboxLoadedContent" style="width: 0px; height: 0px; overflow: hidden;" class="">
+            </div>
+            <div id="cboxLoadingOverlay" style="" class="">
+            </div>
+            <div id="cboxLoadingGraphic" style="" class="">
+            </div>
+            <div id="cboxTitle" style="" class="">
+            </div>
+            <div id="cboxCurrent" style="" class="">
+            </div>
+            <div id="cboxNext" style="" class="">
+            </div>
+            <div id="cboxPrevious" style="" class="">
+            </div>
+            <div id="cboxSlideshow" style="" class="">
+            </div>
+            <div id="cboxClose" style="" class="">
+            </div>
+          </div>
+          <div id="cboxMiddleRight" style="float: left;">
+          </div>
+        </div>
+        <div style="clear: left;">
+          <div id="cboxBottomLeft" style="float: left;">
+          </div>
+          <div id="cboxBottomCenter" style="float: left;">
+          </div>
+          <div id="cboxBottomRight" style="float: left;">
+          </div>
+        </div>
+      </div>
+      <div style="position: absolute; width: 9999px; visibility: hidden; display: none;">
+      </div>
+    </div>
+    <!--Javascript SDK for facebook like, I'm not sure if this is the optimal position for it (facbook recommended directly after the body tag)-->    <div id="fb-root" class=" fb_reset">
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+        </div>
+      </div>
+      <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_http" allowtransparency="true" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="http://static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f2f4705f69620b2&amp;origin=http%3A%2F%2Ffind.politico.com">
+          </iframe>
+          <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_https" allowtransparency="true" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter/wTH8U0osOYl.js?version=40#channel=f2f4705f69620b2&amp;origin=http%3A%2F%2Ffind.politico.com">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <script>
+//<![CDATA[
+(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+//]]>
+    </script>
+    <div class="top-leaderboard">
+      <!-- begin ad tag -->      <script type="text/javascript">
+//<![CDATA[
+
+		dcCat="null";
+		
+			ord=Math.random()*10000000000000000;
+		
+		//&lt;![CDATA[
+		
+		document.write('&lt;script type="text/javascript" src="http://ad.doubleclick.net/adj/politico/_default;'+quantSegs+';'+crtg_content+';'+dartCC+';pos=1;tile=1;sz=728x90,900x90,980x90;ord='+ord+'?"&gt;&lt;\/script&gt;');
+		
+		
+//]]>
+      </script>
+      <script src="http://ad.doubleclick.net/adj/politico/_default;;;;pos=1;tile=1;sz=728x90,900x90,980x90;ord=9210042582821916?" type="text/javascript">
+      </script>
+      <noscript>
+        &lt;a href="http://ad.doubleclick.net/jump/politico/_default;pos=1;tile=1;sz=728x90,900x90,980x90;ord=123456789?" target="_blank" &gt;&lt;img src="http://ad.doubleclick.net/ad/politico/_default;pos=1;tile=1;sz=728x90,900x90,980x90;ord=123456789?" border="0" alt="" /&gt;&lt;/a&gt;
+      </noscript>
+      <!--// end ad tag -->    </div>
+    <div id="siteWrapper">
+      <ul class="jump-links">
+        <li>
+          <a href="#primaryNav">
+            Skip to navigation
+          </a>
+        </li>
+        <li>
+          <a href="#mainContent">
+            Skip to content
+          </a>
+        </li>
+        <li>
+          <a href="#secondaryContent">
+            Skip to sidebar
+          </a>
+        </li>
+      </ul>
+      <div role="banner" class="primary-masthead">
+        <h1 class="site-logo">
+          <a title="POLITICO Home" href="http://www.politico.com">
+            POLITICO
+          </a>
+        </h1>
+        <div class="utilities">
+          <div class="utility-sponsor">
+            <script type="text/javascript">
+//<![CDATA[
+OAS_AD('x88');
+//]]>
+            </script>
+            <script src="http://ad.doubleclick.net/adj/politico/_default;;;;pos=null;tile=null;sz=88x31;ord=9210042582821916?" type="text/javascript">
+            </script>
+          </div>
+          <ul class="utility-links">
+            <li class="follow-items">
+              <ul class="social-media-follow">
+                <li class="facebook">
+                  <div class="fb-share">
+                    <div data-share="false" data-show-faces="false" data-action="like" data-layout="box_count" data-href="https://www.facebook.com/politico" class="fb-like fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpolitico&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false">
+                      <span style="vertical-align: top; width: 0px; height: 0px;">
+                        <iframe width="1000px" scrolling="no" height="1000px" frameborder="0" name="f2dc8b87e506dc2" allowtransparency="true" title="fb:like Facebook Social Plugin" style="border: medium none; visibility: visible;" src="http://www.facebook.com/plugins/like.php?action=like&amp;app_id=&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FwTH8U0osOYl.js%3Fversion%3D40%23cb%3Df1fb0668433e916%26domain%3Dfind.politico.com%26origin%3Dhttp%253A%252F%252Ffind.politico.com%252Ff2f4705f69620b2%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpolitico&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" class="aipewpddfdevopyqmojj">
+                        </iframe>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <!--/.facebook-->                <li class="twitter">
+                  <a data-show-screen-name="false" data-show-count="false" class="twitter-follow-button" href="https://twitter.com/Politico">
+                    Follow @Politico
+                  </a>
+                  <script>
+//<![CDATA[
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+//]]>
+                  </script>
+                </li>
+                <!--/.twitter-->                <li class="google">
+                  <!-- Place this tag where you want the +1 button to render. -->                  <div data-annotation="none" data-size="medium" class="g-plusone">
+                  </div>
+                  <!-- Place this tag after the last +1 button tag. -->                  <script type="text/javascript">
+//<![CDATA[
+
+								  (function() {
+								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+								    po.src = 'https://apis.google.com/js/platform.js';
+								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+								  })();
+								
+//]]>
+                  </script>
+                </li>
+                <!--/.google-->              </ul>
+            </li>
+            <li class="p-user">
+              <script type="text/javascript">
+//<![CDATA[
+&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+							var handle = ReadCookie('MEMBERDISQUS');if (handle != null){document.write('&lt;a href="http://dyn.politico.com/member/"&gt;Logged In&lt;/a&gt;');}else{document.write('&lt;a href="http://dyn.politico.com/member/"&gt;Sign in / Register&lt;/a&gt;');}
+							//--&gt;&lt;!]]&gt;
+						
+//]]>
+              </script>
+              <a href="http://dyn.politico.com/member/">
+                Sign in / Register
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/about/">
+                About
+              </a>
+            </li>
+          </ul>
+          <div role="search" class="main-search">
+            <form method="get" id="Skills_Search" name="mainSearchFrm" class="site-search" action="http://find.politico.com">
+              <button title="Toggle advanced options" type="button" class="search-toggle search-expand">
+                Expand
+              </button>
+              <ul>
+                <li class="search-author">
+                  <label for="reporters">
+                    <b>
+                      Search by
+                    </b>
+                     Author
+                  </label>
+                  <select name="reporters" id="reporters">
+                    <option value="" selected="selected">
+                      Any Reporter
+                    </option>
+                    <option title="Alexander, Anila " value="3834">
+                      Alexander, Anila 
+                    </option>
+                    <option title="Allen, Mike " value="32">
+                      Allen, Mike 
+                    </option>
+                    <option title="Bade, Rachael " value="3275">
+                      Bade, Rachael 
+                    </option>
+                    <option title="Behsudi, Adam " value="3901">
+                      Behsudi, Adam 
+                    </option>
+                    <option title="Berman, Dan " value="1783">
+                      Berman, Dan 
+                    </option>
+                    <option title="Birnbaum, Gregg " value="2172">
+                      Birnbaum, Gregg 
+                    </option>
+                    <option title="Boliek, Brooks " value="2107">
+                      Boliek, Brooks 
+                    </option>
+                    <option title="Bottemiller Evich, Helena " value="3878">
+                      Bottemiller Evich, Helena 
+                    </option>
+                    <option title="Bradner, Eric " value="3841">
+                      Bradner, Eric 
+                    </option>
+                    <option title="Brannen, Kate " value="3251">
+                      Brannen, Kate 
+                    </option>
+                    <option title="Bresnahan, John " value="36">
+                      Bresnahan, John 
+                    </option>
+                    <option title="Budoff Brown, Carrie " value="58">
+                      Budoff Brown, Carrie 
+                    </option>
+                    <option title="Buford, Talia " value="2480">
+                      Buford, Talia 
+                    </option>
+                    <option title="Burns, Alexander " value="587">
+                      Burns, Alexander 
+                    </option>
+                    <option title="Byers, Alex " value="1663">
+                      Byers, Alex 
+                    </option>
+                    <option title="Byers, Dylan " value="2732">
+                      Byers, Dylan 
+                    </option>
+                    <option title="Censer, Marjorie " value="4314">
+                      Censer, Marjorie 
+                    </option>
+                    <option title="Cheney, Kyle " value="3036">
+                      Cheney, Kyle 
+                    </option>
+                    <option title="Cirilli, Kevin " value="3201">
+                      Cirilli, Kevin 
+                    </option>
+                    <option title="Corba, Jacqueline " value="3086">
+                      Corba, Jacqueline 
+                    </option>
+                    <option title="Cunningham, Paige Winfield" value="3344">
+                      Cunningham, Paige Winfield
+                    </option>
+                    <option title="Davidson, Kate " value="3333">
+                      Davidson, Kate 
+                    </option>
+                    <option title="DelReal, Jose " value="3719">
+                      DelReal, Jose 
+                    </option>
+                    <option title="Dixon, Darius " value="2058">
+                      Dixon, Darius 
+                    </option>
+                    <option title="Dixon, Kim " value="3955">
+                      Dixon, Kim 
+                    </option>
+                    <option title="Dovere, Edward-Isaac " value="2339">
+                      Dovere, Edward-Isaac 
+                    </option>
+                    <option title="Drusch, Andrea " value="2718">
+                      Drusch, Andrea 
+                    </option>
+                    <option title="Drusch, Andrea " value="2876">
+                      Drusch, Andrea 
+                    </option>
+                    <option title="Emma, Caitlin " value="2974">
+                      Emma, Caitlin 
+                    </option>
+                    <option title="Epstein, Jennifer " value="2000">
+                      Epstein, Jennifer 
+                    </option>
+                    <option title="Epstein, Reid J." value="2411">
+                      Epstein, Reid J.
+                    </option>
+                    <option title="Everett, Burgess " value="2007">
+                      Everett, Burgess 
+                    </option>
+                    <option title="Ewing, Philip " value="3208">
+                      Ewing, Philip 
+                    </option>
+                    <option title="Faler, Brian " value="3773">
+                      Faler, Brian 
+                    </option>
+                    <option title="Fossett, Katelyn " value="4349">
+                      Fossett, Katelyn 
+                    </option>
+                    <option title="Fossett , Katelyn " value="4352">
+                      Fossett , Katelyn 
+                    </option>
+                    <option title="French, Lauren " value="3253">
+                      French, Lauren 
+                    </option>
+                    <option title="Gagnon, Geoffrey " value="3932">
+                      Gagnon, Geoffrey 
+                    </option>
+                    <option title="Gass, Nick " value="3349">
+                      Gass, Nick 
+                    </option>
+                    <option title="Gavin, Patrick " value="965">
+                      Gavin, Patrick 
+                    </option>
+                    <option title="Gerstein, Josh " value="57">
+                      Gerstein, Josh 
+                    </option>
+                    <option title="Glass, Andrew " value="24">
+                      Glass, Andrew 
+                    </option>
+                    <option title="Glasser, Susan B." value="3775">
+                      Glasser, Susan B.
+                    </option>
+                    <option title="Glueck, Katie " value="3214">
+                      Glueck, Katie 
+                    </option>
+                    <option title="Gold, Hadas " value="2958">
+                      Gold, Hadas 
+                    </option>
+                    <option title="Goode, Darren " value="2011">
+                      Goode, Darren 
+                    </option>
+                    <option title="Guillén, Alex " value="2076">
+                      Guillén, Alex 
+                    </option>
+                    <option title="Haberkorn, Jennifer " value="1522">
+                      Haberkorn, Jennifer 
+                    </option>
+                    <option title="Haberman, Maggie " value="1592">
+                      Haberman, Maggie 
+                    </option>
+                    <option title="Harris, John F." value="242">
+                      Harris, John F.
+                    </option>
+                    <option title="Heitz, Dianna " value="676">
+                      Heitz, Dianna 
+                    </option>
+                    <option title="Hillman, G. Robert" value="532">
+                      Hillman, G. Robert
+                    </option>
+                    <option title="Hohmann, James " value="1350">
+                      Hohmann, James 
+                    </option>
+                    <option title="Hopkinson, Jenny " value="3888">
+                      Hopkinson, Jenny 
+                    </option>
+                    <option title="Hounshell, Blake " value="3745">
+                      Hounshell, Blake 
+                    </option>
+                    <option title="Huffman, Jason " value="3817">
+                      Huffman, Jason 
+                    </option>
+                    <option title="Hunter, Jack " value="4058">
+                      Hunter, Jack 
+                    </option>
+                    <option title="Isenstadt, Alex " value="922">
+                      Isenstadt, Alex 
+                    </option>
+                    <option title="Kady II, Martin " value="301">
+                      Kady II, Martin 
+                    </option>
+                    <option title="Kenen, Joanne " value="2623">
+                      Kenen, Joanne 
+                    </option>
+                    <option title="Kim, Seung Min " value="1280">
+                      Kim, Seung Min 
+                    </option>
+                    <option title="King, Bob " value="2116">
+                      King, Bob 
+                    </option>
+                    <option title="Kopan, Tal " value="2971">
+                      Kopan, Tal 
+                    </option>
+                    <option title="Lee, MJ " value="1291">
+                      Lee, MJ 
+                    </option>
+                    <option title="Levine, Susan " value="4041">
+                      Levine, Susan 
+                    </option>
+                    <option title="Marshall, Madeline " value="3062">
+                      Marshall, Madeline 
+                    </option>
+                    <option title="Martinson, Erica " value="2666">
+                      Martinson, Erica 
+                    </option>
+                    <option title="McCalmont, Lucy " value="2312">
+                      McCalmont, Lucy 
+                    </option>
+                    <option title="McGann, Laura " value="2088">
+                      McGann, Laura 
+                    </option>
+                    <option title="Mershon, Erin " value="4007">
+                      Mershon, Erin 
+                    </option>
+                    <option title="Meyers, Jessica " value="2986">
+                      Meyers, Jessica 
+                    </option>
+                    <option title="Michaud, Janet " value="3868">
+                      Michaud, Janet 
+                    </option>
+                    <option title="Munsil, Leigh " value="2563">
+                      Munsil, Leigh 
+                    </option>
+                    <option title="Murgai, Puja " value="2873">
+                      Murgai, Puja 
+                    </option>
+                    <option title="Nather, David " value="2112">
+                      Nather, David 
+                    </option>
+                    <option title="Nelson, Eric " value="2956">
+                      Nelson, Eric 
+                    </option>
+                    <option title="Nichols, Bill " value="147">
+                      Nichols, Bill 
+                    </option>
+                    <option title="Norman, Brett " value="2498">
+                      Norman, Brett 
+                    </option>
+                    <option title="Palmer, Anna " value="2514">
+                      Palmer, Anna 
+                    </option>
+                    <option title="Palmer, Doug " value="3889">
+                      Palmer, Doug 
+                    </option>
+                    <option title="Parti, Tarini " value="3111">
+                      Parti, Tarini 
+                    </option>
+                    <option title="Petersen, Olivia " value="2853">
+                      Petersen, Olivia 
+                    </option>
+                    <option title="Prior, Jon " value="3276">
+                      Prior, Jon 
+                    </option>
+                    <option title="Purdum, Todd S." value="3900">
+                      Purdum, Todd S.
+                    </option>
+                    <option title="Raju, Manu " value="900">
+                      Raju, Manu 
+                    </option>
+                    <option title="Restuccia, Andrew " value="3094">
+                      Restuccia, Andrew 
+                    </option>
+                    <option title="Robillard, Kevin " value="2278">
+                      Robillard, Kevin 
+                    </option>
+                    <option title="Rogers, David " value="426">
+                      Rogers, David 
+                    </option>
+                    <option title="Romano, Lois " value="2900">
+                      Romano, Lois 
+                    </option>
+                    <option title="Romm, Tony " value="1630">
+                      Romm, Tony 
+                    </option>
+                    <option title="Rosche, Jedd " value="2218">
+                      Rosche, Jedd 
+                    </option>
+                    <option title="Samuelsohn, Darren " value="1656">
+                      Samuelsohn, Darren 
+                    </option>
+                    <option title="Schultheis, Emily " value="1634">
+                      Schultheis, Emily 
+                    </option>
+                    <option title="Severns, Maggie " value="4017">
+                      Severns, Maggie 
+                    </option>
+                    <option title="Shah, Nirvi " value="3803">
+                      Shah, Nirvi 
+                    </option>
+                    <option title="Shepard, Steve " value="4301">
+                      Shepard, Steve 
+                    </option>
+                    <option title="Sherman, Jake " value="1226">
+                      Sherman, Jake 
+                    </option>
+                    <option title="Simon, Roger " value="30">
+                      Simon, Roger 
+                    </option>
+                    <option title="Simon, Stephanie " value="3818">
+                      Simon, Stephanie 
+                    </option>
+                    <option title="Sinderbrand, Rebecca " value="3646">
+                      Sinderbrand, Rebecca 
+                    </option>
+                    <option title="Slattery, Margaret " value="3902">
+                      Slattery, Margaret 
+                    </option>
+                    <option title="Sloan, Steven " value="3191">
+                      Sloan, Steven 
+                    </option>
+                    <option title="Smolkin, Rachel " value="2311">
+                      Smolkin, Rachel 
+                    </option>
+                    <option title="Snell, Kelsey " value="3254">
+                      Snell, Kelsey 
+                    </option>
+                    <option title="Snider, Adam " value="2667">
+                      Snider, Adam 
+                    </option>
+                    <option title="Summers, Juana " value="1978">
+                      Summers, Juana 
+                    </option>
+                    <option title="Tau, Byron " value="1943">
+                      Tau, Byron 
+                    </option>
+                    <option title="Thrush, Glenn " value="678">
+                      Thrush, Glenn 
+                    </option>
+                    <option title="Titus, Elizabeth " value="2518">
+                      Titus, Elizabeth 
+                    </option>
+                    <option title="Tomson, Bill " value="3856">
+                      Tomson, Bill 
+                    </option>
+                    <option title="Toosi, Nahal " value="4094">
+                      Toosi, Nahal 
+                    </option>
+                    <option title="Van Dongen, Rachel " value="2826">
+                      Van Dongen, Rachel 
+                    </option>
+                    <option title="VandeHei, Jim " value="33">
+                      VandeHei, Jim 
+                    </option>
+                    <option title="Villacorta, Natalie " value="3991">
+                      Villacorta, Natalie 
+                    </option>
+                    <option title="Vogel, Kenneth P." value="15">
+                      Vogel, Kenneth P.
+                    </option>
+                    <option title="Warmbrodt, Zachary " value="3252">
+                      Warmbrodt, Zachary 
+                    </option>
+                    <option title="Weaver, Aubree Eliza" value="3869">
+                      Weaver, Aubree Eliza
+                    </option>
+                    <option title="Weinger, Mackenzie " value="2433">
+                      Weinger, Mackenzie 
+                    </option>
+                    <option title="White, Ben " value="1254">
+                      White, Ben 
+                    </option>
+                    <option title="Wills, Denise Kersten" value="3887">
+                      Wills, Denise Kersten
+                    </option>
+                    <option title="Wolfe, Kathryn A." value="2917">
+                      Wolfe, Kathryn A.
+                    </option>
+                    <option title="Wong, Scott " value="1606">
+                      Wong, Scott 
+                    </option>
+                    <option title="Wright, Austin " value="2475">
+                      Wright, Austin 
+                    </option>
+                    <option title="Zapler, Mike " value="2151">
+                      Zapler, Mike 
+                    </option>
+                    <option title="Zengerle, Jason " value="3886">
+                      Zengerle, Jason 
+                    </option>
+                  </select>
+                </li>
+                <li class="search-date">
+                  <label for="date">
+                    Date
+                  </label>
+                  <select name="dt" id="date">
+                    <option selected="selected" value="all">
+                      Any Date
+                    </option>
+                    <option value="7">
+                      3/31/2014
+                    </option>
+                    <option value="6">
+                      3/30/2014
+                    </option>
+                    <option value="5">
+                      3/29/2014
+                    </option>
+                    <option value="4">
+                      3/28/2014
+                    </option>
+                    <option value="3">
+                      3/27/2014
+                    </option>
+                    <option value="2">
+                      3/26/2014
+                    </option>
+                    <option value="1">
+                      3/25/2014
+                    </option>
+                  </select>
+                </li>
+                <li class="search-keyword">
+                  <input type="hidden" value="0" id="adv" autocomplete="off"/>
+                  <label class="infield" for="newkey" style="position: absolute;">
+                    Search POLITICO
+                  </label>
+                  <input type="text" title="Enter search text." onkeyup="loadDoc(event);" name="key" id="newkey" autocomplete="off"/>
+                  <div style="z-index:950" id="mainsuggestdiv">
+                    <div onmouseout="dynamichidesuggest(event)" onmouseover="clearhidesuggest()" id="key_choices" class="suggest">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <input type="submit" value="Search" class="search-submit" autocomplete="off"/>
+            </form>
+          </div>
+          <!--/.main-search-->        </div>
+        <!--/.utilities-->      </div>
+      <!--/.primary-masthead-->      <!-- Main Navigation for site-->      <ul role="navigation" class="primary-nav" id="primaryNav">
+        <li class="nav-magazine">
+          <a href="http://www.politico.com/magazine/">
+            Magazine
+          </a>
+          <ul class="main-nav-sub">
+            <li>
+              <a href="http://www.politico.com/magazine/">
+                Magazine Home
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/magazine/todays-cover/">
+                Today's Cover
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/p/magazine/tag/opinion/">
+                Opinion
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/magazine/index.html#superLatest">
+                Latest Stories
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/magazine/subscribe/">
+                Weekly Email Signup
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/magazine/what-works/">
+                What Works
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-elections ">
+          <a href="http://www.politico.com/p/pages/2014-elections">
+            Elections
+          </a>
+          <ul class="main-nav-sub">
+            <li>
+              <a href="http://www.politico.com/p/pages/2014-elections">
+                Elections Home
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/2014-election/schedule/">
+                2014 Election Results
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/2012-election/polls/president/">
+                Polling Center
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-congress ">
+          <a href="http://www.politico.com/congress/">
+            Congress
+          </a>
+        </li>
+        <li class="nav-blogs ">
+          <a href="javascript:null(0);">
+            Blogs
+          </a>
+          <ul class="main-nav-sub">
+            <li>
+              <a href="http://www.politico.com/blogs/media/">
+                Dylan Byers
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/blogs/under-the-radar/">
+                Josh Gerstein
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/blogs/joe-scarborough/">
+                Joe Scarborough
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-policy ">
+          <a href="javascript:null(0);">
+            Policy
+          </a>
+          <ul class="main-nav-sub">
+            <li>
+              <a href="http://www.politico.com/agriculture/">
+                Agriculture
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/defense/">
+                Defense
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/education/">
+                Education
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/energy/">
+                Energy &amp; Environment
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/money/">
+                Finance
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/healthcare/">
+                Health Care
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/technology/">
+                Technology
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/trade/">
+                Trade
+              </a>
+            </li>
+            <li>
+              <a href="http://www.politico.com/transportation/">
+                Transportation &amp; Infrastructure
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-video ">
+          <a href="http://www.politico.com/multimedia/">
+            Video
+          </a>
+        </li>
+        <li class="nav-photos ">
+          <a href="http://www.politico.com/gallery/">
+            Photos
+          </a>
+        </li>
+        <li class="nav-events">
+          <a href="http://www.politico.com/events/">
+            Events
+          </a>
+        </li>
+        <li class="nav-power-jobs">
+          <a href="http://www.powerjobs.com">
+            POWERJobs
+          </a>
+        </li>
+        <li class="nav-politico-pro">
+          <a href="https://www.politicopro.com/?cid=pnav">
+            POLITICO Pro
+          </a>
+        </li>
+      </ul>
+      <!-- //Main Nav -->      <!--Content Area - all content belongs in content-->      <div role="main" id="content">
+        <script type="text/javascript">
+//<![CDATA[
+
+	$(document).ready(function() {
+		$.viewMap = {
+		  '0' : $([]),
+		  'stories' : $('#searchNews'),
+		  'blogs' : $('#searchBlogs')
+		};
+	  
+		$('#clt').change(function() {
+			// Hide all filters
+			$.each($.viewMap, function() { this.slideUp(); });
+			// Show the currently active filter
+			$.viewMap[$(this).val()].slideDown();
+		});
+		if($("#clt").val() != ""){
+			$.viewMap[$("#clt").val()].slideDown();
+		}
+		$(".network-screens").accessNews({newsHeadline: "Wuerker Drawings",newsSpeed: "slow"});
+	});
+	function previewSlideShow(type,id) {
+		if(isDefined("slideshow") == true) {slideshow.close();}
+			slideshow=window.open("http://www.politico.com/slideshow/slideshow.html?xml=xml/" + id + "#id=" + id, "slideshow", "width=1000,height=775,status=no,resizable=yes,top=20,left=20");
+		}
+	function isDefined(variable) {return (typeof(window[variable]) != "undefined");}
+
+//]]>
+        </script>
+        <div id="mainContent">
+          <div id="searchCriteria">
+            <h1>
+              Search
+            </h1>
+            <ul id="searchTools">
+              <li>
+                <a href="/index.cfm?adv=1">
+                  Advanced Search »
+                </a>
+              </li>
+            </ul>
+            <form id="formSearchStandard" action="index.cfm" name="frmSearch" method="get" enctype="application/x-www-form-urlencoded">
+              <fieldset class="hidden">
+                <input type="hidden" name="adv" value="0" autocomplete="off"/>
+              </fieldset>
+              <fieldset id="searchIntro">
+                <ul>
+                  <li>
+                    <label for="key">
+                      Search Terms
+                    </label>
+                    <input type="text" id="key" name="key" value="us" autocomplete="off"/>
+                  </li>
+                  <li>
+                    <label for="dt">
+                      Publish Date
+                    </label>
+                    <select id="dt" name="dt">
+                      <option selected="selected" value="all">
+                        Any Date
+                      </option>
+                      <option value="0">
+                        3/31/2014
+                      </option>
+                      <option value="1">
+                        3/30/2014
+                      </option>
+                      <option value="2">
+                        3/29/2014
+                      </option>
+                      <option value="3">
+                        3/28/2014
+                      </option>
+                      <option value="4">
+                        3/27/2014
+                      </option>
+                      <option value="5">
+                        3/26/2014
+                      </option>
+                      <option value="6">
+                        3/25/2014
+                      </option>
+                    </select>
+                  </li>
+                  <li>
+                    <label for="reporterSearch">
+                      Reporter
+                    </label>
+                    <select id="reporterSearch" name="reporters">
+                      <option selected="selected" value="">
+                        Any Reporter
+                      </option>
+                      <option value="3834">
+                        Alexander, Anila 
+                      </option>
+                      <option value="32">
+                        Allen, Mike 
+                      </option>
+                      <option value="3275">
+                        Bade, Rachael 
+                      </option>
+                      <option value="3901">
+                        Behsudi, Adam 
+                      </option>
+                      <option value="1783">
+                        Berman, Dan 
+                      </option>
+                      <option value="2172">
+                        Birnbaum, Gregg 
+                      </option>
+                      <option value="2107">
+                        Boliek, Brooks 
+                      </option>
+                      <option value="3878">
+                        Bottemiller Evich, Helena 
+                      </option>
+                      <option value="3841">
+                        Bradner, Eric 
+                      </option>
+                      <option value="3251">
+                        Brannen, Kate 
+                      </option>
+                      <option value="36">
+                        Bresnahan, John 
+                      </option>
+                      <option value="58">
+                        Budoff Brown, Carrie 
+                      </option>
+                      <option value="2480">
+                        Buford, Talia 
+                      </option>
+                      <option value="587">
+                        Burns, Alexander 
+                      </option>
+                      <option value="1663">
+                        Byers, Alex 
+                      </option>
+                      <option value="2732">
+                        Byers, Dylan 
+                      </option>
+                      <option value="4314">
+                        Censer, Marjorie 
+                      </option>
+                      <option value="3036">
+                        Cheney, Kyle 
+                      </option>
+                      <option value="3201">
+                        Cirilli, Kevin 
+                      </option>
+                      <option value="3086">
+                        Corba, Jacqueline 
+                      </option>
+                      <option value="3344">
+                        Cunningham, Paige Winfield
+                      </option>
+                      <option value="3333">
+                        Davidson, Kate 
+                      </option>
+                      <option value="3719">
+                        DelReal, Jose 
+                      </option>
+                      <option value="2058">
+                        Dixon, Darius 
+                      </option>
+                      <option value="3955">
+                        Dixon, Kim 
+                      </option>
+                      <option value="2339">
+                        Dovere, Edward-Isaac 
+                      </option>
+                      <option value="2718">
+                        Drusch, Andrea 
+                      </option>
+                      <option value="2974">
+                        Emma, Caitlin 
+                      </option>
+                      <option value="2000">
+                        Epstein, Jennifer 
+                      </option>
+                      <option value="2411">
+                        Epstein, Reid J.
+                      </option>
+                      <option value="2007">
+                        Everett, Burgess 
+                      </option>
+                      <option value="3208">
+                        Ewing, Philip 
+                      </option>
+                      <option value="3773">
+                        Faler, Brian 
+                      </option>
+                      <option value="4349">
+                        Fossett, Katelyn 
+                      </option>
+                      <option value="4352">
+                        Fossett , Katelyn 
+                      </option>
+                      <option value="3253">
+                        French, Lauren 
+                      </option>
+                      <option value="3932">
+                        Gagnon, Geoffrey 
+                      </option>
+                      <option value="3349">
+                        Gass, Nick 
+                      </option>
+                      <option value="965">
+                        Gavin, Patrick 
+                      </option>
+                      <option value="57">
+                        Gerstein, Josh 
+                      </option>
+                      <option value="24">
+                        Glass, Andrew 
+                      </option>
+                      <option value="3775">
+                        Glasser, Susan B.
+                      </option>
+                      <option value="3214">
+                        Glueck, Katie 
+                      </option>
+                      <option value="2958">
+                        Gold, Hadas 
+                      </option>
+                      <option value="2011">
+                        Goode, Darren 
+                      </option>
+                      <option value="2076">
+                        Guillén, Alex 
+                      </option>
+                      <option value="1522">
+                        Haberkorn, Jennifer 
+                      </option>
+                      <option value="1592">
+                        Haberman, Maggie 
+                      </option>
+                      <option value="242">
+                        Harris, John F.
+                      </option>
+                      <option value="676">
+                        Heitz, Dianna 
+                      </option>
+                      <option value="532">
+                        Hillman, G. Robert
+                      </option>
+                      <option value="1350">
+                        Hohmann, James 
+                      </option>
+                      <option value="3888">
+                        Hopkinson, Jenny 
+                      </option>
+                      <option value="3745">
+                        Hounshell, Blake 
+                      </option>
+                      <option value="3817">
+                        Huffman, Jason 
+                      </option>
+                      <option value="4058">
+                        Hunter, Jack 
+                      </option>
+                      <option value="922">
+                        Isenstadt, Alex 
+                      </option>
+                      <option value="301">
+                        Kady II, Martin 
+                      </option>
+                      <option value="2623">
+                        Kenen, Joanne 
+                      </option>
+                      <option value="1280">
+                        Kim, Seung Min 
+                      </option>
+                      <option value="2116">
+                        King, Bob 
+                      </option>
+                      <option value="2971">
+                        Kopan, Tal 
+                      </option>
+                      <option value="1291">
+                        Lee, MJ 
+                      </option>
+                      <option value="4041">
+                        Levine, Susan 
+                      </option>
+                      <option value="3062">
+                        Marshall, Madeline 
+                      </option>
+                      <option value="2666">
+                        Martinson, Erica 
+                      </option>
+                      <option value="2312">
+                        McCalmont, Lucy 
+                      </option>
+                      <option value="2088">
+                        McGann, Laura 
+                      </option>
+                      <option value="4007">
+                        Mershon, Erin 
+                      </option>
+                      <option value="2986">
+                        Meyers, Jessica 
+                      </option>
+                      <option value="3868">
+                        Michaud, Janet 
+                      </option>
+                      <option value="2563">
+                        Munsil, Leigh 
+                      </option>
+                      <option value="2873">
+                        Murgai, Puja 
+                      </option>
+                      <option value="2112">
+                        Nather, David 
+                      </option>
+                      <option value="2956">
+                        Nelson, Eric 
+                      </option>
+                      <option value="147">
+                        Nichols, Bill 
+                      </option>
+                      <option value="2498">
+                        Norman, Brett 
+                      </option>
+                      <option value="2514">
+                        Palmer, Anna 
+                      </option>
+                      <option value="3889">
+                        Palmer, Doug 
+                      </option>
+                      <option value="3111">
+                        Parti, Tarini 
+                      </option>
+                      <option value="2853">
+                        Petersen, Olivia 
+                      </option>
+                      <option value="3276">
+                        Prior, Jon 
+                      </option>
+                      <option value="3900">
+                        Purdum, Todd S.
+                      </option>
+                      <option value="900">
+                        Raju, Manu 
+                      </option>
+                      <option value="3094">
+                        Restuccia, Andrew 
+                      </option>
+                      <option value="2278">
+                        Robillard, Kevin 
+                      </option>
+                      <option value="426">
+                        Rogers, David 
+                      </option>
+                      <option value="2900">
+                        Romano, Lois 
+                      </option>
+                      <option value="1630">
+                        Romm, Tony 
+                      </option>
+                      <option value="2218">
+                        Rosche, Jedd 
+                      </option>
+                      <option value="1656">
+                        Samuelsohn, Darren 
+                      </option>
+                      <option value="1634">
+                        Schultheis, Emily 
+                      </option>
+                      <option value="4017">
+                        Severns, Maggie 
+                      </option>
+                      <option value="3803">
+                        Shah, Nirvi 
+                      </option>
+                      <option value="4301">
+                        Shepard, Steve 
+                      </option>
+                      <option value="1226">
+                        Sherman, Jake 
+                      </option>
+                      <option value="30">
+                        Simon, Roger 
+                      </option>
+                      <option value="3818">
+                        Simon, Stephanie 
+                      </option>
+                      <option value="3646">
+                        Sinderbrand, Rebecca 
+                      </option>
+                      <option value="3902">
+                        Slattery, Margaret 
+                      </option>
+                      <option value="3191">
+                        Sloan, Steven 
+                      </option>
+                      <option value="2311">
+                        Smolkin, Rachel 
+                      </option>
+                      <option value="3254">
+                        Snell, Kelsey 
+                      </option>
+                      <option value="2667">
+                        Snider, Adam 
+                      </option>
+                      <option value="1978">
+                        Summers, Juana 
+                      </option>
+                      <option value="1943">
+                        Tau, Byron 
+                      </option>
+                      <option value="678">
+                        Thrush, Glenn 
+                      </option>
+                      <option value="2518">
+                        Titus, Elizabeth 
+                      </option>
+                      <option value="3856">
+                        Tomson, Bill 
+                      </option>
+                      <option value="4094">
+                        Toosi, Nahal 
+                      </option>
+                      <option value="2826">
+                        Van Dongen, Rachel 
+                      </option>
+                      <option value="33">
+                        VandeHei, Jim 
+                      </option>
+                      <option value="3991">
+                        Villacorta, Natalie 
+                      </option>
+                      <option value="15">
+                        Vogel, Kenneth P.
+                      </option>
+                      <option value="3252">
+                        Warmbrodt, Zachary 
+                      </option>
+                      <option value="3869">
+                        Weaver, Aubree Eliza
+                      </option>
+                      <option value="2433">
+                        Weinger, Mackenzie 
+                      </option>
+                      <option value="1254">
+                        White, Ben 
+                      </option>
+                      <option value="3887">
+                        Wills, Denise Kersten
+                      </option>
+                      <option value="2917">
+                        Wolfe, Kathryn A.
+                      </option>
+                      <option value="1606">
+                        Wong, Scott 
+                      </option>
+                      <option value="2475">
+                        Wright, Austin 
+                      </option>
+                      <option value="2151">
+                        Zapler, Mike 
+                      </option>
+                      <option value="3886">
+                        Zengerle, Jason 
+                      </option>
+                    </select>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset id="searchClose">
+                <ul>
+                  <li>
+                    <fieldset class="radio-group">
+                      <h3>
+                        Sort Results by
+                      </h3>
+                      <ul>
+                        <li>
+                          <input type="radio" checked="checked" class="radio" id="sortDate" name="sort" value="date" autocomplete="off"/>
+                          <label for="sortDate">
+                            Date
+                          </label>
+                        </li>
+                        <li>
+                          <input type="radio" class="radio" id="sortRelevance" name="sort" value="relevance" autocomplete="off"/>
+                          <label for="sortRelevance">
+                            Relevance
+                          </label>
+                        </li>
+                      </ul>
+                    </fieldset>
+                  </li>
+                  <li class="submit">
+                    <input type="submit" class="p-btn" value="Search" autocomplete="off"/>
+                  </li>
+                </ul>
+              </fieldset>
+            </form>
+          </div>
+          <div class="main-stories main-stories-single main-stories-divide-horizontal">
+            <ul class="pagination">
+              <li class="current">
+                <a href="#">
+                  1
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=2">
+                  2
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=3">
+                  3
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=4">
+                  4
+                </a>
+              </li>
+              <li class="spread">
+                …
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=3402">
+                  3402
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=3403">
+                  3403
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=3404">
+                  3404
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=3405">
+                  3405
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=2">
+                  <span>
+                    »
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <h2>
+              68085 Results Found
+            </h2>
+            <ul class="main-stories-list de-emphasized">
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/story/2014/03/dc-mayoral-race-has-much-on-the-line-105190.html">
+                    D. C. mayoral race has much on line
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/30/14 11:04 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … would make it hard to advocate for more autonomy.
+It makes it harder for 
+                    <em>
+                      us
+                    </em>
+                     not only to go to the Hill, she said. It makes it harder for 
+                    <em>
+                      us
+                    </em>
+                     to go to Wall Street. It makes it harder for 
+                    <em>
+                      us
+                    </em>
+                     to go to investors in Silicon Valley. It makes it harder for 
+                    <em>
+                      us
+                    </em>
+                    …
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/story/2014/03/dingell-machine-kicks-into-gear-for-wifes-race-105186.html">
+                    Dingell machine kicks into gear
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/30/14 11:00 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    …-based fundraisers by Monday, including one with progressive women in Ann Arbor and is in the process of scheduling another 20 fundraisers in the next couple of months, according to Boyd.
+Debbie Dingell is not 
+                    <em>
+                      using
+                    </em>
+                     her husbands fundraiser Mike Fraioli. Instead, she…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/story/2014/03/a-sneak-peek-of-the-comcast-war-105187.html">
+                    Sneak preview of Comcast war
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/30/14 10:35 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … to fight Comcasts well-funded campaign for Time Warner Cable.
+Its interesting how, by hanging up a shingle against the merger, all kinds of people come out of the woodwork wanting to work with 
+                    <em>
+                      us
+                    </em>
+                    , said Gene Kimmelman, president and CEO of Public Knowledge…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/magazine/story/2014/03/meet-milton-wolf-obamas-crazy-cousin-105161.html">
+                    Kansas: Not right for tea party?
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/30/14 9:36 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … as part of the campaigns opposition research, 
+                    <em>
+                      using
+                    </em>
+                     them to pressure him to leave the race. I have thick skin. I will not be bullied by him, Wolf says.
+Some Kansas Republicans say Wolf knew the story would surface eventually, but may not have been prepared…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/magazine/story/2014/03/stats-that-explained-the-world-this-week-105166.html">
+                    Iraq's newest surge: an oil boom
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/30/14 9:36 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    …
+Venezuelas annual subsidies to Cuba exceed $6 billionmore than the USSR 
+                    <em>
+                      used
+                    </em>
+                     to provide to the island country. The sudden halt of those subsidies in 1991 precipitated a crippling economic crisis; Cubas GDP fell by 33 percent. With political violence…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/magazine/story/2014/03/tymoshenko-still-ukraines-best-hope-105177.html">
+                    Ukraine's best worst hope
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/30/14 9:36 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … as her most ardent critics would have 
+                    <em>
+                      us
+                    </em>
+                     believe. Should she win the presidency, Western governments would do well to start by judging her record.
+Gregory Feifer is editor for Europe at Global Post and author most recently of Russians, a book about…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/story/2014/03/my-arabian-night-how-an-obama-pool-stop-went-viral-105180.html">
+                    My Arabian Night: How an Obama pool stop went viral
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/30/14 4:36 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … to interview me, and the tweets demanding more images kept rolling in Sunday.
+It shouldnt have been a surprise. 
+                    <em>
+                      Use
+                    </em>
+                     of the social network in Saudi Arabia has exploded since the Arab Spring, making that country the fastest-growing market in the world, according…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/story/2014/03/israeli-palestinian-peace-talks-105174.html">
+                    U. S. mediators work on Mideast talks
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/30/14 1:21 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    ….
+Mohammed Ishtayeh, an aide to Abbas, accused Israel of trying to blackmail 
+                    <em>
+                      us
+                    </em>
+                    .
+But Palestinian officials stopped short of threatening to walk out of the talks altogether. The chief Palestinian negotiator, Saeb Erekat, confirmed that negotiations were…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/story/2014/03/john-kerry-sergey-lavroy-ukraine-105172.html">
+                    Kerry: Ukraine diplomacy essential
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/30/14 12:54 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … leaders after Russias annexation of the strategic Crimean peninsula and to 
+                    <em>
+                      use
+                    </em>
+                     a bargaining chip with the United States and the European Union, which have condemned Crimeas absorption into Russia and imposed sanctions on senior Russian officials.
+Kerry…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/blogs/politico-live/2014/03/weinberg-satisfied-if-christie-testifies-185987.html">
+                    Weinberg: Satisfied if Christie testifies
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    POLITICO NOW Blog Post
+                  </span>
+                  
+					| 3/30/14 11:00 AM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … the investigation into his actions surrounding the decision to close lanes on the George Washington bridge, Weinberg responded: It would depend upon what we hear from the governor and if that leads 
+                    <em>
+                      us
+                    </em>
+                     any place else.
+
+But, personally, speaking for myself, as the co…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/blogs/politico-live/2014/03/dianne-feinstein-no-terror-link-in-malaysia-airlines-185981.html">
+                    Feinstein: No terror link in Malaysia Airlines case
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    POLITICO NOW Blog Post
+                  </span>
+                  
+					| 3/30/14 9:23 AM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … sophisticated satellites could be 
+                    <em>
+                      used
+                    </em>
+                     in the area, she said she was not sure.
+I'm not going to go in to what we do have or what we don't have, she said when asked about American capabilities. You have to understand that American intelligence doesn't…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/playbook/0314/playbook13448.html">
+                    OBAMA'S SECOND-TERM PIVOT TO FOREIGN POLICY: Legacy accomplishment may come abroad -- AFTER ACTION: Veterans of post-9/11 wars frustrated, but would serve again
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    Playbook
+                  </span>
+                  
+					| 3/30/14 9:20 AM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    …-in advantage in fight for 
+                    <em>
+                      US
+                    </em>
+                     House: Gerrymandering, geography give Republicans built-in advantage in this year's House elections, by APs Stephen Ohlemacher, with AP senior research coordinator Cliff Maceda: The Republicans' advantage will fade…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/story/2014/03/barack-obama-europe-saudi-arabia-trip-105167.html">
+                    Obama's overseas trip: 5 takeaways
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/30/14 6:53 AM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … foreign policy agenda that looks more robust and consequential than his domestic agenda, which has stalled in Congress, forcing the president to 
+                    <em>
+                      use
+                    </em>
+                     his pen and phone to notch small victories.
+(PHOTOS: President Obama overseas)
+Europe is still enamored…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/story/2014/03/chris-christie-occupied-territories-apology-105169.html">
+                    Christie apologizes for 'occupied territories'
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/29/14 11:55 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … every day.
+While the story was intended to forge common cause with Adelson and the several hundred donors to the Republican Jewish Coalition to which Christie was speaking, his 
+                    <em>
+                      use
+                    </em>
+                     of the term occupied territories set off murmurs in the crowd. The term…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/story/2014/03/john-kasich-sheldon-adelson-105168.html">
+                    Kasich bonds with Adelson in Vegas
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/29/14 10:17 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … of potential 2016 presidential candidate, 
+                    <em>
+                      used
+                    </em>
+                     a lunchtime speech to highlight his working class upbringing and his work in Ohio, defending a decision that has proven unpopular with the GOP base to accept $14 billion in Medicaid funds from the federal…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/story/2014/03/chris-christie-jewish-donors-105164.html">
+                    2016ers woo Vegas donor crowd
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/29/14 4:50 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … understands the important of Israel and the interdependency of the United State and Israel.
+Morton Klein, president of the hawkish Zionist Organization of America, was less forgiving. He confronted Christie after his speech about his 
+                    <em>
+                      use
+                    </em>
+                     of the term, telling…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/story/2014/03/raw-politics-drive-milk-wars-105163.html">
+                    Raw politics drive milk wars
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/29/14 3:12 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    …, be attributed to a transformation of the argument that advocates are 
+                    <em>
+                      using
+                    </em>
+                    . The debate 
+                    <em>
+                      used
+                    </em>
+                     to be centered on the health and nutritional benefits of raw milk versus the safety of pasteurized milk, but the likes of Ron Paul  who mentioned the issue in several…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/playbook/0314/playbook13447.html">
+                    MICHAEL LEWIS BOOK HAS WALL STREET, REGULATORS SCRAMBLING over high-frequency trading -- COMBATIVE CHRISTIE -- INSIDE DOPE: How Cory Gardner cleared the field -- B'DAYS: Robert Gibbs, Steve Peoples
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    Playbook
+                  </span>
+                  
+					| 3/29/14 8:00 AM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    …: The U. S. stock market is rigged in favor of high-frequency traders, stock exchanges and large Wall Street banks who have found a way to 
+                    <em>
+                      use
+                    </em>
+                     computer-based speed trading to gain a decisive edge over everyone else, from the smallest retail investors…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/magazine/story/2014/03/ukraine-revolution-crimea-diary-russia-105145.html">
+                    Crimea Diary
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/28/14 9:58 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    ….
+The memory of them has stayed with me as Ive reported over the last few weeks on the extraordinary events unfolding in Ukraine, along the beaches where I 
+                    <em>
+                      used
+                    </em>
+                     to vacation as a child growing up in the Soviet Union and in the rundown potholed streets of cities…
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <a href="http://www.politico.com/story/2014/03/jeremiah-denton-vietnam-pow-republican-senator-alabama-105157.html">
+                    Vietnam POW Denton dies at 89
+                  </a>
+                </h3>
+                <p class="byline">
+                  <span class="category">
+                    News Story
+                  </span>
+                  
+					| 3/28/14 9:28 PM EDT
+                </p>
+                <div class="tease">
+                  <p>
+                    … titled When Hell Was in Session.
+They beat you with fists and fan belts, he told the Los Angeles Times in 1979. They warmed you up and threatened you with death. Then they really got serious and gave you something called the rope trick. The 
+                    <em>
+                      use
+                    </em>
+                     of ropes…
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <ul class="pagination">
+              <li class="current">
+                <a href="#">
+                  1
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=2">
+                  2
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=3">
+                  3
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=4">
+                  4
+                </a>
+              </li>
+              <li class="spread">
+                …
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=3402">
+                  3402
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=3403">
+                  3403
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=3404">
+                  3404
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=3405">
+                  3405
+                </a>
+              </li>
+              <li>
+                <a href="http://find.politico.com/index.cfm?reporters=&amp;dt=all&amp;key=us&amp;currentPage=2">
+                  <span>
+                    »
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="main-stories">
+            <script type="text/javascript">
+//<![CDATA[
+adsonar_placementId=1411653;adsonar_pid=1321767;adsonar_ps=-1;adsonar_zw=615;adsonar_zh=250;adsonar_jv='ads.adsonar.com';
+//]]>
+            </script>
+            <script src="http://js.adsonar.com/js/adsonar.js" language="JavaScript">
+            </script>
+          </div>
+        </div>
+        <div id="secondaryContent">
+          <div class="widget widget-ad">
+            <!-- begin ad tag -->            <script type="text/javascript">
+//<![CDATA[
+
+		dcCat="null";
+		
+		//&lt;![CDATA[
+		
+		document.write('&lt;script type="text/javascript" src="http://ad.doubleclick.net/adj/politico/_default;'+quantSegs+';'+crtg_content+';'+dartCC+';pos=1;tile=2;sz=300x250,300x1050,300x600,336x850;ord='+ord+'?"&gt;&lt;\/script&gt;');
+		
+		
+//]]>
+            </script>
+            <script src="http://ad.doubleclick.net/adj/politico/_default;;;;pos=1;tile=2;sz=300x250,300x1050,300x600,336x850;ord=9210042582821916?" type="text/javascript">
+            </script>
+            <noscript>
+              &lt;a href="http://ad.doubleclick.net/jump/politico/_default;pos=1;tile=2;sz=300x250,300x1050,300x600,336x850;ord=123456789?" target="_blank" &gt;&lt;img src="http://ad.doubleclick.net/ad/politico/_default;pos=1;tile=2;sz=300x250,300x1050,300x600,336x850;ord=123456789?" border="0" alt="" /&gt;&lt;/a&gt;
+            </noscript>
+            <!--// end ad tag -->          </div>
+          <!--/.widget-->          <div class="widget widget-inclusive" id="widgetMostSearched">
+            <div class="widget-header">
+              <h4>
+                Most Searched
+              </h4>
+            </div>
+            <div class="widget-content">
+              <ol class="story-list incremented">
+                <li>
+                  <h5 class="increment">
+                    1
+                  </h5>
+                  <h6>
+                    <a href="http://find.politico.com?key=trade" rel="nofollow">
+                      trade
+                    </a>
+                  </h6>
+                </li>
+                <li>
+                  <h5 class="increment">
+                    2
+                  </h5>
+                  <h6>
+                    <a href="http://find.politico.com?key=immigration" rel="nofollow">
+                      immigration
+                    </a>
+                  </h6>
+                </li>
+                <li>
+                  <h5 class="increment">
+                    3
+                  </h5>
+                  <h6>
+                    <a href="http://find.politico.com?key=leland%20yee" rel="nofollow">
+                      leland yee
+                    </a>
+                  </h6>
+                </li>
+                <li>
+                  <h5 class="increment">
+                    4
+                  </h5>
+                  <h6>
+                    <a href="http://find.politico.com?key=polls" rel="nofollow">
+                      polls
+                    </a>
+                  </h6>
+                </li>
+                <li>
+                  <h5 class="increment">
+                    5
+                  </h5>
+                  <h6>
+                    <a href="http://find.politico.com?key=yee" rel="nofollow">
+                      yee
+                    </a>
+                  </h6>
+                </li>
+                <li>
+                  <h5 class="increment">
+                    6
+                  </h5>
+                  <h6>
+                    <a href="http://find.politico.com?key=tsa" rel="nofollow">
+                      tsa
+                    </a>
+                  </h6>
+                </li>
+                <li>
+                  <h5 class="increment">
+                    7
+                  </h5>
+                  <h6>
+                    <a href="http://find.politico.com?key=unemployment" rel="nofollow">
+                      unemployment
+                    </a>
+                  </h6>
+                </li>
+                <li>
+                  <h5 class="increment">
+                    8
+                  </h5>
+                  <h6>
+                    <a href="http://find.politico.com?key=christie" rel="nofollow">
+                      christie
+                    </a>
+                  </h6>
+                </li>
+                <li>
+                  <h5 class="increment">
+                    9
+                  </h5>
+                  <h6>
+                    <a href="http://find.politico.com?key=hillary%20clinton" rel="nofollow">
+                      hillary clinton
+                    </a>
+                  </h6>
+                </li>
+                <li>
+                  <h5 class="increment">
+                    10
+                  </h5>
+                  <h6>
+                    <a href="http://find.politico.com?key=Obamacare" rel="nofollow">
+                      Obamacare
+                    </a>
+                  </h6>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <!--/widgetMostSearched-->          <div class="widget widget-exclusive" id="widgetPopularStories">
+            <div class="widget-header">
+              <h4>
+                Popular 
+                <b>
+                  on POLITICO
+                </b>
+              </h4>
+            </div>
+            <div class="widget-content">
+              <div class="widget-tabs ui-tabs ui-widget ui-widget-content ui-corner-all widget-tabs-revealed">
+                <ul class="widget-tabs-nav ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+                  <li class="first ui-state-default ui-corner-top ui-tabs-selected ui-state-active">
+                    <a href="#popularStoriesBlogs">
+                      Stories/Blogs
+                    </a>
+                  </li>
+                  <li class="ui-state-default ui-corner-top">
+                    <a href="#popularVideos">
+                      Videos
+                    </a>
+                  </li>
+                  <li class="ui-state-default ui-corner-top">
+                    <a href="#popularPhotoGalleries">
+                      Photo Galleries
+                    </a>
+                  </li>
+                </ul>
+                <div id="popularStoriesBlogs" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+                  <div class="widget-subtabs ui-tabs ui-widget ui-widget-content ui-corner-all">
+                    <ul class="widget-subtabs-nav ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+                      <li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active">
+                        <a href="#popularStoriesBlogs1">
+                          Trending Now
+                        </a>
+                      </li>
+                      <li class="ui-state-default ui-corner-top">
+                        <a href="#popularStoriesBlogs2">
+                          Last 24 Hours
+                        </a>
+                      </li>
+                      <li class="ui-state-default ui-corner-top">
+                        <a href="#popularStoriesBlogs3">
+                          Last 7 Days
+                        </a>
+                      </li>
+                    </ul>
+                    <div id="popularStoriesBlogs1" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+                      <div class="meta-data">
+                        <p>
+                          Updated: 3/31/14 4:22 AM EDT
+                        </p>
+                      </div>
+                      <ol class="story-list incremented">
+                        <li>
+                          <h5 class="increment">
+                            1
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/my-arabian-night-how-an-obama-pool-stop-went-viral-105180.html?ml=po_r">
+                              My Arabian Night: How an Obama pool stop went viral
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            2
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/magazine/story/2014/03/tsa-confessions-mashed-potato-police-105116.html?ml=po_r">
+                              The parable of the Mashed Potato Police
+                            </a>
+                          </h6>
+                        </li>
+                        <li>
+                          <h5 class="increment">
+                            3
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/magazine/story/2014/03/meet-milton-wolf-obamas-crazy-cousin-105161.html?ml=po_r">
+                              Kansas: Not right for tea party?
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            4
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/chris-christie-occupied-territories-apology-105169.html?ml=po_r">
+                              Christie apologizes for 'occupied territories'
+                            </a>
+                          </h6>
+                        </li>
+                        <li>
+                          <h5 class="increment">
+                            5
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/magazine/story/2014/01/tsa-screener-confession-102912.html?ml=po_r">
+                              Confessions of an ex-TSA agent
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            6
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/blogs/media/2014/03/msnbc-is-in-serious-trouble-185770.html?ml=po_r">
+                              MSNBC is in serious trouble
+                            </a>
+                          </h6>
+                        </li>
+                        <li>
+                          <h5 class="increment">
+                            7
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/new-hampshire-senate-race-2014-jeanne-shaheen-scott-brown-105149.html?ml=po_r">
+                              How Shaheen plans to defeat Brown
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            8
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/barack-obama-europe-saudi-arabia-trip-105167.html?ml=po_r">
+                              Obama's overseas trip: 5 takeaways
+                            </a>
+                          </h6>
+                        </li>
+                        <li>
+                          <h5 class="increment">
+                            9
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/dean-heller-turns-gop-pitbull-over-jobs-105185.html?ml=po_r">
+                              Heller turns GOP 'pit bull' over jobs
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            10
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/magazine/story/2014/03/tymoshenko-still-ukraines-best-hope-105177.html?ml=po_r">
+                              Ukraine's best worst hope
+                            </a>
+                          </h6>
+                        </li>
+                      </ol>
+                    </div>
+                    <div id="popularStoriesBlogs2" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                      <div class="meta-data">
+                        <p>
+                          Updated: 3/31/14 1:46 AM EDT
+                        </p>
+                      </div>
+                      <ol class="story-list incremented">
+                        <li>
+                          <h5 class="increment">
+                            1
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/my-arabian-night-how-an-obama-pool-stop-went-viral-105180.html?ml=po_r">
+                              My Arabian Night: How an Obama pool stop went viral
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            2
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/magazine/story/2014/03/tsa-confessions-mashed-potato-police-105116.html?ml=po_r">
+                              The parable of the Mashed Potato Police
+                            </a>
+                          </h6>
+                        </li>
+                        <li>
+                          <h5 class="increment">
+                            3
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/chris-christie-occupied-territories-apology-105169.html?ml=po_r">
+                              Christie apologizes for 'occupied territories'
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            4
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/new-hampshire-senate-race-2014-jeanne-shaheen-scott-brown-105149.html?ml=po_r">
+                              How Shaheen plans to defeat Brown
+                            </a>
+                          </h6>
+                        </li>
+                        <li>
+                          <h5 class="increment">
+                            5
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/magazine/story/2014/01/tsa-screener-confession-102912.html?ml=po_r">
+                              Confessions of an ex-TSA agent
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            6
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/blogs/media/2014/03/msnbc-is-in-serious-trouble-185770.html?ml=po_r">
+                              MSNBC is in serious trouble
+                            </a>
+                          </h6>
+                        </li>
+                        <li>
+                          <h5 class="increment">
+                            7
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/barack-obama-europe-saudi-arabia-trip-105167.html?ml=po_r">
+                              Obama's overseas trip: 5 takeaways
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            8
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/bill-maher-paul-ryan-michelle-obama-105165.html?ml=po_r">
+                              Maher: Ryan sounds like FLOTUS
+                            </a>
+                          </h6>
+                        </li>
+                        <li>
+                          <h5 class="increment">
+                            9
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/chris-christie-jewish-donors-105164.html?ml=po_r">
+                              2016ers woo Vegas donor crowd
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            10
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/sharyl-attkisson-media-bias-105153.html?ml=po_r">
+                              Media career path: Cry 'media bias'
+                            </a>
+                          </h6>
+                        </li>
+                      </ol>
+                    </div>
+                    <div id="popularStoriesBlogs3" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                      <div class="meta-data">
+                        <p>
+                          Updated: 3/31/14 12:34 AM EDT
+                        </p>
+                      </div>
+                      <ol class="story-list incremented">
+                        <li>
+                          <h5 class="increment">
+                            1
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/my-arabian-night-how-an-obama-pool-stop-went-viral-105180.html?ml=po_r">
+                              My Arabian Night: How an Obama pool stop went viral
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            2
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/obamacare-affordable-care-act-105036.html?ml=po_r">
+                              A brief history of Obamacare delays
+                            </a>
+                          </h6>
+                        </li>
+                        <li>
+                          <h5 class="increment">
+                            3
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/magazine/story/2014/03/tsa-confessions-mashed-potato-police-105116.html?ml=po_r">
+                              The parable of the Mashed Potato Police
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            4
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/blogs/under-the-radar/2014/03/feds-leakers-plea-spares-secrets-185638.html?ml=po_r">
+                              Feds: Leaker's plea spares secrets
+                            </a>
+                          </h6>
+                        </li>
+                        <li>
+                          <h5 class="increment">
+                            5
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/blogs/media/2014/03/msnbc-is-in-serious-trouble-185770.html?ml=po_r">
+                              MSNBC is in serious trouble
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            6
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/john-boehner-aide-michael-steel-harry-reid-104982.html?ml=po_r">
+                              Boehner aide: Reid 'unhinged'
+                            </a>
+                          </h6>
+                        </li>
+                        <li>
+                          <h5 class="increment">
+                            7
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/chris-christie-occupied-territories-apology-105169.html?ml=po_r">
+                              Christie apologizes for 'occupied territories'
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            8
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/magazine/story/2014/03/jonathan-soros-the-pac-to-end-all-pacs-105123.html?ml=po_r">
+                              George Soros's son is complaining about money in politics
+                            </a>
+                          </h6>
+                        </li>
+                        <li>
+                          <h5 class="increment">
+                            9
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/education-creationism-104934.html?ml=po_r">
+                              Taxpayers fund teaching creationism
+                            </a>
+                          </h6>
+                        </li>
+                        <li class="even">
+                          <h5 class="increment">
+                            10
+                          </h5>
+                          <h6>
+                            <a href="http://www.politico.com/story/2014/03/mike-rogers-michigan-house-intelligence-committee-105127.html?ml=po_r">
+                              Rogers to retire, heading to radio
+                            </a>
+                          </h6>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                  <!--.widget-subtabs-->                </div>
+                <div id="popularVideos" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                  <div class="widget-subtabs ui-tabs ui-widget ui-widget-content ui-corner-all">
+                    <ul class="widget-subtabs-nav ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+                      <li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active">
+                        <a href="#popularVideos1">
+                          Trending Now
+                        </a>
+                      </li>
+                      <li class="ui-state-default ui-corner-top">
+                        <a href="#popularVideos2">
+                          Last 24 Hours
+                        </a>
+                      </li>
+                      <li class="ui-state-default ui-corner-top">
+                        <a href="#popularVideos3">
+                          Last 7 Days
+                        </a>
+                      </li>
+                    </ul>
+                    <div id="popularVideos1" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+                      <div class="meta-data">
+                        <p>
+                          Updated: 3/31/14 4:26 AM EDT
+                        </p>
+                      </div>
+                      <ol class="story-list with-media">
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/how-to-save-msnbc.html?ml=po_v">
+                                How to save MSNBC
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li class="even">
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/sunday-shows-in-90-seconds-ukraine-crisis-christie-investigation.html?ml=po_v">
+                                Sunday Shows in 90 seconds: Ukraine crisis, Christie investigation
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/sochi-strays-come-to-washington.html?ml=po_v">
+                                Sochi strays come to Washington
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li class="even">
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/week-in-playback-putin-doesnt-have-a-cell-carters-off-email.html?ml=po_v">
+                                Week in playback: Putin doesn't have a cell, Carter's off email
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/chris-christie-scandal-wont-affect-2016-call.html?ml=po_v">
+                                Chris Christie: Scandal won't affect 2016 call
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                      </ol>
+                    </div>
+                    <div id="popularVideos2" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                      <div class="meta-data">
+                        <p>
+                          Updated: 3/31/14 2:00 AM EDT
+                        </p>
+                      </div>
+                      <ol class="story-list with-media">
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/how-to-save-msnbc.html?ml=po_v">
+                                How to save MSNBC
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li class="even">
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/sochi-strays-come-to-washington.html?ml=po_v">
+                                Sochi strays come to Washington
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/week-in-playback-putin-doesnt-have-a-cell-carters-off-email.html?ml=po_v">
+                                Week in playback: Putin doesn't have a cell, Carter's off email
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li class="even">
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/sunday-shows-in-90-seconds-ukraine-crisis-christie-investigation.html?ml=po_v">
+                                Sunday Shows in 90 seconds: Ukraine crisis, Christie investigation
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/a-lookback-on-obamas-week-in-europe.html?ml=po_v">
+                                A lookback on Obama's week in Europe
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                      </ol>
+                    </div>
+                    <div id="popularVideos3" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                      <div class="meta-data">
+                        <p>
+                          Updated: 3/31/14 12:38 AM EDT
+                        </p>
+                      </div>
+                      <ol class="story-list with-media">
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/how-to-save-msnbc.html?ml=po_v">
+                                How to save MSNBC
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li class="even">
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/sochi-strays-come-to-washington.html?ml=po_v">
+                                Sochi strays come to Washington
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/getting-there-rebecca-kleefisch.html?ml=po_v">
+                                Getting There: Rebecca Kleefisch
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li class="even">
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/obama-arrives-in-riyadh-saudi-arabia-carrie-budoff-brown-reports.html?ml=po_v">
+                                Obama arrives in Riyadh, Saudi Arabia: Carrie Budoff Brown reports
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/multimedia/video/2014/03/week-in-playback-putin-doesnt-have-a-cell-carters-off-email.html?ml=po_v">
+                                Week in playback: Putin doesn't have a cell, Carter's off email
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                <div id="popularPhotoGalleries" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                  <div class="widget-subtabs ui-tabs ui-widget ui-widget-content ui-corner-all">
+                    <ul class="widget-subtabs-nav ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+                      <li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active">
+                        <a href="#popularPhotoGalleries1">
+                          Trending Now
+                        </a>
+                      </li>
+                      <li class="ui-state-default ui-corner-top">
+                        <a href="#popularPhotoGalleries2">
+                          Last 24 Hours
+                        </a>
+                      </li>
+                      <li class="ui-state-default ui-corner-top">
+                        <a href="#popularPhotoGalleries3">
+                          Last 7 Days
+                        </a>
+                      </li>
+                    </ul>
+                    <div id="popularPhotoGalleries1" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+                      <div class="meta-data">
+                        <p>
+                          Updated: 3/31/14 4:30 AM EDT
+                        </p>
+                      </div>
+                      <ol class="story-list with-media">
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/gallery/2014/03/president-obama-in-europe/001712-024582.html?ml=po_g">
+                                President Obama overseas
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li class="even">
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/magazine/gallery/2014/03/the-other-washington/001728-024585.html?ml=po_g">
+                                The Other Washington
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/gallery/2014/03/presidents-with-saudi-leaders/001708-024462.html?ml=po_g">
+                                Presidents with Saudi leaders
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li class="even">
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/magazine/gallery/2014/03/beware-foreign-leaders-bearing-gifts/001723-024454.html?ml=po_g">
+                                Beware Foreign Leaders Bearing Gifts
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/gallery/2014/01/photos-whos-leaving-congress/001557-024516.html?ml=po_g">
+                                Who's leaving Congress?
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                      </ol>
+                    </div>
+                    <div id="popularPhotoGalleries2" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                      <div class="meta-data">
+                        <p>
+                          Updated: 3/31/14 2:05 AM EDT
+                        </p>
+                      </div>
+                      <ol class="story-list with-media">
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/gallery/2014/03/president-obama-in-europe/001712-024582.html?ml=po_g">
+                                President Obama overseas
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li class="even">
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/magazine/gallery/2014/03/beware-foreign-leaders-bearing-gifts/001723-024454.html?ml=po_g">
+                                Beware Foreign Leaders Bearing Gifts
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/magazine/gallery/2014/03/the-other-washington/001728-024585.html?ml=po_g">
+                                The Other Washington
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li class="even">
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/gallery/2014/03/presidents-with-saudi-leaders/001708-024462.html?ml=po_g">
+                                Presidents with Saudi leaders
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/gallery/2014/01/photos-whos-leaving-congress/001557-024516.html?ml=po_g">
+                                Who's leaving Congress?
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                      </ol>
+                    </div>
+                    <div id="popularPhotoGalleries3" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                      <div class="meta-data">
+                        <p>
+                          Updated: 3/31/14 1:42 AM EDT
+                        </p>
+                      </div>
+                      <ol class="story-list with-media">
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/gallery/2014/03/president-obama-in-europe/001712-024582.html?ml=po_g">
+                                President Obama overseas
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li class="even">
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/gallery/2013/07/25-unforgettable-obamacare-quotes/001172-016561.html?ml=po_g">
+                                25 unforgettable Obamacare quotes
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/gallery/2014/03/science-lessons-from-the-bible/001710-024283.html?ml=po_g">
+                                Science lessons from the Bible
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li class="even">
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/magazine/gallery/2014/03/beware-foreign-leaders-bearing-gifts/001723-024454.html?ml=po_g">
+                                Beware Foreign Leaders Bearing Gifts
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h6>
+                              <a href="http://www.politico.com/gallery/2014/03/michelle-obama-in-china/001707-024404.html?ml=po_g">
+                                Michelle Obama in China
+                              </a>
+                            </h6>
+                          </div>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="widget widget-exclusive" id="widgetAllBlogs">
+            <div class="widget-header">
+              <h4>
+                POLITICO Blogs
+              </h4>
+            </div>
+            <div class="widget-content">
+              <ul class="story-list">
+                <li class="blog-dylan-byers">
+                  <h5>
+                    <a href="http://www.politico.com/blogs/media?ml=bl_db">
+                      Dylan Byers 
+                      <b>
+                        on Media
+                      </b>
+                    </a>
+                  </h5>
+                  <a href="http://www.politico.com/blogs/media?ml=bl_db">
+                    <img width="40" height="40" class="thumbnail" alt="Dylan Byers" src="http://www.politico.com/design/widgets/x.gif"/>
+                  </a>
+                  <h6>
+                    <a href="http://www.politico.com/blogs/media?ml=bl_db">
+                      Bloomberg gives pep talk, ex-editor plans nonprofit
+                    </a>
+                  </h6>
+                </li>
+                <li class="blog-josh-gerstein">
+                  <h5>
+                    <a href="http://www.politico.com/blogs/under-the-radar?ml=bl_jg">
+                      Josh Gerstein 
+                      <b>
+                        on the Courts
+                      </b>
+                    </a>
+                  </h5>
+                  <a href="http://www.politico.com/blogs/under-the-radar?ml=bl_jg">
+                    <img width="40" height="40" class="thumbnail" alt="Josh Gerstein" src="http://www.politico.com/design/widgets/x.gif"/>
+                  </a>
+                  <h6>
+                    <a href="http://www.politico.com/blogs/under-the-radar?ml=bl_jg">
+                      Manning announces new lawyers
+                    </a>
+                  </h6>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--/widgetAllBlogs-->          <!--Start Ad-->          <div class="border side-ad">
+            <!-- begin ad tag -->            <script type="text/javascript">
+//<![CDATA[
+
+		dcCat="null";
+		
+		//&lt;![CDATA[
+		
+		document.write('&lt;script type="text/javascript" src="http://ad.doubleclick.net/adj/politico/_default;dcopt=ist;pos=10;tile=6;sz=1x1;ord='+ord+'?"&gt;&lt;\/script&gt;');
+		
+		
+//]]>
+            </script>
+            <script src="http://ad.doubleclick.net/adj/politico/_default;dcopt=ist;pos=10;tile=6;sz=1x1;ord=9210042582821916?" type="text/javascript">
+            </script>
+            <noscript>
+              &lt;a href="http://ad.doubleclick.net/jump/politico/_default;pos=10;tile=6;sz=1x1;ord=123456789?" target="_blank" &gt;&lt;img src="http://ad.doubleclick.net/ad/politico/_default;pos=10;tile=6;sz=1x1;ord=123456789?" border="0" alt="" /&gt;&lt;/a&gt;
+            </noscript>
+            <!--// end ad tag -->          </div>
+        </div>
+        <!--/secondaryContent-->      </div>
+      <!--/.content-->      <div class="footer" id="footer">
+        <div class="footer-cols">
+          <div class="col">
+            <h5>
+              News
+            </h5>
+            <ul>
+              <li>
+                <a href="http://www.politico.com/">
+                  POLITICO Home
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/magazine/">
+                  Magazine
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/pages/elections/">
+                  Elections
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/congress/">
+                  Congress
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/rogersimon/">
+                  Roger Simon
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/multimedia/">
+                  Video
+                </a>
+              </li>
+              <li>
+                <a href="https://www.politicopro.com/">
+                  POLITICO Pro
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/events/">
+                  Events
+                </a>
+              </li>
+              <li>
+                <a href="http://capitalnewyork.com/">
+                  Capital New York
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5>
+              Blogs
+            </h5>
+            <ul>
+              <li>
+                <a href="http://www.politico.com/blogs/media/">
+                  Dylan Byers
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/blogs/under-the-radar/">
+                  Josh Gerstein
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/blogs/joe-scarborough/">
+                  Joe Scarborough
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--/.col-->          <div class="col">
+            <h5>
+              Tipsheets
+            </h5>
+            <ul>
+              <li>
+                <a href="http://www.politico.com/playbook/">
+                  Playbook
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/huddle/">
+                  Huddle
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/politicoinfluence/">
+                  Influence
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/p/magazine/newsletter/">
+                  The Friday Cover
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/morningagriculture/">
+                  Morning Agriculture
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/morningdefense/">
+                  Morning Defense
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/morningeducation/">
+                  Morning Education
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/morningenergy/">
+                  Morning Energy
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/morningmoney/">
+                  Morning Money
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/morningscore/">
+                  Morning Score
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/morningtax/">
+                  Morning Tax
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/morningtech/">
+                  Morning Tech
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/morningtransportation/">
+                  Morning Transportation
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/proreport/">
+                  Pro Report
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/politicopulse/">
+                  Pulse
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--/.col-->          <div class="col">
+            <h5>
+              Policy
+            </h5>
+            <ul>
+              <li>
+                <a href="http://www.politico.com/agriculture/">
+                  Agriculture
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/defense/">
+                  Defense
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/education/">
+                  Education
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/energy/">
+                  Energy
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/money/">
+                  Finance
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/healthcare/">
+                  Health Care
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/technology/">
+                  Technology
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/trade/">
+                  Trade
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/transportation/">
+                  Transportation
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--/.col-->          <div class="col col-wide">
+            <h5>
+              More Info
+            </h5>
+            <ul>
+              <li>
+                <a href="http://www.politico.com/about/">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/about/advertising/">
+                  Advertising
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/headlines/">
+                  Article Archive
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/bookshelf/">
+                  Bookshelf
+                </a>
+              </li>
+              <li>
+                <a href="http://dyn.politico.com/member">
+                  Breaking News Alerts
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/employment/">
+                  Employment
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/faq/">
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/aboutus/feedback.html">
+                  Feedback
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/headlines/">
+                  Headlines
+                </a>
+              </li>
+              <li>
+                <a href="http://dyn.politico.com/">
+                  Log in/Register
+                </a>
+              </li>
+            </ul>
+            <ul class="last">
+              <li>
+                <a href="http://www.politico.com/mobile-products/">
+                  Mobile POLITICO
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/gallery/">
+                  Photos
+                </a>
+              </li>
+              <li>
+                <a href="http://www.powerjobs.com">
+                  POWERJobs
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/about/press/">
+                  Press
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/rss/">
+                  RSS / Widgets
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/sitemap/">
+                  Site Map
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/aboutus/">
+                  Staff Bios
+                </a>
+              </li>
+              <li>
+                <a href="http://www.cafepress.com/thepolitico">
+                  Store
+                </a>
+              </li>
+              <li>
+                <a href="http://www.politico.com/subscriptions/">
+                  Subscription
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--/.col-->        </div>
+        <!--/.footer-cols-->        <div class="site-info">
+          <span>
+            © 2014 POLITICO LLC
+          </span>
+          <ul>
+            <li>
+              <a href="http://www.politico.com/termsofservice/">
+                Terms of Service
+              </a>
+            </li>
+            <li class="last">
+              <a href="http://www.politico.com/privacy/">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+        </div>
+        <img width="0" height="0" alt="" src="http://images.politico.com/global/v2/shadowright.gif"/>
+      </div>
+      <!--//footer-->      <!--PubMatic Universal Pixel tag (Javascript)
+http://www.politico.com/HPTags-->      <script type="text/javascript">
+//<![CDATA[
+	
+var pubId=27180;
+var pixId=41; 
+
+//]]>
+      </script>
+      <script type="text/javascript" src="http://ads.pubmatic.com/AdServer/js/universalpixel.js">
+      </script>
+      <script src="http://image3.pubmatic.com/AdServer/UPug?operId=2&amp;pubId=27180&amp;pixId=41&amp;ran=0.9962247300812862&amp;pageURL=http%3A%2F%2Ffind.politico.com%2F%3Freporters%3D%26dt%3Dall%26key%3Dus&amp;refURL=http%3A%2F%2Fwww.politico.com%2F" type="text/javascript" id="upugPix">
+      </script>
+      <script src="http://ads.pubmatic.com/UniversalPixel/27180/41/pixel.js" type="text/javascript">
+      </script>
+      <iframe width="0" scrolling="no" height="0" frameborder="0" src="http://ptrack.pubmatic.com/AdServer/PugTracker?pixId=41&amp;pubId=27180&amp;ran=0.9962247300812862&amp;pmoo=0&amp;dnt=0&amp;pageURL=http%3A%2F%2Ffind.politico.com%2F%3Freporters%3D%26dt%3Dall%26key%3Dus&amp;refURL=http%3A%2F%2Fwww.politico.com%2F" style="position:absolute;top:-20000px;" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" name="pbeacon" class="aipewpddfdevopyqmojj">
+      </iframe>
+      <!-- Start Quantcast tag -->      <script type="text/javascript">
+//<![CDATA[
+
+_qoptions={
+qacct:"p-7bhLrd63bC8jI"
+};
+
+//]]>
+      </script>
+      <script src="http://edge.quantserve.com/quant.js" type="text/javascript">
+      </script>
+      <noscript>
+        &lt;div&gt;&lt;a href="http://www.quantcast.com/p-7bhLrd63bC8jI" target="_blank"&gt;&lt;img src="http://pixel.quantserve.com/pixel/p-7bhLrd63bC8jI.gif" style="display: none;" border="0" height="0" width="0" alt="Quantcast" /&gt;&lt;/a&gt;&lt;/div&gt;
+
+      </noscript>
+      <!-- End Quantcast tag -->      <!--POL-DYN4-INSTANCE2 {ts '2014-03-31 05:02:54'}-->      <script src="//platform.twitter.com/widgets.js" type="text/javascript">
+      </script>
+    </div>
+    <!--/.siteWrapper-->    <script type="text/javascript">
+//<![CDATA[
+
+			var _sf_async_config={};
+			/** CONFIGURATION START **/
+			
+				
+					_sf_async_config.uid = "33430";
+				
+					_sf_async_config.path = "/";
+				
+					_sf_async_config.domain = "politico.com";
+				
+					
+			/** CONFIGURATION END **/
+			(function(){
+			  function loadChartbeat() {
+			    window._sf_endpt=(new Date()).getTime();
+			    var e = document.createElement("script");
+			    e.setAttribute("language", "javascript");
+			    e.setAttribute("type", "text/javascript");
+			    e.setAttribute("src",
+			       (("https:" == document.location.protocol) ?
+			         "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" :
+			         "http://static.chartbeat.com/") +
+			       "js/chartbeat.js");
+			    document.body.appendChild(e);
+			  }
+			  var oldonload = window.onload;
+			  window.onload = (typeof window.onload != "function") ?
+			     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+			})();
+		
+//]]>
+    </script>
+    <!-- START lotame Include: Standard -->    <script id="LOTCC_2641" src="https://tags.crwdcntrl.net/c/2641/cc.js?ns=_cc2641" type="text/javascript">
+    </script>
+    <script language="javascript" type="text/javascript">
+//<![CDATA[
+_cc2641.bcp();
+//]]>
+    </script>
+    <!-- END lotame Include -->    <!-- begin ad tag -->    <script type="text/javascript">
+//<![CDATA[
+
+		dcCat="null";
+		ord=Math.random()*10000000000000000;
+		//&lt;![CDATA[
+		document.write('&lt;script type="text/javascript" src="http://ad.doubleclick.net/adj/politico/_default;'+quantSegs+';'+crtg_content+';'+dartCC+';pos=9;tile=9;sz=1x1;ord='+ord+'?"&gt;&lt;\/script&gt;');
+		
+//]]>
+    </script>
+    <script src="http://ad.doubleclick.net/adj/politico/_default;;;;pos=9;tile=9;sz=1x1;ord=6219028765970283?" type="text/javascript">
+    </script>
+    <noscript>
+      &lt;a href="http://ad.doubleclick.net/jump/politico/_default;pos=9;tile=9;sz=1x1;ord=123456789?" target="_blank" &gt;&lt;img src="http://ad.doubleclick.net/ad/politico/_default;pos=9;tile=9;sz=1x1;ord=123456789?" border="0" alt="" /&gt;&lt;/a&gt;
+    </noscript>
+    <!--// end ad tag -->    <script language="javascript" type="text/javascript" src="http://static.chartbeat.com/js/chartbeat.js">
+    </script>
+    <!--//POLITICO END-->  </body>
+</html>

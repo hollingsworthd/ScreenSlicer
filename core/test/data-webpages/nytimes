@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en">
+  <head>
+    <link href="http://graphics8.nytimes.com/css/0.1/screen/common/modal/loginModal.css" rel="stylesheet" type="text/css"/>
+    <title>
+      NYTimes.com Search
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="robots" content="noarchive"/>
+    <meta name="CG" content="Search"/>
+    <meta name="SCG" content="cse"/>
+    <meta name="PT" content="Search"/>
+    <meta name="PST" content="Search Results"/>
+    <meta name="PSST" content=""/>
+    <meta name="PS" content=""/>
+    <meta name="ttl" content=""/>
+    <link rel="stylesheet" type="text/css" href="http://graphics8.nytimes.com/css/0.1/screen/build/search/styles.css"/>
+    <script src="http://b.scorecardresearch.com/c2/3005403/cs.js">
+    </script>
+    <script type="text/javascript" src="http://js.nyt.com/js/app/lib/jquery/jquery-1.6.2.min.js">
+    </script>
+    <script type="text/javascript" src="http://js.nyt.com/js/app/lib/jquery/jquery-ui-1.8.16.min.js">
+    </script>
+    <style type="text/css">
+      
+		        @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie.css);
+		    
+    </style>
+    <script type="text/javascript" src="http://wt.o.nytimes.com/dcsym57yw10000s1s8g0boozt_9t1x/wtid.js">
+    </script>
+    <script type="text/javascript" src="//graphics8.nytimes.com/bi/js/analytics/EventTracker.js">
+    </script>
+    <script type="text/javascript" src="//graphics8.nytimes.com/bi/js/tagx/tagx.js">
+    </script>
+    <script type="text/javascript" src="//tagx.nytimes.com/?url=http%3A%2F%2Fquery.nytimes.com%2Fsearch%2Fsitesearch%2F%23%2Fibm&amp;assetUrl=http%3A%2F%2Fquery.nytimes.com%2Fsearch%2Fsitesearch%2F%23%2Fibm&amp;referrer=http%3A%2F%2Fwww.nytimes.com%2F&amp;CG=Search&amp;SCG=cse">
+    </script>
+    <script type="text/javascript" src="//js.revsci.net/gateway/gw.js?csid=H07707&amp;auto=t">
+    </script>
+    <link rel="stylesheet" type="text/css" href="http://graphics8.nytimes.com/css/0.1/screen/common/modal/nytModal.css"/>
+    <meta id="WT.sourceapp" name="WT.sourceapp" content="nyt4"/>
+    <meta id="WT.z_stcap" name="WT.z_stcap" content=""/>
+    <script type="text/javascript" src="//graphics8.nytimes.com/bi/js/analytics/nyt4/controller.js">
+    </script>
+    <meta id="WT.z_stat" name="WT.z_stat" content="anon"/>
+    <script type="text/javascript" src="http://static.chartbeat.com/js/chartbeat.js">
+    </script>
+    <link href="http://graphics8.nytimes.com/css/0.1/screen/common/modal/regiModal.css" rel="stylesheet"/>
+    <meta id="WT.cg_n" name="WT.cg_n" content="Search"/>
+    <meta id="WT.cg_s" name="WT.cg_s" content="cse"/>
+    <meta id="WT.z_rcgn" name="WT.z_rcgn" content="Search"/>
+    <meta id="WT.z_rcgs" name="WT.z_rcgs" content="cse"/>
+    <meta id="WT.z_gpt" name="WT.z_gpt" content="Search"/>
+    <meta id="WT.z_gpst" name="WT.z_gpst" content="Search Results"/>
+    <meta id="WT.z_nyts" name="WT.z_nyts" content="null"/>
+    <meta id="WT.z_nytd" name="WT.z_nytd" content="null"/>
+    <meta id="WT.z_rmid" name="WT.z_rmid" content="007f0100530b52ca3f0800aa"/>
+    <meta id="WT.z_ref" name="WT.z_ref" content="nytimes.com"/>
+    <meta id="WT.rv" name="WT.rv" content="0"/>
+    <script language="javascriptcontent" type="text/javascript" src="//graphics8.nytimes.com/bi/js/analytics/nyt4/wtinit.js">
+    </script>
+    <script language="javascriptcontent" type="text/javascript" src="//graphics8.nytimes.com/bi/js/analytics/nyt4/wtbase.js">
+    </script>
+    <script src="http://pglb.buzzfed.com/824318/6d0265574358b7f92f90d154bca2fbc3?callback=BF_PARTNER.gate_response&amp;cb=4319">
+    </script>
+  </head>
+  <body>
+    <script language="JavaScript" type="text/javascript" src="http://pix04.revsci.net/H07707/b3/0/3/120814/30848815.js?D=DM_LOC%3Dhttp%253A%252F%252Fquery.nytimes.com%252Fsearch%252Fsitesearch%252F%253F_rsiL%253D0%26DM_CAT%3DNYTimesglobal%2520%253E%2520Search%2520%253E%2520cse%26DM_REF%3Dhttp%253A%252F%252Fwww.nytimes.com%252F%26DM_EOM%3D1&amp;C=H07707">
+    </script>
+    <script language="JavaScript" type="text/javascript" src="http://ads.revsci.net/adserver/ako?activate&amp;csid=H07707">
+    </script>
+    <a name="top">
+    </a>
+    <div id="shell">
+      <div id="page" class="tabContent active">
+        <div id="masthead" class="clearfix">
+          <div id="branding">
+            <a href="http://www.nytimes.com">
+              <img id="NYTLogo" alt="New York Times" src="http://graphics8.nytimes.com/images/misc/nytlogo152x23.gif"/>
+            </a>
+          </div>
+          <h2>
+            <a href="/">
+              Search
+            </a>
+          </h2>
+          <div class="mostPopularSearches" id="mostPopularSearches">
+            <div class="tabDropDown">
+              <div class="tabDropDownHeader">
+                <div class="inset">
+                  <h5 class="tabDropDownHeading">
+                    <a class="toggleControl">
+                      Most Popular Searches
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <!-- close tabDropDownHeader -->              <div class="tabDropDownContent">
+                <div class="subColumns noBackground">
+                  <div class="column firstColumn">
+                    <div class="inset">
+                      <ol class="flush">
+                        <li>
+                          <a data-query="modern love">
+                            modern love
+                          </a>
+                        </li>
+                        <li>
+                          <a data-query="david brooks">
+                            david brooks
+                          </a>
+                        </li>
+                        <li>
+                          <a data-query="weather">
+                            weather
+                          </a>
+                        </li>
+                        <li>
+                          <a data-query="new york">
+                            new york
+                          </a>
+                        </li>
+                        <li>
+                          <a data-query="36 hours">
+                            36 hours
+                          </a>
+                        </li>
+                      </ol>
+                    </div>
+                    <!-- close inset -->                  </div>
+                  <!-- close column -->                  <div class="column lastColumn">
+                    <div class="inset">
+                      <ol class="flush" start="6">
+                        <li>
+                          <a data-query="crossword">
+                            crossword
+                          </a>
+                        </li>
+                        <li>
+                          <a data-query="marijuana">
+                            marijuana
+                          </a>
+                        </li>
+                        <li>
+                          <a data-query="books">
+                            books
+                          </a>
+                        </li>
+                        <li>
+                          <a data-query="snowden">
+                            snowden
+                          </a>
+                        </li>
+                        <li>
+                          <a data-query="social q's">
+                            social q's
+                          </a>
+                        </li>
+                      </ol>
+                    </div>
+                    <!-- close .inset -->                  </div>
+                  <!-- close .column -->                </div>
+                <!-- close .subColumns -->              </div>
+              <!-- close .tabDropDownContent -->            </div>
+            <!-- close .tabDropDown -->          </div>
+          <!-- close .mostPopularSearches -->        </div>
+        <!-- close #masthead -->        <div id="searchHeader" class="searchHeader">
+          <div class="insetPadded opposingFloatControl wrap">
+            <div id="inlineSearchControl" class="searchInputForm inlineSearchControl element1">
+              <form>
+                <div class="control horizontalControl lastControl">
+                  <div class="labelContainer">
+                    <label for="newSearchQueryTop">
+                      Your Search
+                    </label>
+                  </div>
+                  <div class="fieldContainer containingBlock" id="yourSearch">
+                    <input type="text" value="ibm" id="newSearchQueryTop" class="newSearchQuery autoSuggestQuery" autocomplete="off"/>
+                    <ol class="autoSuggestQueryResults">
+                    </ol>
+                    <button class="button" type="submit">
+                      Go
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- .inlineSearchControl -->            <ul class="breadCrumbFilterList element1">
+            </ul>
+            <div class="resetFilters element2" style="display: none;">
+              <a data-refineby="resetFilters" class="searchFilter">
+                Clear All Filters
+              </a>
+            </div>
+          </div>
+          <!-- .inset -->        </div>
+        <!-- .searchHeader -->        <div id="main">
+          <div class="spanAB wrap">
+            <div class="search ">
+              <div class="abColumn">
+                <!-- open abColumn -->                <div class="aColumn">
+                  <!-- open aColumn -->                  <!--cur: prev:-->                  <div class="columnGroup first">
+                    <div class="columnGroup firstColumn dateFilters">
+                      <h2 class="sectionHeader">
+                        Date Range
+                      </h2>
+                      <ul class="filterList flush">
+                        <li class="firstItem">
+                          <a data-refineby="since1851" class="searchFilter selectedFilter">
+                            All Since 1851
+                          </a>
+                        </li>
+                        <li>
+                          <a data-refineby="24hoursago" class="searchFilter">
+                            Past 24 Hours
+                          </a>
+                        </li>
+                        <li>
+                          <a data-refineby="7daysago" class="searchFilter">
+                            Past 7 Days
+                          </a>
+                        </li>
+                        <li>
+                          <a data-refineby="30daysago" class="searchFilter">
+                            Past 30 Days
+                          </a>
+                        </li>
+                        <li>
+                          <a data-refineby="365daysago" class="searchFilter">
+                            Past 12 Months
+                          </a>
+                        </li>
+                        <li>
+                          <a data-refineby="customDateRange" class="toggleControl flushToggleControl navToggleControl">
+                            Specific Dates
+                          </a>
+                          <div class="navTabDropDown customDateFilter">
+                            <form>
+                              <div>
+                                <span class="dateLabel">
+                                  From:
+                                </span>
+                                <input type="text" name="fromMonth" class="month" id="fromMonth" value="MM" maxlength="2"/>
+                                 / 
+                            
+                                <input type="text" name="fromDay" class="day" id="fromDay" value="DD" maxlength="2"/>
+                                 / 
+                            
+                                <input type="text" name="fromYear" class="year" id="fromYear" value="YYYY" maxlength="4"/>
+                              </div>
+                              <div>
+                                <span class="dateLabel">
+                                  To:
+                                </span>
+                                <input type="text" name="toMonth" class="month" id="toMonth" value="MM" maxlength="2"/>
+                                 / 
+                            
+                                <input type="text" name="toDay" class="day" id="toDay" value="DD" maxlength="2"/>
+                                 / 
+                            
+                                <input type="text" name="toYear" class="year" id="toYear" value="YYYY" maxlength="4"/>
+                              </div>
+                              <div class="customFilterFooter">
+                                <a class="applyCustomFilter">
+                                  Refine Search
+                                </a>
+                              </div>
+                            </form>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- .dateFilters -->                    <div class="columnGroup pubTypeFilters">
+                      <h2 class="sectionHeader">
+                        Result Type
+                      </h2>
+                      <ul class="filterList flush">
+                        <li class="firstItem">
+                          <a data-refineby="all" class="searchFilter selectedFilter">
+                            All
+                          </a>
+                        </li>
+                        <li>
+                          <a data-refineby="article" class="searchFilter">
+                            Articles
+                          </a>
+                        </li>
+                        <li>
+                          <a data-refineby="blogs" class="searchFilter">
+                            Blogs
+                          </a>
+                        </li>
+                        <li style="display: none;">
+                          <a data-refineby="multimedia" class="searchFilter">
+                            Multimedia
+                          </a>
+                        </li>
+                        <li style="display: none;">
+                          <a data-refineby="video" class="searchFilter">
+                            Video
+                          </a>
+                        </li>
+                        <li style="display: none;">
+                          <a data-refineby="recipes" class="searchFilter">
+                            Recipes
+                          </a>
+                        </li>
+                        <li style="display: none;">
+                          <a data-refineby="help" class="searchFilter">
+                            FAQ
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- .pubTypeFilters -->                    <div class="columnGroup bylineFilters">
+                      <h2 class="sectionHeader">
+                        Author
+                      </h2>
+                      <ul class="filterList flush">
+                        <li class="firstItem">
+                          <a data-refineby="all" class="searchFilter selectedFilter">
+                            All Authors
+                          </a>
+                        </li>
+                        <li>
+                          <a class="navToggleControl">
+                            Specific Author
+                          </a>
+                          <div class="navTabDropDown customBylineFilter">
+                            <form>
+                              <input type="text" class="autoSuggestQuery" value="" autocomplete="off"/>
+                              <ol class="autoSuggestQueryResults">
+                              </ol>
+                              <div class="customFilterFooter">
+                                <a class="applyCustomFilter">
+                                  Refine Search
+                                </a>
+                              </div>
+                            </form>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="columnGroup sectionFilters">
+                      <h2 class="sectionHeader">
+                        Section
+                      </h2>
+                      <ul class="filterList flush">
+                        <li class="firstItem">
+                          <a data-refineby="all" class="searchFilter selectedFilter">
+                            All Sections
+                          </a>
+                        </li>
+                        <li>
+                          <a data-refineby="technology" class="searchFilter">
+                            Technology
+                          </a>
+                        </li>
+                        <li>
+                          <a data-refineby="business" class="searchFilter">
+                            Business
+                          </a>
+                        </li>
+                        <li>
+                          <a data-refineby="dealbook" class="searchFilter">
+                            Dealbook
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="toggleContainer navViewToggleContainer">
+                      </div>
+                    </div>
+                    <div class="columnGroup imageSearch">
+                      <ul class="filterList flush">
+                        <li class="firstItem">
+                          <a href="http://beta620.nytimes.com/app/image-search/#/ibm">
+                            Image Search 
+                            <span>
+                              (BETA)
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- close aColumn -->                <div class="bColumn">
+                  <!-- open bColumn -->                  <div class="columnGroup first">
+                    <div class="sortContainer opposingFloatControl wrap">
+                      <div class="sortResults element1" id="sortResults">
+                        <h3 class="horizontalMenuLabel">
+                          Sort by:
+                        </h3>
+                        <ul class="horizontalMenu piped">
+                          <li>
+                            <a data-sortby="d">
+                              Newest
+                            </a>
+                          </li>
+                          <li>
+                            <a data-sortby="a">
+                              Oldest
+                            </a>
+                          </li>
+                          <li>
+                            <a data-sortby="r" class="selectedSort">
+                              Relevance
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div id="totalResultsCount" class="totalResultsCount element2">
+                        <p>
+                          1-10 of about 81,600 Results
+                        </p>
+                      </div>
+                    </div>
+                    <div class="textAds firstTextAds wrap">
+                      <div id="SponSearch1" style="font-weight: normal; text-align: center;">
+                        <iframe allowtransparency="true" style="visibility: hidden; height: 0px;" width="100%" name="{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-1-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;004276&quot;,&quot;colorDomainLink&quot;:&quot;004276&quot;,&quot;colorBackground&quot;:&quot;E7EFF9&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;166px&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;SponSearch2&quot;},&quot;slave-2-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;004276&quot;,&quot;colorDomainLink&quot;:&quot;004276&quot;,&quot;colorBackground&quot;:&quot;E7EFF9&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;16px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;SponSearch3&quot;},&quot;master-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;004276&quot;,&quot;colorDomainLink&quot;:&quot;004276&quot;,&quot;colorBackground&quot;:&quot;E7EFF9&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;16px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;SponSearch1&quot;}}" id="master-1" src="//www.google.com/uds/afs?q=ibm&amp;client=newyorktimes-cse&amp;adsafe=high&amp;r=m&amp;adpage=0&amp;po=true&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404%2C7000108&amp;jsei=4&amp;format=p2%7Cn7%7Cw2&amp;ad=w2n7a2&amp;nocache=5591388986143199&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;adlh=on&amp;adext=as1%2Csr1&amp;u_his=2&amp;u_tz=-300&amp;dt=1388986143203&amp;u_w=1024&amp;u_h=768&amp;biw=1256&amp;bih=605&amp;psw=1256&amp;psh=970&amp;frm=0&amp;ui=uv3as3sRsL-lHpOaf3st16-wi166-lHaf3st16&amp;rurl=http%3A%2F%2Fquery.nytimes.com%2Fsearch%2Fsitesearch%2F%23%2Fibm&amp;referer=http%3A%2F%2Fwww.nytimes.com%2F#master-1">
+                        </iframe>
+                      </div>
+                    </div>
+                    <div class="searchResults" id="searchResults" style="display: none;">
+                      <ol class="searchResultsList flush" style="display: block;">
+                        <li class="story spotlight noThumb">
+                          <div class="element2">
+                            <h3>
+                              <a href="http://topics.nytimes.com/top/news/business/companies/international_business_machines/index.html?8qa">
+                                Times Topics: 
+                                <b>
+                                  International Business Machines (I.B.M.)
+                                </b>
+                              </a>
+                            </h3>
+                            <p class="summary">
+                              News about International Business Machines (I.B.M.), including commentary, financial data and archival articles published in The New York Times.
+                              <br/>
+                            </p>
+                          </div>
+                        </li>
+                        <li class="story noThumb">
+                          <div class="element2">
+                            <h3>
+                              <a href="http://topics.nytimes.com/top/news/business/companies/international_business_machines/">
+                                International Business Machines Corporation (
+                                <strong>
+                                  IBM
+                                </strong>
+                                ) News - The New 
+                                <strong>
+                                  ...
+                                </strong>
+                              </a>
+                            </h3>
+                            <p class="summary">
+                              News about International Business Machines (
+                              <strong>
+                                I.B.M.
+                              </strong>
+                              ). Commentary and archival information about International Business Machines (
+                              <strong>
+                                I.B.M.
+                              </strong>
+                              ) from The New York ...
+                            </p>
+                            <div class="storyMeta">
+                              <span class="section">
+                                Business Day - Topic
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="story">
+                          <div class="element1 thumb">
+                            <a href="http://www.nytimes.com/2013/11/14/technology/ibm-to-announce-more-powerful-watson-via-the-internet.html">
+                              <img src="http://www.nytimes.com/images/2013/11/14/business/WATSON/WATSON-thumbStandard.jpg" width="75" class="story_thumb"/>
+                            </a>
+                          </div>
+                          <div class="element2">
+                            <h3>
+                              <a href="http://www.nytimes.com/2013/11/14/technology/ibm-to-announce-more-powerful-watson-via-the-internet.html">
+                                <strong>
+                                  IBM
+                                </strong>
+                                 to Announce More Powerful Watson via the Internet - NYTimes 
+                                <strong>
+                                  ...
+                                </strong>
+                              </a>
+                            </h3>
+                            <p class="summary">
+                              Companies, academics and individual software developers will be able to use Watson at a small fraction of the previous cost.
+                            </p>
+                            <div class="storyMeta">
+                              <span class="dateline">
+                                November 13, 2013
+                              </span>
+                               - 
+                              <span class="byline">
+                                By QUENTIN HARDY
+                              </span>
+                               - 
+                              <span class="section">
+                                Technology - Article
+                              </span>
+                               - 
+                              <span class="printHeadline">
+                                Print Headline: "IBM to Announce More Powerful Watson via the Internet"
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="story noThumb">
+                          <div class="element2">
+                            <h3>
+                              <a href="http://bits.blogs.nytimes.com/2013/12/04/ibms-big-plans-for-cloud-computing/">
+                                <strong>
+                                  IBM's
+                                </strong>
+                                 Big Plans for Cloud Computing 
+                              </a>
+                            </h3>
+                            <p class="summary">
+                              The company plans to introduce a slew of new products and services to its cloud computing offerings in 2014.
+                            </p>
+                            <div class="storyMeta">
+                              <span class="dateline">
+                                December 04, 2013
+                              </span>
+                               - 
+                              <span class="byline">
+                                By QUENTIN HARDY
+                              </span>
+                               - 
+                              <span class="section">
+                                Technology
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="story noThumb">
+                          <div class="element2">
+                            <h3>
+                              <a href="http://dealbook.on.nytimes.com/public/overview?symbol=IBM">
+                                <strong>
+                                  I.B.M.
+                                </strong>
+                              </a>
+                            </h3>
+                            <p class="summary">
+                              International Business Machines Corp (
+                              <strong>
+                                IBM
+                              </strong>
+                              ), with a market capitalization of $201.46 billion, is among the largest companies in the Computers &amp; Peripherals  ...
+                            </p>
+                            <div class="storyMeta">
+                              <span class="section">
+                                Business
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="story noThumb">
+                          <div class="element2">
+                            <h3>
+                              <a href="http://dealbook.on.nytimes.com/public/overview?symbol=IBM&amp;inline=nyt-org">
+                                <strong>
+                                  I.B.M.
+                                </strong>
+                              </a>
+                            </h3>
+                            <p class="summary">
+                              International Business Machines Corp (
+                              <strong>
+                                IBM
+                              </strong>
+                              ), with a market capitalization of $202.66 billion, is among the largest companies in the Computers &amp; Peripherals  ...
+                            </p>
+                            <div class="storyMeta">
+                              <span class="section">
+                                Business
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="story">
+                          <div class="element1 thumb">
+                            <a href="http://www.nytimes.com/2013/10/29/business/william-c-lowe-who-oversaw-birth-of-the-ibm-pc-dies-at-72.html">
+                              <img src="http://www.nytimes.com/images/2013/10/30/business/subLOWEobit/subLOWEobit-thumbStandard.jpg" width="75" class="story_thumb"/>
+                            </a>
+                          </div>
+                          <div class="element2">
+                            <h3>
+                              <a href="http://www.nytimes.com/2013/10/29/business/william-c-lowe-who-oversaw-birth-of-the-ibm-pc-dies-at-72.html">
+                                William C. Lowe, Who Oversaw the Birth of 
+                                <strong>
+                                  IBM's
+                                </strong>
+                                 PC, Dies at 72 
+                                <strong>
+                                  ...
+                                </strong>
+                              </a>
+                            </h3>
+                            <p class="summary">
+                              In 1980, Mr. Lowe persuaded the company to let him form a team that would create the 
+                              <strong>
+                                IBM
+                              </strong>
+                               Personal Computer with uncharacteristic speed.
+                            </p>
+                            <div class="storyMeta">
+                              <span class="dateline">
+                                October 28, 2013
+                              </span>
+                               - 
+                              <span class="byline">
+                                By WILLIAM YARDLEY
+                              </span>
+                               - 
+                              <span class="section">
+                                Business Day - Article
+                              </span>
+                               - 
+                              <span class="printHeadline">
+                                Print Headline: "William C. Lowe, 72, Dies,Oversaw IBM PC’s Birth"
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="story noThumb">
+                          <div class="element2">
+                            <h3>
+                              <a href="http://bits.blogs.nytimes.com/2013/01/10/the-2012-patent-rankings-ibm-on-top-again-google-and-apple-surging/">
+                                The 2012 Patent Rankings: 
+                                <strong>
+                                  IBM
+                                </strong>
+                                 on Top (Again), Google and Apple 
+                                <strong>
+                                  ...
+                                </strong>
+                              </a>
+                            </h3>
+                            <p class="summary">
+                              The yearly count of corporate patent winners shows 
+                              <strong>
+                                I.B.M.
+                              </strong>
+                               on top in 2012, for the 20th consecutive year. But the big movement in the rankings ...
+                            </p>
+                            <div class="storyMeta">
+                              <span class="dateline">
+                                January 10, 2013
+                              </span>
+                               - 
+                              <span class="byline">
+                                By STEVE LOHR
+                              </span>
+                               - 
+                              <span class="section">
+                                Technology
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="story noThumb">
+                          <div class="element2">
+                            <h3>
+                              <a href="http://bits.blogs.nytimes.com/2013/02/20/ibm-goes-mobile/">
+                                <strong>
+                                  I.B.M.
+                                </strong>
+                                 to Take Big Step Into Mobile 
+                              </a>
+                            </h3>
+                            <p class="summary">
+                              <strong>
+                                I.B.M.
+                              </strong>
+                               announces a major foray into mobility, including strategy, app building and management, and security.
+                            </p>
+                            <div class="storyMeta">
+                              <span class="dateline">
+                                February 20, 2013
+                              </span>
+                               - 
+                              <span class="byline">
+                                By QUENTIN HARDY
+                              </span>
+                               - 
+                              <span class="section">
+                                Technology
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="story">
+                          <div class="element1 thumb">
+                            <a href="http://www.nytimes.com/2010/06/20/magazine/20Computer-t.html?pagewanted=all">
+                              <img src="http://graphics8.nytimes.com/images/2010/06/20/magazine/20Computer-span/20Computer-span-thumbStandard-v2.jpg" width="75" class="story_thumb"/>
+                            </a>
+                          </div>
+                          <div class="element2">
+                            <h3>
+                              <a href="http://www.nytimes.com/2010/06/20/magazine/20Computer-t.html?pagewanted=all">
+                                What Is 
+                                <strong>
+                                  I.B.M.
+                                </strong>
+                                's Watson?
+                              </a>
+                            </h3>
+                            <p class="summary">
+                              The category is artificial intelligence. This question-answering computer system is ready to challenge some flesh-and-blood “Jeopardy!
+                            </p>
+                            <div class="storyMeta">
+                              <span class="dateline">
+                                June 16, 2010
+                              </span>
+                               - 
+                              <span class="byline">
+                                By CLIVE THOMPSON
+                              </span>
+                               - 
+                              <span class="section">
+                                Magazine - Article
+                              </span>
+                               - 
+                              <span class="printHeadline">
+                                Print Headline: "What Is I.B.M.’s Watson?"
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="story noThumb">
+                          <div class="element2">
+                            <h3>
+                              <a href="http://www.nytimes.com/2013/07/18/technology/revenue-down-at-ibm-but-its-better-than-expected.html">
+                                Revenue Falls, but Profit Tops Forecast at 
+                                <strong>
+                                  I.B.M.
+                                </strong>
+                              </a>
+                            </h3>
+                            <p class="summary">
+                              Net income fell 17 percent to $3.2 billion, or $2.91 a share, but the technology giant has weathered well as demand drops in a slumping ...
+                            </p>
+                            <div class="storyMeta">
+                              <span class="dateline">
+                                July 17, 2013
+                              </span>
+                               - 
+                              <span class="byline">
+                                By STEVE LOHR
+                              </span>
+                               - 
+                              <span class="section">
+                                Technology - Article
+                              </span>
+                               - 
+                              <span class="printHeadline">
+                                Print Headline: "Revenue Falls, but Profit Tops Forecast at I.B.M."
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                      </ol>
+                    </div>
+                    <div class="textAds lastTextAds wrap">
+                      <div id="SponSearch3" style="font-weight: normal; text-align: center;">
+                        <iframe allowtransparency="true" style="visibility: hidden; height: 0px;" width="100%" name="slave-2-1|{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-1-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;004276&quot;,&quot;colorDomainLink&quot;:&quot;004276&quot;,&quot;colorBackground&quot;:&quot;E7EFF9&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;166px&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;SponSearch2&quot;},&quot;slave-2-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;004276&quot;,&quot;colorDomainLink&quot;:&quot;004276&quot;,&quot;colorBackground&quot;:&quot;E7EFF9&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;16px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;SponSearch3&quot;},&quot;master-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;004276&quot;,&quot;colorDomainLink&quot;:&quot;004276&quot;,&quot;colorBackground&quot;:&quot;E7EFF9&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;16px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;SponSearch1&quot;}}" id="slave-2-1" src="//www.google.com/uds/afs?q=ibm&amp;client=newyorktimes-cse&amp;adsafe=high&amp;r=s&amp;adpage=0&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404%2C7000108&amp;jsei=4&amp;format=w2&amp;ad=n0&amp;nocache=1951388986143192&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;adext=as1%2Csr1&amp;rurl=http%3A%2F%2Fquery.nytimes.com%2Fsearch%2Fsitesearch%2F%23%2Fibm&amp;referer=http%3A%2F%2Fwww.nytimes.com%2F#slave-2-1">
+                        </iframe>
+                      </div>
+                    </div>
+                    <div class="relatedSearchesModule wrap" style="display: none;">
+                    </div>
+                    <div class="googleFooter wrap">
+                      <div>
+                        Search results powered by Google Custom Search
+                      </div>
+                    </div>
+                    <div class="feedBackFooter">
+                      <a href="mailto:search_feedback@nytimes.com?subject=NYTimes%20Search%20Feedback">
+                        Search Feedback
+                      </a>
+                    </div>
+                    <div class="searchPagination wrap" id="searchPagination">
+                      <span data-page_number="0" class="pageNumber selectedPage">
+                        1
+                      </span>
+                      <a data-direction="next" class="stepToPage next">
+                        Next »
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- close bColumn -->              </div>
+              <!-- close abColumn -->              <div class="cColumn">
+                <!--cur: prev:-->                <div class="columnGroup first">
+                  <div class="textAds firstTextAds columnGroup firstColumn wrap">
+                    <div id="SponSearch2" style="width: 166px; font-weight: normal; text-align: center;">
+                      <iframe allowtransparency="true" style="visibility: hidden; height: 0px;" width="100%" name="slave-1-1|{&quot;name&quot;:&quot;master-1&quot;,&quot;slave-1-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;004276&quot;,&quot;colorDomainLink&quot;:&quot;004276&quot;,&quot;colorBackground&quot;:&quot;E7EFF9&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;width&quot;:&quot;166px&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;SponSearch2&quot;},&quot;slave-2-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;004276&quot;,&quot;colorDomainLink&quot;:&quot;004276&quot;,&quot;colorBackground&quot;:&quot;E7EFF9&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;16px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;SponSearch3&quot;},&quot;master-1&quot;:{&quot;lines&quot;:3,&quot;colorTitleLink&quot;:&quot;004276&quot;,&quot;colorDomainLink&quot;:&quot;004276&quot;,&quot;colorBackground&quot;:&quot;E7EFF9&quot;,&quot;linkTarget&quot;:&quot;_blank&quot;,&quot;fontSizeTitle&quot;:&quot;16px&quot;,&quot;adIconLocation&quot;:&quot;ad-left&quot;,&quot;plaFormat&quot;:&quot;twoColumn&quot;,&quot;type&quot;:&quot;ads&quot;,&quot;columns&quot;:1,&quot;horizontalAlignment&quot;:&quot;left&quot;,&quot;resultsPageQueryParam&quot;:&quot;query&quot;,&quot;container&quot;:&quot;SponSearch1&quot;}}" id="slave-1-1" src="//www.google.com/uds/afs?q=ibm&amp;client=newyorktimes-cse&amp;adsafe=high&amp;r=s&amp;adpage=0&amp;oe=UTF-8&amp;ie=UTF-8&amp;fexp=21404%2C7000108&amp;jsei=4&amp;format=n7&amp;ad=n0&amp;nocache=1811388986143196&amp;num=0&amp;output=uds_ads_only&amp;v=3&amp;adext=as1%2Csr1&amp;rurl=http%3A%2F%2Fquery.nytimes.com%2Fsearch%2Fsitesearch%2F%23%2Fibm&amp;referer=http%3A%2F%2Fwww.nytimes.com%2F#slave-1-1">
+                      </iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- close wideA -->          </div>
+          <!-- close spanAB -->        </div>
+        <!-- close main -->        <footer class="pageFooter">
+          <div class="inset">
+            <nav class="pageFooterNav">
+              <ul class="pageFooterNavList wrap">
+                <li class="firstItem">
+                  <a href="http://www.nytco.com/">
+                    © 2014 The New York Times Company
+                  </a>
+                </li>
+                <li>
+                  <a href="http://spiderbites.nytimes.com/">
+                    Site Map
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.nytimes.com/privacy">
+                    Privacy
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.nytimes.com/ref/membercenter/help/privacy.html#pp">
+                    Your Ad Choices
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.nytimes.whsites.net/mediakit/">
+                    Advertise
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html ">
+                    Terms of Sale
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.nytimes.com/ref/membercenter/help/agree.html">
+                    Terms of Service
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.nytco.com/careers">
+                    Work With Us
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.nytimes.com/rss">
+                    RSS
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.nytimes.com/membercenter/sitehelp.html">
+                    Help
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">
+                    Contact Us
+                  </a>
+                </li>
+                <li class="lastItem">
+                  <a href="https://myaccount.nytimes.com/membercenter/feedback.html">
+                    Site Feedback
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- close inset -->        </footer>
+        <!-- close pageFooter -->      </div>
+      <!-- close page -->    </div>
+    <!-- close shell -->    <script type="text/javascript">
+//<![CDATA[
+
+var dcsvid = "";
+var regstatus = "non-registered";
+
+//]]>
+    </script>
+    <script src="http://graphics8.nytimes.com/js/app/analytics/trackingTags_v1.1.js" type="text/javascript">
+    </script>
+    <script src="http://et.nytimes.com/?subject=page&amp;url=http%3A%2F%2Fquery.nytimes.com%2Fsearch%2Fsitesearch%2F%23%2Fibm&amp;assetUrl=http%3A%2F%2Fquery.nytimes.com%2Fsearch%2Fsitesearch%2F%23%2Fibm&amp;referrer=http%3A%2F%2Fwww.nytimes.com%2F&amp;impressions=&amp;totalTime=0&amp;sourceApp=nyt4&amp;callback=NYTD.EventTracker.cb0&amp;pageMetaData=%7B%22PT%22%3A%22Search%22%2C%22CG%22%3A%22Search%22%2C%22SCG%22%3A%22cse%22%2C%22byl%22%3A%22%22%2C%22tom%22%3A%22%22%2C%22hdl%22%3A%22%22%2C%22ptime%22%3A%22%22%2C%22cre%22%3A%22%22%2C%22articleid%22%3A%22%22%7D&amp;additionalClientData=%7B%22ul%22%3A%22en-us%22%2C%22js%22%3A%22Yes%22%2C%22jv%22%3A%221.3%22%2C%22fi%22%3A%22No%22%2C%22tz%22%3A-5%2C%22bh%22%3A0%2C%22cd%22%3A24%2C%22sr%22%3A%221024x768%22%2C%22bs%22%3A%221256x985%22%2C%22jo%22%3A%22No%22%7D">
+    </script>
+    <noscript/>
+    <!-- Start UPT call -->    <img height="1" width="3" border="0" src="http://up.nytimes.com/?d=0//&amp;t=&amp;s=0&amp;ui=&amp;r=http%3A%2F%2Fwww.nytimes.com%2F&amp;u=query.nytimes.com%2Fsearch%2Fsitesearch%2F"/>
+    <!-- End UPT call -->    <script type="text/javascript" language="JavaScript" src="http://graphics8.nytimes.com/js2/build/sitewide/sitewide.js">
+    </script>
+    <script src="http://graphics8.nytimes.com/js/mtr.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)">
+    </script>
+    <script src="http://graphics8.nytimes.com/js2/build/timespeople/build.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)">
+    </script>
+    <script type="text/javascript" language="JavaScript" src="http://graphics8.nytimes.com/js/app/googlecse/1.0/min.js">
+    </script>
+    <script src="http://www.google.com/adsense/search/ads.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)">
+    </script>
+    <script src="//www.google.com/ads/search/module/ads/3.0/9a42d84df4b1d5f5c322eefa74d783ef5bb006d4/n/search.js" type="text/javascript">
+    </script>
+    <div id="BF_WIDGET_1">
+       
+      <script type="text/javascript" src="http://ct.buzzfeed.com/wd/UserWidget?u=nytimes.com&amp;to=1&amp;or=vb&amp;wid=1&amp;cb=1388986141709">
+      </script>
+    </div>
+    <div id="nytRegiModalContainer" class="nytRegiModalContainer nytModalContainer" style="display:none; z-index:2147483645;">
+      <div class="nytOverlay" style="background: transparent;">
+      </div>
+      <div class="nytModal nytRegiModal  " style="width: 360px;">
+        <div class="inset">
+          <div class="nytModalHeader">
+            <div class="opposingFloatControl">
+              <div class="element1">
+                <h5 class="nytModalHeading">
+                  Register at NYTimes.com
+                </h5>
+              </div>
+              <div class="element2 ">
+                <a href="#" class="nytModalClose">
+                  Close
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="nytModalContent singleRule">
+            <div class="inset">
+              <div class="horizontalFormControl horizontalModalFormControl">
+                <form validate="" id="regiModalForm" class="regiModalForm modalForm" method="post">
+                  <input type="hidden" name="is_continue" value="false"/>
+                  <input type="hidden" id="validate_email" name="validate_email" value="1"/>
+                  <input type="hidden" id="authRegiToken" name="token" value=""/>
+                  <input type="hidden" id="authRegiExpires" name="expires" value=""/>
+                  <div class="notificationContainer">
+                    <p class="notification">
+                    </p>
+                  </div>
+                  <div class="control email">
+                    <div class="labelContainer">
+                      <div class="insetV">
+                        <label for="regi-email">
+                          E-Mail:
+                        </label>
+                      </div>
+                    </div>
+                    <div class="fieldContainer">
+                      <input type="email" value="" id="regi-email" name="regi-email"/>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <div class="labelContainer">
+                      <div class="insetV">
+                        <label for="regi-password">
+                          Password:
+                        </label>
+                      </div>
+                    </div>
+                    <div class="fieldContainer">
+                      <input type="password" value="" id="regi-password" name="regi-password"/>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <div class="labelContainer">
+                      <div class="insetV">
+                        <label for="regi-password2">
+                          Retype Password:
+                        </label>
+                      </div>
+                    </div>
+                    <div class="fieldContainer">
+                      <input type="password" value="" id="regi-password2" name="regi-password2"/>
+                    </div>
+                  </div>
+                  <div class="control notify checkboxControl">
+                    <div class="fieldContainer">
+                      <input id="specialOffers" class="checkbox" type="checkbox" name="subscribe[]" value="MM" checked=""/>
+                    </div>
+                    <div class="labelContainer">
+                      <label class="checkboxLabel" for="specialOffers">
+                        Receive occasional updates and special offers for The New York Times’s products and services.
+                      </label>
+                    </div>
+                  </div>
+                  <div class="control buttonControl">
+                    <div class="fieldContainer containingBlock">
+                      <span id="submitLoader" class="submitLoader hidden">
+                        <img src="http://i1.nyt.com/images/loaders/loading-grey-lines-circle-18.gif"/>
+                      </span>
+                      <button type="submit" id="regiModalSubmitButton" class="applicationButton">
+                        Create My Account
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nytModalPointer nytModalPointerDown" style="">
+        </div>
+      </div>
+    </div>
+    <div id="nytLoginModalContainer" class="nytLoginModalContainer nytModalContainer" style="display:none; z-index:2147483645;">
+      <div class="nytOverlay" style="background: transparent;">
+      </div>
+      <div class="nytModal nytLoginModal  " style="width: 360px;">
+        <div class="inset">
+          <div class="nytModalHeader">
+            <div class="opposingFloatControl">
+              <div class="element1">
+                <h5 class="nytModalHeading">
+                  Log in to NYTimes.com
+                </h5>
+              </div>
+              <div class="element2 ">
+                <a href="#" class="nytModalClose">
+                  Close
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="nytModalContent singleRule">
+            <div class="inset">
+              <div class="horizontalFormControl">
+                <form id="loginModalForm" class="loginModalForm" method="post" action="https://myaccount.nytimes.com/auth/login?URI=http%3A%2F%2Fquery.nytimes.com%2Fsearch%2Fsitesearch%2F%23%2Fibm">
+                  <input type="hidden" name="is_continue" value="false"/>
+                  <input id="authLoginToken" type="hidden" name="token" value=""/>
+                  <input id="authLoginExpires" type="hidden" name="expires" value=""/>
+                  <div class="errorContainer">
+                  </div>
+                  <div class="control">
+                    <div class="labelContainer">
+                      <div class="insetV">
+                        <label for="user">
+                          E-Mail/Member ID:
+                        </label>
+                      </div>
+                    </div>
+                    <div class="fieldContainer">
+                      <input type="text" class="text" value="" id="user" name="userid"/>
+                    </div>
+                  </div>
+                  <div class="control passwordControl">
+                    <div class="labelContainer containingBlock">
+                      <div class="insetV">
+                        <label for="password">
+                          Password:
+                        </label>
+                        <span class="labelDescription">
+                          <a href="http://www.nytimes.com/forgot">
+                            Forgot your password?
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="fieldContainer">
+                      <input type="password" class="text" value="" id="password" name="password"/>
+                    </div>
+                  </div>
+                  <div class="control horizontalControl loginSubmitControl lastControl">
+                    <div class="insetContainer wrap">
+                      <div class="control buttonControl">
+                        <button type="submit" class="loginButton applicationButton">
+                          Log In
+                        </button>
+                      </div>
+                      <div class="control checkboxControl">
+                        <div class="fieldContainer">
+                          <input type="checkbox" id="rememberMe" name="rememberMe" class="checkbox" value="on"/>
+                        </div>
+                        <div class="labelContainer">
+                          <label class="checkboxLabel" for="rememberMe">
+                            Remember me
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nytModalPointer nytModalPointerDown" style="">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

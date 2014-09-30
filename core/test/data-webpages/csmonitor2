@@ -1,0 +1,2221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:fb="http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      Search - CSMonitor.com
+    </title>
+    <meta content="The Christian Science Monitor" name="author"/>
+    <meta content="The Christian Science Monitor" name="copyright"/>
+    <meta content="The Christian Science Monitor - an independent daily newspaper providing context and clarity on national and international news, peoples and cultures, and social trends." name="description"/>
+    <meta content="daily newspaper, online world news, international, current events, us news, headlines, article, features, George W. Bush, newspaper, archives, editorials, education, work, money, opinion, arts, weather, travel, financial services, Iraq, books, weather, Christian Science Monitor, csmonitor" name="keywords"/>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <meta content="false" http-equiv="imagetoolbar"/>
+    <link title="CSMonitor.com front page" href="/" rel="Home"/>
+    <link href="/" rel="Index"/>
+    <link title="CSMonitor.com" href="/" rel="Top"/>
+    <link title="Search CSMonitor.com" href="/content/search" rel="Search"/>
+    <link type="image/x-icon" href="/extension/csm_base/design/csm_design/images/favicon.ico" rel="Shortcut icon"/>
+    <link href="http://www.csmonitor.com//content/search" rel="canonical"/>
+    <link href="/var/ezflow_site/cache/public/stylesheets/b4d7de73c2fc893b225f49ff7d9eda1f_1394102149_all.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body class="r09 story">
+    <noscript>
+      &lt;style type="text/css"&gt;
+	
+	.nojs {display:block;}
+	body {margin-bottom:2em;}
+	
+	&lt;/style&gt;
+
+    </noscript>
+    <script type="text/javascript" async="" src="http://ad.crwdcntrl.net/5/c=1859/pe=y/callback=_nw2e.closures.c0">
+    </script>
+    <script id="facebook-jssdk" async="" src="//connect.facebook.net/en_US/all.js">
+    </script>
+    <script type="text/javascript" async="" src="http://ak.sail-horizon.com/horizon/v1.js">
+    </script>
+    <script type="text/javascript" async="" src="http://cdn.cxense.com/cx.js">
+    </script>
+    <script src="http://edge.quantserve.com/quant.js" async="" type="text/javascript">
+    </script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js">
+    </script>
+    <script async="" type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+var tb_pathToImage = "/extension/csm_base/design/csm_design/images/loadingAnimation.gif";
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+
+	
+	var mobileChecker =
+	{
+		maxScreenWidth : 2000,
+
+		replaceSearch  : 'http://www',
+		replaceValue   : 'http://m',
+
+		showReturnBtn   : false,
+		isPocketDevice  : navigator.userAgent.match(/(iPhone|iPod|BlackBerry|IEMobile|Windows Phone|Symbian|Windows CE|htc_flyer|DoCoMo|SAMSUNG-SGH)/),
+		isAndroidMobile : navigator.userAgent.match(/(Android)/),
+		isiPad          : navigator.userAgent.match(/(iPad)/),
+		hasMobileString : navigator.userAgent.match(/(Mobile|Mobi)/),
+		redirect        : function()
+		                 {
+		                 	if( !this.isDisabled() )
+		                 	{
+			                 	var redirectTarget = document.URL.replace( this.replaceSearch, this.replaceValue );
+			                 	
+			                 	if( redirectTarget != document.URL )
+			                 	{
+		                            //it won't set a referer
+		                            this.setReferrer();
+		                            
+				                    window.location = redirectTarget;
+				             	}
+		                     }
+		                     else
+		                     {
+		                     	this.showReturnBtn = true;
+		                     }
+		                 },
+		run            : function()
+		                 {
+							if( this.isPocketDevice &amp;&amp; !this.isiPad )
+							{
+								this.redirect();
+							}
+							
+							if( this.isAndroidMobile &amp;&amp; this.hasMobileString )
+							{
+								this.redirect();
+							}
+		                 },
+		isDisabled      : function()
+		                  {
+							var i,x,y,ARRcookies=document.cookie.split(';');
+							for (i=0;i&lt;ARRcookies.length;i++)
+							{
+							  x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+							  y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+							  x=x.replace(/^\s+|\s+$/g,"");
+							  if( x == 'DsblMblRdrct' )
+							    {
+							      return true;
+							    }
+							  }
+							  
+							  return false;
+		                  },
+		setReferrer      : function()
+		                   {
+		                   	document.cookie = 'cookie_referrer' + '=' + escape( document.referrer ) + ';path=/;domain=csmonitor.com';
+		                   }
+	};
+
+	mobileChecker.run();
+
+
+//]]>
+    </script>
+    <script charset="utf-8" src="/var/ezflow_site/cache/public/javascript/8d4158c2d406fb93c28111d34cbad268_1395392040.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+jQuery.noConflict();
+//]]>
+    </script>
+    <script src="//service.maxymiser.net/cdn/csmonitor/js/mmcore.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+        
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') + 
+        '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+        })();
+        
+        
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+			var googleAdSlots = {};
+		googletag.cmd.push(function()
+		{																				
+																					
+					googleAdSlots.ad_footer_banner = googletag.defineSlot('/1010203/728x90B_General', [728,90], 'div-gpt-ad-ad_footer_banner').addService(googletag.pubads());
+																										
+																					
+					googleAdSlots.ad_footer_1 = googletag.defineSlot('/1010203/300x250C_General', [300,250], 'div-gpt-ad-ad_footer_1').addService(googletag.pubads());
+																										
+																					
+					googleAdSlots.ad_block_1 = googletag.defineSlot('/1010203/300x250-600-1050', [[300,250],[300,600],[300,1050]], 'div-gpt-ad-ad_block_1').addService(googletag.pubads());
+																										
+																																																	
+																													
+					googleAdSlots.ad_block_2 = googletag.defineSlot('/1010203/300x250B_General', [300,250], 'div-gpt-ad-ad_block_2').addService(googletag.pubads());
+																										
+																					
+					googleAdSlots.ad_block_3 = googletag.defineSlot('/1010203/300x250C_General', [300,250], 'div-gpt-ad-ad_block_3').addService(googletag.pubads());
+																																	
+																																																	
+																													
+					googleAdSlots.top_banner = googletag.defineSlot('/1010203/728x90A_General', [728,90], 'div-gpt-ad-top_banner').addService(googletag.pubads());
+																										
+																					
+					googleAdSlots.footer_last_1 = googletag.defineSlot('/1010203/1x1A', [1,1], 'div-gpt-ad-footer_last_1').addService(googletag.pubads());
+																																	googletag.pubads().collapseEmptyDivs();
+googletag.enableServices();
+		
+			
+						
+						
+			
+			
+			
+			
+			(function(){
+				var hasFlash = ((typeof navigator.plugins != "undefined" &amp;&amp; typeof navigator.plugins["Shockwave Flash"] == "object") || (window.ActiveXObject &amp;&amp; (new ActiveXObject("ShockwaveFlash.ShockwaveFlash")) != false));
+				hasFlash = hasFlash ? 'yes' : 'no';
+				googletag.pubads().setTargeting('hasFlash', hasFlash);
+			})();
+			
+			
+			
+			googletag.pubads().setTargeting('page_url', jQuery( 'head link[rel = "canonical" ]' ).attr( 'href' ) );
+                        
+                        
+                        
+                        (function(){
+                                var visitNum;
+                                var parts = document.cookie.split("s_vnum=");
+                                if (parts.length === 2) {
+                                    vn = parts.pop().split(";").shift().split("vn%3D").pop();
+                                }
+                                vn = parseInt(vn);
+                                if (vn === 1) {
+                                    visitNum = "1";
+                                } 
+                                else if (vn &gt; 1 &amp;&amp; vn &lt; 5) {
+                                    visitNum = "2-4";
+                                }
+                                else if (vn &gt; 4) {
+                                    visitNum = "5 or more";
+                                }
+                                else {
+                                    visitNum = "unknown";
+                                }
+                                googletag.pubads().setTargeting('visitNum', visitNum );
+                        })();
+                        
+                            
+                        
+		});
+		
+        
+        
+		
+		
+			(function()
+			{
+				window.googletag = window.googletag || {};
+				window.googletag.cmd = window.googletag.cmd || [];
+			
+				googletag.cmd.push(function()
+				{
+					var _startTime = new Date();
+					var _log = googletag.debug_log.log;
+					var addEvent = function( name, match )
+					{
+						events.push(
+						{
+							"name":name,
+							"match":match
+						});
+					}
+	
+					var events = [];
+	
+					addEvent( "gpt-page_load_complete",			/Page load complete/ig);
+					addEvent( "gpt-slot_rendered",				/Completed rendering ad for slot (.*)/ig);
+				
+					googletag.debug_log.log = function( level, message, service, slot, reference)
+					{
+						// "arguments" is an array-like object corresponding to the arguments passed to a function
+						// Array.prototype.slice.call() turns it into an array so that we can pass the same arguments to the trigger
+						var _arguments = Array.prototype.slice.call( arguments );
+						
+						// Add timing info
+						_arguments.push( new Date().getTime() - _startTime.getTime() );
+						
+						// See whether the log message matches any of our desired events
+						for( var e = 0,el = events.length; e &lt; el; e++ )
+						{
+							//if(message.search(events[e].match) &gt; -1){
+							//	jQuery(googletag).trigger( events[e].name, _arguments );
+							//}
+						}
+						
+						return _log.apply( this,arguments );
+					};
+				});
+			})();
+
+			//on page load complete, we submit collected info to omniture
+			jQuery( googletag ).on( 'gpt-page_load_complete', function( e,level,message,service,slot,reference )
+			{
+				if( typeof s != 'undefined' )
+				{
+					s.linkTrackVars='prop3,prop4,prop5,prop21,prop36,prop40,prop44,prop45,prop46,prop47,prop48,eVar36,events';
+					s.linkTrackEvents='event3';
+					s.events='event3';
+					s.prop44 = googletag.adUnitTiming[ 0 ];
+					s.prop45 = googletag.adUnitTiming[ 1 ];
+					s.prop46 = googletag.adUnitTiming[ 2 ];
+					s.prop47 = googletag.adUnitTiming[ 3 ];
+					s.prop48 = googletag.adUnitTiming[ 4 ];
+
+					s.tl( true, 'o', 'Ad load complete' );
+				}
+			});
+			
+			//stores loading time for specific ad slots
+			jQuery( googletag ).on( 'gpt-slot_rendered', function( e,level,message,service,slot,reference,timing )
+			{
+				var adSlotNames = [  /728x90A/ig, /300x250-600-1050/ig, /300x250B/ig, /300x250C/ig, /728x90B/ig  ];
+				googletag.adUnitTiming  = googletag.adUnitTiming || [ '', '', '', '', '' ];
+				for( var i = 0; i &lt; adSlotNames.length; i++ )
+				{
+					if( message.search( adSlotNames[ i ] ) &gt; -1 )
+					{
+						googletag.adUnitTiming[ i ] = timing;
+					}
+				}
+			});
+			
+		
+	
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+	document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b")
+	+ ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+	
+//]]>
+    </script>
+    <script src="http://b.scorecardresearch.com/beacon.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+	COMSCORE.beacon({	c1:2,
+	c2:"6035073",
+	c3:"",
+	c4:"",
+	c5:"",
+	c6:"",
+	c15:""
+	});
+	
+//]]>
+    </script>
+    <noscript>
+      &lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="" /&gt;
+    </noscript>
+    <script type="text/javascript">
+//<![CDATA[
+
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-69821-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	
+//]]>
+    </script>
+    <!-- Chartbeat -->    <script type="text/javascript">
+//<![CDATA[
+var _sf_startpt=(new Date()).getTime()
+//]]>
+    </script>
+    <!-- Quantcast -->    <script type="text/javascript">
+//<![CDATA[
+
+
+  var _qevents = _qevents || [];
+
+  (function() {
+   var elem = document.createElement('script');
+
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);  
+  })();
+
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+jQuery(function(){	CsmJsLibNamespace.omniture.trackingCookie.setup( 'desktopSelectors' );});
+
+//]]>
+    </script>
+    <script async="" type="text/javascript" src="http://partner.googleadservices.com/gpt/pubads_impl_35.js">
+    </script>
+    <style type="text/css">
+      .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&amp;gt;div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&amp;gt;span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}
+    </style>
+    <div class="skipper">
+       Skip to: 
+      <a href="#contentBounds">
+        Content
+      </a>
+      <br/>
+      
+	Skip to: 
+      <a href="#mNav">
+        Site Navigation
+      </a>
+      <br/>
+      
+	Skip to: 
+      <a href="#search">
+        Search
+      </a>
+      <br/>
+      <div class="hr">
+        <hr/>
+      </div>
+    </div>
+    <div id="return_mobile_container">
+      <p>
+        <a href="http://m.csmonitor.com/content/search">
+          <img title="Return to Mobile" src="/extension/csm_base/design/csm_design/images/return-mobile_btn.png"/>
+        </a>
+      </p>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+
+
+	if( typeof mobileChecker !== 'undefined' )
+	{
+		if( mobileChecker.showReturnBtn )
+		{
+			jQuery( '#return_mobile_container' ).css( 'display', 'block' );
+		}
+	}
+
+
+//]]>
+    </script>
+    <div id="pageHeader">
+      <div id="mNav">
+        <div class="ui-centered">
+          <div id="mNav-right" class="ui-mNav-right">
+            <div title="Follow us" class="ui-csm-social-profiles">
+              <a target="_blank" title="Follow us on Google+" href="https://plus.google.com/u/0/b/106478337234414923781/106478337234414923781/posts" class="google_plus">
+              </a>
+              <a target="_blank" title="Follow us on Twitter" href="http://www.twitter.com/CSMonitor" class="twitter">
+              </a>
+              <a target="_blank" title="Follow us on Facebook" href="http://www.facebook.com/ChristianScienceMonitor" class="facebook">
+              </a>
+            </div>
+            <div class="search">
+              <form action="/content/search" id="search" name="search">
+                <label for="query" id="searchLabel">
+                  Search
+                </label>
+                <input type="text" value="" id="query" name="SearchText" size="15"/>
+                <input type="submit" alt="Submit" value="Go" class="btn" id="searchbutton"/>
+              </form>
+            </div>
+          </div>
+          <ul id="mNav-list">
+            <li id="mNav-90">
+              <a href="/World" class="first">
+                World
+              </a>
+            </li>
+            <li id="mNav-91">
+              <a href="/USA" class="">
+                USA
+              </a>
+            </li>
+            <li id="mNav-92">
+              <a href="/Commentary" class="">
+                Commentary
+              </a>
+            </li>
+            <li id="mNav-93">
+              <a href="/Business" class="">
+                Business
+              </a>
+            </li>
+            <li id="mNav-94">
+              <a href="/Environment" class="">
+                Energy/Environment
+              </a>
+            </li>
+            <li id="mNav-95">
+              <a href="/Innovation" class="">
+                Innovation
+              </a>
+            </li>
+            <li id="mNav-123">
+              <a href="/Science" class="">
+                Science
+              </a>
+            </li>
+            <li id="mNav-124">
+              <a href="/The-Culture" class="">
+                Culture
+              </a>
+            </li>
+            <li id="mNav-97">
+              <a href="/Books" class="">
+                Books
+              </a>
+            </li>
+          </ul>
+          <div class="clear">
+          </div>
+        </div>
+      </div>
+      <div id="sNav">
+        <div class="ui-centered">
+          <div id="sNav-left" class="ui-sNav-left">
+            <div class="ui-newsticker-wrapper">
+              <div class="color_red" id="newsticker" style="display: block;">
+                <div class="kicker">
+                  <a href="http://link.csmonitor.com/join/34f/signup">
+                    				Sign up for FREE E-Newsletters: 
+			
+                  </a>
+                </div>
+                <div class="content">
+                  <ul style="position: relative; height: 0px;">
+                    <li style="position: absolute; top: 0px; opacity: 1;">
+                      <a href="http://link.csmonitor.com/join/34f/signup?cmpid=ticker">
+                        Daily Top Stories
+                      </a>
+                    </li>
+                    <li style="position: absolute; top: 0px; opacity: 0;">
+                      <a href="http://link.csmonitor.com/join/34f/signup?cmpid=ticker">
+                        Weekend Edition
+                      </a>
+                    </li>
+                    <li style="position: absolute; top: 0px; opacity: 0;">
+                      <a href="http://link.csmonitor.com/join/34f/signup?cmpid=ticker">
+                        Change Agent
+                      </a>
+                    </li>
+                    <li style="position: absolute; top: 0px; opacity: 0;">
+                      <a href="http://link.csmonitor.com/join/34f/signup?cmpid=ticker">
+                        Books
+                      </a>
+                    </li>
+                    <li style="position: absolute; top: 0px; opacity: 0;">
+                      <a href="http://link.csmonitor.com/join/34f/signup?cmpid=ticker">
+                        BizTech
+                      </a>
+                    </li>
+                    <li style="position: absolute; top: 0px; opacity: 0;">
+                      <a href="http://link.csmonitor.com/join/34f/signup?cmpid=ticker">
+                        Opinion &amp; Commentary
+                      </a>
+                    </li>
+                    <li style="position: absolute; top: 0px; opacity: 0;">
+                      <a href="http://link.csmonitor.com/join/34f/signup?cmpid=ticker">
+                        Politics
+                      </a>
+                    </li>
+                    <li style="position: absolute; top: 0px; opacity: 0;">
+                      <a href="http://link.csmonitor.com/join/34f/signup?cmpid=ticker">
+                        Food (Stir It Up!)
+                      </a>
+                    </li>
+                    <li style="position: absolute; top: 0px; opacity: 0;">
+                      <a href="http://link.csmonitor.com/join/34f/signup?cmpid=ticker">
+                        Science
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="clear">
+                </div>
+              </div>
+              <script type="text/javascript">
+//<![CDATA[
+
+	
+		jQuery('#newsticker' ).fadeIn( 'fast' );
+		jQuery('#newsticker ul').rollchildren(
+		{  
+			delay_time : 5000,
+			loop : true,
+			pause_on_mouseover : true,
+			roll_up_old_item : true,
+			speed: 'slow',
+		});
+		
+		jQuery.each( jQuery('#newsticker li a'), function( key, value )
+		{
+			newLink = jQuery( this ).attr( 'href' ) + '?cmpid=ticker';
+			jQuery( this ).attr( 'href', newLink );
+		});
+	
+	
+//]]>
+              </script>
+            </div>
+            <div class="clear">
+            </div>
+          </div>
+          <div id="sNav-right" class="ad ui-newsletter">
+            <!-- ENTRY updated: Sept 24 2013 -->            <div style="float: right; width: auto; height: auto; margin: 8px 0 0 0; padding: 0; overflow: hidden; background-color: transparent;">
+              <div style="float: left; margin: -2px 0 0 0; padding: 0;">
+                <p style="float: left; margin: 0 0 0 0; padding: 0; color: #cc0000; font-family: arial; font-size: 16px; font-weight: normal;">
+                  <a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=CSX&amp;cds_page_id=143462&amp;cds_response_key=I3KCSXEP2" style="text-decoration: none; color: #cc0000;">
+                    <b>
+                      Subscribe
+                    </b>
+                    <span style="font-size: 12px;">
+                      and
+                    </span>
+                    <b>
+                      save 
+                      <span style="font-size: 16px;">
+                        79
+                      </span>
+                    </b>
+                  </a>
+                </p>
+                <p style="float: left; color: #cc0000; font-family: arial; font-size: 11px; font-weight: normal; margin: 0; padding: 0 0 0 1px;">
+                  <a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=CSX&amp;cds_page_id=143462&amp;cds_response_key=I3KCSXEP2" style="text-decoration: none; color: #cc0000;">
+                    %
+                  </a>
+                </p>
+              </div>
+              <a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=CSX&amp;cds_page_id=143462&amp;cds_response_key=I3KCSXEP2">
+                <img title="Subscribe" alt="Subscribe" src="http://www.csmonitor.com/var/ezflow_site/storage/images/media/images/csm-publishing/subscriptions/subscribe-header/subscribe-header_button-03b_58x20/10563648-1-eng-US/subscribe-header_button-03b_58x20.png" style="border: 0; float: left; width: 58px; height: 20px; margin: 0 0 0 6px; padding: 0;"/>
+              </a>
+              <p style="float: none; clear: both; width: 0; height: 0; margin: 0; padding; 0;">
+                 
+              </p>
+            </div>
+          </div>
+          <div class="clear">
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+//<![CDATA[
+
+
+jQuery('ul.SearchableSelect').each(function()
+{
+  /* Hide list element */
+  jQuery(this).css("display", "none");
+
+  /* Create new ID for the select, use existent Id of UL but add the _Select prefix */
+  var ElementId = jQuery(this).attr("id") + "_Select";
+  
+  /* Create new Select-element */
+  jQuery(this).after("&lt;select id='" + ElementId + "' class='SearchableSelect'&gt;&lt;/select&gt;");
+  
+  /* Loop-through list and add children to select */
+  jQuery(this).find("li").each(function()
+  {
+    /* Setup values */
+    var Anchor = jQuery(this).find("a").eq(0), Value = (Anchor.length &gt; 0 ? jQuery(Anchor).attr("href") : '');
+    var SelectedElement = (jQuery(this).hasClass("SelectedItem") ? ' selected' : '');
+    
+    /* Add child to select */
+    jQuery("#"+ElementId).append("&lt;option value='"+Value+"'"+SelectedElement+"&gt;"+jQuery(this).html()+"&lt;/option&gt;");
+  });
+});
+
+jQuery( 'select.SearchableSelect' ).change( function()
+{
+	if(this.value.length &gt; 0) window.location.href = this.value;
+});
+
+
+
+//]]>
+      </script>
+      <div id="mLeader">
+        <div class="ui-centered">
+          <ul id="mLeader-list" class="align-horizontal">
+            <li>
+              <div id="logo">
+                <a href="/">
+                  <img alt="Christian Science Monitor" src="/extension/csm_base/design/csm_design/images/csmlogo_179x46.gif"/>
+                </a>
+              </div>
+            </li>
+            <li id="mLeader-ad">
+              <div class="hide">
+                Advertisements
+              </div>
+              <div style="min-height:90px;width:728px" id="div-gpt-ad-top_banner" class="ad adMastheadLeader">
+                <script type="text/javascript">
+//<![CDATA[
+
+			googletag.cmd.push(function() { googletag.display( 'div-gpt-ad-top_banner' ); });
+			
+//]]>
+                </script>
+              </div>
+            </li>
+            <li>
+              <div id="ui-about-these-ads-img">
+                <a href="/About/Contact/Feedback/About-these-Ads">
+                  <img width="10" height="90" src="/extension/csm_base/design/csm_design/images/about-these-ads.gif" class="gzvdsnmpmftoqeyyfcdl"/>
+                </a>
+              </div>
+            </li>
+          </ul>
+          <div class="clear">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageBounds">
+      <div id="contentBounds">
+        <div class="hr">
+          <hr/>
+        </div>
+        <div class="ui-search" id="mainColumn">
+          <form method="get" action="/content/search">
+            <h1>
+              Search
+            </h1>
+            <p>
+              <input type="text" value="ibm" name="SearchText" id="Search"/>
+              <input type="submit" value="Search" id="SubmitSearchButton" name="SearchButton" class="button"/>
+            </p>
+            <div class="help">
+              <strong>
+                Tips
+              </strong>
+              <br/>
+              
+				To require a term, add "+" in front. (E.g., 
+              <strong>
+                turkey +thanksgiving
+              </strong>
+              )
+              <br/>
+              
+				To exclude a term, add "-" in front. (E.g., 
+              <strong>
+                turkey -asia
+              </strong>
+              )
+              <br/>
+              
+				Use quotes to search for exact phrases. (E.g., 
+              <strong>
+                "senate majority leader"
+              </strong>
+              )
+              <br/>
+              
+
+								For more options try the 
+              <a href="/content/advancedsearch/?SearchText=ibm">
+                Advanced search
+              </a>
+            </div>
+            <div class="result-header">
+              <h2>
+                Search for "ibm" returned 2030 matches
+              </h2>
+              <strong>
+                Sort by date.
+              </strong>
+              <a href="/content/search/?SearchText=ibm&amp;sort=relevance">
+                Sort by relevance.
+              </a>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <a href="/Business/Latest-News-Wires/2014/0227/IBM-layoffs-expected.-Instead-IBM-adds-500-positions.-video">
+                  <img width="90" height="60" title="" alt="" src="/var/ezflow_site/storage/images/media/content/2014/0227-ibmhires/18153615-1-eng-US/0227-ibmhires_thumbnail_90.jpg"/>
+                </a>
+              </div>
+              <h5 class="ui-caption">
+                <a href="/Business/Latest-News-Wires/2014/0227/IBM-layoffs-expected.-Instead-IBM-adds-500-positions.-video" class="video-icon">
+                  IBM layoffs expected. Instead, IBM adds 500 positions. (+video)
+                </a>
+              </h5>
+              <p class="ui-summary">
+                <b>
+                  IBM
+                </b>
+                 said Monday it will keep 3,100 high-tech jobs in upstate New York and add 500 more in Buffalo.
+
+The agreement between the company and the State University of New York College of Nanoscale ...  
+
+                <b>
+                  IBM
+                </b>
+                 layoffs have been put on hold, says union of 
+                <b>
+                  IBM
+                </b>
+                 workers. Instead of layoffs, 
+                <b>
+                  IBM
+                </b>
+                 announced this week that it's adding 500 jobs in Buffalo.
+ ...  
+                <b>
+                  IBM
+                </b>
+                 layoffs expected. Instead, 
+                <b>
+                  IBM
+                </b>
+                 adds 500 positions. (+video)
+                <br/>
+                <em>
+                  02/27/2014 12:50 am
+                </em>
+              </p>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <a href="/Innovation/Latest-News-Wires/2014/0204/Satya-Nadella-ushers-in-new-era-at-Microsoft">
+                  <img width="90" height="60" title="" alt="" src="/var/ezflow_site/storage/images/media/content/2014/0204_inno_satya_ceo/17993399-1-eng-US/0204_Inno_Satya_CEO_thumbnail_90.jpg"/>
+                </a>
+              </div>
+              <h5 class="ui-caption">
+                <a href="/Innovation/Latest-News-Wires/2014/0204/Satya-Nadella-ushers-in-new-era-at-Microsoft">
+                  Satya Nadella ushers in new era at Microsoft
+                </a>
+              </h5>
+              <p class="ui-summary">
+                
+			 in cloud computing include Google Inc., Amazon.com Inc., Salesforce.com Inc. and 
+                <b>
+                  IBM
+                </b>
+                 Corp.
+
+FBR Capital Markets analyst Daniel Ives said he views Nadella as a "safe pick."
+
+Ives said investors
+                <br/>
+                <em>
+                  02/04/2014 10:27 pm
+                </em>
+              </p>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <a href="/Innovation/2014/0130/Smart-phone-shift-Google-sells-Motorola-to-Lenovo">
+                  <img width="90" height="60" title="" alt="" src="/var/ezflow_site/storage/images/media/content/2013/0805/05-07-2013-motox.jpg/16546621-1-eng-US/05-07-2013-motox.JPG_thumbnail_90.jpg"/>
+                </a>
+              </div>
+              <h5 class="ui-caption">
+                <a href="/Innovation/2014/0130/Smart-phone-shift-Google-sells-Motorola-to-Lenovo">
+                  Smart phone shift: Google sells Motorola to Lenovo
+                </a>
+              </h5>
+              <p class="ui-summary">
+                
+			 an acquisition spree starting in 2005, when it bought 
+                <b>
+                  IBM’s
+                </b>
+                 PC business. It has continued to make moves in the PC space by acquiring 
+                <b>
+                  IBM’s
+                </b>
+                 low-end server business earlier this year.
+	
+
+“This puts Lenovo
+                <br/>
+                <em>
+                  01/30/2014 10:40 pm
+                </em>
+              </p>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <a href="/World/Middle-East/2014/0128/Israel-hopes-to-cash-in-on-the-world-s-cyber-insecurity">
+                  <img width="90" height="60" title="" alt="" src="/var/ezflow_site/storage/images/media/content/2014/0128/0128-israel-cyber-netanyahu/17935939-1-eng-US/0128-israel-cyber-Netanyahu_thumbnail_90.jpg"/>
+                </a>
+              </div>
+              <h5 class="ui-caption">
+                <a href="/World/Middle-East/2014/0128/Israel-hopes-to-cash-in-on-the-world-s-cyber-insecurity">
+                  Israel hopes to cash in on the world's cyber insecurity
+                </a>
+              </h5>
+              <p class="ui-summary">
+                
+			 a deal yesterday to create a joint cyber center in Beersheva, as well as 
+                <b>
+                  IBM
+                </b>
+                , which also yesterday announced a new center of excellence at BGU.
+
+“We’re competitors but we understand together
+                <br/>
+                <em>
+                  01/28/2014 03:15 pm
+                </em>
+              </p>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <a href="/Business/Latest-News-Wires/2013/1229/Global-retirement-crisis-What-it-means-from-Tokyo-to-Paris">
+                  <img width="90" height="60" title="" alt="" src="/var/ezflow_site/storage/images/media/content/2013/1229_business_retirementcrisis/17732989-1-eng-US/1229_Business_RetirementCrisis_thumbnail_90.jpg"/>
+                </a>
+              </div>
+              <h5 class="ui-caption">
+                <a href="/Business/Latest-News-Wires/2013/1229/Global-retirement-crisis-What-it-means-from-Tokyo-to-Paris">
+                  Global retirement crisis: What it means from Tokyo to Paris
+                </a>
+              </h5>
+              <p class="ui-summary">
+                
+			;Travel is our biggest expense," he says.
+
+In Rochester, Minn., Elaine Case, 58, and her husband, Bill Wiktor, 61, both retired at 56 after three-decade careers at 
+                <b>
+                  IBM
+                </b>
+                . They have company pensions
+                <br/>
+                <em>
+                  12/29/2013 01:38 pm
+                </em>
+              </p>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <a href="/Innovation/2013/1227/Santa-leaves-smart-phone-steps-in-Mobile-sales-soar-on-Christmas-Day">
+                  <img width="90" height="60" title="" alt="" src="/var/ezflow_site/storage/images/media/content/2011/1128/1128-asears-cyber-monday/11095420-1-eng-US/1128-ASEARS-CYBER-MONDAY_thumbnail_90.jpg"/>
+                </a>
+              </div>
+              <h5 class="ui-caption">
+                <a href="/Innovation/2013/1227/Santa-leaves-smart-phone-steps-in-Mobile-sales-soar-on-Christmas-Day">
+                  Santa leaves, smart phone steps in: Mobile sales soar on Christmas Day
+                </a>
+              </h5>
+              <p class="ui-summary">
+                
+			
+After Santa left presents under the tree, tech-savvy shoppers turned to their smart phones and tablets to keep the gifts coming.
+
+A report from 
+                <b>
+                  IBM
+                </b>
+                 Digital Analytics Benchmark monitoring Christmas ...  
+The presents may have been under the tree, but that doesn't mean the shopping is over: a report from 
+                <b>
+                  IBM
+                </b>
+                 shows that Christmas Day brought one of the biggest mobile shopping days of the year.
+
+                <br/>
+                <em>
+                  12/27/2013 04:53 pm
+                </em>
+              </p>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <a href="/Innovation/2013/1210/AllSeen-Alliance-What-is-the-Internet-of-Things">
+                  <img width="90" height="60" title="" alt="" src="/var/ezflow_site/storage/images/media/content/2013/0722/0722-business-tech6/16424737-1-eng-US/0722-business-tech6_thumbnail_90.jpg"/>
+                </a>
+              </div>
+              <h5 class="ui-caption">
+                <a href="/Innovation/2013/1210/AllSeen-Alliance-What-is-the-Internet-of-Things">
+                  AllSeen Alliance: What is the 'Internet of Things'?
+                </a>
+              </h5>
+              <p class="ui-summary">
+                
+			---goes well beyond the connected home," he says. "Industries will be where most of the returns of the Internet of things lies.”
+	
+
+Mr. Dignan suggests that big players such as 
+                <b>
+                  IBM
+                </b>
+                , Oracle, and SAP
+                <br/>
+                <em>
+                  12/10/2013 02:37 pm
+                </em>
+              </p>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <a href="/Innovation/2013/1203/The-cloud-computing-race-ramps-up-with-Google-Compute-Engine">
+                  <img width="90" height="66" title="" alt="" src="/var/ezflow_site/storage/images/media/content/2013/1018/google-logo/17241071-1-eng-US/Google-logo_thumbnail_90.jpg"/>
+                </a>
+              </div>
+              <h5 class="ui-caption">
+                <a href="/Innovation/2013/1203/The-cloud-computing-race-ramps-up-with-Google-Compute-Engine">
+                  The cloud computing race ramps up with Google Compute Engine
+                </a>
+              </h5>
+              <p class="ui-summary">
+                
+			 genetic diseases in Brazil and around the world."
+
+Microsoft, 
+                <b>
+                  IBM
+                </b>
+                , and Amazon already allow companies who are looking for extra computing power to rent out resources. This has made cloud computing
+                <br/>
+                <em>
+                  12/03/2013 09:24 pm
+                </em>
+              </p>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <a href="/Business/2013/1129/Black-Friday-Brisk-Thanksgiving-Day-sales-jolt-holiday-shopping">
+                  <img width="90" height="60" title="" alt="" src="/var/ezflow_site/storage/images/media/content/2013/1129-thanksgiving-day-shopping/17546787-1-eng-US/1129-Thanksgiving-Day-shopping_thumbnail_90.jpg"/>
+                </a>
+              </div>
+              <h5 class="ui-caption">
+                <a href="/Business/2013/1129/Black-Friday-Brisk-Thanksgiving-Day-sales-jolt-holiday-shopping">
+                  Black Friday: Brisk Thanksgiving Day sales jolt holiday shopping
+                </a>
+              </h5>
+              <p class="ui-summary">
+                
+			 the company's highest ever for a single day, doubling the numbers for the corresponding period last year.
+
+According to 
+                <b>
+                  IBM
+                </b>
+                 Digital Analytics, e-commerce sales among the top 800 online retailers Thursday
+                <br/>
+                <em>
+                  11/29/2013 04:12 pm
+                </em>
+              </p>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <a href="/Business/Robert-Reich/2013/1104/Why-Washington-is-cutting-safety-nets-when-most-Americans-are-still-in-the-Great-Recession">
+                  <img width="90" height="60" title="" alt="" src="/var/ezflow_site/storage/images/media/content/2013/1104-foodstamps/17360141-3-eng-US/1104-foodstamps_thumbnail_90.jpg"/>
+                </a>
+              </div>
+              <h5>
+                <a href="/Business/Robert-Reich">
+                  <span class="kicker">
+                    Robert Reich
+                  </span>
+                </a>
+                <a href="/Business/Robert-Reich/2013/1104/Why-Washington-is-cutting-safety-nets-when-most-Americans-are-still-in-the-Great-Recession">
+                  
+			Why Washington is cutting safety nets when most Americans are still in the Great Recession 
+	
+                </a>
+              </h5>
+              <p class="ui-summary">
+                
+			 with a 24% rally for the S&amp;amp;P 500. 
+
+
+                <b>
+                  IBM
+                </b>
+                 has just approved another $15 billion for share buybacks on top of about $5.6 billion it set aside previously, thereby boosting its share prices even
+                <br/>
+                <em>
+                  11/04/2013 12:00 pm
+                </em>
+              </p>
+            </div>
+            <div class="navigation">
+              <div class="alignment">
+                <div class="ui-page-links">
+                  
+								
+				    				
+				        1
+				
+				    				        				         
+                  <span>
+                     | 
+                  </span>
+                  <a href="/content/search/%28offset%29/10?SearchText=ibm">
+                    2
+                  </a>
+                  <span>
+                     | 
+                  </span>
+                  <a href="/content/search/%28offset%29/20?SearchText=ibm">
+                    3
+                  </a>
+                  <span>
+                     | 
+                  </span>
+                  <a href="/content/search/%28offset%29/30?SearchText=ibm">
+                    4
+                  </a>
+                  <span>
+                     | 
+                  </span>
+                  <a href="/content/search/%28offset%29/40?SearchText=ibm">
+                    5
+                  </a>
+                  
+				        				    				
+												...
+									
+                  <a href="/content/search/%28offset%29/2020?SearchText=ibm">
+                    203
+                  </a>
+                </div>
+                <div class="ui-brdr-widget ui-button">
+                  <div style="padding-left: 4px;">
+                    <a href="/content/search/%28offset%29/10?SearchText=ibm" id="next-button">
+                      
+									Next
+									
+                      <img title="next" src="/extension/csm_base/design/csm_design/images/btn_nextLarge_quiz.gif"/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="clear">
+              </div>
+            </div>
+          </form>
+          <table cellspacing="0" cellpadding="0" border="0" style="margin-top: 40px;" id="searchNavTable">
+            <tbody>
+              <tr>
+                <td>
+                  <a href="http://pqasb.pqarchiver.com/csmonitor_historic">
+                    <img src="/extension/csm_base/design/csm_design/images/Historic-covers.gif"/>
+                  </a>
+                </td>
+                <td style="width: auto; height: 100px; margin: 0; padding: 0; background-color: transaprent;" class="proquestTop">
+                  <div style="width: auto; height: auto; margin: 0 0 0 20px; padding: 0;" class="proquestBox">
+                    <div style="font-weight: bold;">
+                      <a href="http://pqasb.pqarchiver.com/csmonitor_historic">
+                        Search the Monitor archives
+                      </a>
+                    </div>
+                    <div style="font-size: 10pt;">
+                      Find articles from 
+                      <b>
+                        1908 to 1980
+                      </b>
+                       with ProQuest Archiver
+                      <p>
+                      </p>
+                      <ul>
+                        <li style="font-size: 12px; font-weight: bold; margin: 0 0 5px 0;">
+                          More than 70 years of history
+                        </li>
+                        <li style="font-size: 12px; font-weight: bold; margin: 0 0 5px 0;">
+                          Full article PDFs
+                        </li>
+                      </ul>
+                      <div style="margin: 30px 0 0 30px;">
+                        <a style="font: 8pt Helvetica, Arial, sans-serif; border: 1px solid #C9C9C9; background-color: #F0F0F0; padding: 3px; color: #000; text-decoration: none;" href="http://pqasb.pqarchiver.com/csmonitor_historic">
+                          Search Monitor archives
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="rightColumn">
+          <div id="address-ffd780eda0d5bf1eade6a6eee7697e6f-8557102e02232aa1ee57521cac98a92a">
+            <h3>
+              Most viewed
+            </h3>
+            <div class="podBrdr">
+              <div class="pod">
+                <ol id="most-viewed">
+                  <li class="c-article">
+                    <a href="/USA/Society/2014/0320/Fred-Phelps-no-funeral-for-the-preacher-who-picketed-so-many-video" class="video-icon">
+                      Fred Phelps: no funeral for the preacher who picketed so many (+video)
+                    </a>
+                  </li>
+                  <li class="c-article">
+                    <a href="/World/Asia-Pacific/2014/0321/Why-is-Michelle-Obama-talking-up-education-to-the-Chinese">
+                      Why is Michelle Obama talking up education to the Chinese?
+                    </a>
+                  </li>
+                  <li class="c-article">
+                    <a href="/The-Culture/2014/0321/American-Idol-Jennifer-Lopez-performs-her-new-single-another-Idol-sounds-off-video" class="video-icon">
+                      American Idol: Jennifer Lopez performs her new single, another Idol sounds off (+video)
+                    </a>
+                  </li>
+                  <li class="c-article">
+                    <a href="/USA/Sports/2014/0321/NCAA-Tournament-2014-TV-schedule-Who-to-watch-Friday-video" class="video-icon">
+                      NCAA Tournament 2014 TV schedule: Who to watch Friday (+video)
+                    </a>
+                  </li>
+                  <li class="c-article">
+                    <a href="/The-Culture/2014/0320/American-Idol-Alex-Preston-and-Malaya-soar-but-C.J.-Harris-not-so-much-video" class="video-icon">
+                      American Idol: Alex Preston and Malaya soar, but C.J. Harris not so much (+video)
+                    </a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div id="address-ffd780eda0d5bf1eade6a6eee7697e6f-70125d6e057a34e6d710c49a728ec218">
+            <div style="width:300px;min-height:250px;" id="div-gpt-ad-ad_block_1" class="ad ">
+              <script type="text/javascript">
+//<![CDATA[
+
+			googletag.cmd.push(function() { googletag.display( 'div-gpt-ad-ad_block_1' ); });
+			
+//]]>
+              </script>
+            </div>
+            <div class="adNoticeOut">
+              <a target="_blank" href="/About/Contact/Feedback/About-these-Ads">
+                About these ads
+              </a>
+            </div>
+          </div>
+          <div id="address-ffd780eda0d5bf1eade6a6eee7697e6f-4beadcd966fc268c455f844670244557">
+            <style type="text/css">
+              &amp;lt;!--
+
+.subscribe_btn {
+	width: 300px;
+	height: 29px;
+	background-color: #cc0000;
+	background-image: url(http://www.csmonitor.com/var/ezflow_site/storage/images/media/images/csm-publishing/subscriptions/subscribe-ads/subscribe-btn_bg-red_300x29_v01/8202833-1-eng-US/subscribe-btn_bg-red_300x29_v01.gif);
+	background-repeat: no-repeat;
+	margin: 0 0 30px 0;
+	padding: 0;
+	overflow: hidden;
+	}
+
+.subscribe_btn p.subscribe_btn_text {
+	width: 300px;
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0;
+	padding: 7px 0 0 0;
+	}
+	
+.subscribe_btn p.subscribe_btn_text a.subscribe_btn_link {
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	}
+	
+.subscribe_btn p.subscribe_btn_text a.subscribe_btn_link span.normal {
+	font-weight: normal;
+	font-size: 11px;
+	}
+
+--&amp;gt;
+
+            </style>
+            <!-- January 2012 update
+<div class="subscribe_btn">
+	<p class="subscribe_btn_text"><a class="subscribe_btn_link" href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=CSX&cds_page_id=67239&cds_response_key=I2ACSXRED">Subscribe <span class="normal">to the</span> <span style="font-style: none;">MONITOR</span> <span class="normal">and get</span> 18 FREE ISSUES!</a></p>
+</div> 
+-->            <!-- Feb 2012 update -->            <div class="subscribe_btn">
+              <p class="subscribe_btn_text">
+                <a href="https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=CSX&amp;cds_page_id=67239&amp;cds_response_key=I2BCSXRED" class="subscribe_btn_link">
+                  Subscribe 
+                  <span class="normal">
+                    to the
+                  </span>
+                  <span style="font-style: none;">
+                    MONITOR
+                  </span>
+                  <span class="normal">
+                    and get
+                  </span>
+                   19 FREE ISSUES!
+                </a>
+              </p>
+            </div>
+          </div>
+          <div id="address-ffd780eda0d5bf1eade6a6eee7697e6f-c4b623bcab7f3d7b25f8114a4587b741">
+            <div id="address-4372f1b6c0331b981e6c26fa8778a3a1-6b098de76e386a8a7368b90c192eb5d0">
+              <h3>
+                Editors' picks:
+              </h3>
+              <div class="podBrdr">
+                <div class="pod">
+                  <ul id="inside-monitor">
+                    <li class="first">
+                      <div class="thumbnail">
+                        <a href="/USA/USA-Update/2014/0321/Is-Time-Warner-Cable-CEO-s-80-million-golden-parachute-too-much">
+                          <img width="90" height="60" title="" alt="" src="/var/ezflow_site/storage/images/media/content/2014/0321-usa-parachute/18242710-1-eng-US/0321-usa-parachute_thumbnail_90_cropped.jpg"/>
+                        </a>
+                      </div>
+                      <h5>
+                        <a href="/USA/USA-Update">
+                          <span class="kicker">
+                            USA Update
+                          </span>
+                        </a>
+                        <a href="/USA/USA-Update/2014/0321/Is-Time-Warner-Cable-CEO-s-80-million-golden-parachute-too-much">
+                          
+			Is Time Warner Cable CEO's $80 million 'golden parachute' too much?
+	
+                        </a>
+                      </h5>
+                      <p class="ui-summary">
+                        Time Warner Cable's CEO, on the job since Jan. 1, could get $80 million for work on the Comcast merger. But Dodd-Frank law gives shareholders a (nonbinding) vote on whether it's excessive.
+                      </p>
+                    </li>
+                    <li class="c-article">
+                      <a href="/USA/Society/2014/0321/Game-of-Thrones-previews-in-New-York-scalped-tickets-and-a-bus-sized-dragon">
+                        'Game of Thrones' previews in New York: scalped tickets and a bus-sized dragon
+                      </a>
+                    </li>
+                    <li class="c-article">
+                      <a href="/World/Asia-Pacific/2014/0321/Why-is-Michelle-Obama-talking-up-education-to-the-Chinese">
+                        Why is Michelle Obama talking up education to the Chinese?
+                      </a>
+                    </li>
+                    <li class="c-article">
+                      <a href="/World/Middle-East/2014/0321/Turkey-bans-Twitter-and-Turks-make-it-trend-worldwide">
+                        Turkey bans Twitter - and Turks make it trend worldwide
+                      </a>
+                    </li>
+                    <li class="c-article">
+                      <a href="/tags/special/difference-maker">
+                        <span class="kicker storyKicker inline">
+                          Difference Maker
+                        </span>
+                      </a>
+                      <a href="/World/Making-a-difference/2014/0321/Fernando-Garcia-bridges-the-gap-between-residents-and-law-enforcers-in-El-Paso-Texas">
+                        Fernando Garcia bridges the gap between residents and law enforcers
+                      </a>
+                    </li>
+                    <li class="c-article">
+                      <a href="/USA/2014/0320/Teen-s-climb-to-World-Trade-spire-a-glimpse-into-parkour-youth-culture-video" class="video-icon">
+                        Teen's climb to World Trade spire a glimpse into 'parkour' youth culture (+video)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="address-ffd780eda0d5bf1eade6a6eee7697e6f-c633607c582a6864018339c54a5eea8c">
+            <div id="address-890841de99287fa09d6a04b3db2ea82b-68e9a5dd706b0c3ec03cdd94dc47481f">
+              <div class="storyBlock storyBlock promo">
+                <div class="ui-item">
+                  <h3>
+                    <em>
+                      Photos of the day
+                    </em>
+                  </h3>
+                  <a href="/Photo-Galleries/Photos-of-the-Day/2014/Photos-of-the-day-03-21" class="potdDate gal">
+                    
+				03.21.14 »
+			
+                  </a>
+                  <div class="podBrdr">
+                    <a href="/Photo-Galleries/Photos-of-the-Day/2014/Photos-of-the-day-03-21">
+                      <img width="288" height="122" title="" alt="" src="/var/ezflow_site/storage/images/media/content/csm-photo-galleries-images/photos-of-the-day-images/2014/0321/288/18244157-1-eng-US/288_thumbnail_288_cropped.jpg"/>
+                    </a>
+                  </div>
+                  <a href="/Photo-Galleries/Photos-of-the-Day/2014/Photos-of-the-day-03-21">
+                    Photos of the day 03/21
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="address-ffd780eda0d5bf1eade6a6eee7697e6f-8cc9ca34a17b981187577878b5cdb663">
+            <div style="width: 296px; margin: 0 0 30px 0; padding: 0; border: 2px solid #eaf2ee;">
+              <div style="width: 296px; height: 52px; overflow: hidden; margin: 0; padding: 0; background-color: #fff;">
+                <!-- csm logo -->                <div style="float: left; width: 120px; height: 41px; overflow: hidden; margin: 11px 5px 0 11px; padding: 0; background-color: #fff;">
+                  <a href="http://www.facebook.com/ChristianScienceMonitor">
+                    <img title="CSMonitor.com on Facebook" alt="CSMonitor.com on Facebook" src="http://www.csmonitor.com/var/ezflow_site/storage/images/media/images/csm-publishing/facebook-recommends/csm-logo_120x41/9159849-1-eng-US/csm-logo_120x41.gif" style="width: 120px; height: 41px; border: none; margin: 0; padding: 0;"/>
+                  </a>
+                </div>
+                <!-- facebook like -->                <div style="float: left; width: 160px; height: 41px; overflow: hidden; margin: 11px 0 0 0; padding: 0; background-color: #fff;">
+                  <p style="width: auto; height: auto; margin: 0; padding: 1px 0 5px 0;">
+                    <a style="font-family: arial, sans-serif; font-size: 11px; color: #000; text-decoration: none; font-weight: normal; line-height: 1.15em;" href="http://www.facebook.com/ChristianScienceMonitor">
+                      <b>
+                        CSMonitor.com
+                      </b>
+                       on Facebook
+                    </a>
+                  </p>
+                </div>
+                <div style="float: none; clear: both; width: 0; height: 0; margin: 0; padding: 0;">
+                   
+                </div>
+              </div>
+              <!-- divider solid line 01 -->              <div style="width:254px; border-bottom:1px solid #ccc; line-height:0px; padding:0; margin:11px 0 0 6px;">
+              </div>
+              <!-- overflow -->              <div style="width:296px; height: 255px; overflow:auto; position:relative;">
+                <!-- facebook recommendations -->                <fb:recommendations font="arial" border_color="#fff" header="false" height="590" width="270" site="www.csmonitor.com" class=" fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=179793002061452&amp;font=arial&amp;header=false&amp;height=590&amp;locale=en_US&amp;sdk=joey&amp;site=www.csmonitor.com&amp;width=270">
+                  <span style="vertical-align: top; width: 0px; height: 0px;">
+                    <iframe width="270px" scrolling="no" height="590px" frameborder="0" name="f3da846ceba8ab6" allowtransparency="true" title="fb:recommendations Facebook Social Plugin" style="border: medium none; visibility: visible;" src="http://www.facebook.com/plugins/recommendations.php?app_id=179793002061452&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FLEdxGgtB9cN.js%3Fversion%3D40%23cb%3Df35e8c99ef5be18%26domain%3Dwww.csmonitor.com%26origin%3Dhttp%253A%252F%252Fwww.csmonitor.com%252Ff25a1a09a502ecc%26relation%3Dparent.parent&amp;font=arial&amp;header=false&amp;height=590&amp;locale=en_US&amp;sdk=joey&amp;site=www.csmonitor.com&amp;width=270" class="gzvdsnmpmftoqeyyfcdl">
+                    </iframe>
+                  </span>
+                </fb:recommendations>
+              </div>
+              <!--/overflow-->            </div>
+          </div>
+          <div id="address-ffd780eda0d5bf1eade6a6eee7697e6f-e7ebf61fbccfe49632e876ce41872dc9">
+            <div style="width:300px;min-height:250px;" id="div-gpt-ad-ad_block_2" class="ad ">
+              <script type="text/javascript">
+//<![CDATA[
+
+			googletag.cmd.push(function() { googletag.display( 'div-gpt-ad-ad_block_2' ); });
+			
+//]]>
+              </script>
+            </div>
+            <div class="adNoticeOut">
+              <a target="_blank" href="/About/Contact/Feedback/About-these-Ads">
+                About these ads
+              </a>
+            </div>
+          </div>
+          <div id="address-ffd780eda0d5bf1eade6a6eee7697e6f-1c333bbe3c25616aadcd4a3446fbf493">
+            <div style="margin: 0 0 30px 0;" id="newsletterSignupPromo">
+              <a href="http://www.pages03.net/christiansciencemonitor/Registration/">
+                <img width="300" height="50" border="0" alt="Get E-mail Updates" src="/var/ezflow_site/storage/images/media/images/csm-publishing/newsletter/newsletter-signup-promo-image/10613191-1-eng-US/newsletter-signup-promo-image_large.jpg"/>
+              </a>
+            </div>
+          </div>
+          <div id="address-ffd780eda0d5bf1eade6a6eee7697e6f-1c417bcf3d2272e7987a3f9173800702">
+            <style type="text/css">
+              &amp;lt;!--
+
+.gg_clear {
+	clear: both;
+	float: none;
+	margin: 0;
+	padding: 0;
+	width: 0;
+	height: 0;
+	}
+	
+#gg_container {
+	width: auto;
+	height: auto;
+	margin: 0 0 30px 0;
+	padding: 0;
+	border: 7px solid #ff9933;
+	border-bottom: 14px solid #ff9933;
+	background-color: #ff9933;
+	}
+
+#gg_container p.gg_header {
+	display: block;
+	width: 286px;
+	width: auto;
+	height: 78px;
+	margin: 0;
+	padding: 0;
+	text-indent: -5000px;
+	background-image: url("http://www.csmonitor.com/var/ezflow_site/storage/images/media/content/csm-publishing/sponsor-images/give-good-module/doing-good_header_v03/12523355-1-eng-US/doing-good_header_v03_large.png");
+	background-repeat: no-repeat;
+    background-position: 7px 20px;
+	background-color: #ff9933;
+	}
+
+#gg_container #gg_scroll_top {
+	width: auto;
+	height: 13px;
+	margin: 0 7px 0 7px;
+	padding: 0 7px 0 7px;
+	overflow: hidden;
+	background-color: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	}
+
+/* content scroll box */
+	
+#gg_container #gg_scroll { 
+	width: auto;
+	height: 275px;
+	overflow: auto;
+	margin: 0 7px 0 7px;
+	padding: 0 7px 7px 7px;
+	background-color: #fff;
+	}
+
+#gg_container #gg_scroll .gg_intro {
+	font-family: 'Georgia', 'Times New Roman', 'Times', serif;
+	font-style: italic;
+	font-size: 12px;
+	color: #666;
+	margin: 5px 10px 10px 7px;
+	padding: 0;
+	line-height: 1.5em;
+	}
+
+#gg_container #gg_scroll .gg_intro a {
+	color: #ff9933;
+	color: #fe7214;
+	text-decoration: none;
+	}
+	
+#gg_container #gg_scroll .gg_intro a:hover {
+	text-decoration: underline;
+	}
+	
+#gg_container #gg_scroll .gg_caption {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	line-height: 1.25em;
+	margin: 0 0 3px 0;
+	padding: 0;
+	}
+
+#gg_container #gg_scroll .gg_headline {
+	float: none;
+	clear: both;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.25em;
+	font-weight: bold;
+	margin: 7px 0 7px 0;
+	padding: 0 6px 0 6px;
+	}
+
+#gg_container #gg_scroll .gg_headline a {
+    color: #205d87;
+    text-decoration: none;
+	}
+
+#gg_container #gg_scroll .gg_headline a:hover {
+    text-decoration: underline;
+	}
+			
+#gg_container #gg_scroll .gg_summary {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.25em;
+	color: #333;
+	margin: 0;
+	padding: 0 6px 5px 6px;
+	}
+	
+#gg_container #gg_scroll_btm {
+	width: auto;
+	height: 13px;
+	margin: 0 7px 0 7px;
+	padding: 0 7px 0 7px;
+	overflow: hidden;
+	background-color: #fff;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	}
+	}
+
+/* footer container */
+
+#gg_container #gg_footer_container {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 14px 0 7px 0;
+	background-color: #ff9933;
+	}
+	
+#gg_container #gg_footer_container p.gg_btyb {
+	float: right;
+	width: auto;
+	height: auto;
+	text-align: right;
+	margin: 0;
+	padding: 17px 0 0 0;
+	font-family: arial, helvetica, sans-serif;
+	color: #fff;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: italic;
+	background-color: transparent;
+	}
+	
+#gg_container #gg_footer_container #gg_sponsor_logo_container {
+	float: right;
+	width: auto;
+	height: auto;
+	margin: 0 0 0 8px;
+	padding: 0;
+	background-color: transparent;
+	}
+	
+#gg_container #gg_footer_container #gg_sponsor_logo_container a.gg_sponsor {
+	display: block;
+	width: 200px;
+	height: 52px;
+	
+	width: 85px;
+	height: 46px;
+	
+	margin: 0;
+	padding: 0;
+	text-indent: -5000px;
+	background-image: url("http://www.csmonitor.com/var/ezflow_site/storage/images/media/images/csm-publishing/sponsor-images/give-good-module/cws-logo_v01/11057872-2-eng-US/cws-logo_v01_large.jpg");
+	background-repeat: no-repeat;
+	background-color: transparent;
+	}
+		
+--&amp;gt;
+
+            </style>
+            <!-- gg container -->            <div id="gg_container">
+              <p class="gg_header">
+                Doing Good
+              </p>
+              <div id="gg_scroll_top">
+                 
+              </div>
+              <div id="gg_scroll">
+                <!-- PMAD intro -->                <p class="gg_intro">
+                  What happens when ordinary people decide to pay it forward? 
+                  <a href="/World/making-a-difference">
+                    Extraordinary change...
+                  </a>
+                </p>
+                <!-- article image -->                <div style="width: auto; height: auto; padding: 3px 6px 5px 6px; margin: 0; background-color: #fff;">
+                  <a href="/World/Making-a-difference/2014/0321/Fernando-Garcia-bridges-the-gap-between-residents-and-law-enforcers-in-El-Paso-Texas">
+                    <img src="/var/ezflow_site/storage/images/media/content/2014/0324-weekly/0324-mgarcia-pmad-fernando_garcia/18216118-1-eng-US/0324-MGARCIA-PMAD-Fernando_Garcia_medium.jpg" style="float: left; border: 0; padding: 0 0 0 0; margin: 0 10px 7px 0; width: 132px; height: 88px;"/>
+                  </a>
+                  <!-- image caption -->                  <p class="gg_caption">
+                    Fernando Garcia, director of the Border Network for Human Rights in El Paso, Texas, stands in front of the US-Mexican border fence.
+                  </p>
+                </div>
+                <!-- headline -->                <p class="gg_headline">
+                  <a href="/World/Making-a-difference/2014/0321/Fernando-Garcia-bridges-the-gap-between-residents-and-law-enforcers-in-El-Paso-Texas">
+                    Fernando Garcia bridges the gap between residents and law enforcers in Texas
+                  </a>
+                </p>
+                <!-- summary -->                <p class="gg_summary">
+                  His Border Network for Human Rights doesn't just point out problems but proposes solutions. It could become a national model for dealing with immigrant rights.
+                </p>
+              </div>
+              <!-- /igg scroll -->              <div id="gg_scroll_btm">
+                 
+              </div>
+              <!-- 
+	<div id="gg_footer_container">
+		<div id="gg_sponsor_logo_container"><a class="gg_sponsor" href="http://www.churchworldservice.org">Church World Service</a></div>
+		<p class="gg_btyb">Underwritten by:</p>
+		<div class="gg_clear">&nbsp;</div>
+	</div>
+    -->              <div class="gg_clear">
+                 
+              </div>
+            </div>
+            <!-- /gg container -->          </div>
+          <div id="address-ffd780eda0d5bf1eade6a6eee7697e6f-04ef6c85ee96b0606b6523c4dfd8fb96">
+            <style type="text/css">
+              &amp;lt;!--
+
+#social-media_ad-container {
+border: 2px solid #eaf2ee;
+padding: 10px 10px 10px 10px;
+margin: 0 0 30px 0;
+width: auto;
+height: auto;
+overflow: hidden;
+}
+
+#social-media_ad-container a {
+font-family: arial, helvetica, sans-serif;
+font-weight: bold;
+font-size: 10px;
+color: #205d87;
+text-decoration: none;
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+}
+
+#social-media_ad-container a:hover {
+text-decoration: underline;
+}
+
+#social-media_ad-container #icons {
+width: 240px;
+height: 32px;
+padding: 0;
+margin: 10px auto 5px auto;
+text-align: center;
+/* border: 1px solid #000; */
+}
+
+#social-media_ad-container img.icon {
+float: left;
+margin: 0 20px 0 0;
+padding: 0;
+border: 0;
+width: 32px;
+height: 32px;
+}
+
+#social-media_ad-container img.icon-last {
+float: left;
+margin: 0;
+padding: 0;
+border: 0;
+width: 32px;
+height: 32px;
+}
+
+#social-media_ad-container #header {
+width: auto;
+height: auto;
+padding: 0;
+margin: 0;
+line-height: 1.5em;
+text-align: center;
+}
+
+#social-media_ad-container p.headline {
+font-family: arial, helvetica, sans-serif;
+font-size: 13px;
+font-weight: bold;
+color: #000;
+line-height: 1.15em;
+padding: 0 0 3px 0;
+margin: 0;
+}
+
+#social-media_ad-container p.summary {
+font-family: arial, helvetica, sans-serif;
+font-size: 10px;
+color: #666;
+line-height: 1.15em;
+padding: 0;
+margin: 0;
+}
+
+#social-media_ad-container p.summary span.pipe {
+font-family: arial, helvetica, sans-serif;
+font-size: 10px;
+color: #ccc;
+line-height: 1.15em;
+padding: 0;
+margin: 0;
+}
+
+--&amp;gt;
+
+            </style>
+            <div id="social-media_ad-container">
+              <div id="header">
+                <p class="headline">
+                  Become part of the Monitor community
+                </p>
+              </div>
+              <div id="icons">
+                <a target="blank" href="http://www.facebook.com/ChristianScienceMonitor">
+                  <img title="Become a fan!" alt="Become a fan!" src="http://www.csmonitor.com/var/ezflow_site/storage/images/media/content/csm-publishing/misc/social-media-icons-and-logos/csm-community/facebook_32x32/12967400-1-eng-US/facebook_32x32.png" class="icon gzvdsnmpmftoqeyyfcdl"/>
+                </a>
+                <a target="blank" href="http://www.twitter.com/CSMonitor">
+                  <img title="Follow us!" alt="Follow us!" src="http://www.csmonitor.com/var/ezflow_site/storage/images/media/content/csm-publishing/misc/social-media-icons-and-logos/csm-community/twitter_02_32x32/12975830-1-eng-US/Twitter_02_32x32.png" class="icon"/>
+                </a>
+                <a target="blank" href="https://plus.google.com/u/0/b/106478337234414923781/106478337234414923781/posts">
+                  <img title="Google+" alt="Google+" src="http://www.csmonitor.com/var/ezflow_site/storage/images/media/content/csm-publishing/misc/social-media-icons-and-logos/csm-community/google_32x32/12967558-1-eng-US/Google_32x32.png" class="icon gzvdsnmpmftoqeyyfcdl"/>
+                </a>
+                <a target="blank" href="http://www.youtube.com/user/csmonitor100?feature=results_main">
+                  <img title="YouTube" alt="YouTube" src="http://www.csmonitor.com/var/ezflow_site/storage/images/media/content/csm-publishing/misc/social-media-icons-and-logos/csm-community/youtube_32x32/12967588-1-eng-US/Youtube_32x32.png" class="icon gzvdsnmpmftoqeyyfcdl"/>
+                </a>
+                <a target="blank" href="/About/Subscriptions/RSS">
+                  <img title="See our feeds!" alt="See our feeds!" src="http://www.csmonitor.com/var/ezflow_site/storage/images/media/content/csm-publishing/misc/social-media-icons-and-logos/csm-community/rss_32x32/12967638-1-eng-US/RSS_32x32.png" class="icon-last"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="address-ffd780eda0d5bf1eade6a6eee7697e6f-03989c972a36d61d0d7cee6e8063d6e7">
+            <!-- Right Col Subscribe Ad -->            <a href="http://www.csmonitor.com/About/Subscriptions/E-Readers">
+              <img src="http://www.csmonitor.com/var/ezflow_site/storage/images/media/content/csm-publishing/subscriptions/subscribe-ads/subscribe-ad_300x250_e-readers/14583577-1-eng-US/subscribe-ad_300x250_e-readers_large.png" 0;"="" "border:="" style="margin: 0px 0px 30px 0px;" class="gzvdsnmpmftoqeyyfcdl"/>
+            </a>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+//<![CDATA[
+
+		var s_account="fcocscsm";
+	
+//]]>
+      </script>
+      <script src="/extension/csm_base/design/standard/javascript/omniture/s_code.js" type="text/javascript">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+									s.prop1="ibm";
+							s.prop2="2030";
+							s.prop3="";
+							s.prop26="www";
+			
+			// Allow maxymiser to override properties
+			if( typeof maxy == 'undefined' )
+			{				//console.log( 'No maxy vars' );
+			}			else
+			{				s = jQuery.extend( s, maxy );
+			}			var s_code=s.t();if(s_code)document.write(s_code); 
+			
+//]]>
+      </script>
+      <div id="footer">
+        <div class="footerAdModule">
+          <div class="footerAdBox">
+            <div style="width:300px;min-height:250px;" id="div-gpt-ad-ad_footer_1" class="ad ">
+              <script type="text/javascript">
+//<![CDATA[
+
+			googletag.cmd.push(function() { googletag.display( 'div-gpt-ad-ad_footer_1' ); });
+			
+//]]>
+              </script>
+            </div>
+          </div>
+          <div class="clear">
+          </div>
+        </div>
+        <div style="width:728px;height:90px;" id="div-gpt-ad-ad_footer_banner" class="ad ">
+          <script type="text/javascript">
+//<![CDATA[
+
+			googletag.cmd.push(function() { googletag.display( 'div-gpt-ad-ad_footer_banner' ); });
+			
+//]]>
+          </script>
+        </div>
+        <div class="adNoticeOut">
+          <a target="_blank" href="/About/Contact/Feedback/About-these-Ads">
+            About these ads
+          </a>
+        </div>
+        <div id="fNav">
+          <ul>
+            <li>
+              <a href="/">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="/About/The-Monitor-difference">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="/layout/set/basic/csm/contentmap">
+                Content Map
+              </a>
+            </li>
+            <li>
+              <a href="/About/Contact">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="/About/Subscriptions">
+                Subscribe
+              </a>
+            </li>
+            <li>
+              <a href="/About/Subscriptions/E-readers">
+                E-Readers
+              </a>
+            </li>
+            <li>
+              <a href="/textedition">
+                Text
+              </a>
+            </li>
+            <li>
+              <a href="/Specials">
+                Specials
+              </a>
+            </li>
+            <li>
+              <a href="/Multimedia">
+                Multimedia
+              </a>
+            </li>
+            <li>
+              <a href="/layout/set/popup/About/homepage.html" class="last popup">
+                Make Us Your Home Page
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/About/Careers">
+                Careers
+              </a>
+            </li>
+            <li>
+              <a href="/About/Corrections">
+                Corrections
+              </a>
+            </li>
+            <li>
+              <a href="/About/Find-us-online">
+                Find us online
+              </a>
+            </li>
+            <li>
+              <a href="/About/Advertise">
+                Advertise With Us
+              </a>
+            </li>
+            <li>
+              <a href="/The-Culture/Articles-on-Christian-Science">
+                Articles on Christian Science
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="copyright">
+          <a href="/About/Terms">
+            © The Christian Science Monitor. All Rights Reserved. 
+            <strong>
+              Terms
+            </strong>
+             under which this service is provided to you.
+          </a>
+          <strong>
+            <a href="/About/Privacy-Policy">
+              Privacy Policy
+            </a>
+          </strong>
+          .
+	
+        </div>
+      </div>
+      <div style="min-height:1px;width:1px" id="div-gpt-ad-footer_last_1" class="ad ">
+        <script type="text/javascript">
+//<![CDATA[
+
+			googletag.cmd.push(function() { googletag.display( 'div-gpt-ad-footer_last_1' ); });
+			
+//]]>
+        </script>
+      </div>
+      <script language="JavaScript">
+//<![CDATA[
+var zflag_nid="1639"; var zflag_cid="1"; var zflag_sid="0"; var zflag_width="160"; var zflag_height="600"; var zflag_sz="7"; var zflag_y_offset=30;
+//]]>
+      </script>
+      <script src="http://c4.zedo.com/jsc/c4/fhs.js" language="JavaScript">
+      </script>
+      <!-- Google Code for Homepage -->      <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->      <script type="text/javascript">
+//<![CDATA[
+
+    /* &lt;![CDATA[ */
+    var google_conversion_id = 1031872562;
+    var google_conversion_label = "ei29CPSQ8AMQssCE7AM";
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]&gt; */
+
+//]]>
+      </script>
+      <script src="//www.googleadservices.com/pagead/conversion.js" type="text/javascript">
+      </script>
+      <noscript>
+        &lt;div style="display:inline;"&gt;
+        &lt;img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1031872562/?value=0&amp;amp;label=ei29CPSQ8AMQssCE7AM&amp;amp;guid=ON&amp;amp;script=0"/&gt;
+    &lt;/div&gt;
+
+      </noscript>
+      <!-- cXense script begin -->      <div style="display:none" id="cX-root">
+      </div>
+      <script type="text/javascript">
+//<![CDATA[
+
+var cX = cX || {}; cX.callQueue = cX.callQueue || [];
+cX.callQueue.push(['setAccountId', '9222306264244820912']);
+cX.callQueue.push(['setSiteId', '9222306264244820913']);
+cX.callQueue.push(['sendPageViewEvent']);
+
+//]]>
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+(function() { try { var scriptEl = document.createElement('script'); scriptEl.type = 'text/javascript'; scriptEl.async = 'async';
+scriptEl.src = ('https:' == document.location.protocol) ? 'https://scdn.cxense.com/cx.js' : 'http://cdn.cxense.com/cx.js';
+var targetEl = document.getElementsByTagName('script')[0]; targetEl.parentNode.insertBefore(scriptEl, targetEl); } catch (e) {};} ());
+
+//]]>
+      </script>
+      <!-- cXense script end -->      <!-- Nielsen Online SiteCensus V6.0 -->      <script type="text/javascript">
+//<![CDATA[
+
+	  (function () {
+	    var d = new Image(1, 1);
+	    d.onerror = d.onload = function () {
+	      d.onerror = d.onload = null;
+	    };
+	    d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-103834h&amp;cg=0&amp;cc=1&amp;si=", escape(window.location.href), "&amp;rp=", escape(document.referrer), "&amp;ts=compact&amp;rnd=", (new Date()).getTime()].join('');
+	  })();
+	
+//]]>
+      </script>
+      <noscript>
+        &lt;div&gt;
+	    &lt;img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-103834h&amp;amp;cg=0&amp;amp;cc=1&amp;amp;ts=noscript"
+	    width="1" height="1" alt="" /&gt;
+	  &lt;/div&gt;
+	
+      </noscript>
+      <script type="text/javascript">
+//<![CDATA[
+
+
+_qevents.push( { qacct:"p-44NYiIzL-i6wg"} );
+
+
+//]]>
+      </script>
+      <noscript>
+        &lt;div style="display: none;"&gt;&lt;img src="//pixel.quantserve.com/pixel/p-44NYiIzL-i6wg.gif" height="1" width="1" alt="Quantcast"/&gt;&lt;/div&gt;
+
+      </noscript>
+      <!-- Compete -->      <script type="text/javascript">
+//<![CDATA[
+__compete_code = '65360f37095b87d116c38bda81c5fc71';
+//]]>
+      </script>
+      <script src="//c.compete.com/bootstrap/s/65360f37095b87d116c38bda81c5fc71/csmonitor-com/bootstrap.js" async="" type="text/javascript">
+      </script>
+      <noscript>
+        &lt;img width="1" height="1" src="https://ssl-csmonitor-com-65360f.c-col.com"/&gt;
+	
+      </noscript>
+      <img width="1" height="1" border="0" src="http://c7.zedo.com/img/bh.gif?n=305&amp;g=20&amp;a=826&amp;s=1&amp;t=r&amp;f=1" class="gzvdsnmpmftoqeyyfcdl"/>
+      <script type="text/javascript" src="http://cdn.media6degrees.com/static/cs6169.js">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+var pubId=27343; var pixId=37; 
+//]]>
+      </script>
+      <script type="text/javascript" src="http://ads.pubmatic.com/AdServer/js/universalpixel.js">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+
+	var _sf_async_config={};
+
+	_sf_async_config.uid = 30430;
+	_sf_async_config.useCanonical = true;
+	_sf_async_config.sections = '';
+	_sf_async_config.authors = '';
+
+	
+	(function()
+	{
+		/* Domain */
+		if( window.location.hostname == 'www.csmonitor.com' )
+		{
+			_sf_async_config.domain = 'csmonitor.com';
+		}
+		else
+		{
+			_sf_async_config.domain = 'stage.csmonitor.com';	
+		}
+	
+		/* Title */
+		var re = new RegExp( '(.*) - CSMonitor\.com$', 'g' );
+		_sf_async_config.title = jQuery( 'head title' ).html().replace( re, "$1" );
+
+
+	  function loadChartbeat() {
+	    window._sf_endpt=(new Date()).getTime();
+	    var e = document.createElement("script");
+	    e.setAttribute("language", "javascript");
+	    e.setAttribute("type", "text/javascript");
+	    e.setAttribute("src",
+	       (("https:" == document.location.protocol) ?
+	         "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" :
+	         "http://static.chartbeat.com/") +
+	       "js/chartbeat.js");
+	    document.body.appendChild(e);
+	  }
+	  var oldonload = window.onload;
+	  window.onload = (typeof window.onload != "function") ?
+	     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+	})();
+	
+//]]>
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+	
+	    (function() {
+	        function loadHorizon() {
+	            var s = document.createElement('script');
+	            s.type = 'text/javascript';
+	            s.async = true;
+	            s.src = location.protocol + '//ak.sail-horizon.com/horizon/v1.js';
+	            var x = document.getElementsByTagName('script')[0];
+	            x.parentNode.insertBefore(s, x);
+	        }
+	        loadHorizon();
+	        var oldOnLoad = window.onload;
+	        window.onload = function() {
+	            if (typeof oldOnLoad === 'function') {
+	                oldOnLoad();
+	            }
+	            Sailthru.setup({
+	                domain:  'horizon.csmonitor.com'
+	            });
+	        };
+	    })();
+	
+	
+//]]>
+      </script>
+      <script src="http://s7.addthis.com/js/300/addthis_widget.js#pub=csmtechstaff&amp;async=1" type="text/javascript">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+	
+		jQuery(function()
+		{
+			addthis_config = { data_track_clickback: true,  data_ga_property: 'UA-69821-1', services_exclude: 'print' };
+			addthis.init();
+		});
+	
+	
+	addthis.addEventListener('addthis.menu.share', addThisShareEventHandler);
+	
+//]]>
+      </script>
+      <script id="_nw2e-js" src="//launch.newsinc.com/js/embed.js" async="" type="text/javascript">
+      </script>
+      <script src="http://dmeserv.newsinc.com/repub/christiansciencemonitor_90962/dynamicWidgets.js" type="text/javascript">
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+NDNDynVideoWidgets();
+//]]>
+      </script>
+      <script type="text/javascript">
+//<![CDATA[
+
+	/* &lt;![CDATA[ */
+	var google_conversion_id = 1031872562;
+	var google_conversion_label = "ei29CPSQ8AMQssCE7AM";
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]&gt; */
+	
+//]]>
+      </script>
+      <script src="//www.googleadservices.com/pagead/conversion.js" type="text/javascript">
+      </script>
+      <noscript>
+        &lt;div style="display:inline;"&gt;
+	&lt;img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1031872562/?value=0&amp;amp;label=ei29CPSQ8AMQssCE7AM&amp;amp;guid=ON&amp;amp;script=0"/&gt;
+	&lt;/div&gt;
+	
+      </noscript>
+      <div id="fb-root" class=" fb_reset">
+        <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+          <div>
+            <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_http" allowtransparency="true" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="http://static.ak.facebook.com/connect/xd_arbiter/LEdxGgtB9cN.js?version=40#channel=f25a1a09a502ecc&amp;origin=http%3A%2F%2Fwww.csmonitor.com">
+            </iframe>
+            <iframe scrolling="no" frameborder="0" name="fb_xdm_frame_https" allowtransparency="true" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: medium none;" src="https://s-static.ak.facebook.com/connect/xd_arbiter/LEdxGgtB9cN.js?version=40#channel=f25a1a09a502ecc&amp;origin=http%3A%2F%2Fwww.csmonitor.com">
+            </iframe>
+          </div>
+        </div>
+        <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+          <div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+//<![CDATA[
+
+
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId      : '179793002061452',
+			status     : true, // check login status
+			cookie     : true, // enable cookies to allow the server to access the session
+			xfbml      : true  // parse XFBML
+		});
+
+		// Additional initialization code here
+	};
+
+	// Load the SDK Asynchronously
+	(function(d){
+		var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement('script'); js.id = id; js.async = true;
+		js.src = "//connect.facebook.net/en_US/all.js";
+		ref.parentNode.insertBefore(js, ref);
+	}(document));
+
+
+//]]>
+      </script>
+    </div>
+    <script language="javascript" type="text/javascript" src="http://static.chartbeat.com/js/chartbeat.js">
+    </script>
+  </body>
+</html>
