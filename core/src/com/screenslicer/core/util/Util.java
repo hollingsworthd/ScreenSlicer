@@ -77,7 +77,6 @@ import com.gargoylesoftware.htmlunit.html.HTMLParserListener;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import com.gargoylesoftware.htmlunit.javascript.JavaScriptErrorListener;
 import com.ibm.icu.text.CharsetDetector;
-import com.screenslicer.api.datatype.Credentials;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.datatype.UrlTransform;
 import com.screenslicer.common.CommonUtil;
@@ -338,21 +337,6 @@ public class Util {
       }
       driver.switchTo().window(handleToKeep);
       driver.switchTo().defaultContent();
-    } catch (Throwable t) {
-      Log.exception(t);
-      throw new ActionFailed(t);
-    }
-  }
-
-  public static void loadProxy(RemoteWebDriver driver, Credentials credentials) throws ActionFailed {
-    try {
-      if (credentials != null
-          && !CommonUtil.isEmpty(credentials.username)
-          && !CommonUtil.isEmpty(credentials.password)) {
-        //causes PAC function to return a consistent proxy
-        driver.get("http://127.10.10.10/" + credentials.accountGuid.hashCode());
-        driver.get("about:blank");
-      }
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);

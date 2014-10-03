@@ -234,11 +234,8 @@ public class QueryForm {
     }
   }
 
-  public static void perform(RemoteWebDriver driver, FormQuery context, boolean onion) throws ActionFailed {
+  public static void perform(RemoteWebDriver driver, FormQuery context) throws ActionFailed {
     try {
-      if (!onion) {
-        Util.loadProxy(driver, context.credentials);
-      }
       Util.get(driver, context.site, true);
       Util.doClicks(driver, context.preAuthClicks, null);
       doAuth(driver, context.credentials);
@@ -352,11 +349,8 @@ public class QueryForm {
     }
   }
 
-  public static List<HtmlNode> load(RemoteWebDriver driver, FormLoad context, boolean onion) throws ActionFailed {
+  public static List<HtmlNode> load(RemoteWebDriver driver, FormLoad context) throws ActionFailed {
     try {
-      if (!onion) {
-        Util.loadProxy(driver, context.credentials);
-      }
       Util.get(driver, context.site, true);
       Util.doClicks(driver, context.preAuthClicks, null);
       doAuth(driver, context.credentials);

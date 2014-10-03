@@ -40,7 +40,7 @@ public final class Request {
 
   public String[] instances;
   public int timeout = 25;
-  public boolean onionRouting = false;
+  public Proxy proxy = new Proxy();
   public String appId;
   public String jobId;
   public String jobGuid;
