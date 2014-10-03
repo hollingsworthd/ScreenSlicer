@@ -125,7 +125,7 @@ public class ScreenSlicerBatch implements WebResource {
     if (reqDecoded != null) {
       try {
         EmailExport export = CommonUtil.gson.fromJson(reqDecoded, EmailExport.class);
-        Email.sendResults(export.recipients, export.title, export.attachments);
+        Email.sendResults(export);
         return Response.ok(Crypto.encode("", CommonUtil.ip())).build();
       } catch (Throwable t) {
         Log.exception(t);
@@ -145,7 +145,7 @@ public class ScreenSlicerBatch implements WebResource {
         Fetch fetch = CommonUtil.gson.fromJson(reqDecoded, Fetch.class);
         Request req = CommonUtil.gson.fromJson(reqDecoded, Request.class);
         SearchResult resp = new SearchResult();
-        resp.pageHtml = Scrape.get(fetch.url, fetch.fetchCached, fetch.postFetchClicks, req.timeout, req.continueSession, req.onionRouting);
+        resp.pageHtml = Scrape.get(fetch, req);
         return Response.ok(Crypto.encode(CommonUtil.gson.toJson(resp), CommonUtil.ip())).build();
       } catch (Throwable t) {
         Log.exception(t);
@@ -164,7 +164,7 @@ public class ScreenSlicerBatch implements WebResource {
       try {
         FormLoad load = CommonUtil.gson.fromJson(reqDecoded, FormLoad.class);
         Request req = CommonUtil.gson.fromJson(reqDecoded, Request.class);
-        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Scrape.loadForm(load, req.timeout, req.continueSession, req.onionRouting)), CommonUtil.ip())).build();
+        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Scrape.loadForm(load, req)), CommonUtil.ip())).build();
       } catch (Throwable t) {
         Log.exception(t);
       }
@@ -183,7 +183,7 @@ public class ScreenSlicerBatch implements WebResource {
       try {
         FormQuery query = CommonUtil.gson.fromJson(reqDecoded, FormQuery.class);
         req = CommonUtil.gson.fromJson(reqDecoded, Request.class);
-        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Scrape.scrape(query, req.runGuid, req.timeout, req.continueSession, req.onionRouting)), CommonUtil.ip())).build();
+        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Scrape.scrape(query, req)), CommonUtil.ip())).build();
       } catch (Throwable t) {
         Log.exception(t);
       } finally {
@@ -206,7 +206,7 @@ public class ScreenSlicerBatch implements WebResource {
       try {
         KeywordQuery query = CommonUtil.gson.fromJson(reqDecoded, KeywordQuery.class);
         req = CommonUtil.gson.fromJson(reqDecoded, Request.class);
-        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Scrape.scrape(query, req.runGuid, req.timeout, req.continueSession, req.onionRouting)), CommonUtil.ip())).build();
+        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Scrape.scrape(query, req)), CommonUtil.ip())).build();
       } catch (Throwable t) {
         Log.exception(t);
       } finally {

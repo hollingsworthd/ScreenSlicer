@@ -34,6 +34,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 
+import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.FileUtils;
 import org.jsoup.nodes.Node;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -44,9 +45,12 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.datatype.SearchResult;
 import com.screenslicer.api.datatype.UrlTransform;
+import com.screenslicer.api.request.Fetch;
 import com.screenslicer.api.request.FormLoad;
 import com.screenslicer.api.request.FormQuery;
 import com.screenslicer.api.request.KeywordQuery;
+import com.screenslicer.api.request.Proxy;
+import com.screenslicer.api.request.Request;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Crypto;
 import com.screenslicer.common.Log;
@@ -113,15 +117,41 @@ public class Scrape {
 
   public static void init() {
     NeuralNetManager.reset(new File("./resources/neural/config"));
-    start(PAGE_LOAD_TIMEOUT_SECONDS, true);
+    start(PAGE_LOAD_TIMEOUT_SECONDS, new Proxy());
     done.set(true);
   }
 
-  private static void start(int pageLoadTimeout, boolean onion) {
-    //TODO set firefox system proxy settings if onion is false
+  private static void start(int pageLoadTimeout, Proxy proxy) {
     for (int i = 0; i < RETRIES; i++) {
       try {
-        driver = new FirefoxDriver(new FirefoxProfile(new File("./firefox-profile")));
+        FirefoxProfile profile = new FirefoxProfile(new File("./firefox-profile"));
+        if (proxy != null) {
+          if (!CommonUtil.isEmpty(proxy.username) || !CommonUtil.isEmpty(proxy.password)) {
+            String user = proxy.username == null ? "" : proxy.username;
+            String pass = proxy.password == null ? "" : proxy.password;
+            profile.setPreference("extensions.closeproxyauth.authtoken",
+                Base64.encodeBase64String((user + ":" + pass).getBytes("utf-8")));
+          } else {
+            profile.setPreference("extensions.closeproxyauth.authtoken", "");
+          }
+          if (Proxy.TYPE_SOCKS_5.equals(proxy.type) || Proxy.TYPE_SOCKS_4.equals(proxy.type)) {
+            profile.setPreference("network.proxy.type", 1);
+            profile.setPreference("network.proxy.socks", proxy.ip);
+            profile.setPreference("network.proxy.socks_port", proxy.port);
+            profile.setPreference("network.proxy.socks_remote_dns", true);
+            profile.setPreference("network.proxy.socks_version",
+                Proxy.TYPE_SOCKS_5.equals(proxy.type) ? 5 : 4);
+          } else if (Proxy.TYPE_SSL.equals(proxy.type)) {
+            profile.setPreference("network.proxy.type", 1);
+            profile.setPreference("network.proxy.ssl", proxy.ip);
+            profile.setPreference("network.proxy.ssl_port", proxy.port);
+          } else if (Proxy.TYPE_HTTP.equals(proxy.type)) {
+            profile.setPreference("network.proxy.type", 1);
+            profile.setPreference("network.proxy.http", proxy.ip);
+            profile.setPreference("network.proxy.http_port", proxy.port);
+          }
+        }
+        driver = new FirefoxDriver(profile);
         driver.manage().timeouts().pageLoadTimeout(pageLoadTimeout, TimeUnit.SECONDS);
         driver.manage().timeouts().setScriptTimeout(pageLoadTimeout, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
@@ -157,7 +187,7 @@ public class Scrape {
     }
   }
 
-  private static void restart(int pageLoadTimeout, boolean onion) {
+  private static void restart(int pageLoadTimeout, Proxy proxy) {
     try {
       forceQuit();
     } catch (Throwable t) {
@@ -168,7 +198,7 @@ public class Scrape {
     } catch (Throwable t) {
       Log.exception(t);
     }
-    start(pageLoadTimeout, onion);
+    start(pageLoadTimeout, proxy);
   }
 
   private static void push(String mapKey, List results) {
@@ -441,8 +471,8 @@ public class Scrape {
     return null;
   }
 
-  public static String get(String url, boolean fetchCached, HtmlNode[] clicks, int pageLoadTimeout, boolean continueSession, boolean onion) {
-    if (!isUrlValid(url)) {
+  public static String get(Fetch fetch, Request req) {
+    if (!isUrlValid(fetch.url)) {
       return null;
     }
     long myThread = latestThread.incrementAndGet();
@@ -454,11 +484,13 @@ public class Scrape {
         Log.exception(e);
       }
     }
-    restart(pageLoadTimeout, onion);
-    Log.info("Get URL " + url + ". Cached: " + fetchCached, false);
+    if (!req.continueSession) {
+      restart(req.timeout, req.proxy);
+    }
+    Log.info("Get URL " + fetch.url + ". Cached: " + fetch.fetchCached, false);
     String resp = "";
     try {
-      resp = getHelper(driver, null, url, fetchCached, null, clicks);
+      resp = getHelper(driver, null, fetch.url, fetch.fetchCached, null, fetch.postFetchClicks);
     } catch (Throwable t) {
       Log.exception(t);
     } finally {
@@ -491,7 +523,7 @@ public class Scrape {
     return filtered;
   }
 
-  public static List<HtmlNode> loadForm(FormLoad context, int pageLoadTimeout, boolean continueSession, boolean onion) throws ActionFailed {
+  public static List<HtmlNode> loadForm(FormLoad context, Request req) throws ActionFailed {
     if (!isUrlValid(context.site)) {
       return new ArrayList<HtmlNode>();
     }
@@ -504,15 +536,18 @@ public class Scrape {
         Log.exception(e);
       }
     }
-    restart(pageLoadTimeout, onion);
+    if (!req.continueSession) {
+      restart(req.timeout, req.proxy);
+    }
     try {
       List<HtmlNode> ret = null;
       try {
-        ret = QueryForm.load(driver, context, onion);
-      } catch (IllegalStateException e) {
-        onion = !onion;
-        restart(pageLoadTimeout, onion);
-        ret = QueryForm.load(driver, context, onion);
+        ret = QueryForm.load(driver, context);
+      } catch (Throwable t) {
+        if (!req.continueSession) {
+          restart(req.timeout, req.proxy);
+        }
+        ret = QueryForm.load(driver, context);
       }
       return ret;
     } finally {
@@ -521,20 +556,15 @@ public class Scrape {
     }
   }
 
-  public static List<SearchResult> scrape(FormQuery formQuery, String runGuid, int pageLoadTimeout,
-      boolean continueSession, boolean onion) {
-    return scrape(null, formQuery, runGuid,
-        pageLoadTimeout, continueSession, onion);
+  public static List<SearchResult> scrape(FormQuery formQuery, Request req) {
+    return scrape(null, formQuery, req);
   }
 
-  public static List<SearchResult> scrape(KeywordQuery keywordQuery, String runGuid,
-      int pageLoadTimeout, boolean continueSession, boolean onion) {
-    return scrape(keywordQuery, null, runGuid,
-        pageLoadTimeout, continueSession, onion);
+  public static List<SearchResult> scrape(KeywordQuery keywordQuery, Request req) {
+    return scrape(keywordQuery, null, req);
   }
 
-  private static List<SearchResult> scrape(KeywordQuery keywordQuery, FormQuery formQuery,
-      String runGuid, int pageLoadTimeout, boolean continueSession, boolean onion) {
+  private static List<SearchResult> scrape(KeywordQuery keywordQuery, FormQuery formQuery, Request req) {
     long myThread = latestThread.incrementAndGet();
     while (myThread != curThread.get() + 1
         || !done.compareAndSet(true, false)) {
@@ -544,7 +574,9 @@ public class Scrape {
         Log.exception(e);
       }
     }
-    restart(pageLoadTimeout, onion);
+    if (!req.continueSession) {
+      restart(req.timeout, req.proxy);
+    }
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
     List<Result> results = new ArrayList<Result>();
@@ -552,7 +584,7 @@ public class Scrape {
     String[] urlWhitelist = null;
     String[] urlPatterns = null;
     try {
-      if (ScreenSlicerBatch.isCancelled(runGuid)) {
+      if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
         throw new Exception("Cancellation was requested");
       }
       if (formQuery == null && CommonUtil.isEmpty(keywordQuery.keywords)) {
@@ -562,8 +594,9 @@ public class Scrape {
         try {
           Util.get(driver, keywordQuery.site, true);
         } catch (Throwable e) {
-          onion = false;
-          restart(pageLoadTimeout, onion);
+          if (!req.continueSession) {
+            restart(req.timeout, req.proxy);
+          }
           Util.get(driver, keywordQuery.site, true);
         }
         Log.info("Getting URL " + keywordQuery.site, false);
@@ -577,8 +610,7 @@ public class Scrape {
         try {
           Query.perform(driver, keywordQuery.site, keywordQuery.keywords);
         } catch (Throwable e) {
-          onion = false;
-          restart(pageLoadTimeout, onion);
+          restart(req.timeout, req.proxy);
           Query.perform(driver, keywordQuery.site, keywordQuery.keywords);
         }
       } else {
@@ -587,11 +619,10 @@ public class Scrape {
           return new ArrayList<SearchResult>();
         }
         try {
-          QueryForm.perform(driver, formQuery, onion);
+          QueryForm.perform(driver, formQuery);
         } catch (Throwable e) {
-          onion = false;
-          restart(pageLoadTimeout, onion);
-          QueryForm.perform(driver, formQuery, onion);
+          restart(req.timeout, req.proxy);
+          QueryForm.perform(driver, formQuery);
         }
       }
       boolean fetch;
@@ -635,7 +666,7 @@ public class Scrape {
       } else if (numResults > 0 && resultThreshold < 0 && numResults <= ProcessPage.SIGNIFICANT) {
         resultThreshold = numResults - 1;
       }
-      if (ScreenSlicerBatch.isCancelled(runGuid)) {
+      if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
         throw new Exception("Cancellation was requested");
       }
       results.addAll(ProcessPage.perform(driver, 1, keywords, resultThreshold, trim,
@@ -648,12 +679,12 @@ public class Scrape {
         }
       }
       if (fetch) {
-        fetch(results, driver, fetchCached, runGuid, postFetchClicks);
+        fetch(results, driver, fetchCached, req.runGuid, postFetchClicks);
       }
       String priorProceedLabel = null;
       for (int i = 2; (i <= pages || pages <= 0)
           && (results.size() < numResults || numResults <= 0); i++) {
-        if (ScreenSlicerBatch.isCancelled(runGuid)) {
+        if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
           throw new Exception("Cancellation was requested");
         }
         if (!fetch) {
@@ -664,7 +695,7 @@ public class Scrape {
           }
         }
         priorProceedLabel = Proceed.perform(driver, i, priorProceedLabel);
-        if (ScreenSlicerBatch.isCancelled(runGuid)) {
+        if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
           throw new Exception("Cancellation was requested");
         }
         List<Result> newResults = ProcessPage.perform(driver, i, keywords, resultThreshold, trim,
@@ -677,7 +708,7 @@ public class Scrape {
           }
         }
         if (fetch) {
-          fetch(newResults, driver, fetchCached, runGuid, postFetchClicks);
+          fetch(newResults, driver, fetchCached, req.runGuid, postFetchClicks);
         }
         results.addAll(newResults);
       }
@@ -726,7 +757,7 @@ public class Scrape {
     if (!done.compareAndSet(true, false)) {
       return null;
     }
-    restart(PAGE_LOAD_TIMEOUT_SECONDS, true);
+    restart(PAGE_LOAD_TIMEOUT_SECONDS, new Proxy());
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
     List<Result> results = new ArrayList<Result>();
