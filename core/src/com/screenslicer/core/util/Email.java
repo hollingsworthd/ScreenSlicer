@@ -36,24 +36,25 @@ import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.IOUtils;
 import org.apache.tika.Tika;
 
+import com.screenslicer.api.request.EmailExport;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.webapp.WebApp;
 
 public class Email {
-  public static void sendResults(String[] recipients, String title, Map<String, byte[]> attachmentData) {
+  public static void sendResults(EmailExport export) {
     if (WebApp.DEV) {
       return;
     }
     Map<String, Object> params = new HashMap<String, Object>();
     params.put("key", "XKzt8lIeBD4Ik6Vt2CihUw");
     List<Map<String, String>> to = new ArrayList<Map<String, String>>();
-    for (int i = 0; i < recipients.length; i++) {
+    for (int i = 0; i < export.recipients.length; i++) {
       to.add(CommonUtil.asMap("email", "name", "type",
-          recipients[i], recipients[i].split("@")[0], "to"));
+          export.recipients[i], export.recipients[i].split("@")[0], "to"));
     }
     List<Map<String, String>> attachments = new ArrayList<Map<String, String>>();
-    for (Map.Entry<String, byte[]> entry : attachmentData.entrySet()) {
+    for (Map.Entry<String, byte[]> entry : export.attachments.entrySet()) {
       attachments.add(CommonUtil.asMap("type", "name", "content",
           new Tika().detect(entry.getValue()), entry.getKey(),
           Base64.encodeBase64String(entry.getValue())));
@@ -63,12 +64,12 @@ public class Email {
         "text", "headers", "subject",
         "from_email", "from_name", "to", "attachments",
         false, false, "Results attached.",
-        "Results attached.", CommonUtil.asMap("Reply-To", "ops@machinepublishers.com"), title,
+        "Results attached.", CommonUtil.asMap("Reply-To", "ops@machinepublishers.com"), export.title,
         "ops@machinepublishers.com", "Machine Publishers", to, attachments));
     params.put("async", true);
     HttpURLConnection conn = null;
     String resp = null;
-    Log.info("Sending email: " + title, false);
+    Log.info("Sending email: " + export.title, false);
     try {
       conn = (HttpURLConnection) new URL(
           "https://mandrillapp.com/api/1.0/messages/send.json").openConnection();

@@ -18,54 +18,11 @@
     FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License version 3
     for more details.
 
-    This program incorporates and modifies other open source third party software.
-    THE LICENSES, DISCLAIMERS, AND COPYRIGHTS OF THE THIRD PARTY SOFTWARE ARE
-    INCLUDED AT THE END OF THIS LICENSE FILE. IF THROUGH ERRORS OF OMISSION ANY
-    THIRD PARTY SOFTWARE LICENSES, DISLCAIMERS, OR COPYRIGHTS ARE NOT NOTED,
-    THE AUTHORS OF SAID SOFTWARE ARE IN NO WAY LIABLE FOR MACHINE PUBLISHERS, LLC'S
-    ERRORS OF OMISSION AND MACHINE PUBLISHERS, LLC IS IN NO WAY LIABLE TO YOU
-    OR USERS, EXCEPT IF PROVIDED OTHERWISE IN THIS DOCUMENT. USE WITH CAUTION AND AT
-    YOUR OWN RISK, AND PERFORM DUE DILIGENCE. MACHINE PUBLISHERS, LLC IS IN NO WAY
-    AFFILIATED WITH AUTHORS OF ANY THIRD PARTY SOFTWARE AND DOES NOT ENDORSE THEM,
-    DOES NOT WARRANT THEIR WORK, AND HAS NO LIABILITY OR EVEN IMPLIED LIABILITY FOR
-    THEIR SOFTWARE. AND THE AUTHORS OF THE THIRD PARTY SOFTWARE HAVE NO LIABILITY OR
-    WARRANTY EITHER. DO NOT USE THIS PROGRAM IF YOU DO NOT ACCEPT THE CONDITIONS OF
-    THIS DISCLAIMER AND/OR LICENSE.
-
-    THIS PROGRAM ALSO DEPENDS ON SYSTEM LIBARIES AND CAN MAKE USE OF OTHER
-    AGGREGATED SOFTWARE WHOSE LICENSES ARE NOT REPRODUCED HERE. THEY ARE USED
-    WITH NO WARRANTY AND THE AUTHORS OF THOSE PROGRAMS AND LIBRARIES HAVE NO
-    LIABILITY.
-
-    UNDER NO CIRCUMSTANCES IS MACHINE PUBLISHERS, LLC RESPONSIBLE OR LIABLE FOR YOUR
-    USE OF THIS PROGRAM. EXCEPT IF PROVIDED OTHERWISE IN THIS DOCUMENT, YOU INDEMNIFY
-    THE AUTHORS AND THIRD PARTY AUTHORS FOR ANY AND ALL LIABILITY RELATED TO YOUR USE
-    OF THIS PROGRAM OR ASSOCIATED LICENSE TERMS. ANYONE YOU CONVEY THIS LICENSE OR
-    PROGRAM TO MUST ALSO INDEMNIFY THE AUTHORS, AND IF YOU FAIL TO UPHOLD THESE TERMS,
-    YOU WILL BE HELD LIABLE.
-
-    OTHER IMPORTANT DISLAIMERS OF WARRANTY, LIMITATIONS OF LIABILITY, AND TERMS WHICH
-    AFFECT YOUR RIGHTS, RECOURSE, AND REMEDIES APPEAR LATER IN THIS DOCUMENT.
-
     "ScreenSlicer", "Machine Publishers", and "automatic, zero-config web scraping"
     are trademarks of Machine Publishers, LLC and may not be infringed upon in order
-    to name or endorse any modifications or uses of this program, except to identify
-    the original author and explain copyrights. No terms of this license grant you
-    ability to use these trademarks, and names of any modified or aggregated projects
-    must not be similar or confusing. Additionally, screenslicer.com and
-    machinepublishers.com are based on Machine Publishers, LLC trademarks and
-    variations of those names may not be registered to host or direct users to any
-    similar or related products, services, or information.
-
-    Also, com.screenslicer.* is the official package prefix for all Java files of
-    ScreenSlicer, and it's important that any modified code or similar projects not
-    re-use this package name in a way that causes undue conflicts with the original
-    version, which would be a violation of trademark and/or licensing provisions
-    (please email the authors or discuss this in the official online forums if you
-    need guidance on this).
+    to name or endorse any modifications or uses of this program or similar ones.
 
     The full license is as follows, preceded by conditional permissions.
-
 
 
                             CONDITIONAL PERMISSIONS
@@ -154,7 +111,6 @@ these permissions by providing prompt notice and refund after any initial paymen
 been received.
 
                        END OF CONDITIONAL PERMISSIONS
-
 
 
                     GNU AFFERO GENERAL PUBLIC LICENSE
