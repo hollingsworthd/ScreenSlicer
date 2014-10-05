@@ -1,0 +1,132 @@
+package com.screenslicer.core.scrape;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import com.screenslicer.api.datatype.Credentials;
+import com.screenslicer.common.CommonUtil;
+import com.screenslicer.common.Log;
+import com.screenslicer.core.scrape.Scrape.ActionFailed;
+import com.screenslicer.core.util.Util;
+
+public class QueryCommon {
+
+  public static boolean doAuth(RemoteWebDriver driver, Credentials credentials) throws ActionFailed {
+    if (credentials == null
+        || CommonUtil.isEmpty(credentials.username) || CommonUtil.isEmpty(credentials.password)) {
+      return false;
+    }
+    try {
+      List<WebElement> inputs = driver.findElementsByTagName("input");
+      String html = CommonUtil.strip(driver.findElementByTagName("body").getAttribute("outerHTML"), true);
+      List<WebElement> usernames = new ArrayList<WebElement>();
+      List<WebElement> passwords = new ArrayList<WebElement>();
+      List<String> usernamesHtml = new ArrayList<String>();
+      List<String> passwordsHtml = new ArrayList<String>();
+      for (WebElement input : inputs) {
+        String type = input.getAttribute("type");
+        if ("text".equalsIgnoreCase(type)) {
+          usernames.add(input);
+          String controlHtml = input.getAttribute("outerHTML");
+          controlHtml = CommonUtil.strip(controlHtml, true);
+          usernamesHtml.add(controlHtml);
+        } else if ("password".equalsIgnoreCase(type)) {
+          passwords.add(input);
+          String controlHtml = input.getAttribute("outerHTML");
+          controlHtml = CommonUtil.strip(controlHtml, true);
+          passwordsHtml.add(controlHtml);
+        }
+      }
+      class Login {
+        final WebElement username;
+        final WebElement password;
+        final int index;
+
+        Login(WebElement username, WebElement password, int index) {
+          this.username = username;
+          this.password = password;
+          this.index = index;
+        }
+      };
+      List<Login> logins = new ArrayList<Login>();
+      for (int curPassword = 0; curPassword < passwords.size(); curPassword++) {
+        int passwordIndex = html.indexOf(passwordsHtml.get(curPassword));
+        int minDist = Integer.MAX_VALUE;
+        int indexOfMin = -1;
+        WebElement minUsername = null;
+        WebElement minPassword = passwords.get(curPassword);
+        for (int curUsername = 0; curUsername < usernames.size(); curUsername++) {
+          int usernameIndex = html.indexOf(usernamesHtml.get(curUsername));
+          if (usernameIndex < passwordIndex
+              && passwordIndex - usernameIndex < minDist
+              && usernameIndex > -1 && passwordIndex > -1) {
+            minDist = passwordIndex - usernameIndex;
+            minUsername = usernames.get(curUsername);
+            indexOfMin = (usernameIndex + passwordIndex) / 2;
+          }
+        }
+        logins.add(new Login(minUsername, minPassword, indexOfMin));
+      }
+      if (!logins.isEmpty()) {
+        Login closestLogin = logins.get(0);
+        if (logins.size() > 1) {
+          //TODO translate
+          Pattern hints = Pattern.compile(
+              "(?:log(?:ged)?\\s?-?in)|(?:sign(?:ed)?\\s?\\-?in)|(?:remember\\s?me)|(?:tabindex\\s?=\\s?[^0-9]?[12][^0-9])",
+              Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CHARACTER_CLASS);
+          Matcher matcher = hints.matcher(html);
+          int closest = Integer.MAX_VALUE;
+          while (matcher.find()) {
+            int start = matcher.start();
+            for (Login login : logins) {
+              int dist = Math.abs(login.index - start);
+              if (dist < closest) {
+                closest = dist;
+                closestLogin = login;
+              }
+            }
+          }
+        }
+        QueryCommon.typeText(driver, closestLogin.username, credentials.username, true, false);
+        QueryCommon.typeText(driver, closestLogin.password, credentials.password, false, true);
+        return true;
+      }
+    } catch (Throwable t) {
+      Log.exception(t);
+      throw new ActionFailed(t);
+    }
+    throw new ActionFailed("Could not sign in");
+  }
+
+  public static boolean typeText(RemoteWebDriver driver, WebElement element, String text, boolean validate, boolean newline) {
+    String elementVal = null;
+    if (validate) {
+      elementVal = element.getAttribute("value");
+    }
+    if (!validate || !text.equalsIgnoreCase(elementVal)) {
+      Util.click(driver, element);
+      if (validate) {
+        element.clear();
+        Util.driverSleepVeryShort();
+      }
+      if (!validate || !CommonUtil.isEmpty(element.getAttribute("value"))) {
+        element.sendKeys(QueryForm.delete);
+        Util.driverSleepVeryShort();
+      }
+      element.sendKeys(text);
+      Util.driverSleepVeryShort();
+      if (newline) {
+        element.sendKeys("\n");
+        Util.driverSleepLong();
+      }
+      return true;
+    }
+    return false;
+  }
+
+}

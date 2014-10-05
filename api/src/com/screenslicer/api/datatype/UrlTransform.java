@@ -7,11 +7,11 @@
  * You can redistribute this program and/or modify it under the terms of the
  * GNU Affero General Public License version 3 as published by the Free
  * Software Foundation. Additional permissions or commercial licensing may be
- * available--contact Machine Publishers, LLC for details.
+ * available--see LICENSE file or contact Machine Publishers, LLC for details.
  * 
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License version 3
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License version 3
  * for more details.
  * 
  * You should have received a copy of the GNU Affero General Public License
@@ -27,9 +27,18 @@ package com.screenslicer.api.datatype;
 import java.util.List;
 import java.util.Map;
 
+import com.google.gson.reflect.TypeToken;
 import com.screenslicer.common.CommonUtil;
 
 public final class UrlTransform {
+  public static final UrlTransform instance(String json) {
+    return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+  }
+
+  public static final List<UrlTransform> instances(String json) {
+    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+  }
+
   public static final UrlTransform instance(Map<String, Object> args) {
     return CommonUtil.constructFromMap(UrlTransform.class, args);
   }
@@ -38,10 +47,43 @@ public final class UrlTransform {
     return CommonUtil.constructListFromMap(UrlTransform.class, args);
   }
 
+  public static final String toJson(UrlTransform obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<UrlTransform>() {}.getType());
+  }
+
+  public static final String toJson(UrlTransform[] obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<UrlTransform[]>() {}.getType());
+  }
+
+  public static final String toJson(List<UrlTransform> obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<List<UrlTransform>>() {}.getType());
+  }
+
+  /**
+   * Regular expression to match against a URL
+   */
   public String regex;
+  /**
+   * Replacement for the regex match
+   */
   public String replacement;
+  /**
+   * Whether to replace all occurrences of the regex (i.e., a global flag for
+   * the regex)
+   */
   public boolean replaceAll = false;
+  /**
+   * Whether to run the transform again on a previously transformed URL
+   */
   public boolean replaceAllRecursive = false;
+  /**
+   * When multiple transforms are specified, whether to keep applying them after
+   * the first has already been matched
+   */
   public boolean multipleTransforms = false;
+  /**
+   * Whether to only apply the transform immediately before returning the
+   * results. Otherwise, this transform will affect any fetch operations.
+   */
   public boolean transformForExportOnly = false;
 }

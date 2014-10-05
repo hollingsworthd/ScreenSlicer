@@ -22,7 +22,7 @@
  * and email the author: ops@machinepublishers.com
  * Keep in mind that paying customers have more rights than the AGPL alone offers.
  */
-package com.screenslicer.api.request;
+package com.screenslicer.api.datatype;
 
 import java.util.List;
 import java.util.Map;
@@ -30,41 +30,75 @@ import java.util.Map;
 import com.google.gson.reflect.TypeToken;
 import com.screenslicer.common.CommonUtil;
 
-public final class Cancel {
-  public static final Cancel instance(String json) {
+public class Proxy {
+  public static final Proxy instance(String json) {
     return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
   }
 
-  public static final List<Cancel> instances(String json) {
+  public static final List<Proxy> instances(String json) {
     return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
   }
 
-  public static final Cancel instance(Map<String, Object> args) {
-    return CommonUtil.constructFromMap(Cancel.class, args);
+  public static final Proxy instance(Map<String, Object> args) {
+    return CommonUtil.constructFromMap(Proxy.class, args);
   }
 
-  public static final List<Cancel> instances(Map<String, Object> args) {
-    return CommonUtil.constructListFromMap(Cancel.class, args);
+  public static final List<Proxy> instances(Map<String, Object> args) {
+    return CommonUtil.constructListFromMap(Proxy.class, args);
   }
 
-  public static final String toJson(Cancel obj) {
-    return CommonUtil.gson.toJson(obj, new TypeToken<Cancel>() {}.getType());
+  public static final String toJson(Proxy obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<Proxy>() {}.getType());
   }
 
-  public static final String toJson(Cancel[] obj) {
-    return CommonUtil.gson.toJson(obj, new TypeToken<Cancel[]>() {}.getType());
+  public static final String toJson(Proxy[] obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<Proxy[]>() {}.getType());
   }
 
-  public static final String toJson(List<Cancel> obj) {
-    return CommonUtil.gson.toJson(obj, new TypeToken<List<Cancel>>() {}.getType());
+  public static final String toJson(List<Proxy> obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<List<Proxy>>() {}.getType());
   }
 
   /**
-   * IP addresses of ScreenSlicer instances
+   * Socks version 5 proxy
    */
-  public String[] instances;
+  public static final String TYPE_SOCKS_5 = "socks5";
   /**
-   * GUID of the run to cancel
+   * Socks version 4 proxy
    */
-  public String runGuid;
+  public static final String TYPE_SOCKS_4 = "socks4";
+  /**
+   * HTTP proxy
+   */
+  public static final String TYPE_HTTP = "http";
+  /**
+   * SSL proxy
+   */
+  public static final String TYPE_SSL = "ssl";
+
+  /**
+   * Proxy type.
+   * Defaults to Socks version 5.
+   */
+  public String type = TYPE_SOCKS_5;
+  /**
+   * IP address of the proxy.
+   * Default to 127.0.0.1.
+   */
+  public String ip = "127.0.0.1";
+  /**
+   * Port of the proxy.
+   * Defaults to 9050.
+   */
+  public int port = 9050;
+  /**
+   * Proxy username.
+   * Defaults to none (anonymous access).
+   */
+  public String username;
+  /**
+   * Proxy password.
+   * Defaults to none (anonymous access).
+   */
+  public String password;
 }

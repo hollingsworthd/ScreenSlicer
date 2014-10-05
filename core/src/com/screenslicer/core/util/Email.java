@@ -7,11 +7,11 @@
  * You can redistribute this program and/or modify it under the terms of the
  * GNU Affero General Public License version 3 as published by the Free
  * Software Foundation. Additional permissions or commercial licensing may be
- * available--contact Machine Publishers, LLC for details.
+ * available--see LICENSE file or contact Machine Publishers, LLC for details.
  * 
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License version 3
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License version 3
  * for more details.
  * 
  * You should have received a copy of the GNU Affero General Public License
@@ -38,6 +38,7 @@ import org.apache.tika.Tika;
 
 import com.screenslicer.api.request.EmailExport;
 import com.screenslicer.common.CommonUtil;
+import com.screenslicer.common.Config;
 import com.screenslicer.common.Log;
 import com.screenslicer.webapp.WebApp;
 
@@ -47,7 +48,7 @@ public class Email {
       return;
     }
     Map<String, Object> params = new HashMap<String, Object>();
-    params.put("key", "XKzt8lIeBD4Ik6Vt2CihUw");
+    params.put("key", Config.MANDRILL_KEY);
     List<Map<String, String>> to = new ArrayList<Map<String, String>>();
     for (int i = 0; i < export.recipients.length; i++) {
       to.add(CommonUtil.asMap("email", "name", "type",
@@ -64,8 +65,8 @@ public class Email {
         "text", "headers", "subject",
         "from_email", "from_name", "to", "attachments",
         false, false, "Results attached.",
-        "Results attached.", CommonUtil.asMap("Reply-To", "ops@machinepublishers.com"), export.title,
-        "ops@machinepublishers.com", "Machine Publishers", to, attachments));
+        "Results attached.", CommonUtil.asMap("Reply-To", Config.MANDRILL_EMAIL), export.title,
+        Config.MANDRILL_EMAIL, Config.MANDRILL_EMAIL, to, attachments));
     params.put("async", true);
     HttpURLConnection conn = null;
     String resp = null;
