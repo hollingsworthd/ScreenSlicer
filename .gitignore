@@ -2,4 +2,5 @@
 .metadata/
 **/screenslicer.config
 **/fetch_local_cache
-*.zip
+screenslicer*.zip
+ScreenSlicer*.zip
