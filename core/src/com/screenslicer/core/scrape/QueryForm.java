@@ -7,11 +7,11 @@
  * You can redistribute this program and/or modify it under the terms of the
  * GNU Affero General Public License version 3 as published by the Free
  * Software Foundation. Additional permissions or commercial licensing may be
- * available--contact Machine Publishers, LLC for details.
+ * available--see LICENSE file or contact Machine Publishers, LLC for details.
  * 
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License version 3
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License version 3
  * for more details.
  * 
  * You should have received a copy of the GNU Affero General Public License
@@ -29,8 +29,6 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import org.jsoup.nodes.Element;
 import org.openqa.selenium.By;
@@ -39,7 +37,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 
-import com.screenslicer.api.datatype.Credentials;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.request.FormLoad;
 import com.screenslicer.api.request.FormQuery;
@@ -55,7 +52,7 @@ import edu.emory.mathcs.backport.java.util.Collections;
 public class QueryForm {
   private static final double NAMED_CONTROLS_MIN_RATIO = .75;
   private static final int CHARS_TO_REMOVE = 60;
-  private static String delete;
+  static String delete;
   static {
     String key = Keys.BACK_SPACE.toString();
     delete = key;
@@ -67,119 +64,6 @@ public class QueryForm {
     for (int i = 1; i < CHARS_TO_REMOVE; i++) {
       delete = delete + key;
     }
-  }
-
-  private static boolean doAuth(RemoteWebDriver driver, Credentials credentials) throws ActionFailed {
-    if (credentials == null
-        || CommonUtil.isEmpty(credentials.username) || CommonUtil.isEmpty(credentials.password)) {
-      return false;
-    }
-    try {
-      List<WebElement> inputs = driver.findElementsByTagName("input");
-      String html = CommonUtil.strip(driver.findElementByTagName("body").getAttribute("outerHTML"), true);
-      List<WebElement> usernames = new ArrayList<WebElement>();
-      List<WebElement> passwords = new ArrayList<WebElement>();
-      List<String> usernamesHtml = new ArrayList<String>();
-      List<String> passwordsHtml = new ArrayList<String>();
-      for (WebElement input : inputs) {
-        String type = input.getAttribute("type");
-        if ("text".equalsIgnoreCase(type)) {
-          usernames.add(input);
-          String controlHtml = input.getAttribute("outerHTML");
-          controlHtml = CommonUtil.strip(controlHtml, true);
-          usernamesHtml.add(controlHtml);
-        } else if ("password".equalsIgnoreCase(type)) {
-          passwords.add(input);
-          String controlHtml = input.getAttribute("outerHTML");
-          controlHtml = CommonUtil.strip(controlHtml, true);
-          passwordsHtml.add(controlHtml);
-        }
-      }
-      class Login {
-        final WebElement username;
-        final WebElement password;
-        final int index;
-
-        Login(WebElement username, WebElement password, int index) {
-          this.username = username;
-          this.password = password;
-          this.index = index;
-        }
-      };
-      List<Login> logins = new ArrayList<Login>();
-      for (int curPassword = 0; curPassword < passwords.size(); curPassword++) {
-        int passwordIndex = html.indexOf(passwordsHtml.get(curPassword));
-        int minDist = Integer.MAX_VALUE;
-        int indexOfMin = -1;
-        WebElement minUsername = null;
-        WebElement minPassword = passwords.get(curPassword);
-        for (int curUsername = 0; curUsername < usernames.size(); curUsername++) {
-          int usernameIndex = html.indexOf(usernamesHtml.get(curUsername));
-          if (usernameIndex < passwordIndex
-              && passwordIndex - usernameIndex < minDist
-              && usernameIndex > -1 && passwordIndex > -1) {
-            minDist = passwordIndex - usernameIndex;
-            minUsername = usernames.get(curUsername);
-            indexOfMin = (usernameIndex + passwordIndex) / 2;
-          }
-        }
-        logins.add(new Login(minUsername, minPassword, indexOfMin));
-      }
-      if (!logins.isEmpty()) {
-        Login closestLogin = logins.get(0);
-        if (logins.size() > 1) {
-          //TODO translate
-          Pattern hints = Pattern.compile(
-              "(?:log(?:ged)?\\s?-?in)|(?:sign(?:ed)?\\s?\\-?in)|(?:remember\\s?me)|(?:tabindex\\s?=\\s?[^0-9]?[12][^0-9])",
-              Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CHARACTER_CLASS);
-          Matcher matcher = hints.matcher(html);
-          int closest = Integer.MAX_VALUE;
-          while (matcher.find()) {
-            int start = matcher.start();
-            for (Login login : logins) {
-              int dist = Math.abs(login.index - start);
-              if (dist < closest) {
-                closest = dist;
-                closestLogin = login;
-              }
-            }
-          }
-        }
-        typeText(driver, closestLogin.username, credentials.username, true, false);
-        typeText(driver, closestLogin.password, credentials.password, false, true);
-        return true;
-      }
-    } catch (Throwable t) {
-      Log.exception(t);
-      throw new ActionFailed(t);
-    }
-    throw new ActionFailed("Could not sign in");
-  }
-
-  private static boolean typeText(RemoteWebDriver driver, WebElement element, String text, boolean validate, boolean newline) {
-    String elementVal = null;
-    if (validate) {
-      elementVal = element.getAttribute("value");
-    }
-    if (!validate || !text.equalsIgnoreCase(elementVal)) {
-      Util.click(driver, element);
-      if (validate) {
-        element.clear();
-        Util.driverSleepVeryShort();
-      }
-      if (!validate || !CommonUtil.isEmpty(element.getAttribute("value"))) {
-        element.sendKeys(delete);
-        Util.driverSleepVeryShort();
-      }
-      element.sendKeys(text);
-      Util.driverSleepVeryShort();
-      if (newline) {
-        element.sendKeys("\n");
-        Util.driverSleepLong();
-      }
-      return true;
-    }
-    return false;
   }
 
   private static void doSubmit(RemoteWebDriver driver, String formId) throws ActionFailed {
@@ -238,7 +122,7 @@ public class QueryForm {
     try {
       Util.get(driver, context.site, true);
       Util.doClicks(driver, context.preAuthClicks, null);
-      doAuth(driver, context.credentials);
+      QueryCommon.doAuth(driver, context.credentials);
       Util.doClicks(driver, context.preSearchClicks, null);
       Map<String, HtmlNode> formControls = new HashMap<String, HtmlNode>();
       for (int i = 0; i < context.formSchema.length; i++) {
@@ -293,7 +177,7 @@ public class QueryForm {
                   System.out.println("Query Form: input[text|search]");
                 }
                 WebElement element = Util.toElement(driver, formControl, body);
-                valueChanged = typeText(driver, element, entry.getValue().get(0), true, false);
+                valueChanged = QueryCommon.typeText(driver, element, entry.getValue().get(0), true, false);
               } else if ("input".equalsIgnoreCase(formControl.tagName)
                   && ("checkbox".equalsIgnoreCase(formControl.type)
                   || "radio".equalsIgnoreCase(formControl.type))) {
@@ -340,9 +224,7 @@ public class QueryForm {
         }
       } while (valueChanged && count < MAX_TRIES);
       doSubmit(driver, context.formId);
-      if (!CommonUtil.isEmpty(context.postSearchClicks)) {
-        Util.doClicks(driver, context.postSearchClicks, null);
-      }
+      Util.doClicks(driver, context.postSearchClicks, null);
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
@@ -353,7 +235,7 @@ public class QueryForm {
     try {
       Util.get(driver, context.site, true);
       Util.doClicks(driver, context.preAuthClicks, null);
-      doAuth(driver, context.credentials);
+      QueryCommon.doAuth(driver, context.credentials);
       Util.doClicks(driver, context.preSearchClicks, null);
       WebElement form = driver.findElementById(context.formId);
       Map<HtmlNode, String> controlsHtml = new HashMap<HtmlNode, String>();

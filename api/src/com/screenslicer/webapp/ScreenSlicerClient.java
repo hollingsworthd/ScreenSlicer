@@ -7,11 +7,11 @@
  * You can redistribute this program and/or modify it under the terms of the
  * GNU Affero General Public License version 3 as published by the Free
  * Software Foundation. Additional permissions or commercial licensing may be
- * available--contact Machine Publishers, LLC for details.
+ * available--see LICENSE file or contact Machine Publishers, LLC for details.
  * 
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License version 3
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License version 3
  * for more details.
  * 
  * You should have received a copy of the GNU Affero General Public License
@@ -256,9 +256,12 @@ public final class ScreenSlicerClient implements ClientWebResource {
   }
 
   public static final boolean isCancelled(String runGuid) {
-    synchronized (cancelledLock) {
-      return cancelledJobs.contains(runGuid);
+    if (!CommonUtil.isEmpty(runGuid)) {
+      synchronized (cancelledLock) {
+        return cancelledJobs.contains(runGuid);
+      }
     }
+    return false;
   }
 
   @Path("create")

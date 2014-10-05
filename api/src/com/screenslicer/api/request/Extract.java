@@ -7,11 +7,11 @@
  * You can redistribute this program and/or modify it under the terms of the
  * GNU Affero General Public License version 3 as published by the Free
  * Software Foundation. Additional permissions or commercial licensing may be
- * available--contact Machine Publishers, LLC for details.
+ * available--see LICENSE file or contact Machine Publishers, LLC for details.
  * 
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License version 3
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License version 3
  * for more details.
  * 
  * You should have received a copy of the GNU Affero General Public License
@@ -27,9 +27,18 @@ package com.screenslicer.api.request;
 import java.util.List;
 import java.util.Map;
 
+import com.google.gson.reflect.TypeToken;
 import com.screenslicer.common.CommonUtil;
 
 public final class Extract {
+  public static final Extract instance(String json) {
+    return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+  }
+
+  public static final List<Extract> instances(String json) {
+    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+  }
+
   public static final Extract instance(Map<String, Object> args) {
     return CommonUtil.constructFromMap(Extract.class, args);
   }
@@ -38,5 +47,20 @@ public final class Extract {
     return CommonUtil.constructListFromMap(Extract.class, args);
   }
 
+  public static final String toJson(Extract obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<Extract>() {}.getType());
+  }
+
+  public static final String toJson(Extract[] obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<Extract[]>() {}.getType());
+  }
+
+  public static final String toJson(List<Extract> obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<List<Extract>>() {}.getType());
+  }
+
+  /**
+   * Content to extract entities from
+   */
   public String content;
 }

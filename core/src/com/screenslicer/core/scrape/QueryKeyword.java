@@ -7,11 +7,11 @@
  * You can redistribute this program and/or modify it under the terms of the
  * GNU Affero General Public License version 3 as published by the Free
  * Software Foundation. Additional permissions or commercial licensing may be
- * available--contact Machine Publishers, LLC for details.
+ * available--see LICENSE file or contact Machine Publishers, LLC for details.
  * 
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License version 3
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License version 3
  * for more details.
  * 
  * You should have received a copy of the GNU Affero General Public License
@@ -34,12 +34,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+import com.screenslicer.api.request.KeywordQuery;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
 import com.screenslicer.core.util.Util;
 
-public class Query {
+public class QueryKeyword {
   private static final int MIN_IFRAME_AREA = 40000;
   private static final int MIN_SOURCE_DIFF = 500;
   private static final int MOUSE_MOVE_OFFSET = 500;
@@ -294,12 +295,14 @@ public class Query {
     }
   }
 
-  public static void perform(RemoteWebDriver driver,
-      String url, String searchQuery) throws ActionFailed {
+  public static void perform(RemoteWebDriver driver, KeywordQuery context) throws ActionFailed {
     try {
-      Util.get(driver, url, true);
+      Util.get(driver, context.site, true);
+      Util.doClicks(driver, context.preAuthClicks, null);
+      QueryCommon.doAuth(driver, context.credentials);
+      Util.doClicks(driver, context.preSearchClicks, null);
       List<WebElement> searchBoxes = findSearchBox(driver, true);
-      String searchResult = doSearch(driver, searchBoxes, searchQuery);
+      String searchResult = doSearch(driver, searchBoxes, context.keywords);
       String[] fallbackNames =
           new String[] { "button", "input", "input", "div", "label", "span", "li", "ul", "a" };
       String[] fallbackTypes =
@@ -307,19 +310,20 @@ public class Query {
       for (int i = 0; i < fallbackNames.length && searchResult == null; i++) {
         searchBoxes = navigateToSearch(driver,
             fallbackNames[i], fallbackTypes[i], true);
-        searchResult = doSearch(driver, searchBoxes, searchQuery);
+        searchResult = doSearch(driver, searchBoxes, context.keywords);
       }
       if (searchResult == null) {
         searchBoxes = findSearchBox(driver, false);
-        searchResult = doSearch(driver, searchBoxes, searchQuery);
+        searchResult = doSearch(driver, searchBoxes, context.keywords);
       }
       if (searchResult == null) {
         for (int i = 0; i < fallbackNames.length && searchResult == null; i++) {
           searchBoxes = navigateToSearch(driver,
               fallbackNames[i], fallbackTypes[i], false);
-          searchResult = doSearch(driver, searchBoxes, searchQuery);
+          searchResult = doSearch(driver, searchBoxes, context.keywords);
         }
       }
+      Util.doClicks(driver, context.postSearchClicks, null);
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
