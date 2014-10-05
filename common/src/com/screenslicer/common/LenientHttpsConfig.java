@@ -84,9 +84,7 @@ public class LenientHttpsConfig extends AsyncHttpClientConfig {
       trustManager.init(keyStore);
       sslContextTmp = SSLContext.getInstance("TLS");
       sslContextTmp.init(keyManager.getKeyManagers(), trustManager.getTrustManagers(), null);
-    } catch (Throwable t) {
-      Log.exception(t);
-    }
+    } catch (Throwable t) {}
     config = configTmp;
     sslContext = sslContextTmp;
   }
