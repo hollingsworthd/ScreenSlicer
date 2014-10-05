@@ -7,11 +7,11 @@
  * You can redistribute this program and/or modify it under the terms of the
  * GNU Affero General Public License version 3 as published by the Free
  * Software Foundation. Additional permissions or commercial licensing may be
- * available--contact Machine Publishers, LLC for details.
+ * available--see LICENSE file or contact Machine Publishers, LLC for details.
  * 
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License version 3
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License version 3
  * for more details.
  * 
  * You should have received a copy of the GNU Affero General Public License
@@ -27,9 +27,18 @@ package com.screenslicer.api.datatype;
 import java.util.List;
 import java.util.Map;
 
+import com.google.gson.reflect.TypeToken;
 import com.screenslicer.common.CommonUtil;
 
 public final class Credentials {
+  public static final Credentials instance(String json) {
+    return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+  }
+
+  public static final List<Credentials> instances(String json) {
+    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+  }
+
   public static final Credentials instance(Map<String, Object> args) {
     return CommonUtil.constructFromMap(Credentials.class, args);
   }
@@ -38,7 +47,24 @@ public final class Credentials {
     return CommonUtil.constructListFromMap(Credentials.class, args);
   }
 
+  public static final String toJson(Credentials obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<Credentials>() {}.getType());
+  }
+
+  public static final String toJson(Credentials[] obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<Credentials[]>() {}.getType());
+  }
+
+  public static final String toJson(List<Credentials> obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<List<Credentials>>() {}.getType());
+  }
+
+  /**
+   * Username for HTML form authentication
+   */
   public String username;
+  /**
+   * Password for HTML form authentication
+   */
   public String password;
-  public String accountGuid;
 }

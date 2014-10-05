@@ -7,11 +7,11 @@
  * You can redistribute this program and/or modify it under the terms of the
  * GNU Affero General Public License version 3 as published by the Free
  * Software Foundation. Additional permissions or commercial licensing may be
- * available--contact Machine Publishers, LLC for details.
+ * available--see LICENSE file or contact Machine Publishers, LLC for details.
  * 
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License version 3
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License version 3
  * for more details.
  * 
  * You should have received a copy of the GNU Affero General Public License
@@ -43,13 +43,13 @@ import org.openqa.selenium.io.TemporaryFilesystem;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.screenslicer.api.datatype.HtmlNode;
+import com.screenslicer.api.datatype.Proxy;
 import com.screenslicer.api.datatype.SearchResult;
 import com.screenslicer.api.datatype.UrlTransform;
 import com.screenslicer.api.request.Fetch;
 import com.screenslicer.api.request.FormLoad;
 import com.screenslicer.api.request.FormQuery;
 import com.screenslicer.api.request.KeywordQuery;
-import com.screenslicer.api.request.Proxy;
 import com.screenslicer.api.request.Request;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Crypto;
@@ -605,13 +605,11 @@ public class Scrape {
           return new ArrayList<SearchResult>();
         }
         Log.info("KewordQuery for URL " + keywordQuery.site + ". Query: " + keywordQuery.keywords, false);
-        //TODO handle authentication on keyword queries
-        //Util.loadProxy(driver, keywordQuery.credentials);
         try {
-          Query.perform(driver, keywordQuery.site, keywordQuery.keywords);
+          QueryKeyword.perform(driver, keywordQuery);
         } catch (Throwable e) {
           restart(req.timeout, req.proxy);
-          Query.perform(driver, keywordQuery.site, keywordQuery.keywords);
+          QueryKeyword.perform(driver, keywordQuery);
         }
       } else {
         Log.info("FormQuery for URL " + formQuery.site, false);
@@ -627,8 +625,6 @@ public class Scrape {
       }
       boolean fetch;
       boolean fetchCached;
-      boolean trim;
-      int resultThreshold;
       int pages;
       int numResults;
       String keywords;
@@ -637,8 +633,6 @@ public class Scrape {
       if (keywordQuery == null) {
         fetch = formQuery.fetch;
         fetchCached = formQuery.fetchCached;
-        trim = formQuery.trim;
-        resultThreshold = formQuery.resultThreshold;
         pages = formQuery.pages;
         numResults = formQuery.results;
         urlTransforms = formQuery.urlTransforms;
@@ -650,8 +644,6 @@ public class Scrape {
       } else {
         fetch = keywordQuery.fetch;
         fetchCached = keywordQuery.fetchCached;
-        trim = keywordQuery.trim;
-        resultThreshold = keywordQuery.resultThreshold;
         pages = keywordQuery.pages;
         numResults = keywordQuery.results;
         urlTransforms = keywordQuery.urlTransforms;
@@ -661,15 +653,10 @@ public class Scrape {
         postFetchClicks = keywordQuery.postFetchClicks;
         preFilter = keywordQuery.proactiveUrlFiltering;
       }
-      if (numResults > 0 && resultThreshold >= 0 && numResults < resultThreshold) {
-        resultThreshold = numResults - 1;
-      } else if (numResults > 0 && resultThreshold < 0 && numResults <= ProcessPage.SIGNIFICANT) {
-        resultThreshold = numResults - 1;
-      }
       if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
         throw new Exception("Cancellation was requested");
       }
-      results.addAll(ProcessPage.perform(driver, 1, keywords, resultThreshold, trim,
+      results.addAll(ProcessPage.perform(driver, 1, keywords,
           preFilter ? urlWhitelist : null, preFilter ? urlPatterns : null, preFilter ? urlTransforms : null));
       results = filterResults(results, urlWhitelist, urlPatterns, urlTransforms, false);
       if (numResults > 0 && results.size() > numResults) {
@@ -698,7 +685,7 @@ public class Scrape {
         if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
           throw new Exception("Cancellation was requested");
         }
-        List<Result> newResults = ProcessPage.perform(driver, i, keywords, resultThreshold, trim,
+        List<Result> newResults = ProcessPage.perform(driver, i, keywords,
             preFilter ? urlWhitelist : null, preFilter ? urlPatterns : null, preFilter ? urlTransforms : null);
         newResults = filterResults(newResults, urlWhitelist, urlPatterns, urlTransforms, false);
         if (numResults > 0 && results.size() + newResults.size() > numResults) {
@@ -769,11 +756,14 @@ public class Scrape {
         progress2 = "Page 2 progress: waiting for prior page extraction to finish...";
       }
       push(mapKey1, null);
-      Query.perform(driver, url, query);
+      KeywordQuery keywordQuery = new KeywordQuery();
+      keywordQuery.site = url;
+      keywordQuery.keywords = query;
+      QueryKeyword.perform(driver, keywordQuery);
       synchronized (progressLock) {
         progress1 = "Page 1 progress: extracting results...";
       }
-      results.addAll(ProcessPage.perform(driver, 1, query, -1, true, null, null, null));
+      results.addAll(ProcessPage.perform(driver, 1, query, null, null, null));
       synchronized (progressLock) {
         progress1 = "";
       }
@@ -811,7 +801,7 @@ public class Scrape {
           synchronized (progressLock) {
             progress2 = "Page 2 progress: extracting results...";
           }
-          next.addAll(ProcessPage.perform(driver, 2, query, -1, true, null, null, null));
+          next.addAll(ProcessPage.perform(driver, 2, query, null, null, null));
         } catch (End e) {
           Log.info("Reached end of results", false);
         } catch (Throwable t) {

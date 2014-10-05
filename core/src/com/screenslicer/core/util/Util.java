@@ -7,11 +7,11 @@
  * You can redistribute this program and/or modify it under the terms of the
  * GNU Affero General Public License version 3 as published by the Free
  * Software Foundation. Additional permissions or commercial licensing may be
- * available--contact Machine Publishers, LLC for details.
+ * available--see LICENSE file or contact Machine Publishers, LLC for details.
  * 
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License version 3
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License version 3
  * for more details.
  * 
  * You should have received a copy of the GNU Affero General Public License
@@ -1088,16 +1088,19 @@ public class Util {
       System.out.println("Doing clicks");
     }
     boolean clicked = false;
-    if (body == null) {
-      body = Util.openElement(driver, null, null, null);
-    }
-    for (int i = 0; controls != null && i < controls.length; i++) {
-      WebElement element = Util.toElement(driver, controls[i], body);
-      if (element != null) {
-        clicked = true;
-        click(driver, element);
-        if (controls[i].longRequest) {
-          Util.driverSleepLong();
+    if (controls != null && controls.length > 0) {
+
+      if (body == null) {
+        body = Util.openElement(driver, null, null, null);
+      }
+      for (int i = 0; i < controls.length; i++) {
+        WebElement element = Util.toElement(driver, controls[i], body);
+        if (element != null) {
+          clicked = true;
+          click(driver, element);
+          if (controls[i].longRequest) {
+            Util.driverSleepLong();
+          }
         }
       }
     }
