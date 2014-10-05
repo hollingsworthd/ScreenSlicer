@@ -1,0 +1,2570 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<searchresults total_results="149">
+          <addon id="215989">
+  <name>Proxy Selector</name>
+  <type id="1">Extension</type>
+  <guid>proxyselector@mozilla.org</guid>
+  <slug>proxy-selector</slug>
+  <version>1.31</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="883295">
+      <name>Michele Pezza</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/fra-diavolo/?src=api</link>
+    </author>      </authors>
+  <summary>Proxy Selector lets you switch local proxies in Firefox.</summary>
+  <description>Proxy Selector lets you switch local proxies in Firefox.
+It is a fork of Multiproxy Switch by McFred.
+
+&lt;strong&gt;If you want to thanks me&lt;/strong&gt;, please consider to create an account on Dropbox refferring to me &lt;a href=&#34;http://outgoing.mozilla.org/v1/bcead9d2b65d3f0da8c3b00e82b14a07ac7c0264152330202da3f717e7edce1b/https%3A//db.tt/evs1tS2&#34; rel=&#34;nofollow&#34;&gt;https://db.tt/evs1tS2&lt;/a&gt; and install the dropbox client.
+
+Proxies are stored in the file proxyselector.rdf inside the profile folder.
+
+Thanks &lt;strong&gt;Oleg_Sch&lt;/strong&gt; for the fix in Version 0.80.7.
+
+&lt;strong&gt;Attention:&lt;/strong&gt; Since  0.92.00 I removed the code to manage a panel in old statusbar. 
+If you want &lt;strong&gt;to show the button in the &#34;addon bar&#34;&lt;/strong&gt; you must move it there using the standard customize of Firefox.
+
+If you would contribute with translation files please let me know with a comment!</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/215/215989-64.png?modified=1384382983</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/215/215989-32.png?modified=1384382983</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>14.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="427" height="76">
+        https://addons.cdn.mozilla.net/user-media/previews/full/48/48134.png?src=api&amp;modified=1364468262
+      </full>
+      <thumbnail type="image/png" width="200" height="35">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/48/48134.png?src=api&amp;modified=1364468262
+      </thumbnail><caption>Button added to navigation bar by customize option</caption></preview><preview position="1">
+      <full type="image/png" width="384" height="433">
+        https://addons.cdn.mozilla.net/user-media/previews/full/48/48513.png?src=api&amp;modified=1364468263
+      </full>
+      <thumbnail type="image/png" width="133" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/48/48513.png?src=api&amp;modified=1364468263
+      </thumbnail><caption>Tools Menu</caption></preview><preview position="2">
+      <full type="image/png" width="380" height="525">
+        https://addons.cdn.mozilla.net/user-media/previews/full/48/48514.png?src=api&amp;modified=1364468263
+      </full>
+      <thumbnail type="image/png" width="108" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/48/48514.png?src=api&amp;modified=1364468263
+      </thumbnail><caption>Context Menu</caption></preview><preview position="3">
+      <full type="image/png" width="340" height="271">
+        https://addons.cdn.mozilla.net/user-media/previews/full/48/48516.png?src=api&amp;modified=1364468263
+      </full>
+      <thumbnail type="image/png" width="188" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/48/48516.png?src=api&amp;modified=1364468263
+      </thumbnail><caption>Proxies Manager</caption></preview><preview position="4">
+      <full type="image/png" width="381" height="468">
+        https://addons.cdn.mozilla.net/user-media/previews/full/48/48517.png?src=api&amp;modified=1364468263
+      </full>
+      <thumbnail type="image/png" width="122" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/48/48517.png?src=api&amp;modified=1364468263
+      </thumbnail><caption>Proxy settings dialog</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/proxy-selector/?src=api</learnmore><install hash="sha256:1d29f241a4f7b87e8f421a2a32039de03864f6c1d39f34725ac0aa97529a0377"
+    os="ALL"
+    size="45481">https://addons.mozilla.org/firefox/downloads/file/245010/proxy_selector-1.31-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="94">
+      https://addons.mozilla.org/en-US/firefox/addon/proxy-selector/reviews/?src=api
+    </reviews>
+    <total_downloads>530883</total_downloads>
+    <weekly_downloads>3978</weekly_downloads>
+    <daily_users>44045</daily_users>
+    <created epoch="1281539413">
+      2010-08-11T15:10:13Z
+    </created>
+    <last_updated epoch="1393371287">
+      2014-02-25T23:34:47Z
+    </last_updated>
+    <homepage>http://addons.mozilla.org</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="51740">
+  <name>Toggle Proxy</name>
+  <type id="1">Extension</type>
+  <guid>toggleproxy@quirkyquipu.co.uk</guid>
+  <slug>toggle-proxy-51740</slug>
+  <version>1.8</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5038481">
+      <name>trigano</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/trigano/?src=api</link>
+    </author>      </authors>
+  <summary>Toggle Proxy adds a status bar/toolbar icon to toggle between two proxy settings which can be set in the preferences or toggle via a shortcut key (alt + x) if you don&#39;t use the add-on bar.</summary>
+  <description>Toggle Proxy enables you to toggle between two proxies by left-clicking on the icon in the status-bar (or via the shortcut key (&#39;alt + x&#39; version 1.3)) or the toolbar icon (added in version 1.7 for Firefox), useful if you use different proxy settings at work and home. (e.g. auto=home, manual=university). The two proxies to toggle between can be selected via the preferences, availble via the add-on menu in the tools menu or right-clicking on the icon in the status bar.
+
+Versrion 1.7 now includes a toolbar button for Firefox.
+
+Version 1.5 now includes support for Thunderbird.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>1.5</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>3.0</min_version>
+      <max_version>27.*</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="310" height="373">
+        https://addons.cdn.mozilla.net/user-media/previews/full/39/39321.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="124" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/39/39321.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Preferences window</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/toggle-proxy-51740/?src=api</learnmore><install hash="sha256:b8f4eccd1dbcf5e856a0fb48bfa974ebedc9724df5b9d99a2f4821b49cc4c2e7"
+    os="ALL"
+    size="26345">https://addons.mozilla.org/firefox/downloads/file/179224/toggle_proxy-1.8-fx+tb.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/toggle-proxy-51740/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="2.00">
+            $2.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/toggle-proxy-51740/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>&lt;blockquote&gt;23/11/2012 - Added a toolbar option after feedback from reviewers. Decided to include it thanks to some contributions towards the continued support/development of this add-on - thank you to all of you who have contributed.&lt;/blockquote&gt;&lt;blockquote&gt;21/5/2011 - After reading the reviews I&#39;ve recieved I&#39;m am now in the process of trying to remember what I did nearly 2 years ago and add a shortcut key to the addon. &lt;/blockquote&gt;&lt;blockquote&gt;22/5/2011 - Adding the key wasn&#39;t too hard, hard bit now will be to add support so that it can be user specified. Once I&#39;ve sorted that I&#39;ll update the addon.&lt;/blockquote&gt;&lt;blockquote&gt;24/5/2011 - Harder than I thought to add support for a user specified key so have submitted version 1.2 with a dedicated shortcut key (alt + t) whilst I work on a user specified key.&lt;/blockquote&gt;&lt;blockquote&gt;8/8/2011 - New version (1.4) now available. Fixed the French locale and added a Dutch locale.&lt;/blockquote&gt;&lt;blockquote&gt;28/5/2011 - Didn&#39;t realise alt+t would cause a problem as a shortcut key on Windows (doesn&#39;t on OS-X), have modified it to alt+x, tested on OS-X and Windows with no problems seen. New version uploaded (1.3) for review - should be available in a couple of days hopefully&lt;/blockquote&gt;</developer_comments>
+    <reviews num="33">
+      https://addons.mozilla.org/en-US/firefox/addon/toggle-proxy-51740/reviews/?src=api
+    </reviews>
+    <total_downloads>163018</total_downloads>
+    <weekly_downloads>851</weekly_downloads>
+    <daily_users>9814</daily_users>
+    <created epoch="1259273602">
+      2009-11-26T22:13:22Z
+    </created>
+    <last_updated epoch="1353802513">
+      2012-11-25T00:15:13Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="239381">
+  <name>Proxy Tool</name>
+  <type id="1">Extension</type>
+  <guid>proxytool@proxylist.co</guid>
+  <slug>proxy-tool</slug>
+  <version>1.17</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="6993386">
+      <name>WebProxyList</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/WebProxyList/?src=api</link>
+    </author>      </authors>
+  <summary>Proxy Tool - Powerful, yet User-friendly proxy tool to manage your proxies and anonymity needs, including: 46M+ user agents (world&#39;s largest), 10 different spoofed HTTP referrers, auto-proxy rotation, plus many more. Developed by &lt;a href=&#34;http://outgoing.mozilla.org/v1/58adb18ac4c7a1e5a40583c2a008a2626bd6ae02/http%3A//ProxyList.co&#34; rel=&#34;nofollow&#34;&gt;http://ProxyList.co&lt;/a&gt;</summary>
+  <description>If you require web scraping Please contact &lt;a href=&#34;http://outgoing.mozilla.org/v1/d9b699e2b682344d9c6fdc001cf56e14079c7088b01921494026dca81afcda30/http%3A//WebScrapingHelp.com&#34; rel=&#34;nofollow&#34;&gt;WebScrapingHelp.com&lt;/a&gt;
+
+If you need more web proxies than what comes with our plugin please visit &lt;a href=&#34;http://outgoing.mozilla.org/v1/1da74facf98aca527fea51e51b9d1915e2116299eacf87115f4b2dc998e605ca/https%3A//webproxylist.com/subscription/&#34; rel=&#34;nofollow&#34;&gt;https://webproxylist.com/subscription/&lt;/a&gt; there are no restrictions to the use of these proxies.
+
+If you require very high quality and anonymous proxies you can create a free account here &lt;a href=&#34;http://outgoing.mozilla.org/v1/5fb127a63aa9d72a466325d42bb1c89eff1463e16f32b12c34fdd369db3db5c6/http%3A//privateproxyswitch.com/UserAccount/CreateAccount.aspx&#34; rel=&#34;nofollow&#34;&gt;http://privateproxyswitch.com/UserAccount/CreateAccount.aspx&lt;/a&gt; please note these proxies are high speed and highly anonymous but there are restrictions to using them. You need a key to join and you will need to be approved. 
+
+Proxy Tool is an user-friendly proxy tool that completely replaces Firefox&#39;s limited proxy features. 
+It has many features that will make it your best friend when surfing the sites anonymity.
+Features:
+o Can import up to 500 tested/working HTTP/HTTPS/SOCKS proxies from various proxy list providers such as &lt;a href=&#34;http://outgoing.mozilla.org/v1/2fb65c21b65a0b03f4b9c1bfc8b9cb8ac18abf6e6c747e143eb737a11e696b3b/http%3A//proxylist.co&#34; rel=&#34;nofollow&#34;&gt;http://proxylist.co&lt;/a&gt; 
+o Easy to understand the pop-up menu with basic, yet powerful features.
+o Delete Flash cookies, site cookies and EverCookie manually or automatically.
+o 46 millions different user agents  (world&#39;s largest) for browsers, including Android, iPhone and iPad browsers.
+o Spoof HTTP referrers, which can be editable (up to 10). Disable automatically on 2nd page. (improved in 1.17 version)
+o Mouse-over Tooltip to display the proxy/actual site details
+o When entering IP:Port proxy (HTTP or SOCKS) in text box, the proxy settings are updated automatically.
+============
+1.15 version:
+- Keyboard shortcuts are added
+- Fixed the http referrer bug
+- Improved import proxies feature
+- Quick pop-up tooltip when switching proxies using Shift+S key
+============
+1.16 version:
+- Upgraded to work with FF 4.0
+- Added on-screen menu (click on web page to open the menu to select the proxy tool menu)
+- Added IE9 browser to proxy tool user agent.
+- Added the http referrer option to allow for &#34;push&#39; the http referrer automatically.
+- Minor bug fixes
+=============
+1.17 version:
+- Upgraded to work with FF 9.0+
+- Added EverCookie deletion feature - only one of a kind here on Mozilla FF Addon.
+- Added Randomized Latest Mobile Browsers (iPhone, Android, iPad, etc.) 
+- Upgraded/Added more PC/Mac browsers (user agents) to latest version
+- Improved SOCKS proxy services (less errors)
+- Increased to 500 proxies per HTTP/SOCKS4 and SOCKS5 (popular request!!)
+- Added the Direct link to &lt;a href=&#34;http://outgoing.mozilla.org/v1/aedc125353bbb08d8c13f813da966f91463fd06c4e6ca9e00d3c82cf5b3da25e/http%3A//Proxylist.co&#34; rel=&#34;nofollow&#34;&gt;Proxylist.co&lt;/a&gt; subscription for automated proxylist updates.
+- Minor bug fixes
+=============
+1.18 version:
+- Upgraded to work with the latest FF version
+1)  Fixed: After the IPs are added to http/socks4/socks5, it needs to be ready for use, instead of restarting the browser. (bug)
+2)  Updated: Referrer list is updated to include more in the list.
+3)  Added more smartphone user agents with randomize browser only option dedicated to smartphones only.
+4)  Added tablet user agents with randomize browser only option dedicated to tablets only (7&#34; or larger).
+5)  Added more user agents...as there are many new browsers out there with latest versions for desktop computers. Please make sure that the &#34;latest browser for desktop&#34; uses the latest user agents.
+6)  Added &#34;custom&#34; user agent list with editor capacity to add/edit the user agents list (50 max)
+7)  Added the checkbox option that will enable/disable the user agent, httpd referrer and 3 cookie deletion with or without proxies on every new window or tab (optional). I know it&#39;s bit complicated - but the users want to use these useragent/http referrer/clear cookies with or without proxy.
+8)  Modified the Settings to show &#34;Paste the Direct Link from &lt;a href=&#34;http://outgoing.mozilla.org/v1/aedc125353bbb08d8c13f813da966f91463fd06c4e6ca9e00d3c82cf5b3da25e/http%3A//Proxylist.co&#34; rel=&#34;nofollow&#34;&gt;Proxylist.co&lt;/a&gt;&#34;
+9)  Modifed the About to use &lt;a href=&#34;http://outgoing.mozilla.org/v1/6a24482e970bbdf29dc43554fc69650f70a563a811f0161e1bed6684b62de7e1/http%3A//WebProxyList.com/ProxyList.co&#34; rel=&#34;nofollow&#34;&gt;WebProxyList.com/ProxyList.co&lt;/a&gt;
+10)  Added 1 secs delay before the balloon tip pops up.
+11) Added Rotate User Agent
+12) Added up/down arrow buttons next to ( H ) button that will switch proxies using the mouse click.
+13) Added clear list buttons in Proxy Edit sections
+
+Updated Proxy Tool FF Addon Keyboard Shortcut List:
+* Shift + I – Import proxies
+* Shift + L – Edit proxy list
+* Shift + D – Reset to default
+* Shift + F1 – Help
+* Shift + H – Proxy type: HTTP
+* Shift + K – Proxy type: SOCKS4
+* Shift + O – Proxy type: SOCKS5
+* Shift + E – Turn on/off Proxy
+* Shift + C – Delete flash &amp;amp; site cookies
+* Shift + R – Rotate referrer
+* Shift + U - Rotate User Agent [ NEW in 1.18+ version ]
+* Shift + S – Rotate proxy
+* Shift + A – Delete ALL cookies (Site, Flash and EverCookie) [ NEW in 1.17 version ]
+* Shift + Z – Delete EverCookie [ NEW in 1.17 version ]
+============
+NOTE: There is no hidden &#34;backdoor&#34; to this plugin (as mentioned by someone in the comment here), as Mozilla vetted the plugin very carefully by the wonderful review team to make sure it&#39;s safe for everyone. 
+Please feel free to contact me if you have any issues, instead of posting the fake comment here. :)</description><license>
+    <name>Custom License</name>
+    <url>https://addons.mozilla.org/en-US/firefox/addon/proxy-tool/license/1.17</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/239/239381-64.png?modified=1377402767</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/239/239381-32.png?modified=1377402767</icon>
+  <compatible_applications><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.0</min_version>
+      <max_version>2.6a1</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>9.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="175" height="383">
+        https://addons.cdn.mozilla.net/user-media/previews/full/49/49912.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="68" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/49/49912.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxy Tool Pop-up Menu (right-click)</caption></preview><preview position="1">
+      <full type="image/png" width="280" height="404">
+        https://addons.cdn.mozilla.net/user-media/previews/full/49/49913.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="103" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/49/49913.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxy Type Selection</caption></preview><preview position="1">
+      <full type="image/png" width="354" height="380">
+        https://addons.cdn.mozilla.net/user-media/previews/full/49/49914.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="139" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/49/49914.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Editable HTTP Referrers</caption></preview><preview position="1">
+      <full type="image/png" width="364" height="274">
+        https://addons.cdn.mozilla.net/user-media/previews/full/49/49915.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="199" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/49/49915.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Settings (clear cookies, rotate proxy)</caption></preview><preview position="1">
+      <full type="image/png" width="448" height="291">
+        https://addons.cdn.mozilla.net/user-media/previews/full/49/49916.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="129">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/49/49916.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Tooltip (mouse-over the button to display the details)</caption></preview><preview position="1">
+      <full type="image/png" width="372" height="376">
+        https://addons.cdn.mozilla.net/user-media/previews/full/49/49917.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="148" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/49/49917.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Over 43 millions user agents (world&#39;s largest)</caption></preview></previews><rating>3</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/proxy-tool/?src=api</learnmore><install hash="sha256:16db7f6dbd35d289708dfde50e4fe1a0d7f6470aeff77abd7907df71dfb56945"
+    os="ALL"
+    size="677888">https://addons.mozilla.org/firefox/downloads/file/137289/proxy_tool-1.17-sm+fx.xpi?src=api</install>
+  <install hash="sha256:1e5cb2261b4d12113bc7585e23c62b677b790ea6c72607eb8c209936426da192" os=""
+             size="278528"
+             status="Beta">
+      https://addons.mozilla.org/firefox/downloads/file/100643/proxy_tool-1.14-fx+sm.xpi?src=api
+    </install>
+    <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/proxy-tool/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="9.99">
+            $9.99
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/proxy-tool/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>Please visit &lt;a href=&#34;http://outgoing.mozilla.org/v1/4ef7671da5b4cd65c4b85fee1ebf07daac6362dd/http%3A//proxylist.co/forum/&#34; rel=&#34;nofollow&#34;&gt;http://proxylist.co/forum/&lt;/a&gt; for any support/request related issues.
+
+Notes: 
+
+- Certain users reported the download error -228 message when trying to download/install Proxy Tool Firefox plugin. It&#39;s due to Mozilla Firefox browser&#39;s end. Please see &lt;a href=&#34;http://outgoing.mozilla.org/v1/89755a2777fd602d4d179b1115d400ec81f9cfe9/http%3A//proxylist.co/forum/general-support-9/firefox-download-error-228-a-10/&#34; rel=&#34;nofollow&#34;&gt;http://proxylist.co/forum/general-support-9/firefox-download-error-228-a-10/&lt;/a&gt; to deal with your Mozilla Firefox browser. 
+- Major upgrades are based on user&#39;s feedback.
+- Please contact us for any questions on proxy tools or proxy services.</developer_comments>
+    <reviews num="36">
+      https://addons.mozilla.org/en-US/firefox/addon/proxy-tool/reviews/?src=api
+    </reviews>
+    <total_downloads>434672</total_downloads>
+    <weekly_downloads>2174</weekly_downloads>
+    <daily_users>16350</daily_users>
+    <created epoch="1286491862">
+      2010-10-07T22:51:02Z
+    </created>
+    <last_updated epoch="1323810784">
+      2011-12-13T21:13:04Z
+    </last_updated>
+    <homepage>http://webproxylist.com/tools</homepage>
+    <support>http://proxylist.co/forum</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="186387">
+  <name>Elite Proxy Switcher</name>
+  <type id="1">Extension</type>
+  <guid>eliteproxyswitcher@my-proxy.com</guid>
+  <slug>elite-proxy-switcher</slug>
+  <version>1.2.0.2</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5375332">
+      <name>My-Proxy</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/my-proxy/?src=api</link>
+    </author>      </authors>
+  <summary>Change Firefox proxy with great ease.</summary>
+  <description>It shows the current proxy settings in the status bar. When you click it, you can switch the proxy option between using a proxy and direct connection. When you right click it, it will show the detailed proxy option and you can change it.
+
+In Firefox 29 and later, you need this add-on to get your status bar back:
+&lt;a rel=&#34;nofollow&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/the-addon-bar/&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/the-addon-bar/&lt;/a&gt;</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/186/186387-64.png?modified=1398821561</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/186/186387-32.png?modified=1398821561</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>1.5</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="523" height="449">
+        https://addons.cdn.mozilla.net/user-media/previews/full/80/80272.png?src=api&amp;modified=1350724493
+      </full>
+      <thumbnail type="" width="175" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/80/80272.png?src=api&amp;modified=1350724493
+      </thumbnail><caption>Right click the status bar to open the proxy setting dialog.</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/elite-proxy-switcher/?src=api</learnmore><install hash="sha256:875e53ca612f6c2ff6dd7d8f89094bb20d8f16a30fc446ed40b555cba5f4a9c5"
+    os="ALL"
+    size="16275">https://addons.mozilla.org/firefox/downloads/file/172006/elite_proxy_switcher-1.2.0.2-fx.xpi?src=api</install>
+  <developer_comments>If you find any bug, please report it here: &lt;a href=&#34;http://outgoing.mozilla.org/v1/a8ffff6a823e5f65fc0fe44908573602d378b4cbfb1eb767776ead74e2f5f119/http%3A//www.my-proxy.com/contact.html%20&#34; rel=&#34;nofollow&#34;&gt;http://www.my-proxy.com/contact.html&lt;/a&gt; Thank you very much.</developer_comments>
+    <reviews num="34">
+      https://addons.mozilla.org/en-US/firefox/addon/elite-proxy-switcher/reviews/?src=api
+    </reviews>
+    <total_downloads>594303</total_downloads>
+    <weekly_downloads>2801</weekly_downloads>
+    <daily_users>27235</daily_users>
+    <created epoch="1277719715">
+      2010-06-28T10:08:35Z
+    </created>
+    <last_updated epoch="1350196086">
+      2012-10-14T06:28:06Z
+    </last_updated>
+    <homepage>http://www.eliteproxyswitcher.com/</homepage>
+    <support>http://www.eliteproxyswitcher.com</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="368109">
+  <name>Proxy List</name>
+  <type id="1">Extension</type>
+  <guid>proxylist@proxylists.me</guid>
+  <slug>proxylist</slug>
+  <version>3.3</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5976613">
+      <name>NWK</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/ningsuhen/?src=api</link>
+    </author>      </authors>
+  <summary>Get the fastest working proxies with a single click. The easiest way to find web proxies that suits you.</summary>
+  <description>Proxy List is a powerful and user-friendly extension for proxy users. It is a complete replacement for proxy top sites. With Proxy List, proxy users will never need to find working proxies again as it searches the fastest proxies automatically.
+The key features are highlighted here.
+ * Retrieves a list of latest working proxies automatically
+ * Each (web) proxy is then verified from the client side which makes sure it is not blocked and working properly
+ * Proxies are also listed in order of speed / latency which makes it even better for the user
+ * Users can limit the number of proxies displayed
+ * Proxies can be filtered by Country, Script, port or type of proxy.
+ * Proxies can be filtered by specifying a maximum connection timeout
+ * Individual web proxies can be blacklisted
+ * Multiple proxy sources with fallback mechanism
+ * Option to search for SSL proxies first and open them in SSL.
+ * Premium Proxy Service Integrated
+More details are available at &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/6181cd8fdc604dbe1918e1d6f860fec88f1750f213cb373cf0c4214f1f64ebdc/http%3A//proxylists.me/proxylist-addon&#34;&gt;http://proxylists.me/proxylist-addon&lt;/a&gt;
+Please feel free to contact us at &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/93134c8854d9c16764e538bac62ca92533b85327e20dccbd98d140a87e29a389/http%3A//proxylists.me/contact&#34;&gt;http://proxylists.me/contact&lt;/a&gt;</description><license>
+    <name>GNU General Public License, version 2.0</name>
+    <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/368/368109-64.png?modified=1399219023</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/368/368109-32.png?modified=1399219023</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>16.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="700" height="438">
+        https://addons.cdn.mozilla.net/user-media/previews/full/135/135402.png?src=api&amp;modified=1399218945
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/135/135402.png?src=api&amp;modified=1399218945
+      </thumbnail><caption>Opening the ProxyList Popup</caption></preview><preview position="1">
+      <full type="" width="700" height="438">
+        https://addons.cdn.mozilla.net/user-media/previews/full/135/135404.png?src=api&amp;modified=1399218945
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/135/135404.png?src=api&amp;modified=1399218945
+      </thumbnail><caption>Using the Http/Socks proxies tab</caption></preview><preview position="2">
+      <full type="" width="700" height="438">
+        https://addons.cdn.mozilla.net/user-media/previews/full/135/135406.png?src=api&amp;modified=1399218945
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/135/135406.png?src=api&amp;modified=1399218945
+      </thumbnail><caption>Filtering proxies by anonymity</caption></preview><preview position="3">
+      <full type="" width="700" height="438">
+        https://addons.cdn.mozilla.net/user-media/previews/full/135/135408.png?src=api&amp;modified=1399218945
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/135/135408.png?src=api&amp;modified=1399218945
+      </thumbnail><caption>Signing up for Premium proxies</caption></preview><preview position="4">
+      <full type="" width="700" height="438">
+        https://addons.cdn.mozilla.net/user-media/previews/full/135/135410.png?src=api&amp;modified=1399218945
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/135/135410.png?src=api&amp;modified=1399218945
+      </thumbnail><caption>Using the options page</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/proxylist/?src=api</learnmore><install hash="sha256:abf3578e7ac280e9058ff758a544a4683d64ab78dd2f3587117ddd508a7e8a06"
+    os="ALL"
+    size="601987">https://addons.mozilla.org/firefox/downloads/file/255512/proxy_list-3.3-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/proxylist/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="4.99">
+            $4.99
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/proxylist/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="13">
+      https://addons.mozilla.org/en-US/firefox/addon/proxylist/reviews/?src=api
+    </reviews>
+    <total_downloads>312859</total_downloads>
+    <weekly_downloads>1957</weekly_downloads>
+    <daily_users>10674</daily_users>
+    <created epoch="1332004977">
+      2012-03-17T17:22:57Z
+    </created>
+    <last_updated epoch="1399054715">
+      2014-05-02T18:18:35Z
+    </last_updated>
+    <homepage>http://proxylists.me/proxylist-addon</homepage>
+    <support>http://proxylists.me</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="318196">
+  <name>Hide My Ass! Web Proxy</name>
+  <type id="1">Extension</type>
+  <guid>extension@hidemyass.com</guid>
+  <slug>hide-my-ass-proxy-extension</slug>
+  <version>1.2.7</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5763195">
+      <name>HideMyAss!</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/hidemyass/?src=api</link>
+    </author>      </authors>
+  <summary>Hide My Ass! operates the most popular browser based web proxy online, this is our official extension that enables you to easily redirect your web traffic through our anonymous proxy network.</summary>
+  <description>Why use a web proxy?
+1. Surf websites anonymously.
+2. Hide and change your IP address (your &#39;online fingerprint&#39;).
+3. Conceal your web browsing history.
+4. SSL encryption for all websites.
+5. Bypass web filters and geographic internet blocks.
+
+What makes Hide My Ass! different?
+1. No third-party advertisements or annoying popups.
+2. Works with popular video websites such as YouTube and adult tubes.
+3. Various IP addresses to use, not just one. 
+4. Proxy servers in multiple countries.
+5. SSL/HTTPS for all servers.
+
+Extension features:
+1. One click proxy. Whilst already browsing a website, click the extension icon to browse the website anonymously. Alternatively click the icon on a new tab to be shown a web proxy form and specify a website to proxify.
+2. Select one of 20 web proxy domain names (not just &lt;a href=&#34;http://outgoing.mozilla.org/v1/0beb3f99f6b49a05b75e6bed48e92e488e94de44/http%3A//HideMyAss.com&#34; rel=&#34;nofollow&#34;&gt;HideMyAss.com&lt;/a&gt;).
+3. Select a specific web proxy server (USA, UK, NL).
+4. URL obfuscation. Choose between encoded and encrypted web proxy URL&#39;s.
+5. SSL encryption. Choose between HTTP and HTTPS web browsing.
+6. Option to always launch web proxy in incognito mode for increased anonymity.
+7. Option to always launch the web proxy in a new tab.
+8. Option to always ask for manual URL entry (and not redirect based on address bar entries).
+9. Right click &amp;gt; proxy function.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/318/318196-64.png?modified=1353338369</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/318/318196-32.png?modified=1353338369</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="700" height="455">
+        https://addons.cdn.mozilla.net/user-media/previews/full/58/58327.png?src=api&amp;modified=1306411725
+      </full>
+      <thumbnail type="" width="200" height="130">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/58/58327.png?src=api&amp;modified=1306411725
+      </thumbnail></preview><preview position="1">
+      <full type="" width="700" height="456">
+        https://addons.cdn.mozilla.net/user-media/previews/full/58/58328.png?src=api&amp;modified=1306411730
+      </full>
+      <thumbnail type="" width="200" height="130">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/58/58328.png?src=api&amp;modified=1306411730
+      </thumbnail></preview><preview position="2">
+      <full type="" width="674" height="525">
+        https://addons.cdn.mozilla.net/user-media/previews/full/58/58329.png?src=api&amp;modified=1306411726
+      </full>
+      <thumbnail type="" width="192" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/58/58329.png?src=api&amp;modified=1306411726
+      </thumbnail></preview></previews><rating>3</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/hide-my-ass-proxy-extension/?src=api</learnmore><install hash="sha256:99f3a23d533ec87aa6ce60d73c4b9707424c3ccb44da96523971c29d16c00e5e"
+    os="ALL"
+    size="53248">https://addons.mozilla.org/firefox/downloads/file/151739/hide_my_ass_web_proxy-1.2.7-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="54">
+      https://addons.mozilla.org/en-US/firefox/addon/hide-my-ass-proxy-extension/reviews/?src=api
+    </reviews>
+    <total_downloads>1332873</total_downloads>
+    <weekly_downloads>6680</weekly_downloads>
+    <daily_users>69783</daily_users>
+    <created epoch="1306402955">
+      2011-05-26T09:42:35Z
+    </created>
+    <last_updated epoch="1337746961">
+      2012-05-23T04:22:41Z
+    </last_updated>
+    <homepage>http://hidemyass.com</homepage>
+    <support>http://hidemyass.com/contact/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="1950">
+  <name>Close Button</name>
+  <type id="1">Extension</type>
+  <guid>{962e0d4d-6b89-4b73-aa72-df03360da12e}</guid>
+  <slug>close-button</slug>
+  <version>0.4.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="9505">
+      <name>Isaac</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/isaac/?src=api</link>
+    </author>      </authors>
+  <summary>Adds a Close Tab (or Window, or Browser) button to the toolbar, so you can put it where you want it.  The appearance follows your current theme.</summary>
+  <description>Adds a Close Tab (or Window, or Browser) button to the toolbar. This is especially handy if you put your tab bar at the bottom (i.e. with Tab Mix Plus) but want a Close Tab button in the top right, where you&#39;d find it in most well behaved Windows programs with child windows. Once installed, just right click on the toolbar, select &#34;Customize...&#34;, and drag the button wherever you like. The button&#39;s appearance is determined by the installed theme, and its behavior can be configured to close the current tab, window, or Firefox session.</description><license>
+    <name>GNU Lesser General Public License, version 2.1</name>
+    <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/1/1950-64.png?modified=1354099207</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/1/1950-32.png?modified=1354099207</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>29.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/full/4/4126.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/4/4126.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/full/4/4125.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/4/4125.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/full/4/4127.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/4/4127.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/full/4/4128.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/4/4128.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/close-button/?src=api</learnmore><install hash="sha256:345fcc18d4a0514f22f496e8b86552a33ab9a4227ffabb794289a263aed2d38e"
+    os="ALL"
+    size="4270">https://addons.mozilla.org/firefox/downloads/file/256326/close_button-0.4.1-fx.xpi?src=api</install>
+  <developer_comments>Please email me directly with bug reports or feature requests. I check this page infrequently, usually only after someone emails me with a comment. So reviews on this page are probably best directed at other Firefox users who are deciding if this extension might be helpful for them.</developer_comments>
+    <reviews num="55">
+      https://addons.mozilla.org/en-US/firefox/addon/close-button/reviews/?src=api
+    </reviews>
+    <total_downloads>243221</total_downloads>
+    <weekly_downloads>181</weekly_downloads>
+    <daily_users>5856</daily_users>
+    <created epoch="1138312138">
+      2006-01-26T21:48:58Z
+    </created>
+    <last_updated epoch="1398865963">
+      2014-04-30T13:52:43Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="476575">
+  <name>Best Proxy Switcher</name>
+  <type id="1">Extension</type>
+  <guid>bestproxyswitcher@bestproxyswitcher.com</guid>
+  <slug>best-proxy-switcher</slug>
+  <version>3.4.6</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="10429302">
+      <name>Proxy-List.org</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/y_katz/?src=api</link>
+    </author>      </authors>
+  <summary>Best Proxy Switcher was developed by the team, who provides proxy service since 2004 year. You can use Best Proxy Switcher with your own proxy or use 3 day FREE trial to let it download most recently checked list from our web site automatically!</summary>
+  <description>Best Proxy Switcher was developed by the team, who provides proxy service since 2004 year. You can use Best Proxy Switcher with your own proxy or use 3 day FREE trial to let it download most recently checked list from our web site automatically!
+
+For advanced users and web masters who needs more proxy servers, there is an option to register at our web site for 9.99 USD and get unlimited access to our database (please use &#39;register&#39; button within addon to get special price).
+
+&lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/69743090f35bd12034a351802accdfb6405f66a33ca359e565cd33fcc8ae7b4b/http%3A//Proxy-List.org&#34;&gt;Proxy-List.org&lt;/a&gt; web site offers more than 10.000 working proxy servers per day during 10 years! Our high quality service is confirmed by time and our clients!
+
+Due to high popularity, our web site is disabled in many countries by ISP. If &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/69743090f35bd12034a351802accdfb6405f66a33ca359e565cd33fcc8ae7b4b/http%3A//Proxy-List.org&#34;&gt;Proxy-List.org&lt;/a&gt; web site is not accessible, please use &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/e9f96eb7295fdb22aa70fdeac0d2125d8a24ad85913c272236774b50b50c7a33/http%3A//Best-Proxy.com&#34;&gt;Best-Proxy.com&lt;/a&gt; address instead. 
+
+&lt;b&gt;KNOWN ISSUES:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;You may continuously get &#39;enter captcha text&#39; popup. To be able to download proxy list from our web site, cookies must be enabled in Firefox. &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/00857ec254ac93b5fff02b6259084d3f3b28773ce2476b84a69494507585acc8/http%3A//goo.gl/RmFXqR&#34;&gt;Step by step instruction how to enable cookies&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Addon will not work if you are accessing internet via local proxy server. For such case you will need proxy switcher with &#39;proxy chain&#39; support. If you need help, please contact us.&lt;/li&gt;&lt;li&gt;If you cannot open Facebook then you need HTTPs proxy. &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/317287394939b76ad6e100d1b1984c63d78a42d6aabe03733b238594bb142646/http%3A//proxy-list.org/images/facebook_proxy.png&#34;&gt;Step by step instruction how to get free proxy for Facebook&lt;/a&gt;&lt;/li&gt;&lt;li&gt;IMPORTANT: please disable proxy before you uninstall Best Proxy Switcher. If you do not disable proxy then proxy settings will remain in Firefox and you MAY have problems opening web pages (thanks to Adrian).&lt;/li&gt;&lt;/ul&gt;
+P.S. Send bug report to bug@proxy&lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/0cc8ee75e95e4cda4966931004a869049ed1ff7fe9500f748ac4b3c94a4046de/http%3A//-list.org&#34;&gt;-list.org&lt;/a&gt;. Your support will be rewarded.</description><license>
+    <name>GNU General Public License, version 2.0</name>
+    <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/476/476575-64.png?modified=1409490176</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/476/476575-32.png?modified=1409490176</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>Linux</os><os>WINNT</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="579" height="350">
+        https://addons.cdn.mozilla.net/user-media/previews/full/124/124215.png?src=api&amp;modified=1390763058
+      </full>
+      <thumbnail type="" width="200" height="121">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/124/124215.png?src=api&amp;modified=1390763058
+      </thumbnail></preview><preview position="1">
+      <full type="" width="579" height="350">
+        https://addons.cdn.mozilla.net/user-media/previews/full/124/124216.png?src=api&amp;modified=1390763058
+      </full>
+      <thumbnail type="" width="200" height="121">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/124/124216.png?src=api&amp;modified=1390763058
+      </thumbnail></preview><preview position="2">
+      <full type="" width="579" height="350">
+        https://addons.cdn.mozilla.net/user-media/previews/full/124/124217.png?src=api&amp;modified=1390763058
+      </full>
+      <thumbnail type="" width="200" height="121">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/124/124217.png?src=api&amp;modified=1390763058
+      </thumbnail></preview><preview position="3">
+      <full type="" width="579" height="350">
+        https://addons.cdn.mozilla.net/user-media/previews/full/124/124218.png?src=api&amp;modified=1390763058
+      </full>
+      <thumbnail type="" width="200" height="121">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/124/124218.png?src=api&amp;modified=1390763058
+      </thumbnail></preview><preview position="4">
+      <full type="" width="579" height="350">
+        https://addons.cdn.mozilla.net/user-media/previews/full/124/124219.png?src=api&amp;modified=1390763058
+      </full>
+      <thumbnail type="" width="200" height="121">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/124/124219.png?src=api&amp;modified=1390763058
+      </thumbnail></preview><preview position="5">
+      <full type="" width="579" height="350">
+        https://addons.cdn.mozilla.net/user-media/previews/full/124/124220.png?src=api&amp;modified=1390763058
+      </full>
+      <thumbnail type="" width="200" height="121">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/124/124220.png?src=api&amp;modified=1390763058
+      </thumbnail></preview><preview position="6">
+      <full type="" width="579" height="350">
+        https://addons.cdn.mozilla.net/user-media/previews/full/124/124221.png?src=api&amp;modified=1390763058
+      </full>
+      <thumbnail type="" width="200" height="121">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/124/124221.png?src=api&amp;modified=1390763058
+      </thumbnail></preview><preview position="7">
+      <full type="" width="579" height="350">
+        https://addons.cdn.mozilla.net/user-media/previews/full/124/124222.png?src=api&amp;modified=1390763058
+      </full>
+      <thumbnail type="" width="200" height="121">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/124/124222.png?src=api&amp;modified=1390763058
+      </thumbnail></preview><preview position="8">
+      <full type="" width="579" height="350">
+        https://addons.cdn.mozilla.net/user-media/previews/full/124/124223.png?src=api&amp;modified=1390763058
+      </full>
+      <thumbnail type="" width="200" height="121">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/124/124223.png?src=api&amp;modified=1390763058
+      </thumbnail></preview><preview position="9">
+      <full type="" width="579" height="350">
+        https://addons.cdn.mozilla.net/user-media/previews/full/124/124224.png?src=api&amp;modified=1390763058
+      </full>
+      <thumbnail type="" width="200" height="121">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/124/124224.png?src=api&amp;modified=1390763058
+      </thumbnail></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/best-proxy-switcher/?src=api</learnmore><install hash="sha256:27e88208d767a1014266d7ec0028607d72f09811357e736b404adde4156e8531"
+    os="Linux"
+    size="1536534">https://addons.mozilla.org/firefox/downloads/file/258942/best_proxy_switcher-3.4.6-fx-linux.xpi?src=api</install>
+  <install hash="sha256:27e88208d767a1014266d7ec0028607d72f09811357e736b404adde4156e8531"
+    os="WINNT"
+    size="1536534">https://addons.mozilla.org/firefox/downloads/file/258944/best_proxy_switcher-3.4.6-fx-windows.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="33">
+      https://addons.mozilla.org/en-US/firefox/addon/best-proxy-switcher/reviews/?src=api
+    </reviews>
+    <total_downloads>317483</total_downloads>
+    <weekly_downloads>7442</weekly_downloads>
+    <daily_users>21137</daily_users>
+    <created epoch="1387093108">
+      2013-12-15T07:38:28Z
+    </created>
+    <last_updated epoch="1400889161">
+      2014-05-23T23:52:41Z
+    </last_updated>
+    <homepage>http://proxy-list.org</homepage>
+    <support>http://proxy-list.org/english/contactus.php</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="3082">
+  <name>Undo Closed Tabs Button</name>
+  <type id="1">Extension</type>
+  <guid>undoclosedtabsbutton@supernova00.biz</guid>
+  <slug>undo-closed-tabs-button</slug>
+  <version>3.9.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5429276">
+      <name>Andy Portmen</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/AndyPortmen/?src=api</link>
+    </author>      </authors>
+  <summary>Tired of going to History -&amp;gt; Recently Closed Tabs just to undo a closed tab? Then this extension is for you!
+
+This extension allows you to undo closed tabs via a toolbar button or the right-click context menu.</summary>
+  <description>&lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/5b98b2caf41917739878eead948d7270b59dd6dca0c0840ec1b3d83388fdf29b/http%3A//firefox.add0n.com/undo.html&#34;&gt;Undo Closed Tab Button&lt;/a&gt; allows you to undo closed tabs via a toolbar button or the right-click context menu.
+
+FIREFOX 3.6.x, 3.5.x, 3.0.x and 2.0.0.x users can download a compatible version of this extension at &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/9f48473a3f505add406ab06714b39ca4b34de0ab1731996f4456b234e9e9ebae/http%3A//code.google.com/p/uctb/downloads/list&#34;&gt;http://code.google.com/p/uctb/downloads/list&lt;/a&gt;
+
+You must add the button by going to View -&amp;gt; Toolbars -&amp;gt; Customize, then drag and drop the button anywhere on any toolbar.
+
+Tired of going to History -&amp;gt; Recently Closed Tabs just to undo a closed tab? Then this extension is for you!
+
+This extension allows you to undo closed tabs via a toolbar button or the right-click context menu.  Click the image one time to undo the last closed tab. Three times to open the last three closed tabs and so on. Click the drop down arrow to see the list of last previously closed tabs and select which one you would like to undo.
+
+An options menu is available through Tools -&amp;gt; Add-ons -&amp;gt; Extensions to customize some of the features this extension provides.
+
+&lt;b&gt;NOTE:&lt;/b&gt; Please do not leave negative feedback just because you feel this extension is useless just because a keyboard shortcut exists.  This extension provides easily access to choose exactly which tab you want to undo quickly without have to go through menus to find this feature.
+
+&lt;b&gt;NOTE:&lt;/b&gt; If you are using a dark theme, you can change the icon from options.</description><license>
+    <name>Mozilla Public License, version 2.0</name>
+    <url>http://www.mozilla.org/MPL/2.0/</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/3/3082-64.png?modified=1410162948</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/3/3082-32.png?modified=1410162948</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="424" height="340">
+        https://addons.cdn.mozilla.net/user-media/previews/full/112/112868.png?src=api&amp;modified=1378838652
+      </full>
+      <thumbnail type="" width="187" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/112/112868.png?src=api&amp;modified=1378838652
+      </thumbnail><caption>Undo Closed Tabs toolbar button</caption></preview><preview position="1">
+      <full type="image/png" width="156" height="98">
+        https://addons.cdn.mozilla.net/user-media/previews/full/21/21035.png?src=api&amp;modified=1378838651
+      </full>
+      <thumbnail type="image/png" width="156" height="98">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/21/21035.png?src=api&amp;modified=1378838651
+      </thumbnail><caption>Undo Closed Tabs tab bar button</caption></preview><preview position="2">
+      <full type="image/png" width="211" height="310">
+        https://addons.cdn.mozilla.net/user-media/previews/full/21/21036.png?src=api&amp;modified=1378838651
+      </full>
+      <thumbnail type="image/png" width="102" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/21/21036.png?src=api&amp;modified=1378838651
+      </thumbnail><caption>Undo Closed Tabs right-click context menu entry</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/undo-closed-tabs-button/?src=api</learnmore><install hash="sha256:18075074451403a8beea8758f110ae7a900041a930e630d8d8ad3d82490e9719"
+    os="ALL"
+    size="35877">https://addons.mozilla.org/firefox/downloads/file/258178/undo_closed_tabs_button-3.9.1-fx.xpi?src=api</install>
+  <install hash="sha256:cca8546560c8033248b6648048735c375f22bfdce33d0e4ca0b2c4c026bab720" os=""
+             size="35856"
+             status="Beta">
+      https://addons.mozilla.org/firefox/downloads/file/233900/undo_closed_tabs_button-3.8.6b1-fx.xpi?src=api
+    </install>
+    <developer_comments>You must add the toolbar button by going to View -&amp;gt; Toolbars -&amp;gt; Customize, then drag and drop the icon where you want it on the toolbar.
+
+An options menu is available through Tools -&amp;gt; Addons -&amp;gt; Extensions to customize some of the features this extension provides.</developer_comments>
+    <reviews num="318">
+      https://addons.mozilla.org/en-US/firefox/addon/undo-closed-tabs-button/reviews/?src=api
+    </reviews>
+    <total_downloads>1967145</total_downloads>
+    <weekly_downloads>2646</weekly_downloads>
+    <daily_users>60246</daily_users>
+    <created epoch="1154305836">
+      2006-07-31T00:30:36Z
+    </created>
+    <last_updated epoch="1399821581">
+      2014-05-11T15:19:41Z
+    </last_updated>
+    <homepage>http://firefox.add0n.com/undo.html</homepage>
+    <support>http://firefox.add0n.com/undo.html</support>
+    <featured>1</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="48585">
+  <name>Minimize On Start and Close</name>
+  <type id="1">Extension</type>
+  <guid>{480adee0-f020-4fef-917d-b05502b17aaf}</guid>
+  <slug>minimize-on-start-and-close</slug>
+  <version>1.3.2</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="28515">
+      <name>Fredrik Savje</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/kfsavje/?src=api</link>
+    </author>      </authors>
+  <summary>A remake of the MinimizeToTray-extension made to fit the Windows 7 taskbar. Instead of minimize the window to the tray it minimize it to the taskbar. It can minimize on startup, when the window is closed and/or when the esc key is pressed.</summary>
+  <description>In Windows 7 the taskbar went through an extensive makeover. The default taskbar now combines the old Quick Launch bar and how many people used the system tray (e.g. MinimizeToTray-extension) with the old taskbar. Since you now often would like your applications to minimize to the taskbar rather than to the system tray, the otherwise excellent MinimizeToTray-extension really doesn’t make the trick in Windows 7.
+
+Minimize On Start and Close does just that! When the application is started it instantly gets minimized to the taskbar and when you close it minimizes instead.
+
+Minimize On Start and Close is made with Windows 7 in mind, however it should work on any OS.
+
+&lt;strong&gt;Features:&lt;/strong&gt;
+&lt;ul&gt;&lt;li&gt;Minimizes on startup.&lt;/li&gt;
+&lt;li&gt;Minimizes on close.&lt;/li&gt;
+&lt;li&gt;Minimizes when pressing the esc key.&lt;/li&gt;
+&lt;li&gt;Preferences: Choose whether to minimize on some or all events.&lt;/li&gt;
+&lt;li&gt;The application only minimize on some close-events. For example, if you close it by pressing &#34;the X&#34; it minimizes, however if you close it with &#34;File &amp;gt; Quit&#34; it is closed normally.&lt;/li&gt;
+&lt;li&gt;The application minimizes on close only if it&#39;s not already minimized. If it&#39;s minimized and you close it, it is closed normally.&lt;/li&gt;
+&lt;li&gt;If you want to start the application minimized with Windows, put a shortcut in your &#34;Startup&#34;-folder and set Minimize On Start and Close to minimize on start.&lt;/li&gt;
+&lt;/ul&gt;&lt;strong&gt;Troubleshooting:&lt;/strong&gt;
+Some users have experienced problems when minimizing on startup. If the window never minimizes or pops up again after a second it&#39;s probably due to that the application had not fully loaded when the minimize event were triggered. Try to increase the &#34;Delay on start (ms)&#34; option. The default (100 ms) works for most users, however if there is a lot of start-up applications or your computer is slow you might want to increase it (1000 ms should work for everyone but try getting it as low as possible). Users with super fast computers could try to lower it a bit.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/48/48585-64.png?modified=1354087254</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/48/48585-32.png?modified=1354087254</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>28.0</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>2.0</min_version>
+      <max_version>28.0</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/full/38/38818.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/38/38818.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/minimize-on-start-and-close/?src=api</learnmore><install hash="sha256:a40fcf3fc0902c67ba6df6423f9a5c8bf0f2116a7b7105a06760a345ec5bb872"
+    os="ALL"
+    size="25600">https://addons.mozilla.org/firefox/downloads/file/87490/minimize_on_start_and_close-1.3.2-fx+tb+sb.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="84">
+      https://addons.mozilla.org/en-US/firefox/addon/minimize-on-start-and-close/reviews/?src=api
+    </reviews>
+    <total_downloads>429917</total_downloads>
+    <weekly_downloads>1136</weekly_downloads>
+    <daily_users>34410</daily_users>
+    <created epoch="1257898141">
+      2009-11-11T00:09:01Z
+    </created>
+    <last_updated epoch="1272319152">
+      2010-04-26T21:59:12Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="401692">
+  <name>One Click Proxy IP</name>
+  <type id="1">Extension</type>
+  <guid>jid0-zXo3XFGyiDalgkeEO4UYJTUwo2I@jetpack</guid>
+  <slug>one-click-proxy</slug>
+  <version>0.56</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="3273417">
+      <name>zzenitt</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/zzenitt/?src=api</link>
+    </author>      </authors>
+  <summary>The easiest way ever to change IP and browse anonymously! Just activate it with one click and it&#39;s done, you&#39;re browsing the web with a random HTTP or Socks proxy list from several countries in the world. No ads. 100% free to prevent web censorship.</summary>
+  <description>&lt;em&gt;&lt;b&gt;The easiest and simplest way ever to change your IP address with this Firefox proxy addon and browse the web anonymously, bypass blocked sites and firewalls, prevent censorship or just for testing your web site from a foreign IP address!&lt;/b&gt;&lt;/em&gt;
+
+Forget about needing to search on proxy IP addresses list, testing several servers to only then find a working one and needing to configure it. This &lt;b&gt;proxy addon&lt;/b&gt; does all this in less than one second 
+
+No need to setup, configurations, subscriptions, nothing, just activate it with one click and it&#39;s done, you&#39;re browsing the web using a random &lt;b&gt;fresh proxy list&lt;/b&gt; from several countries in the world &lt;b&gt;automatically obtained&lt;/b&gt; with one query to our servers.
+
+And very important, NO ADS, it doesn&#39;t uses a web proxy with ads like other addons, it uses HTTP and Socks proxies dynamically obtained from our proxy list.
+
+Easiest usage than any other addon/extension. You need to know only two things:
+
+&lt;b&gt;Usage:&lt;/b&gt;
+* Using the toolbar button:
+   - Just click on the toolbar addon icon(with a black &#39;P&#39; letter) and there you have buttons to enable/disable and reload the proxy to change your IP address. 
+
+* Using the small icons at the bottom right corner, with your addon bar activated, from left to right:
+   - First icon(&#39;P&#39; letter): left click to activate/deactivate anonymous browsing.
+   - Second icon: left click to change the proxy IP that you&#39;re using.
+   - Third icon: left click to hide/show the &#34;P&#34; button in the navigation toolbar.
+
+&lt;b&gt;Important: Some proxies does not work with SSL/HTTPS pages, so, if some proxy looks like it&#39;s not working, you should test against HTTP pages, like &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/fe438c53d637139da9992379fc4496474bfead2f406f85429ed7d07b8b2cf94f/http%3A//php.net&#34;&gt;php.net&lt;/a&gt;, &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/cd575b688061106e82588d273087096c5db5c94715f1a71eacd20a65d434f7b7/http%3A//mozilla.org&#34;&gt;mozilla.org&lt;/a&gt; or even &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/b0814a65e9aeb705f658a5e305b56dac07ee86816689bbbacc935f70e1d171e1/http%3A//www.google.com/&#34;&gt;http://www.google.com/&lt;/a&gt; (note the http, not https). Then you can always try to change/reload your proxy IP.&lt;/b&gt;
+
+Thanks to:
+I need to thanks this fresh &lt;strong&gt;&lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/a31b8fa05c1758cefec2eae37da3ab4f07257111ad3303cc2e21d3032f29a812/http%3A//proxy-ip-list.com/&#34;&gt;proxy list&lt;/a&gt;&lt;/strong&gt; site, they provide me the proxy IP addresses to use in this extension 100% free.
+
+&lt;b&gt;This addon is in active development, please comment with any problem you could have or suggestions to improve it.&lt;/b&gt;</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/401/401692-64.png?modified=1409366500</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/401/401692-32.png?modified=1409366500</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>16.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="153" height="525">
+        https://addons.cdn.mozilla.net/user-media/previews/full/111/111127.png?src=api&amp;modified=1376855239
+      </full>
+      <thumbnail type="" width="44" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/111/111127.png?src=api&amp;modified=1376855239
+      </thumbnail><caption>One Click Proxy addon activated. The panel dissapears when you click somewhere else to let you browse without any interference. Note the IP address of the proxy being used and the activated icon at the bottom right of the screen.</caption></preview><preview position="1">
+      <full type="" width="148" height="525">
+        https://addons.cdn.mozilla.net/user-media/previews/full/111/111128.png?src=api&amp;modified=1376855239
+      </full>
+      <thumbnail type="" width="42" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/111/111128.png?src=api&amp;modified=1376855239
+      </thumbnail><caption>One Click Proxy addon disabled. The panel dissapears when you click somewhere else to let you browse without any interference. Note that the bottom right icon is disabled too.</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/one-click-proxy/?src=api</learnmore><install hash="sha256:e0e6dd8c905af676656cfc6a701ed792faf7beff3f23fd11730eb243208b8472"
+    os="ALL"
+    size="209747">https://addons.mozilla.org/firefox/downloads/file/224682/one_click_proxy_ip-0.56-fx.xpi?src=api</install>
+  <developer_comments>This addon automatically setups Mozilla Firefox network proxy configuration with an automatically obtained working proxy IP address and port.</developer_comments>
+    <reviews num="16">
+      https://addons.mozilla.org/en-US/firefox/addon/one-click-proxy/reviews/?src=api
+    </reviews>
+    <total_downloads>352917</total_downloads>
+    <weekly_downloads>5640</weekly_downloads>
+    <daily_users>26219</daily_users>
+    <created epoch="1349926196">
+      2012-10-11T03:29:56Z
+    </created>
+    <last_updated epoch="1380650309">
+      2013-10-01T17:58:29Z
+    </last_updated>
+    <homepage>http://proxy-ip-list.com/</homepage>
+    <support>http://proxy-ip-list.com/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="2608">
+  <name>Clean And Close</name>
+  <type id="1">Extension</type>
+  <guid>clean_and_close@csb7.com</guid>
+  <slug>clean-and-close</slug>
+  <version>2.5.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="21638">
+      <name>Chris Bloom</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/chris-bloom/?src=api</link>
+    </author>      </authors>
+  <summary>Cleans completed, canceled and failed downloads from the download list and then closes the download dialog.</summary>
+  <description>Replaces the Clean Up button in your Download Manager window with a Clean And Close button that does just that - cleans completed, canceled and failed downloads from the download list and then closes the window.
+
+NEW IN 2.5 - Bug fixes and enhancements to better support other extensions that also modify the Download Manager, specifically those that open the DM in a new tab or in a sidebar panel.
+
+NEW IN 2.4 - The button will now default to &#34;Close only&#34; functionality when there are no items in the download list, or if all of the items cannot be cleared (i.e. they are active downloads). Also, the extension will ask the user to confirm before closing the Download Manager window if it is the only Firefox window open. (Not applicable on Mac) 
+
+NEW IN 2.3 - Hold down the ALT key (Option key on Mac) to toggle the original Clean Up functionality without closing the Download Manager. Useful for when you still have active downloads and just want to clean up the completed ones.
+
+NEW IN 2.2 - Support for All-in-One-Sidebar (AiOS) has been added. Clean and Close will now hide the Download Manager sidebar when AiOS is in use. 
+
+FOR SUPPORT, QUESTIONS AND FEEDBACK:
+Comments submitted here may not be immediately addressed. For more timely response, please use the new Feedback Forum at &lt;a href=&#34;http://outgoing.mozilla.org/v1/6c1595d822779e9e628658d17f75fde8bc8d0223/http%3A//cleanandclose.uservoice.com/&#34;&gt;http://cleanandclose.uservoice.com/&lt;/a&gt; to file bug reports and vote for new features. You can also get status updates via Twitter at &lt;a href=&#34;http://outgoing.mozilla.org/v1/6a2d0d28f5500d5a172ae1b197d4b119a516f024/http%3A//twitter.com/cleanandclose&#34;&gt;http://twitter.com/cleanandclose&lt;/a&gt;
+
+Updates will continue to be distributed through addons.mozilla.org.
+
+You can also get updates at &lt;a href=&#34;http://outgoing.mozilla.org/v1/260b94214961aaf90f4844e3e20053f882b3a6aa/http%3A//www.facebook.com/pages/Clean-and-Close/137452982138%3Fref%3Dnf&#34;&gt;Clean and Close on Facebook&lt;/a&gt;</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>27.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula>By accepting this license you agree that Clean And Close is awesome and that its developer, Chris Bloom, is also awesome and inculpable.</eula><previews><preview position="0">
+      <full type="image/png" width="548" height="401">
+        https://addons.cdn.mozilla.net/user-media/previews/full/22/22744.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="146">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/22/22744.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Clean And Close in Firefox 3</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/full/6/6473.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/6/6473.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Clean and Close in Firefox 2. Note that the full functionality of Clean and Close is not available in this version of Firefox.</caption></preview><preview position="1">
+      <full type="image/png" width="396" height="277">
+        https://addons.cdn.mozilla.net/user-media/previews/full/43/43352.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="139">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/43/43352.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Clean and Close in the All In One Sidebar. Note that the toggle functionality introduced in version 2.3 is not available when coupled with AiOS.</caption></preview><preview position="1">
+      <full type="image/png" width="443" height="307">
+        https://addons.cdn.mozilla.net/user-media/previews/full/43/43353.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="138">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/43/43353.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Clean and Close plays nicely with most other extensions that modify the behavior of the Download Manager. (Shown here with Download Manager Tweak)</caption></preview><preview position="1">
+      <full type="image/png" width="443" height="307">
+        https://addons.cdn.mozilla.net/user-media/previews/full/43/43354.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="138">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/43/43354.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Clean and Close plays nicely with most other extensions that modify the behavior of the Download Manager. (Shown here with Download Panel)</caption></preview><preview position="1">
+      <full type="image/png" width="505" height="307">
+        https://addons.cdn.mozilla.net/user-media/previews/full/43/43357.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="121">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/43/43357.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Clean and Close will ask for confirmation before closing if it&#39;s the only Firefox window open. In the case of the Download Manager being open in a tab in the main window, it will ask for confirmation if its the only tab open.</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/clean-and-close/?src=api</learnmore><install hash="sha256:456c053d2293f9a466ef87c8ad204a11236a1f4d5b77d928b853983261ad8c89"
+    os="ALL"
+    size="4096">https://addons.mozilla.org/firefox/downloads/file/82865/clean_and_close-2.5.1-fx.xpi?src=api</install>
+  <install hash="sha256:3414f74334a92481c5e0917e0f2381b44517e1a9c50ef189712232ece91169b0" os=""
+             size="7168"
+             status="Beta">
+      https://addons.mozilla.org/firefox/downloads/file/103593/clean_and_close-2.5.2b1-fx.xpi?src=api
+    </install>
+    <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/clean-and-close/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="0.99">
+            $0.99
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/clean-and-close/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>Clean and Close has been tested to work alongside *most* other extensions that modify the behavior of the Download Manager. However, *some* similar extensions also modify the &#34;Clear&#34; button, in which case an unresolvable conflict may occur. 
+
+The follow extensions have been confirmed to work as expected when coupled with Clean and Close (Firefox 3 only, Firefox 4 compatibility reports pending):
+ * All In One Sidebar
+ * Custom Download Manager
+ * Download Manager Tweak
+ * Download Panel (see below for exception)
+ * Download Status
+ * Download Statusbar
+ * Downloads In Tab
+
+The following extensions are known to conflict with Clean and Close:
+ * Download Panel (Conflict on Mac only)</developer_comments>
+    <reviews num="30">
+      https://addons.mozilla.org/en-US/firefox/addon/clean-and-close/reviews/?src=api
+    </reviews>
+    <total_downloads>272520</total_downloads>
+    <weekly_downloads>99</weekly_downloads>
+    <daily_users>3286</daily_users>
+    <created epoch="1148404588">
+      2006-05-23T17:16:28Z
+    </created>
+    <last_updated epoch="1268347475">
+      2010-03-11T22:44:35Z
+    </last_updated>
+    <homepage>http://twitter.com/cleanandclose</homepage>
+    <support>http://cleanandclose.uservoice.com/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="12991">
+  <name>Last Tab Close Button</name>
+  <type id="1">Extension</type>
+  <guid>last-tab-close-button@victor.sacharin</guid>
+  <slug>last-tab-close-button</slug>
+  <version>0.3.7</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4806231">
+      <name>sacharin</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/sacharin/?src=api</link>
+    </author>      </authors>
+  <summary>Shows the &#34;Close&#34; button on the last tab in Firefox</summary>
+  <description>Shows the &#34;Close&#34; button on the last tab in Firefox
+Customizable button behavior:
+- Open a blank tab or Speed ​​Dial / Fast Dial
+- Open the home page
+- Close the window</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.5</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/full/35/35182.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/35/35182.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/last-tab-close-button/?src=api</learnmore><install hash="sha256:85e48dde3167ab44af4c0168be08d42a617dfe5065906670ac2ebd92181dce6a"
+    os="ALL"
+    size="7168">https://addons.mozilla.org/firefox/downloads/file/154898/last_tab_close_button-0.3.7-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="124">
+      https://addons.mozilla.org/en-US/firefox/addon/last-tab-close-button/reviews/?src=api
+    </reviews>
+    <total_downloads>363036</total_downloads>
+    <weekly_downloads>580</weekly_downloads>
+    <daily_users>22827</daily_users>
+    <created epoch="1247234795">
+      2009-07-10T14:06:35Z
+    </created>
+    <last_updated epoch="1339703662">
+      2012-06-14T19:54:22Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="7855">
+  <name>Rights To Close</name>
+  <type id="1">Extension</type>
+  <guid>shan.developer@gmail.com</guid>
+  <slug>rights-to-close</slug>
+  <version>1.0.4</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="1680333">
+      <name>shandev</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/shandev/?src=api</link>
+    </author>      </authors>
+  <summary>Right double-click anywhere on web page to close current tab.
+
+</summary>
+  <description>This extension enables user to close the current tab by simply right double-clicking anywhere on the viewing web page.
+
+</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/7/7855-64.png?modified=1300477687</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/7/7855-32.png?modified=1300477687</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="496" height="235">
+        https://addons.cdn.mozilla.net/user-media/previews/full/35/35884.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="94">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/35/35884.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/rights-to-close/?src=api</learnmore><install hash="sha256:c60281c16eb05413992f5d26b71dec717574d7b51313669e287917830937abd4"
+    os="ALL"
+    size="4096">https://addons.mozilla.org/firefox/downloads/file/114440/rights_to_close-1.0.4-fx.xpi?src=api</install>
+  <developer_comments>*** Note for Linux Users ***
+For some versions of Linux, you will need to right-click once to call out the Context menu first, and then right double-click again to close the viewing page.</developer_comments>
+    <reviews num="33">
+      https://addons.mozilla.org/en-US/firefox/addon/rights-to-close/reviews/?src=api
+    </reviews>
+    <total_downloads>53392</total_downloads>
+    <weekly_downloads>144</weekly_downloads>
+    <daily_users>4482</daily_users>
+    <created epoch="1214404399">
+      2008-06-25T14:33:19Z
+    </created>
+    <last_updated epoch="1300477633">
+      2011-03-18T19:47:13Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="3896">
+  <name>Environment Proxy</name>
+  <type id="1">Extension</type>
+  <guid>envproxy@as-computer.de</guid>
+  <slug>environment-proxy</slug>
+  <version>1.5</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="71106">
+      <name>Peter Leugner</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/peter-leugner/?src=api</link>
+    </author>      </authors>
+  <summary>Sets proxy settings from environment variables. 
+</summary>
+  <description>Sets proxy settings from environment variables. This is mostly useful for Unix/Linux machines, where the proxy settings are set by environment variables like http_proxy, https_proxy etc. (Konqueror has a similar feature &#34;Use preset proxy environment variables&#34;). This makes it easier for administrators to control the proxy settings for several applications (gaim, konqueror, firefox, thunderbird etc.).
+
+ATTENTION: Since Firefox 3.5 this add-on is no longer needed on Unix/Linux machines (see Bug 66057 &lt;a href=&#34;http://outgoing.mozilla.org/v1/f88ad79bc3bd518510d184b7f8d09b2ae4d88ee8/https%3A//bugzilla.mozilla.org/show_bug.cgi%3Fid%3D66057&#34;&gt;https://bugzilla.mozilla.org/show_bug.cgi?id=66057&lt;/a&gt;). Just set your proxy settings to &#34;Use System Settings&#34; and you&#39;re set.
+
+The default environment variables used are
+http_proxy
+https_proxy
+ftp_proxy
+no_proxy
+SOCKS_SERVER
+SOCKS_VERSION
+auto_proxy
+
+These defaults can be changed in the preferences of this extension. If any of the environment variables are found, they are set in the proxy settings and used, if not found, a direct internet connection is used.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.5</min_version>
+      <max_version>27.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>2.0</min_version>
+      <max_version>25.*</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/full/19/19224.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/19/19224.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Preferences</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/environment-proxy/?src=api</learnmore><install hash="sha256:779927dc0bfc879c8e45cb64f197de693fbe4fa311eda34e25c67b036f937439"
+    os="ALL"
+    size="6144">https://addons.mozilla.org/firefox/downloads/file/105088/environment_proxy-1.5-fx+tb.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/environment-proxy/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="4.00">
+            $4.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/environment-proxy/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>ATTENTION: Since Firefox 3.5 this add-on is no longer needed on Unix/Linux machines (see Bug 66057 &lt;a href=&#34;http://outgoing.mozilla.org/v1/f88ad79bc3bd518510d184b7f8d09b2ae4d88ee8/https%3A//bugzilla.mozilla.org/show_bug.cgi%3Fid%3D66057&#34;&gt;https://bugzilla.mozilla.org/show_bug.cgi?id=66057&lt;/a&gt;). Just set your proxy settings to &#34;Use System Settings&#34; and you&#39;re set.</developer_comments>
+    <reviews num="8">
+      https://addons.mozilla.org/en-US/firefox/addon/environment-proxy/reviews/?src=api
+    </reviews>
+    <total_downloads>135454</total_downloads>
+    <weekly_downloads>182</weekly_downloads>
+    <daily_users>1635</daily_users>
+    <created epoch="1163754569">
+      2006-11-17T09:09:29Z
+    </created>
+    <last_updated epoch="1291742248">
+      2010-12-07T17:17:28Z
+    </last_updated>
+    <homepage>http://www.as-computer.de</homepage>
+    <support>http://www.as-computer.de</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="308035">
+  <name>Close Tabs to the Right</name>
+  <type id="1">Extension</type>
+  <guid>closetabstotheright@4kwh.net</guid>
+  <slug>close-tabs-to-the-right</slug>
+  <version>0.1.9</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5637371">
+      <name>yukihr</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/yukihr/?src=api</link>
+    </author>      </authors>
+  <summary>Add &#34;Close Tabs to the Right&#34; menu to tab context menu. Project is available on github, &lt;a href=&#34;http://outgoing.mozilla.org/v1/1870dd5cdc3ef07b87cbf22ed2987f399ed90166/https%3A//github.com/yukihr/CloseTabsToTheRight-FirefoxExtension&#34; rel=&#34;nofollow&#34;&gt;https://github.com/yukihr/CloseTabsToTheRight-FirefoxExtension&lt;/a&gt; .</summary>
+  <description>&lt;strong&gt;Firefox24 has included feature &#34;Close Tabs to the Right&#34; !&lt;/strong&gt;
+
+Google Chrome and Chromium browser has the &#39;Close Tabs to the Right&#39; command on their tab context menu. This extension will add that command to the Firefox&#39;s tab context menu. For people who want multiple functions, there are excellent addons like;
+
+* &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/removetabs/&#34; rel=&#34;nofollow&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/removetabs/&lt;/a&gt;
+    Close tabs to Right and Left
+
+* &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/multiple-tab-handler/&#34; rel=&#34;nofollow&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/multiple-tab-handler/&lt;/a&gt;
+    Close selected multiple tabs
+
+I want to keep this addon simple, because there are no alternatives that provides only one feature and keeps my firefox light-weight.</description><license>
+    <name>MIT/X11 License</name>
+    <url>http://www.opensource.org/licenses/mit-license.php</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="453" height="321">
+        https://addons.cdn.mozilla.net/user-media/previews/full/56/56738.png?src=api&amp;modified=1303036190
+      </full>
+      <thumbnail type="" width="200" height="141">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/56/56738.png?src=api&amp;modified=1303036190
+      </thumbnail></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/close-tabs-to-the-right/?src=api</learnmore><install hash="sha256:f7119ecfd88406c0a95978235bc23e4bb29ef9a7f900827316f68bb2cad1271d"
+    os="ALL"
+    size="4351">https://addons.mozilla.org/firefox/downloads/file/230779/close_tabs_to_the_right-0.1.9-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="19">
+      https://addons.mozilla.org/en-US/firefox/addon/close-tabs-to-the-right/reviews/?src=api
+    </reviews>
+    <total_downloads>27647</total_downloads>
+    <weekly_downloads>112</weekly_downloads>
+    <daily_users>2803</daily_users>
+    <created epoch="1303034352">
+      2011-04-17T09:59:12Z
+    </created>
+    <last_updated epoch="1381846302">
+      2013-10-15T14:11:42Z
+    </last_updated>
+    <homepage>http://yukihr.github.com/</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="2648">
+  <name>MM3 Proxy Switch</name>
+  <type id="1">Extension</type>
+  <guid>ProxySwitch@MM3Tools.com</guid>
+  <slug>mm3-proxyswitch</slug>
+  <version>2013.92</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="9848">
+      <name>MM3Tools</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/mm3tools/?src=api</link>
+    </author>      </authors>
+  <summary>In the Firefox Browser (and other Mozilla programs) you can per default configure only the setting for one internet connection. With this Proxy Switch you can manage different configurations and simply switch over between these.</summary>
+  <description>To switch between a direct connection or different proxy configurations you then must no longer respectively execute the dialog Connection Settings newly.
+
+With this Proxy Switch you can toggle with one click between the direct connection to the internet and other proxy configurations.
+
+
+::: Installation :::
+After a restart of the Firefox the MM3-ProxySwitch is available.
+You still must add the symbol MM3 for the ProxySwitch to the toolbar (Menu Bar or Navigation Toolbar) now.
+Click with the right mouse button on the toolbar and select the entry from the popup menu: Custumize ...
+Drag the symbol MM3-ProxySwitch into the toolbar.
+
+::: Help :::
+The MM3-ProxySwitch includes the operation instructions, this is availably additional on the &lt;a href=&#34;http://outgoing.mozilla.org/v1/cfedd1ffdf6b2bf1b893984205cac99009ff6e9972090e239a11a20fe6c44127/http%3A//www.Proxy-Offline-Browser.com/ProxySwitch/%23Use&#34; rel=&#34;nofollow&#34;&gt;homepage&lt;/a&gt;.
+
+Use the forum at &lt;a href=&#34;http://outgoing.mozilla.org/v1/cf1ce2c606cd95385dae245f9a4f0d0d4e8ec2a696bb1e72d7bfcd95c45b5ea6/http%3A//sourceforge.net/projects/mm3-proxyswitch/forums/forum/598126&#34; rel=&#34;nofollow&#34;&gt;SourceForge.net&lt;/a&gt; or write an e-mail for us at problems.</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/2/2648-64.png?modified=1355752526</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/2/2648-32.png?modified=1355752526</icon>
+  <compatible_applications><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>2.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>1.0</min_version>
+      <max_version>2.29.*</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="400" height="300">
+        https://addons.cdn.mozilla.net/user-media/previews/full/6/6605.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/6/6605.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Editing the proxy configurations in the text field and selection of a configuration in the pop-up menu.</caption></preview><preview position="1">
+      <full type="image/png" width="608" height="347">
+        https://addons.cdn.mozilla.net/user-media/previews/full/41/41979.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="114">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/41/41979.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Editing the proxy configurations in the text field and selection of a configuration in the pop-up menu.</caption></preview><preview position="1">
+      <full type="image/png" width="400" height="300">
+        https://addons.cdn.mozilla.net/user-media/previews/full/41/41980.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/41/41980.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>With one click on the MM3 symbol you switch between the direct connection to the internet and a proxy configuration.</caption></preview><preview position="1">
+      <full type="image/png" width="658" height="347">
+        https://addons.cdn.mozilla.net/user-media/previews/full/41/41997.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="105">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/41/41997.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>You can create different configurations and simply switch over between these.</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/mm3-proxyswitch/?src=api</learnmore><install hash="sha256:6c5b5c206ac52b6d85e612ef357673f07b281ddee644ef7667ecadfc360db76b"
+    os="ALL"
+    size="56138">https://addons.mozilla.org/firefox/downloads/file/194944/mm3_proxy_switch-2013.92-tb+fx+sm.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/mm3-proxyswitch/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="5.00">
+            $5.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/mm3-proxyswitch/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>Display answers: Please click on all reviews.</developer_comments>
+    <reviews num="36">
+      https://addons.mozilla.org/en-US/firefox/addon/mm3-proxyswitch/reviews/?src=api
+    </reviews>
+    <total_downloads>282700</total_downloads>
+    <weekly_downloads>433</weekly_downloads>
+    <daily_users>6244</daily_users>
+    <created epoch="1149058704">
+      2006-05-31T06:58:24Z
+    </created>
+    <last_updated epoch="1361995123">
+      2013-02-27T19:58:43Z
+    </last_updated>
+    <homepage>http://www.Proxy-Offline-Browser.com/ProxySwitch/</homepage>
+    <support>http://www.Proxy-Offline-Browser.com/ProxySwitch/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="322581">
+  <name>Swap Proxy</name>
+  <type id="1">Extension</type>
+  <guid>swapproxy@mahendra.com</guid>
+  <slug>swap-proxy</slug>
+  <version>1.2</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5736032">
+      <name>mahendra</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/mahendra007/?src=api</link>
+    </author>      </authors>
+  <summary>Swap Your Proxy Setting instantly just by a click.</summary>
+  <description>Swap Proxy is a simple lightweight add-on aims to swap your proxy settings instantly by a click .This swaps proxy settings of your Firefox browser among different proxy configurations which are usually changed by preference window in Firefox. It provides complete proxy configuration such as manual proxy ,automatic proxy configuration, auto-detect proxy settings.
+
+On later updates a feature to save different proxy profiles will be added which can be easily access through status-bar icon.Localized version will be released very soon.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/322/322581-64.png?modified=1353338370</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/322/322581-32.png?modified=1353338370</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="357" height="317">
+        https://addons.cdn.mozilla.net/user-media/previews/full/59/59357.png?src=api&amp;modified=1346513614
+      </full>
+      <thumbnail type="" width="168" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/59/59357.png?src=api&amp;modified=1346513614
+      </thumbnail><caption>Swap Proxy preference box to change preferences.</caption></preview><preview position="1">
+      <full type="" width="700" height="57">
+        https://addons.cdn.mozilla.net/user-media/previews/full/59/59358.png?src=api&amp;modified=1346513614
+      </full>
+      <thumbnail type="" width="200" height="16">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/59/59358.png?src=api&amp;modified=1346513614
+      </thumbnail><caption>Gray icon showing proxy is disabled, click to enable proxy.</caption></preview><preview position="2">
+      <full type="" width="700" height="42">
+        https://addons.cdn.mozilla.net/user-media/previews/full/59/59359.png?src=api&amp;modified=1346513614
+      </full>
+      <thumbnail type="" width="200" height="12">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/59/59359.png?src=api&amp;modified=1346513614
+      </thumbnail><caption>Green icon showing proxy is enabled, click to disable proxy.</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/swap-proxy/?src=api</learnmore><install hash="sha256:ca6600fde3be1d4bfc672bb276be6191b856077f454106c1ec4bf1bcce22a681"
+    os="ALL"
+    size="13312">https://addons.mozilla.org/firefox/downloads/file/165874/swap_proxy-1.2-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="5">
+      https://addons.mozilla.org/en-US/firefox/addon/swap-proxy/reviews/?src=api
+    </reviews>
+    <total_downloads>64679</total_downloads>
+    <weekly_downloads>445</weekly_downloads>
+    <daily_users>2793</daily_users>
+    <created epoch="1308340905">
+      2011-06-17T20:01:45Z
+    </created>
+    <last_updated epoch="1347421953">
+      2012-09-12T03:52:33Z
+    </last_updated>
+    <homepage>www.facebook.com/mahendrasm2</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="10815">
+  <name>Go2 proxy</name>
+  <type id="1">Extension</type>
+  <guid>go2appspot@gmail.com</guid>
+  <slug>go2-proxy</slug>
+  <version>1.0.2</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4185185">
+      <name>go2appspot</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/go2appspot/?src=api</link>
+    </author>      </authors>
+  <summary>Go2 proxy is a very fast web proxy.  Using it to browse the blocked sites.</summary>
+  <description>Implements a useful error page when a website cannot be reached since it is blocked. Just click the go2 button to unblock it. It also add a link of go2.appspot.com to tool menu.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/10/10815-64.png?modified=1353338370</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/10/10815-32.png?modified=1353338370</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>1.5</min_version>
+      <max_version>27.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula>GPL2.0</eula><previews><preview position="1">
+      <full type="image/png" width="700" height="520">
+        https://addons.cdn.mozilla.net/user-media/previews/full/29/29805.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="148">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/29/29805.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>3</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/go2-proxy/?src=api</learnmore><install hash="sha256:20a0c99ae1ec6ebf60e3e3da93140ed23ac71a4266f650bc9cf83f3fb2a66a69"
+    os="ALL"
+    size="12288">https://addons.mozilla.org/firefox/downloads/file/83599/go2_proxy-1.0.2-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/go2-proxy/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="9.00">
+            $9.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/go2-proxy/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="21">
+      https://addons.mozilla.org/en-US/firefox/addon/go2-proxy/reviews/?src=api
+    </reviews>
+    <total_downloads>309531</total_downloads>
+    <weekly_downloads>671</weekly_downloads>
+    <daily_users>1550</daily_users>
+    <created epoch="1235051832">
+      2009-02-19T13:57:12Z
+    </created>
+    <last_updated epoch="1271119077">
+      2010-04-13T00:37:57Z
+    </last_updated>
+    <homepage>http://go2.appspot.com</homepage>
+    <support>http://go2.appspot.com</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="939">
+  <name>Back IS Close</name>
+  <type id="1">Extension</type>
+  <guid>{5bfebbd0-9bef-4522-8823-523aeda5f2dc}</guid>
+  <slug>back-is-close</slug>
+  <version>2.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="1551">
+      <name>TP Diffenbach</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/tp-diffenbach/?src=api</link>
+    </author>      </authors>
+  <summary>Back IS Close replaces the &#34;Back&#34; button with a &#34;Close&#34; button when the &#34;Back&#34; button is disabled because there is no page to go &#34;back&#34; to. That Close Button will close the tab or browser, as...</summary>
+  <description>Back IS Close replaces the &#34;Back&#34; button with a &#34;Close&#34; button when the &#34;Back&#34; button is disabled because there is no page to go &#34;back&#34; to. That Close Button will close the tab or browser, as appropriate.
+
+Back IS Close is the perfect complement to tabbed browsing: it closes the many tabs tabbed browsing opens. Back IS Close works most effectively when you map a mouse button (I use the right mouse button) to send &#34;Alt-Left Arrow&#34;. Then one mouse button will either take you back to the previous page, or close the tab if no previous page exists, making for quick, convenient browsing. 
+
+See the full documentation, including the privacy notification, at author&#39;s homepage: &lt;a href=&#34;http://outgoing.mozilla.org/v1/34962074ee37fa508438c318a717b48adc9e753c/http%3A//www.diffenbach.org/back-is-close.html&#34; rel=&#34;nofollow&#34;&gt;http://www.diffenbach.org/back-is-close.html&lt;/a&gt;
+
+If you have questions or issues, please read the author&#39;s homepage for the extension. 
+
+IF YOU FIND A BUG, please email me, as I don&#39;t regularly read the comments here; emailing gets a faster response, and I can work with you directly to debug any errors. Email me at back-is-close AT &lt;a href=&#34;http://outgoing.mozilla.org/v1/47c39884ea1628558c36671790cd33dd7640e4c3/http%3A//diffenbach.org&#34; rel=&#34;nofollow&#34;&gt;diffenbach.org&lt;/a&gt;
+
+If you want to discuss the Back IS Close extension, do that in the Mozilla extension forum, in this thread:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/40b6f4b31512b20d9b941c773d96bfa9c7b45333/http%3A//forums.mozillazine.org/viewtopic.php%3Fp=1982963&#34; rel=&#34;nofollow&#34;&gt;http://forums.mozillazine.org/viewtopic.php?p=1982963&lt;/a&gt;
+
+Users of the IETab extension should see this documentation page: &lt;a href=&#34;http://outgoing.mozilla.org/v1/a798aa67d47c95e825965489867ba7b938a73b84/http%3A//diffenbach.org/back-is-close/back.is.close.ietab.html&#34; rel=&#34;nofollow&#34;&gt;http://diffenbach.org/back-is-close/back.is.close.ietab.html&lt;/a&gt;</description><license>
+    <name>Custom License</name>
+    <url>https://addons.mozilla.org/en-US/firefox/addon/back-is-close/license/2.1</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/0/939-64.png?modified=1307061267</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/0/939-32.png?modified=1307061267</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="638" height="525">
+        https://addons.cdn.mozilla.net/user-media/previews/full/57/57816.png?src=api&amp;modified=1305259225
+      </full>
+      <thumbnail type="" width="182" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/57/57816.png?src=api&amp;modified=1305259225
+      </thumbnail><caption>Examples of how Back IS Close looks when &#34;Close&#34; replaces the &#34;Back&#34; button.</caption></preview><preview position="1">
+      <full type="" width="700" height="295">
+        https://addons.cdn.mozilla.net/user-media/previews/full/57/57817.png?src=api&amp;modified=1305259225
+      </full>
+      <thumbnail type="" width="200" height="84">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/57/57817.png?src=api&amp;modified=1305259225
+      </thumbnail><caption>Visual explanation of Back IS Close&#39;s settings.</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/back-is-close/?src=api</learnmore><install hash="sha256:b43ac3c2f2edf254c732b111a4026d87cf639b957567b909f44ef5d1b1813c16"
+    os="ALL"
+    size="35840">https://addons.mozilla.org/firefox/downloads/file/119948/back_is_close-2.1-fx.xpi?src=api</install>
+  <developer_comments>Why Back IS Close doesn&#39;t use the theme&#39;s stop icon or close icon: the stop icon means stop, not close, so it would be confusing. The close icon doesn&#39;t come in a large icon and small icon size, so it wouldn&#39;t look right for users who don&#39;t set &#34;use small icons&#34; on their toolbars.
+---
+Because of the way Firefox is designed, Back IS Close can&#39;t trap the special keyboard/mouse Back key. If you have an IntelliMouse or similar, configure it to send Alt-Left Arrow rather than Back to make Back IS Close work with the mouse.</developer_comments>
+    <reviews num="38">
+      https://addons.mozilla.org/en-US/firefox/addon/back-is-close/reviews/?src=api
+    </reviews>
+    <total_downloads>63558</total_downloads>
+    <weekly_downloads>18</weekly_downloads>
+    <daily_users>620</daily_users>
+    <created epoch="1120333283">
+      2005-07-02T19:41:23Z
+    </created>
+    <last_updated epoch="1305220369">
+      2011-05-12T17:12:49Z
+    </last_updated>
+    <homepage>http://diffenbach.org/back-is-close.html</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="5610">
+  <name>Close Tab by Double Click</name>
+  <type id="1">Extension</type>
+  <guid>close@doubleclick</guid>
+  <slug>close-tab-by-double-click</slug>
+  <version>1.14</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="113017">
+      <name>Pavel Vlasov</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/pavel-vlasov/?src=api</link>
+    </author>      </authors>
+  <summary>Close tabs clicking them twice.</summary>
+  <description>Close tabs clicking them twice.
+Weights 2 KB, does just one thing.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>1.5</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="317" height="99">
+        https://addons.cdn.mozilla.net/user-media/previews/full/26/26939.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="62">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/26/26939.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/close-tab-by-double-click/?src=api</learnmore><install hash="sha256:77db933c481b394e9399f9ab7de705870790218359030a4e72715cddf2b2479e"
+    os="ALL"
+    size="2048">https://addons.mozilla.org/firefox/downloads/file/124435/close_tab_by_double_click-1.14-fx.xpi?src=api</install>
+  <developer_comments>To prevent the last tab from closing, you could modify the following property in about:config: &#34;browser.tabs.closeWindowWithLastTab&#34; that is true by default.
+
+A note for the “LastTab” users. You probably could note that annoying tab flipping when double clicking a tab. To fix that you could uncheck item “Focus last selected tab when current tab is clicked” in LastTab&#39;s options.
+
+Competitors:
+— Tab Clicking Options (30KB, knows all about tab clicks)
+— Tab Mix Plus (1,7MB unpacked, I prefer LastTab instead)
+— middle click :-) not available for laptops</developer_comments>
+    <reviews num="60">
+      https://addons.mozilla.org/en-US/firefox/addon/close-tab-by-double-click/reviews/?src=api
+    </reviews>
+    <total_downloads>219020</total_downloads>
+    <weekly_downloads>196</weekly_downloads>
+    <daily_users>5477</daily_users>
+    <created epoch="1188429138">
+      2007-08-29T23:12:18Z
+    </created>
+    <last_updated epoch="1309352343">
+      2011-06-29T12:59:03Z
+    </last_updated>
+    <homepage></homepage>
+    <support>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=960535</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="179036">
+  <name>Double Click Closes Tab</name>
+  <type id="1">Extension</type>
+  <guid>dcct@mingyi.org</guid>
+  <slug>double-click-closes-tab</slug>
+  <version>0.27</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="19092">
+      <name>Mingyi Liu</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/mingyi-liu/?src=api</link>
+    </author>      </authors>
+  <summary>The fastest (yet safe) addon to close tab using mouse only! Close any tab by double clicking the tab. Close current tab by triple click anywhere on the page. Optionally middle click or double right click on page to close tab.</summary>
+  <description>Why is it that when one opens a tab, all it takes is to click on a link inside page; but when one closes a tab, one has to go to the tab bar and find the little &#39;x&#39; button to close it (if one just uses mouse)?
+
+This addon brings the much needed relief for the mouse addicts :) You can:
+&lt;ol&gt;&lt;li&gt;Double click anywhere on any tab to close it (no need to find &#39;x&#39; button, which might not even be there)&lt;/li&gt;&lt;li&gt;Triple click anywhere on webpage to close the current tab. Optionally, double right click or middle click to close the current tab. For the adventurous, double left click to close is allowed; for the super-conservative, you can disable closing tab by click on page altogether.&lt;/li&gt;&lt;/ol&gt;Just give it a try - speed is guaranteed!
+
+Don&#39;t forget to check out my &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/tabletools2/&#34; rel=&#34;nofollow&#34;&gt;&#34;TableTools2&#34; extension&lt;/a&gt; that lets you sort/filter/search/copy/rearrange/chart/combine/compare/more any HTML tables in FF, or the &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/fastest-search/&#34; rel=&#34;nofollow&#34;&gt;&#34;Fastest Search&#34; extension&lt;/a&gt; that saves your time when doing search, select-n-search, copy/paste, open links/save images!</description>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/179/179036-64.png?modified=1331520823</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/179/179036-32.png?modified=1331520823</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="392" height="180">
+        https://addons.cdn.mozilla.net/user-media/previews/full/65/65401.png?src=api&amp;modified=1322933714
+      </full>
+      <thumbnail type="" width="200" height="91">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/65/65401.png?src=api&amp;modified=1322933714
+      </thumbnail><caption>v0.24 options</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/double-click-closes-tab/?src=api</learnmore><install hash="sha256:6e02834ab7556b61034c6ae5568f8b6e6808528822059027fc5461de30999d63"
+    os="ALL"
+    size="28672">https://addons.mozilla.org/firefox/downloads/file/146616/double_click_closes_tab-0.27-fx.xpi?src=api</install>
+  <developer_comments>Feel free to email/post suggestions/bug reports. Due to limited time, I may or may not have time to respond.  Sorry if that&#39;s the case.</developer_comments>
+    <reviews num="20">
+      https://addons.mozilla.org/en-US/firefox/addon/double-click-closes-tab/reviews/?src=api
+    </reviews>
+    <total_downloads>57007</total_downloads>
+    <weekly_downloads>287</weekly_downloads>
+    <daily_users>3816</daily_users>
+    <created epoch="1276457861">
+      2010-06-13T19:37:41Z
+    </created>
+    <last_updated epoch="1331520102">
+      2012-03-12T02:41:42Z
+    </last_updated>
+    <homepage>http://www.mingyi.org</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="116723">
+  <name>Close All Tabs (Reloaded)</name>
+  <type id="1">Extension</type>
+  <guid>closealltabs@michael.grafl</guid>
+  <slug>close-all-tabs-reloaded</slug>
+  <version>2.3.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5115653">
+      <name>Michael Grafl</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/michael-grafl/?src=api</link>
+    </author>      </authors>
+  <summary>A toolbar button to close all open tabs. 
+Improved and updated version of &#34;Close All Tabs 1.1&#34;.</summary>
+  <description>The addon provides a button for easily closing all open tabs. 
+
+&lt;i&gt;The new version 2.3 is now fully compatible with Firefox 24.&lt;/i&gt;
+
+Also provides several configuration options:
+1) Whether the browser&#39;s home page(s) should be loaded.
+2) Whether the current tab should remain open.
+3) Whether the warning about closing multiple tabs should be suppressed. (This also works with &#34;Tab Mix Plus&#34;.)
+4) Whether to show notifications about the button location and configuration.
+5) Selection of button location.
+6) Option for smaller button.
+
+
+The button is automatically added to the tabs toolbar. You can change the button&#39;s position via &#34;Customize...&#34; in the context menu.
+
+The addon is a revised version of &#34;&lt;a href=&#34;https://addons.mozilla.org/de/firefox/addon/2914&#34; rel=&#34;nofollow&#34;&gt;Close All Tabs 1.1&lt;/a&gt;&#34;.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/116/116723-64.png?modified=1380228901</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/116/116723-32.png?modified=1380228901</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>19.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="700" height="417">
+        https://addons.cdn.mozilla.net/user-media/previews/full/44/44182.png?src=api&amp;modified=1380033799
+      </full>
+      <thumbnail type="image/png" width="200" height="119">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/44/44182.png?src=api&amp;modified=1380033799
+      </thumbnail><caption>Close All Tabs (Reloaded)</caption></preview><preview position="1">
+      <full type="" width="238" height="325">
+        https://addons.cdn.mozilla.net/user-media/previews/full/113/113842.png?src=api&amp;modified=1380033799
+      </full>
+      <thumbnail type="" width="110" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/113/113842.png?src=api&amp;modified=1380033799
+      </thumbnail><caption>Options Pane</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/close-all-tabs-reloaded/?src=api</learnmore><install hash="sha256:12050d18feaf5b3e6a9455db0f0acab2e5ba9be1bdff7284100f05517c54e1f2"
+    os="ALL"
+    size="34712">https://addons.mozilla.org/firefox/downloads/file/229066/close_all_tabs_reloaded-2.3.1-fx.xpi?src=api</install>
+  <install hash="sha256:02077fe6e487022d2c8444fcb6031cd85ac6fccb57630ed0d8a69ef1136761fa" os=""
+             size="9216"
+             status="Beta">
+      https://addons.mozilla.org/firefox/downloads/file/84695/close_all_tabs__reloaded_-2.0-fx.xpi?src=api
+    </install>
+    <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/close-all-tabs-reloaded/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="5.00">
+            $5.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/close-all-tabs-reloaded/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>&lt;ul&gt;&lt;li&gt;The feature for loading the home page after closing the other tabs has been fixed and should now work correctly.&lt;/li&gt;&lt;li&gt;The addon has been updated to work with Firefox 24.&lt;/li&gt;&lt;/ul&gt;</developer_comments>
+    <reviews num="30">
+      https://addons.mozilla.org/en-US/firefox/addon/close-all-tabs-reloaded/reviews/?src=api
+    </reviews>
+    <total_downloads>53613</total_downloads>
+    <weekly_downloads>362</weekly_downloads>
+    <daily_users>4101</daily_users>
+    <created epoch="1269798251">
+      2010-03-28T17:44:11Z
+    </created>
+    <last_updated epoch="1380241639">
+      2013-09-27T00:27:19Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="7083">
+  <name>Close other tabs</name>
+  <type id="1">Extension</type>
+  <guid>closeothertabs@florian-volk.net</guid>
+  <slug>close-other-tabs</slug>
+  <version>2.8</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="1170577">
+      <name>Florian Volk</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/florian-volk/?src=api</link>
+    </author>      </authors>
+  <summary>Adds five keyboard shortcuts to close inactive tabs.</summary>
+  <description>Close other tabs adds the following five keyboard shortcuts to Firefox:
+
+- Ctrl+Shift+F3 closes all tabs on the left of the active one
+- Ctrl+Shift+F4 closes all tabs except the active one
+- Ctrl+Shift+F5 closes all tabs on the right of the active one
+- Ctrl+Shift+F6 closes all tabs with the same domain as the active one
+- Ctrl+Alt+F4 closes all windows except the active one
+
+Mac OS users press Command instead of Ctrl.
+
+Closing tabs respects grouped tabs (Firefox Panorama) and app tabs. This behaviour can be changed using the Add-on&#39;s options window.
+
+&lt;strong&gt;Customize Shortcuts&lt;/strong&gt;
+The shortcuts can be customized using the &lt;a href=&#34;http://outgoing.mozilla.org/v1/3d9635f7d6d3429736c67248512426c10696dc3c/http%3A//forums.mozillazine.org/viewtopic.php%3Ft=72994&#34; rel=&#34;nofollow&#34;&gt;keyconfig extension&lt;/a&gt; by Dorando. A version which is compatible with Firefox 3.6 can be found &lt;a href=&#34;http://outgoing.mozilla.org/v1/2212bd44786f883473bef7ccb7d66f6f35729161/http%3A//www.dauberschmidt.de/%3Fp=275&#34; rel=&#34;nofollow&#34;&gt;here&lt;/a&gt;.
+After having installed keyconfig, open the configuration window by pressing Ctrl+Shift+F12 and adjust the following values as you like.
+- Close Tabs at Left &lt;em&gt;(cot2_closeTabsAtLeft before version 2.2)&lt;/em&gt;
+- Close Other Tabs &lt;em&gt;(cot2_closeOtherTabs)&lt;/em&gt;
+- Close Tabs at Right &lt;em&gt;(cot2_closeTabsAtRight)&lt;/em&gt;
+- Close Tabs With This Domain
+- Close Other Windows
+
+&lt;strong&gt;Disable context menu entries&lt;/strong&gt;
+Version 2.3 introduces additional entries for the tab&#39;s context menu in Firefox 3.7 and above. They can be disabled by adding the following lines to the &lt;em&gt;userchrome.css&lt;/em&gt;.
+&lt;code&gt;
+/* disable Close Other Tabs context menu entries */
+#cot2_closeTabsAtLeftMenu {display: none;}
+#cot2_closeDomainTabsMenu {display: none;}
+#cot2_closeTabsAtRightMenu {display: none;}
+#cot2_closeOtherWindowsMenu {display: none;}
+&lt;/code&gt;</description>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/7/7083-64.png?modified=1366950086</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/7/7083-32.png?modified=1366950086</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>7.0</min_version>
+      <max_version>21.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="397" height="276">
+        https://addons.cdn.mozilla.net/user-media/previews/full/32/32027.png?src=api&amp;modified=1366924882
+      </full>
+      <thumbnail type="image/png" width="200" height="139">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/32/32027.png?src=api&amp;modified=1366924882
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/close-other-tabs/?src=api</learnmore><install hash="sha256:2acfc7cc9da25c87e3677b9c88482c1d2d2ae1b490b7cd3d1bcb602e5372c24e"
+    os="ALL"
+    size="10220">https://addons.mozilla.org/firefox/downloads/file/214418/close_other_tabs-2.8-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="14">
+      https://addons.mozilla.org/en-US/firefox/addon/close-other-tabs/reviews/?src=api
+    </reviews>
+    <total_downloads>23830</total_downloads>
+    <weekly_downloads>69</weekly_downloads>
+    <daily_users>1538</daily_users>
+    <created epoch="1208873982">
+      2008-04-22T14:19:42Z
+    </created>
+    <last_updated epoch="1371583813">
+      2013-06-18T19:30:13Z
+    </last_updated>
+    <homepage>http://www.florian-volk.net/</homepage>
+    <support>http://www.florian-volk.net/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="9793">
+  <name>Back to Close</name>
+  <type id="1">Extension</type>
+  <guid>backtoclose@chrismcgarry.co.uk</guid>
+  <slug>back-to-close</slug>
+  <version>1.11</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="2999194">
+      <name>Christopher McGarry</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/christopher-mcgarry/?src=api</link>
+    </author>      </authors>
+  <summary>Close the current tab/browser when there is no page history. FF3 compatible recreation of the popular BackIsClose extension by TP Diffenbach</summary>
+  <description>Close the current tab/browser when there is no page history.
+
+Works with mouse gestures and will work with the back button on mice by configuring as follows: configure the back button on your mouse to send Alt-Left Arrow.
+
+Users can decide whether to show the toolbar icon via the options button in the addon manager.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/9/9793-64.png?modified=1371943470</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/9/9793-32.png?modified=1371943470</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="356" height="162">
+        https://addons.cdn.mozilla.net/user-media/previews/full/48/48594.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="91">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/48/48594.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="438" height="322">
+        https://addons.cdn.mozilla.net/user-media/previews/full/27/27661.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="147">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/27/27661.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/back-to-close/?src=api</learnmore><install hash="sha256:40c3f664ba904f19f40fefa0c9e2d531f4e14740990c00e3e97870bbcbe58f58"
+    os="ALL"
+    size="10813">https://addons.mozilla.org/firefox/downloads/file/200948/back_to_close-1.11-fx.xpi?src=api</install>
+  <developer_comments>The problem noted previously with the forward button disappearing when there is page forward history has been resolved.</developer_comments>
+    <reviews num="57">
+      https://addons.mozilla.org/en-US/firefox/addon/back-to-close/reviews/?src=api
+    </reviews>
+    <total_downloads>30011</total_downloads>
+    <weekly_downloads>34</weekly_downloads>
+    <daily_users>1032</daily_users>
+    <created epoch="1227966761">
+      2008-11-29T13:52:41Z
+    </created>
+    <last_updated epoch="1364887513">
+      2013-04-02T07:25:13Z
+    </last_updated>
+    <homepage>http://www.chrismcgarry.co.uk/software</homepage>
+    <support>http://www.chrismcgarry.co.uk/software</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="464355">
+  <name>Private Browsing Proxy</name>
+  <type id="1">Extension</type>
+  <guid>jid0-YKD0pDHAi6iJdBHruo8SEIJuFv8@jetpack</guid>
+  <slug>private-browsing-proxy</slug>
+  <version>2.3</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4545060">
+      <name>Faziri</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/Faziri/?src=api</link>
+    </author>      </authors>
+  <summary>Automatically switches to the specified proxy type or configuration profile when entering Private Browsing. Reverts to previous setting when all PB windows are closed.</summary>
+  <description>Private Browsing Proxy automatically switches to the proxy type of your choice or the alternative configuration of the current proxy (Manual and auto-URL only) when you open one or more Private Browsing windows. Once the last Private Browsing window has been closed, all settings are reverted to what they were before PBP changed them. You effectively get a proxy dedicated to Private Browsing!
+
+Tips:
+&lt;ul&gt;&lt;li&gt;with &lt;a rel=&#34;nofollow&#34; href=&#34;http://addons.mozilla.org/en-US/firefox/addon/public-ip-display/&#34;&gt;Public IP Display&lt;/a&gt;, another of my add-ons, you can tell if the proxy is working or not the instant you open the new Private Window!&lt;/li&gt;&lt;li&gt;Combined with &lt;a rel=&#34;nofollow&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/prefbar/&#34;&gt;Prefbar&lt;/a&gt;, you can have private and non-private windows open simultaneously and turn the proxy on/off using a toolbar button! This can also be done without PBP of course, but the 2 complement it each other nicely.&lt;/li&gt;&lt;/ul&gt;
+&lt;b&gt;Please rate/review! :)&lt;/b&gt;
+
+Usage:
+&lt;ul&gt;&lt;li&gt;click the toolbar button to open the configuration panel&lt;/li&gt;&lt;/ul&gt;
+Issues/notes:
+&lt;ul&gt;&lt;li&gt;does not detect &lt;a rel=&#34;nofollow&#34; href=&#34;http://addons.mozilla.org/en-US/firefox/addon/private-tab/&#34;&gt;Private Tabs&lt;/a&gt; (add-on)&lt;/li&gt;&lt;li&gt;does not detect Permanent Private Browsing mode&lt;/li&gt;&lt;/ul&gt;</description><license>
+    <name>MIT/X11 License</name>
+    <url>http://www.opensource.org/licenses/mit-license.php</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/464/464355-64.png?modified=1411655337</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/464/464355-32.png?modified=1411655337</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>21.0</min_version>
+      <max_version>25.0a1</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="574" height="525">
+        https://addons.cdn.mozilla.net/user-media/previews/full/113/113388.png?src=api&amp;modified=1386679690
+      </full>
+      <thumbnail type="" width="164" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/113/113388.png?src=api&amp;modified=1386679690
+      </thumbnail><caption>Entering Private Browsing, chosen proxy is manual configuration.</caption></preview><preview position="1">
+      <full type="" width="574" height="525">
+        https://addons.cdn.mozilla.net/user-media/previews/full/113/113389.png?src=api&amp;modified=1386679690
+      </full>
+      <thumbnail type="" width="164" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/113/113389.png?src=api&amp;modified=1386679690
+      </thumbnail><caption>Last Private Browsing window closed, proxy was set to &#34;none&#34; before Private Browsing first started.</caption></preview><preview position="2">
+      <full type="" width="700" height="313">
+        https://addons.cdn.mozilla.net/user-media/previews/full/120/120001.png?src=api&amp;modified=1386679690
+      </full>
+      <thumbnail type="" width="200" height="90">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/120/120001.png?src=api&amp;modified=1386679690
+      </thumbnail><caption>Starting with v2.0, you can also switch between 2 configuration profiles of the same proxy type.</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/private-browsing-proxy/?src=api</learnmore><install hash="sha256:1fa8fb034b7d093c12c71972f47327385b3c52fd587c6500f3d85f8bb44a4b8f"
+    os="ALL"
+    size="13669">https://addons.mozilla.org/firefox/downloads/file/246066/private_browsing_proxy-2.3-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/private-browsing-proxy/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="3.00">
+            $3.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/private-browsing-proxy/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="1">
+      https://addons.mozilla.org/en-US/firefox/addon/private-browsing-proxy/reviews/?src=api
+    </reviews>
+    <total_downloads>23335</total_downloads>
+    <weekly_downloads>502</weekly_downloads>
+    <daily_users>1385</daily_users>
+    <created epoch="1379459998">
+      2013-09-17T23:19:58Z
+    </created>
+    <last_updated epoch="1393473939">
+      2014-02-27T04:05:39Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="9893">
+  <name>Fast Close Tabs</name>
+  <type id="1">Extension</type>
+  <guid>fastclosetabs@extensions.geckozone.org</guid>
+  <slug>fast-close-tabs</slug>
+  <version>1.4</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="9693">
+      <name>Thomas Bertels</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/thomas-bertels/?src=api</link>
+    </author>      </authors>
+  <summary>Closing the window closes the active tab instead of the window.</summary>
+  <description>Do you find it annoying to have to click on the small cross to close a tab? Now with Fast Close Tabs you can just click on the upper right cross of the window to close the active tab.
+No more need to precisely point at the tab close cross. No need to check if you are in a tab or a window before closing it. Streamlines the user experience, by example for users not familiar with tabs.
+Tip: clicking in the top right corner (not just the cross) of your screen will usually close the current window, if it is maximized. With Fast Close Tabs, it will close the active tab.
+The ALT+F4 shortcut will also close the active tab.
+
+Since version 1.1, you can add a button to close the whole window. Use the &#34;Customize&#34; Firefox command (by right clicking on a toolbar) to add it where you want.
+
+Since version 1.2, it works with Thunderbird 3.0.
+
+Please let a comment if you like it.</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>3.0</min_version>
+      <max_version>16.*</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="140" height="132">
+        https://addons.cdn.mozilla.net/user-media/previews/full/36/36621.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="140" height="132">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/36/36621.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/fast-close-tabs/?src=api</learnmore><install hash="sha256:f56b3c80dfb3bea5fbec0c6140ca148c057774d3ecdedceafa40ada03293a84e"
+    os="ALL"
+    size="3311">https://addons.mozilla.org/firefox/downloads/file/195004/fast_close_tabs-1.4-tb+fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="19">
+      https://addons.mozilla.org/en-US/firefox/addon/fast-close-tabs/reviews/?src=api
+    </reviews>
+    <total_downloads>37733</total_downloads>
+    <weekly_downloads>73</weekly_downloads>
+    <daily_users>1106</daily_users>
+    <created epoch="1228614052">
+      2008-12-07T01:40:52Z
+    </created>
+    <last_updated epoch="1361982952">
+      2013-02-27T16:35:52Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="281331">
+  <name>Undo Close Tab Replacement</name>
+  <type id="1">Extension</type>
+  <guid>undotab@darktrojan.net</guid>
+  <slug>undo-close-tab-replacement</slug>
+  <version>7</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4285224">
+      <name>Geoff Lankow</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/geoff-lankow/?src=api</link>
+    </author>      </authors>
+  <summary>Replaces the &#34;Undo Close Tab&#34; menu item with the &#34;Recently Closed Tabs&#34; submenu.</summary>
+  <description>Admittedly, this add-on doesn&#39;t do much, but if you use tabs a lot it will make your workflow faster. You&#39;ll wonder how you did without it.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="500" height="255">
+        https://addons.cdn.mozilla.net/user-media/previews/full/53/53745.png?src=api&amp;modified=1297224095
+      </full>
+      <thumbnail type="" width="200" height="102">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/53/53745.png?src=api&amp;modified=1297224095
+      </thumbnail></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/undo-close-tab-replacement/?src=api</learnmore><install hash="sha256:b7fd3bd1475458845bead797d7e4127f634a6f7a30d5fa058ea5aac5f241e727"
+    os="ALL"
+    size="2317">https://addons.mozilla.org/firefox/downloads/file/198299/undo_close_tab_replacement-7-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="30">
+      https://addons.mozilla.org/en-US/firefox/addon/undo-close-tab-replacement/reviews/?src=api
+    </reviews>
+    <total_downloads>28686</total_downloads>
+    <weekly_downloads>104</weekly_downloads>
+    <daily_users>2265</daily_users>
+    <created epoch="1297223810">
+      2011-02-09T03:56:50Z
+    </created>
+    <last_updated epoch="1363550695">
+      2013-03-17T20:04:55Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="504786">
+  <name>No Close Buttons</name>
+  <type id="1">Extension</type>
+  <guid>no-close-buttons@xavamedia.nl</guid>
+  <slug>no-close-buttons</slug>
+  <version>0.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="173231">
+      <name>Dirkjan Ochtman</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/dochtman/?src=api</link>
+    </author>      </authors>
+  <summary>In Firefox 31, the browser.tabs.closeButtons option was removed. This addon forces what previously used to be a value of 2 for that option: no close buttons on any tabs.</summary>
+  <description>Feedback is welcome &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/b4f2328dd6687f6b178850bc7a357b201f0c8aade3315d21bb8ffd9359674cd5/https%3A//github.com/djc/no-close-buttons&#34;&gt;on GitHub&lt;/a&gt;</description><license>
+    <name>Mozilla Public License, version 2.0</name>
+    <url>http://www.mozilla.org/MPL/2.0/</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/504/504786-64.png?modified=1398698431</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/504/504786-32.png?modified=1398698431</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>31.0a1</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/no-close-buttons/?src=api</learnmore><install hash="sha256:510f4dd7ad59b08de40b9c724029d9fc4d7b690cd733719099bf9a7992c8d213"
+    os="ALL"
+    size="1833">https://addons.mozilla.org/firefox/downloads/file/255812/no_close_buttons-0.1-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="6">
+      https://addons.mozilla.org/en-US/firefox/addon/no-close-buttons/reviews/?src=api
+    </reviews>
+    <total_downloads>1878</total_downloads>
+    <weekly_downloads>72</weekly_downloads>
+    <daily_users>532</daily_users>
+    <created epoch="1398674753">
+      2014-04-28T08:45:53Z
+    </created>
+    <last_updated epoch="1398696769">
+      2014-04-28T14:52:49Z
+    </last_updated>
+    <homepage></homepage>
+    <support>https://github.com/djc/no-close-buttons</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="12560">
+  <name>Grid Proxy Manager</name>
+  <type id="1">Extension</type>
+  <guid>gridproxymanager@bastian.boegel.ulm.university</guid>
+  <slug>grid-proxy-manager</slug>
+  <version>1.7</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4738024">
+      <name>Bastian Boegel</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/bastian-boegel/?src=api</link>
+    </author><author id="5715231">
+      <name>C. Mosch</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/cmosch42/?src=api</link>
+    </author>      </authors>
+  <summary>The Grid Proxy Manager is a Firefox addon that can create and upload proxy
+certificates to a MyProxy server. This certificates can be used to communicate
+with grid computers that use the Globus Toolkit as grid middleware.</summary>
+  <description>Grid Proxy Manager 1.9
+----------------------------------------------------------------------
+Grid Proxy Manager 1.9 is already available.
+Due to a bug in the Mozilla addon upload process, it is not possible to upload the new version. You can download the new version from the error report until they have fixed it:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/89315f60af6ae71bb5a53871c1130c852fa26b25/https%3A//bugzilla.mozilla.org/show_bug.cgi%3Fid=726923&#34; rel=&#34;nofollow&#34;&gt;https://bugzilla.mozilla.org/show_bug.cgi?id=726923&lt;/a&gt;
+
+How to access the addon in Firefox?
+----------------------------------------------------------------------
+After you have installed the addon in Firefox you can access the addon by 
+selecting &#34;Grid Proxy Manager&#34; from menue &#34;Tools&#34; (English Firefox version).
+
+
+Requirements
+----------------------------------------------------------------------
+- Installed Java (1.4, 1.5 or 1.6) and Firefox Java plugin (e.g. Sun JRE or Sun
+  JDK). Only the Sun Firefox Java plugin works well. Other Java plugins (e.g. 
+  IcedTea) might not work.
+- Enabled [v] Java and [v] JavaScript in Firefox.
+- A valid user certificate in your Firefox keystore (private and public key).
+- Access to a MyProxy server, that accepts your certificate DN (please
+  be aware, that some MyProxy servers restrict access to special DNs).
+- Appropriate configuration of local firewall and routing (for details please
+  see problems and solutions below).
+
+
+How does it work?
+----------------------------------------------------------------------
+(1) First select your user certificate stored in your Firefox keystore.
+    This certificate will be used to sign the MyProxy certificate.
+
+(2) Type in the MyProxy server and the port (default: 7512).
+
+(3) Please choose a reasonable user name (e.g. your_first_name.your_last_name)
+    for your MyProxy certificate and a good password to protect it.
+    Your 7-days valid MyProxy certificate is stored below that name on the 
+    server and is protected by the password.
+
+(4) For communication with the MyProxy server the certificate &#34;Chain of Trust&#34;
+    is required. You can type in the URL where the &#34;Chain of Trust&#34; of your 
+    MyProxy server can be found.
+    The URL can point to an archive (*.tar.gz, *.tgz. *.zip, *.tar) or to a 
+    directory (which must be listable). If it is a directory all archives and 
+    certificate files in that directory will be downloaded and unpacked.
+    The default URL points to the EUGridPMA (an international organisation to 
+    coordinate the trust fabric for e-Science grid authentication in Europe). 
+    If the &#34;Chain of Trust&#34; of your MyProxy is not covered by this package 
+    please consult your local documentation where you can download the 
+    corresponding &#34;Chain of Trust&#34;.
+
+(5) Finally press the button &#34;Upload MyProxy Certificate&#34;. This will
+     * update the certificate &#34;Chain of Trust&#34; once a day,
+     * export your user certificate from your Firefox keystore,
+     * derive a MyProxy certificate from your user certificate and
+     * upload that MyProxy certificate to the MyProxy server.
+     The progress of this procedure is displayed in the status area.</description><license>
+    <name>Custom License</name>
+    <url>https://addons.mozilla.org/en-US/firefox/addon/grid-proxy-manager/license/1.7</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/12/12560-64.png?modified=1353338371</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/12/12560-32.png?modified=1353338371</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>9.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula>Grid Proxy Manager License
+--------------------------
+
+Copyright (c) 2009 University of Ulm, Germany.
+All Rights Reserved.
+
+
+The &#34;Software&#34;, below, refers to the Grid Proxy Manager (in either source-code,
+or binary form and accompanying documentation). 
+Each licensee is addressed as &#34;you&#34; or &#34;Licensee&#34;.
+
+
+Agreement: 
+By using the Grid Proxy Manager you are automatically agreeing to and show 
+that you have read and understood the terms and conditions contained within 
+this License Agreement. This License Agreement is then effective while you 
+use and continue to make use the Grid Proxy Manager. If you do not agree with 
+this License Agreement you must not use the Grid Proxy Manager - this License 
+Agreement will then not apply to you. This License Agreement is subject to 
+change without notice.
+
+
+Rights:
+The University of Ulm, Germany, hereby grant you a free, non-exclusive license,
+subject to the limitations stated herein and German and U.S. Government license 
+rights.
+
+You may
+  - install and use the Grid Proxy Manager in binary form.
+You may not
+  - extract code,
+  - decompile, refactor or modify the Grid Proxy Manager,
+  - sell licenses for the Grid Proxy Manager,
+  - remove any proprietary notices,
+  - include the Grid Proxy Manager in any other collection or other product,
+
+Distribution:
+The Grid Proxy Manager may only be distributed by the University of Ulm, Germany
+and Mozilla.
+
+Technical support: 
+Because this license is granted to you for no cost, you are not entitled to 
+free technical support.
+
+Warranty:
+THIS SOFTWARE IS PROVIDED &#34;AS IS&#34; AND ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND 
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR 
+OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY 
+OF SUCH DAMAGE.
+
+Severability:
+If any part or provision of this License is held to be unenforceable for any 
+purpose, including but not limited to public policy grounds, then both parties 
+agree that the remainder of the License shall be fully enforceable as if the 
+unenforceable part or provision never existed.
+
+Third Party Software
+--------------------
+  &#34;This product includes software developed by and/or derived
+   from the Globus Project (&lt;a href=&#34;http://outgoing.mozilla.org/v1/074cac5c14432057fc79852e6bc6eb4a52227032/http%3A//www.globus.org/%29&#34; rel=&#34;nofollow&#34;&gt;http://www.globus.org/)&lt;/a&gt; to which the
+   U.S. Government retains certain rights.&#34;</eula><previews><preview position="0">
+      <full type="" width="537" height="525">
+        https://addons.cdn.mozilla.net/user-media/previews/full/53/53878.png?src=api&amp;modified=1297407884
+      </full>
+      <thumbnail type="" width="153" height="150">
+        https://addons.cdn.mozilla.net/user-media/previews/thumbs/53/53878.png?src=api&amp;modified=1297407884
+      </thumbnail><caption>Grid Proxy Manager Main Window</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/grid-proxy-manager/?src=api</learnmore><install hash="sha256:f8ddd2fca22cb024674feadd33ccba870ba70acddca5094572310fdf25be48fd"
+    os="ALL"
+    size="2898944">https://addons.mozilla.org/firefox/downloads/file/118356/grid_proxy_manager-1.7-fx.xpi?src=api</install>
+  <developer_comments>Problems and Solutions
+----------------------------------------------------------------------
+
+* If the Chain of Trust download failes with message &#34;Connection refused: connect&#34;
+  or if the MyProxy upload failes with &#34;Connection timed out: connect&#34;,
+  the local routing or firewall configuration might be the cause:
+  The server providing the Chain of Trust and the MyProxy server must be
+  reachable from within your local computer. So the connections to the
+  servers should not be blocked by a firewall and the routing to the server
+  must be configured appropriately. This includes related package replies
+  send from the servers. Usually the corresponding ports are 7512 for the
+  MyProxy server, 80 for http, 443 for https and 21 for ftp. Please contact
+  your local administrator for help in this case.
+
+* If the download of the Chain of Trust failes with enabled Firefox HTTP proxy
+  configuration, please try again with disabled HTTP proxy configuration.
+  This again requires that the packages are routed apropriately.</developer_comments>
+    <reviews num="2">
+      https://addons.mozilla.org/en-US/firefox/addon/grid-proxy-manager/reviews/?src=api
+    </reviews>
+    <total_downloads>17662</total_downloads>
+    <weekly_downloads>76</weekly_downloads>
+    <daily_users>283</daily_users>
+    <created epoch="1245675739">
+      2009-06-22T13:02:19Z
+    </created>
+    <last_updated epoch="1304017393">
+      2011-04-28T19:03:13Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+    </searchresults>��dL�              :Z�       }:https://services.addons.mozilla.org/en-US/firefox/api/1.5/search/close%20proxy%20auth/all/30/Linux/32.0.3/ignore?src=firefox security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojKOpF0qJaNXyu+n+CAAQAAgAAAAAAAAAAAAAAACw4N6+LhUposNgK7YiYWzI/H82DxalM0aJQdnbKfH40ZgoyJpFcT/u7IImFpjLfBYkdIAm5ukoNvr5rOjDjMZEAAAACAAAF6jCCBeYwggTOoAMCAQICEF0FlqMVrLlbecMb1N/HBGswDQYJKoZIhvcNAQEFBQAwgbUxCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjEfMB0GA1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazE7MDkGA1UECxMyVGVybXMgb2YgdXNlIGF0IGh0dHBzOi8vd3d3LnZlcmlzaWduLmNvbS9ycGEgKGMpMTAxLzAtBgNVBAMTJlZlcmlTaWduIENsYXNzIDMgU2VjdXJlIFNlcnZlciBDQSAtIEczMB4XDTEyMTIzMTAwMDAwMFoXDTE2MTIzMDIzNTk1OVowgbcxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHFA1Nb3VudGFpbiBWaWV3MRwwGgYDVQQKFBNNb3ppbGxhIENvcnBvcmF0aW9uMTMwMQYDVQQLFCpUZXJtcyBvZiB1c2UgYXQgd3d3LnZlcmlzaWduLmNvbS9ycGEgKGMpMDUxKDAmBgNVBAMUH3ZlcnNpb25jaGVjay5hZGRvbnMubW96aWxsYS5vcmcwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDtNux5vVfww2fCz53aH6kmkXvrs62InjYg65Fw3skxHR2iBU9C26aAN8RWWb7lwQi1fQ9/uicjNrTBk6K4QjkczAqCTN1xqiqu9y5ardnKqoimZ0ZC/82+Gi+dsUj4tZBDLQJmkxNEwDpjNDxTuR2WIDri5vHtQSUS6PcHZXOGh2o6zDzUN1mD5G7eF3sACLcQM3eaveW9KhWHYwUAxQcpueaIGOmE/8oJ+wkInF8I+ukECv9WlVqvS+6ZxzdoWQ2ogVkmjaUS8R2BzxVmDtD9t1G94KNLlcFQy71VtzxcSKhRH0juzQYRlZlHJIActvR3RF/B6ZSzC5QxpWaTVFY1AgMBAAGjggHsMIIB6DAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDBFBgNVHR8EPjA8MDqgOKA2hjRodHRwOi8vU1ZSU2VjdXJlLUczLWNybC52ZXJpc2lnbi5jb20vU1ZSU2VjdXJlRzMuY3JsMEMGA1UdIAQ8MDowOAYKYIZIAYb4RQEHNjAqMCgGCCsGAQUFBwIBFhxodHRwczovL3d3dy52ZXJpc2lnbi5jb20vY3BzMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAfBgNVHSMEGDAWgBQNRFwWU0TBgn4dIKsl9AFj2L55pTB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLnZlcmlzaWduLmNvbTBABggrBgEFBQcwAoY0aHR0cDovL1NWUlNlY3VyZS1HMy1haWEudmVyaXNpZ24uY29tL1NWUlNlY3VyZUczLmNlcjCBhgYDVR0RBH8wfYIbc2VydmljZXMuYWRkb25zLm1vemlsbGEub3JngiJ2ZXJzaW9uY2hlY2stYmcuYWRkb25zLm1vemlsbGEub3JnghlweXJlcG8uYWRkb25zLm1vemlsbGEub3Jngh92ZXJzaW9uY2hlY2suYWRkb25zLm1vemlsbGEub3JnMA0GCSqGSIb3DQEBBQUAA4IBAQB9SqSArBy0e2bf0E+OuWPfNR3cos2TmF4glvzNZMG53f4vTyjvxeqzIZ8y24s+RbE35k91gPUhpNX4kk6TweC4v53sQa4kqEFsLXe+xR5oqRcHaZLosbRkCq7otkgwtI4e5xbuqssAbGLQxMhKepqqXZ6EU4YcY/tS1u13saXb5yFoinMz2rd7vHFOKl5/AWPJoFM1tth02bEYTVonk6cPtoExQ1bnvCov1d+9I/ECKFuifQ4TNsmmh0AfZLID0S94HmnPHRKADJchGfTeJshO6P/8rzINgEggyBb2CCqwGTpgphW9B+J/C6b3wxS0V/vBHrqPw37/gtANPhiybhVjAAAAgAAAAIAAAAAgVExTX0RIRV9SU0FfV0lUSF9BRVNfMTI4X0NCQ19TSEEAAAABAA== request-method GET request-User-Agent Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; en-us) AppleWebKit/534.15  (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4 response-head HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 03 Oct 2014 21:30:36 GMT
+Content-Type: text/xml; charset=utf-8
+Vary: X-Mobile, User-Agent
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+X-Backend-Server: web12
+Etag: "KXAGLDMLEOQKWRVK"
+ uncompressed-len 0  h�
