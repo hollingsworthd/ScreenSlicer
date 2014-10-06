@@ -1,7 +1,7 @@
 ScreenSlicer&#8482; -- automatic, zero-config web scraping&#8482;
-by Machine Publishers&#8482;
 
 Licensed under the GNU Affero General Public License version 3.
+
 Additional licensing permissions and support are available for paying customers. See LICENSE file for details.
 
 Try a demo at https://screenslicer.com/
