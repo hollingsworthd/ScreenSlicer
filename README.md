@@ -2,7 +2,7 @@
 
 **Licensed under the GNU Affero General Public License version 3.**
 
-__Additional licensing permissions and support are available for paying customers. See LICENSE file for details.__
+*Additional licensing permissions and support are available for paying customers. See LICENSE file for details.*
 
 **Try a demo at** https://screenslicer.com/
 
