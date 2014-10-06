@@ -1,4 +1,4 @@
-ScreenSlicer&#8482; -- automatic, zero-config web scraping&#8482;
+### ScreenSlicer&#8482; -- automatic, zero-config web scraping&#8482;
 
 Licensed under the GNU Affero General Public License version 3.
 
