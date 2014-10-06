@@ -62,8 +62,6 @@ public class ScreenSlicerDriver implements WebResource {
   private static Map<String, AtomicBoolean> doneMap = new HashMap<String, AtomicBoolean>();
   private static AtomicLong latestThread = new AtomicLong();
   private static AtomicLong curThread = new AtomicLong();
-  protected static final int PORT = 9000;
-  private static ScreenSlicer.CustomApp customApp;
 
   public static void main(String[] args) throws Exception {
     WebApp.start("driver", 8887, true, null, null);
@@ -162,7 +160,7 @@ public class ScreenSlicerDriver implements WebResource {
   @Path("fetch")
   @POST
   @Consumes("application/json")
-  @Produces("application/json")
+  @Produces("text/plain")
   public static final String fetch(final String reqString) {
     return process(reqString, new Callback() {
       @Override

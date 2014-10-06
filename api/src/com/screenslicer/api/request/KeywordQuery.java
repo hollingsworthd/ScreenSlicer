@@ -101,31 +101,31 @@ public final class KeywordQuery {
    */
   public int results = 0;
   /**
-   * Whether to get the content at each result URL.
+   * Whether to get the content at each result URL
    */
   public boolean fetch = false;
   /**
-   * Whether to visit the result URL directly or try a public web cache.
+   * Whether to visit the result URL directly or try a public web cache
    */
   public boolean fetchCached = false;
   /**
-   * Clicks on HTML elements prior to authentication.
+   * Clicks on HTML elements prior to authentication
    */
   public HtmlNode[] preAuthClicks;
   /**
-   * Clicks on HTML elements prior to searching.
+   * Clicks on HTML elements prior to searching
    */
   public HtmlNode[] preSearchClicks;
   /**
-   * Clicks on HTML elements after searching.
+   * Clicks on HTML elements after searching
    */
   public HtmlNode[] postSearchClicks;
   /**
-   * Clicks on HTML elements at a result page after fetching it.
+   * Clicks on HTML elements at a result page after fetching it
    */
   public HtmlNode[] postFetchClicks;
   /**
-   * Credentials for authentication.
+   * Credentials for authentication
    */
   public Credentials credentials;
 }

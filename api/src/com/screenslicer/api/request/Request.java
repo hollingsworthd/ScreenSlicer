@@ -62,7 +62,7 @@ public final class Request {
   }
 
   /**
-   * IP addresses of ScreenSlicer instances.
+   * IP addresses of ScreenSlicer instances
    */
   public String[] instances;
   /**

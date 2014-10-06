@@ -60,7 +60,7 @@ public final class SearchResult {
   }
 
   /**
-   * Absolute URL of the result
+   * URL of the result
    */
   public String url;
   /**
@@ -72,7 +72,8 @@ public final class SearchResult {
    */
   public String summary;
   /**
-   * Date of the result as it appears on the search page
+   * Date of the result as it appears on the search page (format: YYYY-MM-DD or
+   * YYYY-MM-DD hh:mm:ss)
    */
   public String date;
   /**

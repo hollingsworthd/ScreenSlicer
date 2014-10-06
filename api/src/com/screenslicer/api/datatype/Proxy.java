@@ -83,7 +83,7 @@ public class Proxy {
   public String type = TYPE_SOCKS_5;
   /**
    * IP address of the proxy.
-   * Default to 127.0.0.1.
+   * Defaults to 127.0.0.1.
    */
   public String ip = "127.0.0.1";
   /**
@@ -93,12 +93,12 @@ public class Proxy {
   public int port = 9050;
   /**
    * Proxy username.
-   * Defaults to none (anonymous access).
+   * Defaults to null (anonymous access).
    */
   public String username;
   /**
    * Proxy password.
-   * Defaults to none (anonymous access).
+   * Defaults to null (anonymous access).
    */
   public String password;
 }

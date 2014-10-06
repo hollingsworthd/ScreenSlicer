@@ -61,11 +61,11 @@ public final class Fetch {
   }
 
   /**
-   * Whether to visit the result URL directly or try a public web cache.
+   * Whether to visit the result URL directly or try a public web cache
    */
   public boolean fetchCached;
   /**
-   * Clicks on HTML elements at a result page after fetching it.
+   * Clicks on HTML elements at a result page after fetching it
    */
   public HtmlNode[] postFetchClicks;
   /**
