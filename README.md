@@ -2,7 +2,7 @@
 
 **Licensed under the GNU Affero General Public License version 3.** In a nutshell, this license means that all modified versions and linked subprograms (programs communicated with over APIs, HTTP, etc.) must disclose their entire source code to every user and that they must also be licensed as Affero GPLv3 or compatible.
 
-*Additional licensing permissions and support are available for paying customers. See LICENSE file for details.*
+*Additional licensing permissions (suitable for proprietary commercial development) and support are available for paying customers. See LICENSE file for details.*
 
 **Try a demo at** https://screenslicer.com/
 
