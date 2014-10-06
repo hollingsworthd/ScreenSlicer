@@ -29,7 +29,7 @@ import java.util.Map;
 
 import com.google.gson.reflect.TypeToken;
 import com.screenslicer.common.CommonUtil;
-import com.screenslicer.common.Crypto;
+import com.screenslicer.common.Random;
 
 public final class HtmlNode {
   public static final HtmlNode instance(String json) {
@@ -130,7 +130,7 @@ public final class HtmlNode {
   /**
    * GUID (a random string) for this node
    */
-  public String guid = Crypto.random();
+  public String guid = Random.next();
   /**
    * GUID which can be shared (like how multiple elements can have the same
    * name)

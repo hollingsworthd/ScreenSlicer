@@ -30,7 +30,7 @@ import java.util.Map;
 import com.google.gson.reflect.TypeToken;
 import com.screenslicer.api.datatype.Proxy;
 import com.screenslicer.common.CommonUtil;
-import com.screenslicer.common.Crypto;
+import com.screenslicer.common.Random;
 
 public final class Request {
   public static final Request instance(String json) {
@@ -91,7 +91,7 @@ public final class Request {
    * GUID assigned to any ScreenSlicer request.
    * Defaults to a new GUID (just a random string).
    */
-  public String runGuid = Crypto.random();
+  public String runGuid = Random.next();
   /**
    * GUI integration -- specifies filename(s) of output(s)
    */

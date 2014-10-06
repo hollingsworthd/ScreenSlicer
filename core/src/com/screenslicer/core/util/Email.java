@@ -48,7 +48,7 @@ public class Email {
       return;
     }
     Map<String, Object> params = new HashMap<String, Object>();
-    params.put("key", Config.MANDRILL_KEY);
+    params.put("key", Config.instance.mandrillKey());
     List<Map<String, String>> to = new ArrayList<Map<String, String>>();
     for (int i = 0; i < export.recipients.length; i++) {
       to.add(CommonUtil.asMap("email", "name", "type",
@@ -65,8 +65,8 @@ public class Email {
         "text", "headers", "subject",
         "from_email", "from_name", "to", "attachments",
         false, false, "Results attached.",
-        "Results attached.", CommonUtil.asMap("Reply-To", Config.MANDRILL_EMAIL), export.title,
-        Config.MANDRILL_EMAIL, Config.MANDRILL_EMAIL, to, attachments));
+        "Results attached.", CommonUtil.asMap("Reply-To", Config.instance.mandrillEmail()), export.title,
+        Config.instance.mandrillEmail(), Config.instance.mandrillEmail(), to, attachments));
     params.put("async", true);
     HttpURLConnection conn = null;
     String resp = null;

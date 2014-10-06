@@ -25,7 +25,6 @@
 package com.screenslicer.common;
 
 import java.lang.reflect.Type;
-import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -41,11 +40,10 @@ import com.google.gson.reflect.TypeToken;
 
 public class Crypto {
   private static final Type stringType = new TypeToken<Map<String, String>>() {}.getType();
-  private static String secretA = Config.SECRET_A;
-  private static String secretB = Config.SECRET_B;
-  private static String secretC = Config.SECRET_C;
-  private static String secretD = Config.SECRET_D;
-  private static SecureRandom rand = new SecureRandom();
+  private static String secretA = Config.instance.secretA();
+  private static String secretB = Config.instance.secretB();
+  private static String secretC = Config.instance.secretC();
+  private static String secretD = Config.instance.secretD();
   private static Map<String, Long> usedTokens = new HashMap<String, Long>();
   private static final Object lock = new Object();
   private static final long EXPIRE = 10 * 60 * 1000;
@@ -57,10 +55,6 @@ public class Crypto {
       map.put(keysAndVals[i], keysAndVals[i + mid]);
     }
     return map;
-  }
-
-  public static String random() {
-    return DigestUtils.sha256Hex(Long.toString(rand.nextLong()));
   }
 
   public static String fastHash(String str) {
@@ -149,7 +143,7 @@ public class Crypto {
     if (string == null || recipient == null) {
       return null;
     }
-    String token = random();
+    String token = Random.next();
     String secretKey = createKey(token, recipient);
     String auth = createAuth(secretKey);
     String message = encodeHelper(string, secretKey);

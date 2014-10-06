@@ -25,6 +25,7 @@
 package com.screenslicer.webapp;
 
 import java.lang.reflect.Field;
+import java.security.SecureRandom;
 import java.util.List;
 import java.util.Map;
 
@@ -58,6 +59,7 @@ public final class ScreenSlicer {
     Map<String, Map<String, Object>> jsonData(Request request, Map<String, Object> args);
   }
 
+  private static SecureRandom rand = new SecureRandom();
   public static final List<SearchResult> NULL_RESULTS = Collections.unmodifiableList(Arrays.asList(new SearchResult[0]));
   public static final List<HtmlNode> NULL_CONTROLS = Collections.unmodifiableList(Arrays.asList(new HtmlNode[0]));
   public static final Contact NULL_CONTACT = new Contact();
@@ -191,6 +193,6 @@ public final class ScreenSlicer {
   }
 
   private static final String instanceIp(Request request) {
-    return request.instances[CommonUtil.rand.nextInt(request.instances.length)];
+    return request.instances[rand.nextInt(request.instances.length)];
   }
 }

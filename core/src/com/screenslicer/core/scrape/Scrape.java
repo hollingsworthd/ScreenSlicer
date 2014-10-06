@@ -54,6 +54,7 @@ import com.screenslicer.api.request.Request;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Crypto;
 import com.screenslicer.common.Log;
+import com.screenslicer.common.Random;
 import com.screenslicer.core.scrape.Proceed.End;
 import com.screenslicer.core.scrape.neural.NeuralNetManager;
 import com.screenslicer.core.scrape.type.Result;
@@ -337,7 +338,7 @@ public class Scrape {
       final String initVal;
       final String[] result;
       synchronized (resultLock) {
-        initVal = Crypto.random();
+        initVal = Random.next();
         result = new String[] { initVal };
       }
       final AtomicBoolean started = new AtomicBoolean();

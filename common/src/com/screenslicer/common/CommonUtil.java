@@ -34,7 +34,6 @@ import java.net.ProtocolException;
 import java.net.SocketException;
 import java.net.URI;
 import java.net.URL;
-import java.security.SecureRandom;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -47,7 +46,6 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
 import java.util.TimeZone;
 import java.util.regex.Pattern;
 
@@ -79,7 +77,7 @@ public class CommonUtil {
 
   public static void main(String[] args) throws Exception {}
 
-  public static final Random rand = new SecureRandom();
+  //  public static final Random rand = new SecureRandom();
   private static final DateFormat format = new SimpleDateFormat("YYYY-MM-dd");
   static {
     format.setTimeZone(TimeZone.getTimeZone("UTC"));
@@ -468,8 +466,8 @@ public class CommonUtil {
   public static final String BUSY = "BUSY";
   public static final String NOT_BUSY = "NOT_BUSY";
   private static final AsyncHttpClient client = new AsyncHttpClient(LenientHttpsConfig.instance());
-  private static final String user = Config.BASIC_AUTH_USER;
-  private static final String pass = Config.BASIC_AUTH_PASS;
+  private static final String user = Config.instance.basicAuthUser();
+  private static final String pass = Config.instance.basicAuthPass();
 
   public static Response internalHttpCall(String ip, String uri, String method,
       Map<String, String> headers, byte[] postData, String workingDir) {
@@ -761,5 +759,4 @@ public class CommonUtil {
     }
     return newStr.trim();
   }
-
 }
