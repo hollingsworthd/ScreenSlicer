@@ -19,7 +19,9 @@ Clustering is fully supported out of the box. Each request accepts IP addresses 
 Proxying is supported and a proxy server can be specified on each request. SOCKS 5, SOCKS 4, HTTP, and SSL proxies can be used. The default proxy is a SOCKS 5 server running at 127.0.0.1:9050 (the standard connection for tor-socks which the installation instructions have you install). You can also use proxies which require username and password.
 
 ### Installation instructions
+
 https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-Installation
 
 ### API documentation
+
 https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-API
