@@ -77,7 +77,6 @@ public class CommonUtil {
 
   public static void main(String[] args) throws Exception {}
 
-  //  public static final Random rand = new SecureRandom();
   private static final DateFormat format = new SimpleDateFormat("YYYY-MM-dd");
   static {
     format.setTimeZone(TimeZone.getTimeZone("UTC"));
