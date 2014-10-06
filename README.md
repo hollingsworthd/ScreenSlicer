@@ -1,6 +1,6 @@
 ### ScreenSlicer&#8482; -- automatic, zero-config web scraping&#8482;
 
-**[Licensed](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE) under the GNU Affero General Public License version 3.**. In a nutshell, this license means that all modified versions and linked subprograms (programs communicated with over APIs, HTTP, etc.) must disclose their entire source code to every user and that they must also be licensed as Affero GPLv3 or compatible.
+**Licensed under the GNU Affero General Public License version 3.** In a nutshell, the [license](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE) means that all modified versions and linked subprograms (programs communicated with over APIs, HTTP, etc.) must disclose their entire source code to every user and that they must also be licensed as Affero GPLv3 or compatible.
 
 *Additional licensing permissions (suitable for proprietary commercial development) and support are available for paying customers. See [LICENSE](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE) file for details.*
 
