@@ -1022,18 +1022,18 @@ licenses are as follows.
         (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
         SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-  • Project Grizzly -- grizzly-http-all-2.3.10.jar,
-  • HK2 -- hk2-api-2.2.0-b21.jar,
-  • HK2 -- hk2-locator-2.2.0-b21.jar,
-  • HK2 -- hk2-utils-2.2.0-b21.jar,
-  • HK2 -- javax.inject-2.3.0-b01.jar,
-  • Java API for RESTful Web Services (JAX-RS) -- javax.ws.rs-api-2.0.jar,
-  • Jersey -- jersey-client.jar,
-  • Jersey -- jersey-common.jar,
-  • Jersey -- jersey-container-grizzly2-http-2.5.1.jar,
-  • Jersey -- jersey-media-multipart-2.5.1.jar,
-  • Jersey -- jersey-server.jar,
-  • MimePull -- mimepull-1.9.4.jar:
+  • Project Grizzly (source code: https://github.com/GrizzlyNIO/grizzly-mirror/tree/2_3_10) -- grizzly-http-all-2.3.10.jar,
+  • HK2 (source code: https://github.com/hk2-project/hk2/tree/hk2-parent-2.2.0-b21) -- hk2-api-2.2.0-b21.jar,
+  • HK2 (source code: https://github.com/hk2-project/hk2/tree/hk2-parent-2.2.0-b21) -- hk2-locator-2.2.0-b21.jar,
+  • HK2 (source code: https://github.com/hk2-project/hk2/tree/hk2-parent-2.2.0-b21) -- hk2-utils-2.2.0-b21.jar,
+  • HK2 (source code: https://github.com/hk2-project/hk2/tree/hk2-parent-2.3.0-b01) -- javax.inject-2.3.0-b01.jar,
+  • JSR-339 (source code: https://jcp.org/aboutJava/communityprocess/final/jsr339/index.html) -- javax.ws.rs-api-2.0.jar,
+  • Jersey (source code: https://github.com/jersey/jersey/tree/2.5.1) -- jersey-client.jar,
+  • Jersey (source code: https://github.com/jersey/jersey/tree/2.5.1) -- jersey-common.jar,
+  • Jersey (source code: https://github.com/jersey/jersey/tree/2.5.1) -- jersey-container-grizzly2-http-2.5.1.jar,
+  • Jersey (source code: https://github.com/jersey/jersey/tree/2.5.1) -- jersey-media-multipart-2.5.1.jar,
+  • Jersey (source code: https://github.com/jersey/jersey/tree/2.5.1) -- jersey-server.jar,
+  • MimePull (source code: https://java.net/projects/mimepull/sources/svn/show/tags/mimepull-1.9.4) -- mimepull-1.9.4.jar:
         COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.1
         ​1. Definitions.
             1.1. "Contributor" means each individual or entity that creates or
@@ -1295,7 +1295,7 @@ licenses are as follows.
         Northern District of California and the state courts of the State of California,
         with venue lying in Santa Clara County, California.
 
-  • Java Common Annotations 1.2 API -- javax.annotation-api-1.2.jar,
+  • JSR-250 (source code: https://java.net/projects/glassfish/sources/svn/show/tags/javax.annotation-api-1.2) -- javax.annotation-api-1.2.jar,
   • JavaMail API -- javax.mail.jar:
         COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0
         1. Definitions.
@@ -1658,7 +1658,8 @@ licenses are as follows.
   • OpenNLP Maxent (Copyright 2013 ASF; http://apache.org) -- opennlp-maxent-3.0.3.jar,
   • OpenNLP Tools (Copyright 2013 ASF; http://apache.org) -- opennlp-tools-1.5.3.jar,
   • OpenNLP UIMA Annotators (Copyright 2013 ASF; http://apache.org) -- opennlp-uima-1.5.3.jar,
-  • Selenium -- selenium-java-2.43.1.jar:
+  • Selenium -- selenium-java-2.43.1.jar,
+  • JAMES Mime4j (Copyright 2004-2009 ASF; http://apache.org) -- apache-mime4j-0.6jar,
                                       Apache License
                                 Version 2.0, January 2004
                              http://www.apache.org/licenses/
