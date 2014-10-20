@@ -37,7 +37,7 @@ public final class Fetch {
   }
 
   public static final List<Fetch> instances(String json) {
-    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+    return instances((List<Map<String, Object>>) CommonUtil.gson.fromJson(json, CommonUtil.listObjectType));
   }
 
   public static final Fetch instance(Map<String, Object> args) {
@@ -46,6 +46,10 @@ public final class Fetch {
 
   public static final List<Fetch> instances(Map<String, Object> args) {
     return CommonUtil.constructListFromMap(Fetch.class, args);
+  }
+
+  public static final List<Fetch> instances(List<Map<String, Object>> args) {
+    return CommonUtil.constructListFromMapList(Fetch.class, args);
   }
 
   public static final String toJson(Fetch obj) {

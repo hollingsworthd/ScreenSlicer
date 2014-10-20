@@ -37,7 +37,7 @@ public final class HtmlNode {
   }
 
   public static final List<HtmlNode> instances(String json) {
-    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+    return instances((List<Map<String, Object>>) CommonUtil.gson.fromJson(json, CommonUtil.listObjectType));
   }
 
   public static final HtmlNode instance(Map<String, Object> args) {
@@ -46,6 +46,10 @@ public final class HtmlNode {
 
   public static final List<HtmlNode> instances(Map<String, Object> args) {
     return CommonUtil.constructListFromMap(HtmlNode.class, args);
+  }
+
+  public static final List<HtmlNode> instances(List<Map<String, Object>> args) {
+    return CommonUtil.constructListFromMapList(HtmlNode.class, args);
   }
 
   public static final String toJson(HtmlNode obj) {

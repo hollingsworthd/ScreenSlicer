@@ -36,7 +36,7 @@ public final class Credentials {
   }
 
   public static final List<Credentials> instances(String json) {
-    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+    return instances((List<Map<String, Object>>) CommonUtil.gson.fromJson(json, CommonUtil.listObjectType));
   }
 
   public static final Credentials instance(Map<String, Object> args) {
@@ -45,6 +45,10 @@ public final class Credentials {
 
   public static final List<Credentials> instances(Map<String, Object> args) {
     return CommonUtil.constructListFromMap(Credentials.class, args);
+  }
+
+  public static final List<Credentials> instances(List<Map<String, Object>> args) {
+    return CommonUtil.constructListFromMapList(Credentials.class, args);
   }
 
   public static final String toJson(Credentials obj) {

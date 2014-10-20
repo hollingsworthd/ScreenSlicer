@@ -36,7 +36,7 @@ public class Proxy {
   }
 
   public static final List<Proxy> instances(String json) {
-    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+    return instances((List<Map<String, Object>>) CommonUtil.gson.fromJson(json, CommonUtil.listObjectType));
   }
 
   public static final Proxy instance(Map<String, Object> args) {
@@ -45,6 +45,10 @@ public class Proxy {
 
   public static final List<Proxy> instances(Map<String, Object> args) {
     return CommonUtil.constructListFromMap(Proxy.class, args);
+  }
+
+  public static final List<Proxy> instances(List<Map<String, Object>> args) {
+    return CommonUtil.constructListFromMapList(Proxy.class, args);
   }
 
   public static final String toJson(Proxy obj) {

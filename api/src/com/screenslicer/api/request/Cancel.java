@@ -36,7 +36,7 @@ public final class Cancel {
   }
 
   public static final List<Cancel> instances(String json) {
-    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+    return instances((List<Map<String, Object>>) CommonUtil.gson.fromJson(json, CommonUtil.listObjectType));
   }
 
   public static final Cancel instance(Map<String, Object> args) {
@@ -45,6 +45,10 @@ public final class Cancel {
 
   public static final List<Cancel> instances(Map<String, Object> args) {
     return CommonUtil.constructListFromMap(Cancel.class, args);
+  }
+
+  public static final List<Cancel> instances(List<Map<String, Object>> args) {
+    return CommonUtil.constructListFromMapList(Cancel.class, args);
   }
 
   public static final String toJson(Cancel obj) {

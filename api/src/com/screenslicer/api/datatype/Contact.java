@@ -36,7 +36,7 @@ public final class Contact {
   }
 
   public static final List<Contact> instances(String json) {
-    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+    return instances((List<Map<String, Object>>) CommonUtil.gson.fromJson(json, CommonUtil.listObjectType));
   }
 
   public static final Contact instance(Map<String, Object> args) {
@@ -45,6 +45,10 @@ public final class Contact {
 
   public static final List<Contact> instances(Map<String, Object> args) {
     return CommonUtil.constructListFromMap(Contact.class, args);
+  }
+
+  public static final List<Contact> instances(List<Map<String, Object>> args) {
+    return CommonUtil.constructListFromMapList(Contact.class, args);
   }
 
   public static final String toJson(Contact obj) {

@@ -36,7 +36,7 @@ public final class EmailExport {
   }
 
   public static final List<EmailExport> instances(String json) {
-    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+    return instances((List<Map<String, Object>>) CommonUtil.gson.fromJson(json, CommonUtil.listObjectType));
   }
 
   public static final EmailExport instance(Map<String, Object> args) {
@@ -45,6 +45,10 @@ public final class EmailExport {
 
   public static final List<EmailExport> instances(Map<String, Object> args) {
     return CommonUtil.constructListFromMap(EmailExport.class, args);
+  }
+
+  public static final List<EmailExport> instances(List<Map<String, Object>> args) {
+    return CommonUtil.constructListFromMapList(EmailExport.class, args);
   }
 
   public static final String toJson(EmailExport obj) {

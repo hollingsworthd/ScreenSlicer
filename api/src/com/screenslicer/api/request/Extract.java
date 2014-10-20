@@ -36,7 +36,7 @@ public final class Extract {
   }
 
   public static final List<Extract> instances(String json) {
-    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+    return instances((List<Map<String, Object>>) CommonUtil.gson.fromJson(json, CommonUtil.listObjectType));
   }
 
   public static final Extract instance(Map<String, Object> args) {
@@ -45,6 +45,10 @@ public final class Extract {
 
   public static final List<Extract> instances(Map<String, Object> args) {
     return CommonUtil.constructListFromMap(Extract.class, args);
+  }
+
+  public static final List<Extract> instances(List<Map<String, Object>> args) {
+    return CommonUtil.constructListFromMapList(Extract.class, args);
   }
 
   public static final String toJson(Extract obj) {

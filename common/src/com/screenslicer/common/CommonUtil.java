@@ -229,6 +229,14 @@ public class CommonUtil {
     return CommonUtil.gson.fromJson(CommonUtil.gson.toJson(args, CommonUtil.objectType), classOf);
   }
 
+  public static <T extends Object> List<T> constructListFromMapList(Class<T> classOf, List<Map<String, Object>> args) {
+    List<T> list = new ArrayList<T>();
+    for (Map<String, Object> arg : args) {
+      list.add(CommonUtil.gson.fromJson(CommonUtil.gson.toJson(arg, CommonUtil.objectType), classOf));
+    }
+    return list;
+  }
+
   public static String combinedJson(Object obj1, Object obj2) {
     Map<String, Object> map1 = CommonUtil.gson.fromJson(CommonUtil.gson.toJson(obj1, obj1.getClass()), CommonUtil.objectType);
     Map<String, Object> map2 = CommonUtil.gson.fromJson(CommonUtil.gson.toJson(obj2, obj2.getClass()), CommonUtil.objectType);

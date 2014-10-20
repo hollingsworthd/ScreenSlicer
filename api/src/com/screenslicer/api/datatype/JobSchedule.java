@@ -36,7 +36,7 @@ public final class JobSchedule {
   }
 
   public static final List<JobSchedule> instances(String json) {
-    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+    return instances((List<Map<String, Object>>) CommonUtil.gson.fromJson(json, CommonUtil.listObjectType));
   }
 
   public static final JobSchedule instance(Map<String, Object> args) {
@@ -45,6 +45,10 @@ public final class JobSchedule {
 
   public static final List<JobSchedule> instances(Map<String, Object> args) {
     return CommonUtil.constructListFromMap(JobSchedule.class, args);
+  }
+
+  public static final List<JobSchedule> instances(List<Map<String, Object>> args) {
+    return CommonUtil.constructListFromMapList(JobSchedule.class, args);
   }
 
   public static final String toJson(JobSchedule obj) {

@@ -39,7 +39,7 @@ public final class FormQuery {
   }
 
   public static final List<FormQuery> instances(String json) {
-    return instances((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
+    return instances((List<Map<String, Object>>) CommonUtil.gson.fromJson(json, CommonUtil.listObjectType));
   }
 
   public static final FormQuery instance(Map<String, Object> args) {
@@ -48,6 +48,10 @@ public final class FormQuery {
 
   public static final List<FormQuery> instances(Map<String, Object> args) {
     return CommonUtil.constructListFromMap(FormQuery.class, args);
+  }
+
+  public static final List<FormQuery> instances(List<Map<String, Object>> args) {
+    return CommonUtil.constructListFromMapList(FormQuery.class, args);
   }
 
   public static final String toJson(FormQuery obj) {
