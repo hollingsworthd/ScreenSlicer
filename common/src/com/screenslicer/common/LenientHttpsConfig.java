@@ -24,6 +24,8 @@
  */
 package com.screenslicer.common;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.security.KeyStore;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
@@ -74,7 +76,7 @@ public class LenientHttpsConfig extends AsyncHttpClientConfig {
       client = null;
 
       X509Certificate cert = (X509Certificate) CertificateFactory.getInstance("X.509")
-          .generateCertificate(CommonUtil.class.getResourceAsStream("screenslicer.internal.cert"));
+          .generateCertificate(new FileInputStream(new File("./screenslicer.internal.cert")));
       KeyStore keyStore = KeyStore.getInstance(KeyStore.getDefaultType());
       keyStore.load(null);
       keyStore.setCertificateEntry(cert.getSubjectX500Principal().getName(), cert);
