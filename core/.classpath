@@ -25,17 +25,12 @@
 	<classpathentry kind="lib" path="/common/lib/core/selenium-core/ini4j-0.5.2.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/selenium-core/jcommander-1.29.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/selenium-core/jetty-websocket-8.1.8.jar"/>
-	<classpathentry kind="lib" path="/common/lib/core/selenium-core/jna-3.4.0.jar"/>
-	<classpathentry kind="lib" path="/common/lib/core/selenium-core/jna-platform-3.4.0.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/selenium-core/json-20080701.jar"/>
-	<classpathentry kind="lib" path="/common/lib/core/selenium-core/junit-dep-4.11.jar"/>
-	<classpathentry kind="lib" path="/common/lib/core/selenium-core/operadriver-1.5.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/selenium-core/phantomjsdriver-1.1.0.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/selenium-core/protobuf-java-2.4.1.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/selenium-core/sac-1.3.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/selenium-core/selenium-java-2.43.1.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/selenium-core/serializer-2.7.1.jar"/>
-	<classpathentry kind="lib" path="/common/lib/core/selenium-core/testng-6.8.5.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/selenium-core/xalan-2.7.1.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/selenium-core/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/antlr-3.2.jar"/>
@@ -45,5 +40,8 @@
 	<classpathentry kind="lib" path="/common/lib/core/icu4j-54rc.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/icu4j-charset-54rc.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/natty-0.8.jar"/>
+	<classpathentry kind="lib" path="/common/lib/core/selenium-core/cssparser-0.9.14-source.zip"/>
+	<classpathentry kind="lib" path="/common/lib/core/selenium-core/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/common/lib/core/selenium-core/jna-platform-4.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
