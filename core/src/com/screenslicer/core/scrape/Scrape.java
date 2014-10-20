@@ -264,8 +264,14 @@ public class Scrape {
     }
   }
 
-  private static String toCacheUrl(String url) {
-    return "http://webcache.googleusercontent.com/search?q=cache:" + url.split("://")[1];
+  private static String toCacheUrl(String url, boolean fallback) {
+    if (fallback) {
+      return "http://webcache.googleusercontent.com/search?q=cache:" + url.split("://")[1];
+    }
+    String[] urlParts = url.split("://")[1].split("/", 2);
+    String urlLhs = urlParts[0];
+    String urlRhs = urlParts.length > 1 ? urlParts[1] : "";
+    return "http://" + urlLhs + ".nyud.net:8080/" + urlRhs;
   }
 
   private static void fetch(List<Result> results, RemoteWebDriver driver, boolean cached, String runGuid, HtmlNode[] clicks) throws ActionFailed {
@@ -374,7 +380,11 @@ public class Scrape {
               if (ScreenSlicerBatch.isCancelled(runGuid)) {
                 return;
               }
-              Util.get(driver, toCacheUrl(url), false);
+              try {
+                Util.get(driver, toCacheUrl(url, false), false);
+              } catch (Throwable t) {
+                Util.get(driver, toCacheUrl(url, true), false);
+              }
               content = driver.getPageSource();
             }
             content = Util.clean(content, driver.getCurrentUrl()).outerHtml();
