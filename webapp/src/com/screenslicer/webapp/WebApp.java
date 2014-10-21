@@ -73,7 +73,6 @@ public class WebApp extends ResourceConfig {
 
   static synchronized void start(String name, boolean useLoopback, int port,
       boolean isClient, ExceptionListener listener, Callback callback) {
-    Config.instance.init();
     synchronized (listenerLock) {
       WebApp.listener = listener;
     }
@@ -83,6 +82,7 @@ public class WebApp extends ResourceConfig {
       t.printStackTrace();
       System.exit(1);
     }
+    Config.instance.init();
     try {
       if (DEV || useLoopback) {
         INTERNAL_URL = URI.create("http://127.0.0.1:" + port);
