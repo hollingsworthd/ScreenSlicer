@@ -30,6 +30,7 @@ import java.io.FileOutputStream;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.tika.io.IOUtils;
 
 public class Config {
   public static Config instance = new Config();
@@ -43,40 +44,57 @@ public class Config {
   private final String secretD;
   private final String mandrillKey;
   private final String mandrillEmail;
+  private static final long SLEEP = 1000;
 
   private Config() {
-    File file = new File("./screenslicer.config");
-    String basicAuthUserTmp = null;
-    String basicAuthPassTmp = null;
-    String secretATmp = null;
-    String secretBTmp = null;
-    String secretCTmp = null;
-    String secretDTmp = null;
-    String mandrillKeyTmp = null;
-    String mandrillEmailTmp = null;
+    File lock = new File("./screenslicer.config.lck");
+    while (lock.exists()) {
+      try {
+        Thread.sleep(SLEEP);
+      } catch (Throwable t) {}
+    }
     try {
-      FileUtils.touch(file);
-      props.load(new FileInputStream(file));
-      basicAuthUserTmp = props.getProperty("basic_auth_user", Random.next());
-      basicAuthPassTmp = props.getProperty("basic_auth_pass", Random.next());
-      secretATmp = props.getProperty("secret_a", Random.next());
-      secretBTmp = props.getProperty("secret_b", Random.next());
-      secretCTmp = props.getProperty("secret_c", Random.next());
-      secretDTmp = props.getProperty("secret_d", Random.next());
-      mandrillKeyTmp = props.getProperty("mandrill_key");
-      mandrillEmailTmp = props.getProperty("mandrill_email");
-      props.store(new FileOutputStream(new File("./screenslicer.config")), null);
+      FileUtils.touch(lock);
     } catch (Throwable t) {
       Log.exception(t);
     }
-    basicAuthUser = basicAuthUserTmp;
-    basicAuthPass = basicAuthPassTmp;
-    secretA = secretATmp;
-    secretB = secretBTmp;
-    secretC = secretCTmp;
-    secretD = secretDTmp;
-    mandrillKey = mandrillKeyTmp;
-    mandrillEmail = mandrillEmailTmp;
+    File file = new File("./screenslicer.config");
+    FileInputStream streamIn = null;
+    try {
+      FileUtils.touch(file);
+      streamIn = new FileInputStream(file);
+      props.load(streamIn);
+    } catch (Throwable t) {
+      Log.exception(t);
+    }
+    IOUtils.closeQuietly(streamIn);
+    basicAuthUser = getAndSet("basic_auth_user", Random.next());
+    basicAuthPass = getAndSet("basic_auth_pass", Random.next());
+    secretA = getAndSet("secret_a", Random.next());
+    secretB = getAndSet("secret_b", Random.next());
+    secretC = getAndSet("secret_c", Random.next());
+    secretD = getAndSet("secret_d", Random.next());
+    mandrillKey = getAndSet("mandrill_key", "");
+    mandrillEmail = getAndSet("mandrill_email", "");
+    FileOutputStream streamOut = null;
+    try {
+      streamOut = new FileOutputStream(file);
+      props.store(streamOut, null);
+    } catch (Throwable t) {
+      Log.exception(t);
+    }
+    IOUtils.closeQuietly(streamOut);
+    FileUtils.deleteQuietly(lock);
+  }
+
+  private String getAndSet(String propertyName, String propertyDefaultValue) {
+    String val = props.getProperty(propertyName, propertyDefaultValue);
+    props.setProperty(propertyName, val);
+    return val;
+  }
+
+  public void init() {
+    Log.info("screenslicer.config: " + new File("screenslicer.config").getAbsolutePath());
   }
 
   public String secretA() {

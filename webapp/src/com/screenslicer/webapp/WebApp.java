@@ -33,6 +33,7 @@ import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
 
 import com.screenslicer.common.CommonUtil;
+import com.screenslicer.common.Config;
 import com.screenslicer.common.Log;
 
 public class WebApp extends ResourceConfig {
@@ -72,6 +73,7 @@ public class WebApp extends ResourceConfig {
 
   static synchronized void start(String name, boolean useLoopback, int port,
       boolean isClient, ExceptionListener listener, Callback callback) {
+    Config.instance.init();
     synchronized (listenerLock) {
       WebApp.listener = listener;
     }
