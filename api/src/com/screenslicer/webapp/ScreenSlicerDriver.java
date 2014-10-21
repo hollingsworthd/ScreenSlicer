@@ -108,7 +108,7 @@ public class ScreenSlicerDriver implements WebResource {
   @Path("query-form")
   @POST
   @Consumes("application/json")
-  @Produces("application/json")
+  @Produces("application/json; charset=utf-8")
   public static final String queryForm(final String reqString) {
     return process(reqString, new Callback() {
       @Override
@@ -121,7 +121,7 @@ public class ScreenSlicerDriver implements WebResource {
   @Path("query-keyword")
   @POST
   @Consumes("application/json")
-  @Produces("application/json")
+  @Produces("application/json; charset=utf-8")
   public static final String queryKeyword(final String reqString) {
     return process(reqString, new Callback() {
       @Override
@@ -134,7 +134,7 @@ public class ScreenSlicerDriver implements WebResource {
   @Path("load-form")
   @POST
   @Consumes("application/json")
-  @Produces("application/json")
+  @Produces("application/json; charset=utf-8")
   public static final String loadForm(final String reqString) {
     return process(reqString, new Callback() {
       @Override
@@ -147,7 +147,7 @@ public class ScreenSlicerDriver implements WebResource {
   @Path("extract-person")
   @POST
   @Consumes("application/json")
-  @Produces("application/json")
+  @Produces("application/json; charset=utf-8")
   public static final String extractPerson(final String reqString) {
     return process(reqString, new Callback() {
       @Override
@@ -160,7 +160,7 @@ public class ScreenSlicerDriver implements WebResource {
   @Path("fetch")
   @POST
   @Consumes("application/json")
-  @Produces("text/plain")
+  @Produces("text/plain; charset=utf-8")
   public static final String fetch(final String reqString) {
     return process(reqString, new Callback() {
       @Override
