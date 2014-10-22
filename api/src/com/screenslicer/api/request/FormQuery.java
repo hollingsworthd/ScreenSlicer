@@ -109,6 +109,10 @@ public final class FormQuery {
    */
   public boolean fetchCached = false;
   /**
+   * Whether to extract results or just return all the HTML
+   */
+  public boolean extract = true;
+  /**
    * HTML element ID the the search form
    */
   public String formId;

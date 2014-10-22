@@ -113,6 +113,10 @@ public final class KeywordQuery {
    */
   public boolean fetchCached = false;
   /**
+   * Whether to extract results or just return all the HTML
+   */
+  public boolean extract = true;
+  /**
    * Clicks on HTML elements prior to authentication
    */
   public HtmlNode[] preAuthClicks;

@@ -594,6 +594,8 @@ public class Scrape {
     UrlTransform[] urlTransforms = null;
     String[] urlWhitelist = null;
     String[] urlPatterns = null;
+    boolean extract = true;
+    List<String> resultPages = new ArrayList<String>();
     try {
       if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
         throw new Exception("Cancellation was requested");
@@ -652,6 +654,7 @@ public class Scrape {
         urlPatterns = formQuery.urlPatterns;
         postFetchClicks = formQuery.postFetchClicks;
         preFilter = formQuery.proactiveUrlFiltering;
+        extract = formQuery.extract;
       } else {
         fetch = keywordQuery.fetch;
         fetchCached = keywordQuery.fetchCached;
@@ -663,21 +666,26 @@ public class Scrape {
         urlPatterns = keywordQuery.urlPatterns;
         postFetchClicks = keywordQuery.postFetchClicks;
         preFilter = keywordQuery.proactiveUrlFiltering;
+        extract = keywordQuery.extract;
       }
       if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
         throw new Exception("Cancellation was requested");
       }
-      results.addAll(ProcessPage.perform(driver, 1, keywords,
-          preFilter ? urlWhitelist : null, preFilter ? urlPatterns : null, preFilter ? urlTransforms : null));
-      results = filterResults(results, urlWhitelist, urlPatterns, urlTransforms, false);
-      if (numResults > 0 && results.size() > numResults) {
-        int remove = results.size() - numResults;
-        for (int i = 0; i < remove && !results.isEmpty(); i++) {
-          results.remove(results.size() - 1);
+      if (extract) {
+        results.addAll(ProcessPage.perform(driver, 1, keywords,
+            preFilter ? urlWhitelist : null, preFilter ? urlPatterns : null, preFilter ? urlTransforms : null));
+        results = filterResults(results, urlWhitelist, urlPatterns, urlTransforms, false);
+        if (numResults > 0 && results.size() > numResults) {
+          int remove = results.size() - numResults;
+          for (int i = 0; i < remove && !results.isEmpty(); i++) {
+            results.remove(results.size() - 1);
+          }
         }
-      }
-      if (fetch) {
-        fetch(results, driver, fetchCached, req.runGuid, postFetchClicks);
+        if (fetch) {
+          fetch(results, driver, fetchCached, req.runGuid, postFetchClicks);
+        }
+      } else {
+        resultPages.add(Util.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
       }
       String priorProceedLabel = null;
       for (int i = 2; (i <= pages || pages <= 0)
@@ -696,19 +704,23 @@ public class Scrape {
         if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
           throw new Exception("Cancellation was requested");
         }
-        List<Result> newResults = ProcessPage.perform(driver, i, keywords,
-            preFilter ? urlWhitelist : null, preFilter ? urlPatterns : null, preFilter ? urlTransforms : null);
-        newResults = filterResults(newResults, urlWhitelist, urlPatterns, urlTransforms, false);
-        if (numResults > 0 && results.size() + newResults.size() > numResults) {
-          int remove = results.size() + newResults.size() - numResults;
-          for (int j = 0; j < remove && !newResults.isEmpty(); j++) {
-            newResults.remove(newResults.size() - 1);
+        if (extract) {
+          List<Result> newResults = ProcessPage.perform(driver, i, keywords,
+              preFilter ? urlWhitelist : null, preFilter ? urlPatterns : null, preFilter ? urlTransforms : null);
+          newResults = filterResults(newResults, urlWhitelist, urlPatterns, urlTransforms, false);
+          if (numResults > 0 && results.size() + newResults.size() > numResults) {
+            int remove = results.size() + newResults.size() - numResults;
+            for (int j = 0; j < remove && !newResults.isEmpty(); j++) {
+              newResults.remove(newResults.size() - 1);
+            }
           }
+          if (fetch) {
+            fetch(newResults, driver, fetchCached, req.runGuid, postFetchClicks);
+          }
+          results.addAll(newResults);
+        } else {
+          resultPages.add(Util.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
         }
-        if (fetch) {
-          fetch(newResults, driver, fetchCached, req.runGuid, postFetchClicks);
-        }
-        results.addAll(newResults);
       }
     } catch (End e) {
       Log.info("Reached end of results", false);
@@ -718,30 +730,39 @@ public class Scrape {
       curThread.incrementAndGet();
       done.set(true);
     }
-    List<SearchResult> extractedResults = new ArrayList<SearchResult>();
-    if (results != null) {
-      results = filterResults(results, urlWhitelist, urlPatterns, urlTransforms, true);
-      for (Result result : results) {
-        Util.clean(result.getNodes());
-        SearchResult r = new SearchResult();
-        r.url = result.url();
-        r.title = result.title();
-        r.date = result.date();
-        r.summary = result.summary();
-        r.html = Util.outerHtml(result.getNodes());
-        r.pageHtml = result.attachment();
-        if (!CommonUtil.isEmpty(r.pageHtml)) {
-          try {
-            r.pageText = NumWordsRulesExtractor.INSTANCE.getText(r.pageHtml);
-          } catch (Throwable t) {
-            r.pageText = null;
-            Log.exception(t);
+    if (extract) {
+      List<SearchResult> extractedResults = new ArrayList<SearchResult>();
+      if (results != null) {
+        results = filterResults(results, urlWhitelist, urlPatterns, urlTransforms, true);
+        for (Result result : results) {
+          Util.clean(result.getNodes());
+          SearchResult r = new SearchResult();
+          r.url = result.url();
+          r.title = result.title();
+          r.date = result.date();
+          r.summary = result.summary();
+          r.html = Util.outerHtml(result.getNodes());
+          r.pageHtml = result.attachment();
+          if (!CommonUtil.isEmpty(r.pageHtml)) {
+            try {
+              r.pageText = NumWordsRulesExtractor.INSTANCE.getText(r.pageHtml);
+            } catch (Throwable t) {
+              r.pageText = null;
+              Log.exception(t);
+            }
           }
+          extractedResults.add(r);
         }
-        extractedResults.add(r);
       }
+      return extractedResults;
     }
-    return extractedResults;
+    List<SearchResult> pages = new ArrayList<SearchResult>();
+    for (String page : resultPages) {
+      SearchResult r = new SearchResult();
+      r.html = page;
+      pages.add(r);
+    }
+    return pages;
   }
 
   private static boolean isUrlValid(String url) {
