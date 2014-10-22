@@ -4,3 +4,4 @@
 **/fetch_local_cache
 screenslicer*.zip
 ScreenSlicer*.zip
+**/*.log.*
