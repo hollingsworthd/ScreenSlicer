@@ -38,6 +38,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 
+import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.type.Result;
 import com.screenslicer.core.util.Util;
@@ -145,7 +146,8 @@ public class Dissect {
     return "dissectedResults-<<" + lenientUrl + ">>-<<" + lenientTitle + ">>-" + position.toString();
   }
 
-  public static List<Result> perform(Element body, Node parent, List<Node> nodes, boolean lenientUrl, boolean lenientTitle, boolean trim, Map<String, Object> cache) {
+  public static List<Result> perform(Element body, Node parent, boolean requireResultAnchor, List<Node> nodes, boolean lenientUrl,
+      boolean lenientTitle, boolean trim, HtmlNode matchResult, HtmlNode matchParent, Map<String, Object> cache) {
     String baseParentHash = nodeHash(parent, nodes, lenientUrl, lenientTitle);
     String parentHashTrim = "nodeList-<<trim=true>>" + baseParentHash;
     String parentHashNoTrim = "nodeList-<<trim=false>>" + baseParentHash;
@@ -164,7 +166,8 @@ public class Dissect {
       avgTitle = (Double) cache.get("dissectAvgTitle>>" + baseParentHash);
       avgSummary = (Double) cache.get("dissectAvgSummary>>" + baseParentHash);
     } else {
-      dissected = Expand.perform(body, parent, nodes, lenientUrl, lenientTitle, cache);
+      dissected = Expand.perform(body, parent, requireResultAnchor, nodes, lenientUrl,
+          lenientTitle, matchResult, matchParent, cache);
       if (dissected.isEmpty()) {
         cache.put(parentHashTrim, dissected);
         cache.put(parentHashNoTrim, dissected);
@@ -192,7 +195,8 @@ public class Dissect {
       }
       avgTitle /= dissected.size();
       avgSummary /= dissected.size();
-      if (avgTitle > avgSummary && avgSummary > MIN_EXPECTED_FIELD) {
+      if ((avgTitle < 1 && avgSummary > 1)
+          || (avgTitle > avgSummary && avgSummary > MIN_EXPECTED_FIELD)) {
         for (Result cur : dissected) {
           cur.swapTitleAndSummary();
         }

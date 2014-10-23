@@ -66,50 +66,54 @@ public class QueryForm {
     }
   }
 
-  private static void doSubmit(RemoteWebDriver driver, String formId) throws ActionFailed {
+  private static void doSubmit(RemoteWebDriver driver, String formId, HtmlNode submitClick) throws ActionFailed {
     try {
-      List<WebElement> inputs = driver.findElementById(formId).findElements(By.tagName("input"));
-      List<WebElement> buttons = driver.findElementById(formId).findElements(By.tagName("button"));
-      List<WebElement> possibleSubmits = new ArrayList<WebElement>();
-      List<WebElement> submits = new ArrayList<WebElement>();
-      possibleSubmits.addAll(inputs);
-      possibleSubmits.addAll(buttons);
-      for (WebElement possibleSubmit : possibleSubmits) {
-        if ("submit".equalsIgnoreCase(possibleSubmit.getAttribute("type"))) {
-          submits.add(possibleSubmit);
-        }
-      }
-      boolean clicked = false;
-      try {
-        if (!submits.isEmpty()) {
-          if (submits.size() == 1) {
-            clicked = Util.click(driver, submits.get(0));
-          } else {
-            String formHtml = CommonUtil.strip(driver.findElementById(formId).getAttribute("outerHTML"), false);
-            int minIndex = Integer.MAX_VALUE;
-            WebElement firstSubmit = null;
-            for (WebElement submit : submits) {
-              try {
-                String submitHtml = CommonUtil.strip(submit.getAttribute("outerHTML"), false);
-                int submitIndex = formHtml.indexOf(submitHtml);
-                if (submitIndex < minIndex) {
-                  minIndex = submitIndex;
-                  firstSubmit = submit;
-                }
-              } catch (Throwable t) {
-                Log.exception(t);
-              }
-            }
-            if (firstSubmit != null) {
-              clicked = Util.click(driver, firstSubmit);
-            }
+      if (submitClick == null) {
+        List<WebElement> inputs = driver.findElementById(formId).findElements(By.tagName("input"));
+        List<WebElement> buttons = driver.findElementById(formId).findElements(By.tagName("button"));
+        List<WebElement> possibleSubmits = new ArrayList<WebElement>();
+        List<WebElement> submits = new ArrayList<WebElement>();
+        possibleSubmits.addAll(inputs);
+        possibleSubmits.addAll(buttons);
+        for (WebElement possibleSubmit : possibleSubmits) {
+          if ("submit".equalsIgnoreCase(possibleSubmit.getAttribute("type"))) {
+            submits.add(possibleSubmit);
           }
         }
-      } catch (Throwable t) {
-        Log.exception(t);
-      }
-      if (!clicked) {
-        driver.findElementById(formId).submit();
+        boolean clicked = false;
+        try {
+          if (!submits.isEmpty()) {
+            if (submits.size() == 1) {
+              clicked = Util.click(driver, submits.get(0));
+            } else {
+              String formHtml = CommonUtil.strip(driver.findElementById(formId).getAttribute("outerHTML"), false);
+              int minIndex = Integer.MAX_VALUE;
+              WebElement firstSubmit = null;
+              for (WebElement submit : submits) {
+                try {
+                  String submitHtml = CommonUtil.strip(submit.getAttribute("outerHTML"), false);
+                  int submitIndex = formHtml.indexOf(submitHtml);
+                  if (submitIndex < minIndex) {
+                    minIndex = submitIndex;
+                    firstSubmit = submit;
+                  }
+                } catch (Throwable t) {
+                  Log.exception(t);
+                }
+              }
+              if (firstSubmit != null) {
+                clicked = Util.click(driver, firstSubmit);
+              }
+            }
+          }
+        } catch (Throwable t) {
+          Log.exception(t);
+        }
+        if (!clicked) {
+          driver.findElementById(formId).submit();
+        }
+      } else {
+        Util.click(driver, Util.toElement(driver, submitClick, null));
       }
       Util.driverSleepLong();
     } catch (Throwable t) {
@@ -223,7 +227,7 @@ public class QueryForm {
           }
         }
       } while (valueChanged && count < MAX_TRIES);
-      doSubmit(driver, context.formId);
+      doSubmit(driver, context.formId, context.searchSubmitClick);
       Util.doClicks(driver, context.postSearchClicks, null);
     } catch (Throwable t) {
       Log.exception(t);
@@ -383,6 +387,8 @@ public class QueryForm {
     control.name = CommonUtil.isEmpty(attr) ? null : attr;
     attr = element.getAttribute("title");
     control.title = CommonUtil.isEmpty(attr) ? null : attr;
+    attr = element.getAttribute("alt");
+    control.alt = CommonUtil.isEmpty(attr) ? null : attr;
     attr = element.getAttribute("id");
     control.id = CommonUtil.isEmpty(attr) ? null : attr;
     attr = element.getAttribute("type");

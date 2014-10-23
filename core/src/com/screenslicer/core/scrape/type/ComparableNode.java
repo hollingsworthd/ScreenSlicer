@@ -30,6 +30,7 @@ import java.util.List;
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 import org.jsoup.nodes.Node;
 
+import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.core.scrape.neural.NeuralNetManager;
 import com.screenslicer.core.util.Util;
 
@@ -42,7 +43,7 @@ public class ComparableNode {
   private final Node node;
   private final int[] scores;
 
-  public ComparableNode(final Node node) {
+  public ComparableNode(final Node node, HtmlNode matchResult, HtmlNode matchParent) {
     this.node = node;
     List<Node> separated = node.childNodes();
     int children = 0;
@@ -85,8 +86,8 @@ public class ComparableNode {
         children++;
         int childStrLen = Util.trimmedLen(child.toString());
         avgChildLengthDouble += childStrLen;
-        NodeCounter counter = new NodeCounter(child);
-        if (Util.isItem(child.nodeName())) {
+        NodeCounter counter = new NodeCounter(child, matchResult, matchParent);
+        if (Util.isItem(child, matchResult, matchParent)) {
           ++childItems;
           anchorChildItems += counter.anchors() > 0 ? 1 : 0;
           textChildItems += counter.fields() > 0 ? 1 : 0;
@@ -105,7 +106,7 @@ public class ComparableNode {
         if (Util.isFormatting(child.nodeName())) {
           ++childFormatting;
         }
-        if (Util.isContent(child)) {
+        if (Util.isContent(child, matchResult, matchParent)) {
           ++childContent;
         }
 
@@ -156,7 +157,7 @@ public class ComparableNode {
 
     childrenConsistent = firstChildTags != null && !firstChildTags.isEmpty() && childrenConsistent;
 
-    NodeCounter counter = new NodeCounter(separated);
+    NodeCounter counter = new NodeCounter(separated, matchResult, matchParent);
     int siblings = 0;
     for (Node sibling : node.parent().childNodes()) {
       if (!Util.isEmpty(sibling)) {

@@ -103,15 +103,28 @@ public final class FormQuery {
   /**
    * Whether to get the content at each result URL.
    */
-  public boolean fetch = false;
+  public boolean fetch;
   /**
    * Whether to visit the result URL directly or try a public web cache.
    */
-  public boolean fetchCached = false;
+  public boolean fetchCached;
   /**
    * Whether to extract results or just return all the HTML
    */
   public boolean extract = true;
+  /**
+   * Override to specify a particular node that's a parent of result nodes to
+   * extract.
+   */
+  public HtmlNode matchParent;
+  /**
+   * Override to specify a particular node that's a result node to extract.
+   */
+  public HtmlNode matchResult;
+  /**
+   * Whether results must have anchors
+   */
+  public boolean requireResultAnchor = true;
   /**
    * HTML element ID the the search form
    */
@@ -127,6 +140,10 @@ public final class FormQuery {
    * checkboxes) the list should only have one string.
    */
   public Map<String, List<String>> formModel;
+  /**
+   * Click to submit search.
+   */
+  public HtmlNode searchSubmitClick;
   /**
    * Clicks on HTML elements prior to authentication.
    */

@@ -37,6 +37,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 
+import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.Dissect.Visitor;
 import com.screenslicer.core.scrape.type.Result;
@@ -49,7 +50,9 @@ public class Expand {
   private static final int MIN_GROUP = 4;
   private static final double SIBLING_RATIO = .745;
 
-  public static List<Result> perform(Element body, Node parent, List<Node> nodes, boolean lenientUrl, boolean lenientTitle, Map<String, Object> cache) {
+  public static List<Result> perform(Element body, Node parent, boolean requireResultAnchor,
+      List<Node> nodes, boolean lenientUrl, boolean lenientTitle, HtmlNode matchResult,
+      HtmlNode matchParent, Map<String, Object> cache) {
     if (nodes == null) {
       return null;
     }
@@ -62,20 +65,20 @@ public class Expand {
       }
     } else {
       List<Node> trimmed = new ArrayList<Node>();
-      List<Node> drillDown = drillDown(nodes, lenientUrl, lenientTitle);
+      List<Node> drillDown = drillDown(requireResultAnchor, nodes, lenientUrl, lenientTitle);
       HashSet<Node> topLevel = new HashSet<Node>(nodes);
-      List<Node> baseline = drillUp(drillDown, topLevel);;
+      List<Node> baseline = drillUp(drillDown, topLevel, matchResult, matchParent);
       List<Node> current = null;
       if (baseline.size() < MIN_GROUP) {
         current = drillDown;
       } else {
-        current = drillUp(baseline, topLevel);
+        current = drillUp(baseline, topLevel, matchResult, matchParent);
         double prevSize = baseline.size();
         double curSize = current.size();
         while (current.size() >= MIN_GROUP && curSize >= Math.sqrt(prevSize)
             && !same(baseline, current)) {
           baseline = current;
-          current = drillUp(baseline, topLevel);
+          current = drillUp(baseline, topLevel, matchResult, matchParent);
           prevSize = baseline.size();
           curSize = current.size();
         }
@@ -86,11 +89,11 @@ public class Expand {
       Util.trimLargeNodes(current);
       current = Backfill.perform(body, current);
       Util.trimLargeNodes(current);
-      visitInit(current,
+      visitInit(requireResultAnchor, current,
           trimmed, visitors, lenientUrl, lenientTitle);
-      List<Node> expanded = Expand.findAncestors(trimmed, 0);
+      List<Node> expanded = Expand.findAncestors(trimmed, 0, matchResult, matchParent);
       if (expanded != null) {
-        visitInit(expanded, trimmed, visitors, lenientUrl, lenientTitle);
+        visitInit(requireResultAnchor, expanded, trimmed, visitors, lenientUrl, lenientTitle);
       }
       List<Node> allSiblings = new ArrayList<Node>();
       for (int i = 1; i < Integer.MAX_VALUE && storeSibling(findSiblings(trimmed, i, allSiblings), visitors, true); i++);
@@ -106,7 +109,7 @@ public class Expand {
     }
     List<Result> results = new ArrayList<Result>();
     for (Visitor visitor : visitors) {
-      if (!visitor.result.isEmpty()) {
+      if (!visitor.result.isEmpty(requireResultAnchor)) {
         results.add(visitor.result);
       }
     }
@@ -132,7 +135,11 @@ public class Expand {
     return true;
   }
 
-  private static List<Node> drillDown(List<Node> nodes, final boolean lenientUrl, boolean lenientTitle) {
+  private static List<Node> drillDown(boolean requireResultAnchor, List<Node> nodes,
+      final boolean lenientUrl, boolean lenientTitle) {
+    if (!requireResultAnchor) {
+      return new ArrayList<Node>(nodes);
+    }
     final Collection<Node> links = new LinkedHashSet<Node>();
     for (Node node : nodes) {
       node.traverse(new NodeVisitor() {
@@ -163,20 +170,21 @@ public class Expand {
     return new ArrayList<Node>(links);
   }
 
-  private static List<Node> drillUp(Collection<Node> nodes, HashSet<Node> topLevel) {
+  private static List<Node> drillUp(Collection<Node> nodes, HashSet<Node> topLevel,
+      final HtmlNode matchResult, final HtmlNode matchParent) {
     final Map<Node, List<Node>> parents = new LinkedHashMap<Node, List<Node>>();
     for (Node node : nodes) {
       Node parent = node;
       while (parent != null
           && !topLevel.contains(parent)
-          && (!Util.isItem(parent.nodeName()) || parent.equals(node))) {
+          && (!Util.isItem(parent, matchResult, matchParent) || parent.equals(node))) {
         parent = parent.parent();
       }
-      if (parent != null && Util.isItem(parent.nodeName())) {
+      if (parent != null && Util.isItem(parent, matchResult, matchParent)) {
         if (!parents.containsKey(parent)) {
           parents.put(parent, new ArrayList<Node>());
         }
-        if (Util.isItem(node.nodeName())) {
+        if (Util.isItem(node, matchResult, matchParent)) {
           parents.get(parent).add(node);
         }
       }
@@ -195,7 +203,7 @@ public class Expand {
           if (!n.equals(thisNode) && parents.containsKey(n)) {
             toRemoveParents.add(thisNode);
             toRemoveChildren.add(n);
-          } else if (Util.isItem(n.nodeName())) {
+          } else if (Util.isItem(n, matchResult, matchParent)) {
             toKeep.add(n);
           }
         }
@@ -260,32 +268,37 @@ public class Expand {
     return builder.toString().hashCode();
   }
 
-  private static void visitInit(List<Node> nodes, List<Node> trimmed, List<Visitor> visitors, final boolean lenientUrl, boolean lenientTitle) {
+  private static void visitInit(boolean requireResultAnchor, List<Node> nodes, List<Node> trimmed,
+      List<Visitor> visitors, final boolean lenientUrl, boolean lenientTitle) {
     trimmed.clear();
     visitors.clear();
     for (Node node : nodes) {
       final boolean[] empty = new boolean[] { true };
-      node.traverse(new NodeVisitor() {
-        @Override
-        public void tail(Node n, int d) {}
+      if (!requireResultAnchor) {
+        empty[0] = false;
+      } else {
+        node.traverse(new NodeVisitor() {
+          @Override
+          public void tail(Node n, int d) {}
 
-        @Override
-        public void head(Node n, int d) {
-          if (empty[0]) {
-            if (n.nodeName().equals("a")) {
-              empty[0] = false;
-            } else {
-              String urlFromAttr = Util.urlFromAttr(n);
-              if (Dissect.cssUrl.matcher(n.attr("class")).find()
-                  || (lenientUrl && !CommonUtil.isEmpty(urlFromAttr))) {
-                if (lenientUrl && !CommonUtil.isEmpty(urlFromAttr) && !Util.isFilteredLenient(n)) {
-                  empty[0] = false;
+          @Override
+          public void head(Node n, int d) {
+            if (empty[0]) {
+              if (n.nodeName().equals("a")) {
+                empty[0] = false;
+              } else {
+                String urlFromAttr = Util.urlFromAttr(n);
+                if (Dissect.cssUrl.matcher(n.attr("class")).find()
+                    || (lenientUrl && !CommonUtil.isEmpty(urlFromAttr))) {
+                  if (lenientUrl && !CommonUtil.isEmpty(urlFromAttr) && !Util.isFilteredLenient(n)) {
+                    empty[0] = false;
+                  }
                 }
               }
             }
           }
-        }
-      });
+        });
+      }
       if (!empty[0]) {
         Visitor visitor = new Visitor(node, lenientUrl, lenientTitle);
         trimmed.add(node);
@@ -341,7 +354,8 @@ public class Expand {
     return null;
   }
 
-  private static List<Node> findAncestors(List<Node> nodes, int generation) {
+  private static List<Node> findAncestors(List<Node> nodes, int generation,
+      HtmlNode matchResult, HtmlNode matchParent) {
     if (nodes == null) {
       return null;
     }
@@ -354,7 +368,7 @@ public class Expand {
     boolean end = false;
     int contained = 0;
     for (Node node : nodes) {
-      if (node.parent() == null || !Util.isItem(node.parent().nodeName())) {
+      if (node.parent() == null || !Util.isItem(node.parent(), matchResult, matchParent)) {
         end = true;
         break;
       }
@@ -386,7 +400,7 @@ public class Expand {
           return expanded;
         }
       }
-      return findAncestors(expanded, generation + 1);
+      return findAncestors(expanded, generation + 1, matchResult, matchParent);
     } else {
       if (generation == 0) {
         return null;

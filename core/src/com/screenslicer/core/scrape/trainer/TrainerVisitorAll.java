@@ -45,14 +45,13 @@ public class TrainerVisitorAll implements Visitor {
   private final ArrayList<Element> elements = new ArrayList<Element>();
   private final ArrayList<Integer> nums = new ArrayList<Integer>();
   private String[] names;
-  private static final boolean BUMP_ONLY = true;
+  private static final boolean BUMP_ONLY = false;
 
   @Override
   public void init() {
     final ArrayList<String> filenames = new ArrayList<String>();
     final List<String> bump = Arrays.asList(new String[] {
-        "facebook"
-    });
+        });
     new File("./test/data-webpages/").listFiles(new FileFilter() {
       @Override
       public boolean accept(File file) {

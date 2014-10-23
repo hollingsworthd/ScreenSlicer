@@ -34,6 +34,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.request.KeywordQuery;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
@@ -182,7 +183,7 @@ public class QueryKeyword {
   }
 
   private static String doSearch(RemoteWebDriver driver, List<WebElement> searchBoxes,
-      String searchQuery) throws ActionFailed {
+      String searchQuery, HtmlNode submitClick) throws ActionFailed {
     try {
       for (WebElement element : searchBoxes) {
         try {
@@ -199,7 +200,11 @@ public class QueryKeyword {
           String beforeTitle = driver.getTitle();
           String beforeUrl = driver.getCurrentUrl();
           String windowHandle = driver.getWindowHandle();
-          element.sendKeys("\n");
+          if (submitClick == null) {
+            element.sendKeys("\n");
+          } else {
+            Util.click(driver, Util.toElement(driver, submitClick, null));
+          }
           Util.driverSleepLong();
           Util.cleanUpNewWindows(driver, windowHandle);
           String afterSource = driver.getPageSource();
@@ -302,7 +307,7 @@ public class QueryKeyword {
       QueryCommon.doAuth(driver, context.credentials);
       Util.doClicks(driver, context.preSearchClicks, null);
       List<WebElement> searchBoxes = findSearchBox(driver, true);
-      String searchResult = doSearch(driver, searchBoxes, context.keywords);
+      String searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick);
       String[] fallbackNames =
           new String[] { "button", "input", "input", "div", "label", "span", "li", "ul", "a" };
       String[] fallbackTypes =
@@ -310,17 +315,17 @@ public class QueryKeyword {
       for (int i = 0; i < fallbackNames.length && searchResult == null; i++) {
         searchBoxes = navigateToSearch(driver,
             fallbackNames[i], fallbackTypes[i], true);
-        searchResult = doSearch(driver, searchBoxes, context.keywords);
+        searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick);
       }
       if (searchResult == null) {
         searchBoxes = findSearchBox(driver, false);
-        searchResult = doSearch(driver, searchBoxes, context.keywords);
+        searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick);
       }
       if (searchResult == null) {
         for (int i = 0; i < fallbackNames.length && searchResult == null; i++) {
           searchBoxes = navigateToSearch(driver,
               fallbackNames[i], fallbackTypes[i], false);
-          searchResult = doSearch(driver, searchBoxes, context.keywords);
+          searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick);
         }
       }
       Util.doClicks(driver, context.postSearchClicks, null);

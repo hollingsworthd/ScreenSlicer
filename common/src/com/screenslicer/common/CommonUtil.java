@@ -207,6 +207,13 @@ public class CommonUtil {
     return builder.toString();
   }
 
+  public static String toString(String[] strings, String delim) {
+    if (isEmpty(strings)) {
+      return "";
+    }
+    return toString(Arrays.asList(strings), delim);
+  }
+
   public static String asHash(Map<String, Object> map) {
     StringBuilder builder = new StringBuilder();
     String[] entries = new String[map.size()];

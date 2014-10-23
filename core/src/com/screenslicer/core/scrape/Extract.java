@@ -37,6 +37,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 
+import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.core.scrape.neural.NeuralNetManager;
 import com.screenslicer.core.scrape.type.ComparableNode;
 import com.screenslicer.core.util.Util;
@@ -59,6 +60,17 @@ public class Extract {
   }
 
   private static ComparableNode best(ComparableNode[] nodes, Integer[][] comparisonCache, Collection<Node> ignore, TrainingData trainingData) {
+    int ignoreSize = ignore == null ? 0 : ignore.size();
+    if (nodes.length - ignoreSize == 1) {
+      if (ignore == null || ignore.isEmpty()) {
+        return nodes[0];
+      }
+      for (int i = 0; i < nodes.length; i++) {
+        if (!ignore.contains(nodes[i])) {
+          return nodes[i];
+        }
+      }
+    }
     if (comparisonCache == null) {
       comparisonCache = new Integer[nodes.length][nodes.length];
     }
@@ -182,7 +194,7 @@ public class Extract {
   }
 
   public static ComparableNode[] trainInit(Element body, int page) {
-    ComparableNode[] nodesArray = performInternal(body, page, null);
+    ComparableNode[] nodesArray = performInternal(body, page, null, null, null);
     nodesCache.put(body, nodesArray);
     return nodesArray;
   }
@@ -297,7 +309,8 @@ public class Extract {
     return score;
   }
 
-  private static ComparableNode[] performInternal(final Element body, final int page, final Collection<Node> ignore) {
+  private static ComparableNode[] performInternal(final Element body, final int page,
+      final HtmlNode matchResult, final HtmlNode matchParent, final Collection<Node> ignore) {
     final Map<Node, ComparableNode> nodes = new HashMap<Node, ComparableNode>();
     if (body != null) {
       body.traverse(new NodeVisitor() {
@@ -310,8 +323,8 @@ public class Extract {
             }
           }
           if (!Util.isEmpty(node)
-              && Util.isContent(node) && nonEmptyChildren > 0) {
-            nodes.put(node, new ComparableNode(node));
+              && Util.isContent(node, matchResult, matchParent) && nonEmptyChildren > 0) {
+            nodes.put(node, new ComparableNode(node, matchResult, matchParent));
           }
         }
 
@@ -327,13 +340,14 @@ public class Extract {
     public Integer[][][] comparisonCache = null;
   }
 
-  public static List<Node> perform(Element body, int page, Collection<Node> ignore, Cache cache) {
+  public static List<Node> perform(Element body, int page, Collection<Node> ignore,
+      HtmlNode matchResult, HtmlNode matchParent, Cache cache) {
     Map<ComparableNode, Integer> votes = new LinkedHashMap<ComparableNode, Integer>();
     if (cache == null) {
       cache = new Cache();
     }
     if (cache.nodesCache == null) {
-      cache.nodesCache = performInternal(body, page, ignore);
+      cache.nodesCache = performInternal(body, page, matchResult, matchParent, ignore);
       cache.comparisonCache = new Integer[NeuralNetManager.instance().multiSize()][cache.nodesCache.length][cache.nodesCache.length];
     }
     final int majority = (NeuralNetManager.instance().multiSize() / TWICE) + 1;

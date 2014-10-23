@@ -31,6 +31,7 @@ import java.util.List;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 
+import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.core.util.Util;
 
 public class NodeCounter {
@@ -55,11 +56,11 @@ public class NodeCounter {
   private boolean tagsSorted = false;
   private int insideAnchor = 0;
 
-  public NodeCounter(Node node) {
-    this(Arrays.asList(new Node[] { node }));
+  public NodeCounter(Node node, final HtmlNode matchResult, final HtmlNode matchParent) {
+    this(Arrays.asList(new Node[] { node }), matchResult, matchParent);
   }
 
-  public NodeCounter(List<Node> nodes) {
+  public NodeCounter(List<Node> nodes, final HtmlNode matchResult, final HtmlNode matchParent) {
     for (Node cur : nodes) {
       if (cur == null) {
         continue;
@@ -107,10 +108,10 @@ public class NodeCounter {
             if (Util.isDecoration(node.nodeName())) {
               decoration++;
             }
-            if (Util.isContent(node)) {
+            if (Util.isContent(node, matchResult, matchParent)) {
               content++;
             }
-            if (Util.isItem(node.nodeName())) {
+            if (Util.isItem(node, matchResult, matchParent)) {
               items++;
             }
             if (!tags.contains(node.nodeName())) {

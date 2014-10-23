@@ -107,15 +107,33 @@ public final class KeywordQuery {
   /**
    * Whether to get the content at each result URL
    */
-  public boolean fetch = false;
+  public boolean fetch;
   /**
    * Whether to visit the result URL directly or try a public web cache
    */
-  public boolean fetchCached = false;
+  public boolean fetchCached;
   /**
    * Whether to extract results or just return all the HTML
    */
   public boolean extract = true;
+  /**
+   * Override to specify a particular type of node that's a parent of result
+   * nodes to extract.
+   */
+  public HtmlNode matchParent;
+  /**
+   * Override to specify a particular type of node that's a result node to
+   * extract.
+   */
+  public HtmlNode matchResult;
+  /**
+   * Whether results must have anchors
+   */
+  public boolean requireResultAnchor = true;
+  /**
+   * Click to submit search.
+   */
+  public HtmlNode searchSubmitClick;
   /**
    * Clicks on HTML elements prior to authentication
    */

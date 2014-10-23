@@ -101,6 +101,10 @@ public final class HtmlNode {
    */
   public String title;
   /**
+   * HTML element alt attribute
+   */
+  public String alt;
+  /**
    * HTML element HREF attribute (e.g., HREFs on an anchor)
    */
   public String href;

@@ -182,6 +182,9 @@ public class Util {
   }
 
   public static void get(RemoteWebDriver driver, String url, Node urlNode, boolean retry) throws ActionFailed {
+    if (CommonUtil.isEmpty(url) && urlNode == null) {
+      throw new ActionFailed();
+    }
     boolean exception = true;
     boolean success = true;
     String origHandle = null;
@@ -230,7 +233,7 @@ public class Util {
               Log.exception(t);
               Util.cleanUpNewWindows(driver, origHandle);
             }
-          } else {
+          } else if (!CommonUtil.isEmpty(url)) {
             driver.get("about:blank");
             try {
               driver.get(url);
@@ -823,9 +826,15 @@ public class Util {
     return diff;
   }
 
-  public static boolean isItem(String name) {
+  public static boolean isItem(Node node, HtmlNode matchResult, HtmlNode matchParent) {
+    if (matchResult != null) {
+      return matches(matchResult, node);
+    }
+    if (matchParent != null) {
+      return node.parent() != null && matches(matchParent, node.parent());
+    }
     for (int i = 0; i < items.length; i++) {
-      if (name.equalsIgnoreCase(items[i])) {
+      if (node.nodeName().equalsIgnoreCase(items[i])) {
         return true;
       }
     }
@@ -850,7 +859,18 @@ public class Util {
     return false;
   }
 
-  public static boolean isContent(Node node) {
+  public static boolean isContent(Node node, HtmlNode matchResult, HtmlNode matchParent) {
+    if (matchParent != null) {
+      return matches(matchParent, node);
+    }
+    if (matchResult != null) {
+      for (Node child : node.childNodes()) {
+        if (matches(matchResult, child)) {
+          return true;
+        }
+      }
+      return false;
+    }
     for (int i = 0; i < content.length; i++) {
       if (node.nodeName().equalsIgnoreCase(content[i])) {
         return true;
@@ -1107,6 +1127,43 @@ public class Util {
     return clicked;
   }
 
+  public static boolean matches(HtmlNode reference, Node test) {
+    if (!CommonUtil.isEmpty(reference.id)) {
+      return reference.id.equalsIgnoreCase(test.attr("id"));
+    }
+    if (!CommonUtil.isEmpty(reference.name)) {
+      return reference.name.equalsIgnoreCase(test.attr("name"));
+    }
+    if (!CommonUtil.isEmpty(reference.tagName)) {
+      return reference.tagName.equalsIgnoreCase(test.nodeName());
+    }
+    List<String[]> toMatch = new ArrayList<String[]>();
+    toMatch.add(new String[] { reference.type, test.attr("type") });
+    toMatch.add(new String[] { reference.value, test.attr("value") });
+    toMatch.add(new String[] { reference.title, test.attr("title") });
+    toMatch.add(new String[] { reference.alt, test.attr("alt") });
+    toMatch.add(new String[] { reference.href, test.attr("href") });
+    if (test instanceof Element) {
+      toMatch.add(new String[] { CommonUtil.strip(reference.innerText, false),
+          CommonUtil.strip(((Element) test).text(), false) });
+    }
+    for (String[] pair : toMatch) {
+      if (!CommonUtil.isEmpty(pair[0]) && pair[0].equalsIgnoreCase(pair[1])) {
+        return true;
+      }
+    }
+    String[] refClasses = reference.classes;
+    String[] testClasses = test.attr("class").split("\\s");
+    for (int i = 0; i < refClasses.length; i++) {
+      for (int j = 0; j < testClasses.length; j++) {
+        if (refClasses[i].equalsIgnoreCase(testClasses[j])) {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+
   public static WebElement toElement(RemoteWebDriver driver, HtmlNode htmlNode, Element body) throws ActionFailed {
     if (body == null) {
       body = Util.openElement(driver, null, null, null);
@@ -1134,6 +1191,9 @@ public class Util {
     }
     if (!CommonUtil.isEmpty(htmlNode.title)) {
       selected.add(body.getElementsByAttributeValue("title", htmlNode.title));
+    }
+    if (!CommonUtil.isEmpty(htmlNode.alt)) {
+      selected.add(body.getElementsByAttributeValue("alt", htmlNode.alt));
     }
     if (htmlNode.classes != null && htmlNode.classes.length > 0) {
       Map<Element, Integer> found = new HashMap<Element, Integer>();

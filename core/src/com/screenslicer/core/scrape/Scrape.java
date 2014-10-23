@@ -265,6 +265,9 @@ public class Scrape {
   }
 
   private static String toCacheUrl(String url, boolean fallback) {
+    if (url == null) {
+      return null;
+    }
     if (fallback) {
       return "http://webcache.googleusercontent.com/search?q=cache:" + url.split("://")[1];
     }
@@ -274,7 +277,8 @@ public class Scrape {
     return "http://" + urlLhs + ".nyud.net:8080/" + urlRhs;
   }
 
-  private static void fetch(List<Result> results, RemoteWebDriver driver, boolean cached, String runGuid, HtmlNode[] clicks) throws ActionFailed {
+  private static void fetch(List<Result> results, RemoteWebDriver driver, boolean requireResultAnchor,
+      boolean cached, String runGuid, HtmlNode[] clicks) throws ActionFailed {
     try {
       String origHandle = driver.getWindowHandle();
       String origUrl = driver.getCurrentUrl();
@@ -284,7 +288,7 @@ public class Scrape {
       }
       try {
         for (Result result : results) {
-          if (!isUrlValid(result.url()) && Util.uriScheme.matcher(result.url()).matches()) {
+          if (requireResultAnchor && !isUrlValid(result.url()) && Util.uriScheme.matcher(result.url()).matches()) {
             continue;
           }
           if (ScreenSlicerBatch.isCancelled(runGuid)) {
@@ -339,7 +343,7 @@ public class Scrape {
         }
       }
     }
-    if (!CommonUtil.isEmpty(url)) {
+    if (!CommonUtil.isEmpty(url) || urlNode != null) {
       final Object resultLock = new Object();
       final String initVal;
       final String[] result;
@@ -643,6 +647,9 @@ public class Scrape {
       String keywords;
       HtmlNode[] postFetchClicks;
       boolean preFilter;
+      HtmlNode matchResult = null;
+      HtmlNode matchParent = null;
+      boolean requireResultAnchor;
       if (keywordQuery == null) {
         fetch = formQuery.fetch;
         fetchCached = formQuery.fetchCached;
@@ -655,6 +662,9 @@ public class Scrape {
         postFetchClicks = formQuery.postFetchClicks;
         preFilter = formQuery.proactiveUrlFiltering;
         extract = formQuery.extract;
+        matchResult = formQuery.matchResult;
+        matchParent = formQuery.matchParent;
+        requireResultAnchor = formQuery.requireResultAnchor;
       } else {
         fetch = keywordQuery.fetch;
         fetchCached = keywordQuery.fetchCached;
@@ -667,13 +677,17 @@ public class Scrape {
         postFetchClicks = keywordQuery.postFetchClicks;
         preFilter = keywordQuery.proactiveUrlFiltering;
         extract = keywordQuery.extract;
+        matchResult = keywordQuery.matchResult;
+        matchParent = keywordQuery.matchParent;
+        requireResultAnchor = keywordQuery.requireResultAnchor;
       }
       if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
         throw new Exception("Cancellation was requested");
       }
       if (extract) {
-        results.addAll(ProcessPage.perform(driver, 1, keywords,
-            preFilter ? urlWhitelist : null, preFilter ? urlPatterns : null, preFilter ? urlTransforms : null));
+        results.addAll(ProcessPage.perform(driver, 1, requireResultAnchor, keywords,
+            preFilter ? urlWhitelist : null, preFilter ? urlPatterns : null, preFilter ? urlTransforms : null,
+            matchResult, matchParent));
         results = filterResults(results, urlWhitelist, urlPatterns, urlTransforms, false);
         if (numResults > 0 && results.size() > numResults) {
           int remove = results.size() - numResults;
@@ -682,7 +696,7 @@ public class Scrape {
           }
         }
         if (fetch) {
-          fetch(results, driver, fetchCached, req.runGuid, postFetchClicks);
+          fetch(results, driver, requireResultAnchor, fetchCached, req.runGuid, postFetchClicks);
         }
       } else {
         resultPages.add(Util.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
@@ -705,8 +719,9 @@ public class Scrape {
           throw new Exception("Cancellation was requested");
         }
         if (extract) {
-          List<Result> newResults = ProcessPage.perform(driver, i, keywords,
-              preFilter ? urlWhitelist : null, preFilter ? urlPatterns : null, preFilter ? urlTransforms : null);
+          List<Result> newResults = ProcessPage.perform(driver, i, requireResultAnchor, keywords,
+              preFilter ? urlWhitelist : null, preFilter ? urlPatterns : null, preFilter ? urlTransforms : null,
+              matchResult, matchParent);
           newResults = filterResults(newResults, urlWhitelist, urlPatterns, urlTransforms, false);
           if (numResults > 0 && results.size() + newResults.size() > numResults) {
             int remove = results.size() + newResults.size() - numResults;
@@ -715,7 +730,7 @@ public class Scrape {
             }
           }
           if (fetch) {
-            fetch(newResults, driver, fetchCached, req.runGuid, postFetchClicks);
+            fetch(newResults, driver, requireResultAnchor, fetchCached, req.runGuid, postFetchClicks);
           }
           results.addAll(newResults);
         } else {
@@ -795,7 +810,7 @@ public class Scrape {
       synchronized (progressLock) {
         progress1 = "Page 1 progress: extracting results...";
       }
-      results.addAll(ProcessPage.perform(driver, 1, query, null, null, null));
+      results.addAll(ProcessPage.perform(driver, 1, true, query, null, null, null, null, null));
       synchronized (progressLock) {
         progress1 = "";
       }
@@ -833,7 +848,7 @@ public class Scrape {
           synchronized (progressLock) {
             progress2 = "Page 2 progress: extracting results...";
           }
-          next.addAll(ProcessPage.perform(driver, 2, query, null, null, null));
+          next.addAll(ProcessPage.perform(driver, 2, true, query, null, null, null, null, null));
         } catch (End e) {
           Log.info("Reached end of results", false);
         } catch (Throwable t) {

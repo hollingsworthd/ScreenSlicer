@@ -82,7 +82,7 @@ public class TrainerVisitorExtractOnce implements TrainerExtractOnce.Visitor {
   @Override
   public int visit(int curTrainingData, int page) {
     long start = System.currentTimeMillis();
-    Node winner = Extract.perform(elements.get(curTrainingData), 1, null, null).get(0);
+    Node winner = Extract.perform(elements.get(curTrainingData), 1, null, null, null, null).get(0);
     long dur = System.currentTimeMillis() - start;
     if (winner == null
         || !winner.outerHtml().startsWith(resultParents.get(curTrainingData))) {

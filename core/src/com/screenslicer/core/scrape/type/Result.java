@@ -176,8 +176,9 @@ public class Result {
     return numUrls;
   }
 
-  public boolean isEmpty() {
-    return CommonUtil.isEmpty(url()) && (CommonUtil.isEmpty(title()) || CommonUtil.isEmpty(summary()));
+  public boolean isEmpty(boolean requireResultAnchor) {
+    return (requireResultAnchor && CommonUtil.isEmpty(url()))
+        || (CommonUtil.isEmpty(title()) && CommonUtil.isEmpty(summary()));
   }
 
   public void tweakUrl(String newUrl) {
@@ -189,7 +190,11 @@ public class Result {
   }
 
   public Node urlNode() {
-    return urlNodes.get(url());
+    Node node = urlNodes.get(url());
+    if (node == null && !this.myNodes.isEmpty()) {
+      return this.myNodes.get(0);
+    }
+    return node;
   }
 
   public String url() {
@@ -234,7 +239,7 @@ public class Result {
   }
 
   public boolean isAltUrlAndTitle() {
-    return url().equals(altUrl) && title().equals(altUrlTitle);
+    return !CommonUtil.isEmpty(url()) && url().equals(altUrl) && title().equals(altUrlTitle);
   }
 
   public void useAltFallbackUrlAndTitle(int fallbackTitleIndex) {
