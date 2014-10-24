@@ -315,12 +315,21 @@ public class Scrape {
           }
           try {
             result.attach(getHelper(driver, result.urlNode(), result.url(), cached, runGuid,
-                clicks, keywordQuery != null || formQuery != null));
+                clicks, cleanupWindows && keywordQuery == null && formQuery == null));
             if (keywordQuery != null || formQuery != null) {
               request.continueSession = true;
               recResults.addAll(scrape(keywordQuery, formQuery, request, true));
             }
 
+          } catch (Throwable t) {
+            Log.exception(t);
+          }
+          try {
+            if (!driver.getWindowHandle().equals(origHandle)) {
+              driver.close();
+              driver.switchTo().window(origHandle);
+              driver.switchTo().defaultContent();
+            }
           } catch (Throwable t) {
             Log.exception(t);
           }
@@ -451,9 +460,9 @@ public class Scrape {
               }
             }
             Util.driverSleepRandLong();
-            if (!cleanupWindows && newHandle != null && origHandle != null) {
+            if (cleanupWindows && newHandle != null && origHandle != null) {
               try {
-                Util.handleNewWindows(driver, origHandle, cleanupWindows);
+                Util.handleNewWindows(driver, origHandle, true);
               } catch (Throwable t) {
                 Log.exception(t);
               }
@@ -525,7 +534,7 @@ public class Scrape {
     Log.info("Get URL " + fetch.url + ". Cached: " + fetch.fetchCached, false);
     String resp = "";
     try {
-      resp = getHelper(driver, null, fetch.url, fetch.fetchCached, null, fetch.postFetchClicks, false);
+      resp = getHelper(driver, null, fetch.url, fetch.fetchCached, null, fetch.postFetchClicks, true);
     } catch (Throwable t) {
       Log.exception(t);
     } finally {

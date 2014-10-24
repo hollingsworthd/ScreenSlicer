@@ -300,8 +300,8 @@ public class Util {
 
   public static String newWindow(RemoteWebDriver driver, boolean cleanupWindows) throws ActionFailed {
     try {
-      String origHandle = driver.getWindowHandle();
-      handleNewWindows(driver, origHandle, cleanupWindows);
+      handleNewWindows(driver, driver.getWindowHandle(), cleanupWindows);
+      Set<String> origHandles = new HashSet<String>(driver.getWindowHandles());
       try {
         driver.getKeyboard().sendKeys(Keys.chord(Keys.CONTROL + "n"));
       } catch (Throwable t) {
@@ -309,14 +309,14 @@ public class Util {
       }
       Util.driverSleepStartup();
       Collection<String> handles = new HashSet<String>(driver.getWindowHandles());
-      handles.remove(origHandle);
+      handles.removeAll(origHandles);
       if (!handles.isEmpty()) {
         driver.switchTo().window(handles.iterator().next());
       } else {
         driver.executeScript("window.open('');");
         Util.driverSleepStartup();
         handles = new HashSet<String>(driver.getWindowHandles());
-        handles.remove(origHandle);
+        handles.removeAll(origHandles);
         if (!handles.isEmpty()) {
           driver.switchTo().window(handles.iterator().next());
         }
