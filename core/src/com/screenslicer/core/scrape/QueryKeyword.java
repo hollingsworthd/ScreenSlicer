@@ -115,7 +115,7 @@ public class QueryKeyword {
     }
   }
 
-  private static void hoverClick(RemoteWebDriver driver, WebElement element) throws ActionFailed {
+  private static void hoverClick(RemoteWebDriver driver, WebElement element, boolean cleanupWindows) throws ActionFailed {
     try {
       String oldHandle = driver.getWindowHandle();
       Actions action = new Actions(driver);
@@ -124,7 +124,7 @@ public class QueryKeyword {
       action.moveToElement(element).perform();
       action.moveByOffset(2, 2).perform();
       Util.driverSleepShort();
-      Util.cleanUpNewWindows(driver, oldHandle);
+      Util.handleNewWindows(driver, oldHandle, cleanupWindows);
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
@@ -132,7 +132,7 @@ public class QueryKeyword {
   }
 
   private static List<WebElement> navigateToSearch(
-      RemoteWebDriver driver, String tagName, String type, boolean strict) throws ActionFailed {
+      RemoteWebDriver driver, String tagName, String type, boolean strict, boolean cleanupWindows) throws ActionFailed {
     try {
       List<WebElement> tags = driver.findElementsByTagName(tagName);
       boolean success = false;
@@ -143,7 +143,7 @@ public class QueryKeyword {
             String info = new String(tag.getAttribute("href")
                 + " " + tag.getText());
             if (searchControl.matcher(info).find()) {
-              hoverClick(driver, tag);
+              hoverClick(driver, tag, cleanupWindows);
               success = true;
               break;
             }
@@ -162,7 +162,7 @@ public class QueryKeyword {
                   + " " + tag.getAttribute("class")
                   + " " + tag.getAttribute("id"));
               if (searchControl.matcher(extendedInfo).find()) {
-                hoverClick(driver, tag);
+                hoverClick(driver, tag, cleanupWindows);
                 success = true;
                 break;
               }
@@ -183,7 +183,7 @@ public class QueryKeyword {
   }
 
   private static String doSearch(RemoteWebDriver driver, List<WebElement> searchBoxes,
-      String searchQuery, HtmlNode submitClick) throws ActionFailed {
+      String searchQuery, HtmlNode submitClick, boolean cleanupWindows) throws ActionFailed {
     try {
       for (WebElement element : searchBoxes) {
         try {
@@ -206,14 +206,14 @@ public class QueryKeyword {
             Util.click(driver, Util.toElement(driver, submitClick, null));
           }
           Util.driverSleepLong();
-          Util.cleanUpNewWindows(driver, windowHandle);
+          Util.handleNewWindows(driver, windowHandle, cleanupWindows);
           String afterSource = driver.getPageSource();
           String afterTitle = driver.getTitle();
           String afterUrl = driver.getCurrentUrl();
           if (!beforeTitle.equals(afterTitle)
               || !beforeUrl.equals(afterUrl)
               || Math.abs(beforeSource.length() - afterSource.length()) > MIN_SOURCE_DIFF) {
-            handleIframe(driver);
+            handleIframe(driver, cleanupWindows);
             return driver.getPageSource();
           }
         } catch (Throwable t) {
@@ -226,7 +226,7 @@ public class QueryKeyword {
     throw new ActionFailed();
   }
 
-  private static void handleIframe(RemoteWebDriver driver) throws ActionFailed {
+  private static void handleIframe(RemoteWebDriver driver, boolean cleanupWindows) throws ActionFailed {
     List<WebElement> iframes = null;
     try {
       iframes = driver.findElementsByTagName("iframe");
@@ -246,14 +246,14 @@ public class QueryKeyword {
               try {
                 origHandle = driver.getWindowHandle();
                 origUrl = driver.getCurrentUrl();
-                newHandle = Util.newWindow(driver);
+                newHandle = Util.newWindow(driver, cleanupWindows);
               } catch (Throwable t) {
                 Log.exception(t);
                 throw new ActionFailed(t);
               }
               boolean undo = false;
               try {
-                Util.get(driver, src, true);
+                Util.get(driver, src, true, cleanupWindows);
                 driver.executeScript("document.getElementsByTagName('html')[0].style.overflow='scroll';");
                 Util.driverSleepShort();
                 if (driver.findElementByTagName("body").getText().length() < MIN_SOURCE_DIFF) {
@@ -277,10 +277,10 @@ public class QueryKeyword {
                       driver.get(origUrl);
                     }
                   } else {
-                    Util.cleanUpNewWindows(driver, origHandle);
+                    Util.handleNewWindows(driver, origHandle, cleanupWindows);
                   }
                 } else {
-                  Util.cleanUpNewWindows(driver, newHandle);
+                  Util.handleNewWindows(driver, newHandle, cleanupWindows);
                   break;
                 }
               } catch (Throwable t) {
@@ -300,32 +300,36 @@ public class QueryKeyword {
     }
   }
 
-  public static void perform(RemoteWebDriver driver, KeywordQuery context) throws ActionFailed {
+  public static void perform(RemoteWebDriver driver, KeywordQuery context, boolean cleanupWindows) throws ActionFailed {
     try {
-      Util.get(driver, context.site, true);
+      if (!CommonUtil.isEmpty(context.site)) {
+        Util.get(driver, context.site, true, cleanupWindows);
+      }
       Util.doClicks(driver, context.preAuthClicks, null);
       QueryCommon.doAuth(driver, context.credentials);
       Util.doClicks(driver, context.preSearchClicks, null);
-      List<WebElement> searchBoxes = findSearchBox(driver, true);
-      String searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick);
-      String[] fallbackNames =
-          new String[] { "button", "input", "input", "div", "label", "span", "li", "ul", "a" };
-      String[] fallbackTypes =
-          new String[] { null, "button", "submit", null, null, null, null, null, null };
-      for (int i = 0; i < fallbackNames.length && searchResult == null; i++) {
-        searchBoxes = navigateToSearch(driver,
-            fallbackNames[i], fallbackTypes[i], true);
-        searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick);
-      }
-      if (searchResult == null) {
-        searchBoxes = findSearchBox(driver, false);
-        searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick);
-      }
-      if (searchResult == null) {
+      if (!CommonUtil.isEmpty(context.keywords)) {
+        List<WebElement> searchBoxes = findSearchBox(driver, true);
+        String searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
+        String[] fallbackNames =
+            new String[] { "button", "input", "input", "div", "label", "span", "li", "ul", "a" };
+        String[] fallbackTypes =
+            new String[] { null, "button", "submit", null, null, null, null, null, null };
         for (int i = 0; i < fallbackNames.length && searchResult == null; i++) {
           searchBoxes = navigateToSearch(driver,
-              fallbackNames[i], fallbackTypes[i], false);
-          searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick);
+              fallbackNames[i], fallbackTypes[i], true, cleanupWindows);
+          searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
+        }
+        if (searchResult == null) {
+          searchBoxes = findSearchBox(driver, false);
+          searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
+        }
+        if (searchResult == null) {
+          for (int i = 0; i < fallbackNames.length && searchResult == null; i++) {
+            searchBoxes = navigateToSearch(driver,
+                fallbackNames[i], fallbackTypes[i], false, cleanupWindows);
+            searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
+          }
         }
       }
       Util.doClicks(driver, context.postSearchClicks, null);

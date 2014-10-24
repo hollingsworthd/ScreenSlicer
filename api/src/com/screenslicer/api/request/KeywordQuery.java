@@ -154,4 +154,12 @@ public final class KeywordQuery {
    * Credentials for authentication
    */
   public Credentials credentials;
+  /**
+   * KeywordQuery to perform at each fetched result.
+   */
+  public KeywordQuery keywordQuery;
+  /**
+   * FormQuery to perform at each fetched result.
+   */
+  public FormQuery formQuery;
 }

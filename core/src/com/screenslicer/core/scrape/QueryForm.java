@@ -122,9 +122,11 @@ public class QueryForm {
     }
   }
 
-  public static void perform(RemoteWebDriver driver, FormQuery context) throws ActionFailed {
+  public static void perform(RemoteWebDriver driver, FormQuery context, boolean cleanupWindows) throws ActionFailed {
     try {
-      Util.get(driver, context.site, true);
+      if (!CommonUtil.isEmpty(context.site)) {
+        Util.get(driver, context.site, true, cleanupWindows);
+      }
       Util.doClicks(driver, context.preAuthClicks, null);
       QueryCommon.doAuth(driver, context.credentials);
       Util.doClicks(driver, context.preSearchClicks, null);
@@ -137,97 +139,99 @@ public class QueryForm {
       int count = 0;
       final int MAX_TRIES = 3;
       Element body = Util.openElement(driver, null, null, null);
-      do {
-        ++count;
-        valueChanged = false;
-        for (Map.Entry<String, List<String>> entry : formData.entrySet()) {
-          try {
-            HtmlNode formControl = formControls.get(entry.getKey());
-            if (!CommonUtil.isEmpty(entry.getValue())) {
-              if ("select".equalsIgnoreCase(formControl.tagName)) {
-                if (WebApp.DEBUG) {
-                  System.out.println("Query Form: select");
-                }
-                Select select = new Select(Util.toElement(driver, formControl, body));
-                if (select.isMultiple()) {
-                  select.deselectAll();
-                }
-                List<WebElement> selectedElements = select.getAllSelectedOptions();
-                List<String> selectedStrings = new ArrayList<String>();
-                for (WebElement selectedElement : selectedElements) {
-                  String selectedString = selectedElement.getAttribute("value");
-                  if (!CommonUtil.isEmpty(selectedString)) {
-                    selectedStrings.add(selectedString);
+      if (formData != null) {
+        do {
+          ++count;
+          valueChanged = false;
+          for (Map.Entry<String, List<String>> entry : formData.entrySet()) {
+            try {
+              HtmlNode formControl = formControls.get(entry.getKey());
+              if (!CommonUtil.isEmpty(entry.getValue())) {
+                if ("select".equalsIgnoreCase(formControl.tagName)) {
+                  if (WebApp.DEBUG) {
+                    System.out.println("Query Form: select");
                   }
-                }
-                boolean matches = true;
-                for (String selectedString : selectedStrings) {
-                  if (!entry.getValue().contains(selectedString)) {
-                    matches = false;
-                    break;
+                  Select select = new Select(Util.toElement(driver, formControl, body));
+                  if (select.isMultiple()) {
+                    select.deselectAll();
                   }
-                }
-                if (!matches || selectedStrings.size() != entry.getValue().size()) {
-                  for (String val : entry.getValue()) {
-                    valueChanged = true;
-                    select.selectByValue(val);
-                    Util.driverSleepVeryShort();
+                  List<WebElement> selectedElements = select.getAllSelectedOptions();
+                  List<String> selectedStrings = new ArrayList<String>();
+                  for (WebElement selectedElement : selectedElements) {
+                    String selectedString = selectedElement.getAttribute("value");
+                    if (!CommonUtil.isEmpty(selectedString)) {
+                      selectedStrings.add(selectedString);
+                    }
                   }
-                }
-              } else if ("input".equalsIgnoreCase(formControl.tagName)
-                  && ("text".equalsIgnoreCase(formControl.type)
-                  || "search".equalsIgnoreCase(formControl.type))) {
-                if (WebApp.DEBUG) {
-                  System.out.println("Query Form: input[text|search]");
-                }
-                WebElement element = Util.toElement(driver, formControl, body);
-                valueChanged = QueryCommon.typeText(driver, element, entry.getValue().get(0), true, false);
-              } else if ("input".equalsIgnoreCase(formControl.tagName)
-                  && ("checkbox".equalsIgnoreCase(formControl.type)
-                  || "radio".equalsIgnoreCase(formControl.type))) {
-                if (WebApp.DEBUG) {
-                  System.out.println("Query Form: input[checkbox|radio]");
-                }
-                WebElement element = Util.toElement(driver, formControl, body);
-                if (entry.getValue() != null && !entry.getValue().isEmpty()) {
-                  if ("radio".equalsIgnoreCase(formControl.type)) {
-                    String elementVal = element.getAttribute("value");
-                    String schemaVal = formControl.value;
-                    String modelVal = entry.getValue().get(0);
-                    if (elementVal != null && schemaVal != null
-                        && elementVal.equalsIgnoreCase(schemaVal)
-                        && modelVal.equalsIgnoreCase(schemaVal)) {
-                      if (!element.isSelected()) {
-                        if (WebApp.DEBUG) {
-                          System.out.println("Clicking radio button");
+                  boolean matches = true;
+                  for (String selectedString : selectedStrings) {
+                    if (!entry.getValue().contains(selectedString)) {
+                      matches = false;
+                      break;
+                    }
+                  }
+                  if (!matches || selectedStrings.size() != entry.getValue().size()) {
+                    for (String val : entry.getValue()) {
+                      valueChanged = true;
+                      select.selectByValue(val);
+                      Util.driverSleepVeryShort();
+                    }
+                  }
+                } else if ("input".equalsIgnoreCase(formControl.tagName)
+                    && ("text".equalsIgnoreCase(formControl.type)
+                    || "search".equalsIgnoreCase(formControl.type))) {
+                  if (WebApp.DEBUG) {
+                    System.out.println("Query Form: input[text|search]");
+                  }
+                  WebElement element = Util.toElement(driver, formControl, body);
+                  valueChanged = QueryCommon.typeText(driver, element, entry.getValue().get(0), true, false);
+                } else if ("input".equalsIgnoreCase(formControl.tagName)
+                    && ("checkbox".equalsIgnoreCase(formControl.type)
+                    || "radio".equalsIgnoreCase(formControl.type))) {
+                  if (WebApp.DEBUG) {
+                    System.out.println("Query Form: input[checkbox|radio]");
+                  }
+                  WebElement element = Util.toElement(driver, formControl, body);
+                  if (entry.getValue() != null && !entry.getValue().isEmpty()) {
+                    if ("radio".equalsIgnoreCase(formControl.type)) {
+                      String elementVal = element.getAttribute("value");
+                      String schemaVal = formControl.value;
+                      String modelVal = entry.getValue().get(0);
+                      if (elementVal != null && schemaVal != null
+                          && elementVal.equalsIgnoreCase(schemaVal)
+                          && modelVal.equalsIgnoreCase(schemaVal)) {
+                        if (!element.isSelected()) {
+                          if (WebApp.DEBUG) {
+                            System.out.println("Clicking radio button");
+                          }
+                          valueChanged = Util.click(driver, element);
                         }
-                        valueChanged = Util.click(driver, element);
                       }
+                    } else if (!element.isSelected()) {
+                      if (WebApp.DEBUG) {
+                        System.out.println("Clicking [checkbox|radio]");
+                      }
+                      valueChanged = Util.click(driver, element);
                     }
-                  } else if (!element.isSelected()) {
-                    if (WebApp.DEBUG) {
-                      System.out.println("Clicking [checkbox|radio]");
+                  } else {
+                    if (element.isSelected()) {
+                      if (WebApp.DEBUG) {
+                        System.out.println("Deselecting [checkbox|radio]");
+                      }
+                      valueChanged = true;
+                      element.clear();
+                      Util.driverSleepVeryShort();
                     }
-                    valueChanged = Util.click(driver, element);
-                  }
-                } else {
-                  if (element.isSelected()) {
-                    if (WebApp.DEBUG) {
-                      System.out.println("Deselecting [checkbox|radio]");
-                    }
-                    valueChanged = true;
-                    element.clear();
-                    Util.driverSleepVeryShort();
                   }
                 }
               }
+            } catch (Throwable t) {
+              Log.exception(t);
             }
-          } catch (Throwable t) {
-            Log.exception(t);
           }
-        }
-      } while (valueChanged && count < MAX_TRIES);
-      doSubmit(driver, context.formId, context.searchSubmitClick);
+        } while (valueChanged && count < MAX_TRIES);
+        doSubmit(driver, context.formId, context.searchSubmitClick);
+      }
       Util.doClicks(driver, context.postSearchClicks, null);
     } catch (Throwable t) {
       Log.exception(t);
@@ -235,9 +239,9 @@ public class QueryForm {
     }
   }
 
-  public static List<HtmlNode> load(RemoteWebDriver driver, FormLoad context) throws ActionFailed {
+  public static List<HtmlNode> load(RemoteWebDriver driver, FormLoad context, boolean cleanupWindows) throws ActionFailed {
     try {
-      Util.get(driver, context.site, true);
+      Util.get(driver, context.site, true, cleanupWindows);
       Util.doClicks(driver, context.preAuthClicks, null);
       QueryCommon.doAuth(driver, context.credentials);
       Util.doClicks(driver, context.preSearchClicks, null);

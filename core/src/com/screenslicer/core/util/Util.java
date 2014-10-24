@@ -181,7 +181,7 @@ public class Util {
     } catch (InterruptedException e) {}
   }
 
-  public static void get(RemoteWebDriver driver, String url, Node urlNode, boolean retry) throws ActionFailed {
+  public static void get(RemoteWebDriver driver, String url, Node urlNode, boolean retry, boolean cleanupWindows) throws ActionFailed {
     if (CommonUtil.isEmpty(url) && urlNode == null) {
       throw new ActionFailed();
     }
@@ -211,7 +211,7 @@ public class Util {
         }
         if (urlNode != null) {
           try {
-            cleanUpNewWindows(driver, origHandle);
+            handleNewWindows(driver, origHandle, cleanupWindows);
           } catch (Throwable t) {
             Log.exception(t);
           }
@@ -222,16 +222,19 @@ public class Util {
             try {
               Util.clickToNewWindow(driver, toElement(driver, urlNode));
               Set<String> newHandles = driver.getWindowHandles();
+              String switchTo = null;
               for (String newHandle : newHandles) {
                 if (!origHandle.equals(newHandle)) {
-                  driver.switchTo().window(newHandle);
-                  break;
+                  switchTo = newHandle;
                 }
+              }
+              if (switchTo != null) {
+                driver.switchTo().window(switchTo);
               }
             } catch (Throwable t) {
               exception = true;
               Log.exception(t);
-              Util.cleanUpNewWindows(driver, origHandle);
+              Util.handleNewWindows(driver, origHandle, cleanupWindows);
             }
           } else if (!CommonUtil.isEmpty(url)) {
             driver.get("about:blank");
@@ -282,7 +285,7 @@ public class Util {
     if (!success) {
       if (urlNode != null && origHandle != null) {
         try {
-          cleanUpNewWindows(driver, origHandle);
+          handleNewWindows(driver, origHandle, cleanupWindows);
         } catch (Throwable t) {
           Log.exception(t);
         }
@@ -291,14 +294,14 @@ public class Util {
     }
   }
 
-  public static void get(RemoteWebDriver driver, String url, boolean retry) throws ActionFailed {
-    get(driver, url, null, retry);
+  public static void get(RemoteWebDriver driver, String url, boolean retry, boolean cleanupWindows) throws ActionFailed {
+    get(driver, url, null, retry, cleanupWindows);
   }
 
-  public static String newWindow(RemoteWebDriver driver) throws ActionFailed {
+  public static String newWindow(RemoteWebDriver driver, boolean cleanupWindows) throws ActionFailed {
     try {
       String origHandle = driver.getWindowHandle();
-      cleanUpNewWindows(driver, origHandle);
+      handleNewWindows(driver, origHandle, cleanupWindows);
       try {
         driver.getKeyboard().sendKeys(Keys.chord(Keys.CONTROL + "n"));
       } catch (Throwable t) {
@@ -325,17 +328,19 @@ public class Util {
     }
   }
 
-  public static void cleanUpNewWindows(RemoteWebDriver driver, String handleToKeep) throws ActionFailed {
+  public static void handleNewWindows(RemoteWebDriver driver, String handleToKeep, boolean cleanup) throws ActionFailed {
     try {
-      Set<String> handles = new HashSet<String>(driver.getWindowHandles());
-      for (String handle : handles) {
-        try {
-          if (!handleToKeep.equals(handle)) {
-            driver.switchTo().window(handle);
-            driver.close();
+      if (cleanup) {
+        Set<String> handles = new HashSet<String>(driver.getWindowHandles());
+        for (String handle : handles) {
+          try {
+            if (!handleToKeep.equals(handle)) {
+              driver.switchTo().window(handle);
+              driver.close();
+            }
+          } catch (Throwable t) {
+            Log.exception(t);
           }
-        } catch (Throwable t) {
-          Log.exception(t);
         }
       }
       driver.switchTo().window(handleToKeep);

@@ -164,4 +164,12 @@ public final class FormQuery {
    * Credentials for authentication.
    */
   public Credentials credentials;
+  /**
+   * KeywordQuery to perform at each fetched result.
+   */
+  public KeywordQuery keywordQuery;
+  /**
+   * FormQuery to perform at each fetched result.
+   */
+  public FormQuery formQuery;
 }
