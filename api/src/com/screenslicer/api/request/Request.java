@@ -113,4 +113,8 @@ public final class Request {
    * Defaults to false which is generally what's advisable.
    */
   public boolean continueSession = false;
+  /**
+   * Browser preferences
+   */
+  public Map<String, Object> browserPrefs;
 }

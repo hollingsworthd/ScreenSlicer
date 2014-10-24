@@ -118,11 +118,11 @@ public class Scrape {
 
   public static void init() {
     NeuralNetManager.reset(new File("./resources/neural/config"));
-    start(PAGE_LOAD_TIMEOUT_SECONDS, new Proxy());
+    start(PAGE_LOAD_TIMEOUT_SECONDS, new Proxy(), null);
     done.set(true);
   }
 
-  private static void start(int pageLoadTimeout, Proxy proxy) {
+  private static void start(int pageLoadTimeout, Proxy proxy, Map<String, Object> prefs) {
     for (int i = 0; i < RETRIES; i++) {
       try {
         FirefoxProfile profile = new FirefoxProfile(new File("./firefox-profile"));
@@ -150,6 +150,19 @@ public class Scrape {
             profile.setPreference("network.proxy.type", 1);
             profile.setPreference("network.proxy.http", proxy.ip);
             profile.setPreference("network.proxy.http_port", proxy.port);
+          }
+        }
+        if (prefs != null) {
+          for (Map.Entry<String, Object> entry : prefs.entrySet()) {
+            if (entry.getValue() instanceof Integer) {
+              profile.setPreference(entry.getKey(), (Integer) entry.getValue());
+            } else if (entry.getValue() instanceof Double) {
+              profile.setPreference(entry.getKey(), (int) Math.rint(((Double) entry.getValue())));
+            } else if (entry.getValue() instanceof Boolean) {
+              profile.setPreference(entry.getKey(), (Boolean) entry.getValue());
+            } else if (entry.getValue() instanceof String) {
+              profile.setPreference(entry.getKey(), (String) entry.getValue());
+            }
           }
         }
         driver = new FirefoxDriver(profile);
@@ -188,7 +201,7 @@ public class Scrape {
     }
   }
 
-  private static void restart(int pageLoadTimeout, Proxy proxy) {
+  private static void restart(int pageLoadTimeout, Proxy proxy, Map<String, Object> prefs) {
     try {
       forceQuit();
     } catch (Throwable t) {
@@ -199,7 +212,7 @@ public class Scrape {
     } catch (Throwable t) {
       Log.exception(t);
     }
-    start(pageLoadTimeout, proxy);
+    start(pageLoadTimeout, proxy, prefs);
   }
 
   private static void push(String mapKey, List results) {
@@ -500,7 +513,7 @@ public class Scrape {
       }
     }
     if (!req.continueSession) {
-      restart(req.timeout, req.proxy);
+      restart(req.timeout, req.proxy, req.browserPrefs);
     }
     Log.info("Get URL " + fetch.url + ". Cached: " + fetch.fetchCached, false);
     String resp = "";
@@ -552,7 +565,7 @@ public class Scrape {
       }
     }
     if (!req.continueSession) {
-      restart(req.timeout, req.proxy);
+      restart(req.timeout, req.proxy, req.browserPrefs);
     }
     try {
       List<HtmlNode> ret = null;
@@ -560,7 +573,7 @@ public class Scrape {
         ret = QueryForm.load(driver, context);
       } catch (Throwable t) {
         if (!req.continueSession) {
-          restart(req.timeout, req.proxy);
+          restart(req.timeout, req.proxy, req.browserPrefs);
         }
         ret = QueryForm.load(driver, context);
       }
@@ -590,7 +603,7 @@ public class Scrape {
       }
     }
     if (!req.continueSession) {
-      restart(req.timeout, req.proxy);
+      restart(req.timeout, req.proxy, req.browserPrefs);
     }
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
@@ -612,7 +625,7 @@ public class Scrape {
           Util.get(driver, keywordQuery.site, true);
         } catch (Throwable e) {
           if (!req.continueSession) {
-            restart(req.timeout, req.proxy);
+            restart(req.timeout, req.proxy, req.browserPrefs);
           }
           Util.get(driver, keywordQuery.site, true);
         }
@@ -625,7 +638,7 @@ public class Scrape {
         try {
           QueryKeyword.perform(driver, keywordQuery);
         } catch (Throwable e) {
-          restart(req.timeout, req.proxy);
+          restart(req.timeout, req.proxy, req.browserPrefs);
           QueryKeyword.perform(driver, keywordQuery);
         }
       } else {
@@ -636,7 +649,7 @@ public class Scrape {
         try {
           QueryForm.perform(driver, formQuery);
         } catch (Throwable e) {
-          restart(req.timeout, req.proxy);
+          restart(req.timeout, req.proxy, req.browserPrefs);
           QueryForm.perform(driver, formQuery);
         }
       }
@@ -791,7 +804,7 @@ public class Scrape {
     if (!done.compareAndSet(true, false)) {
       return null;
     }
-    restart(PAGE_LOAD_TIMEOUT_SECONDS, new Proxy());
+    restart(PAGE_LOAD_TIMEOUT_SECONDS, new Proxy(), null);
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
     List<Result> results = new ArrayList<Result>();
