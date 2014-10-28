@@ -26,6 +26,8 @@ package com.screenslicer.webapp;
 
 import java.lang.reflect.Field;
 import java.security.SecureRandom;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -44,9 +46,6 @@ import com.screenslicer.api.request.Request;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.webapp.WebApp.Callback;
-
-import edu.emory.mathcs.backport.java.util.Arrays;
-import edu.emory.mathcs.backport.java.util.Collections;
 
 public final class ScreenSlicer {
   public static interface CustomApp {
