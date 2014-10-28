@@ -110,7 +110,7 @@ public class Crypto {
     }
   }
 
-  private static String getKey(String token, String auth, String recipient) {
+  private static String getTransitKey(String token, String auth, String recipient) {
     if (token == null || auth == null || recipient == null) {
       return null;
     }
@@ -183,7 +183,7 @@ public class Crypto {
       return null;
     }
     Map<String, String> map = CommonUtil.gson.fromJson(string, stringType);
-    String secretKey = getKey(map.get("token"), map.get("auth"), recipient);
+    String secretKey = getTransitKey(map.get("token"), map.get("auth"), recipient);
     if (secretKey == null) {
       return null;
     }
