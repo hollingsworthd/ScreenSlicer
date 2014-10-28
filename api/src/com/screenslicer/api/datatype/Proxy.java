@@ -24,6 +24,9 @@
  */
 package com.screenslicer.api.datatype;
 
+import java.security.SecureRandom;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -31,6 +34,8 @@ import com.google.gson.reflect.TypeToken;
 import com.screenslicer.common.CommonUtil;
 
 public class Proxy {
+  private static final SecureRandom rand = new SecureRandom();
+
   public static final Proxy instance(String json) {
     return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
   }
@@ -63,6 +68,71 @@ public class Proxy {
     return CommonUtil.gson.toJson(obj, new TypeToken<List<Proxy>>() {}.getType());
   }
 
+  private static final boolean matches(Proxy proxyA, Proxy proxyB) {
+    return proxyA.ip.equals(proxyB.ip) && proxyA.port == proxyB.port
+        && ((proxyA.username == null && proxyB.username == null)
+        || (proxyA.username != null && proxyA.username.equals(proxyB.username)))
+        && ((proxyA.password == null && proxyB.password == null)
+        || (proxyA.password != null && proxyA.password.equals(proxyB.password)));
+  }
+
+  public static final Map<String, Proxy> toMap(Proxy[] proxies) {
+    Map<String, List<Proxy>> map = new HashMap<String, List<Proxy>>();
+    map.put(TYPE_SOCKS_5, new ArrayList<Proxy>());
+    map.put(TYPE_SOCKS_4, new ArrayList<Proxy>());
+    map.put(TYPE_HTTP, new ArrayList<Proxy>());
+    map.put(TYPE_SSL, new ArrayList<Proxy>());
+    map.put(TYPE_ALL, new ArrayList<Proxy>());
+    map.put(TYPE_DIRECT, new ArrayList<Proxy>());
+    for (int i = 0; i < proxies.length; i++) {
+      map.get(proxies[i].type).add(proxies[i]);
+    }
+    if (!map.get(TYPE_DIRECT).isEmpty()) {
+      return null;
+    }
+    Map<String, Proxy> ret = new HashMap<String, Proxy>();
+    if (!map.get(TYPE_ALL).isEmpty()) {
+      ret.put(TYPE_ALL, map.get(TYPE_ALL).get(rand.nextInt(map.get(TYPE_ALL).size())));
+      return ret;
+    }
+    List<Proxy> socks = new ArrayList<Proxy>();
+    socks.addAll(map.get(TYPE_SOCKS_5));
+    socks.addAll(map.get(TYPE_SOCKS_4));
+    Proxy selected = socks.isEmpty() ? null : socks.get(rand.nextInt(socks.size()));
+    if (selected != null) {
+      ret.put(selected.type, selected);
+    }
+    boolean found = false;
+    if (selected != null && !map.get(TYPE_HTTP).isEmpty()) {
+      for (Proxy cur : map.get(TYPE_HTTP)) {
+        if (matches(cur, selected)) {
+          ret.put(TYPE_HTTP, cur);
+          found = true;
+          break;
+        }
+      }
+    }
+    if (!found && !map.get(TYPE_HTTP).isEmpty()) {
+      selected = map.get(TYPE_HTTP).get(rand.nextInt(map.get(TYPE_HTTP).size()));
+      ret.put(TYPE_HTTP, selected);
+    }
+    found = false;
+    if (selected != null && !map.get(TYPE_SSL).isEmpty()) {
+      for (Proxy cur : map.get(TYPE_SSL)) {
+        if (matches(cur, selected)) {
+          ret.put(TYPE_SSL, cur);
+          found = true;
+          break;
+        }
+      }
+    }
+    if (!found && !map.get(TYPE_SSL).isEmpty()) {
+      selected = map.get(TYPE_SSL).get(rand.nextInt(map.get(TYPE_SSL).size()));
+      ret.put(TYPE_SSL, selected);
+    }
+    return ret;
+  }
+
   /**
    * Socks version 5 proxy
    */
@@ -79,7 +149,15 @@ public class Proxy {
    * SSL proxy
    */
   public static final String TYPE_SSL = "ssl";
-
+  /**
+   * SOCKSv5, SOCKSv4, HTTP, and SSL (i.e., settings are shared for all
+   * protocols)
+   */
+  public static final String TYPE_ALL = "all";
+  /**
+   * Direct (no proxy)
+   */
+  public static final String TYPE_DIRECT = "direct";
   /**
    * Proxy type.
    * Defaults to Socks version 5.

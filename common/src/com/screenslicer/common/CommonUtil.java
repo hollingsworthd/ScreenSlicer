@@ -106,14 +106,15 @@ public class CommonUtil {
     }
   }
 
-  private static String myIp = null;
-  static {
-    myIp = ip();
-  }
+  static String myInstance = null;
 
-  public static String ip() {
-    if (myIp != null) {
-      return myIp;
+  public static String myInstance() {
+    if (myInstance != null) {
+      return myInstance;
+    }
+    if (!CommonUtil.isEmpty(Config.instance.myInstance())) {
+      myInstance = Config.instance.myInstance();
+      return myInstance;
     }
     try {
       Enumeration<NetworkInterface> ifaces = NetworkInterface.getNetworkInterfaces();

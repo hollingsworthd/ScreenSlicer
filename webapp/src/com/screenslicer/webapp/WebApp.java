@@ -32,7 +32,6 @@ import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
 
-import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Config;
 import com.screenslicer.common.Log;
 
@@ -45,15 +44,10 @@ public class WebApp extends ResourceConfig {
   private static ExceptionListener listener = null;
   private static final Object listenerLock = new Object();
   public static URI INTERNAL_URL;
-  public static final boolean DEV = CommonUtil.ip().equals("127.0.0.1");
+  public static final boolean DEV = "true".equals(System.getProperty("slicer_dev", "false"));
   public static final boolean DEBUG = "true".equals(System.getProperty("slicer_debug", "false"));
-  public static final boolean SANDBOX = DEV;
+  public static final boolean SANDBOX = "true".equals(System.getProperty("slicer_sandbox", "false"));
   public static final SecureRandom rand = new SecureRandom();
-  static {
-    if (DEV || DEBUG) {
-      System.out.println("Development Mode. IP: " + CommonUtil.ip());
-    }
-  }
 
   private WebApp() {}
 

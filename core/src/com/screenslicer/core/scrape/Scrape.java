@@ -118,42 +118,46 @@ public class Scrape {
 
   public static void init() {
     NeuralNetManager.reset(new File("./resources/neural/config"));
-    start(PAGE_LOAD_TIMEOUT_SECONDS, new Proxy(), null);
+    start(new Request());
     done.set(true);
   }
 
-  private static void start(int pageLoadTimeout, Proxy proxy, Map<String, Object> prefs) {
+  private static void start(Request req) {
+    Proxy[] proxies = CommonUtil.isEmpty(req.proxies) ? new Proxy[] { req.proxy } : req.proxies;
     for (int i = 0; i < RETRIES; i++) {
       try {
         FirefoxProfile profile = new FirefoxProfile(new File("./firefox-profile"));
-        if (proxy != null) {
-          if (!CommonUtil.isEmpty(proxy.username) || !CommonUtil.isEmpty(proxy.password)) {
-            String user = proxy.username == null ? "" : proxy.username;
-            String pass = proxy.password == null ? "" : proxy.password;
-            profile.setPreference("extensions.closeproxyauth.authtoken",
-                Base64.encodeBase64String((user + ":" + pass).getBytes("utf-8")));
-          } else {
-            profile.setPreference("extensions.closeproxyauth.authtoken", "");
-          }
-          if (Proxy.TYPE_SOCKS_5.equals(proxy.type) || Proxy.TYPE_SOCKS_4.equals(proxy.type)) {
-            profile.setPreference("network.proxy.type", 1);
-            profile.setPreference("network.proxy.socks", proxy.ip);
-            profile.setPreference("network.proxy.socks_port", proxy.port);
-            profile.setPreference("network.proxy.socks_remote_dns", true);
-            profile.setPreference("network.proxy.socks_version",
-                Proxy.TYPE_SOCKS_5.equals(proxy.type) ? 5 : 4);
-          } else if (Proxy.TYPE_SSL.equals(proxy.type)) {
-            profile.setPreference("network.proxy.type", 1);
-            profile.setPreference("network.proxy.ssl", proxy.ip);
-            profile.setPreference("network.proxy.ssl_port", proxy.port);
-          } else if (Proxy.TYPE_HTTP.equals(proxy.type)) {
-            profile.setPreference("network.proxy.type", 1);
-            profile.setPreference("network.proxy.http", proxy.ip);
-            profile.setPreference("network.proxy.http_port", proxy.port);
+        for (int curProxy = 0; curProxy < proxies.length; curProxy++) {
+          Proxy proxy = proxies[curProxy];
+          if (proxy != null) {
+            if (!CommonUtil.isEmpty(proxy.username) || !CommonUtil.isEmpty(proxy.password)) {
+              String user = proxy.username == null ? "" : proxy.username;
+              String pass = proxy.password == null ? "" : proxy.password;
+              profile.setPreference("extensions.closeproxyauth.authtoken",
+                  Base64.encodeBase64String((user + ":" + pass).getBytes("utf-8")));
+            } else {
+              profile.setPreference("extensions.closeproxyauth.authtoken", "");
+            }
+            if (Proxy.TYPE_SOCKS_5.equals(proxy.type) || Proxy.TYPE_SOCKS_4.equals(proxy.type)) {
+              profile.setPreference("network.proxy.type", 1);
+              profile.setPreference("network.proxy.socks", proxy.ip);
+              profile.setPreference("network.proxy.socks_port", proxy.port);
+              profile.setPreference("network.proxy.socks_remote_dns", true);
+              profile.setPreference("network.proxy.socks_version",
+                  Proxy.TYPE_SOCKS_5.equals(proxy.type) ? 5 : 4);
+            } else if (Proxy.TYPE_SSL.equals(proxy.type)) {
+              profile.setPreference("network.proxy.type", 1);
+              profile.setPreference("network.proxy.ssl", proxy.ip);
+              profile.setPreference("network.proxy.ssl_port", proxy.port);
+            } else if (Proxy.TYPE_HTTP.equals(proxy.type)) {
+              profile.setPreference("network.proxy.type", 1);
+              profile.setPreference("network.proxy.http", proxy.ip);
+              profile.setPreference("network.proxy.http_port", proxy.port);
+            }
           }
         }
-        if (prefs != null) {
-          for (Map.Entry<String, Object> entry : prefs.entrySet()) {
+        if (req.browserPrefs != null) {
+          for (Map.Entry<String, Object> entry : req.browserPrefs.entrySet()) {
             if (entry.getValue() instanceof Integer) {
               profile.setPreference(entry.getKey(), (Integer) entry.getValue());
             } else if (entry.getValue() instanceof Double) {
@@ -166,8 +170,8 @@ public class Scrape {
           }
         }
         driver = new FirefoxDriver(profile);
-        driver.manage().timeouts().pageLoadTimeout(pageLoadTimeout, TimeUnit.SECONDS);
-        driver.manage().timeouts().setScriptTimeout(pageLoadTimeout, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(req.timeout, TimeUnit.SECONDS);
+        driver.manage().timeouts().setScriptTimeout(req.timeout, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         break;
       } catch (Throwable t1) {
@@ -201,7 +205,7 @@ public class Scrape {
     }
   }
 
-  private static void restart(int pageLoadTimeout, Proxy proxy, Map<String, Object> prefs) {
+  private static void restart(Request req) {
     try {
       forceQuit();
     } catch (Throwable t) {
@@ -212,7 +216,7 @@ public class Scrape {
     } catch (Throwable t) {
       Log.exception(t);
     }
-    start(pageLoadTimeout, proxy, prefs);
+    start(req);
   }
 
   private static void push(String mapKey, List results) {
@@ -529,7 +533,7 @@ public class Scrape {
       }
     }
     if (!req.continueSession) {
-      restart(req.timeout, req.proxy, req.browserPrefs);
+      restart(req);
     }
     Log.info("Get URL " + fetch.url + ". Cached: " + fetch.fetchCached, false);
     String resp = "";
@@ -581,7 +585,7 @@ public class Scrape {
       }
     }
     if (!req.continueSession) {
-      restart(req.timeout, req.proxy, req.browserPrefs);
+      restart(req);
     }
     try {
       List<HtmlNode> ret = null;
@@ -589,7 +593,7 @@ public class Scrape {
         ret = QueryForm.load(driver, context, true);
       } catch (Throwable t) {
         if (!req.continueSession) {
-          restart(req.timeout, req.proxy, req.browserPrefs);
+          restart(req);
         }
         ret = QueryForm.load(driver, context, true);
       }
@@ -621,7 +625,7 @@ public class Scrape {
       }
     }
     if (!req.continueSession) {
-      restart(req.timeout, req.proxy, req.browserPrefs);
+      restart(req);
     }
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
@@ -641,7 +645,7 @@ public class Scrape {
         try {
           QueryKeyword.perform(driver, keywordQuery, !recursive);
         } catch (Throwable e) {
-          restart(req.timeout, req.proxy, req.browserPrefs);
+          restart(req);
           QueryKeyword.perform(driver, keywordQuery, !recursive);
         }
       } else {
@@ -649,7 +653,7 @@ public class Scrape {
         try {
           QueryForm.perform(driver, formQuery, !recursive);
         } catch (Throwable e) {
-          restart(req.timeout, req.proxy, req.browserPrefs);
+          restart(req);
           QueryForm.perform(driver, formQuery, !recursive);
         }
       }
@@ -818,7 +822,7 @@ public class Scrape {
     if (!done.compareAndSet(true, false)) {
       return null;
     }
-    restart(PAGE_LOAD_TIMEOUT_SECONDS, new Proxy(), null);
+    restart(new Request());
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
     List<Result> results = new ArrayList<Result>();

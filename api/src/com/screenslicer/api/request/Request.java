@@ -24,15 +24,21 @@
  */
 package com.screenslicer.api.request;
 
+import java.security.SecureRandom;
 import java.util.List;
 import java.util.Map;
 
 import com.google.gson.reflect.TypeToken;
 import com.screenslicer.api.datatype.Proxy;
 import com.screenslicer.common.CommonUtil;
+import com.screenslicer.common.Config;
 import com.screenslicer.common.Random;
 
 public final class Request {
+  private static final SecureRandom rand = new SecureRandom();
+  private static final Proxy[] configProxies = CommonUtil.isEmpty(Config.instance.proxies()) ?
+      null : instances(Config.instance.proxies()).toArray(new Proxy[0]);
+
   public static final Request instance(String json) {
     return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
   }
@@ -65,6 +71,10 @@ public final class Request {
     return CommonUtil.gson.toJson(obj, new TypeToken<List<Request>>() {}.getType());
   }
 
+  private static final Proxy getConfigProxy() {
+    return CommonUtil.isEmpty(configProxies) ? new Proxy() : configProxies[rand.nextInt(configProxies.length)];
+  }
+
   /**
    * IP addresses of ScreenSlicer instances
    */
@@ -77,8 +87,14 @@ public final class Request {
   /**
    * Proxy settings.
    * Defaults to a local tor-socks (socks 5) connection at 9050.
+   * This setting is ignored if Request.proxies is not null/empty.
    */
-  public Proxy proxy = new Proxy();
+  public Proxy proxy = getConfigProxy();
+  /**
+   * Proxy settings. Allows multiple proxies. If proxy types overlap, then one
+   * is pseudo-randomly chosen. Defaults to null.
+   */
+  public Proxy[] proxies;
   /**
    * GUI integration -- specifies a CustomApp ID
    */

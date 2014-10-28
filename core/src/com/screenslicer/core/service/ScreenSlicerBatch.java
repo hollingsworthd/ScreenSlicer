@@ -84,7 +84,7 @@ public class ScreenSlicerBatch implements WebResource {
   @Produces("application/json")
   @Consumes("application/json")
   public static Response isBusy(String reqString) {
-    String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+    String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
     if (reqDecoded != null) {
       try {
         if (Scrape.busy()) {
@@ -103,12 +103,12 @@ public class ScreenSlicerBatch implements WebResource {
   @Produces("application/json")
   @Consumes("application/json")
   public static Response cancelRun(String reqString) {
-    String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+    String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
     if (reqDecoded != null) {
       try {
         Request req = CommonUtil.gson.fromJson(reqDecoded, Request.class);
         cancel(req.runGuid);
-        return Response.ok(Crypto.encode("", CommonUtil.ip())).build();
+        return Response.ok(Crypto.encode("", CommonUtil.myInstance())).build();
       } catch (Throwable t) {
         Log.exception(t);
       }
@@ -121,12 +121,12 @@ public class ScreenSlicerBatch implements WebResource {
   @Produces("application/json")
   @Consumes("application/json")
   public static Response export(String reqString) {
-    String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+    String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
     if (reqDecoded != null) {
       try {
         EmailExport export = CommonUtil.gson.fromJson(reqDecoded, EmailExport.class);
         Email.sendResults(export);
-        return Response.ok(Crypto.encode("", CommonUtil.ip())).build();
+        return Response.ok(Crypto.encode("", CommonUtil.myInstance())).build();
       } catch (Throwable t) {
         Log.exception(t);
       }
@@ -139,14 +139,14 @@ public class ScreenSlicerBatch implements WebResource {
   @Produces("application/json")
   @Consumes("application/json")
   public static Response fetch(String reqString) {
-    String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+    String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
     if (reqDecoded != null) {
       try {
         Fetch fetch = CommonUtil.gson.fromJson(reqDecoded, Fetch.class);
         Request req = CommonUtil.gson.fromJson(reqDecoded, Request.class);
         SearchResult resp = new SearchResult();
         resp.pageHtml = Scrape.get(fetch, req);
-        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(resp), CommonUtil.ip())).build();
+        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(resp), CommonUtil.myInstance())).build();
       } catch (Throwable t) {
         Log.exception(t);
       }
@@ -159,12 +159,12 @@ public class ScreenSlicerBatch implements WebResource {
   @Produces("application/json")
   @Consumes("application/json")
   public static Response loadForm(String reqString) {
-    String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+    String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
     if (reqDecoded != null) {
       try {
         FormLoad load = CommonUtil.gson.fromJson(reqDecoded, FormLoad.class);
         Request req = CommonUtil.gson.fromJson(reqDecoded, Request.class);
-        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Scrape.loadForm(load, req)), CommonUtil.ip())).build();
+        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Scrape.loadForm(load, req)), CommonUtil.myInstance())).build();
       } catch (Throwable t) {
         Log.exception(t);
       }
@@ -177,13 +177,13 @@ public class ScreenSlicerBatch implements WebResource {
   @Produces("application/json")
   @Consumes("application/json")
   public static Response queryForm(String reqString) {
-    String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+    String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
     if (reqDecoded != null) {
       Request req = null;
       try {
         FormQuery query = CommonUtil.gson.fromJson(reqDecoded, FormQuery.class);
         req = CommonUtil.gson.fromJson(reqDecoded, Request.class);
-        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Scrape.scrape(query, req)), CommonUtil.ip())).build();
+        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Scrape.scrape(query, req)), CommonUtil.myInstance())).build();
       } catch (Throwable t) {
         Log.exception(t);
       } finally {
@@ -200,13 +200,13 @@ public class ScreenSlicerBatch implements WebResource {
   @Produces("application/json")
   @Consumes("application/json")
   public static Response queryKeyword(String reqString) {
-    String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+    String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
     if (reqDecoded != null) {
       Request req = null;
       try {
         KeywordQuery query = CommonUtil.gson.fromJson(reqDecoded, KeywordQuery.class);
         req = CommonUtil.gson.fromJson(reqDecoded, Request.class);
-        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Scrape.scrape(query, req)), CommonUtil.ip())).build();
+        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Scrape.scrape(query, req)), CommonUtil.myInstance())).build();
       } catch (Throwable t) {
         Log.exception(t);
       } finally {
@@ -223,11 +223,11 @@ public class ScreenSlicerBatch implements WebResource {
   @Produces("application/json")
   @Consumes("application/json")
   public static Response extractPerson(String reqString) {
-    String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+    String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
     if (reqDecoded != null) {
       try {
         Extract extract = CommonUtil.gson.fromJson(reqDecoded, Extract.class);
-        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Person.extractContact(extract.content)), CommonUtil.ip())).build();
+        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(Person.extractContact(extract.content)), CommonUtil.myInstance())).build();
       } catch (Throwable t) {
         Log.exception(t);
       }

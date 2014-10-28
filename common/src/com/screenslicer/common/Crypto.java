@@ -40,11 +40,9 @@ import com.google.gson.reflect.TypeToken;
 
 public class Crypto {
   private static final Type stringType = new TypeToken<Map<String, String>>() {}.getType();
-  private static String secretA = Config.instance.secretA();
-  private static String secretB = Config.instance.secretB();
-  private static String secretC = Config.instance.secretC();
-  private static String secretD = Config.instance.secretD();
-  private static Map<String, Long> usedTokens = new HashMap<String, Long>();
+  private static final String transitSecret = Config.instance.transitSecret();
+  private static final int storageSecretVersion = Config.instance.storageSecretVersion();
+  private static final Map<String, Long> usedTokens = new HashMap<String, Long>();
   private static final Object lock = new Object();
   private static final long EXPIRE = 10 * 60 * 1000;
 
@@ -96,10 +94,10 @@ public class Crypto {
       return 0;
     }
     try {
-      if (time == null || time.indexOf(secretD) != 0) {
+      if (time == null || time.indexOf(transitSecret) != 0) {
         return 0;
       }
-      long authTime = Long.parseLong(time.substring(secretD.length()));
+      long authTime = Long.parseLong(time.substring(transitSecret.length()));
       if (System.currentTimeMillis() - authTime > EXPIRE) {
         return 0;
       }
@@ -117,7 +115,7 @@ public class Crypto {
       return null;
     }
     try {
-      String newKey = createKey(token, recipient);
+      String newKey = createTransitKey(token, recipient);
       String str = decodeHelper(auth, newKey);
       long time = validateTime(token, str);
       if (time != 0) {
@@ -132,11 +130,11 @@ public class Crypto {
   }
 
   private static String createAuth(String secretKey) {
-    return encodeHelper(secretD + System.currentTimeMillis(), secretKey);
+    return encodeHelper(transitSecret + System.currentTimeMillis(), secretKey);
   }
 
-  private static String createKey(String token, String recipient) {
-    return new String(recipient + secretA + token);
+  private static String createTransitKey(String token, String recipient) {
+    return new String(recipient + transitSecret + token);
   }
 
   public static String encode(String string, String recipient) {
@@ -144,7 +142,7 @@ public class Crypto {
       return null;
     }
     String token = Random.next();
-    String secretKey = createKey(token, recipient);
+    String secretKey = createTransitKey(token, recipient);
     String auth = createAuth(secretKey);
     String message = encodeHelper(string, secretKey);
     return CommonUtil.gson.toJson(asMap("auth", "token", "message", auth, token, message), stringType);
@@ -154,17 +152,28 @@ public class Crypto {
     if (string == null) {
       return null;
     }
-    String secretKey = createKey(secretB, secretC);
-    return "encodedv1:" + encodeHelper(string, secretKey);
+    String token = Random.next();
+    return "encodedv" + storageSecretVersion + ":token~" + token + "~"
+        + encodeHelper(string, Config.instance.storageSecret() + token);
   }
 
   public static String decode(String string) {
     if (CommonUtil.isEmpty(string)) {
       return null;
     }
-    if (string.startsWith("encodedv1:")) {
-      String secretKey = createKey(secretB, secretC);
-      return decodeHelper(string.substring("encodedv1:".length()), secretKey);
+    for (int i = 1; i <= storageSecretVersion; i++) {
+      if (string.startsWith("encodedv" + i + ":")) {
+        String token = "";
+        String message;
+        if (string.startsWith("encodedv" + i + ":token~")) {
+          String[] parts = string.split("~", 3);
+          token = parts[1];
+          message = parts[2];
+        } else {
+          message = string.split(":", 2)[1];
+        }
+        return decodeHelper(message, Config.instance.storageSecret(i) + token);
+      }
     }
     return string;
   }

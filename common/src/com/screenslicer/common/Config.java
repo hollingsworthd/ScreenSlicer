@@ -27,6 +27,8 @@ package com.screenslicer.common;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
@@ -38,12 +40,13 @@ public class Config {
   private final Properties props = new Properties();
   private final String basicAuthUser;
   private final String basicAuthPass;
-  private final String secretA;
-  private final String secretB;
-  private final String secretC;
-  private final String secretD;
+  private final String transitSecret;
+  private final List<String> storageSecrets = new ArrayList<String>();
   private final String mandrillKey;
   private final String mandrillEmail;
+  private final String proxies;
+  private final String instances;
+  private final String myInstance;
   private static final long SLEEP = 1000;
 
   private Config() {
@@ -70,12 +73,40 @@ public class Config {
     IOUtils.closeQuietly(streamIn);
     basicAuthUser = getAndSet("basic_auth_user", Random.next());
     basicAuthPass = getAndSet("basic_auth_pass", Random.next());
-    secretA = getAndSet("secret_a", Random.next());
-    secretB = getAndSet("secret_b", Random.next());
-    secretC = getAndSet("secret_c", Random.next());
-    secretD = getAndSet("secret_d", Random.next());
+    //for backward compatibility with versions <= 1.0.0
+    String secretA = props.getProperty("secret_a");
+    String secretB = props.getProperty("secret_b");
+    String secretC = props.getProperty("secret_c");
+    if (!isEmpty(secretA) && !isEmpty(secretB) && !isEmpty(secretC)) {
+      String storageSecret = secretC + secretA + secretB;
+      props.setProperty("storage_secret_v1", storageSecret);
+      storageSecrets.add(storageSecret);
+      props.remove("secret_a");
+      props.remove("secret_b");
+      props.remove("secret_c");
+      props.remove("secret_d");
+    } else {
+      for (int i = 1; true; i++) {
+        String storageSecret = props.getProperty("storage_secret_v" + i);
+        if (i == 1 && isEmpty(storageSecret)) {
+          storageSecret = Random.next();
+          props.setProperty("storage_secret_v1", storageSecret);
+          storageSecrets.add(storageSecret);
+          break;
+        } else if (!isEmpty(storageSecret)) {
+          props.setProperty("storage_secret_v" + i, storageSecret);
+          storageSecrets.add(storageSecret);
+        } else {
+          break;
+        }
+      }
+    }
+    transitSecret = getAndSet("transit_secret", Random.next());
     mandrillKey = getAndSet("mandrill_key", "");
     mandrillEmail = getAndSet("mandrill_email", "");
+    proxies = getAndSet("proxies", "");
+    instances = getAndSet("instances", "");
+    myInstance = getAndSet("my_instance", "");
     FileOutputStream streamOut = null;
     try {
       streamOut = new FileOutputStream(file);
@@ -85,6 +116,10 @@ public class Config {
     }
     IOUtils.closeQuietly(streamOut);
     FileUtils.deleteQuietly(lock);
+  }
+
+  private static boolean isEmpty(String str) {
+    return str == null || str.trim().isEmpty();
   }
 
   private String getAndSet(String propertyName, String propertyDefaultValue) {
@@ -97,20 +132,20 @@ public class Config {
     Log.info("screenslicer.config: " + new File("screenslicer.config").getAbsolutePath());
   }
 
-  public String secretA() {
-    return secretA;
+  String transitSecret() {
+    return transitSecret;
   }
 
-  public String secretB() {
-    return secretB;
+  int storageSecretVersion() {
+    return storageSecrets.size();
   }
 
-  public String secretC() {
-    return secretC;
+  String storageSecret(int version) {
+    return storageSecrets.get(version - 1);
   }
 
-  public String secretD() {
-    return secretD;
+  String storageSecret() {
+    return storageSecrets.get(storageSecrets.size() - 1);
   }
 
   public String basicAuthUser() {
@@ -129,4 +164,15 @@ public class Config {
     return mandrillEmail;
   }
 
+  public String proxies() {
+    return proxies;
+  }
+
+  public String instances() {
+    return instances;
+  }
+
+  public String myInstance() {
+    return myInstance;
+  }
 }

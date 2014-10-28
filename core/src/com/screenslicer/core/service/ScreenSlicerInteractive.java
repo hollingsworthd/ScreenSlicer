@@ -46,7 +46,7 @@ public class ScreenSlicerInteractive implements WebResource {
   @Produces("application/json")
   @Consumes("application/json")
   public static Response execute(String reqString) {
-    String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+    String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
     if (reqDecoded != null) {
       try {
         Request req = CommonUtil.gson.fromJson(reqDecoded, Request.class);

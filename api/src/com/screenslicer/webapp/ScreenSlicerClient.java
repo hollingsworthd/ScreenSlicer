@@ -82,7 +82,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
   public static final Response result(String reqString) {
     try {
       if (reqString != null) {
-        final String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+        final String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
         if (reqDecoded != null) {
           Request request = CommonUtil.gson.fromJson(reqDecoded, Request.class);
           List<String> resultNames = CommonFile.readLines(new File("./data/" + request.runGuid + "-result-names"));
@@ -90,7 +90,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
             if (request.outputNames[0].equals(resultNames.get(i))) {
               return Response.ok(Crypto.encode(Base64.encodeBase64String(
                   CommonFile.readFileToByteArray(new File("./data/" + request.runGuid + "-result" + i))),
-                  CommonUtil.ip())).build();
+                  CommonUtil.myInstance())).build();
             }
           }
         }
@@ -108,7 +108,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
   public static final Response cancel(String reqString) {
     try {
       if (reqString != null) {
-        final String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+        final String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
         if (reqDecoded != null) {
           Request request = CommonUtil.gson.fromJson(reqDecoded, Request.class);
           synchronized (cancelledLock) {
@@ -118,7 +118,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
           cancel.instances = request.instances;
           cancel.runGuid = request.runGuid;
           ScreenSlicer.cancel(cancel);
-          return Response.ok(Crypto.encode("", CommonUtil.ip())).build();
+          return Response.ok(Crypto.encode("", CommonUtil.myInstance())).build();
         }
       }
     } catch (Exception e) {
@@ -134,13 +134,13 @@ public final class ScreenSlicerClient implements ClientWebResource {
   public static final Response context(String reqString) {
     try {
       if (reqString != null) {
-        final String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+        final String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
         if (reqDecoded != null) {
           Request request = CommonUtil.gson.fromJson(reqDecoded, Request.class);
           File file = new File("./data/" + request.runGuid + "-context");
           if (reqDecoded != null && file.exists()) {
             return Response.ok(Crypto.encode(Crypto.decode(CommonFile.readFileToString(
-                file), CommonUtil.ip()))).build();
+                file), CommonUtil.myInstance()))).build();
           }
         }
       }
@@ -157,7 +157,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
   public static final Response started(String reqString) {
     try {
       if (reqString != null) {
-        final String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+        final String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
         if (reqDecoded != null) {
           Request request = CommonUtil.gson.fromJson(reqDecoded, Request.class);
           Collection<File> files = FileUtils.listFiles(new File("./data"), null, false);
@@ -177,7 +177,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
             resp.put((String) cur.get("runGuid"), cur);
           }
           return Response.ok(Crypto.encode(CommonUtil.gson.toJson(resp, CommonUtil.objectType),
-              CommonUtil.ip())).build();
+              CommonUtil.myInstance())).build();
         }
       }
     } catch (Exception e) {
@@ -193,7 +193,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
   public static final Response finished(String reqString) {
     try {
       if (reqString != null) {
-        final String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+        final String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
         if (reqDecoded != null) {
           Request request = CommonUtil.gson.fromJson(reqDecoded, Request.class);
           Collection<File> files = FileUtils.listFiles(new File("./data"), null, false);
@@ -218,7 +218,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
             resp.put((String) cur.get("runGuid"), cur);
           }
           return Response.ok(Crypto.encode(CommonUtil.gson.toJson(resp, CommonUtil.objectType),
-              CommonUtil.ip())).build();
+              CommonUtil.myInstance())).build();
         }
       }
     } catch (Exception e) {
@@ -234,7 +234,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
   public static final Response configure(String reqString) {
     try {
       if (reqString != null) {
-        final String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+        final String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
         if (reqDecoded != null) {
           final Map<String, Object> args = CommonUtil.gson.fromJson(reqDecoded, CommonUtil.objectType);
           final Request request = CommonUtil.gson.fromJson(reqDecoded, Request.class);
@@ -245,7 +245,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
           Map<String, Object> conf = customApp.configure(request, args);
           if (conf != null) {
             return Response.ok(Crypto.encode(
-                CommonUtil.gson.toJson(conf, CommonUtil.objectType), CommonUtil.ip())).build();
+                CommonUtil.gson.toJson(conf, CommonUtil.objectType), CommonUtil.myInstance())).build();
           }
         }
       }
@@ -270,7 +270,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
   @Produces("application/json")
   public static final Response create(String reqString) {
     if (reqString != null) {
-      final String reqDecoded = Crypto.decode(reqString, CommonUtil.ip());
+      final String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
       if (reqDecoded != null) {
         final Map<String, Object> args = CommonUtil.gson.fromJson(reqDecoded, CommonUtil.objectType);
         final Request request = CommonUtil.gson.fromJson(reqDecoded, Request.class);
@@ -353,8 +353,8 @@ public final class ScreenSlicerClient implements ClientWebResource {
                     }
                   } else if (table.getKey().toLowerCase().endsWith(".xcsv")) {
                     String result = Spreadsheet.csv(table.getValue());
-                    CommonUtil.internalHttpCall(CommonUtil.ip(),
-                        "https://" + CommonUtil.ip() + ":8000/_/"
+                    CommonUtil.internalHttpCall(CommonUtil.myInstance(),
+                        "https://" + CommonUtil.myInstance() + ":8000/_/"
                             + Crypto.fastHash(table.getKey() + ":" + request.runGuid),
                         "PUT", CommonUtil.asMap("Content-Type", "text/csv; charset=utf-8"),
                         result.getBytes("utf-8"), null);
@@ -417,7 +417,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
             }
           }
         }).start();
-        return Response.ok(Crypto.encode(request.runGuid, CommonUtil.ip())).build();
+        return Response.ok(Crypto.encode(request.runGuid, CommonUtil.myInstance())).build();
       }
     }
     return null;
