@@ -1114,7 +1114,6 @@ public class Util {
     }
     boolean clicked = false;
     if (controls != null && controls.length > 0) {
-
       if (body == null) {
         body = Util.openElement(driver, null, null, null);
       }

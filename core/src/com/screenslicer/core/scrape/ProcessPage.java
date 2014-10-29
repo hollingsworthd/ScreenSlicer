@@ -37,8 +37,7 @@ import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import com.screenslicer.api.datatype.HtmlNode;
-import com.screenslicer.api.datatype.UrlTransform;
+import com.screenslicer.api.request.Query;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
@@ -73,18 +72,18 @@ public class ProcessPage {
     try {
       trim(element);
       Map<String, Object> cache = new HashMap<String, Object>();
-      return perform(element, page, true, query, "", true, null, null, cache);
+      return perform(element, page, "", true, null, cache);
     } catch (Exception e) {
       Log.exception(e);
     }
     return null;
   }
 
-  public static List<Result> perform(RemoteWebDriver driver, int page, boolean requireResultAnchor,
-      String query, String[] whitelist, String[] patterns, UrlTransform[] transforms,
-      HtmlNode matchResult, HtmlNode matchParent) throws ActionFailed {
+  public static List<Result> perform(RemoteWebDriver driver, int page, Query query) throws ActionFailed {
     try {
-      Element element = Util.openElement(driver, whitelist, patterns, transforms);
+      Element element = Util.openElement(driver, query.proactiveUrlFiltering ? query.urlWhitelist : null,
+          query.proactiveUrlFiltering ? query.urlPatterns : null,
+          query.proactiveUrlFiltering ? query.urlTransforms : null);
       trim(element);
       if (WebApp.DEBUG) {
         try {
@@ -92,11 +91,9 @@ public class ProcessPage {
         } catch (IOException e) {}
       }
       Map<String, Object> cache = new HashMap<String, Object>();
-      List<Result> results = perform(element, page, requireResultAnchor, query, driver.getCurrentUrl(), true,
-          matchResult, matchParent, cache);
+      List<Result> results = perform(element, page, driver.getCurrentUrl(), true, query, cache);
       if (results == null || results.isEmpty()) {
-        results = perform(element, page, requireResultAnchor, query, driver.getCurrentUrl(), false,
-            matchResult, matchParent, cache);
+        results = perform(element, page, driver.getCurrentUrl(), false, query, cache);
       }
       return results;
     } catch (Throwable t) {
@@ -105,52 +102,31 @@ public class ProcessPage {
     }
   }
 
-  private static List<Result> perform(Element body, int page, boolean requireResultAnchor, String query,
-      String currentUrl, boolean trim, HtmlNode matchResult, HtmlNode matchParent, Map<String, Object> cache) {
-    Results ret1 = perform(body, page, requireResultAnchor, query, Leniency.Title, trim, matchResult, matchParent, cache);
-    Results ret2 = null;
-    Results ret3 = null;
-    if (ret1 == null || ret1.results().isEmpty()) {
-      ret2 = perform(body, page, requireResultAnchor, query, Leniency.None, trim, matchResult, matchParent, cache);
-    } else {
-      return finalizeResults(ret1, currentUrl,
-          body, page, requireResultAnchor, query, Leniency.Title, trim, matchResult, matchParent, cache);
+  private static List<Result> perform(Element body, int page, String currentUrl,
+      boolean trim, Query query, Map<String, Object> cache) {
+    Results ret1 = perform(body, page, Leniency.Title, trim, query, cache);
+    if (ret1 != null && !ret1.results().isEmpty()) {
+      return finalizeResults(ret1, currentUrl, body, page, Leniency.Title, trim, query, cache);
     }
-    if (ret2 == null || ret2.results().isEmpty()) {
-      ret3 = perform(body, page, requireResultAnchor, query, Leniency.Url, trim, matchResult, matchParent, cache);
-    } else {
-      return finalizeResults(ret2, currentUrl,
-          body, page, requireResultAnchor, query, Leniency.None, trim, matchResult, matchParent, cache);
+    Results ret2 = perform(body, page, Leniency.None, trim, query, cache);
+    if (ret2 != null && !ret2.results().isEmpty()) {
+      return finalizeResults(ret2, currentUrl, body, page, Leniency.None, trim, query, cache);
     }
-    if (ret3 == null || ret3.results().isEmpty()) {
-      if (ret1 != null && !ret1.results().isEmpty()) {
-        return finalizeResults(ret1, currentUrl,
-            body, page, requireResultAnchor, query, Leniency.Title, trim, matchResult, matchParent, cache);
-      }
-      if (ret2 != null && !ret2.results().isEmpty()) {
-        return finalizeResults(ret2, currentUrl,
-            body, page, requireResultAnchor, query, Leniency.None, trim, matchResult, matchParent, cache);
-      }
-      if (ret3 != null && !ret3.results().isEmpty()) {
-        return finalizeResults(ret3, currentUrl,
-            body, page, requireResultAnchor, query, Leniency.Url, trim, matchResult, matchParent, cache);
-      }
-    } else {
-      return finalizeResults(ret3, currentUrl,
-          body, page, requireResultAnchor, query, Leniency.Url, trim, matchResult, matchParent, cache);
+    Results ret3 = perform(body, page, Leniency.Url, trim, query, cache);
+    if (ret3 != null && !ret3.results().isEmpty()) {
+      return finalizeResults(ret3, currentUrl, body, page, Leniency.Url, trim, query, cache);
     }
-    return finalizeResults(ret1, currentUrl,
-        body, page, requireResultAnchor, query, Leniency.Title, trim, matchResult, matchParent, cache);
+    return finalizeResults(ret1, currentUrl, body, page, Leniency.Title, trim, query, cache);
   }
 
   private static List<Result> finalizeResults(Results results, String currentUrl,
-      Element body, int page, boolean requireResultAnchor, String query, Leniency leniency,
-      boolean trim, HtmlNode matchResult, HtmlNode matchParent, Map<String, Object> cache) {
+      Element body, int page, Leniency leniency,
+      boolean trim, Query query, Map<String, Object> cache) {
     if (WebApp.DEBUG) {
       System.out.println("Returning: (leniency) " + leniency.name());
     }
     if (trim && !results.results().isEmpty()) {
-      Results untrimmed = perform(body, page, requireResultAnchor, query, leniency, false, matchResult, matchParent, cache);
+      Results untrimmed = perform(body, page, leniency, false, query, cache);
       int trimmedScore = results.fieldScore(true, false);
       int untrimmedScore = untrimmed.fieldScore(true, false);
       if (untrimmedScore > (int) Math.rint(((double) trimmedScore) * 1.05d)) {
@@ -166,8 +142,8 @@ public class ProcessPage {
     return Util.fixUrls(results.results(), currentUrl);
   }
 
-  private static Results perform(Element body, int page, boolean requireResultAnchor, String query,
-      Leniency leniency, boolean trim, HtmlNode matchResult, HtmlNode matchParent, Map<String, Object> cache) {
+  private static Results perform(Element body, int page,
+      Leniency leniency, boolean trim, Query query, Map<String, Object> cache) {
     if (WebApp.DEBUG) {
       System.out.println("-Perform-> " + "leniency=" + leniency.name() + "; trim=" + trim);
     }
@@ -182,7 +158,7 @@ public class ProcessPage {
       nodes = new ArrayList<Node>();
       cache.put("extractedNodes", nodes);
       for (int i = 0; i < NUM_EXTRACTIONS;) {
-        List<Node> best = Extract.perform(body, page, ignore, matchResult, matchParent, extractCache);
+        List<Node> best = Extract.perform(body, page, ignore, query.matchResult, query.matchParent, extractCache);
         if (best.isEmpty()) {
           break;
         }
@@ -197,7 +173,7 @@ public class ProcessPage {
     }
     int pos = 0;
     for (Node node : nodes) {
-      Results curResults = createResults(body, page, node, requireResultAnchor, pos++, leniency, query, trim, matchResult, matchParent, cache);
+      Results curResults = createResults(body, page, node, pos++, leniency, trim, query, cache);
       results.add(curResults);
       scores.add(curResults.fieldScore(false, trim));
     }
@@ -216,9 +192,9 @@ public class ProcessPage {
     return Results.resultsNull;
   }
 
-  private static Results createResults(Element body, int page, Node nodeExtract, boolean requireResultAnchor,
-      int pos, Results.Leniency leniency, String query, boolean trim,
-      HtmlNode matchResult, HtmlNode matchParent, Map<String, Object> cache) {
+  private static Results createResults(Element body, int page, Node nodeExtract,
+      int pos, Results.Leniency leniency, boolean trim,
+      Query query, Map<String, Object> cache) {
     if (nodeExtract == null) {
       return Results.resultsNull;
     }
@@ -226,8 +202,8 @@ public class ProcessPage {
       if (!cache.containsKey("createResults")) {
         cache.put("createResults", new HashMap<String, Object>());
       }
-      return new Results(body, page, nodeExtract, requireResultAnchor, pos, leniency, query, trim,
-          matchResult, matchParent, (Map<String, Object>) cache.get("createResults"));
+      return new Results(body, page, nodeExtract, pos, leniency, trim, query,
+          (Map<String, Object>) cache.get("createResults"));
     } catch (Exception e) {
       Log.exception(e);
     }

@@ -28,12 +28,9 @@ import java.util.List;
 import java.util.Map;
 
 import com.google.gson.reflect.TypeToken;
-import com.screenslicer.api.datatype.Credentials;
-import com.screenslicer.api.datatype.HtmlNode;
-import com.screenslicer.api.datatype.UrlTransform;
 import com.screenslicer.common.CommonUtil;
 
-public final class KeywordQuery {
+public final class KeywordQuery extends Query {
   public static final KeywordQuery instance(String json) {
     return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
   }
@@ -67,99 +64,17 @@ public final class KeywordQuery {
   }
 
   /**
-   * URL of search page
-   */
-  public String site;
-  /**
    * Text to enter into search box
    */
   public String keywords;
-  /**
-   * Substrings that URLs of results must contain
-   */
-  public String[] urlWhitelist;
-  /**
-   * Regular expressions that URLs of results must match
-   */
-  public String[] urlPatterns;
-  /**
-   * Whether to apply the urlWhitelist and urlPatterns before analyzing
-   * the page to extract results. This generally produces a more accurate
-   * extraction.
-   */
-  public boolean proactiveUrlFiltering;
-  /**
-   * Converts result URLs to another format, based on regular expressions.
-   */
-  public UrlTransform[] urlTransforms;
-  /**
-   * Maximum number of search pages to extract, unless the
-   * results maximum has already been reached.
-   * Defaults to 1. Set to 0 or less to disable this maximum.
-   */
-  public int pages = 1;
-  /**
-   * Maximum number of results to extract, unless the
-   * pages maximum has already been reached.
-   * Defaults to 0. Set to 0 or less to disable this maximum.
-   */
-  public int results = 0;
-  /**
-   * Whether to get the content at each result URL
-   */
-  public boolean fetch;
-  /**
-   * Whether to visit the result URL directly or try a public web cache
-   */
-  public boolean fetchCached;
-  /**
-   * Whether to extract results or just return all the HTML
-   */
-  public boolean extract = true;
-  /**
-   * Override to specify a particular type of node that's a parent of result
-   * nodes to extract.
-   */
-  public HtmlNode matchParent;
-  /**
-   * Override to specify a particular type of node that's a result node to
-   * extract.
-   */
-  public HtmlNode matchResult;
-  /**
-   * Whether results must have anchors
-   */
-  public boolean requireResultAnchor = true;
-  /**
-   * Click to submit search.
-   */
-  public HtmlNode searchSubmitClick;
-  /**
-   * Clicks on HTML elements prior to authentication
-   */
-  public HtmlNode[] preAuthClicks;
-  /**
-   * Clicks on HTML elements prior to searching
-   */
-  public HtmlNode[] preSearchClicks;
-  /**
-   * Clicks on HTML elements after searching
-   */
-  public HtmlNode[] postSearchClicks;
-  /**
-   * Clicks on HTML elements at a result page after fetching it
-   */
-  public HtmlNode[] postFetchClicks;
-  /**
-   * Credentials for authentication
-   */
-  public Credentials credentials;
-  /**
-   * KeywordQuery to perform at each fetched result.
-   */
-  public KeywordQuery keywordQuery;
-  /**
-   * FormQuery to perform at each fetched result.
-   */
-  public FormQuery formQuery;
+
+  @Override
+  public boolean isKeywordQuery() {
+    return true;
+  }
+
+  @Override
+  public boolean isFormQuery() {
+    return false;
+  }
 }

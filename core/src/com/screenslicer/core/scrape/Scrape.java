@@ -50,6 +50,7 @@ import com.screenslicer.api.request.Fetch;
 import com.screenslicer.api.request.FormLoad;
 import com.screenslicer.api.request.FormQuery;
 import com.screenslicer.api.request.KeywordQuery;
+import com.screenslicer.api.request.Query;
 import com.screenslicer.api.request.Request;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Crypto;
@@ -294,35 +295,35 @@ public class Scrape {
     return "http://" + urlLhs + ".nyud.net:8080/" + urlRhs;
   }
 
-  private static void fetch(List<Result> results, RemoteWebDriver driver, boolean requireResultAnchor,
-      boolean cached, String runGuid, HtmlNode[] clicks, KeywordQuery keywordQuery,
-      FormQuery formQuery, Request request, List<SearchResult> recResults, boolean cleanupWindows) throws ActionFailed {
+  private static void fetch(RemoteWebDriver driver, Request req, Query query, List<Result> results,
+      boolean cleanupWindows, List<SearchResult> recResults) throws ActionFailed {
     try {
       String origHandle = driver.getWindowHandle();
       String origUrl = driver.getCurrentUrl();
       String newHandle = null;
-      if (cached) {
+      if (query.fetchCached) {
         newHandle = Util.newWindow(driver, cleanupWindows);
       }
       try {
         for (Result result : results) {
-          if (requireResultAnchor && !isUrlValid(result.url()) && Util.uriScheme.matcher(result.url()).matches()) {
+          if (query.requireResultAnchor && !isUrlValid(result.url())
+              && Util.uriScheme.matcher(result.url()).matches()) {
             continue;
           }
-          if (ScreenSlicerBatch.isCancelled(runGuid)) {
+          if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
             return;
           }
           try {
-            Log.info("Fetching URL " + result.url() + ". Cached: " + cached, false);
+            Log.info("Fetching URL " + result.url() + ". Cached: " + query.fetchCached, false);
           } catch (Throwable t) {
             Log.exception(t);
           }
           try {
-            result.attach(getHelper(driver, result.urlNode(), result.url(), cached, runGuid,
-                clicks, cleanupWindows && keywordQuery == null && formQuery == null));
-            if (keywordQuery != null || formQuery != null) {
-              request.continueSession = true;
-              recResults.addAll(scrape(keywordQuery, formQuery, request, true));
+            result.attach(getHelper(driver, result.urlNode(), result.url(), query.fetchCached,
+                req.runGuid, cleanupWindows && query == null, query == null ? null : query.postFetchClicks));
+            if (query != null) {
+              req.continueSession = true;
+              recResults.addAll(scrape(query, req, true));
             }
 
           } catch (Throwable t) {
@@ -341,7 +342,7 @@ public class Scrape {
       } catch (Throwable t) {
         Log.exception(t);
       } finally {
-        if (cached && origHandle.equals(newHandle)) {
+        if (query.fetchCached && origHandle.equals(newHandle)) {
           Log.exception(new Throwable("Failed opening new window"));
           Util.get(driver, origUrl, true, cleanupWindows);
         } else {
@@ -357,7 +358,8 @@ public class Scrape {
   }
 
   private static String getHelper(final RemoteWebDriver driver, final Node urlNode,
-      final String url, final boolean p_cached, final String runGuid, final HtmlNode[] clicks, final boolean cleanupWindows) {
+      final String url, final boolean p_cached, final String runGuid,
+      final boolean cleanupWindows, final HtmlNode[] postFetchClicks) {
     final String urlHash = CommonUtil.isEmpty(url) ? null : Crypto.fastHash(url);
     final long time = System.currentTimeMillis();
     if (urlHash != null) {
@@ -407,7 +409,7 @@ public class Scrape {
               if (urlNode != null) {
                 newHandle = driver.getWindowHandle();
               }
-              Util.doClicks(driver, clicks, null);
+              Util.doClicks(driver, postFetchClicks, null);
               content = driver.getPageSource();
               if (CommonUtil.isEmpty(content)) {
                 cached = true;
@@ -538,7 +540,7 @@ public class Scrape {
     Log.info("Get URL " + fetch.url + ". Cached: " + fetch.fetchCached, false);
     String resp = "";
     try {
-      resp = getHelper(driver, null, fetch.url, fetch.fetchCached, null, fetch.postFetchClicks, true);
+      resp = getHelper(driver, null, fetch.url, fetch.fetchCached, req.runGuid, true, fetch.postFetchClicks);
     } catch (Throwable t) {
       Log.exception(t);
     } finally {
@@ -604,15 +606,37 @@ public class Scrape {
     }
   }
 
-  public static List<SearchResult> scrape(FormQuery formQuery, Request req) {
-    return scrape(null, formQuery, req, false);
+  private static void handlePage(Request req, Query query, int page, boolean recursive,
+      List<Result> results, List<SearchResult> recResults, List<String> resultPages) throws ActionFailed {
+    if (query.extract) {
+      List<Result> newResults = ProcessPage.perform(driver, page, query);
+      newResults = filterResults(newResults, query.urlWhitelist, query.urlPatterns, query.urlTransforms, false);
+      if (query.results > 0 && results.size() + newResults.size() > query.results) {
+        int remove = results.size() + newResults.size() - query.results;
+        for (int i = 0; i < remove && !newResults.isEmpty(); i++) {
+          newResults.remove(newResults.size() - 1);
+        }
+      }
+      if (query.fetch) {
+        fetch(driver, req, query, newResults, !recursive, recResults);
+        results.addAll(newResults);
+        if (query.results > 0 && recResults.size() > query.results) {
+          int remove = recResults.size() - query.results;
+          for (int j = 0; j < remove && !recResults.isEmpty(); j++) {
+            recResults.remove(recResults.size() - 1);
+          }
+        }
+      }
+    } else {
+      resultPages.add(Util.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
+    }
   }
 
-  public static List<SearchResult> scrape(KeywordQuery keywordQuery, Request req) {
-    return scrape(keywordQuery, null, req, false);
+  public static List<SearchResult> scrape(Query query, Request req) {
+    return scrape(query, req, false);
   }
 
-  private static List<SearchResult> scrape(KeywordQuery keywordQuery, FormQuery formQuery, Request req, boolean recursive) {
+  private static List<SearchResult> scrape(Query query, Request req, boolean recursive) {
     if (!recursive) {
       long myThread = latestThread.incrementAndGet();
       while (myThread != curThread.get() + 1
@@ -631,150 +655,51 @@ public class Scrape {
     Util.clearOuterHtmlCache();
     List<Result> results = new ArrayList<Result>();
     List<SearchResult> recResults = new ArrayList<SearchResult>();
-    UrlTransform[] urlTransforms = null;
-    String[] urlWhitelist = null;
-    String[] urlPatterns = null;
-    boolean extract = true;
     List<String> resultPages = new ArrayList<String>();
     try {
       if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
         throw new Exception("Cancellation was requested");
       }
-      if (formQuery == null) {
-        Log.info("KewordQuery for URL " + keywordQuery.site + ". Query: " + keywordQuery.keywords, false);
+      if (query.isFormQuery()) {
+        Log.info("FormQuery for URL " + query.site, false);
         try {
-          QueryKeyword.perform(driver, keywordQuery, !recursive);
+          QueryForm.perform(driver, (FormQuery) query, !recursive);
         } catch (Throwable e) {
           restart(req);
-          QueryKeyword.perform(driver, keywordQuery, !recursive);
+          QueryForm.perform(driver, (FormQuery) query, !recursive);
         }
       } else {
-        Log.info("FormQuery for URL " + formQuery.site, false);
+        Log.info("KewordQuery for URL " + query.site + ". Query: " + ((KeywordQuery) query).keywords, false);
         try {
-          QueryForm.perform(driver, formQuery, !recursive);
+          QueryKeyword.perform(driver, (KeywordQuery) query, !recursive);
         } catch (Throwable e) {
           restart(req);
-          QueryForm.perform(driver, formQuery, !recursive);
+          QueryKeyword.perform(driver, (KeywordQuery) query, !recursive);
         }
-      }
-      boolean fetch;
-      boolean fetchCached;
-      int pages;
-      int numResults;
-      String keywords;
-      HtmlNode[] postFetchClicks;
-      boolean preFilter;
-      HtmlNode matchResult = null;
-      HtmlNode matchParent = null;
-      boolean requireResultAnchor;
-      KeywordQuery recKeywordQuery;
-      FormQuery recFormQuery;
-      if (keywordQuery == null) {
-        fetch = formQuery.fetch;
-        fetchCached = formQuery.fetchCached;
-        pages = formQuery.pages;
-        numResults = formQuery.results;
-        urlTransforms = formQuery.urlTransforms;
-        keywords = null;
-        urlWhitelist = formQuery.urlWhitelist;
-        urlPatterns = formQuery.urlPatterns;
-        postFetchClicks = formQuery.postFetchClicks;
-        preFilter = formQuery.proactiveUrlFiltering;
-        extract = formQuery.extract;
-        matchResult = formQuery.matchResult;
-        matchParent = formQuery.matchParent;
-        requireResultAnchor = formQuery.requireResultAnchor;
-        recKeywordQuery = formQuery.keywordQuery;
-        recFormQuery = formQuery.formQuery;
-      } else {
-        fetch = keywordQuery.fetch;
-        fetchCached = keywordQuery.fetchCached;
-        pages = keywordQuery.pages;
-        numResults = keywordQuery.results;
-        urlTransforms = keywordQuery.urlTransforms;
-        keywords = keywordQuery.keywords;
-        urlWhitelist = keywordQuery.urlWhitelist;
-        urlPatterns = keywordQuery.urlPatterns;
-        postFetchClicks = keywordQuery.postFetchClicks;
-        preFilter = keywordQuery.proactiveUrlFiltering;
-        extract = keywordQuery.extract;
-        matchResult = keywordQuery.matchResult;
-        matchParent = keywordQuery.matchParent;
-        requireResultAnchor = keywordQuery.requireResultAnchor;
-        recKeywordQuery = keywordQuery.keywordQuery;
-        recFormQuery = keywordQuery.formQuery;
       }
       if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
         throw new Exception("Cancellation was requested");
       }
-      if (extract) {
-        List<Result> newResults = ProcessPage.perform(driver, 1, requireResultAnchor, keywords,
-            preFilter ? urlWhitelist : null, preFilter ? urlPatterns : null, preFilter ? urlTransforms : null,
-            matchResult, matchParent);
-        newResults = filterResults(newResults, urlWhitelist, urlPatterns, urlTransforms, false);
-        if (numResults > 0 && results.size() + newResults.size() > numResults) {
-          int remove = results.size() + newResults.size() - numResults;
-          for (int i = 0; i < remove && !newResults.isEmpty(); i++) {
-            newResults.remove(newResults.size() - 1);
-          }
-        }
-        if (fetch) {
-          fetch(newResults, driver, requireResultAnchor, fetchCached, req.runGuid, postFetchClicks,
-              recKeywordQuery, recFormQuery, req, recResults, !recursive);
-        }
-        results.addAll(newResults);
-        if (numResults > 0 && recResults.size() > numResults) {
-          int remove = recResults.size() - numResults;
-          for (int j = 0; j < remove && !recResults.isEmpty(); j++) {
-            recResults.remove(recResults.size() - 1);
-          }
-        }
-      } else {
-        resultPages.add(Util.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
-      }
+      handlePage(req, query, 1, recursive, results, recResults, resultPages);
       String priorProceedLabel = null;
-      for (int i = 2; (i <= pages || pages <= 0)
-          && (results.size() < numResults || numResults <= 0)
-          && (recResults.size() < numResults || numResults <= 0); i++) {
+      for (int page = 2; (page <= query.pages || query.pages <= 0)
+          && (results.size() < query.results || query.results <= 0)
+          && (recResults.size() < query.results || query.results <= 0); page++) {
         if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
           throw new Exception("Cancellation was requested");
         }
-        if (!fetch) {
+        if (!query.fetch) {
           try {
             Util.driverSleepRandLong();
           } catch (Throwable t) {
             Log.exception(t);
           }
         }
-        priorProceedLabel = Proceed.perform(driver, i, priorProceedLabel);
+        priorProceedLabel = Proceed.perform(driver, page, priorProceedLabel);
         if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
           throw new Exception("Cancellation was requested");
         }
-        if (extract) {
-          List<Result> newResults = ProcessPage.perform(driver, i, requireResultAnchor, keywords,
-              preFilter ? urlWhitelist : null, preFilter ? urlPatterns : null, preFilter ? urlTransforms : null,
-              matchResult, matchParent);
-          newResults = filterResults(newResults, urlWhitelist, urlPatterns, urlTransforms, false);
-          if (numResults > 0 && results.size() + newResults.size() > numResults) {
-            int remove = results.size() + newResults.size() - numResults;
-            for (int j = 0; j < remove && !newResults.isEmpty(); j++) {
-              newResults.remove(newResults.size() - 1);
-            }
-          }
-          if (fetch) {
-            fetch(newResults, driver, requireResultAnchor, fetchCached, req.runGuid, postFetchClicks,
-                recKeywordQuery, recFormQuery, req, recResults, !recursive);
-            if (numResults > 0 && recResults.size() > numResults) {
-              int remove = recResults.size() - numResults;
-              for (int j = 0; j < remove && !recResults.isEmpty(); j++) {
-                recResults.remove(recResults.size() - 1);
-              }
-            }
-          }
-          results.addAll(newResults);
-        } else {
-          resultPages.add(Util.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
-        }
+        handlePage(req, query, page, recursive, results, recResults, resultPages);
       }
     } catch (End e) {
       Log.info("Reached end of results", false);
@@ -786,11 +711,11 @@ public class Scrape {
         done.set(true);
       }
     }
-    if (extract) {
+    if (query.extract) {
       if (recResults.isEmpty()) {
         List<SearchResult> extractedResults = new ArrayList<SearchResult>();
         if (results != null) {
-          results = filterResults(results, urlWhitelist, urlPatterns, urlTransforms, true);
+          results = filterResults(results, query.urlWhitelist, query.urlPatterns, query.urlTransforms, true);
           for (Result result : results) {
             Util.clean(result.getNodes());
             SearchResult r = new SearchResult();
@@ -839,6 +764,7 @@ public class Scrape {
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
     List<Result> results = new ArrayList<Result>();
+    final KeywordQuery keywordQuery = new KeywordQuery();
     try {
       synchronized (progressLock) {
         progress1Key = mapKey1;
@@ -847,14 +773,13 @@ public class Scrape {
         progress2 = "Page 2 progress: waiting for prior page extraction to finish...";
       }
       push(mapKey1, null);
-      KeywordQuery keywordQuery = new KeywordQuery();
       keywordQuery.site = url;
       keywordQuery.keywords = query;
       QueryKeyword.perform(driver, keywordQuery, true);
       synchronized (progressLock) {
         progress1 = "Page 1 progress: extracting results...";
       }
-      results.addAll(ProcessPage.perform(driver, 1, true, query, null, null, null, null, null));
+      results.addAll(ProcessPage.perform(driver, 1, keywordQuery));
       synchronized (progressLock) {
         progress1 = "";
       }
@@ -892,7 +817,7 @@ public class Scrape {
           synchronized (progressLock) {
             progress2 = "Page 2 progress: extracting results...";
           }
-          next.addAll(ProcessPage.perform(driver, 2, true, query, null, null, null, null, null));
+          next.addAll(ProcessPage.perform(driver, 2, keywordQuery));
         } catch (End e) {
           Log.info("Reached end of results", false);
         } catch (Throwable t) {

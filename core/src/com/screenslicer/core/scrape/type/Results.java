@@ -35,7 +35,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 
-import com.screenslicer.api.datatype.HtmlNode;
+import com.screenslicer.api.request.KeywordQuery;
+import com.screenslicer.api.request.Query;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.nlp.NlpUtil;
 import com.screenslicer.core.scrape.Dissect;
@@ -72,8 +73,8 @@ public class Results {
     this.position = -1;
   }
 
-  public Results(Element body, int page, Node nodeExtract, boolean requireResultAnchor, int position, Leniency leniency,
-      String query, boolean trim, HtmlNode matchResult, HtmlNode matchParent, Map<String, Object> cache) {
+  public Results(Element body, int page, Node nodeExtract, int position, Leniency leniency,
+      boolean trim, Query query, Map<String, Object> cache) {
     this.position = position;
     List<Node> nextNodes;
     if (cache.containsKey("nextNodes")) {
@@ -111,17 +112,17 @@ public class Results {
     }
     this.nodeExtract = nodeExtract;
     if (leniency == Leniency.Url) {
-      this.results = Dissect.perform(body, nodeExtract, requireResultAnchor, nodes, true,
-          false, trim, matchResult, matchParent, cache);
+      this.results = Dissect.perform(body, nodeExtract, query.requireResultAnchor, nodes, true,
+          false, trim, query.matchResult, query.matchParent, cache);
     } else if (leniency == Leniency.Title) {
-      this.results = Dissect.perform(body, nodeExtract, requireResultAnchor, nodes, false,
-          true, trim, matchResult, matchParent, cache);
+      this.results = Dissect.perform(body, nodeExtract, query.requireResultAnchor, nodes, false,
+          true, trim, query.matchResult, query.matchParent, cache);
     } else {
-      this.results = Dissect.perform(body, nodeExtract, requireResultAnchor, nodes, false,
-          false, trim, matchResult, matchParent, cache);
+      this.results = Dissect.perform(body, nodeExtract, query.requireResultAnchor, nodes, false,
+          false, trim, query.matchResult, query.matchParent, cache);
     }
     update(nextNodes);
-    this.query = query;
+    this.query = query.isKeywordQuery() ? ((KeywordQuery) query).keywords : null;
     this.isNull = false;
 
     Map<Node, Double> nextDistCache = cache.containsKey("nextDistCache")
