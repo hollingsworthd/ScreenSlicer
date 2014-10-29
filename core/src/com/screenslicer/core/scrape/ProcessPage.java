@@ -68,11 +68,11 @@ public class ProcessPage {
     }
   }
 
-  public static List<Result> perform(Element element, int page, String query) {
+  public static List<Result> perform(Element element, int page, Query query) {
     try {
       trim(element);
       Map<String, Object> cache = new HashMap<String, Object>();
-      return perform(element, page, "", true, null, cache);
+      return perform(element, page, "", true, query, cache);
     } catch (Exception e) {
       Log.exception(e);
     }

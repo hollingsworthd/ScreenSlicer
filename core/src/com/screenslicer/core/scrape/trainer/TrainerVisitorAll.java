@@ -35,6 +35,7 @@ import org.apache.commons.io.FileUtils;
 import org.jsoup.helper.DataUtil;
 import org.jsoup.nodes.Element;
 
+import com.screenslicer.api.request.KeywordQuery;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.ProcessPage;
 import com.screenslicer.core.scrape.trainer.TrainerSimple.Visitor;
@@ -46,9 +47,11 @@ public class TrainerVisitorAll implements Visitor {
   private final ArrayList<Integer> nums = new ArrayList<Integer>();
   private String[] names;
   private static final boolean BUMP_ONLY = false;
+  private KeywordQuery query = new KeywordQuery();
 
   @Override
   public void init() {
+    query.keywords = "united states usa us scotland kobe amazon ibm family arroyo reds beanie kimono pants";
     final ArrayList<String> filenames = new ArrayList<String>();
     final List<String> bump = Arrays.asList(new String[] {
         });
@@ -97,7 +100,7 @@ public class TrainerVisitorAll implements Visitor {
   public int visit(int curTrainingData, int page) {
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
-    List<Result> processedResults = ProcessPage.perform(elements.get(curTrainingData), page, "united states usa us scotland kobe amazon ibm family arroyo reds beanie kimono pants");
+    List<Result> processedResults = ProcessPage.perform(elements.get(curTrainingData), page, query);
     if (processedResults == null) {
       System.out.println(">>>>>>>>>>  error - " + names[curTrainingData]);
       System.out.println("=====================================================================");
