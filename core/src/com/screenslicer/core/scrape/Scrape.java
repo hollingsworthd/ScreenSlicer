@@ -723,12 +723,19 @@ public class Scrape {
               recKeywordQuery, recFormQuery, req, recResults, !recursive);
         }
         results.addAll(newResults);
+        if (numResults > 0 && recResults.size() > numResults) {
+          int remove = recResults.size() - numResults;
+          for (int j = 0; j < remove && !recResults.isEmpty(); j++) {
+            recResults.remove(recResults.size() - 1);
+          }
+        }
       } else {
         resultPages.add(Util.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
       }
       String priorProceedLabel = null;
       for (int i = 2; (i <= pages || pages <= 0)
-          && (results.size() < numResults || numResults <= 0); i++) {
+          && (results.size() < numResults || numResults <= 0)
+          && (recResults.size() < numResults || numResults <= 0); i++) {
         if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
           throw new Exception("Cancellation was requested");
         }
@@ -757,6 +764,12 @@ public class Scrape {
           if (fetch) {
             fetch(newResults, driver, requireResultAnchor, fetchCached, req.runGuid, postFetchClicks,
                 recKeywordQuery, recFormQuery, req, recResults, !recursive);
+            if (numResults > 0 && recResults.size() > numResults) {
+              int remove = recResults.size() - numResults;
+              for (int j = 0; j < remove && !recResults.isEmpty(); j++) {
+                recResults.remove(recResults.size() - 1);
+              }
+            }
           }
           results.addAll(newResults);
         } else {
