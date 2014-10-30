@@ -272,8 +272,8 @@ public class CommonUtil {
     return max;
   }
 
-  public static Document parse(String string, boolean ascii) {
-    Document doc = Jsoup.parse(string);
+  public static Document parse(String string, String url, boolean ascii) {
+    Document doc = Jsoup.parse(string, url);
     sanitize(doc, ascii);
     return doc;
   }

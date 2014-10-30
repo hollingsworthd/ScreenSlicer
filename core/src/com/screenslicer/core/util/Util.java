@@ -24,8 +24,6 @@
  */
 package com.screenslicer.core.util;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URL;
 import java.security.SecureRandom;
@@ -46,7 +44,6 @@ import org.apache.commons.logging.LogFactory;
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.utils.URLEncodedUtils;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Attribute;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -58,32 +55,13 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.w3c.css.sac.CSSException;
-import org.w3c.css.sac.CSSParseException;
-import org.w3c.css.sac.ErrorHandler;
 
-import com.gargoylesoftware.htmlunit.AlertHandler;
-import com.gargoylesoftware.htmlunit.ConfirmHandler;
-import com.gargoylesoftware.htmlunit.IncorrectnessListener;
-import com.gargoylesoftware.htmlunit.OnbeforeunloadHandler;
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.RefreshHandler;
-import com.gargoylesoftware.htmlunit.ScriptException;
-import com.gargoylesoftware.htmlunit.StatusHandler;
-import com.gargoylesoftware.htmlunit.StringWebResponse;
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.html.HTMLParser;
-import com.gargoylesoftware.htmlunit.html.HTMLParserListener;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
-import com.gargoylesoftware.htmlunit.javascript.JavaScriptErrorListener;
-import com.ibm.icu.text.CharsetDetector;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.datatype.UrlTransform;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
 import com.screenslicer.core.scrape.type.Result;
-import com.screenslicer.core.scrape.type.ScriptEngine;
 import com.screenslicer.core.service.HttpStatus;
 import com.screenslicer.webapp.WebApp;
 
@@ -358,21 +336,6 @@ public class Util {
     }
   }
 
-  public static String charset(String text) {
-    String charset = null;
-    try {
-      CharsetDetector cd = new CharsetDetector();
-      cd.enableInputFilter(true);
-      cd.setText(text.getBytes("utf-8"));
-      charset = cd.detect().getName();
-    } catch (Throwable t) {
-      charset = null;
-      Log.exception(t);
-    }
-    charset = charset == null ? "utf-8" : charset;
-    return charset;
-  }
-
   public static void driverSleepRandLong() {
     try {
       int cur = RAND_MAX_WAIT_MS;
@@ -437,81 +400,6 @@ public class Util {
       }
     }
     return count;
-  }
-
-  public static WebClient newWebClient() {
-    WebClient webClient = new WebClient();
-    webClient.setJavaScriptEngine(new ScriptEngine(webClient));
-    webClient.getOptions().setJavaScriptEnabled(false);
-    webClient.getOptions().setRedirectEnabled(true);
-    webClient.getOptions().setUseInsecureSSL(true);
-    webClient.getOptions().setCssEnabled(false);
-    webClient.getOptions().setThrowExceptionOnScriptError(false);
-    webClient.getOptions().setThrowExceptionOnFailingStatusCode(false);
-    webClient.setJavaScriptTimeout(1);
-    webClient.getOptions().setActiveXNative(false);
-    webClient.getOptions().setAppletEnabled(false);
-    webClient.getOptions().setGeolocationEnabled(false);
-    webClient.getOptions().setPopupBlockerEnabled(true);
-    webClient.setRefreshHandler(new RefreshHandler() {
-      @Override
-      public void handleRefresh(Page page, URL url, int seconds) throws IOException {}
-    });
-    webClient.setAlertHandler(new AlertHandler() {
-      @Override
-      public void handleAlert(Page page, String message) {}
-    });
-    webClient.setConfirmHandler(new ConfirmHandler() {
-      @Override
-      public boolean handleConfirm(Page page, String message) {
-        return true;
-      }
-    });
-    webClient.setStatusHandler(new StatusHandler() {
-      @Override
-      public void statusMessageChanged(Page page, String message) {}
-    });
-    webClient.setOnbeforeunloadHandler(new OnbeforeunloadHandler() {
-      @Override
-      public boolean handleEvent(Page page, String returnValue) {
-        return true;
-      }
-    });
-    webClient.setCssErrorHandler(new ErrorHandler() {
-      @Override
-      public void error(CSSParseException arg0) throws CSSException {}
-
-      @Override
-      public void fatalError(CSSParseException arg0) throws CSSException {}
-
-      @Override
-      public void warning(CSSParseException arg0) throws CSSException {}
-    });
-    webClient.setIncorrectnessListener(new IncorrectnessListener() {
-      @Override
-      public void notify(String message, Object origin) {}
-    });
-    webClient.setJavaScriptErrorListener(new JavaScriptErrorListener() {
-      @Override
-      public void timeoutError(HtmlPage arg0, long arg1, long arg2) {}
-
-      @Override
-      public void scriptException(HtmlPage arg0, ScriptException arg1) {}
-
-      @Override
-      public void malformedScriptURL(HtmlPage arg0, String arg1, MalformedURLException arg2) {}
-
-      @Override
-      public void loadScriptError(HtmlPage arg0, URL arg1, Exception arg2) {}
-    });
-    webClient.setHTMLParserListener(new HTMLParserListener() {
-      @Override
-      public void warning(String message, URL url, String html, int line, int column, String key) {}
-
-      @Override
-      public void error(String message, URL url, String html, int line, int column, String key) {}
-    });
-    return webClient;
   }
 
   public static String classId(Node node) {
@@ -687,26 +575,9 @@ public class Util {
   }
 
   public static Document clean(String string, String url) {
-    Document doc = parse(string, url);
+    Document doc = CommonUtil.parse(string, url, false);
     clean(doc.childNodes());
     return doc;
-  }
-
-  private static Document parse(String string, String url) {
-    String newString = string;
-    try {
-      StringWebResponse response = new StringWebResponse(newString,
-          charset(newString), new URL(url));
-      WebClient client = newWebClient();
-      HtmlPage page = HTMLParser.parseHtml(response, client.getCurrentWindow());
-      newString = page.asXml();
-      newString = newString.replaceFirst("<[^>]+>", "");
-      Document doc = CommonUtil.parse(newString, false);
-      return doc;
-    } catch (Throwable t) {
-      Log.exception(t);
-    }
-    return Jsoup.parse(string);
   }
 
   public static Element openElement(final RemoteWebDriver driver, final String[] whitelist,
@@ -732,7 +603,7 @@ public class Util {
               + "}");
       String url = driver.getCurrentUrl();
       new URL(url);
-      Element element = parse(driver.getPageSource(), url).body();
+      Element element = CommonUtil.parse(driver.getPageSource(), url, false).body();
       element.traverse(new NodeVisitor() {
         @Override
         public void tail(Node node, int depth) {}
