@@ -220,12 +220,19 @@ public class Util {
           Util.driverSleepVeryShort();
           if (urlNode != null) {
             try {
+              Set<String> origHandles = driver.getWindowHandles();
               Util.clickToNewWindow(driver, toElement(driver, urlNode));
               Set<String> newHandles = driver.getWindowHandles();
               String switchTo = null;
               for (String newHandle : newHandles) {
                 if (!origHandle.equals(newHandle)) {
                   switchTo = newHandle;
+                }
+              }
+              for (String newHandle : newHandles) {
+                if (!origHandles.contains(newHandle) && !newHandle.equals(switchTo)) {
+                  driver.switchTo().window(newHandle);
+                  driver.close();
                 }
               }
               if (switchTo != null) {

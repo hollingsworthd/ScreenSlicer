@@ -295,8 +295,8 @@ public class Scrape {
     return "http://" + urlLhs + ".nyud.net:8080/" + urlRhs;
   }
 
-  private static void fetch(RemoteWebDriver driver, Request req, Query query, List<Result> results,
-      boolean cleanupWindows, List<SearchResult> recResults) throws ActionFailed {
+  private static void fetch(RemoteWebDriver driver, Request req, Query query, Query recQuery,
+      List<Result> results, boolean cleanupWindows, List<SearchResult> recResults) throws ActionFailed {
     try {
       String origHandle = driver.getWindowHandle();
       String origUrl = driver.getCurrentUrl();
@@ -313,17 +313,13 @@ public class Scrape {
           if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
             return;
           }
-          try {
-            Log.info("Fetching URL " + result.url() + ". Cached: " + query.fetchCached, false);
-          } catch (Throwable t) {
-            Log.exception(t);
-          }
+          Log.info("Fetching URL " + result.url() + ". Cached: " + query.fetchCached, false);
           try {
             result.attach(getHelper(driver, result.urlNode(), result.url(), query.fetchCached,
                 req.runGuid, cleanupWindows && query == null, query == null ? null : query.postFetchClicks));
-            if (query != null) {
+            if (recQuery != null) {
               req.continueSession = true;
-              recResults.addAll(scrape(query, req, true));
+              recResults.addAll(scrape(recQuery, req, true));
             }
 
           } catch (Throwable t) {
@@ -618,14 +614,10 @@ public class Scrape {
         }
       }
       if (query.fetch) {
-        fetch(driver, req, query, newResults, !recursive, recResults);
+        fetch(driver, req, query,
+            query.keywordQuery == null ? (query.formQuery == null ? null : query.formQuery) : query.keywordQuery,
+            newResults, !recursive, recResults);
         results.addAll(newResults);
-        if (query.results > 0 && recResults.size() > query.results) {
-          int remove = recResults.size() - query.results;
-          for (int j = 0; j < remove && !recResults.isEmpty(); j++) {
-            recResults.remove(recResults.size() - 1);
-          }
-        }
       }
     } else {
       resultPages.add(Util.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
@@ -683,8 +675,7 @@ public class Scrape {
       handlePage(req, query, 1, recursive, results, recResults, resultPages);
       String priorProceedLabel = null;
       for (int page = 2; (page <= query.pages || query.pages <= 0)
-          && (results.size() < query.results || query.results <= 0)
-          && (recResults.size() < query.results || query.results <= 0); page++) {
+          && (results.size() < query.results || query.results <= 0); page++) {
         if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
           throw new Exception("Cancellation was requested");
         }
