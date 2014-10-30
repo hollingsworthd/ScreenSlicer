@@ -76,4 +76,8 @@ public final class Fetch {
    * URL to HTTP GET
    */
   public String url;
+  /**
+   * Whether to throttle requests
+   */
+  public boolean throttle = true;
 }

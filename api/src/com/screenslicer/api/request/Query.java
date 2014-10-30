@@ -114,6 +114,10 @@ public abstract class Query {
    */
   public Credentials credentials;
   /**
+   * Whether to throttle requests
+   */
+  public boolean throttle = true;
+  /**
    * KeywordQuery to perform at each fetched result.
    */
   public KeywordQuery keywordQuery;

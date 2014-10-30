@@ -336,15 +336,21 @@ public class Util {
     }
   }
 
-  public static void driverSleepRandLong() {
-    try {
-      int cur = RAND_MAX_WAIT_MS;
-      int iter = rand.nextInt(RAND_MAX_WAIT_ITER) + RAND_MIN_WAIT_ITER;
-      for (int i = 0; i < iter; i++) {
-        cur = rand.nextInt(cur + 1);
-      }
-      Thread.sleep(rand.nextInt(cur + 1) + rand.nextInt(RAND_WAIT_MS) + RAND_MIN_WAIT_MS);
-    } catch (InterruptedException e) {}
+  public static void driverSleepRand(boolean longSleep) {
+    if (longSleep) {
+      try {
+        int cur = RAND_MAX_WAIT_MS;
+        int iter = rand.nextInt(RAND_MAX_WAIT_ITER) + RAND_MIN_WAIT_ITER;
+        for (int i = 0; i < iter; i++) {
+          cur = rand.nextInt(cur + 1);
+        }
+        Thread.sleep(rand.nextInt(cur + 1) + rand.nextInt(RAND_WAIT_MS) + RAND_MIN_WAIT_MS);
+      } catch (InterruptedException e) {}
+    } else {
+      try {
+        Thread.sleep(RAND_MIN_WAIT_MS / 2);
+      } catch (InterruptedException e) {}
+    }
   }
 
   public static void driverSleepShort() {

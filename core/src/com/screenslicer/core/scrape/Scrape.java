@@ -315,7 +315,7 @@ public class Scrape {
           }
           Log.info("Fetching URL " + result.url() + ". Cached: " + query.fetchCached, false);
           try {
-            result.attach(getHelper(driver, result.urlNode(), result.url(), query.fetchCached,
+            result.attach(getHelper(driver, query.throttle, result.urlNode(), result.url(), query.fetchCached,
                 req.runGuid, cleanupWindows && query == null, query == null ? null : query.postFetchClicks));
             if (recQuery != null) {
               req.continueSession = true;
@@ -349,12 +349,12 @@ public class Scrape {
       Log.exception(t);
       throw new ActionFailed(t);
     } finally {
-      Util.driverSleepRandLong();
+      Util.driverSleepRand(query.throttle);
     }
   }
 
-  private static String getHelper(final RemoteWebDriver driver, final Node urlNode,
-      final String url, final boolean p_cached, final String runGuid,
+  private static String getHelper(final RemoteWebDriver driver, final boolean throttle,
+      final Node urlNode, final String url, final boolean p_cached, final String runGuid,
       final boolean cleanupWindows, final HtmlNode[] postFetchClicks) {
     final String urlHash = CommonUtil.isEmpty(url) ? null : Crypto.fastHash(url);
     final long time = System.currentTimeMillis();
@@ -461,7 +461,7 @@ public class Scrape {
                 result[0] = null;
               }
             }
-            Util.driverSleepRandLong();
+            Util.driverSleepRand(throttle);
             if (cleanupWindows && newHandle != null && origHandle != null) {
               try {
                 Util.handleNewWindows(driver, origHandle, true);
@@ -536,7 +536,7 @@ public class Scrape {
     Log.info("Get URL " + fetch.url + ". Cached: " + fetch.fetchCached, false);
     String resp = "";
     try {
-      resp = getHelper(driver, null, fetch.url, fetch.fetchCached, req.runGuid, true, fetch.postFetchClicks);
+      resp = getHelper(driver, fetch.throttle, null, fetch.url, fetch.fetchCached, req.runGuid, true, fetch.postFetchClicks);
     } catch (Throwable t) {
       Log.exception(t);
     } finally {
@@ -681,7 +681,7 @@ public class Scrape {
         }
         if (!query.fetch) {
           try {
-            Util.driverSleepRandLong();
+            Util.driverSleepRand(query.throttle);
           } catch (Throwable t) {
             Log.exception(t);
           }
