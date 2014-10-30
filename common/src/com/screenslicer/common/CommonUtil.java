@@ -273,7 +273,7 @@ public class CommonUtil {
   }
 
   public static Document parse(String string, String url, boolean ascii) {
-    Document doc = Jsoup.parse(string, url);
+    Document doc = url == null ? Jsoup.parse(string) : Jsoup.parse(string, url);
     sanitize(doc, ascii);
     return doc;
   }
