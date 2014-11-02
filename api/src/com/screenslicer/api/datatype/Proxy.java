@@ -26,7 +26,9 @@ package com.screenslicer.api.datatype;
 
 import java.security.SecureRandom;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 
@@ -69,68 +71,83 @@ public class Proxy {
   }
 
   private static final boolean matches(Proxy proxyA, Proxy proxyB) {
-    return proxyA.ip.equals(proxyB.ip) && proxyA.port == proxyB.port
-        && ((proxyA.username == null && proxyB.username == null)
-        || (proxyA.username != null && proxyA.username.equals(proxyB.username)))
-        && ((proxyA.password == null && proxyB.password == null)
-        || (proxyA.password != null && proxyA.password.equals(proxyB.password)));
+    return matchString(proxyA).equals(matchString(proxyB));
+  }
+
+  private static final String matchString(Proxy proxy) {
+    StringBuilder builder = new StringBuilder();
+    builder.append(proxy.ip);
+    builder.append("|");
+    builder.append(proxy.port);
+    builder.append("|");
+    builder.append(proxy.username);
+    builder.append("|");
+    builder.append(proxy.password);
+    return builder.toString();
   }
 
   public static final Map<String, Proxy> toMap(Proxy[] proxies) {
     Map<String, List<Proxy>> map = new HashMap<String, List<Proxy>>();
+    map.put(TYPE_DIRECT, new ArrayList<Proxy>());
+    map.put(TYPE_ALL, new ArrayList<Proxy>());
     map.put(TYPE_SOCKS_5, new ArrayList<Proxy>());
     map.put(TYPE_SOCKS_4, new ArrayList<Proxy>());
     map.put(TYPE_HTTP, new ArrayList<Proxy>());
     map.put(TYPE_SSL, new ArrayList<Proxy>());
-    map.put(TYPE_ALL, new ArrayList<Proxy>());
-    map.put(TYPE_DIRECT, new ArrayList<Proxy>());
     for (int i = 0; i < proxies.length; i++) {
       map.get(proxies[i].type).add(proxies[i]);
     }
-    if (!map.get(TYPE_DIRECT).isEmpty()) {
+    List<Proxy> toMatch = new ArrayList<Proxy>();
+    toMatch.addAll(map.get(TYPE_SOCKS_5));
+    toMatch.addAll(map.get(TYPE_SOCKS_4));
+    toMatch.addAll(map.get(TYPE_HTTP));
+    toMatch.addAll(map.get(TYPE_SSL));
+    Collection<String> toMatchUnique = new HashSet<String>();
+    for (Proxy proxy : toMatch) {
+      toMatchUnique.add(matchString(proxy));
+    }
+    int total = 0;
+    total += map.get(TYPE_DIRECT).size();
+    total += map.get(TYPE_ALL).size();
+    total += toMatchUnique.size();
+    int choice = rand.nextInt(total);
+    if (choice < map.get(TYPE_DIRECT).size()) {
       return null;
     }
     Map<String, Proxy> ret = new HashMap<String, Proxy>();
-    if (!map.get(TYPE_ALL).isEmpty()) {
+    if (choice < map.get(TYPE_ALL).size() + map.get(TYPE_DIRECT).size()) {
       ret.put(TYPE_ALL, map.get(TYPE_ALL).get(rand.nextInt(map.get(TYPE_ALL).size())));
       return ret;
     }
-    List<Proxy> socks = new ArrayList<Proxy>();
-    socks.addAll(map.get(TYPE_SOCKS_5));
-    socks.addAll(map.get(TYPE_SOCKS_4));
-    Proxy selected = socks.isEmpty() ? null : socks.get(rand.nextInt(socks.size()));
-    if (selected != null) {
-      ret.put(selected.type, selected);
-    }
-    boolean found = false;
-    if (selected != null && !map.get(TYPE_HTTP).isEmpty()) {
-      for (Proxy cur : map.get(TYPE_HTTP)) {
-        if (matches(cur, selected)) {
-          ret.put(TYPE_HTTP, cur);
-          found = true;
-          break;
-        }
-      }
-    }
-    if (!found && !map.get(TYPE_HTTP).isEmpty()) {
-      selected = map.get(TYPE_HTTP).get(rand.nextInt(map.get(TYPE_HTTP).size()));
-      ret.put(TYPE_HTTP, selected);
-    }
-    found = false;
-    if (selected != null && !map.get(TYPE_SSL).isEmpty()) {
-      for (Proxy cur : map.get(TYPE_SSL)) {
-        if (matches(cur, selected)) {
-          ret.put(TYPE_SSL, cur);
-          found = true;
-          break;
-        }
-      }
-    }
-    if (!found && !map.get(TYPE_SSL).isEmpty()) {
-      selected = map.get(TYPE_SSL).get(rand.nextInt(map.get(TYPE_SSL).size()));
-      ret.put(TYPE_SSL, selected);
-    }
+    List<Proxy> socksList = new ArrayList<Proxy>();
+    socksList.addAll(map.get(TYPE_SOCKS_5));
+    socksList.addAll(map.get(TYPE_SOCKS_4));
+    List<List<Proxy>> proxyLists = new ArrayList<List<Proxy>>();
+    proxyLists.add(socksList);
+    proxyLists.add(map.get(TYPE_HTTP));
+    proxyLists.add(map.get(TYPE_SSL));
+    choose(proxyLists.remove(rand.nextInt(proxyLists.size())), ret);
+    choose(proxyLists.remove(rand.nextInt(proxyLists.size())), ret);
+    choose(proxyLists.remove(rand.nextInt(proxyLists.size())), ret);
     return ret;
+  }
+
+  private static void choose(List<Proxy> proxies, Map<String, Proxy> accumulator) {
+    if (accumulator != null && proxies != null && !accumulator.isEmpty() && !proxies.isEmpty()) {
+      Collection<Proxy> vals = new HashSet<Proxy>(accumulator.values());
+      for (Proxy proxy : proxies) {
+        for (Proxy val : vals) {
+          if (matches(proxy, val)) {
+            accumulator.put(proxy.type, proxy);
+            return;
+          }
+        }
+      }
+    }
+    if (accumulator != null && proxies != null && !proxies.isEmpty()) {
+      Proxy selected = proxies.get(rand.nextInt(proxies.size()));
+      accumulator.put(selected.type, selected);
+    }
   }
 
   /**

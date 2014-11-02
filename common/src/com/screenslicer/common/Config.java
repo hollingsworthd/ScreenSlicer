@@ -44,7 +44,7 @@ public class Config {
   private final List<String> storageSecrets = new ArrayList<String>();
   private final String mandrillKey;
   private final String mandrillEmail;
-  private final String proxies;
+  private final String proxy;
   private final String instances;
   private final String myInstance;
   private static final long SLEEP = 1000;
@@ -104,7 +104,7 @@ public class Config {
     transitSecret = getAndSet("transit_secret", Random.next());
     mandrillKey = getAndSet("mandrill_key", "");
     mandrillEmail = getAndSet("mandrill_email", "");
-    proxies = getAndSet("proxies", "");
+    proxy = getAndSet("proxy", "");
     instances = getAndSet("instances", "");
     myInstance = getAndSet("my_instance", "");
     FileOutputStream streamOut = null;
@@ -164,8 +164,8 @@ public class Config {
     return mandrillEmail;
   }
 
-  public String proxies() {
-    return proxies;
+  public String proxy() {
+    return proxy;
   }
 
   public String instances() {

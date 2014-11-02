@@ -36,8 +36,8 @@ import com.screenslicer.common.Random;
 
 public final class Request {
   private static final SecureRandom rand = new SecureRandom();
-  private static final Proxy[] configProxies = CommonUtil.isEmpty(Config.instance.proxies()) ?
-      null : instances(Config.instance.proxies()).toArray(new Proxy[0]);
+  private static final Proxy[] configProxies = CommonUtil.isEmpty(Config.instance.proxy()) ?
+      null : Proxy.instances(Config.instance.proxy()).toArray(new Proxy[0]);
 
   public static final Request instance(String json) {
     return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));

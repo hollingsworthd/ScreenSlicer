@@ -93,7 +93,7 @@ public final class ScreenSlicer {
         Request req = new Request();
         req.runGuid = args.runGuid;
         CommonUtil.post("http://" + args.instances[i] + ":8888/core-batch/cancel",
-            args.instances[i], CommonUtil.gson.toJson(req, CommonUtil.objectType));
+            args.instances[i], Request.toJson(req));
       }
     } catch (Throwable t) {
       Log.exception(t);

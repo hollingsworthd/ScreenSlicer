@@ -348,7 +348,7 @@ public class CommonUtil {
     }
     List<T> list = new ArrayList<T>();
     for (Map<String, Object> map : argsList) {
-      list.add(CommonUtil.gson.fromJson(CommonUtil.gson.toJson(args), classOf));
+      list.add(CommonUtil.gson.fromJson(CommonUtil.gson.toJson(map), classOf));
     }
     return list;
   }
