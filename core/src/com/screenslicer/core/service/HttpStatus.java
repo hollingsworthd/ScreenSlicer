@@ -64,7 +64,7 @@ public class HttpStatus implements WebResource {
       if (driver == null) {
         element = CommonUtil.parse(src, null, false);
       } else {
-        element = Util.openElement(driver, null, null, null);
+        element = Util.openElement(driver, null, null, null, null);
       }
       if (element == null) {
         Log.debug("status - page element is null", WebApp.DEBUG);
@@ -88,11 +88,19 @@ public class HttpStatus implements WebResource {
     return content[0];
   }
 
+  public static int status(RemoteWebDriver driver, int timeout) {
+    return status(driver, true, timeout);
+  }
+
   public static int status(RemoteWebDriver driver, boolean wait) {
+    return status(driver, wait, TIMEOUT);
+  }
+
+  private static int status(RemoteWebDriver driver, boolean wait, int timeout) {
     Log.debug("check status...", WebApp.DEBUG);
     int totalWait = 0;
     String src = null;
-    while (totalWait < TIMEOUT) {
+    while (totalWait < timeout) {
       src = null;
       try {
         src = driver.getPageSource();

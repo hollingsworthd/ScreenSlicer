@@ -81,8 +81,10 @@ public class ProcessPage {
 
   public static List<Result> perform(RemoteWebDriver driver, int page, Query query) throws ActionFailed {
     try {
-      Element element = Util.openElement(driver, query.proactiveUrlFiltering ? query.urlWhitelist : null,
+      Element element = Util.openElement(driver,
+          query.proactiveUrlFiltering ? query.urlWhitelist : null,
           query.proactiveUrlFiltering ? query.urlPatterns : null,
+          query.proactiveUrlFiltering ? query.urlMatchNodes : null,
           query.proactiveUrlFiltering ? query.urlTransforms : null);
       trim(element);
       if (WebApp.DEBUG) {

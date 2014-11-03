@@ -65,6 +65,21 @@ public final class HtmlNode {
   }
 
   /**
+   * Whether the HtmlNode parameters are hints (fuzzy == true)
+   * or whether they specify a precise values (fuzzy == false).
+   * Defaults to false.
+   * Regardless of this value, HREFs will be canonicalized to avoid
+   * insignificant differences in domain/protocol/path.
+   */
+  public boolean fuzzy;
+  /**
+   * Whether the HtmlNodes parameters must all be matched (any == false)
+   * or whether any single one must match (any == true).
+   * Defaults to true;
+   */
+  public boolean any = true;
+
+  /**
    * Whether actions on this node should be followed by a long delay.
    * Useful for AJAX apps, such as with a search button that does an asynchonous
    * post.
@@ -112,14 +127,6 @@ public final class HtmlNode {
    * HTML element HREF attribute (e.g., HREFs on an anchor)
    */
   public String href;
-  /**
-   * Whether the 'href' argument specifies a hint (hrefStrict == false)
-   * or whether it specifies a precise value (hrefStrict == true).
-   * Defaults to true.
-   * Regardless of this value, HREFs will be canonicalized to avoid
-   * insignificant differences in domain/protocol/path.
-   */
-  public boolean hrefStrict = true;
   /**
    * CSS class names listed in the class attribute of an HTML element
    */

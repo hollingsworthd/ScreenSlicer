@@ -79,7 +79,7 @@ public class Proceed {
 
   public static String perform(RemoteWebDriver driver, int pageNum, String priorTextLabel) throws End, ActionFailed {
     try {
-      Element body = Util.openElement(driver, null, null, null);
+      Element body = Util.openElement(driver, null, null, null, null);
       String origSrc = driver.getPageSource();
       String origTitle = driver.getTitle();
       String origUrl = driver.getCurrentUrl();

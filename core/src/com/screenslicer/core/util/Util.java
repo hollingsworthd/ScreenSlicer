@@ -28,6 +28,7 @@ import java.net.URI;
 import java.net.URL;
 import java.security.SecureRandom;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -84,6 +85,7 @@ public class Util {
   public static final String[] parentHolder = new String[] { "ul", "ol", "div", "p", "span", "form", "td", "dl", "dd", "footer", "header", "section", "article", "blockquote", "main", "h1", "h2",
       "h3", "h4", "h5", "h6" };
   private static final int REFRESH_TRIES = 3;
+  private static final int LONG_REQUEST_WAIT = 10000;
   private static final String[] unbound = new String[] { "p", "dt", "dd", "tr", "table", "h1", "h2", "h3", "h4", "h5", "h6" };
   private static final String schemeFragment = "^[A-Za-z0-9]*:?(?://)?";
   private static final String NODE_MARKER = "fftheme_";
@@ -583,7 +585,8 @@ public class Util {
   }
 
   public static Element openElement(final RemoteWebDriver driver, final String[] whitelist,
-      final String[] patterns, final UrlTransform[] transforms) throws ActionFailed {
+      final String[] patterns, final HtmlNode[] urlNodes, final UrlTransform[] transforms)
+      throws ActionFailed {
     try {
       driver.executeScript(
           "      var all = document.getElementsByTagName('*');"
@@ -618,7 +621,8 @@ public class Util {
         }
       });
       if ((whitelist != null && whitelist.length > 0)
-          || (patterns != null && patterns.length > 0)) {
+          || (patterns != null && patterns.length > 0)
+          || (urlNodes != null && urlNodes.length > 0)) {
         element.traverse(new NodeVisitor() {
           @Override
           public void tail(Node node, int depth) {}
@@ -626,13 +630,13 @@ public class Util {
           @Override
           public void head(Node node, int depth) {
             if (node.nodeName().equals("a")) {
-              if (isUrlFiltered(driver.getCurrentUrl(), node.attr("href"), whitelist, patterns, transforms)) {
+              if (isUrlFiltered(driver.getCurrentUrl(), node.attr("href"), node, whitelist, patterns, urlNodes, transforms)) {
                 markFiltered(node, false);
               }
             } else {
               String urlAttr = Util.urlFromAttr(node);
               if (!CommonUtil.isEmpty(urlAttr)
-                  && isUrlFiltered(driver.getCurrentUrl(), urlAttr, whitelist, patterns, transforms)) {
+                  && isUrlFiltered(driver.getCurrentUrl(), urlAttr, node, whitelist, patterns, urlNodes, transforms)) {
                 markFiltered(node, true);
               }
             }
@@ -646,13 +650,13 @@ public class Util {
     }
   }
 
-  public static boolean isResultFiltered(Result result, String[] whitelist, String[] patterns) {
-    return isUrlFiltered(null, result.url(), whitelist, patterns, null);
+  public static boolean isResultFiltered(Result result, String[] whitelist, String[] patterns, HtmlNode[] urlNodes) {
+    return isUrlFiltered(null, result.url(), result.urlNode(), whitelist, patterns, urlNodes, null);
   }
 
-  private static boolean isUrlFiltered(String currentUrl, String url, String[] whitelist,
-      String[] patterns, UrlTransform[] transforms) {
-    if (!isUrlFilteredHelper(currentUrl, url, whitelist, patterns, transforms)) {
+  private static boolean isUrlFiltered(String currentUrl, String url, Node urlNode, String[] whitelist,
+      String[] patterns, HtmlNode[] urlNodes, UrlTransform[] transforms) {
+    if (!isUrlFilteredHelper(currentUrl, url, urlNode, whitelist, patterns, urlNodes, transforms)) {
       return false;
     }
     try {
@@ -666,7 +670,7 @@ public class Util {
         }
         if (param != null && (param.startsWith("http:") || param.startsWith("https:"))
             && !isUrlFilteredHelper(
-                currentUrl, param.toString(), whitelist, patterns, transforms)) {
+                currentUrl, param.toString(), urlNode, whitelist, patterns, urlNodes, transforms)) {
           return false;
         }
       }
@@ -674,24 +678,30 @@ public class Util {
     return true;
   }
 
-  private static boolean isUrlFilteredHelper(String currentUrl, String url, String[] whitelist,
-      String[] patterns, UrlTransform[] transforms) {
+  private static boolean isUrlFilteredHelper(String currentUrl, String url, Node urlNode,
+      String[] whitelist, String[] patterns, HtmlNode[] urlNodes, UrlTransform[] transforms) {
     url = Util.transformUrl(url, transforms, false);
     if (!CommonUtil.isEmpty(url)) {
       if (!CommonUtil.isEmpty(currentUrl)) {
         url = toCleanUrl(currentUrl, url);
       }
-      int max = Math.max(whitelist == null ? 0 : whitelist.length, patterns == null ? 0 : patterns.length);
+      int max = CommonUtil.max(whitelist == null ? 0 : whitelist.length,
+          patterns == null ? 0 : patterns.length,
+          urlNodes == null ? 0 : urlNodes.length);
       for (int i = 0; i < max; i++) {
         if (!CommonUtil.isEmpty(url)) {
-          if (whitelist != null && i < whitelist.length &&
-              url.toLowerCase().contains(whitelist[i].toLowerCase())) {
+          if (whitelist != null && i < whitelist.length
+              && url.toLowerCase().contains(whitelist[i].toLowerCase())) {
             return false;
           }
-          if (patterns != null && i < patterns.length &&
-              url.toLowerCase().matches(patterns[i].toLowerCase())) {
+          if (patterns != null && i < patterns.length
+              && url.toLowerCase().matches(patterns[i].toLowerCase())) {
             return false;
           }
+        }
+        if (urlNodes != null && i < urlNodes.length
+            && Util.matches(urlNodes[i], urlNode)) {
+          return false;
         }
       }
     }
@@ -993,7 +1003,7 @@ public class Util {
     if (controls != null && controls.length > 0) {
       Log.debug("Doing clicks", WebApp.DEBUG);
       if (body == null) {
-        body = Util.openElement(driver, null, null, null);
+        body = Util.openElement(driver, null, null, null, null);
       }
       for (int i = 0; i < controls.length; i++) {
         if (!CommonUtil.isEmpty(controls[i].httpGet)) {
@@ -1001,7 +1011,7 @@ public class Util {
           continue;
         }
         if (i > 0 && (controls[i - 1].longRequest || !CommonUtil.isEmpty(controls[i - 1].httpGet))) {
-          body = Util.openElement(driver, null, null, null);
+          body = Util.openElement(driver, null, null, null, null);
         }
         WebElement element = Util.toElement(driver, controls[i], body);
         if (WebApp.DEBUG) {
@@ -1018,7 +1028,7 @@ public class Util {
           clicked = true;
           click(driver, element);
           if (controls[i].longRequest) {
-            Util.driverSleepLong();
+            HttpStatus.status(driver, LONG_REQUEST_WAIT);
           }
         }
       }
@@ -1029,16 +1039,17 @@ public class Util {
   }
 
   public static boolean matches(HtmlNode reference, Node test) {
+    if (test == null) {
+      return false;
+    }
     if (!CommonUtil.isEmpty(reference.id)) {
       return reference.id.equalsIgnoreCase(test.attr("id"));
     }
     if (!CommonUtil.isEmpty(reference.name)) {
       return reference.name.equalsIgnoreCase(test.attr("name"));
     }
-    if (!CommonUtil.isEmpty(reference.tagName)) {
-      return reference.tagName.equalsIgnoreCase(test.nodeName());
-    }
     List<String[]> toMatch = new ArrayList<String[]>();
+    toMatch.add(new String[] { reference.tagName, test.nodeName() });
     toMatch.add(new String[] { reference.type, test.attr("type") });
     toMatch.add(new String[] { reference.value, test.attr("value") });
     toMatch.add(new String[] { reference.title, test.attr("title") });
@@ -1048,17 +1059,30 @@ public class Util {
       toMatch.add(new String[] { CommonUtil.strip(reference.innerText, false),
           CommonUtil.strip(((Element) test).text(), false) });
     }
+    String refClassesString = CommonUtil.toString(reference.classes, " ");
+    Collection<String> refClasses = new HashSet<String>(Arrays.asList(refClassesString.toLowerCase().split("\\s")));
+    Collection<String> testClasses = new HashSet<String>(Arrays.asList(test.attr("class").toLowerCase().split("\\s")));
     for (String[] pair : toMatch) {
-      if (!CommonUtil.isEmpty(pair[0]) && pair[0].equalsIgnoreCase(pair[1])) {
-        return true;
+      if (reference.any) {
+        if (!CommonUtil.isEmpty(pair[0]) && pair[0].equalsIgnoreCase(pair[1])) {
+          return true;
+        }
+      } else {
+        if (!CommonUtil.isEmpty(pair[0]) && !pair[0].equalsIgnoreCase(pair[1])) {
+          return false;
+        }
       }
     }
-    String[] refClasses = reference.classes;
-    String[] testClasses = test.attr("class").split("\\s");
-    for (int i = 0; i < refClasses.length; i++) {
-      for (int j = 0; j < testClasses.length; j++) {
-        if (refClasses[i].equalsIgnoreCase(testClasses[j])) {
-          return true;
+    if (!refClasses.isEmpty()) {
+      for (String testClass : testClasses) {
+        if (reference.any) {
+          if (refClasses.contains(testClass)) {
+            return true;
+          }
+        } else {
+          if (!refClasses.contains(testClass)) {
+            return false;
+          }
         }
       }
     }
@@ -1067,7 +1091,7 @@ public class Util {
 
   public static WebElement toElement(RemoteWebDriver driver, HtmlNode htmlNode, Element body) throws ActionFailed {
     if (body == null) {
-      body = Util.openElement(driver, null, null, null);
+      body = Util.openElement(driver, null, null, null, null);
     }
     if (!CommonUtil.isEmpty(htmlNode.id)) {
       WebElement element = toElement(driver, body.getElementById(htmlNode.id));
@@ -1127,8 +1151,14 @@ public class Util {
       String hrefGiven = htmlNode.href;
       for (Element href : hrefs) {
         String hrefFound = href.attr("href");
-        if (hrefGiven.equalsIgnoreCase(hrefFound)
-            || (!htmlNode.hrefStrict && hrefFound != null && hrefFound.contains(hrefGiven))) {
+        if (hrefGiven.equalsIgnoreCase(hrefFound)) {
+          toAdd.add(href);
+          toAdd.add(href);
+          toAdd.add(href);
+        } else if (htmlNode.fuzzy && hrefFound != null && hrefFound.endsWith(hrefGiven)) {
+          toAdd.add(href);
+          toAdd.add(href);
+        } else if (htmlNode.fuzzy && hrefFound != null && hrefFound.contains(hrefGiven)) {
           toAdd.add(href);
         } else {
           String uriGiven = Util.toCanonicalUri(currentUrl, hrefGiven);

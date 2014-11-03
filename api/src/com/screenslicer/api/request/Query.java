@@ -42,6 +42,10 @@ public abstract class Query {
    */
   public String[] urlPatterns;
   /**
+   * HtmlNodes that result URL nodes must match;
+   */
+  public HtmlNode[] urlMatchNodes;
+  /**
    * Whether to apply the urlWhitelist and urlPatterns before analyzing
    * the page to extract results. This generally produces a more accurate
    * extraction.

@@ -262,6 +262,16 @@ public class CommonUtil {
     return min;
   }
 
+  public static int max(int... ints) {
+    int max = Integer.MIN_VALUE;
+    for (int i = 0; i < ints.length; i++) {
+      if (ints[i] > max) {
+        max = ints[i];
+      }
+    }
+    return max;
+  }
+
   public static int max(List<Integer> ints) {
     int max = Integer.MIN_VALUE;
     for (Integer curInt : ints) {

@@ -552,18 +552,19 @@ public class Scrape {
   }
 
   private static List<Result> filterResults(List<Result> results, String[] whitelist,
-      String[] patterns, UrlTransform[] urlTransforms, boolean forExport) {
+      String[] patterns, HtmlNode[] urlNodes, UrlTransform[] urlTransforms, boolean forExport) {
     List<Result> filtered = new ArrayList<Result>();
     if (results == null) {
       return filtered;
     }
     results = Util.transformUrls(results, urlTransforms, forExport);
     if ((whitelist == null || whitelist.length == 0)
-        && (patterns == null || patterns.length == 0)) {
+        && (patterns == null || patterns.length == 0)
+        && (urlNodes == null || urlNodes.length == 0)) {
       filtered = results;
     } else {
       for (Result result : results) {
-        if (!Util.isResultFiltered(result, whitelist, patterns)) {
+        if (!Util.isResultFiltered(result, whitelist, patterns, urlNodes)) {
           filtered.add(result);
         }
       }
@@ -611,7 +612,8 @@ public class Scrape {
       List<Result> results, List<SearchResult> recResults, List<String> resultPages) throws ActionFailed {
     if (query.extract) {
       List<Result> newResults = ProcessPage.perform(driver, page, query);
-      newResults = filterResults(newResults, query.urlWhitelist, query.urlPatterns, query.urlTransforms, false);
+      newResults = filterResults(newResults, query.urlWhitelist, query.urlPatterns,
+          query.urlMatchNodes, query.urlTransforms, false);
       if (query.results > 0 && results.size() + newResults.size() > query.results) {
         int remove = results.size() + newResults.size() - query.results;
         for (int i = 0; i < remove && !newResults.isEmpty(); i++) {
@@ -622,8 +624,8 @@ public class Scrape {
         fetch(driver, req, query,
             query.keywordQuery == null ? (query.formQuery == null ? null : query.formQuery) : query.keywordQuery,
             newResults, !recursive, recResults);
-        results.addAll(newResults);
       }
+      results.addAll(newResults);
     } else {
       resultPages.add(Util.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
     }
@@ -711,7 +713,8 @@ public class Scrape {
       if (recResults.isEmpty()) {
         List<SearchResult> extractedResults = new ArrayList<SearchResult>();
         if (results != null) {
-          results = filterResults(results, query.urlWhitelist, query.urlPatterns, query.urlTransforms, true);
+          results = filterResults(results, query.urlWhitelist, query.urlPatterns,
+              query.urlMatchNodes, query.urlTransforms, true);
           for (Result result : results) {
             Util.clean(result.getNodes());
             SearchResult r = new SearchResult();
