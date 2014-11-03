@@ -144,4 +144,35 @@ public final class HtmlNode {
    * name)
    */
   public String guidName = guid;
+
+  @Override
+  public String toString() {
+    StringBuilder builder = new StringBuilder();
+    builder.append("(HtmlNode) ");
+    builder.append(toStringHelper("tagName", tagName));
+    builder.append(toStringHelper("id", id));
+    builder.append(toStringHelper("name", name));
+    builder.append(toStringHelper("label", label));
+    builder.append(toStringHelper("type", type));
+    builder.append(toStringHelper("value", value));
+    builder.append(toStringHelper("title", title));
+    builder.append(toStringHelper("alt", alt));
+    builder.append(toStringHelper("href", href));
+    builder.append(toStringHelper("classes", CommonUtil.toString(classes, ",")));
+    builder.append(toStringHelper("innerText", innerText));
+    builder.append(toStringHelper("innerHtml", innerHtml));
+    builder.append(toStringHelper("multiple", multiple));
+    builder.append(toStringHelper("optionValues", CommonUtil.toString(optionValues, ",")));
+    builder.append(toStringHelper("optionValues", CommonUtil.toString(optionLabels, ",")));
+    builder.append(toStringHelper("guid", guid));
+    builder.append(toStringHelper("guidName", guidName));
+    return builder.toString();
+  }
+
+  private static String toStringHelper(String name, String value) {
+    if (!CommonUtil.isEmpty(value)) {
+      return name + "=" + value + "|";
+    }
+    return "";
+  }
 }

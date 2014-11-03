@@ -996,6 +996,7 @@ public class Util {
         body = Util.openElement(driver, null, null, null);
       }
       for (int i = 0; i < controls.length; i++) {
+        Log.debug("click - " + controls[i], WebApp.DEBUG);
         WebElement element = Util.toElement(driver, controls[i], body);
         if (element != null) {
           clicked = true;
@@ -1005,6 +1006,8 @@ public class Util {
           }
         }
       }
+    } else {
+      Log.debug("No clicks to perform", WebApp.DEBUG);
     }
     return clicked;
   }
