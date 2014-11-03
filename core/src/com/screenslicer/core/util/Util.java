@@ -232,7 +232,7 @@ public class Util {
           if (!exception) {
             Util.driverSleepShort();
             Util.driverSleepLong();
-            statusFail = HttpStatus.status(driver, urlNode != null) != 200;
+            statusFail = HttpStatus.status(driver, urlNode != null || url != null) != 200;
             driver.switchTo().defaultContent();
             source = driver.getPageSource();
             try {
