@@ -109,6 +109,14 @@ public final class HtmlNode {
    */
   public String href;
   /**
+   * Whether the 'href' argument specifies a hint (hrefStrict == false)
+   * or whether it specifies a precise value (hrefStrict == true).
+   * Defaults to true.
+   * Regardless of this value, HREFs will be canonicalized to avoid
+   * insignificant differences in domain/protocol/path.
+   */
+  public boolean hrefStrict = true;
+  /**
    * CSS class names listed in the class attribute of an HTML element
    */
   public String[] classes;

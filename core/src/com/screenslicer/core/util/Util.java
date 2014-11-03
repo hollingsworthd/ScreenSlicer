@@ -996,8 +996,20 @@ public class Util {
         body = Util.openElement(driver, null, null, null);
       }
       for (int i = 0; i < controls.length; i++) {
-        Log.debug("click - " + controls[i], WebApp.DEBUG);
+        if (i > 0 && controls[i - 1].longRequest) {
+          body = Util.openElement(driver, null, null, null);
+        }
         WebElement element = Util.toElement(driver, controls[i], body);
+        if (WebApp.DEBUG) {
+          Log.debug("click - " + controls[i], WebApp.DEBUG);
+          String found = null;
+          try {
+            found = element == null ? null : CommonUtil.strip(element.getAttribute("outerHTML"), false);
+          } catch (Throwable t) {
+            Log.exception(t);
+          }
+          Log.debug("click found - " + found, WebApp.DEBUG);
+        }
         if (element != null) {
           clicked = true;
           click(driver, element);
@@ -1111,7 +1123,8 @@ public class Util {
       String hrefGiven = htmlNode.href;
       for (Element href : hrefs) {
         String hrefFound = href.attr("href");
-        if (hrefGiven.equalsIgnoreCase(hrefFound)) {
+        if (hrefGiven.equalsIgnoreCase(hrefFound)
+            || (!htmlNode.hrefStrict && hrefFound != null && hrefFound.contains(hrefGiven))) {
           toAdd.add(href);
         } else {
           String uriGiven = Util.toCanonicalUri(currentUrl, hrefGiven);
@@ -1132,10 +1145,11 @@ public class Util {
     Map<Element, Integer> votes = new HashMap<Element, Integer>();
     for (Elements elements : selected) {
       for (Element element : elements) {
+        if (!votes.containsKey(element)) {
+          votes.put(element, 0);
+        }
+        votes.put(element, votes.get(element) + 2);
         if (!Util.isHidden(element)) {
-          if (!votes.containsKey(element)) {
-            votes.put(element, 0);
-          }
           votes.put(element, votes.get(element) + 1);
         }
       }
