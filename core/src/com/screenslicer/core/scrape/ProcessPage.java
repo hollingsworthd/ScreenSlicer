@@ -87,7 +87,7 @@ public class ProcessPage {
       trim(element);
       if (WebApp.DEBUG) {
         try {
-          FileUtils.writeStringToFile(new File("./" + System.currentTimeMillis()), element.outerHtml());
+          FileUtils.writeStringToFile(new File("./" + System.currentTimeMillis() + ".log.fetch"), element.outerHtml());
         } catch (IOException e) {}
       }
       Map<String, Object> cache = new HashMap<String, Object>();
