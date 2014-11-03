@@ -81,7 +81,6 @@ public class Backfill {
             classNames.add(cur[i]);
           }
         }
-        for (String className : classNames) {}
         Collection<Node> matching = new LinkedHashSet<Node>();
         for (String className : classNames) {
           if (!CommonUtil.isEmpty(className)) {

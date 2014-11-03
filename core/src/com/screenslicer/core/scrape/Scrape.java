@@ -92,7 +92,6 @@ public class Scrape {
   private static String progress2Key = "";
   private static String progress1 = "";
   private static String progress2 = "";
-  private static final int PAGE_LOAD_TIMEOUT_SECONDS = 25;
   private static final Object fetchLocalCacheLock = new Object();
   private static final Map<String, Long> fetchLocalCache = new HashMap<String, Long>();
   private static final int MAX_FETCH_LOCAL_CACHE = 1000;
