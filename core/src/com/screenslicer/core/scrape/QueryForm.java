@@ -148,9 +148,7 @@ public class QueryForm {
               HtmlNode formControl = formControls.get(entry.getKey());
               if (!CommonUtil.isEmpty(entry.getValue())) {
                 if ("select".equalsIgnoreCase(formControl.tagName)) {
-                  if (WebApp.DEBUG) {
-                    System.out.println("Query Form: select");
-                  }
+                  Log.debug("Query Form: select", WebApp.DEBUG);
                   Select select = new Select(Util.toElement(driver, formControl, body));
                   if (select.isMultiple()) {
                     select.deselectAll();
@@ -180,17 +178,13 @@ public class QueryForm {
                 } else if ("input".equalsIgnoreCase(formControl.tagName)
                     && ("text".equalsIgnoreCase(formControl.type)
                     || "search".equalsIgnoreCase(formControl.type))) {
-                  if (WebApp.DEBUG) {
-                    System.out.println("Query Form: input[text|search]");
-                  }
+                  Log.debug("Query Form: input[text|search]", WebApp.DEBUG);
                   WebElement element = Util.toElement(driver, formControl, body);
                   valueChanged = QueryCommon.typeText(driver, element, entry.getValue().get(0), true, false);
                 } else if ("input".equalsIgnoreCase(formControl.tagName)
                     && ("checkbox".equalsIgnoreCase(formControl.type)
                     || "radio".equalsIgnoreCase(formControl.type))) {
-                  if (WebApp.DEBUG) {
-                    System.out.println("Query Form: input[checkbox|radio]");
-                  }
+                  Log.debug("Query Form: input[checkbox|radio]", WebApp.DEBUG);
                   WebElement element = Util.toElement(driver, formControl, body);
                   if (entry.getValue() != null && !entry.getValue().isEmpty()) {
                     if ("radio".equalsIgnoreCase(formControl.type)) {
@@ -201,23 +195,17 @@ public class QueryForm {
                           && elementVal.equalsIgnoreCase(schemaVal)
                           && modelVal.equalsIgnoreCase(schemaVal)) {
                         if (!element.isSelected()) {
-                          if (WebApp.DEBUG) {
-                            System.out.println("Clicking radio button");
-                          }
+                          Log.debug("Clicking radio button", WebApp.DEBUG);
                           valueChanged = Util.click(driver, element);
                         }
                       }
                     } else if (!element.isSelected()) {
-                      if (WebApp.DEBUG) {
-                        System.out.println("Clicking [checkbox|radio]");
-                      }
+                      Log.debug("Clicking [checkbox|radio]", WebApp.DEBUG);
                       valueChanged = Util.click(driver, element);
                     }
                   } else {
                     if (element.isSelected()) {
-                      if (WebApp.DEBUG) {
-                        System.out.println("Deselecting [checkbox|radio]");
-                      }
+                      Log.debug("Deselecting [checkbox|radio]", WebApp.DEBUG);
                       valueChanged = true;
                       element.clear();
                       Util.driverSleepVeryShort();

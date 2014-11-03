@@ -179,9 +179,7 @@ public class Util {
         statusFail = false;
         exception = false;
         source = null;
-        if (WebApp.DEBUG) {
-          System.out.println("getting url...");
-        }
+        Log.debug("getting url...", WebApp.DEBUG);
         try {
           driver.getKeyboard().sendKeys(Keys.ESCAPE);
         } catch (Throwable t) {
@@ -260,9 +258,7 @@ public class Util {
           }
         }
       }
-      if (WebApp.DEBUG) {
-        System.out.println("getting url - done");
-      }
+      Log.debug("getting url - done", WebApp.DEBUG);
     } catch (Throwable t) {
       Log.exception(t);
       success = false;
@@ -592,7 +588,7 @@ public class Util {
       driver.executeScript(
           "      var all = document.getElementsByTagName('*');"
               + "for(var i = 0; i < all.length; i++){"
-              + "  if(all[i].className){"
+              + "  if(all[i].className && typeof all[i].className == 'string'){"
               + "    all[i].className=all[i].className.replace(/"
               + NODE_MARKER + "\\d+/g,'').replace(/"
               + HIDDEN_MARKER + "/g,'').replace(/"
@@ -993,11 +989,9 @@ public class Util {
   }
 
   public static boolean doClicks(RemoteWebDriver driver, HtmlNode[] controls, Element body) throws ActionFailed {
-    if (WebApp.DEBUG) {
-      System.out.println("Doing clicks");
-    }
     boolean clicked = false;
     if (controls != null && controls.length > 0) {
+      Log.debug("Doing clicks", WebApp.DEBUG);
       if (body == null) {
         body = Util.openElement(driver, null, null, null);
       }
@@ -1298,7 +1292,7 @@ public class Util {
     }
     if (WebApp.DEBUG) {
       for (String url : urls) {
-        System.out.println("result: " + url);
+        Log.debug("result: " + url, WebApp.DEBUG);
       }
     }
     return newUrls;

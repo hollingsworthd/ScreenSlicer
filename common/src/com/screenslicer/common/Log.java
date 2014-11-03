@@ -54,7 +54,7 @@ public class Log {
       try {
         fh = new FileHandler("../" + loggerName + ".log", 250000, 9, true);
         logger.addHandler(fh);
-        String logLevel = System.getProperty("screenslicer-logging", "prod");
+        String logLevel = System.getProperty("slicer_log", "prod");
         if (logLevel.equals("prod")) {
           logger.setLevel(Level.INFO);
         } else if (logLevel.equals("debug")) {
@@ -115,5 +115,16 @@ public class Log {
       init("screenslicer", true);
     }
     logger.log(Level.INFO, "Message \"" + message + "\" ~ Current stack: " + ExceptionUtils.getStackTrace(new Throwable()));
+  }
+
+  public static void debug(Object message, boolean stdOutFallback) {
+    if (logger == null) {
+      init("screenslicer", true);
+    }
+    if (logger.isLoggable(Level.FINEST)) {
+      logger.log(Level.FINEST, "Message \"" + message.toString() + "\".");
+    } else if (stdOutFallback) {
+      System.out.println("Debug -> " + message.toString());
+    }
   }
 }

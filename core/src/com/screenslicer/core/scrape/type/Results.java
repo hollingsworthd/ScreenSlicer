@@ -38,6 +38,7 @@ import org.jsoup.select.NodeVisitor;
 import com.screenslicer.api.request.KeywordQuery;
 import com.screenslicer.api.request.Query;
 import com.screenslicer.common.CommonUtil;
+import com.screenslicer.common.Log;
 import com.screenslicer.core.nlp.NlpUtil;
 import com.screenslicer.core.scrape.Dissect;
 import com.screenslicer.core.scrape.Proceed;
@@ -324,9 +325,7 @@ public class Results {
       scoreCached = new Integer((int) Math.rint(Math.rint(Math.sqrt(((score * score) / size)) * Math.sqrt(score))));
       scoreCached = scoreCached < 0 ? new Integer(0) : scoreCached;
     }
-    if (WebApp.DEBUG) {
-      System.out.println("score-> " + (naive ? scoreNaiveCached : scoreCached) + " (size: " + results.size() + ")");
-    }
+    Log.debug("score-> " + (naive ? scoreNaiveCached : scoreCached) + " (size: " + results.size() + ")", WebApp.DEBUG);
     return naive ? scoreNaiveCached : scoreCached;
   }
 

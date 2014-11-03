@@ -31,7 +31,6 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 
 import org.glassfish.grizzly.http.server.Request;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
@@ -56,17 +55,19 @@ public class HttpStatus implements WebResource {
 
   private static boolean hasContent(RemoteWebDriver driver, String src) {
     if (CommonUtil.isEmpty(src)) {
+      Log.debug("status - source is null/empty", WebApp.DEBUG);
       return false;
     }
     final boolean[] content = new boolean[1];
     try {
       Element element = null;
       if (driver == null) {
-        element = Jsoup.parse(src);
+        element = CommonUtil.parse(src, null, false);
       } else {
         element = Util.openElement(driver, null, null, null);
       }
       if (element == null) {
+        Log.debug("status - page element is null", WebApp.DEBUG);
         return false;
       }
       element.traverse(new NodeVisitor() {
@@ -81,15 +82,14 @@ public class HttpStatus implements WebResource {
         }
       });
     } catch (Throwable t) {
+      Log.debug("status exception - " + t.getMessage(), WebApp.DEBUG);
       return false;
     }
     return content[0];
   }
 
   public static int status(RemoteWebDriver driver, boolean wait) {
-    if (WebApp.DEBUG) {
-      System.out.println("check status...");
-    }
+    Log.debug("check status...", WebApp.DEBUG);
     int totalWait = 0;
     String src = null;
     while (totalWait < TIMEOUT) {
@@ -112,11 +112,16 @@ public class HttpStatus implements WebResource {
       }
       if (WebApp.DEBUG) {
         synchronized (lock) {
-          System.out.println("status=" + status);
+          Log.debug("status=" + status, WebApp.DEBUG);
         }
       }
       synchronized (lock) {
         if (status != 0) {
+          if (WebApp.DEBUG) {
+            synchronized (lock) {
+              Log.debug("returning status: " + status, WebApp.DEBUG);
+            }
+          }
           break;
         }
       }
@@ -125,23 +130,28 @@ public class HttpStatus implements WebResource {
         validLen = prevLen == len && len > MIN_LEN;
       }
       if (validLen && hasContent(null, src)) {
+        Log.debug("status - page unchanged...", WebApp.DEBUG);
         try {
           driver.getKeyboard().sendKeys(Keys.ESCAPE);
         } catch (Throwable t) {
           Log.exception(t);
         }
         Util.driverSleepVeryShort();
-        if (!hasContent(driver, src)) {
+        if (hasContent(driver, src)) {
+          synchronized (lock) {
+            status = 200;
+          }
+          Log.debug("status - page unchanged, assuming HTTP 200...", WebApp.DEBUG);
+        } else {
           synchronized (lock) {
             status = 204;
           }
+          Log.debug("status - no content...", WebApp.DEBUG);
         }
         break;
       }
       if (wait) {
-        if (WebApp.DEBUG) {
-          System.out.println("waiting for status...");
-        }
+        Log.debug("waiting for status...", WebApp.DEBUG);
         try {
           Thread.sleep(SLEEP);
         } catch (InterruptedException e) {
@@ -149,6 +159,7 @@ public class HttpStatus implements WebResource {
         }
         totalWait += SLEEP;
       } else {
+        Log.debug("status timeout...", WebApp.DEBUG);
         break;
       }
     }
@@ -173,9 +184,7 @@ public class HttpStatus implements WebResource {
           len = 0;
         }
       }
-      if (WebApp.DEBUG) {
-        System.out.println("Http status: " + newStatus);
-      }
+      Log.debug("Http status: " + newStatus, WebApp.DEBUG);
     }
     return "";
   }

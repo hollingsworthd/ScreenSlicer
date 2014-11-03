@@ -122,31 +122,23 @@ public class ProcessPage {
   private static List<Result> finalizeResults(Results results, String currentUrl,
       Element body, int page, Leniency leniency,
       boolean trim, Query query, Map<String, Object> cache) {
-    if (WebApp.DEBUG) {
-      System.out.println("Returning: (leniency) " + leniency.name());
-    }
+    Log.debug("Returning: (leniency) " + leniency.name(), WebApp.DEBUG);
     if (trim && !results.results().isEmpty()) {
       Results untrimmed = perform(body, page, leniency, false, query, cache);
       int trimmedScore = results.fieldScore(true, false);
       int untrimmedScore = untrimmed.fieldScore(true, false);
       if (untrimmedScore > (int) Math.rint(((double) trimmedScore) * 1.05d)) {
-        if (WebApp.DEBUG) {
-          System.out.println("Un-trimmed selected.");
-        }
+        Log.debug("Un-trimmed selected.", WebApp.DEBUG);
         return Util.fixUrls(untrimmed.results(), currentUrl);
       }
     }
-    if (WebApp.DEBUG) {
-      System.out.println("Trimmed selected.");
-    }
+    Log.debug("Trimmed selected.", WebApp.DEBUG);
     return Util.fixUrls(results.results(), currentUrl);
   }
 
   private static Results perform(Element body, int page,
       Leniency leniency, boolean trim, Query query, Map<String, Object> cache) {
-    if (WebApp.DEBUG) {
-      System.out.println("-Perform-> " + "leniency=" + leniency.name() + "; trim=" + trim);
-    }
+    Log.debug("-Perform-> " + "leniency=" + leniency.name() + "; trim=" + trim, WebApp.DEBUG);
     Extract.Cache extractCache = cache.containsKey("extractCache")
         ? (Extract.Cache) cache.get("extractCache") : new Extract.Cache();
     cache.put("extractCache", extractCache);
@@ -180,9 +172,7 @@ public class ProcessPage {
     int max = CommonUtil.max(scores);
     for (int i = 0; i < results.size(); i++) {
       if (results.get(i) != null && scores.get(i) == max) {
-        if (WebApp.DEBUG) {
-          System.out.println("-->results" + (i + 1));
-        }
+        Log.debug("-->results" + (i + 1), WebApp.DEBUG);
         return results.get(i);
       }
     }
