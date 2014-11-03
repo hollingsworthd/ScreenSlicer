@@ -162,8 +162,8 @@ public final class HtmlNode {
     builder.append(toStringHelper("innerText", innerText));
     builder.append(toStringHelper("innerHtml", innerHtml));
     builder.append(toStringHelper("multiple", multiple));
+    builder.append(toStringHelper("optionLabels", CommonUtil.toString(optionLabels, ",")));
     builder.append(toStringHelper("optionValues", CommonUtil.toString(optionValues, ",")));
-    builder.append(toStringHelper("optionValues", CommonUtil.toString(optionLabels, ",")));
     builder.append(toStringHelper("guid", guid));
     builder.append(toStringHelper("guidName", guidName));
     return builder.toString();
