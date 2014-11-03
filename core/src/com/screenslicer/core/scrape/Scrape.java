@@ -424,7 +424,7 @@ public class Scrape {
             content = Util.clean(content, driver.getCurrentUrl()).outerHtml();
             if (WebApp.DEBUG) {
               try {
-                FileUtils.writeStringToFile(new File("./" + System.currentTimeMillis()), content);
+                FileUtils.writeStringToFile(new File("./" + System.currentTimeMillis() + ".log.fetch"), content);
               } catch (IOException e) {}
             }
             //TODO make iframes work
