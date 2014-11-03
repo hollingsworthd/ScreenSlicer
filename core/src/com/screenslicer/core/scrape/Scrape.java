@@ -138,18 +138,24 @@ public class Scrape {
             } else {
               profile.setPreference("extensions.closeproxyauth.authtoken", "");
             }
-            if (Proxy.TYPE_SOCKS_5.equals(proxy.type) || Proxy.TYPE_SOCKS_4.equals(proxy.type)) {
+            if (Proxy.TYPE_ALL.equals(proxy.type)
+                || Proxy.TYPE_SOCKS_5.equals(proxy.type)
+                || Proxy.TYPE_SOCKS_4.equals(proxy.type)) {
               profile.setPreference("network.proxy.type", 1);
               profile.setPreference("network.proxy.socks", proxy.ip);
               profile.setPreference("network.proxy.socks_port", proxy.port);
               profile.setPreference("network.proxy.socks_remote_dns", true);
               profile.setPreference("network.proxy.socks_version",
-                  Proxy.TYPE_SOCKS_5.equals(proxy.type) ? 5 : 4);
-            } else if (Proxy.TYPE_SSL.equals(proxy.type)) {
+                  Proxy.TYPE_ALL.equals(proxy.type) || Proxy.TYPE_SOCKS_5.equals(proxy.type) ? 5 : 4);
+            }
+            if (Proxy.TYPE_ALL.equals(proxy.type)
+                || Proxy.TYPE_SSL.equals(proxy.type)) {
               profile.setPreference("network.proxy.type", 1);
               profile.setPreference("network.proxy.ssl", proxy.ip);
               profile.setPreference("network.proxy.ssl_port", proxy.port);
-            } else if (Proxy.TYPE_HTTP.equals(proxy.type)) {
+            }
+            if (Proxy.TYPE_ALL.equals(proxy.type)
+                || Proxy.TYPE_HTTP.equals(proxy.type)) {
               profile.setPreference("network.proxy.type", 1);
               profile.setPreference("network.proxy.http", proxy.ip);
               profile.setPreference("network.proxy.http_port", proxy.port);
