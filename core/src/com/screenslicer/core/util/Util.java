@@ -996,7 +996,11 @@ public class Util {
         body = Util.openElement(driver, null, null, null);
       }
       for (int i = 0; i < controls.length; i++) {
-        if (i > 0 && controls[i - 1].longRequest) {
+        if (!CommonUtil.isEmpty(controls[i].httpGet)) {
+          Util.get(driver, controls[i].httpGet, true, false);
+          continue;
+        }
+        if (i > 0 && (controls[i - 1].longRequest || !CommonUtil.isEmpty(controls[i - 1].httpGet))) {
           body = Util.openElement(driver, null, null, null);
         }
         WebElement element = Util.toElement(driver, controls[i], body);

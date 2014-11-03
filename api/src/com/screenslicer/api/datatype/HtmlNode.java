@@ -72,6 +72,10 @@ public final class HtmlNode {
   public boolean longRequest = false;
 
   /**
+   * Specifies a URL to HTTP GET directly, instead of a DOM element.
+   */
+  public String httpGet;
+  /**
    * HTML tag name (e.g., select, button, form, a)
    */
   public String tagName;
