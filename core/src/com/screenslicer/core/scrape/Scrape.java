@@ -321,7 +321,7 @@ public class Scrape {
           Log.info("Fetching URL " + result.url() + ". Cached: " + query.fetchCached, false);
           try {
             result.attach(getHelper(driver, query.throttle, result.urlNode(), result.url(), query.fetchCached,
-                req.runGuid, cleanupWindows && query == null, query == null ? null : query.postFetchClicks));
+                req.runGuid, query.fetchInNewWindow, cleanupWindows && query == null, query == null ? null : query.postFetchClicks));
             if (recQuery != null) {
               req.continueSession = true;
               recResults.addAll(scrape(recQuery, req, true));
@@ -343,7 +343,7 @@ public class Scrape {
       } catch (Throwable t) {
         Log.exception(t);
       } finally {
-        if (query.fetchCached && origHandle.equals(newHandle)) {
+        if (!query.fetchInNewWindow || (query.fetchCached && origHandle.equals(newHandle))) {
           Log.exception(new Throwable("Failed opening new window"));
           Util.get(driver, origUrl, true, cleanupWindows);
         } else {
@@ -360,7 +360,7 @@ public class Scrape {
 
   private static String getHelper(final RemoteWebDriver driver, final boolean throttle,
       final Node urlNode, final String url, final boolean p_cached, final String runGuid,
-      final boolean cleanupWindows, final HtmlNode[] postFetchClicks) {
+      final boolean toNewWindow, final boolean cleanupWindows, final HtmlNode[] postFetchClicks) {
     final String urlHash = CommonUtil.isEmpty(url) ? null : Crypto.fastHash(url);
     final long time = System.currentTimeMillis();
     if (urlHash != null) {
@@ -400,7 +400,7 @@ public class Scrape {
             String content = null;
             if (!cached) {
               try {
-                Util.get(driver, url, urlNode, false, cleanupWindows);
+                Util.get(driver, url, urlNode, false, toNewWindow, cleanupWindows);
               } catch (Throwable t) {
                 if (urlNode != null) {
                   Util.newWindow(driver, cleanupWindows);
@@ -541,7 +541,7 @@ public class Scrape {
     Log.info("Get URL " + fetch.url + ". Cached: " + fetch.fetchCached, false);
     String resp = "";
     try {
-      resp = getHelper(driver, fetch.throttle, null, fetch.url, fetch.fetchCached, req.runGuid, true, fetch.postFetchClicks);
+      resp = getHelper(driver, fetch.throttle, null, fetch.url, fetch.fetchCached, req.runGuid, true, true, fetch.postFetchClicks);
     } catch (Throwable t) {
       Log.exception(t);
     } finally {

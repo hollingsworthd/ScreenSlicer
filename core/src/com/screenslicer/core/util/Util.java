@@ -161,7 +161,7 @@ public class Util {
     } catch (InterruptedException e) {}
   }
 
-  public static void get(RemoteWebDriver driver, String url, Node urlNode, boolean retry, boolean cleanupWindows) throws ActionFailed {
+  public static void get(RemoteWebDriver driver, String url, Node urlNode, boolean retry, boolean toNewWindow, boolean cleanupWindows) throws ActionFailed {
     if (CommonUtil.isEmpty(url) && urlNode == null) {
       throw new ActionFailed();
     }
@@ -199,7 +199,11 @@ public class Util {
           if (urlNode != null) {
             try {
               Set<String> origHandles = driver.getWindowHandles();
-              Util.clickToNewWindow(driver, toElement(driver, urlNode));
+              if (toNewWindow) {
+                Util.clickToNewWindow(driver, toElement(driver, urlNode));
+              } else {
+                Util.click(driver, toElement(driver, urlNode));
+              }
               Set<String> newHandles = driver.getWindowHandles();
               String switchTo = null;
               for (String newHandle : newHandles) {
@@ -278,7 +282,7 @@ public class Util {
   }
 
   public static void get(RemoteWebDriver driver, String url, boolean retry, boolean cleanupWindows) throws ActionFailed {
-    get(driver, url, null, retry, cleanupWindows);
+    get(driver, url, null, retry, true, cleanupWindows);
   }
 
   public static String newWindow(RemoteWebDriver driver, boolean cleanupWindows) throws ActionFailed {

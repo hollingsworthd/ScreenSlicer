@@ -76,6 +76,10 @@ public abstract class Query {
    */
   public boolean fetchCached;
   /**
+   * Whether to fetch results in a new window.
+   */
+  public boolean fetchInNewWindow = true;
+  /**
    * Whether to extract results or just return all the HTML
    */
   public boolean extract = true;
