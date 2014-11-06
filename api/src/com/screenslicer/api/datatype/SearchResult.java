@@ -24,13 +24,26 @@
  */
 package com.screenslicer.api.datatype;
 
+import java.io.File;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.io.FileUtils;
+
 import com.google.gson.reflect.TypeToken;
 import com.screenslicer.common.CommonUtil;
+import com.screenslicer.common.Crypto;
+import com.screenslicer.common.Log;
+import com.screenslicer.common.Random;
 
 public final class SearchResult {
+  static {
+    File cache = new File("./result_cache/");
+    if (!cache.exists()) {
+      cache.mkdir();
+    }
+  }
+
   public static final SearchResult instance(String json) {
     return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
   }
@@ -68,6 +81,10 @@ public final class SearchResult {
    */
   public String url;
   /**
+   * HTML fragment of the url
+   */
+  public String urlNode;
+  /**
    * Title of the result as it appears on the search page
    */
   public String title;
@@ -92,4 +109,60 @@ public final class SearchResult {
    * Main portion of text of the page at the result URL
    */
   public String pageText;
+  /**
+   * Key for this SearchResult when streaming is enabled.
+   */
+  public String key = null;
+
+  public void close() {
+    try {
+      if (key == null) {
+        String id = Random.next();
+        key = CommonUtil.myInstance() + "@" + id;
+        FileUtils.writeStringToFile(new File("./result_cache/" + id),
+            Crypto.encode(CommonUtil.compress(toJson(this))), "utf-8");
+        url = null;
+        urlNode = null;
+        title = null;
+        summary = null;
+        date = null;
+        html = null;
+        pageHtml = null;
+        pageText = null;
+      }
+    } catch (Throwable t) {
+      Log.exception(t);
+    }
+  }
+
+  public void remove() {
+    if (key != null) {
+      String[] parts = key.split("@", 2);
+      FileUtils.deleteQuietly(new File("./result_cache/" + parts[1]));
+    }
+  }
+
+  public void open() {
+    try {
+      if (key != null) {
+        String[] parts = key.split("@", 2);
+        File file = new File("./result_cache/" + parts[1]);
+        SearchResult cached = instance(CommonUtil.decompress(Crypto.decode(
+            FileUtils.readFileToString(file, "utf-8"))));
+        FileUtils.deleteQuietly(file);
+        this.url = cached.url;
+        this.urlNode = cached.urlNode;
+        this.title = cached.title;
+        this.summary = cached.summary;
+        this.date = cached.date;
+        this.html = cached.html;
+        this.pageHtml = cached.pageHtml;
+        this.pageText = cached.pageText;
+        key = null;
+        cached = null;
+      }
+    } catch (Throwable t) {
+      Log.exception(t);
+    }
+  }
 }

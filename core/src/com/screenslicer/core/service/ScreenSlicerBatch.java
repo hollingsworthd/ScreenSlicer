@@ -219,6 +219,29 @@ public class ScreenSlicerBatch implements WebResource {
   }
 
   @POST
+  @Path("stream-search-result")
+  @Produces("application/json")
+  @Consumes("application/json")
+  public static Response streamSearchResult(String reqString) {
+    String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
+    if (reqDecoded != null) {
+      Request req = null;
+      try {
+        SearchResult searchResult = CommonUtil.gson.fromJson(reqDecoded, SearchResult.class);
+        searchResult.open();
+        return Response.ok(Crypto.encode(CommonUtil.gson.toJson(searchResult), CommonUtil.myInstance())).build();
+      } catch (Throwable t) {
+        Log.exception(t);
+      } finally {
+        if (req != null) {
+          done(req.runGuid);
+        }
+      }
+    }
+    return Response.ok(null).build();
+  }
+
+  @POST
   @Path("extract-person")
   @Produces("application/json")
   @Consumes("application/json")

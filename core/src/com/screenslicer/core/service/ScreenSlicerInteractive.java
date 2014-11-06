@@ -33,11 +33,11 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
+import com.screenslicer.api.datatype.SearchResult;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Crypto;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape;
-import com.screenslicer.core.scrape.type.Result;
 import com.screenslicer.webapp.WebResource;
 
 @Path("core")
@@ -71,15 +71,15 @@ public class ScreenSlicerInteractive implements WebResource {
     return Response.ok("").build();
   }
 
-  private static Response buildResp(List<Result> results) {
+  private static Response buildResp(List<SearchResult> results) {
     if (results != null && results != Scrape.WAITING) {
       List<ResponseResult> resp = new ArrayList<ResponseResult>();
-      for (Result result : results) {
+      for (SearchResult result : results) {
         ResponseResult r = new ResponseResult();
-        r.url = result.url();
-        r.title = result.title();
-        r.date = result.date();
-        r.summary = result.summary();
+        r.url = result.url;
+        r.title = result.title;
+        r.date = result.date;
+        r.summary = result.summary;
         resp.add(r);
       }
       return Response.ok(CommonUtil.gson.toJson(resp)).build();

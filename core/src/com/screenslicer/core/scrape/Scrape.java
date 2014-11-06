@@ -58,7 +58,6 @@ import com.screenslicer.common.Log;
 import com.screenslicer.common.Random;
 import com.screenslicer.core.scrape.Proceed.End;
 import com.screenslicer.core.scrape.neural.NeuralNetManager;
-import com.screenslicer.core.scrape.type.Result;
 import com.screenslicer.core.service.ScreenSlicerBatch;
 import com.screenslicer.core.util.Util;
 import com.screenslicer.webapp.WebApp;
@@ -98,7 +97,7 @@ public class Scrape {
   private static final int MIN_FETCH_CACHE_PAGE_LEN = 2500;
   private static final long FETCH_LOCAL_CACHE_EXPIRES = 2 * 60 * 60 * 1000;
 
-  public static final List<Result> WAITING = new ArrayList<Result>();
+  public static final List<SearchResult> WAITING = new ArrayList<SearchResult>();
 
   public static class ActionFailed extends Exception {
     private static final long serialVersionUID = 1L;
@@ -257,10 +256,10 @@ public class Scrape {
     }
   }
 
-  public static List<Result> cached(String mapKey) {
+  public static List<SearchResult> cached(String mapKey) {
     synchronized (cacheLock) {
       if (nextResults.containsKey(mapKey)) {
-        List<Result> ret = nextResults.get(mapKey);
+        List<SearchResult> ret = nextResults.get(mapKey);
         if (ret == null) {
           return WAITING;
         }
@@ -301,7 +300,7 @@ public class Scrape {
   }
 
   private static void fetch(RemoteWebDriver driver, Request req, Query query, Query recQuery,
-      List<Result> results, boolean cleanupWindows, List<SearchResult> recResults) throws ActionFailed {
+      List<SearchResult> results, boolean cleanupWindows, List<SearchResult> recResults) throws ActionFailed {
     try {
       String origHandle = driver.getWindowHandle();
       String origUrl = driver.getCurrentUrl();
@@ -310,18 +309,29 @@ public class Scrape {
         newHandle = Util.newWindow(driver, cleanupWindows);
       }
       try {
-        for (Result result : results) {
-          if (query.requireResultAnchor && !isUrlValid(result.url())
-              && Util.uriScheme.matcher(result.url()).matches()) {
+        for (SearchResult result : results) {
+          if (query.requireResultAnchor && !isUrlValid(result.url)
+              && Util.uriScheme.matcher(result.url).matches()) {
+            result.close();
             continue;
           }
           if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
             return;
           }
-          Log.info("Fetching URL " + result.url() + ". Cached: " + query.fetchCached, false);
+          Log.info("Fetching URL " + result.url + ". Cached: " + query.fetchCached, false);
           try {
-            result.attach(getHelper(driver, query.throttle, result.urlNode(), result.url(), query.fetchCached,
-                req.runGuid, query.fetchInNewWindow, cleanupWindows && query == null, query == null ? null : query.postFetchClicks));
+            result.pageHtml = getHelper(driver, query.throttle,
+                CommonUtil.parseFragment(result.urlNode, false), result.url, query.fetchCached,
+                req.runGuid, query.fetchInNewWindow, cleanupWindows && query == null,
+                query == null ? null : query.postFetchClicks);
+            if (!CommonUtil.isEmpty(result.pageHtml)) {
+              try {
+                result.pageText = NumWordsRulesExtractor.INSTANCE.getText(result.pageHtml);
+              } catch (Throwable t) {
+                result.pageText = null;
+                Log.exception(t);
+              }
+            }
             if (recQuery != null) {
               req.continueSession = true;
               recResults.addAll(scrape(recQuery, req, true));
@@ -338,6 +348,9 @@ public class Scrape {
             }
           } catch (Throwable t) {
             Log.exception(t);
+          }
+          if (query.streaming) {
+            result.close();
           }
         }
       } catch (Throwable t) {
@@ -368,7 +381,7 @@ public class Scrape {
         if (fetchLocalCache.containsKey(urlHash)) {
           if (time - fetchLocalCache.get(urlHash) < FETCH_LOCAL_CACHE_EXPIRES) {
             try {
-              return FileUtils.readFileToString(new File("./fetch_local_cache/" + urlHash), "utf-8");
+              return CommonUtil.decompress(Crypto.decode(FileUtils.readFileToString(new File("./fetch_local_cache/" + urlHash), "utf-8")));
             } catch (Throwable t) {
               Log.exception(t);
               fetchLocalCache.remove(urlHash);
@@ -509,7 +522,7 @@ public class Scrape {
                 }
                 fetchLocalCache.clear();
               }
-              FileUtils.writeStringToFile(new File("./fetch_local_cache/" + urlHash), result[0], "utf-8", false);
+              FileUtils.writeStringToFile(new File("./fetch_local_cache/" + urlHash), Crypto.encode(CommonUtil.compress(result[0])), "utf-8", false);
               fetchLocalCache.put(urlHash, time);
             }
           }
@@ -551,9 +564,9 @@ public class Scrape {
     return resp;
   }
 
-  private static List<Result> filterResults(List<Result> results, String[] whitelist,
+  private static List<SearchResult> filterResults(List<SearchResult> results, String[] whitelist,
       String[] patterns, HtmlNode[] urlNodes, UrlTransform[] urlTransforms, boolean forExport) {
-    List<Result> filtered = new ArrayList<Result>();
+    List<SearchResult> filtered = new ArrayList<SearchResult>();
     if (results == null) {
       return filtered;
     }
@@ -563,13 +576,13 @@ public class Scrape {
         && (urlNodes == null || urlNodes.length == 0)) {
       filtered = results;
     } else {
-      for (Result result : results) {
+      for (SearchResult result : results) {
         if (!Util.isResultFiltered(result, whitelist, patterns, urlNodes)) {
           filtered.add(result);
         }
       }
       if (filtered.isEmpty() && !results.isEmpty()) {
-        Log.warn("Filtered every url, e.g., " + results.get(0).url());
+        Log.warn("Filtered every url, e.g., " + results.get(0).url);
       }
     }
     return filtered;
@@ -609,9 +622,9 @@ public class Scrape {
   }
 
   private static void handlePage(Request req, Query query, int page, boolean recursive,
-      List<Result> results, List<SearchResult> recResults, List<String> resultPages) throws ActionFailed {
+      List<SearchResult> results, List<SearchResult> recResults, List<String> resultPages) throws ActionFailed {
     if (query.extract) {
-      List<Result> newResults = ProcessPage.perform(driver, page, query);
+      List<SearchResult> newResults = ProcessPage.perform(driver, page, query);
       newResults = filterResults(newResults, query.urlWhitelist, query.urlPatterns,
           query.urlMatchNodes, query.urlTransforms, false);
       if (query.results > 0 && results.size() + newResults.size() > query.results) {
@@ -624,6 +637,11 @@ public class Scrape {
         fetch(driver, req, query,
             query.keywordQuery == null ? (query.formQuery == null ? null : query.formQuery) : query.keywordQuery,
             newResults, !recursive, recResults);
+      }
+      if (query.streaming) {
+        for (SearchResult result : newResults) {
+          result.close();
+        }
       }
       results.addAll(newResults);
     } else {
@@ -652,7 +670,7 @@ public class Scrape {
     }
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
-    List<Result> results = new ArrayList<Result>();
+    List<SearchResult> results = new ArrayList<SearchResult>();
     List<SearchResult> recResults = new ArrayList<SearchResult>();
     List<String> resultPages = new ArrayList<String>();
     try {
@@ -711,31 +729,13 @@ public class Scrape {
     }
     if (query.extract) {
       if (recResults.isEmpty()) {
-        List<SearchResult> extractedResults = new ArrayList<SearchResult>();
-        if (results != null) {
-          results = filterResults(results, query.urlWhitelist, query.urlPatterns,
-              query.urlMatchNodes, query.urlTransforms, true);
-          for (Result result : results) {
-            Util.clean(result.getNodes());
-            SearchResult r = new SearchResult();
-            r.url = result.url();
-            r.title = result.title();
-            r.date = result.date();
-            r.summary = result.summary();
-            r.html = Util.outerHtml(result.getNodes());
-            r.pageHtml = result.attachment();
-            if (!CommonUtil.isEmpty(r.pageHtml)) {
-              try {
-                r.pageText = NumWordsRulesExtractor.INSTANCE.getText(r.pageHtml);
-              } catch (Throwable t) {
-                r.pageText = null;
-                Log.exception(t);
-              }
-            }
-            extractedResults.add(r);
-          }
+        return filterResults(results, query.urlWhitelist,
+            query.urlPatterns, query.urlMatchNodes, query.urlTransforms, true);
+      }
+      if (query.streaming) {
+        for (SearchResult result : results) {
+          result.remove();
         }
-        return extractedResults;
       }
       return recResults;
     }
@@ -752,9 +752,9 @@ public class Scrape {
     return !CommonUtil.isEmpty(url) && (url.startsWith("https://") || url.startsWith("http://"));
   }
 
-  public static List<Result> scrape(String url, final String query, final int pages, final String mapKey1, final String mapKey2) {
+  public static List<SearchResult> scrape(String url, final String query, final int pages, final String mapKey1, final String mapKey2) {
     if (!isUrlValid(url)) {
-      return new ArrayList<Result>();
+      return new ArrayList<SearchResult>();
     }
     if (!done.compareAndSet(true, false)) {
       return null;
@@ -762,7 +762,7 @@ public class Scrape {
     restart(new Request());
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
-    List<Result> results = new ArrayList<Result>();
+    List<SearchResult> results = new ArrayList<SearchResult>();
     final KeywordQuery keywordQuery = new KeywordQuery();
     try {
       synchronized (progressLock) {
@@ -807,7 +807,7 @@ public class Scrape {
     new Thread(new Runnable() {
       @Override
       public void run() {
-        List<Result> next = new ArrayList<Result>();
+        List<SearchResult> next = new ArrayList<SearchResult>();
         try {
           synchronized (progressLock) {
             progress2 = "Page 2 progress: getting page...";

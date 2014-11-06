@@ -58,6 +58,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.screenslicer.api.datatype.HtmlNode;
+import com.screenslicer.api.datatype.SearchResult;
 import com.screenslicer.api.datatype.UrlTransform;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
@@ -136,6 +137,7 @@ public class Util {
   public static final boolean DEBUG = false;
   private static Pattern attributes = Pattern.compile("(?<=<\\w{1,15}\\s)[^>]+(?=>)", Pattern.UNICODE_CHARACTER_CLASS);
   private static int STARTUP_WAIT_MS = 100;
+  private static int RESTART_WAIT_MS = 6000;
   private static int LONG_WAIT_MS = 5837;
   private static int SHORT_WAIT_MS = 1152;
   private static int SHORT_WAIT_MIN_MS = 3783;
@@ -158,6 +160,12 @@ public class Util {
   public static void driverSleepStartup() {
     try {
       Thread.sleep(STARTUP_WAIT_MS);
+    } catch (InterruptedException e) {}
+  }
+
+  public static void driverSleepRestart() {
+    try {
+      Thread.sleep(RESTART_WAIT_MS);
     } catch (InterruptedException e) {}
   }
 
@@ -654,8 +662,8 @@ public class Util {
     }
   }
 
-  public static boolean isResultFiltered(Result result, String[] whitelist, String[] patterns, HtmlNode[] urlNodes) {
-    return isUrlFiltered(null, result.url(), result.urlNode(), whitelist, patterns, urlNodes, null);
+  public static boolean isResultFiltered(SearchResult result, String[] whitelist, String[] patterns, HtmlNode[] urlNodes) {
+    return isUrlFiltered(null, result.url, CommonUtil.parseFragment(result.urlNode, false), whitelist, patterns, urlNodes, null);
   }
 
   private static boolean isUrlFiltered(String currentUrl, String url, Node urlNode, String[] whitelist,
@@ -1359,17 +1367,17 @@ public class Util {
     return transformUrlStrings(urls, urlTransforms, forExport).get(0);
   }
 
-  public static List<Result> transformUrls(List<Result> results, UrlTransform[] urlTransforms, boolean forExport) {
+  public static List<SearchResult> transformUrls(List<SearchResult> results, UrlTransform[] urlTransforms, boolean forExport) {
     if (results == null) {
       return null;
     }
     List<String> urls = new ArrayList<String>();
-    for (Result result : results) {
-      urls.add(result.url());
+    for (SearchResult result : results) {
+      urls.add(result.url);
     }
     urls = transformUrlStrings(urls, urlTransforms, forExport);
     for (int i = 0; urls != null && i < results.size(); i++) {
-      results.get(i).tweakUrl(urls.get(i));
+      results.get(i).url = urls.get(i);
     }
     return results;
   }

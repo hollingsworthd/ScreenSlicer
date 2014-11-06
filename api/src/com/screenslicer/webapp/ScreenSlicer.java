@@ -62,6 +62,7 @@ public final class ScreenSlicer {
   public static final List<SearchResult> NULL_RESULTS = Collections.unmodifiableList(Arrays.asList(new SearchResult[0]));
   public static final List<HtmlNode> NULL_CONTROLS = Collections.unmodifiableList(Arrays.asList(new HtmlNode[0]));
   public static final Contact NULL_CONTACT = new Contact();
+  public static final SearchResult NULL_SEARCH_RESULT = new SearchResult();
   public static final String NULL_FETCH = "";
 
   private static final Contact nullContact() {
@@ -71,6 +72,15 @@ public final class ScreenSlicer {
       } catch (Throwable t) {}
     }
     return NULL_CONTACT;
+  }
+
+  private static final SearchResult nullSearchResult() {
+    for (Field field : SearchResult.class.getFields()) {
+      try {
+        field.set(NULL_SEARCH_RESULT, null);
+      } catch (Throwable t) {}
+    }
+    return NULL_SEARCH_RESULT;
   }
 
   public static final synchronized void startCustomApp(final ScreenSlicer.CustomApp customApp) {
@@ -146,6 +156,20 @@ public final class ScreenSlicer {
       Log.exception(t);
     }
     return NULL_RESULTS;
+  }
+
+  public static final SearchResult streamSearchResult(SearchResult args) {
+    try {
+      String instance = args.key.split("@", 2)[0];
+      SearchResult ret = CommonUtil.gson.fromJson(CommonUtil.post(
+          "http://" + instance + ":8888/core-batch/stream-search-result",
+          instance, SearchResult.toJson(args)),
+          new TypeToken<SearchResult>() {}.getType());
+      return ret;
+    } catch (Throwable t) {
+      Log.exception(t);
+    }
+    return nullSearchResult();
   }
 
   public static final List<HtmlNode> loadForm(Request request, FormLoad args) {

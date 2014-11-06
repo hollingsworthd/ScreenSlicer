@@ -24,6 +24,8 @@
  */
 package com.screenslicer.common;
 
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
 import java.lang.reflect.Field;
 import java.lang.reflect.Type;
@@ -48,6 +50,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.TimeZone;
 import java.util.regex.Pattern;
+import java.util.zip.Deflater;
+import java.util.zip.GZIPInputStream;
+import java.util.zip.GZIPOutputStream;
 
 import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.core.Response;
@@ -104,6 +109,40 @@ public class CommonUtil {
       return Long.compare(Long.parseLong((String) rhs.get(fieldName)),
           Long.parseLong((String) lhs.get(fieldName)));
     }
+  }
+
+  public static String compress(String string) {
+    if (string == null) {
+      return null;
+    }
+    try {
+      ByteArrayOutputStream out = new ByteArrayOutputStream();
+      GZIPOutputStream gzip = new GZIPOutputStream(out) {
+        {
+          def.setLevel(Deflater.BEST_COMPRESSION);
+        }
+      };
+      gzip.write(string.getBytes("utf-8"));
+      gzip.close();
+      return Base64.encodeBase64String(out.toByteArray());
+    } catch (Throwable t) {
+      Log.exception(t);
+    }
+    return null;
+  }
+
+  public static String decompress(String string) {
+    if (string == null) {
+      return null;
+    }
+    try {
+      GZIPInputStream in = new GZIPInputStream(
+          new ByteArrayInputStream(Base64.decodeBase64(string.getBytes("utf-8"))));
+      return IOUtils.toString(in, "utf-8");
+    } catch (Throwable t) {
+      Log.exception(t);
+    }
+    return null;
   }
 
   static String myInstance = null;

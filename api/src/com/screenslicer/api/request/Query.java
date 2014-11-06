@@ -30,6 +30,11 @@ import com.screenslicer.api.datatype.UrlTransform;
 
 public abstract class Query {
   /**
+   * Whether to return only a unique ID for each SearchResult which can later be
+   * used to request the actual content. Useful for very large result sets.
+   */
+  public boolean streaming;
+  /**
    * URL of search page
    */
   public String site;

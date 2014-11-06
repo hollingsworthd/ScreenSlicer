@@ -37,6 +37,7 @@ import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+import com.screenslicer.api.datatype.SearchResult;
 import com.screenslicer.api.request.Query;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
@@ -79,7 +80,7 @@ public class ProcessPage {
     return null;
   }
 
-  public static List<Result> perform(RemoteWebDriver driver, int page, Query query) throws ActionFailed {
+  public static List<SearchResult> perform(RemoteWebDriver driver, int page, Query query) throws ActionFailed {
     try {
       Element element = Util.openElement(driver,
           query.proactiveUrlFiltering ? query.urlWhitelist : null,
@@ -97,7 +98,19 @@ public class ProcessPage {
       if (results == null || results.isEmpty()) {
         results = perform(element, page, driver.getCurrentUrl(), false, query, cache);
       }
-      return results;
+      List<SearchResult> searchResults = new ArrayList<SearchResult>();
+      for (Result result : results) {
+        SearchResult r = new SearchResult();
+        r.urlNode = result.urlNode().outerHtml();
+        Util.clean(result.getNodes());
+        r.url = result.url();
+        r.title = result.title();
+        r.date = result.date();
+        r.summary = result.summary();
+        r.html = Util.outerHtml(result.getNodes());
+        searchResults.add(r);
+      }
+      return searchResults;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
