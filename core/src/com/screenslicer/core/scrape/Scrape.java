@@ -349,7 +349,7 @@ public class Scrape {
           } catch (Throwable t) {
             Log.exception(t);
           }
-          if (query.streaming) {
+          if (query.collapse) {
             result.close();
           }
         }
@@ -638,7 +638,7 @@ public class Scrape {
             query.keywordQuery == null ? (query.formQuery == null ? null : query.formQuery) : query.keywordQuery,
             newResults, !recursive, recResults);
       }
-      if (query.streaming) {
+      if (query.collapse) {
         for (SearchResult result : newResults) {
           result.close();
         }
@@ -732,7 +732,7 @@ public class Scrape {
         return filterResults(results, query.urlWhitelist,
             query.urlPatterns, query.urlMatchNodes, query.urlTransforms, true);
       }
-      if (query.streaming) {
+      if (query.collapse) {
         for (SearchResult result : results) {
           result.remove();
         }

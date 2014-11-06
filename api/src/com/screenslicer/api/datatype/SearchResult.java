@@ -110,7 +110,7 @@ public final class SearchResult {
    */
   public String pageText;
   /**
-   * Key for this SearchResult when streaming is enabled.
+   * Key for this SearchResult when collapsing is enabled.
    */
   public String key = null;
 

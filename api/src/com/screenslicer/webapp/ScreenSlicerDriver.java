@@ -131,15 +131,15 @@ public class ScreenSlicerDriver implements WebResource {
     });
   }
 
-  @Path("stream-search-result")
+  @Path("expand-search-result")
   @POST
   @Consumes("application/json")
   @Produces("application/json; charset=utf-8")
-  public static final String streamSearchResult(final String reqString) {
+  public static final String expandSearchResult(final String reqString) {
     return process(reqString, new Callback() {
       @Override
       public String perform(Request request) {
-        return SearchResult.toJson(ScreenSlicer.streamSearchResult(
+        return SearchResult.toJson(ScreenSlicer.expandSearchResult(
             SearchResult.instance(reqString)));
       }
     });

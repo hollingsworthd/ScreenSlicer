@@ -158,11 +158,11 @@ public final class ScreenSlicer {
     return NULL_RESULTS;
   }
 
-  public static final SearchResult streamSearchResult(SearchResult args) {
+  public static final SearchResult expandSearchResult(SearchResult args) {
     try {
       String instance = args.key.split("@", 2)[0];
       SearchResult ret = CommonUtil.gson.fromJson(CommonUtil.post(
-          "http://" + instance + ":8888/core-batch/stream-search-result",
+          "http://" + instance + ":8888/core-batch/expand-search-result",
           instance, SearchResult.toJson(args)),
           new TypeToken<SearchResult>() {}.getType());
       return ret;
