@@ -219,10 +219,10 @@ public class ScreenSlicerBatch implements WebResource {
   }
 
   @POST
-  @Path("stream-search-result")
+  @Path("expand-search-result")
   @Produces("application/json")
   @Consumes("application/json")
-  public static Response streamSearchResult(String reqString) {
+  public static Response expandSearchResult(String reqString) {
     String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
     if (reqDecoded != null) {
       Request req = null;
