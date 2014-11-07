@@ -23,12 +23,30 @@
  * Keep in mind that paying customers have more rights than the AGPL alone offers.
  */
 
+// The following line of code is a Base 64 encoder/decoder from http://jsbase64.codeplex.com/ and is Copyright Vassilis Petroulias [DRDigit]
+// Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the Apache 2.0 License for the specific language governing permissions and limitations under the License.
+// Modification notice: lightly edited to work outside of a browser execution environment and also minified
+var B64={alphabet:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",lookup:null,encode:function(e){var t=B64.toUtf8(e),n=-1,r=t.length,i,s,o,u=[,,,];var a="";while(++n<r){i=t[n];s=t[++n];u[0]=i>>2;u[1]=(i&3)<<4|s>>4;if(isNaN(s))u[2]=u[3]=64;else{o=t[++n];u[2]=(s&15)<<2|o>>6;u[3]=isNaN(o)?64:o&63}a+=B64.alphabet[u[0]]+B64.alphabet[u[1]]+B64.alphabet[u[2]]+B64.alphabet[u[3]]}return a},decode:function(e){if(e.length%4)throw"InvalidCharacterError: 'B64.decode' failed: The string to be decoded is not correctly encoded.";var t=B64.fromUtf8(e),n=0,r=t.length;var i="";while(n<r){if(t[n]<128)i+=String.fromCharCode(t[n++]);else if(t[n]>191&&t[n]<224)i+=String.fromCharCode((t[n++]&31)<<6|t[n++]&63);else i+=String.fromCharCode((t[n++]&15)<<12|(t[n++]&63)<<6|t[n++]&63)}return i},toUtf8:function(e){var t=-1,n=e.length,r,i=[];if(/^[\x00-\x7f]*$/.test(e))while(++t<n)i.push(e.charCodeAt(t));else while(++t<n){r=e.charCodeAt(t);if(r<128)i.push(r);else if(r<2048)i.push(r>>6|192,r&63|128);else i.push(r>>12|224,r>>6&63|128,r&63|128)}return i},fromUtf8:function(e){var t=-1,n,r=[],i=[,,,];if(!B64.lookup){n=B64.alphabet.length;B64.lookup={};while(++t<n)B64.lookup[B64.alphabet.charAt(t)]=t;t=-1}n=e.length;while(++t<n){i[0]=B64.lookup[e.charAt(t)];i[1]=B64.lookup[e.charAt(++t)];r.push(i[0]<<2|i[1]>>4);i[2]=B64.lookup[e.charAt(++t)];if(i[2]==64)break;r.push((i[1]&15)<<4|i[2]>>2);i[3]=B64.lookup[e.charAt(++t)];if(i[3]==64)break;r.push((i[2]&3)<<6|i[3])}return r}};
+
 var {Cc, Ci, Cm, Cr, Cu} = require("chrome");
 var windows = require("sdk/window/utils");
 var browserWindows = require("sdk/windows").browserWindows;
 var {viewFor} = require("sdk/view/core");
 var tabUtil = require("sdk/tabs/utils");
 var tabs = require("sdk/tabs");
+
+var prefs = Cc["@mozilla.org/preferences-service;1"].getService(Ci.nsIPrefBranch);
+var header = null;
+try{
+  var headerValue = prefs.getComplexValue('extensions.screenslicer.headers', Ci.nsISupportsString);
+  if(headerValue){
+    header = headerValue.data;
+    if(header){
+      header = JSON.parse(B64.decode(header));
+    }
+  }
+}catch(e){}
+
 var handler = {
   QueryInterface: function(iid){
     if (iid.equals(Ci.nsISupports)
@@ -48,7 +66,12 @@ var handler = {
   },
   observe: function(aSubject, aTopic, aData){
     try{
-      aSubject.QueryInterface(Ci.nsIHttpChannel);       
+      var httpChannel = aSubject.QueryInterface(Ci.nsIHttpChannel);
+      if(header){
+        for(var headerName in header) {
+          httpChannel.setRequestHeader(headerName, header[headerName], false);
+        }
+      }
       if((aSubject.loadFlags & Ci.nsIChannel.LOAD_DOCUMENT_URI) && aSubject.loadGroup && aSubject.loadGroup.groupObserver){
         var groupObserver = aSubject.loadGroup.groupObserver;
         groupObserver.QueryInterface(Ci.nsIWebProgress);
@@ -83,6 +106,7 @@ var handler = {
   onStatusChange: function(aWebProgress, aRequest, aStatus, aMessage){},
   onSecurityChange: function(aWebProgress, aRequest, aState){},
 };
+
 Cc["@mozilla.org/observer-service;1"].getService(Ci.nsIObserverService).addObserver(handler, "http-on-modify-request", false);
 function handleWindow(){
   try{

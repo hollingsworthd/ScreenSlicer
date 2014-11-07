@@ -161,6 +161,11 @@ public class Scrape {
             }
           }
         }
+        if (!CommonUtil.isEmpty(req.httpHeaders)) {
+          profile.setPreference("extensions.screenslicer.headers",
+              Base64.encodeBase64String(CommonUtil.gson.toJson(
+                  req.httpHeaders, CommonUtil.stringType).getBytes("utf-8")));
+        }
         if (req.browserPrefs != null) {
           for (Map.Entry<String, Object> entry : req.browserPrefs.entrySet()) {
             if (entry.getValue() instanceof Integer) {

@@ -133,4 +133,8 @@ public final class Request {
    * Browser preferences
    */
   public Map<String, Object> browserPrefs;
+  /**
+   * HTTP headers added to each request
+   */
+  public Map<String, String> httpHeaders;
 }
