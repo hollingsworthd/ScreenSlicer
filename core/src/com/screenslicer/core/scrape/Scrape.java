@@ -244,6 +244,7 @@ public class Scrape {
     Capabilities capabilities = driver.getCapabilities();
     String windowUrl = driver.getCurrentUrl();
     String windowTitle = driver.getTitle();
+    int numWindows = driver.getWindowHandles().size();
     driver.getKeyboard().sendKeys(Keys.chord(Keys.CONTROL, Keys.ALT, "r"));
     while (true) {
       try {
@@ -251,6 +252,9 @@ public class Scrape {
         newDriver = new RemoteWebDriver(commandExecutor, capabilities, capabilities);
         new URL(newDriver.getCurrentUrl());
         Set<String> handles = newDriver.getWindowHandles();
+        if (numWindows != handles.size()) {
+          continue;
+        }
         for (String handle : handles) {
           newDriver.switchTo().window(handle);
           newDriver.switchTo().defaultContent();
