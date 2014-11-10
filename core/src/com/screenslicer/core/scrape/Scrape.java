@@ -26,10 +26,12 @@ package com.screenslicer.core.scrape;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
@@ -37,9 +39,12 @@ import java.util.concurrent.atomic.AtomicLong;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.FileUtils;
 import org.jsoup.nodes.Node;
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.io.TemporaryFilesystem;
+import org.openqa.selenium.remote.CommandExecutor;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.screenslicer.api.datatype.HtmlNode;
@@ -74,6 +79,7 @@ public class Scrape {
     }
   }
   private static volatile RemoteWebDriver driver = null;
+  private static volatile FirefoxDriver firefoxDriver = null;
   private static final int HANG_TIME = 10 * 60 * 1000;
   private static final int RETRIES = 7;
   private static final long WAIT = 2000;
@@ -180,6 +186,7 @@ public class Scrape {
           }
         }
         driver = new FirefoxDriver(profile);
+        firefoxDriver = (FirefoxDriver) driver;
         driver.manage().timeouts().pageLoadTimeout(req.timeout, TimeUnit.SECONDS);
         driver.manage().timeouts().setScriptTimeout(req.timeout, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
@@ -189,6 +196,7 @@ public class Scrape {
           try {
             forceQuit();
             driver = null;
+            firefoxDriver = null;
           } catch (Throwable t2) {
             Log.exception(t2);
           }
@@ -200,8 +208,8 @@ public class Scrape {
 
   public static void forceQuit() {
     try {
-      if (driver != null) {
-        ((FirefoxDriver) driver).kill();
+      if (firefoxDriver != null) {
+        firefoxDriver.kill();
         Util.driverSleepStartup();
       }
     } catch (Throwable t) {
@@ -223,10 +231,38 @@ public class Scrape {
     }
     try {
       driver = null;
+      firefoxDriver = null;
     } catch (Throwable t) {
       Log.exception(t);
     }
     start(req);
+  }
+
+  private static void reset() {
+    RemoteWebDriver newDriver = null;
+    CommandExecutor commandExecutor = driver.getCommandExecutor();
+    Capabilities capabilities = driver.getCapabilities();
+    String windowUrl = driver.getCurrentUrl();
+    String windowTitle = driver.getTitle();
+    driver.getKeyboard().sendKeys(Keys.chord(Keys.CONTROL, Keys.ALT, "r"));
+    while (true) {
+      try {
+        Util.driverSleepReset();
+        newDriver = new RemoteWebDriver(commandExecutor, capabilities, capabilities);
+        new URL(newDriver.getCurrentUrl());
+        Set<String> handles = newDriver.getWindowHandles();
+        for (String handle : handles) {
+          newDriver.switchTo().window(handle);
+          newDriver.switchTo().defaultContent();
+          if (newDriver.getCurrentUrl().equals(windowUrl)
+              && newDriver.getTitle().equals(windowTitle)) {
+            break;
+          }
+        }
+        break;
+      } catch (Throwable t) {}
+    }
+    driver = newDriver;
   }
 
   private static void push(String mapKey, List results) {
@@ -628,6 +664,7 @@ public class Scrape {
 
   private static void handlePage(Request req, Query query, int page, boolean recursive,
       List<SearchResult> results, List<SearchResult> recResults, List<String> resultPages) throws ActionFailed {
+    reset();
     if (query.extract) {
       List<SearchResult> newResults = ProcessPage.perform(driver, page, query);
       newResults = filterResults(newResults, query.urlWhitelist, query.urlPatterns,

@@ -137,7 +137,7 @@ public class Util {
   public static final boolean DEBUG = false;
   private static Pattern attributes = Pattern.compile("(?<=<\\w{1,15}\\s)[^>]+(?=>)", Pattern.UNICODE_CHARACTER_CLASS);
   private static int STARTUP_WAIT_MS = 100;
-  private static int RESTART_WAIT_MS = 6000;
+  private static int RESET_WAIT_MS = 3000;
   private static int LONG_WAIT_MS = 5837;
   private static int SHORT_WAIT_MS = 1152;
   private static int SHORT_WAIT_MIN_MS = 3783;
@@ -163,9 +163,9 @@ public class Util {
     } catch (InterruptedException e) {}
   }
 
-  public static void driverSleepRestart() {
+  public static void driverSleepReset() {
     try {
-      Thread.sleep(RESTART_WAIT_MS);
+      Thread.sleep(RESET_WAIT_MS);
     } catch (InterruptedException e) {}
   }
 
