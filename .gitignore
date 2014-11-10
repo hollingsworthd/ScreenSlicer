@@ -2,6 +2,7 @@
 .metadata/
 **/screenslicer.config
 **/fetch_local_cache
+**/result_cache
 screenslicer*.zip
 ScreenSlicer*.zip
 **/*.log.*
