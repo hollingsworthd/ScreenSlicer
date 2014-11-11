@@ -32,7 +32,6 @@ import java.lang.reflect.Type;
 import java.net.HttpURLConnection;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
-import java.net.ProtocolException;
 import java.net.SocketException;
 import java.net.URI;
 import java.net.URL;
@@ -418,47 +417,6 @@ public class CommonUtil {
     return null;
   }
 
-  public static void setMethod(HttpURLConnection httpURLConnection, String method) {
-    try {
-      httpURLConnection.setRequestMethod(method);
-      // Check whether we are running on a buggy JRE
-    } catch (final ProtocolException pe) {
-      Class<?> connectionClass = httpURLConnection
-          .getClass();
-      Field delegateField = null;
-      try {
-        delegateField = connectionClass.getDeclaredField("delegate");
-        delegateField.setAccessible(true);
-        HttpURLConnection delegateConnection = (HttpURLConnection) delegateField
-            .get(httpURLConnection);
-        setMethod(delegateConnection, method);
-      } catch (NoSuchFieldException e) {
-        // Ignore for now, keep going
-      } catch (IllegalArgumentException e) {
-        throw new RuntimeException(e);
-      } catch (IllegalAccessException e) {
-        throw new RuntimeException(e);
-      }
-      try {
-        Field methodField;
-        while (connectionClass != null) {
-          try {
-            methodField = connectionClass
-                .getDeclaredField("method");
-          } catch (NoSuchFieldException e) {
-            connectionClass = connectionClass.getSuperclass();
-            continue;
-          }
-          methodField.setAccessible(true);
-          methodField.set(httpURLConnection, method);
-          break;
-        }
-      } catch (final Exception e) {
-        throw new RuntimeException(e);
-      }
-    }
-  }
-
   public static int intVal(Object o) {
     if (o instanceof Integer) {
       return ((Integer) o).intValue();
@@ -618,8 +576,8 @@ public class CommonUtil {
         myResp = myResp.status(resp.getStatusCode());
         return myResp.build();
       }
-    } catch (Throwable e) {
-      Log.exception(e, uri);
+    } catch (Throwable t) {
+      Log.exception(t, uri);
     }
     return null;
   }
@@ -646,8 +604,8 @@ public class CommonUtil {
         return BUSY;
       }
       return Crypto.decode(IOUtils.toString(conn.getInputStream(), "utf-8"), recipient);
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
     }
     return "";
   }
@@ -669,8 +627,8 @@ public class CommonUtil {
       os.write(bytes);
       conn.connect();
       Crypto.decode(IOUtils.toString(conn.getInputStream(), "utf-8"), recipient);
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
     }
   }
 

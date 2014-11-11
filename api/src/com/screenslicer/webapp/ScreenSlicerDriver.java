@@ -226,8 +226,8 @@ public class ScreenSlicerDriver implements WebResource {
         }
         try {
           Thread.sleep(WAIT);
-        } catch (Exception e) {
-          Log.exception(e);
+        } catch (Throwable t) {
+          Log.exception(t);
         }
       }
       curThread.incrementAndGet();

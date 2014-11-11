@@ -95,8 +95,8 @@ public final class ScreenSlicerClient implements ClientWebResource {
           }
         }
       }
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
     }
     return null;
   }
@@ -121,8 +121,8 @@ public final class ScreenSlicerClient implements ClientWebResource {
           return Response.ok(Crypto.encode("", CommonUtil.myInstance())).build();
         }
       }
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
     }
     return null;
   }
@@ -144,8 +144,8 @@ public final class ScreenSlicerClient implements ClientWebResource {
           }
         }
       }
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
     }
     return null;
   }
@@ -180,8 +180,8 @@ public final class ScreenSlicerClient implements ClientWebResource {
               CommonUtil.myInstance())).build();
         }
       }
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
     }
     return null;
   }
@@ -221,8 +221,8 @@ public final class ScreenSlicerClient implements ClientWebResource {
               CommonUtil.myInstance())).build();
         }
       }
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
     }
     return null;
   }
@@ -249,8 +249,8 @@ public final class ScreenSlicerClient implements ClientWebResource {
           }
         }
       }
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
     }
     return null;
   }
@@ -320,8 +320,8 @@ public final class ScreenSlicerClient implements ClientWebResource {
                 }
                 try {
                   Thread.sleep(WAIT);
-                } catch (Exception e) {
-                  Log.exception(e);
+                } catch (Throwable t) {
+                  Log.exception(t);
                 }
               }
               curThread.incrementAndGet();

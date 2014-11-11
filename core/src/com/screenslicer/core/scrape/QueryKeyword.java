@@ -32,7 +32,8 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.request.KeywordQuery;
@@ -70,7 +71,7 @@ public class QueryKeyword {
   }
 
   private static List<WebElement> findSearchBox(
-      RemoteWebDriver driver, boolean strict) throws ActionFailed {
+      BrowserDriver driver, boolean strict) throws ActionFailed {
     try {
       List<WebElement> searchBoxes = new ArrayList<WebElement>();
       List<WebElement> allInputs = driver.findElementsByTagName("input");
@@ -80,7 +81,6 @@ public class QueryKeyword {
           searchBoxes.add(searchBox);
         }
       }
-
       List<WebElement> prioritySearchBoxes = new ArrayList<WebElement>();
       List<WebElement> forbiddenSearchBoxes = new ArrayList<WebElement>();
       for (WebElement searchBox : searchBoxes) {
@@ -109,22 +109,26 @@ public class QueryKeyword {
         searchBoxes.add(prioritySearchBoxes.get(0));
       }
       return searchBoxes;
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
     }
   }
 
-  private static void hoverClick(RemoteWebDriver driver, WebElement element, boolean cleanupWindows) throws ActionFailed {
+  private static void hoverClick(BrowserDriver driver, WebElement element, boolean cleanupWindows) throws ActionFailed {
     try {
       String oldHandle = driver.getWindowHandle();
-      Actions action = new Actions(driver);
+      Actions action = driver.actions();
       Util.click(driver, element);
       action.moveByOffset(-MOUSE_MOVE_OFFSET, -MOUSE_MOVE_OFFSET).perform();
       action.moveToElement(element).perform();
       action.moveByOffset(2, 2).perform();
       Util.driverSleepShort();
       Util.handleNewWindows(driver, oldHandle, cleanupWindows);
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
@@ -132,7 +136,7 @@ public class QueryKeyword {
   }
 
   private static List<WebElement> navigateToSearch(
-      RemoteWebDriver driver, String tagName, String type, boolean strict, boolean cleanupWindows) throws ActionFailed {
+      BrowserDriver driver, String tagName, String type, boolean strict, boolean cleanupWindows) throws ActionFailed {
     try {
       List<WebElement> tags = driver.findElementsByTagName(tagName);
       boolean success = false;
@@ -148,8 +152,10 @@ public class QueryKeyword {
               break;
             }
           }
-        } catch (Exception e) {
-          Log.exception(e);
+        } catch (Retry r) {
+          throw r;
+        } catch (Throwable t) {
+          Log.exception(t);
         }
       }
       if (!success) {
@@ -167,8 +173,10 @@ public class QueryKeyword {
                 break;
               }
             }
-          } catch (Exception e) {
-            Log.exception(e);
+          } catch (Retry r) {
+            throw r;
+          } catch (Throwable t) {
+            Log.exception(t);
           }
         }
       }
@@ -176,13 +184,15 @@ public class QueryKeyword {
         return findSearchBox(driver, strict);
       }
       return new ArrayList<WebElement>();
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
     }
   }
 
-  private static String doSearch(RemoteWebDriver driver, List<WebElement> searchBoxes,
+  private static String doSearch(BrowserDriver driver, List<WebElement> searchBoxes,
       String searchQuery, HtmlNode submitClick, boolean cleanupWindows) throws ActionFailed {
     try {
       for (WebElement element : searchBoxes) {
@@ -216,20 +226,26 @@ public class QueryKeyword {
             handleIframe(driver, cleanupWindows);
             return driver.getPageSource();
           }
+        } catch (Retry r) {
+          throw r;
         } catch (Throwable t) {
           Log.exception(t);
         }
       }
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
     }
     throw new ActionFailed();
   }
 
-  private static void handleIframe(RemoteWebDriver driver, boolean cleanupWindows) throws ActionFailed {
+  private static void handleIframe(BrowserDriver driver, boolean cleanupWindows) throws ActionFailed {
     List<WebElement> iframes = null;
     try {
       iframes = driver.findElementsByTagName("iframe");
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
@@ -247,6 +263,8 @@ public class QueryKeyword {
                 origHandle = driver.getWindowHandle();
                 origUrl = driver.getCurrentUrl();
                 newHandle = Util.newWindow(driver, cleanupWindows);
+              } catch (Retry r) {
+                throw r;
               } catch (Throwable t) {
                 Log.exception(t);
                 throw new ActionFailed(t);
@@ -259,6 +277,8 @@ public class QueryKeyword {
                 if (driver.findElementByTagName("body").getText().length() < MIN_SOURCE_DIFF) {
                   undo = true;
                 }
+              } catch (Retry r) {
+                throw r;
               } catch (Throwable t) {
                 Log.exception(t);
                 undo = true;
@@ -269,6 +289,8 @@ public class QueryKeyword {
                     if (!driver.getCurrentUrl().equals(origUrl)) {
                       try {
                         driver.navigate().back();
+                      } catch (Retry r) {
+                        throw r;
                       } catch (Throwable t) {
                         Log.exception(t);
                       }
@@ -283,24 +305,30 @@ public class QueryKeyword {
                   Util.handleNewWindows(driver, newHandle, cleanupWindows);
                   break;
                 }
+              } catch (Retry r) {
+                throw r;
               } catch (Throwable t) {
                 Log.exception(t);
                 throw new ActionFailed(t);
               }
             }
           }
+        } catch (Retry r) {
+          throw r;
         } catch (Throwable t) {
           Log.exception(t);
           continue;
         }
       }
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
     }
   }
 
-  public static void perform(RemoteWebDriver driver, KeywordQuery context, boolean cleanupWindows) throws ActionFailed {
+  public static void perform(BrowserDriver driver, KeywordQuery context, boolean cleanupWindows) throws ActionFailed {
     try {
       if (!CommonUtil.isEmpty(context.site)) {
         Util.get(driver, context.site, true, cleanupWindows);
@@ -333,6 +361,8 @@ public class QueryKeyword {
         }
       }
       Util.doClicks(driver, context.postSearchClicks, null);
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);

@@ -88,8 +88,8 @@ public class Email {
       if (resp.contains("\"rejected\"") || resp.contains("\"invalid\"")) {
         Log.warn("Invalid/rejected email addreses");
       }
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
     }
   }
 }

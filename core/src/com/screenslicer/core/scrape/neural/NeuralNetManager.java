@@ -67,9 +67,9 @@ public class NeuralNetManager {
     if (config != null) {
       try {
         add(FileUtils.readFileToString(config, "utf-8"));
-      } catch (Exception e) {
-        Log.exception(e);
-        throw new RuntimeException(e);
+      } catch (Throwable t) {
+        Log.exception(t);
+        throw new RuntimeException(t);
       }
     }
   }
@@ -92,9 +92,9 @@ public class NeuralNetManager {
   public static void reset(File config) {
     try {
       reset(FileUtils.readFileToString(config, "utf-8"));
-    } catch (Exception e) {
-      Log.exception(e);
-      throw new RuntimeException(e);
+    } catch (Throwable t) {
+      Log.exception(t);
+      throw new RuntimeException(t);
     }
   }
 

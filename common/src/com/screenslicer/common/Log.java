@@ -78,18 +78,20 @@ public class Log {
       init("screenslicer", true);
     }
     Level level = Level.SEVERE;
-    String packageName = t.getClass().getName();
-    for (int i = 0; i < chattyClasses.length; i++) {
-      if (packageName.startsWith(chattyClasses[i])) {
-        level = Level.FINE;
-        break;
+    if (t != null) {
+      String packageName = t.getClass().getName();
+      for (int i = 0; i < chattyClasses.length; i++) {
+        if (packageName.startsWith(chattyClasses[i])) {
+          level = Level.FINE;
+          break;
+        }
       }
     }
-    String message = t.getMessage();
+    String message = t == null ? "n/a" : t.getMessage();
     message = CommonUtil.isEmpty(message) ? "" : message;
     logger.log(level, "Exception \"" + message + "\" ~ "
         + (CommonUtil.isEmpty(supplementaryMessage) ? "" : (supplementaryMessage + " ~ "))
-        + "Stack trace: " + ExceptionUtils.getStackTrace(t));
+        + "Stack trace: " + (t == null ? "n/a" : ExceptionUtils.getStackTrace(t)));
   }
 
   public static void warn(String message) {

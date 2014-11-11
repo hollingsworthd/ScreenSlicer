@@ -58,18 +58,18 @@ public class Crypto {
   public static String fastHash(String str) {
     try {
       return new String(DigestUtils.sha256Hex(str));
-    } catch (Exception e) {
-      Log.exception(e);
-      throw new RuntimeException(e);
+    } catch (Throwable t) {
+      Log.exception(t);
+      throw new RuntimeException(t);
     }
   }
 
   public static int fastHashInt(String str) {
     try {
       return str.hashCode();
-    } catch (Exception e) {
-      Log.exception(e);
-      throw new RuntimeException(e);
+    } catch (Throwable t) {
+      Log.exception(t);
+      throw new RuntimeException(t);
     }
   }
 
@@ -104,8 +104,8 @@ public class Crypto {
       synchronized (lock) {
         return !usedTokens.containsKey(token) ? authTime : 0;
       }
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
       return 0;
     }
   }
@@ -123,8 +123,8 @@ public class Crypto {
         return newKey;
       }
       return null;
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
     }
     return null;
   }
@@ -199,7 +199,7 @@ public class Crypto {
       aesCipher.init(Cipher.ENCRYPT_MODE, new SecretKeySpec(
           DigestUtils.sha256(encryptionKey), "AES"));
       return Base64.encodeBase64String(aesCipher.doFinal(plainText.getBytes("utf-8")));
-    } catch (Exception e) {
+    } catch (Throwable t) {
       return null;
     }
   }
@@ -214,7 +214,7 @@ public class Crypto {
           DigestUtils.sha256(encryptionKey), "AES"), aesCipher.getParameters());
       return new String(aesCipher.doFinal(
           Base64.decodeBase64(cipherText)), "utf-8");
-    } catch (Exception e) {
+    } catch (Throwable t) {
       return null;
     }
   }

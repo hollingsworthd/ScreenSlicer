@@ -34,7 +34,8 @@ import org.jsoup.nodes.Element;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Retry;
 import org.openqa.selenium.support.ui.Select;
 
 import com.screenslicer.api.datatype.HtmlNode;
@@ -66,7 +67,7 @@ public class QueryForm {
     }
   }
 
-  private static void doSubmit(RemoteWebDriver driver, String formId, HtmlNode submitClick) throws ActionFailed {
+  private static void doSubmit(BrowserDriver driver, String formId, HtmlNode submitClick) throws ActionFailed {
     try {
       if (submitClick == null) {
         List<WebElement> inputs = driver.findElementById(formId).findElements(By.tagName("input"));
@@ -97,6 +98,8 @@ public class QueryForm {
                     minIndex = submitIndex;
                     firstSubmit = submit;
                   }
+                } catch (Retry r) {
+                  throw r;
                 } catch (Throwable t) {
                   Log.exception(t);
                 }
@@ -106,6 +109,8 @@ public class QueryForm {
               }
             }
           }
+        } catch (Retry r) {
+          throw r;
         } catch (Throwable t) {
           Log.exception(t);
         }
@@ -116,13 +121,15 @@ public class QueryForm {
         Util.click(driver, Util.toElement(driver, submitClick, null));
       }
       Util.driverSleepLong();
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
     }
   }
 
-  public static void perform(RemoteWebDriver driver, FormQuery context, boolean cleanupWindows) throws ActionFailed {
+  public static void perform(BrowserDriver driver, FormQuery context, boolean cleanupWindows) throws ActionFailed {
     try {
       if (!CommonUtil.isEmpty(context.site)) {
         Util.get(driver, context.site, true, cleanupWindows);
@@ -213,6 +220,8 @@ public class QueryForm {
                   }
                 }
               }
+            } catch (Retry r) {
+              throw r;
             } catch (Throwable t) {
               Log.exception(t);
             }
@@ -221,13 +230,15 @@ public class QueryForm {
         doSubmit(driver, context.formId, context.searchSubmitClick);
       }
       Util.doClicks(driver, context.postSearchClicks, null);
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
     }
   }
 
-  public static List<HtmlNode> load(RemoteWebDriver driver, FormLoad context, boolean cleanupWindows) throws ActionFailed {
+  public static List<HtmlNode> load(BrowserDriver driver, FormLoad context, boolean cleanupWindows) throws ActionFailed {
     try {
       Util.get(driver, context.site, true, cleanupWindows);
       Util.doClicks(driver, context.preAuthClicks, null);
@@ -288,6 +299,8 @@ public class QueryForm {
       loadGuids(controls);
       Collections.sort(controls, new ControlComparator(formHtml, controlsHtml));
       return filterControls(controls);
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
@@ -347,7 +360,7 @@ public class QueryForm {
             || !control.type.equalsIgnoreCase("submit"));
   }
 
-  private static void loadLabels(RemoteWebDriver driver, List<HtmlNode> controls) throws ActionFailed {
+  private static void loadLabels(BrowserDriver driver, List<HtmlNode> controls) throws ActionFailed {
     try {
       List<WebElement> labels = driver.findElementsByTagName("label");
       Map<String, String> labelMap = new HashMap<String, String>();
@@ -363,6 +376,8 @@ public class QueryForm {
           control.label = labelMap.get(control.id);
         }
       }
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);

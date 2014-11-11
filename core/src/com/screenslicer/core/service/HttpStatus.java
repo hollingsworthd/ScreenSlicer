@@ -35,7 +35,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.BrowserDriver;
 
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
@@ -53,7 +53,7 @@ public class HttpStatus implements WebResource {
   private static final int TIMEOUT = 25 * 1000;
   private static final int MIN_LEN = 500;
 
-  private static boolean hasContent(RemoteWebDriver driver, String src) {
+  private static boolean hasContent(BrowserDriver driver, String src) {
     if (CommonUtil.isEmpty(src)) {
       Log.debug("status - source is null/empty", WebApp.DEBUG);
       return false;
@@ -88,15 +88,15 @@ public class HttpStatus implements WebResource {
     return content[0];
   }
 
-  public static int status(RemoteWebDriver driver, int timeout) {
+  public static int status(BrowserDriver driver, int timeout) {
     return status(driver, true, timeout);
   }
 
-  public static int status(RemoteWebDriver driver, boolean wait) {
+  public static int status(BrowserDriver driver, boolean wait) {
     return status(driver, wait, TIMEOUT);
   }
 
-  private static int status(RemoteWebDriver driver, boolean wait, int timeout) {
+  private static int status(BrowserDriver driver, boolean wait, int timeout) {
     Log.debug("check status...", WebApp.DEBUG);
     int totalWait = 0;
     String src = null;

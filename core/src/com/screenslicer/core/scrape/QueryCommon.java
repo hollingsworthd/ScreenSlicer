@@ -30,7 +30,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.Credentials;
 import com.screenslicer.common.CommonUtil;
@@ -40,7 +41,7 @@ import com.screenslicer.core.util.Util;
 
 public class QueryCommon {
 
-  public static boolean doAuth(RemoteWebDriver driver, Credentials credentials) throws ActionFailed {
+  public static boolean doAuth(BrowserDriver driver, Credentials credentials) throws ActionFailed {
     if (credentials == null
         || CommonUtil.isEmpty(credentials.username) || CommonUtil.isEmpty(credentials.password)) {
       return false;
@@ -120,6 +121,8 @@ public class QueryCommon {
         QueryCommon.typeText(driver, closestLogin.password, credentials.password, false, true);
         return true;
       }
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
@@ -127,7 +130,7 @@ public class QueryCommon {
     throw new ActionFailed("Could not sign in");
   }
 
-  public static boolean typeText(RemoteWebDriver driver, WebElement element, String text, boolean validate, boolean newline) {
+  public static boolean typeText(BrowserDriver driver, WebElement element, String text, boolean validate, boolean newline) {
     String elementVal = null;
     if (validate) {
       elementVal = element.getAttribute("value");

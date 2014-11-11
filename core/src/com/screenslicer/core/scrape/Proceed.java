@@ -34,7 +34,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.HtmlCoder;
@@ -77,7 +78,7 @@ public class Proceed {
     return nodeText.length() < MAX_PRIMARY_LEN && dist < referenceText.length() / 2;
   }
 
-  public static String perform(RemoteWebDriver driver, int pageNum, String priorTextLabel) throws End, ActionFailed {
+  public static String perform(BrowserDriver driver, int pageNum, String priorTextLabel) throws End, ActionFailed {
     try {
       Element body = Util.openElement(driver, null, null, null, null);
       String origSrc = driver.getPageSource();
@@ -101,6 +102,8 @@ public class Proceed {
           }
         }
       }
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
     }
@@ -204,8 +207,10 @@ public class Proceed {
         }
         numberLists.remove(numberList);
         numberList = numberList(body, nodeCache, intCache, numberLists, false);
-      } catch (Exception e) {
-        Log.exception(e);
+      } catch (Retry r) {
+        throw r;
+      } catch (Throwable t) {
+        Log.exception(t);
       }
     }
     return null;
@@ -320,8 +325,8 @@ public class Proceed {
     try {
       int i = Integer.parseInt(CommonUtil.strip(str, true));
       return new Integer(i);
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
     }
     return null;
   }

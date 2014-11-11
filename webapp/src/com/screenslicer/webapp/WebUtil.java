@@ -67,8 +67,8 @@ public class WebUtil {
         for (File file : files) {
           templateCache.put(file.getName(), templateConfig.getTemplate(file.getName()));
         }
-      } catch (Exception e) {
-        Log.exception(e);
+      } catch (Throwable t) {
+        Log.exception(t);
       }
     }
   }
@@ -91,8 +91,8 @@ public class WebUtil {
       }
       templateConfig.getTemplate(template + ".ftl").process(dataModel, writer);
       return out.toString();
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
       return "";
     }
   }

@@ -532,13 +532,13 @@ public class Result {
         Date date = null;
         try {
           dateTime = dateTimeDDMMYYYY.parse(dateStr);
-        } catch (Exception e) {
-          Log.exception(e);
+        } catch (Throwable t) {
+          Log.exception(t);
         }
         try {
           date = dateDDMMYYYY.parse(dateStr);
-        } catch (Exception e) {
-          Log.exception(e);
+        } catch (Throwable t) {
+          Log.exception(t);
         }
         double dateLen = (double) dateStr.length();
         if (dateTime != null && dateLen / summaryLen > DATE_LEN_THRESHOLD) {

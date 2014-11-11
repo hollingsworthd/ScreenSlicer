@@ -55,7 +55,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.datatype.SearchResult;
@@ -64,6 +65,7 @@ import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
 import com.screenslicer.core.scrape.type.Result;
+import com.screenslicer.core.scrape.type.SearchResults;
 import com.screenslicer.core.service.HttpStatus;
 import com.screenslicer.webapp.WebApp;
 
@@ -137,8 +139,8 @@ public class Util {
   public static final boolean DEBUG = false;
   private static Pattern attributes = Pattern.compile("(?<=<\\w{1,15}\\s)[^>]+(?=>)", Pattern.UNICODE_CHARACTER_CLASS);
   private static int STARTUP_WAIT_MS = 100;
-  private static int RESET_WAIT_MS = 3000;
   private static int LONG_WAIT_MS = 5837;
+  private static int RESET_WAIT_MS = 120000;
   private static int SHORT_WAIT_MS = 1152;
   private static int SHORT_WAIT_MIN_MS = 3783;
   private static int VERY_SHORT_WAIT_MS = 381;
@@ -169,7 +171,7 @@ public class Util {
     } catch (InterruptedException e) {}
   }
 
-  public static void get(RemoteWebDriver driver, String url, Node urlNode, boolean retry, boolean toNewWindow, boolean cleanupWindows) throws ActionFailed {
+  public static void get(BrowserDriver driver, String url, Node urlNode, boolean retry, boolean toNewWindow, boolean cleanupWindows) throws ActionFailed {
     if (CommonUtil.isEmpty(url) && urlNode == null) {
       throw new ActionFailed();
     }
@@ -192,12 +194,16 @@ public class Util {
         Log.debug("getting url...", WebApp.DEBUG);
         try {
           driver.getKeyboard().sendKeys(Keys.ESCAPE);
+        } catch (Retry r) {
+          throw r;
         } catch (Throwable t) {
           Log.exception(t);
         }
         if (urlNode != null) {
           try {
             handleNewWindows(driver, origHandle, cleanupWindows);
+          } catch (Retry r) {
+            throw r;
           } catch (Throwable t) {
             Log.exception(t);
           }
@@ -228,6 +234,8 @@ public class Util {
               if (switchTo != null) {
                 driver.switchTo().window(switchTo);
               }
+            } catch (Retry r) {
+              throw r;
             } catch (Throwable t) {
               exception = true;
               Log.exception(t);
@@ -237,6 +245,8 @@ public class Util {
             driver.get("about:blank");
             try {
               driver.get(url);
+            } catch (Retry r) {
+              throw r;
             } catch (TimeoutException e) {
               Log.exception(e);
             }
@@ -250,10 +260,14 @@ public class Util {
             try {
               new URL(driver.getCurrentUrl());
               badUrl = false;
+            } catch (Retry r) {
+              throw r;
             } catch (Throwable t) {
               badUrl = true;
             }
           }
+        } catch (Retry r) {
+          throw r;
         } catch (Throwable t) {
           Log.exception(t);
           exception = true;
@@ -263,6 +277,8 @@ public class Util {
           try {
             driver.getKeyboard().sendKeys(Keys.ESCAPE);
             Util.driverSleepVeryShort();
+          } catch (Retry r) {
+            throw r;
           } catch (Throwable t) {
             Log.exception(t);
           }
@@ -273,6 +289,8 @@ public class Util {
         }
       }
       Log.debug("getting url - done", WebApp.DEBUG);
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       success = false;
@@ -281,6 +299,8 @@ public class Util {
       if (urlNode != null && origHandle != null) {
         try {
           handleNewWindows(driver, origHandle, cleanupWindows);
+        } catch (Retry r) {
+          throw r;
         } catch (Throwable t) {
           Log.exception(t);
         }
@@ -289,16 +309,18 @@ public class Util {
     }
   }
 
-  public static void get(RemoteWebDriver driver, String url, boolean retry, boolean cleanupWindows) throws ActionFailed {
+  public static void get(BrowserDriver driver, String url, boolean retry, boolean cleanupWindows) throws ActionFailed {
     get(driver, url, null, retry, true, cleanupWindows);
   }
 
-  public static String newWindow(RemoteWebDriver driver, boolean cleanupWindows) throws ActionFailed {
+  public static String newWindow(BrowserDriver driver, boolean cleanupWindows) throws ActionFailed {
     try {
       handleNewWindows(driver, driver.getWindowHandle(), cleanupWindows);
       Set<String> origHandles = new HashSet<String>(driver.getWindowHandles());
       try {
         driver.getKeyboard().sendKeys(Keys.chord(Keys.CONTROL + "n"));
+      } catch (Retry r) {
+        throw r;
       } catch (Throwable t) {
         Log.exception(t);
       }
@@ -317,13 +339,15 @@ public class Util {
         }
       }
       return driver.getWindowHandle();
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
     }
   }
 
-  public static void handleNewWindows(RemoteWebDriver driver, String handleToKeep, boolean cleanup) throws ActionFailed {
+  public static void handleNewWindows(BrowserDriver driver, String handleToKeep, boolean cleanup) throws ActionFailed {
     try {
       if (cleanup) {
         Set<String> handles = new HashSet<String>(driver.getWindowHandles());
@@ -333,6 +357,8 @@ public class Util {
               driver.switchTo().window(handle);
               driver.close();
             }
+          } catch (Retry r) {
+            throw r;
           } catch (Throwable t) {
             Log.exception(t);
           }
@@ -340,6 +366,8 @@ public class Util {
       }
       driver.switchTo().window(handleToKeep);
       driver.switchTo().defaultContent();
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
@@ -454,7 +482,7 @@ public class Util {
     return visitor.found;
   }
 
-  public static WebElement toElement(RemoteWebDriver driver, Node node) {
+  public static WebElement toElement(BrowserDriver driver, Node node) {
     if (node == null) {
       return null;
     }
@@ -463,6 +491,8 @@ public class Util {
       if (classId != null) {
         return driver.findElementByClassName(classId);
       }
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
     }
@@ -536,9 +566,15 @@ public class Util {
   private static void markVisible(Node node) {
     if (node != null) {
       if (node.nodeName().equals("select")) {
-        for (Node child : node.childNodes()) {
-          child.attr("class", hiddenMarker.matcher(child.attr("class")).replaceAll(""));
-        }
+        node.traverse(new NodeVisitor() {
+          @Override
+          public void tail(Node n, int d) {}
+
+          @Override
+          public void head(Node n, int d) {
+            n.attr("class", hiddenMarker.matcher(n.attr("class")).replaceAll(""));
+          }
+        });
       }
       node.attr("class", hiddenMarker.matcher(node.attr("class")).replaceAll(""));
       markVisible(node.parent());
@@ -596,12 +632,12 @@ public class Util {
     return doc;
   }
 
-  public static Element openElement(final RemoteWebDriver driver, final String[] whitelist,
+  public static Element openElement(final BrowserDriver driver, final String[] whitelist,
       final String[] patterns, final HtmlNode[] urlNodes, final UrlTransform[] transforms)
       throws ActionFailed {
     try {
       driver.executeScript(
-          "      var all = document.getElementsByTagName('*');"
+          "      var all = document.body.getElementsByTagName('*');"
               + "for(var i = 0; i < all.length; i++){"
               + "  if(all[i].className && typeof all[i].className == 'string'){"
               + "    all[i].className=all[i].className.replace(/"
@@ -656,9 +692,11 @@ public class Util {
         });
       }
       return element;
-    } catch (Exception e) {
-      Log.exception(e);
-      throw new ActionFailed(e);
+    } catch (Retry r) {
+      throw r;
+    } catch (Throwable t) {
+      Log.exception(t);
+      throw new ActionFailed(t);
     }
   }
 
@@ -983,9 +1021,9 @@ public class Util {
         && CommonUtil.isEmpty(node.toString(), true));
   }
 
-  private static boolean click(RemoteWebDriver driver, WebElement toClick, boolean shift) {
+  private static boolean click(BrowserDriver driver, WebElement toClick, boolean shift) {
     try {
-      Actions action = new Actions(driver);
+      Actions action = driver.actions();
       driverSleepVeryShort();
       action.moveToElement(toClick).perform();
       if (shift) {
@@ -996,21 +1034,23 @@ public class Util {
         driver.getKeyboard().releaseKey(Keys.SHIFT);
       }
       Util.driverSleepVeryShort();
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       return false;
     }
     return true;
   }
 
-  public static boolean click(RemoteWebDriver driver, WebElement toClick) {
+  public static boolean click(BrowserDriver driver, WebElement toClick) {
     return click(driver, toClick, false);
   }
 
-  public static boolean clickToNewWindow(RemoteWebDriver driver, WebElement toClick) {
+  public static boolean clickToNewWindow(BrowserDriver driver, WebElement toClick) {
     return click(driver, toClick, true);
   }
 
-  public static boolean doClicks(RemoteWebDriver driver, HtmlNode[] controls, Element body) throws ActionFailed {
+  public static boolean doClicks(BrowserDriver driver, HtmlNode[] controls, Element body) throws ActionFailed {
     boolean clicked = false;
     if (controls != null && controls.length > 0) {
       Log.debug("Doing clicks", WebApp.DEBUG);
@@ -1101,7 +1141,7 @@ public class Util {
     return false;
   }
 
-  public static WebElement toElement(RemoteWebDriver driver, HtmlNode htmlNode, Element body) throws ActionFailed {
+  public static WebElement toElement(BrowserDriver driver, HtmlNode htmlNode, Element body) throws ActionFailed {
     if (body == null) {
       body = Util.openElement(driver, null, null, null, null);
     }
@@ -1367,13 +1407,13 @@ public class Util {
     return transformUrlStrings(urls, urlTransforms, forExport).get(0);
   }
 
-  public static List<SearchResult> transformUrls(List<SearchResult> results, UrlTransform[] urlTransforms, boolean forExport) {
+  public static SearchResults transformUrls(SearchResults results, UrlTransform[] urlTransforms, boolean forExport) {
     if (results == null) {
       return null;
     }
     List<String> urls = new ArrayList<String>();
-    for (SearchResult result : results) {
-      urls.add(result.url);
+    for (int i = 0; i < results.size(); i++) {
+      urls.add(results.get(i).url);
     }
     urls = transformUrlStrings(urls, urlTransforms, forExport);
     for (int i = 0; urls != null && i < results.size(); i++) {

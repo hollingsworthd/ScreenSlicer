@@ -35,7 +35,8 @@ import org.apache.commons.io.FileUtils;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.SearchResult;
 import com.screenslicer.api.request.Query;
@@ -45,6 +46,7 @@ import com.screenslicer.core.scrape.Scrape.ActionFailed;
 import com.screenslicer.core.scrape.type.Result;
 import com.screenslicer.core.scrape.type.Results;
 import com.screenslicer.core.scrape.type.Results.Leniency;
+import com.screenslicer.core.scrape.type.SearchResults;
 import com.screenslicer.core.util.Util;
 import com.screenslicer.webapp.WebApp;
 
@@ -74,13 +76,15 @@ public class ProcessPage {
       trim(element);
       Map<String, Object> cache = new HashMap<String, Object>();
       return perform(element, page, "", true, query, cache);
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Retry r) {
+      throw r;
+    } catch (Throwable t) {
+      Log.exception(t);
     }
     return null;
   }
 
-  public static List<SearchResult> perform(RemoteWebDriver driver, int page, Query query) throws ActionFailed {
+  public static SearchResults perform(BrowserDriver driver, int page, Query query) throws ActionFailed {
     try {
       Element element = Util.openElement(driver,
           query.proactiveUrlFiltering ? query.urlWhitelist : null,
@@ -110,7 +114,9 @@ public class ProcessPage {
         r.html = Util.outerHtml(result.getNodes());
         searchResults.add(r);
       }
-      return searchResults;
+      return new SearchResults(searchResults, page, query);
+    } catch (Retry r) {
+      throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
@@ -209,8 +215,8 @@ public class ProcessPage {
       }
       return new Results(body, page, nodeExtract, pos, leniency, trim, query,
           (Map<String, Object>) cache.get("createResults"));
-    } catch (Exception e) {
-      Log.exception(e);
+    } catch (Throwable t) {
+      Log.exception(t);
     }
     return Results.resultsNull;
   }
