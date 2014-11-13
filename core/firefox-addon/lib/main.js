@@ -57,11 +57,15 @@ var handler = {
     }
     throw Cr.NS_NOINTERFACE;
   },
+  prevStatus: -1,
   send: function(status){
     try{
-      var req = Cc["@mozilla.org/xmlextras/xmlhttprequest;1"].createInstance(Ci.nsIXMLHttpRequest);
-      req.open('GET', 'http://127.0.0.1:8888/httpstatus/'+status, false);
-      req.send(null);
+      if((this.prevStatus == 0 && status != 0) || (this.prevStatus != 0 && status == 0)){
+        this.prevStatus = status;
+        var req = Cc["@mozilla.org/xmlextras/xmlhttprequest;1"].createInstance(Ci.nsIXMLHttpRequest);
+        req.open('GET', 'http://127.0.0.1:8888/httpstatus/'+status, true);
+        req.send(null);
+      }
     }catch(e){}
   },
   observe: function(aSubject, aTopic, aData){
@@ -81,12 +85,16 @@ var handler = {
   },
   onStateChange: function(aWebProgress, aRequest, aStateFlags, aStatus){
     try{
-      if((aStateFlags & Ci.nsIWebProgressListener.STATE_STOP)
-          && (aStateFlags & Ci.nsIWebProgressListener.STATE_IS_WINDOW)
+      if(aRequest
+          && (aStateFlags & Ci.nsIWebProgressListener.STATE_STOP)
+          && ((aStateFlags & Ci.nsIWebProgressListener.STATE_IS_DOCUMENT)
+              || (aStateFlags & Ci.nsIWebProgressListener.STATE_RESTORING))
           && !(aStateFlags & Ci.nsIWebProgressListener.STATE_REDIRECTING)){
         var status = aRequest.responseStatus;
-        if(status){
-          var statusClean = (status >= 200 && status < 300) || status == 304? 200 : status;
+        if(status || (aWebProgress
+            && aWebProgress.DOMWindow
+            && aWebProgress.DOMWindow === aWebProgress.DOMWindow.top)){
+          var statusClean = !status || (status >= 200 && status < 300) || status == 304? 200 : status;
           this.send(statusClean);
         }
       }

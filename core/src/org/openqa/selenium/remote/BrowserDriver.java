@@ -24,32 +24,55 @@
  */
 package org.openqa.selenium.remote;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.HasCapabilities;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.SearchContext;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.HasInputDevices;
 import org.openqa.selenium.interactions.Keyboard;
 import org.openqa.selenium.interactions.Mouse;
 import org.openqa.selenium.interactions.internal.Coordinates;
+import org.openqa.selenium.internal.FindsByClassName;
+import org.openqa.selenium.internal.FindsByCssSelector;
+import org.openqa.selenium.internal.FindsById;
+import org.openqa.selenium.internal.FindsByLinkText;
+import org.openqa.selenium.internal.FindsByName;
+import org.openqa.selenium.internal.FindsByTagName;
+import org.openqa.selenium.internal.FindsByXPath;
+import org.openqa.selenium.internal.Killable;
 
+import com.google.common.io.Resources;
 import com.screenslicer.common.Log;
 
-public class BrowserDriver implements WebDriver {
+public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
+    FindsByClassName, FindsByLinkText, FindsByName, FindsByCssSelector, FindsByTagName,
+    FindsByXPath, HasInputDevices, HasCapabilities, TakesScreenshot, Killable {
   public static class Retry extends RuntimeException {
     private static final long serialVersionUID = 1L;
 
@@ -67,7 +90,7 @@ public class BrowserDriver implements WebDriver {
   }
 
   private static final int RETRY_WAIT = 30000;
-  private static final int RETRIES = 6;
+  private static final int RETRIES = 12;
 
   private static interface Executor {
     Object perform();
@@ -79,6 +102,7 @@ public class BrowserDriver implements WebDriver {
       try {
         return action.perform();
       } catch (UnreachableBrowserException e) {
+        Log.warn("Browser was unreachable... retrying...");
         throwable = e;
       } catch (TimeoutException e) {
         Log.exception(e);
@@ -91,6 +115,7 @@ public class BrowserDriver implements WebDriver {
         Thread.sleep(RETRY_WAIT);
       } catch (InterruptedException e) {}
     }
+    Log.warn("Browser was unreachable... unwinding stack...");
     Log.exception(throwable);
     throw new Retry(throwable);
   }
@@ -103,33 +128,46 @@ public class BrowserDriver implements WebDriver {
     return myElements;
   }
 
-  private final FirefoxDriver firefoxDriver;
-  private final RemoteWebDriver remoteWebDriver;
+  private FirefoxDriver firefoxDriver;
+  private final Profile profile;
+  private static final Map<String, Integer> windowTranslator = new HashMap<String, Integer>();
+  private static final Object lock = new Object();
 
-  public BrowserDriver(FirefoxProfile profile) {
+  public BrowserDriver(Profile profile) {
+    synchronized (lock) {
+      windowTranslator.clear();
+    }
     firefoxDriver = new FirefoxDriver(profile);
-    remoteWebDriver = firefoxDriver;
+    this.profile = profile;
   }
 
-  public BrowserDriver(BrowserDriver driver) {
-    remoteWebDriver = new RemoteWebDriver(driver.firefoxDriver.getCommandExecutor(),
-        driver.firefoxDriver.getCapabilities(), driver.firefoxDriver.getCapabilities());
-    firefoxDriver = driver.firefoxDriver;
+  private String translate(String windowHandle) {
+    synchronized (lock) {
+      int num = windowTranslator.get(windowHandle);
+      return firefoxDriver.getWindowHandles().toArray(new String[0])[num];
+    }
   }
 
+  @Override
   public void kill() {
     firefoxDriver.kill();
+  }
+
+  public void reset() {
+    firefoxDriver.kill();
+    firefoxDriver = new FirefoxDriver(profile);
   }
 
   public Actions actions() {
     return new MyActions(this);
   }
 
+  @Override
   public void close() {
     exec(new Executor() {
       @Override
       public Object perform() {
-        remoteWebDriver.close();
+        firefoxDriver.close();
         return null;
       }
     });
@@ -139,7 +177,7 @@ public class BrowserDriver implements WebDriver {
     return (Response) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.execute(driverCommand, parameters);
+        return firefoxDriver.execute(driverCommand, parameters);
       }
     });
   }
@@ -148,34 +186,37 @@ public class BrowserDriver implements WebDriver {
     return (Response) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.execute(command);
+        return firefoxDriver.execute(command);
       }
     });
   }
 
+  @Override
   public Object executeAsyncScript(final String script, final Object... args) {
     return exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.executeAsyncScript(script, args);
+        return firefoxDriver.executeAsyncScript(script, args);
       }
     });
   }
 
+  @Override
   public Object executeScript(final String script, final Object... args) {
     return exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.executeScript(script, args);
+        return firefoxDriver.executeScript(script, args);
       }
     });
   }
 
+  @Override
   public WebElement findElement(final By by) {
     return new MyElement((RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElement(by);
+        return firefoxDriver.findElement(by);
       }
     }));
   }
@@ -184,88 +225,97 @@ public class BrowserDriver implements WebDriver {
     return new MyElement((RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElement(by, using);
+        return firefoxDriver.findElement(by, using);
       }
     }));
   }
 
+  @Override
   public WebElement findElementByClassName(final String using) {
     return new MyElement((RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementByClassName(using);
+        return firefoxDriver.findElementByClassName(using);
       }
     }));
   }
 
+  @Override
   public WebElement findElementByCssSelector(final String using) {
     return new MyElement((RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementByCssSelector(using);
+        return firefoxDriver.findElementByCssSelector(using);
       }
     }));
   }
 
+  @Override
   public WebElement findElementById(final String using) {
     return new MyElement((RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementById(using);
+        return firefoxDriver.findElementById(using);
       }
     }));
   }
 
+  @Override
   public WebElement findElementByLinkText(final String using) {
     return new MyElement((RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementByLinkText(using);
+        return firefoxDriver.findElementByLinkText(using);
       }
     }));
   }
 
+  @Override
   public WebElement findElementByName(final String using) {
     return new MyElement((RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementByName(using);
+        return firefoxDriver.findElementByName(using);
       }
     }));
   }
 
+  @Override
   public WebElement findElementByPartialLinkText(final String using) {
     return new MyElement((RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementByPartialLinkText(using);
+        return firefoxDriver.findElementByPartialLinkText(using);
       }
     }));
   }
 
+  @Override
   public WebElement findElementByTagName(final String using) {
     return new MyElement((RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementByTagName(using);
+        return firefoxDriver.findElementByTagName(using);
       }
     }));
   }
 
+  @Override
   public WebElement findElementByXPath(final String using) {
     return new MyElement((RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementByXPath(using);
+        return firefoxDriver.findElementByXPath(using);
       }
     }));
   }
 
+  @Override
   public List<WebElement> findElements(final By by) {
     return convert((List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElements(by);
+        return firefoxDriver.findElements(by);
       }
     }));
   }
@@ -274,7 +324,7 @@ public class BrowserDriver implements WebDriver {
     return convert((List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElements(by, using);
+        return firefoxDriver.findElements(by, using);
       }
     }));
   }
@@ -283,177 +333,228 @@ public class BrowserDriver implements WebDriver {
     return convert((List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementsByClassName(using);
+        return firefoxDriver.findElementsByClassName(using);
       }
     }));
   }
 
+  @Override
   public List<WebElement> findElementsByCssSelector(final String using) {
     return convert((List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementsByCssSelector(using);
+        return firefoxDriver.findElementsByCssSelector(using);
       }
     }));
   }
 
+  @Override
   public List<WebElement> findElementsById(final String using) {
     return convert((List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementsById(using);
+        return firefoxDriver.findElementsById(using);
       }
     }));
   }
 
+  @Override
   public List<WebElement> findElementsByLinkText(final String using) {
     return convert((List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementsByLinkText(using);
+        return firefoxDriver.findElementsByLinkText(using);
       }
     }));
   }
 
+  @Override
   public List<WebElement> findElementsByName(final String using) {
     return convert((List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementsByName(using);
+        return firefoxDriver.findElementsByName(using);
       }
     }));
   }
 
+  @Override
   public List<WebElement> findElementsByPartialLinkText(final String using) {
     return convert((List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementsByPartialLinkText(using);
+        return firefoxDriver.findElementsByPartialLinkText(using);
       }
     }));
   }
 
+  @Override
   public List<WebElement> findElementsByTagName(final String using) {
     return convert((List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementsByTagName(using);
+        return firefoxDriver.findElementsByTagName(using);
       }
     }));
   }
 
+  @Override
   public List<WebElement> findElementsByXPath(final String using) {
     return convert((List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.findElementsByXPath(using);
+        return firefoxDriver.findElementsByXPath(using);
       }
     }));
   }
 
+  @Override
   public void get(final String url) {
     exec(new Executor() {
       @Override
       public Object perform() {
-        remoteWebDriver.get(url);
+        firefoxDriver.get(url);
         return null;
       }
     });
   }
 
+  @Override
   public String getCurrentUrl() {
     return (String) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.getCurrentUrl();
+        return firefoxDriver.getCurrentUrl();
       }
     });
   }
 
+  @Override
   public Keyboard getKeyboard() {
     return new MyKeyboard((RemoteKeyboard) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.getKeyboard();
+        return firefoxDriver.getKeyboard();
       }
     }));
   }
 
+  @Override
   public Mouse getMouse() {
     return new MyMouse((RemoteMouse) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.getMouse();
+        return firefoxDriver.getMouse();
       }
     }));
   }
 
+  @Override
   public String getPageSource() {
     return (String) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.getPageSource();
+        return firefoxDriver.getPageSource();
       }
     });
   }
 
+  @Override
   public String getTitle() {
     return (String) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.getTitle();
+        return firefoxDriver.getTitle();
       }
     });
   }
 
+  @Override
   public String getWindowHandle() {
     return (String) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.getWindowHandle();
+        Set<String> handles = firefoxDriver.getWindowHandles();
+        int num = -1;
+        synchronized (lock) {
+          for (String cur : handles) {
+            ++num;
+            windowTranslator.put(cur, num);
+          }
+        }
+        return firefoxDriver.getWindowHandle();
       }
     });
   }
 
+  @Override
   public Set<String> getWindowHandles() {
     return (Set<String>) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.getWindowHandles();
+        Set<String> handles = firefoxDriver.getWindowHandles();
+        int num = -1;
+        synchronized (lock) {
+          for (String cur : handles) {
+            ++num;
+            windowTranslator.put(cur, num);
+          }
+        }
+        return firefoxDriver.getWindowHandles();
       }
     });
   }
 
+  @Override
   public Navigation navigate() {
     return new MyNav((Navigation) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.navigate();
+        return firefoxDriver.navigate();
       }
     }));
   }
 
+  @Override
   public void quit() {
     exec(new Executor() {
       @Override
       public Object perform() {
-        remoteWebDriver.quit();
+        firefoxDriver.quit();
         return null;
       }
     });
   }
 
+  @Override
   public TargetLocator switchTo() {
     return new MyLoc((TargetLocator) exec(new Executor() {
       @Override
       public Object perform() {
-        return remoteWebDriver.switchTo();
+        return firefoxDriver.switchTo();
       }
     }), this);
   }
 
+  @Override
   public Options manage() {
-    return remoteWebDriver.manage();
+    return firefoxDriver.manage();
+  }
+
+  @Override
+  public <X> X getScreenshotAs(final OutputType<X> arg0) throws WebDriverException {
+    return (X) exec(new Executor() {
+      @Override
+      public Object perform() {
+        firefoxDriver.getScreenshotAs(arg0);
+        return null;
+      }
+    });
+  }
+
+  @Override
+  public Capabilities getCapabilities() {
+    return firefoxDriver.getCapabilities();
   }
 
   private static class MyElement extends RemoteWebElement {
@@ -1006,6 +1107,43 @@ public class BrowserDriver implements WebDriver {
     }
   }
 
+  public static class Profile extends FirefoxProfile {
+    private File profileDir = null;
+
+    public Profile(File profileDir) {
+      super(profileDir);
+    }
+
+    @Override
+    protected Reader onlyOverrideThisIfYouKnowWhatYouAreDoing() {
+      URL resource = Resources.getResource(BrowserDriver.class, "/org/openqa/selenium/remote/browserdriver_prefs.json");
+      try {
+        return new InputStreamReader(resource.openStream());
+      } catch (IOException e) {
+        throw new WebDriverException(e);
+      }
+    }
+
+    @Override
+    public File layoutOnDisk() {
+      if (profileDir == null) {
+        profileDir = super.layoutOnDisk();
+      } else {
+        File userPrefs = new File(profileDir, "user.js");
+        try {
+          installExtensions(profileDir);
+        } catch (IOException e) {
+          Log.exception(e);
+          return super.layoutOnDisk();
+        }
+        deleteLockFiles(profileDir);
+        deleteExtensionsCacheIfItExists(profileDir);
+        updateUserPrefs(userPrefs);
+      }
+      return profileDir;
+    }
+  }
+
   private static class MyNav implements Navigation {
     private final Navigation nav;
 
@@ -1158,7 +1296,11 @@ public class BrowserDriver implements WebDriver {
       exec(new Executor() {
         @Override
         public Object perform() {
-          return loc.window(arg0);
+          try {
+            return loc.window(arg0);
+          } catch (Throwable t) {
+            return loc.window(driver.translate(arg0));
+          }
         }
       });
       return driver;

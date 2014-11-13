@@ -38,10 +38,9 @@ import java.util.concurrent.atomic.AtomicLong;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.FileUtils;
 import org.jsoup.nodes.Node;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.io.TemporaryFilesystem;
 import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Profile;
 import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.HtmlNode;
@@ -94,6 +93,7 @@ public class Scrape {
   }
 
   private static volatile BrowserDriver driver = null;
+  private static final int MIN_SCRIPT_TIMEOUT = 30;
   private static final int HANG_TIME = 10 * 60 * 1000;
   private static final int RETRIES = 7;
   private static final long WAIT = 2000;
@@ -129,9 +129,11 @@ public class Scrape {
     Proxy[] proxies = CommonUtil.isEmpty(req.proxies) ? new Proxy[] { req.proxy } : req.proxies;
     for (int i = 0; i < RETRIES; i++) {
       try {
-        FirefoxProfile profile = new FirefoxProfile(new File("./firefox-profile"));
-        profile.setAlwaysLoadNoFocusLib(true);
-        profile.setEnableNativeEvents(true);
+        Profile profile = new Profile(new File("./firefox-profile"));
+        if (!"synthetic".equals(System.getProperty("slicer_events"))) {
+          profile.setAlwaysLoadNoFocusLib(true);
+          profile.setEnableNativeEvents(true);
+        }
         for (int curProxy = 0; curProxy < proxies.length; curProxy++) {
           Proxy proxy = proxies[curProxy];
           if (proxy != null) {
@@ -184,6 +186,10 @@ public class Scrape {
               profile.setPreference(entry.getKey(), (String) entry.getValue());
             }
           }
+        }
+        if (req.timeout > MIN_SCRIPT_TIMEOUT) {
+          profile.setPreference("dom.max_chrome_script_run_time", req.timeout);
+          profile.setPreference("dom.max_script_run_time", req.timeout);
         }
         driver = new BrowserDriver(profile);
         try {
@@ -240,16 +246,10 @@ public class Scrape {
   }
 
   public static void reset() {
-    try {
-      driver.getKeyboard().sendKeys(Keys.chord(Keys.CONTROL, Keys.ALT, "r"));
-    } catch (Throwable t) {}
-    Util.driverSleepReset();
-    BrowserDriver newDriver = null;
-    newDriver = new BrowserDriver(driver);
-    Set<String> newWindows = newDriver.getWindowHandles();
-    newDriver.switchTo().window(newWindows.toArray(new String[0])[newWindows.size() - 1]);
-    newDriver.switchTo().defaultContent();
-    driver = newDriver;
+    driver.reset();
+    Set<String> newWindows = driver.getWindowHandles();
+    driver.switchTo().window(newWindows.toArray(new String[0])[newWindows.size() - 1]);
+    driver.switchTo().defaultContent();
   }
 
   private static void push(String mapKey, List results) {
@@ -329,6 +329,7 @@ public class Scrape {
 
   private static void fetch(BrowserDriver driver, Request req, Query query, Query recQuery,
       SearchResults results, boolean cleanupWindows, SearchResults recResults) throws ActionFailed {
+    boolean retry = false;
     try {
       String origHandle = driver.getWindowHandle();
       String origUrl = driver.getCurrentUrl();
@@ -355,8 +356,6 @@ public class Scrape {
             if (!CommonUtil.isEmpty(results.get(i).pageHtml)) {
               try {
                 results.get(i).pageText = NumWordsRulesExtractor.INSTANCE.getText(results.get(i).pageHtml);
-              } catch (Retry r) {
-                throw r;
               } catch (Throwable t) {
                 results.get(i).pageText = null;
                 Log.exception(t);
@@ -368,6 +367,7 @@ public class Scrape {
             }
 
           } catch (Retry r) {
+            retry = true;
             throw r;
           } catch (Throwable t) {
             Log.exception(t);
@@ -379,6 +379,7 @@ public class Scrape {
               driver.switchTo().defaultContent();
             }
           } catch (Retry r) {
+            retry = true;
             throw r;
           } catch (Throwable t) {
             Log.exception(t);
@@ -388,25 +389,31 @@ public class Scrape {
           }
         }
       } catch (Retry r) {
+        retry = true;
         throw r;
       } catch (Throwable t) {
         Log.exception(t);
       } finally {
-        if (!query.fetchInNewWindow || (query.fetchCached && origHandle.equals(newHandle))) {
-          Log.exception(new Throwable("Failed opening new window"));
+        if (!retry) {
+          if (!query.fetchInNewWindow || (query.fetchCached && origHandle.equals(newHandle))) {
+            Log.exception(new Throwable("Failed opening new window"));
 
-          Util.get(driver, origUrl, true, cleanupWindows);
-        } else {
-          Util.handleNewWindows(driver, origHandle, cleanupWindows);
+            Util.get(driver, origUrl, true, cleanupWindows);
+          } else {
+            Util.handleNewWindows(driver, origHandle, cleanupWindows);
+          }
         }
       }
     } catch (Retry r) {
+      retry = true;
       throw r;
     } catch (Throwable t) {
       Log.exception(t);
       throw new ActionFailed(t);
     } finally {
-      Util.driverSleepRand(query.throttle);
+      if (!retry) {
+        Util.driverSleepRand(query.throttle);
+      }
     }
   }
 
@@ -443,6 +450,7 @@ public class Scrape {
       Thread thread = new Thread(new Runnable() {
         @Override
         public void run() {
+          boolean retry = false;
           started.set(true);
           boolean cached = p_cached;
           String newHandle = null;
@@ -454,6 +462,7 @@ public class Scrape {
               try {
                 Util.get(driver, url, urlNode, false, toNewWindow, cleanupWindows);
               } catch (Retry r) {
+                retry = true;
                 throw r;
               } catch (Throwable t) {
                 if (urlNode != null) {
@@ -477,6 +486,7 @@ public class Scrape {
               try {
                 Util.get(driver, toCacheUrl(url, false), false, cleanupWindows);
               } catch (Retry r) {
+                retry = true;
                 throw r;
               } catch (Throwable t) {
                 Util.get(driver, toCacheUrl(url, true), false, cleanupWindows);
@@ -524,14 +534,16 @@ public class Scrape {
                 result[0] = null;
               }
             }
-            Util.driverSleepRand(throttle);
-            if (cleanupWindows && newHandle != null && origHandle != null) {
-              try {
-                Util.handleNewWindows(driver, origHandle, true);
-              } catch (Retry r) {
-                throw r;
-              } catch (Throwable t) {
-                Log.exception(t);
+            if (!retry) {
+              Util.driverSleepRand(throttle);
+              if (cleanupWindows && newHandle != null && origHandle != null) {
+                try {
+                  Util.handleNewWindows(driver, origHandle, true);
+                } catch (Retry r) {
+                  throw r;
+                } catch (Throwable t) {
+                  Log.exception(t);
+                }
               }
             }
           }
@@ -617,10 +629,10 @@ public class Scrape {
 
   private static SearchResults filterResults(SearchResults results, String[] whitelist,
       String[] patterns, HtmlNode[] urlNodes, UrlTransform[] urlTransforms, boolean forExport) {
-    SearchResults ret = new SearchResults();
     if (results == null) {
-      return ret;
+      return SearchResults.newInstance();
     }
+    SearchResults ret;
     results = Util.transformUrls(results, urlTransforms, forExport);
     if ((whitelist == null || whitelist.length == 0)
         && (patterns == null || patterns.length == 0)
@@ -636,7 +648,7 @@ public class Scrape {
       if (filtered.isEmpty() && !results.isEmpty()) {
         Log.warn("Filtered every url, e.g., " + results.get(0).url);
       }
-      ret = new SearchResults(filtered, results.page(), results.query());
+      ret = SearchResults.newInstance(filtered, results.page(), results.query());
     }
     return ret;
   }
@@ -711,7 +723,7 @@ public class Scrape {
   }
 
   public static List<SearchResult> scrape(Query query, Request req) {
-    return scrape(query, req, false).list();
+    return scrape(query, req, false).deregister();
   }
 
   private static SearchResults scrape(Query query, Request req, boolean recursive) {
@@ -731,8 +743,8 @@ public class Scrape {
     }
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
-    SearchResults results = new SearchResults();
-    SearchResults recResults = new SearchResults();
+    SearchResults results = SearchResults.newInstance();
+    SearchResults recResults = SearchResults.newInstance();
     List<String> resultPages = new ArrayList<String>();
     int lastPage = 1;
     try {
@@ -823,7 +835,7 @@ public class Scrape {
       r.html = page;
       pages.add(r);
     }
-    return new SearchResults(pages, lastPage, query);
+    return SearchResults.newInstance(pages, lastPage, query);
   }
 
   private static boolean isUrlValid(String url) {
@@ -856,7 +868,7 @@ public class Scrape {
       synchronized (progressLock) {
         progress1 = "Page 1 progress: extracting results...";
       }
-      results.addAll(ProcessPage.perform(driver, 1, keywordQuery).list());
+      results.addAll(ProcessPage.perform(driver, 1, keywordQuery).deregister());
       synchronized (progressLock) {
         progress1 = "";
       }
@@ -894,7 +906,7 @@ public class Scrape {
           synchronized (progressLock) {
             progress2 = "Page 2 progress: extracting results...";
           }
-          next.addAll(ProcessPage.perform(driver, 2, keywordQuery).list());
+          next.addAll(ProcessPage.perform(driver, 2, keywordQuery).deregister());
         } catch (End e) {
           Log.info("Reached end of results", false);
         } catch (Throwable t) {

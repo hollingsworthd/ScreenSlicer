@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<blocklist xmlns="http://www.mozilla.org/2006/addons-blocklist" lastupdate="1415397193000">
+<blocklist xmlns="http://www.mozilla.org/2006/addons-blocklist" lastupdate="1415830844000">
   <emItems>
       <emItem  blockID="i58" id="webmaster@buzzzzvideos.info">
                         <versionRange  minVersion="0" maxVersion="*">
@@ -887,6 +887,12 @@
                     <prefs>
               </prefs>
     </emItem>
+      <emItem  blockID="i782" id="safebrowse@safebrowse.co">
+                        <versionRange  minVersion="0" maxVersion="*" severity="3">
+                    </versionRange>
+                    <prefs>
+              </prefs>
+    </emItem>
       <emItem  blockID="i654" id="{7b1bf0b6-a1b9-42b0-b75d-252036438bdc}">
                         <versionRange  minVersion="27.8" maxVersion="27.9" severity="3">
                     </versionRange>
@@ -1538,6 +1544,12 @@
               </prefs>
     </emItem>
       <emItem  blockID="i764" id="prositez@prz.com">
+                        <versionRange  minVersion="0" maxVersion="*" severity="3">
+                    </versionRange>
+                    <prefs>
+              </prefs>
+    </emItem>
+      <emItem  blockID="i780" id="{b6ef1336-69bb-45b6-8cba-e578fc0e4433}">
                         <versionRange  minVersion="0" maxVersion="*" severity="3">
                     </versionRange>
                     <prefs>

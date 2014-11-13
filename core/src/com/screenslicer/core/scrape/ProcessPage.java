@@ -114,7 +114,7 @@ public class ProcessPage {
         r.html = Util.outerHtml(result.getNodes());
         searchResults.add(r);
       }
-      return new SearchResults(searchResults, page, query);
+      return SearchResults.newInstance(searchResults, page, query);
     } catch (Retry r) {
       throw r;
     } catch (Throwable t) {
