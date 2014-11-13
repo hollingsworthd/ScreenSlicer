@@ -140,7 +140,7 @@ public class Util {
   private static Pattern attributes = Pattern.compile("(?<=<\\w{1,15}\\s)[^>]+(?=>)", Pattern.UNICODE_CHARACTER_CLASS);
   private static int STARTUP_WAIT_MS = 100;
   private static int LONG_WAIT_MS = 5837;
-  private static int RESET_WAIT_MS = 120000;
+  private static int RESET_WAIT_MS = 180000;
   private static int SHORT_WAIT_MS = 1152;
   private static int SHORT_WAIT_MIN_MS = 3783;
   private static int VERY_SHORT_WAIT_MS = 381;

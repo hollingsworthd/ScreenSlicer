@@ -24,60 +24,120 @@
  */
 package com.screenslicer.core.scrape.type;
 
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 
+import org.openqa.selenium.remote.BrowserDriver;
+
 import com.screenslicer.api.datatype.SearchResult;
 import com.screenslicer.api.request.Query;
+import com.screenslicer.common.CommonUtil;
+import com.screenslicer.common.Log;
+import com.screenslicer.core.scrape.ProcessPage;
+import com.screenslicer.core.scrape.Scrape.ActionFailed;
+import com.screenslicer.core.util.Util;
 
 public class SearchResults {
   private List<SearchResult> searchResults;
   private List<SearchResult> prevResults;
   private static Collection<SearchResults> instances = new HashSet<SearchResults>();
-  private boolean isValid = true;
   private static Object lock = new Object();
-  private Query query;
+  private String window;
   private int page;
-
-  public static SearchResults newInstance(
-      List<SearchResult> searchResults, int page, Query query) {
-    SearchResults instance = new SearchResults(searchResults, page, query);
-    synchronized (lock) {
-      instances.add(instance);
-    }
-    return instance;
-  }
+  private Query query;
 
   public static SearchResults newInstance() {
-    SearchResults instance = new SearchResults();
+    return newInstance(null, null, -1, null);
+  }
+
+  public static SearchResults newInstance(
+      List<SearchResult> searchResults, SearchResults source) {
+    if (source != null) {
+      synchronized (lock) {
+        instances.remove(source);
+      }
+      return newInstance(searchResults, source.window, source.page, source.query);
+    }
+    return newInstance(searchResults, null, -1, null);
+  }
+
+  public static SearchResults newInstance(
+      List<SearchResult> searchResults, String window, int page, Query query) {
+    SearchResults instance = new SearchResults(searchResults, window, page, query);
     synchronized (lock) {
       instances.add(instance);
     }
     return instance;
   }
 
-  public static void invalidate() {
-    synchronized (lock) {
-      for (SearchResults cur : instances) {
-        cur.isValid = false;
-      }
-    }
-  }
-
-  private SearchResults(List<SearchResult> searchResults, int page, Query query) {
-    this.searchResults = searchResults;
-    this.prevResults = new ArrayList<SearchResult>(searchResults);
+  private SearchResults(List<SearchResult> searchResults, String window, int page, Query query) {
+    this.searchResults = searchResults == null ? new ArrayList<SearchResult>()
+        : new ArrayList<SearchResult>(searchResults);
+    this.prevResults = searchResults == null ? new ArrayList<SearchResult>()
+        : new ArrayList<SearchResult>(searchResults);
+    this.window = window;
     this.page = page;
     this.query = query;
   }
 
-  private SearchResults() {
-    this.searchResults = new ArrayList<SearchResult>();
-    this.prevResults = new ArrayList<SearchResult>();
-    this.page = -1;
-    this.query = null;
+  public static void revalidate(BrowserDriver driver) {
+    synchronized (lock) {
+      driver.reset();
+      Util.driverSleepReset();
+      for (SearchResults cur : instances) {
+        try {
+          if (cur.window != null && cur.query != null && !CommonUtil.isEmpty(cur.prevResults)) {
+            int size = cur.removeLastPage();
+            try {
+              driver.switchTo().window(cur.window);
+              driver.switchTo().defaultContent();
+              cur.prevResults = new ArrayList<SearchResult>(ProcessPage.perform(driver, cur.page, cur.query).drain());
+              int newSize = cur.prevResults.size();
+              for (int num = newSize; num > size; num--) {
+                cur.prevResults.remove(num - 1);
+              }
+              cur.window = driver.getWindowHandle();
+              cur.searchResults.addAll(cur.prevResults);
+            } catch (ActionFailed e) {
+              Log.exception(e);
+            }
+          }
+        } catch (Throwable t) {
+          Log.exception(t);
+        }
+      }
+      String[] handles = driver.getWindowHandles().toArray(new String[0]);
+      driver.switchTo().window(handles[handles.length - 1]);
+      driver.switchTo().defaultContent();
+      if (handles.length > 1) {
+        try {
+          new URL(driver.getCurrentUrl());
+        } catch (Throwable t) {
+          try {
+            driver.close();
+          } catch (Throwable t2) {
+            Log.exception(t2);
+          }
+          driver.switchTo().window(handles[handles.length - 2]);
+          driver.switchTo().defaultContent();
+        }
+      }
+    }
+  }
+
+  private int removeLastPage() {
+    if (!CommonUtil.isEmpty(prevResults)) {
+      for (SearchResult toRemove : prevResults) {
+        searchResults.remove(toRemove);
+      }
+      int size = prevResults.size();
+      prevResults.clear();
+      return size;
+    }
+    return 0;
   }
 
   public boolean isEmpty() {
@@ -94,26 +154,21 @@ public class SearchResults {
     }
   }
 
-  public List<SearchResult> deregister() {
+  public List<SearchResult> drain() {
     synchronized (lock) {
       instances.remove(this);
     }
+    prevResults.clear();
     return searchResults;
   }
 
   public void addPage(SearchResults newResults) {
-    List<SearchResult> results = newResults.deregister();
+    List<SearchResult> results = newResults.drain();
     searchResults.addAll(results);
     this.prevResults = new ArrayList<SearchResult>(results);
+    this.window = newResults.window;
     this.page = newResults.page;
     this.query = newResults.query;
-  }
-
-  public void remoteLastPage() {
-    for (SearchResult toRemove : prevResults) {
-      searchResults.remove(toRemove);
-    }
-    prevResults.clear();
   }
 
   public SearchResult get(int index) {
