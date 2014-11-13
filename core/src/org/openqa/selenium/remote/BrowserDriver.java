@@ -44,7 +44,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
-import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -66,6 +65,8 @@ import org.openqa.selenium.internal.FindsByName;
 import org.openqa.selenium.internal.FindsByTagName;
 import org.openqa.selenium.internal.FindsByXPath;
 import org.openqa.selenium.internal.Killable;
+import org.openqa.selenium.internal.Locatable;
+import org.openqa.selenium.internal.WrapsDriver;
 
 import com.google.common.io.Resources;
 import com.screenslicer.common.Log;
@@ -120,10 +121,10 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     throw new Retry(throwable);
   }
 
-  private static List<WebElement> convert(List<WebElement> elements) {
+  private static List<WebElement> convert(BrowserDriver driver, List<WebElement> elements) {
     List<WebElement> myElements = new ArrayList<WebElement>();
     for (WebElement element : elements) {
-      myElements.add(new MyElement((RemoteWebElement) element));
+      myElements.add(new MyElement(driver, (RemoteWebElement) element));
     }
     return myElements;
   }
@@ -173,24 +174,6 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     });
   }
 
-  protected Response execute(final String driverCommand, final Map<String, ?> parameters) {
-    return (Response) exec(new Executor() {
-      @Override
-      public Object perform() {
-        return firefoxDriver.execute(driverCommand, parameters);
-      }
-    });
-  }
-
-  protected Response execute(final String command) {
-    return (Response) exec(new Executor() {
-      @Override
-      public Object perform() {
-        return firefoxDriver.execute(command);
-      }
-    });
-  }
-
   @Override
   public Object executeAsyncScript(final String script, final Object... args) {
     return exec(new Executor() {
@@ -213,7 +196,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public WebElement findElement(final By by) {
-    return new MyElement((RemoteWebElement) exec(new Executor() {
+    return new MyElement(this, (RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElement(by);
@@ -222,7 +205,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
   }
 
   protected WebElement findElement(final String by, final String using) {
-    return new MyElement((RemoteWebElement) exec(new Executor() {
+    return new MyElement(this, (RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElement(by, using);
@@ -232,7 +215,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public WebElement findElementByClassName(final String using) {
-    return new MyElement((RemoteWebElement) exec(new Executor() {
+    return new MyElement(this, (RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementByClassName(using);
@@ -242,7 +225,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public WebElement findElementByCssSelector(final String using) {
-    return new MyElement((RemoteWebElement) exec(new Executor() {
+    return new MyElement(this, (RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementByCssSelector(using);
@@ -252,7 +235,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public WebElement findElementById(final String using) {
-    return new MyElement((RemoteWebElement) exec(new Executor() {
+    return new MyElement(this, (RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementById(using);
@@ -262,7 +245,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public WebElement findElementByLinkText(final String using) {
-    return new MyElement((RemoteWebElement) exec(new Executor() {
+    return new MyElement(this, (RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementByLinkText(using);
@@ -272,7 +255,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public WebElement findElementByName(final String using) {
-    return new MyElement((RemoteWebElement) exec(new Executor() {
+    return new MyElement(this, (RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementByName(using);
@@ -282,7 +265,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public WebElement findElementByPartialLinkText(final String using) {
-    return new MyElement((RemoteWebElement) exec(new Executor() {
+    return new MyElement(this, (RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementByPartialLinkText(using);
@@ -292,7 +275,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public WebElement findElementByTagName(final String using) {
-    return new MyElement((RemoteWebElement) exec(new Executor() {
+    return new MyElement(this, (RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementByTagName(using);
@@ -302,7 +285,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public WebElement findElementByXPath(final String using) {
-    return new MyElement((RemoteWebElement) exec(new Executor() {
+    return new MyElement(this, (RemoteWebElement) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementByXPath(using);
@@ -312,7 +295,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public List<WebElement> findElements(final By by) {
-    return convert((List<WebElement>) exec(new Executor() {
+    return convert(this, (List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElements(by);
@@ -321,7 +304,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
   }
 
   protected List<WebElement> findElements(final String by, final String using) {
-    return convert((List<WebElement>) exec(new Executor() {
+    return convert(this, (List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElements(by, using);
@@ -330,7 +313,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
   }
 
   public List<WebElement> findElementsByClassName(final String using) {
-    return convert((List<WebElement>) exec(new Executor() {
+    return convert(this, (List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementsByClassName(using);
@@ -340,7 +323,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public List<WebElement> findElementsByCssSelector(final String using) {
-    return convert((List<WebElement>) exec(new Executor() {
+    return convert(this, (List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementsByCssSelector(using);
@@ -350,7 +333,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public List<WebElement> findElementsById(final String using) {
-    return convert((List<WebElement>) exec(new Executor() {
+    return convert(this, (List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementsById(using);
@@ -360,7 +343,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public List<WebElement> findElementsByLinkText(final String using) {
-    return convert((List<WebElement>) exec(new Executor() {
+    return convert(this, (List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementsByLinkText(using);
@@ -370,7 +353,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public List<WebElement> findElementsByName(final String using) {
-    return convert((List<WebElement>) exec(new Executor() {
+    return convert(this, (List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementsByName(using);
@@ -380,7 +363,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public List<WebElement> findElementsByPartialLinkText(final String using) {
-    return convert((List<WebElement>) exec(new Executor() {
+    return convert(this, (List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementsByPartialLinkText(using);
@@ -390,7 +373,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public List<WebElement> findElementsByTagName(final String using) {
-    return convert((List<WebElement>) exec(new Executor() {
+    return convert(this, (List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementsByTagName(using);
@@ -400,7 +383,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   @Override
   public List<WebElement> findElementsByXPath(final String using) {
-    return convert((List<WebElement>) exec(new Executor() {
+    return convert(this, (List<WebElement>) exec(new Executor() {
       @Override
       public Object perform() {
         return firefoxDriver.findElementsByXPath(using);
@@ -546,8 +529,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     return (X) exec(new Executor() {
       @Override
       public Object perform() {
-        firefoxDriver.getScreenshotAs(arg0);
-        return null;
+        return firefoxDriver.getScreenshotAs(arg0);
       }
     });
   }
@@ -557,14 +539,13 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     return firefoxDriver.getCapabilities();
   }
 
-  private static class MyElement extends RemoteWebElement {
+  private static class MyElement implements WebElement, FindsByLinkText, FindsById, FindsByName,
+      FindsByTagName, FindsByClassName, FindsByCssSelector, FindsByXPath, WrapsDriver, Locatable {
     private final RemoteWebElement element;
+    private final BrowserDriver driver;
 
-    public MyElement(RemoteWebElement element) {
-      super.fileDetector = element.fileDetector;
-      super.id = element.id;
-      super.mouse = element.mouse;
-      super.parent = element.parent;
+    public MyElement(BrowserDriver driver, RemoteWebElement element) {
+      this.driver = driver;
       this.element = element;
     }
 
@@ -592,7 +573,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public WebElement findElement(final By arg0) {
-      return new MyElement((RemoteWebElement) exec(new Executor() {
+      return new MyElement(driver, (RemoteWebElement) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElement(arg0);
@@ -602,7 +583,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public List<WebElement> findElements(final By arg0) {
-      return convert((List<WebElement>) exec(new Executor() {
+      return convert(driver, (List<WebElement>) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElements(arg0);
@@ -723,28 +704,8 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     }
 
     @Override
-    protected Response execute(final String command, final Map<String, ?> parameters) {
-      return (Response) exec(new Executor() {
-        @Override
-        public Object perform() {
-          return element.execute(command, parameters);
-        }
-      });
-    }
-
-    @Override
-    protected WebElement findElement(final String using, final String value) {
-      return new MyElement((RemoteWebElement) exec(new Executor() {
-        @Override
-        public Object perform() {
-          return element.findElement(using, value);
-        }
-      }));
-    }
-
-    @Override
     public WebElement findElementByClassName(final String using) {
-      return new MyElement((RemoteWebElement) exec(new Executor() {
+      return new MyElement(driver, (RemoteWebElement) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementByClassName(using);
@@ -754,7 +715,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public WebElement findElementByCssSelector(final String using) {
-      return new MyElement((RemoteWebElement) exec(new Executor() {
+      return new MyElement(driver, (RemoteWebElement) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementByCssSelector(using);
@@ -764,7 +725,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public WebElement findElementById(final String using) {
-      return new MyElement((RemoteWebElement) exec(new Executor() {
+      return new MyElement(driver, (RemoteWebElement) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementById(using);
@@ -774,7 +735,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public WebElement findElementByLinkText(final String using) {
-      return new MyElement((RemoteWebElement) exec(new Executor() {
+      return new MyElement(driver, (RemoteWebElement) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementByLinkText(using);
@@ -784,7 +745,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public WebElement findElementByName(final String using) {
-      return new MyElement((RemoteWebElement) exec(new Executor() {
+      return new MyElement(driver, (RemoteWebElement) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementByName(using);
@@ -794,7 +755,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public WebElement findElementByPartialLinkText(final String using) {
-      return new MyElement((RemoteWebElement) exec(new Executor() {
+      return new MyElement(driver, (RemoteWebElement) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementByPartialLinkText(using);
@@ -804,7 +765,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public WebElement findElementByTagName(final String using) {
-      return new MyElement((RemoteWebElement) exec(new Executor() {
+      return new MyElement(driver, (RemoteWebElement) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementByTagName(using);
@@ -814,7 +775,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public WebElement findElementByXPath(final String using) {
-      return new MyElement((RemoteWebElement) exec(new Executor() {
+      return new MyElement(driver, (RemoteWebElement) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementByXPath(using);
@@ -823,18 +784,8 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     }
 
     @Override
-    protected List<WebElement> findElements(final String using, final String value) {
-      return convert((List<WebElement>) exec(new Executor() {
-        @Override
-        public Object perform() {
-          return element.findElements(using, value);
-        }
-      }));
-    }
-
-    @Override
     public List<WebElement> findElementsByClassName(final String using) {
-      return convert((List<WebElement>) exec(new Executor() {
+      return convert(driver, (List<WebElement>) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementsByClassName(using);
@@ -844,7 +795,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public List<WebElement> findElementsByCssSelector(final String using) {
-      return convert((List<WebElement>) exec(new Executor() {
+      return convert(driver, (List<WebElement>) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementsByCssSelector(using);
@@ -854,7 +805,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public List<WebElement> findElementsById(final String using) {
-      return convert((List<WebElement>) exec(new Executor() {
+      return convert(driver, (List<WebElement>) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementsById(using);
@@ -864,7 +815,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public List<WebElement> findElementsByLinkText(final String using) {
-      return convert((List<WebElement>) exec(new Executor() {
+      return convert(driver, (List<WebElement>) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementsByLinkText(using);
@@ -874,7 +825,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public List<WebElement> findElementsByName(final String using) {
-      return convert((List<WebElement>) exec(new Executor() {
+      return convert(driver, (List<WebElement>) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementsByName(using);
@@ -884,7 +835,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public List<WebElement> findElementsByPartialLinkText(final String using) {
-      return convert((List<WebElement>) exec(new Executor() {
+      return convert(driver, (List<WebElement>) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementsByPartialLinkText(using);
@@ -894,7 +845,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public List<WebElement> findElementsByTagName(final String using) {
-      return convert((List<WebElement>) exec(new Executor() {
+      return convert(driver, (List<WebElement>) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementsByTagName(using);
@@ -904,7 +855,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public List<WebElement> findElementsByXPath(final String using) {
-      return convert((List<WebElement>) exec(new Executor() {
+      return convert(driver, (List<WebElement>) exec(new Executor() {
         @Override
         public Object perform() {
           return element.findElementsByXPath(using);
@@ -923,43 +874,8 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     }
 
     @Override
-    public String getId() {
-      return (String) exec(new Executor() {
-        @Override
-        public Object perform() {
-          return element.getId();
-        }
-      });
-    }
-
-    @Override
     public WebDriver getWrappedDriver() {
-      return (WebDriver) exec(new Executor() {
-        @Override
-        public Object perform() {
-          return element.getWrappedDriver();
-        }
-      });
-    }
-
-    @Override
-    public void setFileDetector(FileDetector detector) {
-      element.setFileDetector(detector);
-    }
-
-    @Override
-    protected void setFoundBy(SearchContext foundFrom, String locator, String term) {
-      element.setFoundBy(foundFrom, locator, term);
-    }
-
-    @Override
-    public void setId(String id) {
-      element.setId(id);
-    }
-
-    @Override
-    public void setParent(RemoteWebDriver parent) {
-      element.setParent(parent);
+      return driver;
     }
   }
 
@@ -1218,7 +1134,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
     @Override
     public WebElement activeElement() {
-      return new MyElement((RemoteWebElement) exec(new Executor() {
+      return new MyElement(driver, (RemoteWebElement) exec(new Executor() {
         @Override
         public Object perform() {
           return loc.activeElement();
@@ -1307,15 +1223,42 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     }
   }
 
+  private static class MyAction implements Action {
+    private Action action;
+
+    public MyAction(Action action) {
+      this.action = action;
+    }
+
+    @Override
+    public void perform() {
+      exec(new Executor() {
+        @Override
+        public Object perform() {
+          action.perform();
+          return null;
+        }
+      });
+    }
+  }
+
   private static class MyActions extends Actions {
 
     public MyActions(BrowserDriver driver) {
       super(driver);
     }
 
+    public MyActions(Keyboard keyboard) {
+      super(keyboard);
+    }
+
+    public MyActions(Keyboard keyboard, Mouse mouse) {
+      super(keyboard, mouse);
+    }
+
     @Override
     public Action build() {
-      return super.build();
+      return new MyAction(super.build());
     }
 
     @Override
