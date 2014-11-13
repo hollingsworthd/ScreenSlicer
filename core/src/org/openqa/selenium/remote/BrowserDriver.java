@@ -1314,9 +1314,8 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     }
 
     @Override
-    @Deprecated
     public Action build() {
-      throw new UnsupportedOperationException();
+      return super.build();
     }
 
     @Override
