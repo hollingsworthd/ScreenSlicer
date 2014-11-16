@@ -84,46 +84,48 @@ public class SearchResults {
   }
 
   public static void revalidate(BrowserDriver driver) {
+    Collection<SearchResults> myInstances;
     synchronized (lock) {
-      driver.reset();
-      Util.driverSleepReset();
-      for (SearchResults cur : instances) {
-        try {
-          if (cur.window != null && cur.query != null && !CommonUtil.isEmpty(cur.prevResults)) {
-            int size = cur.removeLastPage();
-            try {
-              driver.switchTo().window(cur.window);
-              driver.switchTo().defaultContent();
-              cur.prevResults = new ArrayList<SearchResult>(ProcessPage.perform(driver, cur.page, cur.query).drain());
-              int newSize = cur.prevResults.size();
-              for (int num = newSize; num > size; num--) {
-                cur.prevResults.remove(num - 1);
-              }
-              cur.window = driver.getWindowHandle();
-              cur.searchResults.addAll(cur.prevResults);
-            } catch (ActionFailed e) {
-              Log.exception(e);
-            }
-          }
-        } catch (Throwable t) {
-          Log.exception(t);
-        }
-      }
-      String[] handles = driver.getWindowHandles().toArray(new String[0]);
-      driver.switchTo().window(handles[handles.length - 1]);
-      driver.switchTo().defaultContent();
-      if (handles.length > 1) {
-        try {
-          new URL(driver.getCurrentUrl());
-        } catch (Throwable t) {
+      myInstances = new HashSet<SearchResults>(instances);
+    }
+    driver.reset();
+    Util.driverSleepReset();
+    for (SearchResults cur : myInstances) {
+      try {
+        if (cur.window != null && cur.query != null && !CommonUtil.isEmpty(cur.prevResults)) {
+          int size = cur.removeLastPage();
           try {
-            driver.close();
-          } catch (Throwable t2) {
-            Log.exception(t2);
+            driver.switchTo().window(cur.window);
+            driver.switchTo().defaultContent();
+            cur.prevResults = new ArrayList<SearchResult>(ProcessPage.perform(driver, cur.page, cur.query).drain());
+            int newSize = cur.prevResults.size();
+            for (int num = newSize; num > size; num--) {
+              cur.prevResults.remove(num - 1);
+            }
+            cur.window = driver.getWindowHandle();
+            cur.searchResults.addAll(cur.prevResults);
+          } catch (ActionFailed e) {
+            Log.exception(e);
           }
-          driver.switchTo().window(handles[handles.length - 2]);
-          driver.switchTo().defaultContent();
         }
+      } catch (Throwable t) {
+        Log.exception(t);
+      }
+    }
+    String[] handles = driver.getWindowHandles().toArray(new String[0]);
+    driver.switchTo().window(handles[handles.length - 1]);
+    driver.switchTo().defaultContent();
+    if (handles.length > 1) {
+      try {
+        new URL(driver.getCurrentUrl());
+      } catch (Throwable t) {
+        try {
+          driver.close();
+        } catch (Throwable t2) {
+          Log.exception(t2);
+        }
+        driver.switchTo().window(handles[handles.length - 2]);
+        driver.switchTo().defaultContent();
       }
     }
   }
