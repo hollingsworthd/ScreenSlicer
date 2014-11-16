@@ -171,7 +171,7 @@ public class Util {
     } catch (InterruptedException e) {}
   }
 
-  public static void get(BrowserDriver driver, String url, Node urlNode, boolean retry, boolean toNewWindow, boolean cleanupWindows) throws ActionFailed {
+  public static void get(BrowserDriver driver, String url, Node urlNode, boolean reAttempt, boolean toNewWindow, boolean cleanupWindows) throws ActionFailed {
     if (CommonUtil.isEmpty(url) && urlNode == null) {
       throw new ActionFailed();
     }
@@ -182,110 +182,121 @@ public class Util {
       String source = null;
       boolean badUrl = true;
       boolean statusFail = true;
-      if (urlNode != null) {
-        origHandle = driver.getWindowHandle();
-      }
+      origHandle = driver.getWindowHandle();
+      Set<String> handlesBefore = driver.getWindowHandles();
       for (int i = 0; i < REFRESH_TRIES
           && (badUrl || statusFail || exception || CommonUtil.isEmpty(source)); i++) {
-        badUrl = false;
-        statusFail = false;
-        exception = false;
-        source = null;
-        Log.debug("getting url...", WebApp.DEBUG);
         try {
-          driver.getKeyboard().sendKeys(Keys.ESCAPE);
-        } catch (Retry r) {
-          throw r;
-        } catch (Throwable t) {
-          Log.exception(t);
-        }
-        if (urlNode != null) {
-          try {
-            handleNewWindows(driver, origHandle, cleanupWindows);
-          } catch (Retry r) {
-            throw r;
-          } catch (Throwable t) {
-            Log.exception(t);
-          }
-        }
-        try {
-          Util.driverSleepVeryShort();
-          if (urlNode != null) {
-            try {
-              Set<String> origHandles = driver.getWindowHandles();
-              if (toNewWindow) {
-                Util.clickToNewWindow(driver, toElement(driver, urlNode));
-              } else {
-                Util.click(driver, toElement(driver, urlNode));
-              }
-              Set<String> newHandles = driver.getWindowHandles();
-              String switchTo = null;
-              for (String newHandle : newHandles) {
-                if (!origHandle.equals(newHandle)) {
-                  switchTo = newHandle;
-                }
-              }
-              for (String newHandle : newHandles) {
-                if (!origHandles.contains(newHandle) && !newHandle.equals(switchTo)) {
-                  driver.switchTo().window(newHandle);
-                  driver.close();
-                }
-              }
-              if (switchTo != null) {
-                driver.switchTo().window(switchTo);
-              }
-            } catch (Retry r) {
-              throw r;
-            } catch (Throwable t) {
-              exception = true;
-              Log.exception(t);
-              Util.handleNewWindows(driver, origHandle, cleanupWindows);
-            }
-          } else if (!CommonUtil.isEmpty(url)) {
-            driver.get("about:blank");
-            try {
-              driver.get(url);
-            } catch (Retry r) {
-              throw r;
-            } catch (TimeoutException e) {
-              Log.exception(e);
-            }
-          }
-          if (!exception) {
-            Util.driverSleepShort();
-            Util.driverSleepLong();
-            statusFail = HttpStatus.status(driver, urlNode != null || url != null) != 200;
-            driver.switchTo().defaultContent();
-            source = driver.getPageSource();
-            try {
-              new URL(driver.getCurrentUrl());
-              badUrl = false;
-            } catch (Retry r) {
-              throw r;
-            } catch (Throwable t) {
-              badUrl = true;
-            }
-          }
-        } catch (Retry r) {
-          throw r;
-        } catch (Throwable t) {
-          Log.exception(t);
-          exception = true;
-        }
-        if ((!retry || i + 1 == REFRESH_TRIES)
-            && (badUrl || statusFail || exception || CommonUtil.isEmpty(source))) {
+          badUrl = false;
+          statusFail = false;
+          exception = false;
+          source = null;
+          Log.debug("getting url...", WebApp.DEBUG);
           try {
             driver.getKeyboard().sendKeys(Keys.ESCAPE);
-            Util.driverSleepVeryShort();
           } catch (Retry r) {
             throw r;
           } catch (Throwable t) {
             Log.exception(t);
           }
-          success = false;
-          if (!retry) {
-            break;
+          if (urlNode != null) {
+            try {
+              handleNewWindows(driver, origHandle, cleanupWindows);
+            } catch (Retry r) {
+              throw r;
+            } catch (Throwable t) {
+              Log.exception(t);
+            }
           }
+          try {
+            Util.driverSleepVeryShort();
+            if (urlNode != null) {
+              try {
+                Set<String> origHandles = driver.getWindowHandles();
+                if (toNewWindow) {
+                  Util.clickToNewWindow(driver, toElement(driver, urlNode));
+                } else {
+                  Util.click(driver, toElement(driver, urlNode));
+                }
+                Set<String> newHandles = driver.getWindowHandles();
+                String switchTo = null;
+                for (String newHandle : newHandles) {
+                  if (!origHandle.equals(newHandle)) {
+                    switchTo = newHandle;
+                  }
+                }
+                for (String newHandle : newHandles) {
+                  if (!origHandles.contains(newHandle) && !newHandle.equals(switchTo)) {
+                    driver.switchTo().window(newHandle);
+                    driver.close();
+                  }
+                }
+                if (switchTo != null) {
+                  driver.switchTo().window(switchTo);
+                }
+              } catch (Retry r) {
+                throw r;
+              } catch (Throwable t) {
+                exception = true;
+                Log.exception(t);
+                Util.handleNewWindows(driver, origHandle, cleanupWindows);
+              }
+            } else if (!CommonUtil.isEmpty(url)) {
+              driver.get("about:blank");
+              try {
+                driver.get(url);
+              } catch (Retry r) {
+                throw r;
+              } catch (TimeoutException e) {
+                Log.exception(e);
+              }
+            }
+            if (!exception) {
+              Util.driverSleepShort();
+              Util.driverSleepLong();
+              statusFail = HttpStatus.status(driver, urlNode != null || url != null) != 200;
+              driver.switchTo().defaultContent();
+              source = driver.getPageSource();
+              try {
+                new URL(driver.getCurrentUrl());
+                badUrl = false;
+              } catch (Retry r) {
+                throw r;
+              } catch (Throwable t) {
+                badUrl = true;
+              }
+            }
+          } catch (Retry r) {
+            throw r;
+          } catch (Throwable t) {
+            Log.exception(t);
+            exception = true;
+          }
+          if ((!reAttempt || i + 1 == REFRESH_TRIES)
+              && (badUrl || statusFail || exception || CommonUtil.isEmpty(source))) {
+            try {
+              driver.getKeyboard().sendKeys(Keys.ESCAPE);
+              Util.driverSleepVeryShort();
+            } catch (Retry r) {
+              throw r;
+            } catch (Throwable t) {
+              Log.exception(t);
+            }
+            success = false;
+            if (!reAttempt) {
+              break;
+            }
+          }
+        } finally {
+          Set<String> handlesAfter = driver.getWindowHandles();
+          for (String curHandle : handlesAfter) {
+            if (!handlesBefore.contains(curHandle)) {
+              driver.switchTo().window(curHandle);
+              driver.close();
+            }
+          }
+          driver.switchTo().window(origHandle);
+          driver.switchTo().defaultContent();
         }
       }
       Log.debug("getting url - done", WebApp.DEBUG);

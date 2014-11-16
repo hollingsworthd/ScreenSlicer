@@ -348,7 +348,6 @@ public class Scrape {
               }
             }
             if (recQuery != null) {
-              req.continueSession = true;
               recResults.addPage(scrape(recQuery, req, true));
             }
 
@@ -686,9 +685,9 @@ public class Scrape {
           Log.exception(e);
         }
       }
-    }
-    if (!req.continueSession) {
-      restart(req);
+      if (!req.continueSession) {
+        restart(req);
+      }
     }
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
@@ -704,7 +703,9 @@ public class Scrape {
         try {
           QueryForm.perform(driver, (FormQuery) query, !recursive);
         } catch (Throwable e) {
-          restart(req);
+          if (!recursive) {
+            restart(req);
+          }
           QueryForm.perform(driver, (FormQuery) query, !recursive);
         }
       } else {
@@ -712,7 +713,9 @@ public class Scrape {
         try {
           QueryKeyword.perform(driver, (KeywordQuery) query, !recursive);
         } catch (Throwable e) {
-          restart(req);
+          if (!recursive) {
+            restart(req);
+          }
           QueryKeyword.perform(driver, (KeywordQuery) query, !recursive);
         }
       }
