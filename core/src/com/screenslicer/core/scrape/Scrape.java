@@ -65,15 +65,6 @@ import com.screenslicer.webapp.WebApp;
 import de.l3s.boilerpipe.extractors.NumWordsRulesExtractor;
 
 public class Scrape {
-  static {
-    try {
-      FileUtils.deleteQuietly(new File("./fetch_local_cache"));
-      FileUtils.forceMkdir(new File("./fetch_local_cache"));
-    } catch (Throwable t) {
-      Log.exception(t);
-    }
-  }
-
   public static class ActionFailed extends Exception {
     private static final long serialVersionUID = 1L;
 
