@@ -24,7 +24,6 @@
  */
 package com.screenslicer.core.scrape.type;
 
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
@@ -90,6 +89,11 @@ public class SearchResults {
     }
     driver.reset();
     Util.driverSleepReset();
+    int numWindows = driver.numWindows();
+    String[] curWindows = driver.getWindowHandles().toArray(new String[0]);
+    for (int i = numWindows; i < curWindows.length; i++) {
+      driver.switchTo().window(curWindows[i]).close();
+    }
     for (SearchResults cur : myInstances) {
       try {
         if (cur.window != null && cur.query != null && !CommonUtil.isEmpty(cur.prevResults)) {
@@ -115,19 +119,6 @@ public class SearchResults {
     String[] handles = driver.getWindowHandles().toArray(new String[0]);
     driver.switchTo().window(handles[handles.length - 1]);
     driver.switchTo().defaultContent();
-    if (handles.length > 1) {
-      try {
-        new URL(driver.getCurrentUrl());
-      } catch (Throwable t) {
-        try {
-          driver.close();
-        } catch (Throwable t2) {
-          Log.exception(t2);
-        }
-        driver.switchTo().window(handles[handles.length - 2]);
-        driver.switchTo().defaultContent();
-      }
-    }
   }
 
   private int removeLastPage() {
