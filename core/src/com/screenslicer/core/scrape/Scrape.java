@@ -487,6 +487,7 @@ public class Scrape {
               result[0] = content;
             }
           } catch (Retry r) {
+            retry = true;
             throw r;
           } catch (Throwable t) {
             Log.exception(t);

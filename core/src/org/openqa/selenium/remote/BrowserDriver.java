@@ -105,14 +105,11 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
         Object ret = action.perform();
         try {
           synchronized (driver.lock) {
-            if (driver.doTranslation) {
-              Set<String> handles = driver.firefoxDriver.getWindowHandles();
-              int num = -1;
-              driver.windowTranslator.clear();
-              for (String cur : handles) {
-                ++num;
-                driver.windowTranslator.put(cur, num);
-              }
+            Set<String> handles = driver.firefoxDriver.getWindowHandles();
+            int num = -1;
+            for (String cur : handles) {
+              ++num;
+              driver.windowTranslator.put(cur, num);
             }
           }
         } catch (Throwable t) {
@@ -150,7 +147,6 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
   private final Profile profile;
   private final Map<String, Integer> windowTranslator = new HashMap<String, Integer>();
   private final Object lock = new Object();
-  private boolean doTranslation = true;
 
   public BrowserDriver(Profile profile) {
     firefoxDriver = new FirefoxDriver(profile);
@@ -159,8 +155,12 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
 
   private String translate(String windowHandle) {
     synchronized (lock) {
-      int num = windowTranslator.get(windowHandle);
-      return firefoxDriver.getWindowHandles().toArray(new String[0])[num];
+      Integer num = windowTranslator.get(windowHandle);
+      String[] windows = firefoxDriver.getWindowHandles().toArray(new String[0]);
+      if (num == null || num.intValue() >= windows.length) {
+        num = new Integer(windows.length - 1);
+      }
+      return windows[num.intValue()];
     }
   }
 
@@ -169,31 +169,16 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     firefoxDriver.kill();
   }
 
-  public void resetStart() {
+  public void reset() {
     firefoxDriver.kill();
     firefoxDriver = new FirefoxDriver(profile);
     Util.driverSleepReset();
     synchronized (lock) {
-      doTranslation = false;
       int numWindows = windowTranslator.size();
       String[] curWindows = firefoxDriver.getWindowHandles().toArray(new String[0]);
       for (int i = numWindows; i < curWindows.length; i++) {
         firefoxDriver.switchTo().window(curWindows[i]).close();
-        windowTranslator.remove(curWindows[i]);
       }
-    }
-  }
-
-  public void resetEnd() {
-    synchronized (lock) {
-      windowTranslator.clear();
-      Set<String> handles = firefoxDriver.getWindowHandles();
-      int num = -1;
-      for (String cur : handles) {
-        ++num;
-        windowTranslator.put(cur, num);
-      }
-      doTranslation = true;
     }
   }
 
