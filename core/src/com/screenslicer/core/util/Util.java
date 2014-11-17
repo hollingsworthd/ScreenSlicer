@@ -189,6 +189,7 @@ public class Util {
       for (int i = 0; i < REFRESH_TRIES
           && (badUrl || statusFail || exception || CommonUtil.isEmpty(source)); i++) {
         switchTo = null;
+        boolean retryException = false;
         try {
           badUrl = false;
           statusFail = false;
@@ -271,7 +272,7 @@ public class Util {
               }
             }
           } catch (Retry r) {
-            switchTo = null;
+            retryException = true;
             throw r;
           } catch (Throwable t) {
             Log.exception(t);
@@ -295,15 +296,17 @@ public class Util {
             }
           }
         } finally {
-          Set<String> handlesAfter = driver.getWindowHandles();
-          for (String curHandle : handlesAfter) {
-            if (!handlesBefore.contains(curHandle) && !curHandle.equals(switchTo)) {
-              driver.switchTo().window(curHandle);
-              driver.close();
+          if (!retryException) {
+            Set<String> handlesAfter = driver.getWindowHandles();
+            for (String curHandle : handlesAfter) {
+              if (!handlesBefore.contains(curHandle) && !curHandle.equals(switchTo)) {
+                driver.switchTo().window(curHandle);
+                driver.close();
+              }
             }
+            driver.switchTo().window(switchTo == null ? origHandle : switchTo);
+            driver.switchTo().defaultContent();
           }
-          driver.switchTo().window(switchTo == null ? origHandle : switchTo);
-          driver.switchTo().defaultContent();
         }
       }
       Log.debug("getting url - done", WebApp.DEBUG);
