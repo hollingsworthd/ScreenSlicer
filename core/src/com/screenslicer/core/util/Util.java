@@ -271,6 +271,7 @@ public class Util {
               }
             }
           } catch (Retry r) {
+            switchTo = null;
             throw r;
           } catch (Throwable t) {
             Log.exception(t);
