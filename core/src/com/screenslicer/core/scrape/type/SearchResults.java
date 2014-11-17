@@ -37,7 +37,6 @@ import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.ProcessPage;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
-import com.screenslicer.core.util.Util;
 
 public class SearchResults {
   private List<SearchResult> searchResults;
@@ -87,38 +86,36 @@ public class SearchResults {
     synchronized (lock) {
       myInstances = new HashSet<SearchResults>(instances);
     }
-    driver.reset();
-    Util.driverSleepReset();
-    int numWindows = driver.numWindows();
-    String[] curWindows = driver.getWindowHandles().toArray(new String[0]);
-    for (int i = numWindows; i < curWindows.length; i++) {
-      driver.switchTo().window(curWindows[i]).close();
-    }
-    for (SearchResults cur : myInstances) {
-      try {
-        if (cur.window != null && cur.query != null && !CommonUtil.isEmpty(cur.prevResults)) {
-          int size = cur.removeLastPage();
-          try {
-            driver.switchTo().window(cur.window);
-            driver.switchTo().defaultContent();
-            cur.prevResults = new ArrayList<SearchResult>(ProcessPage.perform(driver, cur.page, cur.query).drain());
-            int newSize = cur.prevResults.size();
-            for (int num = newSize; num > size; num--) {
-              cur.prevResults.remove(num - 1);
+    driver.resetStart();
+    try {
+      for (SearchResults cur : myInstances) {
+        try {
+          if (cur.window != null && cur.query != null && !CommonUtil.isEmpty(cur.prevResults)) {
+            int size = cur.removeLastPage();
+            try {
+              driver.switchTo().window(cur.window);
+              driver.switchTo().defaultContent();
+              cur.prevResults = new ArrayList<SearchResult>(ProcessPage.perform(driver, cur.page, cur.query).drain());
+              int newSize = cur.prevResults.size();
+              for (int num = newSize; num > size; num--) {
+                cur.prevResults.remove(num - 1);
+              }
+              cur.window = driver.getWindowHandle();
+              cur.searchResults.addAll(cur.prevResults);
+            } catch (ActionFailed e) {
+              Log.exception(e);
             }
-            cur.window = driver.getWindowHandle();
-            cur.searchResults.addAll(cur.prevResults);
-          } catch (ActionFailed e) {
-            Log.exception(e);
           }
+        } catch (Throwable t) {
+          Log.exception(t);
         }
-      } catch (Throwable t) {
-        Log.exception(t);
       }
+      String[] handles = driver.getWindowHandles().toArray(new String[0]);
+      driver.switchTo().window(handles[handles.length - 1]);
+      driver.switchTo().defaultContent();
+    } finally {
+      driver.resetEnd();
     }
-    String[] handles = driver.getWindowHandles().toArray(new String[0]);
-    driver.switchTo().window(handles[handles.length - 1]);
-    driver.switchTo().defaultContent();
   }
 
   private int removeLastPage() {
