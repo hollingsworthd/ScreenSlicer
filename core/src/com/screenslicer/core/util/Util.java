@@ -179,13 +179,16 @@ public class Util {
     boolean success = true;
     String origHandle = null;
     try {
+      String switchTo = null;
       String source = null;
       boolean badUrl = true;
       boolean statusFail = true;
       origHandle = driver.getWindowHandle();
+      Log.debug("Orig handle: " + origHandle, WebApp.DEBUG);
       Set<String> handlesBefore = driver.getWindowHandles();
       for (int i = 0; i < REFRESH_TRIES
           && (badUrl || statusFail || exception || CommonUtil.isEmpty(source)); i++) {
+        switchTo = null;
         try {
           badUrl = false;
           statusFail = false;
@@ -219,7 +222,7 @@ public class Util {
                   Util.click(driver, toElement(driver, urlNode));
                 }
                 Set<String> newHandles = driver.getWindowHandles();
-                String switchTo = null;
+                switchTo = null;
                 for (String newHandle : newHandles) {
                   if (!origHandle.equals(newHandle)) {
                     switchTo = newHandle;
@@ -232,6 +235,7 @@ public class Util {
                   }
                 }
                 if (switchTo != null) {
+                  Log.debug("Switching to: " + switchTo, WebApp.DEBUG);
                   driver.switchTo().window(switchTo);
                 }
               } catch (Retry r) {
@@ -272,30 +276,32 @@ public class Util {
             Log.exception(t);
             exception = true;
           }
-          if ((!reAttempt || i + 1 == REFRESH_TRIES)
-              && (badUrl || statusFail || exception || CommonUtil.isEmpty(source))) {
-            try {
-              driver.getKeyboard().sendKeys(Keys.ESCAPE);
-              Util.driverSleepVeryShort();
-            } catch (Retry r) {
-              throw r;
-            } catch (Throwable t) {
-              Log.exception(t);
-            }
-            success = false;
-            if (!reAttempt) {
-              break;
+          if (badUrl || statusFail || exception || CommonUtil.isEmpty(source)) {
+            switchTo = null;
+            if (!reAttempt || i + 1 == REFRESH_TRIES) {
+              try {
+                driver.getKeyboard().sendKeys(Keys.ESCAPE);
+                Util.driverSleepVeryShort();
+              } catch (Retry r) {
+                throw r;
+              } catch (Throwable t) {
+                Log.exception(t);
+              }
+              success = false;
+              if (!reAttempt) {
+                break;
+              }
             }
           }
         } finally {
           Set<String> handlesAfter = driver.getWindowHandles();
           for (String curHandle : handlesAfter) {
-            if (!handlesBefore.contains(curHandle)) {
+            if (!handlesBefore.contains(curHandle) && !curHandle.equals(switchTo)) {
               driver.switchTo().window(curHandle);
               driver.close();
             }
           }
-          driver.switchTo().window(origHandle);
+          driver.switchTo().window(switchTo == null ? origHandle : switchTo);
           driver.switchTo().defaultContent();
         }
       }
