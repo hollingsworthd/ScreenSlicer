@@ -223,9 +223,9 @@ public class Util {
                   Util.click(driver, toElement(driver, urlNode));
                 }
                 Set<String> newHandles = driver.getWindowHandles();
-                switchTo = null;
+                switchTo = origHandle;
                 for (String newHandle : newHandles) {
-                  if (!origHandle.equals(newHandle)) {
+                  if (!origHandles.contains(newHandle) && !origHandle.equals(newHandle)) {
                     switchTo = newHandle;
                   }
                 }
