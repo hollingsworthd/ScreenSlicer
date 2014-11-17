@@ -38,6 +38,8 @@ public final class Request {
   private static final SecureRandom rand = new SecureRandom();
   private static final Proxy[] configProxies = CommonUtil.isEmpty(Config.instance.proxy()) ?
       null : Proxy.instances(Config.instance.proxy()).toArray(new Proxy[0]);
+  private static final String[] configInstances = CommonUtil.isEmpty(Config.instance.instances()) ? null
+      : (String[]) CommonUtil.gson.fromJson(Config.instance.instances(), CommonUtil.stringArrayType);
 
   public static final Request instance(String json) {
     return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
@@ -78,7 +80,7 @@ public final class Request {
   /**
    * IP addresses of ScreenSlicer instances
    */
-  public String[] instances;
+  public String[] instances = configInstances;
   /**
    * Page load timeout, in seconds.
    * Defaults to 25 seconds.

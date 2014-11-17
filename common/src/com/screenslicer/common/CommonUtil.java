@@ -483,6 +483,7 @@ public class CommonUtil {
   public static final Type listStringType = new TypeToken<List<Map<String, String>>>() {}.getType();
   public static final Type listObjectType = new TypeToken<List<Map<String, Object>>>() {}.getType();
   public static final Type stringType = new TypeToken<Map<String, String>>() {}.getType();
+  public static final Type stringArrayType = new TypeToken<String[]>() {}.getType();
   public static final Type objectType = new TypeToken<Map<String, Object>>() {}.getType();
   public static final Gson gson = new GsonBuilder().disableHtmlEscaping().create();
   public static final String BUSY = "BUSY";
