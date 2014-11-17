@@ -114,7 +114,7 @@ public class ProcessPage {
         r.html = Util.outerHtml(result.getNodes());
         searchResults.add(r);
       }
-      return SearchResults.newInstance(searchResults, driver.getWindowHandle(), page, query);
+      return SearchResults.newInstance(true, searchResults, driver.getWindowHandle(), page, query);
     } catch (Retry r) {
       throw r;
     } catch (Throwable t) {

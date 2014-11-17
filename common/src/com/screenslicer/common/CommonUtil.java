@@ -436,6 +436,11 @@ public class CommonUtil {
     return str == null || str.trim().isEmpty();
   }
 
+  public static boolean equals(String str1, String str2) {
+    return (isEmpty(str1) && isEmpty(str2))
+        || (!isEmpty(str1) && str1.equals(str2));
+  }
+
   public static boolean isEmpty(String str, boolean strip) {
     return str == null || str.trim().isEmpty() || (strip && strip(str, false).isEmpty());
   }
@@ -765,6 +770,13 @@ public class CommonUtil {
     }
     cache.put(hash, newStr);
     return newStr;
+  }
+
+  public static String trim(String str) {
+    if (isEmpty(str)) {
+      return str;
+    }
+    return str.trim();
   }
 
   public static String stripNewlines(String str) {

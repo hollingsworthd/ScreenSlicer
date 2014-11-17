@@ -47,26 +47,28 @@ public class SearchResults {
   private int page;
   private Query query;
 
-  public static SearchResults newInstance() {
-    return newInstance(null, null, -1, null);
+  public static SearchResults newInstance(boolean register) {
+    return newInstance(register, null, null, -1, null);
   }
 
-  public static SearchResults newInstance(
+  public static SearchResults newInstance(boolean register,
       List<SearchResult> searchResults, SearchResults source) {
     if (source != null) {
       synchronized (lock) {
         instances.remove(source);
       }
-      return newInstance(searchResults, source.window, source.page, source.query);
+      return newInstance(register, searchResults, source.window, source.page, source.query);
     }
-    return newInstance(searchResults, null, -1, null);
+    return newInstance(register, searchResults, null, -1, null);
   }
 
-  public static SearchResults newInstance(
+  public static SearchResults newInstance(boolean register,
       List<SearchResult> searchResults, String window, int page, Query query) {
     SearchResults instance = new SearchResults(searchResults, window, page, query);
-    synchronized (lock) {
-      instances.add(instance);
+    if (register) {
+      synchronized (lock) {
+        instances.add(instance);
+      }
     }
     return instance;
   }
@@ -81,12 +83,14 @@ public class SearchResults {
     this.query = query;
   }
 
-  public static void revalidate(BrowserDriver driver) {
+  public static void revalidate(BrowserDriver driver, boolean restart) {
     Collection<SearchResults> myInstances;
     synchronized (lock) {
       myInstances = new HashSet<SearchResults>(instances);
     }
-    driver.resetStart();
+    if (restart) {
+      driver.resetStart();
+    }
     try {
       for (SearchResults cur : myInstances) {
         try {
@@ -114,7 +118,9 @@ public class SearchResults {
       driver.switchTo().window(handles[handles.length - 1]);
       driver.switchTo().defaultContent();
     } finally {
-      driver.resetEnd();
+      if (restart) {
+        driver.resetEnd();
+      }
     }
   }
 
@@ -140,7 +146,10 @@ public class SearchResults {
 
   public void remove(int index) {
     if (index < searchResults.size()) {
-      searchResults.remove(index);
+      SearchResult removed = searchResults.remove(index);
+      if (removed != null) {
+        prevResults.remove(removed);
+      }
     }
   }
 
@@ -150,6 +159,20 @@ public class SearchResults {
     }
     prevResults.clear();
     return searchResults;
+  }
+
+  public boolean isDuplicatePage(SearchResults newResults) {
+    if (!prevResults.isEmpty() && prevResults.size() == newResults.searchResults.size()) {
+      for (int i = 0; i < prevResults.size(); i++) {
+        if (!CommonUtil.equals(prevResults.get(i).summary, newResults.searchResults.get(i).summary)
+            || !CommonUtil.equals(prevResults.get(i).title, newResults.searchResults.get(i).title)
+            || !CommonUtil.equals(prevResults.get(i).url, newResults.searchResults.get(i).url)) {
+          return false;
+        }
+      }
+      return true;
+    }
+    return false;
   }
 
   public void addPage(SearchResults newResults) {

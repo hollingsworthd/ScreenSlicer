@@ -119,6 +119,10 @@ public abstract class Query {
    */
   public HtmlNode[] postSearchClicks;
   /**
+   * Clicks on HTML elements to get successive pages of results
+   */
+  public HtmlNode[] proceedClicks;
+  /**
    * Clicks on HTML elements at a result page after fetching it
    */
   public HtmlNode[] postFetchClicks;

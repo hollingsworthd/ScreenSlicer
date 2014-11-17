@@ -1045,8 +1045,10 @@ public class Util {
   private static boolean click(BrowserDriver driver, WebElement toClick, boolean shift) {
     try {
       Actions action = driver.actions();
-      driverSleepVeryShort();
+      driver.executeScript("arguments[0].scrollIntoView(false)", toClick);
+      Util.driverSleepVeryShort();
       action.moveToElement(toClick).perform();
+      Util.driverSleepVeryShort();
       if (shift) {
         driver.getKeyboard().pressKey(Keys.SHIFT);
       }

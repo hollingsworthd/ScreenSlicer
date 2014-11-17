@@ -217,6 +217,14 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     return exec(this, new Executor() {
       @Override
       public Object perform() {
+        Object[] myArgs = new Object[args.length];
+        for (int i = 0; i < args.length; i++) {
+          if (args[i] instanceof MyElement) {
+            myArgs[i] = ((MyElement) args[i]).element;
+          } else {
+            myArgs[i] = args[i];
+          }
+        }
         return firefoxDriver.executeAsyncScript(script, args);
       }
     });
@@ -227,7 +235,15 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     return exec(this, new Executor() {
       @Override
       public Object perform() {
-        return firefoxDriver.executeScript(script, args);
+        Object[] myArgs = new Object[args.length];
+        for (int i = 0; i < args.length; i++) {
+          if (args[i] instanceof MyElement) {
+            myArgs[i] = ((MyElement) args[i]).element;
+          } else {
+            myArgs[i] = args[i];
+          }
+        }
+        return firefoxDriver.executeScript(script, myArgs);
       }
     });
   }

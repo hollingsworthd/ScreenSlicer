@@ -37,6 +37,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.BrowserDriver;
 import org.openqa.selenium.remote.BrowserDriver.Retry;
 
+import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.HtmlCoder;
 import com.screenslicer.common.Log;
@@ -78,26 +79,31 @@ public class Proceed {
     return nodeText.length() < MAX_PRIMARY_LEN && dist < referenceText.length() / 2;
   }
 
-  public static String perform(BrowserDriver driver, int pageNum, String priorTextLabel) throws End, ActionFailed {
+  public static String perform(BrowserDriver driver, HtmlNode[] proceedClicks, int pageNum, String priorTextLabel) throws End, ActionFailed {
     try {
       Element body = Util.openElement(driver, null, null, null, null);
       String origSrc = driver.getPageSource();
       String origTitle = driver.getTitle();
       String origUrl = driver.getCurrentUrl();
-      Context context = perform(body, pageNum, priorTextLabel);
-      if (context != null && context.node != null) {
-        WebElement element = Util.toElement(driver, context.node);
-        if (element != null) {
-          boolean success = Util.click(driver, element);
-          if (success) {
-            Util.driverSleepLong();
-            String newSource = driver.getPageSource();
-            String newTitle = driver.getTitle();
-            String newUrl = driver.getCurrentUrl();
-            if (origSrc.hashCode() != newSource.hashCode()
-                || !origTitle.equals(newTitle)
-                || !origUrl.equals(newUrl)) {
-              return context.textLabel;
+      if (!CommonUtil.isEmpty(proceedClicks)) {
+        Util.doClicks(driver, proceedClicks, body);
+        return null;
+      } else {
+        Context context = perform(body, pageNum, priorTextLabel);
+        if (context != null && context.node != null) {
+          WebElement element = Util.toElement(driver, context.node);
+          if (element != null) {
+            boolean success = Util.click(driver, element);
+            if (success) {
+              Util.driverSleepLong();
+              String newSource = driver.getPageSource();
+              String newTitle = driver.getTitle();
+              String newUrl = driver.getCurrentUrl();
+              if (origSrc.hashCode() != newSource.hashCode()
+                  || !origTitle.equals(newTitle)
+                  || !origUrl.equals(newUrl)) {
+                return context.textLabel;
+              }
             }
           }
         }
