@@ -363,7 +363,6 @@ public class Util {
     } catch (Retry r) {
       throw r;
     } catch (Throwable t) {
-      Log.exception(t);
       throw new ActionFailed(t);
     }
   }
@@ -390,7 +389,6 @@ public class Util {
     } catch (Retry r) {
       throw r;
     } catch (Throwable t) {
-      Log.exception(t);
       throw new ActionFailed(t);
     }
   }
@@ -716,7 +714,6 @@ public class Util {
     } catch (Retry r) {
       throw r;
     } catch (Throwable t) {
-      Log.exception(t);
       throw new ActionFailed(t);
     }
   }

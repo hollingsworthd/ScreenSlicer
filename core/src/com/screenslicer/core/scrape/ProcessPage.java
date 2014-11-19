@@ -118,7 +118,6 @@ public class ProcessPage {
     } catch (Retry r) {
       throw r;
     } catch (Throwable t) {
-      Log.exception(t);
       throw new ActionFailed(t);
     }
   }

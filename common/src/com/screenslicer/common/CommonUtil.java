@@ -484,7 +484,6 @@ public class CommonUtil {
     return map;
   }
 
-  @SuppressWarnings("serial")
   public static final Type listStringType = new TypeToken<List<Map<String, String>>>() {}.getType();
   public static final Type listObjectType = new TypeToken<List<Map<String, Object>>>() {}.getType();
   public static final Type stringType = new TypeToken<Map<String, String>>() {}.getType();

@@ -158,6 +158,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
       Integer num = windowTranslator.get(windowHandle);
       String[] windows = firefoxDriver.getWindowHandles().toArray(new String[0]);
       if (num == null || num.intValue() >= windows.length) {
+        Log.warn("Window not found -- defaulting to latest window");
         num = new Integer(windows.length - 1);
       }
       return windows[num.intValue()];

@@ -35,7 +35,6 @@ import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.Credentials;
 import com.screenslicer.common.CommonUtil;
-import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
 import com.screenslicer.core.util.Util;
 
@@ -124,7 +123,6 @@ public class QueryCommon {
     } catch (Retry r) {
       throw r;
     } catch (Throwable t) {
-      Log.exception(t);
       throw new ActionFailed(t);
     }
     throw new ActionFailed("Could not sign in");

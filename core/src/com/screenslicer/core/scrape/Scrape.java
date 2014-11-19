@@ -74,6 +74,7 @@ public class Scrape {
 
     public ActionFailed(Throwable nested) {
       super(nested);
+      Log.exception(nested);
     }
 
     public ActionFailed(String message) {
@@ -81,8 +82,13 @@ public class Scrape {
     }
   }
 
+  public static class Cancelled extends Exception {
+
+  }
+
   private static volatile BrowserDriver driver = null;
   private static final int MIN_SCRIPT_TIMEOUT = 30;
+  private static final int MAX_INIT = 1000;
   private static final int HANG_TIME = 10 * 60 * 1000;
   private static final int RETRIES = 7;
   private static final long WAIT = 2000;
@@ -305,20 +311,22 @@ public class Scrape {
   }
 
   private static void fetch(BrowserDriver driver, Request req, Query query, Query recQuery,
-      SearchResults results, boolean cleanupWindows, SearchResults recResults) throws ActionFailed {
-    boolean retry = false;
+      SearchResults results, int depth, SearchResults recResults,
+      Map<String, Object> cache) throws ActionFailed {
+    boolean terminate = false;
     try {
       String origHandle = driver.getWindowHandle();
       String origUrl = driver.getCurrentUrl();
       String newHandle = null;
       if (query.fetchCached) {
-        newHandle = Util.newWindow(driver, cleanupWindows);
+        newHandle = Util.newWindow(driver, depth == 0);
       }
       try {
-        for (int i = 0; i < results.size(); i++) {
+        for (int i = query.currentResult(); i < results.size(); i++) {
           if (query.requireResultAnchor && !isUrlValid(results.get(i).url)
               && Util.uriScheme.matcher(results.get(i).url).matches()) {
             results.get(i).close();
+            query.markResult(i + 1);
             continue;
           }
           if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
@@ -328,7 +336,7 @@ public class Scrape {
           try {
             results.get(i).pageHtml = getHelper(driver, query.throttle,
                 CommonUtil.parseFragment(results.get(i).urlNode, false), results.get(i).url, query.fetchCached,
-                req.runGuid, query.fetchInNewWindow, cleanupWindows && query == null,
+                req.runGuid, query.fetchInNewWindow, depth == 0 && query == null,
                 query == null ? null : query.postFetchClicks);
             if (!CommonUtil.isEmpty(results.get(i).pageHtml)) {
               try {
@@ -339,14 +347,18 @@ public class Scrape {
               }
             }
             if (recQuery != null) {
-              recResults.addPage(scrape(recQuery, req, true));
+              recResults.addPage(scrape(recQuery, req, depth + 1, false, cache));
             }
-
+            if (query.collapse) {
+              results.get(i).close();
+            }
+            query.markResult(i + 1);
           } catch (Retry r) {
-            retry = true;
+            terminate = true;
             throw r;
           } catch (Throwable t) {
-            Log.exception(t);
+            terminate = true;
+            throw new ActionFailed(t);
           }
           try {
             if (!driver.getWindowHandle().equals(origHandle)) {
@@ -354,44 +366,43 @@ public class Scrape {
               driver.switchTo().window(origHandle);
               driver.switchTo().defaultContent();
             } else if (!query.fetchInNewWindow) {
-              Util.get(driver, origUrl, true, cleanupWindows);
+              Util.get(driver, origUrl, true, depth == 0);
               SearchResults.revalidate(driver, false);
             }
           } catch (Retry r) {
-            retry = true;
+            terminate = true;
             throw r;
           } catch (Throwable t) {
-            Log.exception(t);
-          }
-          if (query.collapse) {
-            results.get(i).close();
+            terminate = true;
+            throw new ActionFailed(t);
           }
         }
       } catch (Retry r) {
-        retry = true;
+        terminate = true;
         throw r;
       } catch (Throwable t) {
-        Log.exception(t);
+        terminate = true;
+        throw new ActionFailed(t);
       } finally {
-        if (!retry) {
+        if (!terminate) {
           if (!query.fetchInNewWindow || (query.fetchCached && origHandle.equals(newHandle))) {
             if (query.fetchInNewWindow) {
               Log.exception(new Throwable("Failed opening new window"));
             }
-            Util.get(driver, origUrl, true, cleanupWindows);
+            Util.get(driver, origUrl, true, depth == 0);
           } else {
-            Util.handleNewWindows(driver, origHandle, cleanupWindows);
+            Util.handleNewWindows(driver, origHandle, depth == 0);
           }
         }
       }
     } catch (Retry r) {
-      retry = true;
+      terminate = true;
       throw r;
     } catch (Throwable t) {
-      Log.exception(t);
+      terminate = true;
       throw new ActionFailed(t);
     } finally {
-      if (!retry) {
+      if (!terminate) {
         Util.driverSleepRand(query.throttle);
       }
     }
@@ -399,7 +410,7 @@ public class Scrape {
 
   private static String getHelper(final BrowserDriver driver, final boolean throttle,
       final Node urlNode, final String url, final boolean p_cached, final String runGuid,
-      final boolean toNewWindow, final boolean cleanupWindows, final HtmlNode[] postFetchClicks) {
+      final boolean toNewWindow, final boolean init, final HtmlNode[] postFetchClicks) {
     if (!CommonUtil.isEmpty(url) || urlNode != null) {
       final Object resultLock = new Object();
       final String initVal;
@@ -422,15 +433,15 @@ public class Scrape {
             String content = null;
             if (!cached) {
               try {
-                Util.get(driver, url, urlNode, false, toNewWindow, cleanupWindows);
+                Util.get(driver, url, urlNode, false, toNewWindow, init);
               } catch (Retry r) {
                 retry = true;
                 throw r;
               } catch (Throwable t) {
                 if (urlNode != null) {
-                  Util.newWindow(driver, cleanupWindows);
+                  Util.newWindow(driver, init);
                 }
-                Util.get(driver, url, false, cleanupWindows);
+                Util.get(driver, url, false, init);
               }
               if (urlNode != null) {
                 newHandle = driver.getWindowHandle();
@@ -446,12 +457,12 @@ public class Scrape {
                 return;
               }
               try {
-                Util.get(driver, toCacheUrl(url, false), false, cleanupWindows);
+                Util.get(driver, toCacheUrl(url, false), false, init);
               } catch (Retry r) {
                 retry = true;
                 throw r;
               } catch (Throwable t) {
-                Util.get(driver, toCacheUrl(url, true), false, cleanupWindows);
+                Util.get(driver, toCacheUrl(url, true), false, init);
               }
               content = driver.getPageSource();
             }
@@ -499,7 +510,7 @@ public class Scrape {
             }
             if (!retry) {
               Util.driverSleepRand(throttle);
-              if (cleanupWindows && newHandle != null && origHandle != null) {
+              if (init && newHandle != null && origHandle != null) {
                 try {
                   Util.handleNewWindows(driver, origHandle, true);
                 } catch (Retry r) {
@@ -633,8 +644,9 @@ public class Scrape {
     }
   }
 
-  private static void handlePage(Request req, Query query, int page, boolean recursive,
-      SearchResults results, SearchResults recResults, List<String> resultPages) throws ActionFailed, End {
+  private static void handlePage(Request req, Query query, int page, int depth,
+      SearchResults results, SearchResults recResults, List<String> resultPages,
+      Map<String, Object> cache) throws ActionFailed, End {
     if (query.extract) {
       SearchResults newResults;
       try {
@@ -657,7 +669,7 @@ public class Scrape {
       if (query.fetch) {
         fetch(driver, req, query,
             query.keywordQuery == null ? (query.formQuery == null ? null : query.formQuery) : query.keywordQuery,
-            newResults, !recursive, recResults);
+            newResults, depth, recResults, cache);
       }
       if (query.collapse) {
         for (int i = 0; i < newResults.size(); i++) {
@@ -671,102 +683,135 @@ public class Scrape {
   }
 
   public static List<SearchResult> scrape(Query query, Request req) {
-    return scrape(query, req, false).drain();
-  }
-
-  private static SearchResults scrape(Query query, Request req, boolean recursive) {
-    if (!recursive) {
-      long myThread = latestThread.incrementAndGet();
-      while (myThread != curThread.get() + 1
-          || !done.compareAndSet(true, false)) {
-        try {
-          Thread.sleep(WAIT);
-        } catch (Exception e) {
-          Log.exception(e);
-        }
-      }
-      if (!req.continueSession) {
-        restart(req);
+    long myThread = latestThread.incrementAndGet();
+    while (myThread != curThread.get() + 1
+        || !done.compareAndSet(true, false)) {
+      try {
+        Thread.sleep(WAIT);
+      } catch (Exception e) {
+        Log.exception(e);
       }
     }
+    if (!req.continueSession) {
+      restart(req);
+    }
+    try {
+      Map<String, Object> cache = new HashMap<String, Object>();
+      SearchResults ret = null;
+      for (int i = 0; i < MAX_INIT; i++) {
+        try {
+          ret = scrape(query, req, 0, i + 1 == MAX_INIT, cache);
+          Log.info("Scrape finished");
+          return ret.drain();
+        } catch (ActionFailed t) {
+          Log.warn("Reinitializing state and resuming scrape...");
+          restart(req);
+        }
+      }
+      return null;
+    } finally {
+      curThread.incrementAndGet();
+      done.set(true);
+    }
+  }
+
+  private static SearchResults scrape(Query query, Request req, int depth, boolean fallback, Map<String, Object> cache)
+      throws ActionFailed {
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
-    SearchResults results = SearchResults.newInstance(true);
-    SearchResults recResults = SearchResults.newInstance(false);
-    List<String> resultPages = new ArrayList<String>();
+    SearchResults results;
+    SearchResults recResults;
+    List<String> resultPages;
+    if (cache.containsKey(Integer.toString(depth))) {
+      Map<String, Object> curCache = (Map<String, Object>) cache.get(Integer.toString(depth));
+      results = (SearchResults) curCache.get("results");
+      recResults = (SearchResults) curCache.get("recResults");
+      resultPages = (List<String>) curCache.get("resultPages");
+    } else {
+      Map<String, Object> curCache = new HashMap<String, Object>();
+      cache.put(Integer.toString(depth), curCache);
+      results = SearchResults.newInstance(true);
+      curCache.put("results", results);
+      recResults = SearchResults.newInstance(false);
+      curCache.put("recResults", recResults);
+      resultPages = new ArrayList<String>();
+      curCache.put("resultPages", resultPages);
+    }
     try {
       if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
-        throw new Exception("Cancellation was requested");
+        throw new Cancelled();
       }
       if (query.isFormQuery()) {
         Log.info("FormQuery for URL " + query.site, false);
         try {
-          QueryForm.perform(driver, (FormQuery) query, !recursive);
+          QueryForm.perform(driver, (FormQuery) query, depth == 0);
         } catch (Throwable e) {
-          if (!recursive) {
+          if (depth == 0) {
             restart(req);
           }
-          QueryForm.perform(driver, (FormQuery) query, !recursive);
+          QueryForm.perform(driver, (FormQuery) query, depth == 0);
         }
       } else {
         Log.info("KewordQuery for URL " + query.site + ". Query: " + ((KeywordQuery) query).keywords, false);
         try {
-          QueryKeyword.perform(driver, (KeywordQuery) query, !recursive);
+          QueryKeyword.perform(driver, (KeywordQuery) query, depth == 0);
         } catch (Throwable e) {
-          if (!recursive) {
+          if (depth == 0) {
             restart(req);
           }
-          QueryKeyword.perform(driver, (KeywordQuery) query, !recursive);
+          QueryKeyword.perform(driver, (KeywordQuery) query, depth == 0);
         }
       }
       if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
-        throw new Exception("Cancellation was requested");
-      }
-      try {
-        handlePage(req, query, 1, recursive, results, recResults, resultPages);
-      } catch (Retry retry) {
-        SearchResults.revalidate(driver, true);
-        handlePage(req, query, 1, recursive, results, recResults, resultPages);
+        throw new Cancelled();
       }
       String priorProceedLabel = null;
-      for (int page = 2; (page <= query.pages || query.pages <= 0)
+      for (int page = 1; (page <= query.pages || query.pages <= 0)
           && (results.size() < query.results || query.results <= 0); page++) {
         if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
-          throw new Exception("Cancellation was requested");
+          throw new Cancelled();
         }
-        if (!query.fetch) {
+        if (page > 1) {
+          if (!query.fetch) {
+            try {
+              Util.driverSleepRand(query.throttle);
+            } catch (Throwable t) {
+              Log.exception(t);
+            }
+          }
           try {
-            Util.driverSleepRand(query.throttle);
-          } catch (Throwable t) {
-            Log.exception(t);
+            priorProceedLabel = Proceed.perform(driver, query.proceedClicks, page, priorProceedLabel);
+          } catch (Retry r) {
+            SearchResults.revalidate(driver, true);
+            priorProceedLabel = Proceed.perform(driver, query.proceedClicks, page, priorProceedLabel);
+          }
+          if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
+            throw new Cancelled();
           }
         }
-        try {
-          priorProceedLabel = Proceed.perform(driver, query.proceedClicks, page, priorProceedLabel);
-        } catch (Retry r) {
-          SearchResults.revalidate(driver, true);
-          priorProceedLabel = Proceed.perform(driver, query.proceedClicks, page, priorProceedLabel);
-        }
-        if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
-          throw new Exception("Cancellation was requested");
-        }
-        try {
-          handlePage(req, query, page, recursive, results, recResults, resultPages);
-        } catch (Retry r) {
-          SearchResults.revalidate(driver, true);
-          handlePage(req, query, page, recursive, results, recResults, resultPages);
+        if (query.currentPage() + 1 == page) {
+          try {
+            handlePage(req, query, page, depth, results, recResults, resultPages, cache);
+          } catch (Retry r) {
+            SearchResults.revalidate(driver, true);
+            handlePage(req, query, page, depth, results, recResults, resultPages, cache);
+          }
+          query.markPage(page);
+          query.markResult(0);
         }
       }
     } catch (End e) {
       Log.info("Reached end of results", false);
+    } catch (Cancelled c) {
+      Log.info("Cancellation requested.");
     } catch (Throwable t) {
-      Log.exception(t);
-    } finally {
-      if (!recursive) {
-        curThread.incrementAndGet();
-        done.set(true);
+      if (fallback) {
+        Log.warn("Too many errors. Finishing scrape...");
+      } else {
+        throw new ActionFailed(t);
       }
     }
+    cache.remove(Integer.toString(depth));
     if (query.extract) {
       if (recResults.isEmpty()) {
         return filterResults(results, query.urlWhitelist,

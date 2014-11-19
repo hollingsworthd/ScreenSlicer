@@ -143,6 +143,24 @@ public abstract class Query {
    */
   public FormQuery formQuery;
 
+  private transient Progress progress = new Progress();
+
+  public void markResult(int cur) {
+    progress.markResult(cur);
+  }
+
+  public void markPage(int cur) {
+    progress.markPage(cur);
+  }
+
+  public int currentResult() {
+    return progress.currentResult();
+  }
+
+  public int currentPage() {
+    return progress.currentPage();
+  }
+
   public abstract boolean isKeywordQuery();
 
   public abstract boolean isFormQuery();
