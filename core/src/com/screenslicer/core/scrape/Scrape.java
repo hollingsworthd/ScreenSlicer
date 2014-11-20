@@ -675,26 +675,29 @@ public class Scrape {
   }
 
   private static void handlePage(Request req, Query query, int page, int depth,
-      SearchResults results, SearchResults recResults, List<String> resultPages,
-      Map<String, Object> cache) throws ActionFailed, End {
+      SearchResults allResults, SearchResults newResults, SearchResults recResults,
+      List<String> resultPages, Map<String, Object> cache) throws ActionFailed, End {
     if (query.extract) {
-      SearchResults newResults;
-      try {
-        newResults = ProcessPage.perform(driver, page, query);
-      } catch (Retry r) {
-        SearchResults.revalidate(driver, true);
-        newResults = ProcessPage.perform(driver, page, query);
-      }
-      newResults = filterResults(newResults, query.urlWhitelist, query.urlPatterns,
-          query.urlMatchNodes, query.urlTransforms, false);
-      if (results.isDuplicatePage(newResults)) {
-        throw new End();
-      }
-      if (query.results > 0 && results.size() + newResults.size() > query.results) {
-        int remove = results.size() + newResults.size() - query.results;
-        for (int i = 0; i < remove && !newResults.isEmpty(); i++) {
-          newResults.remove(newResults.size() - 1);
+      if (newResults.isEmpty()) {
+        SearchResults tmpResults;
+        try {
+          tmpResults = ProcessPage.perform(driver, page, query);
+        } catch (Retry r) {
+          SearchResults.revalidate(driver, true);
+          tmpResults = ProcessPage.perform(driver, page, query);
         }
+        tmpResults = filterResults(tmpResults, query.urlWhitelist, query.urlPatterns,
+            query.urlMatchNodes, query.urlTransforms, false);
+        if (allResults.isDuplicatePage(tmpResults)) {
+          throw new End();
+        }
+        if (query.results > 0 && allResults.size() + tmpResults.size() > query.results) {
+          int remove = allResults.size() + tmpResults.size() - query.results;
+          for (int i = 0; i < remove && !tmpResults.isEmpty(); i++) {
+            tmpResults.remove(tmpResults.size() - 1);
+          }
+        }
+        newResults.addPage(tmpResults);
       }
       if (query.fetch) {
         fetch(driver, req, query,
@@ -706,7 +709,8 @@ public class Scrape {
           newResults.get(i).close();
         }
       }
-      results.addPage(newResults);
+      allResults.addPage(newResults);
+      newResults.init();
     } else {
       resultPages.add(Util.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
     }
@@ -750,11 +754,13 @@ public class Scrape {
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
     SearchResults results;
+    SearchResults newResults;
     SearchResults recResults;
     List<String> resultPages;
     if (cache.containsKey(Integer.toString(depth))) {
       Map<String, Object> curCache = (Map<String, Object>) cache.get(Integer.toString(depth));
       results = (SearchResults) curCache.get("results");
+      newResults = (SearchResults) curCache.get("newResults");
       recResults = (SearchResults) curCache.get("recResults");
       resultPages = (List<String>) curCache.get("resultPages");
     } else {
@@ -762,6 +768,8 @@ public class Scrape {
       cache.put(Integer.toString(depth), curCache);
       results = SearchResults.newInstance(true);
       curCache.put("results", results);
+      newResults = SearchResults.newInstance(true);
+      curCache.put("newResults", newResults);
       recResults = SearchResults.newInstance(false);
       curCache.put("recResults", recResults);
       resultPages = new ArrayList<String>();
@@ -821,10 +829,10 @@ public class Scrape {
         }
         if (query.currentPage() + 1 == page) {
           try {
-            handlePage(req, query, page, depth, results, recResults, resultPages, cache);
+            handlePage(req, query, page, depth, results, newResults, recResults, resultPages, cache);
           } catch (Retry r) {
             SearchResults.revalidate(driver, true);
-            handlePage(req, query, page, depth, results, recResults, resultPages, cache);
+            handlePage(req, query, page, depth, results, newResults, recResults, resultPages, cache);
           }
           query.markPage(page);
           query.markResult(0);

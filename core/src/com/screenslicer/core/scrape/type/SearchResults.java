@@ -136,18 +136,20 @@ public class SearchResults {
   }
 
   public boolean isEmpty() {
-    return searchResults.isEmpty();
+    return CommonUtil.isEmpty(searchResults);
   }
 
   public int size() {
-    return searchResults.size();
+    return searchResults == null ? 0 : searchResults.size();
   }
 
   public void remove(int index) {
-    if (index < searchResults.size()) {
-      SearchResult removed = searchResults.remove(index);
-      if (removed != null) {
-        prevResults.remove(removed);
+    if (searchResults != null) {
+      if (index < searchResults.size()) {
+        SearchResult removed = searchResults.remove(index);
+        if (removed != null) {
+          prevResults.remove(removed);
+        }
       }
     }
   }
@@ -156,35 +158,57 @@ public class SearchResults {
     synchronized (lock) {
       instances.remove(this);
     }
-    prevResults.clear();
-    return searchResults;
+    if (prevResults != null) {
+      prevResults.clear();
+    }
+    return searchResults == null ? new ArrayList<SearchResult>() : searchResults;
   }
 
   public boolean isDuplicatePage(SearchResults newResults) {
-    if (!prevResults.isEmpty() && prevResults.size() == newResults.searchResults.size()) {
-      for (int i = 0; i < prevResults.size(); i++) {
-        if (!CommonUtil.equals(prevResults.get(i).summary, newResults.searchResults.get(i).summary)
-            || !CommonUtil.equals(prevResults.get(i).title, newResults.searchResults.get(i).title)
-            || !CommonUtil.equals(prevResults.get(i).url, newResults.searchResults.get(i).url)) {
-          return false;
+    if (newResults != null && prevResults != null && newResults.searchResults != null) {
+      if (!prevResults.isEmpty() && prevResults.size() == newResults.searchResults.size()) {
+        for (int i = 0; i < prevResults.size(); i++) {
+          if (!CommonUtil.equals(prevResults.get(i).summary, newResults.searchResults.get(i).summary)
+              || !CommonUtil.equals(prevResults.get(i).title, newResults.searchResults.get(i).title)
+              || !CommonUtil.equals(prevResults.get(i).url, newResults.searchResults.get(i).url)) {
+            return false;
+          }
         }
+        return true;
       }
-      return true;
     }
     return false;
   }
 
   public void addPage(SearchResults newResults) {
-    List<SearchResult> results = newResults.drain();
-    searchResults.addAll(results);
-    this.prevResults = new ArrayList<SearchResult>(results);
-    this.window = newResults.window;
-    this.page = newResults.page;
-    this.query = newResults.query;
+    if (newResults != null) {
+      if (searchResults == null) {
+        searchResults = new ArrayList<SearchResult>();
+      }
+      List<SearchResult> results = newResults.drain();
+      searchResults.addAll(results);
+      this.prevResults = new ArrayList<SearchResult>(results);
+      this.window = newResults.window;
+      this.page = newResults.page;
+      this.query = newResults.query;
+    }
+  }
+
+  public void init() {
+    this.searchResults = new ArrayList<SearchResult>();
+    this.prevResults = new ArrayList<SearchResult>();
+    this.window = null;
+    this.page = -1;
+    this.query = null;
+    synchronized (lock) {
+      if (!instances.contains(this)) {
+        instances.add(this);
+      }
+    }
   }
 
   public SearchResult get(int index) {
-    if (index >= searchResults.size()) {
+    if (searchResults == null || index >= searchResults.size()) {
       return new SearchResult();
     }
     return searchResults.get(index);
