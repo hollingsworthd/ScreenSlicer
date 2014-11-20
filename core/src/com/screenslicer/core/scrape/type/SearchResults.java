@@ -30,6 +30,7 @@ import java.util.HashSet;
 import java.util.List;
 
 import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Fatal;
 
 import com.screenslicer.api.datatype.SearchResult;
 import com.screenslicer.api.request.Query;
@@ -105,10 +106,14 @@ public class SearchResults {
             }
             cur.window = driver.getWindowHandle();
             cur.searchResults.addAll(cur.prevResults);
+          } catch (Fatal f) {
+            throw new Fatal(f);
           } catch (ActionFailed e) {
             Log.exception(e);
           }
         }
+      } catch (Fatal f) {
+        throw new Fatal(f);
       } catch (Throwable t) {
         Log.exception(t);
       }

@@ -39,6 +39,7 @@ import org.apache.commons.io.FileUtils;
 import org.jsoup.nodes.Node;
 import org.openqa.selenium.io.TemporaryFilesystem;
 import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Fatal;
 import org.openqa.selenium.remote.BrowserDriver.Profile;
 import org.openqa.selenium.remote.BrowserDriver.Retry;
 
@@ -356,6 +357,9 @@ public class Scrape {
           } catch (Retry r) {
             terminate = true;
             throw r;
+          } catch (Fatal f) {
+            terminate = true;
+            throw f;
           } catch (Throwable t) {
             terminate = true;
             throw new ActionFailed(t);
@@ -372,6 +376,9 @@ public class Scrape {
           } catch (Retry r) {
             terminate = true;
             throw r;
+          } catch (Fatal f) {
+            terminate = true;
+            throw f;
           } catch (Throwable t) {
             terminate = true;
             throw new ActionFailed(t);
@@ -380,6 +387,9 @@ public class Scrape {
       } catch (Retry r) {
         terminate = true;
         throw r;
+      } catch (Fatal f) {
+        terminate = true;
+        throw f;
       } catch (Throwable t) {
         terminate = true;
         throw new ActionFailed(t);
@@ -398,6 +408,9 @@ public class Scrape {
     } catch (Retry r) {
       terminate = true;
       throw r;
+    } catch (Fatal f) {
+      terminate = true;
+      throw f;
     } catch (Throwable t) {
       terminate = true;
       throw new ActionFailed(t);
@@ -423,7 +436,7 @@ public class Scrape {
       Thread thread = new Thread(new Runnable() {
         @Override
         public void run() {
-          boolean retry = false;
+          boolean terminate = false;
           started.set(true);
           boolean cached = p_cached;
           String newHandle = null;
@@ -435,8 +448,11 @@ public class Scrape {
               try {
                 Util.get(driver, url, urlNode, false, toNewWindow, init);
               } catch (Retry r) {
-                retry = true;
+                terminate = true;
                 throw r;
+              } catch (Fatal f) {
+                terminate = true;
+                throw f;
               } catch (Throwable t) {
                 if (urlNode != null) {
                   Util.newWindow(driver, init);
@@ -459,8 +475,11 @@ public class Scrape {
               try {
                 Util.get(driver, toCacheUrl(url, false), false, init);
               } catch (Retry r) {
-                retry = true;
+                terminate = true;
                 throw r;
+              } catch (Fatal f) {
+                terminate = true;
+                throw f;
               } catch (Throwable t) {
                 Util.get(driver, toCacheUrl(url, true), false, init);
               }
@@ -498,8 +517,11 @@ public class Scrape {
               result[0] = content;
             }
           } catch (Retry r) {
-            retry = true;
+            terminate = true;
             throw r;
+          } catch (Fatal f) {
+            terminate = true;
+            throw f;
           } catch (Throwable t) {
             Log.exception(t);
           } finally {
@@ -508,13 +530,15 @@ public class Scrape {
                 result[0] = null;
               }
             }
-            if (!retry) {
+            if (!terminate) {
               Util.driverSleepRand(throttle);
               if (init && newHandle != null && origHandle != null) {
                 try {
                   Util.handleNewWindows(driver, origHandle, true);
                 } catch (Retry r) {
                   throw r;
+                } catch (Fatal f) {
+                  throw f;
                 } catch (Throwable t) {
                   Log.exception(t);
                 }
@@ -545,6 +569,8 @@ public class Scrape {
         }
       } catch (Retry r) {
         throw r;
+      } catch (Fatal f) {
+        throw f;
       } catch (Throwable t) {
         Log.exception(t);
       }
@@ -574,6 +600,8 @@ public class Scrape {
       resp = getHelper(driver, fetch.throttle, null, fetch.url, fetch.fetchCached, req.runGuid, true, true, fetch.postFetchClicks);
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       Log.exception(t);
     } finally {
@@ -631,6 +659,8 @@ public class Scrape {
         ret = QueryForm.load(driver, context, true);
       } catch (Retry r) {
         throw r;
+      } catch (Fatal f) {
+        throw f;
       } catch (Throwable t) {
         if (!req.continueSession) {
           restart(req);

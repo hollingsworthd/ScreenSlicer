@@ -31,6 +31,7 @@ import java.util.regex.Pattern;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Fatal;
 import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.Credentials;
@@ -122,6 +123,8 @@ public class QueryCommon {
       }
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }

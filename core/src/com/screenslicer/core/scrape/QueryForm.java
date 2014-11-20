@@ -35,6 +35,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Fatal;
 import org.openqa.selenium.remote.BrowserDriver.Retry;
 import org.openqa.selenium.support.ui.Select;
 
@@ -100,6 +101,8 @@ public class QueryForm {
                   }
                 } catch (Retry r) {
                   throw r;
+                } catch (Fatal f) {
+                  throw f;
                 } catch (Throwable t) {
                   Log.exception(t);
                 }
@@ -111,6 +114,8 @@ public class QueryForm {
           }
         } catch (Retry r) {
           throw r;
+        } catch (Fatal f) {
+          throw f;
         } catch (Throwable t) {
           Log.exception(t);
         }
@@ -123,6 +128,8 @@ public class QueryForm {
       Util.driverSleepLong();
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
@@ -221,6 +228,8 @@ public class QueryForm {
               }
             } catch (Retry r) {
               throw r;
+            } catch (Fatal f) {
+              throw f;
             } catch (Throwable t) {
               Log.exception(t);
             }
@@ -231,6 +240,8 @@ public class QueryForm {
       Util.doClicks(driver, context.postSearchClicks, null);
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
@@ -299,6 +310,8 @@ public class QueryForm {
       return filterControls(controls);
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
@@ -375,6 +388,8 @@ public class QueryForm {
       }
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }

@@ -33,6 +33,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Fatal;
 import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.HtmlNode;
@@ -111,6 +112,8 @@ public class QueryKeyword {
       return searchBoxes;
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
@@ -128,6 +131,8 @@ public class QueryKeyword {
       Util.handleNewWindows(driver, oldHandle, cleanupWindows);
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
@@ -152,6 +157,8 @@ public class QueryKeyword {
           }
         } catch (Retry r) {
           throw r;
+        } catch (Fatal f) {
+          throw f;
         } catch (Throwable t) {
           Log.exception(t);
         }
@@ -173,6 +180,8 @@ public class QueryKeyword {
             }
           } catch (Retry r) {
             throw r;
+          } catch (Fatal f) {
+            throw f;
           } catch (Throwable t) {
             Log.exception(t);
           }
@@ -184,6 +193,8 @@ public class QueryKeyword {
       return new ArrayList<WebElement>();
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
@@ -225,12 +236,16 @@ public class QueryKeyword {
           }
         } catch (Retry r) {
           throw r;
+        } catch (Fatal f) {
+          throw f;
         } catch (Throwable t) {
           Log.exception(t);
         }
       }
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       Log.exception(t);
     }
@@ -243,6 +258,8 @@ public class QueryKeyword {
       iframes = driver.findElementsByTagName("iframe");
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
@@ -262,6 +279,8 @@ public class QueryKeyword {
                 newHandle = Util.newWindow(driver, cleanupWindows);
               } catch (Retry r) {
                 throw r;
+              } catch (Fatal f) {
+                throw f;
               } catch (Throwable t) {
                 throw new ActionFailed(t);
               }
@@ -275,6 +294,8 @@ public class QueryKeyword {
                 }
               } catch (Retry r) {
                 throw r;
+              } catch (Fatal f) {
+                throw f;
               } catch (Throwable t) {
                 Log.exception(t);
                 undo = true;
@@ -287,6 +308,8 @@ public class QueryKeyword {
                         driver.navigate().back();
                       } catch (Retry r) {
                         throw r;
+                      } catch (Fatal f) {
+                        throw f;
                       } catch (Throwable t) {
                         Log.exception(t);
                       }
@@ -303,6 +326,8 @@ public class QueryKeyword {
                 }
               } catch (Retry r) {
                 throw r;
+              } catch (Fatal f) {
+                throw f;
               } catch (Throwable t) {
                 throw new ActionFailed(t);
               }
@@ -310,6 +335,8 @@ public class QueryKeyword {
           }
         } catch (Retry r) {
           throw r;
+        } catch (Fatal f) {
+          throw f;
         } catch (Throwable t) {
           Log.exception(t);
           continue;
@@ -317,6 +344,8 @@ public class QueryKeyword {
       }
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
@@ -357,6 +386,8 @@ public class QueryKeyword {
       Util.doClicks(driver, context.postSearchClicks, null);
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }

@@ -35,6 +35,7 @@ import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Fatal;
 import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.HtmlNode;
@@ -110,6 +111,8 @@ public class Proceed {
       }
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       Log.exception(t);
     }
@@ -215,6 +218,8 @@ public class Proceed {
         numberList = numberList(body, nodeCache, intCache, numberLists, false);
       } catch (Retry r) {
         throw r;
+      } catch (Fatal f) {
+        throw f;
       } catch (Throwable t) {
         Log.exception(t);
       }

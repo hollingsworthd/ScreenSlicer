@@ -36,6 +36,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Fatal;
 import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.SearchResult;
@@ -78,6 +79,8 @@ public class ProcessPage {
       return perform(element, page, "", true, query, cache);
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       Log.exception(t);
     }
@@ -117,6 +120,8 @@ public class ProcessPage {
       return SearchResults.newInstance(true, searchResults, driver.getWindowHandle(), page, query);
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }

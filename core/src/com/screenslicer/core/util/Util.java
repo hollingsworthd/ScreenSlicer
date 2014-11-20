@@ -56,6 +56,7 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.BrowserDriver;
+import org.openqa.selenium.remote.BrowserDriver.Fatal;
 import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.HtmlNode;
@@ -189,7 +190,7 @@ public class Util {
       for (int i = 0; i < REFRESH_TRIES
           && (badUrl || statusFail || exception || CommonUtil.isEmpty(source)); i++) {
         switchTo = null;
-        boolean retryException = false;
+        boolean terminate = false;
         try {
           badUrl = false;
           statusFail = false;
@@ -200,6 +201,8 @@ public class Util {
             driver.getKeyboard().sendKeys(Keys.ESCAPE);
           } catch (Retry r) {
             throw r;
+          } catch (Fatal f) {
+            throw f;
           } catch (Throwable t) {
             Log.exception(t);
           }
@@ -208,6 +211,8 @@ public class Util {
               handleNewWindows(driver, origHandle, cleanupWindows);
             } catch (Retry r) {
               throw r;
+            } catch (Fatal f) {
+              throw f;
             } catch (Throwable t) {
               Log.exception(t);
             }
@@ -241,6 +246,8 @@ public class Util {
                 }
               } catch (Retry r) {
                 throw r;
+              } catch (Fatal f) {
+                throw f;
               } catch (Throwable t) {
                 exception = true;
                 Log.exception(t);
@@ -252,6 +259,8 @@ public class Util {
                 driver.get(url);
               } catch (Retry r) {
                 throw r;
+              } catch (Fatal f) {
+                throw f;
               } catch (TimeoutException e) {
                 Log.exception(e);
               }
@@ -267,13 +276,18 @@ public class Util {
                 badUrl = false;
               } catch (Retry r) {
                 throw r;
+              } catch (Fatal f) {
+                throw f;
               } catch (Throwable t) {
                 badUrl = true;
               }
             }
           } catch (Retry r) {
-            retryException = true;
+            terminate = true;
             throw r;
+          } catch (Fatal f) {
+            terminate = true;
+            throw f;
           } catch (Throwable t) {
             Log.exception(t);
             exception = true;
@@ -286,6 +300,8 @@ public class Util {
                 Util.driverSleepVeryShort();
               } catch (Retry r) {
                 throw r;
+              } catch (Fatal f) {
+                throw f;
               } catch (Throwable t) {
                 Log.exception(t);
               }
@@ -296,7 +312,7 @@ public class Util {
             }
           }
         } finally {
-          if (!retryException) {
+          if (!terminate) {
             Set<String> handlesAfter = driver.getWindowHandles();
             for (String curHandle : handlesAfter) {
               if (!handlesBefore.contains(curHandle) && !curHandle.equals(switchTo)) {
@@ -312,6 +328,8 @@ public class Util {
       Log.debug("getting url - done", WebApp.DEBUG);
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       Log.exception(t);
       success = false;
@@ -322,6 +340,8 @@ public class Util {
           handleNewWindows(driver, origHandle, cleanupWindows);
         } catch (Retry r) {
           throw r;
+        } catch (Fatal f) {
+          throw f;
         } catch (Throwable t) {
           Log.exception(t);
         }
@@ -342,6 +362,8 @@ public class Util {
         driver.getKeyboard().sendKeys(Keys.chord(Keys.CONTROL + "n"));
       } catch (Retry r) {
         throw r;
+      } catch (Fatal f) {
+        throw f;
       } catch (Throwable t) {
         Log.exception(t);
       }
@@ -362,6 +384,8 @@ public class Util {
       return driver.getWindowHandle();
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
@@ -379,6 +403,8 @@ public class Util {
             }
           } catch (Retry r) {
             throw r;
+          } catch (Fatal f) {
+            throw f;
           } catch (Throwable t) {
             Log.exception(t);
           }
@@ -388,6 +414,8 @@ public class Util {
       driver.switchTo().defaultContent();
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
@@ -512,6 +540,8 @@ public class Util {
       }
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       Log.exception(t);
     }
@@ -713,6 +743,8 @@ public class Util {
       return element;
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
@@ -1056,6 +1088,8 @@ public class Util {
       Util.driverSleepVeryShort();
     } catch (Retry r) {
       throw r;
+    } catch (Fatal f) {
+      throw f;
     } catch (Throwable t) {
       return false;
     }

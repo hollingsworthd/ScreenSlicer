@@ -91,6 +91,22 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     }
   }
 
+  public static class Fatal extends RuntimeException {
+    private static final long serialVersionUID = 1L;
+
+    public Fatal() {
+      super();
+    }
+
+    public Fatal(Throwable nested) {
+      super(nested);
+    }
+
+    public Fatal(String message) {
+      super(message);
+    }
+  }
+
   private static final int RETRY_WAIT = 30000;
   private static final int RETRIES = 12;
 
@@ -158,8 +174,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
       Integer num = windowTranslator.get(windowHandle);
       String[] windows = firefoxDriver.getWindowHandles().toArray(new String[0]);
       if (num == null || num.intValue() >= windows.length) {
-        Log.warn("Window not found -- defaulting to latest window");
-        num = new Integer(windows.length - 1);
+        throw new Fatal();
       }
       return windows[num.intValue()];
     }
