@@ -710,7 +710,6 @@ public class Scrape {
         }
       }
       allResults.addPage(newResults);
-      newResults.init();
     } else {
       resultPages.add(Util.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
     }
@@ -737,7 +736,7 @@ public class Scrape {
           ret = scrape(query, req, 0, i + 1 == MAX_INIT, cache);
           Log.info("Scrape finished");
           return ret.drain();
-        } catch (ActionFailed t) {
+        } catch (Fatal f) {
           Log.warn("Reinitializing state and resuming scrape...");
           restart(req);
         }
@@ -749,27 +748,23 @@ public class Scrape {
     }
   }
 
-  private static SearchResults scrape(Query query, Request req, int depth, boolean fallback, Map<String, Object> cache)
-      throws ActionFailed {
+  private static SearchResults scrape(Query query, Request req, int depth,
+      boolean fallback, Map<String, Object> cache) {
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
     SearchResults results;
-    SearchResults newResults;
     SearchResults recResults;
     List<String> resultPages;
     if (cache.containsKey(Integer.toString(depth))) {
       Map<String, Object> curCache = (Map<String, Object>) cache.get(Integer.toString(depth));
       results = (SearchResults) curCache.get("results");
-      newResults = (SearchResults) curCache.get("newResults");
       recResults = (SearchResults) curCache.get("recResults");
       resultPages = (List<String>) curCache.get("resultPages");
     } else {
       Map<String, Object> curCache = new HashMap<String, Object>();
       cache.put(Integer.toString(depth), curCache);
-      results = SearchResults.newInstance(true);
+      results = SearchResults.newInstance(false);
       curCache.put("results", results);
-      newResults = SearchResults.newInstance(true);
-      curCache.put("newResults", newResults);
       recResults = SearchResults.newInstance(false);
       curCache.put("recResults", recResults);
       resultPages = new ArrayList<String>();
@@ -828,6 +823,7 @@ public class Scrape {
           }
         }
         if (query.currentPage() + 1 == page) {
+          SearchResults newResults = SearchResults.newInstance(true);
           try {
             handlePage(req, query, page, depth, results, newResults, recResults, resultPages, cache);
           } catch (Retry r) {
@@ -838,6 +834,7 @@ public class Scrape {
           query.markResult(0);
         }
       }
+      query.markPage(0);
     } catch (End e) {
       Log.info("Reached end of results", false);
     } catch (Cancelled c) {
@@ -846,7 +843,7 @@ public class Scrape {
       if (fallback) {
         Log.warn("Too many errors. Finishing scrape...");
       } else {
-        throw new ActionFailed(t);
+        throw new Fatal(t);
       }
     }
     cache.remove(Integer.toString(depth));

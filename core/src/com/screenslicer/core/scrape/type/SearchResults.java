@@ -47,6 +47,7 @@ public class SearchResults {
   private String window;
   private int page;
   private Query query;
+  private static final double MAX_ERROR = .15;
 
   public static SearchResults newInstance(boolean register) {
     return newInstance(register, null, null, -1, null);
@@ -95,15 +96,19 @@ public class SearchResults {
     for (SearchResults cur : myInstances) {
       try {
         if (cur.window != null && cur.query != null && !CommonUtil.isEmpty(cur.prevResults)) {
-          int size = cur.removeLastPage();
+          List<SearchResult> prevPage = cur.removeLastPage();
           try {
             driver.switchTo().window(cur.window);
             driver.switchTo().defaultContent();
-            cur.prevResults = new ArrayList<SearchResult>(ProcessPage.perform(driver, cur.page, cur.query).drain());
-            int newSize = cur.prevResults.size();
-            for (int num = newSize; num > size; num--) {
-              cur.prevResults.remove(num - 1);
+            List<SearchResult> newPage = new ArrayList<SearchResult>(ProcessPage.perform(driver, cur.page, cur.query).drain());
+            for (int num = newPage.size(); num > prevPage.size(); num--) {
+              newPage.remove(num - 1);
             }
+            double diff = Math.abs(newPage.size() - prevPage.size());
+            if (diff / (double) prevPage.size() > MAX_ERROR) {
+              throw new Fatal();
+            }
+            cur.prevResults = newPage;
             cur.window = driver.getWindowHandle();
             cur.searchResults.addAll(cur.prevResults);
           } catch (Fatal f) {
@@ -123,16 +128,16 @@ public class SearchResults {
     driver.switchTo().defaultContent();
   }
 
-  private int removeLastPage() {
+  private List<SearchResult> removeLastPage() {
     if (!CommonUtil.isEmpty(prevResults)) {
       for (SearchResult toRemove : prevResults) {
         searchResults.remove(toRemove);
       }
-      int size = prevResults.size();
+      List<SearchResult> lastPage = new ArrayList<SearchResult>(prevResults);
       prevResults.clear();
-      return size;
+      return lastPage;
     }
-    return 0;
+    return new ArrayList<SearchResult>();
   }
 
   public boolean isEmpty() {
@@ -165,16 +170,17 @@ public class SearchResults {
   }
 
   public boolean isDuplicatePage(SearchResults newResults) {
+    int diff = 0;
     if (newResults != null && prevResults != null && newResults.searchResults != null) {
       if (!prevResults.isEmpty() && prevResults.size() == newResults.searchResults.size()) {
         for (int i = 0; i < prevResults.size(); i++) {
           if (!CommonUtil.equals(prevResults.get(i).summary, newResults.searchResults.get(i).summary)
               || !CommonUtil.equals(prevResults.get(i).title, newResults.searchResults.get(i).title)
               || !CommonUtil.equals(prevResults.get(i).url, newResults.searchResults.get(i).url)) {
-            return false;
+            ++diff;
           }
         }
-        return true;
+        return (double) diff / (double) prevResults.size() <= MAX_ERROR;
       }
     }
     return false;
@@ -191,19 +197,6 @@ public class SearchResults {
       this.window = newResults.window;
       this.page = newResults.page;
       this.query = newResults.query;
-    }
-  }
-
-  public void init() {
-    this.searchResults = new ArrayList<SearchResult>();
-    this.prevResults = new ArrayList<SearchResult>();
-    this.window = null;
-    this.page = -1;
-    this.query = null;
-    synchronized (lock) {
-      if (!instances.contains(this)) {
-        instances.add(this);
-      }
     }
   }
 
