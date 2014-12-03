@@ -35,7 +35,6 @@ import org.openqa.selenium.remote.BrowserDriver.Fatal;
 import com.screenslicer.api.datatype.SearchResult;
 import com.screenslicer.api.request.Query;
 import com.screenslicer.common.CommonUtil;
-import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.ProcessPage;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
 
@@ -94,33 +93,31 @@ public class SearchResults {
       driver.reset();
     }
     for (SearchResults cur : myInstances) {
-      try {
-        if (cur.window != null && cur.query != null && !CommonUtil.isEmpty(cur.prevResults)) {
-          List<SearchResult> prevPage = cur.removeLastPage();
-          try {
-            driver.switchTo().window(cur.window);
-            driver.switchTo().defaultContent();
-            List<SearchResult> newPage = new ArrayList<SearchResult>(ProcessPage.perform(driver, cur.page, cur.query).drain());
-            for (int num = newPage.size(); num > prevPage.size(); num--) {
-              newPage.remove(num - 1);
-            }
-            double diff = Math.abs(newPage.size() - prevPage.size());
-            if (diff / (double) prevPage.size() > MAX_ERROR) {
-              throw new Fatal();
-            }
-            cur.prevResults = newPage;
-            cur.window = driver.getWindowHandle();
-            cur.searchResults.addAll(cur.prevResults);
-          } catch (Fatal f) {
-            throw new Fatal(f);
-          } catch (ActionFailed e) {
-            Log.exception(e);
+      if (cur.window != null && cur.query != null && !CommonUtil.isEmpty(cur.prevResults)) {
+        List<SearchResult> prevPage = cur.removeLastPage();
+        try {
+          driver.switchTo().window(cur.window);
+          driver.switchTo().defaultContent();
+          List<SearchResult> newPage = new ArrayList<SearchResult>(ProcessPage.perform(driver, cur.page, cur.query).drain());
+          for (int num = newPage.size(); num > prevPage.size(); num--) {
+            newPage.remove(num - 1);
           }
+          double diff = Math.abs(newPage.size() - prevPage.size());
+          if (diff / (double) prevPage.size() > MAX_ERROR) {
+            throw new Fatal();
+          }
+          cur.prevResults = newPage;
+          cur.window = driver.getWindowHandle();
+          cur.searchResults.addAll(cur.prevResults);
+        } catch (Fatal f) {
+          cur.prevResults = prevPage;
+          cur.searchResults.addAll(prevPage);
+          throw new Fatal(f);
+        } catch (ActionFailed e) {
+          cur.prevResults = prevPage;
+          cur.searchResults.addAll(prevPage);
+          throw new Fatal(e);
         }
-      } catch (Fatal f) {
-        throw new Fatal(f);
-      } catch (Throwable t) {
-        Log.exception(t);
       }
     }
     String[] handles = driver.getWindowHandles().toArray(new String[0]);
