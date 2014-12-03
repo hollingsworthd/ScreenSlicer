@@ -55,7 +55,7 @@ public class TrainerVisitorExtract implements TrainerExtract.Visitor {
     final ArrayList<String> filenames = new ArrayList<String>();
     final List<String> bump = Arrays.asList(new String[] {
         });
-    new File("./test/data-webpages/").listFiles(new FileFilter() {
+    new File("./test/external/").listFiles(new FileFilter() {
       @Override
       public boolean accept(File file) {
         if (!file.getAbsolutePath().endsWith("-success")
