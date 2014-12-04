@@ -180,6 +180,9 @@ public class SearchResults {
         return (double) diff / (double) prevResults.size() <= MAX_ERROR;
       }
     }
+    if (newResults == null || newResults.isEmpty()) {
+      return true;
+    }
     return false;
   }
 

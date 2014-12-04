@@ -737,6 +737,7 @@ public class Scrape {
           Log.info("Scrape finished");
           return ret.drain();
         } catch (Fatal f) {
+          Log.exception(f);
           Log.warn("Reinitializing state and resuming scrape...");
           restart(req);
         }

@@ -124,7 +124,7 @@ public class HttpStatus implements WebResource {
         }
       }
       synchronized (lock) {
-        if (status != 0) {
+        if (status > 0) {
           if (WebApp.DEBUG) {
             synchronized (lock) {
               Log.debug("returning status: " + status, WebApp.DEBUG);

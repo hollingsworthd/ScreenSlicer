@@ -1078,11 +1078,18 @@ public class Util {
       Util.driverSleepVeryShort();
       action.moveToElement(toClick).perform();
       Util.driverSleepVeryShort();
+      String onClick = null;
       if (shift) {
+        onClick = toClick.getAttribute("onclick");
+        onClick = CommonUtil.isEmpty(onClick) ? "" : (onClick.endsWith(";") ? onClick : onClick + ";");
+        onClick = onClick.replaceAll("(?<!\\\\)'", "\\\\'");
+        driver.executeScript("arguments[0].setAttribute('onclick','" + onClick
+            + "if(event && event.stopPropagation) { event.stopPropagation(); }');", toClick);
         driver.getKeyboard().pressKey(Keys.SHIFT);
       }
       toClick.click();
       if (shift) {
+        driver.executeScript("arguments[0].setAttribute('onclick','" + onClick + "');", toClick);
         driver.getKeyboard().releaseKey(Keys.SHIFT);
       }
       Util.driverSleepVeryShort();
