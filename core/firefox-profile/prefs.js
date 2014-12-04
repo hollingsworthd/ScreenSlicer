@@ -202,6 +202,8 @@ user_pref("media.gmp-gmpopenh264.version", "1.1");
 user_pref("media.gmp-manager.lastCheck", 1417725983);
 user_pref("middlemouse.openNewWindow", false);
 user_pref("network.cookie.prefsMigrated", true);
+user_pref("network.http.accept-encoding", "gzip,deflate,sdch");
+user_pref("network.http.accept.default", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
 user_pref("network.protocol-handler.external-default", false);
 user_pref("network.protocol-handler.external.mailto", false);
 user_pref("network.protocol-handler.external.news", false);
