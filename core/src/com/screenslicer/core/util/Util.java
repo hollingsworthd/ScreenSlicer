@@ -1393,15 +1393,6 @@ public class Util {
     return results;
   }
 
-  public static String fixUrlString(String url, String currentUrl) {
-    if (CommonUtil.isEmpty(url)) {
-      return url;
-    }
-    List<String> urls = new ArrayList<String>();
-    urls.add(url);
-    return fixUrlStrings(urls, currentUrl).get(0);
-  }
-
   public static List<String> fixUrlStrings(List<String> urls, String currentUrl) {
     if (urls == null) {
       return null;
@@ -1409,7 +1400,7 @@ public class Util {
     if (currentUrl == null) {
       return urls;
     }
-    String absolute = new String(currentUrl);
+    String absolute = currentUrl;
     int slash = absolute.lastIndexOf('/');
     if (slash == -1) {
       return urls;
@@ -1426,16 +1417,12 @@ public class Util {
     if (amp > -1) {
       absolute = absolute.substring(0, amp);
     }
-    if (absolute.charAt(absolute.length() - 1) != '/') {
-      absolute = absolute + "/";
-    }
-    String relative = new String(absolute);
-    absolute = absolute.substring(0, absolute.lastIndexOf('/'));
-    int absIndex = absolute.lastIndexOf('/');
-    if (absIndex > -1 && absIndex - 2 > -1 && absolute.charAt(absIndex - 2) != ':') {
-      absolute = absolute.substring(0, absIndex);
-    }
-    absolute = absolute + "/";
+    int schemeIndex = absolute.contains("://") ? absolute.indexOf("://") + 3 : 0;
+    int relativeIndex = absolute.lastIndexOf('/');
+    relativeIndex = relativeIndex == -1 ? absolute.length() : relativeIndex;
+    String relative = absolute.substring(0, relativeIndex) + "/";
+    int absIndex = absolute.indexOf('/', schemeIndex);
+    absolute = absIndex > -1 ? absolute.substring(0, absolute.indexOf('/', schemeIndex)) + "/" : absolute + "/";
     List<String> newUrls = new ArrayList<String>();
     for (String url : urls) {
       String newUrl;
