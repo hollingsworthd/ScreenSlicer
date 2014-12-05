@@ -813,6 +813,7 @@ public class Scrape {
               Log.exception(t);
             }
           }
+          Log.info("Proceeding to page " + page);
           try {
             priorProceedLabel = Proceed.perform(driver, query.proceedClicks, page, priorProceedLabel);
           } catch (Retry r) {
