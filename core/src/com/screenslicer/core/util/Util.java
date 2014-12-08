@@ -1080,17 +1080,21 @@ public class Util {
       Util.driverSleepVeryShort();
       String onClick = null;
       if (shift) {
-        //disable onclick event--workaround https://bugzilla.mozilla.org/show_bug.cgi?id=151142
-        onClick = toClick.getAttribute("onclick");
-        onClick = CommonUtil.isEmpty(onClick) ? "" : (onClick.endsWith(";") ? onClick : onClick + ";");
-        onClick = onClick.replaceAll("(?<!\\\\)'", "\\\\'");
-        driver.executeScript("arguments[0].setAttribute('onclick','" + onClick
-            + "if(event && event.stopPropagation) { event.stopPropagation(); }');", toClick);
+        if (toClick.getTagName().equals("a")) {
+          //disable onclick event--workaround https://bugzilla.mozilla.org/show_bug.cgi?id=151142
+          onClick = toClick.getAttribute("onclick");
+          onClick = CommonUtil.isEmpty(onClick) ? "" : (onClick.endsWith(";") ? onClick : onClick + ";");
+          onClick = onClick.replaceAll("(?<!\\\\)'", "\\\\'");
+          driver.executeScript("arguments[0].setAttribute('onclick','" + onClick
+              + "if(event && event.stopPropagation) { event.stopPropagation(); }');", toClick);
+        }
         driver.getKeyboard().pressKey(Keys.SHIFT);
       }
       toClick.click();
       if (shift) {
-        driver.executeScript("arguments[0].setAttribute('onclick','" + onClick + "');", toClick);
+        if (toClick.getTagName().equals("a")) {
+          driver.executeScript("arguments[0].setAttribute('onclick','" + onClick + "');", toClick);
+        }
         driver.getKeyboard().releaseKey(Keys.SHIFT);
       }
       Util.driverSleepVeryShort();
