@@ -1342,9 +1342,6 @@ public class Util {
     if (fullUri.contains("&")) {
       fullUri = fullUri.split("&")[0];
     }
-    if (fullUri.endsWith("/")) {
-      fullUri = fullUri.substring(0, fullUri.length() - 1);
-    }
     if (relative) {
       String relativeBase = "";
       int index = fullUri.lastIndexOf('/');
