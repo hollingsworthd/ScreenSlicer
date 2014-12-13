@@ -122,9 +122,7 @@ public final class ScreenSlicer {
 
   public static final void export(Request request, EmailExport args) {
     try {
-      String instance = instanceIp(request);
-      CommonUtil.post("http://" + instance + ":8888/core-batch/export-email",
-          instance, CommonUtil.combinedJson(request, args));
+      CommonUtil.sendEmail(args.recipients, args.title, "Results attached.", args.attachments);
     } catch (Throwable t) {
       Log.exception(t);
     }

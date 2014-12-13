@@ -60,6 +60,7 @@ import javax.ws.rs.core.Response.ResponseBuilder;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.io.IOUtils;
+import org.apache.tika.Tika;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -208,6 +209,57 @@ public class CommonUtil {
       Log.exception(e);
     }
     return "127.0.0.1";
+  }
+
+  public static void sendEmail(String[] recipients, String subject,
+      String body, Map<String, byte[]> attachments) {
+    Map<String, Object> params = new HashMap<String, Object>();
+    params.put("key", Config.instance.mandrillKey());
+    List<Map<String, String>> to = new ArrayList<Map<String, String>>();
+    for (int i = 0; i < recipients.length; i++) {
+      to.add(CommonUtil.asMap("email", "name", "type",
+          recipients[i], recipients[i].split("@")[0], "to"));
+    }
+    List<Map<String, String>> attachmentList = null;
+    if (attachments != null) {
+      attachmentList = new ArrayList<Map<String, String>>();
+      for (Map.Entry<String, byte[]> entry : attachments.entrySet()) {
+        attachmentList.add(CommonUtil.asMap("type", "name", "content",
+            new Tika().detect(entry.getValue()), entry.getKey(),
+            Base64.encodeBase64String(entry.getValue())));
+      }
+    }
+    params.put("message", CommonUtil.asObjMap(
+        "track_clicks", "track_opens", "html",
+        "headers", "subject",
+        "from_email", "from_name", "to", "attachments",
+        false, false, body,
+        CommonUtil.asMap("Reply-To", Config.instance.mandrillEmail()), subject,
+        Config.instance.mandrillEmail(), Config.instance.mandrillEmail(), to, attachmentList));
+    params.put("async", true);
+    HttpURLConnection conn = null;
+    String resp = null;
+    Log.info("Sending email: " + subject, false);
+    try {
+      conn = (HttpURLConnection) new URL(
+          "https://mandrillapp.com/api/1.0/messages/send.json").openConnection();
+      conn.setDoOutput(true);
+      conn.setRequestMethod("POST");
+      conn.setRequestProperty("Content-Type", "application/json");
+      conn.setRequestProperty("User-Agent", "Mandrill-Curl/1.0");
+      String data = CommonUtil.gson.toJson(params, CommonUtil.objectType);
+      byte[] bytes = data.getBytes("utf-8");
+      conn.setRequestProperty("Content-Length", "" + bytes.length);
+      OutputStream os = conn.getOutputStream();
+      os.write(bytes);
+      conn.connect();
+      resp = IOUtils.toString(conn.getInputStream(), "utf-8");
+      if (resp.contains("\"rejected\"") || resp.contains("\"invalid\"")) {
+        Log.warn("Invalid/rejected email addreses");
+      }
+    } catch (Throwable t) {
+      Log.exception(t);
+    }
   }
 
   public static int nextTextBreak(String str, int start) {

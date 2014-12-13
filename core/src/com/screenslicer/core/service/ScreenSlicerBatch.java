@@ -34,7 +34,6 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
 import com.screenslicer.api.datatype.SearchResult;
-import com.screenslicer.api.request.EmailExport;
 import com.screenslicer.api.request.Extract;
 import com.screenslicer.api.request.Fetch;
 import com.screenslicer.api.request.FormLoad;
@@ -46,7 +45,6 @@ import com.screenslicer.common.Crypto;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.nlp.Person;
 import com.screenslicer.core.scrape.Scrape;
-import com.screenslicer.core.util.Email;
 import com.screenslicer.webapp.WebResource;
 
 @Path("core-batch")
@@ -108,24 +106,6 @@ public class ScreenSlicerBatch implements WebResource {
       try {
         Request req = CommonUtil.gson.fromJson(reqDecoded, Request.class);
         cancel(req.runGuid);
-        return Response.ok(Crypto.encode("", CommonUtil.myInstance())).build();
-      } catch (Throwable t) {
-        Log.exception(t);
-      }
-    }
-    return Response.ok(null).build();
-  }
-
-  @POST
-  @Path("export-email")
-  @Produces("application/json")
-  @Consumes("application/json")
-  public static Response export(String reqString) {
-    String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
-    if (reqDecoded != null) {
-      try {
-        EmailExport export = CommonUtil.gson.fromJson(reqDecoded, EmailExport.class);
-        Email.sendResults(export);
         return Response.ok(Crypto.encode("", CommonUtil.myInstance())).build();
       } catch (Throwable t) {
         Log.exception(t);
