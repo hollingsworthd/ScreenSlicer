@@ -122,6 +122,9 @@ public final class ScreenSlicer {
 
   public static final void export(Request request, EmailExport args) {
     try {
+      if (WebApp.DEV) {
+        return;
+      }
       CommonUtil.sendEmail(args.recipients, args.title, "Results attached.", args.attachments);
     } catch (Throwable t) {
       Log.exception(t);
