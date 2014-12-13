@@ -63,7 +63,7 @@ public class WebUtil {
           }
         });
         templateConfig.setIncompatibleImprovements(new Version(2, 3, 20));
-        Collection<File> files = FileUtils.listFiles(new File("./templates"), null, false);
+        Collection<File> files = FileUtils.listFiles(new File("./templates"), new String[] { "ftl" }, false);
         for (File file : files) {
           templateCache.put(file.getName(), templateConfig.getTemplate(file.getName()));
         }

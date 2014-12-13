@@ -7,7 +7,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/backport-util-concurrent-3.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/commons-lang-2.6.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/commons-math3-3.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/digitalocean-api-client-1.4.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/freemarker.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/grizzly-http-all-2.3.10.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/groovy-all-2.1.1.jar"/>
@@ -29,7 +28,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/log4j-1.2.13.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/mimepull-1.9.4.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/opencsv-2.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/poi-3.10-FINAL-20140208.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/reflections-0.9.9-RC1.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-1.7.7.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/tika-core-1.5.jar"/>
@@ -45,5 +43,7 @@
 	<classpathentry exported="true" kind="lib" path="lib/selenium-shared/nekohtml-1.9.21.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/selenium-shared/netty-all-4.0.23.Final.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/selenium-shared/xercesImpl-2.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.10.1-20140818.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/selenium-shared/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

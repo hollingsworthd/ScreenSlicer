@@ -2073,7 +2073,7 @@ licenses are as follows.
         The creation of the package "o.a.c.m.analysis.integration.gauss" was inspired
         by an original code donated by Sébastien Brisard.
 
-  • POI (Copyright 2009 ASF; http://apache.org) -- poi-3.10-FINAL-20140208.jar:
+  • POI (Copyright 2009 ASF; http://apache.org) -- poi-3.10.1-20140818.jar:
         Licensed under the Apache License version 2.0.
         This product contains the DOM4J library (http://www.dom4j.org).
         Copyright 2001-2005 (C) MetaStuff, Ltd. All Rights Reserved.
@@ -2232,7 +2232,7 @@ licenses are as follows.
   • Joda.org (http://www.joda.org/) -- joda-time-2.3.jar,
   • Apache Log4j -- log4j-1.2.12.jar,
   • OpenCSV -- opencsv-2.3.jar,
-  • POI (Copyright 2009 ASF; http://apache.org) -- poi-3.10-FINAL-20140208.jar,
+  • POI (Copyright 2009 ASF; http://apache.org) -- poi-3.10.1-20140818.jar,
   • Tika (Copyright 2007-2014 ASF; http://apache.org) -- tika-core-1.5.jar,
   • Bean Validation API -- validation-api-1.1.0.Final.jar,
   • Cglib -- cglib-nodep-2.1_3.jar,

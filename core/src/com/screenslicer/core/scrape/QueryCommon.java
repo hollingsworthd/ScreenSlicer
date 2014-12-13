@@ -147,6 +147,7 @@ public class QueryCommon {
         Util.driverSleepVeryShort();
       }
       element.sendKeys(text);
+      driver.getKeyboard().sendKeys("\t");
       Util.driverSleepVeryShort();
       if (newline) {
         element.sendKeys("\n");
