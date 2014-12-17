@@ -60,12 +60,12 @@ import org.openqa.selenium.remote.BrowserDriver.Fatal;
 import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.HtmlNode;
-import com.screenslicer.api.datatype.SearchResult;
+import com.screenslicer.api.datatype.Result;
 import com.screenslicer.api.datatype.UrlTransform;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
-import com.screenslicer.core.scrape.type.Result;
+import com.screenslicer.core.scrape.type.ScrapeResult;
 import com.screenslicer.core.scrape.type.SearchResults;
 import com.screenslicer.core.service.HttpStatus;
 import com.screenslicer.webapp.WebApp;
@@ -750,7 +750,7 @@ public class Util {
     }
   }
 
-  public static boolean isResultFiltered(SearchResult result, String[] whitelist, String[] patterns, HtmlNode[] urlNodes) {
+  public static boolean isResultFiltered(Result result, String[] whitelist, String[] patterns, HtmlNode[] urlNodes) {
     return isUrlFiltered(null, result.url, CommonUtil.parseFragment(result.urlNode, false), whitelist, patterns, urlNodes, null);
   }
 
@@ -998,7 +998,7 @@ public class Util {
     trimLargeItems(stringLengths, nodes);
   }
 
-  public static void trimLargeResults(List<Result> results) {
+  public static void trimLargeResults(List<ScrapeResult> results) {
     int[] stringLengths = new int[results.size()];
     for (int i = 0; i < results.size(); i++) {
       stringLengths[i] = Util.outerHtml(results.get(i).getNodes()).length();
@@ -1379,12 +1379,12 @@ public class Util {
     return absoluteBase;
   }
 
-  public static List<Result> fixUrls(List<Result> results, String currentUrl) {
+  public static List<ScrapeResult> fixUrls(List<ScrapeResult> results, String currentUrl) {
     if (results == null) {
       return null;
     }
     List<String> urls = new ArrayList<String>();
-    for (Result result : results) {
+    for (ScrapeResult result : results) {
       urls.add(result.url());
     }
     urls = fixUrlStrings(urls, currentUrl);

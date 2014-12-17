@@ -39,14 +39,14 @@ import org.openqa.selenium.remote.BrowserDriver;
 import org.openqa.selenium.remote.BrowserDriver.Fatal;
 import org.openqa.selenium.remote.BrowserDriver.Retry;
 
-import com.screenslicer.api.datatype.SearchResult;
+import com.screenslicer.api.datatype.Result;
 import com.screenslicer.api.request.Query;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
-import com.screenslicer.core.scrape.type.Result;
-import com.screenslicer.core.scrape.type.Results;
-import com.screenslicer.core.scrape.type.Results.Leniency;
+import com.screenslicer.core.scrape.type.ScrapeResult;
+import com.screenslicer.core.scrape.type.ScrapeResults;
+import com.screenslicer.core.scrape.type.ScrapeResults.Leniency;
 import com.screenslicer.core.scrape.type.SearchResults;
 import com.screenslicer.core.util.Util;
 import com.screenslicer.webapp.WebApp;
@@ -72,7 +72,7 @@ public class ProcessPage {
     }
   }
 
-  public static List<Result> perform(Element element, int page, Query query) {
+  public static List<ScrapeResult> perform(Element element, int page, Query query) {
     try {
       trim(element);
       Map<String, Object> cache = new HashMap<String, Object>();
@@ -101,13 +101,13 @@ public class ProcessPage {
         } catch (IOException e) {}
       }
       Map<String, Object> cache = new HashMap<String, Object>();
-      List<Result> results = perform(element, page, driver.getCurrentUrl(), true, query, cache);
+      List<ScrapeResult> results = perform(element, page, driver.getCurrentUrl(), true, query, cache);
       if (results == null || results.isEmpty()) {
         results = perform(element, page, driver.getCurrentUrl(), false, query, cache);
       }
-      List<SearchResult> searchResults = new ArrayList<SearchResult>();
-      for (Result result : results) {
-        SearchResult r = new SearchResult();
+      List<Result> searchResults = new ArrayList<Result>();
+      for (ScrapeResult result : results) {
+        Result r = new Result();
         r.urlNode = result.urlNode().outerHtml();
         Util.clean(result.getNodes());
         r.url = result.url();
@@ -127,29 +127,29 @@ public class ProcessPage {
     }
   }
 
-  private static List<Result> perform(Element body, int page, String currentUrl,
+  private static List<ScrapeResult> perform(Element body, int page, String currentUrl,
       boolean trim, Query query, Map<String, Object> cache) {
-    Results ret1 = perform(body, page, Leniency.Title, trim, query, cache);
+    ScrapeResults ret1 = perform(body, page, Leniency.Title, trim, query, cache);
     if (ret1 != null && !ret1.results().isEmpty()) {
       return finalizeResults(ret1, currentUrl, body, page, Leniency.Title, trim, query, cache);
     }
-    Results ret2 = perform(body, page, Leniency.None, trim, query, cache);
+    ScrapeResults ret2 = perform(body, page, Leniency.None, trim, query, cache);
     if (ret2 != null && !ret2.results().isEmpty()) {
       return finalizeResults(ret2, currentUrl, body, page, Leniency.None, trim, query, cache);
     }
-    Results ret3 = perform(body, page, Leniency.Url, trim, query, cache);
+    ScrapeResults ret3 = perform(body, page, Leniency.Url, trim, query, cache);
     if (ret3 != null && !ret3.results().isEmpty()) {
       return finalizeResults(ret3, currentUrl, body, page, Leniency.Url, trim, query, cache);
     }
     return finalizeResults(ret1, currentUrl, body, page, Leniency.Title, trim, query, cache);
   }
 
-  private static List<Result> finalizeResults(Results results, String currentUrl,
+  private static List<ScrapeResult> finalizeResults(ScrapeResults results, String currentUrl,
       Element body, int page, Leniency leniency,
       boolean trim, Query query, Map<String, Object> cache) {
     Log.debug("Returning: (leniency) " + leniency.name(), WebApp.DEBUG);
     if (trim && !results.results().isEmpty()) {
-      Results untrimmed = perform(body, page, leniency, false, query, cache);
+      ScrapeResults untrimmed = perform(body, page, leniency, false, query, cache);
       int trimmedScore = results.fieldScore(true, false);
       int untrimmedScore = untrimmed.fieldScore(true, false);
       if (untrimmedScore > (int) Math.rint(((double) trimmedScore) * 1.05d)) {
@@ -161,14 +161,14 @@ public class ProcessPage {
     return Util.fixUrls(results.results(), currentUrl);
   }
 
-  private static Results perform(Element body, int page,
+  private static ScrapeResults perform(Element body, int page,
       Leniency leniency, boolean trim, Query query, Map<String, Object> cache) {
     Log.debug("-Perform-> " + "leniency=" + leniency.name() + "; trim=" + trim, WebApp.DEBUG);
     Extract.Cache extractCache = cache.containsKey("extractCache")
         ? (Extract.Cache) cache.get("extractCache") : new Extract.Cache();
     cache.put("extractCache", extractCache);
     List<Integer> scores = new ArrayList<Integer>();
-    List<Results> results = new ArrayList<Results>();
+    List<ScrapeResults> results = new ArrayList<ScrapeResults>();
     List<Node> ignore = new ArrayList<Node>();
     List<Node> nodes;
     if (!cache.containsKey("extractedNodes")) {
@@ -190,7 +190,7 @@ public class ProcessPage {
     }
     int pos = 0;
     for (Node node : nodes) {
-      Results curResults = createResults(body, page, node, pos++, leniency, trim, query, cache);
+      ScrapeResults curResults = createResults(body, page, node, pos++, leniency, trim, query, cache);
       results.add(curResults);
       scores.add(curResults.fieldScore(false, trim));
     }
@@ -204,34 +204,34 @@ public class ProcessPage {
     if (!results.isEmpty() && results.get(0) != null) {
       return results.get(0);
     }
-    return Results.resultsNull;
+    return ScrapeResults.resultsNull;
   }
 
-  private static Results createResults(Element body, int page, Node nodeExtract,
-      int pos, Results.Leniency leniency, boolean trim,
+  private static ScrapeResults createResults(Element body, int page, Node nodeExtract,
+      int pos, ScrapeResults.Leniency leniency, boolean trim,
       Query query, Map<String, Object> cache) {
     if (nodeExtract == null) {
-      return Results.resultsNull;
+      return ScrapeResults.resultsNull;
     }
     try {
       if (!cache.containsKey("createResults")) {
         cache.put("createResults", new HashMap<String, Object>());
       }
-      return new Results(body, page, nodeExtract, pos, leniency, trim, query,
+      return new ScrapeResults(body, page, nodeExtract, pos, leniency, trim, query,
           (Map<String, Object>) cache.get("createResults"));
     } catch (Throwable t) {
       Log.exception(t);
     }
-    return Results.resultsNull;
+    return ScrapeResults.resultsNull;
   }
 
-  public static String infoString(List<Result> results) {
+  public static String infoString(List<ScrapeResult> results) {
     int count = 0;
     StringBuilder ret = new StringBuilder();
     if (results == null) {
       ret.append("FAIL");
     } else {
-      for (Result result : results) {
+      for (ScrapeResult result : results) {
         ++count;
         ret.append(count
             + " <> " + result.date()

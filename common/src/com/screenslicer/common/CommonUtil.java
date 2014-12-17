@@ -689,7 +689,7 @@ public class CommonUtil {
     }
   }
 
-  public static Element getElementByClassName(Document doc, String tagName, String className) {
+  public static Element getElementByClassName(Element doc, String tagName, String className) {
     if (doc == null) {
       return null;
     }
@@ -702,7 +702,7 @@ public class CommonUtil {
     return null;
   }
 
-  public static Element getElementMatchingText(Document doc, String tagName, String pattern, boolean ownText) {
+  public static Element getElementMatchingText(Element doc, String tagName, String pattern, boolean ownText) {
     if (doc == null) {
       return null;
     }
@@ -744,7 +744,7 @@ public class CommonUtil {
     return null;
   }
 
-  public static String getNextSiblingTextByOwnText(Document doc, String text) {
+  public static String getNextSiblingTextByOwnText(Element doc, String text) {
     Elements elements = doc.getElementsMatchingOwnText(text);
     if (elements == null) {
       return null;
@@ -759,7 +759,7 @@ public class CommonUtil {
     return null;
   }
 
-  public static List<Element> getNextSiblingElementsByOwnText(Document doc, String text) {
+  public static List<Element> getNextSiblingElementsByOwnText(Element doc, String text) {
     Elements elements = doc.getElementsMatchingOwnText(text);
     List<Element> siblings = new ArrayList<Element>();
     if (elements == null || elements.isEmpty()) {

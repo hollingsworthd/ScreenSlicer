@@ -40,7 +40,7 @@ import org.jsoup.select.NodeVisitor;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.Dissect.Visitor;
-import com.screenslicer.core.scrape.type.Result;
+import com.screenslicer.core.scrape.type.ScrapeResult;
 import com.screenslicer.core.util.Util;
 
 public class Expand {
@@ -50,7 +50,7 @@ public class Expand {
   private static final int MIN_GROUP = 4;
   private static final double SIBLING_RATIO = .745;
 
-  public static List<Result> perform(Element body, Node parent, boolean requireResultAnchor,
+  public static List<ScrapeResult> perform(Element body, Node parent, boolean requireResultAnchor,
       List<Node> nodes, boolean lenientUrl, boolean lenientTitle, HtmlNode matchResult,
       HtmlNode matchParent, Map<String, Object> cache) {
     if (nodes == null) {
@@ -107,7 +107,7 @@ public class Expand {
     for (Visitor visitor : visitors) {
       visitor.visit();
     }
-    List<Result> results = new ArrayList<Result>();
+    List<ScrapeResult> results = new ArrayList<ScrapeResult>();
     for (Visitor visitor : visitors) {
       if (!visitor.result.isEmpty(requireResultAnchor)) {
         results.add(visitor.result);

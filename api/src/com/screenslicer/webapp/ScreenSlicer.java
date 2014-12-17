@@ -34,7 +34,7 @@ import java.util.Map;
 import com.google.gson.reflect.TypeToken;
 import com.screenslicer.api.datatype.Contact;
 import com.screenslicer.api.datatype.HtmlNode;
-import com.screenslicer.api.datatype.SearchResult;
+import com.screenslicer.api.datatype.Result;
 import com.screenslicer.api.request.Cancel;
 import com.screenslicer.api.request.EmailExport;
 import com.screenslicer.api.request.Extract;
@@ -59,10 +59,10 @@ public final class ScreenSlicer {
   }
 
   private static SecureRandom rand = new SecureRandom();
-  public static final List<SearchResult> NULL_RESULTS = Collections.unmodifiableList(Arrays.asList(new SearchResult[0]));
+  public static final List<Result> NULL_RESULTS = Collections.unmodifiableList(Arrays.asList(new Result[0]));
   public static final List<HtmlNode> NULL_CONTROLS = Collections.unmodifiableList(Arrays.asList(new HtmlNode[0]));
   public static final Contact NULL_CONTACT = new Contact();
-  public static final SearchResult NULL_SEARCH_RESULT = new SearchResult();
+  public static final Result NULL_RESULT = new Result();
   public static final String NULL_FETCH = "";
 
   private static final Contact nullContact() {
@@ -74,13 +74,13 @@ public final class ScreenSlicer {
     return NULL_CONTACT;
   }
 
-  private static final SearchResult nullSearchResult() {
-    for (Field field : SearchResult.class.getFields()) {
+  private static final Result nullSearchResult() {
+    for (Field field : Result.class.getFields()) {
       try {
-        field.set(NULL_SEARCH_RESULT, null);
+        field.set(NULL_RESULT, null);
       } catch (Throwable t) {}
     }
-    return NULL_SEARCH_RESULT;
+    return NULL_RESULT;
   }
 
   public static final synchronized void startCustomApp(final ScreenSlicer.CustomApp customApp) {
@@ -131,13 +131,13 @@ public final class ScreenSlicer {
     }
   }
 
-  public static final List<SearchResult> queryForm(Request request, FormQuery args) {
+  public static final List<Result> queryForm(Request request, FormQuery args) {
     try {
       String instance = instanceIp(request);
-      List<SearchResult> ret = CommonUtil.gson.fromJson(
+      List<Result> ret = CommonUtil.gson.fromJson(
           CommonUtil.post("http://" + instance + ":8888/core-batch/query-form",
               instance, CommonUtil.combinedJson(request, args)),
-          new TypeToken<List<SearchResult>>() {}.getType());
+          new TypeToken<List<Result>>() {}.getType());
       return ret == null ? NULL_RESULTS : ret;
     } catch (Throwable t) {
       Log.exception(t);
@@ -145,13 +145,13 @@ public final class ScreenSlicer {
     return NULL_RESULTS;
   }
 
-  public static final List<SearchResult> queryKeyword(Request request, KeywordQuery args) {
+  public static final List<Result> queryKeyword(Request request, KeywordQuery args) {
     try {
       String instance = instanceIp(request);
-      List<SearchResult> ret = CommonUtil.gson.fromJson(CommonUtil.post(
+      List<Result> ret = CommonUtil.gson.fromJson(CommonUtil.post(
           "http://" + instance + ":8888/core-batch/query-keyword",
           instance, CommonUtil.combinedJson(request, args)),
-          new TypeToken<List<SearchResult>>() {}.getType());
+          new TypeToken<List<Result>>() {}.getType());
       return ret == null ? NULL_RESULTS : ret;
     } catch (Throwable t) {
       Log.exception(t);
@@ -159,13 +159,13 @@ public final class ScreenSlicer {
     return NULL_RESULTS;
   }
 
-  public static final SearchResult expandSearchResult(SearchResult args) {
+  public static final Result expandSearchResult(Result args) {
     try {
       String instance = args.key.split("@", 2)[0];
-      SearchResult ret = CommonUtil.gson.fromJson(CommonUtil.post(
+      Result ret = CommonUtil.gson.fromJson(CommonUtil.post(
           "http://" + instance + ":8888/core-batch/expand-search-result",
-          instance, SearchResult.toJson(args)),
-          new TypeToken<SearchResult>() {}.getType());
+          instance, Result.toJson(args)),
+          new TypeToken<Result>() {}.getType());
       return ret;
     } catch (Throwable t) {
       Log.exception(t);
@@ -202,18 +202,32 @@ public final class ScreenSlicer {
     return nullContact();
   }
 
-  public static final String fetch(Request request, Fetch args) {
+  public static final String _deprecated_fetch(Request request, Fetch args) {
     try {
       String instance = instanceIp(request);
-      SearchResult result = CommonUtil.gson.fromJson(
+      Result result = CommonUtil.gson.fromJson(
           CommonUtil.post("http://" + instance + ":8888/core-batch/fetch",
               instance, CommonUtil.combinedJson(request, args)),
-          new TypeToken<SearchResult>() {}.getType());
+          new TypeToken<Result>() {}.getType());
       return result == null ? NULL_FETCH : (result.pageHtml == null ? NULL_FETCH : result.pageHtml);
     } catch (Throwable t) {
       Log.exception(t);
     }
     return NULL_FETCH;
+  }
+
+  public static final Result fetch(Request request, Fetch args) {
+    try {
+      String instance = instanceIp(request);
+      Result result = CommonUtil.gson.fromJson(
+          CommonUtil.post("http://" + instance + ":8888/core-batch/fetch",
+              instance, CommonUtil.combinedJson(request, args)),
+          new TypeToken<Result>() {}.getType());
+      return result == null ? NULL_RESULT : result;
+    } catch (Throwable t) {
+      Log.exception(t);
+    }
+    return NULL_RESULT;
   }
 
   private static final String instanceIp(Request request) {

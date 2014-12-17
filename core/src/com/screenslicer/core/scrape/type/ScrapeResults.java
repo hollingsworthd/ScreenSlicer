@@ -46,8 +46,8 @@ import com.screenslicer.core.scrape.Proceed.Context;
 import com.screenslicer.core.util.Util;
 import com.screenslicer.webapp.WebApp;
 
-public class Results {
-  public static Results resultsNull = new Results();
+public class ScrapeResults {
+  public static ScrapeResults resultsNull = new ScrapeResults();
   private static final int MIN_SUMMARY_LEN = 15;
   private static final int MIN_VALID_SUMMARY = 40;
   private static final int MIN_VALID_TITLE = 12;
@@ -57,7 +57,7 @@ public class Results {
   };
 
   private final Node nodeExtract;
-  private final List<Result> results;
+  private final List<ScrapeResult> results;
   private final String query;
   private final boolean isNull;
   private Integer scoreCached = null;
@@ -66,7 +66,7 @@ public class Results {
   private double nextDistRatio = 1d;
   private final int position;
 
-  private Results() {
+  private ScrapeResults() {
     this.isNull = true;
     this.nodeExtract = null;
     this.results = null;
@@ -74,7 +74,7 @@ public class Results {
     this.position = -1;
   }
 
-  public Results(Element body, int page, Node nodeExtract, int position, Leniency leniency,
+  public ScrapeResults(Element body, int page, Node nodeExtract, int position, Leniency leniency,
       boolean trim, Query query, Map<String, Object> cache) {
     this.position = position;
     List<Node> nextNodes;
@@ -151,7 +151,7 @@ public class Results {
         nextLocs.add(allNodesTail.indexOf(next));
       }
       final List<Node> resultNodes = new ArrayList<Node>();
-      for (Result result : results) {
+      for (ScrapeResult result : results) {
         for (Node node : result.getNodes()) {
           node.traverse(new NodeVisitor() {
             @Override
@@ -182,15 +182,15 @@ public class Results {
 
   private void update(List<Node> nextNodes) {
     List<Node> latest = new ArrayList<Node>();
-    List<Result> toRemove = new ArrayList<Result>();
-    for (Result result : this.results) {
+    List<ScrapeResult> toRemove = new ArrayList<ScrapeResult>();
+    for (ScrapeResult result : this.results) {
       if (Util.overlaps(result.getNodes(), nextNodes)) {
         toRemove.add(result);
       } else {
         latest.addAll(result.getNodes());
       }
     }
-    for (Result result : toRemove) {
+    for (ScrapeResult result : toRemove) {
       this.results.remove(result);
     }
   }
@@ -199,7 +199,7 @@ public class Results {
     return nodeExtract;
   }
 
-  private static boolean hasQuery(Result result, String query) {
+  private static boolean hasQuery(ScrapeResult result, String query) {
     StringBuilder builder = new StringBuilder();
     String title = result.title();
     String summary = result.summary();
@@ -240,7 +240,7 @@ public class Results {
       final int MAX_COUNT = 30;
       int count = 0;
       int summaryLen = 0;
-      for (Result result : results) {
+      for (ScrapeResult result : results) {
         ++count;
         if (count > MAX_COUNT) {
           break;
@@ -329,9 +329,9 @@ public class Results {
     return naive ? scoreNaiveCached : scoreCached;
   }
 
-  public List<Result> results() {
+  public List<ScrapeResult> results() {
     if (isNull) {
-      return new ArrayList<Result>();
+      return new ArrayList<ScrapeResult>();
     }
     return results;
   }

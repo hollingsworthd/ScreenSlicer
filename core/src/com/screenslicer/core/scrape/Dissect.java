@@ -40,7 +40,7 @@ import org.jsoup.select.NodeVisitor;
 
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.common.CommonUtil;
-import com.screenslicer.core.scrape.type.Result;
+import com.screenslicer.core.scrape.type.ScrapeResult;
 import com.screenslicer.core.util.Util;
 
 public class Dissect {
@@ -146,23 +146,23 @@ public class Dissect {
     return "dissectedResults-<<" + lenientUrl + ">>-<<" + lenientTitle + ">>-" + position.toString();
   }
 
-  public static List<Result> perform(Element body, Node parent, boolean requireResultAnchor, List<Node> nodes, boolean lenientUrl,
+  public static List<ScrapeResult> perform(Element body, Node parent, boolean requireResultAnchor, List<Node> nodes, boolean lenientUrl,
       boolean lenientTitle, boolean trim, HtmlNode matchResult, HtmlNode matchParent, Map<String, Object> cache) {
     String baseParentHash = nodeHash(parent, nodes, lenientUrl, lenientTitle);
     String parentHashTrim = "nodeList-<<trim=true>>" + baseParentHash;
     String parentHashNoTrim = "nodeList-<<trim=false>>" + baseParentHash;
     if (trim && cache.containsKey(parentHashTrim)) {
-      return (List<Result>) cache.get(parentHashTrim);
+      return (List<ScrapeResult>) cache.get(parentHashTrim);
     }
     if (!trim && cache.containsKey(parentHashNoTrim)) {
-      return (List<Result>) cache.get(parentHashNoTrim);
+      return (List<ScrapeResult>) cache.get(parentHashNoTrim);
     }
-    List<Result> noTrimDissected = new ArrayList<Result>();
-    List<Result> dissected = new ArrayList<Result>();
+    List<ScrapeResult> noTrimDissected = new ArrayList<ScrapeResult>();
+    List<ScrapeResult> dissected = new ArrayList<ScrapeResult>();
     double avgTitle = 0;
     double avgSummary = 0;
     if (trim && cache.containsKey(parentHashNoTrim)) {
-      dissected = (List<Result>) cache.get(parentHashNoTrim);
+      dissected = (List<ScrapeResult>) cache.get(parentHashNoTrim);
       avgTitle = (Double) cache.get("dissectAvgTitle>>" + baseParentHash);
       avgSummary = (Double) cache.get("dissectAvgSummary>>" + baseParentHash);
     } else {
@@ -174,18 +174,18 @@ public class Dissect {
         return dissected;
       }
       boolean useDDMMYYYY = true;
-      for (Result cur : dissected) {
+      for (ScrapeResult cur : dissected) {
         if (!cur.isDDMMYYYY()) {
           useDDMMYYYY = false;
           break;
         }
       }
       if (useDDMMYYYY) {
-        for (Result cur : dissected) {
+        for (ScrapeResult cur : dissected) {
           cur.useDDMMYYYY();
         }
       }
-      for (Result cur : dissected) {
+      for (ScrapeResult cur : dissected) {
         if (cur.title() != null) {
           avgTitle += cur.title().trim().length();
         }
@@ -197,7 +197,7 @@ public class Dissect {
       avgSummary /= dissected.size();
       if ((avgTitle < 1 && avgSummary > 1)
           || (avgTitle > avgSummary && avgSummary > MIN_EXPECTED_FIELD)) {
-        for (Result cur : dissected) {
+        for (ScrapeResult cur : dissected) {
           cur.swapTitleAndSummary();
         }
         double tmp = avgTitle;
@@ -205,18 +205,18 @@ public class Dissect {
         avgSummary = tmp;
       }
       int totalAlt = 0;
-      for (Result cur : dissected) {
+      for (ScrapeResult cur : dissected) {
         totalAlt += cur.isAltUrlAndTitle() ? 1 : 0;
       }
       boolean useAlt = totalAlt > dissected.size() / TWICE;
-      for (Result cur : dissected) {
+      for (ScrapeResult cur : dissected) {
         cur.useAltUrlAndTitle(useAlt);
       }
       List<Double> avgTitleFallbacks = new ArrayList<Double>();
       Map<String, Integer> dupTitles = new HashMap<String, Integer>();
       double bestTitleFallbackAvg = 0d;
       int bestTitleFallbackIndex = -1;
-      for (Result cur : dissected) {
+      for (ScrapeResult cur : dissected) {
         String title = cur.title();
         if (!dupTitles.containsKey(title)) {
           dupTitles.put(title, 0);
@@ -249,7 +249,7 @@ public class Dissect {
       boolean doFallback = (int) Math.rint(bestTitleFallbackAvg) > (int) Math.rint(avgTitle);
       int third = (int) Math.rint(((double) dissected.size()) / 3d);
       Map<String, Integer> dupFallbackTitles = new HashMap<String, Integer>();
-      for (Result cur : dissected) {
+      for (ScrapeResult cur : dissected) {
         if (dupTitles.get(cur.title()) > third) {
           String fallbackTitle = cur.altFallbackTitle(bestTitleFallbackIndex);
           if (!dupFallbackTitles.containsKey(fallbackTitle)) {
@@ -259,7 +259,7 @@ public class Dissect {
         }
       }
       double newTitleLen = 0;
-      for (Result cur : dissected) {
+      for (ScrapeResult cur : dissected) {
         if (doFallback
             || (dupTitles.get(cur.title()) > third
             && dupFallbackTitles.get(cur.altFallbackTitle(bestTitleFallbackIndex)) < third)) {
@@ -271,7 +271,7 @@ public class Dissect {
       avgTitle = newTitleLen / (double) dissected.size();
       cache.put("dissectAvgTitle>>" + baseParentHash, avgTitle);
       cache.put("dissectAvgSummary>>" + baseParentHash, avgSummary);
-      for (Result cur : dissected) {
+      for (ScrapeResult cur : dissected) {
         noTrimDissected.add(cur.copy());
       }
       cache.put(parentHashNoTrim, noTrimDissected);
@@ -280,7 +280,7 @@ public class Dissect {
       return noTrimDissected;
     }
     if (avgSummary > MIN_EXPECTED_AVG_SUMMARY || avgTitle > MIN_EXPECTED_AVG_TITLE) {
-      List<Result> toRemove = new ArrayList<Result>();
+      List<ScrapeResult> toRemove = new ArrayList<ScrapeResult>();
       for (int i = 0; i < dissected.size(); i++) {
         String title = dissected.get(i).title();
         title = title == null ? "" : title;
@@ -292,18 +292,18 @@ public class Dissect {
           toRemove.add(dissected.get(i));
         }
       }
-      for (Result cur : toRemove) {
+      for (ScrapeResult cur : toRemove) {
         dissected.remove(cur);
       }
     }
-    Map<String, Result> unique = new LinkedHashMap<String, Result>();
-    for (Result cur : dissected) {
+    Map<String, ScrapeResult> unique = new LinkedHashMap<String, ScrapeResult>();
+    for (ScrapeResult cur : dissected) {
       unique.put(cur.url(), cur);
     }
-    dissected = new ArrayList<Result>(unique.values());
+    dissected = new ArrayList<ScrapeResult>(unique.values());
     if (avgSummary > MIN_EXPECTED_FIELD || avgTitle > MIN_EXPECTED_FIELD) {
       Map<String, Integer> count = new HashMap<String, Integer>();
-      for (Result cur : dissected) {
+      for (ScrapeResult cur : dissected) {
         String key = cur.title() + "<<>>" + cur.summary() + "<<>>" + cur.date();
         if (count.containsKey(key)) {
           count.put(key, count.get(key).intValue() + 1);
@@ -312,10 +312,10 @@ public class Dissect {
         }
       }
       double size = (double) dissected.size();
-      List<Result> toRemove = new ArrayList<Result>();
+      List<ScrapeResult> toRemove = new ArrayList<ScrapeResult>();
       for (Map.Entry<String, Integer> entry : count.entrySet()) {
         if (((double) entry.getValue()) / size > SIGNIFICANT_RESULTS_RATIO) {
-          for (Result cur : dissected) {
+          for (ScrapeResult cur : dissected) {
             String key = cur.title() + "<<>>" + cur.summary() + "<<>>" + cur.date();
             if (key.equals(entry.getKey())) {
               toRemove.add(cur);
@@ -323,7 +323,7 @@ public class Dissect {
           }
         }
       }
-      for (Result cur : toRemove) {
+      for (ScrapeResult cur : toRemove) {
         dissected.remove(cur);
       }
     }
@@ -353,24 +353,24 @@ public class Dissect {
       }
 
       int numRelative = 0;
-      for (Result cur : dissected) {
+      for (ScrapeResult cur : dissected) {
         if (isRelativeUrl(cur.url())) {
           ++numRelative;
         }
       }
       double size = (double) dissected.size();
-      List<Result> toRemove = new ArrayList<Result>();
+      List<ScrapeResult> toRemove = new ArrayList<ScrapeResult>();
       if ((((double) numRelative) / size) < HALF) {
-        for (Result cur : dissected) {
+        for (ScrapeResult cur : dissected) {
           if (isRelativeUrl(cur.url())) {
             toRemove.add(cur);
           }
         }
-        for (Result cur : toRemove) {
+        for (ScrapeResult cur : toRemove) {
           dissected.remove(cur);
         }
       }
-      toRemove = new ArrayList<Result>();
+      toRemove = new ArrayList<ScrapeResult>();
       for (int i = 0; i < dissected.size(); i++) {
         boolean found = true;
         for (int j = 0; j < dissected.size(); j++) {
@@ -384,12 +384,12 @@ public class Dissect {
           toRemove.add(dissected.get(i));
         }
       }
-      for (Result cur : toRemove) {
+      for (ScrapeResult cur : toRemove) {
         dissected.remove(cur);
       }
-      toRemove = new ArrayList<Result>();
+      toRemove = new ArrayList<ScrapeResult>();
       int nullSummary = 0;
-      for (Result cur : dissected) {
+      for (ScrapeResult cur : dissected) {
         if (CommonUtil.isEmpty(cur.summary())) {
           ++nullSummary;
         }
@@ -409,7 +409,7 @@ public class Dissect {
             break;
           }
         }
-        for (Result cur : toRemove) {
+        for (ScrapeResult cur : toRemove) {
           dissected.remove(cur);
         }
       }
@@ -417,16 +417,16 @@ public class Dissect {
     if (dissected.size() > CRITICAL_MASS) {
       int oneWordTitles = 0;
       int hashUrls = 0;
-      List<Result> toRemoveTitles = new ArrayList<Result>();
+      List<ScrapeResult> toRemoveTitles = new ArrayList<ScrapeResult>();
       List<Integer> removedTitles = new ArrayList<Integer>();
       List<Integer> keptTitles = new ArrayList<Integer>();
-      List<Result> toRemoveUrls = new ArrayList<Result>();
+      List<ScrapeResult> toRemoveUrls = new ArrayList<ScrapeResult>();
       List<Integer> removedUrls = new ArrayList<Integer>();
       List<Integer> keptUrls = new ArrayList<Integer>();
       int index = 0;
       int firstRemovedTitle = -1;
       int firstRemovedUrl = -1;
-      for (Result cur : dissected) {
+      for (ScrapeResult cur : dissected) {
         if (cur.title() == null || cur.title().indexOf(' ') == -1) {
           ++oneWordTitles;
           toRemoveTitles.add(cur);
@@ -498,7 +498,7 @@ public class Dissect {
         }
       }
       int firstRemoved = -1;
-      List<Result> toRemoveResults = null;
+      List<ScrapeResult> toRemoveResults = null;
       if (considerTitles && (numOddTitles == 0 || numEvenTitles == 0)) {
         toRemoveResults = toRemoveTitles;
         firstRemoved = firstRemovedTitle;
@@ -507,7 +507,7 @@ public class Dissect {
         firstRemoved = firstRemovedUrl;
       }
       if (toRemoveResults != null) {
-        for (Result cur : toRemoveResults) {
+        for (ScrapeResult cur : toRemoveResults) {
           int i = dissected.indexOf(cur);
           i += firstRemoved == 0 ? 1 : -1;
           if (i < dissected.size() && i > -1) {
@@ -528,13 +528,13 @@ public class Dissect {
     }
     String[] summaries = new String[dissected.size()];
     int summaryIndex = 0;
-    for (Result result : dissected) {
+    for (ScrapeResult result : dissected) {
       summaries[summaryIndex++] = result.summary();
     }
     dedupStrings(summaries, true);
     dedupStrings(summaries, false);
     summaryIndex = 0;
-    for (Result result : dissected) {
+    for (ScrapeResult result : dissected) {
       result.setSummary(summaries[summaryIndex++]);
     }
     Util.trimLargeResults(dissected);
@@ -546,13 +546,13 @@ public class Dissect {
     return url == null || (!url.startsWith("//") && !url.contains("://"));
   }
 
-  private static boolean isBanned(Result result) {
+  private static boolean isBanned(ScrapeResult result) {
     return (result.title() != null && bannedSymbols.matcher(result.title()).find())
         || (result.summary() != null && bannedSymbols.matcher(result.summary()).find());
   }
 
   public static class Visitor implements NodeVisitor {
-    public Result result = new Result();
+    public ScrapeResult result = new ScrapeResult();
     private int insideAnchor = 0;
     private Node insideLenientUrl = null;
     private Pattern tag = Pattern.compile("<[^>]+>.*$");

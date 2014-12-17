@@ -33,7 +33,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
-import com.screenslicer.api.datatype.SearchResult;
+import com.screenslicer.api.datatype.Result;
 import com.screenslicer.api.request.Extract;
 import com.screenslicer.api.request.Fetch;
 import com.screenslicer.api.request.FormLoad;
@@ -124,7 +124,7 @@ public class ScreenSlicerBatch implements WebResource {
       try {
         Fetch fetch = CommonUtil.gson.fromJson(reqDecoded, Fetch.class);
         Request req = CommonUtil.gson.fromJson(reqDecoded, Request.class);
-        SearchResult resp = new SearchResult();
+        Result resp = new Result();
         resp.pageHtml = Scrape.get(fetch, req);
         return Response.ok(Crypto.encode(CommonUtil.gson.toJson(resp), CommonUtil.myInstance())).build();
       } catch (Throwable t) {
@@ -207,7 +207,7 @@ public class ScreenSlicerBatch implements WebResource {
     if (reqDecoded != null) {
       Request req = null;
       try {
-        SearchResult searchResult = CommonUtil.gson.fromJson(reqDecoded, SearchResult.class);
+        Result searchResult = CommonUtil.gson.fromJson(reqDecoded, Result.class);
         searchResult.open();
         return Response.ok(Crypto.encode(CommonUtil.gson.toJson(searchResult), CommonUtil.myInstance())).build();
       } catch (Throwable t) {

@@ -41,7 +41,7 @@ import javax.ws.rs.Produces;
 
 import com.screenslicer.api.datatype.Contact;
 import com.screenslicer.api.datatype.HtmlNode;
-import com.screenslicer.api.datatype.SearchResult;
+import com.screenslicer.api.datatype.Result;
 import com.screenslicer.api.request.Cancel;
 import com.screenslicer.api.request.EmailExport;
 import com.screenslicer.api.request.Extract;
@@ -113,7 +113,7 @@ public class ScreenSlicerDriver implements WebResource {
     return process(reqString, new Callback() {
       @Override
       public String perform(Request request) {
-        return SearchResult.toJson(ScreenSlicer.queryForm(request, FormQuery.instance(reqString)));
+        return Result.toJson(ScreenSlicer.queryForm(request, FormQuery.instance(reqString)));
       }
     });
   }
@@ -126,7 +126,7 @@ public class ScreenSlicerDriver implements WebResource {
     return process(reqString, new Callback() {
       @Override
       public String perform(Request request) {
-        return SearchResult.toJson(ScreenSlicer.queryKeyword(request, KeywordQuery.instance(reqString)));
+        return Result.toJson(ScreenSlicer.queryKeyword(request, KeywordQuery.instance(reqString)));
       }
     });
   }
@@ -139,8 +139,8 @@ public class ScreenSlicerDriver implements WebResource {
     return process(reqString, new Callback() {
       @Override
       public String perform(Request request) {
-        return SearchResult.toJson(ScreenSlicer.expandSearchResult(
-            SearchResult.instance(reqString)));
+        return Result.toJson(ScreenSlicer.expandSearchResult(
+            Result.instance(reqString)));
       }
     });
   }
@@ -179,7 +179,12 @@ public class ScreenSlicerDriver implements WebResource {
     return process(reqString, new Callback() {
       @Override
       public String perform(Request request) {
-        return ScreenSlicer.fetch(request, Fetch.instance(reqString));
+        //TODO to be removed in version 2.0.0 after deprecated options removed
+        Map<String, Object> map = (Map<String, Object>) CommonUtil.gson.fromJson(reqString, CommonUtil.objectType);
+        if (map.containsKey("downloads")) {
+          return Result.toJson(ScreenSlicer.fetch(request, Fetch.instance(reqString)));
+        }
+        return ScreenSlicer._deprecated_fetch(request, Fetch.instance(reqString));
       }
     });
   }

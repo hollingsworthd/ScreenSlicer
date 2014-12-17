@@ -36,7 +36,7 @@ import com.screenslicer.common.Crypto;
 import com.screenslicer.common.Log;
 import com.screenslicer.common.Random;
 
-public final class SearchResult {
+public final class Result {
   static {
     File cache = new File("./result_cache/");
     if (!cache.exists()) {
@@ -44,36 +44,36 @@ public final class SearchResult {
     }
   }
 
-  public static final SearchResult instance(String json) {
+  public static final Result instance(String json) {
     return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
   }
 
-  public static final List<SearchResult> instances(String json) {
+  public static final List<Result> instances(String json) {
     return instances((List<Map<String, Object>>) CommonUtil.gson.fromJson(json, CommonUtil.listObjectType));
   }
 
-  public static final SearchResult instance(Map<String, Object> args) {
-    return CommonUtil.constructFromMap(SearchResult.class, args);
+  public static final Result instance(Map<String, Object> args) {
+    return CommonUtil.constructFromMap(Result.class, args);
   }
 
-  public static final List<SearchResult> instances(Map<String, Object> args) {
-    return CommonUtil.constructListFromMap(SearchResult.class, args);
+  public static final List<Result> instances(Map<String, Object> args) {
+    return CommonUtil.constructListFromMap(Result.class, args);
   }
 
-  public static final List<SearchResult> instances(List<Map<String, Object>> args) {
-    return CommonUtil.constructListFromMapList(SearchResult.class, args);
+  public static final List<Result> instances(List<Map<String, Object>> args) {
+    return CommonUtil.constructListFromMapList(Result.class, args);
   }
 
-  public static final String toJson(SearchResult obj) {
-    return CommonUtil.gson.toJson(obj, new TypeToken<SearchResult>() {}.getType());
+  public static final String toJson(Result obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<Result>() {}.getType());
   }
 
-  public static final String toJson(SearchResult[] obj) {
-    return CommonUtil.gson.toJson(obj, new TypeToken<SearchResult[]>() {}.getType());
+  public static final String toJson(Result[] obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<Result[]>() {}.getType());
   }
 
-  public static final String toJson(List<SearchResult> obj) {
-    return CommonUtil.gson.toJson(obj, new TypeToken<List<SearchResult>>() {}.getType());
+  public static final String toJson(List<Result> obj) {
+    return CommonUtil.gson.toJson(obj, new TypeToken<List<Result>>() {}.getType());
   }
 
   /**
@@ -109,6 +109,14 @@ public final class SearchResult {
    * Main portion of text of the page at the result URL
    */
   public String pageText;
+  /**
+   * Binary content of the page.
+   */
+  public byte[] pageBinary;
+  /**
+   * Mime-type of the binary content;
+   */
+  public String pageBinaryMimeType;
   /**
    * Key for this SearchResult when collapsing is enabled.
    */
@@ -147,7 +155,7 @@ public final class SearchResult {
       if (key != null) {
         String[] parts = key.split("@", 2);
         File file = new File("./result_cache/" + parts[1]);
-        SearchResult cached = instance(CommonUtil.decompress(Crypto.decode(
+        Result cached = instance(CommonUtil.decompress(Crypto.decode(
             FileUtils.readFileToString(file, "utf-8"))));
         FileUtils.deleteQuietly(file);
         this.url = cached.url;

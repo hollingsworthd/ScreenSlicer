@@ -32,15 +32,15 @@ import java.util.List;
 import org.openqa.selenium.remote.BrowserDriver;
 import org.openqa.selenium.remote.BrowserDriver.Fatal;
 
-import com.screenslicer.api.datatype.SearchResult;
+import com.screenslicer.api.datatype.Result;
 import com.screenslicer.api.request.Query;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.ProcessPage;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
 
 public class SearchResults {
-  private List<SearchResult> searchResults;
-  private List<SearchResult> prevResults;
+  private List<Result> searchResults;
+  private List<Result> prevResults;
   private static Collection<SearchResults> instances = new HashSet<SearchResults>();
   private static Object lock = new Object();
   private String window;
@@ -53,7 +53,7 @@ public class SearchResults {
   }
 
   public static SearchResults newInstance(boolean register,
-      List<SearchResult> searchResults, SearchResults source) {
+      List<Result> searchResults, SearchResults source) {
     if (source != null) {
       synchronized (lock) {
         instances.remove(source);
@@ -64,7 +64,7 @@ public class SearchResults {
   }
 
   public static SearchResults newInstance(boolean register,
-      List<SearchResult> searchResults, String window, int page, Query query) {
+      List<Result> searchResults, String window, int page, Query query) {
     SearchResults instance = new SearchResults(searchResults, window, page, query);
     if (register) {
       synchronized (lock) {
@@ -74,11 +74,11 @@ public class SearchResults {
     return instance;
   }
 
-  private SearchResults(List<SearchResult> searchResults, String window, int page, Query query) {
-    this.searchResults = searchResults == null ? new ArrayList<SearchResult>()
-        : new ArrayList<SearchResult>(searchResults);
-    this.prevResults = searchResults == null ? new ArrayList<SearchResult>()
-        : new ArrayList<SearchResult>(searchResults);
+  private SearchResults(List<Result> searchResults, String window, int page, Query query) {
+    this.searchResults = searchResults == null ? new ArrayList<Result>()
+        : new ArrayList<Result>(searchResults);
+    this.prevResults = searchResults == null ? new ArrayList<Result>()
+        : new ArrayList<Result>(searchResults);
     this.window = window;
     this.page = page;
     this.query = query;
@@ -94,11 +94,11 @@ public class SearchResults {
     }
     for (SearchResults cur : myInstances) {
       if (cur.window != null && cur.query != null && !CommonUtil.isEmpty(cur.prevResults)) {
-        List<SearchResult> prevPage = cur.removeLastPage();
+        List<Result> prevPage = cur.removeLastPage();
         try {
           driver.switchTo().window(cur.window);
           driver.switchTo().defaultContent();
-          List<SearchResult> newPage = new ArrayList<SearchResult>(ProcessPage.perform(driver, cur.page, cur.query).drain());
+          List<Result> newPage = new ArrayList<Result>(ProcessPage.perform(driver, cur.page, cur.query).drain());
           for (int num = newPage.size(); num > prevPage.size(); num--) {
             newPage.remove(num - 1);
           }
@@ -125,16 +125,16 @@ public class SearchResults {
     driver.switchTo().defaultContent();
   }
 
-  private List<SearchResult> removeLastPage() {
+  private List<Result> removeLastPage() {
     if (!CommonUtil.isEmpty(prevResults)) {
-      for (SearchResult toRemove : prevResults) {
+      for (Result toRemove : prevResults) {
         searchResults.remove(toRemove);
       }
-      List<SearchResult> lastPage = new ArrayList<SearchResult>(prevResults);
+      List<Result> lastPage = new ArrayList<Result>(prevResults);
       prevResults.clear();
       return lastPage;
     }
-    return new ArrayList<SearchResult>();
+    return new ArrayList<Result>();
   }
 
   public boolean isEmpty() {
@@ -148,7 +148,7 @@ public class SearchResults {
   public void remove(int index) {
     if (searchResults != null) {
       if (index < searchResults.size()) {
-        SearchResult removed = searchResults.remove(index);
+        Result removed = searchResults.remove(index);
         if (removed != null) {
           prevResults.remove(removed);
         }
@@ -156,14 +156,14 @@ public class SearchResults {
     }
   }
 
-  public List<SearchResult> drain() {
+  public List<Result> drain() {
     synchronized (lock) {
       instances.remove(this);
     }
     if (prevResults != null) {
       prevResults.clear();
     }
-    return searchResults == null ? new ArrayList<SearchResult>() : searchResults;
+    return searchResults == null ? new ArrayList<Result>() : searchResults;
   }
 
   public boolean isDuplicatePage(SearchResults newResults) {
@@ -189,20 +189,20 @@ public class SearchResults {
   public void addPage(SearchResults newResults) {
     if (newResults != null) {
       if (searchResults == null) {
-        searchResults = new ArrayList<SearchResult>();
+        searchResults = new ArrayList<Result>();
       }
-      List<SearchResult> results = newResults.drain();
+      List<Result> results = newResults.drain();
       searchResults.addAll(results);
-      this.prevResults = new ArrayList<SearchResult>(results);
+      this.prevResults = new ArrayList<Result>(results);
       this.window = newResults.window;
       this.page = newResults.page;
       this.query = newResults.query;
     }
   }
 
-  public SearchResult get(int index) {
+  public Result get(int index) {
     if (searchResults == null || index >= searchResults.size()) {
-      return new SearchResult();
+      return new Result();
     }
     return searchResults.get(index);
   }

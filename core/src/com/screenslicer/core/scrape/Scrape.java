@@ -27,6 +27,7 @@ package com.screenslicer.core.scrape;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -36,6 +37,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.FileUtils;
+import org.apache.tika.Tika;
 import org.jsoup.nodes.Node;
 import org.openqa.selenium.io.TemporaryFilesystem;
 import org.openqa.selenium.remote.BrowserDriver;
@@ -45,7 +47,7 @@ import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.datatype.Proxy;
-import com.screenslicer.api.datatype.SearchResult;
+import com.screenslicer.api.datatype.Result;
 import com.screenslicer.api.datatype.UrlTransform;
 import com.screenslicer.api.request.Fetch;
 import com.screenslicer.api.request.FormLoad;
@@ -108,7 +110,7 @@ public class Scrape {
   private static String progress1 = "";
   private static String progress2 = "";
 
-  public static final List<SearchResult> WAITING = new ArrayList<SearchResult>();
+  public static final List<Result> WAITING = new ArrayList<Result>();
 
   public static void init() {
     NeuralNetManager.reset(new File("./resources/neural/config"));
@@ -124,6 +126,16 @@ public class Scrape {
         if (!"synthetic".equals(System.getProperty("slicer_events"))) {
           profile.setAlwaysLoadNoFocusLib(true);
           profile.setEnableNativeEvents(true);
+        }
+        File downloadCache = new File("./download_cache");
+        String downloadCachePath = downloadCache.getAbsolutePath();
+        FileUtils.deleteQuietly(downloadCache);
+        downloadCache.mkdir();
+        if (req.downloads) {
+          profile.setPreference("browser.download.folderList", 2);
+          profile.setPreference("browser.download.manager.showWhenStarting", false);
+          profile.setPreference("browser.download.dir", downloadCachePath);
+          profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "*/*");
         }
         for (int curProxy = 0; curProxy < proxies.length; curProxy++) {
           Proxy proxy = proxies[curProxy];
@@ -268,10 +280,10 @@ public class Scrape {
     }
   }
 
-  public static List<SearchResult> cached(String mapKey) {
+  public static List<Result> cached(String mapKey) {
     synchronized (cacheLock) {
       if (nextResults.containsKey(mapKey)) {
-        List<SearchResult> ret = nextResults.get(mapKey);
+        List<Result> ret = nextResults.get(mapKey);
         if (ret == null) {
           return WAITING;
         }
@@ -311,6 +323,28 @@ public class Scrape {
     return "http://" + urlLhs + ".nyud.net:8080/" + urlRhs;
   }
 
+  private static class Downloaded {
+    byte[] content;
+    String mimeType;
+
+    public Downloaded() {
+      File file = new File("./download_cache");
+      Collection<File> list = FileUtils.listFiles(file, null, false);
+      if (!list.isEmpty()) {
+        try {
+          content = FileUtils.readFileToByteArray(list.iterator().next());
+          mimeType = new Tika().detect(content);
+        } catch (Throwable t) {
+          Log.exception(t);
+        } finally {
+          for (File cur : list) {
+            FileUtils.deleteQuietly(cur);
+          }
+        }
+      }
+    }
+  }
+
   private static void fetch(BrowserDriver driver, Request req, Query query, Query recQuery,
       SearchResults results, int depth, SearchResults recResults,
       Map<String, Object> cache) throws ActionFailed {
@@ -339,6 +373,9 @@ public class Scrape {
                 CommonUtil.parseFragment(results.get(i).urlNode, false), results.get(i).url, query.fetchCached,
                 req.runGuid, query.fetchInNewWindow, depth == 0 && query == null,
                 query == null ? null : query.postFetchClicks);
+            Downloaded downloaded = new Downloaded();
+            results.get(i).pageBinary = downloaded.content;
+            results.get(i).pageBinaryMimeType = downloaded.mimeType;
             if (!CommonUtil.isEmpty(results.get(i).pageHtml)) {
               try {
                 results.get(i).pageText = NumWordsRulesExtractor.INSTANCE.getText(results.get(i).pageHtml);
@@ -623,7 +660,7 @@ public class Scrape {
         && (urlNodes == null || urlNodes.length == 0)) {
       ret = results;
     } else {
-      List<SearchResult> filtered = new ArrayList<SearchResult>();
+      List<Result> filtered = new ArrayList<Result>();
       for (int i = 0; i < results.size(); i++) {
         if (!Util.isResultFiltered(results.get(i), whitelist, patterns, urlNodes)) {
           filtered.add(results.get(i));
@@ -715,7 +752,7 @@ public class Scrape {
     }
   }
 
-  public static List<SearchResult> scrape(Query query, Request req) {
+  public static List<Result> scrape(Query query, Request req) {
     long myThread = latestThread.incrementAndGet();
     while (myThread != curThread.get() + 1
         || !done.compareAndSet(true, false)) {
@@ -861,9 +898,9 @@ public class Scrape {
       }
       return recResults;
     }
-    List<SearchResult> pages = new ArrayList<SearchResult>();
+    List<Result> pages = new ArrayList<Result>();
     for (String page : resultPages) {
-      SearchResult r = new SearchResult();
+      Result r = new Result();
       r.html = page;
       pages.add(r);
     }
@@ -874,9 +911,9 @@ public class Scrape {
     return !CommonUtil.isEmpty(url) && (url.startsWith("https://") || url.startsWith("http://"));
   }
 
-  public static List<SearchResult> scrape(String url, final String query, final int pages, final String mapKey1, final String mapKey2) {
+  public static List<Result> scrape(String url, final String query, final int pages, final String mapKey1, final String mapKey2) {
     if (!isUrlValid(url)) {
-      return new ArrayList<SearchResult>();
+      return new ArrayList<Result>();
     }
     if (!done.compareAndSet(true, false)) {
       return null;
@@ -884,7 +921,7 @@ public class Scrape {
     restart(new Request());
     CommonUtil.clearStripCache();
     Util.clearOuterHtmlCache();
-    List<SearchResult> results = new ArrayList<SearchResult>();
+    List<Result> results = new ArrayList<Result>();
     final KeywordQuery keywordQuery = new KeywordQuery();
     try {
       synchronized (progressLock) {
@@ -929,7 +966,7 @@ public class Scrape {
     new Thread(new Runnable() {
       @Override
       public void run() {
-        List<SearchResult> next = new ArrayList<SearchResult>();
+        List<Result> next = new ArrayList<Result>();
         try {
           synchronized (progressLock) {
             progress2 = "Page 2 progress: getting page...";

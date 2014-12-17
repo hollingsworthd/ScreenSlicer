@@ -33,7 +33,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
-import com.screenslicer.api.datatype.SearchResult;
+import com.screenslicer.api.datatype.Result;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Crypto;
 import com.screenslicer.common.Log;
@@ -71,10 +71,10 @@ public class ScreenSlicerInteractive implements WebResource {
     return Response.ok("").build();
   }
 
-  private static Response buildResp(List<SearchResult> results) {
+  private static Response buildResp(List<Result> results) {
     if (results != null && results != Scrape.WAITING) {
       List<ResponseResult> resp = new ArrayList<ResponseResult>();
-      for (SearchResult result : results) {
+      for (Result result : results) {
         ResponseResult r = new ResponseResult();
         r.url = result.url;
         r.title = result.title;

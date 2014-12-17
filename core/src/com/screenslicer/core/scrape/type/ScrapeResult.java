@@ -49,7 +49,7 @@ import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.util.Util;
 
-public class Result {
+public class ScrapeResult {
   static {
     if (new Parser() != null) {
       LogManager.getLogManager().getLogger("com.joestelmach.natty").setLevel(Level.OFF);
@@ -95,8 +95,8 @@ public class Result {
     dateTimeDDMMYYYY.setLenient(false);
   }
 
-  public Result copy() {
-    Result copy = new Result();
+  public ScrapeResult copy() {
+    ScrapeResult copy = new ScrapeResult();
     copy.myNodes = new ArrayList<Node>(this.myNodes);
     copy.summaryBeforeTitle = this.summaryBeforeTitle;
     copy.url = this.url;

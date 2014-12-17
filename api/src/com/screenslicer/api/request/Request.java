@@ -132,6 +132,10 @@ public final class Request {
    */
   public boolean continueSession = false;
   /**
+   * Whether to enable downloads.
+   */
+  public boolean downloads;
+  /**
    * Browser preferences
    */
   public Map<String, Object> browserPrefs;
