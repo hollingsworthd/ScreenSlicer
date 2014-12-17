@@ -86,7 +86,7 @@ public class QueryForm {
         try {
           if (!submits.isEmpty()) {
             if (submits.size() == 1) {
-              clicked = Util.click(driver, submits.get(0));
+              clicked = Util.click(driver, submits.get(0), false);
             } else {
               String formHtml = CommonUtil.strip(driver.findElementById(formId).getAttribute("outerHTML"), false);
               int minIndex = Integer.MAX_VALUE;
@@ -108,7 +108,7 @@ public class QueryForm {
                 }
               }
               if (firstSubmit != null) {
-                clicked = Util.click(driver, firstSubmit);
+                clicked = Util.click(driver, firstSubmit, false);
               }
             }
           }
@@ -123,7 +123,7 @@ public class QueryForm {
           driver.findElementById(formId).submit();
         }
       } else {
-        Util.click(driver, Util.toElement(driver, submitClick, null));
+        Util.click(driver, Util.toElement(driver, submitClick, null), false);
       }
       Util.driverSleepLong();
     } catch (Retry r) {
@@ -140,9 +140,9 @@ public class QueryForm {
       if (!CommonUtil.isEmpty(context.site)) {
         Util.get(driver, context.site, true, cleanupWindows);
       }
-      Util.doClicks(driver, context.preAuthClicks, null);
+      Util.doClicks(driver, context.preAuthClicks, null, false);
       QueryCommon.doAuth(driver, context.credentials);
-      Util.doClicks(driver, context.preSearchClicks, null);
+      Util.doClicks(driver, context.preSearchClicks, null, false);
       Map<String, HtmlNode> formControls = new HashMap<String, HtmlNode>();
       for (int i = 0; i < context.formSchema.length; i++) {
         formControls.put(context.formSchema[i].guid, context.formSchema[i]);
@@ -209,12 +209,12 @@ public class QueryForm {
                           && modelVal.equalsIgnoreCase(schemaVal)) {
                         if (!element.isSelected()) {
                           Log.debug("Clicking radio button", WebApp.DEBUG);
-                          valueChanged = Util.click(driver, element);
+                          valueChanged = Util.click(driver, element, false);
                         }
                       }
                     } else if (!element.isSelected()) {
                       Log.debug("Clicking [checkbox|radio]", WebApp.DEBUG);
-                      valueChanged = Util.click(driver, element);
+                      valueChanged = Util.click(driver, element, false);
                     }
                   } else {
                     if (element.isSelected()) {
@@ -237,7 +237,7 @@ public class QueryForm {
         } while (valueChanged && count < MAX_TRIES);
         doSubmit(driver, context.formId, context.searchSubmitClick);
       }
-      Util.doClicks(driver, context.postSearchClicks, null);
+      Util.doClicks(driver, context.postSearchClicks, null, false);
     } catch (Retry r) {
       throw r;
     } catch (Fatal f) {
@@ -250,9 +250,9 @@ public class QueryForm {
   public static List<HtmlNode> load(BrowserDriver driver, FormLoad context, boolean cleanupWindows) throws ActionFailed {
     try {
       Util.get(driver, context.site, true, cleanupWindows);
-      Util.doClicks(driver, context.preAuthClicks, null);
+      Util.doClicks(driver, context.preAuthClicks, null, false);
       QueryCommon.doAuth(driver, context.credentials);
-      Util.doClicks(driver, context.preSearchClicks, null);
+      Util.doClicks(driver, context.preSearchClicks, null, false);
       WebElement form = driver.findElementById(context.formId);
       Map<HtmlNode, String> controlsHtml = new HashMap<HtmlNode, String>();
       String formHtml = CommonUtil.strip(form.getAttribute("outerHTML"), false);

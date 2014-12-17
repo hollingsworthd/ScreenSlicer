@@ -85,7 +85,11 @@ public final class HtmlNode {
    * post.
    */
   public boolean longRequest = false;
-
+  /**
+   * If this node represents a hyperlink click or action, an attempt will be
+   * made to open it to a new window.
+   */
+  public boolean newWindow;
   /**
    * Specifies a URL to HTTP GET directly, instead of a DOM element.
    */

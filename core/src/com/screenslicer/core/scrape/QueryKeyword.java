@@ -123,7 +123,7 @@ public class QueryKeyword {
     try {
       String oldHandle = driver.getWindowHandle();
       Actions action = driver.actions();
-      Util.click(driver, element);
+      Util.click(driver, element, false);
       action.moveByOffset(-MOUSE_MOVE_OFFSET, -MOUSE_MOVE_OFFSET).perform();
       action.moveToElement(element).perform();
       action.moveByOffset(2, 2).perform();
@@ -205,7 +205,7 @@ public class QueryKeyword {
     try {
       for (WebElement element : searchBoxes) {
         try {
-          Util.click(driver, element);
+          Util.click(driver, element, false);
           element.clear();
           Util.driverSleepVeryShort();
           if (!CommonUtil.isEmpty(element.getAttribute("value"))) {
@@ -221,7 +221,7 @@ public class QueryKeyword {
           if (submitClick == null) {
             element.sendKeys("\n");
           } else {
-            Util.click(driver, Util.toElement(driver, submitClick, null));
+            Util.click(driver, Util.toElement(driver, submitClick, null), false);
           }
           Util.driverSleepLong();
           Util.handleNewWindows(driver, windowHandle, cleanupWindows);
@@ -356,9 +356,9 @@ public class QueryKeyword {
       if (!CommonUtil.isEmpty(context.site)) {
         Util.get(driver, context.site, true, cleanupWindows);
       }
-      Util.doClicks(driver, context.preAuthClicks, null);
+      Util.doClicks(driver, context.preAuthClicks, null, false);
       QueryCommon.doAuth(driver, context.credentials);
-      Util.doClicks(driver, context.preSearchClicks, null);
+      Util.doClicks(driver, context.preSearchClicks, null, false);
       if (!CommonUtil.isEmpty(context.keywords)) {
         List<WebElement> searchBoxes = findSearchBox(driver, true);
         String searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
@@ -383,7 +383,7 @@ public class QueryKeyword {
           }
         }
       }
-      Util.doClicks(driver, context.postSearchClicks, null);
+      Util.doClicks(driver, context.postSearchClicks, null, false);
     } catch (Retry r) {
       throw r;
     } catch (Fatal f) {

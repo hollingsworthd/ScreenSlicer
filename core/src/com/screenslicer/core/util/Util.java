@@ -222,11 +222,7 @@ public class Util {
             if (urlNode != null) {
               try {
                 Set<String> origHandles = driver.getWindowHandles();
-                if (toNewWindow) {
-                  Util.clickToNewWindow(driver, toElement(driver, urlNode));
-                } else {
-                  Util.click(driver, toElement(driver, urlNode));
-                }
+                Util.click(driver, toElement(driver, urlNode), toNewWindow);
                 Set<String> newHandles = driver.getWindowHandles();
                 switchTo = origHandle;
                 for (String newHandle : newHandles) {
@@ -1071,7 +1067,7 @@ public class Util {
         && CommonUtil.isEmpty(node.toString(), true));
   }
 
-  private static boolean click(BrowserDriver driver, WebElement toClick, boolean shift) {
+  public static boolean click(BrowserDriver driver, WebElement toClick, boolean shift) {
     try {
       Actions action = driver.actions();
       driver.executeScript("arguments[0].scrollIntoView(false)", toClick);
@@ -1108,15 +1104,7 @@ public class Util {
     return true;
   }
 
-  public static boolean click(BrowserDriver driver, WebElement toClick) {
-    return click(driver, toClick, false);
-  }
-
-  public static boolean clickToNewWindow(BrowserDriver driver, WebElement toClick) {
-    return click(driver, toClick, true);
-  }
-
-  public static boolean doClicks(BrowserDriver driver, HtmlNode[] controls, Element body) throws ActionFailed {
+  public static boolean doClicks(BrowserDriver driver, HtmlNode[] controls, Element body, Boolean toNewWindow) throws ActionFailed {
     boolean clicked = false;
     if (controls != null && controls.length > 0) {
       Log.debug("Doing clicks", WebApp.DEBUG);
@@ -1144,7 +1132,7 @@ public class Util {
         }
         if (element != null) {
           clicked = true;
-          click(driver, element);
+          click(driver, element, toNewWindow == null ? controls[i].newWindow : toNewWindow);
           if (controls[i].longRequest) {
             HttpStatus.status(driver, LONG_REQUEST_WAIT);
           }

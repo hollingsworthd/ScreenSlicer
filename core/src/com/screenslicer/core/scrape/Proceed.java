@@ -87,14 +87,14 @@ public class Proceed {
       String origTitle = driver.getTitle();
       String origUrl = driver.getCurrentUrl();
       if (!CommonUtil.isEmpty(proceedClicks)) {
-        Util.doClicks(driver, proceedClicks, body);
+        Util.doClicks(driver, proceedClicks, body, false);
         return null;
       } else {
         Context context = perform(body, pageNum, priorTextLabel);
         if (context != null && context.node != null) {
           WebElement element = Util.toElement(driver, context.node);
           if (element != null) {
-            boolean success = Util.click(driver, element);
+            boolean success = Util.click(driver, element, false);
             if (success) {
               Util.driverSleepLong();
               String newSource = driver.getPageSource();

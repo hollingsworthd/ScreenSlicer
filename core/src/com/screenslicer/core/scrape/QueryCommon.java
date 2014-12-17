@@ -137,7 +137,7 @@ public class QueryCommon {
       elementVal = element.getAttribute("value");
     }
     if (!validate || !text.equalsIgnoreCase(elementVal)) {
-      Util.click(driver, element);
+      Util.click(driver, element, false);
       if (validate) {
         element.clear();
         Util.driverSleepVeryShort();

@@ -324,7 +324,7 @@ public class Scrape {
   }
 
   private static class Downloaded {
-    byte[] content;
+    String content;
     String mimeType;
 
     public Downloaded() {
@@ -332,7 +332,7 @@ public class Scrape {
       Collection<File> list = FileUtils.listFiles(file, null, false);
       if (!list.isEmpty()) {
         try {
-          content = FileUtils.readFileToByteArray(list.iterator().next());
+          content = Base64.encodeBase64String(FileUtils.readFileToByteArray(list.iterator().next()));
           mimeType = new Tika().detect(content);
         } catch (Throwable t) {
           Log.exception(t);
@@ -499,7 +499,7 @@ public class Scrape {
               if (urlNode != null) {
                 newHandle = driver.getWindowHandle();
               }
-              Util.doClicks(driver, postFetchClicks, null);
+              Util.doClicks(driver, postFetchClicks, null, null);
               content = driver.getPageSource();
               if (CommonUtil.isEmpty(content)) {
                 cached = true;

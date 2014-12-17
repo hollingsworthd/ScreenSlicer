@@ -110,9 +110,9 @@ public final class Result {
    */
   public String pageText;
   /**
-   * Binary content of the page.
+   * Binary content of the page. A base-64 encoded byte array.
    */
-  public byte[] pageBinary;
+  public String pageBinary;
   /**
    * Mime-type of the binary content;
    */
