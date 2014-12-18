@@ -32,7 +32,6 @@ import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 
 import com.screenslicer.api.datatype.HtmlNode;
-import com.screenslicer.core.util.HtmlUtil;
 import com.screenslicer.core.util.NodeUtil;
 
 public class NodeCounter {
@@ -79,7 +78,7 @@ public class NodeCounter {
           if (!NodeUtil.isEmpty(node)) {
             count++;
             if (node.nodeName().equals("#text")) {
-              int curLen = HtmlUtil.trimmedLen(node.toString());
+              int curLen = NodeUtil.trimmedLen(node.toString());
               if (curLen > 0) {
                 fields++;
               }

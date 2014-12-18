@@ -32,7 +32,6 @@ import org.jsoup.nodes.Node;
 
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.core.scrape.neural.NeuralNetManager;
-import com.screenslicer.core.util.HtmlUtil;
 import com.screenslicer.core.util.NodeUtil;
 import com.screenslicer.core.util.StringUtil;
 
@@ -70,7 +69,7 @@ public class ComparableNode {
     String childName = null;
     boolean childrenSame = true;
     double avgChildLengthDouble = 0d;
-    int nodeStrLen = HtmlUtil.trimmedLen(node.toString());
+    int nodeStrLen = NodeUtil.trimmedLen(node.toString());
     DescriptiveStatistics statAnchorChars = new DescriptiveStatistics();
     DescriptiveStatistics statAnchors = new DescriptiveStatistics();
     DescriptiveStatistics statChars = new DescriptiveStatistics();
@@ -86,7 +85,7 @@ public class ComparableNode {
     for (Node child : separated) {
       if (!NodeUtil.isEmpty(child)) {
         children++;
-        int childStrLen = HtmlUtil.trimmedLen(child.toString());
+        int childStrLen = NodeUtil.trimmedLen(child.toString());
         avgChildLengthDouble += childStrLen;
         NodeCounter counter = new NodeCounter(child, matchResult, matchParent);
         if (NodeUtil.isItem(child, matchResult, matchParent)) {

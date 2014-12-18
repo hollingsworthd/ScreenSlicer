@@ -48,6 +48,7 @@ import com.screenslicer.core.util.NodeUtil;
 import com.screenslicer.core.util.StringUtil;
 
 public class Proceed {
+  private static String[] controls = new String[] { "a", "input", "button", "div", "li", "span", "footer" };
   private static Pattern controlLabels =
       Pattern
           .compile("\\b(?:next|older|下一页|التالية|suivant|weiter|अगला|avanti|次|следующая|siguiente)\\b", Pattern.UNICODE_CHARACTER_CLASS);
@@ -149,8 +150,8 @@ public class Proceed {
 
   private static Context textControl(Element body, boolean title, Pattern labelPatterns,
       Map<String, String> cache, String priorTextLabel, Context context) {
-    for (int i = 0; i < NodeUtil.control.length; i++) {
-      Context target = textControlHelper(body, labelPatterns, NodeUtil.control[i], title, cache, priorTextLabel);
+    for (int i = 0; i < controls.length; i++) {
+      Context target = textControlHelper(body, labelPatterns, controls[i], title, cache, priorTextLabel);
       if (target != null) {
         return target;
       }
@@ -190,9 +191,9 @@ public class Proceed {
         }
       }
     });
-    for (int i = 0; i < NodeUtil.control.length; i++) {
+    for (int i = 0; i < controls.length; i++) {
       for (Context context : textControls) {
-        if (context.node.nodeName().equals(NodeUtil.control[i])) {
+        if (context.node.nodeName().equals(controls[i])) {
           return context;
         }
       }
@@ -207,8 +208,8 @@ public class Proceed {
       try {
         Node target;
         target = nodeWithText(numberList.childNodes(), Integer.toString(pageNum), nodeCache);
-        for (int i = 0; i < NodeUtil.control.length; i++) {
-          Node child = getNode(target, NodeUtil.control[i]);
+        for (int i = 0; i < controls.length; i++) {
+          Node child = getNode(target, controls[i]);
           if (child != null) {
             Context context = new Context();
             context.node = child;

@@ -45,10 +45,6 @@ import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.type.ScrapeResult;
 
 public class NodeUtil {
-  public static String[] control = new String[] { "a", "input", "button", "div", "li", "span", "footer" };
-
-  public static final String[] parentHolder = new String[] { "ul", "ol", "div", "p", "span", "form", "td", "dl", "dd", "footer", "header", "section", "article", "blockquote", "main", "h1", "h2",
-      "h3", "h4", "h5", "h6" };
   private static final String[] blocks = new String[] { "address", "article", "aside", "audio", "blockquote", "canvas", "dd", "div", "dl", "fieldset", "figcaption", "figure", "footer", "form", "h1",
       "h2", "h3", "h4", "h5", "h6", "header", "hgroup", "hr", "noscript", "ol", "output", "p", "pre", "section", "table", "tr", "tfoot", "ul", "video" };
   private static final String[] proximityBlocks = new String[] { "address", "article", "aside", "audio", "blockquote", "canvas", "dd", "div", "dl", "fieldset", "figcaption", "figure", "footer",
@@ -60,8 +56,6 @@ public class NodeUtil {
       "code", "data", "datalist", "em", "embed", "figcaption", "figure", "font", "i", "img", "kbd", "label", "link", "map", "mark", "marquee", "meta", "meter", "nobr",
       "noframes", "noscript", "output", "param", "plaintext", "pre", "q", "rp", "rt", "ruby", "s", "samp", "script", "small", "source", "spacer", "span", "strike", "strong", "style", "sub",
       "summary", "sup", "template", "#text", "time", "var", "video", "wbr" };
-  private static final String[] unbound = new String[] { "p", "dt", "dd", "tr", "table", "h1", "h2", "h3", "h4", "h5", "h6" };
-
   private static final String NODE_MARKER = "fftheme_";
   private static final Pattern nodeMarker = Pattern.compile(NODE_MARKER + "\\d+");
   private static final String HIDDEN_MARKER = "xmoztheme";
@@ -87,15 +81,6 @@ public class NodeUtil {
   public static boolean isProximityBlock(String name) {
     for (int i = 0; i < proximityBlocks.length; i++) {
       if (name.equalsIgnoreCase(proximityBlocks[i])) {
-        return true;
-      }
-    }
-    return false;
-  }
-
-  public static boolean isUnbound(String name) {
-    for (int i = 0; i < unbound.length; i++) {
-      if (name.equalsIgnoreCase(unbound[i])) {
         return true;
       }
     }
@@ -159,7 +144,7 @@ public class NodeUtil {
     return node.attr("class").indexOf(HIDDEN_MARKER) > -1;
   }
 
-  public static boolean isFiltered(Node node) {
+  private static boolean isFiltered(Node node) {
     return node.attr("class").indexOf(FILTERED_MARKER) > -1;
   }
 
@@ -184,17 +169,8 @@ public class NodeUtil {
         && CommonUtil.isEmpty(node.toString(), true));
   }
 
-  public static int nearestBlock(Node node) {
-    int nearest = 0;
-    Node parent = node.parent();
-    while (parent != null) {
-      ++nearest;
-      if (NodeUtil.isProximityBlock(parent.nodeName())) {
-        return nearest;
-      }
-      parent = parent.parent();
-    }
-    return Integer.MAX_VALUE;
+  public static boolean isResultFiltered(Result result, String[] whitelist, String[] patterns, HtmlNode[] urlNodes) {
+    return UrlUtil.isUrlFiltered(null, result.url, CommonUtil.parseFragment(result.urlNode, false), whitelist, patterns, urlNodes, null);
   }
 
   public static boolean overlaps(List<Node> nodes, List<Node> targets) {
@@ -232,7 +208,7 @@ public class NodeUtil {
     return false;
   }
 
-  public static boolean matches(HtmlNode reference, Node test) {
+  static boolean matches(HtmlNode reference, Node test) {
     if (test == null) {
       return false;
     }
@@ -283,6 +259,38 @@ public class NodeUtil {
     return false;
   }
 
+  public static int nearestBlock(Node node) {
+    int nearest = 0;
+    Node parent = node.parent();
+    while (parent != null) {
+      ++nearest;
+      if (NodeUtil.isProximityBlock(parent.nodeName())) {
+        return nearest;
+      }
+      parent = parent.parent();
+    }
+    return Integer.MAX_VALUE;
+  }
+
+  public static int trimmedLen(String str) {
+    if (str.isEmpty()) {
+      return 0;
+    }
+    int count = 0;
+    boolean prevWhitespace = false;
+    str = str.replaceAll("&nbsp;", " ").replaceAll("&amp;nbsp;", " ").trim();
+    for (int i = 0; i < str.length(); i++) {
+      if (!Character.isWhitespace(str.charAt(i))) {
+        ++count;
+        prevWhitespace = false;
+      } else if (!prevWhitespace) {
+        ++count;
+        prevWhitespace = true;
+      }
+    }
+    return count;
+  }
+
   public static void trimLargeResults(List<ScrapeResult> results) {
     int[] stringLengths = new int[results.size()];
     for (int i = 0; i < results.size(); i++) {
@@ -297,10 +305,6 @@ public class NodeUtil {
       stringLengths[i] = NodeUtil.outerHtml(nodes.get(i)).length();
     }
     StringUtil.trimLargeItems(stringLengths, nodes);
-  }
-
-  public static boolean isResultFiltered(Result result, String[] whitelist, String[] patterns, HtmlNode[] urlNodes) {
-    return UrlUtil.isUrlFiltered(null, result.url, CommonUtil.parseFragment(result.urlNode, false), whitelist, patterns, urlNodes, null);
   }
 
   public static Element markTestElement(Element element) {
@@ -328,7 +332,7 @@ public class NodeUtil {
     return element;
   }
 
-  public static void markFiltered(Node node, final boolean lenient) {
+  static void markFiltered(Node node, final boolean lenient) {
     if (lenient) {
       if (!isFilteredLenient(node)) {
         node.attr("class", node.attr("class") + " " + FILTERED_LENIENT_MARKER + " ");
@@ -348,7 +352,7 @@ public class NodeUtil {
     }
   }
 
-  public static void markVisible(Node node) {
+  static void markVisible(Node node) {
     if (node != null) {
       if (node.nodeName().equals("select")) {
         node.traverse(new NodeVisitor() {
@@ -393,7 +397,7 @@ public class NodeUtil {
     return html;
   }
 
-  public static String classId(Node node) {
+  static String classId(Node node) {
     if (node != null) {
       String className = node.attr("class");
       if (!CommonUtil.isEmpty(className)) {
@@ -404,29 +408,6 @@ public class NodeUtil {
       }
     }
     return null;
-  }
-
-  public static Node fromCopy(final Node node, final Node parentCopy) {
-    final String classId = classId(node);
-    if (CommonUtil.isEmpty(classId)) {
-      return null;
-    }
-    class MyVisitor implements NodeVisitor {
-      Node found = null;
-
-      @Override
-      public void tail(Node n, int d) {}
-
-      @Override
-      public void head(Node n, int d) {
-        if (classId.equals(classId(n))) {
-          found = n;
-        }
-      }
-    }
-    MyVisitor visitor = new MyVisitor();
-    parentCopy.traverse(visitor);
-    return visitor.found;
   }
 
   public static void clean(List<Node> nodes) {
@@ -441,7 +422,7 @@ public class NodeUtil {
     return doc;
   }
 
-  public static void clean(Node node) {
+  private static void clean(Node node) {
     node.traverse(new NodeVisitor() {
       @Override
       public void tail(Node node, int depth) {}
@@ -467,5 +448,4 @@ public class NodeUtil {
                     classStr).replaceAll("")).replaceAll("")).replaceAll("")).replaceAll("")
         .replaceAll("\\s+", " ").trim();
   }
-
 }

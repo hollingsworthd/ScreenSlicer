@@ -77,7 +77,7 @@ public class UrlUtil {
     return true;
   }
 
-  public static boolean isUrlFiltered(String currentUrl, String url, Node urlNode, String[] whitelist,
+  static boolean isUrlFiltered(String currentUrl, String url, Node urlNode, String[] whitelist,
       String[] patterns, HtmlNode[] urlNodes, UrlTransform[] transforms) {
     if (!isUrlFilteredHelper(currentUrl, url, urlNode, whitelist, patterns, urlNodes, transforms)) {
       return false;
@@ -116,7 +116,7 @@ public class UrlUtil {
     return results;
   }
 
-  public static String transformUrl(String url, UrlTransform[] urlTransforms, boolean forExport) {
+  private static String transformUrl(String url, UrlTransform[] urlTransforms, boolean forExport) {
     List<String> urls = new ArrayList<String>();
     urls.add(url);
     return transformUrlStrings(urls, urlTransforms, forExport).get(0);
@@ -137,7 +137,7 @@ public class UrlUtil {
     return results;
   }
 
-  public static List<String> transformUrlStrings(List<String> urls, UrlTransform[] urlTransforms, boolean forExport) {
+  private static List<String> transformUrlStrings(List<String> urls, UrlTransform[] urlTransforms, boolean forExport) {
     List<String> newUrls = new ArrayList<String>();
     if (urlTransforms != null && urlTransforms.length != 0 && urls != null) {
       for (String url : urls) {
@@ -180,7 +180,7 @@ public class UrlUtil {
     return newUrls;
   }
 
-  public static List<String> fixUrlStrings(List<String> urls, String currentUrl) {
+  private static List<String> fixUrlStrings(List<String> urls, String currentUrl) {
     if (urls == null) {
       return null;
     }
@@ -237,12 +237,12 @@ public class UrlUtil {
     return newUrls;
   }
 
-  public static String toCleanUrl(String fullUrl, String href) {
+  private static String toCleanUrl(String fullUrl, String href) {
     String clean = toCanonicalUri(fullUrl, href);
     return clean.startsWith("//") ? (fullUrl.startsWith("https:") ? "https:" + clean : "http:" + clean) : clean;
   }
 
-  public static String toCanonicalUri(String fullUrl, String href) {
+  static String toCanonicalUri(String fullUrl, String href) {
     if (href.startsWith("/") && !href.startsWith("//")) {
       return getUriBase(fullUrl, false) + href;
     }
