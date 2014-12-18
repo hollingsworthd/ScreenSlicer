@@ -47,7 +47,7 @@ import com.joestelmach.natty.DateGroup;
 import com.joestelmach.natty.Parser;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.NodeUtil;
 
 public class ScrapeResult {
   static {
@@ -451,8 +451,8 @@ public class ScrapeResult {
         curCompare += cleanTitle.length() <= urlTitle.length() / 2 ? -2
             : cleanTitle.length() > urlTitle.length() * 2 ? 2 : 0;
         curCompare += cleanHref.contains("#") && !url.contains("#") ? -2 : !cleanHref.contains("#") && url.contains("#") ? 2 : 0;
-        int nearestBlock = Util.nearestBlock(node);
-        int existingBlock = Util.nearestBlock(urlNodes.get(url));
+        int nearestBlock = NodeUtil.nearestBlock(node);
+        int existingBlock = NodeUtil.nearestBlock(urlNodes.get(url));
         curCompare += nearestBlock > existingBlock ? -2
             : nearestBlock == existingBlock ? 0 : 2;
       }

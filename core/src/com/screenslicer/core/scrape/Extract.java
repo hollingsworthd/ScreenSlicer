@@ -40,7 +40,7 @@ import org.jsoup.select.NodeVisitor;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.core.scrape.neural.NeuralNetManager;
 import com.screenslicer.core.scrape.type.ComparableNode;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.NodeUtil;
 
 public class Extract {
   private static final int SCORE_PENALTY = 10000;
@@ -318,12 +318,12 @@ public class Extract {
         public void head(Node node, int depth) {
           int nonEmptyChildren = 0;
           for (Node child : node.childNodes()) {
-            if (!Util.isEmpty(child)) {
+            if (!NodeUtil.isEmpty(child)) {
               nonEmptyChildren++;
             }
           }
-          if (!Util.isEmpty(node)
-              && Util.isContent(node, matchResult, matchParent) && nonEmptyChildren > 0) {
+          if (!NodeUtil.isEmpty(node)
+              && NodeUtil.isContent(node, matchResult, matchParent) && nonEmptyChildren > 0) {
             nodes.put(node, new ComparableNode(node, matchResult, matchParent));
           }
         }

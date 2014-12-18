@@ -37,7 +37,7 @@ import org.openqa.selenium.remote.BrowserDriver.Retry;
 import com.screenslicer.api.datatype.Credentials;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.BrowserUtil;
 
 public class QueryCommon {
 
@@ -137,21 +137,21 @@ public class QueryCommon {
       elementVal = element.getAttribute("value");
     }
     if (!validate || !text.equalsIgnoreCase(elementVal)) {
-      Util.click(driver, element, false);
+      BrowserUtil.click(driver, element, false);
       if (validate) {
         element.clear();
-        Util.driverSleepVeryShort();
+        BrowserUtil.driverSleepVeryShort();
       }
       if (!validate || !CommonUtil.isEmpty(element.getAttribute("value"))) {
         element.sendKeys(QueryForm.delete);
-        Util.driverSleepVeryShort();
+        BrowserUtil.driverSleepVeryShort();
       }
       element.sendKeys(text);
       driver.getKeyboard().sendKeys("\t");
-      Util.driverSleepVeryShort();
+      BrowserUtil.driverSleepVeryShort();
       if (newline) {
         element.sendKeys("\n");
-        Util.driverSleepLong();
+        BrowserUtil.driverSleepLong();
       }
       return true;
     }

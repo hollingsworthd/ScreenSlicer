@@ -41,7 +41,7 @@ import com.screenslicer.api.request.KeywordQuery;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.BrowserUtil;
 
 public class QueryKeyword {
   private static final int MIN_IFRAME_AREA = 40000;
@@ -123,12 +123,12 @@ public class QueryKeyword {
     try {
       String oldHandle = driver.getWindowHandle();
       Actions action = driver.actions();
-      Util.click(driver, element, false);
+      BrowserUtil.click(driver, element, false);
       action.moveByOffset(-MOUSE_MOVE_OFFSET, -MOUSE_MOVE_OFFSET).perform();
       action.moveToElement(element).perform();
       action.moveByOffset(2, 2).perform();
-      Util.driverSleepShort();
-      Util.handleNewWindows(driver, oldHandle, cleanupWindows);
+      BrowserUtil.driverSleepShort();
+      BrowserUtil.handleNewWindows(driver, oldHandle, cleanupWindows);
     } catch (Retry r) {
       throw r;
     } catch (Fatal f) {
@@ -205,15 +205,15 @@ public class QueryKeyword {
     try {
       for (WebElement element : searchBoxes) {
         try {
-          Util.click(driver, element, false);
+          BrowserUtil.click(driver, element, false);
           element.clear();
-          Util.driverSleepVeryShort();
+          BrowserUtil.driverSleepVeryShort();
           if (!CommonUtil.isEmpty(element.getAttribute("value"))) {
             element.sendKeys(delete);
-            Util.driverSleepVeryShort();
+            BrowserUtil.driverSleepVeryShort();
           }
           element.sendKeys(searchQuery);
-          Util.driverSleepVeryShort();
+          BrowserUtil.driverSleepVeryShort();
           String beforeSource = driver.getPageSource();
           String beforeTitle = driver.getTitle();
           String beforeUrl = driver.getCurrentUrl();
@@ -221,10 +221,10 @@ public class QueryKeyword {
           if (submitClick == null) {
             element.sendKeys("\n");
           } else {
-            Util.click(driver, Util.toElement(driver, submitClick, null), false);
+            BrowserUtil.click(driver, BrowserUtil.toElement(driver, submitClick, null), false);
           }
-          Util.driverSleepLong();
-          Util.handleNewWindows(driver, windowHandle, cleanupWindows);
+          BrowserUtil.driverSleepLong();
+          BrowserUtil.handleNewWindows(driver, windowHandle, cleanupWindows);
           String afterSource = driver.getPageSource();
           String afterTitle = driver.getTitle();
           String afterUrl = driver.getCurrentUrl();
@@ -276,7 +276,7 @@ public class QueryKeyword {
               try {
                 origHandle = driver.getWindowHandle();
                 origUrl = driver.getCurrentUrl();
-                newHandle = Util.newWindow(driver, cleanupWindows);
+                newHandle = BrowserUtil.newWindow(driver, cleanupWindows);
               } catch (Retry r) {
                 throw r;
               } catch (Fatal f) {
@@ -286,9 +286,9 @@ public class QueryKeyword {
               }
               boolean undo = false;
               try {
-                Util.get(driver, src, true, cleanupWindows);
+                BrowserUtil.get(driver, src, true, cleanupWindows);
                 driver.executeScript("document.getElementsByTagName('html')[0].style.overflow='scroll';");
-                Util.driverSleepShort();
+                BrowserUtil.driverSleepShort();
                 if (driver.findElementByTagName("body").getText().length() < MIN_SOURCE_DIFF) {
                   undo = true;
                 }
@@ -318,10 +318,10 @@ public class QueryKeyword {
                       driver.get(origUrl);
                     }
                   } else {
-                    Util.handleNewWindows(driver, origHandle, cleanupWindows);
+                    BrowserUtil.handleNewWindows(driver, origHandle, cleanupWindows);
                   }
                 } else {
-                  Util.handleNewWindows(driver, newHandle, cleanupWindows);
+                  BrowserUtil.handleNewWindows(driver, newHandle, cleanupWindows);
                   break;
                 }
               } catch (Retry r) {
@@ -354,11 +354,11 @@ public class QueryKeyword {
   public static void perform(BrowserDriver driver, KeywordQuery context, boolean cleanupWindows) throws ActionFailed {
     try {
       if (!CommonUtil.isEmpty(context.site)) {
-        Util.get(driver, context.site, true, cleanupWindows);
+        BrowserUtil.get(driver, context.site, true, cleanupWindows);
       }
-      Util.doClicks(driver, context.preAuthClicks, null, false);
+      BrowserUtil.doClicks(driver, context.preAuthClicks, null, false);
       QueryCommon.doAuth(driver, context.credentials);
-      Util.doClicks(driver, context.preSearchClicks, null, false);
+      BrowserUtil.doClicks(driver, context.preSearchClicks, null, false);
       if (!CommonUtil.isEmpty(context.keywords)) {
         List<WebElement> searchBoxes = findSearchBox(driver, true);
         String searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
@@ -383,7 +383,7 @@ public class QueryKeyword {
           }
         }
       }
-      Util.doClicks(driver, context.postSearchClicks, null, false);
+      BrowserUtil.doClicks(driver, context.postSearchClicks, null, false);
     } catch (Retry r) {
       throw r;
     } catch (Fatal f) {

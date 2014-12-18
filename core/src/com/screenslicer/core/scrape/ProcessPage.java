@@ -48,7 +48,9 @@ import com.screenslicer.core.scrape.type.ScrapeResult;
 import com.screenslicer.core.scrape.type.ScrapeResults;
 import com.screenslicer.core.scrape.type.ScrapeResults.Leniency;
 import com.screenslicer.core.scrape.type.SearchResults;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.BrowserUtil;
+import com.screenslicer.core.util.NodeUtil;
+import com.screenslicer.core.util.UrlUtil;
 import com.screenslicer.webapp.WebApp;
 
 public class ProcessPage {
@@ -62,7 +64,7 @@ public class ProcessPage {
 
       @Override
       public void head(Node node, int d) {
-        if (Util.isHidden(node)) {
+        if (NodeUtil.isHidden(node)) {
           toRemove.add(node);
         }
       }
@@ -89,7 +91,7 @@ public class ProcessPage {
 
   public static SearchResults perform(BrowserDriver driver, int page, Query query) throws ActionFailed {
     try {
-      Element element = Util.openElement(driver,
+      Element element = BrowserUtil.openElement(driver,
           query.proactiveUrlFiltering ? query.urlWhitelist : null,
           query.proactiveUrlFiltering ? query.urlPatterns : null,
           query.proactiveUrlFiltering ? query.urlMatchNodes : null,
@@ -109,12 +111,12 @@ public class ProcessPage {
       for (ScrapeResult result : results) {
         Result r = new Result();
         r.urlNode = result.urlNode().outerHtml();
-        Util.clean(result.getNodes());
+        NodeUtil.clean(result.getNodes());
         r.url = result.url();
         r.title = result.title();
         r.date = result.date();
         r.summary = result.summary();
-        r.html = Util.outerHtml(result.getNodes());
+        r.html = NodeUtil.outerHtml(result.getNodes());
         searchResults.add(r);
       }
       return SearchResults.newInstance(true, searchResults, driver.getWindowHandle(), page, query);
@@ -154,11 +156,11 @@ public class ProcessPage {
       int untrimmedScore = untrimmed.fieldScore(true, false);
       if (untrimmedScore > (int) Math.rint(((double) trimmedScore) * 1.05d)) {
         Log.debug("Un-trimmed selected.", WebApp.DEBUG);
-        return Util.fixUrls(untrimmed.results(), currentUrl);
+        return UrlUtil.fixUrls(untrimmed.results(), currentUrl);
       }
     }
     Log.debug("Trimmed selected.", WebApp.DEBUG);
-    return Util.fixUrls(results.results(), currentUrl);
+    return UrlUtil.fixUrls(results.results(), currentUrl);
   }
 
   private static ScrapeResults perform(Element body, int page,

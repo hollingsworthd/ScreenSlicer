@@ -37,7 +37,7 @@ import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 
 import com.screenslicer.common.CommonUtil;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.NodeUtil;
 
 import edu.emory.mathcs.backport.java.util.Arrays;
 
@@ -53,7 +53,7 @@ public class Backfill {
       Collection<String> classAttrs = new HashSet<String>();
       for (Node node : results) {
         String curNodeName = node.nodeName();
-        String curClassName = Util.cleanClass(node.attr("class"));
+        String curClassName = NodeUtil.cleanClass(node.attr("class"));
         if (!classAttrs.contains(curClassName)) {
           classAttrs.add(curClassName);
         }
@@ -86,7 +86,7 @@ public class Backfill {
           if (!CommonUtil.isEmpty(className)) {
             Elements elements = body.getElementsByAttributeValueContaining("class", className);
             for (Element element : elements) {
-              String foundClass = Util.cleanClass(element.attr("class"));
+              String foundClass = NodeUtil.cleanClass(element.attr("class"));
               if (element.nodeName().equalsIgnoreCase(nodeName)
                   && foundClass.contains(className)) {
                 if ((matching.contains(element))
@@ -134,13 +134,13 @@ public class Backfill {
   }
 
   private static List<Node> reorder(Element body, Collection<Node> nodes) {
-    final String bodyStr = Util.outerHtml(body).replaceAll("\\s", "");
+    final String bodyStr = NodeUtil.outerHtml(body).replaceAll("\\s", "");
     Map<Integer, Node> map = new HashMap<Integer, Node>();
     int[] indices = new int[nodes.size()];
     List<Node> extras = new ArrayList<Node>();
     int cur = 0;
     for (Node node : nodes) {
-      final String nodeStr = Util.outerHtml(node).replaceAll("\\s", "");
+      final String nodeStr = NodeUtil.outerHtml(node).replaceAll("\\s", "");
       int i = bodyStr.indexOf(nodeStr);
       if (map.containsKey(i)) {
         extras.add(node);

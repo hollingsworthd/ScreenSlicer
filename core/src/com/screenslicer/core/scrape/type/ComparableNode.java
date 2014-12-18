@@ -32,7 +32,9 @@ import org.jsoup.nodes.Node;
 
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.core.scrape.neural.NeuralNetManager;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.HtmlUtil;
+import com.screenslicer.core.util.NodeUtil;
+import com.screenslicer.core.util.StringUtil;
 
 public class ComparableNode {
   private static final int RESULT_GROUP_SMALL = 5;
@@ -68,7 +70,7 @@ public class ComparableNode {
     String childName = null;
     boolean childrenSame = true;
     double avgChildLengthDouble = 0d;
-    int nodeStrLen = Util.trimmedLen(node.toString());
+    int nodeStrLen = HtmlUtil.trimmedLen(node.toString());
     DescriptiveStatistics statAnchorChars = new DescriptiveStatistics();
     DescriptiveStatistics statAnchors = new DescriptiveStatistics();
     DescriptiveStatistics statChars = new DescriptiveStatistics();
@@ -82,12 +84,12 @@ public class ComparableNode {
     DescriptiveStatistics statItemChars = new DescriptiveStatistics();
     DescriptiveStatistics statItemAnchorChars = new DescriptiveStatistics();
     for (Node child : separated) {
-      if (!Util.isEmpty(child)) {
+      if (!NodeUtil.isEmpty(child)) {
         children++;
-        int childStrLen = Util.trimmedLen(child.toString());
+        int childStrLen = HtmlUtil.trimmedLen(child.toString());
         avgChildLengthDouble += childStrLen;
         NodeCounter counter = new NodeCounter(child, matchResult, matchParent);
-        if (Util.isItem(child, matchResult, matchParent)) {
+        if (NodeUtil.isItem(child, matchResult, matchParent)) {
           ++childItems;
           anchorChildItems += counter.anchors() > 0 ? 1 : 0;
           textChildItems += counter.fields() > 0 ? 1 : 0;
@@ -97,16 +99,16 @@ public class ComparableNode {
           statItemChars.addValue(counter.chars());
           statItemAnchorChars.addValue(counter.anchorChars());
         }
-        if (Util.isBlock(child.nodeName())) {
+        if (NodeUtil.isBlock(child.nodeName())) {
           ++childBlocks;
         }
-        if (Util.isDecoration(child.nodeName())) {
+        if (NodeUtil.isDecoration(child.nodeName())) {
           ++childDecoration;
         }
-        if (Util.isFormatting(child.nodeName())) {
+        if (NodeUtil.isFormatting(child.nodeName())) {
           ++childFormatting;
         }
-        if (Util.isContent(child, matchResult, matchParent)) {
+        if (NodeUtil.isContent(child, matchResult, matchParent)) {
           ++childContent;
         }
 
@@ -126,11 +128,11 @@ public class ComparableNode {
         statStrLen.addValue(childStrLen);
 
         List<String> curChildTags = counter.tags();
-        allChildTags = Util.join(allChildTags, curChildTags);
+        allChildTags = StringUtil.join(allChildTags, curChildTags);
         childTags.add(curChildTags);
         if (firstChildTags == null) {
           firstChildTags = curChildTags;
-        } else if (childrenConsistent && !Util.isSame(firstChildTags, curChildTags)) {
+        } else if (childrenConsistent && !StringUtil.isSame(firstChildTags, curChildTags)) {
           childrenConsistent = false;
         }
 
@@ -140,7 +142,7 @@ public class ComparableNode {
           childrenSame = false;
         }
 
-        if (!Util.contains(counter.orderedTags(), orderedTags)) {
+        if (!StringUtil.contains(counter.orderedTags(), orderedTags)) {
           orderedTags.add(counter.orderedTags());
         }
       }
@@ -160,7 +162,7 @@ public class ComparableNode {
     NodeCounter counter = new NodeCounter(separated, matchResult, matchParent);
     int siblings = 0;
     for (Node sibling : node.parent().childNodes()) {
-      if (!Util.isEmpty(sibling)) {
+      if (!NodeUtil.isEmpty(sibling)) {
         siblings++;
       }
     }

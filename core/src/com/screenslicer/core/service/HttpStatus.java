@@ -39,7 +39,8 @@ import org.openqa.selenium.remote.BrowserDriver;
 
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.BrowserUtil;
+import com.screenslicer.core.util.NodeUtil;
 import com.screenslicer.webapp.WebApp;
 import com.screenslicer.webapp.WebResource;
 
@@ -64,7 +65,7 @@ public class HttpStatus implements WebResource {
       if (driver == null) {
         element = CommonUtil.parse(src, null, false);
       } else {
-        element = Util.openElement(driver, null, null, null, null);
+        element = BrowserUtil.openElement(driver, null, null, null, null);
       }
       if (element == null) {
         Log.debug("status - page element is null", WebApp.DEBUG);
@@ -76,7 +77,7 @@ public class HttpStatus implements WebResource {
 
         @Override
         public void head(Node n, int d) {
-          if (!content[0] && !Util.isEmpty(n)) {
+          if (!content[0] && !NodeUtil.isEmpty(n)) {
             content[0] = true;
           }
         }
@@ -144,7 +145,7 @@ public class HttpStatus implements WebResource {
         } catch (Throwable t) {
           Log.exception(t);
         }
-        Util.driverSleepVeryShort();
+        BrowserUtil.driverSleepVeryShort();
         if (hasContent(driver, src)) {
           synchronized (lock) {
             status = 200;

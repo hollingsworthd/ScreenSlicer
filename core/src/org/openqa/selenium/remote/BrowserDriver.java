@@ -70,7 +70,7 @@ import org.openqa.selenium.internal.WrapsDriver;
 
 import com.google.common.io.Resources;
 import com.screenslicer.common.Log;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.BrowserUtil;
 
 public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
     FindsByClassName, FindsByLinkText, FindsByName, FindsByCssSelector, FindsByTagName,
@@ -188,7 +188,7 @@ public class BrowserDriver implements WebDriver, JavascriptExecutor, FindsById,
   public void reset() {
     firefoxDriver.kill();
     firefoxDriver = new FirefoxDriver(profile);
-    Util.driverSleepReset();
+    BrowserUtil.driverSleepReset();
     synchronized (lock) {
       int numWindows = windowTranslator.size();
       String[] curWindows = firefoxDriver.getWindowHandles().toArray(new String[0]);

@@ -32,7 +32,8 @@ import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 
 import com.screenslicer.api.datatype.HtmlNode;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.HtmlUtil;
+import com.screenslicer.core.util.NodeUtil;
 
 public class NodeCounter {
   private int count = 0;
@@ -75,10 +76,10 @@ public class NodeCounter {
 
         @Override
         public void head(Node node, int depth) {
-          if (!Util.isEmpty(node)) {
+          if (!NodeUtil.isEmpty(node)) {
             count++;
             if (node.nodeName().equals("#text")) {
-              int curLen = Util.trimmedLen(node.toString());
+              int curLen = HtmlUtil.trimmedLen(node.toString());
               if (curLen > 0) {
                 fields++;
               }
@@ -99,19 +100,19 @@ public class NodeCounter {
               anchors++;
               anchorLen += node.attr("abs:href").length();
             }
-            if (Util.isBlock(node.nodeName())) {
+            if (NodeUtil.isBlock(node.nodeName())) {
               blocks++;
             }
-            if (Util.isFormatting(node.nodeName())) {
+            if (NodeUtil.isFormatting(node.nodeName())) {
               formatting++;
             }
-            if (Util.isDecoration(node.nodeName())) {
+            if (NodeUtil.isDecoration(node.nodeName())) {
               decoration++;
             }
-            if (Util.isContent(node, matchResult, matchParent)) {
+            if (NodeUtil.isContent(node, matchResult, matchParent)) {
               content++;
             }
-            if (Util.isItem(node, matchResult, matchParent)) {
+            if (NodeUtil.isItem(node, matchResult, matchParent)) {
               items++;
             }
             if (!tags.contains(node.nodeName())) {

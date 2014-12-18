@@ -41,7 +41,8 @@ import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.Dissect.Visitor;
 import com.screenslicer.core.scrape.type.ScrapeResult;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.NodeUtil;
+import com.screenslicer.core.util.UrlUtil;
 
 public class Expand {
   private static final int MAX_CHILDREN = 7;
@@ -86,9 +87,9 @@ public class Expand {
           current = baseline;
         }
       }
-      Util.trimLargeNodes(current);
+      NodeUtil.trimLargeNodes(current);
       current = Backfill.perform(body, current);
-      Util.trimLargeNodes(current);
+      NodeUtil.trimLargeNodes(current);
       visitInit(requireResultAnchor, current,
           trimmed, visitors, lenientUrl, lenientTitle);
       List<Node> expanded = Expand.findAncestors(trimmed, 0, matchResult, matchParent);
@@ -113,7 +114,7 @@ public class Expand {
         results.add(visitor.result);
       }
     }
-    Util.trimLargeResults(results);
+    NodeUtil.trimLargeResults(results);
     return results;
   }
 
@@ -153,10 +154,10 @@ public class Expand {
           if (n.nodeName().equals("a")) {
             link = true;
           } else {
-            String urlFromAttr = Util.urlFromAttr(n);
+            String urlFromAttr = UrlUtil.urlFromAttr(n);
             if (Dissect.cssUrl.matcher(n.attr("class")).find()
                 || (lenientUrl && !CommonUtil.isEmpty(urlFromAttr))) {
-              if (lenientUrl && !CommonUtil.isEmpty(urlFromAttr) && !Util.isFilteredLenient(n)) {
+              if (lenientUrl && !CommonUtil.isEmpty(urlFromAttr) && !NodeUtil.isFilteredLenient(n)) {
                 link = true;
               }
             }
@@ -177,14 +178,14 @@ public class Expand {
       Node parent = node;
       while (parent != null
           && !topLevel.contains(parent)
-          && (!Util.isItem(parent, matchResult, matchParent) || parent.equals(node))) {
+          && (!NodeUtil.isItem(parent, matchResult, matchParent) || parent.equals(node))) {
         parent = parent.parent();
       }
-      if (parent != null && Util.isItem(parent, matchResult, matchParent)) {
+      if (parent != null && NodeUtil.isItem(parent, matchResult, matchParent)) {
         if (!parents.containsKey(parent)) {
           parents.put(parent, new ArrayList<Node>());
         }
-        if (Util.isItem(node, matchResult, matchParent)) {
+        if (NodeUtil.isItem(node, matchResult, matchParent)) {
           parents.get(parent).add(node);
         }
       }
@@ -203,7 +204,7 @@ public class Expand {
           if (!n.equals(thisNode) && parents.containsKey(n)) {
             toRemoveParents.add(thisNode);
             toRemoveChildren.add(n);
-          } else if (Util.isItem(n, matchResult, matchParent)) {
+          } else if (NodeUtil.isItem(n, matchResult, matchParent)) {
             toKeep.add(n);
           }
         }
@@ -253,7 +254,7 @@ public class Expand {
 
       @Override
       public void head(Node n, int d) {
-        if (Util.isBlock(n.nodeName())) {
+        if (NodeUtil.isBlock(n.nodeName())) {
           nodes.add(n);
           names.add(n.nodeName());
         }
@@ -287,10 +288,10 @@ public class Expand {
               if (n.nodeName().equals("a")) {
                 empty[0] = false;
               } else {
-                String urlFromAttr = Util.urlFromAttr(n);
+                String urlFromAttr = UrlUtil.urlFromAttr(n);
                 if (Dissect.cssUrl.matcher(n.attr("class")).find()
                     || (lenientUrl && !CommonUtil.isEmpty(urlFromAttr))) {
-                  if (lenientUrl && !CommonUtil.isEmpty(urlFromAttr) && !Util.isFilteredLenient(n)) {
+                  if (lenientUrl && !CommonUtil.isEmpty(urlFromAttr) && !NodeUtil.isFilteredLenient(n)) {
                     empty[0] = false;
                   }
                 }
@@ -368,7 +369,7 @@ public class Expand {
     boolean end = false;
     int contained = 0;
     for (Node node : nodes) {
-      if (node.parent() == null || !Util.isItem(node.parent(), matchResult, matchParent)) {
+      if (node.parent() == null || !NodeUtil.isItem(node.parent(), matchResult, matchParent)) {
         end = true;
         break;
       }
@@ -392,7 +393,7 @@ public class Expand {
           return expanded;
         }
         for (Node child : parent.childNodes()) {
-          if (!Util.isEmpty(child)) {
+          if (!NodeUtil.isEmpty(child)) {
             ++childNodes;
           }
         }

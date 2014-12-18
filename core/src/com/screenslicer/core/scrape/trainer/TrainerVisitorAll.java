@@ -40,7 +40,7 @@ import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.ProcessPage;
 import com.screenslicer.core.scrape.trainer.TrainerSimple.Visitor;
 import com.screenslicer.core.scrape.type.ScrapeResult;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.NodeUtil;
 
 public class TrainerVisitorAll implements Visitor {
   private final ArrayList<Element> elements = new ArrayList<Element>();
@@ -71,7 +71,7 @@ public class TrainerVisitorAll implements Visitor {
               } else {
                 nums.add(0, 10);
               }
-              elements.add(0, Util.markTestElement(DataUtil.load(file, "utf-8", "http://localhost").body()));
+              elements.add(0, NodeUtil.markTestElement(DataUtil.load(file, "utf-8", "http://localhost").body()));
               filenames.add(0, file.getName());
             } else if (!BUMP_ONLY) {
               File numFile = new File(file.getAbsolutePath() + "-num");
@@ -80,7 +80,7 @@ public class TrainerVisitorAll implements Visitor {
               } else {
                 nums.add(10);
               }
-              elements.add(Util.markTestElement(DataUtil.load(file, "utf-8", "http://localhost").body()));
+              elements.add(NodeUtil.markTestElement(DataUtil.load(file, "utf-8", "http://localhost").body()));
               filenames.add(file.getName());
             }
           } catch (IOException e) {
@@ -99,7 +99,7 @@ public class TrainerVisitorAll implements Visitor {
   @Override
   public int visit(int curTrainingData, int page) {
     CommonUtil.clearStripCache();
-    Util.clearOuterHtmlCache();
+    NodeUtil.clearOuterHtmlCache();
     List<ScrapeResult> processedResults = ProcessPage.perform(elements.get(curTrainingData), page, query);
     if (processedResults == null) {
       System.out.println(">>>>>>>>>>  error - " + names[curTrainingData]);

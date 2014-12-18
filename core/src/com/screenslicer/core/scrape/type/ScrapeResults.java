@@ -43,7 +43,8 @@ import com.screenslicer.core.nlp.NlpUtil;
 import com.screenslicer.core.scrape.Dissect;
 import com.screenslicer.core.scrape.Proceed;
 import com.screenslicer.core.scrape.Proceed.Context;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.NodeUtil;
+import com.screenslicer.core.util.StringUtil;
 import com.screenslicer.webapp.WebApp;
 
 public class ScrapeResults {
@@ -106,7 +107,7 @@ public class ScrapeResults {
       nodes = new ArrayList<Node>();
       extractNodeChildrenCache.put(nodeExtract, nodes);
       for (Node child : nodeExtract.childNodes()) {
-        if (!Util.isEmpty(child)) {
+        if (!NodeUtil.isEmpty(child)) {
           nodes.add(child);
         }
       }
@@ -184,7 +185,7 @@ public class ScrapeResults {
     List<Node> latest = new ArrayList<Node>();
     List<ScrapeResult> toRemove = new ArrayList<ScrapeResult>();
     for (ScrapeResult result : this.results) {
-      if (Util.overlaps(result.getNodes(), nextNodes)) {
+      if (NodeUtil.overlaps(result.getNodes(), nextNodes)) {
         toRemove.add(result);
       } else {
         latest.addAll(result.getNodes());
@@ -282,7 +283,7 @@ public class ScrapeResults {
           }
           int curMax = Math.min(titlesUnique[i].length(), titlesUnique[j].length());
           distMax += curMax;
-          dist += Math.min(curMax, Util.dist(titlesUnique[i], titlesUnique[j]));
+          dist += Math.min(curMax, StringUtil.dist(titlesUnique[i], titlesUnique[j]));
         }
       }
       String[] summariesUnique = summariesUniqueDict.toArray(new String[0]);
@@ -293,7 +294,7 @@ public class ScrapeResults {
           }
           int curMax = Math.min(summariesUnique[i].length(), summariesUnique[j].length());
           distMax += curMax;
-          dist += Math.min(curMax, Util.dist(summariesUnique[i], summariesUnique[j]));
+          dist += Math.min(curMax, StringUtil.dist(summariesUnique[i], summariesUnique[j]));
         }
       }
       double distRatio = 1d - ((1d - Math.min(1d, (double) dist / (double) distMax)) * 1d);

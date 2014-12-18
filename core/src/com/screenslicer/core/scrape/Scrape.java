@@ -62,7 +62,9 @@ import com.screenslicer.core.scrape.Proceed.End;
 import com.screenslicer.core.scrape.neural.NeuralNetManager;
 import com.screenslicer.core.scrape.type.SearchResults;
 import com.screenslicer.core.service.ScreenSlicerBatch;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.BrowserUtil;
+import com.screenslicer.core.util.NodeUtil;
+import com.screenslicer.core.util.UrlUtil;
 import com.screenslicer.webapp.WebApp;
 
 import de.l3s.boilerpipe.extractors.NumWordsRulesExtractor;
@@ -221,7 +223,7 @@ public class Scrape {
     try {
       if (driver != null) {
         driver.kill();
-        Util.driverSleepStartup();
+        BrowserUtil.driverSleepStartup();
       }
     } catch (Throwable t) {
       Log.exception(t);
@@ -354,12 +356,12 @@ public class Scrape {
       String origUrl = driver.getCurrentUrl();
       String newHandle = null;
       if (query.fetchCached) {
-        newHandle = Util.newWindow(driver, depth == 0);
+        newHandle = BrowserUtil.newWindow(driver, depth == 0);
       }
       try {
         for (int i = query.currentResult(); i < results.size(); i++) {
           if (query.requireResultAnchor && !isUrlValid(results.get(i).url)
-              && Util.uriScheme.matcher(results.get(i).url).matches()) {
+              && UrlUtil.uriScheme.matcher(results.get(i).url).matches()) {
             results.get(i).close();
             query.markResult(i + 1);
             continue;
@@ -407,7 +409,7 @@ public class Scrape {
               driver.switchTo().window(origHandle);
               driver.switchTo().defaultContent();
             } else if (!query.fetchInNewWindow) {
-              Util.get(driver, origUrl, true, depth == 0);
+              BrowserUtil.get(driver, origUrl, true, depth == 0);
               SearchResults.revalidate(driver, false);
             }
           } catch (Retry r) {
@@ -436,9 +438,9 @@ public class Scrape {
             if (query.fetchInNewWindow) {
               Log.exception(new Throwable("Failed opening new window"));
             }
-            Util.get(driver, origUrl, true, depth == 0);
+            BrowserUtil.get(driver, origUrl, true, depth == 0);
           } else {
-            Util.handleNewWindows(driver, origHandle, depth == 0);
+            BrowserUtil.handleNewWindows(driver, origHandle, depth == 0);
           }
         }
       }
@@ -453,7 +455,7 @@ public class Scrape {
       throw new ActionFailed(t);
     } finally {
       if (!terminate) {
-        Util.driverSleepRand(query.throttle);
+        BrowserUtil.driverSleepRand(query.throttle);
       }
     }
   }
@@ -483,7 +485,7 @@ public class Scrape {
             String content = null;
             if (!cached) {
               try {
-                Util.get(driver, url, urlNode, false, toNewWindow, init);
+                BrowserUtil.get(driver, url, urlNode, false, toNewWindow, init);
               } catch (Retry r) {
                 terminate = true;
                 throw r;
@@ -492,14 +494,14 @@ public class Scrape {
                 throw f;
               } catch (Throwable t) {
                 if (urlNode != null) {
-                  Util.newWindow(driver, init);
+                  BrowserUtil.newWindow(driver, init);
                 }
-                Util.get(driver, url, false, init);
+                BrowserUtil.get(driver, url, false, init);
               }
               if (urlNode != null) {
                 newHandle = driver.getWindowHandle();
               }
-              Util.doClicks(driver, postFetchClicks, null, null);
+              BrowserUtil.doClicks(driver, postFetchClicks, null, null);
               content = driver.getPageSource();
               if (CommonUtil.isEmpty(content)) {
                 cached = true;
@@ -510,7 +512,7 @@ public class Scrape {
                 return;
               }
               try {
-                Util.get(driver, toCacheUrl(url, false), false, init);
+                BrowserUtil.get(driver, toCacheUrl(url, false), false, init);
               } catch (Retry r) {
                 terminate = true;
                 throw r;
@@ -518,11 +520,11 @@ public class Scrape {
                 terminate = true;
                 throw f;
               } catch (Throwable t) {
-                Util.get(driver, toCacheUrl(url, true), false, init);
+                BrowserUtil.get(driver, toCacheUrl(url, true), false, init);
               }
               content = driver.getPageSource();
             }
-            content = Util.clean(content, driver.getCurrentUrl()).outerHtml();
+            content = NodeUtil.clean(content, driver.getCurrentUrl()).outerHtml();
             if (WebApp.DEBUG) {
               try {
                 FileUtils.writeStringToFile(new File("./" + System.currentTimeMillis() + ".log.fetch"), content, "utf-8");
@@ -568,10 +570,10 @@ public class Scrape {
               }
             }
             if (!terminate) {
-              Util.driverSleepRand(throttle);
+              BrowserUtil.driverSleepRand(throttle);
               if (init && newHandle != null && origHandle != null) {
                 try {
-                  Util.handleNewWindows(driver, origHandle, true);
+                  BrowserUtil.handleNewWindows(driver, origHandle, true);
                 } catch (Retry r) {
                   throw r;
                 } catch (Fatal f) {
@@ -654,7 +656,7 @@ public class Scrape {
       return SearchResults.newInstance(true);
     }
     SearchResults ret;
-    results = Util.transformUrls(results, urlTransforms, forExport);
+    results = UrlUtil.transformUrls(results, urlTransforms, forExport);
     if ((whitelist == null || whitelist.length == 0)
         && (patterns == null || patterns.length == 0)
         && (urlNodes == null || urlNodes.length == 0)) {
@@ -662,7 +664,7 @@ public class Scrape {
     } else {
       List<Result> filtered = new ArrayList<Result>();
       for (int i = 0; i < results.size(); i++) {
-        if (!Util.isResultFiltered(results.get(i), whitelist, patterns, urlNodes)) {
+        if (!NodeUtil.isResultFiltered(results.get(i), whitelist, patterns, urlNodes)) {
           filtered.add(results.get(i));
         }
       }
@@ -748,7 +750,7 @@ public class Scrape {
       }
       allResults.addPage(newResults);
     } else {
-      resultPages.add(Util.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
+      resultPages.add(NodeUtil.clean(driver.getPageSource(), driver.getCurrentUrl()).outerHtml());
     }
   }
 
@@ -789,7 +791,7 @@ public class Scrape {
   private static SearchResults scrape(Query query, Request req, int depth,
       boolean fallback, Map<String, Object> cache) {
     CommonUtil.clearStripCache();
-    Util.clearOuterHtmlCache();
+    NodeUtil.clearOuterHtmlCache();
     SearchResults results;
     SearchResults recResults;
     List<String> resultPages;
@@ -845,7 +847,7 @@ public class Scrape {
         if (page > 1) {
           if (!query.fetch) {
             try {
-              Util.driverSleepRand(query.throttle);
+              BrowserUtil.driverSleepRand(query.throttle);
             } catch (Throwable t) {
               Log.exception(t);
             }
@@ -920,7 +922,7 @@ public class Scrape {
     }
     restart(new Request());
     CommonUtil.clearStripCache();
-    Util.clearOuterHtmlCache();
+    NodeUtil.clearOuterHtmlCache();
     List<Result> results = new ArrayList<Result>();
     final KeywordQuery keywordQuery = new KeywordQuery();
     try {

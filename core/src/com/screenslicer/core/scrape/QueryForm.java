@@ -46,7 +46,7 @@ import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Crypto;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.BrowserUtil;
 import com.screenslicer.webapp.WebApp;
 
 import edu.emory.mathcs.backport.java.util.Collections;
@@ -86,7 +86,7 @@ public class QueryForm {
         try {
           if (!submits.isEmpty()) {
             if (submits.size() == 1) {
-              clicked = Util.click(driver, submits.get(0), false);
+              clicked = BrowserUtil.click(driver, submits.get(0), false);
             } else {
               String formHtml = CommonUtil.strip(driver.findElementById(formId).getAttribute("outerHTML"), false);
               int minIndex = Integer.MAX_VALUE;
@@ -108,7 +108,7 @@ public class QueryForm {
                 }
               }
               if (firstSubmit != null) {
-                clicked = Util.click(driver, firstSubmit, false);
+                clicked = BrowserUtil.click(driver, firstSubmit, false);
               }
             }
           }
@@ -123,9 +123,9 @@ public class QueryForm {
           driver.findElementById(formId).submit();
         }
       } else {
-        Util.click(driver, Util.toElement(driver, submitClick, null), false);
+        BrowserUtil.click(driver, BrowserUtil.toElement(driver, submitClick, null), false);
       }
-      Util.driverSleepLong();
+      BrowserUtil.driverSleepLong();
     } catch (Retry r) {
       throw r;
     } catch (Fatal f) {
@@ -138,11 +138,11 @@ public class QueryForm {
   public static void perform(BrowserDriver driver, FormQuery context, boolean cleanupWindows) throws ActionFailed {
     try {
       if (!CommonUtil.isEmpty(context.site)) {
-        Util.get(driver, context.site, true, cleanupWindows);
+        BrowserUtil.get(driver, context.site, true, cleanupWindows);
       }
-      Util.doClicks(driver, context.preAuthClicks, null, false);
+      BrowserUtil.doClicks(driver, context.preAuthClicks, null, false);
       QueryCommon.doAuth(driver, context.credentials);
-      Util.doClicks(driver, context.preSearchClicks, null, false);
+      BrowserUtil.doClicks(driver, context.preSearchClicks, null, false);
       Map<String, HtmlNode> formControls = new HashMap<String, HtmlNode>();
       for (int i = 0; i < context.formSchema.length; i++) {
         formControls.put(context.formSchema[i].guid, context.formSchema[i]);
@@ -151,7 +151,7 @@ public class QueryForm {
       boolean valueChanged = false;
       int count = 0;
       final int MAX_TRIES = 3;
-      Element body = Util.openElement(driver, null, null, null, null);
+      Element body = BrowserUtil.openElement(driver, null, null, null, null);
       if (formData != null) {
         do {
           ++count;
@@ -162,7 +162,7 @@ public class QueryForm {
               if (!CommonUtil.isEmpty(entry.getValue())) {
                 if ("select".equalsIgnoreCase(formControl.tagName)) {
                   Log.debug("Query Form: select", WebApp.DEBUG);
-                  Select select = new Select(Util.toElement(driver, formControl, body));
+                  Select select = new Select(BrowserUtil.toElement(driver, formControl, body));
                   if (select.isMultiple()) {
                     select.deselectAll();
                   }
@@ -185,20 +185,20 @@ public class QueryForm {
                     for (String val : entry.getValue()) {
                       valueChanged = true;
                       select.selectByValue(val);
-                      Util.driverSleepVeryShort();
+                      BrowserUtil.driverSleepVeryShort();
                     }
                   }
                 } else if ("input".equalsIgnoreCase(formControl.tagName)
                     && ("text".equalsIgnoreCase(formControl.type)
                     || "search".equalsIgnoreCase(formControl.type))) {
                   Log.debug("Query Form: input[text|search]", WebApp.DEBUG);
-                  WebElement element = Util.toElement(driver, formControl, body);
+                  WebElement element = BrowserUtil.toElement(driver, formControl, body);
                   valueChanged = QueryCommon.typeText(driver, element, entry.getValue().get(0), true, false);
                 } else if ("input".equalsIgnoreCase(formControl.tagName)
                     && ("checkbox".equalsIgnoreCase(formControl.type)
                     || "radio".equalsIgnoreCase(formControl.type))) {
                   Log.debug("Query Form: input[checkbox|radio]", WebApp.DEBUG);
-                  WebElement element = Util.toElement(driver, formControl, body);
+                  WebElement element = BrowserUtil.toElement(driver, formControl, body);
                   if (entry.getValue() != null && !entry.getValue().isEmpty()) {
                     if ("radio".equalsIgnoreCase(formControl.type)) {
                       String elementVal = element.getAttribute("value");
@@ -209,19 +209,19 @@ public class QueryForm {
                           && modelVal.equalsIgnoreCase(schemaVal)) {
                         if (!element.isSelected()) {
                           Log.debug("Clicking radio button", WebApp.DEBUG);
-                          valueChanged = Util.click(driver, element, false);
+                          valueChanged = BrowserUtil.click(driver, element, false);
                         }
                       }
                     } else if (!element.isSelected()) {
                       Log.debug("Clicking [checkbox|radio]", WebApp.DEBUG);
-                      valueChanged = Util.click(driver, element, false);
+                      valueChanged = BrowserUtil.click(driver, element, false);
                     }
                   } else {
                     if (element.isSelected()) {
                       Log.debug("Deselecting [checkbox|radio]", WebApp.DEBUG);
                       valueChanged = true;
                       element.clear();
-                      Util.driverSleepVeryShort();
+                      BrowserUtil.driverSleepVeryShort();
                     }
                   }
                 }
@@ -237,7 +237,7 @@ public class QueryForm {
         } while (valueChanged && count < MAX_TRIES);
         doSubmit(driver, context.formId, context.searchSubmitClick);
       }
-      Util.doClicks(driver, context.postSearchClicks, null, false);
+      BrowserUtil.doClicks(driver, context.postSearchClicks, null, false);
     } catch (Retry r) {
       throw r;
     } catch (Fatal f) {
@@ -249,10 +249,10 @@ public class QueryForm {
 
   public static List<HtmlNode> load(BrowserDriver driver, FormLoad context, boolean cleanupWindows) throws ActionFailed {
     try {
-      Util.get(driver, context.site, true, cleanupWindows);
-      Util.doClicks(driver, context.preAuthClicks, null, false);
+      BrowserUtil.get(driver, context.site, true, cleanupWindows);
+      BrowserUtil.doClicks(driver, context.preAuthClicks, null, false);
       QueryCommon.doAuth(driver, context.credentials);
-      Util.doClicks(driver, context.preSearchClicks, null, false);
+      BrowserUtil.doClicks(driver, context.preSearchClicks, null, false);
       WebElement form = driver.findElementById(context.formId);
       Map<HtmlNode, String> controlsHtml = new HashMap<HtmlNode, String>();
       String formHtml = CommonUtil.strip(form.getAttribute("outerHTML"), false);

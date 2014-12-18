@@ -43,7 +43,9 @@ import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.HtmlCoder;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.BrowserUtil;
+import com.screenslicer.core.util.NodeUtil;
+import com.screenslicer.core.util.StringUtil;
 
 public class Proceed {
   private static Pattern controlLabels =
@@ -75,28 +77,28 @@ public class Proceed {
     int dist = -1;
     if (reference != null) {
       referenceText = CommonUtil.strip(HtmlCoder.decode(text(reference)), false).replaceAll("\\s", "");
-      dist = Util.dist(nodeText, referenceText);
+      dist = StringUtil.dist(nodeText, referenceText);
     }
     return nodeText.length() < MAX_PRIMARY_LEN && dist < referenceText.length() / 2;
   }
 
   public static String perform(BrowserDriver driver, HtmlNode[] proceedClicks, int pageNum, String priorTextLabel) throws End, ActionFailed {
     try {
-      Element body = Util.openElement(driver, null, null, null, null);
+      Element body = BrowserUtil.openElement(driver, null, null, null, null);
       String origSrc = driver.getPageSource();
       String origTitle = driver.getTitle();
       String origUrl = driver.getCurrentUrl();
       if (!CommonUtil.isEmpty(proceedClicks)) {
-        Util.doClicks(driver, proceedClicks, body, false);
+        BrowserUtil.doClicks(driver, proceedClicks, body, false);
         return null;
       } else {
         Context context = perform(body, pageNum, priorTextLabel);
         if (context != null && context.node != null) {
-          WebElement element = Util.toElement(driver, context.node);
+          WebElement element = BrowserUtil.toElement(driver, context.node);
           if (element != null) {
-            boolean success = Util.click(driver, element, false);
+            boolean success = BrowserUtil.click(driver, element, false);
             if (success) {
-              Util.driverSleepLong();
+              BrowserUtil.driverSleepLong();
               String newSource = driver.getPageSource();
               String newTitle = driver.getTitle();
               String newUrl = driver.getCurrentUrl();
@@ -147,8 +149,8 @@ public class Proceed {
 
   private static Context textControl(Element body, boolean title, Pattern labelPatterns,
       Map<String, String> cache, String priorTextLabel, Context context) {
-    for (int i = 0; i < Util.control.length; i++) {
-      Context target = textControlHelper(body, labelPatterns, Util.control[i], title, cache, priorTextLabel);
+    for (int i = 0; i < NodeUtil.control.length; i++) {
+      Context target = textControlHelper(body, labelPatterns, NodeUtil.control[i], title, cache, priorTextLabel);
       if (target != null) {
         return target;
       }
@@ -166,7 +168,7 @@ public class Proceed {
 
       @Override
       public void head(Node node, int depth) {
-        if (node.nodeName().equals(controlName) && !Util.isEmpty(node, false)) {
+        if (node.nodeName().equals(controlName) && !NodeUtil.isEmpty(node, false)) {
           String nodeStr = title ? title(node) : text(node);
           String text;
           if (cache.containsKey(nodeStr)) {
@@ -188,9 +190,9 @@ public class Proceed {
         }
       }
     });
-    for (int i = 0; i < Util.control.length; i++) {
+    for (int i = 0; i < NodeUtil.control.length; i++) {
       for (Context context : textControls) {
-        if (context.node.nodeName().equals(Util.control[i])) {
+        if (context.node.nodeName().equals(NodeUtil.control[i])) {
           return context;
         }
       }
@@ -205,8 +207,8 @@ public class Proceed {
       try {
         Node target;
         target = nodeWithText(numberList.childNodes(), Integer.toString(pageNum), nodeCache);
-        for (int i = 0; i < Util.control.length; i++) {
-          Node child = getNode(target, Util.control[i]);
+        for (int i = 0; i < NodeUtil.control.length; i++) {
+          Node child = getNode(target, NodeUtil.control[i]);
           if (child != null) {
             Context context = new Context();
             context.node = child;
@@ -232,7 +234,7 @@ public class Proceed {
     int previousNum = -1;
     boolean first = true;
     for (Node child : node.childNodes()) {
-      if (!Util.isEmpty(child, false)) {
+      if (!NodeUtil.isEmpty(child, false)) {
         String nodeStr = null;
         if (nodeCache.containsKey(child)) {
           nodeStr = nodeCache.get(child);
@@ -272,7 +274,7 @@ public class Proceed {
 
         @Override
         public void head(Node node, int depth) {
-          if (!Util.isEmpty(node, false)) {
+          if (!NodeUtil.isEmpty(node, false)) {
             numberListHelper(node, numberLists, nodeCache, intCache);
           }
         }
@@ -298,7 +300,7 @@ public class Proceed {
 
         @Override
         public void head(Node n, int depth) {
-          if (!Util.isEmpty(n, false) && n.nodeName().equals(nodeName)) {
+          if (!NodeUtil.isEmpty(n, false) && n.nodeName().equals(nodeName)) {
             candidates.add(n);
           }
         }
@@ -313,7 +315,7 @@ public class Proceed {
   private static Node nodeWithText(List<Node> nodes, String str, Map<Node, String> nodeCache) {
     final List<Node> nodesWithText = new ArrayList<Node>();
     for (Node node : nodes) {
-      if (!Util.isEmpty(node, false)) {
+      if (!NodeUtil.isEmpty(node, false)) {
         String nodeStr = null;
         if (nodeCache.containsKey(node)) {
           nodeStr = nodeCache.get(node);
@@ -351,7 +353,7 @@ public class Proceed {
       @Override
       public void head(Node node, int depth) {
         if (node.nodeName().equals("#text")
-            && !Util.isHidden(node.parent())) {
+            && !NodeUtil.isHidden(node.parent())) {
           stringBuilder.append(node.toString());
         }
       }
@@ -367,7 +369,7 @@ public class Proceed {
 
       @Override
       public void head(Node node, int depth) {
-        if (!Util.isEmpty(node, false)) {
+        if (!NodeUtil.isEmpty(node, false)) {
           String title = node.attr("title");
           String alt = node.attr("alt");
           if (!CommonUtil.isEmpty(title)) {

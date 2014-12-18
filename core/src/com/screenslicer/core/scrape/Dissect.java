@@ -41,7 +41,8 @@ import org.jsoup.select.NodeVisitor;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.type.ScrapeResult;
-import com.screenslicer.core.util.Util;
+import com.screenslicer.core.util.NodeUtil;
+import com.screenslicer.core.util.UrlUtil;
 
 public class Dissect {
   private static final int MIN_EXPECTED_FIELD = 10;
@@ -142,7 +143,7 @@ public class Dissect {
       }
     }
     position.append("<<>>");
-    position.append(Util.outerHtml(node).hashCode());
+    position.append(NodeUtil.outerHtml(node).hashCode());
     return "dissectedResults-<<" + lenientUrl + ">>-<<" + lenientTitle + ">>-" + position.toString();
   }
 
@@ -537,7 +538,7 @@ public class Dissect {
     for (ScrapeResult result : dissected) {
       result.setSummary(summaries[summaryIndex++]);
     }
-    Util.trimLargeResults(dissected);
+    NodeUtil.trimLargeResults(dissected);
     cache.put(parentHashTrim, dissected);
     return dissected;
   }
@@ -634,7 +635,7 @@ public class Dissect {
         return;
       }
       seenTail.add(node);
-      if (!Util.isEmpty(node)) {
+      if (!NodeUtil.isEmpty(node)) {
         if (node.nodeName().equals("a") && !lenientUrl) {
           --insideAnchor;
         }
@@ -649,7 +650,7 @@ public class Dissect {
       if (seenHead.contains(node)) {
         return;
       }
-      if (Util.isEmpty(node)) {
+      if (NodeUtil.isEmpty(node)) {
         seenHead.add(node);
       } else {
         if (node.nodeName().equals("a") && !lenientUrl) {
@@ -661,15 +662,15 @@ public class Dissect {
 
               @Override
               public void tail(Node n, int d) {
-                if (!Util.isDecoration(n.nodeName()) && !n.nodeName().equals("#text")) {
+                if (!NodeUtil.isDecoration(n.nodeName()) && !n.nodeName().equals("#text")) {
                   --valid;
                 }
               }
 
               @Override
               public void head(Node n, int d) {
-                if (Util.isDecoration(n.nodeName()) || n.nodeName().equals("#text")) {
-                  if (valid == 0 && n.nodeName().equals("#text") && !Util.isEmpty(n)) {
+                if (NodeUtil.isDecoration(n.nodeName()) || n.nodeName().equals("#text")) {
+                  if (valid == 0 && n.nodeName().equals("#text") && !NodeUtil.isEmpty(n)) {
                     found[0] = true;
                   }
                 } else {
@@ -690,7 +691,7 @@ public class Dissect {
 
               @Override
               public void tail(Node n, int d) {
-                if (!Util.isDecoration(n.nodeName())
+                if (!NodeUtil.isDecoration(n.nodeName())
                     && !n.nodeName().equals("#text") && !n.nodeName().equals("a")) {
                   --valid;
                 }
@@ -698,7 +699,7 @@ public class Dissect {
 
               @Override
               public void head(Node n, int d) {
-                if (Util.isDecoration(n.nodeName())
+                if (NodeUtil.isDecoration(n.nodeName())
                     || n.nodeName().equals("#text") || n.nodeName().equals("a")) {
                   if (valid == 0 && n.nodeName().equals("a")) {
                     found[0] = true;
@@ -720,7 +721,7 @@ public class Dissect {
           if (anchorParent != null) {
             for (Node curChild : anchorParent.childNodes()) {
               loneBlockAttempted = true;
-              if (!Util.isEmpty(curChild) && !curChild.equals(node)) {
+              if (!NodeUtil.isEmpty(curChild) && !curChild.equals(node)) {
                 loneBlock = false;
                 break;
               }
@@ -740,14 +741,14 @@ public class Dissect {
                 return;
               }
               seenHead.add(child);
-              if (!Util.isEmpty(child) && child.nodeName().equals("#text")
-                  && !Util.isBlock(child.parent().nodeName())) {
+              if (!NodeUtil.isEmpty(child) && child.nodeName().equals("#text")
+                  && !NodeUtil.isBlock(child.parent().nodeName())) {
                 String childStr = child.toString();
                 if (!childStr.trim().toLowerCase().startsWith("&lt;img ")
                     && !childStr.trim().toLowerCase().startsWith("<img ")) {
                   titles.get(0).append(childStr);
                 }
-              } else if (!Util.isEmpty(child) && child.nodeName().equals("#text")) {
+              } else if (!NodeUtil.isEmpty(child) && child.nodeName().equals("#text")) {
                 String childStr = child.toString();
                 if (!childStr.trim().toLowerCase().startsWith("&lt;img ")
                     && !childStr.trim().toLowerCase().startsWith("<img ")) {
@@ -792,7 +793,7 @@ public class Dissect {
               }
             }
           }
-        } else if (!Util.isEmpty(node)
+        } else if (!NodeUtil.isEmpty(node)
             && node.nodeName().equals("#text")
             && insideAnchor == 0
             && insideLenientUrl == null) {
@@ -805,17 +806,17 @@ public class Dissect {
           } else {
             result.addToSummary(node.toString(), false, node);
           }
-        } else if (!Util.isEmpty(node)
+        } else if (!NodeUtil.isEmpty(node)
             && !node.nodeName().equals("a")
             && insideAnchor == 0) {
           if (seenHead.contains(node)) {
             return;
           }
           seenHead.add(node);
-          String urlFromAttr = Util.urlFromAttr(node);
+          String urlFromAttr = UrlUtil.urlFromAttr(node);
           if (Dissect.cssUrl.matcher(node.attr("class")).find()
               || (lenientUrl && !CommonUtil.isEmpty(urlFromAttr))) {
-            if (lenientUrl && !CommonUtil.isEmpty(urlFromAttr) && !Util.isFilteredLenient(node)) {
+            if (lenientUrl && !CommonUtil.isEmpty(urlFromAttr) && !NodeUtil.isFilteredLenient(node)) {
               urls.put(urlFromAttr, node);
             }
             insideLenientUrl = node;
