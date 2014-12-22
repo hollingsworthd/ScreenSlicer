@@ -65,7 +65,7 @@ public class HttpStatus implements WebResource {
       if (driver == null) {
         element = CommonUtil.parse(src, null, false);
       } else {
-        element = BrowserUtil.openElement(driver, null, null, null, null);
+        element = BrowserUtil.openElement(driver, true, null, null, null, null);
       }
       if (element == null) {
         Log.debug("status - page element is null", WebApp.DEBUG);

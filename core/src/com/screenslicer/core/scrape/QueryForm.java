@@ -151,7 +151,7 @@ public class QueryForm {
       boolean valueChanged = false;
       int count = 0;
       final int MAX_TRIES = 3;
-      Element body = BrowserUtil.openElement(driver, null, null, null, null);
+      Element body = BrowserUtil.openElement(driver, true, null, null, null, null);
       if (formData != null) {
         do {
           ++count;

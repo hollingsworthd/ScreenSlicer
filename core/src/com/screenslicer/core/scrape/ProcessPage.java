@@ -91,7 +91,7 @@ public class ProcessPage {
 
   public static SearchResults perform(BrowserDriver driver, int page, Query query) throws ActionFailed {
     try {
-      Element element = BrowserUtil.openElement(driver,
+      Element element = BrowserUtil.openElement(driver, true,
           query.proactiveUrlFiltering ? query.urlWhitelist : null,
           query.proactiveUrlFiltering ? query.urlPatterns : null,
           query.proactiveUrlFiltering ? query.urlMatchNodes : null,

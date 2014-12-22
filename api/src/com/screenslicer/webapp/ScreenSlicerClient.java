@@ -333,20 +333,29 @@ public final class ScreenSlicerClient implements ClientWebResource {
               request.emailExport.attachments = new LinkedHashMap<String, byte[]>();
               if (tables != null) {
                 for (Map.Entry<String, List<List<String>>> table : tables.entrySet()) {
+                  boolean xlsFail = false;
                   if (table.getKey().toLowerCase().endsWith(".xls")) {
-                    byte[] result = Spreadsheet.xls(table.getValue());
-                    CommonFile.writeByteArrayToFile(new File("./data/" + request.runGuid + "-result" + outputNumber), result, false);
-                    CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
-                        escapeName(table.getKey()) + "\n", true);
-                    ++outputNumber;
-                    if (request.emailResults) {
-                      request.emailExport.attachments.put(table.getKey(), result);
+                    try {
+                      byte[] result = Spreadsheet.xls(table.getValue());
+                      CommonFile.writeByteArrayToFile(new File("./data/" + request.runGuid + "-result" + outputNumber), result, false);
+                      CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
+                          escapeName(table.getKey()) + "\n", true);
+                      ++outputNumber;
+                      if (request.emailResults) {
+                        request.emailExport.attachments.put(table.getKey(), result);
+                      }
+                    } catch (Throwable t) {
+                      Log.exception(t);
+                      xlsFail = true;
                     }
-                  } else if (table.getKey().toLowerCase().endsWith(".csv")) {
+                  }
+                  if (xlsFail || table.getKey().toLowerCase().endsWith(".csv")) {
+                    String outputName = table.getKey();
+                    outputName = xlsFail ? outputName.substring(0, outputName.lastIndexOf(".")) + ".csv" : outputName;
                     String result = Spreadsheet.csv(table.getValue());
                     CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result" + outputNumber), result, false);
                     CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
-                        escapeName(table.getKey()) + "\n", true);
+                        escapeName(outputName) + "\n", true);
                     ++outputNumber;
                     if (request.emailResults) {
                       request.emailExport.attachments.put(table.getKey(), result.getBytes("utf-8"));

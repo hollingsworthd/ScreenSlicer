@@ -85,7 +85,7 @@ public class Proceed {
 
   public static String perform(BrowserDriver driver, HtmlNode[] proceedClicks, int pageNum, String priorTextLabel) throws End, ActionFailed {
     try {
-      Element body = BrowserUtil.openElement(driver, null, null, null, null);
+      Element body = BrowserUtil.openElement(driver, true, null, null, null, null);
       String origSrc = driver.getPageSource();
       String origTitle = driver.getTitle();
       String origUrl = driver.getCurrentUrl();

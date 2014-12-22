@@ -403,48 +403,30 @@ public class BrowserUtil {
     }
   }
 
-  public static WebElement toElement(BrowserDriver driver, Node node) {
-    if (node == null) {
-      return null;
-    }
-    try {
-      String classId = NodeUtil.classId(node);
-      if (classId != null) {
-        return driver.findElementByClassName(classId);
-      }
-    } catch (Retry r) {
-      throw r;
-    } catch (Fatal f) {
-      throw f;
-    } catch (Throwable t) {
-      Log.exception(t);
-    }
-    Log.warn("FAIL - could not convert Node to WebElement");
-    return null;
-  }
-
-  public static Element openElement(final BrowserDriver driver, final String[] whitelist,
+  public static Element openElement(final BrowserDriver driver, boolean init, final String[] whitelist,
       final String[] patterns, final HtmlNode[] urlNodes, final UrlTransform[] transforms)
       throws ActionFailed {
     try {
-      driver.executeScript(
-          "      var all = document.body.getElementsByTagName('*');"
-              + "for(var i = 0; i < all.length; i++){"
-              + "  if(all[i].className && typeof all[i].className == 'string'){"
-              + "    all[i].className=all[i].className.replace(/"
-              + NODE_MARKER + "\\d+/g,'').replace(/"
-              + HIDDEN_MARKER + "/g,'').replace(/"
-              + FILTERED_MARKER + "/g,'').replace(/"
-              + FILTERED_LENIENT_MARKER + "/g,'').replace(/\\s+/g,' ').trim();"
-              + "  }"
-              + "}"
-              + isVisible
-              + "for(var j = 0; j < all.length; j++){"
-              + "  all[j].className += ' " + NODE_MARKER + "'+j+' ';"
-              + "  if(!isVisible(all[j])){"
-              + "    all[j].className += ' " + HIDDEN_MARKER + " ';"
-              + "  }"
-              + "}");
+      if (init) {
+        driver.executeScript(
+            "      var all = document.body.getElementsByTagName('*');"
+                + "for(var i = 0; i < all.length; i++){"
+                + "  if(all[i].className && typeof all[i].className == 'string'){"
+                + "    all[i].className=all[i].className.replace(/"
+                + NODE_MARKER + "\\d+/g,'').replace(/"
+                + HIDDEN_MARKER + "/g,'').replace(/"
+                + FILTERED_MARKER + "/g,'').replace(/"
+                + FILTERED_LENIENT_MARKER + "/g,'').replace(/\\s+/g,' ').trim();"
+                + "  }"
+                + "}"
+                + isVisible
+                + "for(var j = 0; j < all.length; j++){"
+                + "  all[j].className += ' " + NODE_MARKER + "'+j+' ';"
+                + "  if(!isVisible(all[j])){"
+                + "    all[j].className += ' " + HIDDEN_MARKER + " ';"
+                + "  }"
+                + "}");
+      }
       String url = driver.getCurrentUrl();
       new URL(url);
       Element element = CommonUtil.parse(driver.getPageSource(), url, false).body();
@@ -534,7 +516,7 @@ public class BrowserUtil {
     if (controls != null && controls.length > 0) {
       Log.debug("Doing clicks", WebApp.DEBUG);
       if (body == null) {
-        body = BrowserUtil.openElement(driver, null, null, null, null);
+        body = BrowserUtil.openElement(driver, true, null, null, null, null);
       }
       for (int i = 0; i < controls.length; i++) {
         if (!CommonUtil.isEmpty(controls[i].httpGet)) {
@@ -542,7 +524,7 @@ public class BrowserUtil {
           continue;
         }
         if (i > 0 && (controls[i - 1].longRequest || !CommonUtil.isEmpty(controls[i - 1].httpGet))) {
-          body = BrowserUtil.openElement(driver, null, null, null, null);
+          body = BrowserUtil.openElement(driver, true, null, null, null, null);
         }
         WebElement element = BrowserUtil.toElement(driver, controls[i], body);
         if (WebApp.DEBUG) {
@@ -569,9 +551,55 @@ public class BrowserUtil {
     return clicked;
   }
 
+  public static WebElement toElement(BrowserDriver driver, Node node) {
+    if (node == null) {
+      return null;
+    }
+    try {
+      String classId = NodeUtil.classId(node);
+      if (classId != null) {
+        return driver.findElementByClassName(classId);
+      }
+    } catch (Retry r) {
+      throw r;
+    } catch (Fatal f) {
+      throw f;
+    } catch (Throwable t) {
+      Log.exception(t);
+    }
+    Log.warn("Could not convert Node to WebElement... trying fuzzy search");
+    try {
+      HtmlNode find = new HtmlNode();
+      Element body = BrowserUtil.openElement(driver, false, null, null, null, null);
+      find.alt = node.attr("alt");
+      find.classes = CommonUtil.isEmpty(node.attr("class")) ? null : node.attr("class").split("\\s");
+      find.href = node.attr("href");
+      find.id = node.attr("id");
+      find.innerText = node instanceof Element ? ((Element) node).text() : null;
+      find.name = node.attr("name");
+      find.tagName = node.nodeName();
+      find.title = node.attr("title");
+      find.type = node.attr("type");
+      find.value = node.attr("value");
+      find.fuzzy = true;
+      WebElement found = toElement(driver, find, body);
+      if (found != null) {
+        return found;
+      }
+    } catch (Retry r) {
+      throw r;
+    } catch (Fatal f) {
+      throw f;
+    } catch (Throwable t) {
+      Log.exception(t);
+    }
+    Log.warn("Could not convert Node to WebElement... failed permanently");
+    return null;
+  }
+
   public static WebElement toElement(BrowserDriver driver, HtmlNode htmlNode, Element body) throws ActionFailed {
     if (body == null) {
-      body = BrowserUtil.openElement(driver, null, null, null, null);
+      body = BrowserUtil.openElement(driver, true, null, null, null, null);
     }
     if (!CommonUtil.isEmpty(htmlNode.id)) {
       WebElement element = toElement(driver, body.getElementById(htmlNode.id));
