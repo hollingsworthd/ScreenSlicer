@@ -30,14 +30,13 @@ var B64={alphabet:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz012345678
 
 var {Cc, Ci, Cm, Cr, Cu} = require("chrome");
 var windows = require("sdk/window/utils");
-var browserWindows = require("sdk/windows").browserWindows;
 var {viewFor} = require("sdk/view/core");
 var tabUtil = require("sdk/tabs/utils");
 var tabs = require("sdk/tabs");
 
-var prefs = Cc["@mozilla.org/preferences-service;1"].getService(Ci.nsIPrefBranch);
 var header = null;
 try{
+  var prefs = Cc["@mozilla.org/preferences-service;1"].getService(Ci.nsIPrefBranch);
   var headerValue = prefs.getComplexValue('extensions.screenslicer.headers', Ci.nsISupportsString);
   if(headerValue){
     header = headerValue.data;
@@ -49,12 +48,14 @@ try{
 
 var handler = {
   QueryInterface: function(iid){
-    if (iid.equals(Ci.nsISupports)
-        || iid.equals(Ci.nsISupportsWeakReference)
-        || iid.equals(Ci.nsIWebProgressListener)
-        || iid.equals(Ci.nsIObserver)){
-      return this;
-    }
+    try{
+      if (iid.equals(Ci.nsISupports)
+          || iid.equals(Ci.nsISupportsWeakReference)
+          || iid.equals(Ci.nsIWebProgressListener)
+          || iid.equals(Ci.nsIObserver)){
+        return this;
+      }
+    }catch(e){}
     throw Cr.NS_NOINTERFACE;
   },
   prevStatus: -1,
@@ -76,6 +77,8 @@ var handler = {
           httpChannel.setRequestHeader(headerName, header[headerName], false);
         }
       }
+    }catch(e){}
+    try{
       if((aSubject.loadFlags & Ci.nsIChannel.LOAD_DOCUMENT_URI) && aSubject.loadGroup && aSubject.loadGroup.groupObserver){
         var groupObserver = aSubject.loadGroup.groupObserver;
         groupObserver.QueryInterface(Ci.nsIWebProgress);
@@ -114,13 +117,17 @@ var handler = {
   onStatusChange: function(aWebProgress, aRequest, aStatus, aMessage){},
   onSecurityChange: function(aWebProgress, aRequest, aState){},
 };
+try{
+  Cc["@mozilla.org/observer-service;1"].getService(Ci.nsIObserverService).addObserver(handler, "http-on-modify-request", true);
+}catch(e){}
 
-Cc["@mozilla.org/observer-service;1"].getService(Ci.nsIObserverService).addObserver(handler, "http-on-modify-request", true);
 function handleWindow(){
   try{
     var myProgress = tabUtil.getTabBrowser(viewFor(windows.getMostRecentBrowserWindow())).webProgress;
     myProgress.addProgressListener(handler, myProgress.NOTIFY_ALL);
   }catch(e){}
 }
-tabs.on("activate",handleWindow);
-handleWindow();
+try{
+  tabs.on("activate",handleWindow);
+  handleWindow();
+}catch(e){}
