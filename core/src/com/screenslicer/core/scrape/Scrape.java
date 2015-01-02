@@ -120,6 +120,18 @@ public class Scrape {
     done.set(true);
   }
 
+  private static String initDownloadCache() {
+    File downloadCache = new File("./download_cache");
+    FileUtils.deleteQuietly(downloadCache);
+    downloadCache.mkdir();
+    try {
+      return downloadCache.getCanonicalPath();
+    } catch (Throwable t) {
+      Log.exception(t);
+      return downloadCache.getAbsolutePath();
+    }
+  }
+
   private static void start(Request req) {
     Proxy[] proxies = CommonUtil.isEmpty(req.proxies) ? new Proxy[] { req.proxy } : req.proxies;
     for (int i = 0; i < RETRIES; i++) {
@@ -129,12 +141,10 @@ public class Scrape {
           profile.setAlwaysLoadNoFocusLib(true);
           profile.setEnableNativeEvents(true);
         }
-        File downloadCache = new File("./download_cache");
-        String downloadCachePath = downloadCache.getCanonicalPath();
-        FileUtils.deleteQuietly(downloadCache);
-        downloadCache.mkdir();
+        String downloadCachePath = initDownloadCache();
         if (req.downloads) {
           profile.setPreference("browser.download.folderList", 2);
+          profile.setPreference("pdfjs.disabled", true);
           profile.setPreference("browser.download.manager.showWhenStarting", false);
           profile.setPreference("browser.download.dir", downloadCachePath);
           profile
@@ -331,14 +341,24 @@ public class Scrape {
   private static class Downloaded {
     String content;
     String mimeType;
+    String extension;
+    String filename;
 
     public Downloaded() {
       File file = new File("./download_cache");
       Collection<File> list = FileUtils.listFiles(file, null, false);
       if (!list.isEmpty()) {
         try {
-          content = Base64.encodeBase64String(FileUtils.readFileToByteArray(list.iterator().next()));
-          mimeType = new Tika().detect(content);
+          File download = list.iterator().next();
+          byte[] bytes = FileUtils.readFileToByteArray(download);
+          content = Base64.encodeBase64String(bytes);
+          filename = download.getName();
+          mimeType = new Tika().detect(bytes, filename);
+          int index = filename.lastIndexOf(".");
+          if (index > -1 && index < filename.length()) {
+            extension = filename.substring(index + 1).toLowerCase();
+            filename = filename.substring(0, index);
+          }
         } catch (Throwable t) {
           Log.exception(t);
         } finally {
@@ -363,6 +383,7 @@ public class Scrape {
       }
       try {
         for (int i = query.currentResult(); i < results.size(); i++) {
+          initDownloadCache();
           if (query.requireResultAnchor && !isUrlValid(results.get(i).url)
               && UrlUtil.uriScheme.matcher(results.get(i).url).matches()) {
             results.get(i).close();
@@ -381,6 +402,8 @@ public class Scrape {
             Downloaded downloaded = new Downloaded();
             results.get(i).pageBinary = downloaded.content;
             results.get(i).pageBinaryMimeType = downloaded.mimeType;
+            results.get(i).pageBinaryExtension = downloaded.extension;
+            results.get(i).pageBinaryFilename = downloaded.filename;
             if (!CommonUtil.isEmpty(results.get(i).pageHtml)) {
               try {
                 results.get(i).pageText = NumWordsRulesExtractor.INSTANCE.getText(results.get(i).pageHtml);

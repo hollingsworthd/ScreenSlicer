@@ -55,7 +55,7 @@ public final class ScreenSlicer {
 
     Map<String, byte[]> binaryData(Request request, Map<String, Object> args);
 
-    Map<String, Map<String, Object>> jsonData(Request request, Map<String, Object> args);
+    Map<String, List<Map<String, Object>>> jsonData(Request request, Map<String, Object> args);
   }
 
   private static SecureRandom rand = new SecureRandom();

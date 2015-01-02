@@ -86,7 +86,7 @@ public class ScreenSlicerDriver implements WebResource {
 
   @Path("is-busy/{instanceIp}")
   @GET
-  @Produces("text/plain")
+  @Produces("text/plain; charset=utf-8")
   public static final String isBusy(@PathParam("instanceIp") String instanceIp) {
     return Boolean.toString(ScreenSlicer.isBusy(instanceIp));
   }

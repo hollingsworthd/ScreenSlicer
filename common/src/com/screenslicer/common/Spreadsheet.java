@@ -28,7 +28,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -55,6 +57,27 @@ public class Spreadsheet {
         Log.exception(e);
       }
     }
+  }
+
+  public static List<Map<String, String>> json(List<List<String>> rows) {
+    List<Map<String, String>> json = new ArrayList<Map<String, String>>();
+    if (rows.size() < 2) {
+      return null;
+    }
+    List<String> header = rows.get(0);
+    int len = header.size();
+    for (int i = 1; i < rows.size(); i++) {
+      List<String> row = rows.get(i);
+      if (row.size() != len) {
+        throw new IllegalArgumentException("All rows must be same length");
+      }
+      Map<String, String> jsonRow = new LinkedHashMap<String, String>();
+      for (int j = 0; j < len; j++) {
+        jsonRow.put(header.get(j), row.get(j));
+      }
+      json.add(jsonRow);
+    }
+    return json;
   }
 
   public static byte[] xls(List<List<String>> rows) {

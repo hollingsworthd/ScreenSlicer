@@ -82,7 +82,7 @@ public class CommonUtil {
 
   public static void main(String[] args) throws Exception {}
 
-  private static final DateFormat format = new SimpleDateFormat("YYYY-MM-dd");
+  private static final DateFormat format = new SimpleDateFormat("yyyy-MM-dd");
   static {
     format.setTimeZone(TimeZone.getTimeZone("UTC"));
   }
@@ -527,6 +527,15 @@ public class CommonUtil {
     return map;
   }
 
+  public static Map<String, List<Map<String, Object>>> asJsonTableMap(Object... keysAndVals) {
+    Map<String, List<Map<String, Object>>> map = new LinkedHashMap<String, List<Map<String, Object>>>();
+    int mid = keysAndVals.length / 2;
+    for (int i = 0; i < mid; i++) {
+      map.put((String) keysAndVals[i], (List<Map<String, Object>>) keysAndVals[i + mid]);
+    }
+    return map;
+  }
+
   public static Map<String, String> asMap(String... keysAndVals) {
     Map<String, String> map = new LinkedHashMap<String, String>();
     int mid = keysAndVals.length / 2;
@@ -657,7 +666,7 @@ public class CommonUtil {
       if (conn.getResponseCode() == 205) {
         return NOT_BUSY;
       }
-      if (conn.getResponseCode() == 423) {
+      if (conn.getResponseCode() == 423 || conn.getResponseCode() == 202) {
         return BUSY;
       }
       return Crypto.decode(IOUtils.toString(conn.getInputStream(), "utf-8"), recipient);

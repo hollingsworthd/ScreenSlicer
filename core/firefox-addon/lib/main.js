@@ -115,7 +115,7 @@ var handler = {
   onSecurityChange: function(aWebProgress, aRequest, aState){},
 };
 
-Cc["@mozilla.org/observer-service;1"].getService(Ci.nsIObserverService).addObserver(handler, "http-on-modify-request", false);
+Cc["@mozilla.org/observer-service;1"].getService(Ci.nsIObserverService).addObserver(handler, "http-on-modify-request", true);
 function handleWindow(){
   try{
     var myProgress = tabUtil.getTabBrowser(viewFor(windows.getMostRecentBrowserWindow())).webProgress;

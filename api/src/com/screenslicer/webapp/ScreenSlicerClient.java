@@ -77,7 +77,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
 
   @Path("result")
   @POST
-  @Produces("application/json")
+  @Produces("application/json; charset=utf-8")
   @Consumes("application/json")
   public static final Response result(String reqString) {
     try {
@@ -85,13 +85,30 @@ public final class ScreenSlicerClient implements ClientWebResource {
         final String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
         if (reqDecoded != null) {
           Request request = CommonUtil.gson.fromJson(reqDecoded, Request.class);
-          List<String> resultNames = CommonFile.readLines(new File("./data/" + request.runGuid + "-result-names"));
-          for (int i = 0; i < resultNames.size(); i++) {
-            if (request.outputNames[0].equals(resultNames.get(i))) {
-              return Response.ok(Crypto.encode(Base64.encodeBase64String(
-                  CommonFile.readFileToByteArray(new File("./data/" + request.runGuid + "-result" + i))),
-                  CommonUtil.myInstance())).build();
+          File names = new File("./data/" + request.runGuid + "-result-names");
+          File lockFile = new File("./data/" + request.runGuid + "-result.lock");
+          if (names.exists()) {
+            List<String> resultNames = CommonFile.readLines(names);
+            for (int i = 0; i < resultNames.size(); i++) {
+              if (request.outputNames[0].equals(resultNames.get(i))) {
+                return Response.ok(Crypto.encode(Base64.encodeBase64String(
+                    CommonFile.readFileToByteArray(new File("./data/" + request.runGuid + "-result" + i))),
+                    CommonUtil.myInstance())).build();
+              }
             }
+          } else if (new File("./data/" + request.runGuid + "-result0").exists() && !lockFile.exists()) {
+            List<String> contents = new ArrayList<String>();
+            for (int i = 0;; i++) {
+              File resultFile = new File("./data/" + request.runGuid + "-result" + i);
+              if (!resultFile.exists()) {
+                break;
+              }
+              contents.add(Base64.encodeBase64String(CommonFile.readFileToByteArray(resultFile)));
+            }
+            return Response.ok(Crypto.encode(CommonUtil.gson.toJson(contents),
+                CommonUtil.myInstance())).build();
+          } else if (lockFile.exists()) {
+            return Response.status(202).build();
           }
         }
       }
@@ -103,7 +120,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
 
   @Path("cancel")
   @POST
-  @Produces("application/json")
+  @Produces("application/json; charset=utf-8")
   @Consumes("application/json")
   public static final Response cancel(String reqString) {
     try {
@@ -129,7 +146,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
 
   @Path("context")
   @POST
-  @Produces("application/json")
+  @Produces("application/json; charset=utf-8")
   @Consumes("application/json")
   public static final Response context(String reqString) {
     try {
@@ -152,7 +169,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
 
   @Path("started")
   @POST
-  @Produces("application/json")
+  @Produces("application/json; charset=utf-8")
   @Consumes("application/json")
   public static final Response started(String reqString) {
     try {
@@ -167,7 +184,8 @@ public final class ScreenSlicerClient implements ClientWebResource {
               List<String> lines = CommonFile.readLines(file);
               if (lines != null && lines.size() == 3) {
                 started.add(CommonUtil.asObjMap("runGuid", "jobId", "jobGuid", "Started", "Started-UTC",
-                    file.getName().split("-meta" + request.appId)[0], lines.get(0), lines.get(1), CommonUtil.asUtc(lines.get(2)), lines.get(2)));
+                    file.getName().split("-meta" + request.appId)[0], lines.get(0), lines.get(1),
+                    CommonUtil.asUtc(lines.get(2)), lines.get(2)));
               }
             }
           }
@@ -188,7 +206,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
 
   @Path("finished")
   @POST
-  @Produces("application/json")
+  @Produces("application/json; charset=utf-8")
   @Consumes("application/json")
   public static final Response finished(String reqString) {
     try {
@@ -229,7 +247,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
 
   @Path("configure")
   @POST
-  @Produces("application/json")
+  @Produces("application/json; charset=utf-8")
   @Consumes("application/json")
   public static final Response configure(String reqString) {
     try {
@@ -267,7 +285,7 @@ public final class ScreenSlicerClient implements ClientWebResource {
   @Path("create")
   @POST
   @Consumes("application/json")
-  @Produces("application/json")
+  @Produces("application/json; charset=utf-8")
   public static final Response create(String reqString) {
     if (reqString != null) {
       final String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
@@ -278,15 +296,26 @@ public final class ScreenSlicerClient implements ClientWebResource {
         for (Field field : fields) {
           args.remove(field.getName());
         }
+        try {
+          FileUtils.touch(new File("./data/" + request.runGuid + "-result.lock"));
+        } catch (Throwable t) {
+          Log.exception(t);
+        }
         new Thread(new Runnable() {
           @Override
           public void run() {
             String myInstance = null;
             AtomicBoolean myDone = null;
+            int outputNumber = 0;
             try {
-              CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-meta" + request.appId),
-                  request.jobId + "\n" + request.jobGuid + "\n" + Calendar.getInstance(TimeZone.getTimeZone("GMT")).getTimeInMillis(), false);
-              CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-context"), Crypto.encode(reqDecoded), false);
+              if (!CommonUtil.isEmpty(request.jobGuid)) {
+                CommonFile.writeStringToFile(new File("./data/"
+                    + request.runGuid + "-meta" + request.appId),
+                    request.jobId + "\n" + request.jobGuid + "\n"
+                        + Calendar.getInstance(TimeZone.getTimeZone("GMT")).getTimeInMillis(), false);
+                CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-context"),
+                    Crypto.encode(reqDecoded), false);
+              }
               Map<String, AtomicBoolean> myDoneMap = new HashMap<String, AtomicBoolean>();
               synchronized (doneMapLock) {
                 for (int i = 0; i < request.instances.length; i++) {
@@ -325,10 +354,9 @@ public final class ScreenSlicerClient implements ClientWebResource {
                 }
               }
               curThread.incrementAndGet();
-              int outputNumber = 0;
               request.instances = new String[] { myInstance };
               Map<String, List<List<String>>> tables = customApp.tableData(request, args);
-              Map<String, Map<String, Object>> jsons = customApp.jsonData(request, args);
+              Map<String, List<Map<String, Object>>> jsons = customApp.jsonData(request, args);
               Map<String, byte[]> binaries = customApp.binaryData(request, args);
               request.emailExport.attachments = new LinkedHashMap<String, byte[]>();
               if (tables != null) {
@@ -337,11 +365,12 @@ public final class ScreenSlicerClient implements ClientWebResource {
                   if (table.getKey().toLowerCase().endsWith(".xls")) {
                     try {
                       byte[] result = Spreadsheet.xls(table.getValue());
-                      CommonFile.writeByteArrayToFile(new File("./data/" + request.runGuid + "-result" + outputNumber), result, false);
-                      CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
-                          escapeName(table.getKey()) + "\n", true);
+                      CommonFile.writeByteArrayToFile(new File("./data/"
+                          + request.runGuid + "-result" + outputNumber), result, false);
                       ++outputNumber;
-                      if (request.emailResults) {
+                      if (!CommonUtil.isEmpty(request.jobGuid)) {
+                        CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
+                            escapeName(table.getKey()) + "\n", true);
                         request.emailExport.attachments.put(table.getKey(), result);
                       }
                     } catch (Throwable t) {
@@ -349,15 +378,17 @@ public final class ScreenSlicerClient implements ClientWebResource {
                       xlsFail = true;
                     }
                   }
-                  if (xlsFail || table.getKey().toLowerCase().endsWith(".csv")) {
-                    String outputName = table.getKey();
-                    outputName = xlsFail ? outputName.substring(0, outputName.lastIndexOf(".")) + ".csv" : outputName;
+                  if (xlsFail || table.getKey().toLowerCase().endsWith(".csv")
+                      || (CommonUtil.isEmpty(request.jobGuid) && table.getKey().toLowerCase().endsWith(".xcsv"))) {
                     String result = Spreadsheet.csv(table.getValue());
-                    CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result" + outputNumber), result, false);
-                    CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
-                        escapeName(outputName) + "\n", true);
+                    CommonFile.writeStringToFile(new File("./data/" + request.runGuid
+                        + "-result" + outputNumber), result, false);
                     ++outputNumber;
-                    if (request.emailResults) {
+                    if (!CommonUtil.isEmpty(request.jobGuid)) {
+                      String outputName = table.getKey();
+                      outputName = xlsFail ? outputName.substring(0, outputName.lastIndexOf(".")) + ".csv" : outputName;
+                      CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
+                          escapeName(outputName) + "\n", true);
                       request.emailExport.attachments.put(table.getKey(), result.getBytes("utf-8"));
                     }
                   } else if (table.getKey().toLowerCase().endsWith(".xcsv")) {
@@ -370,55 +401,73 @@ public final class ScreenSlicerClient implements ClientWebResource {
                     CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
                         escapeName(table.getKey()) + "\n", true);
                     ++outputNumber;
-                    if (request.emailResults) {
-                      request.emailExport.attachments.put(table.getKey(), result.getBytes("utf-8"));
-                    }
+                    request.emailExport.attachments.put(table.getKey(), result.getBytes("utf-8"));
                   } else {
                     String result = CommonUtil.gson.toJson(table.getValue(), table.getValue().getClass());
-                    CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result" + outputNumber), result, false);
-                    CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
-                        escapeName(table.getKey()) + "\n", true);
+                    CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result" + outputNumber),
+                        result, false);
                     ++outputNumber;
-                    if (request.emailResults) {
+                    if (!CommonUtil.isEmpty(request.jobGuid)) {
+                      CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
+                          escapeName(table.getKey()) + "\n", true);
                       request.emailExport.attachments.put(table.getKey(), result.getBytes("utf-8"));
                     }
                   }
                 }
               }
               if (jsons != null) {
-                for (Map.Entry<String, Map<String, Object>> json : jsons.entrySet()) {
-                  String result = CommonUtil.gson.toJson(json.getValue(), CommonUtil.objectType);
-                  CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result" + outputNumber), result, false);
-                  CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
-                      escapeName(json.getKey()) + "\n", true);
+                for (Map.Entry<String, List<Map<String, Object>>> json : jsons.entrySet()) {
+                  String result = CommonUtil.gson.toJson(json.getValue(), CommonUtil.listObjectType);
+                  CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result" + outputNumber),
+                      result, false);
                   ++outputNumber;
-                  if (request.emailResults) {
-                    request.emailExport.attachments.put(json.getKey(), result.getBytes("utf-8"));
+                  if (!CommonUtil.isEmpty(request.jobGuid)) {
+                    CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
+                        escapeName(json.getKey()) + "\n", true);
+                    if (request.emailResults) {
+                      request.emailExport.attachments.put(json.getKey(), result.getBytes("utf-8"));
+                    }
                   }
                 }
               }
               if (binaries != null) {
                 for (Map.Entry<String, byte[]> binary : binaries.entrySet()) {
-                  CommonFile.writeByteArrayToFile(new File("./data/" + request.runGuid + "-result" + outputNumber), binary.getValue(), false);
-                  CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
-                      escapeName(binary.getKey()) + "\n", true);
+                  CommonFile.writeByteArrayToFile(new File("./data/" + request.runGuid + "-result" + outputNumber),
+                      binary.getValue(), false);
                   ++outputNumber;
-                  if (request.emailResults) {
-                    request.emailExport.attachments.put(binary.getKey(), binary.getValue());
+                  if (!CommonUtil.isEmpty(request.jobGuid)) {
+                    CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-result-names"),
+                        escapeName(binary.getKey()) + "\n", true);
+                    if (request.emailResults) {
+                      request.emailExport.attachments.put(binary.getKey(), binary.getValue());
+                    }
                   }
                 }
               }
-              if (request.emailResults) {
+              if (request.emailResults && !CommonUtil.isEmpty(request.jobGuid)) {
                 ScreenSlicer.export(request, request.emailExport);
               }
             } catch (Throwable t) {
               Log.exception(t);
             } finally {
-              try {
-                CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-meta" + request.appId), "\n" + Calendar.getInstance(TimeZone.getTimeZone("GMT")).getTimeInMillis(), true);
-              } catch (Throwable t) {
-                Log.exception(t);
+              if (CommonUtil.isEmpty(request.jobGuid)) {
+                if (outputNumber == 0) {
+                  try {
+                    CommonFile.writeStringToFile(new File("./data/" + request.runGuid
+                        + "-result" + outputNumber), "", false);
+                  } catch (Throwable t) {
+                    Log.exception(t);
+                  }
+                }
+              } else {
+                try {
+                  CommonFile.writeStringToFile(new File("./data/" + request.runGuid + "-meta" + request.appId), "\n"
+                      + Calendar.getInstance(TimeZone.getTimeZone("GMT")).getTimeInMillis(), true);
+                } catch (Throwable t) {
+                  Log.exception(t);
+                }
               }
+              FileUtils.deleteQuietly(new File("./data/" + request.runGuid + "-result.lock"));
               myDone.set(true);
               synchronized (cancelledLock) {
                 cancelledJobs.remove(request.runGuid);

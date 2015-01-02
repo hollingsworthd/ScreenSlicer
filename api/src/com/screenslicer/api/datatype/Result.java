@@ -110,13 +110,22 @@ public final class Result {
    */
   public String pageText;
   /**
-   * Binary content of the page. A base-64 encoded byte array.
+   * Binary content of the page. A base-64 encoded String representing a byte
+   * array.
    */
   public String pageBinary;
   /**
    * Mime-type of the binary content;
    */
   public String pageBinaryMimeType;
+  /**
+   * Filename extension of the binary content;
+   */
+  public String pageBinaryExtension;
+  /**
+   * Filename of the binary content;
+   */
+  public String pageBinaryFilename;
   /**
    * Key for this SearchResult when collapsing is enabled.
    */
