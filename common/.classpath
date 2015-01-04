@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry exported="true" kind="lib" path="lib/asm-all-repackaged-2.2.0-b21.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/async-http-client-1.9.0-BETA12.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/backport-util-concurrent-3.1.jar"/>
@@ -45,5 +44,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/selenium-shared/xercesImpl-2.11.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/poi-3.10.1-20140818.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/selenium-shared/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

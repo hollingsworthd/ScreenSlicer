@@ -4,7 +4,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/common"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/webapp"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/api"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="/common/lib/core/antlr-3.2.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/boilerpipe-2012.03.24.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/edu.mit.jwi_2.3.3.jar"/>
@@ -33,5 +32,6 @@
 	<classpathentry kind="lib" path="/common/lib/core/open-nlp/opennlp-maxent-3.0.3.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/open-nlp/opennlp-tools-1.5.3.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/open-nlp/opennlp-uima-1.5.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
