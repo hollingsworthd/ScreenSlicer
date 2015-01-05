@@ -35,12 +35,12 @@ import org.apache.commons.io.FileUtils;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
-import org.openqa.selenium.remote.BrowserDriver;
-import org.openqa.selenium.remote.BrowserDriver.Fatal;
-import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.Result;
 import com.screenslicer.api.request.Query;
+import com.screenslicer.browser.Browser;
+import com.screenslicer.browser.Browser.Fatal;
+import com.screenslicer.browser.Browser.Retry;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
@@ -79,9 +79,9 @@ public class ProcessPage {
       trim(element);
       Map<String, Object> cache = new HashMap<String, Object>();
       return perform(element, page, "", true, query, cache);
-    } catch (Retry r) {
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       Log.exception(t);
@@ -89,9 +89,9 @@ public class ProcessPage {
     return null;
   }
 
-  public static SearchResults perform(BrowserDriver driver, int page, Query query) throws ActionFailed {
+  public static SearchResults perform(Browser browser, int page, Query query) throws ActionFailed {
     try {
-      Element element = BrowserUtil.openElement(driver, true,
+      Element element = BrowserUtil.openElement(browser, true,
           query.proactiveUrlFiltering ? query.urlWhitelist : null,
           query.proactiveUrlFiltering ? query.urlPatterns : null,
           query.proactiveUrlFiltering ? query.urlMatchNodes : null,
@@ -103,9 +103,9 @@ public class ProcessPage {
         } catch (IOException e) {}
       }
       Map<String, Object> cache = new HashMap<String, Object>();
-      List<ScrapeResult> results = perform(element, page, driver.getCurrentUrl(), true, query, cache);
+      List<ScrapeResult> results = perform(element, page, browser.getCurrentUrl(), true, query, cache);
       if (results == null || results.isEmpty()) {
-        results = perform(element, page, driver.getCurrentUrl(), false, query, cache);
+        results = perform(element, page, browser.getCurrentUrl(), false, query, cache);
       }
       List<Result> searchResults = new ArrayList<Result>();
       for (ScrapeResult result : results) {
@@ -119,10 +119,10 @@ public class ProcessPage {
         r.html = NodeUtil.outerHtml(result.getNodes());
         searchResults.add(r);
       }
-      return SearchResults.newInstance(true, searchResults, driver.getWindowHandle(), page, query);
-    } catch (Retry r) {
+      return SearchResults.newInstance(true, searchResults, browser.getWindowHandle(), page, query);
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);

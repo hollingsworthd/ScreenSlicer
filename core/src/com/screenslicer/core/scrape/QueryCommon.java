@@ -30,25 +30,25 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.BrowserDriver;
-import org.openqa.selenium.remote.BrowserDriver.Fatal;
-import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.Credentials;
+import com.screenslicer.browser.Browser;
+import com.screenslicer.browser.Browser.Fatal;
+import com.screenslicer.browser.Browser.Retry;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
 import com.screenslicer.core.util.BrowserUtil;
 
 public class QueryCommon {
 
-  public static boolean doAuth(BrowserDriver driver, Credentials credentials) throws ActionFailed {
+  public static boolean doAuth(Browser browser, Credentials credentials) throws ActionFailed {
     if (credentials == null
         || CommonUtil.isEmpty(credentials.username) || CommonUtil.isEmpty(credentials.password)) {
       return false;
     }
     try {
-      List<WebElement> inputs = driver.findElementsByTagName("input");
-      String html = CommonUtil.strip(driver.findElementByTagName("body").getAttribute("outerHTML"), true);
+      List<WebElement> inputs = browser.findElementsByTagName("input");
+      String html = CommonUtil.strip(browser.findElementByTagName("body").getAttribute("outerHTML"), true);
       List<WebElement> usernames = new ArrayList<WebElement>();
       List<WebElement> passwords = new ArrayList<WebElement>();
       List<String> usernamesHtml = new ArrayList<String>();
@@ -117,13 +117,13 @@ public class QueryCommon {
             }
           }
         }
-        QueryCommon.typeText(driver, closestLogin.username, credentials.username, true, false);
-        QueryCommon.typeText(driver, closestLogin.password, credentials.password, false, true);
+        QueryCommon.typeText(browser, closestLogin.username, credentials.username, true, false);
+        QueryCommon.typeText(browser, closestLogin.password, credentials.password, false, true);
         return true;
       }
-    } catch (Retry r) {
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
@@ -131,27 +131,27 @@ public class QueryCommon {
     throw new ActionFailed("Could not sign in");
   }
 
-  public static boolean typeText(BrowserDriver driver, WebElement element, String text, boolean validate, boolean newline) {
+  public static boolean typeText(Browser browser, WebElement element, String text, boolean validate, boolean newline) {
     String elementVal = null;
     if (validate) {
       elementVal = element.getAttribute("value");
     }
     if (!validate || !text.equalsIgnoreCase(elementVal)) {
-      BrowserUtil.click(driver, element, false);
+      BrowserUtil.click(browser, element, false);
       if (validate) {
         element.clear();
-        BrowserUtil.driverSleepVeryShort();
+        BrowserUtil.browserSleepVeryShort();
       }
       if (!validate || !CommonUtil.isEmpty(element.getAttribute("value"))) {
         element.sendKeys(QueryForm.delete);
-        BrowserUtil.driverSleepVeryShort();
+        BrowserUtil.browserSleepVeryShort();
       }
       element.sendKeys(text);
-      driver.getKeyboard().sendKeys("\t");
-      BrowserUtil.driverSleepVeryShort();
+      browser.getKeyboard().sendKeys("\t");
+      BrowserUtil.browserSleepVeryShort();
       if (newline) {
         element.sendKeys("\n");
-        BrowserUtil.driverSleepLong();
+        BrowserUtil.browserSleepLong();
       }
       return true;
     }

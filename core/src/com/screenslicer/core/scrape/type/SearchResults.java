@@ -29,11 +29,10 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 
-import org.openqa.selenium.remote.BrowserDriver;
-import org.openqa.selenium.remote.BrowserDriver.Fatal;
-
 import com.screenslicer.api.datatype.Result;
 import com.screenslicer.api.request.Query;
+import com.screenslicer.browser.Browser;
+import com.screenslicer.browser.Browser.Fatal;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.ProcessPage;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
@@ -84,45 +83,45 @@ public class SearchResults {
     this.query = query;
   }
 
-  public static void revalidate(BrowserDriver driver, boolean reset) {
+  public static void revalidate(Browser browser, boolean reset) {
     Collection<SearchResults> myInstances;
     synchronized (lock) {
       myInstances = new HashSet<SearchResults>(instances);
     }
     if (reset) {
-      driver.reset();
+      browser.reset();
     }
     for (SearchResults cur : myInstances) {
       if (cur.window != null && cur.query != null && !CommonUtil.isEmpty(cur.prevResults)) {
         List<Result> prevPage = cur.removeLastPage();
         try {
-          driver.switchTo().window(cur.window);
-          driver.switchTo().defaultContent();
-          List<Result> newPage = new ArrayList<Result>(ProcessPage.perform(driver, cur.page, cur.query).drain());
+          browser.switchTo().window(cur.window);
+          browser.switchTo().defaultContent();
+          List<Result> newPage = new ArrayList<Result>(ProcessPage.perform(browser, cur.page, cur.query).drain());
           for (int num = newPage.size(); num > prevPage.size(); num--) {
             newPage.remove(num - 1);
           }
           double diff = Math.abs(newPage.size() - prevPage.size());
           if (diff / (double) prevPage.size() > MAX_ERROR) {
-            throw new Fatal();
+            throw new Browser.Fatal();
           }
           cur.prevResults = newPage;
-          cur.window = driver.getWindowHandle();
+          cur.window = browser.getWindowHandle();
           cur.searchResults.addAll(cur.prevResults);
-        } catch (Fatal f) {
+        } catch (Browser.Fatal f) {
           cur.prevResults = prevPage;
           cur.searchResults.addAll(prevPage);
-          throw new Fatal(f);
+          throw new Browser.Fatal(f);
         } catch (ActionFailed e) {
           cur.prevResults = prevPage;
           cur.searchResults.addAll(prevPage);
-          throw new Fatal(e);
+          throw new Browser.Fatal(e);
         }
       }
     }
-    String[] handles = driver.getWindowHandles().toArray(new String[0]);
-    driver.switchTo().window(handles[handles.length - 1]);
-    driver.switchTo().defaultContent();
+    String[] handles = browser.getWindowHandles().toArray(new String[0]);
+    browser.switchTo().window(handles[handles.length - 1]);
+    browser.switchTo().defaultContent();
   }
 
   private List<Result> removeLastPage() {

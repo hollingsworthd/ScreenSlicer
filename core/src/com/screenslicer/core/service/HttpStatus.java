@@ -35,8 +35,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.remote.BrowserDriver;
 
+import com.screenslicer.browser.Browser;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.util.BrowserUtil;
@@ -54,7 +54,7 @@ public class HttpStatus implements WebResource {
   private static final int TIMEOUT = 25 * 1000;
   private static final int MIN_LEN = 500;
 
-  private static boolean hasContent(BrowserDriver driver, String src) {
+  private static boolean hasContent(Browser browser, String src) {
     if (CommonUtil.isEmpty(src)) {
       Log.debug("status - source is null/empty", WebApp.DEBUG);
       return false;
@@ -62,10 +62,10 @@ public class HttpStatus implements WebResource {
     final boolean[] content = new boolean[1];
     try {
       Element element = null;
-      if (driver == null) {
+      if (browser == null) {
         element = CommonUtil.parse(src, null, false);
       } else {
-        element = BrowserUtil.openElement(driver, true, null, null, null, null);
+        element = BrowserUtil.openElement(browser, true, null, null, null, null);
       }
       if (element == null) {
         Log.debug("status - page element is null", WebApp.DEBUG);
@@ -89,22 +89,22 @@ public class HttpStatus implements WebResource {
     return content[0];
   }
 
-  public static int status(BrowserDriver driver, int timeout) {
-    return status(driver, true, timeout);
+  public static int status(Browser browser, int timeout) {
+    return status(browser, true, timeout);
   }
 
-  public static int status(BrowserDriver driver, boolean wait) {
-    return status(driver, wait, TIMEOUT);
+  public static int status(Browser browser, boolean wait) {
+    return status(browser, wait, TIMEOUT);
   }
 
-  private static int status(BrowserDriver driver, boolean wait, int timeout) {
+  private static int status(Browser browser, boolean wait, int timeout) {
     Log.debug("check status...", WebApp.DEBUG);
     int totalWait = 0;
     String src = null;
     while (totalWait < timeout) {
       src = null;
       try {
-        src = driver.getPageSource();
+        src = browser.getPageSource();
         if (!CommonUtil.isEmpty(src)) {
           synchronized (lock) {
             prevLen = len;
@@ -141,12 +141,12 @@ public class HttpStatus implements WebResource {
       if (validLen && hasContent(null, src)) {
         Log.debug("status - page unchanged...", WebApp.DEBUG);
         try {
-          driver.getKeyboard().sendKeys(Keys.ESCAPE);
+          browser.getKeyboard().sendKeys(Keys.ESCAPE);
         } catch (Throwable t) {
           Log.exception(t);
         }
-        BrowserUtil.driverSleepVeryShort();
-        if (hasContent(driver, src)) {
+        BrowserUtil.browserSleepVeryShort();
+        if (hasContent(browser, src)) {
           synchronized (lock) {
             status = 200;
           }

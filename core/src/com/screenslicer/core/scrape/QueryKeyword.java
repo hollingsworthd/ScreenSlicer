@@ -32,12 +32,12 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.BrowserDriver;
-import org.openqa.selenium.remote.BrowserDriver.Fatal;
-import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.request.KeywordQuery;
+import com.screenslicer.browser.Browser;
+import com.screenslicer.browser.Browser.Fatal;
+import com.screenslicer.browser.Browser.Retry;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
@@ -72,10 +72,10 @@ public class QueryKeyword {
   }
 
   private static List<WebElement> findSearchBox(
-      BrowserDriver driver, boolean strict) throws ActionFailed {
+      Browser browser, boolean strict) throws ActionFailed {
     try {
       List<WebElement> searchBoxes = new ArrayList<WebElement>();
-      List<WebElement> allInputs = driver.findElementsByTagName("input");
+      List<WebElement> allInputs = browser.findElementsByTagName("input");
       for (WebElement searchBox : allInputs) {
         if (searchBox.getAttribute("type").equalsIgnoreCase("text")
             || searchBox.getAttribute("type").equalsIgnoreCase("search")) {
@@ -110,28 +110,28 @@ public class QueryKeyword {
         searchBoxes.add(prioritySearchBoxes.get(0));
       }
       return searchBoxes;
-    } catch (Retry r) {
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
   }
 
-  private static void hoverClick(BrowserDriver driver, WebElement element, boolean cleanupWindows) throws ActionFailed {
+  private static void hoverClick(Browser browser, WebElement element, boolean cleanupWindows) throws ActionFailed {
     try {
-      String oldHandle = driver.getWindowHandle();
-      Actions action = driver.actions();
-      BrowserUtil.click(driver, element, false);
+      String oldHandle = browser.getWindowHandle();
+      Actions action = browser.actions();
+      BrowserUtil.click(browser, element, false);
       action.moveByOffset(-MOUSE_MOVE_OFFSET, -MOUSE_MOVE_OFFSET).perform();
       action.moveToElement(element).perform();
       action.moveByOffset(2, 2).perform();
-      BrowserUtil.driverSleepShort();
-      BrowserUtil.handleNewWindows(driver, oldHandle, cleanupWindows);
-    } catch (Retry r) {
+      BrowserUtil.browserSleepShort();
+      BrowserUtil.handleNewWindows(browser, oldHandle, cleanupWindows);
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
@@ -139,9 +139,9 @@ public class QueryKeyword {
   }
 
   private static List<WebElement> navigateToSearch(
-      BrowserDriver driver, String tagName, String type, boolean strict, boolean cleanupWindows) throws ActionFailed {
+      Browser browser, String tagName, String type, boolean strict, boolean cleanupWindows) throws ActionFailed {
     try {
-      List<WebElement> tags = driver.findElementsByTagName(tagName);
+      List<WebElement> tags = browser.findElementsByTagName(tagName);
       boolean success = false;
       for (WebElement tag : tags) {
         try {
@@ -150,14 +150,14 @@ public class QueryKeyword {
             String info = new String(tag.getAttribute("href")
                 + " " + tag.getText());
             if (searchControl.matcher(info).find()) {
-              hoverClick(driver, tag, cleanupWindows);
+              hoverClick(browser, tag, cleanupWindows);
               success = true;
               break;
             }
           }
-        } catch (Retry r) {
+        } catch (Browser.Retry r) {
           throw r;
-        } catch (Fatal f) {
+        } catch (Browser.Fatal f) {
           throw f;
         } catch (Throwable t) {
           Log.exception(t);
@@ -173,14 +173,14 @@ public class QueryKeyword {
                   + " " + tag.getAttribute("class")
                   + " " + tag.getAttribute("id"));
               if (searchControl.matcher(extendedInfo).find()) {
-                hoverClick(driver, tag, cleanupWindows);
+                hoverClick(browser, tag, cleanupWindows);
                 success = true;
                 break;
               }
             }
-          } catch (Retry r) {
+          } catch (Browser.Retry r) {
             throw r;
-          } catch (Fatal f) {
+          } catch (Browser.Fatal f) {
             throw f;
           } catch (Throwable t) {
             Log.exception(t);
@@ -188,63 +188,63 @@ public class QueryKeyword {
         }
       }
       if (success) {
-        return findSearchBox(driver, strict);
+        return findSearchBox(browser, strict);
       }
       return new ArrayList<WebElement>();
-    } catch (Retry r) {
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
   }
 
-  private static String doSearch(BrowserDriver driver, List<WebElement> searchBoxes,
+  private static String doSearch(Browser browser, List<WebElement> searchBoxes,
       String searchQuery, HtmlNode submitClick, boolean cleanupWindows) throws ActionFailed {
     try {
       for (WebElement element : searchBoxes) {
         try {
-          BrowserUtil.click(driver, element, false);
+          BrowserUtil.click(browser, element, false);
           element.clear();
-          BrowserUtil.driverSleepVeryShort();
+          BrowserUtil.browserSleepVeryShort();
           if (!CommonUtil.isEmpty(element.getAttribute("value"))) {
             element.sendKeys(delete);
-            BrowserUtil.driverSleepVeryShort();
+            BrowserUtil.browserSleepVeryShort();
           }
           element.sendKeys(searchQuery);
-          BrowserUtil.driverSleepVeryShort();
-          String beforeSource = driver.getPageSource();
-          String beforeTitle = driver.getTitle();
-          String beforeUrl = driver.getCurrentUrl();
-          String windowHandle = driver.getWindowHandle();
+          BrowserUtil.browserSleepVeryShort();
+          String beforeSource = browser.getPageSource();
+          String beforeTitle = browser.getTitle();
+          String beforeUrl = browser.getCurrentUrl();
+          String windowHandle = browser.getWindowHandle();
           if (submitClick == null) {
             element.sendKeys("\n");
           } else {
-            BrowserUtil.click(driver, BrowserUtil.toElement(driver, submitClick, null), false);
+            BrowserUtil.click(browser, BrowserUtil.toElement(browser, submitClick, null), false);
           }
-          BrowserUtil.driverSleepLong();
-          BrowserUtil.handleNewWindows(driver, windowHandle, cleanupWindows);
-          String afterSource = driver.getPageSource();
-          String afterTitle = driver.getTitle();
-          String afterUrl = driver.getCurrentUrl();
+          BrowserUtil.browserSleepLong();
+          BrowserUtil.handleNewWindows(browser, windowHandle, cleanupWindows);
+          String afterSource = browser.getPageSource();
+          String afterTitle = browser.getTitle();
+          String afterUrl = browser.getCurrentUrl();
           if (!beforeTitle.equals(afterTitle)
               || !beforeUrl.equals(afterUrl)
               || Math.abs(beforeSource.length() - afterSource.length()) > MIN_SOURCE_DIFF) {
-            handleIframe(driver, cleanupWindows);
-            return driver.getPageSource();
+            handleIframe(browser, cleanupWindows);
+            return browser.getPageSource();
           }
-        } catch (Retry r) {
+        } catch (Browser.Retry r) {
           throw r;
-        } catch (Fatal f) {
+        } catch (Browser.Fatal f) {
           throw f;
         } catch (Throwable t) {
           Log.exception(t);
         }
       }
-    } catch (Retry r) {
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       Log.exception(t);
@@ -252,13 +252,13 @@ public class QueryKeyword {
     throw new ActionFailed();
   }
 
-  private static void handleIframe(BrowserDriver driver, boolean cleanupWindows) throws ActionFailed {
+  private static void handleIframe(Browser browser, boolean cleanupWindows) throws ActionFailed {
     List<WebElement> iframes = null;
     try {
-      iframes = driver.findElementsByTagName("iframe");
-    } catch (Retry r) {
+      iframes = browser.findElementsByTagName("iframe");
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
@@ -274,27 +274,27 @@ public class QueryKeyword {
               String origUrl = null;
               String newHandle = null;
               try {
-                origHandle = driver.getWindowHandle();
-                origUrl = driver.getCurrentUrl();
-                newHandle = BrowserUtil.newWindow(driver, cleanupWindows);
-              } catch (Retry r) {
+                origHandle = browser.getWindowHandle();
+                origUrl = browser.getCurrentUrl();
+                newHandle = BrowserUtil.newWindow(browser, cleanupWindows);
+              } catch (Browser.Retry r) {
                 throw r;
-              } catch (Fatal f) {
+              } catch (Browser.Fatal f) {
                 throw f;
               } catch (Throwable t) {
                 throw new ActionFailed(t);
               }
               boolean undo = false;
               try {
-                BrowserUtil.get(driver, src, true, cleanupWindows);
-                driver.executeScript("document.getElementsByTagName('html')[0].style.overflow='scroll';");
-                BrowserUtil.driverSleepShort();
-                if (driver.findElementByTagName("body").getText().length() < MIN_SOURCE_DIFF) {
+                BrowserUtil.get(browser, src, true, cleanupWindows);
+                browser.executeScript("document.getElementsByTagName('html')[0].style.overflow='scroll';");
+                BrowserUtil.browserSleepShort();
+                if (browser.findElementByTagName("body").getText().length() < MIN_SOURCE_DIFF) {
                   undo = true;
                 }
-              } catch (Retry r) {
+              } catch (Browser.Retry r) {
                 throw r;
-              } catch (Fatal f) {
+              } catch (Browser.Fatal f) {
                 throw f;
               } catch (Throwable t) {
                 Log.exception(t);
@@ -303,90 +303,90 @@ public class QueryKeyword {
               try {
                 if (undo) {
                   if (origHandle.equals(newHandle)) {
-                    if (!driver.getCurrentUrl().equals(origUrl)) {
+                    if (!browser.getCurrentUrl().equals(origUrl)) {
                       try {
-                        driver.navigate().back();
-                      } catch (Retry r) {
+                        browser.navigate().back();
+                      } catch (Browser.Retry r) {
                         throw r;
-                      } catch (Fatal f) {
+                      } catch (Browser.Fatal f) {
                         throw f;
                       } catch (Throwable t) {
                         Log.exception(t);
                       }
                     }
-                    if (!driver.getCurrentUrl().equals(origUrl)) {
-                      driver.get(origUrl);
+                    if (!browser.getCurrentUrl().equals(origUrl)) {
+                      browser.get(origUrl);
                     }
                   } else {
-                    BrowserUtil.handleNewWindows(driver, origHandle, cleanupWindows);
+                    BrowserUtil.handleNewWindows(browser, origHandle, cleanupWindows);
                   }
                 } else {
-                  BrowserUtil.handleNewWindows(driver, newHandle, cleanupWindows);
+                  BrowserUtil.handleNewWindows(browser, newHandle, cleanupWindows);
                   break;
                 }
-              } catch (Retry r) {
+              } catch (Browser.Retry r) {
                 throw r;
-              } catch (Fatal f) {
+              } catch (Browser.Fatal f) {
                 throw f;
               } catch (Throwable t) {
                 throw new ActionFailed(t);
               }
             }
           }
-        } catch (Retry r) {
+        } catch (Browser.Retry r) {
           throw r;
-        } catch (Fatal f) {
+        } catch (Browser.Fatal f) {
           throw f;
         } catch (Throwable t) {
           Log.exception(t);
           continue;
         }
       }
-    } catch (Retry r) {
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
   }
 
-  public static void perform(BrowserDriver driver, KeywordQuery context, boolean cleanupWindows) throws ActionFailed {
+  public static void perform(Browser browser, KeywordQuery context, boolean cleanupWindows) throws ActionFailed {
     try {
       if (!CommonUtil.isEmpty(context.site)) {
-        BrowserUtil.get(driver, context.site, true, cleanupWindows);
+        BrowserUtil.get(browser, context.site, true, cleanupWindows);
       }
-      BrowserUtil.doClicks(driver, context.preAuthClicks, null, false);
-      QueryCommon.doAuth(driver, context.credentials);
-      BrowserUtil.doClicks(driver, context.preSearchClicks, null, false);
+      BrowserUtil.doClicks(browser, context.preAuthClicks, null, false);
+      QueryCommon.doAuth(browser, context.credentials);
+      BrowserUtil.doClicks(browser, context.preSearchClicks, null, false);
       if (!CommonUtil.isEmpty(context.keywords)) {
-        List<WebElement> searchBoxes = findSearchBox(driver, true);
-        String searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
+        List<WebElement> searchBoxes = findSearchBox(browser, true);
+        String searchResult = doSearch(browser, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
         String[] fallbackNames =
             new String[] { "button", "input", "input", "div", "label", "span", "li", "ul", "a" };
         String[] fallbackTypes =
             new String[] { null, "button", "submit", null, null, null, null, null, null };
         for (int i = 0; i < fallbackNames.length && searchResult == null; i++) {
-          searchBoxes = navigateToSearch(driver,
+          searchBoxes = navigateToSearch(browser,
               fallbackNames[i], fallbackTypes[i], true, cleanupWindows);
-          searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
+          searchResult = doSearch(browser, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
         }
         if (searchResult == null) {
-          searchBoxes = findSearchBox(driver, false);
-          searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
+          searchBoxes = findSearchBox(browser, false);
+          searchResult = doSearch(browser, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
         }
         if (searchResult == null) {
           for (int i = 0; i < fallbackNames.length && searchResult == null; i++) {
-            searchBoxes = navigateToSearch(driver,
+            searchBoxes = navigateToSearch(browser,
                 fallbackNames[i], fallbackTypes[i], false, cleanupWindows);
-            searchResult = doSearch(driver, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
+            searchResult = doSearch(browser, searchBoxes, context.keywords, context.searchSubmitClick, cleanupWindows);
           }
         }
       }
-      BrowserUtil.doClicks(driver, context.postSearchClicks, null, false);
-    } catch (Retry r) {
+      BrowserUtil.doClicks(browser, context.postSearchClicks, null, false);
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);

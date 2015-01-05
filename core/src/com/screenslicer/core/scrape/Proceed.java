@@ -34,11 +34,11 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.BrowserDriver;
-import org.openqa.selenium.remote.BrowserDriver.Fatal;
-import org.openqa.selenium.remote.BrowserDriver.Retry;
 
 import com.screenslicer.api.datatype.HtmlNode;
+import com.screenslicer.browser.Browser;
+import com.screenslicer.browser.Browser.Fatal;
+import com.screenslicer.browser.Browser.Retry;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.HtmlCoder;
 import com.screenslicer.common.Log;
@@ -83,26 +83,26 @@ public class Proceed {
     return nodeText.length() < MAX_PRIMARY_LEN && dist < referenceText.length() / 2;
   }
 
-  public static String perform(BrowserDriver driver, HtmlNode[] proceedClicks, int pageNum, String priorTextLabel) throws End, ActionFailed {
+  public static String perform(Browser browser, HtmlNode[] proceedClicks, int pageNum, String priorTextLabel) throws End, ActionFailed {
     try {
-      Element body = BrowserUtil.openElement(driver, true, null, null, null, null);
-      String origSrc = driver.getPageSource();
-      String origTitle = driver.getTitle();
-      String origUrl = driver.getCurrentUrl();
+      Element body = BrowserUtil.openElement(browser, true, null, null, null, null);
+      String origSrc = browser.getPageSource();
+      String origTitle = browser.getTitle();
+      String origUrl = browser.getCurrentUrl();
       if (!CommonUtil.isEmpty(proceedClicks)) {
-        BrowserUtil.doClicks(driver, proceedClicks, body, false);
+        BrowserUtil.doClicks(browser, proceedClicks, body, false);
         return null;
       } else {
         Context context = perform(body, pageNum, priorTextLabel);
         if (context != null && context.node != null) {
-          WebElement element = BrowserUtil.toElement(driver, context.node);
+          WebElement element = BrowserUtil.toElement(browser, context.node);
           if (element != null) {
-            boolean success = BrowserUtil.click(driver, element, false);
+            boolean success = BrowserUtil.click(browser, element, false);
             if (success) {
-              BrowserUtil.driverSleepLong();
-              String newSource = driver.getPageSource();
-              String newTitle = driver.getTitle();
-              String newUrl = driver.getCurrentUrl();
+              BrowserUtil.browserSleepLong();
+              String newSource = browser.getPageSource();
+              String newTitle = browser.getTitle();
+              String newUrl = browser.getCurrentUrl();
               if (origSrc.hashCode() != newSource.hashCode()
                   || !origTitle.equals(newTitle)
                   || !origUrl.equals(newUrl)) {
@@ -112,9 +112,9 @@ public class Proceed {
           }
         }
       }
-    } catch (Retry r) {
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       Log.exception(t);
@@ -219,9 +219,9 @@ public class Proceed {
         }
         numberLists.remove(numberList);
         numberList = numberList(body, nodeCache, intCache, numberLists, false);
-      } catch (Retry r) {
+      } catch (Browser.Retry r) {
         throw r;
-      } catch (Fatal f) {
+      } catch (Browser.Fatal f) {
         throw f;
       } catch (Throwable t) {
         Log.exception(t);

@@ -34,14 +34,14 @@ import org.jsoup.nodes.Element;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.BrowserDriver;
-import org.openqa.selenium.remote.BrowserDriver.Fatal;
-import org.openqa.selenium.remote.BrowserDriver.Retry;
 import org.openqa.selenium.support.ui.Select;
 
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.request.FormLoad;
 import com.screenslicer.api.request.FormQuery;
+import com.screenslicer.browser.Browser;
+import com.screenslicer.browser.Browser.Fatal;
+import com.screenslicer.browser.Browser.Retry;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Crypto;
 import com.screenslicer.common.Log;
@@ -68,11 +68,11 @@ public class QueryForm {
     }
   }
 
-  private static void doSubmit(BrowserDriver driver, String formId, HtmlNode submitClick) throws ActionFailed {
+  private static void doSubmit(Browser browser, String formId, HtmlNode submitClick) throws ActionFailed {
     try {
       if (submitClick == null) {
-        List<WebElement> inputs = driver.findElementById(formId).findElements(By.tagName("input"));
-        List<WebElement> buttons = driver.findElementById(formId).findElements(By.tagName("button"));
+        List<WebElement> inputs = browser.findElementById(formId).findElements(By.tagName("input"));
+        List<WebElement> buttons = browser.findElementById(formId).findElements(By.tagName("button"));
         List<WebElement> possibleSubmits = new ArrayList<WebElement>();
         List<WebElement> submits = new ArrayList<WebElement>();
         possibleSubmits.addAll(inputs);
@@ -86,9 +86,9 @@ public class QueryForm {
         try {
           if (!submits.isEmpty()) {
             if (submits.size() == 1) {
-              clicked = BrowserUtil.click(driver, submits.get(0), false);
+              clicked = BrowserUtil.click(browser, submits.get(0), false);
             } else {
-              String formHtml = CommonUtil.strip(driver.findElementById(formId).getAttribute("outerHTML"), false);
+              String formHtml = CommonUtil.strip(browser.findElementById(formId).getAttribute("outerHTML"), false);
               int minIndex = Integer.MAX_VALUE;
               WebElement firstSubmit = null;
               for (WebElement submit : submits) {
@@ -99,50 +99,50 @@ public class QueryForm {
                     minIndex = submitIndex;
                     firstSubmit = submit;
                   }
-                } catch (Retry r) {
+                } catch (Browser.Retry r) {
                   throw r;
-                } catch (Fatal f) {
+                } catch (Browser.Fatal f) {
                   throw f;
                 } catch (Throwable t) {
                   Log.exception(t);
                 }
               }
               if (firstSubmit != null) {
-                clicked = BrowserUtil.click(driver, firstSubmit, false);
+                clicked = BrowserUtil.click(browser, firstSubmit, false);
               }
             }
           }
-        } catch (Retry r) {
+        } catch (Browser.Retry r) {
           throw r;
-        } catch (Fatal f) {
+        } catch (Browser.Fatal f) {
           throw f;
         } catch (Throwable t) {
           Log.exception(t);
         }
         if (!clicked) {
-          driver.findElementById(formId).submit();
+          browser.findElementById(formId).submit();
         }
       } else {
-        BrowserUtil.click(driver, BrowserUtil.toElement(driver, submitClick, null), false);
+        BrowserUtil.click(browser, BrowserUtil.toElement(browser, submitClick, null), false);
       }
-      BrowserUtil.driverSleepLong();
-    } catch (Retry r) {
+      BrowserUtil.browserSleepLong();
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
   }
 
-  public static void perform(BrowserDriver driver, FormQuery context, boolean cleanupWindows) throws ActionFailed {
+  public static void perform(Browser browser, FormQuery context, boolean cleanupWindows) throws ActionFailed {
     try {
       if (!CommonUtil.isEmpty(context.site)) {
-        BrowserUtil.get(driver, context.site, true, cleanupWindows);
+        BrowserUtil.get(browser, context.site, true, cleanupWindows);
       }
-      BrowserUtil.doClicks(driver, context.preAuthClicks, null, false);
-      QueryCommon.doAuth(driver, context.credentials);
-      BrowserUtil.doClicks(driver, context.preSearchClicks, null, false);
+      BrowserUtil.doClicks(browser, context.preAuthClicks, null, false);
+      QueryCommon.doAuth(browser, context.credentials);
+      BrowserUtil.doClicks(browser, context.preSearchClicks, null, false);
       Map<String, HtmlNode> formControls = new HashMap<String, HtmlNode>();
       for (int i = 0; i < context.formSchema.length; i++) {
         formControls.put(context.formSchema[i].guid, context.formSchema[i]);
@@ -151,7 +151,7 @@ public class QueryForm {
       boolean valueChanged = false;
       int count = 0;
       final int MAX_TRIES = 3;
-      Element body = BrowserUtil.openElement(driver, true, null, null, null, null);
+      Element body = BrowserUtil.openElement(browser, true, null, null, null, null);
       if (formData != null) {
         do {
           ++count;
@@ -162,7 +162,7 @@ public class QueryForm {
               if (!CommonUtil.isEmpty(entry.getValue())) {
                 if ("select".equalsIgnoreCase(formControl.tagName)) {
                   Log.debug("Query Form: select", WebApp.DEBUG);
-                  Select select = new Select(BrowserUtil.toElement(driver, formControl, body));
+                  Select select = new Select(BrowserUtil.toElement(browser, formControl, body));
                   if (select.isMultiple()) {
                     select.deselectAll();
                   }
@@ -185,20 +185,20 @@ public class QueryForm {
                     for (String val : entry.getValue()) {
                       valueChanged = true;
                       select.selectByValue(val);
-                      BrowserUtil.driverSleepVeryShort();
+                      BrowserUtil.browserSleepVeryShort();
                     }
                   }
                 } else if ("input".equalsIgnoreCase(formControl.tagName)
                     && ("text".equalsIgnoreCase(formControl.type)
                     || "search".equalsIgnoreCase(formControl.type))) {
                   Log.debug("Query Form: input[text|search]", WebApp.DEBUG);
-                  WebElement element = BrowserUtil.toElement(driver, formControl, body);
-                  valueChanged = QueryCommon.typeText(driver, element, entry.getValue().get(0), true, false);
+                  WebElement element = BrowserUtil.toElement(browser, formControl, body);
+                  valueChanged = QueryCommon.typeText(browser, element, entry.getValue().get(0), true, false);
                 } else if ("input".equalsIgnoreCase(formControl.tagName)
                     && ("checkbox".equalsIgnoreCase(formControl.type)
                     || "radio".equalsIgnoreCase(formControl.type))) {
                   Log.debug("Query Form: input[checkbox|radio]", WebApp.DEBUG);
-                  WebElement element = BrowserUtil.toElement(driver, formControl, body);
+                  WebElement element = BrowserUtil.toElement(browser, formControl, body);
                   if (entry.getValue() != null && !entry.getValue().isEmpty()) {
                     if ("radio".equalsIgnoreCase(formControl.type)) {
                       String elementVal = element.getAttribute("value");
@@ -209,51 +209,51 @@ public class QueryForm {
                           && modelVal.equalsIgnoreCase(schemaVal)) {
                         if (!element.isSelected()) {
                           Log.debug("Clicking radio button", WebApp.DEBUG);
-                          valueChanged = BrowserUtil.click(driver, element, false);
+                          valueChanged = BrowserUtil.click(browser, element, false);
                         }
                       }
                     } else if (!element.isSelected()) {
                       Log.debug("Clicking [checkbox|radio]", WebApp.DEBUG);
-                      valueChanged = BrowserUtil.click(driver, element, false);
+                      valueChanged = BrowserUtil.click(browser, element, false);
                     }
                   } else {
                     if (element.isSelected()) {
                       Log.debug("Deselecting [checkbox|radio]", WebApp.DEBUG);
                       valueChanged = true;
                       element.clear();
-                      BrowserUtil.driverSleepVeryShort();
+                      BrowserUtil.browserSleepVeryShort();
                     }
                   }
                 }
               }
-            } catch (Retry r) {
+            } catch (Browser.Retry r) {
               throw r;
-            } catch (Fatal f) {
+            } catch (Browser.Fatal f) {
               throw f;
             } catch (Throwable t) {
               Log.exception(t);
             }
           }
         } while (valueChanged && count < MAX_TRIES);
-        doSubmit(driver, context.formId, context.searchSubmitClick);
+        doSubmit(browser, context.formId, context.searchSubmitClick);
       }
-      BrowserUtil.doClicks(driver, context.postSearchClicks, null, false);
-    } catch (Retry r) {
+      BrowserUtil.doClicks(browser, context.postSearchClicks, null, false);
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
     }
   }
 
-  public static List<HtmlNode> load(BrowserDriver driver, FormLoad context, boolean cleanupWindows) throws ActionFailed {
+  public static List<HtmlNode> load(Browser browser, FormLoad context, boolean cleanupWindows) throws ActionFailed {
     try {
-      BrowserUtil.get(driver, context.site, true, cleanupWindows);
-      BrowserUtil.doClicks(driver, context.preAuthClicks, null, false);
-      QueryCommon.doAuth(driver, context.credentials);
-      BrowserUtil.doClicks(driver, context.preSearchClicks, null, false);
-      WebElement form = driver.findElementById(context.formId);
+      BrowserUtil.get(browser, context.site, true, cleanupWindows);
+      BrowserUtil.doClicks(browser, context.preAuthClicks, null, false);
+      QueryCommon.doAuth(browser, context.credentials);
+      BrowserUtil.doClicks(browser, context.preSearchClicks, null, false);
+      WebElement form = browser.findElementById(context.formId);
       Map<HtmlNode, String> controlsHtml = new HashMap<HtmlNode, String>();
       String formHtml = CommonUtil.strip(form.getAttribute("outerHTML"), false);
       List<WebElement> elements = new ArrayList<WebElement>();
@@ -304,13 +304,13 @@ public class QueryForm {
           controlsHtml.put(control, CommonUtil.strip(element.getAttribute("outerHTML"), false));
         }
       }
-      loadLabels(driver, controls);
+      loadLabels(browser, controls);
       loadGuids(controls);
       Collections.sort(controls, new ControlComparator(formHtml, controlsHtml));
       return filterControls(controls);
-    } catch (Retry r) {
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
@@ -370,9 +370,9 @@ public class QueryForm {
             || !control.type.equalsIgnoreCase("submit"));
   }
 
-  private static void loadLabels(BrowserDriver driver, List<HtmlNode> controls) throws ActionFailed {
+  private static void loadLabels(Browser browser, List<HtmlNode> controls) throws ActionFailed {
     try {
-      List<WebElement> labels = driver.findElementsByTagName("label");
+      List<WebElement> labels = browser.findElementsByTagName("label");
       Map<String, String> labelMap = new HashMap<String, String>();
       for (WebElement label : labels) {
         String labelFor = label.getAttribute("for");
@@ -386,9 +386,9 @@ public class QueryForm {
           control.label = labelMap.get(control.id);
         }
       }
-    } catch (Retry r) {
+    } catch (Browser.Retry r) {
       throw r;
-    } catch (Fatal f) {
+    } catch (Browser.Fatal f) {
       throw f;
     } catch (Throwable t) {
       throw new ActionFailed(t);
