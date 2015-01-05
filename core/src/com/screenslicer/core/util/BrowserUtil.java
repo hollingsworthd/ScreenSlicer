@@ -47,8 +47,6 @@ import org.openqa.selenium.interactions.Actions;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.datatype.UrlTransform;
 import com.screenslicer.browser.Browser;
-import com.screenslicer.browser.Browser.Fatal;
-import com.screenslicer.browser.Browser.Retry;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;

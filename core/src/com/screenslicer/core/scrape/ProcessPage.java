@@ -39,8 +39,6 @@ import org.jsoup.select.NodeVisitor;
 import com.screenslicer.api.datatype.Result;
 import com.screenslicer.api.request.Query;
 import com.screenslicer.browser.Browser;
-import com.screenslicer.browser.Browser.Fatal;
-import com.screenslicer.browser.Browser.Retry;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;

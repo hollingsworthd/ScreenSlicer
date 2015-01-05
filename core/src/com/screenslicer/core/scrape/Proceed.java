@@ -37,8 +37,6 @@ import org.openqa.selenium.WebElement;
 
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.browser.Browser;
-import com.screenslicer.browser.Browser.Fatal;
-import com.screenslicer.browser.Browser.Retry;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.HtmlCoder;
 import com.screenslicer.common.Log;

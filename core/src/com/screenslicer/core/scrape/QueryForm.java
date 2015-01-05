@@ -40,8 +40,6 @@ import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.request.FormLoad;
 import com.screenslicer.api.request.FormQuery;
 import com.screenslicer.browser.Browser;
-import com.screenslicer.browser.Browser.Fatal;
-import com.screenslicer.browser.Browser.Retry;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Crypto;
 import com.screenslicer.common.Log;
