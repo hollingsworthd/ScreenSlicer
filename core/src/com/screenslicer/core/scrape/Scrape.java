@@ -1,6 +1,6 @@
 /* 
  * ScreenSlicer (TM) -- automatic, zero-config web scraping (TM)
- * Copyright (C) 2013-2015 Machine Publishers, LLC (Cincinnati, Ohio)
+ * Copyright (C) 2013-2015 Machine Publishers, LLC
  * ops@machinepublishers.com | screenslicer.com | machinepublishers.com
  * Cincinnati, Ohio, USA
  *
