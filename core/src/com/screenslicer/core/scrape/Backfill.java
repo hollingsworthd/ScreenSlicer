@@ -25,6 +25,7 @@
 package com.screenslicer.core.scrape;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -38,8 +39,6 @@ import org.jsoup.select.Elements;
 
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.util.NodeUtil;
-
-import edu.emory.mathcs.backport.java.util.Arrays;
 
 public class Backfill {
   private static final int MAX_CSS_CLASSES = 2;

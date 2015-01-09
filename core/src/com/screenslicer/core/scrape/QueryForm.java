@@ -25,6 +25,7 @@
 package com.screenslicer.core.scrape;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
@@ -46,8 +47,6 @@ import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
 import com.screenslicer.core.util.BrowserUtil;
 import com.screenslicer.webapp.WebApp;
-
-import edu.emory.mathcs.backport.java.util.Collections;
 
 public class QueryForm {
   private static final double NAMED_CONTROLS_MIN_RATIO = .75;

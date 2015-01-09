@@ -27,6 +27,7 @@ package com.screenslicer.core.nlp;
 import java.io.File;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -46,7 +47,6 @@ import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.nlp.resource.NlpResource;
 
-import edu.emory.mathcs.backport.java.util.Arrays;
 import edu.mit.jwi.Dictionary;
 import edu.mit.jwi.IDictionary;
 import edu.mit.jwi.morph.WordnetStemmer;
