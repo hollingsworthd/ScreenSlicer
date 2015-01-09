@@ -44,9 +44,9 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import com.machinepublishers.browser.Browser;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.datatype.UrlTransform;
-import com.screenslicer.browser.Browser;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;

@@ -36,10 +36,10 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import com.machinepublishers.browser.Browser;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.request.FormLoad;
 import com.screenslicer.api.request.FormQuery;
-import com.screenslicer.browser.Browser;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Crypto;
 import com.screenslicer.common.Log;

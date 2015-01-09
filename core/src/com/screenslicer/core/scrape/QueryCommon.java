@@ -31,8 +31,8 @@ import java.util.regex.Pattern;
 
 import org.openqa.selenium.WebElement;
 
+import com.machinepublishers.browser.Browser;
 import com.screenslicer.api.datatype.Credentials;
-import com.screenslicer.browser.Browser;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
 import com.screenslicer.core.util.BrowserUtil;

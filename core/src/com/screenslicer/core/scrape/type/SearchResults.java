@@ -29,9 +29,9 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 
+import com.machinepublishers.browser.Browser;
 import com.screenslicer.api.datatype.Result;
 import com.screenslicer.api.request.Query;
-import com.screenslicer.browser.Browser;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.ProcessPage;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;

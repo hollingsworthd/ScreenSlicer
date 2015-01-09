@@ -33,9 +33,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import com.machinepublishers.browser.Browser;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.request.KeywordQuery;
-import com.screenslicer.browser.Browser;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;

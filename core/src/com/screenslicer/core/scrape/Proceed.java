@@ -35,8 +35,8 @@ import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
 import org.openqa.selenium.WebElement;
 
+import com.machinepublishers.browser.Browser;
 import com.screenslicer.api.datatype.HtmlNode;
-import com.screenslicer.browser.Browser;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.HtmlCoder;
 import com.screenslicer.common.Log;

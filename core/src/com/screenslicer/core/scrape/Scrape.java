@@ -44,6 +44,7 @@ import org.openqa.selenium.io.TemporaryFilesystem;
 import org.openqa.selenium.remote.FirefoxBrowser;
 import org.openqa.selenium.remote.FirefoxBrowser.Profile;
 
+import com.machinepublishers.browser.Browser;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.datatype.Proxy;
 import com.screenslicer.api.datatype.Result;
@@ -54,7 +55,6 @@ import com.screenslicer.api.request.FormQuery;
 import com.screenslicer.api.request.KeywordQuery;
 import com.screenslicer.api.request.Query;
 import com.screenslicer.api.request.Request;
-import com.screenslicer.browser.Browser;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.common.Random;
