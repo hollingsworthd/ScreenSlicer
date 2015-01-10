@@ -1,13 +1,8 @@
-![ScreenSlicer](//cloud.githubusercontent.com/assets/5241490/5335194/a4769852-7e72-11e4-951e-bba57afaa1d0.png)
-====
+![ScreenSlicer](https://cloud.githubusercontent.com/assets/5241490/5335194/a4769852-7e72-11e4-951e-bba57afaa1d0.png)
 
-Licensed under the GNU Affero General Public License version 3 ([details](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE)). Projects utilizing ScreenSlicer must be licensed as Affero GPLv3 as well. Commercial licensing and hosted service are [available].
+Licensed under the GNU Affero General Public License version 3 ([details](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE)). Projects utilizing ScreenSlicer must be licensed as Affero GPLv3 as well. Commercial licensing and hosted service are [available](https://screenslicer.com/pricing).
 
-**Latest release:** https://github.com/MachinePublishers/ScreenSlicer/releases/latest
-
-**Installation instructions:** https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-Installation
-
-**API documentation:** https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-API
+[Latest release](https://github.com/MachinePublishers/ScreenSlicer/releases/latest) | [Installation instructions](https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-Installation) | [API documentation](https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-API)
 
 ### Overview
 
