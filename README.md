@@ -1,14 +1,13 @@
-### ScreenSlicer&#8482; -- automatic, zero-config web scraping&#8482;
+![ScreenSlicer](//cloud.githubusercontent.com/assets/5241490/5335194/a4769852-7e72-11e4-951e-bba57afaa1d0.png)
+====
 
-**Licensed under the GNU Affero General Public License version 3.** In a nutshell, the [license](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE) means that all modified versions and linked subprograms (programs communicated with over APIs, HTTP, etc.) must disclose their entire source code to every user and that they must also be licensed as Affero GPLv3 or compatible.
+Licensed under the GNU Affero General Public License version 3 ([details](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE)). Projects utilizing ScreenSlicer must be licensed as Affero GPLv3 as well. Commercial licensing and hosted service are [available].
 
-*Additional licensing permissions (suitable for proprietary commercial development) and support are available for paying customers. See [LICENSE](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE) file for details.*
+**Latest release:** https://github.com/MachinePublishers/ScreenSlicer/releases/latest
 
-**Try a demo at** https://screenslicer.com/
+**Installation instructions:** https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-Installation
 
-**Download the latest release at** https://github.com/MachinePublishers/ScreenSlicer/releases/latest
-
-**For paid licensing or consulting, email** ops@machinepublishers.com
+**API documentation:** https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-API
 
 ### Overview
 
@@ -17,11 +16,3 @@ ScreenSlicer is a web scraper. It requires no configuration, and it automaticall
 Clustering is built in. Each request accepts IP addresses of ScreenSlicer servers (see API docs linked below) and your requests will be balanced in a queue, with requests diverted away from busy servers. Messages between servers are encrypted with no need for SSL--just share a duplicate screenslicer.config file with each installation (this file is auto-generated at the root of the installation directory on first launch).
 
 Proxying is supported and a proxy server can be specified on each request. SOCKS 5, SOCKS 4, HTTP, and SSL proxies can be used. The default proxy is a SOCKS 5 server running at 127.0.0.1:9050 (the standard connection for tor-socks which the installation instructions have you install). You can also use proxies which require username and password.
-
-### Installation instructions
-
-https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-Installation
-
-### API documentation
-
-https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-API
