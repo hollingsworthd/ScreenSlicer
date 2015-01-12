@@ -30,8 +30,20 @@ import org.apache.commons.codec.digest.DigestUtils;
 
 public class Random {
   private static final SecureRandom rand = new SecureRandom();
+  private static final long[] seeds = new long[] { rand.nextLong(), rand.nextLong(), rand.nextLong() };
 
   public static String next() {
-    return DigestUtils.sha256Hex(Long.toString(rand.nextLong()));
+    StackTraceElement[] elements = new Throwable().getStackTrace();
+    StringBuilder builder = new StringBuilder();
+    builder.append(rand.nextLong());
+    builder.append((seeds[rand.nextInt(seeds.length)] - rand.nextLong()));
+    builder.append(Runtime.getRuntime().freeMemory());
+    builder.append(elements[rand.nextInt(elements.length)].getClassName());
+    builder.append(elements[rand.nextInt(elements.length)].getFileName());
+    builder.append(elements[rand.nextInt(elements.length)].getLineNumber());
+    builder.append(elements[rand.nextInt(elements.length)].getMethodName());
+    builder.append(Long.toString(rand.nextLong(),
+        rand.nextInt(Character.MAX_RADIX - Character.MIN_RADIX + 1) + Character.MIN_RADIX));
+    return DigestUtils.sha256Hex(builder.toString());
   }
 }
