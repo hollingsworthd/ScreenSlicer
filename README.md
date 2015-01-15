@@ -11,3 +11,8 @@ ScreenSlicer is a web scraper. It requires no configuration, and it automaticall
 Clustering is built in. Each request accepts IP addresses of ScreenSlicer servers (see API docs linked below) and your requests will be balanced in a queue, with requests diverted away from busy servers. Messages between servers are encrypted with no need for SSL--just share a duplicate screenslicer.config file with each installation (this file is auto-generated at the root of the installation directory on first launch).
 
 Proxying is supported and a proxy server can be specified on each request. SOCKS 5, SOCKS 4, HTTP, and SSL proxies can be used. The default proxy is a SOCKS 5 server running at 127.0.0.1:9050 (the standard connection for tor-socks which the installation instructions have you install). You can also use proxies which require username and password.
+
+###
+
+For commercial service and support: ops@machinepublishers.com
+Copyright (C) 2013-2015 [Machine Publishers, LLC](https://machinepublishers.com)
