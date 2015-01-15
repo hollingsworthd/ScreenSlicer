@@ -12,7 +12,8 @@ Clustering is built in. Each request accepts IP addresses of ScreenSlicer server
 
 Proxying is supported and a proxy server can be specified on each request. SOCKS 5, SOCKS 4, HTTP, and SSL proxies can be used. The default proxy is a SOCKS 5 server running at 127.0.0.1:9050 (the standard connection for tor-socks which the installation instructions have you install). You can also use proxies which require username and password.
 
-###
+- - -
 
 For commercial service and support: ops@machinepublishers.com
+
 Copyright (C) 2013-2015 [Machine Publishers, LLC](https://machinepublishers.com)
