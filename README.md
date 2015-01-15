@@ -1,8 +1,14 @@
 ![ScreenSlicer](https://cloud.githubusercontent.com/assets/5241490/5335194/a4769852-7e72-11e4-951e-bba57afaa1d0.png)
 
-Licensed under the GNU Affero General Public License version 3 ([details](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE)). Projects utilizing ScreenSlicer must be licensed as Affero GPLv3 except when commercial licensing or service are [purchased](https://screenslicer.com/pricing) from Machine Publishers, LLC.
+Licensed under the GNU Affero General Public License version 3 ([details](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE)).
+
+Projects utilizing ScreenSlicer must be licensed as Affero GPLv3 except when commercial licensing or service are [purchased](https://screenslicer.com/pricing) from Machine Publishers, LLC.
+
+- - -
 
 [Download](https://github.com/MachinePublishers/ScreenSlicer/releases/latest) | [Getting Started](https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-Installation) | [API Docs](https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-API) | [Build Guide](https://github.com/MachinePublishers/ScreenSlicer/wiki/Building-ScreenSlicer) | [Also see: jBrowserDriver](https://github.com/MachinePublishers/jBrowserDriver)
+
+- - -
 
 ### Overview
 
@@ -13,7 +19,5 @@ Clustering is built in. Each request accepts IP addresses of ScreenSlicer server
 Proxying is supported and a proxy server can be specified on each request. SOCKS 5, SOCKS 4, HTTP, and SSL proxies can be used. The default proxy is a SOCKS 5 server running at 127.0.0.1:9050 (the standard connection for tor-socks which the installation instructions have you install). You can also use proxies which require username and password.
 
 - - -
-
-For commercial service and support: ops@machinepublishers.com
 
 Copyright (C) 2013-2015 [Machine Publishers, LLC](https://machinepublishers.com)
