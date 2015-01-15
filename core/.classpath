@@ -4,7 +4,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/common"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/webapp"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/api"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/browser"/>
 	<classpathentry kind="lib" path="/common/lib/core/antlr-3.2.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/boilerpipe-2012.03.24.jar"/>
 	<classpathentry kind="lib" path="/common/lib/core/edu.mit.jwi_2.3.3.jar"/>
@@ -45,8 +44,7 @@
 	<classpathentry kind="lib" path="/common/lib/selenium-shared/netty-all-4.0.23.Final.jar"/>
 	<classpathentry kind="lib" path="/common/lib/selenium-shared/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="/common/lib/selenium-shared/xml-apis-1.4.01.jar"/>
-	<classpathentry kind="lib" path="/common/lib/core/openjfx-monocle-1.8.0_20-sources.jar"/>
-	<classpathentry kind="lib" path="/common/lib/core/openjfx-monocle-1.8.0_20.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/browser"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
