@@ -2,7 +2,7 @@
 
 Licensed under the GNU Affero General Public License version 3 ([details](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE)). Projects utilizing ScreenSlicer must be licensed as Affero GPLv3 as well. Commercial licensing and hosted service are [available](https://screenslicer.com/pricing).
 
-[Latest release](https://github.com/MachinePublishers/ScreenSlicer/releases/latest) | [Installation instructions](https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-Installation) | [API documentation](https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-API) | [jBrowserDriver](https://github.com/MachinePublishers/jBrowserDriver)
+[Latest release](https://github.com/MachinePublishers/ScreenSlicer/releases/latest) | [Installation instructions](https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-Installation) | [API documentation](https://github.com/MachinePublishers/ScreenSlicer/wiki/ScreenSlicer-API) | [Build instructions] | [jBrowserDriver - headless browser API](https://github.com/MachinePublishers/jBrowserDriver)
 
 ### Overview
 
