@@ -18,9 +18,10 @@
     FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License version 3
     for more details.
 
-    "ScreenSlicer", "Machine Publishers", and "automatic, zero-config web scraping"
-    are trademarks of Machine Publishers, LLC and may not be infringed upon in order
-    to name or endorse any modifications or uses of this program or similar ones.
+    "ScreenSlicer", "jBrowserDriver", "Machine Publishers", and "automatic,
+    zero-config web scraping" are trademarks of Machine Publishers, LLC and may not
+    be infringed upon in order to name or endorse any modifications or uses of this
+    program or similar ones.
 
     The full license is as follows, preceded by conditional permissions.
 
@@ -52,7 +53,10 @@ Permissions:
      requests for the Program and receive good faith responses in a timely manner; and
 
   6) to electronically access all future Program updates to the original version
-     free of charge.
+     free of charge; and
+
+  7) to be granted this License and Conditional Permissions for jBrowserDriver which is
+     a separate work by Machine Publishers, LLC.
 
 Obligations:
 
@@ -779,10 +783,12 @@ For more information on this, and how to apply and follow the GNU AGPL, see
 <http://www.gnu.org/licenses/>.
 
 
-
          THIRD PARTY LICENSES, COPYRIGHTS, NOTICES, AND DISCLAIMERS
 
-This Program includes software developed by third parties. Their notices and
+This Program includes jBrowserDriver by Machine Publishers, LLC which is licensed under
+the GNU Affero General Public License version 3.
+
+This Program also includes software developed by third parties. Their notices and
 licenses are as follows.
 
   • ASM -- asm-all-repackaged-2.2.0-b21.jar:
