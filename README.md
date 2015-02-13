@@ -2,7 +2,7 @@
 
 Licensed under the GNU Affero General Public License version 3 ([details](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE)).
 
-Projects utilizing ScreenSlicer must be licensed as Affero GPLv3 except when commercial licensing or service are [purchased](https://screenslicer.com/pricing) from Machine Publishers, LLC.
+Projects utilizing ScreenSlicer must be licensed as Affero GPLv3 except when on-premise or hosted services are [purchased](https://screenslicer.com/pricing) from Machine Publishers, LLC. ScreenSlicer includes [ScreenSlicer](https://github.com/MachinePublishers/jBrowserDriver), our programmable embedded browser.
 
 - - -
 
