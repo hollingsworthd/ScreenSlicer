@@ -77,8 +77,6 @@ public final class Request {
     return CommonUtil.isEmpty(configProxies) ? new Proxy() : configProxies[rand.nextInt(configProxies.length)];
   }
 
-  public static final String BROWSER_FIREFOX = "firefox";
-
   /**
    * IP addresses of ScreenSlicer instances
    */
@@ -137,10 +135,6 @@ public final class Request {
    * Whether to enable downloads.
    */
   public boolean downloads;
-  /**
-   * Which browser to use.
-   */
-  public String browser = BROWSER_FIREFOX;
   /**
    * Browser preferences
    */

@@ -24,14 +24,11 @@
  */
 package com.screenslicer.core.util;
 
-import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.http.NameValuePair;
-import org.apache.http.client.utils.URLEncodedUtils;
 import org.jsoup.nodes.Attribute;
 import org.jsoup.nodes.Node;
 
@@ -47,7 +44,7 @@ public class UrlUtil {
   public static final Pattern uriScheme = Pattern.compile("^[A-Za-z0-9]*:.*$");
   private static final String schemeFragment = "^[A-Za-z0-9]*:?(?://)?";
 
-  private static boolean isUrlFilteredHelper(String currentUrl, String url, Node urlNode,
+  static boolean isUrlFiltered(String currentUrl, String url, Node urlNode,
       String[] whitelist, String[] patterns, HtmlNode[] urlNodes, UrlTransform[] transforms) {
     url = transformUrl(url, transforms, false);
     if (!CommonUtil.isEmpty(url)) {
@@ -74,30 +71,6 @@ public class UrlUtil {
         }
       }
     }
-    return true;
-  }
-
-  static boolean isUrlFiltered(String currentUrl, String url, Node urlNode, String[] whitelist,
-      String[] patterns, HtmlNode[] urlNodes, UrlTransform[] transforms) {
-    if (!isUrlFilteredHelper(currentUrl, url, urlNode, whitelist, patterns, urlNodes, transforms)) {
-      return false;
-    }
-    try {
-      List<NameValuePair> params = URLEncodedUtils.parse(new URI(url), "UTF-8");
-      for (NameValuePair pair : params) {
-        String param = null;
-        try {
-          param = new URI(pair.getValue()).toString();
-        } catch (Throwable t) {
-          continue;
-        }
-        if (param != null && (param.startsWith("http:") || param.startsWith("https:"))
-            && !isUrlFilteredHelper(
-                currentUrl, param.toString(), urlNode, whitelist, patterns, urlNodes, transforms)) {
-          return false;
-        }
-      }
-    } catch (Throwable t) {}
     return true;
   }
 

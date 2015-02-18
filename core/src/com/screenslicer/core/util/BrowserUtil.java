@@ -50,7 +50,6 @@ import com.screenslicer.api.datatype.UrlTransform;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
-import com.screenslicer.core.service.HttpStatus;
 import com.screenslicer.webapp.WebApp;
 
 public class BrowserUtil {
@@ -152,6 +151,10 @@ public class BrowserUtil {
     } catch (InterruptedException e) {}
   }
 
+  public static boolean statusFail(int statusCode) {
+    return statusCode < 200 || (statusCode > 299 && statusCode != 304);
+  }
+
   public static void get(Browser browser, String url, Node urlNode, boolean reAttempt, boolean toNewWindow, boolean cleanupWindows) throws ActionFailed {
     if (CommonUtil.isEmpty(url) && urlNode == null) {
       throw new ActionFailed();
@@ -244,7 +247,8 @@ public class BrowserUtil {
             if (!exception) {
               browserSleepShort();
               browserSleepLong();
-              statusFail = HttpStatus.status(browser, urlNode != null || url != null) != 200;
+              //TODO wait for long ajax requests
+              statusFail = statusFail(browser.getStatusCode());
               browser.switchTo().defaultContent();
               source = browser.getPageSource();
               try {
@@ -535,7 +539,7 @@ public class BrowserUtil {
           clicked = true;
           click(browser, element, toNewWindow == null ? controls[i].newWindow : toNewWindow);
           if (controls[i].longRequest) {
-            HttpStatus.status(browser, LONG_REQUEST_WAIT);
+            //TODO wait for long ajax requests
           }
         }
       }
