@@ -48,7 +48,7 @@ public class TrainerVisitorExtractOnce implements TrainerExtractOnce.Visitor {
     final ArrayList<String> filenames = new ArrayList<String>();
     final List<String> bump = Arrays.asList(new String[] {
         });
-    new File("./test/external/").listFiles(new FileFilter() {
+    new File(System.getProperty("screenslicer.testdata")).listFiles(new FileFilter() {
       @Override
       public boolean accept(File file) {
         if (!file.getAbsolutePath().endsWith("-success")

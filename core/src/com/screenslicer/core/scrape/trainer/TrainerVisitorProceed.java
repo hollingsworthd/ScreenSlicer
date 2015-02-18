@@ -50,7 +50,7 @@ public class TrainerVisitorProceed implements TrainerProceed.Visitor {
     final List<String> bump = Arrays.asList(new String[] {
         "buzzfeed"
     });
-    new File("./test/external/").listFiles(new FileFilter() {
+    new File(System.getProperty("screenslicer.testdata")).listFiles(new FileFilter() {
       @Override
       public boolean accept(File file) {
         if (!file.getAbsolutePath().endsWith("-success")

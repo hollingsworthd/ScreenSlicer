@@ -1,1 +1,0 @@
-<input value="Next &gt;" type="submit" class="nextPrev" onmouseover="this.className='nextPrevHov'" onmouseout="this.className='nextPrev'" name="topNext" alt="Next" style="width:38px;" />
