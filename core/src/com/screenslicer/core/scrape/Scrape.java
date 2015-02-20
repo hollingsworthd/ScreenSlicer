@@ -29,6 +29,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -43,6 +44,10 @@ import org.openqa.selenium.io.TemporaryFilesystem;
 
 import com.machinepublishers.browser.Browser;
 import com.machinepublishers.jbrowserdriver.JBrowserDriver;
+import com.machinepublishers.jbrowserdriver.ProxyConfig;
+import com.machinepublishers.jbrowserdriver.ProxyConfig.Type;
+import com.machinepublishers.jbrowserdriver.RequestHeaders;
+import com.machinepublishers.jbrowserdriver.Settings;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.datatype.Proxy;
 import com.screenslicer.api.datatype.Result;
@@ -90,10 +95,8 @@ public class Scrape {
   }
 
   private static volatile Browser browser = null;
-  private static final int MIN_SCRIPT_TIMEOUT = 30;
   private static final int MAX_INIT = 1000;
   private static final int HANG_TIME = 10 * 60 * 1000;
-  private static final int RETRIES = 7;
   private static final long WAIT = 2000;
   private static AtomicLong latestThread = new AtomicLong();
   private static AtomicLong curThread = new AtomicLong();
@@ -131,8 +134,33 @@ public class Scrape {
   }
 
   private static void start(Request req) {
+    Type proxyType = null;
+    String proxyHost = null;
+    int proxyPort = -1;
+    String proxyUser = null;
+    String proxyPassword = null;
     Proxy[] proxies = CommonUtil.isEmpty(req.proxies) ? new Proxy[] { req.proxy } : req.proxies;
-    browser = new JBrowserDriver();
+    for (int curProxy = 0; curProxy < proxies.length; curProxy++) {
+      Proxy proxy = proxies[curProxy];
+      if (proxy != null) {
+        proxyType = proxy.type == Proxy.TYPE_SOCKS
+            || proxy.type == Proxy.TYPE_ALL
+            || proxy.type == Proxy.TYPE_SOCKS_4
+            || proxy.type == Proxy.TYPE_SOCKS_5
+            ? Type.SOCKS : (proxy.type == Proxy.TYPE_HTTP || proxy.type == Proxy.TYPE_SSL
+                ? Type.HTTP : null);
+        proxyHost = proxy.ip;
+        proxyPort = proxy.port;
+        if (!CommonUtil.isEmpty(proxy.username) || !CommonUtil.isEmpty(proxy.password)) {
+          proxyUser = proxy.username == null ? "" : proxy.username;
+          proxyPassword = proxy.password == null ? "" : proxy.password;
+        }
+      }
+    }
+    browser = new JBrowserDriver(new Settings(
+        req.httpHeaders == null ? null : new RequestHeaders(new LinkedHashMap<String, String>(req.httpHeaders)),
+        null, null,
+        new ProxyConfig(proxyType, proxyHost, proxyPort, proxyUser, proxyPassword)));
     browser.manage().timeouts().pageLoadTimeout(req.timeout, TimeUnit.SECONDS);
     browser.manage().timeouts().setScriptTimeout(req.timeout, TimeUnit.SECONDS);
     browser.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);

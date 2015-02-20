@@ -137,6 +137,8 @@ public final class Request {
   public boolean downloads;
   /**
    * Browser preferences
+   * 
+   * @deprecated will be removed in version 2.0.0.
    */
   public Map<String, Object> browserPrefs;
   /**

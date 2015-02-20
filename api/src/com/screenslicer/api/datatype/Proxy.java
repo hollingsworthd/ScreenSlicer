@@ -92,6 +92,7 @@ public class Proxy {
     map.put(TYPE_ALL, new ArrayList<Proxy>());
     map.put(TYPE_SOCKS_5, new ArrayList<Proxy>());
     map.put(TYPE_SOCKS_4, new ArrayList<Proxy>());
+    map.put(TYPE_SOCKS, new ArrayList<Proxy>());
     map.put(TYPE_HTTP, new ArrayList<Proxy>());
     map.put(TYPE_SSL, new ArrayList<Proxy>());
     for (int i = 0; i < proxies.length; i++) {
@@ -100,6 +101,7 @@ public class Proxy {
     List<Proxy> toMatch = new ArrayList<Proxy>();
     toMatch.addAll(map.get(TYPE_SOCKS_5));
     toMatch.addAll(map.get(TYPE_SOCKS_4));
+    toMatch.addAll(map.get(TYPE_SOCKS));
     toMatch.addAll(map.get(TYPE_HTTP));
     toMatch.addAll(map.get(TYPE_SSL));
     Collection<String> toMatchUnique = new HashSet<String>();
@@ -122,6 +124,7 @@ public class Proxy {
     List<Proxy> socksList = new ArrayList<Proxy>();
     socksList.addAll(map.get(TYPE_SOCKS_5));
     socksList.addAll(map.get(TYPE_SOCKS_4));
+    socksList.addAll(map.get(TYPE_SOCKS));
     List<List<Proxy>> proxyLists = new ArrayList<List<Proxy>>();
     proxyLists.add(socksList);
     proxyLists.add(map.get(TYPE_HTTP));
@@ -152,10 +155,14 @@ public class Proxy {
 
   /**
    * Socks version 5 proxy
+   * 
+   * @deprecated will be removed in version 2.0.0.
    */
   public static final String TYPE_SOCKS_5 = "socks5";
   /**
    * Socks version 4 proxy
+   * 
+   * @deprecated will be removed in version 2.0.0.
    */
   public static final String TYPE_SOCKS_4 = "socks4";
   /**
@@ -163,12 +170,20 @@ public class Proxy {
    */
   public static final String TYPE_HTTP = "http";
   /**
+   * SOCKS proxy
+   */
+  public static final String TYPE_SOCKS = "socks";
+  /**
    * SSL proxy
+   * 
+   * @deprecated will be removed in version 2.0.0.
    */
   public static final String TYPE_SSL = "ssl";
   /**
    * SOCKSv5, SOCKSv4, HTTP, and SSL (i.e., settings are shared for all
    * protocols)
+   * 
+   * @deprecated will be removed in version 2.0.0.
    */
   public static final String TYPE_ALL = "all";
   /**
@@ -177,11 +192,11 @@ public class Proxy {
   public static final String TYPE_DIRECT = "direct";
   /**
    * Proxy type.
-   * Defaults to Socks version 5.
+   * Defaults to Socks.
    */
-  public String type = TYPE_SOCKS_5;
+  public String type = TYPE_SOCKS;
   /**
-   * IP address of the proxy.
+   * IP address or host of the proxy.
    * Defaults to 127.0.0.1.
    */
   public String ip = "127.0.0.1";
