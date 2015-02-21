@@ -474,28 +474,15 @@ public class BrowserUtil {
 
   public static boolean click(Browser browser, WebElement toClick, boolean shift) {
     try {
-      Actions action = browser.actions();
-      browser.executeScript("arguments[0].scrollIntoView(false)", toClick);
+      Actions action = new Actions(browser);
       BrowserUtil.browserSleepVeryShort();
       action.moveToElement(toClick).perform();
       BrowserUtil.browserSleepVeryShort();
-      String onClick = null;
       if (shift) {
-        if (toClick.getTagName().equals("a")) {
-          //disable onclick event--workaround https://bugzilla.mozilla.org/show_bug.cgi?id=151142
-          onClick = toClick.getAttribute("onclick");
-          onClick = CommonUtil.isEmpty(onClick) ? "" : (onClick.endsWith(";") ? onClick : onClick + ";");
-          onClick = onClick.replaceAll("(?<!\\\\)'", "\\\\'");
-          browser.executeScript("arguments[0].setAttribute('onclick','" + onClick
-              + "if(event && event.stopPropagation) { event.stopPropagation(); }');", toClick);
-        }
         browser.getKeyboard().pressKey(Keys.SHIFT);
       }
       toClick.click();
       if (shift) {
-        if (toClick.getTagName().equals("a")) {
-          browser.executeScript("arguments[0].setAttribute('onclick','" + onClick + "');", toClick);
-        }
         browser.getKeyboard().releaseKey(Keys.SHIFT);
       }
       BrowserUtil.browserSleepVeryShort();

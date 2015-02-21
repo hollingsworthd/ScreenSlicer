@@ -120,7 +120,7 @@ public class QueryKeyword {
   private static void hoverClick(Browser browser, WebElement element, boolean cleanupWindows) throws ActionFailed {
     try {
       String oldHandle = browser.getWindowHandle();
-      Actions action = browser.actions();
+      Actions action = new Actions(browser);
       BrowserUtil.click(browser, element, false);
       action.moveByOffset(-MOUSE_MOVE_OFFSET, -MOUSE_MOVE_OFFSET).perform();
       action.moveToElement(element).perform();

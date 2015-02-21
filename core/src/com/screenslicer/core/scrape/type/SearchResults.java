@@ -88,7 +88,7 @@ public class SearchResults {
       myInstances = new HashSet<SearchResults>(instances);
     }
     if (reset) {
-      browser.reset();
+      browser.navigate().refresh();
     }
     for (SearchResults cur : myInstances) {
       if (cur.window != null && cur.query != null && !CommonUtil.isEmpty(cur.prevResults)) {
