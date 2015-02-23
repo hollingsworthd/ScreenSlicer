@@ -40,7 +40,6 @@ import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.FileUtils;
 import org.apache.tika.Tika;
 import org.jsoup.nodes.Node;
-import org.openqa.selenium.io.TemporaryFilesystem;
 
 import com.machinepublishers.browser.Browser;
 import com.machinepublishers.jbrowserdriver.JBrowserDriver;
@@ -172,12 +171,6 @@ public class Scrape {
         browser.kill();
         BrowserUtil.browserSleepStartup();
       }
-    } catch (Throwable t) {
-      Log.exception(t);
-    }
-    try {
-      TemporaryFilesystem tempFS = TemporaryFilesystem.getDefaultTmpFS();
-      tempFS.deleteTemporaryFiles();
     } catch (Throwable t) {
       Log.exception(t);
     }
