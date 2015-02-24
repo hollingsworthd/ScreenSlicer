@@ -84,7 +84,7 @@ public class BrowserUtil {
           + "    || (eap = efp((rect.left+rect.right)/2,  (rect.top+rect.bottom)/2)) == el || el[contains](eap) == has);"
           + "}"
           + "function isVisible(element) {"
-          + "  if(window.scrollBy != 'undefined') {"
+          + "  if(window.scrollBy != undefined) {"
           + "    var rect = element.getBoundingClientRect();"
           + "    window.scrollBy(rect.left, rect.top);"
           + "    rect = element.getBoundingClientRect();"
