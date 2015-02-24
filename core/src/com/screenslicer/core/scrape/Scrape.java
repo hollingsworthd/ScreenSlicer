@@ -142,11 +142,11 @@ public class Scrape {
     for (int curProxy = 0; curProxy < proxies.length; curProxy++) {
       Proxy proxy = proxies[curProxy];
       if (proxy != null) {
-        proxyType = proxy.type == Proxy.TYPE_SOCKS
-            || proxy.type == Proxy.TYPE_ALL
-            || proxy.type == Proxy.TYPE_SOCKS_4
-            || proxy.type == Proxy.TYPE_SOCKS_5
-            ? Type.SOCKS : (proxy.type == Proxy.TYPE_HTTP || proxy.type == Proxy.TYPE_SSL
+        proxyType = proxy.type.equals(Proxy.TYPE_SOCKS)
+            || proxy.type.equals(Proxy.TYPE_ALL)
+            || proxy.type.equals(Proxy.TYPE_SOCKS_4)
+            || proxy.type.equals(Proxy.TYPE_SOCKS_5)
+            ? Type.SOCKS : (proxy.type.equals(Proxy.TYPE_HTTP) || proxy.type.equals(Proxy.TYPE_SSL)
                 ? Type.HTTP : null);
         proxyHost = proxy.ip;
         proxyPort = proxy.port;
