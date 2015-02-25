@@ -157,9 +157,14 @@ public class QueryForm {
             try {
               HtmlNode formControl = formControls.get(entry.getKey());
               if (!CommonUtil.isEmpty(entry.getValue())) {
+                WebElement element = BrowserUtil.toElement(browser, formControl, body);
+                formControl.tagName = CommonUtil.isEmpty(formControl.tagName)
+                    ? element.getTagName() : formControl.tagName;
+                formControl.type = CommonUtil.isEmpty(formControl.type)
+                    ? element.getAttribute("type") : formControl.type;
                 if ("select".equalsIgnoreCase(formControl.tagName)) {
                   Log.debug("Query Form: select", WebApp.DEBUG);
-                  Select select = new Select(BrowserUtil.toElement(browser, formControl, body));
+                  Select select = new Select(element);
                   if (select.isMultiple()) {
                     select.deselectAll();
                   }
@@ -189,13 +194,11 @@ public class QueryForm {
                     && ("text".equalsIgnoreCase(formControl.type)
                     || "search".equalsIgnoreCase(formControl.type))) {
                   Log.debug("Query Form: input[text|search]", WebApp.DEBUG);
-                  WebElement element = BrowserUtil.toElement(browser, formControl, body);
                   valueChanged = QueryCommon.typeText(browser, element, entry.getValue().get(0), true, false);
                 } else if ("input".equalsIgnoreCase(formControl.tagName)
                     && ("checkbox".equalsIgnoreCase(formControl.type)
                     || "radio".equalsIgnoreCase(formControl.type))) {
                   Log.debug("Query Form: input[checkbox|radio]", WebApp.DEBUG);
-                  WebElement element = BrowserUtil.toElement(browser, formControl, body);
                   if (entry.getValue() != null && !entry.getValue().isEmpty()) {
                     if ("radio".equalsIgnoreCase(formControl.type)) {
                       String elementVal = element.getAttribute("value");
