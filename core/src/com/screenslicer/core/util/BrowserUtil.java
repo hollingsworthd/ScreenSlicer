@@ -58,9 +58,6 @@ public class BrowserUtil {
   private static final String HIDDEN_MARKER = "xmoztheme";
   private static final String FILTERED_MARKER = "o2xtheme";
   private static final String FILTERED_LENIENT_MARKER = "o2x2theme";
-  /*
-   * used because WebElement.isDisplayed() is way too slow
-   */
   private static final String isVisible =
       "      function isCurrentlyVisible(element, rect) {"
           + "  var atPoint,"
