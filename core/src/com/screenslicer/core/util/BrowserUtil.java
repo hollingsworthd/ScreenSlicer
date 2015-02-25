@@ -54,7 +54,6 @@ import com.screenslicer.webapp.WebApp;
 
 public class BrowserUtil {
   private static final int REFRESH_TRIES = 3;
-  private static final int LONG_REQUEST_WAIT = 10000;
   private static final String NODE_MARKER = "fftheme_";
   private static final String HIDDEN_MARKER = "xmoztheme";
   private static final String FILTERED_MARKER = "o2xtheme";
@@ -63,38 +62,27 @@ public class BrowserUtil {
    * used because WebElement.isDisplayed() is way too slow
    */
   private static final String isVisible =
-      "      function isCurrentlyVisible(el, rect) {"
-          + "  var eap,"
-          + "  docEl = document.documentElement,"
-          + "  vWidth = docEl.clientWidth,"
-          + "  vHeight = docEl.clientHeight,"
-          + "  efp = function (x, y) { return document.elementFromPoint(x, y) },"
-          + "  contains = \"contains\" in el ? \"contains\" : \"compareDocumentPosition\","
-          + "  has = contains == \"contains\" ? 1 : 0x14;"
-          + "  if(rect.right < 0 || rect.bottom < 0 || rect.left > vWidth || rect.top > vHeight)"
+      "      function isCurrentlyVisible(element, rect) {"
+          + "  var atPoint,"
+          + "  docElement = document.documentElement,"
+          + "  clientWidth = docElement.clientWidth,"
+          + "  clientHeight = docElement.clientHeight,"
+          + "  fromPoint = function (x, y) { return document.elementFromPoint(x, y) },"
+          + "  contains = \"contains\" in element ? \"contains\" : \"compareDocumentPosition\","
+          + "  has = contains === \"contains\" ? true : 0x14;"
+          + "  if(rect.right < 0 || rect.bottom < 0 || rect.left > clientWidth || rect.top > clientHeight)"
           + "    return false;"
-          + "  return ((eap = efp(rect.left,  rect.top)) == el || el[contains](eap) == has"
-          + "    || (eap = efp(rect.right, rect.top)) == el || el[contains](eap) == has"
-          + "    || (eap = efp(rect.right, rect.bottom)) == el || el[contains](eap) == has"
-          + "    || (eap = efp(rect.left,  rect.bottom)) == el || el[contains](eap) == has"
-          + "    || (eap = efp((rect.left+rect.right)/2,  rect.top)) == el || el[contains](eap) == has"
-          + "    || (eap = efp((rect.left+rect.right)/2,  rect.bottom)) == el || el[contains](eap) == has"
-          + "    || (eap = efp(rect.left,  (rect.top+rect.bottom)/2)) == el || el[contains](eap) == has"
-          + "    || (eap = efp(rect.right,  (rect.top+rect.bottom)/2)) == el || el[contains](eap) == has"
-          + "    || (eap = efp((rect.left+rect.right)/2,  (rect.top+rect.bottom)/2)) == el || el[contains](eap) == has);"
+          + "  return (((atPoint = fromPoint(rect.left, rect.top)) === element "
+          + "  || element[contains](atPoint) === has)"
+          + "    || ((atPoint = fromPoint((rect.left+rect.right)/2, rect.top)) === element "
+          + "  || element[contains](atPoint) === has)"
+          + "    || ((atPoint = fromPoint(rect.left, (rect.top+rect.bottom)/2)) === element "
+          + "  || element[contains](atPoint) === has)"
+          + "    || ((atPoint = fromPoint((rect.left+rect.right)/2, (rect.top+rect.bottom)/2)) === element "
+          + "  || element[contains](atPoint) === has));"
           + "}"
           + "function isVisible(element) {"
-          + "  if(window.scrollBy != undefined) {"
-          + "    var rect = element.getBoundingClientRect();"
-          + "    window.scrollBy(rect.left, rect.top);"
-          + "    rect = element.getBoundingClientRect();"
-          + "    if(isCurrentlyVisible(element, rect)){"
-          + "      return true;"
-          + "    }"
-          + "    window.scrollByLines(-10);"
-          + "  } else {"
-          + "    element.scrollIntoView();"
-          + "  }"
+          + "  element.scrollIntoView();"
           + "  return isCurrentlyVisible(element, element.getBoundingClientRect());"
           + "}";
   private static int STARTUP_WAIT_MS = 100;
@@ -404,6 +392,7 @@ public class BrowserUtil {
   public static Element openElement(final Browser browser, boolean init, final String[] whitelist,
       final String[] patterns, final HtmlNode[] urlNodes, final UrlTransform[] transforms)
       throws ActionFailed {
+
     try {
       if (init) {
         browser.executeScript(
