@@ -169,7 +169,6 @@ public class Scrape {
     try {
       if (browser != null) {
         browser.kill();
-        BrowserUtil.browserSleepStartup();
       }
     } catch (Throwable t) {
       Log.exception(t);

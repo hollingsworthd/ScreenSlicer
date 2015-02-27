@@ -205,13 +205,10 @@ public class QueryKeyword {
         try {
           BrowserUtil.click(browser, element, false);
           element.clear();
-          BrowserUtil.browserSleepVeryShort();
           if (!CommonUtil.isEmpty(element.getAttribute("value"))) {
             element.sendKeys(delete);
-            BrowserUtil.browserSleepVeryShort();
           }
           element.sendKeys(searchQuery);
-          BrowserUtil.browserSleepVeryShort();
           String beforeSource = browser.getPageSource();
           String beforeTitle = browser.getTitle();
           String beforeUrl = browser.getCurrentUrl();

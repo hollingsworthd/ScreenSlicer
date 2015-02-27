@@ -82,7 +82,6 @@ public class BrowserUtil {
           + "  element.scrollIntoView();"
           + "  return isCurrentlyVisible(element, element.getBoundingClientRect());"
           + "}";
-  private static int STARTUP_WAIT_MS = 100;
   private static int LONG_WAIT_MS = 5837;
   private static int SHORT_WAIT_MS = 1152;
   private static int SHORT_WAIT_MIN_MS = 3783;
@@ -94,12 +93,6 @@ public class BrowserUtil {
   private static int RAND_MIN_WAIT_ITER = 1;
   private static int RAND_MAX_WAIT_ITER = 5;
   private static final SecureRandom rand = new SecureRandom();
-
-  public static void browserSleepStartup() {
-    try {
-      Thread.sleep(STARTUP_WAIT_MS);
-    } catch (InterruptedException e) {}
-  }
 
   public static void browserSleepRand(boolean longSleep) {
     if (longSleep) {
@@ -177,7 +170,6 @@ public class BrowserUtil {
             }
           }
           try {
-            browserSleepVeryShort();
             if (urlNode != null) {
               try {
                 Set<String> origHandles = browser.getWindowHandles();
@@ -310,14 +302,12 @@ public class BrowserUtil {
       } catch (Throwable t) {
         Log.exception(t);
       }
-      browserSleepStartup();
       Collection<String> handles = new HashSet<String>(browser.getWindowHandles());
       handles.removeAll(origHandles);
       if (!handles.isEmpty()) {
         browser.switchTo().window(handles.iterator().next());
       } else {
         browser.executeScript("window.open('');");
-        browserSleepStartup();
         handles = new HashSet<String>(browser.getWindowHandles());
         handles.removeAll(origHandles);
         if (!handles.isEmpty()) {
@@ -439,9 +429,7 @@ public class BrowserUtil {
   public static boolean click(Browser browser, WebElement toClick, boolean shift) {
     try {
       Actions action = new Actions(browser);
-      BrowserUtil.browserSleepVeryShort();
       action.moveToElement(toClick).perform();
-      BrowserUtil.browserSleepVeryShort();
       if (shift) {
         browser.getKeyboard().pressKey(Keys.SHIFT);
       }
@@ -449,7 +437,6 @@ public class BrowserUtil {
       if (shift) {
         browser.getKeyboard().releaseKey(Keys.SHIFT);
       }
-      BrowserUtil.browserSleepVeryShort();
     } catch (Browser.Retry r) {
       throw r;
     } catch (Browser.Fatal f) {

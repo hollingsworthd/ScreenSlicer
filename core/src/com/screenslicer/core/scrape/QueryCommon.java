@@ -138,15 +138,12 @@ public class QueryCommon {
       BrowserUtil.click(browser, element, false);
       if (validate) {
         element.clear();
-        BrowserUtil.browserSleepVeryShort();
       }
       if (!validate || !CommonUtil.isEmpty(element.getAttribute("value"))) {
         element.sendKeys(QueryForm.delete);
-        BrowserUtil.browserSleepVeryShort();
       }
       element.sendKeys(text);
       browser.getKeyboard().sendKeys("\t");
-      BrowserUtil.browserSleepVeryShort();
       if (newline) {
         element.sendKeys("\n");
         BrowserUtil.browserSleepLong();
