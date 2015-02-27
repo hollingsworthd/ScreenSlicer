@@ -141,7 +141,7 @@ public class QueryForm {
       QueryCommon.doAuth(browser, context.credentials);
       BrowserUtil.doClicks(browser, context.preSearchClicks, null, false);
       Map<String, HtmlNode> formControls = new HashMap<String, HtmlNode>();
-      for (int i = 0; i < context.formSchema.length; i++) {
+      for (int i = 0; context.formSchema != null && i < context.formSchema.length; i++) {
         formControls.put(context.formSchema[i].guid, context.formSchema[i]);
       }
       Map<String, List<String>> formData = context.formModel;
