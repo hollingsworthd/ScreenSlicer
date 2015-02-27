@@ -165,15 +165,6 @@ public class BrowserUtil {
           exception = false;
           source = null;
           Log.debug("getting url...", WebApp.DEBUG);
-          try {
-            browser.getKeyboard().sendKeys(Keys.ESCAPE);
-          } catch (Browser.Retry r) {
-            throw r;
-          } catch (Browser.Fatal f) {
-            throw f;
-          } catch (Throwable t) {
-            Log.exception(t);
-          }
           if (urlNode != null) {
             try {
               handleNewWindows(browser, origHandle, cleanupWindows);
@@ -230,9 +221,6 @@ public class BrowserUtil {
               }
             }
             if (!exception) {
-              browserSleepShort();
-              browserSleepLong();
-              //TODO wait for long ajax requests
               statusFail = statusFail(browser.getStatusCode());
               browser.switchTo().defaultContent();
               source = browser.getPageSource();
@@ -260,16 +248,6 @@ public class BrowserUtil {
           if (badUrl || statusFail || exception || CommonUtil.isEmpty(source)) {
             switchTo = null;
             if (!reAttempt || i + 1 == REFRESH_TRIES) {
-              try {
-                browser.getKeyboard().sendKeys(Keys.ESCAPE);
-                browserSleepVeryShort();
-              } catch (Browser.Retry r) {
-                throw r;
-              } catch (Browser.Fatal f) {
-                throw f;
-              } catch (Throwable t) {
-                Log.exception(t);
-              }
               success = false;
               if (!reAttempt) {
                 break;
@@ -513,6 +491,7 @@ public class BrowserUtil {
           click(browser, element, toNewWindow == null ? controls[i].newWindow : toNewWindow);
           if (controls[i].longRequest) {
             //TODO wait for long ajax requests
+            browserSleepLong();
           }
         }
       }
