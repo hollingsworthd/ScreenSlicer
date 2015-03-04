@@ -43,8 +43,10 @@ public class ComparableNode {
   private static final double SIGNIFICANT_DIFF = .125d;
   private final Node node;
   private final int[] scores;
+  private final int thread;
 
-  public ComparableNode(final Node node, HtmlNode matchResult, HtmlNode matchParent) {
+  public ComparableNode(final Node node, HtmlNode matchResult, HtmlNode matchParent, int thread) {
+    this.thread = thread;
     this.node = node;
     List<Node> separated = node.childNodes();
     int children = 0;
@@ -417,10 +419,10 @@ public class ComparableNode {
   public int compare(ComparableNode other) {
     int cur = 0;
     for (int i = 0; i < scores.length; i++) {
-      NeuralNetManager.instance().set(cur++,
+      NeuralNetManager.instance(thread).set(cur++,
           compare(scores[i], other.scores[i], SIGNIFICANT_DIFF));
     }
-    int result = NeuralNetManager.instance().pull();
+    int result = NeuralNetManager.instance(thread).pull();
     result = result < 0 ? -1 : result > 0 ? 1 : 0;
     return result;
   }

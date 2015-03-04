@@ -72,11 +72,11 @@ public class ProcessPage {
     }
   }
 
-  public static List<ScrapeResult> perform(Element element, int page, Query query) {
+  public static List<ScrapeResult> perform(Element element, int page, Query query, int thread) {
     try {
       trim(element);
       Map<String, Object> cache = new HashMap<String, Object>();
-      return perform(element, page, "", true, query, cache);
+      return perform(element, page, "", true, query, cache, thread);
     } catch (Browser.Retry r) {
       throw r;
     } catch (Browser.Fatal f) {
@@ -87,7 +87,8 @@ public class ProcessPage {
     return null;
   }
 
-  public static SearchResults perform(Browser browser, int page, Query query) throws ActionFailed {
+  public static SearchResults perform(Browser browser, int page, Query query, int thread)
+      throws ActionFailed {
     try {
       Element element = BrowserUtil.openElement(browser, true,
           query.proactiveUrlFiltering ? query.urlWhitelist : null,
@@ -101,9 +102,10 @@ public class ProcessPage {
         } catch (IOException e) {}
       }
       Map<String, Object> cache = new HashMap<String, Object>();
-      List<ScrapeResult> results = perform(element, page, browser.getCurrentUrl(), true, query, cache);
+      List<ScrapeResult> results = perform(
+          element, page, browser.getCurrentUrl(), true, query, cache, thread);
       if (results == null || results.isEmpty()) {
-        results = perform(element, page, browser.getCurrentUrl(), false, query, cache);
+        results = perform(element, page, browser.getCurrentUrl(), false, query, cache, thread);
       }
       List<Result> searchResults = new ArrayList<Result>();
       for (ScrapeResult result : results) {
@@ -128,28 +130,28 @@ public class ProcessPage {
   }
 
   private static List<ScrapeResult> perform(Element body, int page, String currentUrl,
-      boolean trim, Query query, Map<String, Object> cache) {
-    ScrapeResults ret1 = perform(body, page, Leniency.Title, trim, query, cache);
+      boolean trim, Query query, Map<String, Object> cache, int thread) {
+    ScrapeResults ret1 = perform(body, page, Leniency.Title, trim, query, cache, thread);
     if (ret1 != null && !ret1.results().isEmpty()) {
-      return finalizeResults(ret1, currentUrl, body, page, Leniency.Title, trim, query, cache);
+      return finalizeResults(ret1, currentUrl, body, page, Leniency.Title, trim, query, cache, thread);
     }
-    ScrapeResults ret2 = perform(body, page, Leniency.None, trim, query, cache);
+    ScrapeResults ret2 = perform(body, page, Leniency.None, trim, query, cache, thread);
     if (ret2 != null && !ret2.results().isEmpty()) {
-      return finalizeResults(ret2, currentUrl, body, page, Leniency.None, trim, query, cache);
+      return finalizeResults(ret2, currentUrl, body, page, Leniency.None, trim, query, cache, thread);
     }
-    ScrapeResults ret3 = perform(body, page, Leniency.Url, trim, query, cache);
+    ScrapeResults ret3 = perform(body, page, Leniency.Url, trim, query, cache, thread);
     if (ret3 != null && !ret3.results().isEmpty()) {
-      return finalizeResults(ret3, currentUrl, body, page, Leniency.Url, trim, query, cache);
+      return finalizeResults(ret3, currentUrl, body, page, Leniency.Url, trim, query, cache, thread);
     }
-    return finalizeResults(ret1, currentUrl, body, page, Leniency.Title, trim, query, cache);
+    return finalizeResults(ret1, currentUrl, body, page, Leniency.Title, trim, query, cache, thread);
   }
 
   private static List<ScrapeResult> finalizeResults(ScrapeResults results, String currentUrl,
-      Element body, int page, Leniency leniency,
-      boolean trim, Query query, Map<String, Object> cache) {
+      Element body, int page, Leniency leniency, boolean trim, Query query,
+      Map<String, Object> cache, int thread) {
     Log.debug("Returning: (leniency) " + leniency.name(), WebApp.DEBUG);
     if (trim && !results.results().isEmpty()) {
-      ScrapeResults untrimmed = perform(body, page, leniency, false, query, cache);
+      ScrapeResults untrimmed = perform(body, page, leniency, false, query, cache, thread);
       int trimmedScore = results.fieldScore(true, false);
       int untrimmedScore = untrimmed.fieldScore(true, false);
       if (untrimmedScore > (int) Math.rint(((double) trimmedScore) * 1.05d)) {
@@ -162,7 +164,7 @@ public class ProcessPage {
   }
 
   private static ScrapeResults perform(Element body, int page,
-      Leniency leniency, boolean trim, Query query, Map<String, Object> cache) {
+      Leniency leniency, boolean trim, Query query, Map<String, Object> cache, int thread) {
     Log.debug("-Perform-> " + "leniency=" + leniency.name() + "; trim=" + trim, WebApp.DEBUG);
     Extract.Cache extractCache = cache.containsKey("extractCache")
         ? (Extract.Cache) cache.get("extractCache") : new Extract.Cache();
@@ -175,7 +177,8 @@ public class ProcessPage {
       nodes = new ArrayList<Node>();
       cache.put("extractedNodes", nodes);
       for (int i = 0; i < NUM_EXTRACTIONS;) {
-        List<Node> best = Extract.perform(body, page, ignore, query.matchResult, query.matchParent, extractCache);
+        List<Node> best = Extract.perform(
+            body, page, ignore, query.matchResult, query.matchParent, extractCache, thread);
         if (best.isEmpty()) {
           break;
         }

@@ -34,7 +34,9 @@ public class Main {
     WebApp.start("core", 8888, false, new ExceptionListener() {
       @Override
       public void exception() {
-        Scrape.forceQuit();
+        for (int i = 0; i < WebApp.THREADS; i++) {
+          Scrape.forceQuit(i);
+        }
       }
     }, new Callback() {
       @Override

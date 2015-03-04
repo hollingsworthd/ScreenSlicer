@@ -82,7 +82,7 @@ public class SearchResults {
     this.query = query;
   }
 
-  public static void revalidate(Browser browser, boolean reset) {
+  public static void revalidate(Browser browser, boolean reset, int thread) {
     Collection<SearchResults> myInstances;
     synchronized (lock) {
       myInstances = new HashSet<SearchResults>(instances);
@@ -96,7 +96,8 @@ public class SearchResults {
         try {
           browser.switchTo().window(cur.window);
           browser.switchTo().defaultContent();
-          List<Result> newPage = new ArrayList<Result>(ProcessPage.perform(browser, cur.page, cur.query).drain());
+          List<Result> newPage = new ArrayList<Result>(ProcessPage.perform(
+              browser, cur.page, cur.query, thread).drain());
           for (int num = newPage.size(); num > prevPage.size(); num--) {
             newPage.remove(num - 1);
           }

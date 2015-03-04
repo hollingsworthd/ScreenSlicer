@@ -120,7 +120,7 @@ public class TrainerVisitorExtract implements TrainerExtract.Visitor {
     ComparableNode[] targetsArray = nodes.get(elements.get(curItem));
     if (targetsArray == null) {
       ComparableNode[] comparableNodes =
-          Extract.trainInit(elements.get(curItem), page);
+          Extract.trainInit(elements.get(curItem), page, 0);
       List<ComparableNode> targets = new ArrayList<ComparableNode>();
       for (int i = 0; i < comparableNodes.length; i++) {
         if (comparableNodes[i].node().outerHtml().startsWith(
@@ -140,7 +140,8 @@ public class TrainerVisitorExtract implements TrainerExtract.Visitor {
     }
     int score = Integer.MAX_VALUE;
     for (int i = 0; i < targetsArray.length && score != 0; i++) {
-      int curScore = Extract.train(elements.get(curItem), page, targetsArray[i], indices.get(targetsArray[i]));
+      int curScore = Extract.train(elements.get(curItem), page, targetsArray[i],
+          indices.get(targetsArray[i]), 0);
       if (curScore < score) {
         score = curScore;
       }

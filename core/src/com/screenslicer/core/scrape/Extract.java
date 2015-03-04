@@ -193,22 +193,22 @@ public class Extract {
     return null;
   }
 
-  public static ComparableNode[] trainInit(Element body, int page) {
-    ComparableNode[] nodesArray = performInternal(body, page, null, null, null);
+  public static ComparableNode[] trainInit(Element body, int page, int thread) {
+    ComparableNode[] nodesArray = performInternal(body, page, null, null, null, thread);
     nodesCache.put(body, nodesArray);
     return nodesArray;
   }
 
-  public static int train(Element body, int page, ComparableNode target, int targetIndex) {
+  public static int train(Element body, int page, ComparableNode target, int targetIndex, int thread) {
     ComparableNode[] nodesArray = null;
     nodesArray = nodesCache.get(body);
     int score = 0;
-    if (NeuralNetManager.instance().isMulti()) {
+    if (NeuralNetManager.instance(thread).isMulti()) {
       int votes = 0;
-      final int majority = (NeuralNetManager.instance().multiSize() / TWICE) + 1;
+      final int majority = (NeuralNetManager.instance(thread).multiSize() / TWICE) + 1;
       boolean won = false;
       ComparableNode fallback = null;
-      int[] distances = new int[NeuralNetManager.instance().multiSize()];
+      int[] distances = new int[NeuralNetManager.instance(thread).multiSize()];
       int curDistance = 0;
       Map<ComparableNode, Integer> votesMap = new HashMap<ComparableNode, Integer>();
       if (targetIndex < 0) {
@@ -219,7 +219,7 @@ public class Extract {
           }
         }
       }
-      while (NeuralNetManager.instance().hasNext()) {
+      while (NeuralNetManager.instance(thread).hasNext()) {
         Integer[][] comparisonCache = new Integer[nodesArray.length][nodesArray.length];
         int distance = 0;
         for (int i = 0; i < nodesArray.length; i++) {
@@ -246,7 +246,7 @@ public class Extract {
           }
         }
         distance = (distance - trainingData.winnerDistance) + trainingData.finalMisses;
-        NeuralNetManager.instance().next();
+        NeuralNetManager.instance(thread).next();
         if (trainingData.winner) {
           ++votes;
         }
@@ -256,7 +256,7 @@ public class Extract {
         }
         distances[curDistance++] = distance;
       }
-      NeuralNetManager.instance().resetNext();
+      NeuralNetManager.instance(thread).resetNext();
       if (!won) {
         int maxVotes = 0;
         ComparableNode maxComparableNode = null;
@@ -310,7 +310,7 @@ public class Extract {
   }
 
   private static ComparableNode[] performInternal(final Element body, final int page,
-      final HtmlNode matchResult, final HtmlNode matchParent, final Collection<Node> ignore) {
+      final HtmlNode matchResult, final HtmlNode matchParent, final Collection<Node> ignore, int thread) {
     final Map<Node, ComparableNode> nodes = new HashMap<Node, ComparableNode>();
     if (body != null) {
       body.traverse(new NodeVisitor() {
@@ -324,7 +324,7 @@ public class Extract {
           }
           if (!NodeUtil.isEmpty(node)
               && NodeUtil.isContent(node, matchResult, matchParent) && nonEmptyChildren > 0) {
-            nodes.put(node, new ComparableNode(node, matchResult, matchParent));
+            nodes.put(node, new ComparableNode(node, matchResult, matchParent, thread));
           }
         }
 
@@ -341,22 +341,24 @@ public class Extract {
   }
 
   public static List<Node> perform(Element body, int page, Collection<Node> ignore,
-      HtmlNode matchResult, HtmlNode matchParent, Cache cache) {
+      HtmlNode matchResult, HtmlNode matchParent, Cache cache, int thread) {
     Map<ComparableNode, Integer> votes = new LinkedHashMap<ComparableNode, Integer>();
     if (cache == null) {
       cache = new Cache();
     }
     if (cache.nodesCache == null) {
-      cache.nodesCache = performInternal(body, page, matchResult, matchParent, ignore);
-      cache.comparisonCache = new Integer[NeuralNetManager.instance().multiSize()][cache.nodesCache.length][cache.nodesCache.length];
+      cache.nodesCache = performInternal(body, page, matchResult, matchParent, ignore, thread);
+      cache.comparisonCache = new Integer[NeuralNetManager.instance(thread).multiSize()]
+          [cache.nodesCache.length][cache.nodesCache.length];
     }
-    final int majority = (NeuralNetManager.instance().multiSize() / TWICE) + 1;
+    final int majority = (NeuralNetManager.instance(thread).multiSize() / TWICE) + 1;
     Node best = null;
     int cur = 0;
-    NeuralNetManager.instance().resetNext();
-    while (NeuralNetManager.instance().hasNext()) {
-      ComparableNode winner = best(cache.nodesCache, cache.comparisonCache[cur++], new HashSet<Node>(ignore), null);
-      NeuralNetManager.instance().next();
+    NeuralNetManager.instance(thread).resetNext();
+    while (NeuralNetManager.instance(thread).hasNext()) {
+      ComparableNode winner = best(cache.nodesCache, cache.comparisonCache[cur++],
+          new HashSet<Node>(ignore), null);
+      NeuralNetManager.instance(thread).next();
       if (winner != null) {
         if (!votes.containsKey(winner)) {
           votes.put(winner, new Integer(1));

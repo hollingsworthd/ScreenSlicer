@@ -34,7 +34,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.AtomicReference;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.FileUtils;
@@ -93,19 +93,21 @@ public class Scrape {
 
   }
 
-  private static volatile Browser browser = null;
+  private static final AtomicReference<Browser[]> browsers =
+      new AtomicReference<Browser[]>(new Browser[WebApp.THREADS]);
   private static final int MAX_INIT = 1000;
   private static final int HANG_TIME = 10 * 60 * 1000;
   private static final long WAIT = 2000;
-  private static AtomicLong latestThread = new AtomicLong();
-  private static AtomicLong curThread = new AtomicLong();
   private static final Object cacheLock = new Object();
-  private static final Map<String, List> nextResults = new HashMap<String, List>();
-  private static List<String> cacheKeys = new ArrayList<String>();
+  private static final AtomicReference<Map<String, List>> nextResults =
+      new AtomicReference<Map<String, List>>(new HashMap<String, List>());
+  private static final AtomicReference<List<String>> cacheKeys =
+      new AtomicReference<List<String>>(new ArrayList<String>());
   private static final int LIMIT_CACHE = 5000;
   private static final int MAX_CACHE = 500;
   private static final int CLEAR_CACHE = 250;
-  private static AtomicBoolean done = new AtomicBoolean(false);
+  private static final boolean[] done = new boolean[WebApp.THREADS];
+  private static final Object doneLock = new Object();
   private static final Object progressLock = new Object();
   private static String progress1Key = "";
   private static String progress2Key = "";
@@ -115,24 +117,17 @@ public class Scrape {
   public static final List<Result> WAITING = new ArrayList<Result>();
 
   public static void init() {
-    NeuralNetManager.reset(new File("./resources/neural/config"));
-    start(new Request());
-    done.set(true);
-  }
-
-  private static String initDownloadCache() {
-    File downloadCache = new File("./download_cache");
-    FileUtils.deleteQuietly(downloadCache);
-    downloadCache.mkdir();
-    try {
-      return downloadCache.getCanonicalPath();
-    } catch (Throwable t) {
-      Log.exception(t);
-      return downloadCache.getAbsolutePath();
+    for (int i = 0; i < WebApp.THREADS; i++) {
+      NeuralNetManager.reset(new File("./resources/neural/config"), i);
+      start(new Request(), i);
+      synchronized (doneLock) {
+        done[i] = true;
+      }
     }
+
   }
 
-  private static void start(Request req) {
+  private static void start(Request req, int threadNum) {
     Type proxyType = null;
     String proxyHost = null;
     int proxyPort = -1;
@@ -156,75 +151,78 @@ public class Scrape {
         }
       }
     }
-    browser = new JBrowserDriver(new Settings(
+    File downloadCache = new File("./download_cache" + threadNum);
+    FileUtils.deleteQuietly(downloadCache);
+    downloadCache.mkdir();
+    browsers.get()[threadNum] = new JBrowserDriver(new Settings(
         req.httpHeaders == null ? null : new RequestHeaders(new LinkedHashMap<String, String>(req.httpHeaders)),
         null, null,
-        new ProxyConfig(proxyType, proxyHost, proxyPort, proxyUser, proxyPassword)));
-    browser.manage().timeouts().pageLoadTimeout(req.timeout, TimeUnit.SECONDS);
-    browser.manage().timeouts().setScriptTimeout(req.timeout, TimeUnit.SECONDS);
-    browser.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+        new ProxyConfig(proxyType, proxyHost, proxyPort, proxyUser, proxyPassword), downloadCache));
+    browsers.get()[threadNum].manage().timeouts().pageLoadTimeout(req.timeout, TimeUnit.SECONDS);
+    browsers.get()[threadNum].manage().timeouts().setScriptTimeout(req.timeout, TimeUnit.SECONDS);
+    browsers.get()[threadNum].manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
   }
 
-  public static void forceQuit() {
+  public static void forceQuit(int threadNum) {
     try {
-      if (browser != null) {
-        browser.kill();
+      if (browsers.get()[threadNum] != null) {
+        browsers.get()[threadNum].kill();
       }
     } catch (Throwable t) {
       Log.exception(t);
     }
   }
 
-  private static void restart(Request req) {
+  private static void restart(Request req, int threadNum) {
     try {
-      forceQuit();
+      forceQuit(threadNum);
     } catch (Throwable t) {
       Log.exception(t);
     }
     try {
-      browser = null;
+      browsers.get()[threadNum] = null;
     } catch (Throwable t) {
       Log.exception(t);
     }
-    start(req);
+    start(req, threadNum);
   }
 
   private static void push(String mapKey, List results) {
     synchronized (cacheLock) {
-      nextResults.put(mapKey, results);
-      if (nextResults.size() == LIMIT_CACHE) {
+      nextResults.get().put(mapKey, results);
+      if (nextResults.get().size() == LIMIT_CACHE) {
         List<String> toRemove = new ArrayList<String>();
-        for (Map.Entry<String, List> entry : nextResults.entrySet()) {
-          if (!cacheKeys.contains(entry.getKey())
+        for (Map.Entry<String, List> entry : nextResults.get().entrySet()) {
+          if (!cacheKeys.get().contains(entry.getKey())
               && !entry.getKey().equals(mapKey)) {
             toRemove.add(entry.getKey());
           }
         }
         for (String key : toRemove) {
-          nextResults.remove(key);
+          nextResults.get().remove(key);
         }
-        nextResults.put(mapKey, results);
+        nextResults.get().put(mapKey, results);
       }
       if (results != null && !results.isEmpty()) {
-        if (cacheKeys.size() == MAX_CACHE) {
+        if (cacheKeys.get().size() == MAX_CACHE) {
           List<String> newCache = new ArrayList<String>();
           for (int i = 0; i < CLEAR_CACHE; i++) {
-            nextResults.remove(cacheKeys.get(i));
+            nextResults.get().remove(cacheKeys.get().get(i));
           }
           for (int i = CLEAR_CACHE; i < MAX_CACHE; i++) {
-            newCache.add(cacheKeys.get(i));
+            newCache.add(cacheKeys.get().get(i));
           }
-          cacheKeys = newCache;
+          cacheKeys.set(newCache);
         }
-        cacheKeys.add(mapKey);
+        cacheKeys.get().add(mapKey);
       }
     }
   }
 
   public static List<Result> cached(String mapKey) {
     synchronized (cacheLock) {
-      if (nextResults.containsKey(mapKey)) {
-        List<Result> ret = nextResults.get(mapKey);
+      if (nextResults.get().containsKey(mapKey)) {
+        List<Result> ret = nextResults.get().get(mapKey);
         if (ret == null) {
           return WAITING;
         }
@@ -236,7 +234,14 @@ public class Scrape {
   }
 
   public static boolean busy() {
-    return !done.get();
+    synchronized (doneLock) {
+      for (int i = 0; i < WebApp.THREADS; i++) {
+        if (done[i]) {
+          return false;
+        }
+      }
+    }
+    return true;
   }
 
   public static String progress(String mapKey) {
@@ -270,8 +275,8 @@ public class Scrape {
     String extension;
     String filename;
 
-    public Downloaded() {
-      File file = new File("./download_cache");
+    public Downloaded(int thread) {
+      File file = new File("./download_cache" + thread);
       Collection<File> list = FileUtils.listFiles(file, null, false);
       if (!list.isEmpty()) {
         try {
@@ -298,7 +303,7 @@ public class Scrape {
 
   private static void fetch(Browser browser, Request req, Query query, Query recQuery,
       SearchResults results, int depth, SearchResults recResults,
-      Map<String, Object> cache) throws ActionFailed {
+      Map<String, Object> cache, int threadNum) throws ActionFailed {
     boolean terminate = false;
     try {
       String origHandle = browser.getWindowHandle();
@@ -309,7 +314,6 @@ public class Scrape {
       }
       try {
         for (int i = query.currentResult(); i < results.size(); i++) {
-          initDownloadCache();
           if (query.requireResultAnchor && !isUrlValid(results.get(i).url)
               && UrlUtil.uriScheme.matcher(results.get(i).url).matches()) {
             results.get(i).close();
@@ -325,7 +329,7 @@ public class Scrape {
                 CommonUtil.parseFragment(results.get(i).urlNode, false), results.get(i).url, query.fetchCached,
                 req.runGuid, query.fetchInNewWindow, depth == 0 && query == null,
                 query == null ? null : query.postFetchClicks);
-            Downloaded downloaded = new Downloaded();
+            Downloaded downloaded = new Downloaded(threadNum);
             results.get(i).pageBinary = downloaded.content;
             results.get(i).pageBinaryMimeType = downloaded.mimeType;
             results.get(i).pageBinaryExtension = downloaded.extension;
@@ -339,7 +343,7 @@ public class Scrape {
               }
             }
             if (recQuery != null) {
-              recResults.addPage(scrape(recQuery, req, depth + 1, false, cache));
+              recResults.addPage(scrape(recQuery, req, depth + 1, false, cache, threadNum));
             }
             if (query.collapse) {
               results.get(i).close();
@@ -362,7 +366,7 @@ public class Scrape {
               browser.switchTo().defaultContent();
             } else if (!query.fetchInNewWindow) {
               BrowserUtil.get(browser, origUrl, true, depth == 0);
-              SearchResults.revalidate(browser, false);
+              SearchResults.revalidate(browser, false, threadNum);
             }
           } catch (Browser.Retry r) {
             terminate = true;
@@ -569,26 +573,35 @@ public class Scrape {
     return null;
   }
 
+  private static int getThread() {
+    synchronized (doneLock) {
+      while (true) {
+        for (int i = 0; i < WebApp.THREADS; i++) {
+          if (done[i]) {
+            done[i] = false;
+            return i;
+          }
+        }
+        try {
+          doneLock.wait();
+        } catch (InterruptedException e) {}
+      }
+    }
+  }
+
   public static String get(Fetch fetch, Request req) {
     if (!isUrlValid(fetch.url)) {
       return null;
     }
-    long myThread = latestThread.incrementAndGet();
-    while (myThread != curThread.get() + 1
-        || !done.compareAndSet(true, false)) {
-      try {
-        Thread.sleep(WAIT);
-      } catch (Exception e) {
-        Log.exception(e);
-      }
-    }
+    final int myThread = getThread();
     if (!req.continueSession) {
-      restart(req);
+      restart(req, myThread);
     }
     Log.info("Get URL " + fetch.url + ". Cached: " + fetch.fetchCached, false);
     String resp = "";
     try {
-      resp = getHelper(browser, fetch.throttle, null, fetch.url, fetch.fetchCached, req.runGuid, true, true, fetch.postFetchClicks);
+      resp = getHelper(browsers.get()[myThread], fetch.throttle, null, fetch.url, fetch.fetchCached,
+          req.runGuid, true, true, fetch.postFetchClicks);
     } catch (Browser.Retry r) {
       throw r;
     } catch (Browser.Fatal f) {
@@ -596,8 +609,10 @@ public class Scrape {
     } catch (Throwable t) {
       Log.exception(t);
     } finally {
-      curThread.incrementAndGet();
-      done.set(true);
+      synchronized (doneLock) {
+        done[myThread] = true;
+        doneLock.notify();
+      }
     }
     return resp;
   }
@@ -632,50 +647,44 @@ public class Scrape {
     if (!isUrlValid(context.site)) {
       return new ArrayList<HtmlNode>();
     }
-    long myThread = latestThread.incrementAndGet();
-    while (myThread != curThread.get() + 1
-        || !done.compareAndSet(true, false)) {
-      try {
-        Thread.sleep(WAIT);
-      } catch (Exception e) {
-        Log.exception(e);
-      }
-    }
+    final int myThread = getThread();
     if (!req.continueSession) {
-      restart(req);
+      restart(req, myThread);
     }
     try {
       List<HtmlNode> ret = null;
       try {
-        ret = QueryForm.load(browser, context, true);
+        ret = QueryForm.load(browsers.get()[myThread], context, true);
       } catch (Browser.Retry r) {
         throw r;
       } catch (Browser.Fatal f) {
         throw f;
       } catch (Throwable t) {
         if (!req.continueSession) {
-          restart(req);
+          restart(req, myThread);
         }
-        ret = QueryForm.load(browser, context, true);
+        ret = QueryForm.load(browsers.get()[myThread], context, true);
       }
       return ret;
     } finally {
-      curThread.incrementAndGet();
-      done.set(true);
+      synchronized (doneLock) {
+        done[myThread] = true;
+        doneLock.notify();
+      }
     }
   }
 
   private static void handlePage(Request req, Query query, int page, int depth,
       SearchResults allResults, SearchResults newResults, SearchResults recResults,
-      List<String> resultPages, Map<String, Object> cache) throws ActionFailed, End {
+      List<String> resultPages, Map<String, Object> cache, int threadNum) throws ActionFailed, End {
     if (query.extract) {
       if (newResults.isEmpty()) {
         SearchResults tmpResults;
         try {
-          tmpResults = ProcessPage.perform(browser, page, query);
+          tmpResults = ProcessPage.perform(browsers.get()[threadNum], page, query, threadNum);
         } catch (Browser.Retry r) {
-          SearchResults.revalidate(browser, true);
-          tmpResults = ProcessPage.perform(browser, page, query);
+          SearchResults.revalidate(browsers.get()[threadNum], true, threadNum);
+          tmpResults = ProcessPage.perform(browsers.get()[threadNum], page, query, threadNum);
         }
         tmpResults = filterResults(tmpResults, query.urlWhitelist, query.urlPatterns,
             query.urlMatchNodes, query.urlTransforms, false);
@@ -691,9 +700,9 @@ public class Scrape {
         newResults.addPage(tmpResults);
       }
       if (query.fetch) {
-        fetch(browser, req, query,
+        fetch(browsers.get()[threadNum], req, query,
             query.keywordQuery == null ? (query.formQuery == null ? null : query.formQuery) : query.keywordQuery,
-            newResults, depth, recResults, cache);
+            newResults, depth, recResults, cache, threadNum);
       }
       if (query.collapse) {
         for (int i = 0; i < newResults.size(); i++) {
@@ -702,48 +711,41 @@ public class Scrape {
       }
       allResults.addPage(newResults);
     } else {
-      resultPages.add(NodeUtil.clean(browser.getPageSource(), browser.getCurrentUrl()).outerHtml());
+      resultPages.add(NodeUtil.clean(browsers.get()[threadNum].getPageSource(),
+          browsers.get()[threadNum].getCurrentUrl()).outerHtml());
     }
   }
 
   public static List<Result> scrape(Query query, Request req) {
-    long myThread = latestThread.incrementAndGet();
-    while (myThread != curThread.get() + 1
-        || !done.compareAndSet(true, false)) {
-      try {
-        Thread.sleep(WAIT);
-      } catch (Exception e) {
-        Log.exception(e);
-      }
-    }
+    final int myThread = getThread();
     if (!req.continueSession) {
-      restart(req);
+      restart(req, myThread);
     }
     try {
       Map<String, Object> cache = new HashMap<String, Object>();
       SearchResults ret = null;
       for (int i = 0; i < MAX_INIT; i++) {
         try {
-          ret = scrape(query, req, 0, i + 1 == MAX_INIT, cache);
+          ret = scrape(query, req, 0, i + 1 == MAX_INIT, cache, myThread);
           Log.info("Scrape finished");
           return ret.drain();
         } catch (Browser.Fatal f) {
           Log.exception(f);
           Log.warn("Reinitializing state and resuming scrape...");
-          restart(req);
+          restart(req, myThread);
         }
       }
       return null;
     } finally {
-      curThread.incrementAndGet();
-      done.set(true);
+      synchronized (doneLock) {
+        done[myThread] = true;
+        doneLock.notify();
+      }
     }
   }
 
   private static SearchResults scrape(Query query, Request req, int depth,
-      boolean fallback, Map<String, Object> cache) {
-    CommonUtil.clearStripCache();
-    NodeUtil.clearOuterHtmlCache();
+      boolean fallback, Map<String, Object> cache, int threadNum) {
     SearchResults results;
     SearchResults recResults;
     List<String> resultPages;
@@ -769,22 +771,22 @@ public class Scrape {
       if (query.isFormQuery()) {
         Log.info("FormQuery for URL " + query.site, false);
         try {
-          QueryForm.perform(browser, (FormQuery) query, depth == 0);
+          QueryForm.perform(browsers.get()[threadNum], (FormQuery) query, depth == 0);
         } catch (Throwable e) {
           if (depth == 0) {
-            restart(req);
+            restart(req, threadNum);
           }
-          QueryForm.perform(browser, (FormQuery) query, depth == 0);
+          QueryForm.perform(browsers.get()[threadNum], (FormQuery) query, depth == 0);
         }
       } else {
         Log.info("KewordQuery for URL " + query.site + ". Query: " + ((KeywordQuery) query).keywords, false);
         try {
-          QueryKeyword.perform(browser, (KeywordQuery) query, depth == 0);
+          QueryKeyword.perform(browsers.get()[threadNum], (KeywordQuery) query, depth == 0);
         } catch (Throwable e) {
           if (depth == 0) {
-            restart(req);
+            restart(req, threadNum);
           }
-          QueryKeyword.perform(browser, (KeywordQuery) query, depth == 0);
+          QueryKeyword.perform(browsers.get()[threadNum], (KeywordQuery) query, depth == 0);
         }
       }
       if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
@@ -806,10 +808,10 @@ public class Scrape {
           }
           Log.info("Proceeding to page " + page);
           try {
-            priorProceedLabel = Proceed.perform(browser, query.proceedClicks, page, priorProceedLabel);
+            priorProceedLabel = Proceed.perform(browsers.get()[threadNum], query.proceedClicks, page, priorProceedLabel);
           } catch (Browser.Retry r) {
-            SearchResults.revalidate(browser, true);
-            priorProceedLabel = Proceed.perform(browser, query.proceedClicks, page, priorProceedLabel);
+            SearchResults.revalidate(browsers.get()[threadNum], true, threadNum);
+            priorProceedLabel = Proceed.perform(browsers.get()[threadNum], query.proceedClicks, page, priorProceedLabel);
           }
           if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
             throw new Cancelled();
@@ -818,10 +820,10 @@ public class Scrape {
         if (query.currentPage() + 1 == page) {
           SearchResults newResults = SearchResults.newInstance(true);
           try {
-            handlePage(req, query, page, depth, results, newResults, recResults, resultPages, cache);
+            handlePage(req, query, page, depth, results, newResults, recResults, resultPages, cache, threadNum);
           } catch (Browser.Retry r) {
-            SearchResults.revalidate(browser, true);
-            handlePage(req, query, page, depth, results, newResults, recResults, resultPages, cache);
+            SearchResults.revalidate(browsers.get()[threadNum], true, threadNum);
+            handlePage(req, query, page, depth, results, newResults, recResults, resultPages, cache, threadNum);
           }
           query.markPage(page);
           query.markResult(0);
@@ -869,12 +871,13 @@ public class Scrape {
     if (!isUrlValid(url)) {
       return new ArrayList<Result>();
     }
-    if (!done.compareAndSet(true, false)) {
-      return null;
+    synchronized (doneLock) {
+      if (!done[0]) {
+        return null;
+      }
+      done[0] = false;
     }
-    restart(new Request());
-    CommonUtil.clearStripCache();
-    NodeUtil.clearOuterHtmlCache();
+    restart(new Request(), 0);
     List<Result> results = new ArrayList<Result>();
     final KeywordQuery keywordQuery = new KeywordQuery();
     try {
@@ -887,11 +890,11 @@ public class Scrape {
       push(mapKey1, null);
       keywordQuery.site = url;
       keywordQuery.keywords = query;
-      QueryKeyword.perform(browser, keywordQuery, true);
+      QueryKeyword.perform(browsers.get()[0], keywordQuery, true);
       synchronized (progressLock) {
         progress1 = "Page 1 progress: extracting results...";
       }
-      results.addAll(ProcessPage.perform(browser, 1, keywordQuery).drain());
+      results.addAll(ProcessPage.perform(browsers.get()[0], 1, keywordQuery, 0).drain());
       synchronized (progressLock) {
         progress1 = "";
       }
@@ -902,7 +905,9 @@ public class Scrape {
         progress1 = "";
         progress2 = "Page 2 progress: prior page extraction was not completed.";
       }
-      done.set(true);
+      synchronized (doneLock) {
+        done[0] = true;
+      }
       return results;
     }
     try {
@@ -914,7 +919,9 @@ public class Scrape {
         progress1 = "";
         progress2 = "Page 2 progress: prior page extraction was not completed.";
       }
-      done.set(true);
+      synchronized (doneLock) {
+        done[0] = true;
+      }
       return results;
     }
     new Thread(new Runnable() {
@@ -925,11 +932,11 @@ public class Scrape {
           synchronized (progressLock) {
             progress2 = "Page 2 progress: getting page...";
           }
-          Proceed.perform(browser, null, 2, query);
+          Proceed.perform(browsers.get()[0], null, 2, query);
           synchronized (progressLock) {
             progress2 = "Page 2 progress: extracting results...";
           }
-          next.addAll(ProcessPage.perform(browser, 2, keywordQuery).drain());
+          next.addAll(ProcessPage.perform(browsers.get()[0], 2, keywordQuery, 0).drain());
         } catch (End e) {
           Log.info("Reached end of results", false);
         } catch (Throwable t) {
@@ -940,7 +947,9 @@ public class Scrape {
           synchronized (progressLock) {
             progress2 = "";
           }
-          done.set(true);
+          synchronized (doneLock) {
+            done[0] = true;
+          }
         }
       }
     }).start();

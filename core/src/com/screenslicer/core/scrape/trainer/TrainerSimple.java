@@ -41,7 +41,7 @@ public class TrainerSimple {
 
   public TrainerSimple(Visitor visitor, File props) {
     if (props != null) {
-      NeuralNetManager.reset(props);
+      NeuralNetManager.reset(props, 0);
     }
     this.visitor = visitor;
     this.visitor.init();

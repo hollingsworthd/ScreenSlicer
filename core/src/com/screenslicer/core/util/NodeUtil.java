@@ -370,10 +370,6 @@ public class NodeUtil {
     }
   }
 
-  public static void clearOuterHtmlCache() {
-    htmlCache.clear();
-  }
-
   public static String outerHtml(List<Node> nodes) {
     StringBuilder builder = new StringBuilder();
     for (int i = 0; nodes != null && i < nodes.size(); i++) {

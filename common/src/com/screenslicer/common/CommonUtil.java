@@ -799,11 +799,6 @@ public class CommonUtil {
   private static final Map<Integer, String> stripCacheWithPipes = new HashMap<Integer, String>(MAX_STRIP_CACHE);
   private static final Map<Integer, String> stripCache = new HashMap<Integer, String>(MAX_STRIP_CACHE);
 
-  public static void clearStripCache() {
-    stripCache.clear();
-    stripCacheWithPipes.clear();
-  }
-
   public static String stripAttributes(String string) {
     return string.replaceAll("<\\s*(/?\\w+)(\\s*[^>]*)>", "<$1>");
   }

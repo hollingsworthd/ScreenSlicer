@@ -40,9 +40,9 @@ public class TrainerExtractOnce {
   }
 
   public TrainerExtractOnce(File[] props) {
-    NeuralNetManager.reset(props[0]);
+    NeuralNetManager.reset(props[0], 0);
     for (int i = 1; i < props.length; i++) {
-      NeuralNetManager.add(props[i]);
+      NeuralNetManager.add(props[i], 0);
     }
     visitor.init();
     perform();

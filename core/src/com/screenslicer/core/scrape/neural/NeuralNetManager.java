@@ -29,44 +29,53 @@ import java.io.File;
 import org.apache.commons.io.FileUtils;
 
 import com.screenslicer.common.Log;
+import com.screenslicer.webapp.WebApp;
 
 public class NeuralNetManager {
-  private static NeuralNetVoters net = new NeuralNetVoters();
+  private static NeuralNetVoters[] net = new NeuralNetVoters[WebApp.THREADS];
+  static {
+    for (int i = 0; i < WebApp.THREADS; i++) {
+      net[i] = new NeuralNetVoters();
+    }
+  }
 
   private NeuralNetManager() {
 
   }
 
   //TODO make thread safe
-  public static NeuralNet instance() {
-    return net;
+  public static NeuralNet instance(int thread) {
+    return net[thread];
   }
 
   public static String asString() {
     return net.toString();
   }
 
-  public static NeuralNet randomInstance(int numInputs, int numNets, int numLayers, int numNodesPerLayer) {
+  public static NeuralNet randomInstance(int numInputs,
+      int numNets, int numLayers, int numNodesPerLayer) {
     for (int i = 0; i < numNets; i++) {
       if (i == 0) {
-        reset(new NeuralNetVote(NeuralNetProperties.randomInstance(numInputs, numLayers, numNodesPerLayer)));
+        reset(new NeuralNetVote(NeuralNetProperties.randomInstance(
+            numInputs, numLayers, numNodesPerLayer)), 0);
       } else {
-        add(new NeuralNetVote(NeuralNetProperties.randomInstance(numInputs, numLayers, numNodesPerLayer)));
+        add(new NeuralNetVote(NeuralNetProperties.randomInstance(
+            numInputs, numLayers, numNodesPerLayer)), 0);
       }
     }
-    return net;
+    return net[0];
   }
 
-  public static void add(String config) {
+  public static void add(String config, int thread) {
     if (config != null) {
-      net.add(NeuralNetProperties.load(config));
+      net[thread].add(NeuralNetProperties.load(config));
     }
   }
 
-  public static void add(File config) {
+  public static void add(File config, int thread) {
     if (config != null) {
       try {
-        add(FileUtils.readFileToString(config, "utf-8"));
+        add(FileUtils.readFileToString(config, "utf-8"), thread);
       } catch (Throwable t) {
         Log.exception(t);
         throw new RuntimeException(t);
@@ -74,34 +83,34 @@ public class NeuralNetManager {
     }
   }
 
-  public static void add(NeuralNet nn) {
+  public static void add(NeuralNet nn, int thread) {
     if (nn != null) {
-      net.add(((NeuralNetProperties.Configurable) nn).properties());
+      net[thread].add(((NeuralNetProperties.Configurable) nn).properties());
     }
   }
 
-  public static void reset(String config) {
-    net = new NeuralNetVoters();
+  public static void reset(String config, int thread) {
+    net[thread] = new NeuralNetVoters();
     if (config != null) {
-      net.add(NeuralNetProperties.load(config));
+      net[thread].add(NeuralNetProperties.load(config));
     } else {
       throw new IllegalArgumentException();
     }
   }
 
-  public static void reset(File config) {
+  public static void reset(File config, int thread) {
     try {
-      reset(FileUtils.readFileToString(config, "utf-8"));
+      reset(FileUtils.readFileToString(config, "utf-8"), thread);
     } catch (Throwable t) {
       Log.exception(t);
       throw new RuntimeException(t);
     }
   }
 
-  public static void reset(NeuralNet nn) {
-    net = new NeuralNetVoters();
+  public static void reset(NeuralNet nn, int thread) {
+    net[thread] = new NeuralNetVoters();
     if (nn != null) {
-      net.add(((NeuralNetProperties.Configurable) nn).properties());
+      net[thread].add(((NeuralNetProperties.Configurable) nn).properties());
     } else {
       throw new IllegalArgumentException();
     }

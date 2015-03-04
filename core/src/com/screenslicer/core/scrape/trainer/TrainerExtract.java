@@ -190,22 +190,22 @@ public class TrainerExtract {
       if (Phase.current() == Phase.SOLO_RANDOM || myBestFile == null) {
         tweak = false;
         if (defaultProps != null) {
-          NeuralNetManager.reset(defaultProps);
+          NeuralNetManager.reset(defaultProps, 0);
           defaultProps = null;
         } else {
           NeuralNetManager.randomInstance(numInputs, numNets, numLayers, numNodesPerLayer);
         }
       } else if (Phase.current() == Phase.SOLO_VARY || solo) {
-        NeuralNetManager.reset(myBestFile);
+        NeuralNetManager.reset(myBestFile, 0);
       } else if (Phase.current() == Phase.GROUP_VARY || forceGroup) {
-        NeuralNetManager.reset(groupBestFile);
+        NeuralNetManager.reset(groupBestFile, 0);
         effectiveBest = groupBest;
         forceGroup = false;
       } else if (Phase.current() == Phase.ALL_VARY) {
         if (comboNets) {
           outId = outId + "_combo";
           if (rand.nextBoolean() && comboBestFile != null) {
-            NeuralNetManager.reset(comboBestFile);
+            NeuralNetManager.reset(comboBestFile, 0);
           } else {
             int upperBound = Math.min(groupWinnerScores.size(), 11);
             int range = upperBound - 2;
@@ -226,23 +226,23 @@ public class TrainerExtract {
             for (int i = 0; i < comboSize; i++) {
               File toAdd = winnerFiles.remove(rand.nextInt(winnerFiles.size()));
               if (i == 0) {
-                NeuralNetManager.reset(toAdd);
+                NeuralNetManager.reset(toAdd, 0);
               } else {
-                NeuralNetManager.add(toAdd);
+                NeuralNetManager.add(toAdd, 0);
               }
             }
           }
           forceGroup = true;
           effectiveBest = comboBest;
         } else {
-          NeuralNetManager.reset(allBestFile);
+          NeuralNetManager.reset(allBestFile, 0);
           effectiveBest = allBest;
         }
       } else {
         throw new IllegalStateException();
       }
       if (tweak) {
-        NeuralNetManager.instance().tweak(tweakPercent);
+        NeuralNetManager.instance(0).tweak(tweakPercent);
       }
       int curBest = 0;
       for (int i = 0; i < visitor.trainingDataSize(); i++) {

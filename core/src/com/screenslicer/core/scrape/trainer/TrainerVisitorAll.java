@@ -36,7 +36,6 @@ import org.jsoup.helper.DataUtil;
 import org.jsoup.nodes.Element;
 
 import com.screenslicer.api.request.KeywordQuery;
-import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.ProcessPage;
 import com.screenslicer.core.scrape.trainer.TrainerSimple.Visitor;
 import com.screenslicer.core.scrape.type.ScrapeResult;
@@ -98,9 +97,7 @@ public class TrainerVisitorAll implements Visitor {
 
   @Override
   public int visit(int curTrainingData, int page) {
-    CommonUtil.clearStripCache();
-    NodeUtil.clearOuterHtmlCache();
-    List<ScrapeResult> processedResults = ProcessPage.perform(elements.get(curTrainingData), page, query);
+    List<ScrapeResult> processedResults = ProcessPage.perform(elements.get(curTrainingData), page, query, 0);
     if (processedResults == null) {
       System.out.println(">>>>>>>>>>  error - " + names[curTrainingData]);
       System.out.println("=====================================================================");
