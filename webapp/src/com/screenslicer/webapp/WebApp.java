@@ -49,6 +49,7 @@ public class WebApp extends ResourceConfig {
   public static final boolean SANDBOX = "true".equals(System.getProperty("slicer_sandbox", "false"));
   public static final SecureRandom rand = new SecureRandom();
   public static final int THREADS = Integer.parseInt(System.getProperty("slicer.threads", "1"));
+  private static final int MAX_REQUESTS = 1048576;
 
   private WebApp() {}
 
@@ -97,13 +98,13 @@ public class WebApp extends ResourceConfig {
       compressionConfig.setCompressionMinSize(1);
       compressionConfig.setCompressableMimeTypes(config.mimeTypes());
       httpServer.getListener("grizzly").getTransport().
-          getWorkerThreadPoolConfig().setMaxPoolSize(2048);
+          getWorkerThreadPoolConfig().setMaxPoolSize(MAX_REQUESTS);
       httpServer.getListener("grizzly").getTransport().
-          getWorkerThreadPoolConfig().setQueueLimit(2048);
+          getWorkerThreadPoolConfig().setQueueLimit(MAX_REQUESTS);
       httpServer.getListener("grizzly").getTransport().
-          getKernelThreadPoolConfig().setMaxPoolSize(2048);
+          getKernelThreadPoolConfig().setMaxPoolSize(MAX_REQUESTS);
       httpServer.getListener("grizzly").getTransport().
-          getKernelThreadPoolConfig().setQueueLimit(2048);
+          getKernelThreadPoolConfig().setQueueLimit(MAX_REQUESTS);
       httpServer.start();
       final Object lock = new Object();
       synchronized (lock) {
