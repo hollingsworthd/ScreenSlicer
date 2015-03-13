@@ -1818,7 +1818,8 @@ licenses are as follows.
   • OpenNLP Maxent (Copyright 2013 ASF; http://apache.org) -- opennlp-maxent-3.0.3.jar,
   • OpenNLP Tools (Copyright 2013 ASF; http://apache.org) -- opennlp-tools-1.5.3.jar,
   • OpenNLP UIMA Annotators (Copyright 2013 ASF; http://apache.org) -- opennlp-uima-1.5.3.jar,
-  • Selenium -- selenium-java-2.44.0.jar,
+  • Selenium API -- selenium-api-2.44.0.jar,
+  • Selenium Support -- selenium-support-2.44.0.jar,
   • XML Commons XML APIs (Copyright 1999-2009 ASF; http://apache.org) -- xml-apis-1.4.01.jar:
                                       Apache License
                                 Version 2.0, January 2004
