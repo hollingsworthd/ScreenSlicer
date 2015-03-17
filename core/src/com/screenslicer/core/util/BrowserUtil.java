@@ -53,6 +53,8 @@ import com.screenslicer.core.scrape.Scrape.ActionFailed;
 import com.screenslicer.webapp.WebApp;
 
 public class BrowserUtil {
+  private static int startId = 0;
+  private static final Object startIdLock = new Object();
   private static final int REFRESH_TRIES = 3;
   private static final String NODE_MARKER = "fftheme_";
   private static final String HIDDEN_MARKER = "xmoztheme";
@@ -360,12 +362,16 @@ public class BrowserUtil {
 
     try {
       if (init) {
+        int myStartId;
+        synchronized (startIdLock) {
+          startId = startId == Integer.MAX_VALUE ? 0 : startId + 1;
+          myStartId = startId;
+        }
         browser.executeScript(
             "      var all = document.body.getElementsByTagName('*');"
                 + "for(var i = 0; i < all.length; i++){"
                 + "  if(all[i].className && typeof all[i].className == 'string'){"
                 + "    all[i].className=all[i].className.replace(/"
-                + NODE_MARKER + "\\d+/g,'').replace(/"
                 + HIDDEN_MARKER + "/g,'').replace(/"
                 + FILTERED_MARKER + "/g,'').replace(/"
                 + FILTERED_LENIENT_MARKER + "/g,'').replace(/\\s+/g,' ').trim();"
@@ -373,7 +379,9 @@ public class BrowserUtil {
                 + "}"
                 + isVisible
                 + "for(var j = 0; j < all.length; j++){"
-                + "  all[j].className += ' " + NODE_MARKER + "'+j+' ';"
+                + "  if(!all[j].className.match(/" + NODE_MARKER + "\\d+_\\d+/g)){"
+                + "    all[j].className += ' " + NODE_MARKER + myStartId + "_'+j+' ';"
+                + "  }"
                 + "  if(!isVisible(all[j])){"
                 + "    all[j].className += ' " + HIDDEN_MARKER + " ';"
                 + "  }"
@@ -489,57 +497,88 @@ public class BrowserUtil {
   }
 
   public static WebElement toElement(Browser browser, Node node) {
-    if (node == null) {
-      return null;
-    }
-    try {
-      String classId = NodeUtil.classId(node);
-      if (classId != null) {
-        return browser.findElementByClassName(classId);
+    return toElement(browser, node, null, true);
+  }
+
+  private static WebElement toElement(Browser browser, Node node, HtmlNode htmlNode, boolean recurse) {
+    if (node != null || htmlNode != null) {
+      try {
+        String classId = NodeUtil.classId(node);
+        classId = classId == null && htmlNode != null ? htmlNode.id : classId;
+        if (classId != null) {
+          return browser.findElementByClassName(classId);
+        }
+      } catch (Browser.Retry r) {
+        throw r;
+      } catch (Browser.Fatal f) {
+        throw f;
+      } catch (Throwable t) {
+        Log.exception(t);
       }
-    } catch (Browser.Retry r) {
-      throw r;
-    } catch (Browser.Fatal f) {
-      throw f;
-    } catch (Throwable t) {
-      Log.exception(t);
     }
-    Log.warn("Could not convert Node to WebElement... trying fuzzy search");
-    try {
-      HtmlNode find = new HtmlNode();
-      Element body = BrowserUtil.openElement(browser, false, null, null, null, null);
-      find.alt = node.attr("alt");
-      find.classes = CommonUtil.isEmpty(node.attr("class")) ? null : node.attr("class").split("\\s");
-      find.href = node.attr("href");
-      find.id = node.attr("id");
-      find.innerText = node instanceof Element ? ((Element) node).text() : null;
-      find.name = node.attr("name");
-      find.tagName = node.nodeName();
-      find.title = node.attr("title");
-      find.type = node.attr("type");
-      find.value = node.attr("value");
-      find.fuzzy = true;
-      WebElement found = toElement(browser, find, body);
-      if (found != null) {
-        return found;
+    if (recurse) {
+      Log.warn("Could not convert Node to WebElement... trying fuzzy search");
+      if (node != null) {
+        try {
+          HtmlNode find = new HtmlNode();
+          find.alt = node.attr("alt");
+          find.classes = CommonUtil.isEmpty(node.attr("class")) ? null : node.attr("class").split("\\s");
+          find.href = node.attr("href");
+          find.id = node.attr("id");
+          find.innerText = node instanceof Element ? ((Element) node).text() : null;
+          find.name = node.attr("name");
+          find.tagName = node.nodeName();
+          find.title = node.attr("title");
+          find.type = node.attr("type");
+          find.value = node.attr("value");
+          find.fuzzy = true;
+          WebElement found = toElement(browser, find,
+              BrowserUtil.openElement(browser, false, null, null, null, null), false);
+          found = found == null ? toElement(browser, find, null, false) : found;
+          if (found != null) {
+            return found;
+          }
+        } catch (Browser.Retry r) {
+          throw r;
+        } catch (Browser.Fatal f) {
+          throw f;
+        } catch (Throwable t) {
+          Log.exception(t);
+        }
       }
-    } catch (Browser.Retry r) {
-      throw r;
-    } catch (Browser.Fatal f) {
-      throw f;
-    } catch (Throwable t) {
-      Log.exception(t);
+      if (htmlNode != null) {
+        try {
+          WebElement found = toElement(browser, htmlNode,
+              BrowserUtil.openElement(browser, false, null, null, null, null), false);
+          found = found == null ? toElement(browser, htmlNode, null, false) : found;
+          if (found != null) {
+            return found;
+          }
+        } catch (Browser.Retry r) {
+          throw r;
+        } catch (Browser.Fatal f) {
+          throw f;
+        } catch (Throwable t) {
+          Log.exception(t);
+        }
+      }
     }
     Log.warn("Could not convert Node to WebElement... failed permanently");
     return null;
   }
 
-  public static WebElement toElement(Browser browser, HtmlNode htmlNode, Element body) throws ActionFailed {
+  public static WebElement toElement(Browser browser, HtmlNode htmlNode,
+      Element body) throws ActionFailed {
+    return toElement(browser, htmlNode, body, true);
+  }
+
+  private static WebElement toElement(Browser browser, HtmlNode htmlNode, Element body,
+      boolean recurse) throws ActionFailed {
     if (body == null) {
       body = BrowserUtil.openElement(browser, true, null, null, null, null);
     }
     if (!CommonUtil.isEmpty(htmlNode.id)) {
-      WebElement element = toElement(browser, body.getElementById(htmlNode.id));
+      WebElement element = toElement(browser, body.getElementById(htmlNode.id), htmlNode, recurse);
       if (element != null) {
         return element;
       }
@@ -641,6 +680,6 @@ public class BrowserUtil {
         maxElement = entry.getKey();
       }
     }
-    return toElement(browser, maxElement);
+    return toElement(browser, maxElement, htmlNode, recurse);
   }
 }

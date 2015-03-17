@@ -57,7 +57,7 @@ public class NodeUtil {
       "noframes", "noscript", "output", "param", "plaintext", "pre", "q", "rp", "rt", "ruby", "s", "samp", "script", "small", "source", "spacer", "span", "strike", "strong", "style", "sub",
       "summary", "sup", "template", "#text", "time", "var", "video", "wbr" };
   private static final String NODE_MARKER = "fftheme_";
-  private static final Pattern nodeMarker = Pattern.compile(NODE_MARKER + "\\d+");
+  private static final Pattern nodeMarker = Pattern.compile(NODE_MARKER + "\\d+_\\d+");
   private static final String HIDDEN_MARKER = "xmoztheme";
   private static final String FILTERED_MARKER = "o2xtheme";
   private static final Pattern filteredMarker = Pattern.compile(FILTERED_MARKER);
@@ -326,7 +326,7 @@ public class NodeUtil {
       @Override
       public void head(Node node, int level) {
         ++count;
-        node.attr("class", node.attr("class") + " " + NODE_MARKER + count + " ");
+        node.attr("class", node.attr("class") + " " + NODE_MARKER + "0_" + count + " ");
       }
     });
     return element;

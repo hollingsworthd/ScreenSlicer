@@ -60,7 +60,7 @@ Permissions:
 
 Obligations:
 
-  1) You do not convey these Permissions to others; and
+  1) You must not convey these Permissions to others; and
 
   2) If you modified the covered work or were party to its modification, all
      contributors must exclusively and irrevocably transfer and assign in perpetuity
@@ -74,22 +74,32 @@ Obligations:
      (excluding linked subprograms) at no charge in a reasonable manner deemed
      suitable by Machine Publishers, LLC; and
 
-  4) Modified versions or linked subprograms of the Program may only accessible to
-     others through remote network interaction, from servers provided by or paid for
-     by you, as an application or API (specifically, this excludes making the source
-     code, object code, executables, or binary files directly accessible to others).
-     You may not convey a modified version or linked subprograms to others except for
-     the sole purpose of them making modifications exclusively on your behalf; and
+  4) Except for the sole purpose of others making modifications exclusively on your
+     behalf, modified versions or linked subprograms of the Program must only
+     accessible to others through remote network interaction, from servers or platforms
+     provided by or paid for by you, as an application or application programming
+     interface (API); and
 
-  5) Payment of $14500 or $2850/year or $385/month (USD). Yearly and monthly payment
-     plans are on a recurring basis for eight (8) years or 96 months, respectively. There
-     are no cancellation fees for ending payments early on recurring plans, but you must
-     notify Machine Publishers, LLC in writing in advance of cancellations, and if eight
-     (8) yearly payments or 96 monthly payments have not been made, then the Permissions
-     are revoked and you must immediately comply with the GNU Affero General Public
-     License version 3 without the benefit of the Permissions; and
+  5) You must not convey a modified version or linked subprograms of the Program to
+     others except for the sole purpose of them making modifications exclusively on your
+     behalf; and
 
-  6) If you are paying on a yearly or monthly basis, then Machine Publishers, LLC must
+  6) The Program APIs and any derivatives of them must only accessible to you except for
+     the sole purpose of others making modifications exclusively on your behalf; and
+
+  7) You must add significant and primary functionality to the Program when it is used
+     directly or indirectly by others in any manner, except when such use is incidental
+     to the sole purpose of others making modifications exclusively on your behalf; and
+
+  8) You must pay $14500 or $2850/year or $385/month (USD) to Machine Publishers, LLC.
+     Yearly and monthly payment plans are on a recurring basis for eight (8) years or 96
+     months, respectively. There are no cancellation fees for ending payments early on
+     recurring plans, but you must notify Machine Publishers, LLC in writing in advance of
+     cancellations, and if eight (8) yearly payments or 96 monthly payments have not been
+     made, then the Permissions are revoked and you must immediately comply with the GNU
+     Affero General Public License version 3 without the benefit of the Permissions; and
+
+  9) If you are paying on a yearly or monthly basis, then Machine Publishers, LLC must
      receive payments by the same day each year or month, respectively, from when
      payments were initiated. Payments to Machine Publishers, LLC must be received on
      time and via a payment method and processor acceptable to Machine Publishers, LLC in
@@ -1992,6 +2002,10 @@ licenses are as follows.
         limitations under the License.
 
   • MIT Java Wordnet Interface -- edu.mit.jwi_2.3.3.jar:
+        Finlayson, Mark Alan (2014) 
+            Java Libraries for Accessing the Princeton Wordnet: Comparison and Evaluation.
+            Proceedings of the 7th Global Wordnet Conference. Tartu, Estonia.
+            http://projects.csail.mit.edu/jwi/download.php?f=finlayson.2014.procgwc.7.x.pdf
         Copyright (c) 2007-2014 Massachusetts Institute of Technology.
         All rights reserved.
         The following constitutes the MIT JWI License. It is identical to the 
@@ -2242,3 +2256,26 @@ licenses are as follows.
         additional rights not granted under this License, such additional rights are
         deemed to be included in the License; this License is not intended to
         restrict the license of any rights under applicable law.
+        ------------------------------------------------------------------------------
+        Princeton University "About WordNet." WordNet. Princeton University. 2010.
+        <http://wordnet.princeton.edu>
+        WordNet Release 3.0. This software and database is being provided to you, the
+        LICENSEE, by Princeton University under the following license. By obtaining,
+        using and/or copying this software and database, you agree that you have read,
+        understood, and will comply with these terms and conditions.: Permission to use,
+        copy, modify and distribute this software and database and its documentation for
+        any purpose and without fee or royalty is hereby granted, provided that you
+        agree to comply with the following copyright notice and statements, including
+        the disclaimer, and that the same appear on ALL copies of the software, database
+        and documentation, including modifications that you make for internal use or for
+        distribution. WordNet 3.0 Copyright 2006 by Princeton University. All rights
+        reserved. THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND PRINCETON
+        UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF
+        EXAMPLE, BUT NOT LIMITATION, PRINCETON UNIVERSITY MAKES NO REPRESENTATIONS OR
+        WARRANTIES OF MERCHANT- ABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT
+        THE USE OF THE LICENSED SOFTWARE, DATABASE OR DOCUMENTATION WILL NOT INFRINGE
+        ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS. The name of
+        Princeton University or Princeton may not be used in advertising or publicity
+        pertaining to distribution of the software and/or database. Title to copyright
+        in this software, database and any associated documentation shall at all times
+        remain with Princeton University and LICENSEE agrees to preserve same.
