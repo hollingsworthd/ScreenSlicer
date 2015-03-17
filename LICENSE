@@ -26,109 +26,101 @@
     The full license is as follows, preceded by conditional permissions.
 
 
-                            CONDITIONAL PERMISSIONS
+                         CONDITIONAL PERMISSIONS
 
-For definitions of terms, see:
-GNU AFFERO GENERAL PUBLIC LICENSE Version 3 - TERMS AND CONDITIONS - Definitions
-which appears below in this document.
+For definitions of terms, see: GNU AFFERO GENERAL PUBLIC LICENSE Version 3 - TERMS AND CONDITIONS -
+Definitions which appears below in this document.
 
-Machine Publishers, LLC offers Permissions under GNU GPL version section 7 conditionally
-upon Obligations being satisfied. The Permissions and Obligations are as follows.
+Machine Publishers, LLC offers Permissions under GNU GPL version section 7 conditionally upon
+Obligations being satisfied. These Conditional Permissions are as follows.
 
 Permissions:
 
-  1) to link the Program with subprograms not compatible with the GNU Affero General
-     Public License version 3 or the GNU General Public License v3; and
+  1) to link the Program with subprograms not compatible with the GNU Affero General Public License
+version 3 or the GNU General Public License v3; and
 
   2) to forego the requirements of Section 13 in the License; and
 
-  3) to be indemnified in the event of intellectual property or patent infringement
-     claims based solely on the Corresponding Source of the original work; and
+  3) to be indemnified in the event of intellectual property or patent infringement claims based
+solely on the Corresponding Source of the unmodified original work; and
 
-  4) to receive good faith answers via electronic message in a timely manner to routine
-     questions about the general installation or API usage of the original version of
-     the Program; and
+  4) to receive good faith answers via electronic message in a timely manner to routine questions
+about the general installation or API usage of the Program; and
 
-  5) to officially, and publicly should you choose, file bug reports and feature
-     requests for the Program and receive good faith responses in a timely manner; and
+  5) to officially, and publicly should you choose, file bug reports and feature requests for the
+Program and receive good faith responses in a timely manner; and
 
-  6) to apply these Conditional Permissions to all future Program updates released by
-     Machine Publishers, LLC under this License; and
+  6) to apply these Conditional Permissions to all future Program updates released by Machine
+Publishers, LLC under this License; and
 
-  7) to be granted this License and Conditional Permissions for jBrowserDriver (a
-     separate work by Machine Publishers, LLC) at no additional fee.
+  7) to include jBrowserDriver (a separate work by Machine Publishers, LLC) as part of the Program
+in this License and Conditional Permissions.
 
 Obligations:
 
   1) You must not convey these Permissions to others; and
 
-  2) If you modified the covered work or were party to its modification, all
-     contributors must exclusively and irrevocably transfer and assign in perpetuity
-     all right, title, and interest, throughout the world, in the modified work
-     (excluding linked subprograms) to Machine Publishers, LLC which will in turn 
-     license those modifications to you under this License, and all contributors must 
-     sign and share agreements affirming such transfers and assignments; and
+  2) If you modified the covered work or were party to its modification, all contributors must
+exclusively and irrevocably transfer and assign in perpetuity all right, title, and interest,
+throughout the world, in the modified work (excluding linked subprograms) to Machine Publishers, LLC
+which will in turn license those modifications to you under this License, and all contributors must
+sign and share agreements affirming such transfers and assignments, and all contributors must
+promptly send a copy of the Corresponding Source of the modified work (excluding linked subprograms)
+to Machine Publishers, LLC; and
 
-  3) If you modified the covered work or were party to its modification, Machine
-     Publishers, LLC must receive the Corresponding Source of the modified version
-     (excluding linked subprograms) at no charge in a reasonable manner deemed
-     suitable by Machine Publishers, LLC; and
+  3) Except for anyone under your direction and control and on terms prohibiting making copies of
+modified versions of the Program or linked subprograms outside the relationship with you, who is
+making modifications to the Program or linked subprograms exclusively on your behalf or who is
+providing you with facilities for running the Program, modified versions of the Program, or linked
+subprograms exclusively on your behalf, you must not allow anyone else to:
 
-  4) Except for the sole purpose of others making modifications exclusively on your
-     behalf, modified versions or linked subprograms of the Program must only
-     accessible to others through remote network interaction, from servers or platforms
-     provided by or paid for by you, as an application or application programming
-     interface (API); and
+         a) Access the Program, modified versions of the Program, or linked subprograms except
+through remote network interaction, running on servers or platforms provided by or paid for by you,
+as an application or application programming interface (API); or
 
-  5) You must not convey a modified version or linked subprograms of the Program to
-     others except for the sole purpose of them making modifications exclusively on your
-     behalf; and
+         b) Access the Program APIs or any functionally similar derivative APIs; or
 
-  6) The Program APIs and any derivatives of them must only accessible to you except for
-     the sole purpose of others making modifications exclusively on your behalf; and
+         c) Access or use the Program, modified versions of the Program, or linked subprograms in
+any way, directly or indirectly, unless you add significant and primary functionality to the
+Program; or
 
-  7) You must add significant and primary functionality to the Program when it is used
-     directly or indirectly by others in any manner, except when such use is incidental
-     to the sole purpose of others making modifications exclusively on your behalf; and
+         d) Make a copy of modified versions of the Program or linked subprograms; and
 
-  8) You must pay $14500 or $2850/year or $385/month (USD) to Machine Publishers, LLC.
-     Yearly and monthly payment plans are on a recurring basis for eight (8) years or 96
-     months, respectively. There are no cancellation fees for ending payments early on
-     recurring plans, but you must notify Machine Publishers, LLC in writing in advance of
-     cancellations, and if eight (8) yearly payments or 96 monthly payments have not been
-     made, then the Permissions are revoked and you must immediately comply with the GNU
-     Affero General Public License version 3 without the benefit of the Permissions; and
+  4) You must pay $14500 or $2850/year or $385/month (USD) to Machine Publishers, LLC. Yearly and
+monthly payment plans are on a recurring basis for eight (8) years or 96 months, respectively. There
+are no cancellation fees for ending payments early on recurring plans, but you must notify Machine
+Publishers, LLC in writing in advance of cancellations, and if eight (8) yearly payments or 96
+monthly payments have not been made, then the Permissions are revoked and you must immediately
+comply with the GNU Affero General Public License version 3 without the benefit of the Permissions;
+and
 
-  9) If you are paying on a yearly or monthly basis, then Machine Publishers, LLC must
-     receive payments by the same day each year or month, respectively, from when
-     payments were initiated. Payments to Machine Publishers, LLC must be received on
-     time and via a payment method and processor acceptable to Machine Publishers, LLC in
-     its sole discretion. Late payments, bounced checks, fraudulent payments, lost or
-     undelivered payments, or disputed credit charges constitute non-payment and a
-     violation of these Obligations. Violations of the Obligations because of late
-     payments may be excused at the discretion of Machine Publishers, LLC if you pay
-     an additional $10 USD per day for each day past the due date.
+  5) If you are paying on a yearly or monthly basis, then Machine Publishers, LLC must receive
+payments by the same day each year or month, respectively, from when payments were initiated.
+Payments to Machine Publishers, LLC must be received on time and via a payment method and processor
+acceptable to Machine Publishers, LLC in its sole discretion. Late payments, missed payments,
+bounced checks, fraudulent payments, lost or undelivered payments, or disputed credit charges
+constitute non-payment and a violation of these Obligations. Violations of the Obligations because
+of non-payment shall be excused by Machine Publishers, LLC if you pay an additional $10 USD per day
+for each day your account is past due and if your account is past due for no more than 180 days in
+any 365 day period. If you prefer not to pay $10 USD per day for each day your account is past due
+or if your account is past due for more than 180 days in any 365 day period, then the Permissions
+are revoked, you must immediately comply with the GNU Affero General Public License version 3
+without the benefit of the Permissions, and you must pay the past due amount plus interest on it at
+an annualized 15%.
 
-The Permissions are not granted until the Obligations are satisfied, and the PERMISSIONS
-ARE VOID AND VOIDED RETROACTIVELY SHOULD THE OBLIGATIONS EVER BE VIOLATED, except at the
-sole discretion of Machine Publishers, LLC. Additionally, YOU WILL BE HELD LIABLE FOR
-DAMAGES SHOULD VIOLATIONS OF THE OBLIGATIONS OCCUR.
+Any claim relating to the license or Machine Publishers, LLC shall be governed by the laws of the
+State of Ohio without regard to its conflict of law provisions.
 
-Any claim relating to the license or Machine Publishers, LLC shall be governed by
-the laws of the State of Ohio without regard to its conflict of law provisions.
+Nothing in these Obligations restricts your rights under the License, as the License does not grant
+you these Permissions otherwise. If you remove any of these Obligations prior to acceptance of the
+License, then the Permissions are automatically removed too. The terms in these Permissions and
+Obligations supersede any possible conflicting terms in the License, which is permissible given that
+Machine Publishers, LLC as the copyright holder can issue dual or alternate licensing. Machine
+Publishers, LLC reserves the right to modify these terms or reject offering these Permissions by
+providing prompt notice and, if any initial payment has beeen received, by providing a prompt refund
+too.
 
-Nothing in these Obligations restricts your rights under the License, as the License
-does not grant you these Permissions otherwise. If you remove any of these
-Obligations prior to acceptance of the License, then the Permissions are
-automatically removed too. The terms in these Permissions and Obligations supersede
-any possible conflicting terms in the License, which is permissible given that
-Machine Publishers, LLC as the copyright holder can issue dual or alternate licensing.
-
-Machine Publishers, LLC reserves the right to modify these terms and reject offering
-these permissions by providing prompt notice and refund after any initial payment has
-been received.
-
-                       END OF CONDITIONAL PERMISSIONS
+                     END OF CONDITIONAL PERMISSIONS
 
 
                     GNU AFFERO GENERAL PUBLIC LICENSE
