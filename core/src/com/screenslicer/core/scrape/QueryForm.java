@@ -395,7 +395,7 @@ public class QueryForm {
       return null;
     }
     HtmlNode control = new HtmlNode();
-    control.tagName = element.getTagName();
+    control.tagName = element.getTagName().toLowerCase();
     String attr = element.getAttribute("name");
     control.name = CommonUtil.isEmpty(attr) ? null : attr;
     attr = element.getAttribute("title");
