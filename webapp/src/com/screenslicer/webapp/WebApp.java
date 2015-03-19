@@ -44,9 +44,9 @@ public class WebApp extends ResourceConfig {
   private static ExceptionListener listener = null;
   private static final Object listenerLock = new Object();
   public static URI INTERNAL_URL;
-  public static final boolean DEV = "true".equals(System.getProperty("slicer_dev", "false"));
-  public static final boolean DEBUG = "true".equals(System.getProperty("slicer_debug", "false"));
-  public static final boolean SANDBOX = "true".equals(System.getProperty("slicer_sandbox", "false"));
+  public static final boolean DEV = "true".equals(System.getProperty("slicer.dev", "false"));
+  public static final boolean DEBUG = "true".equals(System.getProperty("slicer.debug", "false"));
+  public static final boolean SANDBOX = "true".equals(System.getProperty("slicer.sandbox", "false"));
   public static final SecureRandom rand = new SecureRandom();
   public static final int THREADS = Integer.parseInt(System.getProperty("slicer.threads", "1"));
   private static final int MAX_REQUESTS = 1048576;

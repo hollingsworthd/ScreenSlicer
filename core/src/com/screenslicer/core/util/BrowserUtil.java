@@ -24,6 +24,8 @@
  */
 package com.screenslicer.core.util;
 
+import java.io.File;
+import java.io.IOException;
 import java.net.URL;
 import java.security.SecureRandom;
 import java.util.ArrayList;
@@ -35,6 +37,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.regex.Pattern;
 
+import org.apache.commons.io.FileUtils;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
@@ -359,7 +362,6 @@ public class BrowserUtil {
   public static Element openElement(final Browser browser, boolean init, final String[] whitelist,
       final String[] patterns, final HtmlNode[] urlNodes, final UrlTransform[] transforms)
       throws ActionFailed {
-
     try {
       if (init) {
         int myStartId;
@@ -423,6 +425,11 @@ public class BrowserUtil {
             }
           }
         });
+      }
+      if (WebApp.DEBUG) {
+        try {
+          FileUtils.writeStringToFile(new File("./" + System.currentTimeMillis() + ".log.scrape"), element.outerHtml(), "utf-8");
+        } catch (IOException e) {}
       }
       return element;
     } catch (Browser.Retry r) {
@@ -656,6 +663,7 @@ public class BrowserUtil {
     }
     if (!CommonUtil.isEmpty(htmlNode.innerText)) {
       selected.add(body.getElementsMatchingText(Pattern.quote(htmlNode.innerText)));
+      selected.add(body.getElementsMatchingText("^\\s*" + Pattern.quote(htmlNode.innerText) + "\\s*$"));
     }
     if (htmlNode.multiple != null) {
       selected.add(body.getElementsByAttribute("multiple"));

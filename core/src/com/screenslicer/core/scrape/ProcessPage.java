@@ -24,14 +24,11 @@
  */
 package com.screenslicer.core.scrape;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.io.FileUtils;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.NodeVisitor;
@@ -96,11 +93,6 @@ public class ProcessPage {
           query.proactiveUrlFiltering ? query.urlMatchNodes : null,
           query.proactiveUrlFiltering ? query.urlTransforms : null);
       trim(element);
-      if (WebApp.DEBUG) {
-        try {
-          FileUtils.writeStringToFile(new File("./" + System.currentTimeMillis() + ".log.search"), element.outerHtml(), "utf-8");
-        } catch (IOException e) {}
-      }
       Map<String, Object> cache = new HashMap<String, Object>();
       List<ScrapeResult> results = perform(
           element, page, browser.getCurrentUrl(), true, query, cache, thread);

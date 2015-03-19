@@ -25,7 +25,6 @@
 package com.screenslicer.core.scrape;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -481,11 +480,6 @@ public class Scrape {
               content = browser.getPageSource();
             }
             content = NodeUtil.clean(content, browser.getCurrentUrl()).outerHtml();
-            if (WebApp.DEBUG) {
-              try {
-                FileUtils.writeStringToFile(new File("./" + System.currentTimeMillis() + ".log.fetch"), content, "utf-8");
-              } catch (IOException e) {}
-            }
             //TODO make iframes work
             //            if (!CommonUtil.isEmpty(content)) {
             //              Document doc = Jsoup.parse(content);

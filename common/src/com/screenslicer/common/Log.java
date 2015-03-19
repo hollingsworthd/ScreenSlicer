@@ -54,7 +54,7 @@ public class Log {
       try {
         fh = new FileHandler("../" + loggerName + ".log", 250000, 9, true);
         logger.addHandler(fh);
-        String logLevel = System.getProperty("slicer_log", "prod");
+        String logLevel = System.getProperty("slicer.log", "prod");
         if (logLevel.equals("prod")) {
           logger.setLevel(Level.INFO);
         } else if (logLevel.equals("debug")) {
