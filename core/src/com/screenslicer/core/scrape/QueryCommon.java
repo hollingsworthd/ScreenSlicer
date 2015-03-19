@@ -32,6 +32,7 @@ import java.util.regex.Pattern;
 import org.openqa.selenium.WebElement;
 
 import com.machinepublishers.browser.Browser;
+import com.machinepublishers.jbrowserdriver.JBrowserDriver;
 import com.screenslicer.api.datatype.Credentials;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.core.scrape.Scrape.ActionFailed;
@@ -140,7 +141,7 @@ public class QueryCommon {
         element.clear();
       }
       if (!validate || !CommonUtil.isEmpty(element.getAttribute("value"))) {
-        element.sendKeys(QueryForm.delete);
+        element.sendKeys(JBrowserDriver.KEYBOARD_DELETE);
       }
       element.sendKeys(text);
       browser.getKeyboard().sendKeys("\t");

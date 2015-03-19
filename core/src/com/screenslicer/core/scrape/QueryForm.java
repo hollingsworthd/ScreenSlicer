@@ -33,7 +33,6 @@ import java.util.Map;
 
 import org.jsoup.nodes.Element;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
@@ -50,20 +49,6 @@ import com.screenslicer.webapp.WebApp;
 
 public class QueryForm {
   private static final double NAMED_CONTROLS_MIN_RATIO = .75;
-  private static final int CHARS_TO_REMOVE = 60;
-  static String delete;
-  static {
-    String key = Keys.BACK_SPACE.toString();
-    delete = key;
-    for (int i = 1; i < CHARS_TO_REMOVE; i++) {
-      delete = delete + key;
-    }
-    key = Keys.DELETE.toString();
-    delete = delete + key;
-    for (int i = 1; i < CHARS_TO_REMOVE; i++) {
-      delete = delete + key;
-    }
-  }
 
   private static void doSubmit(Browser browser, String formId, HtmlNode submitClick) throws ActionFailed {
     try {
