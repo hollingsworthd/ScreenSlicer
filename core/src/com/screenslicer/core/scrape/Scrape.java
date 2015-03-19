@@ -410,7 +410,7 @@ public class Scrape {
       throw new ActionFailed(t);
     } finally {
       if (!terminate) {
-        BrowserUtil.browserSleepRand(query.throttle);
+        BrowserUtil.browserSleepLong(query.throttle);
       }
     }
   }
@@ -520,7 +520,7 @@ public class Scrape {
               }
             }
             if (!terminate) {
-              BrowserUtil.browserSleepRand(throttle);
+              BrowserUtil.browserSleepLong(throttle);
               if (init && newHandle != null && origHandle != null) {
                 try {
                   BrowserUtil.handleNewWindows(browser, origHandle, true);
@@ -795,7 +795,7 @@ public class Scrape {
         if (page > 1) {
           if (!query.fetch) {
             try {
-              BrowserUtil.browserSleepRand(query.throttle);
+              BrowserUtil.browserSleepLong(query.throttle);
             } catch (Throwable t) {
               Log.exception(t);
             }

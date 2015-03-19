@@ -87,35 +87,35 @@ public class BrowserUtil {
           + "  element.scrollIntoView();"
           + "  return isCurrentlyVisible(element, element.getBoundingClientRect());"
           + "}";
-  private static int VERY_SHORT_WAIT_MS = 381;
-  private static int VERY_SHORT_WAIT_MIN_MS = 327;
-  private static int RAND_MIN_WAIT_MS = 7734;
-  private static int RAND_WAIT_MS = 3734;
-  private static int RAND_MAX_WAIT_MS = 129 * 1000;
-  private static int RAND_MIN_WAIT_ITER = 1;
-  private static int RAND_MAX_WAIT_ITER = 5;
+  private static int SHORT_WAIT_MS = 381;
+  private static int SHORT_WAIT_MIN_MS = 327;
+  private static int LONG_MIN_WAIT_MS = 7734;
+  private static int LONG_WAIT_MS = 3734;
+  private static int LONG_MAX_WAIT_MS = 129 * 1000;
+  private static int LONG_MIN_WAIT_ITER = 1;
+  private static int LONG_MAX_WAIT_ITER = 5;
   private static final SecureRandom rand = new SecureRandom();
 
-  public static void browserSleepRand(boolean longSleep) {
+  public static void browserSleepLong(boolean longSleep) {
     if (longSleep) {
       try {
-        int cur = RAND_MAX_WAIT_MS;
-        int iter = rand.nextInt(RAND_MAX_WAIT_ITER) + RAND_MIN_WAIT_ITER;
+        int cur = LONG_MAX_WAIT_MS;
+        int iter = rand.nextInt(LONG_MAX_WAIT_ITER) + LONG_MIN_WAIT_ITER;
         for (int i = 0; i < iter; i++) {
           cur = rand.nextInt(cur + 1);
         }
-        Thread.sleep(rand.nextInt(cur + 1) + rand.nextInt(RAND_WAIT_MS) + RAND_MIN_WAIT_MS);
+        Thread.sleep(rand.nextInt(cur + 1) + rand.nextInt(LONG_WAIT_MS) + LONG_MIN_WAIT_MS);
       } catch (InterruptedException e) {}
     } else {
       try {
-        Thread.sleep(RAND_MIN_WAIT_MS / 2);
+        Thread.sleep(LONG_MIN_WAIT_MS / 2);
       } catch (InterruptedException e) {}
     }
   }
 
-  public static void browserSleepVeryShort() {
+  public static void browserSleepShort() {
     try {
-      Thread.sleep(rand.nextInt(VERY_SHORT_WAIT_MS) + VERY_SHORT_WAIT_MIN_MS);
+      Thread.sleep(rand.nextInt(SHORT_WAIT_MS) + SHORT_WAIT_MIN_MS);
     } catch (InterruptedException e) {}
   }
 

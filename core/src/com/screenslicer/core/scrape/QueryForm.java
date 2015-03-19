@@ -172,7 +172,7 @@ public class QueryForm {
                     for (String val : entry.getValue()) {
                       valueChanged = true;
                       select.selectByValue(val);
-                      BrowserUtil.browserSleepVeryShort();
+                      BrowserUtil.browserSleepShort();
                     }
                   }
                 } else if ("input".equalsIgnoreCase(formControl.tagName)
@@ -206,7 +206,7 @@ public class QueryForm {
                       Log.debug("Deselecting [checkbox|radio]", WebApp.DEBUG);
                       valueChanged = true;
                       element.clear();
-                      BrowserUtil.browserSleepVeryShort();
+                      BrowserUtil.browserSleepShort();
                     }
                   }
                 }

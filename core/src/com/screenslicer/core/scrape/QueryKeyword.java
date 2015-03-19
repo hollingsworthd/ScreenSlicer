@@ -283,7 +283,7 @@ public class QueryKeyword {
               try {
                 BrowserUtil.get(browser, src, true, cleanupWindows);
                 browser.executeScript("document.getElementsByTagName('html')[0].style.overflow='scroll';");
-                BrowserUtil.browserSleepVeryShort();
+                BrowserUtil.browserSleepShort();
                 if (browser.findElementByTagName("body").getText().length() < MIN_SOURCE_DIFF) {
                   undo = true;
                 }
