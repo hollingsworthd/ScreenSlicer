@@ -43,7 +43,6 @@ public class NeuralNetManager {
 
   }
 
-  //TODO make thread safe
   public static NeuralNet instance(int thread) {
     return net[thread];
   }

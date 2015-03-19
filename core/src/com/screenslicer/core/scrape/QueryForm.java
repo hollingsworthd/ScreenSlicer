@@ -107,7 +107,7 @@ public class QueryForm {
       } else {
         BrowserUtil.click(browser, BrowserUtil.toElement(browser, submitClick, null), false);
       }
-      BrowserUtil.browserSleepLong();
+      browser.getStatusCode();
     } catch (Browser.Retry r) {
       throw r;
     } catch (Browser.Fatal f) {

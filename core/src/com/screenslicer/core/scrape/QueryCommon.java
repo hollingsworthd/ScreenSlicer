@@ -147,7 +147,7 @@ public class QueryCommon {
       browser.getKeyboard().sendKeys("\t");
       if (newline) {
         element.sendKeys("\n");
-        BrowserUtil.browserSleepLong();
+        browser.getStatusCode();
       }
       return true;
     }

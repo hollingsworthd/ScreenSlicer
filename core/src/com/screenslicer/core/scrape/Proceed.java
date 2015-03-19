@@ -97,7 +97,7 @@ public class Proceed {
           if (element != null) {
             boolean success = BrowserUtil.click(browser, element, false);
             if (success) {
-              BrowserUtil.browserSleepLong();
+              browser.getStatusCode();
               String newSource = browser.getPageSource();
               String newTitle = browser.getTitle();
               String newUrl = browser.getCurrentUrl();

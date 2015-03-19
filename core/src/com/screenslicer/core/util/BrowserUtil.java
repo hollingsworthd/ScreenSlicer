@@ -87,9 +87,6 @@ public class BrowserUtil {
           + "  element.scrollIntoView();"
           + "  return isCurrentlyVisible(element, element.getBoundingClientRect());"
           + "}";
-  private static int LONG_WAIT_MS = 5837;
-  private static int SHORT_WAIT_MS = 1152;
-  private static int SHORT_WAIT_MIN_MS = 3783;
   private static int VERY_SHORT_WAIT_MS = 381;
   private static int VERY_SHORT_WAIT_MIN_MS = 327;
   private static int RAND_MIN_WAIT_MS = 7734;
@@ -116,21 +113,9 @@ public class BrowserUtil {
     }
   }
 
-  public static void browserSleepShort() {
-    try {
-      Thread.sleep(rand.nextInt(SHORT_WAIT_MS) + SHORT_WAIT_MIN_MS);
-    } catch (InterruptedException e) {}
-  }
-
   public static void browserSleepVeryShort() {
     try {
       Thread.sleep(rand.nextInt(VERY_SHORT_WAIT_MS) + VERY_SHORT_WAIT_MIN_MS);
-    } catch (InterruptedException e) {}
-  }
-
-  public static void browserSleepLong() {
-    try {
-      Thread.sleep(LONG_WAIT_MS);
     } catch (InterruptedException e) {}
   }
 
@@ -474,7 +459,7 @@ public class BrowserUtil {
           BrowserUtil.get(browser, controls[i].httpGet, true, false);
           continue;
         }
-        if (i > 0 && (controls[i - 1].longRequest || !CommonUtil.isEmpty(controls[i - 1].httpGet))) {
+        if (i > 0 && !CommonUtil.isEmpty(controls[i - 1].httpGet)) {
           body = BrowserUtil.openElement(browser, true, null, null, null, null);
         }
         WebElement element = BrowserUtil.toElement(browser, controls[i], body);
@@ -491,10 +476,7 @@ public class BrowserUtil {
         if (element != null) {
           clicked = true;
           click(browser, element, toNewWindow == null ? controls[i].newWindow : toNewWindow);
-          if (controls[i].longRequest) {
-            //TODO wait for long ajax requests
-            browserSleepLong();
-          }
+          browser.getStatusCode();
         }
       }
     } else {

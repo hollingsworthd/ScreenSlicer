@@ -125,7 +125,7 @@ public class QueryKeyword {
       action.moveByOffset(-MOUSE_MOVE_OFFSET, -MOUSE_MOVE_OFFSET).perform();
       action.moveToElement(element).perform();
       action.moveByOffset(2, 2).perform();
-      BrowserUtil.browserSleepShort();
+      browser.getStatusCode();
       BrowserUtil.handleNewWindows(browser, oldHandle, cleanupWindows);
     } catch (Browser.Retry r) {
       throw r;
@@ -218,7 +218,7 @@ public class QueryKeyword {
           } else {
             BrowserUtil.click(browser, BrowserUtil.toElement(browser, submitClick, null), false);
           }
-          BrowserUtil.browserSleepLong();
+          browser.getStatusCode();
           BrowserUtil.handleNewWindows(browser, windowHandle, cleanupWindows);
           String afterSource = browser.getPageSource();
           String afterTitle = browser.getTitle();
@@ -283,7 +283,7 @@ public class QueryKeyword {
               try {
                 BrowserUtil.get(browser, src, true, cleanupWindows);
                 browser.executeScript("document.getElementsByTagName('html')[0].style.overflow='scroll';");
-                BrowserUtil.browserSleepShort();
+                BrowserUtil.browserSleepVeryShort();
                 if (browser.findElementByTagName("body").getText().length() < MIN_SOURCE_DIFF) {
                   undo = true;
                 }

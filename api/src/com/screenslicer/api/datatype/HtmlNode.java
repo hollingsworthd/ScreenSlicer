@@ -83,6 +83,8 @@ public final class HtmlNode {
    * Whether actions on this node should be followed by a long delay.
    * Useful for AJAX apps, such as with a search button that does an asynchonous
    * post.
+   * 
+   * @deprecated will be removed in version 2.0.0.
    */
   public boolean longRequest = false;
   /**
