@@ -518,6 +518,7 @@ public class BrowserUtil {
           find.name = node.attr("name");
           find.tagName = node.nodeName();
           find.title = node.attr("title");
+          find.role = node.attr("role");
           find.type = node.attr("type");
           find.value = node.attr("value");
           find.fuzzy = true;
@@ -589,6 +590,9 @@ public class BrowserUtil {
     }
     if (!CommonUtil.isEmpty(htmlNode.title)) {
       selected.add(body.getElementsByAttributeValue("title", htmlNode.title));
+    }
+    if (!CommonUtil.isEmpty(htmlNode.role)) {
+      selected.add(body.getElementsByAttributeValue("role", htmlNode.role));
     }
     if (!CommonUtil.isEmpty(htmlNode.alt)) {
       selected.add(body.getElementsByAttributeValue("alt", htmlNode.alt));

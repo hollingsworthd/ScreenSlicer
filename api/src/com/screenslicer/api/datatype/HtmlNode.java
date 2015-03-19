@@ -134,6 +134,10 @@ public final class HtmlNode {
    */
   public String href;
   /**
+   * HTML element role attribute.
+   */
+  public String role;
+  /**
    * CSS class names listed in the class attribute of an HTML element
    */
   public String[] classes;
@@ -183,6 +187,7 @@ public final class HtmlNode {
     builder.append(toStringHelper("title", title));
     builder.append(toStringHelper("alt", alt));
     builder.append(toStringHelper("href", href));
+    builder.append(toStringHelper("role", role));
     builder.append(toStringHelper("classes", CommonUtil.toString(classes, ",")));
     builder.append(toStringHelper("innerText", innerText));
     builder.append(toStringHelper("innerHtml", innerHtml));

@@ -223,6 +223,7 @@ public class NodeUtil {
     toMatch.add(new String[] { reference.type, test.attr("type") });
     toMatch.add(new String[] { reference.value, test.attr("value") });
     toMatch.add(new String[] { reference.title, test.attr("title") });
+    toMatch.add(new String[] { reference.role, test.attr("role") });
     toMatch.add(new String[] { reference.alt, test.attr("alt") });
     toMatch.add(new String[] { reference.href, test.attr("href") });
     if (test instanceof Element) {

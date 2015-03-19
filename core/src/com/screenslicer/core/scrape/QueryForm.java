@@ -50,11 +50,11 @@ import com.screenslicer.webapp.WebApp;
 public class QueryForm {
   private static final double NAMED_CONTROLS_MIN_RATIO = .75;
 
-  private static void doSubmit(Browser browser, String formId, HtmlNode submitClick) throws ActionFailed {
+  private static void doSubmit(Browser browser, WebElement form, HtmlNode submitClick) throws ActionFailed {
     try {
       if (submitClick == null) {
-        List<WebElement> inputs = browser.findElementById(formId).findElements(By.tagName("input"));
-        List<WebElement> buttons = browser.findElementById(formId).findElements(By.tagName("button"));
+        List<WebElement> inputs = form.findElements(By.tagName("input"));
+        List<WebElement> buttons = form.findElements(By.tagName("button"));
         List<WebElement> possibleSubmits = new ArrayList<WebElement>();
         List<WebElement> submits = new ArrayList<WebElement>();
         possibleSubmits.addAll(inputs);
@@ -70,7 +70,7 @@ public class QueryForm {
             if (submits.size() == 1) {
               clicked = BrowserUtil.click(browser, submits.get(0), false);
             } else {
-              String formHtml = CommonUtil.strip(browser.findElementById(formId).getAttribute("outerHTML"), false);
+              String formHtml = CommonUtil.strip(form.getAttribute("outerHTML"), false);
               int minIndex = Integer.MAX_VALUE;
               WebElement firstSubmit = null;
               for (WebElement submit : submits) {
@@ -102,7 +102,7 @@ public class QueryForm {
           Log.exception(t);
         }
         if (!clicked) {
-          browser.findElementById(formId).submit();
+          form.submit();
         }
       } else {
         BrowserUtil.click(browser, BrowserUtil.toElement(browser, submitClick, null), false);
@@ -220,7 +220,12 @@ public class QueryForm {
             }
           }
         } while (valueChanged && count < MAX_TRIES);
-        doSubmit(browser, context.formId, context.searchSubmitClick);
+        if (context.form == null) {
+          //TODO remove this in version 2.0.0
+          context.form = new HtmlNode();
+          context.form.id = context.formId;
+        }
+        doSubmit(browser, BrowserUtil.toElement(browser, context.form, null), context.searchSubmitClick);
       }
       BrowserUtil.doClicks(browser, context.postSearchClicks, null, false);
     } catch (Browser.Retry r) {
@@ -238,7 +243,12 @@ public class QueryForm {
       BrowserUtil.doClicks(browser, context.preAuthClicks, null, false);
       QueryCommon.doAuth(browser, context.credentials);
       BrowserUtil.doClicks(browser, context.preSearchClicks, null, false);
-      WebElement form = browser.findElementById(context.formId);
+      if (context.form == null) {
+        //TODO remove this in version 2.0.0
+        context.form = new HtmlNode();
+        context.form.id = context.formId;
+      }
+      WebElement form = BrowserUtil.toElement(browser, context.form, null);
       Map<HtmlNode, String> controlsHtml = new HashMap<HtmlNode, String>();
       String formHtml = CommonUtil.strip(form.getAttribute("outerHTML"), false);
       List<WebElement> elements = new ArrayList<WebElement>();
@@ -396,6 +406,8 @@ public class QueryForm {
     control.id = CommonUtil.isEmpty(attr) ? null : attr;
     attr = element.getAttribute("type");
     control.type = CommonUtil.isEmpty(attr) ? null : attr;
+    attr = element.getAttribute("role");
+    control.role = CommonUtil.isEmpty(attr) ? null : attr;
     attr = element.getAttribute("value");
     control.value = CommonUtil.isEmpty(attr) ? null : attr;
     attr = element.getAttribute("innerHTML");

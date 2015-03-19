@@ -71,8 +71,14 @@ public final class FormLoad {
   public String site;
   /**
    * HTML element ID the the search form
+   * 
+   * @deprecated will be removed in version 2.0.0.
    */
   public String formId;
+  /**
+   * The target html form.
+   */
+  public HtmlNode form;
   /**
    * Clicks on HTML elements prior to authentication.
    */

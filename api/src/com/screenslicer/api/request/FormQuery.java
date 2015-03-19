@@ -66,8 +66,14 @@ public final class FormQuery extends Query {
 
   /**
    * HTML element ID the the search form
+   * 
+   * @deprecated will be removed in version 2.0.0.
    */
   public String formId;
+  /**
+   * The target html form.
+   */
+  public HtmlNode form;
   /**
    * Schema of the search form (obtained from load-form function)
    */
