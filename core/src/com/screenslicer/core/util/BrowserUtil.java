@@ -493,9 +493,11 @@ public class BrowserUtil {
     if (node != null || htmlNode != null) {
       try {
         String classId = NodeUtil.classId(node);
-        classId = classId == null && htmlNode != null ? htmlNode.id : classId;
         if (classId != null) {
-          return browser.findElementByClassName(classId);
+          WebElement element = browser.findElementByClassName(classId);
+          if (element != null) {
+            return element;
+          }
         }
       } catch (Browser.Retry r) {
         throw r;
