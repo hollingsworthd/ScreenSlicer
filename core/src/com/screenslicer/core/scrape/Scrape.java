@@ -25,6 +25,7 @@
 package com.screenslicer.core.scrape;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -458,6 +459,13 @@ public class Scrape {
               }
               BrowserUtil.doClicks(browser, postFetchClicks, null, null);
               content = browser.getPageSource();
+              if (WebApp.DEBUG && (postFetchClicks == null || postFetchClicks.length == 0)) {
+                try {
+                  FileUtils.writeStringToFile(
+                      new File("./" + System.currentTimeMillis() + ".log.scrape"),
+                      content, "utf-8");
+                } catch (IOException e) {}
+              }
               if (CommonUtil.isEmpty(content)) {
                 cached = true;
               }
