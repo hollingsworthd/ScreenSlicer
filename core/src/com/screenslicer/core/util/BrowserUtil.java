@@ -582,6 +582,9 @@ public class BrowserUtil {
     } else if (!CommonUtil.isEmpty(htmlNode.href)) {
       selected.add(body.getElementsByTag("a"));
     }
+    if (!CommonUtil.isEmpty(htmlNode.id)) {
+      selected.add(body.getElementsByAttributeValue("id", htmlNode.id));
+    }
     if (!CommonUtil.isEmpty(htmlNode.name)) {
       selected.add(body.getElementsByAttributeValue("name", htmlNode.name));
     }
