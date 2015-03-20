@@ -568,9 +568,12 @@ public class BrowserUtil {
       body = BrowserUtil.openElement(browser, true, null, null, null, null);
     }
     if (!CommonUtil.isEmpty(htmlNode.id)) {
-      WebElement element = toElement(browser, body.getElementById(htmlNode.id), htmlNode, recurse);
-      if (element != null) {
-        return element;
+      Elements elements = body.getElementsByAttributeValue("id", htmlNode.id);
+      if (elements.size() == 1) {
+        WebElement element = toElement(browser, elements.get(0), htmlNode, recurse);
+        if (element != null) {
+          return element;
+        }
       }
     }
     List<Elements> selected = new ArrayList<Elements>();
