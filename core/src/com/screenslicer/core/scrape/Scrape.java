@@ -154,10 +154,12 @@ public class Scrape {
     File downloadCache = new File("./download_cache" + threadNum);
     FileUtils.deleteQuietly(downloadCache);
     downloadCache.mkdir();
-    browsers.get()[threadNum] = new JBrowserDriver(new Settings(
-        req.httpHeaders == null ? null : new RequestHeaders(new LinkedHashMap<String, String>(req.httpHeaders)),
-        null, null,
-        new ProxyConfig(proxyType, proxyHost, proxyPort, proxyUser, proxyPassword), downloadCache));
+    browsers.get()[threadNum] = new JBrowserDriver(
+        new Settings.Builder().
+            requestHeaders(req.httpHeaders == null ? null
+                : new RequestHeaders(new LinkedHashMap<String, String>(req.httpHeaders))).
+            proxy(new ProxyConfig(proxyType, proxyHost, proxyPort, proxyUser, proxyPassword)).
+            downloadDir(downloadCache).build());
     browsers.get()[threadNum].manage().timeouts().pageLoadTimeout(req.timeout, TimeUnit.SECONDS);
     browsers.get()[threadNum].manage().timeouts().setScriptTimeout(req.timeout, TimeUnit.SECONDS);
     browsers.get()[threadNum].manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
