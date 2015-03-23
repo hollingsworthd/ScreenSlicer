@@ -102,6 +102,10 @@ public final class Result {
    */
   public String html;
   /**
+   * Media binary content
+   */
+  public Map<HtmlNode, List<String>> media;
+  /**
    * HTML of the page at the result URL
    */
   public String pageHtml;
@@ -144,8 +148,13 @@ public final class Result {
         summary = null;
         date = null;
         html = null;
+        media = null;
         pageHtml = null;
         pageText = null;
+        pageBinary = null;
+        pageBinaryMimeType = null;
+        pageBinaryExtension = null;
+        pageBinaryFilename = null;
       }
     } catch (Throwable t) {
       Log.exception(t);
@@ -173,8 +182,13 @@ public final class Result {
         this.summary = cached.summary;
         this.date = cached.date;
         this.html = cached.html;
+        this.media = cached.media;
         this.pageHtml = cached.pageHtml;
         this.pageText = cached.pageText;
+        this.pageBinary = cached.pageBinary;
+        this.pageBinaryMimeType = cached.pageBinaryMimeType;
+        this.pageBinaryExtension = cached.pageBinaryExtension;
+        this.pageBinaryFilename = cached.pageBinaryFilename;
         key = null;
         cached = null;
       }

@@ -73,6 +73,10 @@ public final class Fetch {
    */
   public HtmlNode[] postFetchClicks;
   /**
+   * Attach media to the result which match these HtmlNodes
+   */
+  public HtmlNode[] media;
+  /**
    * URL to HTTP GET
    */
   public String url;

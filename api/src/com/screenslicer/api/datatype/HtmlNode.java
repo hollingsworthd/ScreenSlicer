@@ -199,6 +199,16 @@ public final class HtmlNode {
     return builder.toString();
   }
 
+  @Override
+  public boolean equals(Object obj) {
+    return toString().equals(obj.toString());
+  }
+
+  @Override
+  public int hashCode() {
+    return toString().hashCode();
+  }
+
   private static String toStringHelper(String name, String value) {
     if (!CommonUtil.isEmpty(value)) {
       return name + "=" + value + "|";

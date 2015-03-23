@@ -119,7 +119,7 @@ public class Scrape {
   public static void init() {
     for (int i = 0; i < WebApp.THREADS; i++) {
       NeuralNetManager.reset(new File("./resources/neural/config"), i);
-      start(new Request(), i);
+      start(new Request(), false, i);
       synchronized (doneLock) {
         done[i] = true;
       }
@@ -127,7 +127,7 @@ public class Scrape {
 
   }
 
-  private static void start(Request req, int threadNum) {
+  private static void start(Request req, boolean media, int threadNum) {
     Type proxyType = null;
     String proxyHost = null;
     int proxyPort = -1;
@@ -154,12 +154,19 @@ public class Scrape {
     File downloadCache = new File("./download_cache" + threadNum);
     FileUtils.deleteQuietly(downloadCache);
     downloadCache.mkdir();
+    File mediaCache = null;
+    if (media) {
+      mediaCache = new File("./media_cache" + threadNum);
+      FileUtils.deleteQuietly(mediaCache);
+      mediaCache.mkdir();
+    }
     browsers.get()[threadNum] = new JBrowserDriver(
         new Settings.Builder().
             requestHeaders(req.httpHeaders == null ? null
                 : new RequestHeaders(new LinkedHashMap<String, String>(req.httpHeaders))).
             proxy(new ProxyConfig(proxyType, proxyHost, proxyPort, proxyUser, proxyPassword)).
-            downloadDir(downloadCache).build());
+            downloadDir(downloadCache).
+            mediaDir(mediaCache).build());
     browsers.get()[threadNum].manage().timeouts().pageLoadTimeout(req.timeout, TimeUnit.SECONDS);
     browsers.get()[threadNum].manage().timeouts().setScriptTimeout(req.timeout, TimeUnit.SECONDS);
     browsers.get()[threadNum].manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
@@ -175,7 +182,7 @@ public class Scrape {
     }
   }
 
-  private static void restart(Request req, int threadNum) {
+  private static void restart(Request req, boolean media, int threadNum) {
     try {
       forceQuit(threadNum);
     } catch (Throwable t) {
@@ -186,7 +193,7 @@ public class Scrape {
     } catch (Throwable t) {
       Log.exception(t);
     }
-    start(req, threadNum);
+    start(req, media, threadNum);
   }
 
   private static void push(String mapKey, List results) {
@@ -304,7 +311,7 @@ public class Scrape {
   }
 
   private static void fetch(Browser browser, Request req, Query query, Query recQuery,
-      SearchResults results, int depth, SearchResults recResults,
+      SearchResults results, int depth, SearchResults recResults, boolean media,
       Map<String, Object> cache, int threadNum) throws ActionFailed {
     boolean terminate = false;
     try {
@@ -345,7 +352,7 @@ public class Scrape {
               }
             }
             if (recQuery != null) {
-              recResults.addPage(scrape(recQuery, req, depth + 1, false, cache, threadNum));
+              recResults.addPage(scrape(recQuery, req, depth + 1, false, media, cache, threadNum));
             }
             if (query.collapse) {
               results.get(i).close();
@@ -599,7 +606,7 @@ public class Scrape {
     }
     final int myThread = getThread();
     if (!req.continueSession) {
-      restart(req, myThread);
+      restart(req, !CommonUtil.isEmpty(fetch.media), myThread);
     }
     Log.info("Get URL " + fetch.url + ". Cached: " + fetch.fetchCached, false);
     String resp = "";
@@ -653,7 +660,7 @@ public class Scrape {
     }
     final int myThread = getThread();
     if (!req.continueSession) {
-      restart(req, myThread);
+      restart(req, false, myThread);
     }
     try {
       List<HtmlNode> ret = null;
@@ -665,7 +672,7 @@ public class Scrape {
         throw f;
       } catch (Throwable t) {
         if (!req.continueSession) {
-          restart(req, myThread);
+          restart(req, false, myThread);
         }
         ret = QueryForm.load(browsers.get()[myThread], context, true);
       }
@@ -678,9 +685,10 @@ public class Scrape {
     }
   }
 
-  private static void handlePage(Request req, Query query, int page, int depth,
-      SearchResults allResults, SearchResults newResults, SearchResults recResults,
-      List<String> resultPages, Map<String, Object> cache, int threadNum) throws ActionFailed, End {
+  private static void handlePage(Request req, Query query, int page,
+      int depth, SearchResults allResults, SearchResults newResults,
+      SearchResults recResults, List<String> resultPages, boolean media,
+      Map<String, Object> cache, int threadNum) throws ActionFailed, End {
     if (query.extract) {
       if (newResults.isEmpty()) {
         SearchResults tmpResults;
@@ -706,7 +714,7 @@ public class Scrape {
       if (query.fetch) {
         fetch(browsers.get()[threadNum], req, query,
             query.keywordQuery == null ? (query.formQuery == null ? null : query.formQuery) : query.keywordQuery,
-            newResults, depth, recResults, cache, threadNum);
+            newResults, depth, recResults, media, cache, threadNum);
       }
       if (query.collapse) {
         for (int i = 0; i < newResults.size(); i++) {
@@ -722,21 +730,22 @@ public class Scrape {
 
   public static List<Result> scrape(Query query, Request req) {
     final int myThread = getThread();
+    boolean media = hasMedia(query);
     if (!req.continueSession) {
-      restart(req, myThread);
+      restart(req, media, myThread);
     }
     try {
       Map<String, Object> cache = new HashMap<String, Object>();
       SearchResults ret = null;
       for (int i = 0; i < MAX_INIT; i++) {
         try {
-          ret = scrape(query, req, 0, i + 1 == MAX_INIT, cache, myThread);
+          ret = scrape(query, req, 0, i + 1 == MAX_INIT, media, cache, myThread);
           Log.info("Scrape finished");
           return ret.drain();
         } catch (Browser.Fatal f) {
           Log.exception(f);
           Log.warn("Reinitializing state and resuming scrape...");
-          restart(req, myThread);
+          restart(req, media, myThread);
         }
       }
       return null;
@@ -748,8 +757,19 @@ public class Scrape {
     }
   }
 
+  private static boolean hasMedia(Query query) {
+    Query cur = query;
+    while (cur != null) {
+      if (!CommonUtil.isEmpty(cur.media)) {
+        return true;
+      }
+      cur = query.keywordQuery == null ? query.formQuery : query.keywordQuery;
+    }
+    return false;
+  }
+
   private static SearchResults scrape(Query query, Request req, int depth,
-      boolean fallback, Map<String, Object> cache, int threadNum) {
+      boolean fallback, boolean media, Map<String, Object> cache, int threadNum) {
     SearchResults results;
     SearchResults recResults;
     List<String> resultPages;
@@ -778,7 +798,7 @@ public class Scrape {
           QueryForm.perform(browsers.get()[threadNum], (FormQuery) query, depth == 0);
         } catch (Throwable e) {
           if (depth == 0) {
-            restart(req, threadNum);
+            restart(req, media, threadNum);
           }
           QueryForm.perform(browsers.get()[threadNum], (FormQuery) query, depth == 0);
         }
@@ -788,7 +808,7 @@ public class Scrape {
           QueryKeyword.perform(browsers.get()[threadNum], (KeywordQuery) query, depth == 0);
         } catch (Throwable e) {
           if (depth == 0) {
-            restart(req, threadNum);
+            restart(req, media, threadNum);
           }
           QueryKeyword.perform(browsers.get()[threadNum], (KeywordQuery) query, depth == 0);
         }
@@ -812,10 +832,12 @@ public class Scrape {
           }
           Log.info("Proceeding to page " + page);
           try {
-            priorProceedLabel = Proceed.perform(browsers.get()[threadNum], query.proceedClicks, page, priorProceedLabel);
+            priorProceedLabel = Proceed.perform(browsers.get()[threadNum],
+                query.proceedClicks, page, priorProceedLabel);
           } catch (Browser.Retry r) {
             SearchResults.revalidate(browsers.get()[threadNum], true, threadNum);
-            priorProceedLabel = Proceed.perform(browsers.get()[threadNum], query.proceedClicks, page, priorProceedLabel);
+            priorProceedLabel = Proceed.perform(browsers.get()[threadNum],
+                query.proceedClicks, page, priorProceedLabel);
           }
           if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
             throw new Cancelled();
@@ -824,10 +846,12 @@ public class Scrape {
         if (query.currentPage() + 1 == page) {
           SearchResults newResults = SearchResults.newInstance(true);
           try {
-            handlePage(req, query, page, depth, results, newResults, recResults, resultPages, cache, threadNum);
+            handlePage(req, query, page, depth, results, newResults, recResults,
+                resultPages, media, cache, threadNum);
           } catch (Browser.Retry r) {
             SearchResults.revalidate(browsers.get()[threadNum], true, threadNum);
-            handlePage(req, query, page, depth, results, newResults, recResults, resultPages, cache, threadNum);
+            handlePage(req, query, page, depth, results, newResults, recResults,
+                resultPages, media, cache, threadNum);
           }
           query.markPage(page);
           query.markResult(0);
@@ -881,7 +905,7 @@ public class Scrape {
       }
       done[0] = false;
     }
-    restart(new Request(), 0);
+    restart(new Request(), false, 0);
     List<Result> results = new ArrayList<Result>();
     final KeywordQuery keywordQuery = new KeywordQuery();
     try {

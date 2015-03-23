@@ -127,6 +127,10 @@ public abstract class Query {
    */
   public HtmlNode[] postFetchClicks;
   /**
+   * Attach media to the result which match these HtmlNodes
+   */
+  public HtmlNode[] media;
+  /**
    * Credentials for authentication
    */
   public Credentials credentials;
@@ -136,10 +140,12 @@ public abstract class Query {
   public boolean throttle = true;
   /**
    * KeywordQuery to perform at each fetched result.
+   * Do not set a value for both keywordQuery and formQuery (one of them or both must be null).
    */
   public KeywordQuery keywordQuery;
   /**
    * FormQuery to perform at each fetched result.
+   * Do not set a value for both keywordQuery and formQuery (one of them or both must be null).
    */
   public FormQuery formQuery;
 
