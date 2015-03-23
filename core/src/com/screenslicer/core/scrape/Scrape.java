@@ -310,54 +310,57 @@ public class Scrape {
     }
   }
 
-  private static void fetch(Browser browser, Request req, Query query, Query recQuery,
-      SearchResults results, int depth, SearchResults recResults, boolean media,
-      Map<String, Object> cache, int threadNum) throws ActionFailed {
+  private static void fetch(Browser browser, Context context) throws ActionFailed {
     boolean terminate = false;
     try {
       String origHandle = browser.getWindowHandle();
       String origUrl = browser.getCurrentUrl();
       String newHandle = null;
-      if (query.fetchCached) {
-        newHandle = BrowserUtil.newWindow(browser, depth == 0);
+      if (context.query.fetchCached) {
+        newHandle = BrowserUtil.newWindow(browser, context.depth == 0);
       }
       try {
-        for (int i = query.currentResult(); i < results.size(); i++) {
-          if (query.requireResultAnchor && !isUrlValid(results.get(i).url)
-              && UrlUtil.uriScheme.matcher(results.get(i).url).matches()) {
-            results.get(i).close();
-            query.markResult(i + 1);
+        for (int i = context.query.currentResult(); i < context.newResults.size(); i++) {
+          if (context.query.requireResultAnchor && !isUrlValid(context.newResults.get(i).url)
+              && UrlUtil.uriScheme.matcher(context.newResults.get(i).url).matches()) {
+            context.newResults.get(i).close();
+            context.query.markResult(i + 1);
             continue;
           }
-          if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
+          if (ScreenSlicerBatch.isCancelled(context.req.runGuid)) {
             return;
           }
-          Log.info("Fetching URL " + results.get(i).url + ". Cached: " + query.fetchCached, false);
+          Log.info("Fetching URL " + context.newResults.get(i).url
+              + ". Cached: " + context.query.fetchCached, false);
           try {
-            results.get(i).pageHtml = getHelper(browser, query.throttle,
-                CommonUtil.parseFragment(results.get(i).urlNode, false), results.get(i).url, query.fetchCached,
-                req.runGuid, query.fetchInNewWindow, depth == 0 && query == null,
-                query == null ? null : query.postFetchClicks);
-            Downloaded downloaded = new Downloaded(threadNum);
-            results.get(i).pageBinary = downloaded.content;
-            results.get(i).pageBinaryMimeType = downloaded.mimeType;
-            results.get(i).pageBinaryExtension = downloaded.extension;
-            results.get(i).pageBinaryFilename = downloaded.filename;
-            if (!CommonUtil.isEmpty(results.get(i).pageHtml)) {
+            context.newResults.get(i).pageHtml = getHelper(browser, context.query.throttle,
+                CommonUtil.parseFragment(context.newResults.get(i).urlNode, false),
+                context.newResults.get(i).url, context.query.fetchCached,
+                context.req.runGuid, context.query.fetchInNewWindow,
+                context.depth == 0 && context.query == null,
+                context.query == null ? null : context.query.postFetchClicks);
+            Downloaded downloaded = new Downloaded(context.threadNum);
+            context.newResults.get(i).pageBinary = downloaded.content;
+            context.newResults.get(i).pageBinaryMimeType = downloaded.mimeType;
+            context.newResults.get(i).pageBinaryExtension = downloaded.extension;
+            context.newResults.get(i).pageBinaryFilename = downloaded.filename;
+            if (!CommonUtil.isEmpty(context.newResults.get(i).pageHtml)) {
               try {
-                results.get(i).pageText = NumWordsRulesExtractor.INSTANCE.getText(results.get(i).pageHtml);
+                context.newResults.get(i).pageText =
+                    NumWordsRulesExtractor.INSTANCE.getText(context.newResults.get(i).pageHtml);
               } catch (Throwable t) {
-                results.get(i).pageText = null;
+                context.newResults.get(i).pageText = null;
                 Log.exception(t);
               }
             }
-            if (recQuery != null) {
-              recResults.addPage(scrape(recQuery, req, depth + 1, false, media, cache, threadNum));
+            if (context.recQuery != null) {
+              context.recResults.addPage(scrape(context.recQuery, context.req, context.depth + 1, false,
+                  context.media, context.cache, context.threadNum));
             }
-            if (query.collapse) {
-              results.get(i).close();
+            if (context.query.collapse) {
+              context.newResults.get(i).close();
             }
-            query.markResult(i + 1);
+            context.query.markResult(i + 1);
           } catch (Browser.Retry r) {
             terminate = true;
             throw r;
@@ -373,9 +376,9 @@ public class Scrape {
               browser.close();
               browser.switchTo().window(origHandle);
               browser.switchTo().defaultContent();
-            } else if (!query.fetchInNewWindow) {
-              BrowserUtil.get(browser, origUrl, true, depth == 0);
-              SearchResults.revalidate(browser, false, threadNum);
+            } else if (!context.query.fetchInNewWindow) {
+              BrowserUtil.get(browser, origUrl, true, context.depth == 0);
+              SearchResults.revalidate(browser, false, context.threadNum);
             }
           } catch (Browser.Retry r) {
             terminate = true;
@@ -399,13 +402,14 @@ public class Scrape {
         throw new ActionFailed(t);
       } finally {
         if (!terminate) {
-          if (!query.fetchInNewWindow || (query.fetchCached && origHandle.equals(newHandle))) {
-            if (query.fetchInNewWindow) {
+          if (!context.query.fetchInNewWindow
+              || (context.query.fetchCached && origHandle.equals(newHandle))) {
+            if (context.query.fetchInNewWindow) {
               Log.exception(new Throwable("Failed opening new window"));
             }
-            BrowserUtil.get(browser, origUrl, true, depth == 0);
+            BrowserUtil.get(browser, origUrl, true, context.depth == 0);
           } else {
-            BrowserUtil.handleNewWindows(browser, origHandle, depth == 0);
+            BrowserUtil.handleNewWindows(browser, origHandle, context.depth == 0);
           }
         }
       }
@@ -420,7 +424,7 @@ public class Scrape {
       throw new ActionFailed(t);
     } finally {
       if (!terminate) {
-        BrowserUtil.browserSleepLong(query.throttle);
+        BrowserUtil.browserSleepLong(context.query.throttle);
       }
     }
   }
@@ -685,46 +689,59 @@ public class Scrape {
     }
   }
 
-  private static void handlePage(Request req, Query query, int page,
-      int depth, SearchResults allResults, SearchResults newResults,
-      SearchResults recResults, List<String> resultPages, boolean media,
-      Map<String, Object> cache, int threadNum) throws ActionFailed, End {
-    if (query.extract) {
-      if (newResults.isEmpty()) {
+  private static class Context {
+    private Request req;
+    private Query query;
+    private Query recQuery;
+    private int page;
+    private int depth;
+    private SearchResults allResults;
+    private SearchResults newResults;
+    private SearchResults recResults;
+    private List<String> resultPages;
+    private boolean media;
+    private Map<String, Object> cache;
+    private int threadNum;
+  }
+
+  private static void handlePage(Context context) throws ActionFailed, End {
+    if (context.query.extract) {
+      if (context.newResults.isEmpty()) {
         SearchResults tmpResults;
         try {
-          tmpResults = ProcessPage.perform(browsers.get()[threadNum], page, query, threadNum);
+          tmpResults = ProcessPage.perform(browsers.get()[context.threadNum],
+              context.page, context.query, context.threadNum);
         } catch (Browser.Retry r) {
-          SearchResults.revalidate(browsers.get()[threadNum], true, threadNum);
-          tmpResults = ProcessPage.perform(browsers.get()[threadNum], page, query, threadNum);
+          SearchResults.revalidate(browsers.get()[context.threadNum], true, context.threadNum);
+          tmpResults = ProcessPage.perform(browsers.get()[context.threadNum],
+              context.page, context.query, context.threadNum);
         }
-        tmpResults = filterResults(tmpResults, query.urlWhitelist, query.urlPatterns,
-            query.urlMatchNodes, query.urlTransforms, false);
-        if (allResults.isDuplicatePage(tmpResults)) {
+        tmpResults = filterResults(tmpResults, context.query.urlWhitelist, context.query.urlPatterns,
+            context.query.urlMatchNodes, context.query.urlTransforms, false);
+        if (context.allResults.isDuplicatePage(tmpResults)) {
           throw new End();
         }
-        if (query.results > 0 && allResults.size() + tmpResults.size() > query.results) {
-          int remove = allResults.size() + tmpResults.size() - query.results;
+        if (context.query.results > 0
+            && context.allResults.size() + tmpResults.size() > context.query.results) {
+          int remove = context.allResults.size() + tmpResults.size() - context.query.results;
           for (int i = 0; i < remove && !tmpResults.isEmpty(); i++) {
             tmpResults.remove(tmpResults.size() - 1);
           }
         }
-        newResults.addPage(tmpResults);
+        context.newResults.addPage(tmpResults);
       }
-      if (query.fetch) {
-        fetch(browsers.get()[threadNum], req, query,
-            query.keywordQuery == null ? (query.formQuery == null ? null : query.formQuery) : query.keywordQuery,
-            newResults, depth, recResults, media, cache, threadNum);
+      if (context.query.fetch) {
+        fetch(browsers.get()[context.threadNum], context);
       }
-      if (query.collapse) {
-        for (int i = 0; i < newResults.size(); i++) {
-          newResults.get(i).close();
+      if (context.query.collapse) {
+        for (int i = 0; i < context.newResults.size(); i++) {
+          context.newResults.get(i).close();
         }
       }
-      allResults.addPage(newResults);
+      context.allResults.addPage(context.newResults);
     } else {
-      resultPages.add(NodeUtil.clean(browsers.get()[threadNum].getPageSource(),
-          browsers.get()[threadNum].getCurrentUrl()).outerHtml());
+      context.resultPages.add(NodeUtil.clean(browsers.get()[context.threadNum].getPageSource(),
+          browsers.get()[context.threadNum].getCurrentUrl()).outerHtml());
     }
   }
 
@@ -770,23 +787,29 @@ public class Scrape {
 
   private static SearchResults scrape(Query query, Request req, int depth,
       boolean fallback, boolean media, Map<String, Object> cache, int threadNum) {
-    SearchResults results;
-    SearchResults recResults;
-    List<String> resultPages;
+    Context context = new Context();
+    context.req = req;
+    context.query = query;
+    context.recQuery = query.keywordQuery == null
+        ? (query.formQuery == null ? null : query.formQuery) : query.keywordQuery;
+    context.depth = depth;
+    context.media = media;
+    context.cache = cache;
+    context.threadNum = threadNum;
     if (cache.containsKey(Integer.toString(depth))) {
       Map<String, Object> curCache = (Map<String, Object>) cache.get(Integer.toString(depth));
-      results = (SearchResults) curCache.get("results");
-      recResults = (SearchResults) curCache.get("recResults");
-      resultPages = (List<String>) curCache.get("resultPages");
+      context.allResults = (SearchResults) curCache.get("results");
+      context.recResults = (SearchResults) curCache.get("recResults");
+      context.resultPages = (List<String>) curCache.get("resultPages");
     } else {
       Map<String, Object> curCache = new HashMap<String, Object>();
       cache.put(Integer.toString(depth), curCache);
-      results = SearchResults.newInstance(false);
-      curCache.put("results", results);
-      recResults = SearchResults.newInstance(false);
-      curCache.put("recResults", recResults);
-      resultPages = new ArrayList<String>();
-      curCache.put("resultPages", resultPages);
+      context.allResults = SearchResults.newInstance(false);
+      curCache.put("results", context.allResults);
+      context.recResults = SearchResults.newInstance(false);
+      curCache.put("recResults", context.recResults);
+      context.resultPages = new ArrayList<String>();
+      curCache.put("resultPages", context.resultPages);
     }
     try {
       if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
@@ -818,7 +841,7 @@ public class Scrape {
       }
       String priorProceedLabel = null;
       for (int page = 1; (page <= query.pages || query.pages <= 0)
-          && (results.size() < query.results || query.results <= 0); page++) {
+          && (context.allResults.size() < query.results || query.results <= 0); page++) {
         if (ScreenSlicerBatch.isCancelled(req.runGuid)) {
           throw new Cancelled();
         }
@@ -844,14 +867,13 @@ public class Scrape {
           }
         }
         if (query.currentPage() + 1 == page) {
-          SearchResults newResults = SearchResults.newInstance(true);
+          context.page = page;
+          context.newResults = SearchResults.newInstance(true);
           try {
-            handlePage(req, query, page, depth, results, newResults, recResults,
-                resultPages, media, cache, threadNum);
+            handlePage(context);
           } catch (Browser.Retry r) {
             SearchResults.revalidate(browsers.get()[threadNum], true, threadNum);
-            handlePage(req, query, page, depth, results, newResults, recResults,
-                resultPages, media, cache, threadNum);
+            handlePage(context);
           }
           query.markPage(page);
           query.markResult(0);
@@ -871,19 +893,19 @@ public class Scrape {
     }
     cache.remove(Integer.toString(depth));
     if (query.extract) {
-      if (recResults.isEmpty()) {
-        return filterResults(results, query.urlWhitelist,
+      if (context.recResults.isEmpty()) {
+        return filterResults(context.allResults, query.urlWhitelist,
             query.urlPatterns, query.urlMatchNodes, query.urlTransforms, true);
       }
       if (query.collapse) {
-        for (int i = 0; i < results.size(); i++) {
-          results.get(i).remove();
+        for (int i = 0; i < context.allResults.size(); i++) {
+          context.allResults.get(i).remove();
         }
       }
-      return recResults;
+      return context.recResults;
     }
     List<Result> pages = new ArrayList<Result>();
-    for (String page : resultPages) {
+    for (String page : context.resultPages) {
       Result r = new Result();
       r.html = page;
       pages.add(r);
@@ -895,7 +917,8 @@ public class Scrape {
     return !CommonUtil.isEmpty(url) && (url.startsWith("https://") || url.startsWith("http://"));
   }
 
-  public static List<Result> scrape(String url, final String query, final int pages, final String mapKey1, final String mapKey2) {
+  public static List<Result> scrape(String url, final String query,
+      final int pages, final String mapKey1, final String mapKey2) {
     if (!isUrlValid(url)) {
       return new ArrayList<Result>();
     }
