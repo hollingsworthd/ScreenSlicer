@@ -658,8 +658,8 @@ public class Scrape {
     return ret;
   }
 
-  public static List<HtmlNode> loadForm(FormLoad context, Request req) throws ActionFailed {
-    if (!isUrlValid(context.site)) {
+  public static List<HtmlNode> loadForm(FormLoad formLoad, Request req) throws ActionFailed {
+    if (!isUrlValid(formLoad.site)) {
       return new ArrayList<HtmlNode>();
     }
     final int myThread = getThread();
@@ -669,7 +669,7 @@ public class Scrape {
     try {
       List<HtmlNode> ret = null;
       try {
-        ret = QueryForm.load(browsers.get()[myThread], context, true);
+        ret = QueryForm.load(browsers.get()[myThread], formLoad, true);
       } catch (Browser.Retry r) {
         throw r;
       } catch (Browser.Fatal f) {
@@ -678,7 +678,7 @@ public class Scrape {
         if (!req.continueSession) {
           restart(req, false, myThread);
         }
-        ret = QueryForm.load(browsers.get()[myThread], context, true);
+        ret = QueryForm.load(browsers.get()[myThread], formLoad, true);
       }
       return ret;
     } finally {
