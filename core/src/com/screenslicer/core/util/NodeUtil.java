@@ -208,7 +208,7 @@ public class NodeUtil {
     return false;
   }
 
-  static boolean matches(HtmlNode reference, Node test) {
+  public static boolean matches(HtmlNode reference, Node test) {
     if (test == null) {
       return false;
     }
@@ -257,7 +257,7 @@ public class NodeUtil {
         }
       }
     }
-    return false;
+    return !reference.any;
   }
 
   public static int nearestBlock(Node node) {

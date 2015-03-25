@@ -39,6 +39,8 @@ import java.util.concurrent.atomic.AtomicReference;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.FileUtils;
 import org.apache.tika.Tika;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 
 import com.machinepublishers.browser.Browser;
@@ -278,13 +280,13 @@ public class Scrape {
     return "http://" + urlLhs + ".nyud.net:8080/" + urlRhs;
   }
 
-  private static class Downloaded {
+  private static class DownloadedFiles {
     String content;
     String mimeType;
     String extension;
     String filename;
 
-    public Downloaded(int thread) {
+    public DownloadedFiles(int thread) {
       File file = new File("./download_cache" + thread);
       Collection<File> list = FileUtils.listFiles(file, null, false);
       if (!list.isEmpty()) {
@@ -307,6 +309,72 @@ public class Scrape {
           }
         }
       }
+    }
+  }
+
+  private static class SavedMedia {
+    Map<String, String> encodedBytes = new LinkedHashMap<String, String>();
+    Map<String, String> mimeTypes = new LinkedHashMap<String, String>();
+
+    public SavedMedia(String body, HtmlNode[] patterns, int thread) {
+      if (!CommonUtil.isEmpty(patterns)) {
+        Document doc = CommonUtil.parse(body, null, false);
+        List<Element> elementsTmp = new ArrayList<Element>(doc.getElementsByAttribute("src"));
+        List<Element> elements = new ArrayList<Element>();
+        for (Element element : elementsTmp) {
+          for (int i = 0; i < patterns.length; i++) {
+            if (NodeUtil.matches(patterns[i], element)) {
+              elements.add(element);
+              break;
+            }
+          }
+        }
+        if (!elements.isEmpty()) {
+          try {
+            File dir = new File("./media_cache" + thread);
+            Collection<File> list = FileUtils.listFiles(dir, new String[] { "content" }, false);
+            File savedMeta = null;
+            for (File savedContent : list) {
+              try {
+                byte[] rawContent = FileUtils.readFileToByteArray(savedContent);
+                String content = Base64.encodeBase64String(rawContent);
+                savedMeta = new File(dir, savedContent.getName().split("\\.")[0] + ".metadata");
+                List<String> lines =
+                    FileUtils.readLines(savedMeta);
+                String url = lines.get(0);
+                String reportedMimeType = lines.size() >= 2 ? lines.get(1) : "";
+                String detectedMimeType = new Tika().detect(rawContent);
+                String mimeType = !CommonUtil.isEmpty(reportedMimeType)
+                    && !reportedMimeType.toLowerCase().contains("octet") ? reportedMimeType
+                    : (!CommonUtil.isEmpty(detectedMimeType) ? detectedMimeType : reportedMimeType);
+                List<String> sources = sources(url, elements);
+                for (String src : sources) {
+                  encodedBytes.put(src, content);
+                  mimeTypes.put(src, mimeType);
+                }
+              } catch (Throwable t) {
+                Log.exception(t);
+              } finally {
+                FileUtils.deleteQuietly(savedContent);
+                FileUtils.deleteQuietly(savedMeta);
+              }
+            }
+          } catch (Throwable t) {
+            Log.exception(t);
+          }
+        }
+      }
+    }
+
+    private static List<String> sources(String url, List<Element> elements) {
+      List<String> sources = new ArrayList<String>();
+      for (Element element : elements) {
+        String src = element.attr("src");
+        if (!CommonUtil.isEmpty(src) && url.endsWith(src)) {
+          sources.add(src);
+        }
+      }
+      return sources;
     }
   }
 
@@ -339,11 +407,16 @@ public class Scrape {
                 context.req.runGuid, context.query.fetchInNewWindow,
                 context.depth == 0 && context.query == null,
                 context.query == null ? null : context.query.postFetchClicks);
-            Downloaded downloaded = new Downloaded(context.threadNum);
+            //TODO get downloads and media for the results page, not just fetched pages
+            DownloadedFiles downloaded = new DownloadedFiles(context.threadNum);
             context.newResults.get(i).pageBinary = downloaded.content;
             context.newResults.get(i).pageBinaryMimeType = downloaded.mimeType;
             context.newResults.get(i).pageBinaryExtension = downloaded.extension;
             context.newResults.get(i).pageBinaryFilename = downloaded.filename;
+            SavedMedia media = new SavedMedia(context.newResults.get(i).pageHtml,
+                context.query.media, context.threadNum);
+            context.newResults.get(i).mediaBinaries.putAll(media.encodedBytes);
+            context.newResults.get(i).mediaMimeTypes.putAll(media.mimeTypes);
             if (!CommonUtil.isEmpty(context.newResults.get(i).pageHtml)) {
               try {
                 context.newResults.get(i).pageText =

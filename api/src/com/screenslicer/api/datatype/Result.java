@@ -25,6 +25,7 @@
 package com.screenslicer.api.datatype;
 
 import java.io.File;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -102,9 +103,15 @@ public final class Result {
    */
   public String html;
   /**
-   * Media binary content
+   * Media binary content. The map key is the "src" attribute of the HTML element
+   * associated with media content. The map value is a base64-encoded string of the binary content.
    */
-  public Map<HtmlNode, List<String>> media;
+  public final Map<String, String> mediaBinaries = new LinkedHashMap<String, String>();
+  /**
+   * Media mime types. The map key is the "src" attribute of the HTML element
+   * associated with media content. The map value is a the mime type of the binary content.
+   */
+  public final Map<String, String> mediaMimeTypes = new LinkedHashMap<String, String>();
   /**
    * HTML of the page at the result URL
    */
@@ -117,6 +124,7 @@ public final class Result {
    * Binary content of the page. A base-64 encoded String representing a byte
    * array.
    */
+  //TODO make this an array to support multiple attachments
   public String pageBinary;
   /**
    * Mime-type of the binary content;
@@ -148,7 +156,8 @@ public final class Result {
         summary = null;
         date = null;
         html = null;
-        media = null;
+        mediaBinaries.clear();
+        mediaMimeTypes.clear();
         pageHtml = null;
         pageText = null;
         pageBinary = null;
@@ -182,7 +191,10 @@ public final class Result {
         this.summary = cached.summary;
         this.date = cached.date;
         this.html = cached.html;
-        this.media = cached.media;
+        this.mediaBinaries.clear();
+        this.mediaBinaries.putAll(cached.mediaBinaries);
+        this.mediaMimeTypes.clear();
+        this.mediaMimeTypes.putAll(cached.mediaMimeTypes);
         this.pageHtml = cached.pageHtml;
         this.pageText = cached.pageText;
         this.pageBinary = cached.pageBinary;
