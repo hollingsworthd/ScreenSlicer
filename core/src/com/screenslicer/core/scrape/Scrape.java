@@ -42,7 +42,9 @@ import org.apache.tika.Tika;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
+import org.openqa.selenium.OutputType;
 
+import com.google.common.io.Files;
 import com.machinepublishers.browser.Browser;
 import com.machinepublishers.jbrowserdriver.JBrowserDriver;
 import com.machinepublishers.jbrowserdriver.ProxyConfig;
@@ -126,7 +128,6 @@ public class Scrape {
         done[i] = true;
       }
     }
-
   }
 
   private static void start(Request req, boolean media, int threadNum) {
@@ -547,8 +548,11 @@ public class Scrape {
               content = browser.getPageSource();
               if (WebApp.DEBUG && (postFetchClicks == null || postFetchClicks.length == 0)) {
                 try {
+                  long filename = System.currentTimeMillis();
+                  Files.copy(browser.getScreenshotAs(OutputType.FILE),
+                      new File("./" + filename + ".log.scrape.png"));
                   FileUtils.writeStringToFile(
-                      new File("./" + System.currentTimeMillis() + ".log.scrape"),
+                      new File("./" + filename + ".log.scrape.htm"),
                       content, "utf-8");
                 } catch (IOException e) {}
               }

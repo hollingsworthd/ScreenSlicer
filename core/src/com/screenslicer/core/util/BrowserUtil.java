@@ -43,10 +43,12 @@ import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 import org.jsoup.select.NodeVisitor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import com.google.common.io.Files;
 import com.machinepublishers.browser.Browser;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.datatype.UrlTransform;
@@ -413,7 +415,11 @@ public class BrowserUtil {
       }
       if (WebApp.DEBUG) {
         try {
-          FileUtils.writeStringToFile(new File("./" + System.currentTimeMillis() + ".log.scrape"), element.outerHtml(), "utf-8");
+          long filename = System.currentTimeMillis();
+          Files.copy(browser.getScreenshotAs(OutputType.FILE),
+              new File("./" + filename + ".log.scrape.png"));
+          FileUtils.writeStringToFile(new File("./" + filename + ".log.scrape.htm"),
+              element.outerHtml(), "utf-8");
         } catch (IOException e) {}
       }
       return element;
@@ -432,6 +438,10 @@ public class BrowserUtil {
       action.moveToElement(toClick).perform();
       if (shift) {
         browser.getKeyboard().pressKey(Keys.SHIFT);
+      }
+      if (WebApp.DEBUG) {
+        Log.debug("clicking - " + CommonUtil.strip(toClick.getAttribute("outerHTML"), false),
+            WebApp.DEBUG);
       }
       toClick.click();
       if (shift) {
