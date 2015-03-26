@@ -60,7 +60,7 @@ import com.screenslicer.common.Log;
 import com.screenslicer.common.Spreadsheet;
 
 @Path("/custom-app")
-public final class ScreenSlicerClient implements ClientWebResource {
+public final class ScreenSlicerClient implements WebResource {
   private static final Collection<String> cancelledJobs = new HashSet<String>();
   private static final Object cancelledLock = new Object();
   private static final long WAIT = 2000;

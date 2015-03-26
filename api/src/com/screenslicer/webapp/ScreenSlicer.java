@@ -84,7 +84,7 @@ public final class ScreenSlicer {
   }
 
   public static final synchronized void startCustomApp(final ScreenSlicer.CustomApp customApp) {
-    WebApp.start("custom-app", false, 9000, true, null, new Callback() {
+    WebApp.start("custom-app", 9000, false, null, new Callback() {
       @Override
       public void call() {
         ScreenSlicerClient.init(customApp);

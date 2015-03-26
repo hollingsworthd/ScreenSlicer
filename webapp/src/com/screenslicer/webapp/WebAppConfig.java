@@ -48,7 +48,7 @@ import org.reflections.util.FilterBuilder;
 public class WebAppConfig extends ResourceConfig {
   private final String[] mimeTypes;
 
-  public WebAppConfig(boolean isClient) throws IOException {
+  public WebAppConfig() throws IOException {
     Collection<String> mimeTypeList = new HashSet<String>();
     mimeTypeList.add(MediaType.APPLICATION_FORM_URLENCODED);
     mimeTypeList.add(MediaType.APPLICATION_JSON);
@@ -97,18 +97,10 @@ public class WebAppConfig extends ResourceConfig {
     register(MultiPartFeature.class);
     Reflections reflections = new Reflections(new ConfigurationBuilder()
         .setUrls(ClasspathHelper.forJavaClassPath())
-        .filterInputsBy(new FilterBuilder().include(FilterBuilder.prefix("com.screenslicer"))));
+        .filterInputsBy(new FilterBuilder().include(".*")));
     Set<Class<? extends WebResource>> webResourceClasses = reflections.getSubTypesOf(WebResource.class);
-    if (!isClient) {
-      for (Class<? extends WebResource> webpageClass : webResourceClasses) {
-        registerResources(Resource.builder(webpageClass).build());
-      }
-    }
-    if (isClient) {
-      Set<Class<? extends ClientWebResource>> customWebAppClasses = reflections.getSubTypesOf(ClientWebResource.class);
-      for (Class<? extends ClientWebResource> customWebAppClass : customWebAppClasses) {
-        registerResources(Resource.builder(customWebAppClass).build());
-      }
+    for (Class<? extends WebResource> webpageClass : webResourceClasses) {
+      registerResources(Resource.builder(webpageClass).build());
     }
     register(ExceptionHandler.class);
     mimeTypes = mimeTypeList.toArray(new String[0]);

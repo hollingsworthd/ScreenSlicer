@@ -55,10 +55,6 @@ public class WebApp extends ResourceConfig {
 
   public static void main(String[] args) throws Exception {}
 
-  public static synchronized void start(String name, int port, boolean useLoopback, ExceptionListener listener, Callback callback) {
-    start(name, useLoopback, port, false, listener, callback);
-  }
-
   static void exception() {
     synchronized (listenerLock) {
       if (listener != null) {
@@ -67,8 +63,8 @@ public class WebApp extends ResourceConfig {
     }
   }
 
-  static synchronized void start(String name, boolean useLoopback, int port,
-      boolean isClient, ExceptionListener listener, Callback callback) {
+  public static synchronized void start(String name, int port,
+      boolean useLoopback, ExceptionListener listener, Callback callback) {
     synchronized (listenerLock) {
       WebApp.listener = listener;
     }
@@ -89,7 +85,7 @@ public class WebApp extends ResourceConfig {
       if (callback != null) {
         callback.call();
       }
-      WebAppConfig config = new WebAppConfig(isClient);
+      WebAppConfig config = new WebAppConfig();
       HttpServer httpServer =
           GrizzlyHttpServerFactory.createHttpServer(INTERNAL_URL, config, false);
       CompressionConfig compressionConfig =
