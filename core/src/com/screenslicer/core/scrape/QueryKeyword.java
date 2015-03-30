@@ -29,11 +29,11 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import com.machinepublishers.browser.Browser;
+import com.machinepublishers.jbrowserdriver.JBrowserDriver;
 import com.screenslicer.api.datatype.HtmlNode;
 import com.screenslicer.api.request.KeywordQuery;
 import com.screenslicer.common.CommonUtil;
@@ -55,19 +55,6 @@ public class QueryKeyword {
   private static final Pattern nonSearch = Pattern.compile(
       "username|e-?mail|user|log\\s?in|uname|city|state|zip|location", //TODO translate
       Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CHARACTER_CLASS);
-  private static String delete;
-  static {
-    String key = Keys.BACK_SPACE.toString();
-    delete = key;
-    for (int i = 1; i < CHARS_TO_REMOVE; i++) {
-      delete = delete + key;
-    }
-    key = Keys.DELETE.toString();
-    delete = delete + key;
-    for (int i = 1; i < CHARS_TO_REMOVE; i++) {
-      delete = delete + key;
-    }
-  }
 
   private static List<WebElement> findSearchBox(
       Browser browser, boolean strict) throws ActionFailed {
@@ -206,7 +193,7 @@ public class QueryKeyword {
           BrowserUtil.click(browser, element, false);
           element.clear();
           if (!CommonUtil.isEmpty(element.getAttribute("value"))) {
-            element.sendKeys(delete);
+            element.sendKeys(JBrowserDriver.KEYBOARD_DELETE);
           }
           element.sendKeys(searchQuery);
           String beforeSource = browser.getPageSource();
