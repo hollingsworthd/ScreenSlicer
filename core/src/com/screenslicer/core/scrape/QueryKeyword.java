@@ -45,7 +45,6 @@ public class QueryKeyword {
   private static final int MIN_IFRAME_AREA = 40000;
   private static final int MIN_SOURCE_DIFF = 500;
   private static final int MOUSE_MOVE_OFFSET = 500;
-  private static final int CHARS_TO_REMOVE = 60;
   private static final Pattern searchControl = Pattern.compile(
       "(?:[-._\"]|^|\\b|\\s|/|#)(?:search|magnifying|magnify|搜索|بحث|Recherche|Chercher|Suche|खोज|Cerca|検索|Поиск|Buscar)(?:[-._\"]|$|\\b|\\s|/|#)",
       Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CHARACTER_CLASS);
