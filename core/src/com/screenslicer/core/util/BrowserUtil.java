@@ -108,10 +108,6 @@ public class BrowserUtil {
         }
         Thread.sleep(rand.nextInt(cur + 1) + rand.nextInt(LONG_WAIT_MS) + LONG_MIN_WAIT_MS);
       } catch (InterruptedException e) {}
-    } else {
-      try {
-        Thread.sleep(LONG_MIN_WAIT_MS / 2);
-      } catch (InterruptedException e) {}
     }
   }
 
