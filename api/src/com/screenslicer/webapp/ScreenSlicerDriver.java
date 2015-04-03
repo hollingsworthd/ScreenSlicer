@@ -52,8 +52,6 @@ import com.screenslicer.api.request.KeywordQuery;
 import com.screenslicer.api.request.Request;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
-import com.screenslicer.webapp.WebApp;
-import com.screenslicer.webapp.WebResource;
 
 @Path("/screenslicer")
 public class ScreenSlicerDriver implements WebResource {
@@ -65,6 +63,9 @@ public class ScreenSlicerDriver implements WebResource {
   private static AtomicLong latestThread = new AtomicLong();
   private static AtomicLong curThread = new AtomicLong();
 
+  /**
+   * @Deprecated This class will be renamed in version 2.0.0
+   */
   public static void main(String[] args) throws Exception {
     WebApp.start("driver", 8887, true, null, null);
   }

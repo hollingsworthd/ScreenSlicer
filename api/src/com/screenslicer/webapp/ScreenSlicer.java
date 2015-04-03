@@ -44,8 +44,10 @@ import com.screenslicer.api.request.KeywordQuery;
 import com.screenslicer.api.request.Request;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
-import com.screenslicer.webapp.WebApp;
 
+/**
+ * @Deprecated This class will be renamed in version 2.0.0
+ */
 public final class ScreenSlicer {
   private static SecureRandom rand = new SecureRandom();
   public static final List<Result> NULL_RESULTS = Collections.unmodifiableList(Arrays.asList(new Result[0]));
