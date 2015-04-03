@@ -52,6 +52,8 @@ import com.screenslicer.api.request.KeywordQuery;
 import com.screenslicer.api.request.Request;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
+import com.screenslicer.webapp.WebApp;
+import com.screenslicer.webapp.WebResource;
 
 @Path("/screenslicer")
 public class ScreenSlicerDriver implements WebResource {

@@ -29,7 +29,6 @@ import java.security.SecureRandom;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 
 import com.google.gson.reflect.TypeToken;
 import com.screenslicer.api.datatype.Contact;
@@ -45,19 +44,9 @@ import com.screenslicer.api.request.KeywordQuery;
 import com.screenslicer.api.request.Request;
 import com.screenslicer.common.CommonUtil;
 import com.screenslicer.common.Log;
-import com.screenslicer.webapp.WebApp.Callback;
+import com.screenslicer.webapp.WebApp;
 
 public final class ScreenSlicer {
-  public static interface CustomApp {
-    Map<String, Object> configure(Request request, Map<String, Object> args);
-
-    Map<String, List<List<String>>> tableData(Request request, Map<String, Object> args);
-
-    Map<String, byte[]> binaryData(Request request, Map<String, Object> args);
-
-    Map<String, List<Map<String, Object>>> jsonData(Request request, Map<String, Object> args);
-  }
-
   private static SecureRandom rand = new SecureRandom();
   public static final List<Result> NULL_RESULTS = Collections.unmodifiableList(Arrays.asList(new Result[0]));
   public static final List<HtmlNode> NULL_CONTROLS = Collections.unmodifiableList(Arrays.asList(new HtmlNode[0]));
@@ -83,18 +72,8 @@ public final class ScreenSlicer {
     return NULL_RESULT;
   }
 
-  public static final synchronized void startCustomApp(final ScreenSlicer.CustomApp customApp) {
-    WebApp.start("custom-app", 9000, false, null, new Callback() {
-      @Override
-      public void call() {
-        ScreenSlicerClient.init(customApp);
-      }
-    });
-  }
-
   public static final boolean isCancelled(String runGuid) {
-    return ScreenSlicerDriver.isCancelled(runGuid)
-        || ScreenSlicerClient.isCancelled(runGuid);
+    return ScreenSlicerDriver.isCancelled(runGuid);
   }
 
   public static final void cancel(Cancel args) {
