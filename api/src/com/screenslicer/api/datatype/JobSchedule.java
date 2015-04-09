@@ -30,6 +30,9 @@ import java.util.Map;
 import com.google.gson.reflect.TypeToken;
 import com.screenslicer.common.CommonUtil;
 
+/**
+ * Internal use only.
+ */
 public final class JobSchedule {
   public static final JobSchedule instance(String json) {
     return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
@@ -64,38 +67,35 @@ public final class JobSchedule {
   }
 
   /**
-   * Scheduler integration -- interval of the scheduled time in tenths of hours
-   * (6 minutes)
+   * Internal use only.
    */
   public int intervalInHourTenths;
   /**
-   * Scheduler integration -- hour that the interval should initially begin
-   * (only happens once)
+   * Internal use only.
    */
   public int intervalStartHour;
   /**
-   * Scheduler integration -- day that the interval should initially begin (only
-   * happens once)
+   * Internal use only.
    */
   public int intervalStartDay;
   /**
-   * Scheduler and GUI integration -- user for whom the schedule was created
+   * Internal use only.
    */
   public String accountId;
   /**
-   * Scheduler and GUI integration -- configured job GUID
+   * Internal use only.
    */
   public String jobGuid;
   /**
-   * Scheduler and GUI integration -- configured app ID
+   * Internal use only.
    */
   public String appId;
   /**
-   * Timestamp of creation (Unix time: milliseconds from epoch)
+   * Internal use only.
    */
   public long created;
   /**
-   * Timestampt of the last scheduled run (Unix time: milliseconds from epoch)
+   * Internal use only.
    */
   public long latestRun;
 }

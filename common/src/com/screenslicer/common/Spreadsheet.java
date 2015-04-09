@@ -26,6 +26,8 @@ package com.screenslicer.common;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
 import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -36,7 +38,9 @@ import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.tika.io.IOUtils;
 
+import au.com.bytecode.opencsv.CSVReader;
 import au.com.bytecode.opencsv.CSVWriter;
 
 public class Spreadsheet {
@@ -56,6 +60,18 @@ public class Spreadsheet {
       } catch (IOException e) {
         Log.exception(e);
       }
+    }
+  }
+
+  public static List<String[]> fromCsv(String rows) {
+    Reader stringReader = new StringReader(rows);
+    try {
+      return new CSVReader(stringReader).readAll();
+    } catch (Throwable t) {
+      Log.exception(t);
+      return null;
+    } finally {
+      IOUtils.closeQuietly(stringReader);
     }
   }
 

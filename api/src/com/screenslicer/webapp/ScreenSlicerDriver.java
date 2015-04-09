@@ -220,6 +220,7 @@ public class ScreenSlicerDriver implements WebResource {
           for (Map.Entry<String, AtomicBoolean> done : myDoneMap.entrySet()) {
             if (done.getValue().compareAndSet(true, false)) {
               if (ScreenSlicer.isBusy(done.getKey())) {
+                //TODO fixme?
                 done.getValue().set(true);
               } else {
                 myInstance = done.getKey();

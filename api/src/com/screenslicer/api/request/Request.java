@@ -98,26 +98,10 @@ public final class Request {
    */
   public Proxy[] proxies;
   /**
-   * GUI integration -- specifies a CustomApp ID
-   */
-  public String appId;
-  /**
-   * GUI integration -- specifies a configured job name
-   */
-  public String jobId;
-  /**
-   * GUI integration -- specifies a configured job GUID
-   */
-  public String jobGuid;
-  /**
    * GUID assigned to any ScreenSlicer request.
    * Defaults to a new GUID (just a random string).
    */
   public String runGuid = Random.next();
-  /**
-   * GUI integration -- specifies filename(s) of output(s)
-   */
-  public String[] outputNames;
   /**
    * Whether to email the results of a request
    */
@@ -145,4 +129,24 @@ public final class Request {
    * HTTP headers added to each request
    */
   public Map<String, String> httpHeaders;
+  /**
+   * Internal use only.
+   */
+  public int autoScale;
+  /**
+   * Internal use only.
+   */
+  public String[] outputNames;
+  /**
+   * Internal use only.
+   */
+  public String appId;
+  /**
+   * Internal use only.
+   */
+  public String jobId;
+  /**
+   * Internal use only.
+   */
+  public String jobGuid;
 }
