@@ -131,6 +131,10 @@ public abstract class Query {
    */
   public HtmlNode[] media;
   /**
+   * Whether to attach all media.
+   */
+  public boolean allMedia;
+  /**
    * Credentials for authentication
    */
   public Credentials credentials;

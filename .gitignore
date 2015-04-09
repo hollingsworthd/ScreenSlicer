@@ -4,6 +4,7 @@
 **/fetch_local_cache
 **/result_cache
 **/download_cache*
+**/media_cache*
 screenslicer*.zip
 ScreenSlicer*.zip
 **/*.log.*

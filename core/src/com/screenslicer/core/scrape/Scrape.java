@@ -317,20 +317,22 @@ public class Scrape {
     Map<String, String> encodedBytes = new LinkedHashMap<String, String>();
     Map<String, String> mimeTypes = new LinkedHashMap<String, String>();
 
-    public SavedMedia(String body, HtmlNode[] patterns, int thread) {
-      if (!CommonUtil.isEmpty(patterns)) {
+    public SavedMedia(String body, HtmlNode[] patterns, boolean allMedia, int thread) {
+      if (allMedia || !CommonUtil.isEmpty(patterns)) {
         Document doc = CommonUtil.parse(body, null, false);
         List<Element> elementsTmp = new ArrayList<Element>(doc.getElementsByAttribute("src"));
         List<Element> elements = new ArrayList<Element>();
-        for (Element element : elementsTmp) {
-          for (int i = 0; i < patterns.length; i++) {
-            if (NodeUtil.matches(patterns[i], element)) {
-              elements.add(element);
-              break;
+        if (!CommonUtil.isEmpty(patterns)) {
+          for (Element element : elementsTmp) {
+            for (int i = 0; i < patterns.length; i++) {
+              if (NodeUtil.matches(patterns[i], element)) {
+                elements.add(element);
+                break;
+              }
             }
           }
         }
-        if (!elements.isEmpty()) {
+        if (allMedia || !elements.isEmpty()) {
           try {
             File dir = new File("./media_cache" + thread);
             Collection<File> list = FileUtils.listFiles(dir, new String[] { "content" }, false);
@@ -349,9 +351,14 @@ public class Scrape {
                     && !reportedMimeType.toLowerCase().contains("octet") ? reportedMimeType
                     : (!CommonUtil.isEmpty(detectedMimeType) ? detectedMimeType : reportedMimeType);
                 List<String> sources = sources(url, elements);
-                for (String src : sources) {
-                  encodedBytes.put(src, content);
-                  mimeTypes.put(src, mimeType);
+                if (sources.isEmpty() && allMedia) {
+                  encodedBytes.put(url, content);
+                  mimeTypes.put(url, mimeType);
+                } else {
+                  for (String src : sources) {
+                    encodedBytes.put(src, content);
+                    mimeTypes.put(src, mimeType);
+                  }
                 }
               } catch (Throwable t) {
                 Log.exception(t);
@@ -415,7 +422,7 @@ public class Scrape {
             context.newResults.get(i).pageBinaryExtension = downloaded.extension;
             context.newResults.get(i).pageBinaryFilename = downloaded.filename;
             SavedMedia media = new SavedMedia(context.newResults.get(i).pageHtml,
-                context.query.media, context.threadNum);
+                context.query.media, context.query.allMedia, context.threadNum);
             context.newResults.get(i).mediaBinaries.putAll(media.encodedBytes);
             context.newResults.get(i).mediaMimeTypes.putAll(media.mimeTypes);
             if (!CommonUtil.isEmpty(context.newResults.get(i).pageHtml)) {
@@ -854,7 +861,7 @@ public class Scrape {
   private static boolean hasMedia(Query query) {
     Query cur = query;
     while (cur != null) {
-      if (!CommonUtil.isEmpty(cur.media)) {
+      if (!CommonUtil.isEmpty(cur.media) || cur.allMedia) {
         return true;
       }
       cur = query.keywordQuery == null ? query.formQuery : query.keywordQuery;
