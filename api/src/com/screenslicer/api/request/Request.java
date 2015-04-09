@@ -80,7 +80,7 @@ public final class Request {
   /**
    * IP addresses of ScreenSlicer instances
    */
-  public String[] instances = configInstances;
+  public volatile String[] instances = configInstances;
   /**
    * Page load timeout, in seconds.
    * Defaults to 25 seconds.
