@@ -121,7 +121,6 @@ public final class ScreenSlicer {
       }
     } catch (Throwable t) {
       Log.exception(t);
-
     } finally {
       listener.get().finished(req, args);
     }
@@ -307,12 +306,15 @@ public final class ScreenSlicer {
               if (!ScreenSlicer.isBusy(request.instances[i])) {
                 myInstance = request.instances[i];
                 busyInstances.add(myInstance);
+                break;
               }
+            }
+            if (myInstance == null) {
+              listener.get().busy(request, args);
             }
           }
         }
         if (myInstance == null) {
-          listener.get().busy(request, args);
           try {
             Thread.sleep(WAIT);
           } catch (InterruptedException e) {}

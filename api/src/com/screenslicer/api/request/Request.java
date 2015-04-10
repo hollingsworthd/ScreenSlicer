@@ -132,7 +132,7 @@ public final class Request {
   /**
    * Internal use only.
    */
-  public int autoScale;
+  public int autoScale = -1;
   /**
    * Internal use only.
    */
