@@ -105,6 +105,7 @@ public final class ScreenSlicer {
   }
 
   public static final boolean isCancelled(String runGuid) {
+    //TODO fixme
     return ScreenSlicerDriver.isCancelled(runGuid);
   }
 
