@@ -115,7 +115,7 @@ public final class ScreenSlicer {
     req.instances = args.instances;
     listener.get().starting(req, args);
     try {
-      for (int i = 0; i < req.instances.length; i++) {
+      for (int i = 0; req.instances != null && i < req.instances.length; i++) {
         CommonUtil.post("http://" + req.instances[i] + ":8888/core-batch/cancel",
             req.instances[i], Request.toJson(req));
       }
@@ -158,19 +158,21 @@ public final class ScreenSlicer {
   public static final List<Result> queryForm(Request request, FormQuery args) {
     listener.get().starting(request, args);
     String instance = instanceIp(request, args);
-    try {
-      List<Result> ret = CommonUtil.gson.fromJson(
-          CommonUtil.post("http://" + instance + ":8888/core-batch/query-form",
-              instance, CommonUtil.combinedJson(request, args)),
-          new TypeToken<List<Result>>() {}.getType());
-      return ret == null ? NULL_RESULTS : ret;
-    } catch (Throwable t) {
-      Log.exception(t);
-    } finally {
-      synchronized (busyInstances) {
-        busyInstances.remove(instance);
+    if (!CommonUtil.isEmpty(instance)) {
+      try {
+        List<Result> ret = CommonUtil.gson.fromJson(
+            CommonUtil.post("http://" + instance + ":8888/core-batch/query-form",
+                instance, CommonUtil.combinedJson(request, args)),
+            new TypeToken<List<Result>>() {}.getType());
+        return ret == null ? NULL_RESULTS : ret;
+      } catch (Throwable t) {
+        Log.exception(t);
+      } finally {
+        synchronized (busyInstances) {
+          busyInstances.remove(instance);
+        }
+        listener.get().finished(request, args);
       }
-      listener.get().finished(request, args);
     }
     return NULL_RESULTS;
   }
@@ -178,19 +180,21 @@ public final class ScreenSlicer {
   public static final List<Result> queryKeyword(Request request, KeywordQuery args) {
     listener.get().starting(request, args);
     String instance = instanceIp(request, args);
-    try {
-      List<Result> ret = CommonUtil.gson.fromJson(CommonUtil.post(
-          "http://" + instance + ":8888/core-batch/query-keyword",
-          instance, CommonUtil.combinedJson(request, args)),
-          new TypeToken<List<Result>>() {}.getType());
-      return ret == null ? NULL_RESULTS : ret;
-    } catch (Throwable t) {
-      Log.exception(t);
-    } finally {
-      synchronized (busyInstances) {
-        busyInstances.remove(instance);
+    if (!CommonUtil.isEmpty(instance)) {
+      try {
+        List<Result> ret = CommonUtil.gson.fromJson(CommonUtil.post(
+            "http://" + instance + ":8888/core-batch/query-keyword",
+            instance, CommonUtil.combinedJson(request, args)),
+            new TypeToken<List<Result>>() {}.getType());
+        return ret == null ? NULL_RESULTS : ret;
+      } catch (Throwable t) {
+        Log.exception(t);
+      } finally {
+        synchronized (busyInstances) {
+          busyInstances.remove(instance);
+        }
+        listener.get().finished(request, args);
       }
-      listener.get().finished(request, args);
     }
     return NULL_RESULTS;
   }
@@ -216,19 +220,21 @@ public final class ScreenSlicer {
   public static final List<HtmlNode> loadForm(Request request, FormLoad args) {
     listener.get().starting(request, args);
     String instance = instanceIp(request, args);
-    try {
-      List<HtmlNode> ret = CommonUtil.gson.fromJson(CommonUtil.post(
-          "http://" + instance + ":8888/core-batch/load-form",
-          instance, CommonUtil.combinedJson(request, args)),
-          new TypeToken<List<HtmlNode>>() {}.getType());
-      return ret == null ? NULL_CONTROLS : ret;
-    } catch (Throwable t) {
-      Log.exception(t);
-    } finally {
-      synchronized (busyInstances) {
-        busyInstances.remove(instance);
+    if (!CommonUtil.isEmpty(instance)) {
+      try {
+        List<HtmlNode> ret = CommonUtil.gson.fromJson(CommonUtil.post(
+            "http://" + instance + ":8888/core-batch/load-form",
+            instance, CommonUtil.combinedJson(request, args)),
+            new TypeToken<List<HtmlNode>>() {}.getType());
+        return ret == null ? NULL_CONTROLS : ret;
+      } catch (Throwable t) {
+        Log.exception(t);
+      } finally {
+        synchronized (busyInstances) {
+          busyInstances.remove(instance);
+        }
+        listener.get().finished(request, args);
       }
-      listener.get().finished(request, args);
     }
     return NULL_CONTROLS;
   }
@@ -237,19 +243,21 @@ public final class ScreenSlicer {
   public static final Contact extractPerson(Request request, Extract args) {
     listener.get().starting(request, args);
     String instance = instanceIp(request, args);
-    try {
-      Contact ret = CommonUtil.gson.fromJson(CommonUtil.post(
-          "http://" + instance + ":8888/core-batch/extract-person",
-          instance, CommonUtil.combinedJson(request, args)),
-          new TypeToken<Contact>() {}.getType());
-      return ret == null ? nullContact() : ret;
-    } catch (Throwable t) {
-      Log.exception(t);
-    } finally {
-      synchronized (busyInstances) {
-        busyInstances.remove(instance);
+    if (!CommonUtil.isEmpty(instance)) {
+      try {
+        Contact ret = CommonUtil.gson.fromJson(CommonUtil.post(
+            "http://" + instance + ":8888/core-batch/extract-person",
+            instance, CommonUtil.combinedJson(request, args)),
+            new TypeToken<Contact>() {}.getType());
+        return ret == null ? nullContact() : ret;
+      } catch (Throwable t) {
+        Log.exception(t);
+      } finally {
+        synchronized (busyInstances) {
+          busyInstances.remove(instance);
+        }
+        listener.get().finished(request, args);
       }
-      listener.get().finished(request, args);
     }
     return nullContact();
   }
@@ -257,19 +265,21 @@ public final class ScreenSlicer {
   public static final String _deprecated_fetch(Request request, Fetch args) {
     listener.get().starting(request, args);
     String instance = instanceIp(request, args);
-    try {
-      Result result = CommonUtil.gson.fromJson(
-          CommonUtil.post("http://" + instance + ":8888/core-batch/fetch",
-              instance, CommonUtil.combinedJson(request, args)),
-          new TypeToken<Result>() {}.getType());
-      return result == null ? NULL_FETCH : (result.pageHtml == null ? NULL_FETCH : result.pageHtml);
-    } catch (Throwable t) {
-      Log.exception(t);
-    } finally {
-      synchronized (busyInstances) {
-        busyInstances.remove(instance);
+    if (!CommonUtil.isEmpty(instance)) {
+      try {
+        Result result = CommonUtil.gson.fromJson(
+            CommonUtil.post("http://" + instance + ":8888/core-batch/fetch",
+                instance, CommonUtil.combinedJson(request, args)),
+            new TypeToken<Result>() {}.getType());
+        return result == null ? NULL_FETCH : (result.pageHtml == null ? NULL_FETCH : result.pageHtml);
+      } catch (Throwable t) {
+        Log.exception(t);
+      } finally {
+        synchronized (busyInstances) {
+          busyInstances.remove(instance);
+        }
+        listener.get().finished(request, args);
       }
-      listener.get().finished(request, args);
     }
     return NULL_FETCH;
   }
@@ -277,20 +287,22 @@ public final class ScreenSlicer {
   public static final Result fetch(Request request, Fetch args) {
     listener.get().starting(request, args);
     String instance = instanceIp(request, args);
-    try {
-      Result result = CommonUtil.gson.fromJson(
-          CommonUtil.post("http://" + instance + ":8888/core-batch/fetch",
-              instance, CommonUtil.combinedJson(request, args)),
-          new TypeToken<Result>() {}.getType());
-      return result == null ? NULL_RESULT : result;
+    if (!CommonUtil.isEmpty(instance)) {
+      try {
+        Result result = CommonUtil.gson.fromJson(
+            CommonUtil.post("http://" + instance + ":8888/core-batch/fetch",
+                instance, CommonUtil.combinedJson(request, args)),
+            new TypeToken<Result>() {}.getType());
+        return result == null ? NULL_RESULT : result;
 
-    } catch (Throwable t) {
-      Log.exception(t);
-    } finally {
-      synchronized (busyInstances) {
-        busyInstances.remove(instance);
+      } catch (Throwable t) {
+        Log.exception(t);
+      } finally {
+        synchronized (busyInstances) {
+          busyInstances.remove(instance);
+        }
+        listener.get().finished(request, args);
       }
-      listener.get().finished(request, args);
     }
     return NULL_RESULT;
   }
@@ -302,7 +314,7 @@ public final class ScreenSlicer {
       while (true) {
         if (myThread == curThread.get() + 1) {
           synchronized (busyInstances) {
-            for (int i = 0; i < request.instances.length; i++) {
+            for (int i = 0; request.instances != null && i < request.instances.length; i++) {
               if (!ScreenSlicer.isBusy(request.instances[i])) {
                 myInstance = request.instances[i];
                 busyInstances.add(myInstance);
@@ -325,7 +337,8 @@ public final class ScreenSlicer {
       return myInstance;
     } catch (Throwable t) {
       Log.exception(t);
-      return request.instances[rand.nextInt(request.instances.length)];
+      return CommonUtil.isEmpty(request.instances) ? null
+          : request.instances[rand.nextInt(request.instances.length)];
     } finally {
       curThread.incrementAndGet();
     }

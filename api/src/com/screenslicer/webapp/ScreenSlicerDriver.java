@@ -203,7 +203,7 @@ public class ScreenSlicerDriver implements WebResource {
     try {
       Map<String, AtomicBoolean> myDoneMap = new HashMap<String, AtomicBoolean>();
       synchronized (doneMapLock) {
-        for (int i = 0; i < request.instances.length; i++) {
+        for (int i = 0; request.instances != null && i < request.instances.length; i++) {
           if (!doneMap.containsKey(request.instances[i])) {
             doneMap.put(request.instances[i], new AtomicBoolean(true));
           }

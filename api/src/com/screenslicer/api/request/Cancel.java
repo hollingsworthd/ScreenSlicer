@@ -66,7 +66,7 @@ public final class Cancel {
   /**
    * IP addresses of ScreenSlicer instances
    */
-  public String[] instances;
+  public volatile String[] instances = Request.configInstances;
   /**
    * GUID of the run to cancel
    */

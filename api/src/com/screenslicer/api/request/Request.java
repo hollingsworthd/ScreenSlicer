@@ -35,11 +35,12 @@ import com.screenslicer.common.Config;
 import com.screenslicer.common.Random;
 
 public final class Request {
+  static final String[] configInstances = CommonUtil.isEmpty(Config.instance.instances()) ?
+      new String[0]
+      : (String[]) CommonUtil.gson.fromJson(Config.instance.instances(), CommonUtil.stringArrayType);
   private static final SecureRandom rand = new SecureRandom();
   private static final Proxy[] configProxies = CommonUtil.isEmpty(Config.instance.proxy()) ?
       null : Proxy.instances(Config.instance.proxy()).toArray(new Proxy[0]);
-  private static final String[] configInstances = CommonUtil.isEmpty(Config.instance.instances()) ? null
-      : (String[]) CommonUtil.gson.fromJson(Config.instance.instances(), CommonUtil.stringArrayType);
 
   public static final Request instance(String json) {
     return instance((Map<String, Object>) CommonUtil.gson.fromJson(json, CommonUtil.objectType));
