@@ -209,7 +209,7 @@ public class ScreenSlicerBatch implements WebResource {
       try {
         Result searchResult = CommonUtil.gson.fromJson(reqDecoded, Result.class);
         if (searchResult.open()) {
-          Result.removeHold(1);
+          Result.removeHold();
         }
         return Response.ok(Crypto.encode(CommonUtil.gson.toJson(searchResult), CommonUtil.myInstance())).build();
       } catch (Throwable t) {
