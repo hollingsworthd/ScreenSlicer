@@ -85,7 +85,7 @@ public class ScreenSlicerBatch implements WebResource {
     String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
     if (reqDecoded != null) {
       try {
-        if (Scrape.busy() || Result.hasHold()) {
+        if (Scrape.busy() || Result.hasHolds()) {
           return Response.status(423).build();
         }
         return Response.status(205).build();
