@@ -843,7 +843,11 @@ public class Scrape {
           ret = scrape(query, req, 0, i + 1 == MAX_INIT, media, cache, myThread);
           Log.info("Scrape finished");
           List<Result> searchResults = ret.drain();
-          Result.addHold(searchResults.size());
+          for (Result result : searchResults) {
+            if (result.isClosed()) {
+              Result.addHold();
+            }
+          }
           return searchResults;
         } catch (Browser.Fatal f) {
           Log.exception(f);

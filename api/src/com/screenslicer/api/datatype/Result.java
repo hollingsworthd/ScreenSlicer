@@ -173,6 +173,10 @@ public final class Result {
     }
   }
 
+  public boolean isClosed() {
+    return key != null;
+  }
+
   public void remove() {
     try {
       if (key != null) {
@@ -184,16 +188,16 @@ public final class Result {
     }
   }
 
-  public static boolean hasHold() {
+  public static boolean hasHolds() {
     return holdCount.get() != 0;
   }
 
-  public static void removeHold(int num) {
-    holdCount.addAndGet(-1 * num);
+  public static void removeHold() {
+    holdCount.decrementAndGet();
   }
 
-  public static void addHold(int num) {
-    holdCount.addAndGet(num);
+  public static void addHold() {
+    holdCount.incrementAndGet();
   }
 
   public boolean open() {
