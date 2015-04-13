@@ -28,6 +28,7 @@ import java.io.File;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.atomic.AtomicLong;
 
 import org.apache.commons.io.FileUtils;
 
@@ -139,9 +140,11 @@ public final class Result {
    */
   public String pageBinaryFilename;
   /**
-   * Key for this SearchResult when collapsing is enabled.
+   * Key for this SearchResult when collapsing is enabled. Do not edit/update this value.
    */
   public String key = null;
+
+  private static final AtomicLong holdCount = new AtomicLong();
 
   public void close() {
     try {
@@ -171,15 +174,33 @@ public final class Result {
   }
 
   public void remove() {
-    if (key != null) {
-      String[] parts = key.split("@", 2);
-      FileUtils.deleteQuietly(new File("./result_cache/" + parts[1]));
+    try {
+      if (key != null) {
+        String[] parts = key.split("@", 2);
+        FileUtils.deleteQuietly(new File("./result_cache/" + parts[1]));
+      }
+    } finally {
+      key = null;
     }
   }
 
-  public void open() {
+  public static boolean hasHold() {
+    return holdCount.get() == 0;
+  }
+
+  public static void removeHold(int num) {
+    holdCount.addAndGet(-1 * num);
+  }
+
+  public static void addHold(int num) {
+    holdCount.addAndGet(num);
+  }
+
+  public boolean open() {
+    boolean success = false;
     try {
       if (key != null) {
+        success = true;
         String[] parts = key.split("@", 2);
         File file = new File("./result_cache/" + parts[1]);
         Result cached = instance(CommonUtil.decompress(Crypto.decode(
@@ -201,11 +222,13 @@ public final class Result {
         this.pageBinaryMimeType = cached.pageBinaryMimeType;
         this.pageBinaryExtension = cached.pageBinaryExtension;
         this.pageBinaryFilename = cached.pageBinaryFilename;
-        key = null;
         cached = null;
       }
     } catch (Throwable t) {
       Log.exception(t);
+    } finally {
+      key = null;
     }
+    return success;
   }
 }

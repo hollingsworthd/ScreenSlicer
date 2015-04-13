@@ -842,7 +842,9 @@ public class Scrape {
         try {
           ret = scrape(query, req, 0, i + 1 == MAX_INIT, media, cache, myThread);
           Log.info("Scrape finished");
-          return ret.drain();
+          List<Result> searchResults = ret.drain();
+          Result.addHold(searchResults.size());
+          return searchResults;
         } catch (Browser.Fatal f) {
           Log.exception(f);
           Log.warn("Reinitializing state and resuming scrape...");

@@ -85,7 +85,7 @@ public class ScreenSlicerBatch implements WebResource {
     String reqDecoded = Crypto.decode(reqString, CommonUtil.myInstance());
     if (reqDecoded != null) {
       try {
-        if (Scrape.busy()) {
+        if (Scrape.busy() || Result.hasHold()) {
           return Response.status(423).build();
         }
         return Response.status(205).build();
@@ -208,7 +208,9 @@ public class ScreenSlicerBatch implements WebResource {
       Request req = null;
       try {
         Result searchResult = CommonUtil.gson.fromJson(reqDecoded, Result.class);
-        searchResult.open();
+        if (searchResult.open()) {
+          Result.removeHold(1);
+        }
         return Response.ok(Crypto.encode(CommonUtil.gson.toJson(searchResult), CommonUtil.myInstance())).build();
       } catch (Throwable t) {
         Log.exception(t);
