@@ -185,7 +185,7 @@ public final class Result {
   }
 
   public static boolean hasHold() {
-    return holdCount.get() == 0;
+    return holdCount.get() != 0;
   }
 
   public static void removeHold(int num) {
