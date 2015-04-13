@@ -78,7 +78,11 @@ public final class HtmlNode {
    * Defaults to true;
    */
   public boolean any = true;
-
+  /**
+   * When matching is done, whether to match and return multiple nodes
+   * or find only the best match.
+   */
+  public boolean accumulate;
   /**
    * Whether actions on this node should be followed by a long delay.
    * Useful for AJAX apps, such as with a search button that does an asynchonous

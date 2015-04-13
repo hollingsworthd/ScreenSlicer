@@ -105,7 +105,7 @@ public class QueryForm {
           form.submit();
         }
       } else {
-        BrowserUtil.click(browser, BrowserUtil.toElement(browser, submitClick, null), false);
+        BrowserUtil.click(browser, BrowserUtil.toElements(browser, submitClick, null), false);
       }
       browser.getStatusCode();
     } catch (Browser.Retry r) {
@@ -142,71 +142,74 @@ public class QueryForm {
             try {
               HtmlNode formControl = formControls.get(entry.getKey());
               if (!CommonUtil.isEmpty(entry.getValue())) {
-                WebElement element = BrowserUtil.toElement(browser, formControl, body);
-                formControl.tagName = CommonUtil.isEmpty(formControl.tagName)
-                    ? element.getTagName() : formControl.tagName;
-                formControl.type = CommonUtil.isEmpty(formControl.type)
-                    ? element.getAttribute("type") : formControl.type;
-                if ("select".equalsIgnoreCase(formControl.tagName)) {
-                  Log.debug("Query Form: select", WebApp.DEBUG);
-                  Select select = new Select(element);
-                  if (select.isMultiple()) {
-                    select.deselectAll();
-                  }
-                  List<WebElement> selectedElements = select.getAllSelectedOptions();
-                  List<String> selectedStrings = new ArrayList<String>();
-                  for (WebElement selectedElement : selectedElements) {
-                    String selectedString = selectedElement.getAttribute("value");
-                    if (!CommonUtil.isEmpty(selectedString)) {
-                      selectedStrings.add(selectedString);
+                List<WebElement> elements = BrowserUtil.toElements(browser, formControl, body);
+                if (!CommonUtil.isEmpty(elements)) {
+                  WebElement element = elements.get(0);
+                  formControl.tagName = CommonUtil.isEmpty(formControl.tagName)
+                      ? element.getTagName() : formControl.tagName;
+                  formControl.type = CommonUtil.isEmpty(formControl.type)
+                      ? element.getAttribute("type") : formControl.type;
+                  if ("select".equalsIgnoreCase(formControl.tagName)) {
+                    Log.debug("Query Form: select", WebApp.DEBUG);
+                    Select select = new Select(element);
+                    if (select.isMultiple()) {
+                      select.deselectAll();
                     }
-                  }
-                  boolean matches = true;
-                  for (String selectedString : selectedStrings) {
-                    if (!entry.getValue().contains(selectedString)) {
-                      matches = false;
-                      break;
-                    }
-                  }
-                  if (!matches || selectedStrings.size() != entry.getValue().size()) {
-                    for (String val : entry.getValue()) {
-                      valueChanged = true;
-                      select.selectByValue(val);
-                      BrowserUtil.browserSleepShort();
-                    }
-                  }
-                } else if ("input".equalsIgnoreCase(formControl.tagName)
-                    && ("text".equalsIgnoreCase(formControl.type)
-                    || "search".equalsIgnoreCase(formControl.type))) {
-                  Log.debug("Query Form: input[text|search]", WebApp.DEBUG);
-                  valueChanged = QueryCommon.typeText(browser, element, entry.getValue().get(0), true, false);
-                } else if ("input".equalsIgnoreCase(formControl.tagName)
-                    && ("checkbox".equalsIgnoreCase(formControl.type)
-                    || "radio".equalsIgnoreCase(formControl.type))) {
-                  Log.debug("Query Form: input[checkbox|radio]", WebApp.DEBUG);
-                  if (entry.getValue() != null && !entry.getValue().isEmpty()) {
-                    if ("radio".equalsIgnoreCase(formControl.type)) {
-                      String elementVal = element.getAttribute("value");
-                      String schemaVal = formControl.value;
-                      String modelVal = entry.getValue().get(0);
-                      if (elementVal != null && schemaVal != null
-                          && elementVal.equalsIgnoreCase(schemaVal)
-                          && modelVal.equalsIgnoreCase(schemaVal)) {
-                        if (!element.isSelected()) {
-                          Log.debug("Clicking radio button", WebApp.DEBUG);
-                          valueChanged = BrowserUtil.click(browser, element, false);
-                        }
+                    List<WebElement> selectedElements = select.getAllSelectedOptions();
+                    List<String> selectedStrings = new ArrayList<String>();
+                    for (WebElement selectedElement : selectedElements) {
+                      String selectedString = selectedElement.getAttribute("value");
+                      if (!CommonUtil.isEmpty(selectedString)) {
+                        selectedStrings.add(selectedString);
                       }
-                    } else if (!element.isSelected()) {
-                      Log.debug("Clicking [checkbox|radio]", WebApp.DEBUG);
-                      valueChanged = BrowserUtil.click(browser, element, false);
                     }
-                  } else {
-                    if (element.isSelected()) {
-                      Log.debug("Deselecting [checkbox|radio]", WebApp.DEBUG);
-                      valueChanged = true;
-                      element.clear();
-                      BrowserUtil.browserSleepShort();
+                    boolean matches = true;
+                    for (String selectedString : selectedStrings) {
+                      if (!entry.getValue().contains(selectedString)) {
+                        matches = false;
+                        break;
+                      }
+                    }
+                    if (!matches || selectedStrings.size() != entry.getValue().size()) {
+                      for (String val : entry.getValue()) {
+                        valueChanged = true;
+                        select.selectByValue(val);
+                        BrowserUtil.browserSleepShort();
+                      }
+                    }
+                  } else if ("input".equalsIgnoreCase(formControl.tagName)
+                      && ("text".equalsIgnoreCase(formControl.type)
+                      || "search".equalsIgnoreCase(formControl.type))) {
+                    Log.debug("Query Form: input[text|search]", WebApp.DEBUG);
+                    valueChanged = QueryCommon.typeText(browser, element, entry.getValue().get(0), true, false);
+                  } else if ("input".equalsIgnoreCase(formControl.tagName)
+                      && ("checkbox".equalsIgnoreCase(formControl.type)
+                      || "radio".equalsIgnoreCase(formControl.type))) {
+                    Log.debug("Query Form: input[checkbox|radio]", WebApp.DEBUG);
+                    if (entry.getValue() != null && !entry.getValue().isEmpty()) {
+                      if ("radio".equalsIgnoreCase(formControl.type)) {
+                        String elementVal = element.getAttribute("value");
+                        String schemaVal = formControl.value;
+                        String modelVal = entry.getValue().get(0);
+                        if (elementVal != null && schemaVal != null
+                            && elementVal.equalsIgnoreCase(schemaVal)
+                            && modelVal.equalsIgnoreCase(schemaVal)) {
+                          if (!element.isSelected()) {
+                            Log.debug("Clicking radio button", WebApp.DEBUG);
+                            valueChanged = BrowserUtil.click(browser, element, false);
+                          }
+                        }
+                      } else if (!element.isSelected()) {
+                        Log.debug("Clicking [checkbox|radio]", WebApp.DEBUG);
+                        valueChanged = BrowserUtil.click(browser, element, false);
+                      }
+                    } else {
+                      if (element.isSelected()) {
+                        Log.debug("Deselecting [checkbox|radio]", WebApp.DEBUG);
+                        valueChanged = true;
+                        element.clear();
+                        BrowserUtil.browserSleepShort();
+                      }
                     }
                   }
                 }
@@ -225,7 +228,10 @@ public class QueryForm {
           context.form = new HtmlNode();
           context.form.id = context.formId;
         }
-        doSubmit(browser, BrowserUtil.toElement(browser, context.form, null), context.searchSubmitClick);
+        List<WebElement> forms = BrowserUtil.toElements(browser, context.form, null);
+        if (!CommonUtil.isEmpty(forms)) {
+          doSubmit(browser, forms.get(0), context.searchSubmitClick);
+        }
       }
       BrowserUtil.doClicks(browser, context.postSearchClicks, null, false);
     } catch (Browser.Retry r) {
@@ -248,61 +254,65 @@ public class QueryForm {
         context.form = new HtmlNode();
         context.form.id = context.formId;
       }
-      WebElement form = BrowserUtil.toElement(browser, context.form, null);
-      Map<HtmlNode, String> controlsHtml = new HashMap<HtmlNode, String>();
-      String formHtml = CommonUtil.strip(form.getAttribute("outerHTML"), false);
-      List<WebElement> elements = new ArrayList<WebElement>();
-      elements.addAll(form.findElements(By.tagName("input")));
-      elements.addAll(form.findElements(By.tagName("button")));
-      elements.addAll(form.findElements(By.tagName("textarea")));
-      List<HtmlNode> controls = new ArrayList<HtmlNode>();
-      for (WebElement element : elements) {
-        HtmlNode control = toFormControl(element);
-        if (control != null) {
-          controls.add(control);
-          controlsHtml.put(control, CommonUtil.strip(element.getAttribute("outerHTML"), false));
-        }
-      }
-      elements = new ArrayList<WebElement>();
-      elements.addAll(form.findElements(By.tagName("select")));
-      for (WebElement element : elements) {
-        HtmlNode control = toFormControl(element);
-        if (control != null) {
-          control.innerHtml = null;
-          List<WebElement> options = element.findElements(By.tagName("option"));
-          List<String> optionValues = new ArrayList<String>();
-          List<String> optionLabels = new ArrayList<String>();
-          for (WebElement option : options) {
-            String value = option.getAttribute("value");
-            String label = option.getAttribute("innerHTML");
-            if (!CommonUtil.isEmpty(value) && !CommonUtil.isEmpty(label)) {
-              optionValues.add(value);
-              optionLabels.add(label);
-            }
+      List<WebElement> forms = BrowserUtil.toElements(browser, context.form, null);
+      if (!CommonUtil.isEmpty(forms)) {
+        WebElement form = forms.get(0);
+        Map<HtmlNode, String> controlsHtml = new HashMap<HtmlNode, String>();
+        String formHtml = CommonUtil.strip(form.getAttribute("outerHTML"), false);
+        List<WebElement> elements = new ArrayList<WebElement>();
+        elements.addAll(form.findElements(By.tagName("input")));
+        elements.addAll(form.findElements(By.tagName("button")));
+        elements.addAll(form.findElements(By.tagName("textarea")));
+        List<HtmlNode> controls = new ArrayList<HtmlNode>();
+        for (WebElement element : elements) {
+          HtmlNode control = toFormControl(element);
+          if (control != null) {
+            controls.add(control);
+            controlsHtml.put(control, CommonUtil.strip(element.getAttribute("outerHTML"), false));
           }
-          String multiple = element.getAttribute("multiple");
-          if (!CommonUtil.isEmpty(multiple) && !"false".equalsIgnoreCase(multiple)) {
-            control.multiple = "multiple";
-          } else {
-            multiple = element.getAttribute("data-multiple");
+        }
+        elements = new ArrayList<WebElement>();
+        elements.addAll(form.findElements(By.tagName("select")));
+        for (WebElement element : elements) {
+          HtmlNode control = toFormControl(element);
+          if (control != null) {
+            control.innerHtml = null;
+            List<WebElement> options = element.findElements(By.tagName("option"));
+            List<String> optionValues = new ArrayList<String>();
+            List<String> optionLabels = new ArrayList<String>();
+            for (WebElement option : options) {
+              String value = option.getAttribute("value");
+              String label = option.getAttribute("innerHTML");
+              if (!CommonUtil.isEmpty(value) && !CommonUtil.isEmpty(label)) {
+                optionValues.add(value);
+                optionLabels.add(label);
+              }
+            }
+            String multiple = element.getAttribute("multiple");
             if (!CommonUtil.isEmpty(multiple) && !"false".equalsIgnoreCase(multiple)) {
               control.multiple = "multiple";
+            } else {
+              multiple = element.getAttribute("data-multiple");
+              if (!CommonUtil.isEmpty(multiple) && !"false".equalsIgnoreCase(multiple)) {
+                control.multiple = "multiple";
+              }
             }
+            if ("select-multiple".equalsIgnoreCase(control.type)) {
+              control.multiple = "multiple";
+            }
+            control.type = null;
+            control.optionValues = optionValues.toArray(new String[0]);
+            control.optionLabels = optionLabels.toArray(new String[0]);
+            controls.add(control);
+            controlsHtml.put(control, CommonUtil.strip(element.getAttribute("outerHTML"), false));
           }
-          if ("select-multiple".equalsIgnoreCase(control.type)) {
-            control.multiple = "multiple";
-          }
-          control.type = null;
-          control.optionValues = optionValues.toArray(new String[0]);
-          control.optionLabels = optionLabels.toArray(new String[0]);
-          controls.add(control);
-          controlsHtml.put(control, CommonUtil.strip(element.getAttribute("outerHTML"), false));
         }
+        loadLabels(browser, controls);
+        loadGuids(controls);
+        Collections.sort(controls, new ControlComparator(formHtml, controlsHtml));
+        return filterControls(controls);
       }
-      loadLabels(browser, controls);
-      loadGuids(controls);
-      Collections.sort(controls, new ControlComparator(formHtml, controlsHtml));
-      return filterControls(controls);
+      return new ArrayList<HtmlNode>();
     } catch (Browser.Retry r) {
       throw r;
     } catch (Browser.Fatal f) {

@@ -429,28 +429,41 @@ public class BrowserUtil {
   }
 
   public static boolean click(Browser browser, WebElement toClick, boolean shift) {
-    try {
-      Actions action = new Actions(browser);
-      action.moveToElement(toClick).perform();
-      if (shift) {
-        browser.getKeyboard().pressKey(Keys.SHIFT);
-      }
-      if (WebApp.DEBUG) {
-        Log.debug("clicking - " + CommonUtil.strip(toClick.getAttribute("outerHTML"), false),
-            WebApp.DEBUG);
-      }
-      toClick.click();
-      if (shift) {
-        browser.getKeyboard().releaseKey(Keys.SHIFT);
-      }
-    } catch (Browser.Retry r) {
-      throw r;
-    } catch (Browser.Fatal f) {
-      throw f;
-    } catch (Throwable t) {
-      return false;
+    List<WebElement> elementsToClick = new ArrayList<WebElement>();
+    if (toClick != null) {
+      elementsToClick.add(toClick);
     }
-    return true;
+    return click(browser, elementsToClick, shift);
+  }
+
+  public static boolean click(Browser browser, List<WebElement> elementsToClick, boolean shift) {
+    boolean success = true;
+    if (elementsToClick != null) {
+      for (WebElement toClick : elementsToClick) {
+        try {
+          Actions action = new Actions(browser);
+          action.moveToElement(toClick).perform();
+          if (shift) {
+            browser.getKeyboard().pressKey(Keys.SHIFT);
+          }
+          if (WebApp.DEBUG) {
+            Log.debug("clicking - " + CommonUtil.strip(toClick.getAttribute("outerHTML"), false),
+                WebApp.DEBUG);
+          }
+          toClick.click();
+          if (shift) {
+            browser.getKeyboard().releaseKey(Keys.SHIFT);
+          }
+        } catch (Browser.Retry r) {
+          throw r;
+        } catch (Browser.Fatal f) {
+          throw f;
+        } catch (Throwable t) {
+          success = false;
+        }
+      }
+    }
+    return success;
   }
 
   public static boolean doClicks(Browser browser, HtmlNode[] controls, Element body, Boolean toNewWindow) throws ActionFailed {
@@ -468,21 +481,23 @@ public class BrowserUtil {
         if (i > 0 && !CommonUtil.isEmpty(controls[i - 1].httpGet)) {
           body = BrowserUtil.openElement(browser, true, null, null, null, null);
         }
-        WebElement element = BrowserUtil.toElement(browser, controls[i], body);
-        if (WebApp.DEBUG) {
-          Log.debug("click - " + controls[i], WebApp.DEBUG);
-          String found = null;
-          try {
-            found = element == null ? null : CommonUtil.strip(element.getAttribute("outerHTML"), false);
-          } catch (Throwable t) {
-            Log.exception(t);
+        List<WebElement> elements = BrowserUtil.toElements(browser, controls[i], body);
+        for (WebElement element : elements) {
+          if (WebApp.DEBUG) {
+            Log.debug("click - " + controls[i], WebApp.DEBUG);
+            String found = null;
+            try {
+              found = element == null ? null : CommonUtil.strip(element.getAttribute("outerHTML"), false);
+            } catch (Throwable t) {
+              Log.exception(t);
+            }
+            Log.debug("click found - " + found, WebApp.DEBUG);
           }
-          Log.debug("click found - " + found, WebApp.DEBUG);
-        }
-        if (element != null) {
-          clicked = true;
-          click(browser, element, toNewWindow == null ? controls[i].newWindow : toNewWindow);
-          browser.getStatusCode();
+          if (element != null) {
+            clicked = true;
+            click(browser, element, toNewWindow == null ? controls[i].newWindow : toNewWindow);
+            browser.getStatusCode();
+          }
         }
       }
     } else {
@@ -530,11 +545,11 @@ public class BrowserUtil {
           find.type = node.attr("type");
           find.value = node.attr("value");
           find.fuzzy = true;
-          WebElement found = toElement(browser, find,
+          List<WebElement> found = toElements(browser, find,
               BrowserUtil.openElement(browser, false, null, null, null, null), false);
-          found = found == null ? toElement(browser, find, null, false) : found;
-          if (found != null) {
-            return found;
+          found = CommonUtil.isEmpty(found) ? toElements(browser, find, null, false) : found;
+          if (!CommonUtil.isEmpty(found)) {
+            return found.get(0);
           }
         } catch (Browser.Retry r) {
           throw r;
@@ -546,11 +561,11 @@ public class BrowserUtil {
       }
       if (htmlNode != null) {
         try {
-          WebElement found = toElement(browser, htmlNode,
+          List<WebElement> found = toElements(browser, htmlNode,
               BrowserUtil.openElement(browser, false, null, null, null, null), false);
-          found = found == null ? toElement(browser, htmlNode, null, false) : found;
-          if (found != null) {
-            return found;
+          found = CommonUtil.isEmpty(found) ? toElements(browser, htmlNode, null, false) : found;
+          if (!CommonUtil.isEmpty(found)) {
+            return found.get(0);
           }
         } catch (Browser.Retry r) {
           throw r;
@@ -565,12 +580,12 @@ public class BrowserUtil {
     return null;
   }
 
-  public static WebElement toElement(Browser browser, HtmlNode htmlNode,
+  public static List<WebElement> toElements(Browser browser, HtmlNode htmlNode,
       Element body) throws ActionFailed {
-    return toElement(browser, htmlNode, body, true);
+    return toElements(browser, htmlNode, body, true);
   }
 
-  private static WebElement toElement(Browser browser, HtmlNode htmlNode, Element body,
+  private static List<WebElement> toElements(Browser browser, HtmlNode htmlNode, Element body,
       boolean recurse) throws ActionFailed {
     if (body == null) {
       body = BrowserUtil.openElement(browser, true, null, null, null, null);
@@ -580,7 +595,9 @@ public class BrowserUtil {
       if (elements.size() == 1) {
         WebElement element = toElement(browser, elements.get(0), htmlNode, recurse);
         if (element != null) {
-          return element;
+          List<WebElement> elementList = new ArrayList<WebElement>();
+          elementList.add(element);
+          return elementList;
         }
       }
     }
@@ -680,14 +697,30 @@ public class BrowserUtil {
         }
       }
     }
-    int maxVote = 0;
-    Element maxElement = null;
-    for (Map.Entry<Element, Integer> entry : votes.entrySet()) {
-      if (entry.getValue() > maxVote) {
-        maxVote = entry.getValue();
-        maxElement = entry.getKey();
+    if (htmlNode.accumulate) {
+      List<WebElement> elementList = new ArrayList<WebElement>();
+      for (Map.Entry<Element, Integer> entry : votes.entrySet()) {
+        WebElement toAdd = toElement(browser, entry.getKey(), htmlNode, recurse);
+        if (toAdd != null) {
+          elementList.add(toAdd);
+        }
       }
+      return elementList;
+    } else {
+      int maxVote = 0;
+      Element maxElement = null;
+      for (Map.Entry<Element, Integer> entry : votes.entrySet()) {
+        if (entry.getValue() > maxVote) {
+          maxVote = entry.getValue();
+          maxElement = entry.getKey();
+        }
+      }
+      List<WebElement> elementList = new ArrayList<WebElement>();
+      WebElement toAdd = toElement(browser, maxElement, htmlNode, recurse);
+      if (toAdd != null) {
+        elementList.add(toAdd);
+      }
+      return elementList;
     }
-    return toElement(browser, maxElement, htmlNode, recurse);
   }
 }

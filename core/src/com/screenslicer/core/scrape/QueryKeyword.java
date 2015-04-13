@@ -202,7 +202,7 @@ public class QueryKeyword {
           if (submitClick == null) {
             element.sendKeys("\n");
           } else {
-            BrowserUtil.click(browser, BrowserUtil.toElement(browser, submitClick, null), false);
+            BrowserUtil.click(browser, BrowserUtil.toElements(browser, submitClick, null), false);
           }
           browser.getStatusCode();
           BrowserUtil.handleNewWindows(browser, windowHandle, cleanupWindows);
