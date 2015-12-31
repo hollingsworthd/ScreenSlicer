@@ -2,7 +2,7 @@
 
 Licensed under the GNU Affero General Public License version 3 with a linking exception for proprietary apps ([details](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE)).
 
-If you find this project useful, then consider hiring the author to make enhancements to it for you. Contact dan@machinepublishers.com
+Sales and support: ops@machinepublishers.com
 
 - - -
 
