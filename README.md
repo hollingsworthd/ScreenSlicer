@@ -1,8 +1,6 @@
-![ScreenSlicer](https://cloud.githubusercontent.com/assets/5241490/5335194/a4769852-7e72-11e4-951e-bba57afaa1d0.png)
+ScreenSlicer will be re-worked to be a library easily incporporated into other applications. No maintenance will be done to the codebase in its current form.
 
-Licensed under the GNU Affero General Public License version 3 with a linking exception for proprietary apps ([details](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE)).
-
-Sales and support: ops@machinepublishers.com
+Licensed under the Apache License v2.0 ([details](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE)).
 
 - - -
 
@@ -20,4 +18,4 @@ Proxying is supported and a proxy server can be specified on each request. SOCKS
 
 - - -
 
-Copyright (C) 2013-2015 [Machine Publishers, LLC](https://machinepublishers.com)
+Copyright (C) 2013-2015 ScreenSlicer committers
