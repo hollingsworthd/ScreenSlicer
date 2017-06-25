@@ -1,5 +1,7 @@
 ScreenSlicer will be re-worked to be a library easily incorporated into other applications. No maintenance will be done to the codebase in its current form.
 
+![dandelion in the wind](https://user-images.githubusercontent.com/5241490/27517334-c70bf2a0-5998-11e7-83da-66c3706212f8.jpg)
+
 Licensed under the Apache License v2.0 ([details](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE)).
 
 - - -
