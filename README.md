@@ -1,4 +1,4 @@
-ScreenSlicer will be re-worked to be a library easily incporporated into other applications. No maintenance will be done to the codebase in its current form.
+ScreenSlicer will be re-worked to be a library easily incorporated into other applications. No maintenance will be done to the codebase in its current form.
 
 Licensed under the Apache License v2.0 ([details](https://raw.githubusercontent.com/MachinePublishers/ScreenSlicer/master/LICENSE)).
 
